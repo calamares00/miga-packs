@@ -1,0 +1,640 @@
+id: cocina-peruana
+version: 1
+updated: 2026-10-31
+language: es
+name: "Cocina del mundo: Perú"
+description: >-
+  La cocina peruana de la costa, la sierra y la herencia chifa: ceviche, tiradito, lomo saltado,
+  ají de gallina, causa limeña, papa a la huancaína, ocopa, arroz chaufa, anticuchos, pollo a la
+  brasa, rocoto relleno, seco de res, arroz con pollo, chupe de camarones, papa rellena,
+  tallarines verdes, suspiro limeño, picarones, mazamorra morada y chicha morada. Con
+  equivalencias para los ajíes peruanos.
+author: Miga
+authorGithub: calamares00
+cover:
+  emoji: "🌶️"
+  kicker: Cocina del mundo
+  title: Perú
+  colors: ["#b91c1c", "#f43f5e"]
+defaults:
+  origin: Perú
+  originCountry: PE
+  source: "Pack «Cocina del mundo: Perú» de Miga"
+recipes:
+
+  - name: Ceviche de pescado
+    category: Pescados y mariscos
+    difficulty: EASY
+    prep: 25
+    cook: 0
+    servings: 4
+    origin: Lima
+    notes: El pescado para comer crudo debe haberse congelado antes al menos 5 días a -20 °C, o comprarse ya congelado para este uso; el limón no elimina los parásitos. El jugo que queda es la leche de tigre.
+    tags: [pescado, frío, sin gluten]
+    ingredients:
+      - items:
+          - ["pescado blanco firme (corvina, lenguado o merluza)", 600, g]
+          - [limas o limones, 15, null]
+          - [ají limo o chile rojo, 1, null]
+          - [cebolla morada, 1, null]
+          - [cilantro fresco picado, 3, cucharada]
+          - [ajo, 1, diente]
+          - [sal, 1, cucharadita]
+          - [camote (boniato) cocido, 1, null]
+          - [choclo cocido, 1, null]
+    steps:
+      - Corta la cebolla en pluma muy fina y déjala en agua con hielo 10 minutos. Escúrrela.
+      - Corta el pescado en dados de 2 cm, ponlo en un bol frío y sálalo. Añade el ajo rallado y el ají picado sin semillas.
+      - Exprime las limas justo en ese momento, sin apretar demasiado para que no amargue, y vierte el zumo sobre el pescado.
+      - Mezcla, añade la cebolla y el cilantro y deja que repose 2-3 minutos, hasta que el pescado se ponga blanco por fuera.
+      - Sirve enseguida con rodajas de camote y choclo.
+
+  - name: Tiradito
+    category: Pescados y mariscos
+    difficulty: EASY
+    prep: 20
+    cook: 0
+    servings: 4
+    notes: Es el ceviche de influencia japonesa (nikkei), con el pescado en láminas y sin cebolla. La pasta de ají amarillo se vende en tiendas latinas. El pescado debe haberse congelado antes.
+    tags: [pescado, frío, sin gluten]
+    utensils: [Batidora]
+    ingredients:
+      - items:
+          - [pescado blanco firme, 500, g]
+          - [zumo de lima, 150, ml]
+          - [pasta de ají amarillo, 2, cucharada]
+          - [ajo, 1, diente]
+          - [jengibre fresco, 1, cm]
+          - [sal, 1, cucharadita]
+          - [cilantro fresco, 4, ramita]
+    steps:
+      - Corta el pescado en láminas finas, como para carpaccio, y colócalas en platos fríos.
+      - Tritura el zumo de lima con la pasta de ají, el ajo, el jengibre y la sal.
+      - Vierte la salsa sobre el pescado justo antes de servir y decora con hojas de cilantro.
+
+  - name: Lomo saltado
+    category: Carnes
+    difficulty: MEDIUM
+    prep: 20
+    cook: 15
+    servings: 4
+    notes: El plato de fusión peruano-china más famoso. Todo se saltea a fuego muy fuerte y muy rápido.
+    tags: [chifa, salteado]
+    utensils: [Wok]
+    ingredients:
+      - items:
+          - [solomillo o lomo de res, 500, g]
+          - [cebolla morada, 1, null]
+          - [tomates, 2, null]
+          - [ají amarillo o pimiento amarillo, 1, null]
+          - [ajo, 2, diente]
+          - [sillao (salsa de soja), 3, cucharada]
+          - [vinagre de vino tinto, 2, cucharada]
+          - [comino molido, 0.5, cucharadita]
+          - [cilantro fresco picado, 2, cucharada]
+          - [aceite de girasol, 3, cucharada]
+          - [sal, null, null]
+          - [pimienta negra, null, null]
+          - [patatas fritas, 400, g]
+          - [arroz blanco cocido, 600, g]
+    steps:
+      - Corta la carne en tiras gruesas y sazónala con sal, pimienta y comino. Corta la cebolla y los tomates en gajos y el ají en tiras.
+      - Calienta mucho el wok con el aceite y dora la carne en dos tandas, 1 minuto cada una. Retírala.
+      - Saltea el ajo y la cebolla 1 minuto, añade el ají y el tomate y saltea 1 minuto más.
+      - Devuelve la carne, añade el sillao y el vinagre por el borde del wok y saltea 30 segundos.
+      - Añade el cilantro y las patatas fritas, mezcla y sirve con arroz blanco.
+
+  - name: Ají de gallina
+    category: Carnes
+    difficulty: MEDIUM
+    prep: 25
+    cook: 40
+    servings: 6
+    origin: Lima
+    notes: La salsa cremosa se espesa con pan remojado en leche evaporada. Se sirve con papas, arroz, huevo duro y aceitunas negras.
+    tags: [guiso, pollo]
+    utensils: [Batidora]
+    ingredients:
+      - items:
+          - [pechugas de pollo, 600, g]
+          - [pan de molde, 4, rebanada]
+          - [leche evaporada, 410, ml]
+          - [pasta de ají amarillo, 4, cucharada]
+          - [cebolla, 1, null]
+          - [ajo, 3, diente]
+          - [nueces o pecanas, 50, g]
+          - [queso parmesano rallado, 50, g]
+          - [aceite de girasol, 3, cucharada]
+          - [sal, null, null]
+          - [papas amarillas cocidas, 4, null]
+          - [huevos duros, 3, null]
+          - [aceitunas negras, 6, null]
+    steps:
+      - Cuece el pollo en agua con sal 20 minutos. Desmenúzalo y reserva el caldo.
+      - Remoja el pan en la leche evaporada y tritúralo con las nueces.
+      - Sofríe la cebolla y el ajo picados en el aceite 8 minutos. Añade la pasta de ají y cocina 3 minutos.
+      - Añade el pan triturado y 250 ml del caldo y cuece 5 minutos, removiendo. Incorpora el pollo y el queso y cuece hasta que espese.
+      - Sirve sobre papas en rodajas, con arroz blanco, huevo duro y aceitunas.
+
+  - name: Causa limeña
+    category: Entrantes
+    difficulty: MEDIUM
+    prep: 40
+    cook: 25
+    servings: 6
+    origin: Lima
+    notes: Se sirve fría. La papa amarilla peruana le da su color y textura; si no la encuentras, usa patata harinosa.
+    tags: [frío, papa]
+    ingredients:
+      - group: Masa
+        items:
+          - [papas amarillas o harinosas, 1, kg]
+          - [pasta de ají amarillo, 3, cucharada]
+          - [zumo de lima, 3, cucharada]
+          - [aceite de girasol, 4, cucharada]
+          - [sal, 1, cucharadita]
+      - group: Relleno
+        items:
+          - [pollo cocido desmenuzado o atún, 300, g]
+          - [mayonesa, 5, cucharada]
+          - [cebolla morada picada, 2, cucharada]
+          - [aguacates, 2, null]
+          - [huevos duros, 2, null]
+          - [aceitunas negras, 6, null]
+    steps:
+      - Cuece las papas con piel, pélalas y pásalas por el pasapuré aún calientes.
+      - Amasa el puré con la pasta de ají, el limón, el aceite y la sal hasta que esté liso. Deja que se enfríe.
+      - Mezcla el pollo con la mayonesa y la cebolla.
+      - En un molde, pon una capa de masa, una de aguacate en láminas, el relleno y otra capa de masa.
+      - Refrigera 1 hora, desmolda y decora con huevo duro, aceitunas y un poco de mayonesa.
+
+  - name: Papa a la huancaína
+    category: Entrantes
+    difficulty: EASY
+    prep: 15
+    cook: 25
+    servings: 4
+    origin: Huancayo
+    notes: La salsa huancaína también acompaña la yuca frita y los tallarines. Si queda espesa, añade más leche.
+    tags: [papa, salsa, vegetariana]
+    utensils: [Batidora]
+    ingredients:
+      - group: Papas
+        items:
+          - [papas amarillas o harinosas, 6, null]
+          - [huevos duros, 2, null]
+          - [aceitunas negras, 6, null]
+          - [hojas de lechuga, 4, null]
+      - group: Salsa huancaína
+        items:
+          - [pasta de ají amarillo, 4, cucharada]
+          - [queso fresco, 200, g]
+          - [leche evaporada, 150, ml]
+          - [galletas saladas, 4, null]
+          - [ajo, 1, diente]
+          - [aceite de girasol, 3, cucharada]
+          - [sal, null, null]
+    steps:
+      - Cuece las papas con piel, pélalas y córtalas en rodajas gruesas.
+      - Tritura los ingredientes de la salsa hasta que esté lisa y espesa. Ajusta de sal.
+      - Coloca las papas sobre las hojas de lechuga, cúbrelas con la salsa y decora con huevo duro y aceitunas.
+
+  - name: Ocopa arequipeña
+    category: Entrantes
+    difficulty: EASY
+    prep: 20
+    cook: 25
+    servings: 4
+    origin: Arequipa
+    notes: El huacatay (menta negra peruana) es imprescindible; se vende en pasta en tiendas latinas.
+    tags: [papa, salsa, vegetariana]
+    utensils: [Batidora]
+    ingredients:
+      - group: Salsa
+        items:
+          - [ají mirasol seco, 3, null]
+          - [cebolla, 1, null]
+          - [ajo, 2, diente]
+          - [cacahuetes tostados, 50, g]
+          - [hojas de huacatay o pasta de huacatay, 2, cucharada]
+          - [queso fresco, 150, g]
+          - [galletas saladas, 4, null]
+          - [leche evaporada, 150, ml]
+          - [aceite de girasol, 4, cucharada]
+          - [sal, null, null]
+      - group: Para servir
+        items:
+          - [papas, 6, null]
+          - [huevos duros, 2, null]
+          - [aceitunas negras, 6, null]
+    steps:
+      - Quita las semillas a los ajíes, remójalos en agua caliente 15 minutos y escúrrelos.
+      - Sofríe la cebolla en trozos, el ajo y los ajíes en el aceite hasta que la cebolla esté dorada.
+      - Tritura el sofrito con los cacahuetes, el huacatay, el queso, las galletas y la leche hasta tener una salsa espesa. Ajusta de sal.
+      - Sirve sobre las papas cocidas en rodajas, con huevo duro y aceitunas.
+
+  - name: Arroz chaufa
+    category: Arroces
+    difficulty: EASY
+    prep: 15
+    cook: 10
+    servings: 4
+    notes: El arroz frito de los chifas, la cocina peruano-china. Se hace con arroz cocido del día anterior.
+    tags: [chifa, arroz]
+    utensils: [Wok]
+    ingredients:
+      - items:
+          - [arroz cocido del día anterior, 600, g]
+          - [pechuga de pollo, 300, g]
+          - [huevos, 3, null]
+          - [cebolletas (cebolla china), 4, null]
+          - [jengibre (kion) rallado, 1, cucharadita]
+          - [ajo, 2, diente]
+          - [sillao (salsa de soja), 4, cucharada]
+          - [aceite de sésamo, 1, cucharadita]
+          - [aceite de girasol, 3, cucharada]
+          - [sal, null, null]
+    steps:
+      - Corta el pollo en dados pequeños y saltéalo en el wok con 1 cucharada de aceite 4 minutos. Retíralo.
+      - Haz una tortilla fina con los huevos batidos, córtala en tiras y resérvala.
+      - Saltea el ajo, el jengibre y la parte blanca de la cebolleta en el resto del aceite 30 segundos.
+      - Añade el arroz y saltea a fuego fuerte 3 minutos. Incorpora el pollo, el huevo, el sillao y el aceite de sésamo.
+      - Saltea 1 minuto más y termina con la parte verde de la cebolleta picada.
+
+  - name: Anticuchos de corazón
+    category: Carnes
+    difficulty: MEDIUM
+    prep: 30
+    cook: 10
+    servings: 6
+    notes: Brochetas de corazón de res marinadas en ají panca, el clásico de las calles de Lima. Marina al menos 4 horas.
+    tags: [brochetas, barbacoa]
+    utensils: [Barbacoa]
+    ingredients:
+      - items:
+          - [corazón de res limpio, 1, kg]
+          - [pasta de ají panca, 4, cucharada]
+          - [vinagre de vino tinto, 100, ml]
+          - [ajo, 6, diente]
+          - [comino molido, 1, cucharadita]
+          - [orégano seco, 1, cucharadita]
+          - [aceite de girasol, 3, cucharada]
+          - [sal, 1, cucharadita]
+          - [papas cocidas, 6, null]
+          - [choclo cocido, 2, null]
+    steps:
+      - Quita al corazón la grasa y los nervios y córtalo en trozos de 4 × 3 cm.
+      - Mezcla la pasta de ají, el vinagre, el ajo machacado, el comino, el orégano y la sal y marina la carne al menos 4 horas.
+      - Ensarta 3 trozos en cada brocheta.
+      - Ásalos sobre brasas fuertes 2-3 minutos por cada lado, pintándolos con la marinada mezclada con el aceite. Deben quedar jugosos.
+      - Sírvelos con papas doradas en la parrilla y choclo.
+
+  - name: Pollo a la brasa
+    category: Carnes
+    difficulty: EASY
+    prep: 15
+    cook: 75
+    servings: 4
+    notes: En Perú se asa en hornos giratorios de leña; esta versión de horno doméstico es muy parecida. Marina al menos 4 horas.
+    tags: [pollo, asado]
+    utensils: [Horno]
+    ingredients:
+      - items:
+          - [pollo entero, 1.8, kg]
+          - [sillao (salsa de soja), 3, cucharada]
+          - [cerveza negra, 100, ml]
+          - [zumo de lima, 2, cucharada]
+          - [pasta de ají panca, 1, cucharada]
+          - [ajo, 5, diente]
+          - [comino molido, 1, cucharadita]
+          - [pimienta negra, 1, cucharadita]
+          - [romero seco, 1, cucharadita]
+          - [aceite de girasol, 2, cucharada]
+          - [sal, 1, cucharadita]
+    steps:
+      - Tritura todos los ingredientes menos el pollo hasta tener una marinada.
+      - Despega la piel de la pechuga con los dedos y unta el pollo por dentro, por fuera y bajo la piel. Marina en la nevera al menos 4 horas.
+      - Precalienta el horno a 200 °C. Coloca el pollo sobre una rejilla con una bandeja con agua debajo.
+      - Ásalo 70-75 minutos, dándole la vuelta a mitad de tiempo, hasta que la piel esté oscura y crujiente y el jugo salga transparente.
+      - Sírvelo con papas fritas, ensalada y salsa de ají.
+
+  - name: Rocoto relleno
+    category: Verduras
+    difficulty: HARD
+    prep: 60
+    cook: 30
+    servings: 6
+    origin: Arequipa
+    notes: El rocoto es muy picante; se le quitan las venas y semillas y se hierve tres veces con vinagre y azúcar para suavizarlo. Se puede sustituir por pimientos rojos pequeños.
+    tags: [relleno, al horno]
+    utensils: [Horno]
+    ingredients:
+      - group: Rocotos
+        items:
+          - [rocotos, 6, null]
+          - [vinagre, 6, cucharada]
+          - [azúcar, 6, cucharada]
+      - group: Relleno
+        items:
+          - [carne picada de res, 400, g]
+          - [cebolla, 1, null]
+          - [ajo, 2, diente]
+          - [pasta de ají panca, 2, cucharada]
+          - [cacahuetes tostados picados, 3, cucharada]
+          - [pasas, 2, cucharada]
+          - [huevos duros, 2, null]
+          - [aceitunas negras, 6, null]
+          - [comino molido, 0.5, cucharadita]
+          - [aceite de girasol, 2, cucharada]
+          - [sal, null, null]
+      - group: Cobertura
+        items:
+          - [queso fresco en lonchas, 200, g]
+          - [leche evaporada, 150, ml]
+          - [huevo, 1, null]
+    steps:
+      - Corta la tapa de los rocotos y quítales las semillas y las venas con guantes.
+      - Hiérvelos 5 minutos en agua con 2 cucharadas de vinagre y 2 de azúcar. Cambia el agua y repite dos veces más. Escúrrelos.
+      - Sofríe la cebolla y el ajo picados en el aceite. Añade la carne, el ají panca, el comino y la sal y cocina 10 minutos. Añade los cacahuetes y las pasas.
+      - Precalienta el horno a 180 °C. Rellena los rocotos, pon dentro un trozo de huevo y una aceituna y cubre con una loncha de queso.
+      - Colócalos en una fuente, vierte la leche batida con el huevo y hornea 25-30 minutos. Sírvelos con pastel de papa o papas doradas.
+
+  - name: Seco de res
+    category: Carnes
+    difficulty: MEDIUM
+    prep: 25
+    cook: 120
+    servings: 6
+    origin: Costa norte
+    notes: El cilantro triturado le da su color verde. Tradicionalmente lleva chicha de jora; la cerveza rubia es la alternativa más común. Se sirve con frijoles y arroz.
+    tags: [guiso, ternera]
+    utensils: [Batidora]
+    ingredients:
+      - items:
+          - [carne de res para guisar, 1, kg]
+          - [cilantro fresco, 2, manojo]
+          - [espinacas, 1, puñado]
+          - [pasta de ají amarillo, 2, cucharada]
+          - [cebollas, 2, null]
+          - [ajo, 4, diente]
+          - [chicha de jora o cerveza rubia, 330, ml]
+          - [caldo de carne, 500, ml]
+          - [zanahorias, 2, null]
+          - [arvejas (guisantes), 150, g]
+          - [comino molido, 1, cucharadita]
+          - [aceite de girasol, 4, cucharada]
+          - [sal, null, null]
+    steps:
+      - Tritura el cilantro y las espinacas con un poco de caldo hasta tener un puré verde.
+      - Dora la carne en trozos en el aceite y retírala.
+      - Sofríe las cebollas y el ajo picados 10 minutos. Añade la pasta de ají y el comino y cocina 2 minutos. Añade el puré de cilantro y cocina 3 minutos.
+      - Devuelve la carne, añade la chicha y el caldo, tapa y cuece a fuego suave 1 hora y media.
+      - Añade las zanahorias en rodajas y las arvejas y cuece 15 minutos más. Ajusta de sal.
+
+  - name: Arroz con pollo peruano
+    category: Arroces
+    difficulty: MEDIUM
+    prep: 20
+    cook: 50
+    servings: 6
+    notes: El arroz verde de culantro, con cerveza negra. Se sirve con salsa criolla de cebolla y limón.
+    tags: [arroz, pollo]
+    utensils: [Batidora]
+    ingredients:
+      - items:
+          - [pollo troceado, 1, kg]
+          - [arroz de grano largo, 400, g]
+          - [cilantro fresco, 2, manojo]
+          - [pasta de ají amarillo, 2, cucharada]
+          - [cebolla, 1, null]
+          - [ajo, 3, diente]
+          - [cerveza negra, 200, ml]
+          - [caldo de pollo, 700, ml]
+          - [pimiento rojo, 1, null]
+          - [zanahoria, 1, null]
+          - [arvejas (guisantes), 150, g]
+          - [choclo desgranado, 150, g]
+          - [comino molido, 0.5, cucharadita]
+          - [aceite de girasol, 4, cucharada]
+          - [sal, null, null]
+    steps:
+      - Tritura el cilantro con un poco de caldo.
+      - Sala el pollo y dóralo en el aceite. Retíralo.
+      - Sofríe la cebolla y el ajo picados 8 minutos. Añade la pasta de ají, el comino y el puré de cilantro y cocina 3 minutos.
+      - Devuelve el pollo, añade la cerveza y cuece 15 minutos.
+      - Añade el arroz, el caldo, el pimiento y la zanahoria en dados, las arvejas y el choclo. Ajusta de sal, tapa y cuece a fuego suave 20 minutos.
+
+  - name: Chupe de camarones
+    category: Sopas y cremas
+    difficulty: HARD
+    prep: 30
+    cook: 45
+    servings: 6
+    origin: Arequipa
+    notes: La sopa más famosa de Arequipa, tradicional en Cuaresma. Los camarones de río se sustituyen por langostinos.
+    tags: [sopa, marisco]
+    ingredients:
+      - items:
+          - [langostinos o camarones, 500, g]
+          - [cebolla, 1, null]
+          - [ajo, 3, diente]
+          - [pasta de ají panca, 2, cucharada]
+          - [tomate, 1, null]
+          - [orégano seco, 1, cucharadita]
+          - [papas amarillas o harinosas, 500, g]
+          - [choclo, 1, null]
+          - [arroz, 60, g]
+          - [habas, 100, g]
+          - [caldo de pescado, 1.5, l]
+          - [leche evaporada, 200, ml]
+          - [queso fresco en dados, 150, g]
+          - [huevos, 3, null]
+          - [huacatay, 1, ramita, optional]
+          - [aceite de girasol, 3, cucharada]
+          - [sal, null, null]
+    steps:
+      - Pela los langostinos y haz un caldo con las cabezas y cáscaras y el caldo de pescado 15 minutos. Cuela.
+      - Sofríe la cebolla y el ajo picados en el aceite. Añade la pasta de ají, el tomate rallado y el orégano y cocina 5 minutos.
+      - Añade el caldo, las papas en trozos, el choclo en rodajas y el arroz y cuece 15 minutos. Añade las habas y cuece 5 minutos.
+      - Añade los langostinos y la leche evaporada y cuece 3 minutos.
+      - Casca los huevos en la sopa, añade el queso y el huacatay y cuece 2 minutos sin que hierva fuerte. Ajusta de sal.
+
+  - name: Papa rellena
+    category: Entrantes
+    difficulty: MEDIUM
+    prep: 45
+    cook: 40
+    servings: 6
+    notes: Croquetas grandes de puré de papa rellenas de carne. Se sirven con salsa criolla.
+    tags: [frito, papa]
+    ingredients:
+      - group: Masa
+        items:
+          - [papas harinosas, 1, kg]
+          - [huevo, 1, null]
+          - [sal, 1, cucharadita]
+      - group: Relleno
+        items:
+          - [carne picada de res, 300, g]
+          - [cebolla, 1, null]
+          - [ajo, 2, diente]
+          - [pasta de ají panca, 1, cucharada]
+          - [comino molido, 0.5, cucharadita]
+          - [pasas, 2, cucharada]
+          - [aceitunas negras picadas, 6, null]
+          - [huevos duros, 2, null]
+          - [aceite de girasol, 2, cucharada]
+          - [sal, null, null]
+      - group: Rebozado
+        items:
+          - [harina, 100, g]
+          - [huevo, 1, null]
+          - [aceite de girasol para freír, null, null]
+    steps:
+      - Cuece las papas con piel, pélalas y hazlas puré. Mézclalo con el huevo y la sal y deja que se enfríe.
+      - Sofríe la cebolla y el ajo picados en el aceite. Añade la carne, el ají, el comino y la sal y cocina 10 minutos. Añade las pasas, las aceitunas y el huevo duro picado. Deja que se enfríe.
+      - Con las manos enharinadas, aplana una porción de puré, pon relleno en el centro y ciérrala dándole forma de papa alargada.
+      - Pásalas por harina y huevo batido y fríelas en aceite caliente hasta que estén doradas.
+
+  - name: Tallarines verdes
+    category: Pastas
+    difficulty: EASY
+    prep: 15
+    cook: 15
+    servings: 4
+    notes: El pesto a la peruana, con espinacas, queso fresco y leche evaporada. Se sirve con un bistec apanado o a la plancha.
+    tags: [pasta, vegetariana]
+    utensils: [Batidora]
+    ingredients:
+      - items:
+          - [tallarines o espaguetis, 400, g]
+          - [espinacas frescas, 200, g]
+          - [albahaca fresca, 1, manojo]
+          - [queso fresco, 150, g]
+          - [leche evaporada, 150, ml]
+          - [nueces, 30, g, optional]
+          - [cebolla, 0.5, null]
+          - [ajo, 2, diente]
+          - [aceite de girasol, 3, cucharada]
+          - [sal, null, null]
+    steps:
+      - Escalda las espinacas y la albahaca 30 segundos y pásalas a agua con hielo. Escúrrelas.
+      - Sofríe la cebolla y el ajo picados en el aceite 5 minutos.
+      - Tritura las hojas con el sofrito, el queso, la leche y las nueces hasta tener una salsa lisa. Ajusta de sal.
+      - Cuece la pasta, escúrrela y mézclala con la salsa en la cazuela a fuego suave 1 minuto.
+
+  - name: Suspiro limeño
+    category: Postres
+    difficulty: MEDIUM
+    prep: 20
+    cook: 40
+    servings: 6
+    origin: Lima
+    notes: Su nombre se atribuye al poeta José Gálvez, que dijo que era «suave y dulce como el suspiro de una mujer». Lleva merengue de oporto.
+    tags: [postre, dulce]
+    ingredients:
+      - group: Manjar
+        items:
+          - [leche evaporada, 400, ml]
+          - [leche condensada, 400, g]
+          - [yemas de huevo, 4, null]
+          - [extracto de vainilla, 1, cucharadita]
+      - group: Merengue
+        items:
+          - [claras de huevo, 3, null]
+          - [azúcar, 150, g]
+          - [vino de oporto, 60, ml]
+          - [canela molida, null, null]
+    steps:
+      - Cuece las dos leches a fuego medio, removiendo sin parar, 30-35 minutos, hasta que espesen y se vea el fondo de la olla al remover (manjar blanco).
+      - Fuera del fuego, añade las yemas batidas y la vainilla, removiendo deprisa. Reparte en copas y deja que se enfríe.
+      - Hierve el oporto con el azúcar hasta tener un almíbar a punto de hebra, unos 5 minutos.
+      - Monta las claras a punto de nieve y añade el almíbar caliente en hilo sin dejar de batir, hasta que el merengue esté brillante y frío.
+      - Cubre el manjar con el merengue y espolvorea canela.
+
+  - name: Picarones
+    category: Postres
+    difficulty: HARD
+    prep: 90
+    cook: 30
+    servings: 6
+    notes: Buñuelos de camote y zapallo con miel de chancaca. La masa necesita levar 1 hora y media; formarlos con la mano mojada requiere práctica.
+    tags: [frito, postre]
+    ingredients:
+      - group: Masa
+        items:
+          - [camote (boniato), 250, g]
+          - [zapallo (calabaza), 250, g]
+          - [anís en grano, 1, cucharadita]
+          - [harina, 500, g]
+          - [levadura seca de panadería, 10, g]
+          - [azúcar, 1, cucharada]
+          - [sal, 1, pizca]
+          - [aceite de girasol para freír, null, null]
+      - group: Miel de chancaca
+        items:
+          - [chancaca o panela, 250, g]
+          - [agua, 300, ml]
+          - [canela en rama, 1, null]
+          - [clavos, 3, null]
+          - [piel de naranja, 1, trozo]
+    steps:
+      - Cuece el camote y el zapallo en trozos con el anís en agua hasta que estén tiernos. Escurre, reserva 200 ml del agua templada y haz un puré.
+      - Disuelve la levadura y el azúcar en el agua reservada. Mézclalo con el puré, la harina y la sal y bate con la mano hasta que la masa esté elástica. Deja que leve tapada 1 hora y media.
+      - Cuece los ingredientes de la miel 15 minutos, hasta que espese. Cuela.
+      - Con la mano mojada en agua con sal, toma porciones de masa, hazles un agujero con el pulgar y échalas al aceite caliente formando aros.
+      - Fríelos, girándolos con un palito, hasta que estén dorados. Sírvelos calientes bañados en la miel.
+
+  - name: Mazamorra morada
+    category: Postres
+    difficulty: EASY
+    prep: 15
+    cook: 70
+    servings: 8
+    origin: Lima
+    notes: Postre espeso de maíz morado con frutas. Se sirve templado o frío, a veces junto al arroz con leche (el «clásico»).
+    tags: [postre, sin gluten]
+    ingredients:
+      - items:
+          - [maíz morado seco, 500, g]
+          - [agua, 3, l]
+          - [cáscaras de piña, 1, null]
+          - [canela en rama, 1, null]
+          - [clavos, 4, null]
+          - [orejones de melocotón, 80, g]
+          - [ciruelas pasas, 80, g]
+          - [piña en dados, 150, g]
+          - [azúcar, 250, g]
+          - [fécula de patata o de batata, 100, g]
+          - [zumo de lima, 2, cucharada]
+          - [canela molida, null, null]
+    steps:
+      - Cuece el maíz morado desgranado con las cáscaras de piña, la canela y los clavos en el agua 45 minutos. Cuela y reserva el líquido.
+      - Añade al líquido los orejones, las ciruelas, la piña y el azúcar y cuece 10 minutos.
+      - Disuelve la fécula en un poco de agua fría y añádela poco a poco, removiendo, hasta que espese. Cuece 5 minutos.
+      - Fuera del fuego, añade el zumo de lima. Sirve en cuencos espolvoreada de canela.
+
+  - name: Chicha morada
+    category: Bebidas
+    difficulty: EASY
+    prep: 10
+    cook: 50
+    servings: 8
+    notes: Bebida sin alcohol de maíz morado, la más popular de Perú. Se sirve muy fría con trocitos de fruta.
+    tags: [bebida, fría, vegana]
+    ingredients:
+      - items:
+          - [maíz morado seco, 500, g]
+          - [agua, 3, l]
+          - [cáscaras de piña, 1, null]
+          - [manzana o membrillo, 1, null]
+          - [canela en rama, 1, null]
+          - [clavos, 5, null]
+          - [azúcar, 200, g]
+          - [zumo de lima, 4, cucharada]
+          - [manzana en daditos, 1, null, optional]
+    steps:
+      - Desgrana el maíz y ponlo con las mazorcas, las cáscaras de piña, la manzana en trozos, la canela y los clavos en el agua.
+      - Cuece 45 minutos a fuego suave, hasta que el líquido esté morado oscuro. Cuela y deja que se enfríe.
+      - Añade el azúcar y el zumo de lima y remueve hasta que se disuelva.
+      - Sirve muy fría, con daditos de manzana.

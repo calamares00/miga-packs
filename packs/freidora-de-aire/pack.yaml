@@ -1,0 +1,466 @@
+id: freidora-de-aire
+version: 1
+updated: 2026-10-31
+language: es
+name: Freidora de aire
+description: >-
+  Recetas pensadas para la freidora de aire: patatas, alitas, nuggets caseros, pescado rebozado,
+  verduras crujientes, albóndigas, hamburguesas, costillas y hasta postres. Con muy poco aceite y
+  los tiempos y temperaturas de cada plato. Los tiempos son orientativos: cada modelo calienta de
+  forma distinta.
+author: Miga
+authorGithub: calamares00
+cover:
+  emoji: "🍟"
+  title: Freidora de aire
+  colors: ["#0f766e", "#65a30d"]
+defaults:
+  source: Pack «Freidora de aire» de Miga
+recipes:
+
+  - name: Patatas fritas en freidora de aire
+    category: Verduras
+    difficulty: EASY
+    prep: 10
+    cook: 20
+    servings: 2
+    notes: Remojar las patatas en agua fría les quita almidón y salen más crujientes.
+    tags: [guarnición, vegana, sin gluten]
+    utensils: [Freidora de aire]
+    ingredients:
+      - items:
+          - [patatas grandes, 2, null]
+          - [aceite de oliva, 1, cucharada]
+          - [sal, null, null]
+          - [pimentón dulce, 0.5, cucharadita, optional]
+    steps:
+      - Pela las patatas y córtalas en bastones de 1 cm de grosor.
+      - Déjalas en agua fría 10 minutos, escúrrelas y sécalas muy bien con un paño.
+      - Mézclalas con el aceite y colócalas en la cesta sin amontonarlas.
+      - Cocina a 200 °C durante 18-20 minutos, agitando la cesta a mitad de tiempo.
+      - Sala nada más sacarlas y espolvorea el pimentón si quieres.
+
+  - name: Alitas de pollo crujientes
+    category: Carnes
+    difficulty: EASY
+    prep: 5
+    cook: 25
+    servings: 2
+    tags: [aperitivo, sin gluten]
+    utensils: [Freidora de aire]
+    ingredients:
+      - items:
+          - [alitas de pollo, 1, kg]
+          - [ajo en polvo, 1, cucharadita]
+          - [pimentón de la Vera, 1, cucharadita]
+          - [aceite de oliva, 1, cucharada]
+          - [sal, 1, cucharadita]
+          - [pimienta negra, 0.5, cucharadita]
+    steps:
+      - Seca bien las alitas con papel de cocina.
+      - Mézclalas con el aceite, el ajo en polvo, el pimentón, la sal y la pimienta.
+      - Colócalas en la cesta en una sola capa y cocina a 180 °C durante 15 minutos.
+      - Dales la vuelta, sube a 200 °C y cocina 8-10 minutos más, hasta que la piel esté dorada y crujiente.
+
+  - name: Contramuslos de pollo al limón y romero
+    category: Carnes
+    difficulty: EASY
+    prep: 5
+    cook: 25
+    servings: 4
+    tags: [sin gluten]
+    utensils: [Freidora de aire]
+    ingredients:
+      - items:
+          - [contramuslos de pollo con piel, 4, null]
+          - [limón, 1, null]
+          - [ajo, 2, diente]
+          - [romero fresco, 2, rama]
+          - [aceite de oliva, 1, cucharada]
+          - [sal, null, null]
+          - [pimienta negra, null, null]
+    steps:
+      - Mezcla el aceite con el ajo picado, la ralladura y el zumo del limón, las hojas de romero, sal y pimienta.
+      - Embadurna los contramuslos y, si tienes tiempo, déjalos marinar 30 minutos.
+      - Colócalos con la piel hacia abajo y cocina a 190 °C durante 12 minutos.
+      - Dales la vuelta y cocina 10-12 minutos más, hasta que la piel esté dorada y el jugo salga transparente.
+
+  - name: Nuggets de pollo caseros
+    category: Carnes
+    difficulty: EASY
+    prep: 15
+    cook: 12
+    servings: 4
+    tags: [niños]
+    utensils: [Freidora de aire]
+    ingredients:
+      - items:
+          - [pechugas de pollo, 2, null]
+          - [huevo, 1, null]
+          - [pan rallado panko, 100, g]
+          - [queso parmesano rallado, 30, g]
+          - [pimentón dulce, 1, cucharadita]
+          - [aceite de oliva en espray, null, null]
+          - [sal, null, null]
+    steps:
+      - Corta el pollo en trozos del tamaño de un bocado y sálalo.
+      - Mezcla el panko con el parmesano y el pimentón.
+      - Pasa cada trozo por el huevo batido y después por el pan rallado, apretando para que se adhiera.
+      - Colócalos en la cesta sin que se toquen y rocíalos con un poco de aceite.
+      - Cocina a 200 °C durante 10-12 minutos, dándoles la vuelta a mitad de tiempo.
+
+  - name: Salmón con costra de hierbas
+    category: Pescados y mariscos
+    difficulty: EASY
+    prep: 5
+    cook: 10
+    servings: 2
+    tags: [ligera]
+    utensils: [Freidora de aire]
+    ingredients:
+      - items:
+          - [lomos de salmón, 2, null]
+          - [pan rallado, 2, cucharada]
+          - [perejil picado, 1, cucharada]
+          - [eneldo picado, 1, cucharadita]
+          - [mostaza de Dijon, 1, cucharadita]
+          - [aceite de oliva, 1, cucharada]
+          - [sal, null, null]
+    steps:
+      - Sala el salmón y unta la parte de arriba con la mostaza.
+      - Mezcla el pan rallado con las hierbas y el aceite y presiónalo sobre la mostaza.
+      - Coloca los lomos con la piel hacia abajo y cocina a 190 °C durante 8-10 minutos, según el grosor.
+
+  - name: Gambas rebozadas con panko
+    category: Pescados y mariscos
+    difficulty: EASY
+    prep: 15
+    cook: 8
+    servings: 4
+    tags: [aperitivo]
+    utensils: [Freidora de aire]
+    ingredients:
+      - items:
+          - [gambas peladas con la cola, 400, g]
+          - [harina, 50, g]
+          - [huevos, 2, null]
+          - [pan rallado panko, 100, g]
+          - [ajo en polvo, 0.5, cucharadita]
+          - [aceite de oliva en espray, null, null]
+          - [sal, null, null]
+          - [mayonesa, 4, cucharada, optional]
+          - [salsa sriracha, 1, cucharadita, optional]
+    steps:
+      - Seca las gambas y sálalas.
+      - Pásalas por harina, luego por el huevo batido y por último por el panko mezclado con el ajo en polvo.
+      - Colócalas en la cesta en una sola capa y rocíalas con aceite.
+      - Cocina a 200 °C durante 7-8 minutos, dándoles la vuelta a mitad de tiempo.
+      - Sirve con la mayonesa mezclada con la sriracha.
+
+  - name: Varitas de merluza caseras
+    category: Pescados y mariscos
+    difficulty: EASY
+    prep: 15
+    cook: 10
+    servings: 4
+    tags: [niños]
+    utensils: [Freidora de aire]
+    ingredients:
+      - items:
+          - [lomos de merluza sin piel ni espinas, 500, g]
+          - [harina, 50, g]
+          - [huevos, 2, null]
+          - [pan rallado, 120, g]
+          - [ralladura de limón, 1, cucharadita]
+          - [aceite de oliva en espray, null, null]
+          - [sal, null, null]
+    steps:
+      - Corta la merluza en bastones de unos 2 cm de ancho y sálalos.
+      - Pásalos por harina, huevo batido y pan rallado mezclado con la ralladura de limón.
+      - Colócalos en la cesta sin amontonarlos y rocíalos con aceite.
+      - Cocina a 200 °C durante 10 minutos, dándoles la vuelta con cuidado a mitad de tiempo.
+
+  - name: Coles de Bruselas crujientes
+    category: Verduras
+    difficulty: EASY
+    prep: 5
+    cook: 15
+    servings: 4
+    tags: [guarnición, vegana, sin gluten]
+    utensils: [Freidora de aire]
+    ingredients:
+      - items:
+          - [coles de Bruselas, 500, g]
+          - [aceite de oliva, 2, cucharada]
+          - [miel o sirope de arce, 1, cucharada, optional]
+          - [vinagre balsámico, 1, cucharada]
+          - [sal, null, null]
+    steps:
+      - Corta la base de las coles y pártelas por la mitad.
+      - Mézclalas con el aceite y la sal.
+      - Cocina a 190 °C durante 12-15 minutos, agitando la cesta un par de veces, hasta que estén tostadas por fuera.
+      - Aliña con el vinagre balsámico y la miel recién salidas.
+
+  - name: Brócoli asado con parmesano
+    category: Verduras
+    difficulty: EASY
+    prep: 5
+    cook: 10
+    servings: 2
+    tags: [guarnición, vegetariana, sin gluten]
+    utensils: [Freidora de aire]
+    ingredients:
+      - items:
+          - [brócoli, 1, null]
+          - [aceite de oliva, 1, cucharada]
+          - [ajo en polvo, 0.5, cucharadita]
+          - [queso parmesano rallado, 30, g]
+          - [limón, 0.5, null]
+          - [sal, null, null]
+    steps:
+      - Separa el brócoli en ramilletes medianos, lávalos y sécalos bien.
+      - Mézclalos con el aceite, el ajo en polvo y la sal.
+      - Cocina a 190 °C durante 6 minutos, espolvorea el parmesano y cocina 3-4 minutos más.
+      - Sirve con unas gotas de limón.
+
+  - name: Gajos de boniato especiados
+    category: Verduras
+    difficulty: EASY
+    prep: 5
+    cook: 20
+    servings: 2
+    tags: [guarnición, vegana, sin gluten]
+    utensils: [Freidora de aire]
+    ingredients:
+      - items:
+          - [boniatos, 2, null]
+          - [aceite de oliva, 1, cucharada]
+          - [pimentón ahumado, 1, cucharadita]
+          - [comino molido, 0.5, cucharadita]
+          - [sal, null, null]
+    steps:
+      - Lava bien los boniatos y córtalos en gajos sin pelar.
+      - Mézclalos con el aceite, las especias y la sal.
+      - Cocina a 190 °C durante 18-20 minutos, agitando la cesta a mitad de tiempo, hasta que estén tiernos por dentro y dorados por fuera.
+
+  - name: Calabacín rebozado con parmesano
+    category: Verduras
+    difficulty: EASY
+    prep: 10
+    cook: 10
+    servings: 2
+    tags: [aperitivo, vegetariana]
+    utensils: [Freidora de aire]
+    ingredients:
+      - items:
+          - [calabacín, 1, null]
+          - [huevo, 1, null]
+          - [pan rallado, 60, g]
+          - [queso parmesano rallado, 30, g]
+          - [orégano seco, 0.5, cucharadita]
+          - [aceite de oliva en espray, null, null]
+          - [sal, null, null]
+    steps:
+      - Corta el calabacín en bastones o en rodajas de 1 cm y sálalo.
+      - Pásalo por el huevo batido y después por el pan rallado mezclado con el parmesano y el orégano.
+      - Colócalo en la cesta en una sola capa y rocíalo con aceite.
+      - Cocina a 200 °C durante 8-10 minutos, dándole la vuelta a mitad de tiempo.
+
+  - name: Champiñones rellenos
+    category: Entrantes
+    difficulty: EASY
+    prep: 10
+    cook: 10
+    servings: 4
+    tags: [aperitivo, sin gluten]
+    utensils: [Freidora de aire]
+    ingredients:
+      - items:
+          - [champiñones grandes, 12, null]
+          - [jamón serrano picado, 50, g]
+          - [ajo, 1, diente]
+          - [queso de untar, 60, g]
+          - [perejil picado, 1, cucharada]
+          - [aceite de oliva, 1, cucharada]
+    steps:
+      - Limpia los champiñones, quítales el pie y pícalo.
+      - Saltea los pies picados con el ajo y el jamón en el aceite 3 minutos y mézclalo con el queso y el perejil.
+      - Rellena los sombreros con la mezcla.
+      - Cocina a 180 °C durante 8-10 minutos, hasta que estén tiernos y dorados por encima.
+
+  - name: Garbanzos crujientes especiados
+    category: Legumbres
+    difficulty: EASY
+    prep: 5
+    cook: 15
+    servings: 4
+    notes: Están más crujientes recién hechos. Si sobran, guárdalos en un bote abierto para que no se ablanden.
+    tags: [aperitivo, vegana, sin gluten]
+    utensils: [Freidora de aire]
+    ingredients:
+      - items:
+          - [garbanzos cocidos, 400, g]
+          - [aceite de oliva, 1, cucharada]
+          - [pimentón ahumado, 1, cucharadita]
+          - [comino molido, 0.5, cucharadita]
+          - [sal, 0.5, cucharadita]
+    steps:
+      - Enjuaga los garbanzos, escúrrelos y sécalos muy bien con un paño; quita las pieles que se suelten.
+      - Cocina a 200 °C durante 10 minutos, agitando la cesta a mitad de tiempo.
+      - Mézclalos con el aceite y las especias y cocina 4-5 minutos más, hasta que estén crujientes.
+
+  - name: Albóndigas en freidora de aire
+    category: Carnes
+    difficulty: EASY
+    prep: 15
+    cook: 12
+    servings: 4
+    tags: [niños]
+    utensils: [Freidora de aire]
+    ingredients:
+      - items:
+          - [carne picada mixta, 500, g]
+          - [huevo, 1, null]
+          - [pan rallado, 40, g]
+          - [leche, 3, cucharada]
+          - [ajo, 1, diente]
+          - [perejil picado, 2, cucharada]
+          - [sal, 1, cucharadita]
+          - [pimienta negra, null, null]
+    steps:
+      - Remoja el pan rallado en la leche y mézclalo con la carne, el huevo, el ajo y el perejil picados, la sal y la pimienta.
+      - Forma bolas del tamaño de una nuez.
+      - Colócalas en la cesta sin que se toquen y cocina a 190 °C durante 10-12 minutos, agitando la cesta a mitad de tiempo.
+      - Sírvelas solas o termínalas 5 minutos en la salsa de tomate que más te guste.
+
+  - name: Hamburguesas caseras
+    category: Carnes
+    difficulty: EASY
+    prep: 10
+    cook: 12
+    servings: 4
+    tags: [niños]
+    utensils: [Freidora de aire]
+    ingredients:
+      - group: Hamburguesas
+        items:
+          - [carne picada de ternera, 600, g]
+          - [sal, 1, cucharadita]
+          - [pimienta negra, 0.5, cucharadita]
+          - [lonchas de queso cheddar, 4, null, optional]
+      - group: Para servir
+        items:
+          - [panes de hamburguesa, 4, null]
+          - [lechuga, 4, hoja]
+          - [tomate, 1, null]
+          - [cebolla morada, 0.5, null]
+    steps:
+      - Divide la carne en 4 porciones y forma hamburguesas de unos 2 cm de grosor, sin apretar demasiado. Hazles un pequeño hueco en el centro con el pulgar para que no se abomben.
+      - Salpimiéntalas y cocina a 190 °C durante 10-12 minutos, dándoles la vuelta a mitad de tiempo.
+      - Si llevan queso, ponlo encima el último minuto.
+      - Tuesta los panes 2 minutos en la freidora y monta las hamburguesas con la lechuga, el tomate y la cebolla.
+
+  - name: Costillas de cerdo con miel y mostaza
+    category: Carnes
+    difficulty: MEDIUM
+    prep: 10
+    cook: 30
+    servings: 4
+    tags: [sin gluten]
+    utensils: [Freidora de aire]
+    ingredients:
+      - items:
+          - [costillas de cerdo, 1, kg]
+          - [miel, 3, cucharada]
+          - [mostaza, 2, cucharada]
+          - [pimentón dulce, 1, cucharadita]
+          - [ajo en polvo, 1, cucharadita]
+          - [sal, 1, cucharadita]
+    steps:
+      - Corta las costillas en trozos que quepan en la cesta y frótalas con la sal, el pimentón y el ajo en polvo.
+      - Cocina a 180 °C durante 20 minutos, dándoles la vuelta a mitad de tiempo.
+      - Mezcla la miel con la mostaza y pinta las costillas por todos los lados.
+      - Sube a 200 °C y cocina 8-10 minutos más, pintándolas otra vez a mitad de tiempo, hasta que estén caramelizadas.
+
+  - name: Huevos duros en freidora de aire
+    category: Huevos
+    difficulty: EASY
+    prep: 1
+    cook: 15
+    servings: 4
+    notes: Para huevos con la yema cremosa, cocina 11-12 minutos.
+    tags: [básicos, vegetariana, sin gluten]
+    utensils: [Freidora de aire]
+    ingredients:
+      - items:
+          - [huevos, 6, null]
+    steps:
+      - Coloca los huevos fríos directamente en la cesta.
+      - Cocina a 150 °C durante 14-15 minutos.
+      - Pásalos a un bol con agua y hielo 5 minutos para cortar la cocción y pélalos.
+
+  - name: Pan de ajo
+    category: Panes y masas
+    difficulty: EASY
+    prep: 5
+    cook: 6
+    servings: 4
+    tags: [aperitivo, vegetariana]
+    utensils: [Freidora de aire]
+    ingredients:
+      - items:
+          - [barra de pan, 1, null]
+          - [mantequilla blanda, 60, g]
+          - [ajo, 2, diente]
+          - [perejil picado, 1, cucharada]
+          - [mozzarella rallada, 50, g, optional]
+    steps:
+      - Mezcla la mantequilla con el ajo muy picado y el perejil.
+      - Corta el pan en trozos que quepan en la cesta y ábrelos por la mitad a lo largo.
+      - Unta la mantequilla de ajo y, si quieres, reparte la mozzarella.
+      - Cocina a 180 °C durante 5-6 minutos, hasta que estén dorados.
+
+  - name: Manzanas asadas con canela
+    category: Postres
+    difficulty: EASY
+    prep: 5
+    cook: 15
+    servings: 4
+    tags: [postre, vegetariana, sin gluten]
+    utensils: [Freidora de aire]
+    ingredients:
+      - items:
+          - [manzanas reinetas, 4, null]
+          - [mantequilla, 20, g]
+          - [azúcar moreno, 2, cucharada]
+          - [canela molida, 1, cucharadita]
+          - [nueces picadas, 30, g, optional]
+    steps:
+      - Lava las manzanas y quítales el corazón con un descorazonador, sin llegar a la base.
+      - Mezcla el azúcar con la canela y las nueces y rellena el hueco. Pon un trocito de mantequilla encima.
+      - Cocina a 180 °C durante 12-15 minutos, hasta que estén tiernas. Sírvelas templadas.
+
+  - name: Brownie en freidora de aire
+    category: Postres
+    difficulty: EASY
+    prep: 10
+    cook: 18
+    servings: 6
+    notes: Usa un molde que quepa en la cesta, de unos 18 cm.
+    tags: [postre, chocolate]
+    utensils: [Freidora de aire]
+    ingredients:
+      - items:
+          - [chocolate negro, 100, g]
+          - [mantequilla, 80, g]
+          - [azúcar, 100, g]
+          - [huevos, 2, null]
+          - [harina, 50, g]
+          - [cacao puro en polvo, 1, cucharada]
+          - [sal, 1, pizca]
+          - [nueces troceadas, 50, g, optional]
+    steps:
+      - Funde el chocolate con la mantequilla al baño maría o en el microondas (en tandas de 30 segundos) y deja que se temple.
+      - Bate los huevos con el azúcar, añade el chocolate y después la harina, el cacao y la sal tamizados. Incorpora las nueces.
+      - Vierte en el molde engrasado y cocina a 160 °C durante 16-18 minutos. Debe quedar algo húmedo en el centro.
+      - Deja que se enfríe antes de cortarlo en cuadrados.

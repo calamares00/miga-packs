@@ -1,0 +1,465 @@
+id: air-fryer
+version: 1
+updated: 2026-10-31
+language: en
+name: Air fryer
+description: >-
+  Recipes made for the air fryer: chips, wings, home-made nuggets, breaded fish, crispy
+  vegetables, meatballs, burgers, ribs and even desserts. With very little oil and the time and
+  temperature for each dish. Times are a guide: every model heats differently.
+author: Miga
+authorGithub: calamares00
+cover:
+  emoji: "🍟"
+  title: Air fryer
+  colors: ["#0f766e", "#65a30d"]
+defaults:
+  source: Miga «Air fryer» pack
+recipes:
+
+  - name: Air fryer chips
+    category: Vegetables
+    difficulty: EASY
+    prep: 10
+    cook: 20
+    servings: 2
+    notes: Soaking the potatoes in cold water removes starch and makes them crispier.
+    tags: [side, vegan, gluten-free]
+    utensils: [Air fryer]
+    ingredients:
+      - items:
+          - [large potatoes, 2, null]
+          - [olive oil, 1, tbsp]
+          - [salt, null, null]
+          - [sweet paprika, 0.5, tsp, optional]
+    steps:
+      - Peel the potatoes and cut them into 1 cm thick sticks.
+      - Soak them in cold water for 10 minutes, then drain and dry them very well with a tea towel.
+      - Toss them with the oil and spread them in the basket without piling them up.
+      - Cook at 200 °C for 18-20 minutes, shaking the basket halfway through.
+      - Salt them as soon as they come out and sprinkle with paprika if you like.
+
+  - name: Crispy chicken wings
+    category: Meat
+    difficulty: EASY
+    prep: 5
+    cook: 25
+    servings: 2
+    tags: [snack, gluten-free]
+    utensils: [Air fryer]
+    ingredients:
+      - items:
+          - [chicken wings, 1, kg]
+          - [garlic powder, 1, tsp]
+          - [smoked paprika, 1, tsp]
+          - [olive oil, 1, tbsp]
+          - [salt, 1, tsp]
+          - [black pepper, 0.5, tsp]
+    steps:
+      - Pat the wings dry with kitchen paper.
+      - Toss them with the oil, garlic powder, paprika, salt and pepper.
+      - Spread them in the basket in a single layer and cook at 180 °C for 15 minutes.
+      - Turn them over, raise to 200 °C and cook for 8-10 more minutes, until the skin is golden and crisp.
+
+  - name: Lemon and rosemary chicken thighs
+    category: Meat
+    difficulty: EASY
+    prep: 5
+    cook: 25
+    servings: 4
+    tags: [gluten-free]
+    utensils: [Air fryer]
+    ingredients:
+      - items:
+          - [skin-on chicken thighs, 4, null]
+          - [lemon, 1, null]
+          - [garlic, 2, clove]
+          - [fresh rosemary, 2, sprig]
+          - [olive oil, 1, tbsp]
+          - [salt, null, null]
+          - [black pepper, null, null]
+    steps:
+      - Mix the oil with the chopped garlic, the lemon's zest and juice, the rosemary leaves, salt and pepper.
+      - Rub it over the thighs and, if you have time, leave them to marinate for 30 minutes.
+      - Put them skin side down and cook at 190 °C for 12 minutes.
+      - Turn them over and cook for 10-12 more minutes, until the skin is golden and the juices run clear.
+
+  - name: Home-made chicken nuggets
+    category: Meat
+    difficulty: EASY
+    prep: 15
+    cook: 12
+    servings: 4
+    tags: [kids]
+    utensils: [Air fryer]
+    ingredients:
+      - items:
+          - [chicken breasts, 2, null]
+          - [egg, 1, null]
+          - [panko breadcrumbs, 100, g]
+          - [grated Parmesan, 30, g]
+          - [sweet paprika, 1, tsp]
+          - [olive oil spray, null, null]
+          - [salt, null, null]
+    steps:
+      - Cut the chicken into bite-sized pieces and season with salt.
+      - Mix the panko with the Parmesan and paprika.
+      - Dip each piece in the beaten egg and then in the breadcrumbs, pressing so they stick.
+      - Spread them in the basket without touching and spray them lightly with oil.
+      - Cook at 200 °C for 10-12 minutes, turning them halfway through.
+
+  - name: Herb-crusted salmon
+    category: Fish and seafood
+    difficulty: EASY
+    prep: 5
+    cook: 10
+    servings: 2
+    tags: [light]
+    utensils: [Air fryer]
+    ingredients:
+      - items:
+          - [salmon fillets, 2, null]
+          - [breadcrumbs, 2, tbsp]
+          - [chopped parsley, 1, tbsp]
+          - [chopped dill, 1, tsp]
+          - [Dijon mustard, 1, tsp]
+          - [olive oil, 1, tbsp]
+          - [salt, null, null]
+    steps:
+      - Season the salmon with salt and spread the top with the mustard.
+      - Mix the breadcrumbs with the herbs and oil and press them onto the mustard.
+      - Put the fillets skin side down and cook at 190 °C for 8-10 minutes, depending on thickness.
+
+  - name: Panko prawns
+    category: Fish and seafood
+    difficulty: EASY
+    prep: 15
+    cook: 8
+    servings: 4
+    tags: [snack]
+    utensils: [Air fryer]
+    ingredients:
+      - items:
+          - [peeled prawns with tails on, 400, g]
+          - [flour, 50, g]
+          - [eggs, 2, null]
+          - [panko breadcrumbs, 100, g]
+          - [garlic powder, 0.5, tsp]
+          - [olive oil spray, null, null]
+          - [salt, null, null]
+          - [mayonnaise, 4, tbsp, optional]
+          - [sriracha, 1, tsp, optional]
+    steps:
+      - Pat the prawns dry and season them with salt.
+      - Coat them in flour, then beaten egg and finally the panko mixed with the garlic powder.
+      - Spread them in the basket in a single layer and spray with oil.
+      - Cook at 200 °C for 7-8 minutes, turning them halfway through.
+      - Serve with the mayonnaise mixed with the sriracha.
+
+  - name: Home-made fish fingers
+    category: Fish and seafood
+    difficulty: EASY
+    prep: 15
+    cook: 10
+    servings: 4
+    tags: [kids]
+    utensils: [Air fryer]
+    ingredients:
+      - items:
+          - ["skinless, boneless hake fillets", 500, g]
+          - [flour, 50, g]
+          - [eggs, 2, null]
+          - [breadcrumbs, 120, g]
+          - [lemon zest, 1, tsp]
+          - [olive oil spray, null, null]
+          - [salt, null, null]
+    steps:
+      - Cut the hake into fingers about 2 cm wide and season them with salt.
+      - Coat them in flour, beaten egg and the breadcrumbs mixed with the lemon zest.
+      - Spread them in the basket without piling them up and spray with oil.
+      - Cook at 200 °C for 10 minutes, turning them carefully halfway through.
+
+  - name: Crispy Brussels sprouts
+    category: Vegetables
+    difficulty: EASY
+    prep: 5
+    cook: 15
+    servings: 4
+    tags: [side, vegan, gluten-free]
+    utensils: [Air fryer]
+    ingredients:
+      - items:
+          - [Brussels sprouts, 500, g]
+          - [olive oil, 2, tbsp]
+          - [honey or maple syrup, 1, tbsp, optional]
+          - [balsamic vinegar, 1, tbsp]
+          - [salt, null, null]
+    steps:
+      - Trim the base of the sprouts and halve them.
+      - Toss them with the oil and salt.
+      - Cook at 190 °C for 12-15 minutes, shaking the basket a couple of times, until charred on the outside.
+      - Dress with the balsamic vinegar and honey as soon as they come out.
+
+  - name: Roast broccoli with Parmesan
+    category: Vegetables
+    difficulty: EASY
+    prep: 5
+    cook: 10
+    servings: 2
+    tags: [side, vegetarian, gluten-free]
+    utensils: [Air fryer]
+    ingredients:
+      - items:
+          - [broccoli, 1, head]
+          - [olive oil, 1, tbsp]
+          - [garlic powder, 0.5, tsp]
+          - [grated Parmesan, 30, g]
+          - [lemon, 0.5, null]
+          - [salt, null, null]
+    steps:
+      - Cut the broccoli into medium florets, wash them and dry them well.
+      - Toss them with the oil, garlic powder and salt.
+      - Cook at 190 °C for 6 minutes, sprinkle with the Parmesan and cook for 3-4 more minutes.
+      - Serve with a few drops of lemon.
+
+  - name: Spiced sweet potato wedges
+    category: Vegetables
+    difficulty: EASY
+    prep: 5
+    cook: 20
+    servings: 2
+    tags: [side, vegan, gluten-free]
+    utensils: [Air fryer]
+    ingredients:
+      - items:
+          - [sweet potatoes, 2, null]
+          - [olive oil, 1, tbsp]
+          - [smoked paprika, 1, tsp]
+          - [ground cumin, 0.5, tsp]
+          - [salt, null, null]
+    steps:
+      - Scrub the sweet potatoes well and cut them into wedges, skin on.
+      - Toss them with the oil, spices and salt.
+      - Cook at 190 °C for 18-20 minutes, shaking the basket halfway through, until tender inside and golden outside.
+
+  - name: Parmesan-crusted courgette
+    category: Vegetables
+    difficulty: EASY
+    prep: 10
+    cook: 10
+    servings: 2
+    tags: [snack, vegetarian]
+    utensils: [Air fryer]
+    ingredients:
+      - items:
+          - [courgette, 1, null]
+          - [egg, 1, null]
+          - [breadcrumbs, 60, g]
+          - [grated Parmesan, 30, g]
+          - [dried oregano, 0.5, tsp]
+          - [olive oil spray, null, null]
+          - [salt, null, null]
+    steps:
+      - Cut the courgette into sticks or 1 cm rounds and season with salt.
+      - Dip it in the beaten egg and then in the breadcrumbs mixed with the Parmesan and oregano.
+      - Spread it in the basket in a single layer and spray with oil.
+      - Cook at 200 °C for 8-10 minutes, turning halfway through.
+
+  - name: Stuffed mushrooms
+    category: Starters
+    difficulty: EASY
+    prep: 10
+    cook: 10
+    servings: 4
+    tags: [snack, gluten-free]
+    utensils: [Air fryer]
+    ingredients:
+      - items:
+          - [large mushrooms, 12, null]
+          - [chopped serrano ham, 50, g]
+          - [garlic, 1, clove]
+          - [cream cheese, 60, g]
+          - [chopped parsley, 1, tbsp]
+          - [olive oil, 1, tbsp]
+    steps:
+      - Clean the mushrooms, remove the stalks and chop them.
+      - Fry the chopped stalks with the garlic and ham in the oil for 3 minutes, then mix with the cheese and parsley.
+      - Fill the caps with the mixture.
+      - Cook at 180 °C for 8-10 minutes, until tender and golden on top.
+
+  - name: Crispy spiced chickpeas
+    category: Legumes
+    difficulty: EASY
+    prep: 5
+    cook: 15
+    servings: 4
+    notes: They are crispiest freshly made. Keep leftovers in an open jar so they don't go soft.
+    tags: [snack, vegan, gluten-free]
+    utensils: [Air fryer]
+    ingredients:
+      - items:
+          - [cooked chickpeas, 400, g]
+          - [olive oil, 1, tbsp]
+          - [smoked paprika, 1, tsp]
+          - [ground cumin, 0.5, tsp]
+          - [salt, 0.5, tsp]
+    steps:
+      - Rinse the chickpeas, drain them and dry them very well with a tea towel; discard any loose skins.
+      - Cook at 200 °C for 10 minutes, shaking the basket halfway through.
+      - Toss them with the oil and spices and cook for 4-5 more minutes, until crunchy.
+
+  - name: Air fryer meatballs
+    category: Meat
+    difficulty: EASY
+    prep: 15
+    cook: 12
+    servings: 4
+    tags: [kids]
+    utensils: [Air fryer]
+    ingredients:
+      - items:
+          - [mixed minced meat, 500, g]
+          - [egg, 1, null]
+          - [breadcrumbs, 40, g]
+          - [milk, 3, tbsp]
+          - [garlic, 1, clove]
+          - [chopped parsley, 2, tbsp]
+          - [salt, 1, tsp]
+          - [black pepper, null, null]
+    steps:
+      - Soak the breadcrumbs in the milk and mix with the meat, egg, chopped garlic and parsley, salt and pepper.
+      - Roll into walnut-sized balls.
+      - Spread them in the basket without touching and cook at 190 °C for 10-12 minutes, shaking the basket halfway through.
+      - Serve them as they are or finish them for 5 minutes in your favourite tomato sauce.
+
+  - name: Home-made burgers
+    category: Meat
+    difficulty: EASY
+    prep: 10
+    cook: 12
+    servings: 4
+    tags: [kids]
+    utensils: [Air fryer]
+    ingredients:
+      - group: Burgers
+        items:
+          - [minced beef, 600, g]
+          - [salt, 1, tsp]
+          - [black pepper, 0.5, tsp]
+          - [Cheddar, 4, slice, optional]
+      - group: To serve
+        items:
+          - [burger buns, 4, null]
+          - [lettuce, 4, leaf]
+          - [tomato, 1, null]
+          - [red onion, 0.5, null]
+    steps:
+      - Divide the meat into 4 portions and shape burgers about 2 cm thick, without pressing too hard. Make a small dip in the centre with your thumb so they don't puff up.
+      - Season them and cook at 190 °C for 10-12 minutes, turning halfway through.
+      - If using cheese, put it on top for the last minute.
+      - Toast the buns in the air fryer for 2 minutes and build the burgers with the lettuce, tomato and onion.
+
+  - name: Honey mustard pork ribs
+    category: Meat
+    difficulty: MEDIUM
+    prep: 10
+    cook: 30
+    servings: 4
+    tags: [gluten-free]
+    utensils: [Air fryer]
+    ingredients:
+      - items:
+          - [pork ribs, 1, kg]
+          - [honey, 3, tbsp]
+          - [mustard, 2, tbsp]
+          - [sweet paprika, 1, tsp]
+          - [garlic powder, 1, tsp]
+          - [salt, 1, tsp]
+    steps:
+      - Cut the ribs into pieces that fit in the basket and rub them with the salt, paprika and garlic powder.
+      - Cook at 180 °C for 20 minutes, turning halfway through.
+      - Mix the honey with the mustard and brush the ribs all over.
+      - Raise to 200 °C and cook for 8-10 more minutes, brushing again halfway through, until caramelised.
+
+  - name: Air fryer hard-boiled eggs
+    category: Eggs
+    difficulty: EASY
+    prep: 1
+    cook: 15
+    servings: 4
+    notes: For jammy yolks, cook them for 11-12 minutes.
+    tags: [basics, vegetarian, gluten-free]
+    utensils: [Air fryer]
+    ingredients:
+      - items:
+          - [eggs, 6, null]
+    steps:
+      - Put the eggs, straight from the fridge, in the basket.
+      - Cook at 150 °C for 14-15 minutes.
+      - Move them to a bowl of iced water for 5 minutes to stop the cooking, then peel.
+
+  - name: Garlic bread
+    category: Breads and doughs
+    difficulty: EASY
+    prep: 5
+    cook: 6
+    servings: 4
+    tags: [snack, vegetarian]
+    utensils: [Air fryer]
+    ingredients:
+      - items:
+          - [baguette, 1, null]
+          - [softened butter, 60, g]
+          - [garlic, 2, clove]
+          - [chopped parsley, 1, tbsp]
+          - [grated mozzarella, 50, g, optional]
+    steps:
+      - Mix the butter with the very finely chopped garlic and the parsley.
+      - Cut the bread into pieces that fit in the basket and split them in half lengthways.
+      - Spread with the garlic butter and, if you like, scatter over the mozzarella.
+      - Cook at 180 °C for 5-6 minutes, until golden.
+
+  - name: Cinnamon baked apples
+    category: Desserts
+    difficulty: EASY
+    prep: 5
+    cook: 15
+    servings: 4
+    tags: [dessert, vegetarian, gluten-free]
+    utensils: [Air fryer]
+    ingredients:
+      - items:
+          - [apples, 4, null]
+          - [butter, 20, g]
+          - [brown sugar, 2, tbsp]
+          - [ground cinnamon, 1, tsp]
+          - [chopped walnuts, 30, g, optional]
+    steps:
+      - Wash the apples and core them with an apple corer, without going through the base.
+      - Mix the sugar with the cinnamon and walnuts and fill the hollows. Put a small knob of butter on top.
+      - Cook at 180 °C for 12-15 minutes, until tender. Serve warm.
+
+  - name: Air fryer brownie
+    category: Desserts
+    difficulty: EASY
+    prep: 10
+    cook: 18
+    servings: 6
+    notes: Use a tin that fits in the basket, about 18 cm across.
+    tags: [dessert, chocolate]
+    utensils: [Air fryer]
+    ingredients:
+      - items:
+          - [dark chocolate, 100, g]
+          - [butter, 80, g]
+          - [sugar, 100, g]
+          - [eggs, 2, null]
+          - [flour, 50, g]
+          - [unsweetened cocoa powder, 1, tbsp]
+          - [salt, 1, pinch]
+          - [chopped walnuts, 50, g, optional]
+    steps:
+      - Melt the chocolate with the butter over a bain-marie or in the microwave (in 30-second bursts) and let it cool slightly.
+      - Whisk the eggs with the sugar, add the chocolate and then sift in the flour, cocoa and salt. Fold in the walnuts.
+      - Pour into the greased tin and cook at 160 °C for 16-18 minutes. It should still be a little moist in the centre.
+      - Let it cool before cutting it into squares.

@@ -1,0 +1,478 @@
+id: cenas-en-20-minutos
+version: 1
+updated: 2026-10-31
+language: es
+name: Cenas en 20 minutos
+description: >-
+  Cenas caseras que están en la mesa en 20 minutos o menos, con ingredientes de cualquier
+  supermercado: tortillas, revueltos, pasta, pescado a la plancha, wok de pollo, cremas de
+  verduras, ensaladas completas y pizzas exprés. Para los días en que no apetece complicarse.
+author: Miga
+authorGithub: calamares00
+cover:
+  emoji: "🍳"
+  title: Cenas en 20 minutos
+  colors: ["#6d28d9", "#db2777"]
+defaults:
+  source: Pack «Cenas en 20 minutos» de Miga
+recipes:
+
+  - name: Tortilla francesa con espinacas y queso
+    category: Huevos
+    difficulty: EASY
+    prep: 5
+    cook: 5
+    servings: 1
+    tags: [rápida, cena, vegetariana]
+    ingredients:
+      - items:
+          - [huevos, 2, null]
+          - [espinacas frescas, 1, puñado]
+          - [queso rallado, 30, g]
+          - [aceite de oliva, 1, cucharadita]
+          - [sal, null, null]
+          - [pimienta negra, null, null, optional]
+    steps:
+      - Saltea las espinacas en la sartén con el aceite durante 1 minuto, hasta que se ablanden.
+      - Bate los huevos con una pizca de sal y pimienta y viértelos sobre las espinacas.
+      - Cuando la base empiece a cuajar, reparte el queso por encima.
+      - Dobla la tortilla por la mitad y deja que se haga 1 minuto más. Sírvela jugosa.
+
+  - name: Revuelto de champiñones y jamón
+    category: Huevos
+    difficulty: EASY
+    prep: 5
+    cook: 8
+    servings: 2
+    tags: [rápida, cena, sin gluten]
+    ingredients:
+      - items:
+          - [champiñones, 200, g]
+          - [jamón serrano en taquitos, 60, g]
+          - [huevos, 4, null]
+          - [ajo, 1, diente]
+          - [aceite de oliva, 2, cucharada]
+          - [perejil picado, 1, cucharada, optional]
+          - [sal, null, null]
+    steps:
+      - Limpia y lamina los champiñones. Pica el ajo.
+      - Dora el ajo en el aceite, añade los champiñones y saltéalos a fuego fuerte 4 minutos.
+      - Incorpora el jamón y saltea 1 minuto más.
+      - Baja el fuego, añade los huevos batidos con una pizca de sal y remueve hasta que cuajen, sin que se sequen.
+      - Espolvorea el perejil y sirve enseguida.
+
+  - name: Espaguetis con ajo, aceite y guindilla
+    category: Pastas
+    difficulty: EASY
+    prep: 3
+    cook: 12
+    servings: 2
+    origin: Italia
+    originCountry: IT
+    tags: [rápida, cena, vegana]
+    ingredients:
+      - items:
+          - [espaguetis, 200, g]
+          - [ajo, 4, diente]
+          - [guindilla seca, 1, null]
+          - [aceite de oliva virgen extra, 5, cucharada]
+          - [perejil picado, 2, cucharada]
+          - [sal, null, null]
+    steps:
+      - Cuece los espaguetis en abundante agua con sal el tiempo que indique el paquete. Reserva un vaso del agua de cocción.
+      - Mientras, lamina los ajos y dóralos a fuego suave en el aceite con la guindilla troceada, sin que se quemen.
+      - Escurre la pasta y échala a la sartén con un chorrito del agua de cocción.
+      - Saltea 1 minuto para que la salsa ligue, añade el perejil y sirve.
+
+  - name: Pasta con tomates cherry y albahaca
+    category: Pastas
+    difficulty: EASY
+    prep: 5
+    cook: 12
+    servings: 2
+    tags: [rápida, cena, vegetariana]
+    ingredients:
+      - items:
+          - [pasta corta, 200, g]
+          - [tomates cherry, 250, g]
+          - [ajo, 1, diente]
+          - [aceite de oliva virgen extra, 3, cucharada]
+          - [albahaca fresca, 1, manojo]
+          - [queso parmesano rallado, 30, g, optional]
+          - [sal, null, null]
+    steps:
+      - Cuece la pasta en agua con sal.
+      - Parte los tomates por la mitad y saltéalos con el aceite y el ajo picado a fuego fuerte 5 minutos, hasta que suelten su jugo.
+      - Escurre la pasta y mézclala con los tomates y un chorrito del agua de cocción.
+      - Termina con la albahaca troceada a mano y el parmesano.
+
+  - name: Salmón a la plancha con espárragos
+    category: Pescados y mariscos
+    difficulty: EASY
+    prep: 5
+    cook: 12
+    servings: 2
+    tags: [rápida, cena, sin gluten]
+    ingredients:
+      - items:
+          - [lomos de salmón, 2, null]
+          - [espárragos trigueros, 1, manojo]
+          - [limón, 1, null]
+          - [aceite de oliva, 2, cucharada]
+          - [sal en escamas, null, null]
+          - [pimienta negra, null, null]
+    steps:
+      - Corta la parte dura de los espárragos.
+      - Calienta una sartén o plancha con la mitad del aceite y haz los espárragos 5 minutos, dándoles la vuelta. Resérvalos.
+      - Seca bien el salmón, úntalo con el resto del aceite y ponlo con la piel hacia abajo. Hazlo 4 minutos, dale la vuelta y hazlo 2-3 minutos más.
+      - Sirve con los espárragos, sal en escamas, pimienta y unas gotas de limón.
+
+  - name: Merluza al limón con perejil
+    category: Pescados y mariscos
+    difficulty: EASY
+    prep: 5
+    cook: 10
+    servings: 2
+    tags: [rápida, cena, ligera]
+    ingredients:
+      - items:
+          - [lomos de merluza, 2, null]
+          - [harina, 2, cucharada]
+          - [ajo, 2, diente]
+          - [limón, 1, null]
+          - [vino blanco, 50, ml]
+          - [aceite de oliva, 3, cucharada]
+          - [perejil picado, 2, cucharada]
+          - [sal, null, null]
+    steps:
+      - Sala la merluza y pásala por harina, sacudiendo el exceso.
+      - Dórala en el aceite 2 minutos por cada lado y retírala.
+      - En el mismo aceite, sofríe el ajo laminado, añade el vino y el zumo del limón y deja reducir 2 minutos.
+      - Devuelve la merluza a la sartén, espolvorea el perejil y cocina 2 minutos más, moviendo la sartén para que la salsa espese.
+
+  - name: Wok de pollo con verduras
+    category: Carnes
+    difficulty: EASY
+    prep: 8
+    cook: 10
+    servings: 2
+    tags: [rápida, cena]
+    utensils: [Wok]
+    ingredients:
+      - items:
+          - [pechuga de pollo, 300, g]
+          - [pimiento rojo, 1, null]
+          - [calabacín, 1, null]
+          - [cebolleta, 1, null]
+          - [salsa de soja, 3, cucharada]
+          - [miel, 1, cucharadita]
+          - [jengibre rallado, 1, cucharadita, optional]
+          - [aceite de girasol, 2, cucharada]
+          - [sésamo tostado, 1, cucharada, optional]
+    steps:
+      - Corta el pollo y las verduras en tiras finas.
+      - Calienta mucho el wok con el aceite y saltea el pollo 4 minutos. Retíralo.
+      - Saltea las verduras 3-4 minutos a fuego fuerte; deben quedar crujientes.
+      - Devuelve el pollo, añade la soja, la miel y el jengibre y saltea 1 minuto más.
+      - Sirve con sésamo por encima.
+
+  - name: Pollo al limón con cuscús
+    category: Carnes
+    difficulty: EASY
+    prep: 5
+    cook: 12
+    servings: 2
+    tags: [rápida, cena]
+    ingredients:
+      - group: Pollo
+        items:
+          - [filetes de pechuga de pollo, 2, null]
+          - [limón, 1, null]
+          - [ajo, 1, diente]
+          - [orégano seco, 1, cucharadita]
+          - [aceite de oliva, 2, cucharada]
+          - [sal, null, null]
+      - group: Cuscús
+        items:
+          - [cuscús, 150, g]
+          - [caldo de verduras caliente, 150, ml]
+          - [mantequilla, 10, g]
+    steps:
+      - Pon el cuscús en un bol, cúbrelo con el caldo caliente, tápalo y deja que repose 5 minutos.
+      - Sala el pollo y dóralo en el aceite 4 minutos por cada lado.
+      - Añade el ajo picado, el orégano y el zumo y la ralladura del limón, y deja que la salsa reduzca 1 minuto.
+      - Suelta el cuscús con un tenedor y la mantequilla y sírvelo con el pollo y su salsa.
+
+  - name: Fajitas de ternera
+    category: Carnes
+    difficulty: EASY
+    prep: 8
+    cook: 10
+    servings: 2
+    tags: [rápida, cena]
+    ingredients:
+      - items:
+          - [filetes finos de ternera, 300, g]
+          - [pimiento rojo, 1, null]
+          - [pimiento verde, 1, null]
+          - [cebolla, 1, null]
+          - [comino molido, 0.5, cucharadita]
+          - [pimentón dulce, 1, cucharadita]
+          - [aceite de oliva, 2, cucharada]
+          - [tortillas de trigo, 4, null]
+          - [nata agria o yogur griego, 4, cucharada, optional]
+          - [sal, null, null]
+    steps:
+      - Corta la ternera, los pimientos y la cebolla en tiras.
+      - Saltea las verduras en el aceite a fuego fuerte 5 minutos y apártalas a un lado de la sartén.
+      - Añade la carne con el comino, el pimentón y la sal y saltéala 2-3 minutos.
+      - Calienta las tortillas en otra sartén y rellénalas con la mezcla y una cucharada de nata agria.
+
+  - name: Lomo con salsa de mostaza y miel
+    category: Carnes
+    difficulty: EASY
+    prep: 3
+    cook: 10
+    servings: 2
+    tags: [rápida, cena, sin gluten]
+    ingredients:
+      - items:
+          - [filetes de lomo de cerdo, 4, null]
+          - [mostaza de Dijon, 1, cucharada]
+          - [miel, 1, cucharada]
+          - [nata para cocinar, 100, ml]
+          - [aceite de oliva, 1, cucharada]
+          - [sal, null, null]
+          - [pimienta negra, null, null]
+    steps:
+      - Salpimienta los filetes y hazlos en la sartén con el aceite 2 minutos por cada lado. Retíralos.
+      - Baja el fuego y añade la mostaza, la miel y la nata. Remueve hasta que hierva y espese un poco.
+      - Devuelve el lomo a la sartén 1 minuto para que se impregne y sirve con la salsa.
+
+  - name: Arroz salteado con huevo y guisantes
+    category: Arroces
+    difficulty: EASY
+    prep: 5
+    cook: 10
+    servings: 2
+    notes: Sale mejor con arroz cocido del día anterior, que está más suelto.
+    tags: [rápida, cena, aprovechamiento]
+    ingredients:
+      - items:
+          - [arroz cocido, 400, g]
+          - [huevos, 2, null]
+          - [guisantes congelados, 100, g]
+          - [zanahoria, 1, null]
+          - [cebolleta, 1, null]
+          - [salsa de soja, 2, cucharada]
+          - [aceite de girasol, 2, cucharada]
+    steps:
+      - Pica la cebolleta y la zanahoria en dados pequeños.
+      - Saltéalas en el aceite 3 minutos con los guisantes.
+      - Aparta las verduras, cuaja los huevos batidos en el hueco y rómpelos en trozos.
+      - Añade el arroz y la soja y saltea a fuego fuerte 3-4 minutos, hasta que el arroz esté caliente y suelto.
+
+  - name: Ñoquis con mantequilla y salvia
+    category: Pastas
+    difficulty: EASY
+    prep: 2
+    cook: 8
+    servings: 2
+    origin: Italia
+    originCountry: IT
+    tags: [rápida, cena, vegetariana]
+    ingredients:
+      - items:
+          - [ñoquis de patata, 400, g]
+          - [mantequilla, 50, g]
+          - [hojas de salvia fresca, 8, null]
+          - [queso parmesano rallado, 40, g]
+          - [pimienta negra, null, null]
+          - [sal, null, null]
+    steps:
+      - Cuece los ñoquis en agua hirviendo con sal; están listos cuando suben a la superficie.
+      - Mientras, derrite la mantequilla con la salvia a fuego medio hasta que tome un color avellana.
+      - Pasa los ñoquis escurridos a la sartén, saltéalos 1 minuto y sirve con parmesano y pimienta.
+
+  - name: Crema de calabacín exprés
+    category: Sopas y cremas
+    difficulty: EASY
+    prep: 5
+    cook: 15
+    servings: 4
+    tags: [rápida, cena, vegetariana, ligera]
+    utensils: [Batidora]
+    ingredients:
+      - items:
+          - [calabacines, 2, null]
+          - [cebolla, 1, null]
+          - [patata pequeña, 1, null]
+          - [caldo de verduras, 600, ml]
+          - [quesitos en porciones, 2, null]
+          - [aceite de oliva, 2, cucharada]
+          - [sal, null, null]
+    steps:
+      - Trocea la cebolla, los calabacines sin pelar y la patata en dados pequeños para que se hagan antes.
+      - Rehoga la cebolla en el aceite 3 minutos, añade el resto de las verduras y el caldo y cuece 12 minutos.
+      - Tritura con los quesitos hasta que quede una crema fina. Ajusta de sal.
+
+  - name: Sopa de fideos rápida
+    category: Sopas y cremas
+    difficulty: EASY
+    prep: 2
+    cook: 10
+    servings: 2
+    tags: [rápida, cena, reconfortante]
+    ingredients:
+      - items:
+          - [caldo de pollo, 1, l]
+          - [fideos finos, 80, g]
+          - [huevo duro, 1, null, optional]
+          - [jamón serrano en taquitos, 40, g, optional]
+          - [hierbabuena fresca, 1, ramita, optional]
+    steps:
+      - Lleva el caldo a ebullición.
+      - Añade los fideos y cuécelos el tiempo que indique el paquete, normalmente 4-5 minutos.
+      - Sirve con el huevo duro picado, el jamón y unas hojas de hierbabuena.
+
+  - name: Ensalada de garbanzos con atún
+    category: Ensaladas
+    difficulty: EASY
+    prep: 10
+    cook: 0
+    servings: 2
+    tags: [rápida, cena, sin gluten, fría]
+    ingredients:
+      - items:
+          - [garbanzos cocidos, 400, g]
+          - [atún en aceite, 2, lata]
+          - [tomate, 1, null]
+          - [pimiento verde, 0.5, null]
+          - [cebolla morada, 0.5, null]
+          - [aceitunas negras, 12, null, optional]
+          - [aceite de oliva virgen extra, 3, cucharada]
+          - [vinagre, 1, cucharada]
+          - [sal, null, null]
+    steps:
+      - Enjuaga y escurre los garbanzos.
+      - Pica el tomate, el pimiento y la cebolla en dados pequeños.
+      - Mezcla todo con el atún escurrido y las aceitunas.
+      - Aliña con el aceite, el vinagre y la sal justo antes de servir.
+
+  - name: Ensalada César con pollo
+    category: Ensaladas
+    difficulty: EASY
+    prep: 10
+    cook: 8
+    servings: 2
+    tags: [rápida, cena]
+    ingredients:
+      - group: Ensalada
+        items:
+          - [lechuga romana, 1, null]
+          - [pechuga de pollo, 1, null]
+          - [rebanadas de pan, 2, null]
+          - [queso parmesano en lascas, 30, g]
+          - [aceite de oliva, 2, cucharada]
+      - group: Salsa
+        items:
+          - [mayonesa, 3, cucharada]
+          - [queso parmesano rallado, 1, cucharada]
+          - [zumo de limón, 1, cucharadita]
+          - [mostaza, 0.5, cucharadita]
+          - [ajo, 0.5, diente]
+    steps:
+      - Corta el pan en dados y dóralos en la sartén con 1 cucharada de aceite. Resérvalos.
+      - Haz el pollo en la misma sartén con el resto del aceite, 4 minutos por cada lado, y córtalo en tiras.
+      - Mezcla los ingredientes de la salsa con el ajo muy picado y un chorrito de agua si queda espesa.
+      - Trocea la lechuga y sírvela con el pollo, los picatostes, el parmesano y la salsa.
+
+  - name: Tostas de aguacate con huevo
+    category: Huevos
+    difficulty: EASY
+    prep: 5
+    cook: 5
+    servings: 2
+    tags: [rápida, cena, vegetariana]
+    ingredients:
+      - items:
+          - [rebanadas de pan de hogaza, 2, null]
+          - [aguacate maduro, 1, null]
+          - [huevos, 2, null]
+          - [zumo de limón, 1, cucharadita]
+          - [copos de chile, null, null, optional]
+          - [aceite de oliva, 1, cucharada]
+          - [sal en escamas, null, null]
+    steps:
+      - Tuesta el pan.
+      - Machaca el aguacate con el limón y una pizca de sal y úntalo sobre las tostadas.
+      - Fríe los huevos en el aceite, con la yema líquida.
+      - Coloca un huevo sobre cada tosta y termina con sal en escamas y copos de chile.
+
+  - name: Pizza de tortilla de trigo
+    category: Panes y masas
+    difficulty: EASY
+    prep: 5
+    cook: 8
+    servings: 2
+    tags: [rápida, cena, niños]
+    utensils: [Horno]
+    ingredients:
+      - items:
+          - [tortillas de trigo grandes, 2, null]
+          - [tomate frito, 4, cucharada]
+          - [mozzarella rallada, 120, g]
+          - [jamón cocido, 4, loncha]
+          - [champiñones laminados, 4, null, optional]
+          - [orégano seco, 1, pizca]
+    steps:
+      - Precalienta el horno a 220 °C.
+      - Unta las tortillas con el tomate y reparte la mozzarella, el jamón troceado y los champiñones.
+      - Hornea 7-8 minutos, hasta que el queso se funda y los bordes estén crujientes.
+      - Espolvorea el orégano y corta en porciones.
+
+  - name: Wrap de pollo y aguacate
+    category: Carnes
+    difficulty: EASY
+    prep: 10
+    cook: 8
+    servings: 2
+    tags: [rápida, cena]
+    ingredients:
+      - items:
+          - [pechuga de pollo, 1, null]
+          - [tortillas de trigo grandes, 2, null]
+          - [aguacate, 1, null]
+          - [tomate, 1, null]
+          - [lechuga, 2, puñado]
+          - [yogur natural, 3, cucharada]
+          - [pimentón dulce, 0.5, cucharadita]
+          - [aceite de oliva, 1, cucharada]
+          - [sal, null, null]
+    steps:
+      - Corta el pollo en tiras, sazónalo con el pimentón y la sal y dóralo en el aceite 6-7 minutos.
+      - Lamina el aguacate y corta el tomate en rodajas.
+      - Unta las tortillas con el yogur y reparte la lechuga, el tomate, el aguacate y el pollo.
+      - Enróllalas bien apretadas y córtalas por la mitad en diagonal.
+
+  - name: Gambas salteadas con calabacín
+    category: Pescados y mariscos
+    difficulty: EASY
+    prep: 5
+    cook: 8
+    servings: 2
+    tags: [rápida, cena, sin gluten, ligera]
+    ingredients:
+      - items:
+          - [gambas peladas, 300, g]
+          - [calabacines, 2, null]
+          - [ajo, 2, diente]
+          - [guindilla, 1, null, optional]
+          - [aceite de oliva, 3, cucharada]
+          - [perejil picado, 1, cucharada]
+          - [sal, null, null]
+    steps:
+      - Corta los calabacines en medias lunas finas.
+      - Saltéalos en 2 cucharadas de aceite a fuego fuerte 4 minutos, con sal. Resérvalos.
+      - Añade el resto del aceite con el ajo laminado y la guindilla y, cuando el ajo empiece a dorarse, incorpora las gambas.
+      - Saltea 2 minutos, hasta que cambien de color, mezcla con el calabacín y termina con el perejil.

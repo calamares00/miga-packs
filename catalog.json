@@ -360,6 +360,30 @@
       "recipeCount": 20,
       "downloadUrl": "dist/tapas-espanolas-v1.zip",
       "language": "es"
+    },
+    {
+      "id": "thermomix-cremas-y-pures",
+      "name": "Thermomix: cremas y purés",
+      "author": "Miga",
+      "authorGithub": "calamares00",
+      "description": "Cremas y purés programados para Thermomix TM6 (vaso de 2,2 litros), que funcionan igual en TM5 y TM7. Calabaza, verduras, vichyssoise, champiñones, zanahoria con jengibre, brócoli, espárragos, guisantes con menta, tomate, lentejas rojas, coliflor, espinacas, boniato, alcachofas, pimientos asados, castañas, apio nabo, alubias, remolacha y puré de patatas. En TM31 (vaso de 2 litros y 100 °C como máximo), sofríe a temperatura Varoma.",
+      "coverImageUrl": "packs/thermomix-cremas-y-pures/cover.jpg",
+      "latestVersion": 1,
+      "recipeCount": 20,
+      "downloadUrl": "dist/thermomix-cremas-y-pures-v1.zip",
+      "language": "es"
+    },
+    {
+      "id": "thermomix-soups-and-purees",
+      "name": "Thermomix: soups and purées",
+      "author": "Miga",
+      "authorGithub": "calamares00",
+      "description": "Smooth soups and purées programmed for the Thermomix TM6 (2.2 litre bowl), which work just the same on the TM5 and TM7. Pumpkin, mixed vegetable, vichyssoise, mushroom, carrot and ginger, broccoli, asparagus, pea and mint, tomato, red lentil, cauliflower, spinach, sweet potato, artichoke, roasted pepper, chestnut, celeriac, white bean, beetroot and mashed potato. On a TM31 (2 litre bowl, 100 °C maximum), fry at Varoma temperature.",
+      "coverImageUrl": "packs/thermomix-soups-and-purees/cover.jpg",
+      "latestVersion": 1,
+      "recipeCount": 20,
+      "downloadUrl": "dist/thermomix-soups-and-purees-v1.zip",
+      "language": "en"
     }
   ]
 }

@@ -1,0 +1,533 @@
+id: cocina-colombiana
+version: 1
+updated: 2026-10-31
+language: es
+name: "Cocina del mundo: Colombia"
+description: >-
+  La cocina de las regiones de Colombia: bandeja paisa, frijoles antioqueños, ajiaco santafereño,
+  sancocho, arepas, empanadas, patacones, hogao, ají, arroz con pollo, changua, pandebono,
+  buñuelos, natilla, posta negra cartagenera, mote de queso, arroz con coco, cazuela de mariscos,
+  sobrebarriga y limonada de coco. Con equivalencias para los ingredientes menos habituales fuera
+  de Colombia.
+author: Miga
+authorGithub: calamares00
+cover:
+  emoji: "🫓"
+  kicker: Cocina del mundo
+  title: Colombia
+  colors: ["#a16207", "#1d4ed8"]
+defaults:
+  origin: Colombia
+  originCountry: CO
+  source: "Pack «Cocina del mundo: Colombia» de Miga"
+recipes:
+
+  - name: Bandeja paisa
+    category: Carnes
+    difficulty: HARD
+    prep: 30
+    cook: 60
+    servings: 4
+    origin: Antioquia
+    notes: El plato más contundente de Colombia. Los frijoles son los de la receta de frijoles antioqueños de este mismo pack.
+    tags: [plato único, fiesta]
+    ingredients:
+      - items:
+          - [frijoles antioqueños, 800, g]
+          - [arroz blanco cocido, 600, g]
+          - [carne molida de res, 400, g]
+          - [hogao, 4, cucharada]
+          - [panceta de cerdo con piel para chicharrón, 500, g]
+          - [chorizos antioqueños, 4, null]
+          - [huevos, 4, null]
+          - [plátanos maduros, 2, null]
+          - [arepas, 4, null]
+          - [aguacate, 1, null]
+          - [aceite de girasol, null, null]
+          - [sal, null, null]
+    steps:
+      - Corta la panceta en trozos de 5 cm, sálala y cuécela en una olla con agua hasta cubrir, a fuego medio, hasta que el agua se evapore. Deja que se fría en su grasa hasta que la piel esté crujiente.
+      - Sofríe la carne molida con el hogao y la sal hasta que esté seca y suelta.
+      - Asa o fríe los chorizos. Fríe los plátanos en tajadas a lo largo y los huevos.
+      - Sirve en cada plato arroz, frijoles, carne molida, chicharrón, chorizo, huevo frito, tajadas de plátano, una arepa y aguacate.
+
+  - name: Frijoles antioqueños
+    category: Legumbres
+    difficulty: MEDIUM
+    prep: 15
+    cook: 120
+    servings: 6
+    origin: Antioquia
+    notes: Los frijoles cargamanto se remojan la víspera. El plátano verde rallado espesa el caldo.
+    tags: [cuchara, casero]
+    ingredients:
+      - items:
+          - [frijoles cargamanto o rojos, 500, g]
+          - [pezuña o codillo de cerdo, 400, g]
+          - [plátano verde, 1, null]
+          - [zanahoria, 1, null]
+          - [hogao, 6, cucharada]
+          - [comino molido, 0.5, cucharadita]
+          - [sal, null, null]
+    steps:
+      - Cuece los frijoles escurridos con la pezuña en agua que los cubra bien, a fuego suave, 1 hora y media, o 40 minutos en olla exprés.
+      - Añade el plátano verde y la zanahoria rallados y cuece 20 minutos más, hasta que el caldo espese.
+      - Incorpora el hogao, el comino y la sal y cuece 10 minutos.
+      - Desmenuza la carne de la pezuña y devuélvela a la olla. Sirve con arroz blanco y aguacate.
+
+  - name: Ajiaco santafereño
+    category: Sopas y cremas
+    difficulty: MEDIUM
+    prep: 30
+    cook: 70
+    servings: 6
+    origin: Bogotá
+    notes: Las guascas son una hierba andina que le da su sabor; se venden secas en tiendas latinas. La papa criolla se deshace y espesa la sopa.
+    tags: [sopa, pollo]
+    ingredients:
+      - items:
+          - [pechugas de pollo con hueso, 2, null]
+          - [mazorcas de maíz, 3, null]
+          - [papa criolla, 500, g]
+          - [papa pastusa o patata harinosa, 500, g]
+          - [papa sabanera o patata roja, 500, g]
+          - [cebolla larga, 2, null]
+          - [ajo, 2, diente]
+          - [guascas secas, 3, cucharada]
+          - [agua, 3, l]
+          - [sal, null, null]
+          - [crema de leche, 200, ml]
+          - [alcaparras, 4, cucharada]
+          - [aguacates, 2, null]
+    steps:
+      - Cuece el pollo con las mazorcas en trozos, la cebolla larga, el ajo y la sal en el agua 40 minutos. Saca el pollo y desmenúzalo.
+      - Añade al caldo la papa pastusa y la sabanera peladas y en rodajas y cuece 20 minutos.
+      - Añade la papa criolla pelada y cuece 15 minutos más, removiendo, hasta que se deshaga y la sopa espese.
+      - Añade las guascas y el pollo y cuece 5 minutos.
+      - Sirve con la crema de leche, las alcaparras y el aguacate aparte para que cada uno se sirva.
+
+  - name: Sancocho de gallina
+    category: Sopas y cremas
+    difficulty: MEDIUM
+    prep: 30
+    cook: 120
+    servings: 6
+    origin: Valle del Cauca
+    notes: La gallina criolla da más sabor que el pollo, pero tarda más. Se sirve con arroz blanco, aguacate y ají.
+    tags: [sopa, domingo]
+    ingredients:
+      - items:
+          - [gallina o pollo troceado, 1.5, kg]
+          - [plátanos verdes, 2, null]
+          - [yuca, 500, g]
+          - [papas, 4, null]
+          - [mazorcas de maíz, 2, null]
+          - [cebolla larga, 3, null]
+          - [ajo, 3, diente]
+          - [comino molido, 1, cucharadita]
+          - [cilantro fresco, 1, manojo]
+          - [agua, 4, l]
+          - [sal, null, null]
+    steps:
+      - Cuece la gallina en el agua con la cebolla larga, el ajo machacado, el comino, la mitad del cilantro y la sal 1 hora, o 30 minutos si es pollo.
+      - Añade los plátanos pelados y partidos con la mano en trozos y las mazorcas en rodajas y cuece 20 minutos.
+      - Añade la yuca y las papas en trozos y cuece 25-30 minutos más, hasta que todo esté tierno.
+      - Ajusta de sal y sirve con el resto del cilantro picado.
+
+  - name: Arepas paisas
+    category: Panes y masas
+    difficulty: EASY
+    prep: 10
+    cook: 15
+    servings: 6
+    origin: Antioquia
+    notes: Se hacen con harina de maíz blanco precocida. Se comen con mantequilla y quesito, o acompañando cualquier comida.
+    tags: [pan, sin gluten]
+    ingredients:
+      - items:
+          - [harina de maíz blanco precocida, 300, g]
+          - [agua tibia, 400, ml]
+          - [sal, 1, cucharadita]
+          - [mantequilla, 20, g]
+    steps:
+      - Mezcla la harina con la sal y añade el agua poco a poco, amasando hasta que la masa esté suave y no se pegue. Deja que repose 5 minutos.
+      - Forma bolas del tamaño de una mandarina y aplánalas hasta tener discos de 1 cm de grosor.
+      - Ásalas en una plancha o sartén engrasada a fuego medio 5-6 minutos por cada lado, hasta que tengan costra.
+      - Úntalas con mantequilla al servir.
+
+  - name: Empanadas colombianas
+    category: Entrantes
+    difficulty: MEDIUM
+    prep: 45
+    cook: 30
+    servings: 6
+    notes: La masa es de maíz amarillo, por eso quedan tan crujientes. Se sirven con ají.
+    tags: [frito, aperitivo, sin gluten]
+    ingredients:
+      - group: Masa
+        items:
+          - [harina de maíz amarillo precocida, 300, g]
+          - [agua tibia, 400, ml]
+          - [sal, 1, cucharadita]
+          - [achiote molido o cúrcuma, 0.5, cucharadita]
+      - group: Relleno
+        items:
+          - [papas, 400, g]
+          - [carne molida de res, 250, g]
+          - [hogao, 5, cucharada]
+          - [comino molido, 0.5, cucharadita]
+          - [sal, null, null]
+          - [aceite de girasol para freír, null, null]
+    steps:
+      - Cuece las papas peladas y aplástalas un poco, dejando trozos.
+      - Sofríe la carne con el hogao, el comino y la sal y mézclala con la papa. Deja que se enfríe.
+      - Mezcla la harina con la sal, el achiote y el agua y amasa hasta que esté suave.
+      - Estira bolitas de masa entre dos plásticos hasta que estén finas, pon una cucharada de relleno, dobla y corta el borde con un vaso.
+      - Fríelas en abundante aceite caliente hasta que estén doradas y crujientes.
+
+  - name: Patacones
+    category: Entrantes
+    difficulty: EASY
+    prep: 10
+    cook: 15
+    servings: 4
+    notes: En la costa también se llaman tostones. Se comen con hogao, guacamole o queso costeño.
+    tags: [frito, vegano, sin gluten]
+    ingredients:
+      - items:
+          - [plátanos verdes, 2, null]
+          - [aceite de girasol para freír, null, null]
+          - [sal, null, null]
+    steps:
+      - Pela los plátanos y córtalos en trozos de 4 cm.
+      - Fríelos en aceite a temperatura media 5 minutos, hasta que estén tiernos pero sin dorarse. Sácalos.
+      - Aplástalos con una tabla o una patacona hasta que tengan 1 cm de grosor.
+      - Fríelos de nuevo en aceite muy caliente hasta que estén dorados y crujientes. Sálalos.
+
+  - name: Hogao
+    category: Salsas
+    difficulty: EASY
+    prep: 10
+    cook: 20
+    servings: 6
+    notes: El sofrito colombiano, base de frijoles, carnes y arroces. Se guarda en la nevera hasta 5 días.
+    tags: [salsa, vegana]
+    ingredients:
+      - items:
+          - [tomates maduros, 4, null]
+          - [cebolla larga, 4, null]
+          - [ajo, 2, diente]
+          - [aceite de girasol, 3, cucharada]
+          - [comino molido, 0.5, cucharadita]
+          - [achiote molido, 0.5, cucharadita, optional]
+          - [sal, 1, cucharadita]
+    steps:
+      - Pica muy finos los tomates, la cebolla larga y el ajo.
+      - Sofríe la cebolla y el ajo en el aceite a fuego medio 5 minutos.
+      - Añade el tomate, el comino, el achiote y la sal y cocina a fuego suave 15 minutos, removiendo, hasta que esté espeso.
+
+  - name: Ají colombiano
+    category: Salsas
+    difficulty: EASY
+    prep: 15
+    cook: 0
+    servings: 8
+    notes: La salsa picante que acompaña empanadas, sancochos y casi todo. Mejora tras reposar 1 hora.
+    tags: [salsa, picante, vegana]
+    ingredients:
+      - items:
+          - [ajíes picantes, 3, null]
+          - [cebolla larga, 2, null]
+          - [tomate, 1, null]
+          - [cilantro fresco picado, 4, cucharada]
+          - [vinagre blanco, 3, cucharada]
+          - [zumo de limón, 2, cucharada]
+          - [agua, 100, ml]
+          - [sal, 1, cucharadita]
+    steps:
+      - Pica muy finos los ajíes, la cebolla larga y el tomate.
+      - Mézclalos con el cilantro, el vinagre, el limón, el agua y la sal.
+      - Deja que repose al menos 1 hora en la nevera.
+
+  - name: Arroz con pollo colombiano
+    category: Arroces
+    difficulty: MEDIUM
+    prep: 20
+    cook: 45
+    servings: 6
+    notes: Plato de celebraciones familiares. La salsa negra (Worcestershire) y el color (achiote) le dan su tono dorado.
+    tags: [arroz, pollo, fiesta]
+    ingredients:
+      - items:
+          - [pollo troceado, 1, kg]
+          - [arroz de grano largo, 400, g]
+          - [zanahorias, 2, null]
+          - [arvejas (guisantes), 150, g]
+          - [pimentón rojo, 1, null]
+          - [cebolla, 1, null]
+          - [ajo, 3, diente]
+          - [salsa negra (Worcestershire), 2, cucharada]
+          - [achiote molido, 1, cucharadita]
+          - [comino molido, 0.5, cucharadita]
+          - [cilantro fresco picado, 3, cucharada]
+          - [aceite de girasol, 3, cucharada]
+          - [sal, null, null]
+    steps:
+      - Cuece el pollo en 1,2 litros de agua con sal 30 minutos. Desmenúzalo y reserva el caldo.
+      - Sofríe la cebolla, el pimentón y el ajo picados en el aceite 5 minutos. Añade la zanahoria en dados, el achiote y el comino.
+      - Añade el arroz, remueve y vierte 900 ml del caldo con la salsa negra. Ajusta de sal.
+      - Cuando el caldo baje al nivel del arroz, añade el pollo y las arvejas, tapa y cuece a fuego mínimo 20 minutos.
+      - Suelta el arroz con un tenedor, añade el cilantro y sirve con patacones y ensalada.
+
+  - name: Changua
+    category: Sopas y cremas
+    difficulty: EASY
+    prep: 5
+    cook: 10
+    servings: 2
+    origin: Bogotá y Boyacá
+    notes: El desayuno tradicional de la Sabana de Bogotá. El pan calado (tostado y duro) se pone en el fondo del plato.
+    tags: [sopa, desayuno, vegetariana]
+    ingredients:
+      - items:
+          - [leche entera, 500, ml]
+          - [agua, 250, ml]
+          - [huevos, 2, null]
+          - [cebolla larga, 1, null]
+          - [cilantro fresco picado, 2, cucharada]
+          - [pan calado o tostado, 2, rebanada]
+          - [sal, 0.5, cucharadita]
+    steps:
+      - Calienta la leche con el agua, la sal y la cebolla larga picada hasta que hierva.
+      - Baja el fuego y casca los huevos uno a uno en la leche. Cuécelos 3-4 minutos sin remover, hasta que la clara cuaje.
+      - Pon el pan en los platos, sirve encima la changua con un huevo en cada plato y espolvorea el cilantro.
+
+  - name: Pandebono
+    category: Panes y masas
+    difficulty: EASY
+    prep: 15
+    cook: 20
+    servings: 12
+    origin: Valle del Cauca
+    notes: Se hacen con almidón de yuca agrio y queso costeño. Si no los encuentras, usa almidón de yuca normal y feta mezclado con queso fresco.
+    tags: [pan, queso, sin gluten]
+    utensils: [Horno]
+    ingredients:
+      - items:
+          - [almidón de yuca agrio, 100, g]
+          - [harina de maíz precocida, 40, g]
+          - [queso costeño o fresco rallado, 250, g]
+          - [huevo, 1, null]
+          - [azúcar, 1, cucharada]
+          - [leche, 3, cucharada]
+    steps:
+      - Precalienta el horno a 220 °C.
+      - Mezcla el almidón, la harina, el queso y el azúcar. Añade el huevo y la leche poco a poco y amasa hasta tener una masa suave que no se pegue.
+      - Forma 12 bolas o roscas y colócalas en una bandeja con papel de horno.
+      - Hornea 15-18 minutos, hasta que estén doradas. Cómelos calientes.
+
+  - name: Buñuelos colombianos
+    category: Postres
+    difficulty: MEDIUM
+    prep: 20
+    cook: 20
+    servings: 6
+    notes: Imprescindibles en Navidad, con natilla. El aceite no debe estar muy caliente; si la masa está bien hecha, giran solos al freírse.
+    tags: [frito, navidad, queso]
+    ingredients:
+      - items:
+          - [queso costeño o feta, 250, g]
+          - [almidón de yuca, 100, g]
+          - [harina de maíz precocida, 2, cucharada]
+          - [huevo, 1, null]
+          - [azúcar, 2, cucharada]
+          - [polvo de hornear, 0.5, cucharadita]
+          - [leche, 2, cucharada]
+          - [aceite de girasol para freír, null, null]
+    steps:
+      - Ralla o tritura el queso muy fino.
+      - Mézclalo con el almidón, la harina, el azúcar y el polvo de hornear. Añade el huevo y la leche y amasa hasta que la masa esté lisa.
+      - Forma bolas de 4 cm, lisas y sin grietas.
+      - Calienta abundante aceite a fuego medio-bajo, a unos 150 °C, añade los buñuelos y deja que se hinchen y giren; fríelos 8-10 minutos, hasta que estén dorados.
+
+  - name: Natilla colombiana
+    category: Postres
+    difficulty: EASY
+    prep: 10
+    cook: 30
+    servings: 8
+    notes: Se prepara en la Novena de Aguinaldos, antes de Navidad. Se corta en cuadrados una vez fría.
+    tags: [postre, navidad]
+    ingredients:
+      - items:
+          - [leche entera, 1, l]
+          - [panela rallada, 250, g]
+          - [maicena, 150, g]
+          - [canela en rama, 2, null]
+          - [mantequilla, 30, g]
+          - [coco rallado, 50, g, optional]
+          - [canela molida, null, null]
+    steps:
+      - Calienta 750 ml de la leche con la panela y la canela hasta que la panela se disuelva.
+      - Disuelve la maicena en el resto de la leche fría y añádela, colando, a la leche caliente.
+      - Cuece a fuego medio sin dejar de remover 15-20 minutos, hasta que espese y se despegue del fondo.
+      - Añade la mantequilla y el coco, retira la canela y vierte en un molde. Deja que se enfríe y espolvorea canela molida.
+
+  - name: Posta negra cartagenera
+    category: Carnes
+    difficulty: MEDIUM
+    prep: 20
+    cook: 150
+    servings: 6
+    origin: Cartagena de Indias
+    notes: La panela caramelizada y la salsa negra le dan su color oscuro. Mejor si se marina la víspera.
+    tags: [guiso, ternera]
+    ingredients:
+      - items:
+          - [cadera o punta de anca de res en una pieza, 1.2, kg]
+          - [panela rallada, 100, g]
+          - [salsa negra (Worcestershire), 4, cucharada]
+          - [vino tinto, 250, ml]
+          - [cebollas, 2, null]
+          - [tomates, 2, null]
+          - [ajo, 4, diente]
+          - [ají dulce o pimiento, 1, null]
+          - [aceite de girasol, 3, cucharada]
+          - [sal, null, null]
+          - [pimienta negra, null, null]
+    steps:
+      - Tritura la cebolla, el tomate, el ajo y el ají con la salsa negra, la sal y la pimienta, y marina la carne al menos 2 horas.
+      - Calienta el aceite con la panela hasta que se caramelice y oscurezca, sin quemarse.
+      - Dora la carne escurrida en el caramelo por todos los lados.
+      - Añade la marinada y el vino, tapa y cuece a fuego suave 2 horas, dándole la vuelta, hasta que esté tierna y la salsa espesa.
+      - Corta la carne en lonchas y sírvela con la salsa, arroz con coco y patacones.
+
+  - name: Mote de queso
+    category: Sopas y cremas
+    difficulty: EASY
+    prep: 20
+    cook: 40
+    servings: 6
+    origin: Córdoba y Sucre
+    notes: Sopa espesa de ñame con queso costeño. El ñame se puede sustituir por yuca o patata.
+    tags: [sopa, queso]
+    ingredients:
+      - items:
+          - [ñame, 1, kg]
+          - [queso costeño o feta, 300, g]
+          - [cebolla, 1, null]
+          - [ajo, 3, diente]
+          - [cebolla larga, 2, null]
+          - [aceite de girasol, 3, cucharada]
+          - [zumo de limón, 2, cucharada]
+          - [agua, 2, l]
+          - [sal, null, null]
+    steps:
+      - Pela el ñame y córtalo en trozos. Cuécelo en el agua 25-30 minutos, hasta que empiece a deshacerse y espese el caldo.
+      - Sofríe la cebolla, el ajo y la cebolla larga picados en el aceite 5 minutos y añádelos a la olla.
+      - Añade el queso en dados y cuece 5 minutos más, hasta que se ablande sin fundirse del todo.
+      - Termina con el zumo de limón y ajusta de sal; ojo, el queso es salado.
+
+  - name: Arroz con coco
+    category: Arroces
+    difficulty: MEDIUM
+    prep: 10
+    cook: 45
+    servings: 6
+    origin: Costa Caribe
+    notes: Se reduce la leche de coco hasta que suelta su aceite y la parte sólida se tuesta (titoté); eso le da el color marrón y el sabor tostado.
+    tags: [arroz, acompañamiento]
+    ingredients:
+      - items:
+          - [leche de coco, 800, ml]
+          - [arroz de grano largo, 400, g]
+          - [panela rallada, 2, cucharada]
+          - [uvas pasas, 50, g, optional]
+          - [agua, 300, ml]
+          - [sal, 1, cucharadita]
+    steps:
+      - Cuece la leche de coco en una olla a fuego medio, removiendo, 15-20 minutos, hasta que el agua se evapore, suelte el aceite y los sólidos se tuesten y oscurezcan.
+      - Añade la panela y deja que se caramelice 1 minuto.
+      - Añade el agua y la sal, raspando el fondo, y lleva a ebullición.
+      - Incorpora el arroz y las pasas, cuece sin tapar hasta que el líquido baje al nivel del arroz, y después tapa y cuece a fuego mínimo 20 minutos.
+
+  - name: Cazuela de mariscos
+    category: Pescados y mariscos
+    difficulty: MEDIUM
+    prep: 20
+    cook: 30
+    servings: 4
+    origin: Costa Caribe
+    tags: [marisco, leche de coco]
+    ingredients:
+      - items:
+          - [camarones o gambas peladas, 300, g]
+          - [calamar limpio, 250, g]
+          - [mejillones, 400, g]
+          - [almejas, 250, g]
+          - [filete de pescado blanco, 250, g]
+          - [cebolla, 1, null]
+          - [pimentón rojo, 1, null]
+          - [tomates, 2, null]
+          - [ajo, 3, diente]
+          - [vino blanco, 100, ml]
+          - [leche de coco, 400, ml]
+          - [crema de leche, 100, ml]
+          - [cilantro fresco picado, 3, cucharada]
+          - [mantequilla, 30, g]
+          - [sal, null, null]
+    steps:
+      - Sofríe la cebolla, el pimentón y el ajo picados en la mantequilla 5 minutos. Añade el tomate picado y cocina 5 minutos.
+      - Riega con el vino y deja que se evapore. Añade la leche de coco y cuece 5 minutos.
+      - Añade los mejillones y las almejas, tapa y cuece hasta que se abran.
+      - Añade el calamar en anillas, el pescado en dados y los camarones y cuece 4 minutos.
+      - Incorpora la crema y el cilantro, ajusta de sal y sirve con arroz con coco y patacones.
+
+  - name: Sobrebarriga en salsa
+    category: Carnes
+    difficulty: MEDIUM
+    prep: 15
+    cook: 150
+    servings: 6
+    origin: Bogotá
+    notes: La sobrebarriga es la falda de res. Primero se cuece hasta que está tierna y después se termina en salsa.
+    tags: [guiso, ternera]
+    ingredients:
+      - items:
+          - [sobrebarriga (falda de res), 1.2, kg]
+          - [cerveza, 330, ml]
+          - [cebolla larga, 3, null]
+          - [ajo, 4, diente]
+          - [laurel, 2, hoja]
+          - [tomillo seco, 1, cucharadita]
+          - [hogao, 8, cucharada]
+          - [comino molido, 0.5, cucharadita]
+          - [sal, null, null]
+          - [pimienta negra, null, null]
+    steps:
+      - Cuece la sobrebarriga entera con la cerveza, la cebolla larga, el ajo, el laurel, el tomillo, la sal y agua hasta cubrir, a fuego suave, 2 horas, o 50 minutos en olla exprés.
+      - Saca la carne y reserva 300 ml del caldo colado.
+      - Mezcla el hogao con el comino, la pimienta y el caldo reservado y cuece 5 minutos.
+      - Corta la carne en porciones, añádela a la salsa y cuece 10 minutos. Sirve con papas saladas y arroz.
+
+  - name: Limonada de coco
+    category: Bebidas
+    difficulty: EASY
+    prep: 10
+    cook: 0
+    servings: 4
+    origin: Costa Caribe
+    notes: La bebida refrescante de Cartagena. Bátela justo antes de servir para que quede espumosa.
+    tags: [bebida, fría, vegana]
+    utensils: [Batidora]
+    ingredients:
+      - items:
+          - [limas o limones, 4, null]
+          - [crema de coco, 200, ml]
+          - [leche de coco, 200, ml]
+          - [azúcar, 4, cucharada]
+          - [hielo, 3, taza]
+    steps:
+      - Exprime las limas y reserva el zumo.
+      - Pon en el vaso de la batidora el zumo, la crema y la leche de coco, el azúcar y el hielo.
+      - Tritura hasta que el hielo esté picado y la mezcla espumosa. Sirve enseguida.

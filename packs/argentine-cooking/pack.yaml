@@ -1,0 +1,565 @@
+id: argentine-cooking
+version: 1
+updated: 2026-10-31
+language: en
+name: "World cuisine: Argentina"
+description: >-
+  From the asado to afternoon tea: beef short ribs, chimichurri, salsa criolla, choripán,
+  provoleta, criolla empanadas, milanesa a la napolitana, locro, matambre, humita, carbonada,
+  gnocchi with tuco, pastel de papa, revuelto gramajo, dulce de leche, alfajores, pastafrola,
+  medialunas, tortas fritas and chipá.
+author: Miga
+authorGithub: calamares00
+cover:
+  emoji: "🥩"
+  kicker: World cuisine
+  title: Argentina
+  colors: ["#0369a1", "#38bdf8"]
+defaults:
+  origin: Argentina
+  originCountry: AR
+  source: "Miga «World cuisine: Argentina» pack"
+recipes:
+
+  - name: Beef short ribs on the grill
+    category: Meat
+    difficulty: MEDIUM
+    prep: 60
+    cook: 60
+    servings: 6
+    notes: Tira de asado. The secret is a low, patient fire. Prep includes lighting the embers, about 45 minutes. Salt with coarse salt just as it goes on the grill.
+    tags: [asado, grill]
+    utensils: [Barbecue]
+    ingredients:
+      - items:
+          - [cross-cut beef short ribs (tira de asado), 2, kg]
+          - [coarse grill salt, 2, tbsp]
+          - [chimichurri, null, null]
+          - [salsa criolla, null, null, optional]
+    steps:
+      - Prepare wood or charcoal embers and spread them under the grill. You should be able to hold your hand at grill height for 8-10 seconds.
+      - Salt the ribs and lay them bone side down.
+      - Grill for 35-40 minutes without moving them, adding embers at the sides if needed.
+      - Turn them over and grill for 15-20 more minutes, until golden.
+      - Cut between the bones and serve with chimichurri and salsa criolla.
+
+  - name: Chimichurri
+    category: Sauces
+    difficulty: EASY
+    prep: 10
+    cook: 0
+    servings: 8
+    notes: It improves after a few hours, ideally a day, in a jar in the fridge.
+    tags: [sauce, asado, vegan]
+    ingredients:
+      - items:
+          - [chopped parsley, 4, tbsp]
+          - [dried oregano, 2, tbsp]
+          - [garlic, 4, clove]
+          - [chilli flakes, 1, tsp]
+          - [sweet paprika, 1, tsp]
+          - [wine vinegar, 60, ml]
+          - [sunflower or olive oil, 150, ml]
+          - [hot water, 3, tbsp]
+          - [coarse salt, 1, tsp]
+    steps:
+      - Dissolve the salt in the hot water and add the oregano so it rehydrates.
+      - Add the very finely chopped garlic, the parsley, chilli flakes and paprika.
+      - Stir in the vinegar and oil and transfer to a jar.
+
+  - name: Salsa criolla
+    category: Sauces
+    difficulty: EASY
+    prep: 15
+    cook: 0
+    servings: 6
+    notes: Served with asado, choripán and empanadas.
+    tags: [sauce, asado, vegan]
+    ingredients:
+      - items:
+          - [onion, 1, null]
+          - [tomatoes, 2, null]
+          - [red pepper, 0.5, null]
+          - [green pepper, 0.5, null]
+          - [wine vinegar, 3, tbsp]
+          - [sunflower oil, 5, tbsp]
+          - [dried oregano, 0.5, tsp]
+          - [salt, 1, tsp]
+    steps:
+      - Finely dice the onion, deseeded tomatoes and peppers.
+      - Mix with the vinegar, oil, oregano and salt.
+      - Leave to rest for 30 minutes before serving.
+
+  - name: Choripán
+    category: Meat
+    difficulty: EASY
+    prep: 5
+    cook: 25
+    servings: 4
+    notes: The sandwich of football grounds and every asado. The chorizo is butterflied so it cooks evenly.
+    tags: [asado, grill, sandwich]
+    utensils: [Barbecue]
+    ingredients:
+      - items:
+          - [Argentine grilling chorizos, 4, null]
+          - [French bread rolls or baguette, 4, null]
+          - [chimichurri, 4, tbsp]
+          - [salsa criolla, 4, tbsp, optional]
+    steps:
+      - Grill the chorizos over a medium heat for 15 minutes, turning.
+      - Butterfly them lengthways and grill for 5 more minutes cut side down.
+      - Toast the split rolls on the grill for 1-2 minutes.
+      - Put each chorizo in a roll with chimichurri and salsa criolla.
+
+  - name: Provoleta
+    category: Starters
+    difficulty: EASY
+    prep: 5
+    cook: 10
+    servings: 4
+    notes: Made on the grill or in a cast-iron pan. The cheese should be fridge-cold so it doesn't spread.
+    tags: [asado, cheese, vegetarian]
+    utensils: [Barbecue]
+    ingredients:
+      - items:
+          - [provolone cheese in one 2 cm slice, 300, g]
+          - [dried oregano, 1, tsp]
+          - [chilli flakes, 0.5, tsp]
+          - [olive oil, 1, tbsp]
+    steps:
+      - Sprinkle the cheese with the oregano and chilli on both sides.
+      - Put it on the very hot grill or in a cast-iron pan and cook for 4 minutes, until a crust forms.
+      - Turn it with a spatula and cook for 3 more minutes, until melted inside.
+      - Drizzle with the oil and serve straight away with bread.
+
+  - name: Criolla beef empanadas
+    category: Starters
+    difficulty: MEDIUM
+    prep: 60
+    cook: 20
+    servings: 6
+    notes: Make the filling the day before, or at least 2 hours ahead, so it is cold and the fat sets. Every province has its own version; this one is baked.
+    tags: [baked, snack]
+    utensils: [Oven]
+    ingredients:
+      - group: Filling
+        items:
+          - [hand-chopped beef, 500, g]
+          - [onions, 2, null]
+          - [spring onions, 2, null]
+          - [beef dripping or oil, 3, tbsp]
+          - [ground cumin, 1, tsp]
+          - [sweet paprika, 1, tbsp]
+          - [chilli flakes, 0.5, tsp]
+          - [hard-boiled eggs, 2, null]
+          - [green olives, 12, null]
+          - [salt, 1, tsp]
+      - group: Pastry
+        items:
+          - [empanada pastry discs, 12, null]
+          - [egg for brushing, 1, null]
+    steps:
+      - Gently cook the chopped onions in the dripping for 10 minutes. Add the beef and cook just until it changes colour.
+      - Add the cumin, paprika, chilli, salt and chopped spring onion. Let it cool completely in the fridge.
+      - Preheat the oven to 220 °C. Put a spoonful of filling, a piece of egg and an olive on each disc.
+      - Wet the edge with water, close the empanada and crimp it by folding the edge into small pleats (repulgue).
+      - Brush with egg and bake for 15-18 minutes, until golden.
+
+  - name: Milanesa a la napolitana
+    category: Meat
+    difficulty: EASY
+    prep: 20
+    cook: 20
+    servings: 4
+    notes: Despite the name, it was invented in Buenos Aires. Served with chips.
+    tags: [fried, beef]
+    utensils: [Oven]
+    ingredients:
+      - items:
+          - [thin beef topside steaks, 4, null]
+          - [eggs, 2, null]
+          - [chopped garlic, 1, tsp]
+          - [chopped parsley, 1, tbsp]
+          - [breadcrumbs, 150, g]
+          - [sunflower oil for frying, null, null]
+          - [tomato sauce, 200, g]
+          - [cooked ham, 4, slice]
+          - [mozzarella, 200, g]
+          - [dried oregano, 1, tsp]
+          - [salt, null, null]
+    steps:
+      - Beat the eggs with the garlic, parsley and salt. Dip the steaks in the egg and then in the breadcrumbs, pressing well.
+      - Fry in hot oil for 2-3 minutes on each side, until golden. Drain.
+      - Preheat the oven to 220 °C. Put the milanesas on a tray and top each with tomato sauce, a slice of ham and mozzarella.
+      - Sprinkle with oregano and grill for 5-8 minutes, until the cheese melts.
+
+  - name: Locro
+    category: Legumes
+    difficulty: HARD
+    prep: 30
+    cook: 210
+    servings: 8
+    notes: The patriotic stew of 25 May and 9 July. Soak the corn and beans the night before. Served with quiquirimichi, a spicy sauce.
+    tags: [stew, national holiday, winter]
+    ingredients:
+      - group: Locro
+        items:
+          - [cracked white corn, 500, g]
+          - [dried white beans, 250, g]
+          - [pumpkin, 500, g]
+          - [beef flank or shin, 500, g]
+          - [pork belly, 200, g]
+          - [chorizos, 2, null]
+          - [pig's trotters, 2, null, optional]
+          - [onion, 1, null]
+          - [ground cumin, 1, tsp]
+          - [salt, null, null]
+      - group: Quiquirimichi
+        items:
+          - [beef dripping or oil, 4, tbsp]
+          - [spring onions, 3, null]
+          - [sweet paprika, 1, tbsp]
+          - [chilli flakes, 1, tsp]
+    steps:
+      - Simmer the drained corn and beans in a large pot with plenty of water for 1 hour, stirring so they don't stick.
+      - Add the beef, pork belly and trotters in pieces and the chopped onion and simmer for 1 more hour.
+      - Add the pumpkin in chunks, the sliced chorizos and the cumin and simmer for 1 more hour, stirring often, until the pumpkin breaks down and the locro is thick. Season with salt.
+      - For the quiquirimichi, heat the dripping with the chopped spring onion for 2 minutes, turn off the heat and add the paprika and chilli.
+      - Serve the locro with a spoonful of quiquirimichi on top.
+
+  - name: Matambre arrollado
+    category: Meat
+    difficulty: MEDIUM
+    prep: 30
+    cook: 150
+    servings: 8
+    notes: Matambre is the thin layer of beef between the hide and the ribs. Served cold, in slices, as a starter at celebrations.
+    tags: [cold cuts, festive]
+    ingredients:
+      - items:
+          - [beef matambre (flank skirt), 1.5, kg]
+          - [hard-boiled eggs, 3, null]
+          - [carrots, 2, null]
+          - [red pepper, 1, null]
+          - [garlic, 3, clove]
+          - [chopped parsley, 4, tbsp]
+          - [chilli flakes, 0.5, tsp]
+          - [salt, 1, tbsp]
+          - [black pepper, null, null]
+    steps:
+      - Trim the excess fat, lay the matambre fat side down and season it.
+      - Scatter over the chopped garlic and parsley and the chilli. Lay strips of carrot and pepper and quartered hard-boiled eggs along it.
+      - Roll it up tightly along the grain and tie with kitchen string. Wrap it in a clean cloth or cooking-safe film.
+      - Simmer it in salted water for 2½ hours.
+      - Let it cool in the water, then press it in the fridge under a weight overnight. Serve in thin slices.
+
+  - name: Humita en olla
+    category: Vegetables
+    difficulty: MEDIUM
+    prep: 30
+    cook: 40
+    servings: 4
+    notes: A dish from northern Argentina made with grated fresh corn (choclo). Tinned sweetcorn works too.
+    tags: [corn, vegetarian]
+    ingredients:
+      - items:
+          - [corn on the cob, 6, null]
+          - [onion, 1, null]
+          - [red pepper, 1, null]
+          - [grated pumpkin, 200, g]
+          - [milk, 200, ml]
+          - [diced fresh cheese, 150, g]
+          - [fresh basil, 6, leaf]
+          - [sweet paprika, 1, tsp]
+          - [sugar, 1, pinch]
+          - [sunflower oil, 3, tbsp]
+          - [salt, null, null]
+    steps:
+      - Grate the corn kernels off the cobs with a coarse grater, catching the juice.
+      - Gently cook the chopped onion and pepper in the oil for 8 minutes. Add the paprika and pumpkin.
+      - Add the corn and milk and simmer for 25-30 minutes, stirring, until thick.
+      - Adjust the salt and sugar, add the basil and cheese and serve as it starts to melt.
+
+  - name: Carbonada criolla
+    category: Meat
+    difficulty: MEDIUM
+    prep: 25
+    cook: 90
+    servings: 6
+    notes: A beef stew with vegetables and fruit, sometimes served inside a roasted pumpkin. The peaches give it its sweet and sour touch.
+    tags: [stew, winter]
+    ingredients:
+      - items:
+          - [stewing beef, 600, g]
+          - [onion, 1, null]
+          - [red pepper, 1, null]
+          - [tomatoes, 2, null]
+          - [pumpkin, 400, g]
+          - [sweet potato, 300, g]
+          - [potatoes, 300, g]
+          - [corn on the cob, 2, null]
+          - [peaches in syrup, 4, null]
+          - [beef stock, 1, l]
+          - [bay leaf, 1, null]
+          - [dried thyme, 0.5, tsp]
+          - [sunflower oil, 3, tbsp]
+          - [salt, null, null]
+    steps:
+      - Brown the cubed beef in the oil and take it out. Gently cook the chopped onion and pepper for 8 minutes. Add the chopped tomato and cook for 5 minutes.
+      - Return the beef, add the stock, bay leaf and thyme and simmer covered for 45 minutes.
+      - Add the cubed pumpkin, sweet potato and potatoes and the sliced corn, and simmer for 25 more minutes.
+      - Add the peaches in pieces, simmer for 5 minutes and season with salt.
+
+  - name: Gnocchi with tuco
+    category: Pasta
+    difficulty: MEDIUM
+    prep: 40
+    cook: 60
+    servings: 6
+    notes: In Argentina ñoquis are eaten on the 29th of every month, with a banknote under the plate to bring prosperity.
+    tags: [pasta, tradition]
+    ingredients:
+      - group: Gnocchi
+        items:
+          - [floury potatoes, 1, kg]
+          - [plain flour, 300, g]
+          - [egg, 1, null]
+          - [nutmeg, 1, pinch]
+          - [salt, 1, tsp]
+      - group: Tuco
+        items:
+          - [crushed tomatoes, 800, g]
+          - [onion, 1, null]
+          - [red pepper, 0.5, null]
+          - [garlic, 2, clove]
+          - [bay leaf, 1, null]
+          - [dried oregano, 1, tsp]
+          - [olive oil, 3, tbsp]
+          - [salt, null, null]
+          - [grated cheese, 50, g]
+    steps:
+      - group: Tuco
+        items:
+          - Gently cook the chopped onion, pepper and garlic in the oil for 10 minutes. Add the tomatoes, bay leaf, oregano and salt and simmer for 40 minutes.
+      - group: Gnocchi
+        items:
+          - Boil the potatoes in their skins, peel them and pass them through a ricer while hot.
+          - Mix with the salt, nutmeg and egg and add the flour little by little until you have a soft dough that doesn't stick.
+          - Roll into 2 cm ropes, cut into 2 cm pieces and mark them with a fork.
+          - Cook in boiling salted water and lift them out when they rise to the surface. Serve with the tuco and grated cheese.
+
+  - name: Pastel de papa
+    category: Meat
+    difficulty: EASY
+    prep: 25
+    cook: 60
+    servings: 6
+    notes: A home-cooking classic, a cousin of shepherd's pie. Some people sprinkle a little sugar on top before baking.
+    tags: [baked, home-style]
+    utensils: [Oven]
+    ingredients:
+      - group: Filling
+        items:
+          - [minced beef, 600, g]
+          - [onions, 2, null]
+          - [red pepper, 1, null]
+          - [sweet paprika, 1, tsp]
+          - [ground cumin, 0.5, tsp]
+          - [sliced green olives, 50, g]
+          - [hard-boiled eggs, 2, null]
+          - [sunflower oil, 2, tbsp]
+          - [salt, null, null]
+      - group: Mash
+        items:
+          - [potatoes, 1.2, kg]
+          - [hot milk, 200, ml]
+          - [butter, 50, g]
+          - [nutmeg, 1, pinch]
+          - [grated cheese, 50, g]
+          - [salt, null, null]
+    steps:
+      - Gently cook the chopped onions and pepper in the oil for 10 minutes. Add the beef and brown it. Season with the paprika, cumin and salt and add the olives.
+      - Boil the potatoes and mash them with the milk, butter, nutmeg and salt.
+      - Preheat the oven to 200 °C. Spread the meat in a dish, scatter over the chopped egg and cover with the mash.
+      - Sprinkle with the grated cheese and bake for 20-25 minutes, until golden.
+
+  - name: Revuelto gramajo
+    category: Eggs
+    difficulty: EASY
+    prep: 15
+    cook: 20
+    servings: 4
+    notes: A Buenos Aires bodegón classic. Papas pay are very thin fried potato sticks; shop-bought ones work too.
+    tags: [eggs, quick]
+    ingredients:
+      - items:
+          - [potatoes, 400, g]
+          - [sunflower oil for frying, null, null]
+          - [cooked ham in strips, 150, g]
+          - [onion, 1, null]
+          - [eggs, 6, null]
+          - [cooked peas, 100, g, optional]
+          - [chopped parsley, 2, tbsp]
+          - [butter, 20, g]
+          - [salt, null, null]
+    steps:
+      - Cut the potatoes into very thin sticks, rinse, dry and fry until crisp. Salt them.
+      - Gently cook the sliced onion in the butter for 5 minutes. Add the ham and peas.
+      - Add the eggs beaten with salt and stir over a low heat until they start to set.
+      - Fold in the fried potatoes for just a moment so they stay crisp and serve with parsley.
+
+  - name: Home-made dulce de leche
+    category: Desserts
+    difficulty: EASY
+    prep: 5
+    cook: 150
+    servings: 12
+    notes: Stir often, and more so at the end, when it thickens. The bicarbonate gives it its toasty colour and stops it splitting.
+    tags: [sweet, gluten-free]
+    ingredients:
+      - items:
+          - [whole milk, 2, l]
+          - [sugar, 500, g]
+          - [bicarbonate of soda, 0.5, tsp]
+          - [vanilla extract, 1, tsp]
+    steps:
+      - Put the milk and sugar in a large, heavy-based pot and bring to the boil, stirring.
+      - Add the bicarbonate mixed with a little milk (it will foam up) and lower to a gentle heat.
+      - Cook for 2-2½ hours, stirring often with a wooden spoon, until thick and caramel-coloured.
+      - Add the vanilla and transfer to clean jars. It thickens further as it cools.
+
+  - name: Cornflour alfajores
+    category: Desserts
+    difficulty: MEDIUM
+    prep: 30
+    cook: 12
+    servings: 20
+    notes: The biscuits should barely colour. They are filled with dulce de leche repostero, which is thicker than the spreading kind.
+    tags: [sweet, afternoon tea]
+    utensils: [Oven]
+    ingredients:
+      - items:
+          - [cornflour, 300, g]
+          - [plain flour, 200, g]
+          - [softened butter, 200, g]
+          - [sugar, 150, g]
+          - [egg yolks, 3, null]
+          - [brandy, 1, tbsp]
+          - [lemon zest, 1, tsp]
+          - [vanilla extract, 1, tsp]
+          - [baking powder, 1, tsp]
+          - [bicarbonate of soda, 0.5, tsp]
+          - [thick dulce de leche, 400, g]
+          - [desiccated coconut, 50, g]
+    steps:
+      - Beat the butter with the sugar until creamy. Add the yolks one at a time, then the brandy, zest and vanilla.
+      - Add the sifted cornflour, flour, baking powder and bicarbonate and bring together without kneading.
+      - Roll out the dough 5 mm thick and cut 5 cm rounds. Put them on trays lined with baking paper.
+      - Bake at 170 °C for 10-12 minutes, without letting them colour. Let them cool.
+      - Sandwich them in pairs with dulce de leche and roll the edges in coconut.
+
+  - name: Pastafrola
+    category: Desserts
+    difficulty: EASY
+    prep: 25
+    cook: 35
+    servings: 8
+    notes: The tart of the Argentine afternoon tea. Quince paste can be replaced with sweet potato paste or dulce de leche.
+    tags: [tart, afternoon tea]
+    utensils: [Oven]
+    ingredients:
+      - items:
+          - [plain flour, 300, g]
+          - [cold butter, 150, g]
+          - [sugar, 100, g]
+          - [egg, 1, null]
+          - [egg yolk, 1, null]
+          - [baking powder, 1, tsp]
+          - [lemon zest, 1, tsp]
+          - [quince paste (membrillo), 500, g]
+          - [hot water, 3, tbsp]
+    steps:
+      - Mix the flour, sugar and baking powder. Rub in the diced butter. Add the egg, yolk and zest and bring together without kneading. Chill for 30 minutes.
+      - Soften the quince paste with a fork and the hot water until spreadable.
+      - Preheat the oven to 180 °C. Roll out two-thirds of the pastry and line a 24 cm tin. Fill with the quince.
+      - Roll out the rest of the pastry, cut it into strips and lay them in a lattice.
+      - Bake for 30-35 minutes, until golden.
+
+  - name: Medialunas
+    category: Breads and doughs
+    difficulty: HARD
+    prep: 180
+    cook: 15
+    servings: 16
+    notes: Smaller and sweeter than croissants, with a shiny syrup glaze. Eaten with milky coffee.
+    tags: [pastry, breakfast]
+    utensils: [Oven]
+    ingredients:
+      - group: Dough
+        items:
+          - [strong bread flour, 500, g]
+          - [lukewarm milk, 200, ml]
+          - [sugar, 80, g]
+          - [egg, 1, null]
+          - [fresh yeast, 25, g]
+          - [honey, 1, tbsp]
+          - [vanilla extract, 1, tsp]
+          - [salt, 1, tsp]
+          - [cold butter for laminating, 250, g]
+      - group: Syrup
+        items:
+          - [sugar, 100, g]
+          - [water, 100, ml]
+    steps:
+      - Dissolve the yeast in the milk with the honey. Mix with the flour, sugar, egg, vanilla and salt and knead for 10 minutes. Chill for 1 hour.
+      - Flatten the cold butter between two sheets of paper into a square. Roll the dough into a rectangle, put the butter in the middle and fold the dough over it.
+      - Roll into a long rectangle and fold in three. Chill for 20 minutes. Repeat the rolling and folding twice more.
+      - Roll the dough 4 mm thick, cut narrow triangles and roll them up from the base, curving the ends. Leave covered to rise for 1½ hours, until doubled.
+      - Brush with egg and bake at 200 °C for 12-15 minutes. Boil the sugar with the water for 2 minutes and brush the medialunas as they come out of the oven.
+
+  - name: Tortas fritas
+    category: Breads and doughs
+    difficulty: EASY
+    prep: 20
+    cook: 20
+    servings: 12
+    notes: A rainy-day tradition, with mate. They are fried in beef dripping or oil.
+    tags: [fried, afternoon tea]
+    ingredients:
+      - items:
+          - [plain flour, 500, g]
+          - [beef dripping or butter, 60, g]
+          - [warm water, 250, ml]
+          - [salt, 10, g]
+          - [baking powder, 1, tsp]
+          - [dripping or oil for frying, null, null]
+          - [sugar for sprinkling, null, null]
+    steps:
+      - Mix the flour with the salt and baking powder. Add the melted dripping and the water and knead until smooth. Cover and rest for 20 minutes.
+      - Divide into 12 pieces and roll them into 5 mm discs. Poke a hole in the middle with your finger.
+      - Fry them in the hot fat for 1-2 minutes on each side, until puffed and golden.
+      - Drain and sprinkle with sugar.
+
+  - name: Chipá
+    category: Breads and doughs
+    difficulty: EASY
+    prep: 20
+    cook: 20
+    servings: 20
+    origin: Misiones and Corrientes
+    notes: Cassava starch and cheese rolls, shared with Paraguay. Eat them warm.
+    tags: [bread, cheese, gluten-free]
+    utensils: [Oven]
+    ingredients:
+      - items:
+          - [cassava (tapioca) starch, 500, g]
+          - [grated semi-hard cheese, 300, g]
+          - [eggs, 2, null]
+          - [softened butter, 100, g]
+          - [milk, 100, ml]
+          - [salt, 1, tsp]
+    steps:
+      - Preheat the oven to 200 °C.
+      - Mix the starch with the salt and butter. Add the eggs, cheese and milk little by little and knead into a soft dough that doesn't stick.
+      - Shape 3 cm balls and put them on a tray lined with baking paper.
+      - Bake for 18-20 minutes, until barely golden.

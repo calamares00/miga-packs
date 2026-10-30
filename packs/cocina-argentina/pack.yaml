@@ -1,0 +1,565 @@
+id: cocina-argentina
+version: 1
+updated: 2026-10-31
+language: es
+name: "Cocina del mundo: Argentina"
+description: >-
+  Del asado a la merienda: tira de asado, chimichurri, salsa criolla, choripán, provoleta,
+  empanadas criollas, milanesa a la napolitana, locro, matambre arrollado, humita, carbonada,
+  ñoquis con tuco, pastel de papa, revuelto gramajo, dulce de leche, alfajores de maicena,
+  pastafrola, medialunas, tortas fritas y chipá.
+author: Miga
+authorGithub: calamares00
+cover:
+  emoji: "🥩"
+  kicker: Cocina del mundo
+  title: Argentina
+  colors: ["#0369a1", "#38bdf8"]
+defaults:
+  origin: Argentina
+  originCountry: AR
+  source: "Pack «Cocina del mundo: Argentina» de Miga"
+recipes:
+
+  - name: Tira de asado
+    category: Carnes
+    difficulty: MEDIUM
+    prep: 60
+    cook: 60
+    servings: 6
+    notes: El secreto es el fuego bajo y paciente. La preparación incluye encender las brasas, unos 45 minutos. Se sala con sal gruesa justo al ponerla en la parrilla.
+    tags: [asado, parrilla]
+    utensils: [Barbacoa]
+    ingredients:
+      - items:
+          - [tira de asado (costillar de res), 2, kg]
+          - [sal gruesa parrillera, 2, cucharada]
+          - [chimichurri, null, null]
+          - [salsa criolla, null, null, optional]
+    steps:
+      - Prepara las brasas de leña o carbón y extiéndelas bajo la parrilla. Debe aguantar la mano a la altura de la parrilla unos 8-10 segundos.
+      - Sala la tira y colócala con el hueso hacia abajo.
+      - Ásala 35-40 minutos sin moverla, añadiendo brasas a los lados si hace falta.
+      - Dale la vuelta y ásala 15-20 minutos más, hasta que esté dorada.
+      - Córtala entre los huesos y sírvela con chimichurri y salsa criolla.
+
+  - name: Chimichurri
+    category: Salsas
+    difficulty: EASY
+    prep: 10
+    cook: 0
+    servings: 8
+    notes: Mejora si reposa unas horas, o mejor un día, en un frasco en la nevera.
+    tags: [salsa, asado, vegana]
+    ingredients:
+      - items:
+          - [perejil picado, 4, cucharada]
+          - [orégano seco, 2, cucharada]
+          - [ajo, 4, diente]
+          - [ají molido, 1, cucharadita]
+          - [pimentón dulce, 1, cucharadita]
+          - [vinagre de vino, 60, ml]
+          - [aceite de girasol o de oliva, 150, ml]
+          - [agua caliente, 3, cucharada]
+          - [sal gruesa, 1, cucharadita]
+    steps:
+      - Disuelve la sal en el agua caliente y añade el orégano para que se hidrate.
+      - Añade el ajo muy picado, el perejil, el ají molido y el pimentón.
+      - Incorpora el vinagre y el aceite, mezcla y pásalo a un frasco.
+
+  - name: Salsa criolla
+    category: Salsas
+    difficulty: EASY
+    prep: 15
+    cook: 0
+    servings: 6
+    notes: Acompaña el asado, el choripán y las empanadas.
+    tags: [salsa, asado, vegana]
+    ingredients:
+      - items:
+          - [cebolla, 1, null]
+          - [tomates, 2, null]
+          - [pimiento rojo, 0.5, null]
+          - [pimiento verde, 0.5, null]
+          - [vinagre de vino, 3, cucharada]
+          - [aceite de girasol, 5, cucharada]
+          - [orégano seco, 0.5, cucharadita]
+          - [sal, 1, cucharadita]
+    steps:
+      - Pica en daditos pequeños la cebolla, los tomates sin semillas y los pimientos.
+      - Mézclalos con el vinagre, el aceite, el orégano y la sal.
+      - Deja que repose 30 minutos antes de servir.
+
+  - name: Choripán
+    category: Carnes
+    difficulty: EASY
+    prep: 5
+    cook: 25
+    servings: 4
+    notes: El sándwich de la cancha y del asado. Se abre el chorizo en mariposa para que se haga parejo.
+    tags: [asado, parrilla, bocadillo]
+    utensils: [Barbacoa]
+    ingredients:
+      - items:
+          - [chorizos parrilleros, 4, null]
+          - [panes franceses o baguette, 4, null]
+          - [chimichurri, 4, cucharada]
+          - [salsa criolla, 4, cucharada, optional]
+    steps:
+      - Asa los chorizos en la parrilla a fuego medio 15 minutos, dándoles la vuelta.
+      - Ábrelos en mariposa a lo largo y ásalos 5 minutos más por el lado abierto.
+      - Tuesta los panes abiertos en la parrilla 1-2 minutos.
+      - Pon cada chorizo en un pan con chimichurri y salsa criolla.
+
+  - name: Provoleta
+    category: Entrantes
+    difficulty: EASY
+    prep: 5
+    cook: 10
+    servings: 4
+    notes: Se hace en la parrilla o en una sartén de hierro. El queso debe estar frío de la nevera para que no se desparrame.
+    tags: [asado, queso, vegetariana]
+    utensils: [Barbacoa]
+    ingredients:
+      - items:
+          - [queso provolone en una rodaja de 2 cm, 300, g]
+          - [orégano seco, 1, cucharadita]
+          - [ají molido, 0.5, cucharadita]
+          - [aceite de oliva, 1, cucharada]
+    steps:
+      - Espolvorea el queso con el orégano y el ají por los dos lados.
+      - Ponlo sobre la parrilla bien caliente o en una sartén de hierro y cocina 4 minutos, hasta que se forme costra.
+      - Dale la vuelta con una espátula y cocina 3 minutos más, hasta que esté fundido por dentro.
+      - Riega con el aceite y sirve enseguida con pan.
+
+  - name: Empanadas criollas de carne
+    category: Entrantes
+    difficulty: MEDIUM
+    prep: 60
+    cook: 20
+    servings: 6
+    notes: El relleno se prepara la víspera o al menos 2 horas antes para que esté frío y la grasa cuaje. Cada provincia tiene su versión; esta es al horno.
+    tags: [al horno, aperitivo]
+    utensils: [Horno]
+    ingredients:
+      - group: Relleno
+        items:
+          - [carne de vaca picada a cuchillo, 500, g]
+          - [cebollas, 2, null]
+          - [cebolletas (verdeo), 2, null]
+          - [grasa de vaca o aceite, 3, cucharada]
+          - [comino molido, 1, cucharadita]
+          - [pimentón dulce, 1, cucharada]
+          - [ají molido, 0.5, cucharadita]
+          - [huevos duros, 2, null]
+          - [aceitunas verdes, 12, null]
+          - [sal, 1, cucharadita]
+      - group: Masa
+        items:
+          - [tapas de empanada, 12, null]
+          - [huevo para pintar, 1, null]
+    steps:
+      - Pocha las cebollas picadas en la grasa 10 minutos. Añade la carne y cocina solo hasta que cambie de color.
+      - Añade el comino, el pimentón, el ají y la sal y el verdeo picado. Deja que se enfríe del todo en la nevera.
+      - Precalienta el horno a 220 °C. Pon en cada tapa una cucharada de relleno, un trozo de huevo duro y una aceituna.
+      - Moja el borde con agua, cierra la empanada y haz el repulgue doblando el borde en pequeños pliegues.
+      - Pinta con huevo y hornea 15-18 minutos, hasta que estén doradas.
+
+  - name: Milanesa a la napolitana
+    category: Carnes
+    difficulty: EASY
+    prep: 20
+    cook: 20
+    servings: 4
+    notes: Pese al nombre, es una invención de Buenos Aires. Se sirve con papas fritas.
+    tags: [frito, ternera]
+    utensils: [Horno]
+    ingredients:
+      - items:
+          - [filetes finos de nalga de ternera, 4, null]
+          - [huevos, 2, null]
+          - [ajo picado, 1, cucharadita]
+          - [perejil picado, 1, cucharada]
+          - [pan rallado, 150, g]
+          - [aceite de girasol para freír, null, null]
+          - [salsa de tomate, 200, g]
+          - [jamón cocido, 4, loncha]
+          - [mozzarella, 200, g]
+          - [orégano seco, 1, cucharadita]
+          - [sal, null, null]
+    steps:
+      - Bate los huevos con el ajo, el perejil y la sal. Pasa los filetes por el huevo y después por el pan rallado, apretando bien.
+      - Fríelos en aceite caliente 2-3 minutos por cada lado, hasta que estén dorados. Escúrrelos.
+      - Precalienta el horno a 220 °C. Coloca las milanesas en una bandeja y cubre cada una con salsa de tomate, una loncha de jamón y mozzarella.
+      - Espolvorea el orégano y gratina 5-8 minutos, hasta que el queso se funda.
+
+  - name: Locro
+    category: Legumbres
+    difficulty: HARD
+    prep: 30
+    cook: 210
+    servings: 8
+    notes: El guiso patrio del 25 de Mayo y el 9 de Julio. El maíz y los porotos se ponen en remojo la víspera. Se sirve con la salsa picante quiquirimichi.
+    tags: [guiso, fiesta patria, invierno]
+    ingredients:
+      - group: Locro
+        items:
+          - [maíz blanco partido, 500, g]
+          - [porotos (alubias) blancos, 250, g]
+          - [zapallo (calabaza), 500, g]
+          - [falda u osobuco de vaca, 500, g]
+          - [panceta, 200, g]
+          - [chorizos colorados, 2, null]
+          - [patitas de cerdo, 2, null, optional]
+          - [cebolla, 1, null]
+          - [comino molido, 1, cucharadita]
+          - [sal, null, null]
+      - group: Quiquirimichi
+        items:
+          - [grasa de vaca o aceite, 4, cucharada]
+          - [cebolletas (verdeo), 3, null]
+          - [pimentón dulce, 1, cucharada]
+          - [ají molido, 1, cucharadita]
+    steps:
+      - Cuece el maíz y los porotos escurridos en una olla grande con agua abundante 1 hora, removiendo para que no se peguen.
+      - Añade la falda, la panceta y las patitas en trozos y la cebolla picada y cuece 1 hora más.
+      - Añade el zapallo en trozos, los chorizos en rodajas y el comino y cuece 1 hora más, removiendo a menudo, hasta que el zapallo se deshaga y el locro esté espeso. Ajusta de sal.
+      - Para el quiquirimichi, calienta la grasa con el verdeo picado 2 minutos, apaga el fuego y añade el pimentón y el ají.
+      - Sirve el locro con una cucharada de quiquirimichi por encima.
+
+  - name: Matambre arrollado
+    category: Carnes
+    difficulty: MEDIUM
+    prep: 30
+    cook: 150
+    servings: 8
+    notes: El matambre es la capa de carne que hay entre el cuero y las costillas. Se sirve frío, en rodajas, como entrante en las fiestas.
+    tags: [fiambre, fiesta]
+    ingredients:
+      - items:
+          - [matambre de vaca, 1.5, kg]
+          - [huevos duros, 3, null]
+          - [zanahorias, 2, null]
+          - [pimiento rojo, 1, null]
+          - [ajo, 3, diente]
+          - [perejil picado, 4, cucharada]
+          - [ají molido, 0.5, cucharadita]
+          - [sal, 1, cucharada]
+          - [pimienta negra, null, null]
+    steps:
+      - Quita el exceso de grasa al matambre, extiéndelo con la grasa hacia abajo y salpimiéntalo.
+      - Reparte por encima el ajo y el perejil picados y el ají. Coloca a lo largo tiras de zanahoria y pimiento y los huevos duros en cuartos.
+      - Enróllalo apretando en el sentido de las fibras y átalo con hilo de cocina. Envuélvelo en un paño limpio o en film apto para cocinar.
+      - Cuécelo en agua con sal a fuego suave 2 horas y media.
+      - Deja que se enfríe en el agua y después prénsalo en la nevera con un peso encima toda la noche. Sírvelo en rodajas finas.
+
+  - name: Humita en olla
+    category: Verduras
+    difficulty: MEDIUM
+    prep: 30
+    cook: 40
+    servings: 4
+    notes: Plato del norte argentino hecho con choclo (maíz tierno) rallado. Con maíz en conserva también sale bien.
+    tags: [maíz, vegetariana]
+    ingredients:
+      - items:
+          - [choclos (mazorcas de maíz tierno), 6, null]
+          - [cebolla, 1, null]
+          - [pimiento rojo, 1, null]
+          - [zapallo (calabaza) rallado, 200, g]
+          - [leche, 200, ml]
+          - [queso fresco en dados, 150, g]
+          - [albahaca fresca, 6, hoja]
+          - [pimentón dulce, 1, cucharadita]
+          - [azúcar, 1, pizca]
+          - [aceite de girasol, 3, cucharada]
+          - [sal, null, null]
+    steps:
+      - Ralla los granos de los choclos con un rallador grueso, recogiendo el jugo.
+      - Pocha la cebolla y el pimiento picados en el aceite 8 minutos. Añade el pimentón y el zapallo.
+      - Incorpora el choclo y la leche y cuece a fuego suave 25-30 minutos, removiendo, hasta que espese.
+      - Ajusta de sal y azúcar, añade la albahaca y el queso y sirve cuando empiece a fundirse.
+
+  - name: Carbonada criolla
+    category: Carnes
+    difficulty: MEDIUM
+    prep: 25
+    cook: 90
+    servings: 6
+    notes: Guiso de carne con verduras y fruta, a veces servido dentro de un zapallo asado. Los duraznos le dan el toque agridulce.
+    tags: [guiso, invierno]
+    ingredients:
+      - items:
+          - [carne de vaca para guisar, 600, g]
+          - [cebolla, 1, null]
+          - [pimiento rojo, 1, null]
+          - [tomates, 2, null]
+          - [zapallo (calabaza), 400, g]
+          - [batata (boniato), 300, g]
+          - [papas, 300, g]
+          - [choclos, 2, null]
+          - [duraznos (melocotones) en almíbar, 4, null]
+          - [caldo de carne, 1, l]
+          - [laurel, 1, hoja]
+          - [tomillo seco, 0.5, cucharadita]
+          - [aceite de girasol, 3, cucharada]
+          - [sal, null, null]
+    steps:
+      - Dora la carne en dados en el aceite y retírala. Pocha la cebolla y el pimiento picados 8 minutos. Añade el tomate picado y cocina 5 minutos.
+      - Devuelve la carne, añade el caldo, el laurel y el tomillo y cuece tapado 45 minutos.
+      - Añade el zapallo, la batata y las papas en dados y los choclos en rodajas, y cuece 25 minutos más.
+      - Añade los duraznos en trozos, cuece 5 minutos y ajusta de sal.
+
+  - name: Ñoquis con tuco
+    category: Pastas
+    difficulty: MEDIUM
+    prep: 40
+    cook: 60
+    servings: 6
+    notes: En Argentina se comen el día 29 de cada mes, con un billete debajo del plato para atraer la prosperidad.
+    tags: [pasta, tradición]
+    ingredients:
+      - group: Ñoquis
+        items:
+          - [papas harinosas, 1, kg]
+          - [harina, 300, g]
+          - [huevo, 1, null]
+          - [nuez moscada, 1, pizca]
+          - [sal, 1, cucharadita]
+      - group: Tuco
+        items:
+          - [tomate triturado, 800, g]
+          - [cebolla, 1, null]
+          - [pimiento rojo, 0.5, null]
+          - [ajo, 2, diente]
+          - [laurel, 1, hoja]
+          - [orégano seco, 1, cucharadita]
+          - [aceite de oliva, 3, cucharada]
+          - [sal, null, null]
+          - [queso rallado, 50, g]
+    steps:
+      - group: Tuco
+        items:
+          - Pocha la cebolla, el pimiento y el ajo picados en el aceite 10 minutos. Añade el tomate, el laurel, el orégano y la sal y cuece a fuego suave 40 minutos.
+      - group: Ñoquis
+        items:
+          - Cuece las papas con piel, pélalas y pásalas por el pasapuré en caliente.
+          - Mezcla con la sal, la nuez moscada y el huevo y añade la harina poco a poco hasta tener una masa suave que no se pegue.
+          - Haz cilindros de 2 cm, córtalos en trozos de 2 cm y márcalos con un tenedor.
+          - Cuécelos en agua hirviendo con sal y sácalos cuando suban a la superficie. Sírvelos con el tuco y queso rallado.
+
+  - name: Pastel de papa
+    category: Carnes
+    difficulty: EASY
+    prep: 25
+    cook: 60
+    servings: 6
+    notes: Un clásico casero, primo del pastel de carne con puré. Algunos espolvorean un poco de azúcar por encima antes de gratinar.
+    tags: [al horno, casero]
+    utensils: [Horno]
+    ingredients:
+      - group: Relleno
+        items:
+          - [carne picada de vaca, 600, g]
+          - [cebollas, 2, null]
+          - [pimiento rojo, 1, null]
+          - [pimentón dulce, 1, cucharadita]
+          - [comino molido, 0.5, cucharadita]
+          - [aceitunas verdes en rodajas, 50, g]
+          - [huevos duros, 2, null]
+          - [aceite de girasol, 2, cucharada]
+          - [sal, null, null]
+      - group: Puré
+        items:
+          - [papas, 1.2, kg]
+          - [leche caliente, 200, ml]
+          - [manteca (mantequilla), 50, g]
+          - [nuez moscada, 1, pizca]
+          - [queso rallado, 50, g]
+          - [sal, null, null]
+    steps:
+      - Pocha las cebollas y el pimiento picados en el aceite 10 minutos. Añade la carne y dórala. Sazona con el pimentón, el comino y la sal y añade las aceitunas.
+      - Cuece las papas, hazlas puré con la leche, la manteca, la nuez moscada y la sal.
+      - Precalienta el horno a 200 °C. Extiende la carne en una fuente, reparte el huevo duro picado y cubre con el puré.
+      - Espolvorea el queso rallado y hornea 20-25 minutos, hasta que esté dorado.
+
+  - name: Revuelto gramajo
+    category: Huevos
+    difficulty: EASY
+    prep: 15
+    cook: 20
+    servings: 4
+    notes: Clásico de bodegón porteño. Las papas pay son bastones de patata muy finos fritos; también sirven las de bolsa.
+    tags: [huevos, rápida]
+    ingredients:
+      - items:
+          - [papas, 400, g]
+          - [aceite de girasol para freír, null, null]
+          - [jamón cocido en tiras, 150, g]
+          - [cebolla, 1, null]
+          - [huevos, 6, null]
+          - [arvejas (guisantes) cocidas, 100, g, optional]
+          - [perejil picado, 2, cucharada]
+          - [manteca (mantequilla), 20, g]
+          - [sal, null, null]
+    steps:
+      - Corta las papas en bastones muy finos, lávalos, sécalos y fríelos hasta que estén crujientes. Sálalos.
+      - Pocha la cebolla en tiras en la manteca 5 minutos. Añade el jamón y las arvejas.
+      - Añade los huevos batidos con sal y remueve a fuego suave hasta que empiecen a cuajar.
+      - Incorpora las papas fritas, mezcla un momento para que no se ablanden y sirve con perejil.
+
+  - name: Dulce de leche casero
+    category: Postres
+    difficulty: EASY
+    prep: 5
+    cook: 150
+    servings: 12
+    notes: Hay que remover a menudo y más al final, cuando espesa. El bicarbonato le da el color tostado y evita que se corte.
+    tags: [dulce, sin gluten]
+    ingredients:
+      - items:
+          - [leche entera, 2, l]
+          - [azúcar, 500, g]
+          - [bicarbonato, 0.5, cucharadita]
+          - [extracto de vainilla, 1, cucharadita]
+    steps:
+      - Pon la leche con el azúcar en una olla grande y de fondo grueso y lleva a ebullición, removiendo.
+      - Añade el bicarbonato disuelto en un poco de leche (sube la espuma) y baja a fuego suave.
+      - Cuece 2-2,5 horas, removiendo a menudo con una cuchara de madera, hasta que esté espeso y de color caramelo.
+      - Añade la vainilla y pásalo a frascos limpios. Espesa más al enfriarse.
+
+  - name: Alfajores de maicena
+    category: Postres
+    difficulty: MEDIUM
+    prep: 30
+    cook: 12
+    servings: 20
+    notes: Las tapitas apenas deben dorarse. Se rellenan con dulce de leche repostero, más espeso que el de untar.
+    tags: [dulce, merienda]
+    utensils: [Horno]
+    ingredients:
+      - items:
+          - [maicena, 300, g]
+          - [harina, 200, g]
+          - [manteca (mantequilla) blanda, 200, g]
+          - [azúcar, 150, g]
+          - [yemas de huevo, 3, null]
+          - [coñac, 1, cucharada]
+          - [ralladura de limón, 1, cucharadita]
+          - [extracto de vainilla, 1, cucharadita]
+          - [polvo de hornear, 1, cucharadita]
+          - [bicarbonato, 0.5, cucharadita]
+          - [dulce de leche repostero, 400, g]
+          - [coco rallado, 50, g]
+    steps:
+      - Bate la manteca con el azúcar hasta que esté cremosa. Añade las yemas de una en una, el coñac, la ralladura y la vainilla.
+      - Incorpora la maicena, la harina, el polvo de hornear y el bicarbonato tamizados y une sin amasar.
+      - Estira la masa a 5 mm de grosor y corta círculos de 5 cm. Colócalos en bandejas con papel de horno.
+      - Hornea a 170 °C 10-12 minutos, sin que se doren. Deja que se enfríen.
+      - Une las tapitas de dos en dos con dulce de leche y pasa el borde por coco rallado.
+
+  - name: Pastafrola
+    category: Postres
+    difficulty: EASY
+    prep: 25
+    cook: 35
+    servings: 8
+    notes: La tarta de la merienda argentina. El dulce de membrillo se puede sustituir por dulce de batata o de leche.
+    tags: [tarta, merienda]
+    utensils: [Horno]
+    ingredients:
+      - items:
+          - [harina, 300, g]
+          - [manteca (mantequilla) fría, 150, g]
+          - [azúcar, 100, g]
+          - [huevo, 1, null]
+          - [yema de huevo, 1, null]
+          - [polvo de hornear, 1, cucharadita]
+          - [ralladura de limón, 1, cucharadita]
+          - [dulce de membrillo, 500, g]
+          - [agua caliente, 3, cucharada]
+    steps:
+      - Mezcla la harina, el azúcar y el polvo de hornear. Añade la manteca en dados y arena con los dedos. Incorpora el huevo, la yema y la ralladura y une sin amasar. Refrigera 30 minutos.
+      - Ablanda el membrillo con un tenedor y el agua caliente hasta que se pueda untar.
+      - Precalienta el horno a 180 °C. Estira dos tercios de la masa y forra un molde de 24 cm. Rellena con el membrillo.
+      - Estira el resto de la masa, córtala en tiras y colócalas en forma de rejilla.
+      - Hornea 30-35 minutos, hasta que esté dorada.
+
+  - name: Medialunas de manteca
+    category: Panes y masas
+    difficulty: HARD
+    prep: 180
+    cook: 15
+    servings: 16
+    notes: Más pequeñas y dulces que los cruasanes, con un almíbar brillante por encima. Se toman con el café con leche.
+    tags: [bollería, desayuno]
+    utensils: [Horno]
+    ingredients:
+      - group: Masa
+        items:
+          - [harina de fuerza, 500, g]
+          - [leche tibia, 200, ml]
+          - [azúcar, 80, g]
+          - [huevo, 1, null]
+          - [levadura fresca, 25, g]
+          - [miel, 1, cucharada]
+          - [extracto de vainilla, 1, cucharadita]
+          - [sal, 1, cucharadita]
+          - [manteca (mantequilla) fría para el hojaldrado, 250, g]
+      - group: Almíbar
+        items:
+          - [azúcar, 100, g]
+          - [agua, 100, ml]
+    steps:
+      - Disuelve la levadura en la leche con la miel. Mezcla con la harina, el azúcar, el huevo, la vainilla y la sal y amasa 10 minutos. Refrigera 1 hora.
+      - Aplasta la manteca fría entre dos papeles hasta tener un cuadrado. Estira la masa en un rectángulo, pon la manteca en el centro y cierra la masa sobre ella.
+      - Estira en un rectángulo largo y dobla en tres. Refrigera 20 minutos. Repite el estirado y el plegado dos veces más.
+      - Estira la masa a 4 mm, corta triángulos de base estrecha y enróllalos desde la base, curvando las puntas. Deja que leven tapados 1 hora y media, hasta que doblen su volumen.
+      - Pinta con huevo y hornea a 200 °C 12-15 minutos. Hierve el azúcar con el agua 2 minutos y pinta las medialunas recién salidas del horno.
+
+  - name: Tortas fritas
+    category: Panes y masas
+    difficulty: EASY
+    prep: 20
+    cook: 20
+    servings: 12
+    notes: Tradición de los días de lluvia, con mate. Se fríen en grasa de vaca o en aceite.
+    tags: [frito, merienda]
+    ingredients:
+      - items:
+          - [harina, 500, g]
+          - [grasa de vaca o manteca, 60, g]
+          - [agua tibia, 250, ml]
+          - [sal, 10, g]
+          - [polvo de hornear, 1, cucharadita]
+          - [grasa o aceite para freír, null, null]
+          - [azúcar para espolvorear, null, null]
+    steps:
+      - Mezcla la harina con la sal y el polvo de hornear. Añade la grasa derretida y el agua y amasa hasta que la masa esté lisa. Deja que repose tapada 20 minutos.
+      - Divide en 12 bollos y estíralos en discos de 5 mm. Haz un agujero en el centro con el dedo.
+      - Fríelos en la grasa caliente 1-2 minutos por cada lado, hasta que se inflen y doren.
+      - Escúrrelos y espolvoréalos con azúcar.
+
+  - name: Chipá
+    category: Panes y masas
+    difficulty: EASY
+    prep: 20
+    cook: 20
+    servings: 20
+    origin: Misiones y Corrientes
+    notes: Panecillos de almidón de mandioca y queso, compartidos con Paraguay. Se comen calientes.
+    tags: [pan, queso, sin gluten]
+    utensils: [Horno]
+    ingredients:
+      - items:
+          - [almidón de mandioca (yuca), 500, g]
+          - [queso semicurado rallado, 300, g]
+          - [huevos, 2, null]
+          - [manteca (mantequilla) blanda, 100, g]
+          - [leche, 100, ml]
+          - [sal, 1, cucharadita]
+    steps:
+      - Precalienta el horno a 200 °C.
+      - Mezcla el almidón con la sal y la manteca. Añade los huevos, el queso y la leche poco a poco y amasa hasta tener una masa suave que no se pegue.
+      - Forma bolitas de 3 cm y colócalas en una bandeja con papel de horno.
+      - Hornea 18-20 minutos, hasta que estén apenas doradas.

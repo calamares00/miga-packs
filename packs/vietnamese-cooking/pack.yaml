@@ -1,0 +1,640 @@
+id: vietnamese-cooking
+version: 1
+updated: 2026-10-31
+language: en
+name: "World cuisine: Vietnam"
+description: >-
+  Vietnam's fresh, fragrant cooking, from Hanoi to Saigon: phở, bún chả, bánh mì, fresh and fried
+  spring rolls, bún bò Huế, cơm tấm, caramelised fish and pork, sour soup, shaking beef,
+  lemongrass chilli chicken, bánh xèo, chicken salad, bún thịt nướng, nước chấm, tofu in tomato
+  sauce and, for dessert, banana in coconut milk, iced coffee with condensed milk and avocado
+  smoothie.
+author: Miga
+authorGithub: calamares00
+cover:
+  emoji: "🍜"
+  kicker: World cuisine
+  title: Vietnam
+  colors: ["#991b1b", "#facc15"]
+defaults:
+  origin: Vietnam
+  originCountry: VN
+  source: "Miga «World cuisine: Vietnam» pack"
+recipes:
+
+  - name: Phở bò
+    category: Soups
+    difficulty: HARD
+    prep: 30
+    cook: 300
+    servings: 6
+    origin: Hanoi
+    notes: Beef and rice noodle soup. Charring the onion and ginger and patiently skimming the broth is what makes it clear and fragrant.
+    tags: [soup, noodles]
+    ingredients:
+      - group: Broth
+        items:
+          - [beef marrow bones, 2, kg]
+          - [beef brisket or flank, 500, g]
+          - [onions, 2, null]
+          - [fresh ginger, 100, g]
+          - [star anise, 5, null]
+          - [cinnamon stick, 1, null]
+          - [cloves, 4, null]
+          - [coriander seeds, 1, tsp]
+          - [fish sauce, 4, tbsp]
+          - [sugar, 1, tbsp]
+          - [water, 5, l]
+          - [salt, 1, tbsp]
+      - group: To serve
+        items:
+          - [flat rice noodles, 400, g]
+          - [paper-thin raw beef sirloin, 250, g]
+          - [spring onions, 3, null]
+          - [fresh coriander, 1, bunch]
+          - [Thai basil, 1, bunch]
+          - [bean sprouts, 200, g]
+          - [limes, 2, null]
+          - [red chillies, 2, null]
+          - [hoisin and sriracha sauce, null, null, optional]
+    steps:
+      - Char the halved onions and the ginger directly over a flame or under the grill until black outside. Peel off the burnt skin.
+      - Blanch the bones in boiling water for 10 minutes, pour off the water and rinse them.
+      - Put the bones, brisket, onion and ginger in a pot with the water. Simmer very gently, without bubbling, skimming off the foam.
+      - Take out the brisket after 1½ hours and set aside. Toast the spices in a pan, put them in a spice bag and add to the broth for the last hour. Simmer for 4-5 hours in total.
+      - Strain the broth and season with the fish sauce, sugar and salt.
+      - Soak and blanch the noodles, divide them between bowls with the sliced brisket and raw beef. Pour over the boiling broth and serve with the herbs, sprouts, lime and chilli.
+
+  - name: Bún chả
+    category: Meat
+    difficulty: MEDIUM
+    prep: 40
+    cook: 20
+    servings: 4
+    origin: Hanoi
+    notes: Grilled pork patties and pork belly with cold noodles and a sweet and sour dipping broth. Marinate the meat for at least 1 hour.
+    tags: [grill, noodles]
+    ingredients:
+      - group: Pork
+        items:
+          - [minced pork, 400, g]
+          - [thinly sliced pork belly, 400, g]
+          - [shallots, 3, null]
+          - [garlic, 3, clove]
+          - [fish sauce, 3, tbsp]
+          - [sugar, 2, tbsp]
+          - [dark soy sauce or caramel, 1, tsp]
+          - [black pepper, 1, tsp]
+      - group: Dipping broth
+        items:
+          - [nước chấm, 300, ml]
+          - [carrot, 1, null]
+          - [green papaya or kohlrabi, 100, g, optional]
+      - group: To serve
+        items:
+          - [thin rice vermicelli (bún), 300, g]
+          - [lettuce, 1, null]
+          - ["fresh herbs (mint, coriander, perilla)", 1, bunch]
+    steps:
+      - Chop the shallots and garlic and mix with the fish sauce, sugar, dark soy sauce and pepper. Marinate the minced pork and the pork belly separately with half the mixture each.
+      - Shape the minced pork into small patties.
+      - Grill them with the pork belly over charcoal or under the oven grill for 8-10 minutes, until caramelised.
+      - Add thinly sliced carrot and papaya to the nước chấm and warm the broth.
+      - Serve the pork in bowls with the warm broth, and the cooked noodles and herbs on the side for dipping.
+
+  - name: Lemongrass pork bánh mì
+    category: Breads and doughs
+    difficulty: MEDIUM
+    prep: 40
+    cook: 15
+    servings: 4
+    notes: The Vietnamese sandwich with a French heritage. The pickled vegetables can be made the day before.
+    tags: [sandwich, pork]
+    ingredients:
+      - group: Pickle
+        items:
+          - [carrot, 1, null]
+          - [daikon radish, 150, g]
+          - [rice vinegar, 100, ml]
+          - [sugar, 2, tbsp]
+          - [salt, 1, tsp]
+      - group: Pork
+        items:
+          - [thin pork loin or shoulder steaks, 400, g]
+          - [lemongrass, 2, stalk]
+          - [garlic, 2, clove]
+          - [fish sauce, 2, tbsp]
+          - [sugar, 1, tbsp]
+          - [sunflower oil, 1, tbsp]
+      - group: Sandwich
+        items:
+          - [light baguettes, 4, null]
+          - [liver pâté, 80, g]
+          - [mayonnaise, 4, tbsp]
+          - [cucumber, 1, null]
+          - [fresh coriander, 1, bunch]
+          - [red chilli, 1, null]
+          - [Maggi seasoning or soy sauce, 1, tbsp]
+    steps:
+      - Cut the carrot and daikon into thin sticks and toss with the vinegar, sugar and salt. Leave to pickle for at least 30 minutes.
+      - Blend the lemongrass and garlic and mix with the fish sauce, sugar and oil. Marinate the pork for 30 minutes.
+      - Cook the pork in a very hot pan or on the grill for 2-3 minutes on each side.
+      - Warm the bread in the oven until crisp and split it open.
+      - Spread with the pâté and mayonnaise, add the pork, drained pickle, cucumber strips, coriander and chilli, and a few drops of Maggi.
+
+  - name: Fresh spring rolls (gỏi cuốn)
+    category: Starters
+    difficulty: MEDIUM
+    prep: 40
+    cook: 15
+    servings: 4
+    notes: Unfried rice paper rolls. Dip the rice paper for just a few seconds; it finishes softening as you roll.
+    tags: [cold, snack]
+    ingredients:
+      - group: Rolls
+        items:
+          - [rice paper wrappers, 12, null]
+          - [cooked peeled king prawns, 12, null]
+          - [cooked pork belly, 200, g]
+          - [thin rice vermicelli (bún), 100, g]
+          - [lettuce, 12, leaf]
+          - [fresh mint, 1, bunch]
+          - [fresh coriander, 1, bunch]
+          - [chives, 12, stalk]
+      - group: Sauce
+        items:
+          - [hoisin sauce, 4, tbsp]
+          - [peanut butter, 2, tbsp]
+          - [hot water, 4, tbsp]
+          - [chopped roasted peanuts, 2, tbsp]
+    steps:
+      - Cook and drain the noodles. Halve the prawns lengthways and thinly slice the pork belly.
+      - Dip a rice paper in warm water for 2 seconds and lay it flat.
+      - On the bottom third, put a lettuce leaf, noodles, herbs and pork. Roll once, lay three prawn halves cut side up, fold in the sides and finish rolling with a chive sticking out.
+      - Mix the hoisin with the peanut butter and water and sprinkle with the peanuts. Serve the rolls with the sauce.
+
+  - name: Fried spring rolls (chả giò)
+    category: Starters
+    difficulty: MEDIUM
+    prep: 45
+    cook: 20
+    servings: 6
+    notes: In the north they are called nem rán. Wrap them in lettuce with herbs and dip in nước chấm.
+    tags: [fried, snack]
+    ingredients:
+      - items:
+          - [rice paper wrappers, 20, null]
+          - [minced pork, 300, g]
+          - [chopped peeled prawns, 150, g]
+          - [glass noodles, 30, g]
+          - [dried wood ear mushrooms, 10, g]
+          - [grated carrot, 1, null]
+          - [onion, 0.5, null]
+          - [egg, 1, null]
+          - [fish sauce, 1, tbsp]
+          - [black pepper, 0.5, tsp]
+          - [sunflower oil for frying, null, null]
+          - [nước chấm, 200, ml]
+          - [lettuce and fresh herbs, null, null]
+    steps:
+      - Soak the noodles and mushrooms in hot water for 10 minutes, drain and chop them.
+      - Mix the pork, prawns, noodles, mushrooms, carrot, chopped onion, egg, fish sauce and pepper.
+      - Dip each rice paper briefly, add a spoonful of filling, fold in the sides and roll up tightly.
+      - Fry them in oil at 160 °C for 8-10 minutes, until golden and crisp.
+      - Serve with lettuce, herbs and nước chấm.
+
+  - name: Bún bò Huế
+    category: Soups
+    difficulty: HARD
+    prep: 30
+    cook: 180
+    servings: 6
+    origin: Huế
+    notes: The spicy soup of the old imperial capital, full of lemongrass and fermented shrimp paste (mắm ruốc).
+    tags: [soup, spicy]
+    ingredients:
+      - group: Broth
+        items:
+          - [beef bones, 1.5, kg]
+          - [beef shank, 500, g]
+          - [sliced pork knuckle, 500, g]
+          - [lemongrass, 6, stalk]
+          - [fermented shrimp paste (mắm ruốc), 1, tbsp]
+          - [fish sauce, 4, tbsp]
+          - [sugar, 1, tbsp]
+          - [water, 4, l]
+      - group: Chilli oil
+        items:
+          - [sunflower oil, 4, tbsp]
+          - [chopped shallots, 2, null]
+          - [chopped lemongrass, 2, tbsp]
+          - [chilli powder, 2, tbsp]
+          - [annatto seeds or paprika, 1, tsp]
+      - group: To serve
+        items:
+          - [thick round rice noodles, 500, g]
+          - [onion, 1, null]
+          - [coriander and mint, 1, bunch]
+          - [bean sprouts, 150, g]
+          - [limes, 2, null]
+    steps:
+      - Blanch the bones and knuckle for 10 minutes, pour off the water and rinse.
+      - Simmer them with the shank, bruised lemongrass and water for 2½ hours, skimming. Take out the shank when tender.
+      - Dissolve the shrimp paste in a little water, let it settle and add the clear part to the broth with the fish sauce and sugar.
+      - Gently fry the shallots and lemongrass in the oil, add the chilli and annatto off the heat and stir half into the broth.
+      - Cook the noodles and serve with the sliced shank, the knuckle and the broth, thinly sliced onion, herbs, sprouts and lime. The rest of the chilli oil goes on the side.
+
+  - name: Cơm tấm with pork chop
+    category: Rice
+    difficulty: MEDIUM
+    prep: 30
+    cook: 30
+    servings: 4
+    origin: Saigon
+    notes: Broken rice (tấm) used to be food for the poor and is now Saigon's signature dish. Ordinary jasmine rice works well too.
+    tags: [rice, pork, grill]
+    ingredients:
+      - group: Pork chops
+        items:
+          - [thin pork chops, 4, null]
+          - [lemongrass, 2, stalk]
+          - [shallots, 2, null]
+          - [garlic, 2, clove]
+          - [fish sauce, 2, tbsp]
+          - [honey, 1, tbsp]
+          - [sugar, 1, tbsp]
+          - [soy sauce, 1, tbsp]
+          - [sunflower oil, 1, tbsp]
+      - group: To serve
+        items:
+          - [broken or jasmine rice, 400, g]
+          - [eggs, 4, null]
+          - [spring onions, 4, null]
+          - [sunflower oil, 3, tbsp]
+          - [cucumber, 1, null]
+          - [tomatoes, 2, null]
+          - [nước chấm, 200, ml]
+    steps:
+      - Blend the lemongrass, shallots and garlic and mix with the fish sauce, honey, sugar, soy sauce and oil. Marinate the chops for at least 1 hour.
+      - Cook the rice.
+      - Grill the chops or cook them in a very hot pan for 3-4 minutes on each side, until caramelised.
+      - Heat the oil and pour it over the chopped spring onion with a pinch of salt (mỡ hành).
+      - Serve the rice with a chop, a fried egg, the spring onion oil, cucumber, tomato and nước chấm.
+
+  - name: Caramelised fish (cá kho tộ)
+    category: Fish and seafood
+    difficulty: MEDIUM
+    prep: 15
+    cook: 45
+    servings: 4
+    origin: Mekong Delta
+    notes: Cooked in a clay pot (tộ). Catfish is used in Vietnam; mackerel or bream steaks work well too.
+    tags: [fish, caramelised]
+    ingredients:
+      - items:
+          - [thick skin-on fish steaks, 600, g]
+          - [fish sauce, 3, tbsp]
+          - [sugar, 3, tbsp]
+          - [coconut water, 200, ml]
+          - [shallots, 3, null]
+          - [garlic, 3, clove]
+          - [black pepper, 1, tsp]
+          - [red chilli, 1, null]
+          - [spring onion, 1, null]
+          - [sunflower oil, 1, tbsp]
+    steps:
+      - Marinate the fish with the fish sauce, 1 tablespoon of sugar, the chopped shallots and garlic and the pepper for 30 minutes.
+      - Heat the oil with the rest of the sugar in the pot to a dark caramel.
+      - Add the fish and marinade, let it take on the caramel for 1 minute on each side and add the coconut water.
+      - Simmer covered for 30-35 minutes, turning the fish halfway, until the sauce has reduced to a thick glaze.
+      - Finish with the chilli and spring onion. Serve with white rice.
+
+  - name: Caramelised pork with eggs (thịt kho trứng)
+    category: Meat
+    difficulty: EASY
+    prep: 15
+    cook: 90
+    servings: 6
+    notes: A dish for Tết, the Vietnamese New Year. Coconut water makes the sauce sweet and glossy. Even better the next day.
+    tags: [stew, new year]
+    ingredients:
+      - items:
+          - [pork belly, 800, g]
+          - [hard-boiled eggs, 6, null]
+          - [coconut water, 500, ml]
+          - [fish sauce, 4, tbsp]
+          - [sugar, 2, tbsp]
+          - [shallots, 3, null]
+          - [garlic, 3, clove]
+          - [black pepper, 1, tsp]
+          - [sunflower oil, 1, tbsp]
+    steps:
+      - Cut the pork belly into 4 cm cubes, blanch for 3 minutes and drain.
+      - Marinate with the fish sauce, chopped shallots and garlic and the pepper for 30 minutes.
+      - Make a dark caramel with the sugar and oil, add the pork and stir until browned.
+      - Add the coconut water, water to cover and the peeled hard-boiled eggs. Simmer uncovered for 1¼ hours, until the pork is tender and the sauce reduced.
+      - Serve with white rice and pickled vegetables.
+
+  - name: Sour soup (canh chua)
+    category: Soups
+    difficulty: EASY
+    prep: 20
+    cook: 20
+    servings: 4
+    origin: Mekong Delta
+    notes: A sweet and sour tamarind and pineapple soup with fish. In the south it has bạc hà (taro stem) and ngò om herb; celery and coriander are good substitutes.
+    tags: [soup, sweet and sour]
+    ingredients:
+      - items:
+          - [white fish fillets or prawns, 400, g]
+          - [fish stock or water, 1.5, l]
+          - [tamarind paste, 2, tbsp]
+          - [pineapple, 150, g]
+          - [tomatoes, 2, null]
+          - [okra, 100, g]
+          - [bean sprouts, 100, g]
+          - [fish sauce, 3, tbsp]
+          - [sugar, 2, tbsp]
+          - [fried garlic, 1, tbsp]
+          - [Thai basil and coriander, 1, bunch]
+          - [red chilli, 1, null]
+    steps:
+      - Dissolve the tamarind in a little hot stock and strain it.
+      - Bring the stock to the boil with the tamarind, fish sauce and sugar.
+      - Add the pineapple chunks, tomato wedges and sliced okra and simmer for 5 minutes.
+      - Add the fish in pieces and simmer for 3 minutes. Adjust the sour, sweet and salty balance.
+      - Off the heat, add the bean sprouts. Serve with the fried garlic, herbs and chilli.
+
+  - name: Shaking beef (bò lúc lắc)
+    category: Meat
+    difficulty: EASY
+    prep: 20
+    cook: 10
+    servings: 4
+    notes: The name comes from shaking the wok as it cooks. Served on watercress with a lime, salt and pepper dip.
+    tags: [stir-fry, beef]
+    utensils: [Wok]
+    ingredients:
+      - group: Beef
+        items:
+          - [beef fillet or sirloin, 500, g]
+          - [oyster sauce, 2, tbsp]
+          - [soy sauce, 1, tbsp]
+          - [garlic, 4, clove]
+          - [sugar, 1, tsp]
+          - [black pepper, 1, tsp]
+          - [red onion, 1, null]
+          - [red pepper, 1, null]
+          - [butter, 15, g]
+          - [sunflower oil, 2, tbsp]
+      - group: To serve
+        items:
+          - [watercress, 100, g]
+          - [tomatoes, 2, null]
+          - [lime juice, 2, tbsp]
+          - [salt, 0.5, tsp]
+          - [black pepper, 0.5, tsp]
+    steps:
+      - Cut the beef into 2.5 cm cubes and marinate with the oyster sauce, soy sauce, half the chopped garlic, sugar and pepper for 30 minutes.
+      - Get the wok very hot with the oil and sear the beef in a single layer, shaking the wok, for 2-3 minutes, until browned outside and juicy inside.
+      - Add the onion and pepper in pieces, the rest of the garlic and the butter and toss for 1 more minute.
+      - Serve the beef on the watercress and sliced tomato with the lime mixed with salt and pepper for dipping.
+
+  - name: Lemongrass chilli chicken (gà xào sả ớt)
+    category: Meat
+    difficulty: EASY
+    prep: 15
+    cook: 15
+    servings: 4
+    tags: [stir-fry, chicken, spicy]
+    utensils: [Wok]
+    ingredients:
+      - items:
+          - [boneless chicken thighs, 600, g]
+          - [lemongrass, 3, stalk]
+          - [red chillies, 2, null]
+          - [garlic, 3, clove]
+          - [shallot, 1, null]
+          - [fish sauce, 2, tbsp]
+          - [sugar, 1, tbsp]
+          - [ground turmeric, 0.5, tsp]
+          - [sunflower oil, 3, tbsp]
+          - [fresh coriander, 1, bunch]
+    steps:
+      - Cut the chicken into pieces and marinate with the fish sauce, half the sugar and the turmeric for 15 minutes.
+      - Very finely chop the tender part of the lemongrass, and chop the garlic, shallot and chillies.
+      - Fry the lemongrass in the oil over a medium heat until golden and fragrant. Add the garlic, shallot and chillies.
+      - Add the chicken and stir-fry over a high heat for 8-10 minutes, until golden. Add the rest of the sugar and toss until caramelised.
+      - Serve with coriander and white rice.
+
+  - name: Bánh xèo
+    category: Breads and doughs
+    difficulty: MEDIUM
+    prep: 30
+    cook: 30
+    servings: 4
+    origin: Southern Vietnam
+    notes: Crisp rice flour and turmeric crêpes. The name imitates the sizzle of the batter hitting the pan. Eaten wrapped in lettuce with herbs.
+    tags: [crêpe, gluten-free]
+    ingredients:
+      - group: Batter
+        items:
+          - [rice flour, 200, g]
+          - [ground turmeric, 1, tsp]
+          - [coconut milk, 200, ml]
+          - [water, 300, ml]
+          - [chopped spring onions, 2, null]
+          - [salt, 0.5, tsp]
+      - group: Filling
+        items:
+          - [thin strips of pork belly, 200, g]
+          - [peeled prawns, 200, g]
+          - [bean sprouts, 200, g]
+          - [onion, 0.5, null]
+          - [sunflower oil, 4, tbsp]
+      - group: To serve
+        items:
+          - [lettuce, 1, null]
+          - ["fresh herbs (mint, perilla, coriander)", 1, bunch]
+          - [nước chấm, 200, ml]
+    steps:
+      - Mix the flour, turmeric, salt, coconut milk and water into a very thin batter. Add the spring onion and rest for 30 minutes.
+      - Heat 1 tablespoon of oil in a large frying pan and stir-fry a few strips of pork, some prawns and onion.
+      - Pour in a ladle of batter, swirling the pan to coat the bottom thinly. Put bean sprouts on one half.
+      - Cover for 2 minutes, then uncover and cook over a medium heat until the edges are crisp. Fold in half.
+      - Repeat with the rest and serve with lettuce, herbs and nước chấm.
+
+  - name: Chicken and cabbage salad (gỏi gà)
+    category: Salads
+    difficulty: EASY
+    prep: 25
+    cook: 20
+    servings: 4
+    tags: [salad, chicken]
+    ingredients:
+      - group: Salad
+        items:
+          - [chicken breasts, 2, null]
+          - [white or red cabbage, 0.25, null]
+          - [carrot, 1, null]
+          - [red onion, 0.5, null]
+          - [mint or rau răm, 1, bunch]
+          - [chopped roasted peanuts, 3, tbsp]
+          - [crispy fried shallots, 2, tbsp]
+      - group: Dressing
+        items:
+          - [fish sauce, 3, tbsp]
+          - [lime juice, 3, tbsp]
+          - [sugar, 2, tbsp]
+          - [garlic, 1, clove]
+          - [red chilli, 1, null]
+    steps:
+      - Simmer the chicken in salted water for 15-20 minutes, let it cool and shred it.
+      - Very finely shred the cabbage, grate the carrot and thinly slice the onion.
+      - Mix the dressing ingredients with the very finely chopped garlic and chilli until the sugar dissolves.
+      - Toss the chicken with the vegetables, mint and dressing. Serve topped with the peanuts and fried shallots.
+
+  - name: Nước chấm
+    category: Sauces
+    difficulty: EASY
+    prep: 10
+    cook: 0
+    servings: 8
+    notes: The dipping sauce for almost every Vietnamese dish. It should be balanced between sweet, sour and salty.
+    tags: [sauce]
+    ingredients:
+      - items:
+          - [fish sauce, 4, tbsp]
+          - [lime juice, 3, tbsp]
+          - [sugar, 3, tbsp]
+          - [warm water, 120, ml]
+          - [garlic, 2, clove]
+          - [red chilli, 1, null]
+    steps:
+      - Dissolve the sugar in the warm water.
+      - Add the fish sauce and lime juice and taste; adjust until balanced.
+      - Add the very finely chopped garlic and chilli just before serving, so they float.
+
+  - name: Bún thịt nướng
+    category: Meat
+    difficulty: MEDIUM
+    prep: 40
+    cook: 15
+    servings: 4
+    origin: Saigon
+    notes: A bowl of cold noodles with grilled pork, vegetables and herbs. Marinate the pork for at least 1 hour.
+    tags: [noodles, grill]
+    ingredients:
+      - group: Pork
+        items:
+          - [thinly sliced pork shoulder, 500, g]
+          - [lemongrass, 2, stalk]
+          - [shallots, 2, null]
+          - [garlic, 2, clove]
+          - [fish sauce, 2, tbsp]
+          - [honey, 1, tbsp]
+          - [sugar, 1, tbsp]
+          - [sunflower oil, 1, tbsp]
+      - group: Bowls
+        items:
+          - [thin rice vermicelli (bún), 300, g]
+          - [lettuce, 1, null]
+          - [cucumber, 1, null]
+          - [pickled carrot and daikon, 100, g]
+          - ["fresh herbs (mint, coriander, perilla)", 1, bunch]
+          - [chopped roasted peanuts, 3, tbsp]
+          - [spring onion oil (mỡ hành), 3, tbsp]
+          - [nước chấm, 300, ml]
+    steps:
+      - Blend the lemongrass, shallots and garlic and mix with the fish sauce, honey, sugar and oil. Marinate the pork.
+      - Grill it or cook it under the oven grill for 3-4 minutes on each side, until caramelised.
+      - Cook the noodles, rinse in cold water and drain.
+      - Put lettuce, cucumber and herbs in each bowl, top with the noodles and pork, and add the pickle, peanuts and spring onion oil.
+      - Pour over nước chấm as you eat.
+
+  - name: Tofu in tomato sauce (đậu hũ sốt cà chua)
+    category: Legumes
+    difficulty: EASY
+    prep: 10
+    cook: 20
+    servings: 4
+    notes: A very common home-cooked dish. For a vegan version, use soy sauce instead of fish sauce.
+    tags: [tofu, home-style]
+    ingredients:
+      - items:
+          - [firm tofu, 400, g]
+          - [ripe tomatoes, 4, null]
+          - [shallot, 1, null]
+          - [garlic, 2, clove]
+          - [fish or soy sauce, 2, tbsp]
+          - [sugar, 1, tsp]
+          - [spring onions, 2, null]
+          - [sunflower oil, 4, tbsp]
+          - [black pepper, null, null]
+    steps:
+      - Pat the tofu dry, cut it into large cubes and fry it in the oil until golden on all sides. Take it out.
+      - In the same oil, fry the chopped shallot and garlic. Add the diced tomatoes and cook for 8 minutes, until they break down.
+      - Add the fish sauce, sugar and a splash of water.
+      - Add the tofu and simmer for 5 minutes so it soaks up the sauce. Serve with spring onion and pepper.
+
+  - name: Banana in coconut milk (chè chuối)
+    category: Desserts
+    difficulty: EASY
+    prep: 10
+    cook: 20
+    servings: 4
+    notes: A warm banana and tapioca pearl dessert. In Vietnam they use small, sweet bananas.
+    tags: [dessert, gluten-free, vegan]
+    ingredients:
+      - items:
+          - [ripe bananas, 4, null]
+          - [coconut milk, 400, ml]
+          - [water, 200, ml]
+          - [small tapioca pearls, 30, g]
+          - [sugar, 50, g]
+          - [salt, 1, pinch]
+          - [chopped roasted peanuts, 2, tbsp]
+          - [toasted sesame seeds, 1, tsp]
+    steps:
+      - Soak the tapioca in water for 20 minutes and drain.
+      - Heat the coconut milk with the water, sugar and salt. Add the tapioca and simmer for 10 minutes, stirring, until the pearls are clear.
+      - Add the bananas in thick slices and simmer for 3-4 minutes, without letting them fall apart.
+      - Serve warm with the peanuts and sesame.
+
+  - name: Iced coffee with condensed milk (cà phê sữa đá)
+    category: Drinks
+    difficulty: EASY
+    prep: 5
+    cook: 5
+    servings: 1
+    notes: Made with a Vietnamese drip filter (phin) and dark-roast robusta; a double espresso works well too.
+    tags: [coffee, drink]
+    ingredients:
+      - items:
+          - [dark-roast ground coffee, 2, tbsp]
+          - [condensed milk, 2, tbsp]
+          - [boiling water, 100, ml]
+          - [ice, 1, cup]
+    steps:
+      - Put the condensed milk in the bottom of a glass.
+      - Set the phin with the coffee on the glass, pour in a little water to let it bloom and then the rest. Let it drip for 4-5 minutes.
+      - Stir the coffee into the condensed milk and pour it over a glass of ice.
+
+  - name: Avocado smoothie (sinh tố bơ)
+    category: Drinks
+    difficulty: EASY
+    prep: 5
+    cook: 0
+    servings: 2
+    notes: In Vietnam avocado is eaten as a sweet fruit. It must be very ripe.
+    tags: [smoothie, vegetarian]
+    utensils: [Blender]
+    ingredients:
+      - items:
+          - [ripe avocado, 1, null]
+          - [condensed milk, 3, tbsp]
+          - [milk, 200, ml]
+          - [ice, 1, cup]
+    steps:
+      - Put the avocado flesh, condensed milk, milk and ice in the blender.
+      - Blend until creamy and serve straight away.

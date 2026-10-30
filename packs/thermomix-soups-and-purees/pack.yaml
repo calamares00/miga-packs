@@ -1,0 +1,533 @@
+id: thermomix-soups-and-purees
+version: 1
+updated: 2026-10-31
+language: en
+name: "Thermomix: soups and purées"
+description: >-
+  Smooth soups and purées programmed for the Thermomix TM6 (2.2 litre bowl), which work just the
+  same on the TM5 and TM7. Pumpkin, mixed vegetable, vichyssoise, mushroom, carrot and ginger,
+  broccoli, asparagus, pea and mint, tomato, red lentil, cauliflower, spinach, sweet potato,
+  artichoke, roasted pepper, chestnut, celeriac, white bean, beetroot and mashed potato. On a
+  TM31 (2 litre bowl, 100 °C maximum), fry at Varoma temperature.
+author: Miga
+authorGithub: calamares00
+cover:
+  emoji: "🥣"
+  kicker: Thermomix
+  title: Soups and purées
+  colors: ["#047857", "#65a30d"]
+defaults:
+  source: "Miga «Thermomix: soups and purées» pack"
+recipes:
+
+  - name: Pumpkin soup
+    category: Soups
+    difficulty: EASY
+    prep: 10
+    cook: 35
+    servings: 4
+    notes: Programmed for the Thermomix TM6. Never go above the 2.2 litre mark on the bowl.
+    tags: [soup, autumn, vegetarian]
+    utensils: [Thermomix]
+    ingredients:
+      - items:
+          - [onion, 1, null]
+          - [extra virgin olive oil, 30, g]
+          - [peeled pumpkin in chunks, 600, g]
+          - [carrot, 1, null]
+          - [potato, 150, g]
+          - [vegetable stock, 500, g]
+          - [single cream, 50, g, optional]
+          - [nutmeg, 1, pinch]
+          - [salt, 1, tsp]
+    steps:
+      - Put the onion, in pieces, in the bowl and chop 5 sec/speed 5. Scrape down with the spatula.
+      - Add the oil and sauté 5 min/120°C/speed 1.
+      - Add the pumpkin, carrot and potato in pieces and chop 5 sec/speed 5.
+      - Add the stock, salt and nutmeg and cook 25 min/100°C/speed 1.
+      - Add the cream and blend 1 min/speed 5-10, increasing the speed gradually. Season to taste.
+
+  - name: Mixed vegetable soup
+    category: Soups
+    difficulty: EASY
+    prep: 10
+    cook: 35
+    servings: 4
+    notes: Programmed for the Thermomix TM6. Any mix of seasonal vegetables of a similar total weight works.
+    tags: [soup, vegan]
+    utensils: [Thermomix]
+    ingredients:
+      - items:
+          - [onion, 1, null]
+          - [leek, 1, null]
+          - [extra virgin olive oil, 30, g]
+          - [carrots, 2, null]
+          - [courgette, 1, null]
+          - [green beans, 100, g]
+          - [potato, 200, g]
+          - [water or vegetable stock, 600, g]
+          - [salt, 1, tsp]
+    steps:
+      - Put the onion and leek, in pieces, in the bowl and chop 5 sec/speed 5.
+      - Add the oil and sauté 6 min/120°C/speed 1.
+      - Add the rest of the vegetables in pieces and chop 5 sec/speed 5.
+      - Add the water and salt and cook 25 min/100°C/speed 1.
+      - Blend 1 min/speed 5-10, increasing gradually, and season to taste.
+
+  - name: Mashed potatoes
+    category: Vegetables
+    difficulty: EASY
+    prep: 10
+    cook: 30
+    servings: 4
+    notes: Programmed for the Thermomix TM6. Always use the butterfly whisk and don't go above speed 3.5, or the mash turns gluey.
+    tags: [purée, side, vegetarian]
+    utensils: [Thermomix]
+    ingredients:
+      - items:
+          - [floury potatoes, 800, g]
+          - [whole milk, 300, g]
+          - [butter, 40, g]
+          - [salt, 1, tsp]
+          - [nutmeg, 1, pinch]
+    steps:
+      - Fit the butterfly whisk onto the blades.
+      - Peel the potatoes, slice them 1 cm thick and put them in the bowl with the milk and salt.
+      - Cook 25 min/100°C/reverse/speed soft, until the potatoes are tender.
+      - Add the butter and nutmeg and mix 20 sec/speed 3.5. Remove the butterfly and serve.
+
+  - name: Vichyssoise
+    category: Soups
+    difficulty: EASY
+    prep: 10
+    cook: 30
+    servings: 4
+    notes: Programmed for the Thermomix TM6. Served cold, with chopped chives.
+    tags: [soup, cold, vegetarian]
+    utensils: [Thermomix]
+    ingredients:
+      - items:
+          - [leeks (white part), 3, null]
+          - [onion, 0.5, null]
+          - [butter, 30, g]
+          - [potatoes, 300, g]
+          - [chicken or vegetable stock, 600, g]
+          - [single cream, 150, g]
+          - [salt, 1, tsp]
+          - [white pepper, null, null]
+          - [chopped chives, 1, tbsp]
+    steps:
+      - Put the leeks and onion, in pieces, in the bowl and chop 5 sec/speed 5.
+      - Add the butter and sauté 8 min/100°C/speed 1, without browning.
+      - Add the potatoes in pieces, the stock, salt and pepper and cook 20 min/100°C/speed 1.
+      - Add the cream and blend 1 min/speed 5-10, increasing gradually.
+      - Chill for at least 3 hours and serve with chives.
+
+  - name: Mushroom soup
+    category: Soups
+    difficulty: EASY
+    prep: 10
+    cook: 25
+    servings: 4
+    notes: Programmed for the Thermomix TM6. Keep a few sliced, sautéed mushrooms to garnish.
+    tags: [soup, vegetarian]
+    utensils: [Thermomix]
+    ingredients:
+      - items:
+          - [onion, 1, null]
+          - [garlic, 1, clove]
+          - [butter, 30, g]
+          - [mushrooms, 500, g]
+          - [potato, 100, g]
+          - [vegetable stock, 500, g]
+          - [single cream, 100, g]
+          - [dried thyme, 0.5, tsp]
+          - [salt, 1, tsp]
+          - [black pepper, null, null]
+    steps:
+      - Put the onion and garlic in the bowl and chop 5 sec/speed 5.
+      - Add the butter and sauté 5 min/120°C/speed 1.
+      - Add the mushrooms and the potato in pieces and sauté 5 min/120°C/reverse/speed 1.
+      - Add the stock, thyme, salt and pepper and cook 15 min/100°C/speed 1.
+      - Add the cream and blend 1 min/speed 5-10, increasing gradually.
+
+  - name: Carrot and ginger soup
+    category: Soups
+    difficulty: EASY
+    prep: 10
+    cook: 30
+    servings: 4
+    notes: Programmed for the Thermomix TM6. A splash of coconut milk when serving suits it well.
+    tags: [soup, vegan]
+    utensils: [Thermomix]
+    ingredients:
+      - items:
+          - [onion, 1, null]
+          - [fresh ginger, 3, cm]
+          - [extra virgin olive oil, 30, g]
+          - [carrots, 600, g]
+          - [potato, 100, g]
+          - [vegetable stock, 600, g]
+          - [orange juice, 50, g, optional]
+          - [salt, 1, tsp]
+    steps:
+      - Put the onion and peeled ginger in the bowl and chop 5 sec/speed 5.
+      - Add the oil and sauté 5 min/120°C/speed 1.
+      - Add the carrots and potato in pieces and chop 5 sec/speed 5.
+      - Add the stock and salt and cook 25 min/100°C/speed 1.
+      - Add the orange juice and blend 1 min/speed 5-10, increasing gradually.
+
+  - name: Broccoli soup
+    category: Soups
+    difficulty: EASY
+    prep: 10
+    cook: 25
+    servings: 4
+    notes: Programmed for the Thermomix TM6. If you don't overcook it, it keeps its bright green colour.
+    tags: [soup, vegetarian]
+    utensils: [Thermomix]
+    ingredients:
+      - items:
+          - [onion, 1, null]
+          - [extra virgin olive oil, 30, g]
+          - [broccoli florets, 500, g]
+          - [potato, 150, g]
+          - [vegetable stock, 600, g]
+          - [processed cheese triangles, 2, null]
+          - [salt, 1, tsp]
+    steps:
+      - Put the onion in the bowl and chop 5 sec/speed 5.
+      - Add the oil and sauté 5 min/120°C/speed 1.
+      - Add the broccoli and potato in pieces, the stock and salt and cook 18 min/100°C/speed 1.
+      - Add the cheese triangles and blend 1 min/speed 5-10, increasing gradually.
+
+  - name: White asparagus soup
+    category: Soups
+    difficulty: EASY
+    prep: 10
+    cook: 25
+    servings: 4
+    notes: Programmed for the Thermomix TM6. With jarred asparagus, use some of their liquid in place of part of the stock.
+    tags: [soup, vegetarian]
+    utensils: [Thermomix]
+    ingredients:
+      - items:
+          - [leek, 1, null]
+          - [butter, 30, g]
+          - [drained jarred white asparagus, 400, g]
+          - [potato, 150, g]
+          - [vegetable stock, 500, g]
+          - [single cream, 100, g]
+          - [salt, 1, tsp]
+          - [white pepper, null, null]
+    steps:
+      - Put the leek, in pieces, in the bowl and chop 5 sec/speed 5.
+      - Add the butter and sauté 5 min/100°C/speed 1.
+      - Add the asparagus, except two for garnish, the potato in pieces, the stock, salt and pepper and cook 18 min/100°C/speed 1.
+      - Add the cream and blend 1 min/speed 5-10, increasing gradually. Serve with the reserved asparagus, sliced.
+
+  - name: Pea and mint soup
+    category: Soups
+    difficulty: EASY
+    prep: 5
+    cook: 20
+    servings: 4
+    notes: Programmed for the Thermomix TM6. Frozen peas work just as well.
+    tags: [soup, vegetarian, spring]
+    utensils: [Thermomix]
+    ingredients:
+      - items:
+          - [spring onion, 1, null]
+          - [butter, 30, g]
+          - [peas, 500, g]
+          - [vegetable stock, 600, g]
+          - [fresh mint leaves, 10, null]
+          - [single cream, 50, g, optional]
+          - [salt, 1, tsp]
+    steps:
+      - Put the spring onion, in pieces, in the bowl and chop 5 sec/speed 5.
+      - Add the butter and sauté 4 min/100°C/speed 1.
+      - Add the peas, stock and salt and cook 12 min/100°C/speed 1.
+      - Add the mint and cream and blend 1 min/speed 5-10, increasing gradually. Strain if you want it very smooth.
+
+  - name: Tomato soup
+    category: Soups
+    difficulty: EASY
+    prep: 10
+    cook: 30
+    servings: 4
+    notes: Programmed for the Thermomix TM6. With very ripe tomatoes you won't need the sugar.
+    tags: [soup, vegan]
+    utensils: [Thermomix]
+    ingredients:
+      - items:
+          - [onion, 1, null]
+          - [garlic, 2, clove]
+          - [extra virgin olive oil, 40, g]
+          - [ripe tomatoes, 1, kg]
+          - [vegetable stock, 200, g]
+          - [fresh basil, 6, leaf]
+          - [sugar, 1, tsp, optional]
+          - [salt, 1, tsp]
+    steps:
+      - Put the onion and garlic in the bowl and chop 5 sec/speed 5.
+      - Add the oil and sauté 7 min/120°C/speed 1.
+      - Add the quartered tomatoes and chop 5 sec/speed 5.
+      - Add the stock, sugar and salt and cook 20 min/100°C/speed 1, with the simmering basket on the lid instead of the measuring cup so it reduces.
+      - Add the basil and blend 1 min/speed 5-10, increasing gradually.
+
+  - name: Red lentil soup
+    category: Legumes
+    difficulty: EASY
+    prep: 5
+    cook: 30
+    servings: 4
+    notes: Programmed for the Thermomix TM6. Red lentils need no soaking and fall apart as they cook.
+    tags: [soup, vegan]
+    utensils: [Thermomix]
+    ingredients:
+      - items:
+          - [onion, 1, null]
+          - [garlic, 1, clove]
+          - [carrot, 1, null]
+          - [extra virgin olive oil, 30, g]
+          - [ground cumin, 1, tsp]
+          - [turmeric, 0.5, tsp]
+          - [red lentils, 200, g]
+          - [vegetable stock, 900, g]
+          - [lemon juice, 1, tbsp]
+          - [salt, 1, tsp]
+    steps:
+      - Put the onion, garlic and carrot, in pieces, in the bowl and chop 5 sec/speed 5.
+      - Add the oil and sauté 5 min/120°C/speed 1. Add the cumin and turmeric and cook 30 sec/120°C/speed 1.
+      - Add the rinsed lentils, stock and salt and cook 20 min/100°C/speed 1.
+      - Add the lemon juice and blend 40 sec/speed 5-10, increasing gradually.
+
+  - name: Cauliflower soup
+    category: Soups
+    difficulty: EASY
+    prep: 10
+    cook: 25
+    servings: 4
+    notes: Programmed for the Thermomix TM6. A pinch of curry powder or a few toasted hazelnuts on top suit it well.
+    tags: [soup, vegetarian]
+    utensils: [Thermomix]
+    ingredients:
+      - items:
+          - [onion, 1, null]
+          - [butter, 30, g]
+          - [cauliflower florets, 600, g]
+          - [potato, 100, g]
+          - [vegetable stock, 500, g]
+          - [milk, 100, g]
+          - [nutmeg, 1, pinch]
+          - [salt, 1, tsp]
+    steps:
+      - Put the onion in the bowl and chop 5 sec/speed 5.
+      - Add the butter and sauté 5 min/100°C/speed 1.
+      - Add the cauliflower, the potato in pieces, the stock and salt and cook 20 min/100°C/speed 1.
+      - Add the milk and nutmeg and blend 1 min/speed 5-10, increasing gradually.
+
+  - name: Spinach soup
+    category: Soups
+    difficulty: EASY
+    prep: 5
+    cook: 20
+    servings: 4
+    notes: Programmed for the Thermomix TM6. The spinach goes in at the end so it keeps its colour.
+    tags: [soup, vegetarian]
+    utensils: [Thermomix]
+    ingredients:
+      - items:
+          - [onion, 1, null]
+          - [garlic, 1, clove]
+          - [extra virgin olive oil, 30, g]
+          - [potatoes, 250, g]
+          - [vegetable stock, 600, g]
+          - [fresh spinach, 300, g]
+          - [cream cheese, 60, g]
+          - [nutmeg, 1, pinch]
+          - [salt, 1, tsp]
+    steps:
+      - Put the onion and garlic in the bowl and chop 5 sec/speed 5.
+      - Add the oil and sauté 5 min/120°C/speed 1.
+      - Add the potatoes in pieces, the stock and salt and cook 15 min/100°C/speed 1.
+      - Add the spinach and cook 3 min/100°C/speed 1.
+      - Add the cream cheese and nutmeg and blend 1 min/speed 5-10, increasing gradually.
+
+  - name: Sweet potato soup
+    category: Soups
+    difficulty: EASY
+    prep: 10
+    cook: 30
+    servings: 4
+    notes: Programmed for the Thermomix TM6. Its natural sweetness goes well with a pinch of smoked paprika when serving.
+    tags: [soup, vegan, autumn]
+    utensils: [Thermomix]
+    ingredients:
+      - items:
+          - [onion, 1, null]
+          - [extra virgin olive oil, 30, g]
+          - [peeled sweet potatoes, 600, g]
+          - [carrot, 1, null]
+          - [vegetable stock, 600, g]
+          - [ground cumin, 0.5, tsp]
+          - [salt, 1, tsp]
+          - [smoked paprika, null, null, optional]
+    steps:
+      - Put the onion in the bowl and chop 5 sec/speed 5.
+      - Add the oil and sauté 5 min/120°C/speed 1.
+      - Add the sweet potato and carrot in pieces and chop 5 sec/speed 5.
+      - Add the stock, cumin and salt and cook 25 min/100°C/speed 1.
+      - Blend 1 min/speed 5-10, increasing gradually, and serve with smoked paprika.
+
+  - name: Artichoke soup
+    category: Soups
+    difficulty: EASY
+    prep: 20
+    cook: 30
+    servings: 4
+    notes: Programmed for the Thermomix TM6. With tinned artichoke hearts you skip the trimming and cut the cooking to 15 minutes.
+    tags: [soup, vegan]
+    utensils: [Thermomix]
+    ingredients:
+      - items:
+          - [artichokes, 8, null]
+          - [lemon, 1, null]
+          - [onion, 1, null]
+          - [garlic, 1, clove]
+          - [extra virgin olive oil, 30, g]
+          - [potato, 200, g]
+          - [vegetable stock, 600, g]
+          - [salt, 1, tsp]
+    steps:
+      - Trim the artichokes down to the hearts, quarter them and keep them in water with the lemon juice.
+      - Put the onion and garlic in the bowl and chop 5 sec/speed 5. Add the oil and sauté 5 min/120°C/speed 1.
+      - Add the drained artichokes, the potato in pieces, the stock and salt and cook 25 min/100°C/speed 1.
+      - Blend 1 min/speed 5-10, increasing gradually. Strain if you want it very smooth.
+
+  - name: Roasted red pepper soup
+    category: Soups
+    difficulty: EASY
+    prep: 10
+    cook: 25
+    servings: 4
+    notes: Programmed for the Thermomix TM6. Jarred roasted peppers work well.
+    tags: [soup, vegan]
+    utensils: [Thermomix]
+    ingredients:
+      - items:
+          - [onion, 1, null]
+          - [garlic, 1, clove]
+          - [extra virgin olive oil, 30, g]
+          - [roasted and peeled red peppers, 500, g]
+          - [potato, 200, g]
+          - [vegetable stock, 500, g]
+          - [sweet paprika, 0.5, tsp]
+          - [salt, 1, tsp]
+    steps:
+      - Put the onion and garlic in the bowl and chop 5 sec/speed 5.
+      - Add the oil and sauté 5 min/120°C/speed 1.
+      - Add the peppers, the potato in pieces, the stock, paprika and salt and cook 18 min/100°C/speed 1.
+      - Blend 1 min/speed 5-10, increasing gradually.
+
+  - name: Chestnut soup
+    category: Soups
+    difficulty: EASY
+    prep: 10
+    cook: 30
+    servings: 4
+    notes: Programmed for the Thermomix TM6. With vacuum-packed peeled, cooked chestnuts it is very quick.
+    tags: [soup, autumn, vegetarian]
+    utensils: [Thermomix]
+    ingredients:
+      - items:
+          - [onion, 1, null]
+          - [leek, 1, null]
+          - [butter, 30, g]
+          - [peeled cooked chestnuts, 400, g]
+          - [potato, 100, g]
+          - [vegetable stock, 700, g]
+          - [single cream, 100, g]
+          - [salt, 1, tsp]
+          - [black pepper, null, null]
+    steps:
+      - Put the onion and leek, in pieces, in the bowl and chop 5 sec/speed 5.
+      - Add the butter and sauté 6 min/100°C/speed 1.
+      - Add the chestnuts, the potato in pieces, the stock, salt and pepper and cook 20 min/100°C/speed 1.
+      - Add the cream and blend 1 min/speed 5-10, increasing gradually.
+
+  - name: Celeriac soup
+    category: Soups
+    difficulty: EASY
+    prep: 15
+    cook: 30
+    servings: 4
+    notes: Programmed for the Thermomix TM6. Celeriac has a mild celery and hazelnut flavour.
+    tags: [soup, vegetarian, winter]
+    utensils: [Thermomix]
+    ingredients:
+      - items:
+          - [onion, 1, null]
+          - [butter, 30, g]
+          - [peeled celeriac, 500, g]
+          - [potato, 150, g]
+          - [apple, 1, null]
+          - [vegetable stock, 600, g]
+          - [single cream, 50, g]
+          - [salt, 1, tsp]
+    steps:
+      - Put the onion in the bowl and chop 5 sec/speed 5.
+      - Add the butter and sauté 5 min/100°C/speed 1.
+      - Add the celeriac, potato and peeled apple in pieces and chop 5 sec/speed 5.
+      - Add the stock and salt and cook 25 min/100°C/speed 1.
+      - Add the cream and blend 1 min/speed 5-10, increasing gradually.
+
+  - name: White bean soup
+    category: Legumes
+    difficulty: EASY
+    prep: 5
+    cook: 20
+    servings: 4
+    notes: Programmed for the Thermomix TM6. Made with cooked beans, from a jar or left over from the day before.
+    tags: [soup, vegan]
+    utensils: [Thermomix]
+    ingredients:
+      - items:
+          - [onion, 1, null]
+          - [garlic, 2, clove]
+          - [extra virgin olive oil, 40, g]
+          - [fresh rosemary, 1, sprig]
+          - [drained cooked white beans, 600, g]
+          - [vegetable stock, 600, g]
+          - [salt, 1, tsp]
+    steps:
+      - Put the onion and garlic in the bowl and chop 5 sec/speed 5.
+      - Add the oil and rosemary leaves and sauté 5 min/120°C/speed 1.
+      - Add the beans, stock and salt and cook 12 min/100°C/speed 1.
+      - Blend 1 min/speed 5-10, increasing gradually, and serve with a drizzle of oil.
+
+  - name: Beetroot soup
+    category: Soups
+    difficulty: EASY
+    prep: 10
+    cook: 30
+    servings: 4
+    notes: Programmed for the Thermomix TM6. Serve with a spoonful of yoghurt or soured cream and dill.
+    tags: [soup, vegetarian]
+    utensils: [Thermomix]
+    ingredients:
+      - items:
+          - [onion, 1, null]
+          - [extra virgin olive oil, 30, g]
+          - [cooked beetroot, 400, g]
+          - [potato, 200, g]
+          - [vegetable stock, 600, g]
+          - [cider vinegar, 1, tbsp]
+          - [salt, 1, tsp]
+          - [Greek yoghurt, 4, tbsp, optional]
+    steps:
+      - Put the onion in the bowl and chop 5 sec/speed 5.
+      - Add the oil and sauté 5 min/120°C/speed 1.
+      - Add the beetroot and potato in pieces, the stock and salt and cook 20 min/100°C/speed 1.
+      - Add the vinegar and blend 1 min/speed 5-10, increasing gradually. Serve with a spoonful of yoghurt.

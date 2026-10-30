@@ -1,0 +1,533 @@
+id: thermomix-cremas-y-pures
+version: 1
+updated: 2026-10-31
+language: es
+name: "Thermomix: cremas y purés"
+description: >-
+  Cremas y purés programados para Thermomix TM6 (vaso de 2,2 litros), que funcionan igual en
+  TM5 y TM7. Calabaza, verduras, vichyssoise, champiñones, zanahoria con jengibre, brócoli,
+  espárragos, guisantes con menta, tomate, lentejas rojas, coliflor, espinacas, boniato,
+  alcachofas, pimientos asados, castañas, apio nabo, alubias, remolacha y puré de patatas.
+  En TM31 (vaso de 2 litros y 100 °C como máximo), sofríe a temperatura Varoma.
+author: Miga
+authorGithub: calamares00
+cover:
+  emoji: "🥣"
+  kicker: Thermomix
+  title: Cremas y purés
+  colors: ["#047857", "#65a30d"]
+defaults:
+  source: "Pack «Thermomix: cremas y purés» de Miga"
+recipes:
+
+  - name: Crema de calabaza
+    category: Sopas y cremas
+    difficulty: EASY
+    prep: 10
+    cook: 35
+    servings: 4
+    notes: Programada para Thermomix TM6. No superes la marca de 2,2 litros del vaso.
+    tags: [crema, otoño, vegetariana]
+    utensils: [Thermomix]
+    ingredients:
+      - items:
+          - [cebolla, 1, null]
+          - [aceite de oliva virgen extra, 30, g]
+          - [calabaza pelada en trozos, 600, g]
+          - [zanahoria, 1, null]
+          - [patata, 150, g]
+          - [caldo de verduras, 500, g]
+          - [nata para cocinar, 50, g, optional]
+          - [nuez moscada, 1, pizca]
+          - [sal, 1, cucharadita]
+    steps:
+      - Pon la cebolla en trozos en el vaso y pica 5 seg/vel 5. Baja los restos con la espátula.
+      - Añade el aceite y sofríe 5 min/120 °C/vel 1.
+      - Añade la calabaza, la zanahoria y la patata en trozos y trocea 5 seg/vel 5.
+      - Añade el caldo, la sal y la nuez moscada y programa 25 min/100 °C/vel 1.
+      - Añade la nata y tritura 1 min/vel 5-10, subiendo la velocidad progresivamente. Ajusta de sal.
+
+  - name: Crema de verduras
+    category: Sopas y cremas
+    difficulty: EASY
+    prep: 10
+    cook: 35
+    servings: 4
+    notes: Programada para Thermomix TM6. Vale cualquier mezcla de verduras de temporada, con un peso total parecido.
+    tags: [crema, vegana]
+    utensils: [Thermomix]
+    ingredients:
+      - items:
+          - [cebolla, 1, null]
+          - [puerro, 1, null]
+          - [aceite de oliva virgen extra, 30, g]
+          - [zanahorias, 2, null]
+          - [calabacín, 1, null]
+          - [judías verdes, 100, g]
+          - [patata, 200, g]
+          - [agua o caldo de verduras, 600, g]
+          - [sal, 1, cucharadita]
+    steps:
+      - Pon la cebolla y el puerro en trozos en el vaso y pica 5 seg/vel 5.
+      - Añade el aceite y sofríe 6 min/120 °C/vel 1.
+      - Añade el resto de las verduras en trozos y trocea 5 seg/vel 5.
+      - Añade el agua y la sal y programa 25 min/100 °C/vel 1.
+      - Tritura 1 min/vel 5-10 progresivamente y ajusta de sal.
+
+  - name: Puré de patatas
+    category: Verduras
+    difficulty: EASY
+    prep: 10
+    cook: 30
+    servings: 4
+    notes: Programado para Thermomix TM6. Usa siempre la mariposa y no superes la velocidad 3,5, o el puré quedará elástico.
+    tags: [puré, guarnición, vegetariana]
+    utensils: [Thermomix]
+    ingredients:
+      - items:
+          - [patatas harinosas, 800, g]
+          - [leche entera, 300, g]
+          - [mantequilla, 40, g]
+          - [sal, 1, cucharadita]
+          - [nuez moscada, 1, pizca]
+    steps:
+      - Coloca la mariposa en las cuchillas.
+      - Pela las patatas, córtalas en rodajas de 1 cm y ponlas en el vaso con la leche y la sal.
+      - Programa 25 min/100 °C/giro a la izquierda/vel cuchara, hasta que las patatas estén tiernas.
+      - Añade la mantequilla y la nuez moscada y mezcla 20 seg/vel 3,5. Quita la mariposa y sirve.
+
+  - name: Vichyssoise
+    category: Sopas y cremas
+    difficulty: EASY
+    prep: 10
+    cook: 30
+    servings: 4
+    notes: Programada para Thermomix TM6. Se sirve fría, con cebollino picado.
+    tags: [crema, fría, vegetariana]
+    utensils: [Thermomix]
+    ingredients:
+      - items:
+          - [puerros (la parte blanca), 3, null]
+          - [cebolla, 0.5, null]
+          - [mantequilla, 30, g]
+          - [patatas, 300, g]
+          - [caldo de pollo o de verduras, 600, g]
+          - [nata para cocinar, 150, g]
+          - [sal, 1, cucharadita]
+          - [pimienta blanca, null, null]
+          - [cebollino picado, 1, cucharada]
+    steps:
+      - Pon los puerros y la cebolla en trozos en el vaso y pica 5 seg/vel 5.
+      - Añade la mantequilla y sofríe 8 min/100 °C/vel 1, sin que tomen color.
+      - Añade las patatas en trozos, el caldo, la sal y la pimienta y programa 20 min/100 °C/vel 1.
+      - Añade la nata y tritura 1 min/vel 5-10 progresivamente.
+      - Enfría en la nevera al menos 3 horas y sirve con cebollino.
+
+  - name: Crema de champiñones
+    category: Sopas y cremas
+    difficulty: EASY
+    prep: 10
+    cook: 25
+    servings: 4
+    notes: Programada para Thermomix TM6. Reserva unos champiñones laminados y salteados para decorar.
+    tags: [crema, vegetariana]
+    utensils: [Thermomix]
+    ingredients:
+      - items:
+          - [cebolla, 1, null]
+          - [ajo, 1, diente]
+          - [mantequilla, 30, g]
+          - [champiñones, 500, g]
+          - [patata, 100, g]
+          - [caldo de verduras, 500, g]
+          - [nata para cocinar, 100, g]
+          - [tomillo seco, 0.5, cucharadita]
+          - [sal, 1, cucharadita]
+          - [pimienta negra, null, null]
+    steps:
+      - Pon la cebolla y el ajo en el vaso y pica 5 seg/vel 5.
+      - Añade la mantequilla y sofríe 5 min/120 °C/vel 1.
+      - Añade los champiñones y la patata en trozos y sofríe 5 min/120 °C/giro a la izquierda/vel 1.
+      - Añade el caldo, el tomillo, la sal y la pimienta y programa 15 min/100 °C/vel 1.
+      - Añade la nata y tritura 1 min/vel 5-10 progresivamente.
+
+  - name: Crema de zanahoria y jengibre
+    category: Sopas y cremas
+    difficulty: EASY
+    prep: 10
+    cook: 30
+    servings: 4
+    notes: Programada para Thermomix TM6. Un chorrito de leche de coco al servir le va muy bien.
+    tags: [crema, vegana]
+    utensils: [Thermomix]
+    ingredients:
+      - items:
+          - [cebolla, 1, null]
+          - [jengibre fresco, 3, cm]
+          - [aceite de oliva virgen extra, 30, g]
+          - [zanahorias, 600, g]
+          - [patata, 100, g]
+          - [caldo de verduras, 600, g]
+          - [zumo de naranja, 50, g, optional]
+          - [sal, 1, cucharadita]
+    steps:
+      - Pon la cebolla y el jengibre pelado en el vaso y pica 5 seg/vel 5.
+      - Añade el aceite y sofríe 5 min/120 °C/vel 1.
+      - Añade las zanahorias y la patata en trozos y trocea 5 seg/vel 5.
+      - Añade el caldo y la sal y programa 25 min/100 °C/vel 1.
+      - Añade el zumo de naranja y tritura 1 min/vel 5-10 progresivamente.
+
+  - name: Crema de brócoli
+    category: Sopas y cremas
+    difficulty: EASY
+    prep: 10
+    cook: 25
+    servings: 4
+    notes: Programada para Thermomix TM6. Si no la cueces de más, conserva su color verde intenso.
+    tags: [crema, vegetariana]
+    utensils: [Thermomix]
+    ingredients:
+      - items:
+          - [cebolla, 1, null]
+          - [aceite de oliva virgen extra, 30, g]
+          - [brócoli en ramilletes, 500, g]
+          - [patata, 150, g]
+          - [caldo de verduras, 600, g]
+          - [queso en porciones, 2, null]
+          - [sal, 1, cucharadita]
+    steps:
+      - Pon la cebolla en el vaso y pica 5 seg/vel 5.
+      - Añade el aceite y sofríe 5 min/120 °C/vel 1.
+      - Añade el brócoli y la patata en trozos, el caldo y la sal y programa 18 min/100 °C/vel 1.
+      - Añade los quesitos y tritura 1 min/vel 5-10 progresivamente.
+
+  - name: Crema de espárragos blancos
+    category: Sopas y cremas
+    difficulty: EASY
+    prep: 10
+    cook: 25
+    servings: 4
+    notes: Programada para Thermomix TM6. Con espárragos en conserva, usa también su líquido en lugar de parte del caldo.
+    tags: [crema, vegetariana]
+    utensils: [Thermomix]
+    ingredients:
+      - items:
+          - [puerro, 1, null]
+          - [mantequilla, 30, g]
+          - [espárragos blancos en conserva escurridos, 400, g]
+          - [patata, 150, g]
+          - [caldo de verduras, 500, g]
+          - [nata para cocinar, 100, g]
+          - [sal, 1, cucharadita]
+          - [pimienta blanca, null, null]
+    steps:
+      - Pon el puerro en trozos en el vaso y pica 5 seg/vel 5.
+      - Añade la mantequilla y sofríe 5 min/100 °C/vel 1.
+      - Añade los espárragos, menos dos para decorar, la patata en trozos, el caldo, la sal y la pimienta y programa 18 min/100 °C/vel 1.
+      - Añade la nata y tritura 1 min/vel 5-10 progresivamente. Sirve con los espárragos reservados en rodajas.
+
+  - name: Crema de guisantes y menta
+    category: Sopas y cremas
+    difficulty: EASY
+    prep: 5
+    cook: 20
+    servings: 4
+    notes: Programada para Thermomix TM6. Con guisantes congelados sale igual de buena.
+    tags: [crema, vegetariana, primavera]
+    utensils: [Thermomix]
+    ingredients:
+      - items:
+          - [cebolleta, 1, null]
+          - [mantequilla, 30, g]
+          - [guisantes, 500, g]
+          - [caldo de verduras, 600, g]
+          - [hojas de menta fresca, 10, null]
+          - [nata para cocinar, 50, g, optional]
+          - [sal, 1, cucharadita]
+    steps:
+      - Pon la cebolleta en trozos en el vaso y pica 5 seg/vel 5.
+      - Añade la mantequilla y sofríe 4 min/100 °C/vel 1.
+      - Añade los guisantes, el caldo y la sal y programa 12 min/100 °C/vel 1.
+      - Añade la menta y la nata y tritura 1 min/vel 5-10 progresivamente. Cuela si la quieres muy fina.
+
+  - name: Crema de tomate
+    category: Sopas y cremas
+    difficulty: EASY
+    prep: 10
+    cook: 30
+    servings: 4
+    notes: Programada para Thermomix TM6. Con tomates muy maduros no hace falta el azúcar.
+    tags: [crema, vegana]
+    utensils: [Thermomix]
+    ingredients:
+      - items:
+          - [cebolla, 1, null]
+          - [ajo, 2, diente]
+          - [aceite de oliva virgen extra, 40, g]
+          - [tomates maduros, 1, kg]
+          - [caldo de verduras, 200, g]
+          - [albahaca fresca, 6, hoja]
+          - [azúcar, 1, cucharadita, optional]
+          - [sal, 1, cucharadita]
+    steps:
+      - Pon la cebolla y el ajo en el vaso y pica 5 seg/vel 5.
+      - Añade el aceite y sofríe 7 min/120 °C/vel 1.
+      - Añade los tomates en cuartos y trocea 5 seg/vel 5.
+      - Añade el caldo, el azúcar y la sal y programa 20 min/100 °C/vel 1, con el cestillo sobre la tapa en lugar del cubilete para que se evapore.
+      - Añade la albahaca y tritura 1 min/vel 5-10 progresivamente.
+
+  - name: Crema de lentejas rojas
+    category: Legumbres
+    difficulty: EASY
+    prep: 5
+    cook: 30
+    servings: 4
+    notes: Programada para Thermomix TM6. Las lentejas rojas no necesitan remojo y se deshacen al cocerlas.
+    tags: [crema, vegana]
+    utensils: [Thermomix]
+    ingredients:
+      - items:
+          - [cebolla, 1, null]
+          - [ajo, 1, diente]
+          - [zanahoria, 1, null]
+          - [aceite de oliva virgen extra, 30, g]
+          - [comino molido, 1, cucharadita]
+          - [cúrcuma, 0.5, cucharadita]
+          - [lentejas rojas, 200, g]
+          - [caldo de verduras, 900, g]
+          - [zumo de limón, 1, cucharada]
+          - [sal, 1, cucharadita]
+    steps:
+      - Pon la cebolla, el ajo y la zanahoria en trozos en el vaso y pica 5 seg/vel 5.
+      - Añade el aceite y sofríe 5 min/120 °C/vel 1. Añade el comino y la cúrcuma y programa 30 seg/120 °C/vel 1.
+      - Añade las lentejas lavadas, el caldo y la sal y programa 20 min/100 °C/vel 1.
+      - Añade el zumo de limón y tritura 40 seg/vel 5-10 progresivamente.
+
+  - name: Crema de coliflor
+    category: Sopas y cremas
+    difficulty: EASY
+    prep: 10
+    cook: 25
+    servings: 4
+    notes: Programada para Thermomix TM6. Una pizca de curry o unas avellanas tostadas por encima le van muy bien.
+    tags: [crema, vegetariana]
+    utensils: [Thermomix]
+    ingredients:
+      - items:
+          - [cebolla, 1, null]
+          - [mantequilla, 30, g]
+          - [coliflor en ramilletes, 600, g]
+          - [patata, 100, g]
+          - [caldo de verduras, 500, g]
+          - [leche, 100, g]
+          - [nuez moscada, 1, pizca]
+          - [sal, 1, cucharadita]
+    steps:
+      - Pon la cebolla en el vaso y pica 5 seg/vel 5.
+      - Añade la mantequilla y sofríe 5 min/100 °C/vel 1.
+      - Añade la coliflor, la patata en trozos, el caldo y la sal y programa 20 min/100 °C/vel 1.
+      - Añade la leche y la nuez moscada y tritura 1 min/vel 5-10 progresivamente.
+
+  - name: Crema de espinacas
+    category: Sopas y cremas
+    difficulty: EASY
+    prep: 5
+    cook: 20
+    servings: 4
+    notes: Programada para Thermomix TM6. Las espinacas se añaden al final para que mantengan el color.
+    tags: [crema, vegetariana]
+    utensils: [Thermomix]
+    ingredients:
+      - items:
+          - [cebolla, 1, null]
+          - [ajo, 1, diente]
+          - [aceite de oliva virgen extra, 30, g]
+          - [patatas, 250, g]
+          - [caldo de verduras, 600, g]
+          - [espinacas frescas, 300, g]
+          - [queso crema, 60, g]
+          - [nuez moscada, 1, pizca]
+          - [sal, 1, cucharadita]
+    steps:
+      - Pon la cebolla y el ajo en el vaso y pica 5 seg/vel 5.
+      - Añade el aceite y sofríe 5 min/120 °C/vel 1.
+      - Añade las patatas en trozos, el caldo y la sal y programa 15 min/100 °C/vel 1.
+      - Añade las espinacas y programa 3 min/100 °C/vel 1.
+      - Añade el queso crema y la nuez moscada y tritura 1 min/vel 5-10 progresivamente.
+
+  - name: Crema de boniato
+    category: Sopas y cremas
+    difficulty: EASY
+    prep: 10
+    cook: 30
+    servings: 4
+    notes: Programada para Thermomix TM6. Su dulzor natural combina bien con una pizca de pimentón ahumado al servir.
+    tags: [crema, vegana, otoño]
+    utensils: [Thermomix]
+    ingredients:
+      - items:
+          - [cebolla, 1, null]
+          - [aceite de oliva virgen extra, 30, g]
+          - [boniatos pelados, 600, g]
+          - [zanahoria, 1, null]
+          - [caldo de verduras, 600, g]
+          - [comino molido, 0.5, cucharadita]
+          - [sal, 1, cucharadita]
+          - [pimentón ahumado, null, null, optional]
+    steps:
+      - Pon la cebolla en el vaso y pica 5 seg/vel 5.
+      - Añade el aceite y sofríe 5 min/120 °C/vel 1.
+      - Añade el boniato y la zanahoria en trozos y trocea 5 seg/vel 5.
+      - Añade el caldo, el comino y la sal y programa 25 min/100 °C/vel 1.
+      - Tritura 1 min/vel 5-10 progresivamente y sirve con pimentón ahumado.
+
+  - name: Crema de alcachofas
+    category: Sopas y cremas
+    difficulty: EASY
+    prep: 20
+    cook: 30
+    servings: 4
+    notes: Programada para Thermomix TM6. Con corazones de alcachofa en conserva, ahorras la limpieza y reduces la cocción a 15 minutos.
+    tags: [crema, vegana]
+    utensils: [Thermomix]
+    ingredients:
+      - items:
+          - [alcachofas, 8, null]
+          - [limón, 1, null]
+          - [cebolla, 1, null]
+          - [ajo, 1, diente]
+          - [aceite de oliva virgen extra, 30, g]
+          - [patata, 200, g]
+          - [caldo de verduras, 600, g]
+          - [sal, 1, cucharadita]
+    steps:
+      - Limpia las alcachofas, quédate con los corazones, córtalos en cuartos y déjalos en agua con el zumo del limón.
+      - Pon la cebolla y el ajo en el vaso y pica 5 seg/vel 5. Añade el aceite y sofríe 5 min/120 °C/vel 1.
+      - Añade las alcachofas escurridas, la patata en trozos, el caldo y la sal y programa 25 min/100 °C/vel 1.
+      - Tritura 1 min/vel 5-10 progresivamente. Cuela si la quieres muy fina.
+
+  - name: Crema de pimientos rojos asados
+    category: Sopas y cremas
+    difficulty: EASY
+    prep: 10
+    cook: 25
+    servings: 4
+    notes: Programada para Thermomix TM6. Puedes usar pimientos asados en conserva.
+    tags: [crema, vegana]
+    utensils: [Thermomix]
+    ingredients:
+      - items:
+          - [cebolla, 1, null]
+          - [ajo, 1, diente]
+          - [aceite de oliva virgen extra, 30, g]
+          - [pimientos rojos asados y pelados, 500, g]
+          - [patata, 200, g]
+          - [caldo de verduras, 500, g]
+          - [pimentón dulce, 0.5, cucharadita]
+          - [sal, 1, cucharadita]
+    steps:
+      - Pon la cebolla y el ajo en el vaso y pica 5 seg/vel 5.
+      - Añade el aceite y sofríe 5 min/120 °C/vel 1.
+      - Añade los pimientos, la patata en trozos, el caldo, el pimentón y la sal y programa 18 min/100 °C/vel 1.
+      - Tritura 1 min/vel 5-10 progresivamente.
+
+  - name: Crema de castañas
+    category: Sopas y cremas
+    difficulty: EASY
+    prep: 10
+    cook: 30
+    servings: 4
+    notes: Programada para Thermomix TM6. Con castañas ya peladas y cocidas al vacío es muy rápida.
+    tags: [crema, otoño, vegetariana]
+    utensils: [Thermomix]
+    ingredients:
+      - items:
+          - [cebolla, 1, null]
+          - [puerro, 1, null]
+          - [mantequilla, 30, g]
+          - [castañas peladas y cocidas, 400, g]
+          - [patata, 100, g]
+          - [caldo de verduras, 700, g]
+          - [nata para cocinar, 100, g]
+          - [sal, 1, cucharadita]
+          - [pimienta negra, null, null]
+    steps:
+      - Pon la cebolla y el puerro en trozos en el vaso y pica 5 seg/vel 5.
+      - Añade la mantequilla y sofríe 6 min/100 °C/vel 1.
+      - Añade las castañas, la patata en trozos, el caldo, la sal y la pimienta y programa 20 min/100 °C/vel 1.
+      - Añade la nata y tritura 1 min/vel 5-10 progresivamente.
+
+  - name: Crema de apio nabo
+    category: Sopas y cremas
+    difficulty: EASY
+    prep: 15
+    cook: 30
+    servings: 4
+    notes: Programada para Thermomix TM6. El apio nabo tiene un sabor suave a apio y avellana.
+    tags: [crema, vegetariana, invierno]
+    utensils: [Thermomix]
+    ingredients:
+      - items:
+          - [cebolla, 1, null]
+          - [mantequilla, 30, g]
+          - [apio nabo pelado, 500, g]
+          - [patata, 150, g]
+          - [manzana, 1, null]
+          - [caldo de verduras, 600, g]
+          - [nata para cocinar, 50, g]
+          - [sal, 1, cucharadita]
+    steps:
+      - Pon la cebolla en el vaso y pica 5 seg/vel 5.
+      - Añade la mantequilla y sofríe 5 min/100 °C/vel 1.
+      - Añade el apio nabo, la patata y la manzana pelada en trozos y trocea 5 seg/vel 5.
+      - Añade el caldo y la sal y programa 25 min/100 °C/vel 1.
+      - Añade la nata y tritura 1 min/vel 5-10 progresivamente.
+
+  - name: Crema de alubias blancas
+    category: Legumbres
+    difficulty: EASY
+    prep: 5
+    cook: 20
+    servings: 4
+    notes: Programada para Thermomix TM6. Se hace con alubias ya cocidas, de bote o del día anterior.
+    tags: [crema, vegana]
+    utensils: [Thermomix]
+    ingredients:
+      - items:
+          - [cebolla, 1, null]
+          - [ajo, 2, diente]
+          - [aceite de oliva virgen extra, 40, g]
+          - [romero fresco, 1, ramita]
+          - [alubias blancas cocidas y escurridas, 600, g]
+          - [caldo de verduras, 600, g]
+          - [sal, 1, cucharadita]
+    steps:
+      - Pon la cebolla y el ajo en el vaso y pica 5 seg/vel 5.
+      - Añade el aceite y las hojas de romero y sofríe 5 min/120 °C/vel 1.
+      - Añade las alubias, el caldo y la sal y programa 12 min/100 °C/vel 1.
+      - Tritura 1 min/vel 5-10 progresivamente y sirve con un hilo de aceite.
+
+  - name: Crema de remolacha
+    category: Sopas y cremas
+    difficulty: EASY
+    prep: 10
+    cook: 30
+    servings: 4
+    notes: Programada para Thermomix TM6. Se sirve con una cucharada de yogur o de nata agria y eneldo.
+    tags: [crema, vegetariana]
+    utensils: [Thermomix]
+    ingredients:
+      - items:
+          - [cebolla, 1, null]
+          - [aceite de oliva virgen extra, 30, g]
+          - [remolacha cocida, 400, g]
+          - [patata, 200, g]
+          - [caldo de verduras, 600, g]
+          - [vinagre de manzana, 1, cucharada]
+          - [sal, 1, cucharadita]
+          - [yogur griego, 4, cucharada, optional]
+    steps:
+      - Pon la cebolla en el vaso y pica 5 seg/vel 5.
+      - Añade el aceite y sofríe 5 min/120 °C/vel 1.
+      - Añade la remolacha y la patata en trozos, el caldo y la sal y programa 20 min/100 °C/vel 1.
+      - Añade el vinagre y tritura 1 min/vel 5-10 progresivamente. Sirve con una cucharada de yogur.

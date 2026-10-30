@@ -254,6 +254,18 @@
       "language": "es"
     },
     {
+      "id": "cocina-vietnamita",
+      "name": "Cocina del mundo: Vietnam",
+      "author": "Miga",
+      "authorGithub": "calamares00",
+      "description": "La cocina fresca y aromática de Vietnam, de Hanói a Saigón: phở, bún chả, bánh mì, rollitos frescos y fritos, bún bò Huế, cơm tấm, pescado y cerdo caramelizados, sopa agria, bò lúc lắc, pollo con citronela, bánh xèo, ensalada de pollo, bún thịt nướng, nước chấm, tofu con tomate y, de postre, plátano con coco, café con leche condensada y batido de aguacate.",
+      "coverImageUrl": "packs/cocina-vietnamita/cover.jpg",
+      "latestVersion": 1,
+      "recipeCount": 20,
+      "downloadUrl": "dist/cocina-vietnamita-v1.zip",
+      "language": "es"
+    },
+    {
       "id": "colombian-cooking",
       "name": "World cuisine: Colombia",
       "author": "Miga",
@@ -455,6 +467,18 @@
       "latestVersion": 1,
       "recipeCount": 20,
       "downloadUrl": "dist/thermomix-soups-and-purees-v1.zip",
+      "language": "en"
+    },
+    {
+      "id": "vietnamese-cooking",
+      "name": "World cuisine: Vietnam",
+      "author": "Miga",
+      "authorGithub": "calamares00",
+      "description": "Vietnam's fresh, fragrant cooking, from Hanoi to Saigon: phở, bún chả, bánh mì, fresh and fried spring rolls, bún bò Huế, cơm tấm, caramelised fish and pork, sour soup, shaking beef, lemongrass chilli chicken, bánh xèo, chicken salad, bún thịt nướng, nước chấm, tofu in tomato sauce and, for dessert, banana in coconut milk, iced coffee with condensed milk and avocado smoothie.",
+      "coverImageUrl": "packs/vietnamese-cooking/cover.jpg",
+      "latestVersion": 1,
+      "recipeCount": 20,
+      "downloadUrl": "dist/vietnamese-cooking-v1.zip",
       "language": "en"
     }
   ]

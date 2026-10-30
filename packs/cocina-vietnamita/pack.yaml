@@ -1,0 +1,639 @@
+id: cocina-vietnamita
+version: 1
+updated: 2026-10-31
+language: es
+name: "Cocina del mundo: Vietnam"
+description: >-
+  La cocina fresca y aromática de Vietnam, de Hanói a Saigón: phở, bún chả, bánh mì, rollitos
+  frescos y fritos, bún bò Huế, cơm tấm, pescado y cerdo caramelizados, sopa agria, bò lúc lắc,
+  pollo con citronela, bánh xèo, ensalada de pollo, bún thịt nướng, nước chấm, tofu con tomate y,
+  de postre, plátano con coco, café con leche condensada y batido de aguacate.
+author: Miga
+authorGithub: calamares00
+cover:
+  emoji: "🍜"
+  kicker: Cocina del mundo
+  title: Vietnam
+  colors: ["#991b1b", "#facc15"]
+defaults:
+  origin: Vietnam
+  originCountry: VN
+  source: "Pack «Cocina del mundo: Vietnam» de Miga"
+recipes:
+
+  - name: Phở bò
+    category: Sopas y cremas
+    difficulty: HARD
+    prep: 30
+    cook: 300
+    servings: 6
+    origin: Hanói
+    notes: Sopa de fideos de arroz con ternera. Tostar la cebolla y el jengibre y espumar el caldo con paciencia es lo que le da un caldo limpio y aromático.
+    tags: [sopa, fideos]
+    ingredients:
+      - group: Caldo
+        items:
+          - [huesos de ternera con tuétano, 2, kg]
+          - [falda o pecho de ternera, 500, g]
+          - [cebollas, 2, null]
+          - [jengibre fresco, 100, g]
+          - [anís estrellado, 5, null]
+          - [canela en rama, 1, null]
+          - [clavos, 4, null]
+          - [semillas de cilantro, 1, cucharadita]
+          - [salsa de pescado, 4, cucharada]
+          - [azúcar, 1, cucharada]
+          - [agua, 5, l]
+          - [sal, 1, cucharada]
+      - group: Para servir
+        items:
+          - [fideos de arroz planos, 400, g]
+          - [solomillo de ternera en láminas finísimas, 250, g]
+          - [cebolletas, 3, null]
+          - [cilantro fresco, 1, manojo]
+          - [albahaca tailandesa, 1, manojo]
+          - [brotes de soja, 200, g]
+          - [limas, 2, null]
+          - [chiles rojos, 2, null]
+          - [salsa hoisin y salsa sriracha, null, null, optional]
+    steps:
+      - Tuesta las cebollas partidas y el jengibre directamente sobre la llama o bajo el grill hasta que estén negros por fuera. Pela la piel quemada.
+      - Escalda los huesos 10 minutos en agua hirviendo, tira el agua y lávalos.
+      - Pon los huesos, la falda, la cebolla y el jengibre en una olla con el agua. Cuece a fuego muy suave, sin que borbotee, retirando la espuma.
+      - Saca la falda a la hora y media y resérvala. Tuesta las especias en una sartén, ponlas en una bolsita y añádelas al caldo la última hora. Cuece 4-5 horas en total.
+      - Cuela el caldo y sazónalo con la salsa de pescado, el azúcar y la sal.
+      - Remoja y escalda los fideos, repártelos en cuencos con la falda en lonchas y la carne cruda en láminas. Vierte encima el caldo hirviendo y sirve con las hierbas, los brotes, la lima y el chile.
+
+  - name: Bún chả
+    category: Carnes
+    difficulty: MEDIUM
+    prep: 40
+    cook: 20
+    servings: 4
+    origin: Hanói
+    notes: Albóndigas y panceta de cerdo a la parrilla con fideos fríos y un caldo dulce y ácido para mojar. Marina la carne al menos 1 hora.
+    tags: [parrilla, fideos]
+    ingredients:
+      - group: Carne
+        items:
+          - [carne picada de cerdo, 400, g]
+          - [panceta de cerdo en lonchas finas, 400, g]
+          - [chalotas, 3, null]
+          - [ajo, 3, diente]
+          - [salsa de pescado, 3, cucharada]
+          - [azúcar, 2, cucharada]
+          - [salsa de soja oscura o caramelo, 1, cucharadita]
+          - [pimienta negra, 1, cucharadita]
+      - group: Salsa
+        items:
+          - [nước chấm, 300, ml]
+          - [zanahoria, 1, null]
+          - [papaya verde o colinabo, 100, g, optional]
+      - group: Para servir
+        items:
+          - [fideos de arroz finos (bún), 300, g]
+          - [lechuga, 1, null]
+          - ["hierbas frescas (menta, cilantro, perilla)", 1, manojo]
+    steps:
+      - Pica las chalotas y el ajo y mézclalos con la salsa de pescado, el azúcar, la soja oscura y la pimienta. Marina por separado la carne picada y la panceta con la mitad de la mezcla.
+      - Forma con la carne picada pequeñas hamburguesas.
+      - Ásalas con la panceta sobre brasas o en el grill del horno 8-10 minutos, hasta que estén caramelizadas.
+      - Añade al nước chấm la zanahoria y la papaya en láminas finas y templa la salsa.
+      - Sirve la carne en cuencos con la salsa templada, y aparte los fideos cocidos y las hierbas para mojar.
+
+  - name: Bánh mì de cerdo a la citronela
+    category: Panes y masas
+    difficulty: MEDIUM
+    prep: 40
+    cook: 15
+    servings: 4
+    notes: El bocadillo vietnamita de herencia francesa. Las verduras encurtidas se pueden preparar la víspera.
+    tags: [bocadillo, cerdo]
+    ingredients:
+      - group: Encurtido
+        items:
+          - [zanahoria, 1, null]
+          - [rábano daikon, 150, g]
+          - [vinagre de arroz, 100, ml]
+          - [azúcar, 2, cucharada]
+          - [sal, 1, cucharadita]
+      - group: Cerdo
+        items:
+          - [lomo o aguja de cerdo en filetes finos, 400, g]
+          - [hierba limón (citronela), 2, tallo]
+          - [ajo, 2, diente]
+          - [salsa de pescado, 2, cucharada]
+          - [azúcar, 1, cucharada]
+          - [aceite de girasol, 1, cucharada]
+      - group: Bocadillo
+        items:
+          - [barras de pan ligeras, 4, null]
+          - [paté de hígado, 80, g]
+          - [mayonesa, 4, cucharada]
+          - [pepino, 1, null]
+          - [cilantro fresco, 1, manojo]
+          - [chile rojo, 1, null]
+          - [salsa Maggi o de soja, 1, cucharada]
+    steps:
+      - Corta la zanahoria y el daikon en bastones finos y mézclalos con el vinagre, el azúcar y la sal. Deja que se encurtan al menos 30 minutos.
+      - Tritura la citronela y el ajo y mézclalos con la salsa de pescado, el azúcar y el aceite. Marina el cerdo 30 minutos.
+      - Asa el cerdo en una sartén muy caliente o a la parrilla 2-3 minutos por cada lado.
+      - Calienta el pan en el horno hasta que esté crujiente y ábrelo.
+      - Unta el paté y la mayonesa, pon el cerdo, el encurtido escurrido, el pepino en tiras, el cilantro y el chile, y unas gotas de salsa Maggi.
+
+  - name: Rollitos frescos (gỏi cuốn)
+    category: Entrantes
+    difficulty: MEDIUM
+    prep: 40
+    cook: 15
+    servings: 4
+    notes: Rollitos de papel de arroz sin freír. El papel se moja solo unos segundos; se ablanda del todo al enrollarlo.
+    tags: [frío, aperitivo]
+    ingredients:
+      - group: Rollitos
+        items:
+          - [papel de arroz, 12, null]
+          - [langostinos cocidos y pelados, 12, null]
+          - [panceta de cerdo cocida, 200, g]
+          - [fideos de arroz finos (bún), 100, g]
+          - [lechuga, 12, hoja]
+          - [menta fresca, 1, manojo]
+          - [cilantro fresco, 1, manojo]
+          - [cebollino, 12, tallo]
+      - group: Salsa
+        items:
+          - [salsa hoisin, 4, cucharada]
+          - [crema de cacahuete, 2, cucharada]
+          - [agua caliente, 4, cucharada]
+          - [cacahuetes tostados picados, 2, cucharada]
+    steps:
+      - Cuece los fideos y escúrrelos. Parte los langostinos por la mitad a lo largo y corta la panceta en lonchas finas.
+      - Moja una hoja de papel de arroz en agua tibia 2 segundos y extiéndela en la mesa.
+      - Pon en el tercio inferior una hoja de lechuga, fideos, hierbas y panceta. Enrolla una vuelta, coloca tres medios langostinos con el corte hacia arriba, dobla los lados y termina de enrollar con un tallo de cebollino asomando.
+      - Mezcla la hoisin con la crema de cacahuete y el agua y espolvorea los cacahuetes. Sirve los rollitos con la salsa.
+
+  - name: Rollitos fritos (chả giò)
+    category: Entrantes
+    difficulty: MEDIUM
+    prep: 45
+    cook: 20
+    servings: 6
+    notes: En el norte se llaman nem rán. Se envuelven en lechuga con hierbas y se mojan en nước chấm.
+    tags: [frito, aperitivo]
+    ingredients:
+      - items:
+          - [papel de arroz, 20, null]
+          - [carne picada de cerdo, 300, g]
+          - [langostinos pelados picados, 150, g]
+          - [fideos de cristal, 30, g]
+          - [hongos oreja de Judas secos, 10, g]
+          - [zanahoria rallada, 1, null]
+          - [cebolla, 0.5, null]
+          - [huevo, 1, null]
+          - [salsa de pescado, 1, cucharada]
+          - [pimienta negra, 0.5, cucharadita]
+          - [aceite de girasol para freír, null, null]
+          - [nước chấm, 200, ml]
+          - [lechuga y hierbas frescas, null, null]
+    steps:
+      - Hidrata los fideos y los hongos en agua caliente 10 minutos, escúrrelos y pícalos.
+      - Mezcla la carne, los langostinos, los fideos, los hongos, la zanahoria, la cebolla picada, el huevo, la salsa de pescado y la pimienta.
+      - Moja cada papel de arroz un momento, pon una cucharada de relleno, dobla los lados y enrolla bien apretado.
+      - Fríelos en aceite a 160 °C 8-10 minutos, hasta que estén dorados y crujientes.
+      - Sírvelos con lechuga, hierbas y nước chấm.
+
+  - name: Bún bò Huế
+    category: Sopas y cremas
+    difficulty: HARD
+    prep: 30
+    cook: 180
+    servings: 6
+    origin: Huế
+    notes: La sopa picante de la antigua capital imperial, con mucha citronela y pasta de gambas fermentada (mắm ruốc).
+    tags: [sopa, picante]
+    ingredients:
+      - group: Caldo
+        items:
+          - [huesos de ternera, 1.5, kg]
+          - [morcillo de ternera, 500, g]
+          - [codillo de cerdo en rodajas, 500, g]
+          - [hierba limón (citronela), 6, tallo]
+          - [pasta de gambas fermentada (mắm ruốc), 1, cucharada]
+          - [salsa de pescado, 4, cucharada]
+          - [azúcar, 1, cucharada]
+          - [agua, 4, l]
+      - group: Aceite picante
+        items:
+          - [aceite de girasol, 4, cucharada]
+          - [chalotas picadas, 2, null]
+          - [hierba limón (citronela) picada, 2, cucharada]
+          - [chile en polvo, 2, cucharada]
+          - [semillas de achiote o pimentón, 1, cucharadita]
+      - group: Para servir
+        items:
+          - [fideos de arroz gruesos, 500, g]
+          - [cebolla, 1, null]
+          - [cilantro y menta, 1, manojo]
+          - [brotes de soja, 150, g]
+          - [limas, 2, null]
+    steps:
+      - Escalda los huesos y el codillo 10 minutos, tira el agua y lávalos.
+      - Cuécelos con el morcillo, la citronela aplastada y el agua a fuego suave 2 horas y media, espumando. Saca el morcillo cuando esté tierno.
+      - Disuelve la pasta de gambas en un poco de agua, deja que se asiente y añade la parte clara al caldo con la salsa de pescado y el azúcar.
+      - Fríe a fuego suave las chalotas y la citronela en el aceite, añade el chile y el achiote fuera del fuego y añade la mitad al caldo.
+      - Cuece los fideos y sírvelos con el morcillo en lonchas, el codillo y el caldo, cebolla en aros finos, las hierbas, los brotes y la lima. El resto del aceite picante va aparte.
+
+  - name: Cơm tấm con chuleta de cerdo
+    category: Arroces
+    difficulty: MEDIUM
+    prep: 30
+    cook: 30
+    servings: 4
+    origin: Saigón
+    notes: El arroz partido (tấm) era el de los pobres y hoy es el plato estrella de Saigón. Con arroz jazmín normal también queda bien.
+    tags: [arroz, cerdo, parrilla]
+    ingredients:
+      - group: Chuletas
+        items:
+          - [chuletas finas de cerdo, 4, null]
+          - [hierba limón (citronela), 2, tallo]
+          - [chalotas, 2, null]
+          - [ajo, 2, diente]
+          - [salsa de pescado, 2, cucharada]
+          - [miel, 1, cucharada]
+          - [azúcar, 1, cucharada]
+          - [salsa de soja, 1, cucharada]
+          - [aceite de girasol, 1, cucharada]
+      - group: Para servir
+        items:
+          - [arroz partido o jazmín, 400, g]
+          - [huevos, 4, null]
+          - [cebolletas, 4, null]
+          - [aceite de girasol, 3, cucharada]
+          - [pepino, 1, null]
+          - [tomates, 2, null]
+          - [nước chấm, 200, ml]
+    steps:
+      - Tritura la citronela, las chalotas y el ajo y mézclalos con la salsa de pescado, la miel, el azúcar, la soja y el aceite. Marina las chuletas al menos 1 hora.
+      - Cuece el arroz.
+      - Asa las chuletas a la parrilla o en una sartén muy caliente 3-4 minutos por cada lado, hasta que estén caramelizadas.
+      - Calienta el aceite y viértelo sobre la cebolleta picada con una pizca de sal (mỡ hành).
+      - Sirve el arroz con la chuleta, un huevo frito, la cebolleta en aceite, pepino, tomate y nước chấm.
+
+  - name: Pescado caramelizado (cá kho tộ)
+    category: Pescados y mariscos
+    difficulty: MEDIUM
+    prep: 15
+    cook: 45
+    servings: 4
+    origin: Delta del Mekong
+    notes: Se cocina en una cazuela de barro (tộ). En Vietnam se usa siluro; la caballa o la dorada en rodajas también quedan bien.
+    tags: [pescado, caramelizado]
+    ingredients:
+      - items:
+          - [pescado en rodajas gruesas con piel, 600, g]
+          - [salsa de pescado, 3, cucharada]
+          - [azúcar, 3, cucharada]
+          - [agua de coco, 200, ml]
+          - [chalotas, 3, null]
+          - [ajo, 3, diente]
+          - [pimienta negra, 1, cucharadita]
+          - [chile rojo, 1, null]
+          - [cebolleta, 1, null]
+          - [aceite de girasol, 1, cucharada]
+    steps:
+      - Marina el pescado con la salsa de pescado, 1 cucharada de azúcar, las chalotas y el ajo picados y la pimienta 30 minutos.
+      - Calienta el aceite con el resto del azúcar en la cazuela hasta tener un caramelo oscuro.
+      - Coloca el pescado y la marinada, deja que se impregne 1 minuto por cada lado y añade el agua de coco.
+      - Cuece tapado a fuego suave 30-35 minutos, dando la vuelta al pescado a mitad de tiempo, hasta que la salsa se reduzca y quede espesa y brillante.
+      - Termina con el chile y la cebolleta. Sirve con arroz blanco.
+
+  - name: Cerdo caramelizado con huevos (thịt kho trứng)
+    category: Carnes
+    difficulty: EASY
+    prep: 15
+    cook: 90
+    servings: 6
+    notes: Plato del Tết, el Año Nuevo vietnamita. El agua de coco hace la salsa dulce y brillante. Está aún mejor al día siguiente.
+    tags: [guiso, año nuevo]
+    ingredients:
+      - items:
+          - [panceta de cerdo, 800, g]
+          - [huevos duros, 6, null]
+          - [agua de coco, 500, ml]
+          - [salsa de pescado, 4, cucharada]
+          - [azúcar, 2, cucharada]
+          - [chalotas, 3, null]
+          - [ajo, 3, diente]
+          - [pimienta negra, 1, cucharadita]
+          - [aceite de girasol, 1, cucharada]
+    steps:
+      - Corta la panceta en dados de 4 cm, escáldala 3 minutos y escúrrela.
+      - Marínala con la salsa de pescado, las chalotas y el ajo picados y la pimienta 30 minutos.
+      - Haz un caramelo oscuro con el azúcar y el aceite, añade la panceta y remueve hasta que se dore.
+      - Añade el agua de coco y agua hasta cubrir, y los huevos duros pelados. Cuece a fuego suave sin tapar 1 hora y cuarto, hasta que la carne esté tierna y la salsa reducida.
+      - Sirve con arroz blanco y verduras encurtidas.
+
+  - name: Sopa agria (canh chua)
+    category: Sopas y cremas
+    difficulty: EASY
+    prep: 20
+    cook: 20
+    servings: 4
+    origin: Delta del Mekong
+    notes: Sopa agridulce de tamarindo y piña con pescado. En el sur se le añade bạc hà (tallo de taro) y la hierba ngò om; el apio y el cilantro son buenos sustitutos.
+    tags: [sopa, agridulce]
+    ingredients:
+      - items:
+          - [filetes de pescado blanco o gambas, 400, g]
+          - [caldo de pescado o agua, 1.5, l]
+          - [pasta de tamarindo, 2, cucharada]
+          - [piña, 150, g]
+          - [tomates, 2, null]
+          - [quingombó (okra), 100, g]
+          - [brotes de soja, 100, g]
+          - [salsa de pescado, 3, cucharada]
+          - [azúcar, 2, cucharada]
+          - [ajo frito, 1, cucharada]
+          - [albahaca tailandesa y cilantro, 1, manojo]
+          - [chile rojo, 1, null]
+    steps:
+      - Disuelve el tamarindo en un poco de caldo caliente y cuélalo.
+      - Lleva el caldo a ebullición con el tamarindo, la salsa de pescado y el azúcar.
+      - Añade la piña en trozos, los tomates en gajos y el quingombó en rodajas y cuece 5 minutos.
+      - Añade el pescado en trozos y cuece 3 minutos. Ajusta el punto ácido, dulce y salado.
+      - Fuera del fuego, añade los brotes de soja. Sirve con el ajo frito, las hierbas y el chile.
+
+  - name: Bò lúc lắc
+    category: Carnes
+    difficulty: EASY
+    prep: 20
+    cook: 10
+    servings: 4
+    notes: Su nombre significa «ternera que se agita», por cómo se saltea moviendo el wok. Se sirve sobre berros con una salsa de lima, sal y pimienta.
+    tags: [salteado, ternera]
+    utensils: [Wok]
+    ingredients:
+      - group: Ternera
+        items:
+          - [solomillo o lomo de ternera, 500, g]
+          - [salsa de ostras, 2, cucharada]
+          - [salsa de soja, 1, cucharada]
+          - [ajo, 4, diente]
+          - [azúcar, 1, cucharadita]
+          - [pimienta negra, 1, cucharadita]
+          - [cebolla morada, 1, null]
+          - [pimiento rojo, 1, null]
+          - [mantequilla, 15, g]
+          - [aceite de girasol, 2, cucharada]
+      - group: Para servir
+        items:
+          - [berros, 100, g]
+          - [tomates, 2, null]
+          - [zumo de lima, 2, cucharada]
+          - [sal, 0.5, cucharadita]
+          - [pimienta negra, 0.5, cucharadita]
+    steps:
+      - Corta la carne en dados de 2,5 cm y marínala con la salsa de ostras, la soja, la mitad del ajo picado, el azúcar y la pimienta 30 minutos.
+      - Calienta mucho el wok con el aceite y saltea la carne en una sola capa, agitando el wok, 2-3 minutos, hasta que esté dorada por fuera y jugosa por dentro.
+      - Añade la cebolla y el pimiento en trozos, el resto del ajo y la mantequilla y saltea 1 minuto más.
+      - Coloca la carne sobre los berros y el tomate en rodajas y sírvela con la lima mezclada con la sal y la pimienta para mojar.
+
+  - name: Pollo con citronela y chile (gà xào sả ớt)
+    category: Carnes
+    difficulty: EASY
+    prep: 15
+    cook: 15
+    servings: 4
+    tags: [salteado, pollo, picante]
+    utensils: [Wok]
+    ingredients:
+      - items:
+          - [contramuslos de pollo deshuesados, 600, g]
+          - [hierba limón (citronela), 3, tallo]
+          - [chiles rojos, 2, null]
+          - [ajo, 3, diente]
+          - [chalota, 1, null]
+          - [salsa de pescado, 2, cucharada]
+          - [azúcar, 1, cucharada]
+          - [cúrcuma molida, 0.5, cucharadita]
+          - [aceite de girasol, 3, cucharada]
+          - [cilantro fresco, 1, manojo]
+    steps:
+      - Corta el pollo en trozos y marínalo con la salsa de pescado, la mitad del azúcar y la cúrcuma 15 minutos.
+      - Pica muy fina la citronela, solo la parte tierna, y pica el ajo, la chalota y los chiles.
+      - Fríe la citronela en el aceite a fuego medio hasta que esté dorada y fragante. Añade el ajo, la chalota y los chiles.
+      - Añade el pollo y saltea a fuego fuerte 8-10 minutos, hasta que esté dorado. Añade el resto del azúcar y saltea hasta que se caramelice.
+      - Sirve con cilantro y arroz blanco.
+
+  - name: Bánh xèo
+    category: Panes y masas
+    difficulty: MEDIUM
+    prep: 30
+    cook: 30
+    servings: 4
+    origin: Sur de Vietnam
+    notes: Crêpes crujientes de harina de arroz y cúrcuma. Su nombre imita el chisporroteo de la masa al caer en la sartén. Se comen envueltas en lechuga con hierbas.
+    tags: [crêpe, sin gluten]
+    ingredients:
+      - group: Masa
+        items:
+          - [harina de arroz, 200, g]
+          - [cúrcuma molida, 1, cucharadita]
+          - [leche de coco, 200, ml]
+          - [agua, 300, ml]
+          - [cebolletas picadas, 2, null]
+          - [sal, 0.5, cucharadita]
+      - group: Relleno
+        items:
+          - [panceta de cerdo en tiras finas, 200, g]
+          - [gambas peladas, 200, g]
+          - [brotes de soja, 200, g]
+          - [cebolla, 0.5, null]
+          - [aceite de girasol, 4, cucharada]
+      - group: Para servir
+        items:
+          - [lechuga, 1, null]
+          - ["hierbas frescas (menta, perilla, cilantro)", 1, manojo]
+          - [nước chấm, 200, ml]
+    steps:
+      - Mezcla la harina, la cúrcuma, la sal, la leche de coco y el agua hasta tener una masa muy líquida. Añade la cebolleta y deja que repose 30 minutos.
+      - Calienta 1 cucharada de aceite en una sartén grande y saltea unas tiras de panceta, gambas y cebolla.
+      - Vierte un cucharón de masa girando la sartén para cubrir el fondo en una capa fina. Pon brotes de soja en una mitad.
+      - Tapa 2 minutos, destapa y deja que se haga a fuego medio hasta que los bordes estén crujientes. Dobla por la mitad.
+      - Repite con el resto y sirve con lechuga, hierbas y nước chấm.
+
+  - name: Ensalada de pollo y col (gỏi gà)
+    category: Ensaladas
+    difficulty: EASY
+    prep: 25
+    cook: 20
+    servings: 4
+    tags: [ensalada, pollo]
+    ingredients:
+      - group: Ensalada
+        items:
+          - [pechugas de pollo, 2, null]
+          - [col blanca o lombarda, 0.25, null]
+          - [zanahoria, 1, null]
+          - [cebolla morada, 0.5, null]
+          - [menta o rau răm, 1, manojo]
+          - [cacahuetes tostados picados, 3, cucharada]
+          - [chalotas fritas, 2, cucharada]
+      - group: Aliño
+        items:
+          - [salsa de pescado, 3, cucharada]
+          - [zumo de lima, 3, cucharada]
+          - [azúcar, 2, cucharada]
+          - [ajo, 1, diente]
+          - [chile rojo, 1, null]
+    steps:
+      - Cuece el pollo en agua con sal 15-20 minutos, deja que se enfríe y desmenúzalo.
+      - Corta la col en juliana muy fina, ralla la zanahoria y corta la cebolla en láminas finas.
+      - Mezcla los ingredientes del aliño con el ajo y el chile muy picados, hasta que se disuelva el azúcar.
+      - Mezcla el pollo con las verduras, la menta y el aliño. Sirve con los cacahuetes y las chalotas fritas por encima.
+
+  - name: Nước chấm
+    category: Salsas
+    difficulty: EASY
+    prep: 10
+    cook: 0
+    servings: 8
+    notes: La salsa para mojar de casi todos los platos vietnamitas. Debe quedar equilibrada entre dulce, ácida y salada.
+    tags: [salsa]
+    ingredients:
+      - items:
+          - [salsa de pescado, 4, cucharada]
+          - [zumo de lima, 3, cucharada]
+          - [azúcar, 3, cucharada]
+          - [agua tibia, 120, ml]
+          - [ajo, 2, diente]
+          - [chile rojo, 1, null]
+    steps:
+      - Disuelve el azúcar en el agua tibia.
+      - Añade la salsa de pescado y el zumo de lima y prueba; ajusta hasta que esté equilibrada.
+      - Añade el ajo y el chile muy picados justo antes de servir, para que floten.
+
+  - name: Bún thịt nướng
+    category: Carnes
+    difficulty: MEDIUM
+    prep: 40
+    cook: 15
+    servings: 4
+    origin: Saigón
+    notes: Cuenco de fideos fríos con cerdo a la parrilla, verduras y hierbas. Marina el cerdo al menos 1 hora.
+    tags: [fideos, parrilla]
+    ingredients:
+      - group: Cerdo
+        items:
+          - [paleta o aguja de cerdo en lonchas finas, 500, g]
+          - [hierba limón (citronela), 2, tallo]
+          - [chalotas, 2, null]
+          - [ajo, 2, diente]
+          - [salsa de pescado, 2, cucharada]
+          - [miel, 1, cucharada]
+          - [azúcar, 1, cucharada]
+          - [aceite de girasol, 1, cucharada]
+      - group: Cuencos
+        items:
+          - [fideos de arroz finos (bún), 300, g]
+          - [lechuga, 1, null]
+          - [pepino, 1, null]
+          - [zanahoria y daikon encurtidos, 100, g]
+          - ["hierbas frescas (menta, cilantro, perilla)", 1, manojo]
+          - [cacahuetes tostados picados, 3, cucharada]
+          - [cebolletas en aceite (mỡ hành), 3, cucharada]
+          - [nước chấm, 300, ml]
+    steps:
+      - Tritura la citronela, las chalotas y el ajo y mézclalos con la salsa de pescado, la miel, el azúcar y el aceite. Marina el cerdo.
+      - Ásalo a la parrilla o en el grill del horno 3-4 minutos por cada lado, hasta que esté caramelizado.
+      - Cuece los fideos, pásalos por agua fría y escúrrelos.
+      - Pon en cada cuenco lechuga, pepino y hierbas, los fideos y el cerdo encima, con el encurtido, los cacahuetes y la cebolleta en aceite.
+      - Riega con nước chấm al comer.
+
+  - name: Tofu en salsa de tomate (đậu hũ sốt cà chua)
+    category: Legumbres
+    difficulty: EASY
+    prep: 10
+    cook: 20
+    servings: 4
+    notes: Plato casero muy habitual. Para hacerlo vegano, usa salsa de soja en lugar de salsa de pescado.
+    tags: [tofu, casero]
+    ingredients:
+      - items:
+          - [tofu firme, 400, g]
+          - [tomates maduros, 4, null]
+          - [chalota, 1, null]
+          - [ajo, 2, diente]
+          - [salsa de pescado o de soja, 2, cucharada]
+          - [azúcar, 1, cucharadita]
+          - [cebolletas, 2, null]
+          - [aceite de girasol, 4, cucharada]
+          - [pimienta negra, null, null]
+    steps:
+      - Seca el tofu, córtalo en dados grandes y fríelo en el aceite hasta que esté dorado por todos los lados. Retíralo.
+      - En el mismo aceite, sofríe la chalota y el ajo picados. Añade los tomates en dados y cocina 8 minutos, hasta que se deshagan.
+      - Añade la salsa de pescado, el azúcar y un chorrito de agua.
+      - Incorpora el tofu y cuece 5 minutos para que se impregne. Sirve con cebolleta y pimienta.
+
+  - name: Plátano con leche de coco (chè chuối)
+    category: Postres
+    difficulty: EASY
+    prep: 10
+    cook: 20
+    servings: 4
+    notes: Postre templado de plátano y perlas de tapioca. En Vietnam se usan plátanos pequeños y dulces.
+    tags: [postre, sin gluten, vegano]
+    ingredients:
+      - items:
+          - [plátanos maduros, 4, null]
+          - [leche de coco, 400, ml]
+          - [agua, 200, ml]
+          - [perlas de tapioca pequeñas, 30, g]
+          - [azúcar, 50, g]
+          - [sal, 1, pizca]
+          - [cacahuetes tostados picados, 2, cucharada]
+          - [sésamo tostado, 1, cucharadita]
+    steps:
+      - Remoja la tapioca en agua 20 minutos y escúrrela.
+      - Calienta la leche de coco con el agua, el azúcar y la sal. Añade la tapioca y cuece 10 minutos, removiendo, hasta que las perlas sean transparentes.
+      - Añade los plátanos en rodajas gruesas y cuece 3-4 minutos, sin que se deshagan.
+      - Sirve templado con los cacahuetes y el sésamo.
+
+  - name: Café con leche condensada (cà phê sữa đá)
+    category: Bebidas
+    difficulty: EASY
+    prep: 5
+    cook: 5
+    servings: 1
+    notes: Se hace con un filtro de goteo vietnamita (phin) y café robusta de tueste oscuro; con un café expreso doble también sale bien.
+    tags: [café, bebida]
+    ingredients:
+      - items:
+          - [café molido de tueste oscuro, 2, cucharada]
+          - [leche condensada, 2, cucharada]
+          - [agua hirviendo, 100, ml]
+          - [hielo, 1, taza]
+    steps:
+      - Pon la leche condensada en el fondo de un vaso.
+      - Coloca el phin con el café sobre el vaso, vierte un poco de agua para que se hinche y después el resto. Deja que gotee 4-5 minutos.
+      - Mezcla el café con la leche condensada y viértelo sobre un vaso con hielo.
+
+  - name: Batido de aguacate (sinh tố bơ)
+    category: Bebidas
+    difficulty: EASY
+    prep: 5
+    cook: 0
+    servings: 2
+    notes: En Vietnam el aguacate se toma como fruta dulce. Debe estar muy maduro.
+    tags: [batido, vegetariana]
+    utensils: [Batidora]
+    ingredients:
+      - items:
+          - [aguacate maduro, 1, null]
+          - [leche condensada, 3, cucharada]
+          - [leche, 200, ml]
+          - [hielo, 1, taza]
+    steps:
+      - Pon la pulpa del aguacate, la leche condensada, la leche y el hielo en el vaso de la batidora.
+      - Tritura hasta que esté cremoso y sirve enseguida.

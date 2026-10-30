@@ -1,0 +1,537 @@
+id: bakery
+version: 1
+updated: 2026-10-31
+language: en
+name: Bakery
+description: >-
+  Bread and pastries to make at home, from sourdough starter to madeleines: sourdough loaf,
+  baguette, sandwich loaf, wholemeal, rye, chapata, walnut and raisin bread, pitta, naan, bagels,
+  burger buns, milk rolls, brioche, croissants, pains au chocolat, ensaïmadas, tortas de aceite,
+  Spanish magdalenas and anise rosquillas. With exact weights and proving times.
+author: Miga
+authorGithub: calamares00
+cover:
+  emoji: "🥖"
+  title: Bakery
+  colors: ["#92400e", "#d97706"]
+defaults:
+  source: Miga «Bakery» pack
+recipes:
+
+  - name: Sourdough starter
+    category: Breads and doughs
+    difficulty: EASY
+    prep: 10
+    cook: 0
+    servings: 1
+    notes: It takes 5 to 7 days to become active. It is ready when it doubles in 4-6 hours after feeding and smells pleasantly sour. Keep it in the fridge and feed it once a week.
+    tags: [sourdough, basics, vegan]
+    ingredients:
+      - items:
+          - [wholemeal rye or wheat flour, 50, g]
+          - [lukewarm unchlorinated water, 50, g]
+          - [strong bread flour for feeding, 50, g]
+    steps:
+      - Day 1. Mix 50 g of wholemeal flour and 50 g of water in a clean jar. Cover loosely and leave at about 24 °C.
+      - Days 2 to 7. Every 24 hours, discard half and add 50 g of flour (strong or wholemeal) and 50 g of water. Mix well.
+      - At first it may rise and fall and even smell odd; that's normal. From day 4 or 5 it will start to rise steadily.
+      - When it doubles within 4-6 hours of feeding, it is ready. Use it at its peak.
+
+  - name: Sourdough loaf
+    category: Breads and doughs
+    difficulty: HARD
+    prep: 60
+    cook: 45
+    servings: 10
+    notes: It needs about 5 hours of bulk fermentation and a night in the fridge. It is baked in a lidded cast-iron pot for a good crust.
+    tags: [sourdough, bread]
+    utensils: [Oven]
+    ingredients:
+      - items:
+          - [strong bread flour, 450, g]
+          - [wholemeal wheat flour, 50, g]
+          - [lukewarm water, 350, g]
+          - [active sourdough starter, 100, g]
+          - [salt, 10, g]
+    steps:
+      - Mix the flours with 330 g of the water and leave for 1 hour (autolyse).
+      - Add the starter and salt with the rest of the water and pinch the dough until combined.
+      - For the first 2 hours, do a set of folds every 30 minutes (stretch one side of the dough up and fold it over, turning the bowl). Let it ferment until it has grown by 50 % and is bubbly, about 4-5 hours in total at 24 °C.
+      - Turn out the dough, shape it into a tight ball and put it in a banneton or a bowl lined with a floured cloth. Cover and refrigerate for 12-16 hours.
+      - Preheat the oven to 250 °C with the pot inside for 45 minutes. Turn the loaf onto baking paper, score it with a blade and lower it into the pot.
+      - Bake covered for 20 minutes, uncover, lower to 230 °C and bake for 20-25 more minutes, until deep golden. Cool on a rack for at least 1 hour before slicing.
+
+  - name: Baguette
+    category: Breads and doughs
+    difficulty: MEDIUM
+    prep: 30
+    cook: 22
+    servings: 3
+    notes: Steam during the first part of baking gives the thin, crisp crust. Less yeast and a longer rise make better-tasting bread.
+    tags: [bread]
+    utensils: [Oven]
+    ingredients:
+      - items:
+          - [bread flour, 500, g]
+          - [water, 330, g]
+          - [fresh yeast, 5, g]
+          - [salt, 10, g]
+    steps:
+      - Dissolve the yeast in the water, mix with the flour and salt and knead for 10 minutes, until smooth and elastic.
+      - Leave covered to ferment for 2 hours at room temperature, with a fold after 1 hour.
+      - Divide into 3 pieces, pre-shape gently into balls and rest for 20 minutes. Shape into 35 cm baguettes.
+      - Lay them on a floured cloth, pleating it between them, cover and prove for 45-60 minutes.
+      - Preheat the oven to 240 °C with an empty tray at the bottom. Transfer the baguettes to a baking tray, make 3-4 diagonal slashes, pour a glass of water into the hot tray for steam and bake for 20-22 minutes.
+
+  - name: Sandwich loaf
+    category: Breads and doughs
+    difficulty: EASY
+    prep: 25
+    cook: 30
+    servings: 12
+    notes: It needs about 2½ hours of proving in total. To keep the crumb soft, store it in a bag once cool.
+    tags: [bread, breakfast]
+    utensils: [Oven]
+    ingredients:
+      - items:
+          - [strong bread flour, 500, g]
+          - [lukewarm milk, 250, g]
+          - [lukewarm water, 50, g]
+          - [softened butter, 40, g]
+          - [sugar, 20, g]
+          - [dried yeast, 7, g]
+          - [salt, 10, g]
+    steps:
+      - Mix the flour, sugar, yeast, milk and water and knead for 5 minutes. Add the salt and butter and knead for 10 more minutes, until smooth.
+      - Leave covered to prove for 1½ hours, until doubled.
+      - Knock back, roll it into a rectangle the length of the tin and roll it up tightly. Put it seam side down in a greased 25 cm loaf tin.
+      - Prove for 1 hour, until it rises above the tin.
+      - Bake at 190 °C for 30 minutes. Turn out straight away and cool on a rack.
+
+  - name: Wholemeal bread
+    category: Breads and doughs
+    difficulty: EASY
+    prep: 20
+    cook: 35
+    servings: 12
+    notes: Wholemeal flour absorbs more water; the dough should be a little sticky. It needs about 2½ hours of proving.
+    tags: [bread, wholemeal, vegan]
+    utensils: [Oven]
+    ingredients:
+      - items:
+          - [wholemeal wheat flour, 400, g]
+          - [strong bread flour, 100, g]
+          - [lukewarm water, 360, g]
+          - [dried yeast, 7, g]
+          - [honey or agave syrup, 1, tbsp]
+          - [olive oil, 2, tbsp]
+          - [salt, 10, g]
+          - [mixed seeds, 40, g, optional]
+    steps:
+      - Mix all the ingredients except the seeds and knead for 10 minutes. Add the seeds at the end.
+      - Leave covered to prove for 1½ hours, until doubled.
+      - Shape into a log and put it in a greased 25 cm loaf tin. Prove for 1 hour.
+      - Brush with water, sprinkle seeds on top and bake at 200 °C for 35 minutes.
+
+  - name: Rye bread
+    category: Breads and doughs
+    difficulty: MEDIUM
+    prep: 20
+    cook: 45
+    servings: 12
+    notes: A mixed loaf with 60 % rye, Central European style. The dough is very sticky and isn't kneaded like wheat dough; work it with wet hands. Let it rest for a day before slicing.
+    tags: [bread, rye, vegan]
+    utensils: [Oven]
+    ingredients:
+      - items:
+          - [rye flour, 300, g]
+          - [strong bread flour, 200, g]
+          - [lukewarm water, 380, g]
+          - [dried yeast, 7, g]
+          - [honey, 1, tbsp]
+          - [caraway seeds, 1, tsp, optional]
+          - [salt, 10, g]
+    steps:
+      - Mix all the ingredients with a spoon or the stand mixer for 5 minutes, until you have an even, sticky dough.
+      - Leave covered to ferment for 1 hour.
+      - With wet hands, shape it into a log and put it in a greased and floured 25 cm loaf tin. Smooth the top with water and prove for 45-60 minutes, until cracks appear.
+      - Bake at 230 °C for 10 minutes and at 200 °C for 35 more minutes.
+      - Turn out and let it cool completely on a rack, ideally until the next day.
+
+  - name: Chapata
+    category: Breads and doughs
+    difficulty: MEDIUM
+    prep: 30
+    cook: 25
+    servings: 2
+    notes: The Spanish version of Italian ciabatta. It needs a biga (pre-ferment) of 12-16 hours. The dough is very wet; don't add more flour.
+    tags: [bread, vegan]
+    utensils: [Oven]
+    ingredients:
+      - group: Biga
+        items:
+          - [strong bread flour, 200, g]
+          - [water, 120, g]
+          - [fresh yeast, 1, g]
+      - group: Dough
+        items:
+          - [strong bread flour, 300, g]
+          - [water, 280, g]
+          - [fresh yeast, 3, g]
+          - [salt, 10, g]
+          - [olive oil, 1, tbsp]
+    steps:
+      - The day before, mix the biga ingredients and leave covered at room temperature for 12-16 hours.
+      - Mix the biga with the flour, 250 g of the water and the yeast. Add the salt and the rest of the water gradually, beating the dough in the bowl by hand until elastic, about 10 minutes. Add the oil.
+      - Let it ferment in an oiled container for 2 hours, with three sets of folds every 30 minutes.
+      - Turn the dough onto a well-floured surface, cut it into two rectangles without knocking it back and move them onto baking paper. Rest for 30 minutes.
+      - Bake at 230 °C with steam for 22-25 minutes, until golden.
+
+  - name: Milk rolls
+    category: Breads and doughs
+    difficulty: EASY
+    prep: 30
+    cook: 15
+    servings: 12
+    notes: Soft rolls for breakfast and afternoon tea. They need about 2½ hours of proving in total.
+    tags: [enriched dough, breakfast]
+    utensils: [Oven]
+    ingredients:
+      - items:
+          - [strong bread flour, 500, g]
+          - [lukewarm milk, 250, g]
+          - [egg, 1, null]
+          - [sugar, 60, g]
+          - [softened butter, 60, g]
+          - [fresh yeast, 20, g]
+          - [salt, 8, g]
+          - [egg for brushing, 1, null]
+          - [pearl sugar, 2, tbsp, optional]
+    steps:
+      - Dissolve the yeast in the milk. Mix with the flour, sugar and egg and knead for 5 minutes. Add the salt and butter and knead for 10 more minutes, until smooth.
+      - Leave covered to prove for 1½ hours, until doubled.
+      - Divide into 12 pieces, shape each into a ball and space them out on a tray lined with baking paper.
+      - Prove covered for 1 hour. Brush with egg, slash lengthways and sprinkle with pearl sugar.
+      - Bake at 180 °C for 14-15 minutes, until golden.
+
+  - name: Brioche
+    category: Breads and doughs
+    difficulty: HARD
+    prep: 40
+    cook: 30
+    servings: 12
+    notes: The dough rests overnight in the fridge, which makes it easier to shape and tastier. With so much butter, a stand mixer is best.
+    tags: [enriched dough, breakfast]
+    utensils: [Oven, Stand mixer]
+    ingredients:
+      - items:
+          - [strong bread flour, 500, g]
+          - [cold eggs, 5, null]
+          - [cold milk, 50, g]
+          - [sugar, 60, g]
+          - [fresh yeast, 20, g]
+          - [salt, 10, g]
+          - [diced softened butter, 250, g]
+          - [egg for brushing, 1, null]
+    steps:
+      - In the stand mixer, knead the flour, sugar, crumbled yeast, eggs and milk on low speed for 5 minutes and on medium for 10 minutes, until the dough comes away from the sides.
+      - Add the salt and the butter little by little, waiting for each addition to be absorbed. Knead until smooth, glossy and elastic.
+      - Leave covered to ferment for 1 hour at room temperature and then overnight in the fridge.
+      - Divide the cold dough into 8 balls and arrange them in two rows in a greased loaf tin. Prove for 2-3 hours, until they reach the rim.
+      - Brush with egg and bake at 180 °C for 30 minutes. If it browns too fast, cover with foil.
+
+  - name: Croissants
+    category: Breads and doughs
+    difficulty: HARD
+    prep: 240
+    cook: 18
+    servings: 12
+    notes: Spread over two days; prep time includes the chilling rests. The butter should be cold but pliable, the same consistency as the dough.
+    tags: [enriched dough, laminated, breakfast]
+    utensils: [Oven]
+    ingredients:
+      - group: Dough
+        items:
+          - [strong bread flour, 500, g]
+          - [cold water, 140, g]
+          - [cold milk, 140, g]
+          - [sugar, 60, g]
+          - [fresh yeast, 20, g]
+          - [softened butter, 30, g]
+          - [salt, 10, g]
+      - group: Lamination
+        items:
+          - [cold butter for laminating, 280, g]
+          - [egg for brushing, 1, null]
+    steps:
+      - Knead the dough ingredients for 8 minutes, until smooth. Flatten into a rectangle, wrap and refrigerate overnight.
+      - Flatten the laminating butter between two sheets of paper into an 18 cm square and chill until firm but pliable.
+      - Roll the dough into a 20 × 40 cm rectangle, put the butter in the middle and fold the dough over it, sealing the edges.
+      - Roll into a 60 cm long rectangle and fold in three. Chill for 30 minutes. Repeat the rolling and folding twice more, chilling for 30 minutes each time.
+      - Roll out 4 mm thick and cut triangles with a 10 cm base. Make a small cut in the middle of the base and roll them up loosely.
+      - Put them on trays, brush with egg and prove at about 25 °C for 2 hours, until they wobble when you shake the tray. Brush again and bake at 200 °C for 15-18 minutes.
+
+  - name: Pains au chocolat
+    category: Breads and doughs
+    difficulty: HARD
+    prep: 240
+    cook: 18
+    servings: 12
+    notes: Made with the same laminated dough as croissants; you can make the croissant recipe and use the dough for these.
+    tags: [enriched dough, laminated, chocolate]
+    utensils: [Oven]
+    ingredients:
+      - items:
+          - [laminated croissant dough, 1, kg]
+          - [chocolate batons, 24, null]
+          - [egg for brushing, 1, null]
+    steps:
+      - Roll out the laminated dough 4 mm thick and cut it into 8 × 12 cm rectangles.
+      - Lay a chocolate baton at one end, roll once, add the second baton and finish rolling, seam side down.
+      - Put them on trays, brush with egg and prove at about 25 °C for 2 hours.
+      - Brush again and bake at 200 °C for 15-18 minutes, until deep golden.
+
+  - name: Ensaïmadas
+    category: Breads and doughs
+    difficulty: HARD
+    prep: 60
+    cook: 15
+    servings: 12
+    origin: Majorca
+    originCountry: ES
+    notes: Pork lard gives them their flaky texture and flavour; the traditional recipe doesn't swap it for butter. They need to prove overnight.
+    tags: [enriched dough, breakfast]
+    utensils: [Oven]
+    ingredients:
+      - items:
+          - [strong bread flour, 500, g]
+          - [sugar, 100, g]
+          - [eggs, 2, null]
+          - [lukewarm water, 150, g]
+          - [fresh yeast, 25, g]
+          - [mild olive oil, 1, tbsp]
+          - [salt, 5, g]
+          - [softened pork lard, 150, g]
+          - [icing sugar, 50, g]
+    steps:
+      - Dissolve the yeast in the water. Mix with the flour, sugar, eggs, oil and salt and knead for 10-15 minutes, until fine and elastic. Rest for 30 minutes.
+      - Divide into 12 balls, oil them and rest covered for 30 minutes.
+      - Stretch each ball on a lard-greased surface until very thin, almost see-through. Spread with lard, roll it up into a rope and rest for 15 minutes.
+      - Coil each rope loosely into a spiral and space them out on trays lined with baking paper.
+      - Prove covered overnight, about 10-12 hours, until tripled. Spray with water and bake at 180 °C for 12-15 minutes. Dust with icing sugar once cool.
+
+  - name: Spanish magdalenas
+    category: Desserts
+    difficulty: EASY
+    prep: 15
+    cook: 15
+    servings: 16
+    notes: Resting the batter in the fridge and a blast of heat at the start make the domed top.
+    tags: [cake, breakfast]
+    utensils: [Oven]
+    ingredients:
+      - items:
+          - [eggs, 3, null]
+          - [sugar, 150, g]
+          - [sunflower oil, 150, g]
+          - [milk, 50, g]
+          - [lemon zest, 1, tsp]
+          - [plain flour, 200, g]
+          - [baking powder, 8, g]
+          - [sugar for sprinkling, 2, tbsp]
+    steps:
+      - Whisk the eggs with the sugar for 5 minutes, until pale and doubled.
+      - Drizzle in the oil and milk while whisking, then add the zest.
+      - Fold in the flour sifted with the baking powder. Cover and chill the batter for at least 1 hour.
+      - Preheat the oven to 220 °C. Fill paper cases three-quarters full and sprinkle sugar on top.
+      - Bake for 5 minutes at 220 °C and 10 minutes at 200 °C, until golden.
+
+  - name: Pitta bread
+    category: Breads and doughs
+    difficulty: EASY
+    prep: 20
+    cook: 15
+    servings: 8
+    notes: The fierce heat of the tray makes them puff up into a pocket. They need 1½ hours of proving.
+    tags: [bread, vegan]
+    utensils: [Oven]
+    ingredients:
+      - items:
+          - [plain flour, 500, g]
+          - [lukewarm water, 300, g]
+          - [dried yeast, 7, g]
+          - [sugar, 1, tsp]
+          - [olive oil, 2, tbsp]
+          - [salt, 10, g]
+    steps:
+      - Mix all the ingredients and knead for 10 minutes. Leave covered to ferment for 1½ hours.
+      - Preheat the oven to 250 °C with a tray inside.
+      - Divide the dough into 8 balls and roll each into a 5 mm thick disc. Rest for 10 minutes.
+      - Bake 2-3 discs at a time on the hot tray for 4-5 minutes, until puffed and barely golden.
+      - Wrap them in a tea towel to keep them soft.
+
+  - name: Naan
+    category: Breads and doughs
+    difficulty: EASY
+    prep: 20
+    cook: 15
+    servings: 8
+    origin: India
+    originCountry: IN
+    notes: In India they are baked in a tandoor; in a very hot cast-iron pan they come out very close. They need 1½ hours of proving.
+    tags: [bread, vegetarian]
+    ingredients:
+      - items:
+          - [plain flour, 400, g]
+          - [plain yoghurt, 125, g]
+          - [lukewarm milk, 120, g]
+          - [dried yeast, 5, g]
+          - [sugar, 1, tsp]
+          - [baking powder, 1, tsp]
+          - [salt, 1, tsp]
+          - [ghee or melted butter, 2, tbsp]
+          - [chopped garlic, 1, tsp, optional]
+          - [chopped fresh coriander, 1, tbsp, optional]
+    steps:
+      - Mix the flour, yeast, baking powder, sugar and salt. Add the yoghurt, milk and 1 tablespoon of ghee and knead for 8 minutes, until soft. Leave covered to ferment for 1½ hours.
+      - Divide into 8 balls and roll them into 5 mm thick teardrops.
+      - Get a cast-iron pan very hot without oil. Add a naan, wait until bubbles appear, 1-2 minutes, and flip it. Cook for 1 more minute, until charred in spots.
+      - Brush with the rest of the ghee mixed with the garlic and coriander.
+
+  - name: Burger buns
+    category: Breads and doughs
+    difficulty: EASY
+    prep: 25
+    cook: 15
+    servings: 8
+    notes: Soft and slightly sweet, like burger-joint buns. They need about 2½ hours of proving.
+    tags: [bread]
+    utensils: [Oven]
+    ingredients:
+      - items:
+          - [strong bread flour, 500, g]
+          - [lukewarm milk, 200, g]
+          - [lukewarm water, 80, g]
+          - [egg, 1, null]
+          - [softened butter, 40, g]
+          - [sugar, 30, g]
+          - [dried yeast, 7, g]
+          - [salt, 10, g]
+          - [egg for brushing, 1, null]
+          - [sesame seeds, 2, tbsp]
+    steps:
+      - Mix all the ingredients except the salt and butter and knead for 5 minutes. Add the salt and butter and knead for 10 more minutes.
+      - Leave covered to prove for 1½ hours.
+      - Divide into 8 pieces of about 110 g, shape into balls and flatten them slightly on a tray lined with baking paper.
+      - Prove covered for 1 hour. Brush with egg and sprinkle with sesame seeds.
+      - Bake at 200 °C for 14-15 minutes.
+
+  - name: Bagels
+    category: Breads and doughs
+    difficulty: MEDIUM
+    prep: 40
+    cook: 25
+    servings: 8
+    origin: New York
+    originCountry: US
+    notes: Boiling them before baking gives the shiny crust and dense crumb. You can shape them the day before and leave them in the fridge overnight.
+    tags: [bread, breakfast]
+    utensils: [Oven]
+    ingredients:
+      - items:
+          - [strong bread flour, 500, g]
+          - [lukewarm water, 280, g]
+          - [dried yeast, 5, g]
+          - [sugar or malt extract, 1, tbsp]
+          - [salt, 10, g]
+          - [honey, 2, tbsp]
+          - [sesame or poppy seeds, 3, tbsp]
+    steps:
+      - Mix the flour, water, yeast, sugar and salt and knead for 10 minutes; the dough is firm. Leave to ferment for 1 hour.
+      - Divide into 8 pieces, shape into balls and poke a hole in the middle with your finger, stretching it to 4 cm. Rest for 20 minutes.
+      - Preheat the oven to 220 °C. Bring a large pot of water with the honey to the boil.
+      - Boil the bagels for 1 minute on each side, drain and dip them in the seeds.
+      - Bake on a tray lined with baking paper for 20 minutes, until golden.
+
+  - name: Tortas de aceite
+    category: Breads and doughs
+    difficulty: MEDIUM
+    prep: 40
+    cook: 12
+    servings: 12
+    origin: Castilleja de la Cuesta (Seville)
+    originCountry: ES
+    notes: Thin, crisp olive oil biscuits scented with aniseed and sesame. They need 1 hour of proving.
+    tags: [sweet, afternoon tea, vegan]
+    utensils: [Oven]
+    ingredients:
+      - items:
+          - [plain flour, 250, g]
+          - [extra virgin olive oil, 75, g]
+          - [lukewarm water, 100, g]
+          - [fresh yeast, 5, g]
+          - [aniseed, 1, tsp]
+          - [sesame seeds, 1, tsp]
+          - [salt, 1, pinch]
+          - [sugar for sprinkling, 4, tbsp]
+    steps:
+      - Warm the oil with the aniseed and sesame over a low heat for 1 minute and let it cool slightly.
+      - Dissolve the yeast in the water and mix with the flour, salt and scented oil. Knead for 5 minutes and leave covered for 1 hour.
+      - Preheat the oven to 200 °C. Divide the dough into 12 small balls and roll them out on baking paper until paper-thin, almost see-through.
+      - Sprinkle with sugar and bake for 10-12 minutes, until golden and crisp.
+
+  - name: Walnut and raisin bread
+    category: Breads and doughs
+    difficulty: MEDIUM
+    prep: 25
+    cook: 35
+    servings: 10
+    notes: Great with cheese. Soak the raisins for 15 minutes so they don't draw water from the dough. It needs about 2½ hours of proving.
+    tags: [bread, vegan]
+    utensils: [Oven]
+    ingredients:
+      - items:
+          - [strong bread flour, 400, g]
+          - [wholemeal wheat flour, 100, g]
+          - [lukewarm water, 350, g]
+          - [dried yeast, 5, g]
+          - [honey or agave syrup, 1, tbsp]
+          - [salt, 10, g]
+          - [walnuts, 100, g]
+          - [raisins, 80, g]
+    steps:
+      - Mix the flours, water, yeast and honey and knead for 5 minutes. Add the salt and knead for 5 more minutes.
+      - Work in the chopped walnuts and drained raisins.
+      - Leave covered to ferment for 1½ hours, with a fold halfway through.
+      - Shape into an oval loaf and prove on baking paper for 1 hour.
+      - Slash and bake at 230 °C with steam for 35 minutes.
+
+  - name: Anise rosquillas
+    category: Desserts
+    difficulty: MEDIUM
+    prep: 30
+    cook: 20
+    servings: 24
+    origin: Spain
+    originCountry: ES
+    notes: Grandma's fried Spanish doughnuts. The olive oil is first scented with lemon peel. The dough should be soft, without too much flour.
+    tags: [sweet, fried]
+    ingredients:
+      - items:
+          - [eggs, 3, null]
+          - [sugar, 150, g]
+          - [mild olive oil, 100, g]
+          - [lemon peel, 1, strip]
+          - [anise liqueur, 50, g]
+          - [milk, 50, g]
+          - [lemon zest, 1, tsp]
+          - [baking powder, 16, g]
+          - [plain flour, 500, g]
+          - [sunflower oil for frying, null, null]
+          - [sugar for coating, 100, g]
+    steps:
+      - Fry the lemon peel in the olive oil until golden, remove it and let the oil cool.
+      - Whisk the eggs with the sugar. Add the scented oil, anise, milk and zest.
+      - Gradually add the flour sifted with the baking powder until you have a soft dough that barely sticks to your hands. Rest for 15 minutes.
+      - With oiled hands, roll 15 cm ropes and join the ends into rings.
+      - Fry them in oil at 170 °C, turning, until golden. Drain and roll in sugar.

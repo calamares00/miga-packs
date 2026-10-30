@@ -1,0 +1,538 @@
+id: panaderia
+version: 1
+updated: 2026-10-31
+language: es
+name: Panadería
+description: >-
+  Panes y bollería para hacer en casa, de la masa madre a las magdalenas: hogaza de masa madre,
+  barra, pan de molde, integral, de centeno, chapata, pan de nueces y pasas, pita, naan, bagels,
+  panecillos de hamburguesa, bollos de leche, brioche, cruasanes, napolitanas de chocolate,
+  ensaimadas, tortas de aceite, magdalenas y rosquillas de anís. Con pesos exactos y tiempos de
+  levado.
+author: Miga
+authorGithub: calamares00
+cover:
+  emoji: "🥖"
+  title: Panadería
+  colors: ["#92400e", "#d97706"]
+defaults:
+  source: Pack «Panadería» de Miga
+recipes:
+
+  - name: Masa madre
+    category: Panes y masas
+    difficulty: EASY
+    prep: 10
+    cook: 0
+    servings: 1
+    notes: Tarda de 5 a 7 días en estar activa. Está lista cuando dobla su volumen en 4-6 horas después de alimentarla y huele ácida y agradable. Guárdala en la nevera y aliméntala una vez por semana.
+    tags: [masa madre, básicos, vegana]
+    ingredients:
+      - items:
+          - [harina integral de centeno o de trigo, 50, g]
+          - [agua sin cloro templada, 50, g]
+          - [harina de trigo de fuerza para alimentarla, 50, g]
+    steps:
+      - Día 1. Mezcla en un tarro limpio 50 g de harina integral y 50 g de agua. Tápalo sin cerrar del todo y déjalo a unos 24 °C.
+      - Días 2 a 7. Cada 24 horas, tira la mitad y añade 50 g de harina (de fuerza o integral) y 50 g de agua. Mezcla bien.
+      - Al principio puede subir y bajar e incluso oler raro; es normal. A partir del día 4 o 5 empezará a crecer de forma regular.
+      - Cuando doble su volumen en 4-6 horas tras alimentarla, ya puedes usarla. Úsala en su punto más alto.
+
+  - name: Hogaza de masa madre
+    category: Panes y masas
+    difficulty: HARD
+    prep: 60
+    cook: 45
+    servings: 10
+    notes: Necesita unas 5 horas de fermentación en bloque y una noche en la nevera. Se hornea en una olla de hierro con tapa para conseguir una buena corteza.
+    tags: [masa madre, pan]
+    utensils: [Horno]
+    ingredients:
+      - items:
+          - [harina de trigo de fuerza, 450, g]
+          - [harina integral de trigo, 50, g]
+          - [agua templada, 350, g]
+          - [masa madre activa, 100, g]
+          - [sal, 10, g]
+    steps:
+      - Mezcla las harinas con 330 g de agua y deja que repose 1 hora (autolisis).
+      - Añade la masa madre y la sal con el resto del agua y pellizca la masa hasta integrarlo todo.
+      - Durante las 2 primeras horas, haz una serie de pliegues cada 30 minutos (estira un lado de la masa hacia arriba y dóblalo sobre sí misma, girando el bol). Deja que fermente hasta que crezca un 50 % y tenga burbujas, unas 4-5 horas en total a 24 °C.
+      - Vuelca la masa, dale forma de bola tensa y colócala en un banneton o un bol con un paño enharinado. Tápala y déjala en la nevera 12-16 horas.
+      - Precalienta el horno a 250 °C con la olla dentro 45 minutos. Vuelca la hogaza sobre papel de horno, haz un corte con una cuchilla y métela en la olla.
+      - Hornea tapada 20 minutos, destapa, baja a 230 °C y hornea 20-25 minutos más, hasta que esté muy dorada. Deja que se enfríe sobre una rejilla al menos 1 hora antes de cortarla.
+
+  - name: Barra de pan
+    category: Panes y masas
+    difficulty: MEDIUM
+    prep: 30
+    cook: 22
+    servings: 3
+    notes: El vapor del primer tramo del horneado es lo que da la corteza fina y crujiente. Con poca levadura y más tiempo de fermentación, el pan sabe mejor.
+    tags: [pan]
+    utensils: [Horno]
+    ingredients:
+      - items:
+          - [harina de trigo panadera, 500, g]
+          - [agua, 330, g]
+          - [levadura fresca, 5, g]
+          - [sal, 10, g]
+    steps:
+      - Disuelve la levadura en el agua, mézclala con la harina y la sal y amasa 10 minutos, hasta que la masa esté lisa y elástica.
+      - Deja que fermente tapada 2 horas a temperatura ambiente, con un pliegue a la hora.
+      - Divide en 3 piezas, bolea suavemente y deja que reposen 20 minutos. Dales forma de barra de unos 35 cm.
+      - Colócalas sobre un paño enharinado haciendo pliegues entre ellas, tapa y deja que leven 45-60 minutos.
+      - Precalienta el horno a 240 °C con una bandeja vacía en la base. Pasa las barras a la bandeja, haz 3-4 cortes en diagonal, echa un vaso de agua en la bandeja caliente para crear vapor y hornea 20-22 minutos.
+
+  - name: Pan de molde
+    category: Panes y masas
+    difficulty: EASY
+    prep: 25
+    cook: 30
+    servings: 12
+    notes: Necesita unas 2 horas y media de levado en total. Para que la miga quede tierna, guárdalo en una bolsa cuando esté frío.
+    tags: [pan, desayuno]
+    utensils: [Horno]
+    ingredients:
+      - items:
+          - [harina de trigo de fuerza, 500, g]
+          - [leche templada, 250, g]
+          - [agua templada, 50, g]
+          - [mantequilla blanda, 40, g]
+          - [azúcar, 20, g]
+          - [levadura seca de panadería, 7, g]
+          - [sal, 10, g]
+    steps:
+      - Mezcla la harina, el azúcar, la levadura, la leche y el agua y amasa 5 minutos. Añade la sal y la mantequilla y amasa 10 minutos más, hasta que esté lisa.
+      - Deja que fermente tapada 1 hora y media, hasta que doble su volumen.
+      - Desgasifica, estírala en un rectángulo del largo del molde y enróllala apretando. Colócala en un molde de 25 cm engrasado con el cierre hacia abajo.
+      - Deja que leve 1 hora, hasta que sobresalga del molde.
+      - Hornea a 190 °C 30 minutos. Desmolda enseguida y deja que se enfríe sobre una rejilla.
+
+  - name: Pan integral
+    category: Panes y masas
+    difficulty: EASY
+    prep: 20
+    cook: 35
+    servings: 12
+    notes: La harina integral absorbe más agua; la masa debe quedar algo pegajosa. Necesita unas 2 horas y media de levado.
+    tags: [pan, integral, vegana]
+    utensils: [Horno]
+    ingredients:
+      - items:
+          - [harina integral de trigo, 400, g]
+          - [harina de trigo de fuerza, 100, g]
+          - [agua templada, 360, g]
+          - [levadura seca de panadería, 7, g]
+          - [miel o sirope de agave, 1, cucharada]
+          - [aceite de oliva, 2, cucharada]
+          - [sal, 10, g]
+          - [semillas variadas, 40, g, optional]
+    steps:
+      - Mezcla todos los ingredientes menos las semillas y amasa 10 minutos. Añade las semillas al final.
+      - Deja que fermente tapada 1 hora y media, hasta que doble su volumen.
+      - Dale forma alargada y colócala en un molde de 25 cm engrasado. Deja que leve 1 hora.
+      - Pinta con agua, espolvorea semillas por encima y hornea a 200 °C 35 minutos.
+
+  - name: Pan de centeno
+    category: Panes y masas
+    difficulty: MEDIUM
+    prep: 20
+    cook: 45
+    servings: 12
+    notes: Pan mixto con un 60 % de centeno, al estilo centroeuropeo. La masa es muy pegajosa y no se amasa como la de trigo; trabájala con las manos mojadas. Deja que repose un día antes de cortarlo.
+    tags: [pan, centeno, vegana]
+    utensils: [Horno]
+    ingredients:
+      - items:
+          - [harina de centeno, 300, g]
+          - [harina de trigo de fuerza, 200, g]
+          - [agua templada, 380, g]
+          - [levadura seca de panadería, 7, g]
+          - [miel, 1, cucharada]
+          - [alcaravea, 1, cucharadita, optional]
+          - [sal, 10, g]
+    steps:
+      - Mezcla todos los ingredientes con una cuchara o la amasadora durante 5 minutos, hasta tener una masa homogénea y pegajosa.
+      - Deja que fermente tapada 1 hora.
+      - Con las manos mojadas, dale forma alargada y colócala en un molde de 25 cm engrasado y enharinado. Alisa la superficie con agua y deja que leve 45-60 minutos, hasta que aparezcan grietas.
+      - Hornea a 230 °C 10 minutos y a 200 °C 35 minutos más.
+      - Desmolda y deja que se enfríe del todo sobre una rejilla, mejor hasta el día siguiente.
+
+  - name: Chapata
+    category: Panes y masas
+    difficulty: MEDIUM
+    prep: 30
+    cook: 25
+    servings: 2
+    notes: La versión española de la ciabatta italiana. Necesita una biga (prefermento) de 12-16 horas. La masa es muy hidratada; no añadas más harina.
+    tags: [pan, vegana]
+    utensils: [Horno]
+    ingredients:
+      - group: Biga
+        items:
+          - [harina de trigo de fuerza, 200, g]
+          - [agua, 120, g]
+          - [levadura fresca, 1, g]
+      - group: Masa
+        items:
+          - [harina de trigo de fuerza, 300, g]
+          - [agua, 280, g]
+          - [levadura fresca, 3, g]
+          - [sal, 10, g]
+          - [aceite de oliva, 1, cucharada]
+    steps:
+      - La víspera, mezcla los ingredientes de la biga y déjala tapada a temperatura ambiente 12-16 horas.
+      - Mezcla la biga con la harina, 250 g de agua y la levadura. Añade la sal y el resto del agua poco a poco, batiendo la masa en el bol con la mano hasta que esté elástica, unos 10 minutos. Añade el aceite.
+      - Deja que fermente en un recipiente aceitado 2 horas, con tres pliegues cada 30 minutos.
+      - Vuelca la masa sobre la mesa muy enharinada, córtala en dos rectángulos sin desgasificar y pásalos a papel de horno. Deja que reposen 30 minutos.
+      - Hornea a 230 °C con vapor 22-25 minutos, hasta que esté dorada.
+
+  - name: Bollos de leche
+    category: Panes y masas
+    difficulty: EASY
+    prep: 30
+    cook: 15
+    servings: 12
+    notes: Bollos tiernos para el desayuno y la merienda. Necesitan unas 2 horas y media de levado en total.
+    tags: [bollería, desayuno]
+    utensils: [Horno]
+    ingredients:
+      - items:
+          - [harina de trigo de fuerza, 500, g]
+          - [leche templada, 250, g]
+          - [huevo, 1, null]
+          - [azúcar, 60, g]
+          - [mantequilla blanda, 60, g]
+          - [levadura fresca, 20, g]
+          - [sal, 8, g]
+          - [huevo para pintar, 1, null]
+          - [azúcar perlado, 2, cucharada, optional]
+    steps:
+      - Disuelve la levadura en la leche. Mezcla con la harina, el azúcar y el huevo y amasa 5 minutos. Añade la sal y la mantequilla y amasa 10 minutos más, hasta que esté lisa.
+      - Deja que fermente tapada 1 hora y media, hasta que doble su volumen.
+      - Divide en 12 piezas, bolea cada una y colócalas en una bandeja con papel de horno, separadas.
+      - Deja que leven tapadas 1 hora. Píntalas con huevo, haz un corte a lo largo y espolvorea azúcar perlado.
+      - Hornea a 180 °C 14-15 minutos, hasta que estén doradas.
+
+  - name: Brioche
+    category: Panes y masas
+    difficulty: HARD
+    prep: 40
+    cook: 30
+    servings: 12
+    notes: La masa reposa una noche en la nevera, lo que la hace más fácil de formar y más sabrosa. Con mucha mantequilla, es mejor hacerla en amasadora.
+    tags: [bollería, desayuno]
+    utensils: [Horno, Amasadora]
+    ingredients:
+      - items:
+          - [harina de trigo de fuerza, 500, g]
+          - [huevos fríos, 5, null]
+          - [leche fría, 50, g]
+          - [azúcar, 60, g]
+          - [levadura fresca, 20, g]
+          - [sal, 10, g]
+          - [mantequilla blanda en dados, 250, g]
+          - [huevo para pintar, 1, null]
+    steps:
+      - Amasa en la amasadora la harina, el azúcar, la levadura desmenuzada, los huevos y la leche a velocidad baja 5 minutos y a velocidad media 10 minutos, hasta que la masa se despegue de las paredes.
+      - Añade la sal y la mantequilla poco a poco, esperando a que se integre cada parte. Amasa hasta que la masa esté lisa, brillante y elástica.
+      - Deja que fermente tapada 1 hora a temperatura ambiente y después toda la noche en la nevera.
+      - Divide la masa fría en 8 bolas y colócalas en dos filas en un molde alargado engrasado. Deja que leven 2-3 horas, hasta que lleguen al borde.
+      - Pinta con huevo y hornea a 180 °C 30 minutos. Si se dora demasiado, cubre con papel de aluminio.
+
+  - name: Cruasanes
+    category: Panes y masas
+    difficulty: HARD
+    prep: 240
+    cook: 18
+    servings: 12
+    notes: Se reparte en dos días; el tiempo de preparación incluye los reposos en frío. La mantequilla debe estar fría pero flexible, a la misma consistencia que la masa.
+    tags: [bollería, hojaldre, desayuno]
+    utensils: [Horno]
+    ingredients:
+      - group: Masa
+        items:
+          - [harina de trigo de fuerza, 500, g]
+          - [agua fría, 140, g]
+          - [leche fría, 140, g]
+          - [azúcar, 60, g]
+          - [levadura fresca, 20, g]
+          - [mantequilla blanda, 30, g]
+          - [sal, 10, g]
+      - group: Laminado
+        items:
+          - [mantequilla fría para hojaldrar, 280, g]
+          - [huevo para pintar, 1, null]
+    steps:
+      - Amasa los ingredientes de la masa 8 minutos, hasta que esté lisa. Aplánala en un rectángulo, envuélvela y déjala en la nevera toda la noche.
+      - Aplasta la mantequilla de laminar entre dos papeles hasta tener un cuadrado de 18 cm y refrigérala hasta que esté firme pero flexible.
+      - Estira la masa en un rectángulo de 20 × 40 cm, coloca la mantequilla en el centro y cierra la masa sobre ella sellando los bordes.
+      - Estira en un rectángulo de 60 cm de largo y dobla en tres. Refrigera 30 minutos. Repite el estirado y el plegado dos veces más, con 30 minutos de nevera entre cada vez.
+      - Estira a 4 mm de grosor y corta triángulos de 10 cm de base. Haz un pequeño corte en el centro de la base y enróllalos sin apretar.
+      - Colócalos en bandejas, pinta con huevo y deja que leven a unos 25 °C 2 horas, hasta que tiemblen al mover la bandeja. Pinta otra vez y hornea a 200 °C 15-18 minutos.
+
+  - name: Napolitanas de chocolate
+    category: Panes y masas
+    difficulty: HARD
+    prep: 240
+    cook: 18
+    servings: 12
+    notes: Se hacen con la misma masa laminada que los cruasanes; puedes preparar la receta de cruasanes y destinar la masa a napolitanas.
+    tags: [bollería, hojaldre, chocolate]
+    utensils: [Horno]
+    ingredients:
+      - items:
+          - [masa de cruasán laminada, 1, kg]
+          - [barritas de chocolate para napolitanas, 24, null]
+          - [huevo para pintar, 1, null]
+    steps:
+      - Estira la masa laminada a 4 mm de grosor y córtala en rectángulos de 8 × 12 cm.
+      - Coloca una barrita de chocolate en un extremo, enrolla una vuelta, pon la segunda barrita y termina de enrollar con el cierre hacia abajo.
+      - Colócalas en bandejas, pinta con huevo y deja que leven a unos 25 °C 2 horas.
+      - Pinta otra vez y hornea a 200 °C 15-18 minutos, hasta que estén muy doradas.
+
+  - name: Ensaimadas
+    category: Panes y masas
+    difficulty: HARD
+    prep: 60
+    cook: 15
+    servings: 12
+    origin: Mallorca
+    originCountry: ES
+    notes: La manteca de cerdo es la que les da su textura hojaldrada y su sabor; no se sustituye por mantequilla en la receta tradicional. Necesitan levar toda la noche.
+    tags: [bollería, desayuno]
+    utensils: [Horno]
+    ingredients:
+      - items:
+          - [harina de trigo de fuerza, 500, g]
+          - [azúcar, 100, g]
+          - [huevos, 2, null]
+          - [agua templada, 150, g]
+          - [levadura fresca, 25, g]
+          - [aceite de oliva suave, 1, cucharada]
+          - [sal, 5, g]
+          - [manteca de cerdo blanda, 150, g]
+          - [azúcar glas, 50, g]
+    steps:
+      - Disuelve la levadura en el agua. Mezcla con la harina, el azúcar, los huevos, el aceite y la sal y amasa 10-15 minutos, hasta que la masa esté fina y elástica. Deja que repose 30 minutos.
+      - Divide la masa en 12 bolas, úntalas con aceite y deja que reposen tapadas 30 minutos.
+      - Estira cada bola sobre la mesa untada de manteca hasta que esté muy fina, casi transparente. Úntala de manteca, enróllala como un cordón y deja que repose 15 minutos.
+      - Enrolla cada cordón sobre sí mismo en espiral, sin apretar, y colócalos en bandejas con papel de horno, separados.
+      - Deja que leven tapadas toda la noche, unas 10-12 horas, hasta que tripliquen su volumen. Pulveriza con agua y hornea a 180 °C 12-15 minutos. Espolvorea con azúcar glas ya frías.
+
+  - name: Magdalenas
+    category: Postres
+    difficulty: EASY
+    prep: 15
+    cook: 15
+    servings: 16
+    notes: El reposo de la masa en la nevera y el golpe de calor inicial hacen que salga el copete.
+    tags: [bollería, desayuno]
+    utensils: [Horno]
+    ingredients:
+      - items:
+          - [huevos, 3, null]
+          - [azúcar, 150, g]
+          - [aceite de girasol, 150, g]
+          - [leche, 50, g]
+          - [ralladura de limón, 1, cucharadita]
+          - [harina, 200, g]
+          - [levadura química, 8, g]
+          - [azúcar para espolvorear, 2, cucharada]
+    steps:
+      - Bate los huevos con el azúcar 5 minutos, hasta que blanqueen y doblen su volumen.
+      - Añade el aceite y la leche en hilo sin dejar de batir, y la ralladura.
+      - Incorpora la harina tamizada con la levadura con movimientos envolventes. Tapa y deja la masa en la nevera al menos 1 hora.
+      - Precalienta el horno a 220 °C. Llena las cápsulas hasta tres cuartos y espolvorea azúcar por encima.
+      - Hornea 5 minutos a 220 °C y 10 minutos a 200 °C, hasta que estén doradas.
+
+  - name: Pan de pita
+    category: Panes y masas
+    difficulty: EASY
+    prep: 20
+    cook: 15
+    servings: 8
+    notes: Se hinchan formando un bolsillo gracias al calor fuerte de la bandeja. Necesitan 1 hora y media de levado.
+    tags: [pan, vegana]
+    utensils: [Horno]
+    ingredients:
+      - items:
+          - [harina de trigo, 500, g]
+          - [agua templada, 300, g]
+          - [levadura seca de panadería, 7, g]
+          - [azúcar, 1, cucharadita]
+          - [aceite de oliva, 2, cucharada]
+          - [sal, 10, g]
+    steps:
+      - Mezcla todos los ingredientes y amasa 10 minutos. Deja que fermente tapada 1 hora y media.
+      - Precalienta el horno a 250 °C con una bandeja dentro.
+      - Divide la masa en 8 bolas y estira cada una en un disco de 5 mm de grosor. Deja que reposen 10 minutos.
+      - Hornea 2-3 discos a la vez sobre la bandeja caliente 4-5 minutos, hasta que se inflen y estén apenas dorados.
+      - Envuélvelos en un paño para que se mantengan blandos.
+
+  - name: Naan
+    category: Panes y masas
+    difficulty: EASY
+    prep: 20
+    cook: 15
+    servings: 8
+    origin: India
+    originCountry: IN
+    notes: En la India se hacen en el horno tandoor; en una sartén de hierro muy caliente quedan muy parecidos. Necesitan 1 hora y media de levado.
+    tags: [pan, vegetariana]
+    ingredients:
+      - items:
+          - [harina de trigo, 400, g]
+          - [yogur natural, 125, g]
+          - [leche templada, 120, g]
+          - [levadura seca de panadería, 5, g]
+          - [azúcar, 1, cucharadita]
+          - [levadura química, 1, cucharadita]
+          - [sal, 1, cucharadita]
+          - [ghee o mantequilla derretida, 2, cucharada]
+          - [ajo picado, 1, cucharadita, optional]
+          - [cilantro fresco picado, 1, cucharada, optional]
+    steps:
+      - Mezcla la harina, las levaduras, el azúcar y la sal. Añade el yogur, la leche y 1 cucharada de ghee y amasa 8 minutos, hasta que esté suave. Deja que fermente tapada 1 hora y media.
+      - Divide en 8 bolas y estíralas en forma de lágrima de 5 mm de grosor.
+      - Calienta mucho una sartén de hierro sin aceite. Pon un naan, espera a que salgan burbujas, unos 1-2 minutos, y dale la vuelta. Cocina 1 minuto más, hasta que tenga manchas tostadas.
+      - Píntalos con el resto del ghee mezclado con el ajo y el cilantro.
+
+  - name: Panecillos de hamburguesa
+    category: Panes y masas
+    difficulty: EASY
+    prep: 25
+    cook: 15
+    servings: 8
+    notes: Tiernos y algo dulces, como los de las hamburgueserías. Necesitan unas 2 horas y media de levado.
+    tags: [pan]
+    utensils: [Horno]
+    ingredients:
+      - items:
+          - [harina de trigo de fuerza, 500, g]
+          - [leche templada, 200, g]
+          - [agua templada, 80, g]
+          - [huevo, 1, null]
+          - [mantequilla blanda, 40, g]
+          - [azúcar, 30, g]
+          - [levadura seca de panadería, 7, g]
+          - [sal, 10, g]
+          - [huevo para pintar, 1, null]
+          - [sésamo, 2, cucharada]
+    steps:
+      - Mezcla todos los ingredientes menos la sal y la mantequilla y amasa 5 minutos. Añade la sal y la mantequilla y amasa 10 minutos más.
+      - Deja que fermente tapada 1 hora y media.
+      - Divide en 8 piezas de unos 110 g, bolea y aplánalas ligeramente sobre una bandeja con papel de horno.
+      - Deja que leven tapadas 1 hora. Píntalas con huevo y espolvorea el sésamo.
+      - Hornea a 200 °C 14-15 minutos.
+
+  - name: Bagels
+    category: Panes y masas
+    difficulty: MEDIUM
+    prep: 40
+    cook: 25
+    servings: 8
+    origin: Nueva York
+    originCountry: US
+    notes: El hervido antes de hornear es lo que les da su corteza brillante y su miga densa. Puedes formarlos la víspera y dejarlos en la nevera toda la noche.
+    tags: [pan, desayuno]
+    utensils: [Horno]
+    ingredients:
+      - items:
+          - [harina de trigo de fuerza, 500, g]
+          - [agua templada, 280, g]
+          - [levadura seca de panadería, 5, g]
+          - [azúcar o extracto de malta, 1, cucharada]
+          - [sal, 10, g]
+          - [miel, 2, cucharada]
+          - [semillas de sésamo o amapola, 3, cucharada]
+    steps:
+      - Mezcla la harina, el agua, la levadura, el azúcar y la sal y amasa 10 minutos; la masa es firme. Deja que fermente 1 hora.
+      - Divide en 8 piezas, bolea y haz un agujero en el centro con el dedo, estirándolo hasta 4 cm. Deja que reposen 20 minutos.
+      - Precalienta el horno a 220 °C. Lleva a ebullición una olla grande con agua y la miel.
+      - Hierve los bagels 1 minuto por cada lado, escúrrelos y pásalos por las semillas.
+      - Hornea en una bandeja con papel de horno 20 minutos, hasta que estén dorados.
+
+  - name: Tortas de aceite
+    category: Panes y masas
+    difficulty: MEDIUM
+    prep: 40
+    cook: 12
+    servings: 12
+    origin: Castilleja de la Cuesta (Sevilla)
+    originCountry: ES
+    notes: Finas, crujientes y perfumadas con anís en grano y ajonjolí. Necesitan 1 hora de levado.
+    tags: [dulce, merienda, vegana]
+    utensils: [Horno]
+    ingredients:
+      - items:
+          - [harina de trigo, 250, g]
+          - [aceite de oliva virgen extra, 75, g]
+          - [agua templada, 100, g]
+          - [levadura fresca, 5, g]
+          - [anís en grano (matalahúva), 1, cucharadita]
+          - [ajonjolí (sésamo), 1, cucharadita]
+          - [sal, 1, pizca]
+          - [azúcar para espolvorear, 4, cucharada]
+    steps:
+      - Calienta el aceite con el anís y el ajonjolí 1 minuto a fuego suave y deja que se temple.
+      - Disuelve la levadura en el agua y mézclala con la harina, la sal y el aceite aromatizado. Amasa 5 minutos y deja que repose tapada 1 hora.
+      - Precalienta el horno a 200 °C. Divide la masa en 12 bolitas y estíralas sobre papel de horno hasta que estén finísimas, casi transparentes.
+      - Espolvorea azúcar por encima y hornea 10-12 minutos, hasta que estén doradas y crujientes.
+
+  - name: Pan de nueces y pasas
+    category: Panes y masas
+    difficulty: MEDIUM
+    prep: 25
+    cook: 35
+    servings: 10
+    notes: Ideal con quesos. Remoja las pasas 15 minutos para que no absorban el agua de la masa. Necesita unas 2 horas y media de levado.
+    tags: [pan, vegana]
+    utensils: [Horno]
+    ingredients:
+      - items:
+          - [harina de trigo de fuerza, 400, g]
+          - [harina integral de trigo, 100, g]
+          - [agua templada, 350, g]
+          - [levadura seca de panadería, 5, g]
+          - [miel o sirope de agave, 1, cucharada]
+          - [sal, 10, g]
+          - [nueces, 100, g]
+          - [uvas pasas, 80, g]
+    steps:
+      - Mezcla las harinas, el agua, la levadura y la miel y amasa 5 minutos. Añade la sal y amasa 5 minutos más.
+      - Incorpora las nueces troceadas y las pasas escurridas.
+      - Deja que fermente tapada 1 hora y media, con un pliegue a mitad de tiempo.
+      - Dale forma de pan ovalado y deja que leve sobre papel de horno 1 hora.
+      - Haz unos cortes y hornea a 230 °C con vapor 35 minutos.
+
+  - name: Rosquillas de anís
+    category: Postres
+    difficulty: MEDIUM
+    prep: 30
+    cook: 20
+    servings: 24
+    origin: España
+    originCountry: ES
+    notes: Las rosquillas fritas de la abuela. El aceite se aromatiza antes con piel de limón. La masa debe quedar blanda, sin pasarse de harina.
+    tags: [dulce, fritura]
+    ingredients:
+      - items:
+          - [huevos, 3, null]
+          - [azúcar, 150, g]
+          - [aceite de oliva suave, 100, g]
+          - [piel de limón, 1, trozo]
+          - [licor de anís, 50, g]
+          - [leche, 50, g]
+          - [ralladura de limón, 1, cucharadita]
+          - [levadura química, 16, g]
+          - [harina, 500, g]
+          - [aceite de girasol para freír, null, null]
+          - [azúcar para rebozar, 100, g]
+    steps:
+      - Fríe la piel de limón en el aceite de oliva hasta que se dore, retírala y deja que el aceite se enfríe.
+      - Bate los huevos con el azúcar. Añade el aceite aromatizado, el anís, la leche y la ralladura.
+      - Incorpora la harina tamizada con la levadura poco a poco, hasta tener una masa blanda que apenas se pegue a las manos. Deja que repose 15 minutos.
+      - Con las manos untadas de aceite, haz cordones de 15 cm y une los extremos formando aros.
+      - Fríelas en aceite a 170 °C, dándoles la vuelta, hasta que estén doradas. Escúrrelas y rebózalas en azúcar.

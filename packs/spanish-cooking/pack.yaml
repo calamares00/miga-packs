@@ -1,0 +1,618 @@
+id: spanish-cooking
+version: 1
+updated: 2026-10-31
+language: en
+name: "World cuisine: Spain"
+description: >-
+  A tour of Spain's regional cooking: cocido madrileño, fabada, lentil stew, marmitako, bacalao
+  al pil pil, garlic chicken, black rice, fideuà, oven-baked rice, escalivada, Rioja-style
+  potatoes, Galician broth, papas arrugadas with mojo, ajoblanco, Galician empanada, migas, oxtail
+  stew, torrijas, rice pudding and Santiago almond cake. Without repeating the dishes in the
+  Mediterranean, tapas and Christmas packs.
+author: Miga
+authorGithub: calamares00
+cover:
+  emoji: "🥘"
+  kicker: World cuisine
+  title: Spain
+  colors: ["#b91c1c", "#eab308"]
+defaults:
+  origin: Spain
+  originCountry: ES
+  source: "Miga «World cuisine: Spain» pack"
+recipes:
+
+  - name: Cocido madrileño
+    category: Legumes
+    difficulty: MEDIUM
+    prep: 20
+    cook: 210
+    servings: 6
+    origin: Madrid
+    notes: "Soak the chickpeas the night before. In a pressure cooker the meat and chickpeas take about 50 minutes. It is served in three courses (vuelcos): the soup, the chickpeas with the vegetables, and the meats."
+    tags: [stew, winter]
+    ingredients:
+      - group: Cocido
+        items:
+          - [chickpeas, 400, g]
+          - [beef shin, 500, g]
+          - [hen or chicken, 0.25, null]
+          - [pork fat (tocino), 150, g]
+          - [ham bone, 1, null]
+          - [beef knuckle bone, 1, null]
+          - [chorizo, 1, null]
+          - [onion morcilla, 1, null]
+          - [carrots, 2, null]
+          - [potatoes, 4, null]
+          - [salt, null, null]
+      - group: Cabbage
+        items:
+          - [green cabbage, 0.5, null]
+          - [garlic, 2, clove]
+          - [olive oil, 3, tbsp]
+      - group: Soup
+        items:
+          - [fine noodles, 100, g]
+    steps:
+      - Put the meat, pork fat and bones in a large pot with 4 litres of cold water and bring to the boil, skimming off the foam.
+      - Add the drained chickpeas in a mesh bag and simmer gently for 3 hours. If it needs more water, add it hot so the chickpeas don't harden.
+      - Half an hour before the end, add the carrots, potatoes and salt.
+      - Cook the chorizo and morcilla separately with the chopped cabbage for 30 minutes so their fat doesn't colour the broth. Drain the cabbage and fry it with the sliced garlic and the oil.
+      - Strain some of the broth, cook the noodles in it and serve it as the first course.
+      - Then serve the chickpeas with the vegetables and, finally, the meats cut into pieces.
+
+  - name: Fabada asturiana
+    category: Legumes
+    difficulty: MEDIUM
+    prep: 15
+    cook: 180
+    servings: 6
+    origin: Asturias
+    notes: The beans are soaked for 12 hours. They are cooked very gently and never stirred with a spoon; just shake the pot so they don't break.
+    tags: [stew, winter]
+    ingredients:
+      - items:
+          - [fabes de la granja (large white beans), 500, g]
+          - [Asturian chorizos, 2, null]
+          - [Asturian morcillas, 2, null]
+          - [cured pork shoulder (lacón), 250, g]
+          - [pork belly or fatback, 200, g]
+          - [saffron threads, 1, pinch]
+          - [salt, null, null]
+    steps:
+      - Soak the lacón the night before, like the beans, if it is salty.
+      - Put the drained beans in a pot with the compango (chorizos, morcillas, lacón and pork belly) and cover with cold water, two fingers above.
+      - Bring to the boil, skim off the foam and turn the heat right down.
+      - When it comes back to the boil, add a splash of cold water to "scare" the beans. Repeat two or three times while they cook.
+      - Simmer for 2½-3 hours, shaking the pot now and then, until the beans are buttery. Add the saffron and salt halfway through.
+      - Leave to rest for 30 minutes before serving, with the compango sliced on the side.
+
+  - name: Lentil stew with chorizo
+    category: Legumes
+    difficulty: EASY
+    prep: 15
+    cook: 45
+    servings: 4
+    tags: [stew, home-style]
+    ingredients:
+      - items:
+          - [brown lentils (pardina), 400, g]
+          - [chorizo, 1, null]
+          - [onion, 1, null]
+          - [green pepper, 1, null]
+          - [carrot, 1, null]
+          - [ripe tomato, 1, null]
+          - [garlic, 2, clove]
+          - [potato, 1, null]
+          - [sweet paprika, 1, tsp]
+          - [bay leaf, 1, null]
+          - [olive oil, 3, tbsp]
+          - [salt, null, null]
+    steps:
+      - Chop the onion, pepper, carrot and garlic and cook them gently in the oil for 10 minutes. Add the grated tomato and fry for 5 more minutes.
+      - Take off the heat, add the paprika and stir.
+      - Add the rinsed lentils, the sliced chorizo, the bay leaf and cold water to cover by two fingers.
+      - Simmer for 20 minutes, add the potato broken into chunks and the salt and simmer for 20 more minutes, until the lentils are tender.
+
+  - name: Marmitako
+    category: Fish and seafood
+    difficulty: EASY
+    prep: 20
+    cook: 35
+    servings: 4
+    origin: Basque Country
+    notes: The dish of the Cantabrian albacore tuna fishermen. The tuna goes in at the end, with the heat off, so it stays juicy.
+    tags: [stew, fish]
+    ingredients:
+      - items:
+          - [cleaned albacore tuna, 600, g]
+          - [potatoes, 1, kg]
+          - [onion, 1, null]
+          - [green Italian peppers, 2, null]
+          - [choricero pepper paste, 2, tbsp]
+          - [ripe tomato, 1, null]
+          - [garlic, 2, clove]
+          - [fish stock, 1.5, l]
+          - [dried chilli, 1, null, optional]
+          - [olive oil, 4, tbsp]
+          - [salt, null, null]
+    steps:
+      - Gently cook the chopped onion, peppers and garlic in the oil for 10 minutes. Add the grated tomato and the choricero paste and fry for 5 minutes.
+      - Add the potatoes broken into chunks, stir for 2 minutes and cover with the hot stock. Add the chilli.
+      - Simmer over a medium heat for 20 minutes, until the potatoes are tender and the broth has thickened. Season with salt.
+      - Turn off the heat, add the salted cubes of tuna, cover and leave for 5 minutes before serving.
+
+  - name: Bacalao al pil pil
+    category: Fish and seafood
+    difficulty: HARD
+    prep: 10
+    cook: 25
+    servings: 4
+    origin: Basque Country
+    notes: The salt cod is desalted in cold water in the fridge for 48 hours, changing the water 3 or 4 times. The gelatine from the skin is what binds the sauce.
+    tags: [fish, gluten-free]
+    ingredients:
+      - items:
+          - [desalted skin-on salt cod loins, 4, null]
+          - [garlic, 6, clove]
+          - [dried chilli, 1, null]
+          - [extra virgin olive oil, 300, ml]
+    steps:
+      - Pat the cod dry.
+      - Heat the oil in an earthenware dish over a low heat, fry the sliced garlic and the chilli until golden and lift them out.
+      - Let the oil cool to about 70 °C and lay the loins in it skin side up. Poach them for 4-5 minutes, turn them over and poach for 4-5 minutes more, without letting the oil boil.
+      - Take out the cod and let the oil cool a little more.
+      - Swirling the dish in circles, or whisking the oil with a sieve, gradually bind the gelatine released by the cod into the oil until you have a thick, white sauce.
+      - Return the cod to the dish, swirl a little more and serve with the garlic and chilli on top.
+
+  - name: Garlic chicken
+    category: Meat
+    difficulty: EASY
+    prep: 10
+    cook: 40
+    servings: 4
+    tags: [chicken, home-style, gluten-free]
+    ingredients:
+      - items:
+          - [chicken pieces, 1.2, kg]
+          - [garlic, 10, clove]
+          - [white wine or fino sherry, 150, ml]
+          - [bay leaf, 2, null]
+          - [dried thyme, 0.5, tsp, optional]
+          - [olive oil, 6, tbsp]
+          - [chopped parsley, 2, tbsp]
+          - [salt, null, null]
+          - [black pepper, null, null]
+    steps:
+      - Season the chicken and brown it in the oil over a medium-high heat on all sides, in batches if needed.
+      - Lower the heat, add the crushed unpeeled garlic cloves and the bay leaves, and cook for 5 more minutes.
+      - Add the wine and thyme, cover and simmer for 25 minutes, turning the chicken now and then.
+      - Uncover and let the sauce reduce for 5 minutes. Serve with chopped parsley.
+
+  - name: Black rice
+    category: Rice
+    difficulty: MEDIUM
+    prep: 20
+    cook: 35
+    servings: 4
+    origin: Catalonia and Valencia
+    notes: Arròs negre is cooked in a paella pan and served with aioli.
+    tags: [rice, seafood]
+    ingredients:
+      - items:
+          - [bomba rice, 400, g]
+          - [cleaned cuttlefish, 500, g]
+          - [squid ink, 2, sachet]
+          - [onion, 1, null]
+          - [garlic, 3, clove]
+          - [grated tomato, 150, g]
+          - [sweet paprika, 1, tsp]
+          - [hot fish stock, 1.2, l]
+          - [olive oil, 5, tbsp]
+          - [salt, null, null]
+          - [aioli, null, null, optional]
+    steps:
+      - Cut the cuttlefish into cubes and brown it in the paella pan with the oil. Push it to one side.
+      - Fry the very finely chopped onion and garlic for 8 minutes. Add the tomato and fry until its water has evaporated. Add the paprika.
+      - Add the rice and stir for 1 minute. Dissolve the ink in the stock and pour it in. Season with salt.
+      - Cook over a high heat for 8 minutes and over a low heat for 9-10 minutes more, without stirring.
+      - Leave to rest for 5 minutes covered with a tea towel and serve with aioli.
+
+  - name: Fideuà
+    category: Pasta
+    difficulty: MEDIUM
+    prep: 20
+    cook: 25
+    servings: 4
+    origin: Gandia
+    notes: Served with aioli. If you want the noodle tips to curl up and crisp, put it under the grill for 2 minutes at the end.
+    tags: [pasta, seafood]
+    ingredients:
+      - items:
+          - [fideuà noodles, 400, g]
+          - [prawns, 300, g]
+          - [cleaned squid or cuttlefish, 300, g]
+          - [ñora (dried sweet pepper), 1, null]
+          - [garlic, 3, clove]
+          - [grated tomato, 150, g]
+          - [sweet paprika, 1, tsp]
+          - [saffron threads, 1, pinch]
+          - [hot fish stock, 1, l]
+          - [olive oil, 6, tbsp]
+          - [salt, null, null]
+          - [aioli, null, null, optional]
+    steps:
+      - Soak the ñora in hot water and scrape out its flesh.
+      - Brown the prawns in the paella pan with the oil and lift them out. Sauté the squid in cubes.
+      - Add the chopped garlic, the tomato and the ñora flesh and fry for 5 minutes. Add the paprika.
+      - Add the noodles and toast them for 2 minutes, stirring so they soak up the sofrito.
+      - Add the stock with the saffron and salt and cook over a medium heat for 10 minutes, without stirring. Lay the prawns on top for the last few minutes.
+      - Leave to rest for 5 minutes and serve with aioli.
+
+  - name: Oven-baked rice
+    category: Rice
+    difficulty: MEDIUM
+    prep: 20
+    cook: 45
+    servings: 4
+    origin: Valencia
+    notes: Arròs al forn is made in an earthenware dish. It was traditionally a way to use up leftover cocido.
+    tags: [rice, baked]
+    utensils: [Oven]
+    ingredients:
+      - items:
+          - [round rice, 400, g]
+          - ["pork ribs, cut into pieces", 300, g]
+          - [onion morcilla, 1, null]
+          - [cooked chickpeas, 200, g]
+          - [potato, 1, null]
+          - [tomatoes, 2, null]
+          - [garlic bulb, 1, null]
+          - [sweet paprika, 1, tsp]
+          - [saffron threads, 1, pinch]
+          - [hot cocido or meat stock, 800, ml]
+          - [olive oil, 5, tbsp]
+          - [salt, null, null]
+    steps:
+      - Preheat the oven to 220 °C.
+      - In the dish, brown the ribs, the sliced potato, one sliced tomato, the morcilla and the whole garlic bulb. Take out the potato, tomato, morcilla and garlic.
+      - Add the other tomato, grated, and fry for 3 minutes. Add the paprika, rice and chickpeas and stir.
+      - Pour in the boiling stock with the saffron and salt and arrange the potato, tomato and morcilla pieces on top, with the garlic bulb in the middle.
+      - Bake for 20 minutes, until the rice is cooked and the stock absorbed. Rest for 5 minutes.
+
+  - name: Escalivada
+    category: Vegetables
+    difficulty: EASY
+    prep: 15
+    cook: 60
+    servings: 4
+    origin: Catalonia
+    tags: [vegan, gluten-free, roasted]
+    utensils: [Oven]
+    ingredients:
+      - items:
+          - [aubergines, 2, null]
+          - [red peppers, 3, null]
+          - [onions, 2, null]
+          - [extra virgin olive oil, 5, tbsp]
+          - [garlic, 1, clove, optional]
+          - [flaky salt, null, null]
+    steps:
+      - Preheat the oven to 200 °C. Wash the vegetables, prick them and rub them with a little oil.
+      - Roast them whole on a tray for 50-60 minutes, turning halfway through, until very soft. The onions may need a little longer.
+      - Cover them with a tea towel and leave for 15 minutes so they peel more easily.
+      - Peel them, remove the pepper seeds and cut everything into strips.
+      - Arrange on a dish and dress with the oil, the chopped garlic if using, and the salt. Eat warm or cold.
+
+  - name: Rioja-style potatoes
+    category: Vegetables
+    difficulty: EASY
+    prep: 15
+    cook: 40
+    servings: 4
+    origin: La Rioja
+    notes: The potatoes are "snapped", broken off with the knife rather than cut, so they release starch and thicken the broth.
+    tags: [stew, home-style]
+    ingredients:
+      - items:
+          - [potatoes, 1, kg]
+          - [Rioja chorizo, 200, g]
+          - [onion, 1, null]
+          - [green pepper, 1, null]
+          - [garlic, 2, clove]
+          - [choricero pepper paste, 1, tbsp]
+          - [paprika, 1, tsp]
+          - [bay leaf, 1, null]
+          - [dried chilli, 1, null, optional]
+          - [olive oil, 3, tbsp]
+          - [salt, null, null]
+    steps:
+      - Gently cook the chopped onion, pepper and garlic in the oil for 10 minutes.
+      - Add the chorizo in thick slices and fry for 2 minutes. Add the paprika and choricero paste.
+      - Add the snapped potatoes, stir and cover with water. Add the bay leaf, chilli and salt.
+      - Simmer over a medium heat for 25-30 minutes, until the potatoes are tender and the broth has thickened. Rest for 5 minutes.
+
+  - name: Castilian garlic soup
+    category: Soups
+    difficulty: EASY
+    prep: 10
+    cook: 25
+    servings: 4
+    origin: Castile
+    notes: Known as sopa castellana or sopa de ajo. It is traditionally finished in small earthenware bowls in the oven.
+    tags: [soup, winter, leftovers]
+    ingredients:
+      - items:
+          - [day-old bread, 150, g]
+          - [garlic, 6, clove]
+          - [diced serrano ham, 100, g]
+          - [sweet paprika, 1, tbsp]
+          - [meat or chicken stock, 1.5, l]
+          - [eggs, 4, null]
+          - [olive oil, 5, tbsp]
+          - [salt, null, null]
+    steps:
+      - Gently fry the sliced garlic in the oil until golden. Add the ham and fry for 1 minute.
+      - Add the thinly sliced bread and toast it a little.
+      - Take off the heat, add the paprika and stir. Pour in the hot stock straight away so the paprika doesn't burn.
+      - Simmer for 15 minutes and season with salt.
+      - Crack the eggs into the soup, cover and let them set for 3-4 minutes, with runny yolks.
+
+  - name: Galician broth
+    category: Soups
+    difficulty: EASY
+    prep: 15
+    cook: 120
+    servings: 6
+    origin: Galicia
+    notes: Soak the beans the night before. Turnip tops (grelos) can be replaced with turnip greens or spring greens.
+    tags: [stew, winter]
+    ingredients:
+      - items:
+          - [dried white beans, 150, g]
+          - [cured pork shoulder or ham bone, 300, g]
+          - [pork fat, 100, g]
+          - [chorizo, 1, null, optional]
+          - [potatoes, 4, null]
+          - [turnip tops (grelos), 400, g]
+          - [water, 2.5, l]
+          - [salt, null, null]
+    steps:
+      - Put the drained beans, pork shoulder and pork fat in a pot with the cold water and bring to the boil, skimming off the foam.
+      - Simmer gently for 1¼ hours, until the beans are almost tender.
+      - Add the potatoes broken into chunks, the washed and chopped greens and the chorizo.
+      - Simmer for 30 more minutes and season with salt. Let it rest before serving; it is even better the next day.
+
+  - name: Papas arrugadas with mojo picón
+    category: Vegetables
+    difficulty: EASY
+    prep: 15
+    cook: 30
+    servings: 4
+    origin: Canary Islands
+    notes: In the Canaries they use small local potatoes and pimienta palmera (a dried pepper). Elsewhere, small new potatoes and ñora or choricero peppers work well.
+    tags: [vegan, gluten-free]
+    ingredients:
+      - group: Potatoes
+        items:
+          - [small potatoes, 1, kg]
+          - [coarse salt, 100, g]
+      - group: Mojo picón
+        items:
+          - [pimienta palmera or ñora peppers, 2, null]
+          - [dried chilli, 1, null]
+          - [garlic, 4, clove]
+          - [cumin seeds, 1, tsp]
+          - [sweet paprika, 1, tbsp]
+          - [wine vinegar, 3, tbsp]
+          - [olive oil, 150, ml]
+          - [coarse salt, 1, tsp]
+    steps:
+      - Wash the potatoes without peeling and put them in a pot with just enough water to cover and the coarse salt.
+      - Boil for 20-25 minutes, until tender. Pour off the water and leave them in the pot over a very low heat, shaking it, until they dry out and the skins wrinkle and turn white with salt.
+      - For the mojo, soak the dried peppers in hot water for 20 minutes and remove the seeds.
+      - Pound the garlic with the salt and cumin in a mortar. Add the peppers, chilli and paprika and keep pounding.
+      - Add the vinegar and oil little by little, mixing until it emulsifies. Serve the potatoes with the mojo.
+
+  - name: Ajoblanco
+    category: Soups
+    difficulty: EASY
+    prep: 15
+    cook: 0
+    servings: 4
+    origin: Andalusia
+    notes: Served ice-cold, with muscat grapes or melon.
+    tags: [cold, vegan, summer]
+    utensils: [Blender]
+    ingredients:
+      - items:
+          - [blanched raw almonds, 200, g]
+          - [garlic, 1, clove]
+          - [day-old bread, 100, g]
+          - [extra virgin olive oil, 150, ml]
+          - [sherry vinegar, 3, tbsp]
+          - [ice-cold water, 750, ml]
+          - [salt, 1, tsp]
+          - [muscat grapes, 16, null]
+    steps:
+      - Soak the bread in water and squeeze it out.
+      - Blend the almonds with the garlic, bread, salt and a little water to a smooth paste.
+      - Drizzle in the oil while blending so it emulsifies. Add the vinegar and the rest of the water.
+      - Strain for a finer texture if you like, adjust the salt and vinegar and chill for at least 2 hours.
+      - Serve with the peeled grapes and a drizzle of oil.
+
+  - name: Galician tuna empanada
+    category: Breads and doughs
+    difficulty: MEDIUM
+    prep: 60
+    cook: 45
+    servings: 8
+    origin: Galicia
+    notes: The oil from the sofrito goes into the dough, giving it flavour and colour.
+    tags: [baked, packed lunch]
+    utensils: [Oven]
+    ingredients:
+      - group: Filling
+        items:
+          - [onions, 3, null]
+          - [red pepper, 1, null]
+          - [green pepper, 1, null]
+          - [garlic, 2, clove]
+          - [crushed tomatoes, 200, g]
+          - [sweet paprika, 1, tsp]
+          - [olive oil, 150, ml]
+          - [drained tuna in oil, 400, g]
+          - [hard-boiled eggs, 2, null]
+          - [salt, null, null]
+      - group: Dough
+        items:
+          - [plain flour, 500, g]
+          - [fresh yeast, 10, g]
+          - [warm water, 150, ml]
+          - [white wine, 50, ml]
+          - [oil from the sofrito, 75, ml]
+          - [salt, 1, tsp]
+          - [egg for brushing, 1, null]
+    steps:
+      - group: Filling
+        items:
+          - Gently cook the onion, peppers and garlic, cut into strips, in the oil for 30 minutes. Add the tomato and paprika and cook for 10 more minutes. Season with salt.
+          - Drain the sofrito, keeping 75 ml of its oil. Mix the sofrito with the tuna and chopped egg and let it cool.
+      - group: Dough and assembly
+        items:
+          - Dissolve the yeast in the water. Mix with the flour, salt, wine and reserved oil and knead for 10 minutes. Cover and leave for 30 minutes.
+          - Preheat the oven to 180 °C. Divide the dough in two and roll each piece out very thinly.
+          - Line a tray with one sheet, spread over the filling, cover with the other sheet and crimp the edge into a rope. Make a hole in the middle.
+          - Brush with beaten egg and bake for 40-45 minutes, until golden.
+
+  - name: Extremaduran migas
+    category: Breads and doughs
+    difficulty: EASY
+    prep: 15
+    cook: 30
+    servings: 4
+    origin: Extremadura
+    notes: The bread is moistened the day before and covered with a cloth. Serve with grapes or a fried egg.
+    tags: [leftovers, shepherd's food]
+    ingredients:
+      - items:
+          - [stale country bread, 500, g]
+          - [salted water, 150, ml]
+          - [garlic, 6, clove]
+          - [pork belly, 150, g]
+          - [chorizo, 150, g]
+          - [green pepper, 1, null]
+          - [sweet paprika, 1, tsp]
+          - [olive oil, 100, ml]
+    steps:
+      - Cut the bread into small cubes or slices, sprinkle with the salted water, cover with a damp cloth and leave for a few hours or overnight.
+      - Fry the unpeeled garlic in the oil until golden and lift it out. Fry the pork belly and chorizo in pieces and the pepper in strips and lift them out.
+      - Add the bread to the oil and stir constantly over a medium heat, breaking it up with the slotted spoon, for 15-20 minutes, until loose and golden.
+      - Add the paprika, garlic, pork belly, chorizo and pepper, mix and serve.
+
+  - name: Oxtail stew
+    category: Meat
+    difficulty: MEDIUM
+    prep: 20
+    cook: 210
+    servings: 4
+    origin: Córdoba
+    notes: Rabo de toro takes about 60 minutes in a pressure cooker. Like every stew, it is better the next day.
+    tags: [stew, winter]
+    ingredients:
+      - items:
+          - ["oxtail, cut into pieces", 1.5, kg]
+          - [flour, 3, tbsp]
+          - [onions, 2, null]
+          - [carrots, 2, null]
+          - [leek, 1, null]
+          - [red pepper, 1, null]
+          - [garlic, 4, clove]
+          - [ripe tomatoes, 2, null]
+          - [red wine, 500, ml]
+          - [beef stock, 500, ml]
+          - [bay leaf, 2, null]
+          - [olive oil, 6, tbsp]
+          - [salt, null, null]
+          - [black pepper, null, null]
+    steps:
+      - Season the oxtail, coat it in flour and brown it in the oil on all sides. Take it out.
+      - In the same oil, gently cook the chopped vegetables for 15 minutes. Add the grated tomato and fry for 5 minutes.
+      - Return the oxtail, add the wine and boil for 5 minutes to cook off the alcohol.
+      - Add the stock and bay leaves, cover and simmer very gently for 3 hours, until the meat comes away from the bone.
+      - Take out the meat, blend and strain the sauce and put everything back together.
+
+  - name: Torrijas
+    category: Desserts
+    difficulty: EASY
+    prep: 15
+    cook: 20
+    servings: 6
+    notes: The Easter sweet. Special torrija bread, which is denser, holds up better to soaking.
+    tags: [dessert, easter, fried]
+    ingredients:
+      - items:
+          - [torrija bread or day-old baguette, 1, null]
+          - [whole milk, 1, l]
+          - [sugar, 100, g]
+          - [cinnamon stick, 1, null]
+          - [lemon peel, 1, strip]
+          - [eggs, 3, null]
+          - [mild olive oil for frying, null, null]
+          - [sugar for coating, 100, g]
+          - [ground cinnamon, 1, tbsp]
+    steps:
+      - Heat the milk with the sugar, cinnamon and lemon peel without boiling. Turn off the heat and leave to infuse until lukewarm.
+      - Cut the bread into 2 cm slices and soak them in the milk, without letting them fall apart.
+      - Dip them in beaten egg and fry in hot oil until golden on both sides.
+      - Drain them and coat in the sugar mixed with the cinnamon.
+
+  - name: Rice pudding
+    category: Desserts
+    difficulty: EASY
+    prep: 5
+    cook: 70
+    servings: 6
+    origin: Asturias
+    notes: The secret is slow cooking and frequent stirring. In Asturias, the sugar on top is caramelised with a hot iron.
+    tags: [dessert, gluten-free]
+    ingredients:
+      - items:
+          - [round rice, 150, g]
+          - [whole milk, 1.5, l]
+          - [sugar, 150, g]
+          - [lemon peel, 1, strip]
+          - [cinnamon stick, 1, null]
+          - [butter, 20, g]
+          - [ground cinnamon, null, null]
+    steps:
+      - Bring the milk to the boil with the lemon peel and cinnamon.
+      - Add the rice and simmer very gently for 1 hour, stirring often so it doesn't stick.
+      - Add the sugar and butter and cook for 10 more minutes, stirring, until creamy.
+      - Remove the cinnamon and lemon, divide between bowls and dust with ground cinnamon. Serve cold or warm.
+
+  - name: Santiago almond cake
+    category: Desserts
+    difficulty: EASY
+    prep: 15
+    cook: 40
+    servings: 8
+    origin: Galicia
+    notes: The cross of Saint James is drawn with icing sugar and a paper template.
+    tags: [dessert, gluten-free, almond]
+    utensils: [Oven]
+    ingredients:
+      - items:
+          - [ground almonds, 250, g]
+          - [sugar, 250, g]
+          - [eggs, 5, null]
+          - [lemon zest, 1, tsp]
+          - [ground cinnamon, 0.5, tsp]
+          - [butter for the tin, 10, g]
+          - [icing sugar, 2, tbsp]
+    steps:
+      - Preheat the oven to 180 °C and grease a 24 cm tin.
+      - Whisk the eggs with the sugar until pale.
+      - Add the almonds, lemon zest and cinnamon and fold in with a spatula.
+      - Pour into the tin and bake for 35-40 minutes, until golden and a skewer comes out clean.
+      - Let it cool, put the cross template in the middle and dust with icing sugar.

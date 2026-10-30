@@ -1,0 +1,614 @@
+id: cocina-china
+version: 1
+updated: 2026-10-31
+language: es
+name: "Cocina del mundo: China"
+description: >-
+  Clásicos de las cocinas de Sichuan, Cantón y el norte de China: pollo kung pao, mapo tofu,
+  jiaozi, cerdo agridulce, sopa agripicante, wonton, chow mein, hong shao rou, dan dan mian,
+  char siu, pescado al vapor, rollitos de primavera y congee. Con las salsas y especias básicas
+  de la despensa china.
+author: Miga
+authorGithub: calamares00
+cover:
+  emoji: "🥟"
+  kicker: Cocina del mundo
+  title: China
+  colors: ["#991b1b", "#ca8a04"]
+defaults:
+  origin: China
+  originCountry: CN
+  source: "Pack «Cocina del mundo: China» de Miga"
+recipes:
+
+  - name: Pollo kung pao
+    category: Carnes
+    difficulty: MEDIUM
+    prep: 20
+    cook: 10
+    servings: 4
+    origin: Sichuan
+    notes: El vino de Shaoxing se puede sustituir por jerez seco y el vinagre de Chinkiang por vinagre de arroz con unas gotas de balsámico.
+    tags: [picante, salteado]
+    utensils: [Wok]
+    ingredients:
+      - group: Pollo
+        items:
+          - [contramuslos de pollo deshuesados, 500, g]
+          - [salsa de soja clara, 1, cucharada]
+          - [vino de Shaoxing, 1, cucharada]
+          - [maicena, 2, cucharadita]
+      - group: Salsa
+        items:
+          - [vinagre negro de Chinkiang, 1, cucharada]
+          - [salsa de soja clara, 1, cucharada]
+          - [salsa de soja oscura, 1, cucharadita]
+          - [azúcar, 1, cucharada]
+          - [maicena, 1, cucharadita]
+          - [agua, 3, cucharada]
+      - group: Salteado
+        items:
+          - [chiles secos, 10, null]
+          - [pimienta de Sichuan, 1, cucharadita]
+          - [ajo, 3, diente]
+          - [jengibre fresco, 2, cm]
+          - [cebolletas, 3, null]
+          - [cacahuetes tostados sin sal, 60, g]
+          - [aceite de girasol, 3, cucharada]
+    steps:
+      - Corta el pollo en dados de 1,5 cm y mézclalo con la soja, el vino y la maicena. Deja que repose 10 minutos.
+      - Mezcla los ingredientes de la salsa en un bol.
+      - Corta los chiles en trozos y quítales las semillas. Pica el ajo y el jengibre y corta las cebolletas en trozos de 2 cm.
+      - Calienta el aceite en el wok a fuego medio y fríe los chiles y la pimienta de Sichuan unos segundos, sin que se quemen.
+      - Sube el fuego, añade el pollo y saltéalo 3-4 minutos. Añade el ajo, el jengibre y la cebolleta y saltea 1 minuto.
+      - Remueve la salsa, échala al wok y saltea hasta que espese y brille. Añade los cacahuetes y sirve.
+
+  - name: Mapo tofu
+    category: Legumbres
+    difficulty: MEDIUM
+    prep: 10
+    cook: 15
+    servings: 4
+    origin: Sichuan
+    notes: El doubanjiang (pasta de judías anchas fermentadas con chile) es imprescindible. Se vende en tiendas asiáticas.
+    tags: [picante, tofu]
+    utensils: [Wok]
+    ingredients:
+      - items:
+          - [tofu sedoso o blando, 500, g]
+          - [carne picada de cerdo o ternera, 150, g]
+          - [doubanjiang, 2, cucharada]
+          - [judías negras fermentadas (douchi), 1, cucharada, optional]
+          - [ajo, 3, diente]
+          - [jengibre fresco, 2, cm]
+          - [chile en polvo o copos de chile, 1, cucharadita]
+          - [caldo de pollo, 250, ml]
+          - [salsa de soja clara, 1, cucharada]
+          - [azúcar, 1, cucharadita]
+          - [maicena, 2, cucharadita]
+          - [pimienta de Sichuan molida, 1, cucharadita]
+          - [cebolletas, 2, null]
+          - [aceite de girasol, 3, cucharada]
+    steps:
+      - Corta el tofu en dados de 2 cm y escáldalo 2 minutos en agua hirviendo con sal. Escúrrelo con cuidado.
+      - Saltea la carne en el aceite hasta que esté dorada y suelta.
+      - Baja el fuego y añade el doubanjiang, las judías negras picadas, el ajo y el jengibre picados y el chile. Sofríe 1 minuto, hasta que el aceite se ponga rojo.
+      - Añade el caldo, la soja y el azúcar y lleva a ebullición. Incorpora el tofu y cuece 5 minutos, moviendo el wok en lugar de remover para no romperlo.
+      - Añade la maicena disuelta en un poco de agua en dos veces, hasta que la salsa espese.
+      - Sirve con la pimienta de Sichuan y la cebolleta picada por encima.
+
+  - name: Jiaozi de cerdo y col
+    category: Panes y masas
+    difficulty: MEDIUM
+    prep: 60
+    cook: 10
+    servings: 4
+    origin: Norte de China
+    notes: Se comen en Año Nuevo chino. Se pueden congelar crudos, separados en una bandeja, y cocerlos sin descongelar.
+    tags: [empanadillas, año nuevo]
+    ingredients:
+      - group: Masa
+        items:
+          - [harina de trigo, 300, g]
+          - [agua templada, 150, ml]
+          - [sal, 1, pizca]
+      - group: Relleno
+        items:
+          - [carne picada de cerdo, 300, g]
+          - [col china, 300, g]
+          - [cebolletas, 2, null]
+          - [jengibre fresco rallado, 1, cucharadita]
+          - [salsa de soja clara, 2, cucharada]
+          - [vino de Shaoxing, 1, cucharada]
+          - [aceite de sésamo, 1, cucharada]
+          - [pimienta blanca, 0.5, cucharadita]
+          - [sal, 1, cucharadita]
+      - group: Salsa para mojar
+        items:
+          - [vinagre negro de Chinkiang, 3, cucharada]
+          - [salsa de soja, 1, cucharada]
+          - [ajo picado, 1, cucharadita]
+          - [aceite de chile, 1, cucharadita, optional]
+    steps:
+      - group: Masa
+        items:
+          - Mezcla la harina con la sal y el agua y amasa 5 minutos, hasta que esté lisa. Tápala y deja que repose 30 minutos.
+      - group: Relleno
+        items:
+          - Pica la col muy fina, sálala, deja que repose 10 minutos y escúrrela apretando con las manos.
+          - Mezcla la carne con la soja, el vino, el jengibre, la pimienta y la sal, removiendo en un solo sentido hasta que quede pegajosa. Añade la col, la cebolleta picada y el aceite de sésamo.
+      - group: Formar y cocer
+        items:
+          - Haz un cilindro con la masa, córtalo en 40 trozos y estira cada uno en un círculo de 8 cm, más fino por los bordes.
+          - Pon una cucharadita de relleno en el centro, dobla y cierra pellizcando los bordes.
+          - Cuécelos en agua hirviendo. Cuando vuelva a hervir, añade un vaso de agua fría; repítelo dos veces. Cuando floten por tercera vez, están hechos.
+          - Mezcla los ingredientes de la salsa y sirve los jiaozi calientes.
+
+  - name: Cerdo agridulce
+    category: Carnes
+    difficulty: MEDIUM
+    prep: 25
+    cook: 20
+    servings: 4
+    origin: Cantón
+    notes: En cantonés se llama gu lou yuk. La doble fritura es lo que lo deja crujiente.
+    tags: [frito, agridulce]
+    utensils: [Wok]
+    ingredients:
+      - group: Cerdo
+        items:
+          - [lomo o aguja de cerdo, 500, g]
+          - [salsa de soja clara, 1, cucharada]
+          - [vino de Shaoxing, 1, cucharada]
+          - [huevo, 1, null]
+          - [maicena, 80, g]
+          - [aceite de girasol para freír, null, null]
+      - group: Salsa
+        items:
+          - [piña en trozos, 150, g]
+          - [pimiento rojo, 1, null]
+          - [pimiento verde, 1, null]
+          - [cebolla, 0.5, null]
+          - [ketchup, 4, cucharada]
+          - [vinagre de arroz, 3, cucharada]
+          - [azúcar, 3, cucharada]
+          - [salsa de soja, 1, cucharada]
+          - [maicena, 1, cucharadita]
+          - [agua, 80, ml]
+    steps:
+      - Corta el cerdo en dados de 2 cm y mézclalo con la soja, el vino y el huevo. Rebózalo en la maicena.
+      - Fríelo en aceite caliente 4 minutos y sácalo. Sube el fuego y fríelo otra vez 1-2 minutos, hasta que esté dorado y crujiente.
+      - Mezcla el ketchup, el vinagre, el azúcar, la soja, la maicena y el agua.
+      - En el wok con 1 cucharada de aceite, saltea la cebolla y los pimientos en trozos 2 minutos. Añade la piña y la salsa y cuece hasta que espese.
+      - Incorpora el cerdo, saltea unos segundos para cubrirlo con la salsa y sirve enseguida.
+
+  - name: Sopa agripicante
+    category: Sopas y cremas
+    difficulty: EASY
+    prep: 20
+    cook: 15
+    servings: 4
+    notes: El picante viene de la pimienta blanca y lo ácido del vinagre; se añaden al final para que no pierdan fuerza.
+    tags: [sopa, picante]
+    ingredients:
+      - items:
+          - [caldo de pollo, 1, l]
+          - [setas shiitake secas, 4, null]
+          - [hongos negros secos (orejas de Judas), 5, g]
+          - [tofu firme, 150, g]
+          - [lomo de cerdo, 100, g]
+          - [brotes de bambú en conserva, 80, g]
+          - [salsa de soja clara, 2, cucharada]
+          - [salsa de soja oscura, 1, cucharadita]
+          - [vinagre negro de Chinkiang, 3, cucharada]
+          - [pimienta blanca molida, 1, cucharadita]
+          - [maicena, 3, cucharada]
+          - [huevo, 1, null]
+          - [aceite de sésamo, 1, cucharadita]
+          - [cebolleta, 1, null]
+    steps:
+      - Hidrata las setas y los hongos en agua caliente 20 minutos. Córtalos en tiras, como el tofu, el cerdo y los brotes de bambú.
+      - Lleva el caldo a ebullición con las setas, los hongos, el cerdo y el bambú y cuece 5 minutos. Añade el tofu y las salsas de soja.
+      - Disuelve la maicena en 6 cucharadas de agua, añádela y remueve hasta que la sopa espese.
+      - Vierte el huevo batido en hilo mientras remueves despacio para que forme hebras.
+      - Fuera del fuego, añade el vinagre, la pimienta blanca y el aceite de sésamo. Sirve con cebolleta picada.
+
+  - name: Sopa wonton
+    category: Sopas y cremas
+    difficulty: MEDIUM
+    prep: 40
+    cook: 10
+    servings: 4
+    origin: Cantón
+    tags: [sopa, empanadillas]
+    ingredients:
+      - group: Wonton
+        items:
+          - [obleas de wonton, 30, null]
+          - [carne picada de cerdo, 250, g]
+          - [gambas peladas, 150, g]
+          - [salsa de soja clara, 1, cucharada]
+          - [vino de Shaoxing, 1, cucharadita]
+          - [aceite de sésamo, 1, cucharadita]
+          - [jengibre fresco rallado, 1, cucharadita]
+          - [pimienta blanca, 0.25, cucharadita]
+          - [sal, 0.5, cucharadita]
+      - group: Sopa
+        items:
+          - [caldo de pollo, 1.5, l]
+          - [salsa de soja clara, 1, cucharada]
+          - [pak choi, 2, null]
+          - [cebolleta, 1, null]
+          - [aceite de sésamo, 1, cucharadita]
+    steps:
+      - Pica las gambas en trozos pequeños y mézclalas con la carne y el resto de los ingredientes del relleno.
+      - Pon una cucharadita de relleno en el centro de cada oblea, moja los bordes, dóblala en triángulo y une las dos puntas de abajo.
+      - Lleva el caldo a ebullición con la soja. Escalda el pak choi 1 minuto en el caldo y repártelo en cuencos.
+      - Cuece los wonton en agua hirviendo 3-4 minutos, hasta que floten y el relleno esté hecho.
+      - Pásalos a los cuencos, cubre con el caldo y termina con cebolleta y unas gotas de aceite de sésamo.
+
+  - name: Chow mein de pollo
+    category: Pastas
+    difficulty: EASY
+    prep: 15
+    cook: 10
+    servings: 4
+    origin: Cantón
+    tags: [fideos, salteado]
+    utensils: [Wok]
+    ingredients:
+      - items:
+          - [fideos de huevo finos, 250, g]
+          - [pechuga de pollo, 250, g]
+          - [brotes de soja, 150, g]
+          - [col china, 150, g]
+          - [zanahoria, 1, null]
+          - [cebolletas, 3, null]
+          - [ajo, 2, diente]
+          - [salsa de ostras, 2, cucharada]
+          - [salsa de soja clara, 1, cucharada]
+          - [salsa de soja oscura, 1, cucharadita]
+          - [aceite de sésamo, 1, cucharadita]
+          - [aceite de girasol, 3, cucharada]
+    steps:
+      - Cuece los fideos 1 minuto menos de lo que indique el paquete, escúrrelos y mézclalos con el aceite de sésamo.
+      - Corta el pollo en tiras, la col y la zanahoria en juliana y las cebolletas en trozos.
+      - Saltea el pollo en el wok con 1 cucharada de aceite 3 minutos y retíralo.
+      - Añade el resto del aceite y los fideos, extiéndelos y deja que se doren 2 minutos sin moverlos.
+      - Incorpora el ajo, las verduras, el pollo y las salsas y saltea a fuego fuerte 2 minutos más.
+
+  - name: Sopa de huevo
+    category: Sopas y cremas
+    difficulty: EASY
+    prep: 5
+    cook: 10
+    servings: 4
+    tags: [sopa, rápida]
+    ingredients:
+      - items:
+          - [caldo de pollo, 1, l]
+          - [huevos, 3, null]
+          - [maicena, 2, cucharada]
+          - [jengibre fresco, 1, cm]
+          - [sal, null, null]
+          - [pimienta blanca, null, null]
+          - [aceite de sésamo, 1, cucharadita]
+          - [cebolleta, 1, null]
+    steps:
+      - Calienta el caldo con el jengibre en rodajas 5 minutos y retíralo. Ajusta de sal y pimienta blanca.
+      - Añade la maicena disuelta en un poco de agua y remueve hasta que espese ligeramente.
+      - Con el caldo hirviendo suave, vierte los huevos batidos en un hilo fino mientras remueves en círculo para que formen hebras.
+      - Termina con el aceite de sésamo y la cebolleta picada.
+
+  - name: Hong shao rou
+    category: Carnes
+    difficulty: MEDIUM
+    prep: 15
+    cook: 90
+    servings: 4
+    origin: Hunan
+    notes: Panceta de cerdo estofada en rojo, uno de los platos más populares de China. El color viene del azúcar caramelizado.
+    tags: [estofado, cerdo]
+    ingredients:
+      - items:
+          - [panceta de cerdo con piel, 700, g]
+          - [azúcar, 2, cucharada]
+          - [vino de Shaoxing, 3, cucharada]
+          - [salsa de soja clara, 2, cucharada]
+          - [salsa de soja oscura, 1, cucharada]
+          - [jengibre fresco, 3, cm]
+          - [cebolletas, 2, null]
+          - [anís estrellado, 2, null]
+          - [canela en rama, 1, null]
+          - [agua caliente, 500, ml]
+          - [aceite de girasol, 1, cucharada]
+    steps:
+      - Corta la panceta en dados de 3 cm, escáldala 3 minutos en agua hirviendo y escúrrela.
+      - Calienta el aceite con el azúcar a fuego suave hasta que se haga un caramelo claro.
+      - Añade la panceta y remueve hasta que se cubra de caramelo. Agrega el jengibre en rodajas, las cebolletas, el anís y la canela.
+      - Incorpora el vino, las dos sojas y el agua caliente. Tapa y cuece a fuego muy suave 1 hora.
+      - Destapa y sube el fuego hasta que la salsa se reduzca y quede brillante y espesa, removiendo para que no se pegue.
+
+  - name: Tomate con huevo
+    category: Huevos
+    difficulty: EASY
+    prep: 5
+    cook: 8
+    servings: 2
+    notes: Es el plato casero por excelencia en China, con arroz blanco.
+    tags: [rápida, vegetariana]
+    ingredients:
+      - items:
+          - [tomates maduros, 3, null]
+          - [huevos, 4, null]
+          - [azúcar, 1, cucharadita]
+          - [sal, 0.5, cucharadita]
+          - [cebolleta, 1, null]
+          - [aceite de girasol, 3, cucharada]
+    steps:
+      - Bate los huevos con una pizca de sal. Corta los tomates en gajos.
+      - Cuaja los huevos en 2 cucharadas de aceite caliente, removiendo, hasta que estén casi hechos. Retíralos.
+      - Saltea los tomates en el resto del aceite 2-3 minutos, hasta que empiecen a deshacerse y suelten jugo. Añade el azúcar y la sal.
+      - Devuelve los huevos, mezcla con cuidado y sirve con la cebolleta picada.
+
+  - name: Dan dan mian
+    category: Pastas
+    difficulty: MEDIUM
+    prep: 15
+    cook: 15
+    servings: 4
+    origin: Sichuan
+    notes: La verdura en conserva sui mi ya cai le da su sabor característico; si no la encuentras, prescinde de ella.
+    tags: [fideos, picante]
+    ingredients:
+      - group: Salsa
+        items:
+          - [pasta de sésamo o tahini, 2, cucharada]
+          - [salsa de soja clara, 3, cucharada]
+          - [vinagre negro de Chinkiang, 1, cucharada]
+          - [aceite de chile, 3, cucharada]
+          - [azúcar, 1, cucharadita]
+          - [pimienta de Sichuan molida, 1, cucharadita]
+          - [ajo picado, 1, cucharadita]
+      - group: Carne
+        items:
+          - [carne picada de cerdo, 200, g]
+          - [vino de Shaoxing, 1, cucharada]
+          - [salsa de soja oscura, 1, cucharadita]
+          - [sui mi ya cai, 2, cucharada, optional]
+          - [aceite de girasol, 1, cucharada]
+      - group: Fideos
+        items:
+          - [fideos de trigo, 400, g]
+          - [pak choi, 2, null]
+          - [cacahuetes tostados picados, 2, cucharada]
+          - [cebolleta, 1, null]
+    steps:
+      - Mezcla los ingredientes de la salsa y repártela en cuatro cuencos.
+      - Saltea la carne en el aceite hasta que esté dorada y crujiente. Añade el vino, la soja oscura y el ya cai y saltea 1 minuto más.
+      - Cuece los fideos y, en el último minuto, el pak choi.
+      - Añade a cada cuenco 2 cucharadas del agua de cocción, los fideos y el pak choi. Cubre con la carne, los cacahuetes y la cebolleta y mezcla al comer.
+
+  - name: Tortitas de cebolleta
+    category: Panes y masas
+    difficulty: MEDIUM
+    prep: 45
+    cook: 15
+    servings: 4
+    tags: [pan, vegana]
+    ingredients:
+      - items:
+          - [harina de trigo, 300, g]
+          - [agua caliente, 180, ml]
+          - [cebolletas, 4, null]
+          - [aceite de girasol, 4, cucharada]
+          - [sal, 1, cucharadita]
+          - [pimienta de Sichuan molida, 0.5, cucharadita, optional]
+    steps:
+      - Mezcla la harina con el agua caliente y amasa hasta tener una masa lisa. Tápala y deja que repose 30 minutos.
+      - Divídela en 4 porciones. Estira cada una en un rectángulo fino, úntala con aceite y espolvorea sal, pimienta y cebolleta picada.
+      - Enróllala como un cilindro, enrolla el cilindro sobre sí mismo como un caracol y aplástalo con el rodillo hasta tener una tortita de 18 cm.
+      - Fríe las tortitas en una sartén con un poco de aceite a fuego medio 3 minutos por cada lado, hasta que estén doradas y hojaldradas.
+
+  - name: Pescado al vapor con jengibre y cebolleta
+    category: Pescados y mariscos
+    difficulty: EASY
+    prep: 10
+    cook: 12
+    servings: 2
+    origin: Cantón
+    tags: [pescado, al vapor, sin gluten]
+    utensils: [Vaporera]
+    ingredients:
+      - items:
+          - [lubina o dorada entera limpia, 1, null]
+          - [jengibre fresco, 4, cm]
+          - [cebolletas, 3, null]
+          - [salsa de soja clara, 3, cucharada]
+          - [azúcar, 1, cucharadita]
+          - [agua, 2, cucharada]
+          - [aceite de girasol, 3, cucharada]
+          - [cilantro fresco, 1, ramita, optional]
+    steps:
+      - Haz dos o tres cortes en cada lado del pescado y pon la mitad del jengibre en tiras dentro y debajo.
+      - Cuécelo al vapor a fuego fuerte 8-10 minutos, según el tamaño. Descarta el líquido que suelte.
+      - Calienta la soja con el azúcar y el agua y viértela alrededor del pescado.
+      - Pon por encima el resto del jengibre y la cebolleta en tiras finas, calienta el aceite hasta que humee y viértelo encima para que chisporrotee. Decora con cilantro.
+
+  - name: Pak choi con ajo
+    category: Verduras
+    difficulty: EASY
+    prep: 5
+    cook: 5
+    servings: 4
+    tags: [verdura, vegana, rápida]
+    utensils: [Wok]
+    ingredients:
+      - items:
+          - [pak choi, 500, g]
+          - [ajo, 4, diente]
+          - [salsa de ostras o de soja, 1, cucharada]
+          - [azúcar, 0.5, cucharadita]
+          - [aceite de girasol, 2, cucharada]
+          - [sal, null, null]
+    steps:
+      - Lava el pak choi y córtalo por la mitad a lo largo.
+      - Saltea el ajo picado en el aceite unos segundos, sin que se dore.
+      - Añade el pak choi y saltea a fuego fuerte 2 minutos. Agrega la salsa, el azúcar y un chorrito de agua y saltea 1 minuto más, hasta que esté tierno pero crujiente.
+
+  - name: Cerdo dos veces cocinado
+    category: Carnes
+    difficulty: MEDIUM
+    prep: 15
+    cook: 35
+    servings: 4
+    origin: Sichuan
+    notes: En chino, hui guo rou, «carne que vuelve a la olla». El puerro sustituye bien al ajo tierno chino.
+    tags: [picante, cerdo]
+    utensils: [Wok]
+    ingredients:
+      - items:
+          - [panceta de cerdo, 400, g]
+          - [jengibre fresco, 2, cm]
+          - [doubanjiang, 1.5, cucharada]
+          - [judías negras fermentadas (douchi), 1, cucharadita, optional]
+          - [puerro o ajos tiernos, 2, null]
+          - [pimiento verde, 1, null]
+          - [vino de Shaoxing, 1, cucharada]
+          - [salsa de soja oscura, 1, cucharadita]
+          - [azúcar, 1, cucharadita]
+          - [aceite de girasol, 1, cucharada]
+    steps:
+      - Cuece la panceta entera con el jengibre en agua 20-25 minutos. Deja que se enfríe y córtala en lonchas finas.
+      - Saltea las lonchas en el wok con el aceite a fuego medio hasta que suelten grasa y se curven.
+      - Aparta la carne, añade el doubanjiang y las judías negras y sofríe 30 segundos, hasta que el aceite se ponga rojo.
+      - Incorpora el puerro y el pimiento en trozos, el vino, la soja y el azúcar y saltea todo junto 2 minutos.
+
+  - name: Ensalada de pepino aplastado
+    category: Ensaladas
+    difficulty: EASY
+    prep: 15
+    cook: 0
+    servings: 4
+    notes: Al aplastar el pepino con el cuchillo, se rompe de forma irregular y absorbe mejor el aliño.
+    tags: [fría, vegana]
+    ingredients:
+      - items:
+          - [pepinos, 2, null]
+          - [sal, 1, cucharadita]
+          - [ajo, 2, diente]
+          - [vinagre negro de Chinkiang, 2, cucharada]
+          - [salsa de soja clara, 1, cucharada]
+          - [azúcar, 1, cucharadita]
+          - [aceite de sésamo, 1, cucharada]
+          - [aceite de chile, 1, cucharadita, optional]
+    steps:
+      - Aplasta los pepinos con la parte plana de un cuchillo grande y córtalos en trozos.
+      - Mézclalos con la sal y deja que suelten agua 10 minutos. Escúrrelos.
+      - Mezcla el ajo picado con el vinagre, la soja, el azúcar y los aceites, y aliña el pepino justo antes de servir.
+
+  - name: Rollitos de primavera
+    category: Entrantes
+    difficulty: MEDIUM
+    prep: 40
+    cook: 15
+    servings: 4
+    tags: [frito, año nuevo]
+    ingredients:
+      - items:
+          - [obleas para rollitos de primavera, 12, null]
+          - [carne picada de cerdo, 200, g]
+          - [col, 200, g]
+          - [zanahoria, 1, null]
+          - [setas shiitake, 4, null]
+          - [brotes de soja, 100, g]
+          - [salsa de soja clara, 1, cucharada]
+          - [salsa de ostras, 1, cucharada]
+          - [maicena, 1, cucharadita]
+          - [aceite de girasol para freír, null, null]
+    steps:
+      - Corta la col, la zanahoria y las setas en juliana fina.
+      - Saltea la carne en una cucharada de aceite, añade las verduras y saltea 3 minutos. Agrega las salsas y la maicena disuelta en un poco de agua. Deja que el relleno se enfríe.
+      - Pon dos cucharadas de relleno en una esquina de cada oblea, enróllala dos vueltas, dobla los laterales hacia dentro y termina de enrollar. Pega la punta con un poco de agua.
+      - Fríelos en aceite a 170 °C 4-5 minutos, hasta que estén dorados y crujientes.
+
+  - name: Char siu
+    category: Carnes
+    difficulty: MEDIUM
+    prep: 15
+    cook: 45
+    servings: 4
+    origin: Cantón
+    notes: Lo ideal es marinar la carne toda la noche. La salsa hoisin y la miel le dan el glaseado brillante.
+    tags: [asado, cerdo]
+    utensils: [Horno]
+    ingredients:
+      - items:
+          - [aguja o presa de cerdo, 800, g]
+          - [salsa hoisin, 3, cucharada]
+          - [salsa de soja clara, 2, cucharada]
+          - [salsa de soja oscura, 1, cucharada]
+          - [vino de Shaoxing, 2, cucharada]
+          - [miel, 3, cucharada]
+          - [azúcar, 2, cucharada]
+          - [cinco especias chinas, 0.5, cucharadita]
+          - [ajo, 3, diente]
+    steps:
+      - Corta la carne en tiras de unos 5 cm de grosor.
+      - Mezcla todos los ingredientes menos 1 cucharada de miel, cubre la carne con la marinada y déjala en la nevera al menos 4 horas.
+      - Coloca la carne sobre una rejilla con una bandeja con agua debajo y ásala a 200 °C 20 minutos.
+      - Dale la vuelta, píntala con la marinada y ásala 20 minutos más.
+      - Píntala con la miel restante y gratínala 3-5 minutos, hasta que se caramelice por los bordes. Deja que repose antes de cortarla en lonchas.
+
+  - name: Congee de pollo y jengibre
+    category: Arroces
+    difficulty: EASY
+    prep: 5
+    cook: 90
+    servings: 4
+    notes: Es el desayuno más habitual del sur de China. Cada uno lo completa a su gusto en la mesa.
+    tags: [arroz, desayuno, reconfortante]
+    ingredients:
+      - items:
+          - [arroz de grano largo, 150, g]
+          - [caldo de pollo, 2, l]
+          - [pechuga de pollo, 1, null]
+          - [jengibre fresco, 4, cm]
+          - [sal, null, null]
+          - [pimienta blanca, null, null]
+          - [cebolleta, 2, null]
+          - [salsa de soja, null, null]
+          - [aceite de sésamo, null, null]
+    steps:
+      - Lava el arroz y ponlo en una olla con el caldo, la pechuga entera y la mitad del jengibre en rodajas.
+      - Lleva a ebullición y cuece a fuego muy suave, semitapado. A los 20 minutos, saca el pollo, desmenúzalo y resérvalo.
+      - Sigue cociendo 1 hora y 10 minutos más, removiendo de vez en cuando, hasta que el arroz se deshaga y quede una crema.
+      - Ajusta de sal y pimienta blanca, añade el pollo y sirve con el resto del jengibre en tiras finas, cebolleta, unas gotas de soja y aceite de sésamo.
+
+  - name: Judías verdes salteadas en seco
+    category: Verduras
+    difficulty: EASY
+    prep: 10
+    cook: 15
+    servings: 4
+    origin: Sichuan
+    notes: En chino, gan bian si ji dou. Las judías se fríen hasta que la piel se arruga.
+    tags: [picante, salteado]
+    utensils: [Wok]
+    ingredients:
+      - items:
+          - [judías verdes finas, 400, g]
+          - [carne picada de cerdo, 100, g, optional]
+          - [chiles secos, 6, null]
+          - [pimienta de Sichuan, 1, cucharadita]
+          - [ajo, 3, diente]
+          - [jengibre fresco, 2, cm]
+          - [salsa de soja clara, 1, cucharada]
+          - [azúcar, 0.5, cucharadita]
+          - [aceite de girasol, 4, cucharada]
+          - [sal, null, null]
+    steps:
+      - Lava las judías, sécalas muy bien y quítales las puntas.
+      - Fríelas en el aceite a fuego medio-alto 6-8 minutos, moviéndolas, hasta que la piel se arrugue y tenga puntos dorados. Sácalas.
+      - En el aceite que queda, saltea la carne hasta que esté crujiente. Añade los chiles, la pimienta de Sichuan, el ajo y el jengibre picados y saltea 30 segundos.
+      - Devuelve las judías con la soja, el azúcar y la sal y saltea 1 minuto.

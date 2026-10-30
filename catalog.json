@@ -26,6 +26,18 @@
       "language": "en"
     },
     {
+      "id": "american-cooking",
+      "name": "World cuisine: United States",
+      "author": "Miga",
+      "authorGithub": "calamares00",
+      "description": "American home cooking, from the South to New England: mac and cheese, pulled pork, fried chicken, clam chowder, chili, cornbread, pancakes, meatloaf, jambalaya, gumbo, coleslaw, apple pie, chocolate chip cookies, New York cheesecake, cheesesteak, Cobb salad and key lime pie. With measurements in grams.",
+      "coverImageUrl": "packs/american-cooking/cover.jpg",
+      "latestVersion": 1,
+      "recipeCount": 20,
+      "downloadUrl": "dist/american-cooking-v1.zip",
+      "language": "en"
+    },
+    {
       "id": "cenas-en-20-minutos",
       "name": "Cenas en 20 minutos",
       "author": "Miga",
@@ -38,6 +50,18 @@
       "language": "es"
     },
     {
+      "id": "chinese-cooking",
+      "name": "World cuisine: China",
+      "author": "Miga",
+      "authorGithub": "calamares00",
+      "description": "Classics from Sichuan, Cantonese and northern Chinese cooking: kung pao chicken, mapo tofu, jiaozi, sweet and sour pork, hot and sour soup, wontons, chow mein, hong shao rou, dan dan noodles, char siu, steamed fish, spring rolls and congee. With the basic sauces and spices of the Chinese pantry.",
+      "coverImageUrl": "packs/chinese-cooking/cover.jpg",
+      "latestVersion": 1,
+      "recipeCount": 20,
+      "downloadUrl": "dist/chinese-cooking-v1.zip",
+      "language": "en"
+    },
+    {
       "id": "christmas-special",
       "name": "Christmas special",
       "author": "Miga",
@@ -48,6 +72,102 @@
       "recipeCount": 22,
       "downloadUrl": "dist/christmas-special-v1.zip",
       "language": "en"
+    },
+    {
+      "id": "cocina-alemana",
+      "name": "Cocina del mundo: Alemania",
+      "author": "Miga",
+      "authorGithub": "calamares00",
+      "description": "Los clásicos de la cocina alemana de norte a sur: schnitzel, rouladen, sauerbraten, ensalada de patata suaba, bratkartoffeln, kartoffelpuffer, käsespätzle, königsberger klopse, currywurst, frikadellen, potajes de lentejas y de guisantes, sopa de patata, flammkuchen, brezeln, maultaschen, obatzda y postres como el pastel de manzana, la tarta Selva Negra y la rote grütze.",
+      "coverImageUrl": "packs/cocina-alemana/cover.jpg",
+      "latestVersion": 1,
+      "recipeCount": 20,
+      "downloadUrl": "dist/cocina-alemana-v1.zip",
+      "language": "es"
+    },
+    {
+      "id": "cocina-china",
+      "name": "Cocina del mundo: China",
+      "author": "Miga",
+      "authorGithub": "calamares00",
+      "description": "Clásicos de las cocinas de Sichuan, Cantón y el norte de China: pollo kung pao, mapo tofu, jiaozi, cerdo agridulce, sopa agripicante, wonton, chow mein, hong shao rou, dan dan mian, char siu, pescado al vapor, rollitos de primavera y congee. Con las salsas y especias básicas de la despensa china.",
+      "coverImageUrl": "packs/cocina-china/cover.jpg",
+      "latestVersion": 1,
+      "recipeCount": 20,
+      "downloadUrl": "dist/cocina-china-v1.zip",
+      "language": "es"
+    },
+    {
+      "id": "cocina-espanola",
+      "name": "Cocina del mundo: España",
+      "author": "Miga",
+      "authorGithub": "calamares00",
+      "description": "Un recorrido por las cocinas regionales de España: cocido madrileño, fabada, lentejas, marmitako, bacalao al pil pil, pollo al ajillo, arroz negro, fideuá, arroz al horno, escalivada, patatas a la riojana, caldo gallego, papas arrugadas con mojo, ajoblanco, empanada gallega, migas, rabo de toro, torrijas, arroz con leche y tarta de Santiago. Sin repetir los platos de los packs de cocina mediterránea, tapas y Navidad.",
+      "coverImageUrl": "packs/cocina-espanola/cover.jpg",
+      "latestVersion": 1,
+      "recipeCount": 21,
+      "downloadUrl": "dist/cocina-espanola-v1.zip",
+      "language": "es"
+    },
+    {
+      "id": "cocina-estadounidense",
+      "name": "Cocina del mundo: Estados Unidos",
+      "author": "Miga",
+      "authorGithub": "calamares00",
+      "description": "La cocina casera de Estados Unidos, del sur a Nueva Inglaterra: macarrones con queso, cerdo desmenuzado, pollo frito, sopa de almejas, chili, pan de maíz, tortitas, pastel de carne, jambalaya, gumbo, ensalada de col, tarta de manzana, galletas con pepitas de chocolate, tarta de queso de Nueva York, cheesesteak, ensalada Cobb y tarta de lima. Con medidas en gramos.",
+      "coverImageUrl": "packs/cocina-estadounidense/cover.jpg",
+      "latestVersion": 1,
+      "recipeCount": 20,
+      "downloadUrl": "dist/cocina-estadounidense-v1.zip",
+      "language": "es"
+    },
+    {
+      "id": "cocina-griega",
+      "name": "Cocina del mundo: Grecia",
+      "author": "Miga",
+      "authorGithub": "calamares00",
+      "description": "La cocina griega más allá de la ensalada y el tzatziki: souvlaki, spanakopita, pastitsio, gemista, fasolada, avgolemono, dolmades, keftedes, briam, fava, kleftiko, stifado, queso saganaki, gambas con feta, gigantes, taramosalata, melitzanosalata, spanakorizo, loukoumades y baklava. Con aceite de oliva, limón, orégano y eneldo.",
+      "coverImageUrl": "packs/cocina-griega/cover.jpg",
+      "latestVersion": 1,
+      "recipeCount": 20,
+      "downloadUrl": "dist/cocina-griega-v1.zip",
+      "language": "es"
+    },
+    {
+      "id": "cocina-indonesia",
+      "name": "Cocina del mundo: Indonesia",
+      "author": "Miga",
+      "authorGithub": "calamares00",
+      "description": "Los platos de diario y de fiesta de Indonesia: nasi goreng, mie goreng, satay de pollo con salsa de cacahuete, gado-gado, rendang, soto ayam, opor ayam, bakso, sayur lodeh, sambal y postres como el pisang goreng, el martabak o los klepon. Con equivalencias para los ingredientes menos habituales.",
+      "coverImageUrl": "packs/cocina-indonesia/cover.jpg",
+      "latestVersion": 1,
+      "recipeCount": 20,
+      "downloadUrl": "dist/cocina-indonesia-v1.zip",
+      "language": "es"
+    },
+    {
+      "id": "cocina-italiana",
+      "name": "Cocina del mundo: Italia",
+      "author": "Miga",
+      "authorGithub": "calamares00",
+      "description": "Los grandes clásicos de las regiones de Italia: carbonara, amatriciana, cacio e pepe, lasaña, pasta alla Norma, espaguetis con almejas, risotto a la milanesa, ossobuco, saltimbocca, parmigiana, minestrone, pasta e fagioli, pizza margarita, focaccia, arancini, vitello tonnato, caponata, tiramisú y panna cotta. Hechos como en Italia, sin nata en la carbonara.",
+      "coverImageUrl": "packs/cocina-italiana/cover.jpg",
+      "latestVersion": 1,
+      "recipeCount": 20,
+      "downloadUrl": "dist/cocina-italiana-v1.zip",
+      "language": "es"
+    },
+    {
+      "id": "cocina-japonesa",
+      "name": "Cocina del mundo: Japón",
+      "author": "Miga",
+      "authorGithub": "calamares00",
+      "description": "La cocina casera de Japón: sopa de miso, pollo teriyaki, gyoza, ramen, tonkatsu, oyakodon, onigiri, tamagoyaki, okonomiyaki, yakitori, tempura, makis, karaage, nikujaga, yakisoba, gyudon, curry japonés y dorayaki. Con el dashi y las salsas de base explicados paso a paso.",
+      "coverImageUrl": "packs/cocina-japonesa/cover.jpg",
+      "latestVersion": 1,
+      "recipeCount": 20,
+      "downloadUrl": "dist/cocina-japonesa-v1.zip",
+      "language": "es"
     },
     {
       "id": "cocina-mediterranea",
@@ -63,14 +183,14 @@
     },
     {
       "id": "cocina-mexicana",
-      "name": "Cocina mexicana",
+      "name": "Cocina del mundo: México",
       "author": "Miga",
       "authorGithub": "calamares00",
       "description": "Clásicos de México para cocinar en casa: tacos al pastor, cochinita pibil, pozole, chilaquiles, enchiladas, salsas, guacamole, aguas frescas y flan. Con ingredientes fáciles de encontrar y alternativas cuando hace falta.",
       "coverImageUrl": "packs/cocina-mexicana/cover.jpg",
-      "latestVersion": 1,
+      "latestVersion": 2,
       "recipeCount": 20,
-      "downloadUrl": "dist/cocina-mexicana-v1.zip",
+      "downloadUrl": "dist/cocina-mexicana-v2.zip",
       "language": "es"
     },
     {
@@ -98,6 +218,66 @@
       "language": "es"
     },
     {
+      "id": "german-cooking",
+      "name": "World cuisine: Germany",
+      "author": "Miga",
+      "authorGithub": "calamares00",
+      "description": "German classics from north to south: schnitzel, rouladen, sauerbraten, Swabian potato salad, Bratkartoffeln, Kartoffelpuffer, Käsespätzle, Königsberger Klopse, currywurst, Frikadellen, lentil and split pea stews, potato soup, Flammkuchen, pretzels, Maultaschen, Obatzda and sweets such as apple cake, Black Forest gateau and rote Grütze.",
+      "coverImageUrl": "packs/german-cooking/cover.jpg",
+      "latestVersion": 1,
+      "recipeCount": 20,
+      "downloadUrl": "dist/german-cooking-v1.zip",
+      "language": "en"
+    },
+    {
+      "id": "greek-cooking",
+      "name": "World cuisine: Greece",
+      "author": "Miga",
+      "authorGithub": "calamares00",
+      "description": "Greek cooking beyond the salad and tzatziki: souvlaki, spanakopita, pastitsio, gemista, fasolada, avgolemono, dolmades, keftedes, briam, fava, kleftiko, stifado, saganaki cheese, prawns with feta, gigantes, taramasalata, melitzanosalata, spanakorizo, loukoumades and baklava. With olive oil, lemon, oregano and dill.",
+      "coverImageUrl": "packs/greek-cooking/cover.jpg",
+      "latestVersion": 1,
+      "recipeCount": 20,
+      "downloadUrl": "dist/greek-cooking-v1.zip",
+      "language": "en"
+    },
+    {
+      "id": "indonesian-cooking",
+      "name": "World cuisine: Indonesia",
+      "author": "Miga",
+      "authorGithub": "calamares00",
+      "description": "Everyday and festive dishes from Indonesia: nasi goreng, mie goreng, chicken satay with peanut sauce, gado-gado, rendang, soto ayam, opor ayam, bakso, sayur lodeh, sambal and sweets such as pisang goreng, martabak and klepon. With substitutes for the less common ingredients.",
+      "coverImageUrl": "packs/indonesian-cooking/cover.jpg",
+      "latestVersion": 1,
+      "recipeCount": 20,
+      "downloadUrl": "dist/indonesian-cooking-v1.zip",
+      "language": "en"
+    },
+    {
+      "id": "italian-cooking",
+      "name": "World cuisine: Italy",
+      "author": "Miga",
+      "authorGithub": "calamares00",
+      "description": "The great classics of Italy's regions: carbonara, amatriciana, cacio e pepe, lasagne, pasta alla Norma, spaghetti with clams, risotto alla milanese, ossobuco, saltimbocca, parmigiana, minestrone, pasta e fagioli, pizza margherita, focaccia, arancini, vitello tonnato, caponata, tiramisu and panna cotta. Made the Italian way, with no cream in the carbonara.",
+      "coverImageUrl": "packs/italian-cooking/cover.jpg",
+      "latestVersion": 1,
+      "recipeCount": 20,
+      "downloadUrl": "dist/italian-cooking-v1.zip",
+      "language": "en"
+    },
+    {
+      "id": "japanese-cooking",
+      "name": "World cuisine: Japan",
+      "author": "Miga",
+      "authorGithub": "calamares00",
+      "description": "Japanese home cooking: miso soup, chicken teriyaki, gyoza, ramen, tonkatsu, oyakodon, onigiri, tamagoyaki, okonomiyaki, yakitori, tempura, maki rolls, karaage, nikujaga, yakisoba, gyudon, Japanese curry and dorayaki. With dashi and the basic sauces explained step by step.",
+      "coverImageUrl": "packs/japanese-cooking/cover.jpg",
+      "latestVersion": 1,
+      "recipeCount": 20,
+      "downloadUrl": "dist/japanese-cooking-v1.zip",
+      "language": "en"
+    },
+    {
       "id": "mediterranean-cooking",
       "name": "Mediterranean cooking",
       "author": "Miga",
@@ -111,14 +291,26 @@
     },
     {
       "id": "mexican-cooking",
-      "name": "Mexican cooking",
+      "name": "World cuisine: Mexico",
       "author": "Miga",
       "authorGithub": "calamares00",
       "description": "Mexican classics to cook at home: tacos al pastor, cochinita pibil, pozole, chilaquiles, enchiladas, salsas, guacamole, aguas frescas and flan. With easy-to-find ingredients and alternatives where needed.",
       "coverImageUrl": "packs/mexican-cooking/cover.jpg",
-      "latestVersion": 1,
+      "latestVersion": 2,
       "recipeCount": 20,
-      "downloadUrl": "dist/mexican-cooking-v1.zip",
+      "downloadUrl": "dist/mexican-cooking-v2.zip",
+      "language": "en"
+    },
+    {
+      "id": "spanish-cooking",
+      "name": "World cuisine: Spain",
+      "author": "Miga",
+      "authorGithub": "calamares00",
+      "description": "A tour of Spain's regional cooking: cocido madrileño, fabada, lentil stew, marmitako, bacalao al pil pil, garlic chicken, black rice, fideuà, oven-baked rice, escalivada, Rioja-style potatoes, Galician broth, papas arrugadas with mojo, ajoblanco, Galician empanada, migas, oxtail stew, torrijas, rice pudding and Santiago almond cake. Without repeating the dishes in the Mediterranean, tapas and Christmas packs.",
+      "coverImageUrl": "packs/spanish-cooking/cover.jpg",
+      "latestVersion": 1,
+      "recipeCount": 21,
+      "downloadUrl": "dist/spanish-cooking-v1.zip",
       "language": "en"
     },
     {

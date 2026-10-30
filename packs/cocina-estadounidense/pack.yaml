@@ -1,0 +1,617 @@
+id: cocina-estadounidense
+version: 1
+updated: 2026-10-31
+language: es
+name: "Cocina del mundo: Estados Unidos"
+description: >-
+  La cocina casera de Estados Unidos, del sur a Nueva Inglaterra: macarrones con queso, cerdo
+  desmenuzado, pollo frito, sopa de almejas, chili, pan de maíz, tortitas, pastel de carne,
+  jambalaya, gumbo, ensalada de col, tarta de manzana, galletas con pepitas de chocolate, tarta de
+  queso de Nueva York, cheesesteak, ensalada Cobb y tarta de lima. Con medidas en gramos.
+author: Miga
+authorGithub: calamares00
+cover:
+  emoji: "🌭"
+  kicker: Cocina del mundo
+  title: Estados Unidos
+  colors: ["#1d4ed8", "#b91c1c"]
+defaults:
+  origin: Estados Unidos
+  originCountry: US
+  source: "Pack «Cocina del mundo: Estados Unidos» de Miga"
+recipes:
+
+  - name: Macarrones con queso
+    category: Pastas
+    difficulty: EASY
+    prep: 15
+    cook: 30
+    servings: 4
+    notes: En inglés, mac and cheese. El queso se añade fuera del fuego para que la salsa no se corte.
+    tags: [pasta, al horno, niños]
+    utensils: [Horno]
+    ingredients:
+      - items:
+          - [macarrones, 300, g]
+          - [mantequilla, 40, g]
+          - [harina, 30, g]
+          - [leche entera, 700, ml]
+          - [queso cheddar rallado, 250, g]
+          - [mostaza en polvo, 0.5, cucharadita]
+          - [pimentón dulce, 0.5, cucharadita]
+          - [pan rallado, 30, g]
+          - [sal, null, null]
+    steps:
+      - Precalienta el horno a 190 °C. Cuece la pasta 2 minutos menos de lo indicado y escúrrela.
+      - Derrite la mantequilla, añade la harina y cocina 1 minuto. Incorpora la leche poco a poco, removiendo, y cuece hasta que espese.
+      - Fuera del fuego, añade la mostaza, el pimentón, la sal y 200 g de cheddar y remueve hasta que se funda.
+      - Mezcla con la pasta, pásala a una fuente y cubre con el resto del queso y el pan rallado.
+      - Hornea 20 minutos, hasta que esté dorado y burbujeante.
+
+  - name: Cerdo desmenuzado
+    category: Carnes
+    difficulty: EASY
+    prep: 20
+    cook: 360
+    servings: 8
+    origin: Sur de Estados Unidos
+    notes: En inglés, pulled pork. Tradicionalmente se ahúma; esta versión al horno es la más habitual en casa. En olla lenta, 8 horas a baja potencia.
+    tags: [barbacoa, cerdo]
+    utensils: [Horno]
+    ingredients:
+      - group: Carne
+        items:
+          - [paletilla o aguja de cerdo deshuesada, 2, kg]
+          - [vinagre de manzana, 100, ml]
+          - [caldo de pollo, 200, ml]
+      - group: Adobo seco
+        items:
+          - [azúcar moreno, 2, cucharada]
+          - [pimentón ahumado, 2, cucharada]
+          - [ajo en polvo, 1, cucharadita]
+          - [cebolla en polvo, 1, cucharadita]
+          - [comino molido, 1, cucharadita]
+          - [sal, 1, cucharada]
+          - [pimienta negra, 1, cucharadita]
+      - group: Para servir
+        items:
+          - [salsa barbacoa, 200, ml]
+          - [panecillos de hamburguesa, 8, null]
+          - [ensalada de col, null, null, optional]
+    steps:
+      - Mezcla el adobo, frota la carne por todas partes y, si puedes, déjala en la nevera toda la noche.
+      - Precalienta el horno a 150 °C. Pon la carne en una cazuela con el vinagre y el caldo, tapa y hornea 5-6 horas, hasta que se deshaga con un tenedor.
+      - Desmenuza la carne con dos tenedores, quitando la grasa, y mézclala con parte del jugo y la salsa barbacoa.
+      - Sírvela en los panecillos con ensalada de col.
+
+  - name: Pollo frito al estilo del sur
+    category: Carnes
+    difficulty: MEDIUM
+    prep: 20
+    cook: 30
+    servings: 4
+    origin: Sur de Estados Unidos
+    notes: El suero de mantequilla (buttermilk) ablanda la carne. Puedes sustituirlo por leche con una cucharada de zumo de limón. Marina al menos 4 horas.
+    tags: [frito, pollo]
+    ingredients:
+      - group: Marinada
+        items:
+          - [pollo troceado, 1.2, kg]
+          - [buttermilk, 500, ml]
+          - [salsa picante, 1, cucharada]
+          - [sal, 2, cucharadita]
+      - group: Rebozado
+        items:
+          - [harina, 300, g]
+          - [levadura química, 1, cucharadita]
+          - [pimentón dulce, 2, cucharadita]
+          - [ajo en polvo, 1, cucharadita]
+          - [cebolla en polvo, 1, cucharadita]
+          - [cayena molida, 0.5, cucharadita]
+          - [pimienta negra, 1, cucharadita]
+          - [sal, 2, cucharadita]
+          - [aceite de girasol para freír, null, null]
+    steps:
+      - Marina el pollo en el buttermilk con la salsa picante y la sal al menos 4 horas en la nevera.
+      - Mezcla los ingredientes del rebozado. Añade 3 cucharadas de la marinada y frota con los dedos para formar grumitos.
+      - Escurre cada trozo de pollo, rebózalo apretando bien y deja que repose 10 minutos.
+      - Fríe en tandas en aceite a 165 °C 12-15 minutos, dándole la vuelta, hasta que esté dorado y el interior llegue a 75 °C.
+      - Escúrrelo sobre una rejilla.
+
+  - name: Sopa de almejas de Nueva Inglaterra
+    category: Sopas y cremas
+    difficulty: MEDIUM
+    prep: 20
+    cook: 35
+    servings: 4
+    origin: Nueva Inglaterra
+    notes: En inglés, clam chowder. Se acompaña con galletas saladas.
+    tags: [sopa, marisco]
+    ingredients:
+      - items:
+          - [almejas, 1.5, kg]
+          - [agua, 250, ml]
+          - [panceta ahumada, 100, g]
+          - [cebolla, 1, null]
+          - [apio, 2, rama]
+          - [patatas, 500, g]
+          - [mantequilla, 30, g]
+          - [harina, 30, g]
+          - [leche entera, 500, ml]
+          - [nata para cocinar, 200, ml]
+          - [tomillo seco, 0.5, cucharadita]
+          - [laurel, 1, hoja]
+          - [sal, null, null]
+          - [pimienta negra, null, null]
+    steps:
+      - Pon las almejas con el agua en una olla tapada a fuego fuerte hasta que se abran. Saca la carne, pícala y cuela el caldo.
+      - Dora la panceta en dados en la mantequilla. Añade la cebolla y el apio picados y pocha 8 minutos.
+      - Espolvorea la harina, remueve 1 minuto y añade el caldo de las almejas, las patatas en dados, el tomillo y el laurel. Cuece 15 minutos.
+      - Añade la leche y la nata y calienta sin que hierva 5 minutos. Incorpora las almejas, salpimienta y sirve.
+
+  - name: Chili con carne
+    category: Carnes
+    difficulty: EASY
+    prep: 15
+    cook: 120
+    servings: 6
+    origin: Texas
+    notes: El chile en polvo estadounidense es una mezcla de chiles secos con comino y orégano. Está mejor al día siguiente.
+    tags: [guiso, picante]
+    ingredients:
+      - items:
+          - [carne picada de ternera, 750, g]
+          - [cebollas, 2, null]
+          - [ajo, 4, diente]
+          - [pimiento rojo, 1, null]
+          - [chile en polvo, 2, cucharada]
+          - [comino molido, 2, cucharadita]
+          - [orégano seco, 1, cucharadita]
+          - [pimentón ahumado, 1, cucharadita]
+          - [tomate triturado, 800, g]
+          - [concentrado de tomate, 2, cucharada]
+          - [alubias rojas cocidas, 400, g]
+          - [caldo de carne, 250, ml]
+          - [chocolate negro, 15, g, optional]
+          - [aceite de girasol, 2, cucharada]
+          - [sal, null, null]
+    steps:
+      - Dora la carne en el aceite a fuego fuerte, en tandas, y retírala.
+      - Pocha la cebolla, el ajo y el pimiento picados 8 minutos. Añade las especias y sofríe 1 minuto.
+      - Devuelve la carne, añade el tomate, el concentrado y el caldo y cuece a fuego suave, tapado a medias, 1 hora y media.
+      - Añade las alubias y el chocolate y cuece 20 minutos más. Ajusta de sal y sirve con queso rallado, cebolla o nata agria.
+
+  - name: Pan de maíz
+    category: Panes y masas
+    difficulty: EASY
+    prep: 10
+    cook: 25
+    servings: 8
+    origin: Sur de Estados Unidos
+    notes: En inglés, cornbread. Si lo horneas en una sartén de hierro precalentada, los bordes quedan crujientes.
+    tags: [pan, al horno]
+    utensils: [Horno]
+    ingredients:
+      - items:
+          - [harina de maíz, 150, g]
+          - [harina de trigo, 125, g]
+          - [azúcar, 50, g]
+          - [levadura química, 1, cucharada]
+          - [sal, 1, cucharadita]
+          - [huevos, 2, null]
+          - [buttermilk, 250, ml]
+          - [mantequilla derretida, 80, g]
+    steps:
+      - Precalienta el horno a 200 °C con la sartén de hierro o un molde de 20 cm dentro.
+      - Mezcla las harinas, el azúcar, la levadura y la sal.
+      - Bate los huevos con el buttermilk y casi toda la mantequilla y mézclalo con los secos sin batir demasiado.
+      - Pinta el molde caliente con el resto de la mantequilla, vierte la masa y hornea 20-25 minutos, hasta que esté dorado.
+
+  - name: Tortitas americanas
+    category: Panes y masas
+    difficulty: EASY
+    prep: 10
+    cook: 15
+    servings: 4
+    notes: En inglés, pancakes. Unos grumos en la masa son normales; si la bates de más, salen duras.
+    tags: [desayuno, dulce]
+    ingredients:
+      - items:
+          - [harina, 200, g]
+          - [azúcar, 2, cucharada]
+          - [levadura química, 2, cucharadita]
+          - [bicarbonato, 0.5, cucharadita]
+          - [sal, 1, pizca]
+          - [buttermilk, 350, ml]
+          - [huevo, 1, null]
+          - [mantequilla derretida, 40, g]
+          - [sirope de arce, null, null]
+    steps:
+      - Mezcla la harina, el azúcar, la levadura, el bicarbonato y la sal.
+      - Bate el buttermilk con el huevo y la mantequilla y mézclalo con los secos, solo hasta que se integren.
+      - Calienta una sartén antiadherente a fuego medio y vierte un cucharón pequeño de masa por tortita.
+      - Cuando salgan burbujas en la superficie, dales la vuelta y cocina 1 minuto más.
+      - Sírvelas apiladas con mantequilla y sirope de arce.
+
+  - name: Pastel de carne
+    category: Carnes
+    difficulty: EASY
+    prep: 20
+    cook: 60
+    servings: 6
+    notes: En inglés, meatloaf. Deja que repose 10 minutos antes de cortarlo para que no se desmorone.
+    tags: [al horno, casero]
+    utensils: [Horno]
+    ingredients:
+      - group: Pastel
+        items:
+          - [carne picada mixta, 900, g]
+          - [cebolla, 1, null]
+          - [ajo, 2, diente]
+          - [pan rallado, 60, g]
+          - [leche, 120, ml]
+          - [huevos, 2, null]
+          - [salsa Worcestershire, 1, cucharada]
+          - [ketchup, 2, cucharada]
+          - [perejil picado, 2, cucharada]
+          - [sal, 1.5, cucharadita]
+          - [pimienta negra, 0.5, cucharadita]
+      - group: Glaseado
+        items:
+          - [ketchup, 120, g]
+          - [azúcar moreno, 2, cucharada]
+          - [vinagre de manzana, 1, cucharada]
+    steps:
+      - Precalienta el horno a 180 °C. Remoja el pan rallado en la leche.
+      - Mezcla la carne con la cebolla y el ajo muy picados, el pan, los huevos, la salsa Worcestershire, el ketchup, el perejil, la sal y la pimienta, sin amasar demasiado.
+      - Dale forma de pan alargado sobre una bandeja con papel de horno.
+      - Mezcla los ingredientes del glaseado y pinta el pastel con la mitad.
+      - Hornea 45 minutos, pinta con el resto del glaseado y hornea 15 minutos más.
+
+  - name: Jambalaya
+    category: Arroces
+    difficulty: MEDIUM
+    prep: 20
+    cook: 40
+    servings: 6
+    origin: Luisiana
+    notes: La base de cebolla, pimiento verde y apio se llama «la santísima trinidad» de la cocina criolla. La salchicha andouille se puede sustituir por otra ahumada.
+    tags: [arroz, picante]
+    ingredients:
+      - items:
+          - [salchicha andouille, 300, g]
+          - [contramuslos de pollo deshuesados, 400, g]
+          - [gambas peladas, 300, g]
+          - [cebolla, 1, null]
+          - [pimiento verde, 1, null]
+          - [apio, 2, rama]
+          - [ajo, 3, diente]
+          - [tomate triturado, 400, g]
+          - [arroz de grano largo, 300, g]
+          - [caldo de pollo, 750, ml]
+          - [condimento cajún, 2, cucharadita]
+          - [tomillo seco, 1, cucharadita]
+          - [laurel, 2, hoja]
+          - [cebolletas, 2, null]
+          - [aceite de girasol, 2, cucharada]
+    steps:
+      - Dora la salchicha en rodajas y el pollo en trozos en el aceite. Retíralos.
+      - Pocha la cebolla, el pimiento, el apio y el ajo picados 8 minutos.
+      - Añade el cajún, el tomillo, el laurel, el tomate y el arroz y remueve 2 minutos.
+      - Devuelve la carne, añade el caldo, tapa y cuece a fuego suave 20 minutos, sin remover.
+      - Coloca las gambas encima, tapa y cuece 5 minutos más. Sirve con cebolleta picada.
+
+  - name: Gumbo de pollo y salchicha
+    category: Sopas y cremas
+    difficulty: HARD
+    prep: 30
+    cook: 120
+    servings: 6
+    origin: Luisiana
+    notes: El roux oscuro, del color del chocolate, es lo que da sabor y cuerpo al gumbo. Hay que removerlo sin parar y no dejar que se queme.
+    tags: [guiso, picante]
+    ingredients:
+      - items:
+          - [aceite de girasol, 80, ml]
+          - [harina, 80, g]
+          - [cebolla, 1, null]
+          - [pimiento verde, 1, null]
+          - [apio, 2, rama]
+          - [ajo, 4, diente]
+          - [salchicha andouille, 300, g]
+          - [contramuslos de pollo, 600, g]
+          - [caldo de pollo, 1.5, l]
+          - [condimento cajún, 2, cucharadita]
+          - [laurel, 2, hoja]
+          - [tomillo seco, 1, cucharadita]
+          - [quingombó (okra), 200, g, optional]
+          - [cebolletas, 2, null]
+          - [arroz blanco cocido, 600, g]
+    steps:
+      - Haz el roux calentando el aceite con la harina a fuego medio-bajo y removiendo sin parar 30-40 minutos, hasta que tenga color chocolate.
+      - Añade la cebolla, el pimiento, el apio y el ajo picados y cocina 5 minutos.
+      - Incorpora el caldo poco a poco, removiendo, y añade el pollo, la salchicha en rodajas, el cajún, el laurel y el tomillo.
+      - Cuece a fuego suave 1 hora. Saca el pollo, desmenúzalo y devuélvelo a la olla con el quingombó en rodajas. Cuece 20 minutos más.
+      - Sirve en cuencos sobre arroz blanco con cebolleta picada.
+
+  - name: Ensalada de col
+    category: Ensaladas
+    difficulty: EASY
+    prep: 15
+    cook: 0
+    servings: 6
+    notes: En inglés, coleslaw. Acompañamiento típico de la barbacoa y el pollo frito.
+    tags: [guarnición, vegetariana]
+    ingredients:
+      - group: Ensalada
+        items:
+          - [col blanca, 0.5, null]
+          - [col lombarda, 0.25, null]
+          - [zanahorias, 2, null]
+      - group: Aliño
+        items:
+          - [mayonesa, 150, g]
+          - [vinagre de manzana, 2, cucharada]
+          - [azúcar, 1, cucharada]
+          - [mostaza, 1, cucharadita]
+          - [sal, 0.5, cucharadita]
+          - [pimienta negra, null, null]
+    steps:
+      - Corta las coles en juliana muy fina y ralla las zanahorias.
+      - Mezcla los ingredientes del aliño.
+      - Mézclalo todo y refrigera al menos 30 minutos antes de servir.
+
+  - name: Tarta de manzana
+    category: Postres
+    difficulty: MEDIUM
+    prep: 60
+    cook: 60
+    servings: 8
+    notes: En inglés, apple pie. La mantequilla de la masa debe estar muy fría para que quede hojaldrada. Deja que la tarta se enfríe 2 horas antes de cortarla.
+    tags: [postre, al horno]
+    utensils: [Horno]
+    ingredients:
+      - group: Masa
+        items:
+          - [harina, 375, g]
+          - [mantequilla muy fría en dados, 250, g]
+          - [azúcar, 1, cucharada]
+          - [sal, 1, cucharadita]
+          - [agua helada, 120, ml]
+      - group: Relleno
+        items:
+          - [manzanas Granny Smith o Golden, 1.2, kg]
+          - [azúcar, 120, g]
+          - [canela molida, 1, cucharadita]
+          - [nuez moscada, 1, pizca]
+          - [zumo de limón, 1, cucharada]
+          - [maicena, 3, cucharada]
+          - [mantequilla, 20, g]
+          - [huevo para pintar, 1, null]
+    steps:
+      - Mezcla la harina, el azúcar y la sal. Añade la mantequilla y desmenúzala con los dedos hasta que queden trozos del tamaño de un guisante.
+      - Añade el agua poco a poco hasta que la masa se una. Divídela en dos discos, envuélvelos y refrigéralos 1 hora.
+      - Pela las manzanas, córtalas en láminas y mézclalas con el azúcar, la canela, la nuez moscada, el limón y la maicena.
+      - Precalienta el horno a 200 °C. Estira un disco y forra un molde de 23 cm. Rellena, reparte la mantequilla en trocitos y cubre con el otro disco. Sella los bordes y haz unos cortes.
+      - Pinta con huevo y hornea 20 minutos. Baja a 180 °C y hornea 40 minutos más, hasta que esté dorada y el jugo burbujee.
+
+  - name: Galletas con pepitas de chocolate
+    category: Postres
+    difficulty: EASY
+    prep: 15
+    cook: 12
+    servings: 20
+    notes: En inglés, chocolate chip cookies. Sácalas del horno cuando el centro aún parezca blando; se endurecen al enfriarse.
+    tags: [postre, chocolate]
+    utensils: [Horno]
+    ingredients:
+      - items:
+          - [mantequilla blanda, 115, g]
+          - [azúcar moreno, 100, g]
+          - [azúcar blanco, 50, g]
+          - [huevo, 1, null]
+          - [extracto de vainilla, 1, cucharadita]
+          - [harina, 190, g]
+          - [bicarbonato, 0.5, cucharadita]
+          - [sal, 0.5, cucharadita]
+          - [pepitas de chocolate, 170, g]
+    steps:
+      - Precalienta el horno a 180 °C.
+      - Bate la mantequilla con los dos azúcares hasta que esté cremosa. Añade el huevo y la vainilla.
+      - Incorpora la harina, el bicarbonato y la sal, y después las pepitas de chocolate.
+      - Forma bolas de una cucharada y colócalas separadas en bandejas con papel de horno.
+      - Hornea 10-12 minutos, hasta que los bordes estén dorados. Deja que se enfríen 5 minutos en la bandeja.
+
+  - name: Tarta de queso de Nueva York
+    category: Postres
+    difficulty: MEDIUM
+    prep: 20
+    cook: 60
+    servings: 10
+    origin: Nueva York
+    notes: Se enfría dentro del horno apagado y después al menos 6 horas en la nevera, así no se agrieta.
+    tags: [postre, al horno]
+    utensils: [Horno]
+    ingredients:
+      - group: Base
+        items:
+          - [galletas tipo digestive, 200, g]
+          - [mantequilla derretida, 80, g]
+      - group: Relleno
+        items:
+          - [queso crema a temperatura ambiente, 900, g]
+          - [azúcar, 200, g]
+          - [harina, 3, cucharada]
+          - [extracto de vainilla, 1, cucharadita]
+          - [ralladura de limón, 1, cucharadita]
+          - [huevos, 4, null]
+          - [nata agria, 200, g]
+    steps:
+      - Precalienta el horno a 175 °C. Tritura las galletas, mézclalas con la mantequilla y presiónalas en el fondo de un molde desmontable de 23 cm. Hornea 10 minutos.
+      - Baja el horno a 160 °C. Bate el queso con el azúcar y la harina a velocidad baja, sin meter aire. Añade la vainilla, la ralladura y los huevos de uno en uno, y por último la nata agria.
+      - Vierte sobre la base y hornea 60 minutos, hasta que los bordes estén firmes y el centro aún tiemble.
+      - Apaga el horno y deja la tarta dentro, con la puerta entreabierta, 1 hora. Refrigérala al menos 6 horas.
+
+  - name: Philly cheesesteak
+    category: Carnes
+    difficulty: EASY
+    prep: 15
+    cook: 15
+    servings: 4
+    origin: Filadelfia
+    notes: Congela la carne 30 minutos para poder cortarla en lonchas finísimas.
+    tags: [bocadillo, ternera]
+    ingredients:
+      - items:
+          - [lomo bajo o entrecot de ternera, 500, g]
+          - [cebollas, 2, null]
+          - [pimiento verde, 1, null, optional]
+          - [queso provolone, 8, loncha]
+          - [panes alargados tipo hoagie, 4, null]
+          - [aceite de girasol, 2, cucharada]
+          - [sal, null, null]
+          - [pimienta negra, null, null]
+    steps:
+      - Corta la carne en lonchas finísimas y la cebolla y el pimiento en tiras.
+      - Pocha la cebolla y el pimiento en la mitad del aceite 10 minutos, hasta que estén dorados. Apártalos.
+      - Saltea la carne en el resto del aceite a fuego muy fuerte 2 minutos, picándola con la espátula. Salpimienta y mézclala con la cebolla.
+      - Divide en cuatro montones, cubre cada uno con 2 lonchas de provolone y deja que se funda.
+      - Abre los panes, colócalos encima del queso y dales la vuelta con la espátula para rellenarlos.
+
+  - name: Ensalada Cobb
+    category: Ensaladas
+    difficulty: EASY
+    prep: 20
+    cook: 15
+    servings: 4
+    origin: Los Ángeles
+    notes: Los ingredientes se colocan en hileras sobre la lechuga y se mezclan en la mesa.
+    tags: [ensalada]
+    ingredients:
+      - group: Ensalada
+        items:
+          - [lechuga romana, 1, null]
+          - [pechugas de pollo, 2, null]
+          - [bacon, 6, loncha]
+          - [huevos duros, 3, null]
+          - [aguacate, 1, null]
+          - [tomates, 2, null]
+          - [queso azul, 80, g]
+          - [cebollino picado, 2, cucharada]
+      - group: Vinagreta
+        items:
+          - [aceite de oliva, 6, cucharada]
+          - [vinagre de vino tinto, 2, cucharada]
+          - [mostaza de Dijon, 1, cucharadita]
+          - [salsa Worcestershire, 0.5, cucharadita]
+          - [sal, null, null]
+          - [pimienta negra, null, null]
+    steps:
+      - Haz el pollo a la plancha y córtalo en dados. Fríe el bacon hasta que esté crujiente y trocéalo.
+      - Corta los huevos, el aguacate y los tomates en dados y desmenuza el queso.
+      - Pica la lechuga y repártela en una fuente. Coloca encima cada ingrediente en una hilera.
+      - Mezcla los ingredientes de la vinagreta, riega la ensalada y espolvorea el cebollino.
+
+  - name: Huevos rellenos a la diabla
+    category: Huevos
+    difficulty: EASY
+    prep: 15
+    cook: 12
+    servings: 6
+    notes: En inglés, deviled eggs. Imprescindibles en las comidas familiares y los picnics.
+    tags: [aperitivo, sin gluten]
+    ingredients:
+      - items:
+          - [huevos, 6, null]
+          - [mayonesa, 3, cucharada]
+          - [mostaza, 1, cucharadita]
+          - [vinagre de manzana, 1, cucharadita]
+          - [sal, null, null]
+          - [pimentón, null, null]
+          - [cebollino picado, 1, cucharada]
+    steps:
+      - Cuece los huevos 10-11 minutos, enfríalos en agua con hielo y pélalos.
+      - Pártelos por la mitad a lo largo y saca las yemas.
+      - Aplasta las yemas con la mayonesa, la mostaza, el vinagre y la sal hasta tener una crema lisa.
+      - Rellena las claras con una manga o una cucharilla y espolvorea pimentón y cebollino.
+
+  - name: Alubias al horno de Boston
+    category: Legumbres
+    difficulty: EASY
+    prep: 15
+    cook: 300
+    servings: 8
+    origin: Boston
+    notes: Las alubias se remojan la víspera. La melaza es lo que les da su color y su sabor dulce.
+    tags: [cuchara, al horno]
+    utensils: [Horno]
+    ingredients:
+      - items:
+          - [alubias blancas pequeñas, 450, g]
+          - [bacon o panceta, 150, g]
+          - [cebolla, 1, null]
+          - [melaza, 80, ml]
+          - [azúcar moreno, 2, cucharada]
+          - [mostaza en polvo, 1, cucharadita]
+          - [sal, 1, cucharadita]
+          - [pimienta negra, 0.5, cucharadita]
+    steps:
+      - Cuece las alubias escurridas en agua 1 hora, hasta que la piel se abra al soplarles. Escúrrelas y reserva el agua.
+      - Precalienta el horno a 150 °C. Pon en una cazuela la mitad del bacon, la cebolla entera y las alubias, y cubre con el resto del bacon.
+      - Mezcla la melaza, el azúcar, la mostaza, la sal y la pimienta con 500 ml del agua de cocción caliente y viértelo sobre las alubias.
+      - Tapa y hornea 4 horas, añadiendo agua si se secan. Destapa la última hora para que se doren.
+
+  - name: Bizcocho de plátano
+    category: Postres
+    difficulty: EASY
+    prep: 15
+    cook: 60
+    servings: 10
+    notes: En inglés, banana bread. Cuanto más maduros estén los plátanos, con la piel casi negra, mejor.
+    tags: [postre, desayuno, aprovechamiento]
+    utensils: [Horno]
+    ingredients:
+      - items:
+          - [plátanos muy maduros, 3, null]
+          - [mantequilla derretida, 80, g]
+          - [azúcar moreno, 120, g]
+          - [huevo, 1, null]
+          - [extracto de vainilla, 1, cucharadita]
+          - [bicarbonato, 1, cucharadita]
+          - [sal, 1, pizca]
+          - [harina, 190, g]
+          - [nueces picadas, 60, g, optional]
+    steps:
+      - Precalienta el horno a 175 °C y engrasa un molde alargado.
+      - Aplasta los plátanos con un tenedor y mézclalos con la mantequilla, el azúcar, el huevo y la vainilla.
+      - Añade el bicarbonato, la sal y la harina y mezcla lo justo. Incorpora las nueces.
+      - Vierte en el molde y hornea 55-60 minutos, hasta que un palillo salga limpio. Deja que se enfríe antes de desmoldarlo.
+
+  - name: Tarta de lima de los Cayos
+    category: Postres
+    difficulty: EASY
+    prep: 20
+    cook: 25
+    servings: 8
+    origin: Florida
+    notes: En inglés, key lime pie. Necesita al menos 4 horas de nevera.
+    tags: [postre, al horno]
+    utensils: [Horno]
+    ingredients:
+      - group: Base
+        items:
+          - [galletas tipo digestive, 200, g]
+          - [mantequilla derretida, 80, g]
+          - [azúcar, 2, cucharada]
+      - group: Relleno
+        items:
+          - [leche condensada, 400, g]
+          - [yemas de huevo, 4, null]
+          - [zumo de lima, 120, ml]
+          - [ralladura de lima, 1, cucharada]
+          - [nata para montar, 200, ml, optional]
+    steps:
+      - Precalienta el horno a 175 °C. Tritura las galletas, mézclalas con la mantequilla y el azúcar y presiónalas en un molde de 23 cm. Hornea 10 minutos.
+      - Bate las yemas con la ralladura, añade la leche condensada y después el zumo de lima.
+      - Vierte el relleno sobre la base y hornea 15 minutos, hasta que cuaje pero aún tiemble en el centro.
+      - Deja que se enfríe y refrigera al menos 4 horas. Sírvela con nata montada.

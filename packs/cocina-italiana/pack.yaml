@@ -1,0 +1,599 @@
+id: cocina-italiana
+version: 1
+updated: 2026-10-31
+language: es
+name: "Cocina del mundo: Italia"
+description: >-
+  Los grandes clásicos de las regiones de Italia: carbonara, amatriciana, cacio e pepe, lasaña,
+  pasta alla Norma, espaguetis con almejas, risotto a la milanesa, ossobuco, saltimbocca,
+  parmigiana, minestrone, pasta e fagioli, pizza margarita, focaccia, arancini, vitello tonnato,
+  caponata, tiramisú y panna cotta. Hechos como en Italia, sin nata en la carbonara.
+author: Miga
+authorGithub: calamares00
+cover:
+  emoji: "🍝"
+  kicker: Cocina del mundo
+  title: Italia
+  colors: ["#15803d", "#dc2626"]
+defaults:
+  origin: Italia
+  originCountry: IT
+  source: "Pack «Cocina del mundo: Italia» de Miga"
+recipes:
+
+  - name: Espaguetis a la carbonara
+    category: Pastas
+    difficulty: MEDIUM
+    prep: 10
+    cook: 15
+    servings: 4
+    origin: Lacio
+    notes: La carbonara auténtica no lleva nata ni cebolla. La crema la forman los huevos, el queso y el agua de la pasta, sin que el huevo llegue a cuajar.
+    tags: [pasta, romana]
+    ingredients:
+      - items:
+          - [espaguetis, 400, g]
+          - [guanciale (papada curada), 150, g]
+          - [yemas de huevo, 4, null]
+          - [huevo, 1, null]
+          - [queso pecorino romano rallado, 60, g]
+          - [pimienta negra recién molida, 1, cucharadita]
+          - [sal, null, null]
+    steps:
+      - Corta el guanciale en tiras y dóralo en una sartén sin aceite a fuego medio hasta que esté crujiente y haya soltado la grasa. Apaga el fuego.
+      - Bate las yemas y el huevo con el pecorino y la pimienta hasta tener una crema espesa.
+      - Cuece los espaguetis en agua con poca sal y reserva un vaso del agua de cocción.
+      - Pasa la pasta a la sartén del guanciale y mezcla. Fuera del fuego, añade la crema de huevo y un chorrito del agua de cocción, removiendo deprisa hasta que quede una salsa cremosa.
+      - Sirve con más pecorino y pimienta.
+
+  - name: Bucatini all'amatriciana
+    category: Pastas
+    difficulty: EASY
+    prep: 10
+    cook: 25
+    servings: 4
+    origin: Amatrice
+    tags: [pasta, tomate]
+    ingredients:
+      - items:
+          - [bucatini o espaguetis, 400, g]
+          - [guanciale (papada curada), 150, g]
+          - [tomate pelado en conserva, 400, g]
+          - [vino blanco, 50, ml]
+          - [guindilla, 1, null]
+          - [queso pecorino romano rallado, 60, g]
+          - [sal, null, null]
+    steps:
+      - Corta el guanciale en tiras y dóralo en una sartén sin aceite con la guindilla hasta que esté crujiente.
+      - Riega con el vino y deja que se evapore. Retira la mitad del guanciale y resérvalo.
+      - Añade el tomate triturado y cuece a fuego medio 15 minutos. Ajusta de sal.
+      - Cuece la pasta al dente, escúrrela y mézclala con la salsa, el guanciale reservado y la mitad del pecorino. Sirve con el resto del queso.
+
+  - name: Cacio e pepe
+    category: Pastas
+    difficulty: MEDIUM
+    prep: 5
+    cook: 12
+    servings: 4
+    origin: Roma
+    notes: El queso se mezcla con agua templada, nunca hirviendo, para que no forme grumos.
+    tags: [pasta, romana, vegetariana]
+    ingredients:
+      - items:
+          - [tonnarelli o espaguetis, 400, g]
+          - [queso pecorino romano rallado fino, 200, g]
+          - [pimienta negra en grano, 2, cucharadita]
+          - [sal, null, null]
+    steps:
+      - Machaca la pimienta y tuéstala en una sartén grande sin aceite 1 minuto. Añade un cazo del agua de la pasta.
+      - Cuece la pasta en poca agua con poca sal, para que quede más almidón, y sácala 2 minutos antes de que esté al dente.
+      - Mezcla el pecorino con unas cucharadas del agua de cocción templada hasta tener una crema.
+      - Termina de cocer la pasta en la sartén de la pimienta con un poco más de agua. Fuera del fuego, añade la crema de queso y remueve enérgicamente hasta que quede ligada y brillante.
+
+  - name: Lasaña a la boloñesa
+    category: Pastas
+    difficulty: HARD
+    prep: 40
+    cook: 210
+    servings: 8
+    origin: Emilia-Romaña
+    notes: El ragú boloñés se cuece a fuego muy suave al menos 2 horas y media. Se puede hacer la víspera.
+    tags: [pasta, al horno]
+    utensils: [Horno]
+    ingredients:
+      - group: Ragú
+        items:
+          - [carne picada de ternera, 300, g]
+          - [carne picada de cerdo, 200, g]
+          - [panceta, 100, g]
+          - [cebolla, 1, null]
+          - [zanahoria, 1, null]
+          - [apio, 1, rama]
+          - [vino blanco, 150, ml]
+          - [tomate triturado (passata), 300, ml]
+          - [concentrado de tomate, 1, cucharada]
+          - [leche entera, 150, ml]
+          - [caldo de carne, 250, ml]
+          - [aceite de oliva, 2, cucharada]
+          - [sal, null, null]
+          - [pimienta negra, null, null]
+      - group: Bechamel
+        items:
+          - [mantequilla, 80, g]
+          - [harina, 80, g]
+          - [leche entera, 1, l]
+          - [nuez moscada, 1, pizca]
+          - [sal, null, null]
+      - group: Montaje
+        items:
+          - [láminas de lasaña, 12, null]
+          - [queso parmesano rallado, 100, g]
+          - [mantequilla, 20, g]
+    steps:
+      - group: Ragú
+        items:
+          - Pica muy fina la cebolla, la zanahoria, el apio y la panceta y póchalos en el aceite 10 minutos.
+          - Añade la carne y dórala, deshaciéndola. Riega con el vino y deja que se evapore.
+          - Añade la passata, el concentrado y el caldo, tapa a medias y cuece a fuego muy suave 2 horas y media, añadiendo la leche poco a poco. Salpimienta.
+      - group: Bechamel y montaje
+        items:
+          - Derrite la mantequilla, añade la harina y cocina 2 minutos. Incorpora la leche caliente sin dejar de remover y cuece 10 minutos, hasta que espese. Sazona con sal y nuez moscada.
+          - Precalienta el horno a 190 °C. Cuece las láminas si lo indica el paquete.
+          - En una fuente, alterna capas de bechamel, láminas, ragú, bechamel y parmesano, terminando con bechamel, parmesano y unos trocitos de mantequilla.
+          - Hornea 30-35 minutos, hasta que esté dorada. Deja que repose 15 minutos antes de cortarla.
+
+  - name: Pasta alla Norma
+    category: Pastas
+    difficulty: EASY
+    prep: 15
+    cook: 30
+    servings: 4
+    origin: Sicilia
+    notes: Lleva el nombre de la ópera de Bellini, el compositor de Catania. Si no encuentras ricotta salata, usa pecorino.
+    tags: [pasta, vegetariana]
+    ingredients:
+      - items:
+          - [maccheroni o rigatoni, 400, g]
+          - [berenjenas, 2, null]
+          - [tomate pelado en conserva, 800, g]
+          - [ajo, 2, diente]
+          - [albahaca fresca, 1, manojo]
+          - [ricotta salata rallada, 100, g]
+          - [aceite de oliva, 4, cucharada]
+          - [aceite de oliva para freír, null, null]
+          - [sal, null, null]
+    steps:
+      - Corta las berenjenas en dados, sálalas y deja que suelten el agua 30 minutos. Sécalas.
+      - Fríelas en abundante aceite hasta que estén doradas y escúrrelas.
+      - Dora el ajo en las 4 cucharadas de aceite, añade el tomate triturado y cuece 20 minutos. Ajusta de sal y añade unas hojas de albahaca.
+      - Cuece la pasta, mézclala con la salsa y la mitad de la berenjena.
+      - Sirve con el resto de la berenjena, la ricotta salata y albahaca fresca.
+
+  - name: Espaguetis con almejas
+    category: Pastas
+    difficulty: EASY
+    prep: 10
+    cook: 15
+    servings: 4
+    origin: Campania
+    notes: Deja las almejas en agua fría con sal 1 hora para que suelten la arena.
+    tags: [pasta, marisco]
+    ingredients:
+      - items:
+          - [espaguetis, 400, g]
+          - [almejas, 1, kg]
+          - [ajo, 3, diente]
+          - [guindilla, 1, null]
+          - [vino blanco, 100, ml]
+          - [aceite de oliva virgen extra, 5, cucharada]
+          - [perejil picado, 3, cucharada]
+          - [sal, null, null]
+    steps:
+      - Dora el ajo laminado y la guindilla en el aceite en una sartén grande.
+      - Añade las almejas y el vino, tapa y cuece a fuego fuerte 2-3 minutos, hasta que se abran. Descarta las que sigan cerradas.
+      - Cuece la pasta 2 minutos menos de lo indicado y pásala a la sartén con un poco del agua de cocción.
+      - Termina de cocer la pasta en el jugo de las almejas, removiendo, hasta que la salsa ligue. Añade el perejil y sirve.
+
+  - name: Risotto a la milanesa
+    category: Arroces
+    difficulty: MEDIUM
+    prep: 10
+    cook: 25
+    servings: 4
+    origin: Lombardía
+    notes: Es el acompañamiento clásico del ossobuco. Tradicionalmente se le añade tuétano de vaca al sofrito.
+    tags: [arroz, azafrán]
+    ingredients:
+      - items:
+          - [arroz carnaroli o arborio, 320, g]
+          - [caldo de carne caliente, 1.2, l]
+          - [hebras de azafrán, 0.5, cucharadita]
+          - [cebolla, 0.5, null]
+          - [mantequilla, 80, g]
+          - [vino blanco seco, 100, ml]
+          - [queso parmesano rallado, 80, g]
+          - [sal, null, null]
+    steps:
+      - Infusiona el azafrán en un cazo de caldo caliente.
+      - Pocha la cebolla muy picada en 30 g de mantequilla. Añade el arroz y tuéstalo 2 minutos, removiendo.
+      - Riega con el vino y deja que se evapore.
+      - Añade el caldo cazo a cazo, removiendo y esperando a que se absorba, durante 16-18 minutos. A mitad de cocción, añade el azafrán.
+      - Fuera del fuego, añade el resto de la mantequilla fría y el parmesano y remueve con energía (mantecatura). Deja que repose 1 minuto y sirve.
+
+  - name: Ossobuco a la milanesa
+    category: Carnes
+    difficulty: MEDIUM
+    prep: 20
+    cook: 120
+    servings: 4
+    origin: Lombardía
+    notes: La versión milanesa clásica no lleva tomate. La gremolata se añade al final y le da un toque fresco.
+    tags: [guiso, ternera]
+    ingredients:
+      - group: Ossobuco
+        items:
+          - [rodajas de jarrete de ternera de 4 cm, 4, null]
+          - [harina, 3, cucharada]
+          - [mantequilla, 50, g]
+          - [aceite de oliva, 2, cucharada]
+          - [cebolla, 1, null]
+          - [zanahoria, 1, null]
+          - [apio, 1, rama]
+          - [vino blanco seco, 200, ml]
+          - [caldo de carne, 500, ml]
+          - [sal, null, null]
+          - [pimienta negra, null, null]
+      - group: Gremolata
+        items:
+          - [ralladura de limón, 1, cucharada]
+          - [ajo, 1, diente]
+          - [perejil picado, 3, cucharada]
+    steps:
+      - Haz unos cortes en la membrana que rodea la carne para que no se curve. Salpimienta y pasa por harina.
+      - Dora las rodajas en la mantequilla y el aceite por los dos lados y retíralas.
+      - Pocha la cebolla, la zanahoria y el apio picados 10 minutos. Devuelve la carne, riega con el vino y deja que se evapore.
+      - Añade el caldo, tapa y cuece a fuego muy suave 1 hora y media, dando la vuelta a la carne de vez en cuando, hasta que esté muy tierna.
+      - Mezcla la ralladura, el ajo muy picado y el perejil, y espolvorea la gremolata sobre el ossobuco justo antes de servir.
+
+  - name: Saltimbocca a la romana
+    category: Carnes
+    difficulty: EASY
+    prep: 10
+    cook: 10
+    servings: 4
+    origin: Roma
+    notes: Su nombre significa «salta a la boca».
+    tags: [ternera, rápida]
+    ingredients:
+      - items:
+          - [filetes finos de ternera, 8, null]
+          - [jamón curado italiano, 8, loncha]
+          - [salvia fresca, 8, hoja]
+          - [harina, 2, cucharada]
+          - [mantequilla, 50, g]
+          - [vino blanco seco, 100, ml]
+          - [sal, null, null]
+          - [pimienta negra, null, null]
+    steps:
+      - Aplana los filetes. Pon sobre cada uno una loncha de jamón y una hoja de salvia y sujétalas con un palillo.
+      - Sala un poco por el lado sin jamón, salpimienta y pasa por harina solo por ese lado.
+      - Dóralos en la mantequilla, primero por el lado de la carne 2 minutos y luego por el del jamón 1 minuto. Retíralos.
+      - Añade el vino a la sartén, raspa el fondo y deja que se reduzca 1 minuto. Vierte la salsa sobre los filetes.
+
+  - name: Berenjenas a la parmesana
+    category: Verduras
+    difficulty: MEDIUM
+    prep: 30
+    cook: 70
+    servings: 6
+    origin: Campania y Sicilia
+    notes: En italiano, parmigiana di melanzane. Está aún mejor templada o al día siguiente.
+    tags: [vegetariana, al horno]
+    utensils: [Horno]
+    ingredients:
+      - items:
+          - [berenjenas, 3, null]
+          - [tomate triturado (passata), 700, ml]
+          - [ajo, 1, diente]
+          - [albahaca fresca, 1, manojo]
+          - [mozzarella, 300, g]
+          - [queso parmesano rallado, 100, g]
+          - [aceite de oliva, 2, cucharada]
+          - [aceite de oliva para freír, null, null]
+          - [sal, null, null]
+    steps:
+      - Corta las berenjenas en láminas de 1 cm a lo largo, sálalas y deja que suelten el agua 30 minutos. Sécalas.
+      - Fríelas en abundante aceite hasta que estén doradas y escúrrelas sobre papel de cocina.
+      - Dora el ajo en las 2 cucharadas de aceite, añade la passata y cuece 15 minutos con unas hojas de albahaca. Ajusta de sal.
+      - Precalienta el horno a 180 °C. En una fuente, alterna capas de salsa, berenjena, mozzarella en trozos, parmesano y albahaca, terminando con salsa y parmesano.
+      - Hornea 35-40 minutos y deja que repose 20 minutos antes de cortarla.
+
+  - name: Minestrone
+    category: Sopas y cremas
+    difficulty: EASY
+    prep: 20
+    cook: 50
+    servings: 6
+    notes: Cada región y cada estación tiene su minestrone. Añadir una corteza de parmesano al caldo le da mucho sabor.
+    tags: [sopa, vegetariana]
+    ingredients:
+      - items:
+          - [cebolla, 1, null]
+          - [zanahorias, 2, null]
+          - [apio, 2, rama]
+          - [patatas, 2, null]
+          - [calabacín, 1, null]
+          - [judías verdes, 100, g]
+          - [col, 0.25, null]
+          - [tomates, 2, null]
+          - [alubias borlotti cocidas, 200, g]
+          - [caldo de verduras, 1.5, l]
+          - [pasta pequeña, 100, g]
+          - [corteza de parmesano, 1, trozo, optional]
+          - [aceite de oliva virgen extra, 4, cucharada]
+          - [sal, null, null]
+    steps:
+      - Corta todas las verduras en dados pequeños.
+      - Rehoga la cebolla, la zanahoria y el apio en el aceite 10 minutos.
+      - Añade el resto de las verduras, el caldo y la corteza de parmesano y cuece a fuego suave 30 minutos.
+      - Añade las alubias y la pasta y cuece hasta que la pasta esté hecha. Ajusta de sal y sirve con un hilo de aceite.
+
+  - name: Pasta e fagioli
+    category: Legumbres
+    difficulty: EASY
+    prep: 10
+    cook: 35
+    servings: 4
+    tags: [cuchara, casero]
+    ingredients:
+      - items:
+          - [alubias borlotti cocidas, 400, g]
+          - [ditalini u otra pasta corta pequeña, 200, g]
+          - [cebolla, 1, null]
+          - [zanahoria, 1, null]
+          - [apio, 1, rama]
+          - [ajo, 1, diente]
+          - [romero fresco, 1, rama]
+          - [concentrado de tomate, 1, cucharada]
+          - [caldo de verduras, 1, l]
+          - [corteza de parmesano, 1, trozo, optional]
+          - [aceite de oliva virgen extra, 4, cucharada]
+          - [sal, null, null]
+          - [pimienta negra, null, null]
+    steps:
+      - Pocha la cebolla, la zanahoria, el apio y el ajo picados en el aceite con el romero 10 minutos.
+      - Añade el concentrado, las alubias, el caldo y la corteza de parmesano y cuece 15 minutos.
+      - Tritura una tercera parte de las alubias con un poco de caldo y devuélvelas a la olla para espesar.
+      - Añade la pasta y cuécela en la sopa, removiendo, hasta que esté al dente. Salpimienta y sirve con un hilo de aceite.
+
+  - name: Pizza margarita
+    category: Panes y masas
+    difficulty: MEDIUM
+    prep: 30
+    cook: 10
+    servings: 4
+    origin: Nápoles
+    notes: La masa fermenta al menos 8 horas, mejor 24 en la nevera. Hornéala lo más caliente que permita tu horno, sobre una piedra o una bandeja precalentada.
+    tags: [pizza, vegetariana]
+    utensils: [Horno]
+    ingredients:
+      - group: Masa
+        items:
+          - [harina de trigo tipo 00, 500, g]
+          - [agua, 325, ml]
+          - [levadura fresca de panadería, 3, g]
+          - [sal, 12, g]
+      - group: Cobertura
+        items:
+          - [tomate pelado en conserva, 400, g]
+          - [mozzarella fior di latte, 250, g]
+          - [albahaca fresca, 12, hoja]
+          - [aceite de oliva virgen extra, 3, cucharada]
+          - [sal, null, null]
+    steps:
+      - Disuelve la levadura en el agua, mézclala con la harina, añade la sal y amasa 10 minutos, hasta que esté lisa.
+      - Deja que fermente tapada 2 horas, divídela en 4 bolas y déjalas en la nevera de 8 a 24 horas. Sácalas 2 horas antes.
+      - Precalienta el horno al máximo, 250-280 °C, con la piedra o la bandeja dentro. Tritura el tomate con un poco de sal. Escurre y trocea la mozzarella.
+      - Estira cada bola con las manos, empujando el aire hacia el borde. Cubre con el tomate y hornea 5-6 minutos.
+      - Añade la mozzarella y hornea 2-3 minutos más. Termina con albahaca y un hilo de aceite.
+
+  - name: Focaccia genovesa
+    category: Panes y masas
+    difficulty: MEDIUM
+    prep: 30
+    cook: 20
+    servings: 8
+    origin: Liguria
+    notes: La masa necesita unas 3 horas de levado en total. La salmuera que se echa en los hoyos es lo que la hace tierna por dentro y crujiente por fuera.
+    tags: [pan, vegana]
+    utensils: [Horno]
+    ingredients:
+      - group: Masa
+        items:
+          - [harina de trigo de fuerza, 500, g]
+          - [agua templada, 350, ml]
+          - [levadura seca de panadería, 5, g]
+          - [sal, 10, g]
+          - [aceite de oliva virgen extra, 40, ml]
+      - group: Salmuera
+        items:
+          - [agua, 50, ml]
+          - [aceite de oliva virgen extra, 50, ml]
+          - [sal, 1, cucharadita]
+          - [sal gruesa, 1, cucharadita]
+    steps:
+      - Mezcla la harina con la levadura y el agua, añade la sal y el aceite y amasa 10 minutos. Deja que leve tapada 1 hora y media.
+      - Engrasa con aceite una bandeja de 30 × 40 cm, estira la masa en ella con los dedos y deja que leve 30 minutos. Vuelve a estirarla hasta los bordes.
+      - Haz hoyos con la yema de los dedos, bate la salmuera y viértela por encima. Espolvorea sal gruesa y deja que leve 45 minutos más.
+      - Hornea a 230 °C 18-20 minutos, hasta que esté dorada. Deja que se temple sobre una rejilla.
+
+  - name: Bruschetta de tomate
+    category: Entrantes
+    difficulty: EASY
+    prep: 10
+    cook: 5
+    servings: 4
+    tags: [aperitivo, vegana]
+    ingredients:
+      - items:
+          - [pan rústico, 8, rebanada]
+          - [tomates maduros, 4, null]
+          - [ajo, 1, diente]
+          - [albahaca fresca, 8, hoja]
+          - [aceite de oliva virgen extra, 4, cucharada]
+          - [sal, null, null]
+    steps:
+      - Corta los tomates en dados pequeños, escúrrelos y mézclalos con la albahaca troceada, la mitad del aceite y la sal.
+      - Tuesta el pan en la plancha o el horno hasta que esté crujiente.
+      - Frota cada rebanada con el ajo pelado, riégala con el resto del aceite y cubre con el tomate justo antes de servir.
+
+  - name: Arancini
+    category: Entrantes
+    difficulty: HARD
+    prep: 60
+    cook: 40
+    servings: 6
+    origin: Sicilia
+    notes: El arroz debe estar completamente frío para darles forma; puedes prepararlo la víspera.
+    tags: [frito, arroz]
+    ingredients:
+      - group: Arroz
+        items:
+          - [arroz carnaroli o arborio, 300, g]
+          - [caldo de carne, 800, ml]
+          - [hebras de azafrán, 1, pizca]
+          - [mantequilla, 30, g]
+          - [queso parmesano rallado, 50, g]
+          - [huevo, 1, null]
+      - group: Relleno
+        items:
+          - [ragú de carne espeso, 150, g]
+          - [guisantes cocidos, 50, g]
+          - [mozzarella o caciocavallo en dados, 100, g]
+      - group: Rebozado
+        items:
+          - [harina, 100, g]
+          - [agua, 150, ml]
+          - [pan rallado, 150, g]
+          - [aceite de girasol para freír, null, null]
+    steps:
+      - Cuece el arroz en el caldo con el azafrán hasta que lo absorba, unos 18 minutos. Mézclalo con la mantequilla, el parmesano y el huevo, extiéndelo en una fuente y deja que se enfríe del todo.
+      - Mezcla el ragú con los guisantes.
+      - Con las manos mojadas, toma una porción de arroz, aplánala en la palma, pon una cucharada de ragú y un dado de queso y ciérrala en forma de bola o de cono.
+      - Mezcla la harina con el agua hasta tener una masa fluida. Pasa los arancini por ella y luego por el pan rallado.
+      - Fríelos en aceite a 170 °C 4-5 minutos, hasta que estén dorados, y escúrrelos.
+
+  - name: Vitello tonnato
+    category: Carnes
+    difficulty: MEDIUM
+    prep: 20
+    cook: 60
+    servings: 6
+    origin: Piamonte
+    notes: Se sirve frío, como entrante. Está mejor si la carne pasa unas horas en la nevera con la salsa.
+    tags: [frío, ternera]
+    ingredients:
+      - group: Carne
+        items:
+          - [redondo de ternera, 800, g]
+          - [cebolla, 1, null]
+          - [zanahoria, 1, null]
+          - [apio, 1, rama]
+          - [vino blanco seco, 250, ml]
+          - [laurel, 2, hoja]
+          - [sal, null, null]
+      - group: Salsa tonnata
+        items:
+          - [atún en aceite escurrido, 200, g]
+          - [filetes de anchoa, 3, null]
+          - [alcaparras, 2, cucharada]
+          - [mayonesa, 150, g]
+          - [caldo de cocción de la carne, 4, cucharada]
+          - [zumo de limón, 1, cucharada]
+    steps:
+      - Pon la carne en una olla con las verduras troceadas, el vino, el laurel y la sal, y cubre con agua.
+      - Cuece a fuego suave 1 hora, hasta que esté hecha pero jugosa. Deja que se enfríe en el caldo.
+      - Tritura el atún, las anchoas, la mitad de las alcaparras, el limón y el caldo, y mézclalo con la mayonesa.
+      - Corta la carne en lonchas muy finas, colócalas en una fuente y cúbrelas con la salsa. Decora con el resto de las alcaparras.
+
+  - name: Caponata
+    category: Verduras
+    difficulty: EASY
+    prep: 20
+    cook: 40
+    servings: 6
+    origin: Sicilia
+    notes: Es un plato agridulce que se sirve templado o frío y gana sabor al día siguiente.
+    tags: [vegana, agridulce]
+    ingredients:
+      - items:
+          - [berenjenas, 2, null]
+          - [apio, 2, rama]
+          - [cebolla, 1, null]
+          - [tomate pelado en conserva, 400, g]
+          - [aceitunas verdes sin hueso, 80, g]
+          - [alcaparras, 2, cucharada]
+          - [vinagre de vino, 60, ml]
+          - [azúcar, 2, cucharada]
+          - [piñones, 2, cucharada, optional]
+          - [albahaca fresca, 6, hoja]
+          - [aceite de oliva, 4, cucharada]
+          - [aceite de oliva para freír, null, null]
+          - [sal, null, null]
+    steps:
+      - Corta las berenjenas en dados, sálalas 30 minutos, sécalas y fríelas en abundante aceite hasta que estén doradas.
+      - Escalda el apio en trozos 2 minutos.
+      - Pocha la cebolla en las 4 cucharadas de aceite 10 minutos. Añade el tomate triturado y cuece 10 minutos.
+      - Añade el apio, las aceitunas, las alcaparras y los piñones y cuece 5 minutos. Incorpora el vinagre y el azúcar y deja que el vinagre se evapore 2 minutos.
+      - Añade la berenjena, mezcla con cuidado y deja que se temple. Sirve con albahaca.
+
+  - name: Tiramisú
+    category: Postres
+    difficulty: EASY
+    prep: 30
+    cook: 0
+    servings: 8
+    origin: Véneto
+    notes: Lleva huevo crudo; usa huevos muy frescos o pasteurizados. Necesita al menos 6 horas de nevera.
+    tags: [postre, café]
+    ingredients:
+      - items:
+          - [mascarpone, 500, g]
+          - [huevos, 4, null]
+          - [azúcar, 100, g]
+          - [bizcochos de soletilla (savoiardi), 300, g]
+          - [café expreso frío, 300, ml]
+          - [cacao puro en polvo, 2, cucharada]
+    steps:
+      - Separa las claras de las yemas. Bate las yemas con el azúcar hasta que blanqueen y añade el mascarpone hasta tener una crema lisa.
+      - Monta las claras a punto de nieve y mézclalas con la crema con movimientos envolventes.
+      - Moja los bizcochos en el café, de uno en uno y muy rápido, y cubre con ellos el fondo de una fuente.
+      - Cubre con la mitad de la crema, haz otra capa de bizcochos y termina con el resto de la crema.
+      - Refrigera al menos 6 horas y espolvorea el cacao justo antes de servir.
+
+  - name: Panna cotta
+    category: Postres
+    difficulty: EASY
+    prep: 15
+    cook: 5
+    servings: 6
+    origin: Piamonte
+    notes: Necesita al menos 4 horas de nevera para cuajar.
+    tags: [postre, sin gluten]
+    ingredients:
+      - group: Panna cotta
+        items:
+          - [nata para montar, 500, ml]
+          - [azúcar, 80, g]
+          - [vaina de vainilla, 1, null]
+          - [gelatina en hojas, 3, null]
+      - group: Salsa
+        items:
+          - [frutos rojos, 200, g]
+          - [azúcar, 2, cucharada]
+    steps:
+      - Hidrata la gelatina en agua fría 5 minutos.
+      - Calienta la nata con el azúcar y las semillas y la vaina de vainilla hasta que empiece a hervir. Apaga el fuego y retira la vaina.
+      - Escurre la gelatina, disuélvela en la nata caliente y reparte en moldes o vasitos.
+      - Deja que se enfríe y métela en la nevera al menos 4 horas.
+      - Cuece los frutos rojos con el azúcar 5 minutos y sirve la salsa fría sobre la panna cotta.

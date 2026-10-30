@@ -1,0 +1,569 @@
+id: cocina-japonesa
+version: 1
+updated: 2026-10-31
+language: es
+name: "Cocina del mundo: Japón"
+description: >-
+  La cocina casera de Japón: sopa de miso, pollo teriyaki, gyoza, ramen, tonkatsu, oyakodon,
+  onigiri, tamagoyaki, okonomiyaki, yakitori, tempura, makis, karaage, nikujaga, yakisoba,
+  gyudon, curry japonés y dorayaki. Con el dashi y las salsas de base explicados paso a paso.
+author: Miga
+authorGithub: calamares00
+cover:
+  emoji: "🍣"
+  kicker: Cocina del mundo
+  title: Japón
+  colors: ["#9f1239", "#e11d48"]
+defaults:
+  origin: Japón
+  originCountry: JP
+  source: "Pack «Cocina del mundo: Japón» de Miga"
+recipes:
+
+  - name: Sopa de miso
+    category: Sopas y cremas
+    difficulty: EASY
+    prep: 10
+    cook: 15
+    servings: 4
+    notes: El miso no debe hervir, porque pierde aroma. Si tienes prisa, usa dashi instantáneo disuelto en agua.
+    tags: [sopa, dashi]
+    ingredients:
+      - group: Dashi
+        items:
+          - [agua, 1, l]
+          - [alga kombu, 10, g]
+          - [copos de bonito seco (katsuobushi), 15, g]
+      - group: Sopa
+        items:
+          - [miso, 3, cucharada]
+          - [tofu sedoso, 150, g]
+          - [alga wakame seca, 1, cucharada]
+          - [cebolleta, 1, null]
+    steps:
+      - Deja el kombu en remojo en el agua 30 minutos. Calienta a fuego suave y retíralo justo antes de que hierva.
+      - Añade el katsuobushi, deja que hierva 1 minuto, apaga el fuego y deja que repose 5 minutos. Cuela.
+      - Hidrata la wakame en agua 5 minutos y escúrrela.
+      - Calienta el dashi sin que hierva, añade el tofu en dados y la wakame.
+      - Disuelve el miso en un cazo con un poco de dashi caliente, incorpóralo a la sopa y apaga el fuego. Sirve con cebolleta picada.
+
+  - name: Pollo teriyaki
+    category: Carnes
+    difficulty: EASY
+    prep: 5
+    cook: 15
+    servings: 2
+    tags: [pollo, rápida]
+    ingredients:
+      - items:
+          - [contramuslos de pollo deshuesados con piel, 2, null]
+          - [salsa de soja, 3, cucharada]
+          - [mirin, 3, cucharada]
+          - [sake, 2, cucharada]
+          - [azúcar, 1, cucharada]
+          - [aceite de girasol, 1, cucharadita]
+          - [sésamo tostado, 1, cucharadita, optional]
+    steps:
+      - Mezcla la soja, el mirin, el sake y el azúcar.
+      - Pincha la piel del pollo con un tenedor y ponlo con la piel hacia abajo en una sartén con el aceite, a fuego medio, 6-7 minutos, hasta que la piel esté dorada y crujiente.
+      - Dale la vuelta y cocina 4 minutos más. Retira la grasa que haya soltado.
+      - Añade la salsa y deja que hierva, dando la vuelta al pollo, hasta que quede glaseado y brillante.
+      - Corta en tiras y sirve con arroz y sésamo por encima.
+
+  - name: Gyoza
+    category: Entrantes
+    difficulty: MEDIUM
+    prep: 40
+    cook: 10
+    servings: 4
+    tags: [empanadillas]
+    ingredients:
+      - group: Gyoza
+        items:
+          - [obleas de gyoza, 30, null]
+          - [carne picada de cerdo, 250, g]
+          - [col china, 200, g]
+          - [cebollino o cebolleta, 2, cucharada]
+          - [ajo, 1, diente]
+          - [jengibre fresco rallado, 1, cucharadita]
+          - [salsa de soja, 1, cucharada]
+          - [aceite de sésamo, 1, cucharadita]
+          - [sal, 0.5, cucharadita]
+          - [aceite de girasol, 2, cucharada]
+      - group: Salsa
+        items:
+          - [salsa de soja, 3, cucharada]
+          - [vinagre de arroz, 2, cucharada]
+          - [rayu (aceite de chile), 0.5, cucharadita, optional]
+    steps:
+      - Pica la col muy fina, sálala, deja que repose 10 minutos y escúrrela apretando.
+      - Mezcla la carne con la col, el cebollino, el ajo, el jengibre, la soja y el aceite de sésamo.
+      - Pon una cucharadita de relleno en cada oblea, moja el borde y ciérrala haciendo pliegues en un solo lado.
+      - Coloca las gyoza en una sartén con el aceite caliente y fríelas 2 minutos, hasta que la base esté dorada.
+      - Añade 80 ml de agua, tapa enseguida y cuece al vapor 4-5 minutos. Destapa y deja que se evapore el agua para que la base vuelva a quedar crujiente.
+      - Sirve con la salsa mezclada.
+
+  - name: Ramen de shoyu
+    category: Sopas y cremas
+    difficulty: MEDIUM
+    prep: 20
+    cook: 30
+    servings: 4
+    notes: Los huevos (ajitama) se marinan desde la víspera. Una versión casera más sencilla que la de los restaurantes, que cuecen el caldo durante horas.
+    tags: [sopa, fideos]
+    ingredients:
+      - group: Huevos marinados
+        items:
+          - [huevos, 4, null]
+          - [salsa de soja, 4, cucharada]
+          - [mirin, 4, cucharada]
+          - [agua, 4, cucharada]
+      - group: Caldo
+        items:
+          - [caldo de pollo, 1.5, l]
+          - [dashi, 500, ml]
+          - [jengibre fresco, 3, cm]
+          - [ajo, 2, diente]
+          - [salsa de soja, 6, cucharada]
+          - [mirin, 2, cucharada]
+          - [aceite de sésamo, 1, cucharada]
+      - group: Para servir
+        items:
+          - [fideos de ramen, 4, ración]
+          - [cerdo asado o chashu en lonchas, 300, g]
+          - [brotes de bambú (menma), 100, g, optional]
+          - [alga nori, 2, hoja]
+          - [cebolletas, 2, null]
+    steps:
+      - group: Huevos marinados
+        items:
+          - Cuece los huevos 6 minutos y medio en agua hirviendo y pásalos a agua con hielo. Pélalos.
+          - Mételos en una bolsa con la soja, el mirin y el agua y déjalos en la nevera al menos 8 horas.
+      - group: Ramen
+        items:
+          - Cuece el caldo de pollo y el dashi con el jengibre y el ajo machacado 20 minutos a fuego suave. Cuela.
+          - Pon en cada cuenco 1,5 cucharadas de soja, media de mirin y un chorrito de aceite de sésamo.
+          - Cuece los fideos según el paquete y escúrrelos bien.
+          - Llena los cuencos con el caldo caliente, añade los fideos y coloca encima el cerdo, el huevo partido por la mitad, el bambú, media hoja de nori y la cebolleta.
+
+  - name: Tonkatsu
+    category: Carnes
+    difficulty: EASY
+    prep: 15
+    cook: 10
+    servings: 2
+    tags: [frito, cerdo]
+    ingredients:
+      - items:
+          - [chuletas de lomo de cerdo deshuesadas de 2 cm, 2, null]
+          - [harina, 3, cucharada]
+          - [huevo, 1, null]
+          - [pan rallado panko, 80, g]
+          - [aceite de girasol para freír, null, null]
+          - [col blanca, 0.25, null]
+          - [salsa tonkatsu, 4, cucharada]
+          - [sal, null, null]
+          - [pimienta negra, null, null]
+    steps:
+      - Haz unos cortes en la grasa del borde de las chuletas para que no se curven. Salpimiéntalas.
+      - Pásalas por harina, huevo batido y panko, apretando bien.
+      - Fríelas en aceite a 170 °C 3 minutos por cada lado, hasta que estén doradas. Deja que reposen 2 minutos sobre una rejilla.
+      - Córtalas en tiras y sírvelas con la col en juliana muy fina y la salsa tonkatsu.
+
+  - name: Oyakodon
+    category: Arroces
+    difficulty: EASY
+    prep: 10
+    cook: 15
+    servings: 2
+    notes: Su nombre significa «cuenco de padre e hijo», por el pollo y el huevo.
+    tags: [arroz, pollo, donburi]
+    ingredients:
+      - items:
+          - [arroz japonés cocido, 400, g]
+          - [contramuslo de pollo deshuesado, 1, null]
+          - [cebolla, 0.5, null]
+          - [huevos, 3, null]
+          - [dashi, 150, ml]
+          - [salsa de soja, 2, cucharada]
+          - [mirin, 2, cucharada]
+          - [azúcar, 1, cucharadita]
+          - [cebolleta o mitsuba, 1, null]
+    steps:
+      - Corta el pollo en trozos pequeños y la cebolla en tiras finas.
+      - Calienta el dashi con la soja, el mirin y el azúcar en una sartén pequeña. Añade la cebolla y el pollo y cuece 5-6 minutos.
+      - Bate los huevos ligeramente, sin que se mezclen del todo, y viértelos sobre el pollo en dos veces.
+      - Tapa y cuece 1 minuto, hasta que el huevo esté cuajado pero jugoso.
+      - Desliza la mezcla sobre el arroz caliente y termina con la cebolleta.
+
+  - name: Onigiri
+    category: Arroces
+    difficulty: EASY
+    prep: 20
+    cook: 0
+    servings: 4
+    notes: Se hacen con el arroz aún caliente y las manos mojadas y saladas, para que no se pegue.
+    tags: [arroz, para llevar]
+    ingredients:
+      - items:
+          - [arroz japonés cocido, 600, g]
+          - [salmón cocinado y desmenuzado, 100, g]
+          - [umeboshi (ciruela encurtida), 2, null, optional]
+          - [atún en lata con mayonesa, 2, cucharada, optional]
+          - [alga nori, 2, hoja]
+          - [sal, null, null]
+    steps:
+      - Mójate las manos y frótalas con un poco de sal.
+      - Toma un puñado de arroz caliente, hazle un hueco en el centro y pon una cucharadita de relleno.
+      - Cierra el arroz sobre el relleno y dale forma de triángulo apretando con firmeza, sin aplastar.
+      - Envuelve la base con una tira de nori justo antes de comerlos para que esté crujiente.
+
+  - name: Tamagoyaki
+    category: Huevos
+    difficulty: MEDIUM
+    prep: 5
+    cook: 10
+    servings: 2
+    notes: Se hace en una sartén rectangular (makiyakinabe); en una redonda pequeña también sale, recortando los bordes.
+    tags: [huevo, desayuno]
+    ingredients:
+      - items:
+          - [huevos, 4, null]
+          - [dashi, 3, cucharada]
+          - [azúcar, 1, cucharada]
+          - [salsa de soja clara, 1, cucharadita]
+          - [mirin, 1, cucharadita]
+          - [aceite de girasol, 1, cucharada]
+    steps:
+      - Bate los huevos con el dashi, el azúcar, la soja y el mirin sin hacer espuma.
+      - Engrasa la sartén con papel de cocina mojado en aceite y caliéntala a fuego medio.
+      - Vierte una capa fina de huevo. Cuando esté casi cuajada, enróllala hacia ti con unos palillos.
+      - Empuja el rollo al fondo, engrasa, vierte otra capa levantando el rollo para que pase por debajo y vuelve a enrollar. Repite hasta terminar el huevo.
+      - Da forma al rollo con una esterilla de bambú, deja que repose 5 minutos y córtalo en rodajas gruesas.
+
+  - name: Okonomiyaki
+    category: Panes y masas
+    difficulty: EASY
+    prep: 15
+    cook: 15
+    servings: 2
+    origin: Osaka
+    tags: [col, tortita]
+    ingredients:
+      - group: Masa
+        items:
+          - [harina de trigo, 100, g]
+          - [dashi frío, 120, ml]
+          - [huevos, 2, null]
+          - [col blanca, 250, g]
+          - [cebolletas, 2, null]
+          - [jengibre encurtido rojo (beni shoga), 1, cucharada, optional]
+          - [panceta de cerdo, 6, loncha]
+          - [aceite de girasol, 1, cucharada]
+      - group: Para cubrir
+        items:
+          - [salsa okonomiyaki, 3, cucharada]
+          - [mayonesa japonesa, 2, cucharada]
+          - [copos de bonito seco (katsuobushi), 1, puñado]
+          - [aonori (alga en polvo), 1, cucharadita, optional]
+    steps:
+      - Mezcla la harina con el dashi y los huevos. Añade la col muy picada, la cebolleta y el beni shoga y mezcla sin trabajar demasiado.
+      - Pon la mitad de la masa en una sartén engrasada a fuego medio y dale forma de tortita de 2 cm de grosor. Cubre con la mitad de la panceta.
+      - Cocina 5 minutos, dale la vuelta con cuidado y cocina 5 minutos más con la panceta hacia abajo, hasta que esté crujiente.
+      - Dale la vuelta otra vez, cubre con la salsa, la mayonesa en zigzag, el katsuobushi y el aonori. Repite con el resto de la masa.
+
+  - name: Yakitori
+    category: Carnes
+    difficulty: EASY
+    prep: 20
+    cook: 15
+    servings: 4
+    notes: Lo ideal es hacerlos sobre brasas; en la plancha o el grill del horno también quedan bien.
+    tags: [brochetas, barbacoa]
+    ingredients:
+      - group: Brochetas
+        items:
+          - [contramuslos de pollo deshuesados, 600, g]
+          - [cebolletas o puerros finos, 4, null]
+          - [aceite de girasol, 1, cucharada]
+      - group: Salsa tare
+        items:
+          - [salsa de soja, 100, ml]
+          - [mirin, 100, ml]
+          - [sake, 50, ml]
+          - [azúcar, 2, cucharada]
+    steps:
+      - Cuece los ingredientes de la tare a fuego suave 10 minutos, hasta que se reduzca un tercio y espese.
+      - Corta el pollo en dados de 3 cm y la cebolleta en trozos de 3 cm. Ensártalos alternándolos en brochetas remojadas (negima).
+      - Úntalos con aceite y ásalos a fuego fuerte 4 minutos por cada lado.
+      - Píntalos con la tare y ásalos 1 minuto más por cada lado, dos veces, hasta que estén glaseados.
+
+  - name: Tempura de verduras y gambas
+    category: Entrantes
+    difficulty: MEDIUM
+    prep: 20
+    cook: 15
+    servings: 4
+    notes: El agua muy fría y la masa poco batida, con algún grumo, son el secreto de un rebozado ligero.
+    tags: [frito]
+    ingredients:
+      - group: Tempura
+        items:
+          - [langostinos, 8, null]
+          - [boniato, 1, null]
+          - [calabacín, 1, null]
+          - [berenjena, 1, null]
+          - [pimiento verde, 1, null]
+          - [harina floja, 120, g]
+          - [yema de huevo, 1, null]
+          - [agua con gas muy fría, 200, ml]
+          - [aceite de girasol para freír, null, null]
+      - group: Salsa tentsuyu
+        items:
+          - [dashi, 150, ml]
+          - [salsa de soja, 3, cucharada]
+          - [mirin, 3, cucharada]
+          - [rábano daikon rallado, 2, cucharada, optional]
+    steps:
+      - Calienta los ingredientes de la salsa hasta que hiervan y deja que se templen.
+      - Pela los langostinos dejando la cola y hazles unos cortes en la parte de abajo para que queden rectos. Corta las verduras en láminas de 5 mm.
+      - Mezcla la yema con el agua y añade la harina tamizada de golpe. Remueve con palillos solo unos segundos; deben quedar grumos.
+      - Pasa cada pieza por un poco de harina y después por la masa, y fríe en tandas en aceite a 170-180 °C hasta que esté crujiente y apenas dorada.
+      - Escurre sobre una rejilla y sirve enseguida con la salsa y el daikon.
+
+  - name: Makis de salmón y pepino
+    category: Pescados y mariscos
+    difficulty: MEDIUM
+    prep: 40
+    cook: 20
+    servings: 4
+    notes: El salmón para comer crudo debe haberse congelado antes al menos 5 días a -20 °C, o comprarse ya congelado para este uso.
+    tags: [sushi, arroz]
+    ingredients:
+      - group: Arroz de sushi
+        items:
+          - [arroz japonés para sushi, 300, g]
+          - [agua, 330, ml]
+          - [vinagre de arroz, 4, cucharada]
+          - [azúcar, 1.5, cucharada]
+          - [sal, 1, cucharadita]
+      - group: Makis
+        items:
+          - [alga nori, 4, hoja]
+          - [salmón fresco apto para crudo, 150, g]
+          - [pepino, 0.5, null]
+          - [salsa de soja, null, null]
+          - [wasabi, null, null]
+          - [jengibre encurtido (gari), null, null]
+    steps:
+      - Lava el arroz hasta que el agua salga transparente y escúrrelo 15 minutos. Cuécelo tapado con el agua a fuego suave 12 minutos y deja que repose 10 minutos sin destapar.
+      - Disuelve el azúcar y la sal en el vinagre, mézclalo con el arroz con movimientos cortantes y deja que se temple.
+      - Corta el salmón y el pepino en bastones de 1 cm.
+      - Pon media hoja de nori sobre una esterilla de bambú, cúbrela con una capa fina de arroz con las manos mojadas, dejando 1 cm libre arriba.
+      - Coloca una tira de salmón o de pepino, enrolla apretando con la esterilla y corta cada rollo en 6 piezas con un cuchillo mojado.
+      - Sirve con soja, wasabi y gari.
+
+  - name: Karaage
+    category: Carnes
+    difficulty: EASY
+    prep: 40
+    cook: 15
+    servings: 4
+    tags: [frito, pollo]
+    ingredients:
+      - items:
+          - [contramuslos de pollo deshuesados, 600, g]
+          - [salsa de soja, 2, cucharada]
+          - [sake, 1, cucharada]
+          - [jengibre fresco rallado, 2, cucharadita]
+          - [ajo rallado, 1, cucharadita]
+          - [fécula de patata o maicena, 80, g]
+          - [aceite de girasol para freír, null, null]
+          - [limón, 1, null]
+          - [mayonesa japonesa, null, null, optional]
+    steps:
+      - Corta el pollo en trozos de 4 cm y mézclalo con la soja, el sake, el jengibre y el ajo. Deja que marine 30 minutos.
+      - Escúrrelo y rebózalo en la fécula, sacudiendo el exceso.
+      - Fríelo en aceite a 160 °C 3-4 minutos y sácalo. Deja que repose 4 minutos.
+      - Fríelo de nuevo a 180 °C 1 minuto, hasta que esté muy crujiente. Sirve con limón y mayonesa.
+
+  - name: Nikujaga
+    category: Carnes
+    difficulty: EASY
+    prep: 15
+    cook: 30
+    servings: 4
+    notes: Guiso casero de carne y patatas; su nombre es la unión de niku (carne) y jagaimo (patata).
+    tags: [guiso, casero]
+    ingredients:
+      - items:
+          - [ternera en lonchas muy finas, 250, g]
+          - [patatas, 4, null]
+          - [cebolla, 1, null]
+          - [zanahoria, 1, null]
+          - [fideos shirataki, 150, g, optional]
+          - [dashi, 400, ml]
+          - [salsa de soja, 4, cucharada]
+          - [mirin, 3, cucharada]
+          - [sake, 2, cucharada]
+          - [azúcar, 2, cucharada]
+          - [aceite de girasol, 1, cucharada]
+          - [tirabeques o guisantes, 50, g, optional]
+    steps:
+      - Pela las patatas y córtalas en trozos grandes. Corta la cebolla en gajos y la zanahoria en trozos.
+      - Saltea la carne en el aceite hasta que cambie de color. Añade la cebolla, la zanahoria y las patatas y saltea 2 minutos.
+      - Añade el dashi, el sake, el azúcar y el mirin y lleva a ebullición. Retira la espuma.
+      - Añade la soja y los shirataki, cubre con una tapa más pequeña que la olla o con papel de horno y cuece a fuego suave 20 minutos, hasta que las patatas estén tiernas.
+      - Añade los tirabeques los últimos 2 minutos.
+
+  - name: Yakisoba
+    category: Pastas
+    difficulty: EASY
+    prep: 10
+    cook: 10
+    servings: 2
+    tags: [fideos, salteado]
+    ingredients:
+      - group: Salsa yakisoba
+        items:
+          - [salsa Worcestershire, 2, cucharada]
+          - [salsa de ostras, 1, cucharada]
+          - [ketchup, 1, cucharada]
+          - [salsa de soja, 1, cucharada]
+          - [azúcar, 1, cucharadita]
+      - group: Salteado
+        items:
+          - [fideos para yakisoba o chukamen, 2, ración]
+          - [panceta de cerdo en lonchas finas, 150, g]
+          - [col blanca, 150, g]
+          - [zanahoria, 0.5, null]
+          - [cebolla, 0.5, null]
+          - [aceite de girasol, 1, cucharada]
+          - [jengibre encurtido rojo (beni shoga), null, null, optional]
+          - [aonori, null, null, optional]
+    steps:
+      - Mezcla los ingredientes de la salsa.
+      - Saltea la panceta troceada en el aceite hasta que se dore. Añade la cebolla, la zanahoria y la col en tiras y saltea 3 minutos.
+      - Añade los fideos, separándolos con un chorrito de agua, y saltea 2 minutos.
+      - Incorpora la salsa y saltea hasta que los fideos estén bien cubiertos. Sirve con beni shoga y aonori.
+
+  - name: Gyudon
+    category: Arroces
+    difficulty: EASY
+    prep: 10
+    cook: 15
+    servings: 2
+    tags: [arroz, ternera, donburi]
+    ingredients:
+      - items:
+          - [arroz japonés cocido, 400, g]
+          - [ternera en lonchas muy finas, 250, g]
+          - [cebolla, 1, null]
+          - [dashi, 150, ml]
+          - [salsa de soja, 3, cucharada]
+          - [mirin, 2, cucharada]
+          - [sake, 2, cucharada]
+          - [azúcar, 1, cucharada]
+          - [jengibre encurtido rojo (beni shoga), null, null, optional]
+          - [huevos, 2, null, optional]
+    steps:
+      - Corta la cebolla en tiras de 1 cm.
+      - Lleva a ebullición el dashi con la soja, el mirin, el sake y el azúcar. Añade la cebolla y cuece 5 minutos.
+      - Añade la carne, separando las lonchas, y cuece 2-3 minutos, retirando la espuma.
+      - Sirve sobre el arroz caliente con un poco del caldo, beni shoga y, si quieres, una yema de huevo cruda o un huevo poché encima.
+
+  - name: Curry japonés
+    category: Carnes
+    difficulty: EASY
+    prep: 15
+    cook: 40
+    servings: 4
+    notes: El curry japonés (kare raisu) es suave y espeso. Se suele hacer con pastillas de roux de curry, como aquí.
+    tags: [curry, casero]
+    ingredients:
+      - items:
+          - ["carne de ternera, cerdo o pollo en dados", 400, g]
+          - [cebollas, 2, null]
+          - [zanahorias, 2, null]
+          - [patatas, 2, null]
+          - [roux de curry japonés en pastillas, 100, g]
+          - [agua, 700, ml]
+          - [manzana rallada, 0.5, null, optional]
+          - [aceite de girasol, 1, cucharada]
+          - [arroz japonés cocido, 800, g]
+    steps:
+      - Corta las cebollas en gajos y las zanahorias y patatas en trozos.
+      - Dora la carne en el aceite, añade la cebolla y sofríe 5 minutos.
+      - Añade las zanahorias, las patatas y el agua y cuece 20 minutos a fuego suave, retirando la espuma.
+      - Apaga el fuego, añade el roux troceado y la manzana y remueve hasta que se disuelva.
+      - Cuece a fuego suave 10 minutos más, removiendo, hasta que espese. Sirve con el arroz.
+
+  - name: Agedashi tofu
+    category: Legumbres
+    difficulty: EASY
+    prep: 10
+    cook: 10
+    servings: 4
+    tags: [tofu, vegetariana, frito]
+    ingredients:
+      - items:
+          - [tofu sedoso firme, 400, g]
+          - [fécula de patata o maicena, 4, cucharada]
+          - [aceite de girasol para freír, null, null]
+          - [dashi, 200, ml]
+          - [salsa de soja, 2, cucharada]
+          - [mirin, 2, cucharada]
+          - [rábano daikon rallado, 3, cucharada]
+          - [jengibre fresco rallado, 1, cucharadita]
+          - [cebolleta, 1, null]
+    steps:
+      - Envuelve el tofu en papel de cocina y deja que escurra 15 minutos. Córtalo en 8 dados.
+      - Calienta el dashi con la soja y el mirin.
+      - Reboza el tofu en la fécula y fríelo en aceite a 170 °C hasta que esté ligeramente dorado.
+      - Sírvelo en cuencos con el caldo caliente alrededor, el daikon, el jengibre y la cebolleta por encima.
+
+  - name: Sunomono de pepino y wakame
+    category: Ensaladas
+    difficulty: EASY
+    prep: 15
+    cook: 0
+    servings: 4
+    tags: [ensalada, fría, vegana]
+    ingredients:
+      - items:
+          - [pepinos, 2, null]
+          - [alga wakame seca, 2, cucharada]
+          - [vinagre de arroz, 4, cucharada]
+          - [azúcar, 1.5, cucharada]
+          - [salsa de soja, 1, cucharadita]
+          - [sal, 0.5, cucharadita]
+          - [sésamo tostado, 1, cucharadita]
+    steps:
+      - Corta los pepinos en rodajas muy finas, mézclalos con la sal y deja que suelten agua 10 minutos. Escúrrelos apretando.
+      - Hidrata la wakame en agua 5 minutos y escúrrela.
+      - Disuelve el azúcar en el vinagre con la soja.
+      - Mezcla el pepino y la wakame con el aliño y sirve frío con el sésamo.
+
+  - name: Dorayaki
+    category: Postres
+    difficulty: EASY
+    prep: 15
+    cook: 20
+    servings: 6
+    notes: El anko (pasta dulce de judías azuki) se vende hecho en tiendas asiáticas.
+    tags: [postre, dulce]
+    ingredients:
+      - items:
+          - [huevos, 2, null]
+          - [azúcar, 80, g]
+          - [miel, 1, cucharada]
+          - [harina de trigo, 140, g]
+          - [levadura química, 1, cucharadita]
+          - [agua, 3, cucharada]
+          - [anko, 300, g]
+          - [aceite de girasol, 1, cucharadita]
+    steps:
+      - Bate los huevos con el azúcar y la miel hasta que espumen.
+      - Añade la harina tamizada con la levadura y mezcla. Deja que la masa repose 15 minutos y añade el agua.
+      - Engrasa una sartén con papel de cocina y aceite y caliéntala a fuego medio-bajo. Vierte un cucharón pequeño de masa y cuece hasta que salgan burbujas; dale la vuelta y cuece 30 segundos más.
+      - Une las tortitas de dos en dos con una capa de anko en medio y envuélvelas en film para que se mantengan tiernas.

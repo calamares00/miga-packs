@@ -17,6 +17,11 @@ Recipe books that the Miga app installs from **Settings › Recipe packs**. See 
 - After changing a published pack, raise its `version` so installed copies get the update. Do not
   rename recipes casually: the recipe uid comes from its name.
 - Covers carry no recipe count. Redraw them with `node tools/render_covers.mjs`.
+- Country packs form the "Cocina del mundo: <país>" / "World cuisine: <country>" series, with
+  `kicker` on the cover. Recipes must be real, traditional dishes (no inventions) and must not
+  repeat a dish already in another pack of the same language.
+- Quote YAML values that contain ": " (names like "Cocina del mundo: México", sources, notes).
+- Pack descriptions do not state how many recipes the pack has.
 - Always run `python3 tools/build.py` and commit `dist/` and `catalog.json`; CI fails if they are
   out of date.
 - When packs or versions change, update `packs/catalog.json` in `calamares00/miga-web` (absolute

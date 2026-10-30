@@ -1,0 +1,618 @@
+id: cocina-espanola
+version: 1
+updated: 2026-10-31
+language: es
+name: "Cocina del mundo: España"
+description: >-
+  Un recorrido por las cocinas regionales de España: cocido madrileño, fabada, lentejas,
+  marmitako, bacalao al pil pil, pollo al ajillo, arroz negro, fideuá, arroz al horno,
+  escalivada, patatas a la riojana, caldo gallego, papas arrugadas con mojo, ajoblanco, empanada
+  gallega, migas, rabo de toro, torrijas, arroz con leche y tarta de Santiago. Sin repetir los
+  platos de los packs de cocina mediterránea, tapas y Navidad.
+author: Miga
+authorGithub: calamares00
+cover:
+  emoji: "🥘"
+  kicker: Cocina del mundo
+  title: España
+  colors: ["#b91c1c", "#eab308"]
+defaults:
+  origin: España
+  originCountry: ES
+  source: "Pack «Cocina del mundo: España» de Miga"
+recipes:
+
+  - name: Cocido madrileño
+    category: Legumbres
+    difficulty: MEDIUM
+    prep: 20
+    cook: 210
+    servings: 6
+    origin: Madrid
+    notes: "Los garbanzos se ponen en remojo la noche anterior. En olla exprés, la carne y los garbanzos tardan unos 50 minutos. Se sirve en tres vuelcos: la sopa, los garbanzos con la verdura y las carnes."
+    tags: [cuchara, invierno]
+    ingredients:
+      - group: Cocido
+        items:
+          - [garbanzos, 400, g]
+          - [morcillo de ternera, 500, g]
+          - [gallina o pollo, 0.25, null]
+          - [tocino, 150, g]
+          - [hueso de jamón, 1, null]
+          - [hueso de rodilla de ternera, 1, null]
+          - [chorizo, 1, null]
+          - [morcilla de cebolla, 1, null]
+          - [zanahorias, 2, null]
+          - [patatas, 4, null]
+          - [sal, null, null]
+      - group: Repollo
+        items:
+          - [repollo, 0.5, null]
+          - [ajo, 2, diente]
+          - [aceite de oliva, 3, cucharada]
+      - group: Sopa
+        items:
+          - [fideos finos, 100, g]
+    steps:
+      - Pon en una olla grande la carne, el tocino y los huesos con 4 litros de agua fría y lleva a ebullición, retirando la espuma.
+      - Añade los garbanzos escurridos dentro de una malla y cuece a fuego suave 3 horas. Si hace falta agua, añádela caliente para que no se encallen.
+      - Media hora antes del final, añade las zanahorias, las patatas y la sal.
+      - Cuece aparte el chorizo y la morcilla con el repollo troceado 30 minutos para que la grasa no tiña el caldo. Escurre el repollo y rehógalo con el ajo laminado y el aceite.
+      - Cuela parte del caldo, cuece en él los fideos y sírvelo como primer vuelco.
+      - Sirve después los garbanzos con las verduras y, por último, las carnes troceadas.
+
+  - name: Fabada asturiana
+    category: Legumbres
+    difficulty: MEDIUM
+    prep: 15
+    cook: 180
+    servings: 6
+    origin: Asturias
+    notes: Las fabes se remojan 12 horas. Se cuecen a fuego muy suave y no se remueven con cuchara, solo se mueve la olla, para que no se rompan.
+    tags: [cuchara, invierno]
+    ingredients:
+      - items:
+          - [fabes de la granja, 500, g]
+          - [chorizos asturianos, 2, null]
+          - [morcillas asturianas, 2, null]
+          - [lacón, 250, g]
+          - [panceta o tocino, 200, g]
+          - [hebras de azafrán, 1, pizca]
+          - [sal, null, null]
+    steps:
+      - Remoja el lacón la víspera, como las fabes, si está salado.
+      - Pon las fabes escurridas en una olla con el compango (chorizos, morcillas, lacón y panceta) y cúbrelo todo con agua fría, dos dedos por encima.
+      - Lleva a ebullición, retira la espuma y baja el fuego al mínimo.
+      - Cuando vuelva a hervir, añade un chorrito de agua fría para «asustar» las fabes. Repítelo dos o tres veces durante la cocción.
+      - Cuece 2 horas y media o 3, moviendo la olla de vez en cuando, hasta que las fabes estén mantecosas. Añade el azafrán y la sal a mitad de cocción.
+      - Deja que repose 30 minutos antes de servir, con el compango troceado aparte.
+
+  - name: Lentejas estofadas con chorizo
+    category: Legumbres
+    difficulty: EASY
+    prep: 15
+    cook: 45
+    servings: 4
+    tags: [cuchara, casero]
+    ingredients:
+      - items:
+          - [lentejas pardinas, 400, g]
+          - [chorizo, 1, null]
+          - [cebolla, 1, null]
+          - [pimiento verde, 1, null]
+          - [zanahoria, 1, null]
+          - [tomate maduro, 1, null]
+          - [ajo, 2, diente]
+          - [patata, 1, null]
+          - [pimentón dulce, 1, cucharadita]
+          - [laurel, 1, hoja]
+          - [aceite de oliva, 3, cucharada]
+          - [sal, null, null]
+    steps:
+      - Pica la cebolla, el pimiento, la zanahoria y el ajo y póchalos en el aceite 10 minutos. Añade el tomate rallado y sofríe 5 minutos más.
+      - Aparta del fuego, añade el pimentón y remueve.
+      - Incorpora las lentejas lavadas, el chorizo en rodajas, el laurel y agua fría hasta cubrir dos dedos.
+      - Cuece a fuego suave 20 minutos, añade la patata cascada en trozos y la sal y cuece 20 minutos más, hasta que las lentejas estén tiernas.
+
+  - name: Marmitako
+    category: Pescados y mariscos
+    difficulty: EASY
+    prep: 20
+    cook: 35
+    servings: 4
+    origin: País Vasco
+    notes: Plato de los pescadores de bonito del Cantábrico. El bonito se añade al final, con el fuego apagado, para que quede jugoso.
+    tags: [cuchara, pescado]
+    ingredients:
+      - items:
+          - [bonito del norte limpio, 600, g]
+          - [patatas, 1, kg]
+          - [cebolla, 1, null]
+          - [pimientos verdes italianos, 2, null]
+          - [carne de pimiento choricero, 2, cucharada]
+          - [tomate maduro, 1, null]
+          - [ajo, 2, diente]
+          - [caldo de pescado, 1.5, l]
+          - [guindilla, 1, null, optional]
+          - [aceite de oliva, 4, cucharada]
+          - [sal, null, null]
+    steps:
+      - Pocha la cebolla, los pimientos y el ajo picados en el aceite 10 minutos. Añade el tomate rallado y la carne de choricero y sofríe 5 minutos.
+      - Añade las patatas cascadas en trozos, rehógalas 2 minutos y cubre con el caldo caliente. Añade la guindilla.
+      - Cuece a fuego medio 20 minutos, hasta que las patatas estén tiernas y el caldo espese. Ajusta de sal.
+      - Apaga el fuego, añade el bonito en dados salados, tapa y deja que repose 5 minutos antes de servir.
+
+  - name: Bacalao al pil pil
+    category: Pescados y mariscos
+    difficulty: HARD
+    prep: 10
+    cook: 25
+    servings: 4
+    origin: País Vasco
+    notes: El bacalao se desala en agua fría en la nevera 48 horas, cambiando el agua 3 o 4 veces. La gelatina de la piel es la que liga la salsa.
+    tags: [pescado, sin gluten]
+    ingredients:
+      - items:
+          - [lomos de bacalao desalado con piel, 4, null]
+          - [ajo, 6, diente]
+          - [guindilla, 1, null]
+          - [aceite de oliva virgen extra, 300, ml]
+    steps:
+      - Seca bien el bacalao.
+      - Calienta el aceite en una cazuela de barro a fuego suave, dora los ajos laminados y la guindilla y retíralos.
+      - Deja que el aceite se temple, a unos 70 °C, y pon los lomos con la piel hacia arriba. Confítalos 4-5 minutos, dales la vuelta y confítalos 4-5 minutos más, sin que el aceite hierva.
+      - Retira el bacalao y deja que el aceite se temple más.
+      - Con un movimiento circular de la cazuela, o con un colador batiendo el aceite, liga poco a poco la gelatina que ha soltado el bacalao con el aceite hasta formar una salsa espesa y blanca.
+      - Devuelve el bacalao a la cazuela, mueve un poco más y sirve con los ajos y la guindilla por encima.
+
+  - name: Pollo al ajillo
+    category: Carnes
+    difficulty: EASY
+    prep: 10
+    cook: 40
+    servings: 4
+    tags: [pollo, casero, sin gluten]
+    ingredients:
+      - items:
+          - [pollo troceado, 1.2, kg]
+          - [ajo, 10, diente]
+          - [vino blanco o fino, 150, ml]
+          - [laurel, 2, hoja]
+          - [tomillo seco, 0.5, cucharadita, optional]
+          - [aceite de oliva, 6, cucharada]
+          - [perejil picado, 2, cucharada]
+          - [sal, null, null]
+          - [pimienta negra, null, null]
+    steps:
+      - Salpimienta el pollo y dóralo en el aceite a fuego medio-alto por todos los lados, en tandas si hace falta.
+      - Baja el fuego, añade los ajos chafados con piel y el laurel, y cocina 5 minutos más.
+      - Añade el vino y el tomillo, tapa y cuece a fuego suave 25 minutos, dando la vuelta al pollo de vez en cuando.
+      - Destapa y deja que la salsa se reduzca 5 minutos. Sirve con perejil picado.
+
+  - name: Arroz negro
+    category: Arroces
+    difficulty: MEDIUM
+    prep: 20
+    cook: 35
+    servings: 4
+    origin: Cataluña y Comunidad Valenciana
+    notes: Se hace en paella y se sirve con alioli.
+    tags: [arroz, marisco]
+    ingredients:
+      - items:
+          - [arroz bomba, 400, g]
+          - [sepia limpia, 500, g]
+          - [tinta de calamar, 2, sobre]
+          - [cebolla, 1, null]
+          - [ajo, 3, diente]
+          - [tomate rallado, 150, g]
+          - [pimentón dulce, 1, cucharadita]
+          - [caldo de pescado caliente, 1.2, l]
+          - [aceite de oliva, 5, cucharada]
+          - [sal, null, null]
+          - [alioli, null, null, optional]
+    steps:
+      - Corta la sepia en dados y dórala en la paella con el aceite. Apártala a un lado.
+      - Sofríe la cebolla y el ajo muy picados 8 minutos. Añade el tomate y sofríe hasta que pierda el agua. Añade el pimentón.
+      - Incorpora el arroz y nácaralo 1 minuto. Disuelve la tinta en el caldo y viértelo. Ajusta de sal.
+      - Cuece a fuego fuerte 8 minutos y a fuego suave 9-10 minutos más, sin remover.
+      - Deja que repose 5 minutos tapado con un paño y sirve con alioli.
+
+  - name: Fideuá
+    category: Pastas
+    difficulty: MEDIUM
+    prep: 20
+    cook: 25
+    servings: 4
+    origin: Gandía
+    notes: Se sirve con alioli. Si quieres las puntas de los fideos levantadas y crujientes, gratínala 2 minutos al final.
+    tags: [pasta, marisco]
+    ingredients:
+      - items:
+          - [fideos para fideuá, 400, g]
+          - [gambas, 300, g]
+          - [calamar o sepia limpios, 300, g]
+          - [ñora, 1, null]
+          - [ajo, 3, diente]
+          - [tomate rallado, 150, g]
+          - [pimentón dulce, 1, cucharadita]
+          - [hebras de azafrán, 1, pizca]
+          - [caldo de pescado caliente, 1, l]
+          - [aceite de oliva, 6, cucharada]
+          - [sal, null, null]
+          - [alioli, null, null, optional]
+    steps:
+      - Hidrata la ñora en agua caliente y raspa su carne.
+      - Dora las gambas en la paella con el aceite y retíralas. Saltea el calamar en dados.
+      - Añade el ajo picado, el tomate y la carne de ñora y sofríe 5 minutos. Añade el pimentón.
+      - Incorpora los fideos y tuéstalos 2 minutos removiendo para que se impregnen del sofrito.
+      - Añade el caldo con el azafrán y la sal y cuece a fuego medio 10 minutos, sin remover. Coloca las gambas encima los últimos minutos.
+      - Deja que repose 5 minutos y sirve con alioli.
+
+  - name: Arroz al horno
+    category: Arroces
+    difficulty: MEDIUM
+    prep: 20
+    cook: 45
+    servings: 4
+    origin: Comunidad Valenciana
+    notes: Se hace en cazuela de barro. Es un plato de aprovechamiento del cocido.
+    tags: [arroz, al horno]
+    utensils: [Horno]
+    ingredients:
+      - items:
+          - [arroz redondo, 400, g]
+          - [costillas de cerdo troceadas, 300, g]
+          - [morcilla de cebolla, 1, null]
+          - [garbanzos cocidos, 200, g]
+          - [patata, 1, null]
+          - [tomates, 2, null]
+          - [cabeza de ajos, 1, null]
+          - [pimentón dulce, 1, cucharadita]
+          - [hebras de azafrán, 1, pizca]
+          - [caldo de cocido o de carne caliente, 800, ml]
+          - [aceite de oliva, 5, cucharada]
+          - [sal, null, null]
+    steps:
+      - Precalienta el horno a 220 °C.
+      - En la cazuela, dora las costillas, la patata en rodajas, un tomate en rodajas, la morcilla y la cabeza de ajos entera. Retira la patata, el tomate, la morcilla y los ajos.
+      - Añade el otro tomate rallado y sofríe 3 minutos. Añade el pimentón, el arroz y los garbanzos y remueve.
+      - Vierte el caldo hirviendo con el azafrán y la sal y reparte por encima la patata, el tomate, la morcilla en trozos y la cabeza de ajos en el centro.
+      - Hornea 20 minutos, hasta que el arroz esté hecho y sin caldo. Deja que repose 5 minutos.
+
+  - name: Escalivada
+    category: Verduras
+    difficulty: EASY
+    prep: 15
+    cook: 60
+    servings: 4
+    origin: Cataluña
+    tags: [vegana, sin gluten, al horno]
+    utensils: [Horno]
+    ingredients:
+      - items:
+          - [berenjenas, 2, null]
+          - [pimientos rojos, 3, null]
+          - [cebollas, 2, null]
+          - [aceite de oliva virgen extra, 5, cucharada]
+          - [ajo, 1, diente, optional]
+          - [sal en escamas, null, null]
+    steps:
+      - Precalienta el horno a 200 °C. Lava las verduras, pínchalas y úntalas con un poco de aceite.
+      - Ásalas enteras en una bandeja 50-60 minutos, dándoles la vuelta a mitad de tiempo, hasta que estén muy tiernas. Las cebollas pueden necesitar algo más.
+      - Tápalas con un paño y deja que se templen 15 minutos para que se pelen mejor.
+      - Pélalas, quita las semillas de los pimientos y corta todo en tiras.
+      - Colócalas en una fuente y alíñalas con el aceite, el ajo picado, si lo usas, y la sal. Se toman templadas o frías.
+
+  - name: Patatas a la riojana
+    category: Verduras
+    difficulty: EASY
+    prep: 15
+    cook: 40
+    servings: 4
+    origin: La Rioja
+    notes: Las patatas se «cascan», rompiéndolas con el cuchillo en lugar de cortarlas, para que suelten almidón y espesen el caldo.
+    tags: [cuchara, casero]
+    ingredients:
+      - items:
+          - [patatas, 1, kg]
+          - [chorizo riojano, 200, g]
+          - [cebolla, 1, null]
+          - [pimiento verde, 1, null]
+          - [ajo, 2, diente]
+          - [carne de pimiento choricero, 1, cucharada]
+          - [pimentón, 1, cucharadita]
+          - [laurel, 1, hoja]
+          - [guindilla, 1, null, optional]
+          - [aceite de oliva, 3, cucharada]
+          - [sal, null, null]
+    steps:
+      - Pocha la cebolla, el pimiento y el ajo picados en el aceite 10 minutos.
+      - Añade el chorizo en rodajas gruesas y sofríe 2 minutos. Añade el pimentón y la carne de choricero.
+      - Incorpora las patatas cascadas, rehógalas y cubre con agua. Añade el laurel, la guindilla y la sal.
+      - Cuece a fuego medio 25-30 minutos, hasta que las patatas estén tiernas y el caldo haya espesado. Deja que repose 5 minutos.
+
+  - name: Sopa castellana
+    category: Sopas y cremas
+    difficulty: EASY
+    prep: 10
+    cook: 25
+    servings: 4
+    origin: Castilla
+    notes: También se llama sopa de ajo. Tradicionalmente se termina en cazuelitas de barro en el horno.
+    tags: [sopa, invierno, aprovechamiento]
+    ingredients:
+      - items:
+          - [pan del día anterior, 150, g]
+          - [ajo, 6, diente]
+          - [jamón serrano en taquitos, 100, g]
+          - [pimentón dulce, 1, cucharada]
+          - [caldo de carne o de pollo, 1.5, l]
+          - [huevos, 4, null]
+          - [aceite de oliva, 5, cucharada]
+          - [sal, null, null]
+    steps:
+      - Dora los ajos laminados en el aceite a fuego suave. Añade el jamón y saltea 1 minuto.
+      - Añade el pan en rebanadas finas y dóralo un poco.
+      - Aparta del fuego, añade el pimentón y remueve. Vierte enseguida el caldo caliente para que el pimentón no se queme.
+      - Cuece 15 minutos a fuego suave y ajusta de sal.
+      - Casca los huevos sobre la sopa, tapa y deja que cuajen 3-4 minutos, con la yema líquida.
+
+  - name: Caldo gallego
+    category: Sopas y cremas
+    difficulty: EASY
+    prep: 15
+    cook: 120
+    servings: 6
+    origin: Galicia
+    notes: Las alubias se remojan la víspera. Los grelos se pueden sustituir por nabizas o berza.
+    tags: [cuchara, invierno]
+    ingredients:
+      - items:
+          - [alubias blancas, 150, g]
+          - [lacón o hueso de jamón, 300, g]
+          - [tocino o unto, 100, g]
+          - [chorizo, 1, null, optional]
+          - [patatas, 4, null]
+          - [grelos, 400, g]
+          - [agua, 2.5, l]
+          - [sal, null, null]
+    steps:
+      - Pon las alubias escurridas, el lacón y el tocino en una olla con el agua fría y lleva a ebullición, retirando la espuma.
+      - Cuece a fuego suave 1 hora y cuarto, hasta que las alubias estén casi tiernas.
+      - Añade las patatas cascadas en trozos, los grelos lavados y troceados y el chorizo.
+      - Cuece 30 minutos más y ajusta de sal. Deja que repose antes de servir; está aún mejor al día siguiente.
+
+  - name: Papas arrugadas con mojo picón
+    category: Verduras
+    difficulty: EASY
+    prep: 15
+    cook: 30
+    servings: 4
+    origin: Canarias
+    notes: En Canarias se usan papas pequeñas de la variedad negra o bonita y pimienta palmera (un pimiento seco). Fuera de allí, sirven las patatas pequeñas y la ñora o el pimiento choricero.
+    tags: [vegana, sin gluten]
+    ingredients:
+      - group: Papas
+        items:
+          - [patatas pequeñas, 1, kg]
+          - [sal gruesa, 100, g]
+      - group: Mojo picón
+        items:
+          - [pimienta palmera o ñoras, 2, null]
+          - [guindilla, 1, null]
+          - [ajo, 4, diente]
+          - [comino en grano, 1, cucharadita]
+          - [pimentón dulce, 1, cucharada]
+          - [vinagre de vino, 3, cucharada]
+          - [aceite de oliva, 150, ml]
+          - [sal gruesa, 1, cucharadita]
+    steps:
+      - Lava las papas sin pelarlas y ponlas en una olla con agua justo para cubrirlas y la sal gruesa.
+      - Cuécelas 20-25 minutos, hasta que estén tiernas. Tira el agua y déjalas en la olla a fuego muy suave, moviéndola, hasta que se sequen y la piel se arrugue y quede blanca de sal.
+      - Para el mojo, hidrata la pimienta palmera en agua caliente 20 minutos y quítale las semillas.
+      - Machaca en un mortero el ajo con la sal y el comino. Añade la pimienta, la guindilla y el pimentón y sigue machacando.
+      - Añade el vinagre y el aceite poco a poco, mezclando hasta que emulsione. Sirve las papas con el mojo.
+
+  - name: Ajoblanco
+    category: Sopas y cremas
+    difficulty: EASY
+    prep: 15
+    cook: 0
+    servings: 4
+    origin: Andalucía
+    notes: Se sirve muy frío, con uvas moscatel o melón.
+    tags: [fría, vegana, verano]
+    utensils: [Batidora]
+    ingredients:
+      - items:
+          - [almendras crudas peladas, 200, g]
+          - [ajo, 1, diente]
+          - [pan del día anterior, 100, g]
+          - [aceite de oliva virgen extra, 150, ml]
+          - [vinagre de Jerez, 3, cucharada]
+          - [agua muy fría, 750, ml]
+          - [sal, 1, cucharadita]
+          - [uvas moscatel, 16, null]
+    steps:
+      - Remoja el pan en agua y escúrrelo.
+      - Tritura las almendras con el ajo, el pan, la sal y un poco de agua hasta tener una pasta fina.
+      - Añade el aceite en hilo sin dejar de triturar para que emulsione. Añade el vinagre y el resto del agua.
+      - Cuela si quieres una textura más fina, ajusta de sal y vinagre y enfría al menos 2 horas.
+      - Sirve con las uvas peladas y un hilo de aceite.
+
+  - name: Empanada gallega de atún
+    category: Panes y masas
+    difficulty: MEDIUM
+    prep: 60
+    cook: 45
+    servings: 8
+    origin: Galicia
+    notes: El aceite del sofrito se usa para la masa, que así toma sabor y color.
+    tags: [al horno, para llevar]
+    utensils: [Horno]
+    ingredients:
+      - group: Relleno
+        items:
+          - [cebollas, 3, null]
+          - [pimiento rojo, 1, null]
+          - [pimiento verde, 1, null]
+          - [ajo, 2, diente]
+          - [tomate triturado, 200, g]
+          - [pimentón dulce, 1, cucharadita]
+          - [aceite de oliva, 150, ml]
+          - [atún en aceite escurrido, 400, g]
+          - [huevos duros, 2, null]
+          - [sal, null, null]
+      - group: Masa
+        items:
+          - [harina de trigo, 500, g]
+          - [levadura fresca de panadería, 10, g]
+          - [agua templada, 150, ml]
+          - [vino blanco, 50, ml]
+          - [aceite del sofrito, 75, ml]
+          - [sal, 1, cucharadita]
+          - [huevo para pintar, 1, null]
+    steps:
+      - group: Relleno
+        items:
+          - Pocha la cebolla, los pimientos y el ajo en tiras en el aceite a fuego suave 30 minutos. Añade el tomate y el pimentón y cuece 10 minutos más. Ajusta de sal.
+          - Escurre el sofrito y reserva 75 ml de su aceite. Mezcla el sofrito con el atún y el huevo duro picado y deja que se enfríe.
+      - group: Masa y montaje
+        items:
+          - Disuelve la levadura en el agua. Mezcla con la harina, la sal, el vino y el aceite reservado y amasa 10 minutos. Deja que repose tapada 30 minutos.
+          - Precalienta el horno a 180 °C. Divide la masa en dos y estira cada parte muy fina.
+          - Forra una bandeja con una lámina, reparte el relleno, cubre con la otra lámina y cierra el borde haciendo un cordón. Haz un agujero en el centro.
+          - Pinta con huevo batido y hornea 40-45 minutos, hasta que esté dorada.
+
+  - name: Migas extremeñas
+    category: Panes y masas
+    difficulty: EASY
+    prep: 15
+    cook: 30
+    servings: 4
+    origin: Extremadura
+    notes: El pan se humedece la víspera y se tapa con un paño. Se acompañan con uvas o un huevo frito.
+    tags: [aprovechamiento, pastor]
+    ingredients:
+      - items:
+          - [pan de hogaza duro, 500, g]
+          - [agua con sal, 150, ml]
+          - [ajo, 6, diente]
+          - [panceta, 150, g]
+          - [chorizo, 150, g]
+          - [pimiento verde, 1, null]
+          - [pimentón dulce, 1, cucharadita]
+          - [aceite de oliva, 100, ml]
+    steps:
+      - Corta el pan en dados pequeños o láminas, rocíalo con el agua con sal, tápalo con un paño húmedo y deja que repose unas horas o toda la noche.
+      - Dora los ajos con piel en el aceite y retíralos. Fríe la panceta y el chorizo en trozos y el pimiento en tiras y retíralos.
+      - Añade el pan al aceite y remueve sin parar a fuego medio, cortándolo con la espumadera, 15-20 minutos, hasta que esté suelto y dorado.
+      - Añade el pimentón, los ajos, la panceta, el chorizo y el pimiento, mezcla y sirve.
+
+  - name: Rabo de toro
+    category: Carnes
+    difficulty: MEDIUM
+    prep: 20
+    cook: 210
+    servings: 4
+    origin: Córdoba
+    notes: En olla exprés tarda unos 60 minutos. Como todos los guisos, mejora de un día para otro.
+    tags: [guiso, invierno]
+    ingredients:
+      - items:
+          - [rabo de toro o de vaca troceado, 1.5, kg]
+          - [harina, 3, cucharada]
+          - [cebollas, 2, null]
+          - [zanahorias, 2, null]
+          - [puerro, 1, null]
+          - [pimiento rojo, 1, null]
+          - [ajo, 4, diente]
+          - [tomates maduros, 2, null]
+          - [vino tinto, 500, ml]
+          - [caldo de carne, 500, ml]
+          - [laurel, 2, hoja]
+          - [aceite de oliva, 6, cucharada]
+          - [sal, null, null]
+          - [pimienta negra, null, null]
+    steps:
+      - Salpimienta el rabo, pásalo por harina y dóralo en el aceite por todos los lados. Retíralo.
+      - En el mismo aceite, pocha las verduras picadas 15 minutos. Añade el tomate rallado y sofríe 5 minutos.
+      - Devuelve el rabo, añade el vino y deja que hierva 5 minutos para que se evapore el alcohol.
+      - Añade el caldo y el laurel, tapa y cuece a fuego muy suave 3 horas, hasta que la carne se separe del hueso.
+      - Retira la carne, tritura y cuela la salsa y vuelve a juntarlo todo.
+
+  - name: Torrijas
+    category: Postres
+    difficulty: EASY
+    prep: 15
+    cook: 20
+    servings: 6
+    notes: El dulce de Semana Santa. El pan de torrijas, más denso, aguanta mejor el remojo.
+    tags: [postre, semana santa, fritura]
+    ingredients:
+      - items:
+          - [pan de torrijas o barra del día anterior, 1, null]
+          - [leche entera, 1, l]
+          - [azúcar, 100, g]
+          - [canela en rama, 1, null]
+          - [piel de limón, 1, trozo]
+          - [huevos, 3, null]
+          - [aceite de oliva suave para freír, null, null]
+          - [azúcar para rebozar, 100, g]
+          - [canela molida, 1, cucharada]
+    steps:
+      - Calienta la leche con el azúcar, la canela y la piel de limón sin que hierva. Apaga el fuego y deja que infusione hasta que se temple.
+      - Corta el pan en rebanadas de 2 cm y empápalas en la leche, sin que se rompan.
+      - Pásalas por el huevo batido y fríelas en aceite caliente hasta que estén doradas por los dos lados.
+      - Escúrrelas y rebózalas en el azúcar mezclado con la canela.
+
+  - name: Arroz con leche
+    category: Postres
+    difficulty: EASY
+    prep: 5
+    cook: 70
+    servings: 6
+    origin: Asturias
+    notes: El secreto es la cocción lenta y remover a menudo. En Asturias se termina quemando el azúcar por encima.
+    tags: [postre, sin gluten]
+    ingredients:
+      - items:
+          - [arroz redondo, 150, g]
+          - [leche entera, 1.5, l]
+          - [azúcar, 150, g]
+          - [piel de limón, 1, trozo]
+          - [canela en rama, 1, null]
+          - [mantequilla, 20, g]
+          - [canela molida, null, null]
+    steps:
+      - Lleva la leche a ebullición con la piel de limón y la canela.
+      - Añade el arroz y cuece a fuego muy suave 1 hora, removiendo a menudo para que no se pegue.
+      - Añade el azúcar y la mantequilla y cuece 10 minutos más, removiendo, hasta que esté cremoso.
+      - Retira la canela y el limón, reparte en cuencos y espolvorea canela molida. Se sirve frío o templado.
+
+  - name: Tarta de Santiago
+    category: Postres
+    difficulty: EASY
+    prep: 15
+    cook: 40
+    servings: 8
+    origin: Galicia
+    notes: La cruz de Santiago se dibuja con azúcar glas y una plantilla de papel.
+    tags: [postre, sin gluten, almendra]
+    utensils: [Horno]
+    ingredients:
+      - items:
+          - [almendra molida, 250, g]
+          - [azúcar, 250, g]
+          - [huevos, 5, null]
+          - [ralladura de limón, 1, cucharadita]
+          - [canela molida, 0.5, cucharadita]
+          - [mantequilla para el molde, 10, g]
+          - [azúcar glas, 2, cucharada]
+    steps:
+      - Precalienta el horno a 180 °C y engrasa un molde de 24 cm.
+      - Bate los huevos con el azúcar hasta que blanqueen.
+      - Añade la almendra, la ralladura y la canela y mezcla con una espátula.
+      - Vierte en el molde y hornea 35-40 minutos, hasta que esté dorada y un palillo salga limpio.
+      - Deja que se enfríe, coloca la plantilla de la cruz en el centro y espolvorea el azúcar glas.

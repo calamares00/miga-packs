@@ -1,0 +1,617 @@
+id: american-cooking
+version: 1
+updated: 2026-10-31
+language: en
+name: "World cuisine: United States"
+description: >-
+  American home cooking, from the South to New England: mac and cheese, pulled pork, fried
+  chicken, clam chowder, chili, cornbread, pancakes, meatloaf, jambalaya, gumbo, coleslaw, apple
+  pie, chocolate chip cookies, New York cheesecake, cheesesteak, Cobb salad and key lime pie. With
+  measurements in grams.
+author: Miga
+authorGithub: calamares00
+cover:
+  emoji: "🌭"
+  kicker: World cuisine
+  title: United States
+  colors: ["#1d4ed8", "#b91c1c"]
+defaults:
+  origin: United States
+  originCountry: US
+  source: "Miga «World cuisine: United States» pack"
+recipes:
+
+  - name: Mac and cheese
+    category: Pasta
+    difficulty: EASY
+    prep: 15
+    cook: 30
+    servings: 4
+    notes: The cheese goes in off the heat so the sauce doesn't split.
+    tags: [pasta, baked, kids]
+    utensils: [Oven]
+    ingredients:
+      - items:
+          - [macaroni, 300, g]
+          - [butter, 40, g]
+          - [plain flour, 30, g]
+          - [whole milk, 700, ml]
+          - [grated Cheddar, 250, g]
+          - [mustard powder, 0.5, tsp]
+          - [sweet paprika, 0.5, tsp]
+          - [breadcrumbs, 30, g]
+          - [salt, null, null]
+    steps:
+      - Preheat the oven to 190 °C. Cook the pasta for 2 minutes less than the packet says and drain.
+      - Melt the butter, add the flour and cook for 1 minute. Whisk in the milk little by little and cook until thick.
+      - Off the heat, add the mustard, paprika, salt and 200 g of the Cheddar and stir until melted.
+      - Mix with the pasta, tip into a dish and top with the rest of the cheese and the breadcrumbs.
+      - Bake for 20 minutes, until golden and bubbling.
+
+  - name: Pulled pork
+    category: Meat
+    difficulty: EASY
+    prep: 20
+    cook: 360
+    servings: 8
+    origin: Southern United States
+    notes: Traditionally smoked; this oven version is the most common at home. In a slow cooker, 8 hours on low.
+    tags: [barbecue, pork]
+    utensils: [Oven]
+    ingredients:
+      - group: Meat
+        items:
+          - [boneless pork shoulder, 2, kg]
+          - [cider vinegar, 100, ml]
+          - [chicken stock, 200, ml]
+      - group: Dry rub
+        items:
+          - [brown sugar, 2, tbsp]
+          - [smoked paprika, 2, tbsp]
+          - [garlic powder, 1, tsp]
+          - [onion powder, 1, tsp]
+          - [ground cumin, 1, tsp]
+          - [salt, 1, tbsp]
+          - [black pepper, 1, tsp]
+      - group: To serve
+        items:
+          - [barbecue sauce, 200, ml]
+          - [burger buns, 8, null]
+          - [coleslaw, null, null, optional]
+    steps:
+      - Mix the rub, rub it all over the meat and, if you can, leave it in the fridge overnight.
+      - Preheat the oven to 150 °C. Put the meat in a casserole with the vinegar and stock, cover and bake for 5-6 hours, until it falls apart with a fork.
+      - Shred the meat with two forks, discarding the fat, and mix with some of the juices and the barbecue sauce.
+      - Serve in the buns with coleslaw.
+
+  - name: Southern fried chicken
+    category: Meat
+    difficulty: MEDIUM
+    prep: 20
+    cook: 30
+    servings: 4
+    origin: Southern United States
+    notes: Buttermilk tenderises the meat. You can use milk with a tablespoon of lemon juice instead. Marinate for at least 4 hours.
+    tags: [fried, chicken]
+    ingredients:
+      - group: Marinade
+        items:
+          - [chicken pieces, 1.2, kg]
+          - [buttermilk, 500, ml]
+          - [hot sauce, 1, tbsp]
+          - [salt, 2, tsp]
+      - group: Coating
+        items:
+          - [plain flour, 300, g]
+          - [baking powder, 1, tsp]
+          - [sweet paprika, 2, tsp]
+          - [garlic powder, 1, tsp]
+          - [onion powder, 1, tsp]
+          - [cayenne pepper, 0.5, tsp]
+          - [black pepper, 1, tsp]
+          - [salt, 2, tsp]
+          - [sunflower oil for frying, null, null]
+    steps:
+      - Marinate the chicken in the buttermilk with the hot sauce and salt in the fridge for at least 4 hours.
+      - Mix the coating ingredients. Add 3 tablespoons of the marinade and rub with your fingers to form small clumps.
+      - Drain each piece of chicken, press it firmly into the coating and leave it for 10 minutes.
+      - Fry in batches in oil at 165 °C for 12-15 minutes, turning, until golden and 75 °C inside.
+      - Drain on a rack.
+
+  - name: New England clam chowder
+    category: Soups
+    difficulty: MEDIUM
+    prep: 20
+    cook: 35
+    servings: 4
+    origin: New England
+    notes: Served with oyster crackers or saltines.
+    tags: [soup, seafood]
+    ingredients:
+      - items:
+          - [clams, 1.5, kg]
+          - [water, 250, ml]
+          - [smoked bacon, 100, g]
+          - [onion, 1, null]
+          - [celery, 2, stick]
+          - [potatoes, 500, g]
+          - [butter, 30, g]
+          - [plain flour, 30, g]
+          - [whole milk, 500, ml]
+          - [single cream, 200, ml]
+          - [dried thyme, 0.5, tsp]
+          - [bay leaf, 1, null]
+          - [salt, null, null]
+          - [black pepper, null, null]
+    steps:
+      - Put the clams and water in a covered pot over a high heat until they open. Take out the meat, chop it and strain the liquid.
+      - Brown the diced bacon in the butter. Add the chopped onion and celery and cook gently for 8 minutes.
+      - Sprinkle in the flour, stir for 1 minute and add the clam liquid, diced potatoes, thyme and bay leaf. Simmer for 15 minutes.
+      - Add the milk and cream and heat without boiling for 5 minutes. Add the clams, season and serve.
+
+  - name: Chili con carne
+    category: Meat
+    difficulty: EASY
+    prep: 15
+    cook: 120
+    servings: 6
+    origin: Texas
+    notes: American chili powder is a blend of dried chillies with cumin and oregano. It is better the next day.
+    tags: [stew, spicy]
+    ingredients:
+      - items:
+          - [minced beef, 750, g]
+          - [onions, 2, null]
+          - [garlic, 4, clove]
+          - [red pepper, 1, null]
+          - [chili powder, 2, tbsp]
+          - [ground cumin, 2, tsp]
+          - [dried oregano, 1, tsp]
+          - [smoked paprika, 1, tsp]
+          - [crushed tomatoes, 800, g]
+          - [tomato purée, 2, tbsp]
+          - [cooked kidney beans, 400, g]
+          - [beef stock, 250, ml]
+          - [dark chocolate, 15, g, optional]
+          - [sunflower oil, 2, tbsp]
+          - [salt, null, null]
+    steps:
+      - Brown the meat in the oil over a high heat, in batches, and take it out.
+      - Gently cook the chopped onion, garlic and pepper for 8 minutes. Add the spices and fry for 1 minute.
+      - Return the meat, add the tomatoes, tomato purée and stock and simmer, half covered, for 1½ hours.
+      - Add the beans and chocolate and simmer for 20 more minutes. Season with salt and serve with grated cheese, onion or soured cream.
+
+  - name: Cornbread
+    category: Breads and doughs
+    difficulty: EASY
+    prep: 10
+    cook: 25
+    servings: 8
+    origin: Southern United States
+    notes: Bake it in a preheated cast-iron skillet for crisp edges.
+    tags: [bread, baked]
+    utensils: [Oven]
+    ingredients:
+      - items:
+          - [cornmeal, 150, g]
+          - [plain flour, 125, g]
+          - [sugar, 50, g]
+          - [baking powder, 1, tbsp]
+          - [salt, 1, tsp]
+          - [eggs, 2, null]
+          - [buttermilk, 250, ml]
+          - [melted butter, 80, g]
+    steps:
+      - Preheat the oven to 200 °C with the cast-iron skillet or a 20 cm tin inside.
+      - Mix the cornmeal, flour, sugar, baking powder and salt.
+      - Whisk the eggs with the buttermilk and most of the butter and stir into the dry ingredients without overmixing.
+      - Brush the hot tin with the rest of the butter, pour in the batter and bake for 20-25 minutes, until golden.
+
+  - name: Pancakes
+    category: Breads and doughs
+    difficulty: EASY
+    prep: 10
+    cook: 15
+    servings: 4
+    notes: A few lumps in the batter are fine; overmixing makes them tough.
+    tags: [breakfast, sweet]
+    ingredients:
+      - items:
+          - [plain flour, 200, g]
+          - [sugar, 2, tbsp]
+          - [baking powder, 2, tsp]
+          - [bicarbonate of soda, 0.5, tsp]
+          - [salt, 1, pinch]
+          - [buttermilk, 350, ml]
+          - [egg, 1, null]
+          - [melted butter, 40, g]
+          - [maple syrup, null, null]
+    steps:
+      - Mix the flour, sugar, baking powder, bicarbonate and salt.
+      - Whisk the buttermilk with the egg and butter and stir into the dry ingredients just until combined.
+      - Heat a non-stick frying pan over a medium heat and pour in a small ladle of batter per pancake.
+      - When bubbles appear on the surface, flip and cook for 1 more minute.
+      - Serve stacked with butter and maple syrup.
+
+  - name: Meatloaf
+    category: Meat
+    difficulty: EASY
+    prep: 20
+    cook: 60
+    servings: 6
+    notes: Let it rest for 10 minutes before slicing so it doesn't crumble.
+    tags: [baked, home-style]
+    utensils: [Oven]
+    ingredients:
+      - group: Meatloaf
+        items:
+          - [mixed minced meat, 900, g]
+          - [onion, 1, null]
+          - [garlic, 2, clove]
+          - [breadcrumbs, 60, g]
+          - [milk, 120, ml]
+          - [eggs, 2, null]
+          - [Worcestershire sauce, 1, tbsp]
+          - [ketchup, 2, tbsp]
+          - [chopped parsley, 2, tbsp]
+          - [salt, 1.5, tsp]
+          - [black pepper, 0.5, tsp]
+      - group: Glaze
+        items:
+          - [ketchup, 120, g]
+          - [brown sugar, 2, tbsp]
+          - [cider vinegar, 1, tbsp]
+    steps:
+      - Preheat the oven to 180 °C. Soak the breadcrumbs in the milk.
+      - Mix the meat with the very finely chopped onion and garlic, the breadcrumbs, eggs, Worcestershire sauce, ketchup, parsley, salt and pepper, without overworking.
+      - Shape into a loaf on a tray lined with baking paper.
+      - Mix the glaze ingredients and brush the loaf with half.
+      - Bake for 45 minutes, brush with the rest of the glaze and bake for 15 more minutes.
+
+  - name: Jambalaya
+    category: Rice
+    difficulty: MEDIUM
+    prep: 20
+    cook: 40
+    servings: 6
+    origin: Louisiana
+    notes: The base of onion, green pepper and celery is called the "holy trinity" of Creole cooking. Andouille can be replaced with another smoked sausage.
+    tags: [rice, spicy]
+    ingredients:
+      - items:
+          - [andouille sausage, 300, g]
+          - [boneless chicken thighs, 400, g]
+          - [peeled prawns, 300, g]
+          - [onion, 1, null]
+          - [green pepper, 1, null]
+          - [celery, 2, stick]
+          - [garlic, 3, clove]
+          - [crushed tomatoes, 400, g]
+          - [long-grain rice, 300, g]
+          - [chicken stock, 750, ml]
+          - [Cajun seasoning, 2, tsp]
+          - [dried thyme, 1, tsp]
+          - [bay leaves, 2, null]
+          - [spring onions, 2, null]
+          - [sunflower oil, 2, tbsp]
+    steps:
+      - Brown the sliced sausage and the chicken pieces in the oil. Take them out.
+      - Gently cook the chopped onion, pepper, celery and garlic for 8 minutes.
+      - Add the Cajun seasoning, thyme, bay leaves, tomatoes and rice and stir for 2 minutes.
+      - Return the meat, add the stock, cover and simmer for 20 minutes, without stirring.
+      - Lay the prawns on top, cover and cook for 5 more minutes. Serve with chopped spring onion.
+
+  - name: Chicken and sausage gumbo
+    category: Soups
+    difficulty: HARD
+    prep: 30
+    cook: 120
+    servings: 6
+    origin: Louisiana
+    notes: The dark, chocolate-coloured roux gives gumbo its flavour and body. Stir it constantly and don't let it burn.
+    tags: [stew, spicy]
+    ingredients:
+      - items:
+          - [sunflower oil, 80, ml]
+          - [plain flour, 80, g]
+          - [onion, 1, null]
+          - [green pepper, 1, null]
+          - [celery, 2, stick]
+          - [garlic, 4, clove]
+          - [andouille sausage, 300, g]
+          - [chicken thighs, 600, g]
+          - [chicken stock, 1.5, l]
+          - [Cajun seasoning, 2, tsp]
+          - [bay leaves, 2, null]
+          - [dried thyme, 1, tsp]
+          - [okra, 200, g, optional]
+          - [spring onions, 2, null]
+          - [cooked white rice, 600, g]
+    steps:
+      - Make the roux by heating the oil with the flour over a medium-low heat, stirring constantly for 30-40 minutes, until it is chocolate brown.
+      - Add the chopped onion, pepper, celery and garlic and cook for 5 minutes.
+      - Add the stock little by little, stirring, then the chicken, sliced sausage, Cajun seasoning, bay leaves and thyme.
+      - Simmer for 1 hour. Take out the chicken, shred it and return it to the pot with the sliced okra. Simmer for 20 more minutes.
+      - Serve in bowls over white rice with chopped spring onion.
+
+  - name: Coleslaw
+    category: Salads
+    difficulty: EASY
+    prep: 15
+    cook: 0
+    servings: 6
+    notes: The classic side for barbecue and fried chicken.
+    tags: [side, vegetarian]
+    ingredients:
+      - group: Salad
+        items:
+          - [white cabbage, 0.5, null]
+          - [red cabbage, 0.25, null]
+          - [carrots, 2, null]
+      - group: Dressing
+        items:
+          - [mayonnaise, 150, g]
+          - [cider vinegar, 2, tbsp]
+          - [sugar, 1, tbsp]
+          - [mustard, 1, tsp]
+          - [salt, 0.5, tsp]
+          - [black pepper, null, null]
+    steps:
+      - Very finely shred the cabbages and grate the carrots.
+      - Mix the dressing ingredients.
+      - Toss everything together and chill for at least 30 minutes before serving.
+
+  - name: Apple pie
+    category: Desserts
+    difficulty: MEDIUM
+    prep: 60
+    cook: 60
+    servings: 8
+    notes: The butter for the pastry must be very cold so it turns out flaky. Let the pie cool for 2 hours before cutting.
+    tags: [dessert, baked]
+    utensils: [Oven]
+    ingredients:
+      - group: Pastry
+        items:
+          - [plain flour, 375, g]
+          - [very cold diced butter, 250, g]
+          - [sugar, 1, tbsp]
+          - [salt, 1, tsp]
+          - [iced water, 120, ml]
+      - group: Filling
+        items:
+          - [Granny Smith or Golden apples, 1.2, kg]
+          - [sugar, 120, g]
+          - [ground cinnamon, 1, tsp]
+          - [nutmeg, 1, pinch]
+          - [lemon juice, 1, tbsp]
+          - [cornflour, 3, tbsp]
+          - [butter, 20, g]
+          - [egg for brushing, 1, null]
+    steps:
+      - Mix the flour, sugar and salt. Add the butter and rub it in with your fingers until the pieces are the size of peas.
+      - Add the water little by little until the dough comes together. Divide into two discs, wrap and chill for 1 hour.
+      - Peel and slice the apples and toss with the sugar, cinnamon, nutmeg, lemon and cornflour.
+      - Preheat the oven to 200 °C. Roll out one disc and line a 23 cm pie dish. Fill, dot with the butter and cover with the other disc. Seal the edges and cut a few slits.
+      - Brush with egg and bake for 20 minutes. Lower to 180 °C and bake for 40 more minutes, until golden and the juices bubble.
+
+  - name: Chocolate chip cookies
+    category: Desserts
+    difficulty: EASY
+    prep: 15
+    cook: 12
+    servings: 20
+    notes: Take them out of the oven while the centres still look soft; they firm up as they cool.
+    tags: [dessert, chocolate]
+    utensils: [Oven]
+    ingredients:
+      - items:
+          - [softened butter, 115, g]
+          - [brown sugar, 100, g]
+          - [white sugar, 50, g]
+          - [egg, 1, null]
+          - [vanilla extract, 1, tsp]
+          - [plain flour, 190, g]
+          - [bicarbonate of soda, 0.5, tsp]
+          - [salt, 0.5, tsp]
+          - [chocolate chips, 170, g]
+    steps:
+      - Preheat the oven to 180 °C.
+      - Beat the butter with both sugars until creamy. Add the egg and vanilla.
+      - Mix in the flour, bicarbonate and salt, then the chocolate chips.
+      - Shape tablespoon-sized balls and space them out on trays lined with baking paper.
+      - Bake for 10-12 minutes, until the edges are golden. Leave to cool on the tray for 5 minutes.
+
+  - name: New York cheesecake
+    category: Desserts
+    difficulty: MEDIUM
+    prep: 20
+    cook: 60
+    servings: 10
+    origin: New York
+    notes: It cools in the switched-off oven and then for at least 6 hours in the fridge, so it doesn't crack.
+    tags: [dessert, baked]
+    utensils: [Oven]
+    ingredients:
+      - group: Base
+        items:
+          - [digestive biscuits, 200, g]
+          - [melted butter, 80, g]
+      - group: Filling
+        items:
+          - [cream cheese at room temperature, 900, g]
+          - [sugar, 200, g]
+          - [plain flour, 3, tbsp]
+          - [vanilla extract, 1, tsp]
+          - [lemon zest, 1, tsp]
+          - [eggs, 4, null]
+          - [soured cream, 200, g]
+    steps:
+      - Preheat the oven to 175 °C. Crush the biscuits, mix with the butter and press into the base of a 23 cm springform tin. Bake for 10 minutes.
+      - Lower the oven to 160 °C. Beat the cheese with the sugar and flour on low speed, without whipping in air. Add the vanilla, zest and eggs one at a time, and finally the soured cream.
+      - Pour onto the base and bake for 60 minutes, until the edges are set and the centre still wobbles.
+      - Turn off the oven and leave the cheesecake inside, with the door ajar, for 1 hour. Chill for at least 6 hours.
+
+  - name: Philly cheesesteak
+    category: Meat
+    difficulty: EASY
+    prep: 15
+    cook: 15
+    servings: 4
+    origin: Philadelphia
+    notes: Freeze the beef for 30 minutes so you can slice it wafer-thin.
+    tags: [sandwich, beef]
+    ingredients:
+      - items:
+          - [beef sirloin or rib-eye, 500, g]
+          - [onions, 2, null]
+          - [green pepper, 1, null, optional]
+          - [provolone cheese, 8, slice]
+          - [hoagie rolls, 4, null]
+          - [sunflower oil, 2, tbsp]
+          - [salt, null, null]
+          - [black pepper, null, null]
+    steps:
+      - Slice the beef wafer-thin and cut the onion and pepper into strips.
+      - Cook the onion and pepper in half the oil for 10 minutes, until golden. Push them aside.
+      - Stir-fry the beef in the rest of the oil over a very high heat for 2 minutes, chopping it with the spatula. Season and mix with the onion.
+      - Divide into four piles, top each with 2 slices of provolone and let it melt.
+      - Open the rolls, lay them over the cheese and flip with the spatula to fill them.
+
+  - name: Cobb salad
+    category: Salads
+    difficulty: EASY
+    prep: 20
+    cook: 15
+    servings: 4
+    origin: Los Angeles
+    notes: The ingredients are laid out in rows on the lettuce and tossed at the table.
+    tags: [salad]
+    ingredients:
+      - group: Salad
+        items:
+          - [romaine lettuce, 1, null]
+          - [chicken breasts, 2, null]
+          - [bacon, 6, slice]
+          - [hard-boiled eggs, 3, null]
+          - [avocado, 1, null]
+          - [tomatoes, 2, null]
+          - [blue cheese, 80, g]
+          - [chopped chives, 2, tbsp]
+      - group: Vinaigrette
+        items:
+          - [olive oil, 6, tbsp]
+          - [red wine vinegar, 2, tbsp]
+          - [Dijon mustard, 1, tsp]
+          - [Worcestershire sauce, 0.5, tsp]
+          - [salt, null, null]
+          - [black pepper, null, null]
+    steps:
+      - Griddle the chicken and dice it. Fry the bacon until crisp and break it up.
+      - Dice the eggs, avocado and tomatoes and crumble the cheese.
+      - Chop the lettuce and spread it on a platter. Arrange each ingredient on top in a row.
+      - Mix the vinaigrette ingredients, drizzle over the salad and sprinkle with the chives.
+
+  - name: Deviled eggs
+    category: Eggs
+    difficulty: EASY
+    prep: 15
+    cook: 12
+    servings: 6
+    notes: A must at family gatherings and picnics.
+    tags: [snack, gluten-free]
+    ingredients:
+      - items:
+          - [eggs, 6, null]
+          - [mayonnaise, 3, tbsp]
+          - [mustard, 1, tsp]
+          - [cider vinegar, 1, tsp]
+          - [salt, null, null]
+          - [paprika, null, null]
+          - [chopped chives, 1, tbsp]
+    steps:
+      - Boil the eggs for 10-11 minutes, cool them in iced water and peel.
+      - Halve them lengthways and scoop out the yolks.
+      - Mash the yolks with the mayonnaise, mustard, vinegar and salt until smooth.
+      - Pipe or spoon the filling into the whites and sprinkle with paprika and chives.
+
+  - name: Boston baked beans
+    category: Legumes
+    difficulty: EASY
+    prep: 15
+    cook: 300
+    servings: 8
+    origin: Boston
+    notes: Soak the beans the night before. Molasses gives them their colour and sweet flavour.
+    tags: [stew, baked]
+    utensils: [Oven]
+    ingredients:
+      - items:
+          - [dried navy or haricot beans, 450, g]
+          - [bacon or salt pork, 150, g]
+          - [onion, 1, null]
+          - [molasses, 80, ml]
+          - [brown sugar, 2, tbsp]
+          - [mustard powder, 1, tsp]
+          - [salt, 1, tsp]
+          - [black pepper, 0.5, tsp]
+    steps:
+      - Simmer the drained beans in water for 1 hour, until the skins split when you blow on them. Drain, keeping the water.
+      - Preheat the oven to 150 °C. Put half the bacon, the whole onion and the beans in a casserole and top with the rest of the bacon.
+      - Mix the molasses, sugar, mustard, salt and pepper with 500 ml of the hot cooking water and pour over the beans.
+      - Cover and bake for 4 hours, adding water if they dry out. Uncover for the last hour so they brown.
+
+  - name: Banana bread
+    category: Desserts
+    difficulty: EASY
+    prep: 15
+    cook: 60
+    servings: 10
+    notes: The riper the bananas, with almost black skins, the better.
+    tags: [dessert, breakfast, leftovers]
+    utensils: [Oven]
+    ingredients:
+      - items:
+          - [very ripe bananas, 3, null]
+          - [melted butter, 80, g]
+          - [brown sugar, 120, g]
+          - [egg, 1, null]
+          - [vanilla extract, 1, tsp]
+          - [bicarbonate of soda, 1, tsp]
+          - [salt, 1, pinch]
+          - [plain flour, 190, g]
+          - [chopped walnuts, 60, g, optional]
+    steps:
+      - Preheat the oven to 175 °C and grease a loaf tin.
+      - Mash the bananas with a fork and mix with the butter, sugar, egg and vanilla.
+      - Add the bicarbonate, salt and flour and mix just enough. Fold in the walnuts.
+      - Pour into the tin and bake for 55-60 minutes, until a skewer comes out clean. Let it cool before turning out.
+
+  - name: Key lime pie
+    category: Desserts
+    difficulty: EASY
+    prep: 20
+    cook: 25
+    servings: 8
+    origin: Florida
+    notes: It needs at least 4 hours in the fridge.
+    tags: [dessert, baked]
+    utensils: [Oven]
+    ingredients:
+      - group: Base
+        items:
+          - [digestive biscuits, 200, g]
+          - [melted butter, 80, g]
+          - [sugar, 2, tbsp]
+      - group: Filling
+        items:
+          - [condensed milk, 400, g]
+          - [egg yolks, 4, null]
+          - [lime juice, 120, ml]
+          - [lime zest, 1, tbsp]
+          - [whipping cream, 200, ml, optional]
+    steps:
+      - Preheat the oven to 175 °C. Crush the biscuits, mix with the butter and sugar and press into a 23 cm pie dish. Bake for 10 minutes.
+      - Whisk the yolks with the zest, add the condensed milk and then the lime juice.
+      - Pour the filling over the base and bake for 15 minutes, until set but still wobbly in the middle.
+      - Let it cool and chill for at least 4 hours. Serve with whipped cream.

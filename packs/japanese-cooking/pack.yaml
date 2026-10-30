@@ -1,0 +1,569 @@
+id: japanese-cooking
+version: 1
+updated: 2026-10-31
+language: en
+name: "World cuisine: Japan"
+description: >-
+  Japanese home cooking: miso soup, chicken teriyaki, gyoza, ramen, tonkatsu, oyakodon, onigiri,
+  tamagoyaki, okonomiyaki, yakitori, tempura, maki rolls, karaage, nikujaga, yakisoba, gyudon,
+  Japanese curry and dorayaki. With dashi and the basic sauces explained step by step.
+author: Miga
+authorGithub: calamares00
+cover:
+  emoji: "🍣"
+  kicker: World cuisine
+  title: Japan
+  colors: ["#9f1239", "#e11d48"]
+defaults:
+  origin: Japan
+  originCountry: JP
+  source: "Miga «World cuisine: Japan» pack"
+recipes:
+
+  - name: Miso soup
+    category: Soups
+    difficulty: EASY
+    prep: 10
+    cook: 15
+    servings: 4
+    notes: Miso should never boil, or it loses its aroma. In a hurry, use instant dashi dissolved in water.
+    tags: [soup, dashi]
+    ingredients:
+      - group: Dashi
+        items:
+          - [water, 1, l]
+          - [kombu seaweed, 10, g]
+          - [dried bonito flakes (katsuobushi), 15, g]
+      - group: Soup
+        items:
+          - [miso, 3, tbsp]
+          - [silken tofu, 150, g]
+          - [dried wakame seaweed, 1, tbsp]
+          - [spring onion, 1, null]
+    steps:
+      - Soak the kombu in the water for 30 minutes. Heat gently and take it out just before the water boils.
+      - Add the katsuobushi, let it boil for 1 minute, turn off the heat and leave for 5 minutes. Strain.
+      - Soak the wakame in water for 5 minutes and drain.
+      - Heat the dashi without boiling and add the cubed tofu and the wakame.
+      - Dissolve the miso in a ladle of hot dashi, stir it into the soup and turn off the heat. Serve with chopped spring onion.
+
+  - name: Chicken teriyaki
+    category: Meat
+    difficulty: EASY
+    prep: 5
+    cook: 15
+    servings: 2
+    tags: [chicken, quick]
+    ingredients:
+      - items:
+          - [boneless skin-on chicken thighs, 2, null]
+          - [soy sauce, 3, tbsp]
+          - [mirin, 3, tbsp]
+          - [sake, 2, tbsp]
+          - [sugar, 1, tbsp]
+          - [sunflower oil, 1, tsp]
+          - [toasted sesame seeds, 1, tsp, optional]
+    steps:
+      - Mix the soy sauce, mirin, sake and sugar.
+      - Prick the chicken skin with a fork and lay it skin side down in a frying pan with the oil over a medium heat for 6-7 minutes, until the skin is golden and crisp.
+      - Turn it over and cook for 4 more minutes. Pour off the fat it has released.
+      - Add the sauce and let it bubble, turning the chicken, until glazed and glossy.
+      - Slice and serve with rice, topped with sesame seeds.
+
+  - name: Gyoza
+    category: Starters
+    difficulty: MEDIUM
+    prep: 40
+    cook: 10
+    servings: 4
+    tags: [dumplings]
+    ingredients:
+      - group: Gyoza
+        items:
+          - [gyoza wrappers, 30, null]
+          - [minced pork, 250, g]
+          - [Chinese cabbage, 200, g]
+          - [chives or spring onion, 2, tbsp]
+          - [garlic, 1, clove]
+          - [grated fresh ginger, 1, tsp]
+          - [soy sauce, 1, tbsp]
+          - [sesame oil, 1, tsp]
+          - [salt, 0.5, tsp]
+          - [sunflower oil, 2, tbsp]
+      - group: Dipping sauce
+        items:
+          - [soy sauce, 3, tbsp]
+          - [rice vinegar, 2, tbsp]
+          - [rayu (chilli oil), 0.5, tsp, optional]
+    steps:
+      - Very finely chop the cabbage, salt it, leave for 10 minutes and squeeze out the water.
+      - Mix the pork with the cabbage, chives, garlic, ginger, soy sauce and sesame oil.
+      - Put a teaspoon of filling on each wrapper, wet the edge and seal it, pleating one side only.
+      - Put the gyoza in a frying pan with the hot oil and fry for 2 minutes, until the bases are golden.
+      - Add 80 ml of water, cover straight away and steam for 4-5 minutes. Uncover and let the water evaporate so the bases crisp up again.
+      - Serve with the mixed dipping sauce.
+
+  - name: Shoyu ramen
+    category: Soups
+    difficulty: MEDIUM
+    prep: 20
+    cook: 30
+    servings: 4
+    notes: The eggs (ajitama) are marinated the day before. A simpler home version than restaurant ramen, whose broth simmers for hours.
+    tags: [soup, noodles]
+    ingredients:
+      - group: Marinated eggs
+        items:
+          - [eggs, 4, null]
+          - [soy sauce, 4, tbsp]
+          - [mirin, 4, tbsp]
+          - [water, 4, tbsp]
+      - group: Broth
+        items:
+          - [chicken stock, 1.5, l]
+          - [dashi, 500, ml]
+          - [fresh ginger, 3, cm]
+          - [garlic, 2, clove]
+          - [soy sauce, 6, tbsp]
+          - [mirin, 2, tbsp]
+          - [sesame oil, 1, tbsp]
+      - group: To serve
+        items:
+          - [ramen noodles, 4, portion]
+          - [sliced roast pork or chashu, 300, g]
+          - [bamboo shoots (menma), 100, g, optional]
+          - [nori seaweed, 2, sheet]
+          - [spring onions, 2, null]
+    steps:
+      - group: Marinated eggs
+        items:
+          - Boil the eggs for 6½ minutes and plunge them into iced water. Peel them.
+          - Put them in a bag with the soy sauce, mirin and water and leave in the fridge for at least 8 hours.
+      - group: Ramen
+        items:
+          - Simmer the chicken stock and dashi with the ginger and crushed garlic for 20 minutes. Strain.
+          - Put 1½ tablespoons of soy sauce, half a tablespoon of mirin and a dash of sesame oil in each bowl.
+          - Cook the noodles as directed on the packet and drain well.
+          - Fill the bowls with the hot broth, add the noodles and top with the pork, a halved egg, bamboo shoots, half a sheet of nori and spring onion.
+
+  - name: Tonkatsu
+    category: Meat
+    difficulty: EASY
+    prep: 15
+    cook: 10
+    servings: 2
+    tags: [fried, pork]
+    ingredients:
+      - items:
+          - [boneless pork loin chops 2 cm thick, 2, null]
+          - [flour, 3, tbsp]
+          - [egg, 1, null]
+          - [panko breadcrumbs, 80, g]
+          - [sunflower oil for frying, null, null]
+          - [white cabbage, 0.25, null]
+          - [tonkatsu sauce, 4, tbsp]
+          - [salt, null, null]
+          - [black pepper, null, null]
+    steps:
+      - Snip the fat around the edge of the chops so they don't curl. Season them.
+      - Coat in flour, beaten egg and panko, pressing firmly.
+      - Fry in oil at 170 °C for 3 minutes on each side, until golden. Rest for 2 minutes on a rack.
+      - Slice and serve with very finely shredded cabbage and the tonkatsu sauce.
+
+  - name: Oyakodon
+    category: Rice
+    difficulty: EASY
+    prep: 10
+    cook: 15
+    servings: 2
+    notes: The name means "parent and child bowl", for the chicken and the egg.
+    tags: [rice, chicken, donburi]
+    ingredients:
+      - items:
+          - [cooked Japanese rice, 400, g]
+          - [boneless chicken thigh, 1, null]
+          - [onion, 0.5, null]
+          - [eggs, 3, null]
+          - [dashi, 150, ml]
+          - [soy sauce, 2, tbsp]
+          - [mirin, 2, tbsp]
+          - [sugar, 1, tsp]
+          - [spring onion or mitsuba, 1, null]
+    steps:
+      - Cut the chicken into small pieces and the onion into thin slices.
+      - Heat the dashi with the soy sauce, mirin and sugar in a small frying pan. Add the onion and chicken and simmer for 5-6 minutes.
+      - Lightly beat the eggs, without fully mixing them, and pour over the chicken in two goes.
+      - Cover and cook for 1 minute, until the egg is set but still soft.
+      - Slide it over the hot rice and finish with the spring onion.
+
+  - name: Onigiri
+    category: Rice
+    difficulty: EASY
+    prep: 20
+    cook: 0
+    servings: 4
+    notes: Shape them while the rice is still warm, with wet, salted hands so it doesn't stick.
+    tags: [rice, packed lunch]
+    ingredients:
+      - items:
+          - [cooked Japanese rice, 600, g]
+          - [cooked flaked salmon, 100, g]
+          - [umeboshi (pickled plum), 2, null, optional]
+          - [tinned tuna with mayonnaise, 2, tbsp, optional]
+          - [nori seaweed, 2, sheet]
+          - [salt, null, null]
+    steps:
+      - Wet your hands and rub them with a little salt.
+      - Take a handful of warm rice, make a dip in the middle and add a teaspoon of filling.
+      - Close the rice over the filling and shape it into a triangle, pressing firmly without squashing.
+      - Wrap the base with a strip of nori just before eating so it stays crisp.
+
+  - name: Tamagoyaki
+    category: Eggs
+    difficulty: MEDIUM
+    prep: 5
+    cook: 10
+    servings: 2
+    notes: It is made in a rectangular pan (makiyakinabe); a small round pan works too if you trim the edges.
+    tags: [egg, breakfast]
+    ingredients:
+      - items:
+          - [eggs, 4, null]
+          - [dashi, 3, tbsp]
+          - [sugar, 1, tbsp]
+          - [light soy sauce, 1, tsp]
+          - [mirin, 1, tsp]
+          - [sunflower oil, 1, tbsp]
+    steps:
+      - Beat the eggs with the dashi, sugar, soy sauce and mirin without making it frothy.
+      - Grease the pan with kitchen paper dipped in oil and heat it over a medium heat.
+      - Pour in a thin layer of egg. When it is almost set, roll it towards you with chopsticks.
+      - Push the roll to the far end, grease, pour in another layer, lifting the roll so it runs underneath, and roll again. Repeat until the egg is used up.
+      - Shape the roll with a bamboo mat, leave for 5 minutes and cut into thick slices.
+
+  - name: Okonomiyaki
+    category: Breads and doughs
+    difficulty: EASY
+    prep: 15
+    cook: 15
+    servings: 2
+    origin: Osaka
+    tags: [cabbage, pancake]
+    ingredients:
+      - group: Batter
+        items:
+          - [plain flour, 100, g]
+          - [cold dashi, 120, ml]
+          - [eggs, 2, null]
+          - [white cabbage, 250, g]
+          - [spring onions, 2, null]
+          - [red pickled ginger (beni shoga), 1, tbsp, optional]
+          - [pork belly, 6, slice]
+          - [sunflower oil, 1, tbsp]
+      - group: Toppings
+        items:
+          - [okonomiyaki sauce, 3, tbsp]
+          - [Japanese mayonnaise, 2, tbsp]
+          - [dried bonito flakes (katsuobushi), 1, handful]
+          - [aonori (powdered seaweed), 1, tsp, optional]
+    steps:
+      - Mix the flour with the dashi and eggs. Add the very finely chopped cabbage, spring onion and beni shoga and mix without overworking.
+      - Put half the batter in a greased frying pan over a medium heat and shape it into a 2 cm thick pancake. Top with half the pork belly.
+      - Cook for 5 minutes, flip it carefully and cook for 5 more minutes pork side down, until crisp.
+      - Flip it again and top with the sauce, zigzags of mayonnaise, katsuobushi and aonori. Repeat with the rest of the batter.
+
+  - name: Yakitori
+    category: Meat
+    difficulty: EASY
+    prep: 20
+    cook: 15
+    servings: 4
+    notes: Ideally cooked over charcoal; a griddle or the oven grill work well too.
+    tags: [skewers, barbecue]
+    ingredients:
+      - group: Skewers
+        items:
+          - [boneless chicken thighs, 600, g]
+          - [spring onions or thin leeks, 4, null]
+          - [sunflower oil, 1, tbsp]
+      - group: Tare sauce
+        items:
+          - [soy sauce, 100, ml]
+          - [mirin, 100, ml]
+          - [sake, 50, ml]
+          - [sugar, 2, tbsp]
+    steps:
+      - Simmer the tare ingredients gently for 10 minutes, until reduced by a third and thickened.
+      - Cut the chicken into 3 cm pieces and the spring onion into 3 cm lengths. Thread them alternately onto soaked skewers (negima).
+      - Brush with oil and grill over a high heat for 4 minutes on each side.
+      - Brush with tare and grill for 1 more minute on each side, twice, until glazed.
+
+  - name: Vegetable and prawn tempura
+    category: Starters
+    difficulty: MEDIUM
+    prep: 20
+    cook: 15
+    servings: 4
+    notes: Ice-cold water and a barely mixed, lumpy batter are the secret to a light coating.
+    tags: [fried]
+    ingredients:
+      - group: Tempura
+        items:
+          - [king prawns, 8, null]
+          - [sweet potato, 1, null]
+          - [courgette, 1, null]
+          - [aubergine, 1, null]
+          - [green pepper, 1, null]
+          - [soft flour, 120, g]
+          - [egg yolk, 1, null]
+          - [ice-cold sparkling water, 200, ml]
+          - [sunflower oil for frying, null, null]
+      - group: Tentsuyu sauce
+        items:
+          - [dashi, 150, ml]
+          - [soy sauce, 3, tbsp]
+          - [mirin, 3, tbsp]
+          - [grated daikon radish, 2, tbsp, optional]
+    steps:
+      - Bring the sauce ingredients to the boil and let them cool slightly.
+      - Peel the prawns, leaving the tails on, and make a few cuts underneath so they stay straight. Slice the vegetables 5 mm thick.
+      - Mix the yolk with the water and tip in the sifted flour all at once. Stir with chopsticks for just a few seconds; it should stay lumpy.
+      - Dust each piece in a little flour, dip it in the batter and fry in batches in oil at 170-180 °C until crisp and barely golden.
+      - Drain on a rack and serve straight away with the sauce and daikon.
+
+  - name: Salmon and cucumber maki
+    category: Fish and seafood
+    difficulty: MEDIUM
+    prep: 40
+    cook: 20
+    servings: 4
+    notes: Salmon eaten raw must first be frozen at -20 °C for at least 5 days, or bought already frozen for this purpose.
+    tags: [sushi, rice]
+    ingredients:
+      - group: Sushi rice
+        items:
+          - [Japanese sushi rice, 300, g]
+          - [water, 330, ml]
+          - [rice vinegar, 4, tbsp]
+          - [sugar, 1.5, tbsp]
+          - [salt, 1, tsp]
+      - group: Maki
+        items:
+          - [nori seaweed, 4, sheet]
+          - [sushi-grade fresh salmon, 150, g]
+          - [cucumber, 0.5, null]
+          - [soy sauce, null, null]
+          - [wasabi, null, null]
+          - [pickled ginger (gari), null, null]
+    steps:
+      - Rinse the rice until the water runs clear and drain for 15 minutes. Cook it covered with the water over a low heat for 12 minutes and leave it to rest for 10 minutes without lifting the lid.
+      - Dissolve the sugar and salt in the vinegar, fold it into the rice with cutting movements and let it cool to room temperature.
+      - Cut the salmon and cucumber into 1 cm sticks.
+      - Lay half a sheet of nori on a bamboo mat and cover it with a thin layer of rice using wet hands, leaving 1 cm clear at the top.
+      - Lay a strip of salmon or cucumber along it, roll up tightly with the mat and cut each roll into 6 pieces with a wet knife.
+      - Serve with soy sauce, wasabi and gari.
+
+  - name: Karaage
+    category: Meat
+    difficulty: EASY
+    prep: 40
+    cook: 15
+    servings: 4
+    tags: [fried, chicken]
+    ingredients:
+      - items:
+          - [boneless chicken thighs, 600, g]
+          - [soy sauce, 2, tbsp]
+          - [sake, 1, tbsp]
+          - [grated fresh ginger, 2, tsp]
+          - [grated garlic, 1, tsp]
+          - [potato starch or cornflour, 80, g]
+          - [sunflower oil for frying, null, null]
+          - [lemon, 1, null]
+          - [Japanese mayonnaise, null, null, optional]
+    steps:
+      - Cut the chicken into 4 cm pieces and mix with the soy sauce, sake, ginger and garlic. Marinate for 30 minutes.
+      - Drain and coat in the starch, shaking off the excess.
+      - Fry in oil at 160 °C for 3-4 minutes and lift out. Rest for 4 minutes.
+      - Fry again at 180 °C for 1 minute, until very crisp. Serve with lemon and mayonnaise.
+
+  - name: Nikujaga
+    category: Meat
+    difficulty: EASY
+    prep: 15
+    cook: 30
+    servings: 4
+    notes: A home-style meat and potato stew; the name joins niku (meat) and jagaimo (potato).
+    tags: [stew, home-style]
+    ingredients:
+      - items:
+          - [very thinly sliced beef, 250, g]
+          - [potatoes, 4, null]
+          - [onion, 1, null]
+          - [carrot, 1, null]
+          - [shirataki noodles, 150, g, optional]
+          - [dashi, 400, ml]
+          - [soy sauce, 4, tbsp]
+          - [mirin, 3, tbsp]
+          - [sake, 2, tbsp]
+          - [sugar, 2, tbsp]
+          - [sunflower oil, 1, tbsp]
+          - [mangetout or peas, 50, g, optional]
+    steps:
+      - Peel the potatoes and cut them into large chunks. Cut the onion into wedges and the carrot into chunks.
+      - Stir-fry the beef in the oil until it changes colour. Add the onion, carrot and potatoes and stir-fry for 2 minutes.
+      - Add the dashi, sake, sugar and mirin and bring to the boil. Skim off the foam.
+      - Add the soy sauce and shirataki, cover with a lid smaller than the pot or a sheet of baking paper and simmer for 20 minutes, until the potatoes are tender.
+      - Add the mangetout for the last 2 minutes.
+
+  - name: Yakisoba
+    category: Pasta
+    difficulty: EASY
+    prep: 10
+    cook: 10
+    servings: 2
+    tags: [noodles, stir-fry]
+    ingredients:
+      - group: Yakisoba sauce
+        items:
+          - [Worcestershire sauce, 2, tbsp]
+          - [oyster sauce, 1, tbsp]
+          - [ketchup, 1, tbsp]
+          - [soy sauce, 1, tbsp]
+          - [sugar, 1, tsp]
+      - group: Stir-fry
+        items:
+          - [yakisoba or chukamen noodles, 2, portion]
+          - [thinly sliced pork belly, 150, g]
+          - [white cabbage, 150, g]
+          - [carrot, 0.5, null]
+          - [onion, 0.5, null]
+          - [sunflower oil, 1, tbsp]
+          - [red pickled ginger (beni shoga), null, null, optional]
+          - [aonori, null, null, optional]
+    steps:
+      - Mix the sauce ingredients.
+      - Stir-fry the chopped pork belly in the oil until browned. Add the onion, carrot and cabbage in strips and stir-fry for 3 minutes.
+      - Add the noodles, loosening them with a splash of water, and stir-fry for 2 minutes.
+      - Add the sauce and toss until the noodles are well coated. Serve with beni shoga and aonori.
+
+  - name: Gyudon
+    category: Rice
+    difficulty: EASY
+    prep: 10
+    cook: 15
+    servings: 2
+    tags: [rice, beef, donburi]
+    ingredients:
+      - items:
+          - [cooked Japanese rice, 400, g]
+          - [very thinly sliced beef, 250, g]
+          - [onion, 1, null]
+          - [dashi, 150, ml]
+          - [soy sauce, 3, tbsp]
+          - [mirin, 2, tbsp]
+          - [sake, 2, tbsp]
+          - [sugar, 1, tbsp]
+          - [red pickled ginger (beni shoga), null, null, optional]
+          - [eggs, 2, null, optional]
+    steps:
+      - Cut the onion into 1 cm slices.
+      - Bring the dashi to the boil with the soy sauce, mirin, sake and sugar. Add the onion and simmer for 5 minutes.
+      - Add the beef, separating the slices, and simmer for 2-3 minutes, skimming off the foam.
+      - Serve over hot rice with a little of the broth, beni shoga and, if you like, a raw egg yolk or a poached egg on top.
+
+  - name: Japanese curry
+    category: Meat
+    difficulty: EASY
+    prep: 15
+    cook: 40
+    servings: 4
+    notes: Japanese curry (kare raisu) is mild and thick. It is usually made with curry roux blocks, as here.
+    tags: [curry, home-style]
+    ingredients:
+      - items:
+          - ["diced beef, pork or chicken", 400, g]
+          - [onions, 2, null]
+          - [carrots, 2, null]
+          - [potatoes, 2, null]
+          - [Japanese curry roux blocks, 100, g]
+          - [water, 700, ml]
+          - [grated apple, 0.5, null, optional]
+          - [sunflower oil, 1, tbsp]
+          - [cooked Japanese rice, 800, g]
+    steps:
+      - Cut the onions into wedges and the carrots and potatoes into chunks.
+      - Brown the meat in the oil, add the onion and fry for 5 minutes.
+      - Add the carrots, potatoes and water and simmer for 20 minutes, skimming off the foam.
+      - Turn off the heat, add the broken-up roux and the apple and stir until dissolved.
+      - Simmer for 10 more minutes, stirring, until thick. Serve with the rice.
+
+  - name: Agedashi tofu
+    category: Legumes
+    difficulty: EASY
+    prep: 10
+    cook: 10
+    servings: 4
+    tags: [tofu, vegetarian, fried]
+    ingredients:
+      - items:
+          - [firm silken tofu, 400, g]
+          - [potato starch or cornflour, 4, tbsp]
+          - [sunflower oil for frying, null, null]
+          - [dashi, 200, ml]
+          - [soy sauce, 2, tbsp]
+          - [mirin, 2, tbsp]
+          - [grated daikon radish, 3, tbsp]
+          - [grated fresh ginger, 1, tsp]
+          - [spring onion, 1, null]
+    steps:
+      - Wrap the tofu in kitchen paper and leave it to drain for 15 minutes. Cut it into 8 cubes.
+      - Heat the dashi with the soy sauce and mirin.
+      - Coat the tofu in the starch and fry in oil at 170 °C until lightly golden.
+      - Serve in bowls with the hot broth around it and the daikon, ginger and spring onion on top.
+
+  - name: Cucumber and wakame sunomono
+    category: Salads
+    difficulty: EASY
+    prep: 15
+    cook: 0
+    servings: 4
+    tags: [salad, cold, vegan]
+    ingredients:
+      - items:
+          - [cucumbers, 2, null]
+          - [dried wakame seaweed, 2, tbsp]
+          - [rice vinegar, 4, tbsp]
+          - [sugar, 1.5, tbsp]
+          - [soy sauce, 1, tsp]
+          - [salt, 0.5, tsp]
+          - [toasted sesame seeds, 1, tsp]
+    steps:
+      - Slice the cucumbers very thinly, toss with the salt and leave for 10 minutes to release water. Squeeze dry.
+      - Soak the wakame in water for 5 minutes and drain.
+      - Dissolve the sugar in the vinegar with the soy sauce.
+      - Mix the cucumber and wakame with the dressing and serve cold with the sesame seeds.
+
+  - name: Dorayaki
+    category: Desserts
+    difficulty: EASY
+    prep: 15
+    cook: 20
+    servings: 6
+    notes: Anko (sweet azuki bean paste) is sold ready-made in Asian shops.
+    tags: [dessert, sweet]
+    ingredients:
+      - items:
+          - [eggs, 2, null]
+          - [sugar, 80, g]
+          - [honey, 1, tbsp]
+          - [plain flour, 140, g]
+          - [baking powder, 1, tsp]
+          - [water, 3, tbsp]
+          - [anko, 300, g]
+          - [sunflower oil, 1, tsp]
+    steps:
+      - Whisk the eggs with the sugar and honey until frothy.
+      - Add the flour sifted with the baking powder and mix. Let the batter rest for 15 minutes and stir in the water.
+      - Grease a frying pan with kitchen paper and oil and heat it over a medium-low heat. Pour in a small ladle of batter and cook until bubbles appear; flip and cook for 30 seconds more.
+      - Sandwich the pancakes in pairs with a layer of anko and wrap them in cling film so they stay soft.

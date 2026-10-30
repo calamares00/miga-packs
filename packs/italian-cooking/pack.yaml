@@ -1,0 +1,599 @@
+id: italian-cooking
+version: 1
+updated: 2026-10-31
+language: en
+name: "World cuisine: Italy"
+description: >-
+  The great classics of Italy's regions: carbonara, amatriciana, cacio e pepe, lasagne, pasta
+  alla Norma, spaghetti with clams, risotto alla milanese, ossobuco, saltimbocca, parmigiana,
+  minestrone, pasta e fagioli, pizza margherita, focaccia, arancini, vitello tonnato, caponata,
+  tiramisu and panna cotta. Made the Italian way, with no cream in the carbonara.
+author: Miga
+authorGithub: calamares00
+cover:
+  emoji: "🍝"
+  kicker: World cuisine
+  title: Italy
+  colors: ["#15803d", "#dc2626"]
+defaults:
+  origin: Italy
+  originCountry: IT
+  source: "Miga «World cuisine: Italy» pack"
+recipes:
+
+  - name: Spaghetti carbonara
+    category: Pasta
+    difficulty: MEDIUM
+    prep: 10
+    cook: 15
+    servings: 4
+    origin: Lazio
+    notes: Authentic carbonara has no cream or onion. The sauce comes from the eggs, cheese and pasta water, without letting the egg scramble.
+    tags: [pasta, Roman]
+    ingredients:
+      - items:
+          - [spaghetti, 400, g]
+          - [guanciale (cured pork cheek), 150, g]
+          - [egg yolks, 4, null]
+          - [egg, 1, null]
+          - [grated pecorino romano, 60, g]
+          - [freshly ground black pepper, 1, tsp]
+          - [salt, null, null]
+    steps:
+      - Cut the guanciale into strips and brown it in a dry frying pan over a medium heat until crisp and it has released its fat. Turn off the heat.
+      - Whisk the yolks and egg with the pecorino and pepper into a thick cream.
+      - Cook the spaghetti in lightly salted water and keep a glass of the cooking water.
+      - Add the pasta to the guanciale pan and toss. Off the heat, add the egg mixture and a splash of the cooking water, stirring quickly until you have a creamy sauce.
+      - Serve with more pecorino and pepper.
+
+  - name: Bucatini all'amatriciana
+    category: Pasta
+    difficulty: EASY
+    prep: 10
+    cook: 25
+    servings: 4
+    origin: Amatrice
+    tags: [pasta, tomato]
+    ingredients:
+      - items:
+          - [bucatini or spaghetti, 400, g]
+          - [guanciale (cured pork cheek), 150, g]
+          - [tinned peeled tomatoes, 400, g]
+          - [white wine, 50, ml]
+          - [dried chilli, 1, null]
+          - [grated pecorino romano, 60, g]
+          - [salt, null, null]
+    steps:
+      - Cut the guanciale into strips and brown it in a dry frying pan with the chilli until crisp.
+      - Pour in the wine and let it evaporate. Take out half the guanciale and set it aside.
+      - Add the crushed tomatoes and simmer over a medium heat for 15 minutes. Season with salt.
+      - Cook the pasta al dente, drain and toss it with the sauce, the reserved guanciale and half the pecorino. Serve with the rest of the cheese.
+
+  - name: Cacio e pepe
+    category: Pasta
+    difficulty: MEDIUM
+    prep: 5
+    cook: 12
+    servings: 4
+    origin: Rome
+    notes: The cheese is mixed with warm water, never boiling, so it doesn't turn lumpy.
+    tags: [pasta, Roman, vegetarian]
+    ingredients:
+      - items:
+          - [tonnarelli or spaghetti, 400, g]
+          - [finely grated pecorino romano, 200, g]
+          - [black peppercorns, 2, tsp]
+          - [salt, null, null]
+    steps:
+      - Crush the pepper and toast it in a large dry frying pan for 1 minute. Add a ladle of the pasta water.
+      - Cook the pasta in a small amount of lightly salted water, so the water is starchier, and take it out 2 minutes before it is al dente.
+      - Mix the pecorino with a few tablespoons of the warm cooking water into a paste.
+      - Finish cooking the pasta in the pepper pan with a little more water. Off the heat, add the cheese paste and stir vigorously until smooth and glossy.
+
+  - name: Lasagne alla bolognese
+    category: Pasta
+    difficulty: HARD
+    prep: 40
+    cook: 210
+    servings: 8
+    origin: Emilia-Romagna
+    notes: Bolognese ragù simmers very gently for at least 2½ hours. It can be made the day before.
+    tags: [pasta, baked]
+    utensils: [Oven]
+    ingredients:
+      - group: Ragù
+        items:
+          - [minced beef, 300, g]
+          - [minced pork, 200, g]
+          - [pancetta, 100, g]
+          - [onion, 1, null]
+          - [carrot, 1, null]
+          - [celery, 1, stick]
+          - [white wine, 150, ml]
+          - [passata, 300, ml]
+          - [tomato purée, 1, tbsp]
+          - [whole milk, 150, ml]
+          - [beef stock, 250, ml]
+          - [olive oil, 2, tbsp]
+          - [salt, null, null]
+          - [black pepper, null, null]
+      - group: Béchamel
+        items:
+          - [butter, 80, g]
+          - [plain flour, 80, g]
+          - [whole milk, 1, l]
+          - [nutmeg, 1, pinch]
+          - [salt, null, null]
+      - group: Assembly
+        items:
+          - [lasagne sheets, 12, null]
+          - [grated Parmesan, 100, g]
+          - [butter, 20, g]
+    steps:
+      - group: Ragù
+        items:
+          - Very finely chop the onion, carrot, celery and pancetta and cook them gently in the oil for 10 minutes.
+          - Add the meat and brown it, breaking it up. Pour in the wine and let it evaporate.
+          - Add the passata, tomato purée and stock, half cover and simmer very gently for 2½ hours, adding the milk little by little. Season.
+      - group: Béchamel and assembly
+        items:
+          - Melt the butter, add the flour and cook for 2 minutes. Whisk in the hot milk and cook for 10 minutes, until thick. Season with salt and nutmeg.
+          - Preheat the oven to 190 °C. Pre-cook the sheets if the packet says so.
+          - In a dish, layer béchamel, pasta, ragù, béchamel and Parmesan, finishing with béchamel, Parmesan and a few dots of butter.
+          - Bake for 30-35 minutes, until golden. Rest for 15 minutes before cutting.
+
+  - name: Pasta alla Norma
+    category: Pasta
+    difficulty: EASY
+    prep: 15
+    cook: 30
+    servings: 4
+    origin: Sicily
+    notes: Named after the opera by Bellini, the composer from Catania. If you can't find ricotta salata, use pecorino.
+    tags: [pasta, vegetarian]
+    ingredients:
+      - items:
+          - [maccheroni or rigatoni, 400, g]
+          - [aubergines, 2, null]
+          - [tinned peeled tomatoes, 800, g]
+          - [garlic, 2, clove]
+          - [fresh basil, 1, bunch]
+          - [grated ricotta salata, 100, g]
+          - [olive oil, 4, tbsp]
+          - [olive oil for frying, null, null]
+          - [salt, null, null]
+    steps:
+      - Cut the aubergines into cubes, salt them and leave for 30 minutes to release their water. Pat dry.
+      - Fry them in plenty of oil until golden and drain.
+      - Fry the garlic in the 4 tablespoons of oil, add the crushed tomatoes and simmer for 20 minutes. Season with salt and add a few basil leaves.
+      - Cook the pasta and toss with the sauce and half the aubergine.
+      - Serve with the rest of the aubergine, the ricotta salata and fresh basil.
+
+  - name: Spaghetti with clams
+    category: Pasta
+    difficulty: EASY
+    prep: 10
+    cook: 15
+    servings: 4
+    origin: Campania
+    notes: Leave the clams in cold salted water for 1 hour so they release their sand.
+    tags: [pasta, seafood]
+    ingredients:
+      - items:
+          - [spaghetti, 400, g]
+          - [clams, 1, kg]
+          - [garlic, 3, clove]
+          - [dried chilli, 1, null]
+          - [white wine, 100, ml]
+          - [extra virgin olive oil, 5, tbsp]
+          - [chopped parsley, 3, tbsp]
+          - [salt, null, null]
+    steps:
+      - Fry the sliced garlic and the chilli in the oil in a large frying pan until golden.
+      - Add the clams and wine, cover and cook over a high heat for 2-3 minutes, until they open. Throw away any that stay closed.
+      - Cook the pasta for 2 minutes less than the packet says and add it to the pan with a little of the cooking water.
+      - Finish cooking the pasta in the clam juices, stirring, until the sauce comes together. Add the parsley and serve.
+
+  - name: Risotto alla milanese
+    category: Rice
+    difficulty: MEDIUM
+    prep: 10
+    cook: 25
+    servings: 4
+    origin: Lombardy
+    notes: The classic partner for ossobuco. Traditionally, beef bone marrow is added to the base.
+    tags: [rice, saffron]
+    ingredients:
+      - items:
+          - [carnaroli or arborio rice, 320, g]
+          - [hot beef stock, 1.2, l]
+          - [saffron threads, 0.5, tsp]
+          - [onion, 0.5, null]
+          - [butter, 80, g]
+          - [dry white wine, 100, ml]
+          - [grated Parmesan, 80, g]
+          - [salt, null, null]
+    steps:
+      - Steep the saffron in a ladle of hot stock.
+      - Gently cook the very finely chopped onion in 30 g of butter. Add the rice and toast it for 2 minutes, stirring.
+      - Pour in the wine and let it evaporate.
+      - Add the stock a ladle at a time, stirring and waiting until it is absorbed, for 16-18 minutes. Halfway through, add the saffron.
+      - Off the heat, add the rest of the cold butter and the Parmesan and stir vigorously (mantecatura). Rest for 1 minute and serve.
+
+  - name: Ossobuco alla milanese
+    category: Meat
+    difficulty: MEDIUM
+    prep: 20
+    cook: 120
+    servings: 4
+    origin: Lombardy
+    notes: The classic Milanese version has no tomato. The gremolata goes on at the end for a fresh finish.
+    tags: [braise, veal]
+    ingredients:
+      - group: Ossobuco
+        items:
+          - [veal shin slices 4 cm thick, 4, null]
+          - [flour, 3, tbsp]
+          - [butter, 50, g]
+          - [olive oil, 2, tbsp]
+          - [onion, 1, null]
+          - [carrot, 1, null]
+          - [celery, 1, stick]
+          - [dry white wine, 200, ml]
+          - [beef stock, 500, ml]
+          - [salt, null, null]
+          - [black pepper, null, null]
+      - group: Gremolata
+        items:
+          - [lemon zest, 1, tbsp]
+          - [garlic, 1, clove]
+          - [chopped parsley, 3, tbsp]
+    steps:
+      - Snip the membrane around the meat so it doesn't curl. Season and dust with flour.
+      - Brown the slices in the butter and oil on both sides and take them out.
+      - Gently cook the chopped onion, carrot and celery for 10 minutes. Return the meat, pour in the wine and let it evaporate.
+      - Add the stock, cover and simmer very gently for 1½ hours, turning the meat now and then, until very tender.
+      - Mix the zest, very finely chopped garlic and parsley, and sprinkle the gremolata over the ossobuco just before serving.
+
+  - name: Saltimbocca alla romana
+    category: Meat
+    difficulty: EASY
+    prep: 10
+    cook: 10
+    servings: 4
+    origin: Rome
+    notes: The name means "jumps into the mouth".
+    tags: [veal, quick]
+    ingredients:
+      - items:
+          - [thin veal escalopes, 8, null]
+          - [prosciutto, 8, slice]
+          - [fresh sage, 8, leaf]
+          - [flour, 2, tbsp]
+          - [butter, 50, g]
+          - [dry white wine, 100, ml]
+          - [salt, null, null]
+          - [black pepper, null, null]
+    steps:
+      - Flatten the escalopes. Lay a slice of prosciutto and a sage leaf on each and secure with a cocktail stick.
+      - Season lightly on the side without ham and dust only that side with flour.
+      - Brown them in the butter, meat side first for 2 minutes and then the ham side for 1 minute. Take them out.
+      - Add the wine to the pan, scrape the bottom and let it reduce for 1 minute. Pour the sauce over the meat.
+
+  - name: Aubergine parmigiana
+    category: Vegetables
+    difficulty: MEDIUM
+    prep: 30
+    cook: 70
+    servings: 6
+    origin: Campania and Sicily
+    notes: In Italian, parmigiana di melanzane. It is even better warm or the next day.
+    tags: [vegetarian, baked]
+    utensils: [Oven]
+    ingredients:
+      - items:
+          - [aubergines, 3, null]
+          - [passata, 700, ml]
+          - [garlic, 1, clove]
+          - [fresh basil, 1, bunch]
+          - [mozzarella, 300, g]
+          - [grated Parmesan, 100, g]
+          - [olive oil, 2, tbsp]
+          - [olive oil for frying, null, null]
+          - [salt, null, null]
+    steps:
+      - Slice the aubergines lengthways 1 cm thick, salt them and leave for 30 minutes to release their water. Pat dry.
+      - Fry them in plenty of oil until golden and drain on kitchen paper.
+      - Fry the garlic in the 2 tablespoons of oil, add the passata and simmer for 15 minutes with a few basil leaves. Season with salt.
+      - Preheat the oven to 180 °C. In a dish, layer sauce, aubergine, torn mozzarella, Parmesan and basil, finishing with sauce and Parmesan.
+      - Bake for 35-40 minutes and rest for 20 minutes before cutting.
+
+  - name: Minestrone
+    category: Soups
+    difficulty: EASY
+    prep: 20
+    cook: 50
+    servings: 6
+    notes: Every region and season has its own minestrone. A Parmesan rind in the broth adds a lot of flavour.
+    tags: [soup, vegetarian]
+    ingredients:
+      - items:
+          - [onion, 1, null]
+          - [carrots, 2, null]
+          - [celery, 2, stick]
+          - [potatoes, 2, null]
+          - [courgette, 1, null]
+          - [green beans, 100, g]
+          - [cabbage, 0.25, null]
+          - [tomatoes, 2, null]
+          - [cooked borlotti beans, 200, g]
+          - [vegetable stock, 1.5, l]
+          - [small pasta, 100, g]
+          - [Parmesan rind, 1, piece, optional]
+          - [extra virgin olive oil, 4, tbsp]
+          - [salt, null, null]
+    steps:
+      - Cut all the vegetables into small dice.
+      - Soften the onion, carrot and celery in the oil for 10 minutes.
+      - Add the rest of the vegetables, the stock and the Parmesan rind and simmer for 30 minutes.
+      - Add the beans and pasta and cook until the pasta is done. Season with salt and serve with a drizzle of oil.
+
+  - name: Pasta e fagioli
+    category: Legumes
+    difficulty: EASY
+    prep: 10
+    cook: 35
+    servings: 4
+    tags: [stew, home-style]
+    ingredients:
+      - items:
+          - [cooked borlotti beans, 400, g]
+          - [ditalini or other small pasta, 200, g]
+          - [onion, 1, null]
+          - [carrot, 1, null]
+          - [celery, 1, stick]
+          - [garlic, 1, clove]
+          - [fresh rosemary, 1, sprig]
+          - [tomato purée, 1, tbsp]
+          - [vegetable stock, 1, l]
+          - [Parmesan rind, 1, piece, optional]
+          - [extra virgin olive oil, 4, tbsp]
+          - [salt, null, null]
+          - [black pepper, null, null]
+    steps:
+      - Gently cook the chopped onion, carrot, celery and garlic in the oil with the rosemary for 10 minutes.
+      - Add the tomato purée, beans, stock and Parmesan rind and simmer for 15 minutes.
+      - Blend a third of the beans with a little stock and return them to the pot to thicken it.
+      - Add the pasta and cook it in the soup, stirring, until al dente. Season and serve with a drizzle of oil.
+
+  - name: Pizza margherita
+    category: Breads and doughs
+    difficulty: MEDIUM
+    prep: 30
+    cook: 10
+    servings: 4
+    origin: Naples
+    notes: The dough proves for at least 8 hours, ideally 24 in the fridge. Bake it as hot as your oven goes, on a stone or a preheated tray.
+    tags: [pizza, vegetarian]
+    utensils: [Oven]
+    ingredients:
+      - group: Dough
+        items:
+          - [tipo 00 flour, 500, g]
+          - [water, 325, ml]
+          - [fresh yeast, 3, g]
+          - [salt, 12, g]
+      - group: Topping
+        items:
+          - [tinned peeled tomatoes, 400, g]
+          - [fior di latte mozzarella, 250, g]
+          - [fresh basil, 12, leaf]
+          - [extra virgin olive oil, 3, tbsp]
+          - [salt, null, null]
+    steps:
+      - Dissolve the yeast in the water, mix it with the flour, add the salt and knead for 10 minutes, until smooth.
+      - Leave covered to prove for 2 hours, divide into 4 balls and refrigerate them for 8 to 24 hours. Take them out 2 hours before baking.
+      - Preheat the oven to its maximum, 250-280 °C, with the stone or tray inside. Crush the tomatoes with a little salt. Drain and tear the mozzarella.
+      - Stretch each ball by hand, pushing the air towards the rim. Spread with tomato and bake for 5-6 minutes.
+      - Add the mozzarella and bake for 2-3 minutes more. Finish with basil and a drizzle of oil.
+
+  - name: Genoese focaccia
+    category: Breads and doughs
+    difficulty: MEDIUM
+    prep: 30
+    cook: 20
+    servings: 8
+    origin: Liguria
+    notes: The dough needs about 3 hours of proving in total. The brine poured into the dimples is what makes it soft inside and crisp outside.
+    tags: [bread, vegan]
+    utensils: [Oven]
+    ingredients:
+      - group: Dough
+        items:
+          - [strong bread flour, 500, g]
+          - [warm water, 350, ml]
+          - [dried yeast, 5, g]
+          - [salt, 10, g]
+          - [extra virgin olive oil, 40, ml]
+      - group: Brine
+        items:
+          - [water, 50, ml]
+          - [extra virgin olive oil, 50, ml]
+          - [salt, 1, tsp]
+          - [coarse salt, 1, tsp]
+    steps:
+      - Mix the flour with the yeast and water, add the salt and oil and knead for 10 minutes. Leave covered to prove for 1½ hours.
+      - Oil a 30 × 40 cm tray, stretch the dough in it with your fingers and leave to prove for 30 minutes. Stretch it to the edges again.
+      - Press dimples with your fingertips, whisk the brine and pour it over. Sprinkle with coarse salt and leave to prove for 45 minutes more.
+      - Bake at 230 °C for 18-20 minutes, until golden. Let it cool on a rack.
+
+  - name: Tomato bruschetta
+    category: Starters
+    difficulty: EASY
+    prep: 10
+    cook: 5
+    servings: 4
+    tags: [snack, vegan]
+    ingredients:
+      - items:
+          - [rustic bread, 8, slice]
+          - [ripe tomatoes, 4, null]
+          - [garlic, 1, clove]
+          - [fresh basil, 8, leaf]
+          - [extra virgin olive oil, 4, tbsp]
+          - [salt, null, null]
+    steps:
+      - Finely dice the tomatoes, drain them and mix with the torn basil, half the oil and the salt.
+      - Toast the bread on a griddle or in the oven until crisp.
+      - Rub each slice with the peeled garlic, drizzle with the rest of the oil and top with the tomato just before serving.
+
+  - name: Arancini
+    category: Starters
+    difficulty: HARD
+    prep: 60
+    cook: 40
+    servings: 6
+    origin: Sicily
+    notes: The rice must be completely cold to shape; you can make it the day before.
+    tags: [fried, rice]
+    ingredients:
+      - group: Rice
+        items:
+          - [carnaroli or arborio rice, 300, g]
+          - [beef stock, 800, ml]
+          - [saffron threads, 1, pinch]
+          - [butter, 30, g]
+          - [grated Parmesan, 50, g]
+          - [egg, 1, null]
+      - group: Filling
+        items:
+          - [thick meat ragù, 150, g]
+          - [cooked peas, 50, g]
+          - [diced mozzarella or caciocavallo, 100, g]
+      - group: Coating
+        items:
+          - [flour, 100, g]
+          - [water, 150, ml]
+          - [breadcrumbs, 150, g]
+          - [sunflower oil for frying, null, null]
+    steps:
+      - Cook the rice in the stock with the saffron until absorbed, about 18 minutes. Mix with the butter, Parmesan and egg, spread on a tray and let it cool completely.
+      - Mix the ragù with the peas.
+      - With wet hands, flatten a portion of rice in your palm, add a spoonful of ragù and a cube of cheese and close it into a ball or cone.
+      - Mix the flour with the water into a runny batter. Dip the arancini in it and then in the breadcrumbs.
+      - Fry in oil at 170 °C for 4-5 minutes, until golden, and drain.
+
+  - name: Vitello tonnato
+    category: Meat
+    difficulty: MEDIUM
+    prep: 20
+    cook: 60
+    servings: 6
+    origin: Piedmont
+    notes: Served cold as a starter. It is best when the meat spends a few hours in the fridge with the sauce.
+    tags: [cold, veal]
+    ingredients:
+      - group: Meat
+        items:
+          - [veal topside, 800, g]
+          - [onion, 1, null]
+          - [carrot, 1, null]
+          - [celery, 1, stick]
+          - [dry white wine, 250, ml]
+          - [bay leaf, 2, null]
+          - [salt, null, null]
+      - group: Tonnato sauce
+        items:
+          - [drained tuna in oil, 200, g]
+          - [anchovy fillets, 3, null]
+          - [capers, 2, tbsp]
+          - [mayonnaise, 150, g]
+          - [cooking liquid from the meat, 4, tbsp]
+          - [lemon juice, 1, tbsp]
+    steps:
+      - Put the meat in a pot with the chopped vegetables, wine, bay leaves and salt, and cover with water.
+      - Simmer gently for 1 hour, until cooked but juicy. Let it cool in the liquid.
+      - Blend the tuna, anchovies, half the capers, the lemon juice and the cooking liquid, and mix with the mayonnaise.
+      - Slice the meat very thinly, arrange it on a platter and cover with the sauce. Garnish with the rest of the capers.
+
+  - name: Caponata
+    category: Vegetables
+    difficulty: EASY
+    prep: 20
+    cook: 40
+    servings: 6
+    origin: Sicily
+    notes: A sweet and sour dish served warm or cold that tastes even better the next day.
+    tags: [vegan, sweet and sour]
+    ingredients:
+      - items:
+          - [aubergines, 2, null]
+          - [celery, 2, stick]
+          - [onion, 1, null]
+          - [tinned peeled tomatoes, 400, g]
+          - [pitted green olives, 80, g]
+          - [capers, 2, tbsp]
+          - [wine vinegar, 60, ml]
+          - [sugar, 2, tbsp]
+          - [pine nuts, 2, tbsp, optional]
+          - [fresh basil, 6, leaf]
+          - [olive oil, 4, tbsp]
+          - [olive oil for frying, null, null]
+          - [salt, null, null]
+    steps:
+      - Cut the aubergines into cubes, salt them for 30 minutes, pat dry and fry them in plenty of oil until golden.
+      - Blanch the celery, in pieces, for 2 minutes.
+      - Gently cook the onion in the 4 tablespoons of oil for 10 minutes. Add the crushed tomatoes and simmer for 10 minutes.
+      - Add the celery, olives, capers and pine nuts and cook for 5 minutes. Add the vinegar and sugar and let the vinegar cook off for 2 minutes.
+      - Add the aubergine, fold gently and let it cool slightly. Serve with basil.
+
+  - name: Tiramisu
+    category: Desserts
+    difficulty: EASY
+    prep: 30
+    cook: 0
+    servings: 8
+    origin: Veneto
+    notes: It contains raw egg; use very fresh or pasteurised eggs. It needs at least 6 hours in the fridge.
+    tags: [dessert, coffee]
+    ingredients:
+      - items:
+          - [mascarpone, 500, g]
+          - [eggs, 4, null]
+          - [sugar, 100, g]
+          - [savoiardi (ladyfingers), 300, g]
+          - [cold espresso, 300, ml]
+          - [unsweetened cocoa powder, 2, tbsp]
+    steps:
+      - Separate the eggs. Whisk the yolks with the sugar until pale and beat in the mascarpone until smooth.
+      - Whisk the whites to stiff peaks and fold them into the cream.
+      - Dip the ladyfingers in the coffee, one at a time and very quickly, and line the bottom of a dish with them.
+      - Cover with half the cream, add another layer of ladyfingers and finish with the rest of the cream.
+      - Chill for at least 6 hours and dust with cocoa just before serving.
+
+  - name: Panna cotta
+    category: Desserts
+    difficulty: EASY
+    prep: 15
+    cook: 5
+    servings: 6
+    origin: Piedmont
+    notes: It needs at least 4 hours in the fridge to set.
+    tags: [dessert, gluten-free]
+    ingredients:
+      - group: Panna cotta
+        items:
+          - [double cream, 500, ml]
+          - [sugar, 80, g]
+          - [vanilla pod, 1, null]
+          - [gelatine leaves, 3, null]
+      - group: Sauce
+        items:
+          - [mixed berries, 200, g]
+          - [sugar, 2, tbsp]
+    steps:
+      - Soak the gelatine in cold water for 5 minutes.
+      - Heat the cream with the sugar and the vanilla seeds and pod until it just starts to boil. Turn off the heat and remove the pod.
+      - Squeeze out the gelatine, dissolve it in the hot cream and pour into moulds or small glasses.
+      - Let it cool and refrigerate for at least 4 hours.
+      - Simmer the berries with the sugar for 5 minutes and serve the sauce cold over the panna cotta.

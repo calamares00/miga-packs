@@ -1,0 +1,617 @@
+id: indonesian-cooking
+version: 1
+updated: 2026-10-31
+language: en
+name: "World cuisine: Indonesia"
+description: >-
+  Everyday and festive dishes from Indonesia: nasi goreng, mie goreng, chicken satay with peanut
+  sauce, gado-gado, rendang, soto ayam, opor ayam, bakso, sayur lodeh, sambal and sweets such as
+  pisang goreng, martabak and klepon. With substitutes for the less common ingredients.
+author: Miga
+authorGithub: calamares00
+cover:
+  emoji: "🍛"
+  kicker: World cuisine
+  title: Indonesia
+  colors: ["#b91c1c", "#ea580c"]
+defaults:
+  origin: Indonesia
+  originCountry: ID
+  source: "Miga «World cuisine: Indonesia» pack"
+recipes:
+
+  - name: Nasi goreng
+    category: Rice
+    difficulty: EASY
+    prep: 10
+    cook: 10
+    servings: 4
+    notes: Kecap manis is a thick, sweet soy sauce. Look for it in Asian shops.
+    tags: [fried rice, spicy]
+    utensils: [Wok]
+    ingredients:
+      - items:
+          - [day-old cooked jasmine rice, 600, g]
+          - [shallots, 4, null]
+          - [garlic, 3, clove]
+          - [red chillies, 2, null]
+          - [shrimp paste (terasi), 1, tsp, optional]
+          - [kecap manis, 3, tbsp]
+          - [soy sauce, 1, tbsp]
+          - [sunflower oil, 3, tbsp]
+          - [eggs, 4, null]
+          - [cucumber, 1, null]
+          - [tomato, 1, null]
+          - [crispy fried shallots, 2, tbsp]
+          - [salt, null, null]
+    steps:
+      - Pound the shallots, garlic, chillies and shrimp paste to a paste in a mortar.
+      - Fry the paste in 2 tablespoons of oil in the wok for 2 minutes, until fragrant.
+      - Add the rice, kecap manis and soy sauce and stir-fry over a high heat for 4-5 minutes, until the rice is hot and coloured. Season with salt.
+      - Fry the eggs in the rest of the oil.
+      - Serve the rice topped with a fried egg, with slices of cucumber and tomato and crispy shallots.
+
+  - name: Mie goreng
+    category: Pasta
+    difficulty: EASY
+    prep: 10
+    cook: 10
+    servings: 4
+    tags: [noodles, spicy]
+    utensils: [Wok]
+    ingredients:
+      - items:
+          - [egg noodles, 300, g]
+          - [chicken breast, 200, g]
+          - [peeled prawns, 150, g, optional]
+          - [Chinese cabbage, 200, g]
+          - [carrot, 1, null]
+          - [shallots, 3, null]
+          - [garlic, 3, clove]
+          - [red chilli, 1, null]
+          - [eggs, 2, null]
+          - [kecap manis, 3, tbsp]
+          - [soy sauce, 1, tbsp]
+          - [oyster sauce, 1, tbsp]
+          - [sunflower oil, 3, tbsp]
+          - [crispy fried shallots, 2, tbsp]
+    steps:
+      - Cook the noodles as directed on the packet, drain them and rinse under cold water.
+      - Chop the shallots, garlic and chilli. Cut the chicken into strips, shred the cabbage and cut the carrot into thin sticks.
+      - Stir-fry the shallots, garlic and chilli in the oil for 1 minute. Add the chicken and prawns and stir-fry for 3 minutes.
+      - Push everything to one side, scramble the beaten eggs and break them up.
+      - Add the vegetables, noodles and sauces and stir-fry over a high heat for 3 minutes. Serve with crispy shallots.
+
+  - name: Chicken satay with peanut sauce
+    category: Meat
+    difficulty: MEDIUM
+    prep: 30
+    cook: 15
+    servings: 4
+    notes: Soak wooden skewers for 30 minutes so they don't burn.
+    tags: [skewers, barbecue]
+    ingredients:
+      - group: Satay
+        items:
+          - [boneless chicken thighs, 600, g]
+          - [kecap manis, 3, tbsp]
+          - [garlic, 2, clove]
+          - [ground coriander, 1, tsp]
+          - [sunflower oil, 1, tbsp]
+      - group: Peanut sauce
+        items:
+          - [unsalted roasted peanuts, 150, g]
+          - [garlic, 2, clove]
+          - [shallots, 2, null]
+          - [red chilli, 1, null]
+          - [palm or brown sugar, 1, tbsp]
+          - [kecap manis, 2, tbsp]
+          - [lime juice, 1, tbsp]
+          - [water, 250, ml]
+          - [sunflower oil, 1, tbsp]
+          - [salt, null, null]
+    steps:
+      - group: Satay
+        items:
+          - Cut the chicken into 2-3 cm pieces and mix with the kecap manis, crushed garlic, coriander and oil. Leave to marinate for at least 30 minutes.
+          - Thread onto the skewers and cook on a barbecue or griddle for 8-10 minutes, turning and brushing with the marinade.
+      - group: Peanut sauce
+        items:
+          - Grind the peanuts, not too finely.
+          - Fry the chopped garlic, shallots and chilli in the oil for 2 minutes.
+          - Add the peanuts, sugar, kecap manis and water and simmer gently for 5 minutes, stirring, until thick. Finish with the lime juice and salt.
+          - Serve the skewers with the sauce spooned over.
+
+  - name: Gado-gado
+    category: Salads
+    difficulty: EASY
+    prep: 25
+    cook: 20
+    servings: 4
+    tags: [vegetarian, peanut sauce]
+    ingredients:
+      - group: Vegetables
+        items:
+          - [potatoes, 2, null]
+          - [green beans, 150, g]
+          - [cabbage, 0.25, null]
+          - [bean sprouts, 100, g]
+          - [cucumber, 1, null]
+          - [firm tofu, 200, g]
+          - [eggs, 2, null]
+          - [sunflower oil, 3, tbsp]
+          - [krupuk (prawn crackers), null, null, optional]
+      - group: Sauce
+        items:
+          - [unsalted roasted peanuts, 150, g]
+          - [garlic, 2, clove]
+          - [red chilli, 1, null]
+          - [palm or brown sugar, 1, tbsp]
+          - [tamarind paste, 1, tbsp]
+          - [kecap manis, 1, tbsp]
+          - [hot water, 200, ml]
+          - [salt, null, null]
+    steps:
+      - Boil the potatoes and eggs. Blanch the beans, chopped cabbage and bean sprouts in boiling water for 1-2 minutes.
+      - Cut the tofu into cubes and fry it in the oil until golden.
+      - Blend the sauce ingredients with the hot water into a thick sauce. Season with salt.
+      - Arrange the vegetables, sliced potatoes and eggs, cucumber and tofu on a platter.
+      - Pour over the sauce and serve with krupuk.
+
+  - name: Beef rendang
+    category: Meat
+    difficulty: HARD
+    prep: 30
+    cook: 180
+    servings: 6
+    origin: West Sumatra
+    notes: Traditional rendang is cooked until the coconut milk has reduced completely and the meat fries in its own fat. It is even better the next day.
+    tags: [stew, spicy, festive]
+    ingredients:
+      - group: Spice paste
+        items:
+          - [shallots, 8, null]
+          - [garlic, 5, clove]
+          - [red chillies, 8, null]
+          - [fresh ginger, 3, cm]
+          - [galangal, 3, cm]
+          - [fresh turmeric, 3, cm]
+      - group: Stew
+        items:
+          - [stewing beef, 1, kg]
+          - [coconut milk, 800, ml]
+          - [desiccated coconut, 50, g]
+          - [lemongrass, 2, stalk]
+          - [kaffir lime leaves, 4, null]
+          - [cinnamon stick, 1, null]
+          - [star anise, 1, null]
+          - [palm or brown sugar, 1, tbsp]
+          - [sunflower oil, 2, tbsp]
+          - [salt, 1, tsp]
+    steps:
+      - Blend the spice paste ingredients with a little water.
+      - Toast the desiccated coconut in a dry pan, stirring, until dark brown. Pound it until it releases its oil (this is kerisik).
+      - Fry the paste in the oil for 5 minutes. Add the bruised lemongrass, lime leaves, cinnamon and star anise.
+      - Add the beef in large chunks and the coconut milk, bring to the boil and simmer uncovered, stirring now and then.
+      - When the sauce starts to thicken, after about 1½ hours, add the kerisik, sugar and salt.
+      - Keep cooking, stirring more and more often, until the sauce has reduced completely and the meat is dark and tender, another 1-1½ hours.
+
+  - name: Soto ayam
+    category: Soups
+    difficulty: MEDIUM
+    prep: 25
+    cook: 50
+    servings: 6
+    origin: Java
+    notes: Macadamia nuts stand in for candlenuts (kemiri), which thicken the broth.
+    tags: [soup, chicken]
+    ingredients:
+      - group: Broth
+        items:
+          - [chicken pieces, 1, kg]
+          - [water, 2, l]
+          - [shallots, 6, null]
+          - [garlic, 4, clove]
+          - [macadamia nuts, 3, null]
+          - [fresh turmeric, 3, cm]
+          - [fresh ginger, 2, cm]
+          - [galangal, 2, cm]
+          - [lemongrass, 2, stalk]
+          - [kaffir lime leaves, 3, null]
+          - [sunflower oil, 2, tbsp]
+          - [salt, 2, tsp]
+      - group: To serve
+        items:
+          - [thin rice noodles, 150, g]
+          - [hard-boiled eggs, 3, null]
+          - [bean sprouts, 100, g]
+          - [cabbage, 0.25, null]
+          - [crispy fried shallots, 3, tbsp]
+          - [limes, 2, null]
+          - [sambal, null, null, optional]
+    steps:
+      - Simmer the chicken in the water for 30 minutes, skimming off the foam.
+      - Blend the shallots, garlic, nuts, turmeric and ginger, and fry the paste in the oil for 4 minutes with the galangal, bruised lemongrass and lime leaves.
+      - Add the paste to the broth with the salt and simmer for 15 minutes more.
+      - Lift out the chicken, shred it and discard the skin and bones.
+      - Cook the noodles and blanch the bean sprouts and shredded cabbage.
+      - Put noodles, vegetables, chicken and egg in bowls, ladle over the broth and serve with crispy shallots, lime and sambal.
+
+  - name: Opor ayam
+    category: Meat
+    difficulty: MEDIUM
+    prep: 20
+    cook: 45
+    servings: 4
+    origin: Java
+    notes: The classic dish for the end of Ramadan (Lebaran), with ketupat rice cakes or plain rice.
+    tags: [stew, coconut milk]
+    ingredients:
+      - items:
+          - [chicken pieces, 1, kg]
+          - [shallots, 6, null]
+          - [garlic, 4, clove]
+          - [macadamia nuts, 4, null]
+          - [ground coriander, 1, tsp]
+          - [ground cumin, 0.5, tsp]
+          - [ground turmeric, 0.5, tsp]
+          - [galangal, 3, cm]
+          - [lemongrass, 2, stalk]
+          - [kaffir lime leaves, 3, null]
+          - [coconut milk, 400, ml]
+          - [water, 400, ml]
+          - [palm or brown sugar, 1, tsp]
+          - [sunflower oil, 2, tbsp]
+          - [salt, 1, tsp]
+    steps:
+      - Blend the shallots, garlic, nuts, coriander, cumin and turmeric with a little water.
+      - Fry the paste in the oil for 4 minutes with the sliced galangal, bruised lemongrass and lime leaves.
+      - Add the chicken and brown it lightly in the paste.
+      - Pour in the water and coconut milk, add the sugar and salt and simmer gently, uncovered, for 35-40 minutes, stirring now and then so it doesn't split, until the chicken is tender.
+
+  - name: Ayam goreng
+    category: Meat
+    difficulty: MEDIUM
+    prep: 15
+    cook: 45
+    servings: 4
+    notes: The chicken is first simmered in the spices until it absorbs the liquid (ungkep) and then fried, so it is full of flavour inside and crisp outside.
+    tags: [fried chicken]
+    ingredients:
+      - items:
+          - [chicken pieces, 1, kg]
+          - [shallots, 5, null]
+          - [garlic, 4, clove]
+          - [fresh turmeric, 3, cm]
+          - [fresh ginger, 2, cm]
+          - [macadamia nuts, 3, null]
+          - [ground coriander, 1, tsp]
+          - [galangal, 2, cm]
+          - [lemongrass, 1, stalk]
+          - [kaffir lime leaves, 2, null]
+          - [water, 500, ml]
+          - [salt, 2, tsp]
+          - [sunflower oil for frying, null, null]
+    steps:
+      - Blend the shallots, garlic, turmeric, ginger, nuts and coriander.
+      - Put the chicken in a pan with the paste, galangal, bruised lemongrass, lime leaves, water and salt.
+      - Simmer over a medium heat, turning, for 30 minutes, until the liquid has almost all gone.
+      - Drain the chicken and deep-fry it in hot oil for 5-6 minutes, until golden.
+
+  - name: Sambal oelek
+    category: Sauces
+    difficulty: EASY
+    prep: 10
+    cook: 0
+    servings: 8
+    notes: It keeps in a closed jar in the fridge for up to 2 weeks.
+    tags: [sauce, spicy, vegan]
+    ingredients:
+      - items:
+          - [fresh red chillies, 200, g]
+          - [salt, 1, tsp]
+          - [rice vinegar or lime juice, 1, tbsp]
+          - [sugar, 1, tsp, optional]
+    steps:
+      - Remove the stalks from the chillies and chop them. For a milder sambal, remove some of the seeds.
+      - Pound them with the salt in a mortar (ulekan) to a coarse paste; you can also use a chopper, without blending too finely.
+      - Stir in the vinegar and sugar.
+
+  - name: Tempe orek
+    category: Legumes
+    difficulty: EASY
+    prep: 15
+    cook: 15
+    servings: 4
+    tags: [vegan, tempeh]
+    ingredients:
+      - items:
+          - [tempeh, 300, g]
+          - [shallots, 4, null]
+          - [garlic, 3, clove]
+          - [red chillies, 2, null]
+          - [galangal, 2, cm]
+          - [kecap manis, 3, tbsp]
+          - [palm or brown sugar, 1, tbsp]
+          - [water, 50, ml]
+          - [sunflower oil for frying, null, null]
+          - [salt, null, null]
+    steps:
+      - Cut the tempeh into thin sticks and fry it in the oil until golden and crisp. Drain.
+      - In a frying pan with 2 tablespoons of oil, fry the sliced shallots and garlic, the chillies in strips and the galangal for 2 minutes.
+      - Add the kecap manis, sugar, water and a pinch of salt and let it bubble until thick.
+      - Add the tempeh and toss until well coated in the sauce.
+
+  - name: Perkedel kentang
+    category: Starters
+    difficulty: EASY
+    prep: 20
+    cook: 25
+    servings: 4
+    tags: [potato, fried]
+    ingredients:
+      - items:
+          - [potatoes, 500, g]
+          - [crispy fried shallots, 2, tbsp]
+          - [spring onion, 1, null]
+          - [chopped celery leaves or parsley, 1, tbsp]
+          - [nutmeg, 1, pinch]
+          - [white pepper, 0.5, tsp]
+          - [salt, 1, tsp]
+          - [eggs, 2, null]
+          - [sunflower oil for frying, null, null]
+    steps:
+      - Peel the potatoes, slice them and fry them until tender. You can boil them instead, but frying is the Indonesian way.
+      - Mash them with a fork and mix with the fried shallots, chopped spring onion and celery leaves, nutmeg, pepper, salt and 1 egg.
+      - Shape into patties about 6 cm across.
+      - Dip them in the other beaten egg and fry in hot oil until golden.
+
+  - name: Sayur lodeh
+    category: Vegetables
+    difficulty: EASY
+    prep: 20
+    cook: 25
+    servings: 4
+    origin: Java
+    tags: [vegetarian, coconut milk]
+    ingredients:
+      - items:
+          - [green beans, 150, g]
+          - [aubergine, 1, null]
+          - [chayote or courgette, 1, null]
+          - [corn on the cob, 1, null]
+          - [firm tofu, 200, g]
+          - [shallots, 5, null]
+          - [garlic, 3, clove]
+          - [macadamia nuts, 3, null]
+          - [ground coriander, 1, tsp]
+          - [red chilli, 1, null]
+          - [galangal, 2, cm]
+          - [coconut milk, 400, ml]
+          - [water, 500, ml]
+          - [palm or brown sugar, 1, tsp]
+          - [sunflower oil, 2, tbsp]
+          - [salt, 1, tsp]
+    steps:
+      - Blend the shallots, garlic, nuts, coriander and chilli.
+      - Fry the paste in the oil with the galangal for 3 minutes.
+      - Add the water and bring to the boil. Add the corn in rounds and the chopped beans and cook for 5 minutes.
+      - Add the aubergine, chayote and tofu in cubes, the coconut milk, sugar and salt, and simmer gently for 10-12 minutes, stirring carefully, until the vegetables are tender.
+
+  - name: Bakso
+    category: Soups
+    difficulty: MEDIUM
+    prep: 30
+    cook: 30
+    servings: 6
+    notes: The meat and water must be very cold for the meatballs to turn out springy.
+    tags: [soup, meatballs]
+    utensils: [Food processor]
+    ingredients:
+      - group: Meatballs
+        items:
+          - [lean minced beef, 500, g]
+          - [tapioca flour, 60, g]
+          - [egg white, 1, null]
+          - [garlic, 3, clove]
+          - [iced water, 60, ml]
+          - [white pepper, 0.5, tsp]
+          - [salt, 1, tsp]
+          - [sugar, 1, tsp]
+      - group: Broth and toppings
+        items:
+          - [beef stock, 2, l]
+          - [fried garlic, 1, tbsp]
+          - [rice noodles, 150, g]
+          - [pak choi, 2, null]
+          - [crispy fried shallots, 3, tbsp]
+          - [chopped Chinese celery or parsley, 2, tbsp]
+          - [sambal, null, null, optional]
+          - [kecap manis, null, null, optional]
+    steps:
+      - group: Meatballs
+        items:
+          - Process the meat with the garlic, salt, sugar and pepper. Add the egg white and iced water little by little, then the tapioca, until the mixture is smooth and sticky.
+          - Bring a pot of water to the boil and lower to a simmer. Shape balls by squeezing the mixture through your fist between thumb and forefinger, and drop them into the water.
+          - Cook until they float and 2-3 minutes more. Drain.
+      - group: Soup
+        items:
+          - Heat the stock with the fried garlic and season with salt and white pepper. Add the meatballs.
+          - Cook the noodles and blanch the pak choi.
+          - Serve noodles, pak choi and meatballs in bowls with the broth, crispy shallots and celery. Everyone adds sambal and kecap manis to taste.
+
+  - name: Nasi kuning
+    category: Rice
+    difficulty: EASY
+    prep: 5
+    cook: 25
+    servings: 4
+    notes: Yellow rice is for celebrations; shaped into a cone it is called tumpeng.
+    tags: [rice, festive, vegan]
+    ingredients:
+      - items:
+          - [jasmine rice, 400, g]
+          - [coconut milk, 400, ml]
+          - [water, 200, ml]
+          - [ground turmeric, 1, tsp]
+          - [lemongrass, 1, stalk]
+          - [kaffir lime leaves, 3, null]
+          - [salt, 1, tsp]
+    steps:
+      - Rinse the rice until the water runs almost clear.
+      - Heat the coconut milk, water, turmeric, salt, bruised lemongrass and lime leaves in a pan, without letting it boil hard.
+      - Add the rice and cook over a medium heat, stirring, until it has absorbed almost all the liquid.
+      - Cover, turn the heat to the lowest setting and cook for 15 minutes. Leave to rest covered for 5 minutes and fluff up with a fork.
+
+  - name: Cap cai
+    category: Vegetables
+    difficulty: EASY
+    prep: 15
+    cook: 10
+    servings: 4
+    notes: A Chinese-Indonesian dish; the name means "ten vegetables".
+    tags: [stir-fry]
+    utensils: [Wok]
+    ingredients:
+      - items:
+          - [carrot, 1, null]
+          - [cauliflower, 150, g]
+          - [broccoli, 150, g]
+          - [Chinese cabbage, 200, g]
+          - [mushrooms, 100, g]
+          - [baby corn, 100, g]
+          - [peeled prawns or chicken breast, 200, g, optional]
+          - [garlic, 3, clove]
+          - [oyster sauce, 2, tbsp]
+          - [soy sauce, 1, tbsp]
+          - [cornflour, 1, tsp]
+          - [water, 150, ml]
+          - [sunflower oil, 2, tbsp]
+          - [white pepper, null, null]
+    steps:
+      - Cut the vegetables into similar-sized pieces and the carrot into thin rounds.
+      - Stir-fry the chopped garlic in the oil for 30 seconds and add the prawns or chicken, if using, for 2 minutes.
+      - Add the carrot, cauliflower, broccoli and baby corn and stir-fry for 2 minutes. Add the mushrooms and cabbage.
+      - Add the sauces, pepper and the water with the cornflour stirred in and cook for 2 minutes, until the sauce thickens and the vegetables are still crunchy.
+
+  - name: Tumis kangkung
+    category: Vegetables
+    difficulty: EASY
+    prep: 10
+    cook: 3
+    servings: 4
+    notes: Kangkung (water spinach) is sold in Asian shops. Spinach works well too.
+    tags: [stir-fry, vegan]
+    utensils: [Wok]
+    ingredients:
+      - items:
+          - [kangkung or spinach, 400, g]
+          - [garlic, 3, clove]
+          - [shallots, 2, null]
+          - [red chilli, 1, null]
+          - [oyster or soy sauce, 1, tbsp]
+          - [sunflower oil, 2, tbsp]
+          - [salt, null, null]
+    steps:
+      - Wash the kangkung and cut it into 5 cm lengths, keeping the stems apart from the leaves.
+      - Stir-fry the garlic, shallots and chilli in the oil over a high heat for 1 minute.
+      - Add the stems and stir-fry for 1 minute. Add the leaves and sauce and stir-fry until wilted, less than a minute. Season with salt.
+
+  - name: Pisang goreng
+    category: Desserts
+    difficulty: EASY
+    prep: 10
+    cook: 10
+    servings: 4
+    tags: [dessert, fried, vegan]
+    ingredients:
+      - items:
+          - [ripe bananas, 4, null]
+          - [rice flour, 60, g]
+          - [wheat flour, 60, g]
+          - [sugar, 1, tbsp]
+          - [salt, 1, pinch]
+          - [cold water, 150, ml]
+          - [sunflower oil for frying, null, null]
+    steps:
+      - Mix the flours, sugar and salt with the water into a smooth, runny batter.
+      - Peel the bananas and halve them lengthways, or slice them into a fan.
+      - Dip them in the batter and fry in hot oil until golden and crisp.
+      - Drain on kitchen paper and serve hot.
+
+  - name: Martabak manis
+    category: Desserts
+    difficulty: MEDIUM
+    prep: 70
+    cook: 15
+    servings: 6
+    notes: It is cooked in a heavy 22 cm frying pan with a lid. The bubbles in the batter give it its spongy texture.
+    tags: [dessert, chocolate]
+    ingredients:
+      - group: Batter
+        items:
+          - [plain flour, 250, g]
+          - [sugar, 2, tbsp]
+          - [dried yeast, 1, tsp]
+          - [bicarbonate of soda, 0.5, tsp]
+          - [salt, 1, pinch]
+          - [egg, 1, null]
+          - [lukewarm milk, 300, ml]
+      - group: Filling
+        items:
+          - [softened butter, 40, g]
+          - [chocolate sprinkles, 4, tbsp]
+          - [chopped roasted peanuts, 4, tbsp]
+          - [condensed milk, 4, tbsp]
+          - [sugar, 2, tbsp]
+    steps:
+      - Whisk all the batter ingredients except the bicarbonate until smooth. Cover and leave to rest for 1 hour.
+      - Stir in the bicarbonate dissolved in a tablespoon of water.
+      - Heat the pan over a medium heat, pour in the batter and wait until it is full of bubbles. Sprinkle with the sugar, cover and cook over a low heat for 8-10 minutes, until the top is set.
+      - Turn it out, spread with the butter, scatter over the chocolate, peanuts and condensed milk, fold in half and cut into pieces.
+
+  - name: Klepon
+    category: Desserts
+    difficulty: MEDIUM
+    prep: 25
+    cook: 10
+    servings: 6
+    origin: Java
+    notes: When you bite into them, the melted palm sugar bursts from the centre. Eat them the same day.
+    tags: [dessert, gluten-free, vegan]
+    ingredients:
+      - items:
+          - [glutinous rice flour, 200, g]
+          - [lukewarm water, 150, ml]
+          - [pandan extract, 0.5, tsp]
+          - [palm sugar, 80, g]
+          - [desiccated coconut, 100, g]
+          - [salt, 1, pinch]
+    steps:
+      - Mix the coconut with the salt and steam it for 5 minutes to soften it.
+      - Mix the flour with the water and pandan extract into a smooth, pliable dough. If it cracks, add a little more water.
+      - Chop the palm sugar into small pieces. Take walnut-sized pieces of dough, flatten them, put a piece of sugar in the middle and seal into a ball.
+      - Cook them in boiling water until they float and 1 minute more.
+      - Drain and roll them in the coconut.
+
+  - name: Es teler
+    category: Drinks
+    difficulty: EASY
+    prep: 10
+    cook: 0
+    servings: 4
+    notes: Eaten with a spoon, halfway between a drink and a dessert.
+    tags: [dessert, cold, vegetarian]
+    ingredients:
+      - items:
+          - [ripe avocado, 1, null]
+          - [jackfruit in syrup, 150, g]
+          - [young coconut flesh, 150, g]
+          - [coconut milk, 200, ml]
+          - [condensed milk, 4, tbsp]
+          - [pandan or sugar syrup, 2, tbsp, optional]
+          - [crushed ice, 2, cup]
+    steps:
+      - Scoop the avocado into cubes with a spoon and cut the jackfruit into strips.
+      - Divide the avocado, jackfruit and coconut between glasses.
+      - Add the crushed ice and pour over the coconut milk, condensed milk and syrup. Serve straight away.

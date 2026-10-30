@@ -1,0 +1,625 @@
+id: cocina-alemana
+version: 1
+updated: 2026-10-31
+language: es
+name: "Cocina del mundo: Alemania"
+description: >-
+  Los clásicos de la cocina alemana de norte a sur: schnitzel, rouladen, sauerbraten, ensalada de
+  patata suaba, bratkartoffeln, kartoffelpuffer, käsespätzle, königsberger klopse, currywurst,
+  frikadellen, potajes de lentejas y de guisantes, sopa de patata, flammkuchen, brezeln,
+  maultaschen, obatzda y postres como el pastel de manzana, la tarta Selva Negra y la rote grütze.
+author: Miga
+authorGithub: calamares00
+cover:
+  emoji: "🥨"
+  kicker: Cocina del mundo
+  title: Alemania
+  colors: ["#111827", "#ca8a04"]
+defaults:
+  origin: Alemania
+  originCountry: DE
+  source: "Pack «Cocina del mundo: Alemania» de Miga"
+recipes:
+
+  - name: Schnitzel de cerdo
+    category: Carnes
+    difficulty: EASY
+    prep: 15
+    cook: 10
+    servings: 4
+    notes: El original vienés es de ternera; en Alemania el más habitual es el de cerdo (Schweineschnitzel). Si mueves la sartén mientras se fríe, el rebozado se separa y queda ondulado.
+    tags: [frito, cerdo]
+    ingredients:
+      - items:
+          - [filetes de lomo de cerdo, 4, null]
+          - [harina, 50, g]
+          - [huevos, 2, null]
+          - [pan rallado fino, 150, g]
+          - [aceite de girasol, 150, ml]
+          - [mantequilla, 30, g]
+          - [limón, 1, null]
+          - [sal, null, null]
+          - [pimienta negra, null, null]
+    steps:
+      - Aplana los filetes entre dos láminas de film hasta que tengan unos 5 mm de grosor. Salpimiéntalos.
+      - Pásalos por harina, huevo batido y pan rallado, sin apretar el pan.
+      - Calienta el aceite con la mantequilla en una sartén grande; debe cubrir el fondo un dedo.
+      - Fríe los filetes 2-3 minutos por cada lado, moviendo la sartén para que el aceite los cubra, hasta que estén dorados.
+      - Escúrrelos y sírvelos con gajos de limón, ensalada de patata o bratkartoffeln.
+
+  - name: Rouladen de ternera
+    category: Carnes
+    difficulty: MEDIUM
+    prep: 25
+    cook: 100
+    servings: 4
+    notes: Rollos de ternera rellenos de mostaza, bacon, cebolla y pepinillo. Se sirven con lombarda y patatas o knödel.
+    tags: [guiso, ternera]
+    ingredients:
+      - items:
+          - [filetes grandes y finos de tapa de ternera, 4, null]
+          - [mostaza alemana o de Dijon, 4, cucharada]
+          - [bacon, 8, loncha]
+          - [pepinillos en vinagre, 4, null]
+          - [cebollas, 2, null]
+          - [zanahoria, 1, null]
+          - [concentrado de tomate, 1, cucharada]
+          - [vino tinto, 250, ml]
+          - [caldo de carne, 500, ml]
+          - [laurel, 1, hoja]
+          - [maicena, 1, cucharada]
+          - [aceite de girasol, 2, cucharada]
+          - [sal, null, null]
+          - [pimienta negra, null, null]
+    steps:
+      - Salpimienta los filetes y úntalos con la mostaza. Cubre cada uno con 2 lonchas de bacon, un cuarto de cebolla en tiras y un pepinillo en bastones.
+      - Enróllalos desde el lado estrecho, metiendo los bordes, y sujétalos con palillos o hilo.
+      - Dóralos en el aceite por todos los lados y retíralos. Dora en la misma olla la otra cebolla y la zanahoria picadas y el concentrado.
+      - Añade el vino, el caldo y el laurel, devuelve los rollos, tapa y cuece a fuego suave 1 hora y media.
+      - Saca los rollos, cuela la salsa, espésala con la maicena disuelta en agua y sirve.
+
+  - name: Sauerbraten
+    category: Carnes
+    difficulty: HARD
+    prep: 30
+    cook: 150
+    servings: 6
+    origin: Renania
+    notes: La carne se marina 3 días en la nevera, dándole la vuelta cada día. En Renania la salsa se espesa con lebkuchen (pan de especias) y lleva pasas.
+    tags: [guiso, fiesta]
+    ingredients:
+      - group: Marinada
+        items:
+          - [redondo o cadera de ternera, 1.5, kg]
+          - [vinagre de vino tinto, 250, ml]
+          - [vino tinto, 250, ml]
+          - [agua, 250, ml]
+          - [cebollas, 2, null]
+          - [zanahoria, 1, null]
+          - [laurel, 3, hoja]
+          - [clavos, 5, null]
+          - [bayas de enebro, 10, null]
+          - [pimienta negra en grano, 10, null]
+          - [azúcar, 1, cucharada]
+      - group: Asado y salsa
+        items:
+          - [manteca o aceite, 2, cucharada]
+          - [lebkuchen o galletas de jengibre, 50, g]
+          - [pasas, 50, g]
+          - [sal, null, null]
+    steps:
+      - Cuece los ingredientes de la marinada (menos la carne) 5 minutos y deja que se enfríen. Cubre la carne con ella y déjala en la nevera 3 días, en un recipiente cerrado, dándole la vuelta cada día.
+      - Saca la carne, sécala y sálala. Cuela la marinada y reserva las verduras.
+      - Dora la carne en la manteca por todos los lados en una olla. Añade las verduras, dóralas y vierte medio litro de la marinada.
+      - Tapa y cuece a fuego muy suave 2 horas y media, hasta que esté tierna, añadiendo marinada si hace falta.
+      - Saca la carne, cuela el líquido y cuécelo con el lebkuchen desmenuzado y las pasas hasta que espese. Corta la carne en lonchas y sírvela con la salsa.
+
+  - name: Ensalada de patata suaba
+    category: Ensaladas
+    difficulty: EASY
+    prep: 15
+    cook: 25
+    servings: 6
+    origin: Suabia
+    notes: En el sur de Alemania se aliña con caldo caliente y vinagre, sin mayonesa. Está mejor tras reposar 1 hora.
+    tags: [guarnición, patata]
+    ingredients:
+      - items:
+          - [patatas de carne firme, 1, kg]
+          - [cebolla, 1, null]
+          - [caldo de carne o de verduras caliente, 250, ml]
+          - [vinagre de vino blanco, 4, cucharada]
+          - [mostaza, 1, cucharadita]
+          - [azúcar, 1, pizca]
+          - [aceite de girasol, 4, cucharada]
+          - [cebollino picado, 2, cucharada]
+          - [sal, null, null]
+          - [pimienta negra, null, null]
+    steps:
+      - Cuece las patatas con piel 20-25 minutos, pélalas aún calientes y córtalas en rodajas finas.
+      - Cuece la cebolla muy picada en el caldo 2 minutos. Añade el vinagre, la mostaza, el azúcar, la sal y la pimienta.
+      - Vierte el caldo caliente sobre las patatas y mezcla con cuidado. Deja que absorban el líquido 30 minutos.
+      - Añade el aceite y el cebollino, mezcla y ajusta de sal y vinagre.
+
+  - name: Bratkartoffeln
+    category: Verduras
+    difficulty: EASY
+    prep: 10
+    cook: 20
+    servings: 4
+    notes: Patatas salteadas con cebolla y bacon. Se hacen con patatas cocidas el día anterior.
+    tags: [guarnición, patata]
+    ingredients:
+      - items:
+          - [patatas cocidas con piel del día anterior, 1, kg]
+          - [cebolla, 1, null]
+          - [bacon en taquitos, 100, g]
+          - [mantequilla, 30, g]
+          - [aceite de girasol, 2, cucharada]
+          - [mejorana o alcaravea, 0.5, cucharadita, optional]
+          - [perejil picado, 2, cucharada]
+          - [sal, null, null]
+          - [pimienta negra, null, null]
+    steps:
+      - Pela las patatas y córtalas en rodajas de 5 mm.
+      - Dóralas en el aceite y la mantequilla en una sartén grande, en una sola capa, sin moverlas mucho, 10 minutos.
+      - Dales la vuelta, añade el bacon y la cebolla en tiras y saltea 8-10 minutos más, hasta que todo esté dorado.
+      - Salpimienta, añade la mejorana y el perejil y sirve.
+
+  - name: Kartoffelpuffer
+    category: Verduras
+    difficulty: EASY
+    prep: 20
+    cook: 25
+    servings: 4
+    notes: Tortitas de patata rallada. Se toman con compota de manzana o con salmón ahumado y nata agria.
+    tags: [patata, frito]
+    ingredients:
+      - items:
+          - [patatas harinosas, 1, kg]
+          - [cebolla, 1, null]
+          - [huevos, 2, null]
+          - [harina, 3, cucharada]
+          - [nuez moscada, 1, pizca]
+          - [sal, 1, cucharadita]
+          - [aceite de girasol para freír, null, null]
+          - [compota de manzana, 300, g]
+    steps:
+      - Ralla las patatas y la cebolla, ponlas en un paño limpio y escurre todo el líquido que puedas.
+      - Mézclalas con los huevos, la harina, la nuez moscada y la sal.
+      - Calienta un dedo de aceite en una sartén. Pon cucharadas de masa, aplánalas hasta que tengan 1 cm de grosor y fríelas 3-4 minutos por cada lado, hasta que estén doradas y crujientes.
+      - Escúrrelas sobre papel de cocina y sírvelas calientes con la compota de manzana.
+
+  - name: Käsespätzle
+    category: Pastas
+    difficulty: MEDIUM
+    prep: 20
+    cook: 30
+    servings: 4
+    origin: Suabia y Algovia
+    notes: Los spätzle se hacen con un rallador especial; también puedes rasparlos de una tabla con un cuchillo o pasarlos por un colador de agujeros grandes.
+    tags: [pasta, queso, vegetariana]
+    ingredients:
+      - group: Spätzle
+        items:
+          - [harina de trigo, 400, g]
+          - [huevos, 4, null]
+          - [agua con gas, 150, ml]
+          - [sal, 1, cucharadita]
+      - group: Para gratinar
+        items:
+          - [queso emmental rallado, 200, g]
+          - [queso de montaña o gruyer rallado, 100, g]
+          - [cebollas, 3, null]
+          - [mantequilla, 40, g]
+          - [cebollino picado, 2, cucharada]
+          - [pimienta negra, null, null]
+    steps:
+      - Bate la harina, los huevos, el agua y la sal con una cuchara de madera hasta que la masa haga burbujas y caiga despacio. Deja que repose 15 minutos.
+      - Corta las cebollas en aros finos y dóralas despacio en la mantequilla hasta que estén crujientes.
+      - Pasa la masa por el rallador de spätzle directamente sobre agua hirviendo con sal. Cuando floten, sácalos con una espumadera.
+      - Alterna en una fuente caliente capas de spätzle y queso, con pimienta, para que el queso se funda.
+      - Cubre con la cebolla frita y el cebollino y sirve enseguida.
+
+  - name: Königsberger Klopse
+    category: Carnes
+    difficulty: MEDIUM
+    prep: 25
+    cook: 30
+    servings: 4
+    origin: Prusia Oriental
+    notes: Albóndigas cocidas en caldo con salsa blanca de alcaparras. Las anchoas no se notan, pero dan profundidad.
+    tags: [albóndigas]
+    ingredients:
+      - group: Albóndigas
+        items:
+          - [carne picada mixta, 500, g]
+          - [panecillo del día anterior, 1, null]
+          - [huevo, 1, null]
+          - [cebolla, 1, null]
+          - [filetes de anchoa, 2, null]
+          - [sal, 1, cucharadita]
+          - [pimienta blanca, 0.5, cucharadita]
+          - [caldo de carne, 1, l]
+          - [laurel, 1, hoja]
+      - group: Salsa
+        items:
+          - [mantequilla, 40, g]
+          - [harina, 40, g]
+          - [nata para cocinar, 100, ml]
+          - [alcaparras, 3, cucharada]
+          - [zumo de limón, 1, cucharada]
+          - [azúcar, 1, pizca]
+          - [yema de huevo, 1, null, optional]
+    steps:
+      - Remoja el panecillo en agua y escúrrelo. Mézclalo con la carne, el huevo, la cebolla y las anchoas muy picadas, la sal y la pimienta.
+      - Forma albóndigas del tamaño de una pelota de golf.
+      - Lleva el caldo a ebullición con el laurel, baja el fuego y cuece las albóndigas 15 minutos, sin que hierva fuerte. Sácalas y reserva 500 ml del caldo.
+      - Derrite la mantequilla, añade la harina y cocina 1 minuto. Añade el caldo reservado poco a poco, removiendo, y cuece 5 minutos.
+      - Añade la nata, las alcaparras, el limón y el azúcar. Fuera del fuego, liga con la yema. Calienta las albóndigas en la salsa y sirve con patatas cocidas.
+
+  - name: Currywurst
+    category: Carnes
+    difficulty: EASY
+    prep: 10
+    cook: 25
+    servings: 4
+    origin: Berlín
+    notes: El plato callejero de Berlín. Se sirve con patatas fritas o un panecillo.
+    tags: [salchichas, comida callejera]
+    ingredients:
+      - group: Salsa
+        items:
+          - [cebolla, 1, null]
+          - [aceite de girasol, 2, cucharada]
+          - [curry en polvo, 2, cucharada]
+          - [pimentón dulce, 1, cucharadita]
+          - [tomate triturado, 400, g]
+          - [ketchup, 4, cucharada]
+          - [azúcar moreno, 2, cucharada]
+          - [vinagre de manzana, 2, cucharada]
+          - [sal, null, null]
+      - group: Salchichas
+        items:
+          - [salchichas tipo bratwurst, 4, null]
+          - [aceite de girasol, 1, cucharada]
+          - [curry en polvo para espolvorear, 1, cucharadita]
+    steps:
+      - Pocha la cebolla muy picada en el aceite 5 minutos. Añade el curry y el pimentón y sofríe 30 segundos.
+      - Incorpora el tomate, el ketchup, el azúcar y el vinagre y cuece 15 minutos. Tritura y ajusta de sal.
+      - Dora las salchichas en una sartén con el aceite y córtalas en rodajas.
+      - Cúbrelas con la salsa caliente y espolvorea curry por encima.
+
+  - name: Frikadellen
+    category: Carnes
+    difficulty: EASY
+    prep: 15
+    cook: 15
+    servings: 4
+    notes: Hamburguesas caseras alemanas. Se comen calientes o frías, con mostaza y ensalada de patata.
+    tags: [carne picada, casero]
+    ingredients:
+      - items:
+          - [carne picada mixta, 500, g]
+          - [panecillo del día anterior, 1, null]
+          - [cebolla, 1, null]
+          - [huevo, 1, null]
+          - [mostaza, 1, cucharadita]
+          - [mejorana seca, 1, cucharadita]
+          - [perejil picado, 2, cucharada]
+          - [sal, 1, cucharadita]
+          - [pimienta negra, 0.5, cucharadita]
+          - [aceite de girasol, 3, cucharada]
+    steps:
+      - Remoja el panecillo en agua y escúrrelo bien. Pica la cebolla muy fina.
+      - Mezcla la carne con el pan, la cebolla, el huevo, la mostaza, la mejorana, el perejil, la sal y la pimienta.
+      - Forma 8 tortitas de unos 2 cm de grosor.
+      - Fríelas en el aceite a fuego medio 5-6 minutos por cada lado, hasta que estén doradas y hechas por dentro.
+
+  - name: Potaje alemán de lentejas
+    category: Legumbres
+    difficulty: EASY
+    prep: 20
+    cook: 50
+    servings: 6
+    notes: En alemán, Linseneintopf. Se termina con un chorrito de vinagre y en Suabia se sirve con spätzle.
+    tags: [cuchara, invierno]
+    ingredients:
+      - items:
+          - [lentejas pardinas, 300, g]
+          - [bacon ahumado en taquitos, 100, g]
+          - [cebolla, 1, null]
+          - [zanahorias, 2, null]
+          - [apio nabo, 100, g]
+          - [puerro, 1, null]
+          - [patatas, 2, null]
+          - [caldo de carne, 1.5, l]
+          - [laurel, 1, hoja]
+          - [mejorana seca, 1, cucharadita]
+          - [salchichas de Fráncfort, 4, null]
+          - [vinagre de vino, 2, cucharada]
+          - [sal, null, null]
+          - [pimienta negra, null, null]
+    steps:
+      - Dora el bacon en una olla, añade la cebolla picada y pocha 5 minutos.
+      - Añade las lentejas, la zanahoria, el apio nabo y el puerro en dados, el caldo y el laurel y cuece 25 minutos.
+      - Añade las patatas en dados y la mejorana y cuece 20 minutos más.
+      - Incorpora las salchichas en rodajas y calienta 5 minutos. Termina con el vinagre y salpimienta.
+
+  - name: Sopa de guisantes
+    category: Legumbres
+    difficulty: EASY
+    prep: 15
+    cook: 90
+    servings: 6
+    notes: En alemán, Erbsensuppe, uno de los potajes más populares. Los guisantes secos partidos no necesitan remojo.
+    tags: [cuchara, invierno]
+    ingredients:
+      - items:
+          - [guisantes secos partidos, 500, g]
+          - [codillo o panceta ahumada, 300, g]
+          - [cebolla, 1, null]
+          - [zanahorias, 2, null]
+          - [apio nabo, 100, g]
+          - [puerro, 1, null]
+          - [patatas, 2, null]
+          - [caldo de verduras, 2, l]
+          - [mejorana seca, 1, cucharadita]
+          - [salchichas de Fráncfort, 4, null, optional]
+          - [sal, null, null]
+          - [pimienta negra, null, null]
+    steps:
+      - Lava los guisantes y ponlos en una olla con el caldo y el codillo. Lleva a ebullición y retira la espuma.
+      - Cuece a fuego suave 45 minutos, removiendo de vez en cuando.
+      - Añade las verduras y las patatas en dados y la mejorana y cuece 30 minutos más, hasta que los guisantes se deshagan.
+      - Saca el codillo, desmenuza la carne y devuélvela a la sopa con las salchichas en rodajas. Salpimienta.
+
+  - name: Sopa de patata alemana
+    category: Sopas y cremas
+    difficulty: EASY
+    prep: 20
+    cook: 35
+    servings: 6
+    notes: En alemán, Kartoffelsuppe. Se tritura solo una parte para que quede espesa pero con tropezones.
+    tags: [sopa, invierno]
+    utensils: [Batidora]
+    ingredients:
+      - items:
+          - [patatas harinosas, 1, kg]
+          - [zanahorias, 2, null]
+          - [apio nabo, 150, g]
+          - [puerro, 1, null]
+          - [cebolla, 1, null]
+          - [mantequilla, 30, g]
+          - [caldo de verduras, 1.2, l]
+          - [mejorana seca, 1, cucharadita]
+          - [nuez moscada, 1, pizca]
+          - [nata para cocinar, 100, ml]
+          - [salchichas de Fráncfort, 4, null, optional]
+          - [perejil picado, 2, cucharada]
+          - [sal, null, null]
+    steps:
+      - Pocha la cebolla y el puerro picados en la mantequilla 5 minutos.
+      - Añade las patatas, las zanahorias y el apio nabo en dados, el caldo y la mejorana y cuece 25 minutos.
+      - Tritura más o menos la mitad de la sopa y mézclala con el resto.
+      - Añade la nata, la nuez moscada y las salchichas en rodajas, calienta y ajusta de sal. Sirve con perejil.
+
+  - name: Flammkuchen
+    category: Panes y masas
+    difficulty: EASY
+    prep: 20
+    cook: 12
+    servings: 4
+    origin: Baden y Palatinado
+    notes: Típico de Alsacia y de las regiones alemanas vecinas. La masa, sin levadura, se estira muy fina y se hornea muy caliente.
+    tags: [al horno, para compartir]
+    utensils: [Horno]
+    ingredients:
+      - group: Masa
+        items:
+          - [harina de trigo, 250, g]
+          - [agua, 125, ml]
+          - [aceite de girasol, 2, cucharada]
+          - [sal, 0.5, cucharadita]
+      - group: Cobertura
+        items:
+          - [crème fraîche, 200, g]
+          - [cebolla, 1, null]
+          - [bacon ahumado en tiras, 150, g]
+          - [nuez moscada, 1, pizca]
+          - [sal, null, null]
+          - [pimienta negra, null, null]
+    steps:
+      - Precalienta el horno al máximo, 250 °C, con la bandeja dentro.
+      - Mezcla los ingredientes de la masa y amasa 5 minutos. Divídela en dos y estira cada parte muy fina sobre papel de horno.
+      - Unta la crème fraîche sazonada con sal, pimienta y nuez moscada, y reparte la cebolla en aros muy finos y el bacon.
+      - Hornea cada flammkuchen 10-12 minutos sobre la bandeja caliente, hasta que los bordes estén crujientes y dorados.
+
+  - name: Brezeln
+    category: Panes y masas
+    difficulty: MEDIUM
+    prep: 90
+    cook: 15
+    servings: 10
+    origin: Baviera y Suabia
+    notes: Las panaderías las bañan en sosa cáustica diluida, que les da su color y sabor. En casa, el baño de bicarbonato es una alternativa segura.
+    tags: [pan]
+    utensils: [Horno]
+    ingredients:
+      - group: Masa
+        items:
+          - [harina de trigo, 500, g]
+          - [agua templada, 280, ml]
+          - [levadura fresca de panadería, 20, g]
+          - [mantequilla blanda, 30, g]
+          - [azúcar, 1, cucharadita]
+          - [sal, 10, g]
+      - group: Baño
+        items:
+          - [agua, 1, l]
+          - [bicarbonato, 3, cucharada]
+          - [sal gruesa, 1, cucharada]
+    steps:
+      - Disuelve la levadura y el azúcar en el agua, mezcla con la harina, la mantequilla y la sal y amasa 10 minutos. Deja que leve tapada 1 hora.
+      - Divide la masa en 10 piezas y forma con cada una un cordón de 50 cm, más grueso en el centro.
+      - Cruza las puntas dos veces y pégalas a la parte gruesa para formar la brezel. Deja que reposen 15 minutos sin tapar.
+      - Precalienta el horno a 210 °C. Lleva el agua a ebullición, añade el bicarbonato con cuidado y sumerge cada brezel 30 segundos.
+      - Colócalas en bandejas con papel de horno, haz un corte en la parte gruesa, espolvorea sal gruesa y hornea 15 minutos, hasta que estén muy doradas.
+
+  - name: Maultaschen
+    category: Pastas
+    difficulty: HARD
+    prep: 60
+    cook: 15
+    servings: 6
+    origin: Suabia
+    notes: Grandes raviolis suabos rellenos de carne y espinacas. Se sirven en caldo o salteados con huevo y cebolla.
+    tags: [pasta rellena]
+    ingredients:
+      - group: Masa
+        items:
+          - [harina de trigo, 300, g]
+          - [huevos, 3, null]
+          - [agua, 2, cucharada]
+          - [sal, 0.5, cucharadita]
+      - group: Relleno
+        items:
+          - [carne picada de cerdo, 250, g]
+          - [carne de salchicha fresca, 150, g]
+          - [espinacas, 200, g]
+          - [panecillo del día anterior, 1, null]
+          - [cebolla, 1, null]
+          - [perejil picado, 2, cucharada]
+          - [huevo, 1, null]
+          - [nuez moscada, 1, pizca]
+          - [sal, 1, cucharadita]
+          - [pimienta negra, 0.5, cucharadita]
+      - group: Para servir
+        items:
+          - [caldo de carne, 1.5, l]
+          - [cebollino picado, 2, cucharada]
+    steps:
+      - Amasa los ingredientes de la masa hasta que esté lisa, envuélvela y deja que repose 30 minutos.
+      - Escalda las espinacas, escúrrelas bien y pícalas. Remoja el panecillo y escúrrelo. Pocha la cebolla picada.
+      - Mezcla todos los ingredientes del relleno.
+      - Estira la masa muy fina en tiras de 12 cm de ancho. Reparte el relleno a lo largo, dobla la masa por encima, aplasta entre porciones y corta en rectángulos sellando los bordes.
+      - Cuécelos en el caldo a fuego suave 10-12 minutos. Sírvelos en el caldo con cebollino.
+
+  - name: Pastel de manzana alemán
+    category: Postres
+    difficulty: EASY
+    prep: 20
+    cook: 45
+    servings: 10
+    notes: En alemán, versunkener Apfelkuchen, «pastel de manzana hundida», porque la fruta se hunde en el bizcocho al hornearse.
+    tags: [postre, al horno]
+    utensils: [Horno]
+    ingredients:
+      - items:
+          - [mantequilla blanda, 125, g]
+          - [azúcar, 125, g]
+          - [huevos, 3, null]
+          - [harina, 200, g]
+          - [levadura química, 2, cucharadita]
+          - [leche, 3, cucharada]
+          - [extracto de vainilla, 1, cucharadita]
+          - [manzanas, 4, null]
+          - [zumo de limón, 1, cucharada]
+          - [azúcar glas, 2, cucharada]
+    steps:
+      - Precalienta el horno a 180 °C y engrasa un molde desmontable de 26 cm.
+      - Pela las manzanas, pártelas en cuartos, quítales el corazón y haz cortes finos en la parte redondeada sin llegar al fondo. Rocíalas con el limón.
+      - Bate la mantequilla con el azúcar hasta que esté cremosa. Añade los huevos de uno en uno, la vainilla, la harina con la levadura y la leche.
+      - Extiende la masa en el molde y coloca encima los cuartos de manzana con los cortes hacia arriba, apretándolos un poco.
+      - Hornea 40-45 minutos. Deja que se enfríe y espolvorea el azúcar glas.
+
+  - name: Tarta Selva Negra
+    category: Postres
+    difficulty: HARD
+    prep: 60
+    cook: 35
+    servings: 12
+    origin: Selva Negra
+    notes: En alemán, Schwarzwälder Kirschtorte. El kirsch (aguardiente de cereza) es imprescindible en la receta original. Refrigera la tarta al menos 3 horas antes de servir.
+    tags: [postre, chocolate, fiesta]
+    utensils: [Horno]
+    ingredients:
+      - group: Bizcocho
+        items:
+          - [huevos, 6, null]
+          - [azúcar, 180, g]
+          - [harina, 120, g]
+          - [maicena, 30, g]
+          - [cacao puro en polvo, 30, g]
+          - [levadura química, 1, cucharadita]
+          - [mantequilla derretida, 60, g]
+      - group: Relleno
+        items:
+          - [cerezas ácidas en tarro, 680, g]
+          - [maicena, 25, g]
+          - [azúcar, 2, cucharada]
+          - [kirsch, 6, cucharada]
+          - [nata para montar muy fría, 800, ml]
+          - [azúcar para la nata, 60, g]
+          - [virutas de chocolate negro, 100, g]
+    steps:
+      - group: Bizcocho
+        items:
+          - Precalienta el horno a 175 °C y forra la base de un molde de 26 cm.
+          - Bate los huevos con el azúcar 10 minutos, hasta que tripliquen su volumen. Tamiza encima la harina, la maicena, el cacao y la levadura e incorpóralos con movimientos envolventes. Añade la mantequilla.
+          - Hornea 30-35 minutos. Deja que se enfríe y córtalo en tres discos.
+      - group: Relleno y montaje
+        items:
+          - Escurre las cerezas y reserva 250 ml del jugo. Cuece el jugo con la maicena y el azúcar hasta que espese, añade las cerezas (menos 12) y deja que se enfríe.
+          - Monta la nata con el azúcar.
+          - Rocía el primer disco con 2 cucharadas de kirsch, cubre con la mitad de las cerezas y una capa de nata. Repite con el segundo disco.
+          - Coloca el tercer disco, rocíalo con el kirsch restante y cubre toda la tarta con nata.
+          - Decora con virutas de chocolate por los lados y rosetas de nata con una cereza encima.
+
+  - name: Rote Grütze
+    category: Postres
+    difficulty: EASY
+    prep: 10
+    cook: 10
+    servings: 6
+    origin: Norte de Alemania
+    notes: Se sirve fría, con salsa de vainilla, nata líquida o helado de vainilla.
+    tags: [postre, frutos rojos, sin gluten]
+    ingredients:
+      - items:
+          - ["frutos rojos variados (grosellas, frambuesas, cerezas)", 750, g]
+          - [zumo de grosella o de cereza, 500, ml]
+          - [azúcar, 80, g]
+          - [maicena, 40, g]
+          - [vaina de vainilla, 1, null, optional]
+    steps:
+      - Disuelve la maicena en 100 ml del zumo.
+      - Lleva a ebullición el resto del zumo con el azúcar y la vainilla. Añade la maicena disuelta, removiendo, y cuece 1 minuto hasta que espese.
+      - Añade los frutos rojos, primero los más firmes, y deja que den un hervor sin que se deshagan.
+      - Reparte en cuencos y refrigera al menos 2 horas.
+
+  - name: Obatzda
+    category: Salsas
+    difficulty: EASY
+    prep: 10
+    cook: 0
+    servings: 4
+    origin: Baviera
+    notes: Crema de queso de las cervecerías al aire libre de Baviera. Se toma con brezeln, pan de centeno y rábanos.
+    tags: [aperitivo, queso, vegetariana]
+    ingredients:
+      - items:
+          - [queso camembert maduro, 200, g]
+          - [mantequilla blanda, 50, g]
+          - [queso crema, 50, g]
+          - [cebolla, 0.5, null]
+          - [pimentón dulce, 1, cucharadita]
+          - [alcaravea molida, 0.5, cucharadita]
+          - [cerveza, 2, cucharada, optional]
+          - [cebollino picado, 1, cucharada]
+          - [sal, null, null]
+          - [pimienta negra, null, null]
+    steps:
+      - Aplasta el camembert con un tenedor, con su corteza.
+      - Mézclalo con la mantequilla, el queso crema, la mitad de la cebolla muy picada, el pimentón, la alcaravea y la cerveza. Salpimienta.
+      - Sirve con el resto de la cebolla en aros finos, cebollino y un poco de pimentón por encima.

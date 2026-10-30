@@ -1,0 +1,582 @@
+id: cocina-griega
+version: 1
+updated: 2026-10-31
+language: es
+name: "Cocina del mundo: Grecia"
+description: >-
+  La cocina griega más allá de la ensalada y el tzatziki: souvlaki, spanakopita, pastitsio,
+  gemista, fasolada, avgolemono, dolmades, keftedes, briam, fava, kleftiko, stifado, queso
+  saganaki, gambas con feta, gigantes, taramosalata, melitzanosalata, spanakorizo, loukoumades y
+  baklava. Con aceite de oliva, limón, orégano y eneldo.
+author: Miga
+authorGithub: calamares00
+cover:
+  emoji: "🥙"
+  kicker: Cocina del mundo
+  title: Grecia
+  colors: ["#1e40af", "#0ea5e9"]
+defaults:
+  origin: Grecia
+  originCountry: GR
+  source: "Pack «Cocina del mundo: Grecia» de Miga"
+recipes:
+
+  - name: Souvlaki de cerdo con pita
+    category: Carnes
+    difficulty: EASY
+    prep: 20
+    cook: 15
+    servings: 4
+    notes: Marina la carne al menos 2 horas. Remoja las brochetas de madera para que no se quemen.
+    tags: [brochetas, barbacoa]
+    ingredients:
+      - group: Souvlaki
+        items:
+          - [aguja de cerdo en dados, 800, g]
+          - [aceite de oliva, 4, cucharada]
+          - [limón, 1, null]
+          - [orégano seco, 2, cucharadita]
+          - [ajo, 2, diente]
+          - [sal, 1, cucharadita]
+          - [pimienta negra, 0.5, cucharadita]
+      - group: Para servir
+        items:
+          - [pan de pita, 4, null]
+          - [tzatziki o yogur griego, 200, g]
+          - [tomates, 2, null]
+          - [cebolla morada, 1, null]
+          - [patatas fritas, null, null, optional]
+    steps:
+      - Mezcla el aceite con el zumo de limón, el orégano, el ajo picado, la sal y la pimienta, y marina la carne al menos 2 horas.
+      - Ensarta la carne en las brochetas.
+      - Ásalas en la barbacoa o la plancha a fuego fuerte 10-12 minutos, dándoles la vuelta, hasta que estén doradas.
+      - Calienta las pitas y sírvelas con la carne, el tzatziki, el tomate y la cebolla en rodajas finas. En Grecia se le añaden unas patatas fritas dentro.
+
+  - name: Spanakopita
+    category: Panes y masas
+    difficulty: MEDIUM
+    prep: 30
+    cook: 45
+    servings: 8
+    tags: [vegetariana, al horno]
+    utensils: [Horno]
+    ingredients:
+      - items:
+          - [espinacas frescas, 1, kg]
+          - [queso feta, 300, g]
+          - [cebolletas, 6, null]
+          - [eneldo fresco, 1, manojo]
+          - [huevos, 2, null]
+          - [masa filo, 12, hoja]
+          - [aceite de oliva, 100, ml]
+          - [pimienta negra, null, null]
+    steps:
+      - Lava las espinacas, trocéalas y escáldalas 1 minuto. Escúrrelas muy bien, apretando para quitarles toda el agua.
+      - Mézclalas con las cebolletas y el eneldo picados, el feta desmenuzado, los huevos batidos y la pimienta.
+      - Precalienta el horno a 180 °C. Pinta un molde con aceite y forra el fondo con 6 hojas de filo, pintando cada una con aceite y dejando que sobresalgan.
+      - Reparte el relleno, dobla los bordes hacia dentro y cubre con el resto de las hojas, pintadas con aceite.
+      - Marca las porciones con un cuchillo y hornea 40-45 minutos, hasta que esté dorada.
+
+  - name: Pastitsio
+    category: Pastas
+    difficulty: HARD
+    prep: 30
+    cook: 90
+    servings: 8
+    notes: Se suele hacer con macarrones largos especiales (número 2); los bucatini o los macarrones normales sirven.
+    tags: [pasta, al horno]
+    utensils: [Horno]
+    ingredients:
+      - group: Carne
+        items:
+          - [carne picada de ternera, 600, g]
+          - [cebolla, 1, null]
+          - [ajo, 2, diente]
+          - [tomate triturado, 400, g]
+          - [vino tinto, 125, ml]
+          - [canela en rama, 1, null]
+          - [clavo, 2, null]
+          - [aceite de oliva, 3, cucharada]
+          - [sal, null, null]
+      - group: Pasta
+        items:
+          - [macarrones largos, 500, g]
+          - [queso kefalotyri o parmesano rallado, 50, g]
+          - [clara de huevo, 1, null]
+      - group: Bechamel
+        items:
+          - [mantequilla, 100, g]
+          - [harina, 100, g]
+          - [leche entera, 1, l]
+          - [yemas de huevo, 2, null]
+          - [queso kefalotyri o parmesano rallado, 50, g]
+          - [nuez moscada, 1, pizca]
+    steps:
+      - group: Carne
+        items:
+          - Sofríe la cebolla y el ajo picados en el aceite. Añade la carne y dórala.
+          - Riega con el vino, añade el tomate, la canela y el clavo y cuece a fuego suave 30 minutos. Retira las especias y ajusta de sal.
+      - group: Montaje
+        items:
+          - Cuece la pasta 2 minutos menos de lo indicado, escúrrela y mézclala con el queso y la clara batida.
+          - Haz la bechamel con la mantequilla, la harina y la leche, cociéndola 10 minutos. Fuera del fuego, añade las yemas, el queso y la nuez moscada.
+          - Precalienta el horno a 180 °C. En una fuente, pon la mitad de la pasta, la carne y el resto de la pasta, y cubre con la bechamel.
+          - Hornea 45 minutos, hasta que esté dorado. Deja que repose 20 minutos antes de cortarlo.
+
+  - name: Gemista
+    category: Verduras
+    difficulty: MEDIUM
+    prep: 30
+    cook: 70
+    servings: 6
+    notes: Tomates y pimientos rellenos de arroz con hierbas, el plato del verano griego.
+    tags: [vegana, al horno, verano]
+    utensils: [Horno]
+    ingredients:
+      - items:
+          - [tomates grandes, 6, null]
+          - [pimientos verdes, 4, null]
+          - [arroz redondo, 200, g]
+          - [cebolla, 1, null]
+          - [ajo, 2, diente]
+          - [menta fresca picada, 2, cucharada]
+          - [perejil picado, 4, cucharada]
+          - [aceite de oliva, 150, ml]
+          - [azúcar, 1, cucharadita]
+          - [patatas, 3, null]
+          - [sal, null, null]
+          - [pimienta negra, null, null]
+    steps:
+      - Corta la tapa de los tomates y vacíalos con una cuchara. Tritura la pulpa. Corta la tapa de los pimientos y quítales las semillas.
+      - Sofríe la cebolla y el ajo picados en la mitad del aceite. Añade el arroz, la pulpa de tomate, las hierbas, el azúcar, la sal y la pimienta y cuece 5 minutos.
+      - Precalienta el horno a 180 °C. Rellena las verduras hasta tres cuartos, porque el arroz crece, y ponles su tapa.
+      - Colócalas en una fuente con las patatas en gajos entre ellas. Riega con el resto del aceite y un vaso de agua.
+      - Hornea 1 hora y 10 minutos, hasta que el arroz esté hecho y las verduras doradas.
+
+  - name: Fasolada
+    category: Legumbres
+    difficulty: EASY
+    prep: 15
+    cook: 90
+    servings: 6
+    notes: La sopa de alubias se considera el plato nacional de Grecia. Las alubias se remojan la víspera.
+    tags: [cuchara, vegana]
+    ingredients:
+      - items:
+          - [alubias blancas secas, 500, g]
+          - [cebolla, 1, null]
+          - [zanahorias, 2, null]
+          - [apio, 2, rama]
+          - [tomate triturado, 200, g]
+          - [concentrado de tomate, 1, cucharada]
+          - [aceite de oliva virgen extra, 120, ml]
+          - [laurel, 1, hoja]
+          - [sal, null, null]
+          - [pimienta negra, null, null]
+    steps:
+      - Escurre las alubias, cúbrelas de agua, lleva a ebullición 5 minutos y tira el agua.
+      - Pon las alubias en una olla con 2 litros de agua, la cebolla picada, las zanahorias y el apio en rodajas, el laurel y la mitad del aceite.
+      - Cuece a fuego suave 1 hora, hasta que estén casi tiernas.
+      - Añade el tomate, el concentrado, el resto del aceite, la sal y la pimienta, y cuece 30 minutos más, hasta que el caldo espese.
+
+  - name: Sopa avgolemono
+    category: Sopas y cremas
+    difficulty: MEDIUM
+    prep: 10
+    cook: 30
+    servings: 4
+    notes: El huevo se templa con caldo caliente antes de añadirlo para que no se cuaje en hebras.
+    tags: [sopa, limón]
+    ingredients:
+      - items:
+          - [caldo de pollo, 1.5, l]
+          - [arroz o pasta orzo, 100, g]
+          - [pollo cocido desmenuzado, 300, g]
+          - [huevos, 2, null]
+          - [limones, 2, null]
+          - [sal, null, null]
+          - [pimienta negra, null, null]
+    steps:
+      - Lleva el caldo a ebullición, añade el arroz y cuece hasta que esté tierno. Añade el pollo y baja el fuego al mínimo.
+      - Bate los huevos hasta que espumen y añade el zumo de limón poco a poco sin dejar de batir.
+      - Añade un cazo de caldo caliente al huevo, batiendo, y después otro.
+      - Vierte la mezcla en la olla, removiendo, y calienta sin que llegue a hervir hasta que la sopa espese un poco. Salpimienta.
+
+  - name: Dolmades
+    category: Entrantes
+    difficulty: MEDIUM
+    prep: 60
+    cook: 50
+    servings: 6
+    notes: Hojas de parra rellenas de arroz y hierbas. Se toman templadas o frías, con yogur o limón.
+    tags: [vegana, aperitivo]
+    ingredients:
+      - items:
+          - [hojas de parra en salmuera, 40, null]
+          - [arroz redondo, 250, g]
+          - [cebollas, 2, null]
+          - [eneldo fresco picado, 3, cucharada]
+          - [menta fresca picada, 2, cucharada]
+          - [piñones, 2, cucharada, optional]
+          - [limones, 2, null]
+          - [aceite de oliva virgen extra, 150, ml]
+          - [agua caliente, 500, ml]
+          - [sal, null, null]
+    steps:
+      - Escalda las hojas de parra 2 minutos y escúrrelas. Quítales el tallo.
+      - Pocha las cebollas picadas en la mitad del aceite. Añade el arroz, las hierbas, los piñones, la sal y el zumo de medio limón y mezcla.
+      - Pon una hoja con el envés hacia arriba, una cucharadita de relleno junto al tallo, dobla los lados y enrolla apretando, sin que quede muy duro porque el arroz crece.
+      - Cubre el fondo de una olla con hojas rotas y coloca los rollitos apretados, con el cierre hacia abajo.
+      - Riega con el resto del aceite, el zumo de limón restante y el agua, pon un plato encima para que no se muevan y cuece tapado a fuego suave 45-50 minutos.
+
+  - name: Keftedes
+    category: Carnes
+    difficulty: EASY
+    prep: 20
+    cook: 15
+    servings: 4
+    notes: Albóndigas griegas con menta y orégano. Se sirven con tzatziki y limón.
+    tags: [albóndigas, fritura]
+    ingredients:
+      - items:
+          - [carne picada mixta, 500, g]
+          - [cebolla, 1, null]
+          - [pan del día anterior sin corteza, 2, rebanada]
+          - [huevo, 1, null]
+          - [menta fresca picada, 2, cucharada]
+          - [perejil picado, 2, cucharada]
+          - [orégano seco, 1, cucharadita]
+          - [ajo, 1, diente]
+          - [sal, 1, cucharadita]
+          - [harina para rebozar, null, null]
+          - [aceite de oliva para freír, null, null]
+          - [limón, 1, null]
+    steps:
+      - Remoja el pan en agua y escúrrelo. Ralla la cebolla y escurre su jugo.
+      - Mezcla la carne con el pan, la cebolla, el huevo, las hierbas, el ajo picado y la sal. Deja que repose 30 minutos en la nevera.
+      - Forma bolas algo aplastadas del tamaño de una nuez y pásalas por harina.
+      - Fríelas en aceite caliente 5-6 minutos, hasta que estén doradas. Sírvelas con limón.
+
+  - name: Briam
+    category: Verduras
+    difficulty: EASY
+    prep: 20
+    cook: 75
+    servings: 6
+    notes: Verduras de verano asadas con aceite de oliva y tomate, la versión griega del ratatouille.
+    tags: [vegana, al horno, verano]
+    utensils: [Horno]
+    ingredients:
+      - items:
+          - [patatas, 3, null]
+          - [calabacines, 2, null]
+          - [berenjena, 1, null]
+          - [pimiento verde, 1, null]
+          - [cebollas, 2, null]
+          - [ajo, 3, diente]
+          - [tomate triturado, 400, g]
+          - [perejil picado, 3, cucharada]
+          - [orégano seco, 1, cucharadita]
+          - [aceite de oliva virgen extra, 150, ml]
+          - [sal, null, null]
+          - [pimienta negra, null, null]
+    steps:
+      - Precalienta el horno a 190 °C.
+      - Corta las patatas, los calabacines y la berenjena en rodajas de 1 cm, y el pimiento y las cebollas en tiras.
+      - Mézclalo todo en una fuente con el ajo picado, el tomate, el perejil, el orégano, el aceite, la sal y la pimienta, y añade 150 ml de agua.
+      - Tapa con papel de aluminio y hornea 45 minutos. Destapa, remueve con cuidado y hornea 30 minutos más, hasta que las verduras estén tiernas y doradas.
+
+  - name: Fava de Santorini
+    category: Legumbres
+    difficulty: EASY
+    prep: 10
+    cook: 45
+    servings: 6
+    origin: Santorini
+    notes: Puré de guisantes amarillos partidos. Se sirve templado como aperitivo, con pan.
+    tags: [vegana, sin gluten, aperitivo]
+    utensils: [Batidora]
+    ingredients:
+      - items:
+          - [guisantes amarillos partidos, 250, g]
+          - [cebolla, 1, null]
+          - [ajo, 1, diente]
+          - [agua, 1, l]
+          - [aceite de oliva virgen extra, 80, ml]
+          - [limón, 1, null]
+          - [sal, null, null]
+          - [alcaparras, 1, cucharada]
+          - [cebolla morada picada, 2, cucharada]
+    steps:
+      - Lava los guisantes y ponlos en una olla con el agua, la mitad de la cebolla troceada y el ajo.
+      - Cuece a fuego suave 40-45 minutos, retirando la espuma, hasta que se deshagan.
+      - Tritúralos con la mitad del aceite, el zumo de medio limón y la sal hasta tener un puré muy fino.
+      - Sirve templado con el resto del aceite, las alcaparras y la cebolla morada.
+
+  - name: Kleftiko
+    category: Carnes
+    difficulty: MEDIUM
+    prep: 20
+    cook: 180
+    servings: 6
+    notes: Su nombre viene de los klephtes, los bandoleros que asaban la carne en hoyos sellados. El papel cerrado imita ese asado lento.
+    tags: [cordero, al horno]
+    utensils: [Horno]
+    ingredients:
+      - items:
+          - [pierna de cordero troceada, 1.5, kg]
+          - [patatas, 1, kg]
+          - [ajo, 6, diente]
+          - [limones, 2, null]
+          - [orégano seco, 2, cucharadita]
+          - [romero fresco, 2, rama]
+          - [queso feta, 150, g, optional]
+          - [vino blanco, 150, ml]
+          - [aceite de oliva, 100, ml]
+          - [sal, null, null]
+          - [pimienta negra, null, null]
+    steps:
+      - Mezcla el aceite con el zumo de los limones, el ajo machacado, el orégano, la sal y la pimienta, y marina el cordero al menos 2 horas.
+      - Precalienta el horno a 160 °C. Coloca en una fuente dos capas grandes de papel de horno y aluminio cruzadas.
+      - Pon encima las patatas en gajos, el cordero con su marinada, el romero, el vino y el feta en trozos.
+      - Cierra el papel herméticamente y hornea 3 horas, hasta que la carne se deshaga.
+      - Abre el paquete, sube el horno a 200 °C y dora 15 minutos más.
+
+  - name: Stifado de ternera
+    category: Carnes
+    difficulty: MEDIUM
+    prep: 30
+    cook: 120
+    servings: 6
+    notes: Lleva tantas cebollitas como carne. Pelarlas es más fácil si se escaldan 1 minuto.
+    tags: [guiso, invierno]
+    ingredients:
+      - items:
+          - [carne de ternera para guisar, 1, kg]
+          - [cebollitas o chalotas, 1, kg]
+          - [tomate triturado, 400, g]
+          - [vino tinto, 250, ml]
+          - [vinagre de vino tinto, 3, cucharada]
+          - [ajo, 4, diente]
+          - [canela en rama, 1, null]
+          - [clavo, 4, null]
+          - [pimienta de Jamaica en grano, 4, null]
+          - [laurel, 2, hoja]
+          - [aceite de oliva, 100, ml]
+          - [sal, null, null]
+    steps:
+      - Corta la carne en trozos grandes y dórala en el aceite. Retírala.
+      - Dora las cebollitas peladas enteras en el mismo aceite y retíralas.
+      - Devuelve la carne con el ajo, riega con el vino y el vinagre y deja que hierva 3 minutos.
+      - Añade el tomate, las especias, el laurel, la sal y agua justo para cubrir. Tapa y cuece a fuego suave 1 hora.
+      - Añade las cebollitas y cuece 45-60 minutos más, hasta que la carne esté tierna y la salsa espesa.
+
+  - name: Queso saganaki
+    category: Entrantes
+    difficulty: EASY
+    prep: 5
+    cook: 5
+    servings: 4
+    notes: Se hace con un queso duro que no se funde, como el kefalotyri o la kefalograviera. El halloumi también sirve.
+    tags: [aperitivo, vegetariana]
+    ingredients:
+      - items:
+          - ["queso kefalograviera en lonchas de 1,5 cm", 250, g]
+          - [harina, 3, cucharada]
+          - [aceite de oliva, 3, cucharada]
+          - [limón, 1, null]
+    steps:
+      - Moja el queso en agua fría y pásalo por harina, sacudiendo el exceso.
+      - Fríelo en el aceite muy caliente 1-2 minutos por cada lado, hasta que tenga una costra dorada.
+      - Sírvelo enseguida con zumo de limón por encima.
+
+  - name: Gambas saganaki
+    category: Pescados y mariscos
+    difficulty: EASY
+    prep: 10
+    cook: 20
+    servings: 4
+    notes: Gambas en salsa de tomate con feta. Se toman con pan para mojar en la salsa.
+    tags: [marisco]
+    ingredients:
+      - items:
+          - [gambas peladas, 500, g]
+          - [tomate pelado en conserva, 400, g]
+          - [cebolla, 1, null]
+          - [ajo, 2, diente]
+          - [ouzo, 50, ml, optional]
+          - [guindilla, 1, null, optional]
+          - [queso feta, 150, g]
+          - [perejil picado, 2, cucharada]
+          - [aceite de oliva, 4, cucharada]
+          - [sal, null, null]
+    steps:
+      - Pocha la cebolla y el ajo picados en el aceite 5 minutos.
+      - Añade las gambas, saltea 1 minuto y riega con el ouzo.
+      - Incorpora el tomate triturado y la guindilla y cuece 8 minutos. Ajusta de sal.
+      - Desmenuza el feta por encima, tapa y cuece 3-4 minutos más, hasta que el queso se ablande. Sirve con perejil.
+
+  - name: Gigantes plaki
+    category: Legumbres
+    difficulty: EASY
+    prep: 15
+    cook: 120
+    servings: 6
+    notes: Los gigantes son unas alubias blancas muy grandes; los judiones de La Granja son casi iguales. Se remojan la víspera.
+    tags: [vegana, al horno]
+    utensils: [Horno]
+    ingredients:
+      - items:
+          - [judiones secos, 500, g]
+          - [cebollas, 2, null]
+          - [ajo, 3, diente]
+          - [zanahoria, 1, null]
+          - [apio, 1, rama]
+          - [tomate triturado, 400, g]
+          - [concentrado de tomate, 1, cucharada]
+          - [eneldo o perejil picado, 4, cucharada]
+          - [miel o azúcar, 1, cucharadita]
+          - [aceite de oliva virgen extra, 150, ml]
+          - [sal, null, null]
+          - [pimienta negra, null, null]
+    steps:
+      - Cuece los judiones escurridos en agua sin sal 1 hora, hasta que estén casi tiernos. Escúrrelos y reserva un vaso del agua.
+      - Pocha la cebolla, el ajo, la zanahoria y el apio picados en la mitad del aceite 10 minutos. Añade el tomate, el concentrado, la miel, la sal y la pimienta y cuece 10 minutos.
+      - Precalienta el horno a 180 °C. Mezcla los judiones con la salsa, las hierbas y el agua reservada en una fuente.
+      - Riega con el resto del aceite y hornea 50-60 minutos, hasta que la salsa espese y la superficie se dore.
+
+  - name: Taramosalata
+    category: Salsas
+    difficulty: EASY
+    prep: 15
+    cook: 0
+    servings: 6
+    notes: El tarama son huevas de carpa o de bacalao curadas. Se vende en tiendas griegas y en algunos supermercados.
+    tags: [aperitivo, salsa]
+    utensils: [Batidora]
+    ingredients:
+      - items:
+          - [tarama, 100, g]
+          - [pan blanco sin corteza, 150, g]
+          - [cebolla, 0.5, null]
+          - [zumo de limón, 3, cucharada]
+          - [aceite de oliva suave, 200, ml]
+    steps:
+      - Remoja el pan en agua y escúrrelo bien.
+      - Tritura el tarama con la cebolla rallada y el pan.
+      - Añade el aceite en hilo y el zumo de limón alternando, sin dejar de triturar, hasta tener una crema suave.
+      - Refrigera al menos 1 hora y sirve con pan de pita.
+
+  - name: Melitzanosalata
+    category: Salsas
+    difficulty: EASY
+    prep: 10
+    cook: 45
+    servings: 6
+    notes: Asar las berenjenas directamente sobre la llama del fogón les da un sabor ahumado.
+    tags: [aperitivo, vegana]
+    utensils: [Horno]
+    ingredients:
+      - items:
+          - [berenjenas, 2, null]
+          - [ajo, 1, diente]
+          - [aceite de oliva virgen extra, 4, cucharada]
+          - [vinagre de vino, 1, cucharada]
+          - [perejil picado, 2, cucharada]
+          - [cebolla morada, 0.25, null, optional]
+          - [sal, null, null]
+    steps:
+      - Pincha las berenjenas y ásalas enteras en el horno a 220 °C 40-45 minutos, hasta que estén muy blandas.
+      - Ábrelas, saca la pulpa con una cuchara y deja que escurra en un colador 10 minutos.
+      - Pícala con un cuchillo y mézclala con el ajo machacado, el aceite, el vinagre, el perejil, la cebolla muy picada y la sal.
+      - Sirve frío o a temperatura ambiente con pan.
+
+  - name: Spanakorizo
+    category: Arroces
+    difficulty: EASY
+    prep: 15
+    cook: 30
+    servings: 4
+    notes: Arroz con espinacas, eneldo y limón. Se sirve con feta y un hilo de aceite.
+    tags: [vegetariana, cuchara]
+    ingredients:
+      - items:
+          - [espinacas frescas, 1, kg]
+          - [arroz redondo, 200, g]
+          - [cebolla, 1, null]
+          - [cebolletas, 4, null]
+          - [eneldo fresco picado, 3, cucharada]
+          - [aceite de oliva virgen extra, 120, ml]
+          - [agua caliente, 500, ml]
+          - [limón, 1, null]
+          - [queso feta, 150, g, optional]
+          - [sal, null, null]
+          - [pimienta negra, null, null]
+    steps:
+      - Pocha la cebolla y las cebolletas picadas en el aceite 5 minutos.
+      - Añade las espinacas troceadas poco a poco, dejando que reduzcan.
+      - Incorpora el arroz, el agua, la sal y la pimienta, tapa y cuece a fuego suave 20 minutos, hasta que el arroz esté tierno pero meloso.
+      - Añade el eneldo y el zumo de limón y sirve con feta desmenuzado.
+
+  - name: Loukoumades
+    category: Postres
+    difficulty: MEDIUM
+    prep: 75
+    cook: 20
+    servings: 6
+    notes: Buñuelos con miel. La masa necesita 1 hora de levado.
+    tags: [postre, fritura]
+    ingredients:
+      - group: Masa
+        items:
+          - [harina de trigo, 300, g]
+          - [levadura seca de panadería, 7, g]
+          - [azúcar, 1, cucharadita]
+          - [sal, 1, pizca]
+          - [agua templada, 300, ml]
+          - [aceite de girasol para freír, null, null]
+      - group: Almíbar y cobertura
+        items:
+          - [miel, 200, g]
+          - [agua, 100, ml]
+          - [canela en rama, 1, null]
+          - [nueces picadas, 50, g]
+          - [canela molida, 1, cucharadita]
+    steps:
+      - Mezcla la harina, la levadura, el azúcar y la sal con el agua hasta tener una masa pegajosa y fluida. Tápala y deja que leve 1 hora, hasta que doble su volumen.
+      - Cuece la miel con el agua y la canela 5 minutos y deja que se temple.
+      - Calienta el aceite a 175 °C. Toma porciones de masa con una cuchara mojada en agua, o apretando la masa en el puño, y échalas al aceite.
+      - Fríelas en tandas, dándoles la vuelta, hasta que estén doradas. Escúrrelas.
+      - Báñalas en el almíbar y sírvelas con nueces y canela.
+
+  - name: Baklava
+    category: Postres
+    difficulty: MEDIUM
+    prep: 40
+    cook: 50
+    servings: 12
+    notes: El almíbar se vierte frío sobre el baklava caliente, o al revés, para que quede crujiente. Mejor al día siguiente.
+    tags: [postre, frutos secos]
+    utensils: [Horno]
+    ingredients:
+      - group: Baklava
+        items:
+          - [masa filo, 400, g]
+          - [nueces, 300, g]
+          - [azúcar, 2, cucharada]
+          - [canela molida, 1, cucharadita]
+          - [mantequilla derretida, 200, g]
+      - group: Almíbar
+        items:
+          - [agua, 250, ml]
+          - [azúcar, 250, g]
+          - [miel, 100, g]
+          - [piel de limón, 1, trozo]
+          - [canela en rama, 1, null]
+    steps:
+      - Cuece los ingredientes del almíbar 10 minutos y deja que se enfríe. Retira la piel de limón y la canela.
+      - Pica las nueces y mézclalas con el azúcar y la canela.
+      - Precalienta el horno a 170 °C. Pinta un molde con mantequilla y coloca 8 hojas de filo, pintando cada una con mantequilla.
+      - Alterna capas de nueces con 2-3 hojas de filo pintadas, y termina con 8 hojas pintadas.
+      - Corta en rombos con un cuchillo afilado hasta el fondo y hornea 45-50 minutos, hasta que esté dorado.
+      - Vierte el almíbar frío sobre el baklava recién sacado del horno y deja que lo absorba varias horas antes de servir.

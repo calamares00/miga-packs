@@ -1,0 +1,618 @@
+id: cocina-indonesia
+version: 1
+updated: 2026-10-31
+language: es
+name: "Cocina del mundo: Indonesia"
+description: >-
+  Los platos de diario y de fiesta de Indonesia: nasi goreng, mie goreng, satay de pollo con salsa
+  de cacahuete, gado-gado, rendang, soto ayam, opor ayam, bakso, sayur lodeh, sambal y postres como
+  el pisang goreng, el martabak o los klepon. Con equivalencias para los ingredientes menos
+  habituales.
+author: Miga
+authorGithub: calamares00
+cover:
+  emoji: "🍛"
+  kicker: Cocina del mundo
+  title: Indonesia
+  colors: ["#b91c1c", "#ea580c"]
+defaults:
+  origin: Indonesia
+  originCountry: ID
+  source: "Pack «Cocina del mundo: Indonesia» de Miga"
+recipes:
+
+  - name: Nasi goreng
+    category: Arroces
+    difficulty: EASY
+    prep: 10
+    cook: 10
+    servings: 4
+    notes: El kecap manis es una salsa de soja espesa y dulce. Se vende en tiendas asiáticas.
+    tags: [arroz frito, picante]
+    utensils: [Wok]
+    ingredients:
+      - items:
+          - [arroz jazmín cocido del día anterior, 600, g]
+          - [chalotas, 4, null]
+          - [ajo, 3, diente]
+          - [chiles rojos, 2, null]
+          - [pasta de gambas (terasi), 1, cucharadita, optional]
+          - [kecap manis, 3, cucharada]
+          - [salsa de soja, 1, cucharada]
+          - [aceite de girasol, 3, cucharada]
+          - [huevos, 4, null]
+          - [pepino, 1, null]
+          - [tomate, 1, null]
+          - [cebolla frita, 2, cucharada]
+          - [sal, null, null]
+    steps:
+      - Machaca en un mortero las chalotas, el ajo, los chiles y la pasta de gambas hasta tener una pasta.
+      - Sofríe la pasta en 2 cucharadas de aceite en el wok 2 minutos, hasta que huela bien.
+      - Añade el arroz, el kecap manis y la soja y saltea a fuego fuerte 4-5 minutos, hasta que el arroz esté caliente y tome color. Ajusta de sal.
+      - Fríe los huevos en el resto del aceite.
+      - Sirve el arroz con un huevo frito encima, rodajas de pepino y tomate y cebolla frita.
+
+  - name: Mie goreng
+    category: Pastas
+    difficulty: EASY
+    prep: 10
+    cook: 10
+    servings: 4
+    tags: [fideos, picante]
+    utensils: [Wok]
+    ingredients:
+      - items:
+          - [fideos de huevo, 300, g]
+          - [pechuga de pollo, 200, g]
+          - [gambas peladas, 150, g, optional]
+          - [col china, 200, g]
+          - [zanahoria, 1, null]
+          - [chalotas, 3, null]
+          - [ajo, 3, diente]
+          - [chile rojo, 1, null]
+          - [huevos, 2, null]
+          - [kecap manis, 3, cucharada]
+          - [salsa de soja, 1, cucharada]
+          - [salsa de ostras, 1, cucharada]
+          - [aceite de girasol, 3, cucharada]
+          - [cebolla frita, 2, cucharada]
+    steps:
+      - Cuece los fideos según el paquete, escúrrelos y pásalos por agua fría.
+      - Pica las chalotas, el ajo y el chile. Corta el pollo en tiras, la col en juliana y la zanahoria en bastones finos.
+      - Saltea las chalotas, el ajo y el chile en el aceite 1 minuto. Añade el pollo y las gambas y saltea 3 minutos.
+      - Aparta todo a un lado, cuaja los huevos batidos y rómpelos.
+      - Incorpora las verduras, los fideos y las salsas y saltea a fuego fuerte 3 minutos. Sirve con cebolla frita.
+
+  - name: Satay de pollo con salsa de cacahuete
+    category: Carnes
+    difficulty: MEDIUM
+    prep: 30
+    cook: 15
+    servings: 4
+    notes: Remoja las brochetas de madera 30 minutos para que no se quemen.
+    tags: [brochetas, barbacoa]
+    ingredients:
+      - group: Satay
+        items:
+          - [contramuslos de pollo deshuesados, 600, g]
+          - [kecap manis, 3, cucharada]
+          - [ajo, 2, diente]
+          - [cilantro molido, 1, cucharadita]
+          - [aceite de girasol, 1, cucharada]
+      - group: Salsa de cacahuete
+        items:
+          - [cacahuetes tostados sin sal, 150, g]
+          - [ajo, 2, diente]
+          - [chalotas, 2, null]
+          - [chile rojo, 1, null]
+          - [azúcar de palma o moreno, 1, cucharada]
+          - [kecap manis, 2, cucharada]
+          - [zumo de lima, 1, cucharada]
+          - [agua, 250, ml]
+          - [aceite de girasol, 1, cucharada]
+          - [sal, null, null]
+    steps:
+      - group: Satay
+        items:
+          - Corta el pollo en dados de 2-3 cm y mézclalo con el kecap manis, el ajo machacado, el cilantro y el aceite. Deja que marine al menos 30 minutos.
+          - Ensártalo en las brochetas y hazlas en la barbacoa o la plancha 8-10 minutos, dándoles la vuelta y pintándolas con la marinada.
+      - group: Salsa de cacahuete
+        items:
+          - Tritura los cacahuetes, no demasiado finos.
+          - Sofríe el ajo, las chalotas y el chile picados en el aceite 2 minutos.
+          - Añade los cacahuetes, el azúcar, el kecap manis y el agua y cuece a fuego suave 5 minutos, removiendo, hasta que espese. Termina con el zumo de lima y la sal.
+          - Sirve las brochetas con la salsa por encima.
+
+  - name: Gado-gado
+    category: Ensaladas
+    difficulty: EASY
+    prep: 25
+    cook: 20
+    servings: 4
+    tags: [vegetariana, salsa de cacahuete]
+    ingredients:
+      - group: Verduras
+        items:
+          - [patatas, 2, null]
+          - [judías verdes, 150, g]
+          - [col, 0.25, null]
+          - [brotes de soja, 100, g]
+          - [pepino, 1, null]
+          - [tofu firme, 200, g]
+          - [huevos, 2, null]
+          - [aceite de girasol, 3, cucharada]
+          - [krupuk, null, null, optional]
+      - group: Salsa
+        items:
+          - [cacahuetes tostados sin sal, 150, g]
+          - [ajo, 2, diente]
+          - [chile rojo, 1, null]
+          - [azúcar de palma o moreno, 1, cucharada]
+          - [pasta de tamarindo, 1, cucharada]
+          - [kecap manis, 1, cucharada]
+          - [agua caliente, 200, ml]
+          - [sal, null, null]
+    steps:
+      - Cuece las patatas y los huevos. Escalda las judías, la col troceada y los brotes de soja 1-2 minutos en agua hirviendo.
+      - Corta el tofu en dados y fríelo en el aceite hasta que esté dorado.
+      - Tritura los ingredientes de la salsa con el agua caliente hasta tener una salsa espesa. Ajusta de sal.
+      - Coloca en una fuente las verduras, las patatas y los huevos en rodajas, el pepino y el tofu.
+      - Cubre con la salsa y sirve con krupuk.
+
+  - name: Rendang de ternera
+    category: Carnes
+    difficulty: HARD
+    prep: 30
+    cook: 180
+    servings: 6
+    origin: Sumatra Occidental
+    notes: El rendang tradicional se cuece hasta que la leche de coco se reduce del todo y la carne se fríe en su propia grasa. Está aún mejor al día siguiente.
+    tags: [guiso, picante, fiesta]
+    ingredients:
+      - group: Pasta de especias
+        items:
+          - [chalotas, 8, null]
+          - [ajo, 5, diente]
+          - [chiles rojos, 8, null]
+          - [jengibre fresco, 3, cm]
+          - [galanga, 3, cm]
+          - [cúrcuma fresca, 3, cm]
+      - group: Guiso
+        items:
+          - [carne de ternera para guisar, 1, kg]
+          - [leche de coco, 800, ml]
+          - [coco rallado, 50, g]
+          - [hierba limón, 2, tallo]
+          - [hojas de lima kaffir, 4, null]
+          - [canela en rama, 1, null]
+          - [anís estrellado, 1, null]
+          - [azúcar de palma o moreno, 1, cucharada]
+          - [aceite de girasol, 2, cucharada]
+          - [sal, 1, cucharadita]
+    steps:
+      - Tritura los ingredientes de la pasta de especias con un poco de agua.
+      - Tuesta el coco rallado en una sartén sin aceite, removiendo, hasta que esté marrón oscuro. Machácalo hasta que suelte su aceite (es el kerisik).
+      - Sofríe la pasta en el aceite 5 minutos. Añade la hierba limón aplastada, las hojas de lima, la canela y el anís.
+      - Añade la carne en dados grandes y la leche de coco, lleva a ebullición y cuece destapado a fuego suave, removiendo de vez en cuando.
+      - Cuando la salsa empiece a espesar, al cabo de 1 hora y media, añade el kerisik, el azúcar y la sal.
+      - Sigue cociendo, removiendo cada vez más a menudo, hasta que la salsa se haya reducido del todo y la carne esté oscura y tierna, otra hora u hora y media.
+
+  - name: Soto ayam
+    category: Sopas y cremas
+    difficulty: MEDIUM
+    prep: 25
+    cook: 50
+    servings: 6
+    origin: Java
+    notes: Las nueces de macadamia sustituyen a las kemiri (nueces de la India), que espesan el caldo.
+    tags: [sopa, pollo]
+    ingredients:
+      - group: Caldo
+        items:
+          - [pollo troceado, 1, kg]
+          - [agua, 2, l]
+          - [chalotas, 6, null]
+          - [ajo, 4, diente]
+          - [nueces de macadamia, 3, null]
+          - [cúrcuma fresca, 3, cm]
+          - [jengibre fresco, 2, cm]
+          - [galanga, 2, cm]
+          - [hierba limón, 2, tallo]
+          - [hojas de lima kaffir, 3, null]
+          - [aceite de girasol, 2, cucharada]
+          - [sal, 2, cucharadita]
+      - group: Para servir
+        items:
+          - [fideos de arroz finos, 150, g]
+          - [huevos duros, 3, null]
+          - [brotes de soja, 100, g]
+          - [col, 0.25, null]
+          - [cebolla frita, 3, cucharada]
+          - [lima, 2, null]
+          - [sambal, null, null, optional]
+    steps:
+      - Cuece el pollo en el agua, a fuego suave, 30 minutos, retirando la espuma.
+      - Tritura las chalotas, el ajo, las nueces, la cúrcuma y el jengibre y sofríe la pasta en el aceite 4 minutos con la galanga, la hierba limón aplastada y las hojas de lima.
+      - Añade el sofrito al caldo con la sal y cuece 15 minutos más.
+      - Saca el pollo, desmenúzalo y descarta la piel y los huesos.
+      - Cuece los fideos y escalda los brotes de soja y la col en juliana.
+      - Reparte en cuencos los fideos, las verduras, el pollo y el huevo, cubre con el caldo y sirve con cebolla frita, lima y sambal.
+
+  - name: Opor ayam
+    category: Carnes
+    difficulty: MEDIUM
+    prep: 20
+    cook: 45
+    servings: 4
+    origin: Java
+    notes: Es el plato típico del fin del Ramadán (Lebaran), con ketupat o arroz blanco.
+    tags: [guiso, leche de coco]
+    ingredients:
+      - items:
+          - [pollo troceado, 1, kg]
+          - [chalotas, 6, null]
+          - [ajo, 4, diente]
+          - [nueces de macadamia, 4, null]
+          - [cilantro molido, 1, cucharadita]
+          - [comino molido, 0.5, cucharadita]
+          - [cúrcuma molida, 0.5, cucharadita]
+          - [galanga, 3, cm]
+          - [hierba limón, 2, tallo]
+          - [hojas de lima kaffir, 3, null]
+          - [leche de coco, 400, ml]
+          - [agua, 400, ml]
+          - [azúcar de palma o moreno, 1, cucharadita]
+          - [aceite de girasol, 2, cucharada]
+          - [sal, 1, cucharadita]
+    steps:
+      - Tritura las chalotas, el ajo, las nueces, el cilantro, el comino y la cúrcuma con un poco de agua.
+      - Sofríe la pasta en el aceite 4 minutos con la galanga en rodajas, la hierba limón aplastada y las hojas de lima.
+      - Añade el pollo y dóralo ligeramente en la pasta.
+      - Incorpora el agua y la leche de coco, el azúcar y la sal y cuece a fuego suave, sin tapar, 35-40 minutos, removiendo de vez en cuando para que no se corte, hasta que el pollo esté tierno.
+
+  - name: Ayam goreng
+    category: Carnes
+    difficulty: MEDIUM
+    prep: 15
+    cook: 45
+    servings: 4
+    notes: Primero se cuece el pollo en las especias hasta que absorbe el líquido (ungkep) y después se fríe, así queda sabroso por dentro y crujiente por fuera.
+    tags: [pollo frito]
+    ingredients:
+      - items:
+          - [pollo troceado, 1, kg]
+          - [chalotas, 5, null]
+          - [ajo, 4, diente]
+          - [cúrcuma fresca, 3, cm]
+          - [jengibre fresco, 2, cm]
+          - [nueces de macadamia, 3, null]
+          - [cilantro molido, 1, cucharadita]
+          - [galanga, 2, cm]
+          - [hierba limón, 1, tallo]
+          - [hojas de lima kaffir, 2, null]
+          - [agua, 500, ml]
+          - [sal, 2, cucharadita]
+          - [aceite de girasol para freír, null, null]
+    steps:
+      - Tritura las chalotas, el ajo, la cúrcuma, el jengibre, las nueces y el cilantro.
+      - Pon el pollo en una cazuela con la pasta, la galanga, la hierba limón aplastada, las hojas de lima, el agua y la sal.
+      - Cuece a fuego medio, dándole la vuelta, 30 minutos, hasta que el líquido se haya consumido casi del todo.
+      - Escurre el pollo y fríelo en abundante aceite caliente 5-6 minutos, hasta que esté dorado.
+
+  - name: Sambal oelek
+    category: Salsas
+    difficulty: EASY
+    prep: 10
+    cook: 0
+    servings: 8
+    notes: Se guarda en la nevera en un tarro cerrado hasta 2 semanas.
+    tags: [salsa, picante, vegana]
+    ingredients:
+      - items:
+          - [chiles rojos frescos, 200, g]
+          - [sal, 1, cucharadita]
+          - [vinagre de arroz o zumo de lima, 1, cucharada]
+          - [azúcar, 1, cucharadita, optional]
+    steps:
+      - Quita los rabos a los chiles y trocéalos. Si los quieres menos picantes, quita parte de las semillas.
+      - Machácalos en un mortero (ulekan) con la sal hasta tener una pasta gruesa; también puedes usar una picadora sin triturar demasiado.
+      - Añade el vinagre y el azúcar y mezcla.
+
+  - name: Tempe orek
+    category: Legumbres
+    difficulty: EASY
+    prep: 15
+    cook: 15
+    servings: 4
+    tags: [vegana, tempeh]
+    ingredients:
+      - items:
+          - [tempeh, 300, g]
+          - [chalotas, 4, null]
+          - [ajo, 3, diente]
+          - [chiles rojos, 2, null]
+          - [galanga, 2, cm]
+          - [kecap manis, 3, cucharada]
+          - [azúcar de palma o moreno, 1, cucharada]
+          - [agua, 50, ml]
+          - [aceite de girasol para freír, null, null]
+          - [sal, null, null]
+    steps:
+      - Corta el tempeh en bastones finos y fríelo en el aceite hasta que esté dorado y crujiente. Escúrrelo.
+      - En una sartén con 2 cucharadas de aceite, sofríe las chalotas y el ajo en láminas, los chiles en tiras y la galanga 2 minutos.
+      - Añade el kecap manis, el azúcar, el agua y una pizca de sal y deja que burbujee hasta que espese.
+      - Incorpora el tempeh y saltea hasta que quede bien cubierto por la salsa.
+
+  - name: Perkedel kentang
+    category: Entrantes
+    difficulty: EASY
+    prep: 20
+    cook: 25
+    servings: 4
+    tags: [patata, fritura]
+    ingredients:
+      - items:
+          - [patatas, 500, g]
+          - [cebolla frita, 2, cucharada]
+          - [cebolleta, 1, null]
+          - [apio o perejil picado, 1, cucharada]
+          - [nuez moscada, 1, pizca]
+          - [pimienta blanca, 0.5, cucharadita]
+          - [sal, 1, cucharadita]
+          - [huevos, 2, null]
+          - [aceite de girasol para freír, null, null]
+    steps:
+      - Pela las patatas, córtalas en rodajas y fríelas hasta que estén tiernas. También puedes cocerlas, pero fritas es como se hace en Indonesia.
+      - Aplástalas con un tenedor y mézclalas con la cebolla frita, la cebolleta y el apio picados, la nuez moscada, la pimienta, la sal y 1 huevo.
+      - Forma tortitas de unos 6 cm de diámetro.
+      - Pásalas por el otro huevo batido y fríelas en aceite caliente hasta que estén doradas.
+
+  - name: Sayur lodeh
+    category: Verduras
+    difficulty: EASY
+    prep: 20
+    cook: 25
+    servings: 4
+    origin: Java
+    tags: [vegetariana, leche de coco]
+    ingredients:
+      - items:
+          - [judías verdes, 150, g]
+          - [berenjena, 1, null]
+          - [chayote o calabacín, 1, null]
+          - [mazorca de maíz, 1, null]
+          - [tofu firme, 200, g]
+          - [chalotas, 5, null]
+          - [ajo, 3, diente]
+          - [nueces de macadamia, 3, null]
+          - [cilantro molido, 1, cucharadita]
+          - [chile rojo, 1, null]
+          - [galanga, 2, cm]
+          - [leche de coco, 400, ml]
+          - [agua, 500, ml]
+          - [azúcar de palma o moreno, 1, cucharadita]
+          - [aceite de girasol, 2, cucharada]
+          - [sal, 1, cucharadita]
+    steps:
+      - Tritura las chalotas, el ajo, las nueces, el cilantro y el chile.
+      - Sofríe la pasta en el aceite con la galanga 3 minutos.
+      - Añade el agua y lleva a ebullición. Incorpora el maíz en rodajas y las judías troceadas y cuece 5 minutos.
+      - Añade la berenjena, el chayote y el tofu en dados, la leche de coco, el azúcar y la sal, y cuece a fuego suave 10-12 minutos, removiendo con cuidado, hasta que las verduras estén tiernas.
+
+  - name: Bakso
+    category: Sopas y cremas
+    difficulty: MEDIUM
+    prep: 30
+    cook: 30
+    servings: 6
+    notes: La carne y el agua tienen que estar muy fríos para que las albóndigas queden elásticas.
+    tags: [sopa, albóndigas]
+    utensils: [Robot de cocina]
+    ingredients:
+      - group: Albóndigas
+        items:
+          - [carne picada de ternera magra, 500, g]
+          - [harina de tapioca, 60, g]
+          - [clara de huevo, 1, null]
+          - [ajo, 3, diente]
+          - [agua con hielo, 60, ml]
+          - [pimienta blanca, 0.5, cucharadita]
+          - [sal, 1, cucharadita]
+          - [azúcar, 1, cucharadita]
+      - group: Caldo y acompañamiento
+        items:
+          - [caldo de ternera, 2, l]
+          - [ajo frito, 1, cucharada]
+          - [fideos de arroz, 150, g]
+          - [pak choi, 2, null]
+          - [cebolla frita, 3, cucharada]
+          - [apio chino o perejil picado, 2, cucharada]
+          - [sambal, null, null, optional]
+          - [kecap manis, null, null, optional]
+    steps:
+      - group: Albóndigas
+        items:
+          - Tritura en el robot la carne con el ajo, la sal, el azúcar y la pimienta. Añade la clara y el agua con hielo poco a poco y después la tapioca, hasta tener una masa lisa y pegajosa.
+          - Lleva a ebullición una olla con agua y bájala a fuego suave. Forma bolas apretando la masa con la mano y sacándola entre el pulgar y el índice, y échalas al agua.
+          - Cuécelas hasta que floten y 2-3 minutos más. Escúrrelas.
+      - group: Sopa
+        items:
+          - Calienta el caldo con el ajo frito y ajusta de sal y pimienta blanca. Añade las albóndigas.
+          - Cuece los fideos y escalda el pak choi.
+          - Sirve en cuencos los fideos, el pak choi y las albóndigas con el caldo, cebolla frita y apio. Cada uno añade sambal y kecap manis al gusto.
+
+  - name: Nasi kuning
+    category: Arroces
+    difficulty: EASY
+    prep: 5
+    cook: 25
+    servings: 4
+    notes: El arroz amarillo es el de las celebraciones; en forma de cono se llama tumpeng.
+    tags: [arroz, fiesta, vegana]
+    ingredients:
+      - items:
+          - [arroz jazmín, 400, g]
+          - [leche de coco, 400, ml]
+          - [agua, 200, ml]
+          - [cúrcuma molida, 1, cucharadita]
+          - [hierba limón, 1, tallo]
+          - [hojas de lima kaffir, 3, null]
+          - [sal, 1, cucharadita]
+    steps:
+      - Lava el arroz hasta que el agua salga casi transparente.
+      - Calienta en una cazuela la leche de coco, el agua, la cúrcuma, la sal, la hierba limón aplastada y las hojas de lima, sin que llegue a hervir con fuerza.
+      - Añade el arroz y cuece a fuego medio, removiendo, hasta que absorba casi todo el líquido.
+      - Tapa, baja el fuego al mínimo y cuece 15 minutos. Deja que repose tapado 5 minutos y suéltalo con un tenedor.
+
+  - name: Cap cai
+    category: Verduras
+    difficulty: EASY
+    prep: 15
+    cook: 10
+    servings: 4
+    notes: Plato de la cocina chino-indonesia; el nombre significa «diez verduras».
+    tags: [salteado]
+    utensils: [Wok]
+    ingredients:
+      - items:
+          - [zanahoria, 1, null]
+          - [coliflor, 150, g]
+          - [brócoli, 150, g]
+          - [col china, 200, g]
+          - [champiñones, 100, g]
+          - [mazorquitas de maíz, 100, g]
+          - [gambas peladas o pechuga de pollo, 200, g, optional]
+          - [ajo, 3, diente]
+          - [salsa de ostras, 2, cucharada]
+          - [salsa de soja, 1, cucharada]
+          - [maicena, 1, cucharadita]
+          - [agua, 150, ml]
+          - [aceite de girasol, 2, cucharada]
+          - [pimienta blanca, null, null]
+    steps:
+      - Corta las verduras en trozos parecidos y la zanahoria en rodajas finas.
+      - Saltea el ajo picado en el aceite 30 segundos y añade las gambas o el pollo, si los usas, 2 minutos.
+      - Incorpora la zanahoria, la coliflor, el brócoli y las mazorquitas y saltea 2 minutos. Añade los champiñones y la col.
+      - Agrega las salsas, la pimienta y el agua con la maicena disuelta y cuece 2 minutos, hasta que la salsa espese y las verduras sigan crujientes.
+
+  - name: Tumis kangkung
+    category: Verduras
+    difficulty: EASY
+    prep: 10
+    cook: 3
+    servings: 4
+    notes: El kangkung (espinaca de agua) se encuentra en tiendas asiáticas. Con espinacas sale bien.
+    tags: [salteado, vegana]
+    utensils: [Wok]
+    ingredients:
+      - items:
+          - [kangkung o espinacas, 400, g]
+          - [ajo, 3, diente]
+          - [chalotas, 2, null]
+          - [chile rojo, 1, null]
+          - [salsa de ostras o de soja, 1, cucharada]
+          - [aceite de girasol, 2, cucharada]
+          - [sal, null, null]
+    steps:
+      - Lava el kangkung y córtalo en trozos de 5 cm, separando los tallos de las hojas.
+      - Saltea el ajo, las chalotas y el chile en el aceite a fuego fuerte 1 minuto.
+      - Añade los tallos y saltea 1 minuto. Añade las hojas y la salsa y saltea hasta que se ablanden, menos de 1 minuto. Ajusta de sal.
+
+  - name: Pisang goreng
+    category: Postres
+    difficulty: EASY
+    prep: 10
+    cook: 10
+    servings: 4
+    tags: [postre, fritura, vegana]
+    ingredients:
+      - items:
+          - [plátanos maduros, 4, null]
+          - [harina de arroz, 60, g]
+          - [harina de trigo, 60, g]
+          - [azúcar, 1, cucharada]
+          - [sal, 1, pizca]
+          - [agua fría, 150, ml]
+          - [aceite de girasol para freír, null, null]
+    steps:
+      - Mezcla las harinas, el azúcar y la sal con el agua hasta tener una masa fluida y sin grumos.
+      - Pela los plátanos y córtalos por la mitad a lo largo, o en abanico.
+      - Pásalos por la masa y fríelos en aceite caliente hasta que estén dorados y crujientes.
+      - Escúrrelos sobre papel de cocina y sírvelos calientes.
+
+  - name: Martabak manis
+    category: Postres
+    difficulty: MEDIUM
+    prep: 70
+    cook: 15
+    servings: 6
+    notes: Se hace en una sartén gruesa de unos 22 cm, tapada. Las burbujas de la masa le dan su textura de esponja.
+    tags: [postre, chocolate]
+    ingredients:
+      - group: Masa
+        items:
+          - [harina de trigo, 250, g]
+          - [azúcar, 2, cucharada]
+          - [levadura seca de panadería, 1, cucharadita]
+          - [bicarbonato, 0.5, cucharadita]
+          - [sal, 1, pizca]
+          - [huevo, 1, null]
+          - [leche tibia, 300, ml]
+      - group: Relleno
+        items:
+          - [mantequilla blanda, 40, g]
+          - [fideos de chocolate, 4, cucharada]
+          - [cacahuetes tostados picados, 4, cucharada]
+          - [leche condensada, 4, cucharada]
+          - [azúcar, 2, cucharada]
+    steps:
+      - Bate todos los ingredientes de la masa, menos el bicarbonato, hasta que no queden grumos. Tapa y deja que repose 1 hora.
+      - Añade el bicarbonato disuelto en una cucharada de agua y mezcla.
+      - Calienta la sartén a fuego medio, vierte la masa y espera a que se llene de burbujas. Espolvorea el azúcar, tapa y cuece a fuego suave 8-10 minutos, hasta que la superficie esté hecha.
+      - Desmolda, unta con la mantequilla, reparte el chocolate, los cacahuetes y la leche condensada, dobla por la mitad y corta en porciones.
+
+  - name: Klepon
+    category: Postres
+    difficulty: MEDIUM
+    prep: 25
+    cook: 10
+    servings: 6
+    origin: Java
+    notes: Al morderlos, el azúcar de palma fundido sale del centro. Cómelos el mismo día.
+    tags: [postre, sin gluten, vegana]
+    ingredients:
+      - items:
+          - [harina de arroz glutinoso, 200, g]
+          - [agua tibia, 150, ml]
+          - [extracto de pandan, 0.5, cucharadita]
+          - [azúcar de palma, 80, g]
+          - [coco rallado, 100, g]
+          - [sal, 1, pizca]
+    steps:
+      - Mezcla el coco rallado con la sal y cuécelo al vapor 5 minutos para que se ablande.
+      - Mezcla la harina con el agua y el extracto de pandan hasta tener una masa lisa y moldeable. Si se agrieta, añade un poco más de agua.
+      - Pica el azúcar de palma en trocitos. Toma porciones de masa del tamaño de una nuez, aplánalas, pon un trocito de azúcar en el centro y ciérralas en forma de bola.
+      - Cuécelas en agua hirviendo hasta que floten y 1 minuto más.
+      - Escúrrelas y rebózalas en el coco.
+
+  - name: Es teler
+    category: Bebidas
+    difficulty: EASY
+    prep: 10
+    cook: 0
+    servings: 4
+    notes: Se toma con cuchara, a medio camino entre bebida y postre.
+    tags: [postre, fría, vegetariana]
+    ingredients:
+      - items:
+          - [aguacate maduro, 1, null]
+          - [jaca en almíbar, 150, g]
+          - [carne de coco tierno, 150, g]
+          - [leche de coco, 200, ml]
+          - [leche condensada, 4, cucharada]
+          - [sirope de pandan o de azúcar, 2, cucharada, optional]
+          - [hielo picado, 2, taza]
+    steps:
+      - Corta el aguacate en dados con una cuchara y la jaca en tiras.
+      - Reparte en vasos el aguacate, la jaca y el coco.
+      - Añade el hielo picado y riega con la leche de coco, la leche condensada y el sirope. Sirve enseguida.

@@ -1,0 +1,614 @@
+id: chinese-cooking
+version: 1
+updated: 2026-10-31
+language: en
+name: "World cuisine: China"
+description: >-
+  Classics from Sichuan, Cantonese and northern Chinese cooking: kung pao chicken, mapo tofu,
+  jiaozi, sweet and sour pork, hot and sour soup, wontons, chow mein, hong shao rou, dan dan
+  noodles, char siu, steamed fish, spring rolls and congee. With the basic sauces and spices of
+  the Chinese pantry.
+author: Miga
+authorGithub: calamares00
+cover:
+  emoji: "🥟"
+  kicker: World cuisine
+  title: China
+  colors: ["#991b1b", "#ca8a04"]
+defaults:
+  origin: China
+  originCountry: CN
+  source: "Miga «World cuisine: China» pack"
+recipes:
+
+  - name: Kung pao chicken
+    category: Meat
+    difficulty: MEDIUM
+    prep: 20
+    cook: 10
+    servings: 4
+    origin: Sichuan
+    notes: Shaoxing wine can be replaced with dry sherry, and Chinkiang vinegar with rice vinegar and a few drops of balsamic.
+    tags: [spicy, stir-fry]
+    utensils: [Wok]
+    ingredients:
+      - group: Chicken
+        items:
+          - [boneless chicken thighs, 500, g]
+          - [light soy sauce, 1, tbsp]
+          - [Shaoxing wine, 1, tbsp]
+          - [cornflour, 2, tsp]
+      - group: Sauce
+        items:
+          - [Chinkiang black vinegar, 1, tbsp]
+          - [light soy sauce, 1, tbsp]
+          - [dark soy sauce, 1, tsp]
+          - [sugar, 1, tbsp]
+          - [cornflour, 1, tsp]
+          - [water, 3, tbsp]
+      - group: Stir-fry
+        items:
+          - [dried chillies, 10, null]
+          - [Sichuan peppercorns, 1, tsp]
+          - [garlic, 3, clove]
+          - [fresh ginger, 2, cm]
+          - [spring onions, 3, null]
+          - [unsalted roasted peanuts, 60, g]
+          - [sunflower oil, 3, tbsp]
+    steps:
+      - Cut the chicken into 1.5 cm cubes and mix with the soy sauce, wine and cornflour. Leave for 10 minutes.
+      - Mix the sauce ingredients in a bowl.
+      - Cut the chillies into pieces and shake out the seeds. Chop the garlic and ginger and cut the spring onions into 2 cm lengths.
+      - Heat the oil in the wok over a medium heat and fry the chillies and Sichuan pepper for a few seconds, without burning them.
+      - Turn up the heat, add the chicken and stir-fry for 3-4 minutes. Add the garlic, ginger and spring onion and stir-fry for 1 minute.
+      - Stir the sauce, pour it into the wok and toss until thick and glossy. Add the peanuts and serve.
+
+  - name: Mapo tofu
+    category: Legumes
+    difficulty: MEDIUM
+    prep: 10
+    cook: 15
+    servings: 4
+    origin: Sichuan
+    notes: Doubanjiang (fermented broad bean and chilli paste) is essential. Look for it in Asian shops.
+    tags: [spicy, tofu]
+    utensils: [Wok]
+    ingredients:
+      - items:
+          - [silken or soft tofu, 500, g]
+          - [minced pork or beef, 150, g]
+          - [doubanjiang, 2, tbsp]
+          - [fermented black beans (douchi), 1, tbsp, optional]
+          - [garlic, 3, clove]
+          - [fresh ginger, 2, cm]
+          - [chilli powder or flakes, 1, tsp]
+          - [chicken stock, 250, ml]
+          - [light soy sauce, 1, tbsp]
+          - [sugar, 1, tsp]
+          - [cornflour, 2, tsp]
+          - [ground Sichuan pepper, 1, tsp]
+          - [spring onions, 2, null]
+          - [sunflower oil, 3, tbsp]
+    steps:
+      - Cut the tofu into 2 cm cubes and blanch for 2 minutes in salted boiling water. Drain carefully.
+      - Stir-fry the meat in the oil until browned and crumbly.
+      - Lower the heat and add the doubanjiang, chopped black beans, chopped garlic and ginger and the chilli. Fry for 1 minute, until the oil turns red.
+      - Add the stock, soy sauce and sugar and bring to the boil. Add the tofu and simmer for 5 minutes, shaking the wok rather than stirring so it doesn't break.
+      - Add the cornflour mixed with a little water in two goes, until the sauce thickens.
+      - Serve topped with the Sichuan pepper and chopped spring onion.
+
+  - name: Pork and cabbage jiaozi
+    category: Breads and doughs
+    difficulty: MEDIUM
+    prep: 60
+    cook: 10
+    servings: 4
+    origin: Northern China
+    notes: Eaten at Chinese New Year. They can be frozen raw, spread out on a tray, and cooked from frozen.
+    tags: [dumplings, new year]
+    ingredients:
+      - group: Dough
+        items:
+          - [plain flour, 300, g]
+          - [warm water, 150, ml]
+          - [salt, 1, pinch]
+      - group: Filling
+        items:
+          - [minced pork, 300, g]
+          - [Chinese cabbage, 300, g]
+          - [spring onions, 2, null]
+          - [grated fresh ginger, 1, tsp]
+          - [light soy sauce, 2, tbsp]
+          - [Shaoxing wine, 1, tbsp]
+          - [sesame oil, 1, tbsp]
+          - [white pepper, 0.5, tsp]
+          - [salt, 1, tsp]
+      - group: Dipping sauce
+        items:
+          - [Chinkiang black vinegar, 3, tbsp]
+          - [soy sauce, 1, tbsp]
+          - [chopped garlic, 1, tsp]
+          - [chilli oil, 1, tsp, optional]
+    steps:
+      - group: Dough
+        items:
+          - Mix the flour with the salt and water and knead for 5 minutes, until smooth. Cover and leave to rest for 30 minutes.
+      - group: Filling
+        items:
+          - Very finely chop the cabbage, salt it, leave for 10 minutes and squeeze out the water with your hands.
+          - Mix the pork with the soy sauce, wine, ginger, pepper and salt, stirring in one direction until sticky. Add the cabbage, chopped spring onion and sesame oil.
+      - group: Shaping and cooking
+        items:
+          - Roll the dough into a log, cut it into 40 pieces and roll each into an 8 cm circle, thinner at the edges.
+          - Put a teaspoon of filling in the middle, fold over and pinch the edges to seal.
+          - Boil them in plenty of water. When it comes back to the boil, add a glass of cold water; do this twice. When they float for the third time, they are done.
+          - Mix the dipping sauce and serve the jiaozi hot.
+
+  - name: Sweet and sour pork
+    category: Meat
+    difficulty: MEDIUM
+    prep: 25
+    cook: 20
+    servings: 4
+    origin: Canton
+    notes: Known in Cantonese as gu lou yuk. Frying twice is what keeps it crisp.
+    tags: [fried, sweet and sour]
+    utensils: [Wok]
+    ingredients:
+      - group: Pork
+        items:
+          - [pork loin or shoulder, 500, g]
+          - [light soy sauce, 1, tbsp]
+          - [Shaoxing wine, 1, tbsp]
+          - [egg, 1, null]
+          - [cornflour, 80, g]
+          - [sunflower oil for frying, null, null]
+      - group: Sauce
+        items:
+          - [pineapple chunks, 150, g]
+          - [red pepper, 1, null]
+          - [green pepper, 1, null]
+          - [onion, 0.5, null]
+          - [ketchup, 4, tbsp]
+          - [rice vinegar, 3, tbsp]
+          - [sugar, 3, tbsp]
+          - [soy sauce, 1, tbsp]
+          - [cornflour, 1, tsp]
+          - [water, 80, ml]
+    steps:
+      - Cut the pork into 2 cm cubes and mix with the soy sauce, wine and egg. Coat in the cornflour.
+      - Fry in hot oil for 4 minutes and lift out. Turn up the heat and fry again for 1-2 minutes, until golden and crisp.
+      - Mix the ketchup, vinegar, sugar, soy sauce, cornflour and water.
+      - In the wok with 1 tablespoon of oil, stir-fry the onion and peppers in pieces for 2 minutes. Add the pineapple and the sauce and cook until thickened.
+      - Add the pork, toss for a few seconds to coat it in the sauce and serve straight away.
+
+  - name: Hot and sour soup
+    category: Soups
+    difficulty: EASY
+    prep: 20
+    cook: 15
+    servings: 4
+    notes: The heat comes from white pepper and the sourness from vinegar; both go in at the end so they keep their punch.
+    tags: [soup, spicy]
+    ingredients:
+      - items:
+          - [chicken stock, 1, l]
+          - [dried shiitake mushrooms, 4, null]
+          - [dried wood ear mushrooms, 5, g]
+          - [firm tofu, 150, g]
+          - [pork loin, 100, g]
+          - [tinned bamboo shoots, 80, g]
+          - [light soy sauce, 2, tbsp]
+          - [dark soy sauce, 1, tsp]
+          - [Chinkiang black vinegar, 3, tbsp]
+          - [ground white pepper, 1, tsp]
+          - [cornflour, 3, tbsp]
+          - [egg, 1, null]
+          - [sesame oil, 1, tsp]
+          - [spring onion, 1, null]
+    steps:
+      - Soak the mushrooms in hot water for 20 minutes. Cut them into strips, like the tofu, pork and bamboo shoots.
+      - Bring the stock to the boil with the mushrooms, pork and bamboo and simmer for 5 minutes. Add the tofu and both soy sauces.
+      - Mix the cornflour with 6 tablespoons of water, add it and stir until the soup thickens.
+      - Pour in the beaten egg in a thin stream while stirring slowly so it forms ribbons.
+      - Off the heat, add the vinegar, white pepper and sesame oil. Serve with chopped spring onion.
+
+  - name: Wonton soup
+    category: Soups
+    difficulty: MEDIUM
+    prep: 40
+    cook: 10
+    servings: 4
+    origin: Canton
+    tags: [soup, dumplings]
+    ingredients:
+      - group: Wontons
+        items:
+          - [wonton wrappers, 30, null]
+          - [minced pork, 250, g]
+          - [peeled prawns, 150, g]
+          - [light soy sauce, 1, tbsp]
+          - [Shaoxing wine, 1, tsp]
+          - [sesame oil, 1, tsp]
+          - [grated fresh ginger, 1, tsp]
+          - [white pepper, 0.25, tsp]
+          - [salt, 0.5, tsp]
+      - group: Soup
+        items:
+          - [chicken stock, 1.5, l]
+          - [light soy sauce, 1, tbsp]
+          - [pak choi, 2, null]
+          - [spring onion, 1, null]
+          - [sesame oil, 1, tsp]
+    steps:
+      - Chop the prawns into small pieces and mix with the pork and the rest of the filling ingredients.
+      - Put a teaspoon of filling in the middle of each wrapper, wet the edges, fold into a triangle and bring the two bottom corners together.
+      - Bring the stock to the boil with the soy sauce. Blanch the pak choi in the stock for 1 minute and divide between bowls.
+      - Cook the wontons in boiling water for 3-4 minutes, until they float and the filling is cooked.
+      - Transfer them to the bowls, ladle over the stock and finish with spring onion and a few drops of sesame oil.
+
+  - name: Chicken chow mein
+    category: Pasta
+    difficulty: EASY
+    prep: 15
+    cook: 10
+    servings: 4
+    origin: Canton
+    tags: [noodles, stir-fry]
+    utensils: [Wok]
+    ingredients:
+      - items:
+          - [thin egg noodles, 250, g]
+          - [chicken breast, 250, g]
+          - [bean sprouts, 150, g]
+          - [Chinese cabbage, 150, g]
+          - [carrot, 1, null]
+          - [spring onions, 3, null]
+          - [garlic, 2, clove]
+          - [oyster sauce, 2, tbsp]
+          - [light soy sauce, 1, tbsp]
+          - [dark soy sauce, 1, tsp]
+          - [sesame oil, 1, tsp]
+          - [sunflower oil, 3, tbsp]
+    steps:
+      - Cook the noodles for 1 minute less than the packet says, drain and toss with the sesame oil.
+      - Cut the chicken into strips, shred the cabbage and carrot and cut the spring onions into lengths.
+      - Stir-fry the chicken in the wok with 1 tablespoon of oil for 3 minutes and take it out.
+      - Add the rest of the oil and the noodles, spread them out and let them brown for 2 minutes without moving them.
+      - Add the garlic, vegetables, chicken and sauces and stir-fry over a high heat for 2 more minutes.
+
+  - name: Egg drop soup
+    category: Soups
+    difficulty: EASY
+    prep: 5
+    cook: 10
+    servings: 4
+    tags: [soup, quick]
+    ingredients:
+      - items:
+          - [chicken stock, 1, l]
+          - [eggs, 3, null]
+          - [cornflour, 2, tbsp]
+          - [fresh ginger, 1, cm]
+          - [salt, null, null]
+          - [white pepper, null, null]
+          - [sesame oil, 1, tsp]
+          - [spring onion, 1, null]
+    steps:
+      - Heat the stock with the sliced ginger for 5 minutes and take the ginger out. Season with salt and white pepper.
+      - Add the cornflour mixed with a little water and stir until slightly thickened.
+      - With the stock at a gentle boil, pour in the beaten eggs in a thin stream while stirring in circles so they form ribbons.
+      - Finish with the sesame oil and chopped spring onion.
+
+  - name: Hong shao rou
+    category: Meat
+    difficulty: MEDIUM
+    prep: 15
+    cook: 90
+    servings: 4
+    origin: Hunan
+    notes: Red-braised pork belly, one of China's most popular dishes. The colour comes from the caramelised sugar.
+    tags: [braise, pork]
+    ingredients:
+      - items:
+          - [skin-on pork belly, 700, g]
+          - [sugar, 2, tbsp]
+          - [Shaoxing wine, 3, tbsp]
+          - [light soy sauce, 2, tbsp]
+          - [dark soy sauce, 1, tbsp]
+          - [fresh ginger, 3, cm]
+          - [spring onions, 2, null]
+          - [star anise, 2, null]
+          - [cinnamon stick, 1, null]
+          - [hot water, 500, ml]
+          - [sunflower oil, 1, tbsp]
+    steps:
+      - Cut the pork belly into 3 cm cubes, blanch for 3 minutes in boiling water and drain.
+      - Heat the oil with the sugar over a low heat until it turns into a light caramel.
+      - Add the pork and stir until coated in caramel. Add the sliced ginger, spring onions, star anise and cinnamon.
+      - Add the wine, both soy sauces and the hot water. Cover and simmer very gently for 1 hour.
+      - Uncover and turn up the heat until the sauce has reduced to a thick glaze, stirring so it doesn't stick.
+
+  - name: Tomato and egg stir-fry
+    category: Eggs
+    difficulty: EASY
+    prep: 5
+    cook: 8
+    servings: 2
+    notes: The ultimate Chinese home-cooked dish, eaten with plain rice.
+    tags: [quick, vegetarian]
+    ingredients:
+      - items:
+          - [ripe tomatoes, 3, null]
+          - [eggs, 4, null]
+          - [sugar, 1, tsp]
+          - [salt, 0.5, tsp]
+          - [spring onion, 1, null]
+          - [sunflower oil, 3, tbsp]
+    steps:
+      - Beat the eggs with a pinch of salt. Cut the tomatoes into wedges.
+      - Scramble the eggs in 2 tablespoons of hot oil until almost set. Take them out.
+      - Stir-fry the tomatoes in the rest of the oil for 2-3 minutes, until they start to break down and release their juice. Add the sugar and salt.
+      - Return the eggs, fold gently and serve with chopped spring onion.
+
+  - name: Dan dan noodles
+    category: Pasta
+    difficulty: MEDIUM
+    prep: 15
+    cook: 15
+    servings: 4
+    origin: Sichuan
+    notes: Sui mi ya cai preserved vegetable gives it its signature flavour; if you can't find it, leave it out.
+    tags: [noodles, spicy]
+    ingredients:
+      - group: Sauce
+        items:
+          - [sesame paste or tahini, 2, tbsp]
+          - [light soy sauce, 3, tbsp]
+          - [Chinkiang black vinegar, 1, tbsp]
+          - [chilli oil, 3, tbsp]
+          - [sugar, 1, tsp]
+          - [ground Sichuan pepper, 1, tsp]
+          - [chopped garlic, 1, tsp]
+      - group: Meat
+        items:
+          - [minced pork, 200, g]
+          - [Shaoxing wine, 1, tbsp]
+          - [dark soy sauce, 1, tsp]
+          - [sui mi ya cai, 2, tbsp, optional]
+          - [sunflower oil, 1, tbsp]
+      - group: Noodles
+        items:
+          - [wheat noodles, 400, g]
+          - [pak choi, 2, null]
+          - [chopped roasted peanuts, 2, tbsp]
+          - [spring onion, 1, null]
+    steps:
+      - Mix the sauce ingredients and divide between four bowls.
+      - Stir-fry the pork in the oil until browned and crisp. Add the wine, dark soy sauce and ya cai and stir-fry for 1 more minute.
+      - Cook the noodles and, for the last minute, the pak choi.
+      - Add 2 tablespoons of the cooking water to each bowl, then the noodles and pak choi. Top with the pork, peanuts and spring onion and mix as you eat.
+
+  - name: Spring onion pancakes
+    category: Breads and doughs
+    difficulty: MEDIUM
+    prep: 45
+    cook: 15
+    servings: 4
+    tags: [bread, vegan]
+    ingredients:
+      - items:
+          - [plain flour, 300, g]
+          - [hot water, 180, ml]
+          - [spring onions, 4, null]
+          - [sunflower oil, 4, tbsp]
+          - [salt, 1, tsp]
+          - [ground Sichuan pepper, 0.5, tsp, optional]
+    steps:
+      - Mix the flour with the hot water and knead into a smooth dough. Cover and leave to rest for 30 minutes.
+      - Divide into 4. Roll each piece into a thin rectangle, brush with oil and sprinkle with salt, pepper and chopped spring onion.
+      - Roll it up into a log, coil the log into a snail and flatten it with the rolling pin into an 18 cm pancake.
+      - Fry the pancakes in a frying pan with a little oil over a medium heat for 3 minutes on each side, until golden and flaky.
+
+  - name: Steamed fish with ginger and spring onion
+    category: Fish and seafood
+    difficulty: EASY
+    prep: 10
+    cook: 12
+    servings: 2
+    origin: Canton
+    tags: [fish, steamed, gluten-free]
+    utensils: [Steamer]
+    ingredients:
+      - items:
+          - ["whole sea bass or bream, cleaned", 1, null]
+          - [fresh ginger, 4, cm]
+          - [spring onions, 3, null]
+          - [light soy sauce, 3, tbsp]
+          - [sugar, 1, tsp]
+          - [water, 2, tbsp]
+          - [sunflower oil, 3, tbsp]
+          - [fresh coriander, 1, sprig, optional]
+    steps:
+      - Make two or three cuts on each side of the fish and put half the ginger, in strips, inside and underneath.
+      - Steam over a high heat for 8-10 minutes, depending on size. Pour away any liquid it releases.
+      - Heat the soy sauce with the sugar and water and pour it around the fish.
+      - Scatter over the rest of the ginger and the spring onion in fine strips, heat the oil until smoking and pour it over so it sizzles. Garnish with coriander.
+
+  - name: Garlic pak choi
+    category: Vegetables
+    difficulty: EASY
+    prep: 5
+    cook: 5
+    servings: 4
+    tags: [vegetables, vegan, quick]
+    utensils: [Wok]
+    ingredients:
+      - items:
+          - [pak choi, 500, g]
+          - [garlic, 4, clove]
+          - [oyster or soy sauce, 1, tbsp]
+          - [sugar, 0.5, tsp]
+          - [sunflower oil, 2, tbsp]
+          - [salt, null, null]
+    steps:
+      - Wash the pak choi and halve it lengthways.
+      - Stir-fry the chopped garlic in the oil for a few seconds, without browning it.
+      - Add the pak choi and stir-fry over a high heat for 2 minutes. Add the sauce, sugar and a splash of water and stir-fry for 1 more minute, until tender but still crunchy.
+
+  - name: Twice-cooked pork
+    category: Meat
+    difficulty: MEDIUM
+    prep: 15
+    cook: 35
+    servings: 4
+    origin: Sichuan
+    notes: In Chinese, hui guo rou, "meat returned to the pot". Leek is a good stand-in for Chinese green garlic.
+    tags: [spicy, pork]
+    utensils: [Wok]
+    ingredients:
+      - items:
+          - [pork belly, 400, g]
+          - [fresh ginger, 2, cm]
+          - [doubanjiang, 1.5, tbsp]
+          - [fermented black beans (douchi), 1, tsp, optional]
+          - [leeks or green garlic, 2, null]
+          - [green pepper, 1, null]
+          - [Shaoxing wine, 1, tbsp]
+          - [dark soy sauce, 1, tsp]
+          - [sugar, 1, tsp]
+          - [sunflower oil, 1, tbsp]
+    steps:
+      - Simmer the pork belly whole with the ginger in water for 20-25 minutes. Let it cool and cut into thin slices.
+      - Stir-fry the slices in the wok with the oil over a medium heat until they release their fat and curl up.
+      - Push the meat aside, add the doubanjiang and black beans and fry for 30 seconds, until the oil turns red.
+      - Add the leek and pepper in pieces, the wine, soy sauce and sugar and stir-fry everything together for 2 minutes.
+
+  - name: Smashed cucumber salad
+    category: Salads
+    difficulty: EASY
+    prep: 15
+    cook: 0
+    servings: 4
+    notes: Smashing the cucumber with a knife breaks it unevenly so it soaks up the dressing better.
+    tags: [cold, vegan]
+    ingredients:
+      - items:
+          - [cucumbers, 2, null]
+          - [salt, 1, tsp]
+          - [garlic, 2, clove]
+          - [Chinkiang black vinegar, 2, tbsp]
+          - [light soy sauce, 1, tbsp]
+          - [sugar, 1, tsp]
+          - [sesame oil, 1, tbsp]
+          - [chilli oil, 1, tsp, optional]
+    steps:
+      - Smash the cucumbers with the flat of a large knife and cut them into pieces.
+      - Toss with the salt and leave for 10 minutes to release water. Drain.
+      - Mix the chopped garlic with the vinegar, soy sauce, sugar and oils, and dress the cucumber just before serving.
+
+  - name: Spring rolls
+    category: Starters
+    difficulty: MEDIUM
+    prep: 40
+    cook: 15
+    servings: 4
+    tags: [fried, new year]
+    ingredients:
+      - items:
+          - [spring roll wrappers, 12, null]
+          - [minced pork, 200, g]
+          - [cabbage, 200, g]
+          - [carrot, 1, null]
+          - [shiitake mushrooms, 4, null]
+          - [bean sprouts, 100, g]
+          - [light soy sauce, 1, tbsp]
+          - [oyster sauce, 1, tbsp]
+          - [cornflour, 1, tsp]
+          - [sunflower oil for frying, null, null]
+    steps:
+      - Finely shred the cabbage, carrot and mushrooms.
+      - Stir-fry the pork in a tablespoon of oil, add the vegetables and stir-fry for 3 minutes. Add the sauces and the cornflour mixed with a little water. Let the filling cool.
+      - Put two tablespoons of filling on one corner of each wrapper, roll it over twice, fold in the sides and finish rolling. Seal the tip with a little water.
+      - Deep-fry at 170 °C for 4-5 minutes, until golden and crisp.
+
+  - name: Char siu
+    category: Meat
+    difficulty: MEDIUM
+    prep: 15
+    cook: 45
+    servings: 4
+    origin: Canton
+    notes: Ideally, marinate the meat overnight. The hoisin sauce and honey give it its glossy glaze.
+    tags: [roast, pork]
+    utensils: [Oven]
+    ingredients:
+      - items:
+          - [pork shoulder or neck, 800, g]
+          - [hoisin sauce, 3, tbsp]
+          - [light soy sauce, 2, tbsp]
+          - [dark soy sauce, 1, tbsp]
+          - [Shaoxing wine, 2, tbsp]
+          - [honey, 3, tbsp]
+          - [sugar, 2, tbsp]
+          - [Chinese five-spice powder, 0.5, tsp]
+          - [garlic, 3, clove]
+    steps:
+      - Cut the meat into strips about 5 cm thick.
+      - Mix all the ingredients except 1 tablespoon of honey, coat the meat in the marinade and leave it in the fridge for at least 4 hours.
+      - Put the meat on a rack over a tray of water and roast at 200 °C for 20 minutes.
+      - Turn it over, brush with the marinade and roast for 20 minutes more.
+      - Brush with the remaining honey and grill for 3-5 minutes, until caramelised at the edges. Let it rest before slicing.
+
+  - name: Chicken and ginger congee
+    category: Rice
+    difficulty: EASY
+    prep: 5
+    cook: 90
+    servings: 4
+    notes: The most common breakfast in southern China. Everyone adds their own toppings at the table.
+    tags: [rice, breakfast, comfort food]
+    ingredients:
+      - items:
+          - [long-grain rice, 150, g]
+          - [chicken stock, 2, l]
+          - [chicken breast, 1, null]
+          - [fresh ginger, 4, cm]
+          - [salt, null, null]
+          - [white pepper, null, null]
+          - [spring onions, 2, null]
+          - [soy sauce, null, null]
+          - [sesame oil, null, null]
+    steps:
+      - Rinse the rice and put it in a pot with the stock, the whole chicken breast and half the ginger, sliced.
+      - Bring to the boil and simmer very gently, half covered. After 20 minutes, take out the chicken, shred it and set aside.
+      - Keep cooking for another 1 hour 10 minutes, stirring now and then, until the rice breaks down into a creamy porridge.
+      - Season with salt and white pepper, add the chicken and serve with the rest of the ginger in fine strips, spring onion, a few drops of soy sauce and sesame oil.
+
+  - name: Dry-fried green beans
+    category: Vegetables
+    difficulty: EASY
+    prep: 10
+    cook: 15
+    servings: 4
+    origin: Sichuan
+    notes: In Chinese, gan bian si ji dou. The beans are fried until their skins wrinkle.
+    tags: [spicy, stir-fry]
+    utensils: [Wok]
+    ingredients:
+      - items:
+          - [fine green beans, 400, g]
+          - [minced pork, 100, g, optional]
+          - [dried chillies, 6, null]
+          - [Sichuan peppercorns, 1, tsp]
+          - [garlic, 3, clove]
+          - [fresh ginger, 2, cm]
+          - [light soy sauce, 1, tbsp]
+          - [sugar, 0.5, tsp]
+          - [sunflower oil, 4, tbsp]
+          - [salt, null, null]
+    steps:
+      - Wash the beans, dry them very well and trim them.
+      - Fry them in the oil over a medium-high heat for 6-8 minutes, moving them around, until the skins wrinkle and have golden spots. Lift them out.
+      - In the remaining oil, stir-fry the pork until crisp. Add the chillies, Sichuan pepper and chopped garlic and ginger and stir-fry for 30 seconds.
+      - Return the beans with the soy sauce, sugar and salt and stir-fry for 1 minute.

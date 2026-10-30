@@ -17,10 +17,11 @@ function readCover(yamlText) {
   const block = yamlText.split('\ncover:\n')[1]?.split(/\n\S/)[0] ?? '';
   const field = name => block.match(new RegExp(`^\\s+${name}:\\s*(.+)$`, 'm'))?.[1].trim().replace(/^"(.*)"$/, '$1');
   const colors = JSON.parse(field('colors') ?? '["#1f6f43", "#7cb342"]');
-  return { emoji: field('emoji'), title: field('title'), colors };
+  return { emoji: field('emoji'), kicker: field('kicker'), title: field('title'), colors };
 }
 
-function html({ emoji, title, colors }, width, height) {
+/** [kicker], when set, is a small line above the title, such as the name of a series of packs. */
+function html({ emoji, kicker, title, colors }, width, height) {
   return `<!doctype html><html><head><meta charset="utf-8"><style>
     html, body { margin: 0; }
     body {
@@ -30,10 +31,12 @@ function html({ emoji, title, colors }, width, height) {
       font-family: "DejaVu Sans", "Noto Sans", sans-serif; color: #fff; text-align: center;
     }
     .emoji { font-size: ${Math.round(width * 0.36)}px; line-height: 1; filter: drop-shadow(0 12px 18px rgba(0,0,0,.25)); }
+    .kicker { margin-top: ${Math.round(width * 0.05)}px; font-size: ${Math.round(width * 0.04)}px; font-weight: 700; letter-spacing: 3px; opacity: .9; }
+    .kicker + h1 { margin-top: ${Math.round(width * 0.015)}px; }
     h1 { margin: ${Math.round(width * 0.05)}px 24px 0; font-size: ${Math.round(width * 0.085)}px; font-weight: 800; letter-spacing: -0.5px; }
     .brand { position: absolute; bottom: ${Math.round(height * 0.05)}px; font-size: ${Math.round(width * 0.04)}px; opacity: .8; font-weight: 700; letter-spacing: 3px; }
   </style></head><body>
-    <div class="emoji">${emoji}</div><h1>${title}</h1><div class="brand">MIGA</div>
+    <div class="emoji">${emoji}</div>${kicker ? `<div class="kicker">${kicker.toUpperCase()}</div>` : ''}<h1>${title}</h1><div class="brand">MIGA</div>
   </body></html>`;
 }
 

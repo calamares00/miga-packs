@@ -1,8 +1,8 @@
 id: cocina-mexicana
-version: 1
-updated: 2026-10-30
+version: 2
+updated: 2026-10-31
 language: es
-name: Cocina mexicana
+name: "Cocina del mundo: México"
 description: >-
   Clásicos de México para cocinar en casa: tacos al pastor, cochinita pibil, pozole, chilaquiles,
   enchiladas, salsas, guacamole, aguas frescas y flan. Con ingredientes fáciles de encontrar y
@@ -11,12 +11,13 @@ author: Miga
 authorGithub: calamares00
 cover:
   emoji: "🌮"
-  title: Cocina mexicana
+  kicker: Cocina del mundo
+  title: México
   colors: ["#c2410c", "#f59e0b"]
 defaults:
   origin: México
   originCountry: MX
-  source: Pack «Cocina mexicana» de Miga
+  source: "Pack «Cocina del mundo: México» de Miga"
 recipes:
 
   - name: Tacos al pastor

@@ -1,0 +1,625 @@
+id: german-cooking
+version: 1
+updated: 2026-10-31
+language: en
+name: "World cuisine: Germany"
+description: >-
+  German classics from north to south: schnitzel, rouladen, sauerbraten, Swabian potato salad,
+  Bratkartoffeln, Kartoffelpuffer, Käsespätzle, Königsberger Klopse, currywurst, Frikadellen,
+  lentil and split pea stews, potato soup, Flammkuchen, pretzels, Maultaschen, Obatzda and sweets
+  such as apple cake, Black Forest gateau and rote Grütze.
+author: Miga
+authorGithub: calamares00
+cover:
+  emoji: "🥨"
+  kicker: World cuisine
+  title: Germany
+  colors: ["#111827", "#ca8a04"]
+defaults:
+  origin: Germany
+  originCountry: DE
+  source: "Miga «World cuisine: Germany» pack"
+recipes:
+
+  - name: Pork schnitzel
+    category: Meat
+    difficulty: EASY
+    prep: 15
+    cook: 10
+    servings: 4
+    notes: The original Viennese version is veal; in Germany pork (Schweineschnitzel) is the most common. Shaking the pan while frying lifts the coating into ripples.
+    tags: [fried, pork]
+    ingredients:
+      - items:
+          - [pork loin steaks, 4, null]
+          - [plain flour, 50, g]
+          - [eggs, 2, null]
+          - [fine breadcrumbs, 150, g]
+          - [sunflower oil, 150, ml]
+          - [butter, 30, g]
+          - [lemon, 1, null]
+          - [salt, null, null]
+          - [black pepper, null, null]
+    steps:
+      - Flatten the steaks between two sheets of cling film until about 5 mm thick. Season them.
+      - Coat in flour, beaten egg and breadcrumbs, without pressing the crumbs on.
+      - Heat the oil with the butter in a large frying pan; it should be a finger deep.
+      - Fry the schnitzels for 2-3 minutes on each side, shaking the pan so the fat washes over them, until golden.
+      - Drain and serve with lemon wedges, potato salad or Bratkartoffeln.
+
+  - name: Beef rouladen
+    category: Meat
+    difficulty: MEDIUM
+    prep: 25
+    cook: 100
+    servings: 4
+    notes: Beef rolls filled with mustard, bacon, onion and gherkin. Served with red cabbage and potatoes or dumplings.
+    tags: [braise, beef]
+    ingredients:
+      - items:
+          - [large thin beef topside slices, 4, null]
+          - [German or Dijon mustard, 4, tbsp]
+          - [bacon, 8, slice]
+          - [gherkins, 4, null]
+          - [onions, 2, null]
+          - [carrot, 1, null]
+          - [tomato purée, 1, tbsp]
+          - [red wine, 250, ml]
+          - [beef stock, 500, ml]
+          - [bay leaf, 1, null]
+          - [cornflour, 1, tbsp]
+          - [sunflower oil, 2, tbsp]
+          - [salt, null, null]
+          - [black pepper, null, null]
+    steps:
+      - Season the beef and spread with the mustard. Top each slice with 2 rashers of bacon, a quarter of an onion in strips and a gherkin cut into sticks.
+      - Roll up from the short side, tucking in the edges, and secure with cocktail sticks or string.
+      - Brown them in the oil on all sides and take them out. Brown the other onion and the carrot, chopped, and the tomato purée in the same pot.
+      - Add the wine, stock and bay leaf, return the rolls, cover and simmer gently for 1½ hours.
+      - Take out the rolls, strain the sauce, thicken it with the cornflour mixed with water and serve.
+
+  - name: Sauerbraten
+    category: Meat
+    difficulty: HARD
+    prep: 30
+    cook: 150
+    servings: 6
+    origin: Rhineland
+    notes: The meat marinates for 3 days in the fridge, turned every day. In the Rhineland the sauce is thickened with Lebkuchen (spiced gingerbread) and has raisins.
+    tags: [braise, festive]
+    ingredients:
+      - group: Marinade
+        items:
+          - [beef topside or rump, 1.5, kg]
+          - [red wine vinegar, 250, ml]
+          - [red wine, 250, ml]
+          - [water, 250, ml]
+          - [onions, 2, null]
+          - [carrot, 1, null]
+          - [bay leaves, 3, null]
+          - [cloves, 5, null]
+          - [juniper berries, 10, null]
+          - [black peppercorns, 10, null]
+          - [sugar, 1, tbsp]
+      - group: Roast and sauce
+        items:
+          - [lard or oil, 2, tbsp]
+          - [Lebkuchen or gingerbread biscuits, 50, g]
+          - [raisins, 50, g]
+          - [salt, null, null]
+    steps:
+      - Boil the marinade ingredients (except the meat) for 5 minutes and let them cool. Cover the meat with it and leave in the fridge for 3 days in a closed container, turning it every day.
+      - Take out the meat, pat dry and salt it. Strain the marinade and keep the vegetables.
+      - Brown the meat in the lard on all sides in a pot. Add the vegetables, brown them and pour in half a litre of the marinade.
+      - Cover and simmer very gently for 2½ hours, until tender, adding marinade if needed.
+      - Take out the meat, strain the liquid and cook it with the crumbled Lebkuchen and raisins until thick. Slice the meat and serve with the sauce.
+
+  - name: Swabian potato salad
+    category: Salads
+    difficulty: EASY
+    prep: 15
+    cook: 25
+    servings: 6
+    origin: Swabia
+    notes: In southern Germany it is dressed with hot stock and vinegar, with no mayonnaise. It is best after resting for 1 hour.
+    tags: [side, potato]
+    ingredients:
+      - items:
+          - [waxy potatoes, 1, kg]
+          - [onion, 1, null]
+          - [hot beef or vegetable stock, 250, ml]
+          - [white wine vinegar, 4, tbsp]
+          - [mustard, 1, tsp]
+          - [sugar, 1, pinch]
+          - [sunflower oil, 4, tbsp]
+          - [chopped chives, 2, tbsp]
+          - [salt, null, null]
+          - [black pepper, null, null]
+    steps:
+      - Boil the potatoes in their skins for 20-25 minutes, peel them while still hot and slice thinly.
+      - Simmer the very finely chopped onion in the stock for 2 minutes. Add the vinegar, mustard, sugar, salt and pepper.
+      - Pour the hot stock over the potatoes and mix gently. Leave them to soak it up for 30 minutes.
+      - Add the oil and chives, mix and adjust the salt and vinegar.
+
+  - name: Bratkartoffeln
+    category: Vegetables
+    difficulty: EASY
+    prep: 10
+    cook: 20
+    servings: 4
+    notes: Fried potatoes with onion and bacon, made with potatoes boiled the day before.
+    tags: [side, potato]
+    ingredients:
+      - items:
+          - [potatoes boiled in their skins the day before, 1, kg]
+          - [onion, 1, null]
+          - [diced bacon, 100, g]
+          - [butter, 30, g]
+          - [sunflower oil, 2, tbsp]
+          - [marjoram or caraway, 0.5, tsp, optional]
+          - [chopped parsley, 2, tbsp]
+          - [salt, null, null]
+          - [black pepper, null, null]
+    steps:
+      - Peel the potatoes and cut them into 5 mm slices.
+      - Brown them in the oil and butter in a large frying pan, in a single layer, without moving them much, for 10 minutes.
+      - Turn them, add the bacon and the onion in strips and fry for 8-10 more minutes, until everything is golden.
+      - Season, add the marjoram and parsley and serve.
+
+  - name: Kartoffelpuffer
+    category: Vegetables
+    difficulty: EASY
+    prep: 20
+    cook: 25
+    servings: 4
+    notes: Grated potato pancakes. Eaten with apple sauce, or with smoked salmon and soured cream.
+    tags: [potato, fried]
+    ingredients:
+      - items:
+          - [floury potatoes, 1, kg]
+          - [onion, 1, null]
+          - [eggs, 2, null]
+          - [plain flour, 3, tbsp]
+          - [nutmeg, 1, pinch]
+          - [salt, 1, tsp]
+          - [sunflower oil for frying, null, null]
+          - [apple sauce, 300, g]
+    steps:
+      - Grate the potatoes and onion, put them in a clean tea towel and squeeze out as much liquid as you can.
+      - Mix with the eggs, flour, nutmeg and salt.
+      - Heat a finger of oil in a frying pan. Add spoonfuls of the mixture, flatten them to 1 cm thick and fry for 3-4 minutes on each side, until golden and crisp.
+      - Drain on kitchen paper and serve hot with the apple sauce.
+
+  - name: Käsespätzle
+    category: Pasta
+    difficulty: MEDIUM
+    prep: 20
+    cook: 30
+    servings: 4
+    origin: Swabia and Allgäu
+    notes: Spätzle are made with a special press or grater; you can also scrape them off a board with a knife or push them through a colander with large holes.
+    tags: [pasta, cheese, vegetarian]
+    ingredients:
+      - group: Spätzle
+        items:
+          - [plain flour, 400, g]
+          - [eggs, 4, null]
+          - [sparkling water, 150, ml]
+          - [salt, 1, tsp]
+      - group: To finish
+        items:
+          - [grated Emmental, 200, g]
+          - [grated mountain cheese or Gruyère, 100, g]
+          - [onions, 3, null]
+          - [butter, 40, g]
+          - [chopped chives, 2, tbsp]
+          - [black pepper, null, null]
+    steps:
+      - Beat the flour, eggs, water and salt with a wooden spoon until the batter forms bubbles and falls slowly from the spoon. Rest for 15 minutes.
+      - Slice the onions into thin rings and fry them slowly in the butter until crisp.
+      - Press the batter through the spätzle maker straight into boiling salted water. When they float, lift them out with a slotted spoon.
+      - Layer the spätzle and cheese in a hot dish, with pepper, so the cheese melts.
+      - Top with the fried onions and chives and serve straight away.
+
+  - name: Königsberger Klopse
+    category: Meat
+    difficulty: MEDIUM
+    prep: 25
+    cook: 30
+    servings: 4
+    origin: East Prussia
+    notes: Meatballs poached in stock with a white caper sauce. You can't taste the anchovies, but they add depth.
+    tags: [meatballs]
+    ingredients:
+      - group: Meatballs
+        items:
+          - [mixed minced meat, 500, g]
+          - [day-old bread roll, 1, null]
+          - [egg, 1, null]
+          - [onion, 1, null]
+          - [anchovy fillets, 2, null]
+          - [salt, 1, tsp]
+          - [white pepper, 0.5, tsp]
+          - [beef stock, 1, l]
+          - [bay leaf, 1, null]
+      - group: Sauce
+        items:
+          - [butter, 40, g]
+          - [plain flour, 40, g]
+          - [single cream, 100, ml]
+          - [capers, 3, tbsp]
+          - [lemon juice, 1, tbsp]
+          - [sugar, 1, pinch]
+          - [egg yolk, 1, null, optional]
+    steps:
+      - Soak the roll in water and squeeze it out. Mix with the meat, egg, very finely chopped onion and anchovies, salt and pepper.
+      - Shape into golf-ball-sized meatballs.
+      - Bring the stock to the boil with the bay leaf, lower the heat and poach the meatballs for 15 minutes, without boiling hard. Lift them out and keep 500 ml of the stock.
+      - Melt the butter, add the flour and cook for 1 minute. Add the reserved stock little by little, stirring, and simmer for 5 minutes.
+      - Add the cream, capers, lemon juice and sugar. Off the heat, stir in the yolk. Warm the meatballs in the sauce and serve with boiled potatoes.
+
+  - name: Currywurst
+    category: Meat
+    difficulty: EASY
+    prep: 10
+    cook: 25
+    servings: 4
+    origin: Berlin
+    notes: Berlin's street food. Serve with chips or a bread roll.
+    tags: [sausages, street food]
+    ingredients:
+      - group: Sauce
+        items:
+          - [onion, 1, null]
+          - [sunflower oil, 2, tbsp]
+          - [curry powder, 2, tbsp]
+          - [sweet paprika, 1, tsp]
+          - [crushed tomatoes, 400, g]
+          - [ketchup, 4, tbsp]
+          - [brown sugar, 2, tbsp]
+          - [cider vinegar, 2, tbsp]
+          - [salt, null, null]
+      - group: Sausages
+        items:
+          - [bratwurst sausages, 4, null]
+          - [sunflower oil, 1, tbsp]
+          - [curry powder for sprinkling, 1, tsp]
+    steps:
+      - Gently cook the very finely chopped onion in the oil for 5 minutes. Add the curry powder and paprika and fry for 30 seconds.
+      - Add the tomatoes, ketchup, sugar and vinegar and simmer for 15 minutes. Blend and season with salt.
+      - Brown the sausages in a frying pan with the oil and slice them.
+      - Cover with the hot sauce and sprinkle with curry powder.
+
+  - name: Frikadellen
+    category: Meat
+    difficulty: EASY
+    prep: 15
+    cook: 15
+    servings: 4
+    notes: German home-made meat patties. Eaten hot or cold, with mustard and potato salad.
+    tags: [minced meat, home-style]
+    ingredients:
+      - items:
+          - [mixed minced meat, 500, g]
+          - [day-old bread roll, 1, null]
+          - [onion, 1, null]
+          - [egg, 1, null]
+          - [mustard, 1, tsp]
+          - [dried marjoram, 1, tsp]
+          - [chopped parsley, 2, tbsp]
+          - [salt, 1, tsp]
+          - [black pepper, 0.5, tsp]
+          - [sunflower oil, 3, tbsp]
+    steps:
+      - Soak the roll in water and squeeze it out well. Very finely chop the onion.
+      - Mix the meat with the bread, onion, egg, mustard, marjoram, parsley, salt and pepper.
+      - Shape into 8 patties about 2 cm thick.
+      - Fry them in the oil over a medium heat for 5-6 minutes on each side, until golden and cooked through.
+
+  - name: German lentil stew
+    category: Legumes
+    difficulty: EASY
+    prep: 20
+    cook: 50
+    servings: 6
+    notes: Linseneintopf is finished with a splash of vinegar; in Swabia it is served with spätzle.
+    tags: [stew, winter]
+    ingredients:
+      - items:
+          - [brown lentils, 300, g]
+          - [diced smoked bacon, 100, g]
+          - [onion, 1, null]
+          - [carrots, 2, null]
+          - [celeriac, 100, g]
+          - [leek, 1, null]
+          - [potatoes, 2, null]
+          - [beef stock, 1.5, l]
+          - [bay leaf, 1, null]
+          - [dried marjoram, 1, tsp]
+          - [frankfurters, 4, null]
+          - [wine vinegar, 2, tbsp]
+          - [salt, null, null]
+          - [black pepper, null, null]
+    steps:
+      - Brown the bacon in a pot, add the chopped onion and cook for 5 minutes.
+      - Add the lentils, the diced carrot, celeriac and leek, the stock and bay leaf and simmer for 25 minutes.
+      - Add the diced potatoes and the marjoram and simmer for 20 more minutes.
+      - Add the sliced frankfurters and heat for 5 minutes. Finish with the vinegar and season.
+
+  - name: Split pea soup
+    category: Legumes
+    difficulty: EASY
+    prep: 15
+    cook: 90
+    servings: 6
+    notes: Erbsensuppe is one of Germany's most popular stews. Dried split peas need no soaking.
+    tags: [stew, winter]
+    ingredients:
+      - items:
+          - [dried split peas, 500, g]
+          - [smoked ham hock or bacon, 300, g]
+          - [onion, 1, null]
+          - [carrots, 2, null]
+          - [celeriac, 100, g]
+          - [leek, 1, null]
+          - [potatoes, 2, null]
+          - [vegetable stock, 2, l]
+          - [dried marjoram, 1, tsp]
+          - [frankfurters, 4, null, optional]
+          - [salt, null, null]
+          - [black pepper, null, null]
+    steps:
+      - Rinse the peas and put them in a pot with the stock and ham hock. Bring to the boil and skim.
+      - Simmer gently for 45 minutes, stirring now and then.
+      - Add the diced vegetables and potatoes and the marjoram and simmer for 30 more minutes, until the peas fall apart.
+      - Take out the ham hock, shred the meat and return it to the soup with the sliced frankfurters. Season.
+
+  - name: German potato soup
+    category: Soups
+    difficulty: EASY
+    prep: 20
+    cook: 35
+    servings: 6
+    notes: For Kartoffelsuppe, only part of the soup is blended so it is thick but still chunky.
+    tags: [soup, winter]
+    utensils: [Blender]
+    ingredients:
+      - items:
+          - [floury potatoes, 1, kg]
+          - [carrots, 2, null]
+          - [celeriac, 150, g]
+          - [leek, 1, null]
+          - [onion, 1, null]
+          - [butter, 30, g]
+          - [vegetable stock, 1.2, l]
+          - [dried marjoram, 1, tsp]
+          - [nutmeg, 1, pinch]
+          - [single cream, 100, ml]
+          - [frankfurters, 4, null, optional]
+          - [chopped parsley, 2, tbsp]
+          - [salt, null, null]
+    steps:
+      - Gently cook the chopped onion and leek in the butter for 5 minutes.
+      - Add the diced potatoes, carrots and celeriac, the stock and marjoram and simmer for 25 minutes.
+      - Blend about half the soup and mix it back in.
+      - Add the cream, nutmeg and sliced frankfurters, heat through and season with salt. Serve with parsley.
+
+  - name: Flammkuchen
+    category: Breads and doughs
+    difficulty: EASY
+    prep: 20
+    cook: 12
+    servings: 4
+    origin: Baden and the Palatinate
+    notes: Typical of Alsace and the neighbouring German regions. The yeast-free dough is rolled very thin and baked very hot.
+    tags: [baked, sharing]
+    utensils: [Oven]
+    ingredients:
+      - group: Dough
+        items:
+          - [plain flour, 250, g]
+          - [water, 125, ml]
+          - [sunflower oil, 2, tbsp]
+          - [salt, 0.5, tsp]
+      - group: Topping
+        items:
+          - [crème fraîche, 200, g]
+          - [onion, 1, null]
+          - [smoked bacon strips, 150, g]
+          - [nutmeg, 1, pinch]
+          - [salt, null, null]
+          - [black pepper, null, null]
+    steps:
+      - Preheat the oven to its maximum, 250 °C, with the tray inside.
+      - Mix the dough ingredients and knead for 5 minutes. Divide in two and roll each piece out very thinly on baking paper.
+      - Spread with the crème fraîche seasoned with salt, pepper and nutmeg, and scatter over the very thinly sliced onion and the bacon.
+      - Bake each Flammkuchen for 10-12 minutes on the hot tray, until the edges are crisp and golden.
+
+  - name: Soft pretzels
+    category: Breads and doughs
+    difficulty: MEDIUM
+    prep: 90
+    cook: 15
+    servings: 10
+    origin: Bavaria and Swabia
+    notes: Bakeries dip Brezeln in a dilute lye solution, which gives them their colour and flavour. At home, a bicarbonate bath is a safe alternative.
+    tags: [bread]
+    utensils: [Oven]
+    ingredients:
+      - group: Dough
+        items:
+          - [plain flour, 500, g]
+          - [warm water, 280, ml]
+          - [fresh yeast, 20, g]
+          - [softened butter, 30, g]
+          - [sugar, 1, tsp]
+          - [salt, 10, g]
+      - group: Bath
+        items:
+          - [water, 1, l]
+          - [bicarbonate of soda, 3, tbsp]
+          - [coarse salt, 1, tbsp]
+    steps:
+      - Dissolve the yeast and sugar in the water, mix with the flour, butter and salt and knead for 10 minutes. Leave covered to rise for 1 hour.
+      - Divide into 10 pieces and roll each into a 50 cm rope, thicker in the middle.
+      - Cross the ends twice and press them onto the thick part to form the pretzel. Rest uncovered for 15 minutes.
+      - Preheat the oven to 210 °C. Bring the water to the boil, carefully add the bicarbonate and dip each pretzel for 30 seconds.
+      - Put them on trays lined with baking paper, slash the thick part, sprinkle with coarse salt and bake for 15 minutes, until deep brown.
+
+  - name: Maultaschen
+    category: Pasta
+    difficulty: HARD
+    prep: 60
+    cook: 15
+    servings: 6
+    origin: Swabia
+    notes: Large Swabian ravioli filled with meat and spinach. Served in broth or fried with egg and onion.
+    tags: [filled pasta]
+    ingredients:
+      - group: Dough
+        items:
+          - [plain flour, 300, g]
+          - [eggs, 3, null]
+          - [water, 2, tbsp]
+          - [salt, 0.5, tsp]
+      - group: Filling
+        items:
+          - [minced pork, 250, g]
+          - [sausage meat, 150, g]
+          - [spinach, 200, g]
+          - [day-old bread roll, 1, null]
+          - [onion, 1, null]
+          - [chopped parsley, 2, tbsp]
+          - [egg, 1, null]
+          - [nutmeg, 1, pinch]
+          - [salt, 1, tsp]
+          - [black pepper, 0.5, tsp]
+      - group: To serve
+        items:
+          - [beef stock, 1.5, l]
+          - [chopped chives, 2, tbsp]
+    steps:
+      - Knead the dough ingredients until smooth, wrap and rest for 30 minutes.
+      - Blanch the spinach, squeeze it dry and chop. Soak the roll and squeeze it out. Gently fry the chopped onion.
+      - Mix all the filling ingredients.
+      - Roll the dough out very thinly into 12 cm wide strips. Spread the filling along them, fold the dough over, press down between portions and cut into rectangles, sealing the edges.
+      - Simmer them in the stock for 10-12 minutes. Serve in the broth with chives.
+
+  - name: German apple cake
+    category: Desserts
+    difficulty: EASY
+    prep: 20
+    cook: 45
+    servings: 10
+    notes: Called versunkener Apfelkuchen, "sunken apple cake", because the fruit sinks into the sponge as it bakes.
+    tags: [dessert, baked]
+    utensils: [Oven]
+    ingredients:
+      - items:
+          - [softened butter, 125, g]
+          - [sugar, 125, g]
+          - [eggs, 3, null]
+          - [plain flour, 200, g]
+          - [baking powder, 2, tsp]
+          - [milk, 3, tbsp]
+          - [vanilla extract, 1, tsp]
+          - [apples, 4, null]
+          - [lemon juice, 1, tbsp]
+          - [icing sugar, 2, tbsp]
+    steps:
+      - Preheat the oven to 180 °C and grease a 26 cm springform tin.
+      - Peel the apples, quarter and core them and make thin cuts across the rounded side without cutting through. Sprinkle with the lemon juice.
+      - Beat the butter with the sugar until creamy. Add the eggs one at a time, the vanilla, the flour with the baking powder and the milk.
+      - Spread the batter in the tin and arrange the apple quarters on top, cut side up, pressing them in slightly.
+      - Bake for 40-45 minutes. Let it cool and dust with icing sugar.
+
+  - name: Black Forest gateau
+    category: Desserts
+    difficulty: HARD
+    prep: 60
+    cook: 35
+    servings: 12
+    origin: Black Forest
+    notes: Schwarzwälder Kirschtorte. Kirsch (cherry brandy) is essential in the original recipe. Chill the cake for at least 3 hours before serving.
+    tags: [dessert, chocolate, festive]
+    utensils: [Oven]
+    ingredients:
+      - group: Sponge
+        items:
+          - [eggs, 6, null]
+          - [sugar, 180, g]
+          - [plain flour, 120, g]
+          - [cornflour, 30, g]
+          - [unsweetened cocoa powder, 30, g]
+          - [baking powder, 1, tsp]
+          - [melted butter, 60, g]
+      - group: Filling
+        items:
+          - [jarred sour cherries, 680, g]
+          - [cornflour, 25, g]
+          - [sugar, 2, tbsp]
+          - [kirsch, 6, tbsp]
+          - [very cold whipping cream, 800, ml]
+          - [sugar for the cream, 60, g]
+          - [dark chocolate shavings, 100, g]
+    steps:
+      - group: Sponge
+        items:
+          - Preheat the oven to 175 °C and line the base of a 26 cm tin.
+          - Whisk the eggs with the sugar for 10 minutes, until tripled in volume. Sift over the flour, cornflour, cocoa and baking powder and fold in. Fold in the butter.
+          - Bake for 30-35 minutes. Let it cool and cut it into three layers.
+      - group: Filling and assembly
+        items:
+          - Drain the cherries, keeping 250 ml of the juice. Cook the juice with the cornflour and sugar until thick, add the cherries (except 12) and let it cool.
+          - Whip the cream with the sugar.
+          - Sprinkle the first layer with 2 tablespoons of kirsch, top with half the cherries and a layer of cream. Repeat with the second layer.
+          - Add the third layer, sprinkle with the remaining kirsch and cover the whole cake with cream.
+          - Press chocolate shavings around the sides and pipe rosettes of cream, each topped with a cherry.
+
+  - name: Rote Grütze
+    category: Desserts
+    difficulty: EASY
+    prep: 10
+    cook: 10
+    servings: 6
+    origin: Northern Germany
+    notes: Served cold with vanilla sauce, pouring cream or vanilla ice cream.
+    tags: [dessert, red berries, gluten-free]
+    ingredients:
+      - items:
+          - ["mixed red berries (redcurrants, raspberries, cherries)", 750, g]
+          - [redcurrant or cherry juice, 500, ml]
+          - [sugar, 80, g]
+          - [cornflour, 40, g]
+          - [vanilla pod, 1, null, optional]
+    steps:
+      - Mix the cornflour with 100 ml of the juice.
+      - Bring the rest of the juice to the boil with the sugar and vanilla. Add the cornflour mixture, stirring, and cook for 1 minute until thick.
+      - Add the berries, firmest first, and bring back to a bubble without letting them fall apart.
+      - Divide between bowls and chill for at least 2 hours.
+
+  - name: Obatzda
+    category: Sauces
+    difficulty: EASY
+    prep: 10
+    cook: 0
+    servings: 4
+    origin: Bavaria
+    notes: The cheese spread of Bavarian beer gardens. Eaten with pretzels, rye bread and radishes.
+    tags: [snack, cheese, vegetarian]
+    ingredients:
+      - items:
+          - [ripe Camembert, 200, g]
+          - [softened butter, 50, g]
+          - [cream cheese, 50, g]
+          - [onion, 0.5, null]
+          - [sweet paprika, 1, tsp]
+          - [ground caraway, 0.5, tsp]
+          - [beer, 2, tbsp, optional]
+          - [chopped chives, 1, tbsp]
+          - [salt, null, null]
+          - [black pepper, null, null]
+    steps:
+      - Mash the Camembert with a fork, rind and all.
+      - Mix with the butter, cream cheese, half the onion very finely chopped, the paprika, caraway and beer. Season.
+      - Serve with the rest of the onion in thin rings, chives and a little paprika on top.

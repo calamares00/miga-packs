@@ -1,8 +1,8 @@
 id: mexican-cooking
-version: 1
-updated: 2026-10-30
+version: 2
+updated: 2026-10-31
 language: en
-name: Mexican cooking
+name: "World cuisine: Mexico"
 description: >-
   Mexican classics to cook at home: tacos al pastor, cochinita pibil, pozole, chilaquiles,
   enchiladas, salsas, guacamole, aguas frescas and flan. With easy-to-find ingredients and
@@ -11,12 +11,13 @@ author: Miga
 authorGithub: calamares00
 cover:
   emoji: "🌮"
-  title: Mexican cooking
+  kicker: World cuisine
+  title: Mexico
   colors: ["#c2410c", "#f59e0b"]
 defaults:
   origin: Mexico
   originCountry: MX
-  source: Miga «Mexican cooking» pack
+  source: "Miga «World cuisine: Mexico» pack"
 recipes:
 
   - name: Tacos al pastor

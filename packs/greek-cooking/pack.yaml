@@ -1,0 +1,582 @@
+id: greek-cooking
+version: 1
+updated: 2026-10-31
+language: en
+name: "World cuisine: Greece"
+description: >-
+  Greek cooking beyond the salad and tzatziki: souvlaki, spanakopita, pastitsio, gemista,
+  fasolada, avgolemono, dolmades, keftedes, briam, fava, kleftiko, stifado, saganaki cheese,
+  prawns with feta, gigantes, taramasalata, melitzanosalata, spanakorizo, loukoumades and
+  baklava. With olive oil, lemon, oregano and dill.
+author: Miga
+authorGithub: calamares00
+cover:
+  emoji: "🥙"
+  kicker: World cuisine
+  title: Greece
+  colors: ["#1e40af", "#0ea5e9"]
+defaults:
+  origin: Greece
+  originCountry: GR
+  source: "Miga «World cuisine: Greece» pack"
+recipes:
+
+  - name: Pork souvlaki with pitta
+    category: Meat
+    difficulty: EASY
+    prep: 20
+    cook: 15
+    servings: 4
+    notes: Marinate the meat for at least 2 hours. Soak wooden skewers so they don't burn.
+    tags: [skewers, barbecue]
+    ingredients:
+      - group: Souvlaki
+        items:
+          - [diced pork shoulder, 800, g]
+          - [olive oil, 4, tbsp]
+          - [lemon, 1, null]
+          - [dried oregano, 2, tsp]
+          - [garlic, 2, clove]
+          - [salt, 1, tsp]
+          - [black pepper, 0.5, tsp]
+      - group: To serve
+        items:
+          - [pitta breads, 4, null]
+          - [tzatziki or Greek yoghurt, 200, g]
+          - [tomatoes, 2, null]
+          - [red onion, 1, null]
+          - [chips, null, null, optional]
+    steps:
+      - Mix the oil with the lemon juice, oregano, chopped garlic, salt and pepper, and marinate the meat for at least 2 hours.
+      - Thread the meat onto the skewers.
+      - Grill on a barbecue or griddle over a high heat for 10-12 minutes, turning, until golden.
+      - Warm the pittas and serve with the meat, tzatziki and thinly sliced tomato and onion. In Greece, a few chips go inside too.
+
+  - name: Spanakopita
+    category: Breads and doughs
+    difficulty: MEDIUM
+    prep: 30
+    cook: 45
+    servings: 8
+    tags: [vegetarian, baked]
+    utensils: [Oven]
+    ingredients:
+      - items:
+          - [fresh spinach, 1, kg]
+          - [feta cheese, 300, g]
+          - [spring onions, 6, null]
+          - [fresh dill, 1, bunch]
+          - [eggs, 2, null]
+          - [filo pastry, 12, sheet]
+          - [olive oil, 100, ml]
+          - [black pepper, null, null]
+    steps:
+      - Wash and chop the spinach and blanch it for 1 minute. Drain it very well, squeezing out all the water.
+      - Mix with the chopped spring onions and dill, crumbled feta, beaten eggs and pepper.
+      - Preheat the oven to 180 °C. Brush a tin with oil and line the bottom with 6 sheets of filo, brushing each with oil and letting them hang over the sides.
+      - Spread the filling, fold the edges in and cover with the rest of the sheets, brushed with oil.
+      - Score the portions with a knife and bake for 40-45 minutes, until golden.
+
+  - name: Pastitsio
+    category: Pasta
+    difficulty: HARD
+    prep: 30
+    cook: 90
+    servings: 8
+    notes: It is usually made with special long macaroni (number 2); bucatini or ordinary macaroni work.
+    tags: [pasta, baked]
+    utensils: [Oven]
+    ingredients:
+      - group: Meat
+        items:
+          - [minced beef, 600, g]
+          - [onion, 1, null]
+          - [garlic, 2, clove]
+          - [crushed tomatoes, 400, g]
+          - [red wine, 125, ml]
+          - [cinnamon stick, 1, null]
+          - [cloves, 2, null]
+          - [olive oil, 3, tbsp]
+          - [salt, null, null]
+      - group: Pasta
+        items:
+          - [long macaroni, 500, g]
+          - [grated kefalotyri or Parmesan, 50, g]
+          - [egg white, 1, null]
+      - group: Béchamel
+        items:
+          - [butter, 100, g]
+          - [plain flour, 100, g]
+          - [whole milk, 1, l]
+          - [egg yolks, 2, null]
+          - [grated kefalotyri or Parmesan, 50, g]
+          - [nutmeg, 1, pinch]
+    steps:
+      - group: Meat
+        items:
+          - Fry the chopped onion and garlic in the oil. Add the meat and brown it.
+          - Pour in the wine, add the tomatoes, cinnamon and cloves and simmer gently for 30 minutes. Remove the spices and season with salt.
+      - group: Assembly
+        items:
+          - Cook the pasta for 2 minutes less than the packet says, drain and mix with the cheese and beaten egg white.
+          - Make the béchamel with the butter, flour and milk, cooking it for 10 minutes. Off the heat, add the yolks, cheese and nutmeg.
+          - Preheat the oven to 180 °C. In a dish, layer half the pasta, the meat and the rest of the pasta, and cover with the béchamel.
+          - Bake for 45 minutes, until golden. Rest for 20 minutes before cutting.
+
+  - name: Gemista
+    category: Vegetables
+    difficulty: MEDIUM
+    prep: 30
+    cook: 70
+    servings: 6
+    notes: Tomatoes and peppers stuffed with herby rice, the dish of the Greek summer.
+    tags: [vegan, baked, summer]
+    utensils: [Oven]
+    ingredients:
+      - items:
+          - [large tomatoes, 6, null]
+          - [green peppers, 4, null]
+          - [short-grain rice, 200, g]
+          - [onion, 1, null]
+          - [garlic, 2, clove]
+          - [chopped fresh mint, 2, tbsp]
+          - [chopped parsley, 4, tbsp]
+          - [olive oil, 150, ml]
+          - [sugar, 1, tsp]
+          - [potatoes, 3, null]
+          - [salt, null, null]
+          - [black pepper, null, null]
+    steps:
+      - Cut the tops off the tomatoes and scoop them out with a spoon. Blend the flesh. Cut the tops off the peppers and remove the seeds.
+      - Fry the chopped onion and garlic in half the oil. Add the rice, tomato pulp, herbs, sugar, salt and pepper and cook for 5 minutes.
+      - Preheat the oven to 180 °C. Fill the vegetables three-quarters full, as the rice swells, and put their lids back on.
+      - Arrange them in a dish with the potato wedges in between. Drizzle with the rest of the oil and a glass of water.
+      - Bake for 1 hour 10 minutes, until the rice is cooked and the vegetables are golden.
+
+  - name: Fasolada
+    category: Legumes
+    difficulty: EASY
+    prep: 15
+    cook: 90
+    servings: 6
+    notes: This bean soup is considered Greece's national dish. Soak the beans the night before.
+    tags: [stew, vegan]
+    ingredients:
+      - items:
+          - [dried white beans, 500, g]
+          - [onion, 1, null]
+          - [carrots, 2, null]
+          - [celery, 2, stick]
+          - [crushed tomatoes, 200, g]
+          - [tomato purée, 1, tbsp]
+          - [extra virgin olive oil, 120, ml]
+          - [bay leaf, 1, null]
+          - [salt, null, null]
+          - [black pepper, null, null]
+    steps:
+      - Drain the beans, cover with water, boil for 5 minutes and pour off the water.
+      - Put the beans in a pot with 2 litres of water, the chopped onion, the sliced carrots and celery, the bay leaf and half the oil.
+      - Simmer gently for 1 hour, until almost tender.
+      - Add the tomatoes, tomato purée, the rest of the oil, salt and pepper, and simmer for 30 more minutes, until the broth thickens.
+
+  - name: Avgolemono soup
+    category: Soups
+    difficulty: MEDIUM
+    prep: 10
+    cook: 30
+    servings: 4
+    notes: The egg is tempered with hot broth before going in so it doesn't scramble into strands.
+    tags: [soup, lemon]
+    ingredients:
+      - items:
+          - [chicken stock, 1.5, l]
+          - [rice or orzo, 100, g]
+          - [shredded cooked chicken, 300, g]
+          - [eggs, 2, null]
+          - [lemons, 2, null]
+          - [salt, null, null]
+          - [black pepper, null, null]
+    steps:
+      - Bring the stock to the boil, add the rice and cook until tender. Add the chicken and turn the heat to the lowest setting.
+      - Whisk the eggs until frothy and add the lemon juice little by little, still whisking.
+      - Whisk a ladle of hot stock into the egg, then another.
+      - Pour the mixture into the pot, stirring, and heat without boiling until the soup thickens slightly. Season.
+
+  - name: Dolmades
+    category: Starters
+    difficulty: MEDIUM
+    prep: 60
+    cook: 50
+    servings: 6
+    notes: Vine leaves stuffed with herby rice. Eaten warm or cold, with yoghurt or lemon.
+    tags: [vegan, snack]
+    ingredients:
+      - items:
+          - [vine leaves in brine, 40, null]
+          - [short-grain rice, 250, g]
+          - [onions, 2, null]
+          - [chopped fresh dill, 3, tbsp]
+          - [chopped fresh mint, 2, tbsp]
+          - [pine nuts, 2, tbsp, optional]
+          - [lemons, 2, null]
+          - [extra virgin olive oil, 150, ml]
+          - [hot water, 500, ml]
+          - [salt, null, null]
+    steps:
+      - Blanch the vine leaves for 2 minutes and drain. Snip off the stalks.
+      - Gently cook the chopped onions in half the oil. Add the rice, herbs, pine nuts, salt and the juice of half a lemon and mix.
+      - Lay a leaf vein side up, put a teaspoon of filling near the stalk end, fold in the sides and roll up firmly, but not too tightly as the rice swells.
+      - Line the bottom of a pot with torn leaves and pack the rolls in tightly, seam side down.
+      - Pour over the rest of the oil, the remaining lemon juice and the water, weigh down with a plate so they don't move and simmer covered for 45-50 minutes.
+
+  - name: Keftedes
+    category: Meat
+    difficulty: EASY
+    prep: 20
+    cook: 15
+    servings: 4
+    notes: Greek meatballs with mint and oregano. Serve with tzatziki and lemon.
+    tags: [meatballs, fried]
+    ingredients:
+      - items:
+          - [mixed minced meat, 500, g]
+          - [onion, 1, null]
+          - [day-old bread without crusts, 2, slice]
+          - [egg, 1, null]
+          - [chopped fresh mint, 2, tbsp]
+          - [chopped parsley, 2, tbsp]
+          - [dried oregano, 1, tsp]
+          - [garlic, 1, clove]
+          - [salt, 1, tsp]
+          - [flour for dusting, null, null]
+          - [olive oil for frying, null, null]
+          - [lemon, 1, null]
+    steps:
+      - Soak the bread in water and squeeze it out. Grate the onion and squeeze out its juice.
+      - Mix the meat with the bread, onion, egg, herbs, chopped garlic and salt. Rest in the fridge for 30 minutes.
+      - Shape into slightly flattened walnut-sized balls and dust with flour.
+      - Fry in hot oil for 5-6 minutes, until golden. Serve with lemon.
+
+  - name: Briam
+    category: Vegetables
+    difficulty: EASY
+    prep: 20
+    cook: 75
+    servings: 6
+    notes: Summer vegetables roasted with olive oil and tomato, the Greek take on ratatouille.
+    tags: [vegan, baked, summer]
+    utensils: [Oven]
+    ingredients:
+      - items:
+          - [potatoes, 3, null]
+          - [courgettes, 2, null]
+          - [aubergine, 1, null]
+          - [green pepper, 1, null]
+          - [onions, 2, null]
+          - [garlic, 3, clove]
+          - [crushed tomatoes, 400, g]
+          - [chopped parsley, 3, tbsp]
+          - [dried oregano, 1, tsp]
+          - [extra virgin olive oil, 150, ml]
+          - [salt, null, null]
+          - [black pepper, null, null]
+    steps:
+      - Preheat the oven to 190 °C.
+      - Slice the potatoes, courgettes and aubergine 1 cm thick, and cut the pepper and onions into strips.
+      - Mix everything in a dish with the chopped garlic, tomatoes, parsley, oregano, oil, salt and pepper, and add 150 ml of water.
+      - Cover with foil and bake for 45 minutes. Uncover, stir gently and bake for 30 more minutes, until the vegetables are tender and golden.
+
+  - name: Santorini fava
+    category: Legumes
+    difficulty: EASY
+    prep: 10
+    cook: 45
+    servings: 6
+    origin: Santorini
+    notes: A purée of yellow split peas. Serve warm as a starter, with bread.
+    tags: [vegan, gluten-free, snack]
+    utensils: [Blender]
+    ingredients:
+      - items:
+          - [yellow split peas, 250, g]
+          - [onion, 1, null]
+          - [garlic, 1, clove]
+          - [water, 1, l]
+          - [extra virgin olive oil, 80, ml]
+          - [lemon, 1, null]
+          - [salt, null, null]
+          - [capers, 1, tbsp]
+          - [chopped red onion, 2, tbsp]
+    steps:
+      - Rinse the split peas and put them in a pot with the water, half the onion in pieces and the garlic.
+      - Simmer gently for 40-45 minutes, skimming, until they fall apart.
+      - Blend with half the oil, the juice of half a lemon and the salt into a very smooth purée.
+      - Serve warm with the rest of the oil, the capers and the red onion.
+
+  - name: Kleftiko
+    category: Meat
+    difficulty: MEDIUM
+    prep: 20
+    cook: 180
+    servings: 6
+    notes: Named after the klephts, the bandits who roasted meat in sealed pits. The sealed parcel imitates that slow roasting.
+    tags: [lamb, baked]
+    utensils: [Oven]
+    ingredients:
+      - items:
+          - [leg of lamb in pieces, 1.5, kg]
+          - [potatoes, 1, kg]
+          - [garlic, 6, clove]
+          - [lemons, 2, null]
+          - [dried oregano, 2, tsp]
+          - [fresh rosemary, 2, sprig]
+          - [feta cheese, 150, g, optional]
+          - [white wine, 150, ml]
+          - [olive oil, 100, ml]
+          - [salt, null, null]
+          - [black pepper, null, null]
+    steps:
+      - Mix the oil with the lemon juice, crushed garlic, oregano, salt and pepper, and marinate the lamb for at least 2 hours.
+      - Preheat the oven to 160 °C. Lay two large crossed sheets of baking paper and foil in a dish.
+      - Put the potato wedges, the lamb with its marinade, the rosemary, wine and feta pieces on top.
+      - Seal the parcel tightly and bake for 3 hours, until the meat falls apart.
+      - Open the parcel, raise the oven to 200 °C and brown for 15 more minutes.
+
+  - name: Beef stifado
+    category: Meat
+    difficulty: MEDIUM
+    prep: 30
+    cook: 120
+    servings: 6
+    notes: It uses as many small onions as meat. They are easier to peel after blanching for 1 minute.
+    tags: [stew, winter]
+    ingredients:
+      - items:
+          - [stewing beef, 1, kg]
+          - [pearl onions or shallots, 1, kg]
+          - [crushed tomatoes, 400, g]
+          - [red wine, 250, ml]
+          - [red wine vinegar, 3, tbsp]
+          - [garlic, 4, clove]
+          - [cinnamon stick, 1, null]
+          - [cloves, 4, null]
+          - [allspice berries, 4, null]
+          - [bay leaves, 2, null]
+          - [olive oil, 100, ml]
+          - [salt, null, null]
+    steps:
+      - Cut the meat into large pieces and brown it in the oil. Take it out.
+      - Brown the whole peeled onions in the same oil and take them out.
+      - Return the meat with the garlic, pour in the wine and vinegar and boil for 3 minutes.
+      - Add the tomatoes, spices, bay leaves, salt and enough water to just cover. Cover and simmer for 1 hour.
+      - Add the onions and simmer for 45-60 more minutes, until the meat is tender and the sauce thick.
+
+  - name: Saganaki cheese
+    category: Starters
+    difficulty: EASY
+    prep: 5
+    cook: 5
+    servings: 4
+    notes: Made with a hard cheese that doesn't melt, such as kefalotyri or kefalograviera. Halloumi works too.
+    tags: [snack, vegetarian]
+    ingredients:
+      - items:
+          - [kefalograviera cheese in 1.5 cm slices, 250, g]
+          - [flour, 3, tbsp]
+          - [olive oil, 3, tbsp]
+          - [lemon, 1, null]
+    steps:
+      - Dip the cheese in cold water and dust it with flour, shaking off the excess.
+      - Fry it in the very hot oil for 1-2 minutes on each side, until it has a golden crust.
+      - Serve straight away with a squeeze of lemon.
+
+  - name: Prawn saganaki
+    category: Fish and seafood
+    difficulty: EASY
+    prep: 10
+    cook: 20
+    servings: 4
+    notes: Prawns in tomato sauce with feta. Eat with bread to mop up the sauce.
+    tags: [seafood]
+    ingredients:
+      - items:
+          - [peeled prawns, 500, g]
+          - [tinned peeled tomatoes, 400, g]
+          - [onion, 1, null]
+          - [garlic, 2, clove]
+          - [ouzo, 50, ml, optional]
+          - [dried chilli, 1, null, optional]
+          - [feta cheese, 150, g]
+          - [chopped parsley, 2, tbsp]
+          - [olive oil, 4, tbsp]
+          - [salt, null, null]
+    steps:
+      - Gently cook the chopped onion and garlic in the oil for 5 minutes.
+      - Add the prawns, sauté for 1 minute and pour in the ouzo.
+      - Add the crushed tomatoes and chilli and simmer for 8 minutes. Season with salt.
+      - Crumble the feta over the top, cover and cook for 3-4 more minutes, until the cheese softens. Serve with parsley.
+
+  - name: Gigantes plaki
+    category: Legumes
+    difficulty: EASY
+    prep: 15
+    cook: 120
+    servings: 6
+    notes: Gigantes are very large white beans; Spanish judiones or butter beans are very similar. Soak them the night before.
+    tags: [vegan, baked]
+    utensils: [Oven]
+    ingredients:
+      - items:
+          - [dried giant beans or butter beans, 500, g]
+          - [onions, 2, null]
+          - [garlic, 3, clove]
+          - [carrot, 1, null]
+          - [celery, 1, stick]
+          - [crushed tomatoes, 400, g]
+          - [tomato purée, 1, tbsp]
+          - [chopped dill or parsley, 4, tbsp]
+          - [honey or sugar, 1, tsp]
+          - [extra virgin olive oil, 150, ml]
+          - [salt, null, null]
+          - [black pepper, null, null]
+    steps:
+      - Simmer the drained beans in unsalted water for 1 hour, until almost tender. Drain, keeping a glass of the water.
+      - Gently cook the chopped onion, garlic, carrot and celery in half the oil for 10 minutes. Add the tomatoes, tomato purée, honey, salt and pepper and cook for 10 minutes.
+      - Preheat the oven to 180 °C. Mix the beans with the sauce, herbs and reserved water in a dish.
+      - Drizzle with the rest of the oil and bake for 50-60 minutes, until the sauce thickens and the top browns.
+
+  - name: Taramasalata
+    category: Sauces
+    difficulty: EASY
+    prep: 15
+    cook: 0
+    servings: 6
+    notes: Tarama is cured carp or cod roe. Look for it in Greek shops and some supermarkets.
+    tags: [snack, dip]
+    utensils: [Blender]
+    ingredients:
+      - items:
+          - [tarama, 100, g]
+          - [crustless white bread, 150, g]
+          - [onion, 0.5, null]
+          - [lemon juice, 3, tbsp]
+          - [mild olive oil, 200, ml]
+    steps:
+      - Soak the bread in water and squeeze it out well.
+      - Blend the tarama with the grated onion and the bread.
+      - Add the oil in a thin stream, alternating with the lemon juice, while blending, until you have a smooth cream.
+      - Chill for at least 1 hour and serve with pitta bread.
+
+  - name: Melitzanosalata
+    category: Sauces
+    difficulty: EASY
+    prep: 10
+    cook: 45
+    servings: 6
+    notes: Charring the aubergines directly over a gas flame gives a smoky flavour.
+    tags: [snack, vegan]
+    utensils: [Oven]
+    ingredients:
+      - items:
+          - [aubergines, 2, null]
+          - [garlic, 1, clove]
+          - [extra virgin olive oil, 4, tbsp]
+          - [wine vinegar, 1, tbsp]
+          - [chopped parsley, 2, tbsp]
+          - [red onion, 0.25, null, optional]
+          - [salt, null, null]
+    steps:
+      - Prick the aubergines and roast them whole in the oven at 220 °C for 40-45 minutes, until very soft.
+      - Split them open, scoop out the flesh and leave it to drain in a sieve for 10 minutes.
+      - Chop it with a knife and mix with the crushed garlic, oil, vinegar, parsley, very finely chopped onion and salt.
+      - Serve cold or at room temperature with bread.
+
+  - name: Spanakorizo
+    category: Rice
+    difficulty: EASY
+    prep: 15
+    cook: 30
+    servings: 4
+    notes: Spinach rice with dill and lemon. Served with feta and a drizzle of oil.
+    tags: [vegetarian, stew]
+    ingredients:
+      - items:
+          - [fresh spinach, 1, kg]
+          - [short-grain rice, 200, g]
+          - [onion, 1, null]
+          - [spring onions, 4, null]
+          - [chopped fresh dill, 3, tbsp]
+          - [extra virgin olive oil, 120, ml]
+          - [hot water, 500, ml]
+          - [lemon, 1, null]
+          - [feta cheese, 150, g, optional]
+          - [salt, null, null]
+          - [black pepper, null, null]
+    steps:
+      - Gently cook the chopped onion and spring onions in the oil for 5 minutes.
+      - Add the chopped spinach a little at a time, letting it wilt.
+      - Add the rice, water, salt and pepper, cover and simmer gently for 20 minutes, until the rice is tender but still loose.
+      - Stir in the dill and lemon juice and serve with crumbled feta.
+
+  - name: Loukoumades
+    category: Desserts
+    difficulty: MEDIUM
+    prep: 75
+    cook: 20
+    servings: 6
+    notes: Honey doughnuts. The batter needs 1 hour to rise.
+    tags: [dessert, fried]
+    ingredients:
+      - group: Batter
+        items:
+          - [plain flour, 300, g]
+          - [dried yeast, 7, g]
+          - [sugar, 1, tsp]
+          - [salt, 1, pinch]
+          - [warm water, 300, ml]
+          - [sunflower oil for frying, null, null]
+      - group: Syrup and topping
+        items:
+          - [honey, 200, g]
+          - [water, 100, ml]
+          - [cinnamon stick, 1, null]
+          - [chopped walnuts, 50, g]
+          - [ground cinnamon, 1, tsp]
+    steps:
+      - Mix the flour, yeast, sugar and salt with the water into a sticky, runny batter. Cover and leave to rise for 1 hour, until doubled.
+      - Simmer the honey with the water and cinnamon for 5 minutes and let it cool slightly.
+      - Heat the oil to 175 °C. Drop in spoonfuls of batter with a spoon dipped in water, or squeeze it through your fist.
+      - Fry in batches, turning, until golden. Drain.
+      - Toss them in the syrup and serve with walnuts and cinnamon.
+
+  - name: Baklava
+    category: Desserts
+    difficulty: MEDIUM
+    prep: 40
+    cook: 50
+    servings: 12
+    notes: Cold syrup goes over hot baklava, or the other way round, so it stays crisp. Best the next day.
+    tags: [dessert, nuts]
+    utensils: [Oven]
+    ingredients:
+      - group: Baklava
+        items:
+          - [filo pastry, 400, g]
+          - [walnuts, 300, g]
+          - [sugar, 2, tbsp]
+          - [ground cinnamon, 1, tsp]
+          - [melted butter, 200, g]
+      - group: Syrup
+        items:
+          - [water, 250, ml]
+          - [sugar, 250, g]
+          - [honey, 100, g]
+          - [lemon peel, 1, strip]
+          - [cinnamon stick, 1, null]
+    steps:
+      - Simmer the syrup ingredients for 10 minutes and let it cool. Remove the lemon peel and cinnamon.
+      - Chop the walnuts and mix with the sugar and cinnamon.
+      - Preheat the oven to 170 °C. Brush a tin with butter and lay in 8 sheets of filo, brushing each with butter.
+      - Alternate layers of nuts with 2-3 buttered sheets of filo, finishing with 8 buttered sheets.
+      - Cut into diamonds with a sharp knife right to the bottom and bake for 45-50 minutes, until golden.
+      - Pour the cold syrup over the baklava straight from the oven and leave it to soak for several hours before serving.

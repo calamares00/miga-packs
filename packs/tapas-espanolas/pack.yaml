@@ -1,0 +1,514 @@
+id: tapas-espanolas
+version: 1
+updated: 2026-10-31
+language: es
+name: Tapas españolas
+description: >-
+  Tapas de bar de toda España para compartir: patatas bravas, pimientos de Padrón, pulpo a la
+  gallega, boquerones en vinagre, calamares a la romana, tortillitas de camarones, croquetas de
+  setas, chorizo a la sidra, pinchos morunos, huevos rotos, ensaladilla, gildas y pan con tomate,
+  entre otras.
+author: Miga
+authorGithub: calamares00
+cover:
+  emoji: "🍤"
+  title: Tapas españolas
+  colors: ["#9f1239", "#f59e0b"]
+defaults:
+  origin: España
+  originCountry: ES
+  source: Pack «Tapas españolas» de Miga
+recipes:
+
+  - name: Patatas bravas
+    category: Entrantes
+    difficulty: EASY
+    prep: 10
+    cook: 25
+    servings: 4
+    origin: Madrid
+    tags: [tapa, vegana, picante]
+    ingredients:
+      - group: Patatas
+        items:
+          - [patatas, 1, kg]
+          - [aceite de oliva para freír, null, null]
+          - [sal, null, null]
+      - group: Salsa brava
+        items:
+          - [aceite de oliva, 3, cucharada]
+          - [harina, 1, cucharada]
+          - [pimentón dulce, 1, cucharada]
+          - [pimentón picante, 1, cucharadita]
+          - [caldo de verduras, 250, ml]
+          - [vinagre de Jerez, 1, cucharadita]
+          - [sal, null, null]
+    steps:
+      - group: Salsa brava
+        items:
+          - Calienta el aceite, añade la harina y remueve 1 minuto sin que se dore.
+          - Aparta del fuego, añade los dos pimentones y, enseguida, el caldo poco a poco sin dejar de remover.
+          - Cuece a fuego suave 5 minutos, hasta que espese. Añade el vinagre y ajusta de sal.
+      - group: Patatas
+        items:
+          - Pela las patatas y córtalas en dados irregulares de unos 3 cm. Lávalas y sécalas bien.
+          - Confítalas en abundante aceite a fuego medio 10 minutos, hasta que estén tiernas, y sácalas.
+          - Sube el fuego y vuelve a freírlas 3-4 minutos, hasta que estén doradas y crujientes.
+          - Sálalas y sírvelas con la salsa brava por encima.
+
+  - name: Patatas alioli
+    category: Entrantes
+    difficulty: EASY
+    prep: 15
+    cook: 20
+    servings: 4
+    tags: [tapa, vegetariana, sin gluten]
+    utensils: [Batidora]
+    ingredients:
+      - group: Patatas
+        items:
+          - [patatas medianas, 4, null]
+          - [perejil picado, 2, cucharada]
+          - [sal, null, null]
+      - group: Alioli
+        items:
+          - [huevo, 1, null]
+          - [ajo, 2, diente]
+          - [aceite de oliva suave, 200, ml]
+          - [zumo de limón, 1, cucharadita]
+          - [sal, null, null]
+    steps:
+      - Cuece las patatas con piel en agua con sal 20 minutos, hasta que estén tiernas. Deja que se enfríen, pélalas y córtalas en dados.
+      - Pon en el vaso de la batidora el huevo, el ajo pelado, el limón y una pizca de sal, y el aceite encima.
+      - Mete la batidora hasta el fondo y bate sin moverla hasta que empiece a emulsionar. Súbela despacio hasta que todo esté integrado.
+      - Mezcla las patatas con el alioli y el perejil. Sírvelas frías o a temperatura ambiente.
+
+  - name: Pimientos de Padrón
+    category: Verduras
+    difficulty: EASY
+    prep: 2
+    cook: 6
+    servings: 4
+    origin: Galicia
+    notes: «Unos pican y otros no». Los más grandes suelen ser los que pican.
+    tags: [tapa, vegana, sin gluten]
+    ingredients:
+      - items:
+          - [pimientos de Padrón, 300, g]
+          - [aceite de oliva, 4, cucharada]
+          - [sal gruesa, null, null]
+    steps:
+      - Lava los pimientos y sécalos muy bien para que no salpiquen.
+      - Fríelos en el aceite bien caliente, moviéndolos, 4-5 minutos, hasta que la piel se ampolle.
+      - Escúrrelos sobre papel de cocina y espolvoréalos con sal gruesa.
+
+  - name: Champiñones al ajillo
+    category: Verduras
+    difficulty: EASY
+    prep: 10
+    cook: 10
+    servings: 4
+    tags: [tapa, vegana, sin gluten]
+    ingredients:
+      - items:
+          - [champiñones, 400, g]
+          - [ajo, 4, diente]
+          - [guindilla, 1, null, optional]
+          - [vino blanco, 50, ml]
+          - [aceite de oliva, 4, cucharada]
+          - [perejil picado, 2, cucharada]
+          - [sal, null, null]
+    steps:
+      - Limpia los champiñones y córtalos en cuartos.
+      - Dora los ajos laminados y la guindilla en el aceite a fuego suave.
+      - Sube el fuego, añade los champiñones y saltéalos 5 minutos con sal.
+      - Riega con el vino y deja que se evapore. Termina con el perejil.
+
+  - name: Berenjenas con miel de caña
+    category: Verduras
+    difficulty: EASY
+    prep: 40
+    cook: 10
+    servings: 4
+    origin: Andalucía
+    notes: El remojo quita el amargor de la berenjena y hace que absorba menos aceite.
+    tags: [tapa, vegetariana, fritura]
+    ingredients:
+      - items:
+          - [berenjenas, 2, null]
+          - [leche, 500, ml]
+          - [harina, 100, g]
+          - [miel de caña, 3, cucharada]
+          - [aceite de oliva para freír, null, null]
+          - [sal, null, null]
+    steps:
+      - Corta las berenjenas en bastones o en rodajas finas y déjalas en remojo en la leche con sal 30 minutos.
+      - Escúrrelas, sécalas un poco y pásalas por harina, sacudiendo el exceso.
+      - Fríelas en tandas en abundante aceite muy caliente hasta que estén doradas.
+      - Escúrrelas sobre papel de cocina y sírvelas enseguida con un hilo de miel de caña por encima.
+
+  - name: Pulpo a la gallega
+    category: Pescados y mariscos
+    difficulty: MEDIUM
+    prep: 5
+    cook: 45
+    servings: 4
+    origin: Galicia
+    notes: Congelar el pulpo y descongelarlo en la nevera lo deja más tierno.
+    tags: [tapa, sin gluten]
+    ingredients:
+      - items:
+          - [pulpo descongelado, 1.5, kg]
+          - [patatas medianas, 3, null, optional]
+          - [pimentón dulce, 1, cucharadita]
+          - [pimentón picante, 0.5, cucharadita]
+          - [aceite de oliva virgen extra, 4, cucharada]
+          - [sal gruesa, null, null]
+    steps:
+      - Lleva a ebullición una olla grande de agua sin sal.
+      - Sujeta el pulpo por la cabeza y sumérgelo tres veces en el agua hirviendo («asustarlo») antes de dejarlo dentro.
+      - Cuécelo unos 40 minutos, hasta que al pincharlo la parte gruesa de los tentáculos esté tierna. Deja que repose 5 minutos en el agua.
+      - Si quieres acompañarlo con cachelos, cuece las patatas con piel en esa misma agua.
+      - Corta los tentáculos en rodajas con tijera y colócalos sobre un plato de madera o de barro.
+      - Espolvorea sal gruesa y los pimentones y riega con el aceite.
+
+  - name: Boquerones en vinagre
+    category: Pescados y mariscos
+    difficulty: EASY
+    prep: 20
+    cook: 0
+    servings: 4
+    origin: Andalucía
+    notes: Por seguridad (anisakis), congela los boquerones limpios al menos 5 días a -20 °C antes de marinarlos, o cómpralos ya congelados.
+    tags: [tapa, sin gluten, fría]
+    ingredients:
+      - items:
+          - [boquerones frescos, 500, g]
+          - [vinagre de vino blanco, 250, ml]
+          - [agua, 100, ml]
+          - [sal, 1, cucharadita]
+          - [ajo, 2, diente]
+          - [perejil picado, 2, cucharada]
+          - [aceite de oliva virgen extra, 100, ml]
+    steps:
+      - Quita la cabeza y las tripas a los boquerones, ábrelos en dos lomos y retira la espina. Lávalos en agua muy fría.
+      - Congélalos al menos 5 días y descongélalos en la nevera.
+      - Colócalos en una fuente, cúbrelos con el vinagre, el agua y la sal, y déjalos en la nevera 6 horas, hasta que la carne esté blanca.
+      - Escúrrelos y cúbrelos con el aceite, el ajo muy picado y el perejil. Se conservan en la nevera hasta 5 días.
+
+  - name: Calamares a la romana
+    category: Pescados y mariscos
+    difficulty: EASY
+    prep: 15
+    cook: 10
+    servings: 4
+    tags: [tapa, fritura]
+    ingredients:
+      - items:
+          - [calamares limpios, 600, g]
+          - [harina, 100, g]
+          - [huevos, 2, null]
+          - [aceite de oliva para freír, null, null]
+          - [limón, 1, null]
+          - [sal, null, null]
+    steps:
+      - Corta los calamares en anillas de 1 cm, sécalos bien y sálalos.
+      - Pásalos por harina, sacude el exceso y después pásalos por el huevo batido.
+      - Fríelos en tandas en abundante aceite muy caliente 2 minutos, hasta que estén dorados. No llenes la sartén para que el aceite no se enfríe.
+      - Escúrrelos sobre papel de cocina y sírvelos enseguida con gajos de limón.
+
+  - name: Gambas a la plancha
+    category: Pescados y mariscos
+    difficulty: EASY
+    prep: 5
+    cook: 5
+    servings: 4
+    tags: [tapa, sin gluten]
+    ingredients:
+      - items:
+          - [gambas frescas enteras, 500, g]
+          - [sal gruesa, null, null]
+          - [aceite de oliva, 2, cucharada]
+          - [ajo, 1, diente, optional]
+          - [perejil picado, 1, cucharada, optional]
+    steps:
+      - Calienta mucho una plancha o sartén y úntala con un poco de aceite.
+      - Coloca las gambas enteras, espolvorea sal gruesa y hazlas 1-2 minutos por cada lado.
+      - Si quieres, riégalas al servir con el resto del aceite mezclado con el ajo y el perejil picados.
+
+  - name: Mejillones a la vinagreta
+    category: Pescados y mariscos
+    difficulty: EASY
+    prep: 20
+    cook: 5
+    servings: 4
+    tags: [tapa, sin gluten, fría]
+    ingredients:
+      - group: Mejillones
+        items:
+          - [mejillones, 1, kg]
+          - [laurel, 1, hoja]
+      - group: Vinagreta
+        items:
+          - [pimiento rojo, 0.5, null]
+          - [pimiento verde, 0.5, null]
+          - [cebolleta, 1, null]
+          - [aceite de oliva virgen extra, 6, cucharada]
+          - [vinagre de Jerez, 2, cucharada]
+          - [sal, null, null]
+    steps:
+      - Limpia los mejillones y quítales las barbas.
+      - Ponlos en una olla tapada con el laurel y un chorrito de agua a fuego fuerte 3-4 minutos, hasta que se abran. Descarta los que sigan cerrados.
+      - Pica muy fino los pimientos y la cebolleta y mézclalos con el aceite, el vinagre y la sal.
+      - Quita una de las conchas a cada mejillón, colócalos en una fuente y cúbrelos con la vinagreta. Sírvelos fríos.
+
+  - name: Tortillitas de camarones
+    category: Pescados y mariscos
+    difficulty: MEDIUM
+    prep: 10
+    cook: 15
+    servings: 4
+    origin: Cádiz
+    notes: La masa debe quedar muy líquida para que las tortillitas salgan finas y crujientes, como un encaje.
+    tags: [tapa, fritura]
+    ingredients:
+      - items:
+          - [camarones crudos, 150, g]
+          - [harina de garbanzo, 100, g]
+          - [harina de trigo, 50, g]
+          - [cebolleta, 1, null]
+          - [perejil picado, 2, cucharada]
+          - [agua muy fría, 250, ml]
+          - [sal, 1, cucharadita]
+          - [aceite de oliva para freír, null, null]
+    steps:
+      - Mezcla las dos harinas con la sal y añade el agua poco a poco, batiendo, hasta tener una masa muy fluida. Déjala reposar 30 minutos en la nevera si puedes.
+      - Añade la cebolleta muy picada, el perejil y los camarones.
+      - Calienta un dedo de aceite y vierte cucharadas de masa, extendiéndolas para que queden muy finas.
+      - Fríelas 1 minuto por cada lado, hasta que estén doradas, y escúrrelas sobre papel de cocina.
+
+  - name: Croquetas de setas
+    category: Entrantes
+    difficulty: MEDIUM
+    prep: 40
+    cook: 25
+    servings: 6
+    notes: La masa tiene que enfriarse al menos 4 horas en la nevera, o mejor de un día para otro.
+    tags: [tapa, vegetariana, fritura]
+    ingredients:
+      - group: Masa
+        items:
+          - [setas variadas, 300, g]
+          - [cebolla, 0.5, null]
+          - [mantequilla, 60, g]
+          - [aceite de oliva, 2, cucharada]
+          - [harina, 80, g]
+          - [leche entera, 700, ml]
+          - [nuez moscada, 1, pizca]
+          - [sal, null, null]
+      - group: Rebozado
+        items:
+          - [huevos, 2, null]
+          - [pan rallado, 150, g]
+          - [aceite de oliva para freír, null, null]
+    steps:
+      - group: Masa
+        items:
+          - Pica las setas y la cebolla muy finas y saltéalas en la mantequilla y el aceite hasta que se evapore el agua que sueltan.
+          - Añade la harina y cocínala 2 minutos sin dejar de remover.
+          - Incorpora la leche caliente poco a poco, removiendo con varillas, y cuece 10 minutos a fuego suave, hasta que la masa se despegue de las paredes.
+          - Sazona con sal y nuez moscada, extiéndela en una fuente, tápala con film transparente pegado a la superficie y deja que se enfríe en la nevera.
+      - group: Rebozado y fritura
+        items:
+          - Forma las croquetas con dos cucharas o con las manos.
+          - Pásalas por huevo batido y por pan rallado.
+          - Fríelas en tandas en abundante aceite muy caliente hasta que estén doradas y escúrrelas sobre papel de cocina.
+
+  - name: Albóndigas en salsa
+    category: Carnes
+    difficulty: MEDIUM
+    prep: 20
+    cook: 35
+    servings: 4
+    tags: [tapa, guiso]
+    ingredients:
+      - group: Albóndigas
+        items:
+          - [carne picada mixta, 500, g]
+          - [huevo, 1, null]
+          - [miga de pan, 50, g]
+          - [leche, 50, ml]
+          - [ajo, 1, diente]
+          - [perejil picado, 2, cucharada]
+          - [harina para rebozar, null, null]
+          - [aceite de oliva, 100, ml]
+          - [sal, null, null]
+      - group: Salsa
+        items:
+          - [cebolla, 1, null]
+          - [zanahoria, 1, null]
+          - [vino blanco, 150, ml]
+          - [caldo de carne, 400, ml]
+          - [laurel, 1, hoja]
+    steps:
+      - group: Albóndigas
+        items:
+          - Remoja la miga de pan en la leche y mézclala con la carne, el huevo, el ajo y el perejil picados y la sal.
+          - Forma bolas del tamaño de una nuez, pásalas por harina y dóralas en el aceite. Resérvalas.
+      - group: Salsa
+        items:
+          - En el mismo aceite, quitando parte si sobra, pocha la cebolla y la zanahoria picadas 10 minutos.
+          - Añade el vino y deja que se evapore el alcohol 2 minutos. Incorpora el caldo y el laurel.
+          - Si te gusta fina, tritura la salsa. Añade las albóndigas y cuece todo junto a fuego suave 20 minutos.
+
+  - name: Chorizo a la sidra
+    category: Carnes
+    difficulty: EASY
+    prep: 5
+    cook: 20
+    servings: 4
+    origin: Asturias
+    tags: [tapa, sin gluten]
+    ingredients:
+      - items:
+          - [chorizos asturianos, 4, null]
+          - [sidra natural, 500, ml]
+          - [laurel, 1, hoja, optional]
+    steps:
+      - Pincha los chorizos con un tenedor para que no revienten.
+      - Ponlos en una cazuela, cúbrelos con la sidra y añade el laurel.
+      - Cuécelos a fuego medio 15-20 minutos, hasta que la sidra se reduzca a la mitad.
+      - Córtalos en rodajas y sírvelos en cazuelitas de barro con su jugo y pan para mojar.
+
+  - name: Pinchos morunos
+    category: Carnes
+    difficulty: EASY
+    prep: 15
+    cook: 10
+    servings: 4
+    origin: Andalucía
+    notes: Lo ideal es marinar la carne desde la víspera para que coja bien el sabor de las especias.
+    tags: [tapa, sin gluten, barbacoa]
+    ingredients:
+      - items:
+          - [carne de cerdo magra en dados, 600, g]
+          - [ajo, 2, diente]
+          - [pimentón dulce, 2, cucharadita]
+          - [comino molido, 1, cucharadita]
+          - [cúrcuma, 0.5, cucharadita]
+          - [orégano seco, 1, cucharadita]
+          - [cayena molida, 1, pizca, optional]
+          - [aceite de oliva, 4, cucharada]
+          - [sal, 1, cucharadita]
+    steps:
+      - Mezcla el aceite con el ajo picado, las especias y la sal.
+      - Embadurna la carne con la mezcla y déjala marinar en la nevera al menos 2 horas.
+      - Ensarta los dados en brochetas.
+      - Hazlas en una plancha o en la barbacoa a fuego fuerte 8-10 minutos, dándoles la vuelta para que se doren por todos los lados.
+
+  - name: Huevos rotos con jamón
+    category: Huevos
+    difficulty: EASY
+    prep: 10
+    cook: 20
+    servings: 4
+    origin: Madrid
+    tags: [tapa, sin gluten]
+    ingredients:
+      - items:
+          - [patatas, 800, g]
+          - [huevos, 4, null]
+          - [jamón ibérico, 100, g]
+          - [aceite de oliva para freír, null, null]
+          - [sal, null, null]
+    steps:
+      - Pela las patatas y córtalas en bastones o en láminas finas.
+      - Fríelas en abundante aceite a fuego medio hasta que estén tiernas y, al final, sube el fuego para que se doren. Escúrrelas, sálalas y ponlas en una fuente.
+      - Fríe los huevos en el mismo aceite, con la yema líquida.
+      - Coloca los huevos sobre las patatas con el jamón y rómpelos en la mesa.
+
+  - name: Ensaladilla rusa
+    category: Ensaladas
+    difficulty: EASY
+    prep: 20
+    cook: 25
+    servings: 6
+    tags: [tapa, fría, sin gluten]
+    ingredients:
+      - items:
+          - [patatas, 600, g]
+          - [zanahorias, 2, null]
+          - [guisantes, 100, g]
+          - [huevos, 3, null]
+          - [atún en aceite, 2, lata]
+          - [mayonesa, 250, g]
+          - [aceitunas rellenas, 12, null]
+          - [pimiento morrón asado, 1, tira, optional]
+          - [sal, null, null]
+    steps:
+      - Cuece las patatas y las zanahorias con piel en agua con sal unos 25 minutos. En los últimos 10 minutos, añade los huevos, y en los últimos 3, los guisantes.
+      - Deja que todo se enfríe. Pela las patatas, las zanahorias y los huevos y córtalos en dados pequeños.
+      - Mezcla con el atún escurrido y casi toda la mayonesa, sin aplastar demasiado.
+      - Cubre con el resto de la mayonesa y decora con las aceitunas y el pimiento. Sírvela fría.
+
+  - name: Gildas
+    category: Entrantes
+    difficulty: EASY
+    prep: 10
+    cook: 0
+    servings: 4
+    origin: País Vasco
+    tags: [tapa, sin gluten, pintxo]
+    ingredients:
+      - items:
+          - [guindillas en vinagre, 12, null]
+          - [filetes de anchoa en aceite, 8, null]
+          - [aceitunas manzanilla sin hueso, 12, null]
+          - [aceite de oliva virgen extra, 1, cucharada, optional]
+    steps:
+      - Ensarta en un palillo una aceituna, una guindilla doblada, un filete de anchoa enrollado, otra guindilla y otra aceituna.
+      - Repite hasta tener 4 gildas y riégalas con un hilo de aceite justo antes de servir.
+
+  - name: Pan con tomate y jamón
+    category: Panes y masas
+    difficulty: EASY
+    prep: 5
+    cook: 3
+    servings: 4
+    origin: Cataluña
+    tags: [tapa]
+    ingredients:
+      - items:
+          - [pan de payés, 4, rebanada]
+          - [tomates maduros, 2, null]
+          - [ajo, 1, diente, optional]
+          - [aceite de oliva virgen extra, 4, cucharada]
+          - [jamón serrano o ibérico, 100, g]
+          - [sal, null, null]
+    steps:
+      - Tuesta el pan.
+      - Si quieres, frota cada rebanada con el ajo pelado.
+      - Parte los tomates por la mitad y restriégalos sobre el pan hasta que solo quede la piel.
+      - Sala, riega con el aceite y cubre con el jamón.
+
+  - name: Montaditos de lomo con pimiento
+    category: Panes y masas
+    difficulty: EASY
+    prep: 10
+    cook: 15
+    servings: 4
+    origin: Andalucía
+    tags: [tapa]
+    ingredients:
+      - items:
+          - [filetes finos de lomo de cerdo, 8, null]
+          - [pimientos verdes italianos, 3, null]
+          - [barra de pan, 1, null]
+          - [ajo, 1, diente]
+          - [aceite de oliva, 4, cucharada]
+          - [sal, null, null]
+    steps:
+      - Corta los pimientos en tiras y fríelos a fuego medio en el aceite 10 minutos, hasta que estén tiernos. Sálalos y resérvalos.
+      - En la misma sartén, a fuego fuerte, haz los filetes de lomo con el ajo laminado 1 minuto por cada lado. Sálalos.
+      - Corta el pan en 8 trozos y ábrelos por la mitad. Tuéstalos si quieres.
+      - Rellena cada montadito con un filete de lomo y unas tiras de pimiento, y sujétalo con un palillo.

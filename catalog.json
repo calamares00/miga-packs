@@ -2,6 +2,42 @@
   "schemaVersion": 1,
   "packs": [
     {
+      "id": "20-minute-dinners",
+      "name": "20-minute dinners",
+      "author": "Miga",
+      "authorGithub": "calamares00",
+      "description": "Home-made dinners on the table in 20 minutes or less, with ingredients from any supermarket: omelettes, scrambled eggs, pasta, griddled fish, chicken stir-fry, vegetable soups, hearty salads and quick pizzas. For the days when you don't feel like a fuss.",
+      "coverImageUrl": "packs/20-minute-dinners/cover.jpg",
+      "latestVersion": 1,
+      "recipeCount": 20,
+      "downloadUrl": "dist/20-minute-dinners-v1.zip",
+      "language": "en"
+    },
+    {
+      "id": "air-fryer",
+      "name": "Air fryer",
+      "author": "Miga",
+      "authorGithub": "calamares00",
+      "description": "Recipes made for the air fryer: chips, wings, home-made nuggets, breaded fish, crispy vegetables, meatballs, burgers, ribs and even desserts. With very little oil and the time and temperature for each dish. Times are a guide: every model heats differently.",
+      "coverImageUrl": "packs/air-fryer/cover.jpg",
+      "latestVersion": 1,
+      "recipeCount": 20,
+      "downloadUrl": "dist/air-fryer-v1.zip",
+      "language": "en"
+    },
+    {
+      "id": "cenas-en-20-minutos",
+      "name": "Cenas en 20 minutos",
+      "author": "Miga",
+      "authorGithub": "calamares00",
+      "description": "Cenas caseras que están en la mesa en 20 minutos o menos, con ingredientes de cualquier supermercado: tortillas, revueltos, pasta, pescado a la plancha, wok de pollo, cremas de verduras, ensaladas completas y pizzas exprés. Para los días en que no apetece complicarse.",
+      "coverImageUrl": "packs/cenas-en-20-minutos/cover.jpg",
+      "latestVersion": 1,
+      "recipeCount": 20,
+      "downloadUrl": "dist/cenas-en-20-minutos-v1.zip",
+      "language": "es"
+    },
+    {
       "id": "christmas-special",
       "name": "Christmas special",
       "author": "Miga",
@@ -18,7 +54,7 @@
       "name": "Cocina mediterránea",
       "author": "Miga",
       "authorGithub": "calamares00",
-      "description": "Veinte recetas de las orillas del Mediterráneo: España, Italia, Grecia, Líbano, Marruecos y Túnez. Gazpacho, paella, tortilla, musaka, hummus, falafel, shakshuka, risotto, tajín y más, con aceite de oliva, verduras de temporada y legumbres.",
+      "description": "Recetas de las orillas del Mediterráneo: España, Italia, Grecia, Líbano, Marruecos y Túnez. Gazpacho, paella, tortilla, musaka, hummus, falafel, shakshuka, risotto, tajín y más, con aceite de oliva, verduras de temporada y legumbres.",
       "coverImageUrl": "packs/cocina-mediterranea/cover.jpg",
       "latestVersion": 1,
       "recipeCount": 20,
@@ -30,7 +66,7 @@
       "name": "Cocina mexicana",
       "author": "Miga",
       "authorGithub": "calamares00",
-      "description": "Veinte clásicos de México para cocinar en casa: tacos al pastor, cochinita pibil, pozole, chilaquiles, enchiladas, salsas, guacamole, aguas frescas y flan. Con ingredientes fáciles de encontrar y alternativas cuando hace falta.",
+      "description": "Clásicos de México para cocinar en casa: tacos al pastor, cochinita pibil, pozole, chilaquiles, enchiladas, salsas, guacamole, aguas frescas y flan. Con ingredientes fáciles de encontrar y alternativas cuando hace falta.",
       "coverImageUrl": "packs/cocina-mexicana/cover.jpg",
       "latestVersion": 1,
       "recipeCount": 20,
@@ -50,11 +86,23 @@
       "language": "es"
     },
     {
+      "id": "freidora-de-aire",
+      "name": "Freidora de aire",
+      "author": "Miga",
+      "authorGithub": "calamares00",
+      "description": "Recetas pensadas para la freidora de aire: patatas, alitas, nuggets caseros, pescado rebozado, verduras crujientes, albóndigas, hamburguesas, costillas y hasta postres. Con muy poco aceite y los tiempos y temperaturas de cada plato. Los tiempos son orientativos: cada modelo calienta de forma distinta.",
+      "coverImageUrl": "packs/freidora-de-aire/cover.jpg",
+      "latestVersion": 1,
+      "recipeCount": 20,
+      "downloadUrl": "dist/freidora-de-aire-v1.zip",
+      "language": "es"
+    },
+    {
       "id": "mediterranean-cooking",
       "name": "Mediterranean cooking",
       "author": "Miga",
       "authorGithub": "calamares00",
-      "description": "Twenty recipes from around the Mediterranean: Spain, Italy, Greece, Lebanon, Morocco and Tunisia. Gazpacho, paella, Spanish omelette, moussaka, hummus, falafel, shakshuka, risotto, tagine and more, with olive oil, seasonal vegetables and pulses.",
+      "description": "Recipes from around the Mediterranean: Spain, Italy, Greece, Lebanon, Morocco and Tunisia. Gazpacho, paella, Spanish omelette, moussaka, hummus, falafel, shakshuka, risotto, tagine and more, with olive oil, seasonal vegetables and pulses.",
       "coverImageUrl": "packs/mediterranean-cooking/cover.jpg",
       "latestVersion": 1,
       "recipeCount": 20,
@@ -66,12 +114,36 @@
       "name": "Mexican cooking",
       "author": "Miga",
       "authorGithub": "calamares00",
-      "description": "Twenty Mexican classics to cook at home: tacos al pastor, cochinita pibil, pozole, chilaquiles, enchiladas, salsas, guacamole, aguas frescas and flan. With easy-to-find ingredients and alternatives where needed.",
+      "description": "Mexican classics to cook at home: tacos al pastor, cochinita pibil, pozole, chilaquiles, enchiladas, salsas, guacamole, aguas frescas and flan. With easy-to-find ingredients and alternatives where needed.",
       "coverImageUrl": "packs/mexican-cooking/cover.jpg",
       "latestVersion": 1,
       "recipeCount": 20,
       "downloadUrl": "dist/mexican-cooking-v1.zip",
       "language": "en"
+    },
+    {
+      "id": "spanish-tapas",
+      "name": "Spanish tapas",
+      "author": "Miga",
+      "authorGithub": "calamares00",
+      "description": "Bar tapas from all over Spain to share: patatas bravas, Padrón peppers, Galician-style octopus, marinated anchovies, fried squid rings, shrimp fritters, mushroom croquettes, chorizo in cider, pinchos morunos, huevos rotos, Russian salad, gildas and pan con tomate, among others.",
+      "coverImageUrl": "packs/spanish-tapas/cover.jpg",
+      "latestVersion": 1,
+      "recipeCount": 20,
+      "downloadUrl": "dist/spanish-tapas-v1.zip",
+      "language": "en"
+    },
+    {
+      "id": "tapas-espanolas",
+      "name": "Tapas españolas",
+      "author": "Miga",
+      "authorGithub": "calamares00",
+      "description": "Tapas de bar de toda España para compartir: patatas bravas, pimientos de Padrón, pulpo a la gallega, boquerones en vinagre, calamares a la romana, tortillitas de camarones, croquetas de setas, chorizo a la sidra, pinchos morunos, huevos rotos, ensaladilla, gildas y pan con tomate, entre otras.",
+      "coverImageUrl": "packs/tapas-espanolas/cover.jpg",
+      "latestVersion": 1,
+      "recipeCount": 20,
+      "downloadUrl": "dist/tapas-espanolas-v1.zip",
+      "language": "es"
     }
   ]
 }

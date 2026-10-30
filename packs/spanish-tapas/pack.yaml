@@ -1,0 +1,516 @@
+id: spanish-tapas
+version: 1
+updated: 2026-10-31
+language: en
+name: Spanish tapas
+description: >-
+  Bar tapas from all over Spain to share: patatas bravas, Padrón peppers, Galician-style octopus,
+  marinated anchovies, fried squid rings, shrimp fritters, mushroom croquettes, chorizo in cider,
+  pinchos morunos, huevos rotos, Russian salad, gildas and pan con tomate, among others.
+author: Miga
+authorGithub: calamares00
+cover:
+  emoji: "🍤"
+  title: Spanish tapas
+  colors: ["#9f1239", "#f59e0b"]
+defaults:
+  origin: Spain
+  originCountry: ES
+  source: Miga «Spanish tapas» pack
+recipes:
+
+  - name: Patatas bravas
+    category: Starters
+    difficulty: EASY
+    prep: 10
+    cook: 25
+    servings: 4
+    origin: Madrid
+    tags: [tapas, vegan, spicy]
+    ingredients:
+      - group: Potatoes
+        items:
+          - [potatoes, 1, kg]
+          - [olive oil for frying, null, null]
+          - [salt, null, null]
+      - group: Brava sauce
+        items:
+          - [olive oil, 3, tbsp]
+          - [flour, 1, tbsp]
+          - [sweet paprika, 1, tbsp]
+          - [hot paprika, 1, tsp]
+          - [vegetable stock, 250, ml]
+          - [sherry vinegar, 1, tsp]
+          - [salt, null, null]
+    steps:
+      - group: Brava sauce
+        items:
+          - Heat the oil, add the flour and stir for 1 minute without letting it colour.
+          - Take the pan off the heat, add both paprikas and, straight away, the stock little by little, stirring all the time.
+          - Simmer gently for 5 minutes, until thickened. Add the vinegar and season with salt.
+      - group: Potatoes
+        items:
+          - Peel the potatoes and cut them into rough chunks of about 3 cm. Rinse and dry them well.
+          - Cook them gently in plenty of oil over a medium heat for 10 minutes, until tender, and lift them out.
+          - Turn up the heat and fry them again for 3-4 minutes, until golden and crisp.
+          - Salt them and serve with the brava sauce on top.
+
+  - name: Potatoes with aioli
+    category: Starters
+    difficulty: EASY
+    prep: 15
+    cook: 20
+    servings: 4
+    tags: [tapas, vegetarian, gluten-free]
+    utensils: [Blender]
+    ingredients:
+      - group: Potatoes
+        items:
+          - [medium potatoes, 4, null]
+          - [chopped parsley, 2, tbsp]
+          - [salt, null, null]
+      - group: Aioli
+        items:
+          - [egg, 1, null]
+          - [garlic, 2, clove]
+          - [mild olive oil, 200, ml]
+          - [lemon juice, 1, tsp]
+          - [salt, null, null]
+    steps:
+      - Boil the potatoes in their skins in salted water for 20 minutes, until tender. Let them cool, peel them and cut them into chunks.
+      - Put the egg, peeled garlic, lemon juice and a pinch of salt in the blender beaker, with the oil on top.
+      - Push the stick blender to the bottom and blend without moving it until it starts to emulsify. Then lift it slowly until everything is combined.
+      - Mix the potatoes with the aioli and parsley. Serve cold or at room temperature.
+
+  - name: Padrón peppers
+    category: Vegetables
+    difficulty: EASY
+    prep: 2
+    cook: 6
+    servings: 4
+    origin: Galicia
+    notes: As the Galician saying goes, «some are hot and some are not». The biggest ones are usually the hot ones.
+    tags: [tapas, vegan, gluten-free]
+    ingredients:
+      - items:
+          - [Padrón peppers, 300, g]
+          - [olive oil, 4, tbsp]
+          - [coarse salt, null, null]
+    steps:
+      - Wash the peppers and dry them very well so they don't spit.
+      - Fry them in the very hot oil, moving them around, for 4-5 minutes, until the skin blisters.
+      - Drain them on kitchen paper and sprinkle with coarse salt.
+
+  - name: Garlic mushrooms
+    category: Vegetables
+    difficulty: EASY
+    prep: 10
+    cook: 10
+    servings: 4
+    tags: [tapas, vegan, gluten-free]
+    ingredients:
+      - items:
+          - [mushrooms, 400, g]
+          - [garlic, 4, clove]
+          - [chilli, 1, null, optional]
+          - [white wine, 50, ml]
+          - [olive oil, 4, tbsp]
+          - [chopped parsley, 2, tbsp]
+          - [salt, null, null]
+    steps:
+      - Clean the mushrooms and cut them into quarters.
+      - Gently fry the sliced garlic and the chilli in the oil until golden.
+      - Turn up the heat, add the mushrooms and sauté them for 5 minutes with salt.
+      - Pour in the wine and let it evaporate. Finish with the parsley.
+
+  - name: Fried aubergine with cane honey
+    category: Vegetables
+    difficulty: EASY
+    prep: 40
+    cook: 10
+    servings: 4
+    origin: Andalusia
+    notes: Soaking takes away the aubergine's bitterness and makes it absorb less oil. Cane honey is a dark sugar-cane syrup; molasses or dark honey will do.
+    tags: [tapas, vegetarian, fried]
+    ingredients:
+      - items:
+          - [aubergines, 2, null]
+          - [milk, 500, ml]
+          - [flour, 100, g]
+          - [cane honey, 3, tbsp]
+          - [olive oil for frying, null, null]
+          - [salt, null, null]
+    steps:
+      - Cut the aubergines into sticks or thin rounds and soak them in the salted milk for 30 minutes.
+      - Drain them, pat them a little dry and coat them in flour, shaking off the excess.
+      - Fry them in batches in plenty of very hot oil until golden.
+      - Drain them on kitchen paper and serve straight away with a drizzle of cane honey.
+
+  - name: Galician-style octopus
+    category: Fish and seafood
+    difficulty: MEDIUM
+    prep: 5
+    cook: 45
+    servings: 4
+    origin: Galicia
+    notes: Freezing the octopus and thawing it in the fridge makes it more tender.
+    tags: [tapas, gluten-free]
+    ingredients:
+      - items:
+          - [thawed octopus, 1.5, kg]
+          - [medium potatoes, 3, null, optional]
+          - [sweet paprika, 1, tsp]
+          - [hot paprika, 0.5, tsp]
+          - [extra virgin olive oil, 4, tbsp]
+          - [coarse salt, null, null]
+    steps:
+      - Bring a large pot of unsalted water to the boil.
+      - Hold the octopus by the head and dip it into the boiling water three times before leaving it in.
+      - Simmer it for about 40 minutes, until the thick part of the tentacles is tender when pierced. Let it rest in the water for 5 minutes.
+      - If you want potatoes on the side, boil them in their skins in the same water.
+      - Cut the tentacles into rounds with scissors and lay them on a wooden or earthenware plate.
+      - Sprinkle with coarse salt and both paprikas and drizzle with the oil.
+
+  - name: Marinated anchovies
+    category: Fish and seafood
+    difficulty: EASY
+    prep: 20
+    cook: 0
+    servings: 4
+    origin: Andalusia
+    notes: For safety (anisakis), freeze the cleaned anchovies at -20 °C for at least 5 days before marinating them, or buy them already frozen.
+    tags: [tapas, gluten-free, cold]
+    ingredients:
+      - items:
+          - [fresh anchovies, 500, g]
+          - [white wine vinegar, 250, ml]
+          - [water, 100, ml]
+          - [salt, 1, tsp]
+          - [garlic, 2, clove]
+          - [chopped parsley, 2, tbsp]
+          - [extra virgin olive oil, 100, ml]
+    steps:
+      - Remove the heads and guts of the anchovies, open them into two fillets and pull out the backbone. Rinse them in very cold water.
+      - Freeze them for at least 5 days and thaw them in the fridge.
+      - Lay them in a dish, cover them with the vinegar, water and salt, and leave them in the fridge for 6 hours, until the flesh turns white.
+      - Drain them and cover them with the oil, the finely chopped garlic and the parsley. They keep in the fridge for up to 5 days.
+
+  - name: Fried squid rings
+    category: Fish and seafood
+    difficulty: EASY
+    prep: 15
+    cook: 10
+    servings: 4
+    tags: [tapas, fried]
+    ingredients:
+      - items:
+          - [cleaned squid, 600, g]
+          - [flour, 100, g]
+          - [eggs, 2, null]
+          - [olive oil for frying, null, null]
+          - [lemon, 1, null]
+          - [salt, null, null]
+    steps:
+      - Cut the squid into 1 cm rings, dry them well and season with salt.
+      - Coat them in flour, shake off the excess and dip them in the beaten egg.
+      - Fry them in batches in plenty of very hot oil for 2 minutes, until golden. Don't crowd the pan, or the oil will cool down.
+      - Drain them on kitchen paper and serve straight away with lemon wedges.
+
+  - name: Griddled prawns
+    category: Fish and seafood
+    difficulty: EASY
+    prep: 5
+    cook: 5
+    servings: 4
+    tags: [tapas, gluten-free]
+    ingredients:
+      - items:
+          - [whole fresh prawns, 500, g]
+          - [coarse salt, null, null]
+          - [olive oil, 2, tbsp]
+          - [garlic, 1, clove, optional]
+          - [chopped parsley, 1, tbsp, optional]
+    steps:
+      - Get a griddle or frying pan very hot and brush it with a little oil.
+      - Lay the prawns on it whole, sprinkle with coarse salt and cook for 1-2 minutes on each side.
+      - If you like, drizzle them with the rest of the oil mixed with the chopped garlic and parsley before serving.
+
+  - name: Mussels in vinaigrette
+    category: Fish and seafood
+    difficulty: EASY
+    prep: 20
+    cook: 5
+    servings: 4
+    tags: [tapas, gluten-free, cold]
+    ingredients:
+      - group: Mussels
+        items:
+          - [mussels, 1, kg]
+          - [bay leaf, 1, null]
+      - group: Vinaigrette
+        items:
+          - [red pepper, 0.5, null]
+          - [green pepper, 0.5, null]
+          - [spring onion, 1, null]
+          - [extra virgin olive oil, 6, tbsp]
+          - [sherry vinegar, 2, tbsp]
+          - [salt, null, null]
+    steps:
+      - Scrub the mussels and pull off the beards.
+      - Put them in a covered pot with the bay leaf and a splash of water over a high heat for 3-4 minutes, until they open. Throw away any that stay closed.
+      - Very finely chop the peppers and spring onion and mix them with the oil, vinegar and salt.
+      - Remove one shell from each mussel, arrange them on a dish and spoon the vinaigrette over them. Serve cold.
+
+  - name: Shrimp fritters
+    category: Fish and seafood
+    difficulty: MEDIUM
+    prep: 10
+    cook: 15
+    servings: 4
+    origin: Cádiz
+    notes: The batter must be very runny so the fritters come out thin and crisp, like lace.
+    tags: [tapas, fried]
+    ingredients:
+      - items:
+          - [small raw shrimps, 150, g]
+          - [chickpea flour, 100, g]
+          - [wheat flour, 50, g]
+          - [spring onion, 1, null]
+          - [chopped parsley, 2, tbsp]
+          - [ice-cold water, 250, ml]
+          - [salt, 1, tsp]
+          - [olive oil for frying, null, null]
+    steps:
+      - Mix both flours with the salt and whisk in the water little by little until you have a very runny batter. Let it rest in the fridge for 30 minutes if you can.
+      - Add the very finely chopped spring onion, the parsley and the shrimps.
+      - Heat a finger's depth of oil and pour in spoonfuls of batter, spreading them out so they are very thin.
+      - Fry them for 1 minute on each side, until golden, and drain them on kitchen paper.
+
+  - name: Mushroom croquettes
+    category: Starters
+    difficulty: MEDIUM
+    prep: 40
+    cook: 25
+    servings: 6
+    notes: The mixture needs at least 4 hours in the fridge, or better overnight.
+    tags: [tapas, vegetarian, fried]
+    ingredients:
+      - group: Mixture
+        items:
+          - [mixed mushrooms, 300, g]
+          - [onion, 0.5, null]
+          - [butter, 60, g]
+          - [olive oil, 2, tbsp]
+          - [flour, 80, g]
+          - [whole milk, 700, ml]
+          - [nutmeg, 1, pinch]
+          - [salt, null, null]
+      - group: Coating
+        items:
+          - [eggs, 2, null]
+          - [breadcrumbs, 150, g]
+          - [olive oil for frying, null, null]
+    steps:
+      - group: Mixture
+        items:
+          - Very finely chop the mushrooms and onion and sauté them in the butter and oil until the liquid they release has evaporated.
+          - Add the flour and cook it for 2 minutes, stirring all the time.
+          - Whisk in the hot milk little by little and simmer gently for 10 minutes, until the mixture comes away from the sides of the pan.
+          - Season with salt and nutmeg, spread it in a dish, cover with cling film touching the surface and let it cool in the fridge.
+      - group: Coating and frying
+        items:
+          - Shape the croquettes with two spoons or with your hands.
+          - Coat them in beaten egg and then in breadcrumbs.
+          - Fry them in batches in plenty of very hot oil until golden and drain them on kitchen paper.
+
+  - name: Meatballs in sauce
+    category: Meat
+    difficulty: MEDIUM
+    prep: 20
+    cook: 35
+    servings: 4
+    tags: [tapas, stew]
+    ingredients:
+      - group: Meatballs
+        items:
+          - [mixed minced meat, 500, g]
+          - [egg, 1, null]
+          - [fresh breadcrumbs, 50, g]
+          - [milk, 50, ml]
+          - [garlic, 1, clove]
+          - [chopped parsley, 2, tbsp]
+          - [flour for coating, null, null]
+          - [olive oil, 100, ml]
+          - [salt, null, null]
+      - group: Sauce
+        items:
+          - [onion, 1, null]
+          - [carrot, 1, null]
+          - [white wine, 150, ml]
+          - [beef stock, 400, ml]
+          - [bay leaf, 1, null]
+    steps:
+      - group: Meatballs
+        items:
+          - Soak the breadcrumbs in the milk and mix with the meat, egg, chopped garlic and parsley, and salt.
+          - Roll into walnut-sized balls, coat them in flour and brown them in the oil. Set aside.
+      - group: Sauce
+        items:
+          - In the same oil, pouring some off if there is too much, soften the chopped onion and carrot for 10 minutes.
+          - Add the wine and let the alcohol cook off for 2 minutes. Pour in the stock and add the bay leaf.
+          - If you like a smooth sauce, blend it. Add the meatballs and simmer everything together gently for 20 minutes.
+
+  - name: Chorizo in cider
+    category: Meat
+    difficulty: EASY
+    prep: 5
+    cook: 20
+    servings: 4
+    origin: Asturias
+    tags: [tapas, gluten-free]
+    ingredients:
+      - items:
+          - [Asturian cooking chorizos, 4, null]
+          - [natural dry cider, 500, ml]
+          - [bay leaf, 1, null, optional]
+    steps:
+      - Prick the chorizos with a fork so they don't burst.
+      - Put them in a pan, cover them with the cider and add the bay leaf.
+      - Simmer them over a medium heat for 15-20 minutes, until the cider has reduced by half.
+      - Slice them and serve them in small earthenware dishes with their juices and bread for dipping.
+
+  - name: Pinchos morunos
+    category: Meat
+    difficulty: EASY
+    prep: 15
+    cook: 10
+    servings: 4
+    origin: Andalusia
+    notes: Ideally, marinate the meat the day before so it takes on the flavour of the spices.
+    tags: [tapas, gluten-free, barbecue]
+    ingredients:
+      - items:
+          - [diced lean pork, 600, g]
+          - [garlic, 2, clove]
+          - [sweet paprika, 2, tsp]
+          - [ground cumin, 1, tsp]
+          - [turmeric, 0.5, tsp]
+          - [dried oregano, 1, tsp]
+          - [cayenne pepper, 1, pinch, optional]
+          - [olive oil, 4, tbsp]
+          - [salt, 1, tsp]
+    steps:
+      - Mix the oil with the chopped garlic, the spices and the salt.
+      - Coat the meat in the mixture and leave it to marinate in the fridge for at least 2 hours.
+      - Thread the pieces onto skewers.
+      - Cook them on a griddle or barbecue over a high heat for 8-10 minutes, turning them so they brown on all sides.
+
+  - name: Huevos rotos with ham
+    category: Eggs
+    difficulty: EASY
+    prep: 10
+    cook: 20
+    servings: 4
+    origin: Madrid
+    tags: [tapas, gluten-free]
+    ingredients:
+      - items:
+          - [potatoes, 800, g]
+          - [eggs, 4, null]
+          - [Iberian ham, 100, g]
+          - [olive oil for frying, null, null]
+          - [salt, null, null]
+    steps:
+      - Peel the potatoes and cut them into chips or thin slices.
+      - Fry them in plenty of oil over a medium heat until tender, then turn up the heat at the end so they brown. Drain, salt and put them on a serving dish.
+      - Fry the eggs in the same oil, keeping the yolks runny.
+      - Put the eggs on the potatoes with the ham and break them up at the table.
+
+  - name: Russian salad
+    category: Salads
+    difficulty: EASY
+    prep: 20
+    cook: 25
+    servings: 6
+    notes: Ensaladilla rusa is a fixture of every Spanish bar.
+    tags: [tapas, cold, gluten-free]
+    ingredients:
+      - items:
+          - [potatoes, 600, g]
+          - [carrots, 2, null]
+          - [peas, 100, g]
+          - [eggs, 3, null]
+          - [tuna in oil, 2, can]
+          - [mayonnaise, 250, g]
+          - [stuffed olives, 12, null]
+          - [roasted red pepper, 1, strip, optional]
+          - [salt, null, null]
+    steps:
+      - Boil the potatoes and carrots in their skins in salted water for about 25 minutes. Add the eggs for the last 10 minutes and the peas for the last 3.
+      - Let everything cool. Peel the potatoes, carrots and eggs and cut them into small dice.
+      - Mix with the drained tuna and most of the mayonnaise, without mashing too much.
+      - Cover with the rest of the mayonnaise and decorate with the olives and pepper. Serve cold.
+
+  - name: Gildas
+    category: Starters
+    difficulty: EASY
+    prep: 10
+    cook: 0
+    servings: 4
+    origin: Basque Country
+    notes: The gilda is one of the first pintxos, the Basque version of tapas.
+    tags: [tapas, gluten-free, pintxo]
+    ingredients:
+      - items:
+          - [pickled guindilla peppers, 12, null]
+          - [anchovy fillets in oil, 8, null]
+          - [pitted manzanilla olives, 12, null]
+          - [extra virgin olive oil, 1, tbsp, optional]
+    steps:
+      - Thread onto a cocktail stick an olive, a folded pepper, a rolled anchovy fillet, another pepper and another olive.
+      - Repeat until you have 4 gildas and drizzle with a little oil just before serving.
+
+  - name: Pan con tomate with ham
+    category: Breads and doughs
+    difficulty: EASY
+    prep: 5
+    cook: 3
+    servings: 4
+    origin: Catalonia
+    tags: [tapas]
+    ingredients:
+      - items:
+          - [country bread, 4, slice]
+          - [ripe tomatoes, 2, null]
+          - [garlic, 1, clove, optional]
+          - [extra virgin olive oil, 4, tbsp]
+          - [serrano or Iberian ham, 100, g]
+          - [salt, null, null]
+    steps:
+      - Toast the bread.
+      - If you like, rub each slice with the peeled garlic.
+      - Halve the tomatoes and rub them over the bread until only the skin is left.
+      - Salt, drizzle with the oil and top with the ham.
+
+  - name: Pork loin and pepper montaditos
+    category: Breads and doughs
+    difficulty: EASY
+    prep: 10
+    cook: 15
+    servings: 4
+    origin: Andalusia
+    notes: A montadito is a small open or closed sandwich, a classic of Andalusian bars.
+    tags: [tapas]
+    ingredients:
+      - items:
+          - [thin pork loin steaks, 8, null]
+          - [green Italian peppers, 3, null]
+          - [baguette, 1, null]
+          - [garlic, 1, clove]
+          - [olive oil, 4, tbsp]
+          - [salt, null, null]
+    steps:
+      - Cut the peppers into strips and fry them over a medium heat in the oil for 10 minutes, until tender. Salt them and set aside.
+      - In the same pan, over a high heat, cook the pork with the sliced garlic for 1 minute on each side. Season with salt.
+      - Cut the bread into 8 pieces and split them in half. Toast them if you like.
+      - Fill each montadito with a pork steak and a few strips of pepper, and hold it together with a cocktail stick.

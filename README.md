@@ -15,6 +15,12 @@ Cada pack está en español y en inglés; la app muestra los del idioma en que l
 | 🫒 [Mediterranean cooking](packs/mediterranean-cooking/pack.yaml) | en | 20 | [mediterranean-cooking-v1.zip](dist/mediterranean-cooking-v1.zip) |
 | 🎄 [Especial Navidad](packs/especial-navidad/pack.yaml) | es | 22 | [especial-navidad-v1.zip](dist/especial-navidad-v1.zip) |
 | 🎄 [Christmas special](packs/christmas-special/pack.yaml) | en | 22 | [christmas-special-v1.zip](dist/christmas-special-v1.zip) |
+| 🍳 [Cenas en 20 minutos](packs/cenas-en-20-minutos/pack.yaml) | es | 20 | [cenas-en-20-minutos-v1.zip](dist/cenas-en-20-minutos-v1.zip) |
+| 🍳 [20-minute dinners](packs/20-minute-dinners/pack.yaml) | en | 20 | [20-minute-dinners-v1.zip](dist/20-minute-dinners-v1.zip) |
+| 🍟 [Freidora de aire](packs/freidora-de-aire/pack.yaml) | es | 20 | [freidora-de-aire-v1.zip](dist/freidora-de-aire-v1.zip) |
+| 🍟 [Air fryer](packs/air-fryer/pack.yaml) | en | 20 | [air-fryer-v1.zip](dist/air-fryer-v1.zip) |
+| 🍤 [Tapas españolas](packs/tapas-espanolas/pack.yaml) | es | 20 | [tapas-espanolas-v1.zip](dist/tapas-espanolas-v1.zip) |
+| 🍤 [Spanish tapas](packs/spanish-tapas/pack.yaml) | en | 20 | [spanish-tapas-v1.zip](dist/spanish-tapas-v1.zip) |
 
 Las recetas se redactaron con ayuda de un asistente de IA. Si ves algún error,
 abre un issue o un pull request.

@@ -1,6 +1,6 @@
 # Packs de recetas para Miga
 
-Libros de recetas listos para instalar en [Miga](https://github.com/calamares00/miga-app) desde
+Libros de recetas listos para instalar en [Miga](https://miga.calamares.org) desde
 **Ajustes › Packs de recetas**. Un pack se instala como un libro más; sus recetas no se editan,
 pero puedes copiar las que quieras a tus libros, y cuando sale una versión nueva la app ofrece
 actualizarlo.
@@ -111,4 +111,4 @@ recipes:
 ## Licencia
 
 Las recetas y las portadas se publican bajo [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/deed.es).
-Los scripts de `tools/`, bajo [GPL-3.0](LICENSE), como la app.
+Los scripts de `tools/`, bajo [GPL-3.0](LICENSE).

@@ -1,0 +1,654 @@
+id: rice-dishes
+version: 1
+updated: 2026-10-31
+language: en
+name: Rice dishes
+description: >-
+  Paellas, dry, creamy and soupy Spanish rices and rice dishes from around the world: seafood,
+  mixed and vegetable paella, arroz del senyoret, arroz a banda, rice with rabbit and snails,
+  crusted rice, soupy lobster rice, creamy mushroom rice, arroz empedrado, Murcian garden rice,
+  Cuban-style rice, pilaf, biryani, pumpkin risotto, gallo pinto, arroz con gandules and jollof.
+  And there is no chorizo in any paella.
+author: Miga
+authorGithub: calamares00
+cover:
+  emoji: "🍚"
+  title: Rice dishes
+  colors: ["#b45309", "#f59e0b"]
+defaults:
+  source: Miga «Rice dishes» pack
+recipes:
+
+  - name: Seafood paella
+    category: Rice
+    difficulty: MEDIUM
+    prep: 20
+    cook: 35
+    servings: 4
+    origin: Valencia
+    originCountry: ES
+    notes: Never stir the rice once the stock is in. The last minutes over a high heat form the socarrat, the crust at the bottom.
+    tags: [paella, seafood]
+    ingredients:
+      - items:
+          - [bomba rice, 400, g]
+          - [prawns, 8, null]
+          - [langoustines, 4, null, optional]
+          - [mussels, 500, g]
+          - [clams, 250, g]
+          - [cleaned cuttlefish or squid, 300, g]
+          - [ñora (dried sweet pepper), 1, null]
+          - [garlic, 3, clove]
+          - [grated tomato, 150, g]
+          - [sweet paprika, 1, tsp]
+          - [saffron threads, 1, pinch]
+          - [hot fish stock, 1.2, l]
+          - [olive oil, 6, tbsp]
+          - [salt, null, null]
+    steps:
+      - Steam the mussels open with a little water, remove one shell and strain the liquid into the stock. Soak the ñora in hot water and scrape out its flesh.
+      - Brown the prawns and langoustines in the paella pan with the oil and take them out.
+      - Fry the diced cuttlefish for 5 minutes. Add the chopped garlic, the tomato and the ñora flesh and fry until the tomato's water has evaporated. Add the paprika.
+      - Add the rice and stir for 1 minute. Pour in the stock with the saffron, season with salt and spread the rice evenly.
+      - Cook for 8 minutes over a high heat and 9-10 minutes over a low heat. Halfway through, arrange the clams, mussels, prawns and langoustines on top.
+      - Turn up the heat for 1 minute at the end for the socarrat. Rest for 5 minutes covered with a tea towel.
+
+  - name: Mixed paella
+    category: Rice
+    difficulty: MEDIUM
+    prep: 20
+    cook: 45
+    servings: 4
+    origin: Spain
+    originCountry: ES
+    notes: It combines meat and seafood. It is the most common paella outside Valencia, though Valencians don't consider it traditional.
+    tags: [paella, seafood]
+    ingredients:
+      - items:
+          - [bomba rice, 400, g]
+          - [chicken thighs in pieces, 400, g]
+          - [pork ribs in pieces, 200, g]
+          - [prawns, 8, null]
+          - [mussels, 400, g]
+          - [cleaned squid, 250, g]
+          - [red pepper, 1, null]
+          - [flat green beans, 100, g]
+          - [garlic, 3, clove]
+          - [grated tomato, 150, g]
+          - [sweet paprika, 1, tsp]
+          - [saffron threads, 1, pinch]
+          - [hot chicken and fish stock, 1.2, l]
+          - [olive oil, 6, tbsp]
+          - [salt, null, null]
+    steps:
+      - Steam the mussels open and remove one shell. Brown the prawns in the paella pan with the oil and take them out.
+      - Brown the salted chicken and ribs well over a medium heat for 10 minutes.
+      - Add the squid rings, the pepper in strips and the beans and fry for 5 minutes. Add the garlic, tomato and paprika and fry until reduced.
+      - Add the rice, stir for 1 minute and pour in the stock with the saffron. Season with salt.
+      - Cook for 8 minutes over a high heat and 9-10 over a low heat, without stirring, adding the mussels and prawns halfway through.
+      - Rest for 5 minutes before serving.
+
+  - name: Vegetable paella
+    category: Rice
+    difficulty: MEDIUM
+    prep: 20
+    cook: 35
+    servings: 4
+    origin: Valencia
+    originCountry: ES
+    tags: [paella, vegan]
+    ingredients:
+      - items:
+          - [bomba rice, 400, g]
+          - [artichokes, 4, null]
+          - [flat green beans, 150, g]
+          - [cooked garrofó or butter beans, 150, g]
+          - [red pepper, 1, null]
+          - [courgette, 1, null]
+          - [mushrooms, 150, g]
+          - [garlic, 3, clove]
+          - [grated tomato, 150, g]
+          - [sweet paprika, 1, tsp]
+          - [saffron threads, 1, pinch]
+          - [fresh rosemary, 1, sprig]
+          - [hot vegetable stock, 1.2, l]
+          - [olive oil, 6, tbsp]
+          - [salt, null, null]
+    steps:
+      - Trim the artichokes, cut them into quarters and rub them with lemon so they don't darken.
+      - Fry the artichokes, beans and pepper strips in the paella pan with the oil for 8 minutes. Add the courgette and mushrooms and fry for 3 minutes.
+      - Add the garlic, tomato and paprika and fry until the tomato's water has evaporated.
+      - Add the rice and butter beans, stir and pour in the stock with the saffron. Season with salt.
+      - Cook for 8 minutes over a high heat and 9-10 over a low heat, without stirring. Lay the rosemary sprig on top for the last few minutes.
+      - Rest for 5 minutes covered with a tea towel.
+
+  - name: Arroz del senyoret
+    category: Rice
+    difficulty: MEDIUM
+    prep: 25
+    cook: 30
+    servings: 4
+    origin: Alicante and Valencia
+    originCountry: ES
+    notes: The "little gentleman's rice" has all the seafood peeled, so the señorito doesn't get his hands dirty.
+    tags: [dry rice, seafood]
+    ingredients:
+      - items:
+          - [bomba rice, 400, g]
+          - [peeled prawns, 300, g]
+          - [cleaned cuttlefish, 300, g]
+          - [cleaned squid, 200, g]
+          - [diced monkfish, 200, g, optional]
+          - [ñora (dried sweet pepper), 1, null]
+          - [garlic, 3, clove]
+          - [grated tomato, 150, g]
+          - [sweet paprika, 1, tsp]
+          - [saffron threads, 1, pinch]
+          - [hot fish and shellfish stock, 1.2, l]
+          - [olive oil, 6, tbsp]
+          - [salt, null, null]
+          - [aioli, null, null, optional]
+    steps:
+      - Soak the ñora and scrape out its flesh. Make the stock with the prawn heads and shells if you have them.
+      - Fry the cuttlefish and squid, cut into small dice, in the paella pan with the oil for 8 minutes. Add the monkfish and fry for 1 minute.
+      - Add the chopped garlic, the tomato and the ñora and fry until reduced. Add the paprika.
+      - Add the rice, stir for 1 minute and pour in the stock with the saffron. Season with salt.
+      - Cook for 8 minutes over a high heat and 8 over a low heat. Scatter over the prawns and cook for 2 more minutes.
+      - Rest for 5 minutes and serve with aioli.
+
+  - name: Arroz a banda
+    category: Rice
+    difficulty: MEDIUM
+    prep: 30
+    cook: 60
+    servings: 4
+    origin: Alicante
+    originCountry: ES
+    notes: Fishermen cooked rock fish in the stock and served it separately ("a banda"). A good stock from small rock fish is essential.
+    tags: [dry rice, fish]
+    ingredients:
+      - group: Fish stock
+        items:
+          - [rock fish or small mixed fish, 1, kg]
+          - [ñoras (dried sweet peppers), 2, null]
+          - [tomato, 1, null]
+          - [garlic bulb, 1, null]
+          - [water, 2, l]
+          - [olive oil, 3, tbsp]
+      - group: Rice
+        items:
+          - [bomba rice, 400, g]
+          - [cleaned cuttlefish, 250, g]
+          - [garlic, 2, clove]
+          - [sweet paprika, 1, tsp]
+          - [saffron threads, 1, pinch]
+          - [olive oil, 5, tbsp]
+          - [salt, null, null]
+          - [aioli, null, null]
+    steps:
+      - group: Fish stock
+        items:
+          - Fry the ñoras, the halved tomato and the halved garlic bulb in the oil in a pot. Add the cleaned fish and the water.
+          - Simmer for 30 minutes, strain and season with salt. Keep 1.2 litres hot.
+      - group: Rice
+        items:
+          - Fry the cuttlefish, cut into small dice, in the paella pan with the oil for 8 minutes, until golden. Add the chopped garlic and the paprika.
+          - Add the rice, stir for 1 minute and pour in the stock with the saffron.
+          - Cook for 8 minutes over a high heat and 9-10 over a low heat, without stirring. Rest for 5 minutes.
+          - Serve with aioli and, if you like, the fish from the stock on the side.
+
+  - name: Rice with rabbit and snails
+    category: Rice
+    difficulty: MEDIUM
+    prep: 20
+    cook: 50
+    servings: 4
+    origin: Murcia and Alicante
+    originCountry: ES
+    notes: Buy the snails already cooked and cleaned. It is scented with rosemary or thyme, and in Alicante it is sometimes cooked over vine-shoot embers.
+    tags: [paella, meat]
+    ingredients:
+      - items:
+          - [bomba rice, 400, g]
+          - [rabbit in pieces, 1, null]
+          - [cooked snails, 24, null]
+          - [red pepper, 1, null]
+          - [garlic, 3, clove]
+          - [grated tomato, 150, g]
+          - [sweet paprika, 1, tsp]
+          - [saffron threads, 1, pinch]
+          - [fresh rosemary, 1, sprig]
+          - [water or stock, 1.3, l]
+          - [olive oil, 6, tbsp]
+          - [salt, null, null]
+    steps:
+      - Salt the rabbit and brown it in the paella pan with the oil over a medium heat for 15 minutes. Add the pepper in strips and brown it.
+      - Add the chopped garlic, the tomato and the paprika and fry until reduced.
+      - Pour in the water with the saffron and rosemary, add the snails and simmer for 20 minutes to make the stock. Season with salt and take out the rosemary.
+      - Spread the rice evenly and cook for 8 minutes over a high heat and 9-10 over a low heat, without stirring.
+      - Rest for 5 minutes.
+
+  - name: Arroz con costra
+    category: Rice
+    difficulty: MEDIUM
+    prep: 20
+    cook: 60
+    servings: 6
+    origin: Elche
+    originCountry: ES
+    notes: The beaten egg on top forms the crust under the grill. In Elche it is made with local sausages, pelotas and blanquet.
+    tags: [baked, meat]
+    utensils: [Oven]
+    ingredients:
+      - items:
+          - [round rice, 400, g]
+          - [chicken pieces, 400, g]
+          - [pork ribs in pieces, 300, g]
+          - [white butifarra or blanquet sausage, 1, null]
+          - [red butifarra or onion morcilla, 1, null]
+          - [cooked chickpeas, 200, g]
+          - [grated tomato, 150, g]
+          - [saffron threads, 1, pinch]
+          - [hot meat stock, 1, l]
+          - [eggs, 6, null]
+          - [olive oil, 5, tbsp]
+          - [salt, null, null]
+    steps:
+      - Brown the chicken and ribs in an earthenware dish with the oil. Add the sliced sausages and brown them.
+      - Add the tomato and fry until reduced. Pour in the stock with the saffron and simmer for 20 minutes. Season with salt.
+      - Preheat the oven to 220 °C with the grill on. Add the rice and chickpeas to the dish and cook for 12 minutes over a medium heat.
+      - Beat the eggs with a pinch of salt and pour them over the top.
+      - Bake for 8-10 minutes, until the egg forms a golden crust. Rest for 5 minutes.
+
+  - name: Soupy rice with lobster
+    category: Rice
+    difficulty: MEDIUM
+    prep: 20
+    cook: 35
+    servings: 4
+    origin: Spain
+    originCountry: ES
+    notes: Arroz caldoso is served as soon as it is ready, with plenty of broth, because it keeps soaking it up on the plate.
+    tags: [soupy rice, seafood]
+    ingredients:
+      - items:
+          - [live or thawed lobster, 1, null]
+          - [bomba rice, 320, g]
+          - [onion, 1, null]
+          - [green pepper, 1, null]
+          - [garlic, 2, clove]
+          - [grated tomato, 200, g]
+          - [brandy, 50, ml]
+          - [sweet paprika, 1, tsp]
+          - [saffron threads, 1, pinch]
+          - [hot fish stock, 1.6, l]
+          - [olive oil, 5, tbsp]
+          - [salt, null, null]
+    steps:
+      - Split the lobster lengthways, separate the claws and crack them slightly. Brown it in a casserole with the oil for 2 minutes and take it out.
+      - Gently cook the chopped onion, pepper and garlic for 10 minutes. Add the tomato and fry until reduced.
+      - Pour in the brandy, let it evaporate and add the paprika and rice. Stir for 1 minute.
+      - Pour in the stock with the saffron, season with salt and simmer for 12 minutes over a medium heat.
+      - Add the lobster and cook for 5-6 more minutes. Serve straight away, with the rice in its broth.
+
+  - name: Creamy mushroom rice
+    category: Rice
+    difficulty: EASY
+    prep: 15
+    cook: 30
+    servings: 4
+    origin: Spain
+    originCountry: ES
+    notes: Arroz meloso sits halfway between dry and soupy rice; stir it now and then so it releases its starch.
+    tags: [creamy rice, vegan]
+    ingredients:
+      - items:
+          - [bomba rice, 320, g]
+          - [mixed mushrooms, 400, g]
+          - [onion, 1, null]
+          - [garlic, 2, clove]
+          - [grated tomato, 100, g]
+          - [white wine, 100, ml]
+          - [fresh thyme, 1, sprig]
+          - [hot vegetable stock, 1.2, l]
+          - [olive oil, 5, tbsp]
+          - [chopped parsley, 2, tbsp]
+          - [salt, null, null]
+    steps:
+      - Sauté the chopped mushrooms in half the oil over a high heat and set aside.
+      - Gently cook the chopped onion and garlic in the rest of the oil for 8 minutes. Add the tomato and fry for 5 minutes.
+      - Add the rice and thyme, stir and pour in the wine. Let it evaporate.
+      - Add the stock and simmer for 16-17 minutes, stirring now and then. Add the mushrooms halfway through.
+      - Season with salt and serve with parsley; it should be juicy.
+
+  - name: Rice with beans and turnips
+    category: Rice
+    difficulty: MEDIUM
+    prep: 20
+    cook: 120
+    servings: 6
+    origin: Valencia
+    originCountry: ES
+    notes: In Valencian, arròs amb fesols i naps, a soupy winter rice. Soak the beans the night before.
+    tags: [soupy rice, winter]
+    ingredients:
+      - items:
+          - [round rice, 300, g]
+          - [dried white beans, 250, g]
+          - [lean pork, 300, g]
+          - [pig's ear or trotter, 300, g, optional]
+          - [onion morcilla, 1, null]
+          - [turnips, 3, null]
+          - [cardoons or chard, 200, g, optional]
+          - [saffron threads, 1, pinch]
+          - [water, 2.5, l]
+          - [salt, null, null]
+    steps:
+      - Put the drained beans, lean pork, pig's ear and water in a pot and simmer for 1 hour, skimming off the foam.
+      - Add the peeled turnips in chunks, the cardoons and the morcilla and simmer for 30 more minutes.
+      - Add the saffron and salt and, when it boils, the rice.
+      - Cook for 16-18 minutes and rest for 2 minutes. It should be soupy.
+
+  - name: Murcian garden rice
+    category: Rice
+    difficulty: EASY
+    prep: 20
+    cook: 35
+    servings: 4
+    origin: Murcia
+    originCountry: ES
+    notes: Arroz huertano is made with whatever vegetables are in season in the Murcian huerta; in spring, with broad beans and artichokes.
+    tags: [dry rice, vegan]
+    ingredients:
+      - items:
+          - [Calasparra or bomba rice, 400, g]
+          - [artichokes, 3, null]
+          - [red pepper, 1, null]
+          - [green pepper, 1, null]
+          - [cauliflower, 200, g]
+          - [fresh broad beans, 150, g]
+          - [garlic, 3, clove]
+          - [grated tomato, 150, g]
+          - [sweet paprika, 1, tsp]
+          - [saffron threads, 1, pinch]
+          - [hot vegetable stock, 1.2, l]
+          - [olive oil, 6, tbsp]
+          - [salt, null, null]
+    steps:
+      - Fry the peppers in strips, the cauliflower florets and the quartered artichokes in the paella pan with the oil for 10 minutes.
+      - Add the broad beans, chopped garlic, tomato and paprika and fry until the tomato's water has evaporated.
+      - Add the rice, stir and pour in the stock with the saffron. Season with salt.
+      - Cook for 8 minutes over a high heat and 10 over a low heat, without stirring. Rest for 5 minutes.
+
+  - name: Arroz empedrado
+    category: Rice
+    difficulty: EASY
+    prep: 15
+    cook: 35
+    servings: 4
+    origin: Valencia
+    originCountry: ES
+    notes: The name means "cobbled rice", because the white beans look like cobblestones on the rice. Desalt the cod for 48 hours beforehand.
+    tags: [dry rice, salt cod]
+    ingredients:
+      - items:
+          - [bomba rice, 400, g]
+          - [desalted salt cod, 300, g]
+          - [cooked white beans, 300, g]
+          - [ripe tomatoes, 2, null]
+          - [garlic bulb, 1, null]
+          - [sweet paprika, 1, tsp]
+          - [saffron threads, 1, pinch]
+          - [hot water or fish stock, 1.2, l]
+          - [olive oil, 6, tbsp]
+          - [chopped parsley, 2, tbsp]
+          - [salt, null, null]
+    steps:
+      - Brown the whole garlic bulb and the flaked cod in the paella pan with the oil for 3 minutes.
+      - Add the grated tomatoes and fry until reduced. Add the paprika.
+      - Add the rice, stir and pour in the stock with the saffron. Salt carefully, as the cod is already salty.
+      - Scatter the beans over the top and cook for 8 minutes over a high heat and 9-10 over a low heat, without stirring.
+      - Sprinkle with parsley and rest for 5 minutes.
+
+  - name: Rice with cauliflower and salt cod
+    category: Rice
+    difficulty: EASY
+    prep: 15
+    cook: 35
+    servings: 4
+    origin: Valencia
+    originCountry: ES
+    notes: A traditional Lenten rice. Desalt the cod for 48 hours beforehand.
+    tags: [dry rice, lent]
+    ingredients:
+      - items:
+          - [bomba rice, 400, g]
+          - [cauliflower, 400, g]
+          - [desalted salt cod, 250, g]
+          - [green garlic, 4, null]
+          - [ñora (dried sweet pepper), 1, null]
+          - [grated tomato, 100, g]
+          - [sweet paprika, 1, tsp]
+          - [saffron threads, 1, pinch]
+          - [hot vegetable stock or water, 1.2, l]
+          - [olive oil, 6, tbsp]
+          - [salt, null, null]
+    steps:
+      - Soak the ñora and scrape out its flesh.
+      - Brown the small cauliflower florets in the paella pan with the oil for 8 minutes. Add the green garlic in pieces and the flaked cod.
+      - Add the tomato and ñora and fry until reduced. Add the paprika.
+      - Add the rice, stir and pour in the stock with the saffron. Season with salt.
+      - Cook for 8 minutes over a high heat and 9-10 over a low heat, without stirring. Rest for 5 minutes.
+
+  - name: Cuban-style rice
+    category: Rice
+    difficulty: EASY
+    prep: 10
+    cook: 30
+    servings: 4
+    origin: Spain
+    originCountry: ES
+    notes: Despite the name, arroz a la cubana is a hugely popular dish in Spain. Home-made tomato sauce makes all the difference.
+    tags: [rice, home-style, vegetarian]
+    ingredients:
+      - group: White rice
+        items:
+          - [long-grain rice, 300, g]
+          - [water, 600, ml]
+          - [garlic, 1, clove]
+          - [olive oil, 1, tbsp]
+          - [salt, 1, tsp]
+      - group: To serve
+        items:
+          - [home-made tomato sauce, 300, g]
+          - [eggs, 4, null]
+          - [ripe bananas, 2, null]
+          - [olive oil for frying, null, null]
+    steps:
+      - Fry the garlic in the oil, add the rice and stir for 1 minute. Add the boiling water and salt, cover and simmer for 15 minutes. Rest for 5 minutes.
+      - Peel the bananas, halve them lengthways and fry until golden.
+      - Fry the eggs, keeping the yolks runny.
+      - Serve the rice turned out of a bowl onto the plate, with the hot tomato sauce, the fried egg and the banana.
+
+  - name: Gallo pinto
+    category: Rice
+    difficulty: EASY
+    prep: 10
+    cook: 15
+    servings: 4
+    origin: Costa Rica and Nicaragua
+    originCountry: CR
+    notes: The national breakfast of Costa Rica and Nicaragua, made with the previous day's rice and beans. In Costa Rica it has Lizano sauce.
+    tags: [rice, breakfast, vegan]
+    ingredients:
+      - items:
+          - [day-old cooked white rice, 400, g]
+          - [cooked black beans with their liquid, 400, g]
+          - [onion, 1, null]
+          - [red pepper, 0.5, null]
+          - [garlic, 2, clove]
+          - [chopped fresh coriander, 3, tbsp]
+          - [Lizano or Worcestershire sauce, 2, tbsp]
+          - [sunflower oil, 2, tbsp]
+          - [salt, null, null]
+    steps:
+      - Gently cook the chopped onion, pepper and garlic in the oil for 5 minutes.
+      - Add the beans with a little of their liquid and cook for 3 minutes.
+      - Add the rice and sauce and mix until the rice takes on colour and is hot.
+      - Season with salt, add the coriander and serve with eggs, fried plantain or soured cream.
+
+  - name: Pilaf rice
+    category: Rice
+    difficulty: EASY
+    prep: 5
+    cook: 25
+    servings: 4
+    origin: Turkey
+    originCountry: TR
+    notes: In Turkish, şehriyeli pilav. The noodles toasted in butter give it its signature flavour.
+    tags: [rice, side]
+    ingredients:
+      - items:
+          - [long-grain rice, 300, g]
+          - [butter, 40, g]
+          - [vermicelli noodles, 30, g]
+          - [hot chicken stock, 450, ml]
+          - [salt, 1, tsp]
+    steps:
+      - Rinse the rice until the water runs clear and soak it for 15 minutes. Drain.
+      - Toast the vermicelli in the butter until golden.
+      - Add the rice and stir for 2 minutes. Pour in the stock with the salt.
+      - Cover and simmer very gently for 15 minutes. Turn off the heat, put a tea towel under the lid and rest for 10 minutes.
+
+  - name: Chicken biryani
+    category: Rice
+    difficulty: HARD
+    prep: 40
+    cook: 60
+    servings: 6
+    origin: India
+    originCountry: IN
+    notes: Marinate the chicken for at least 2 hours. The final sealed cooking (dum) steams the rice with the chicken.
+    tags: [rice, spiced]
+    ingredients:
+      - group: Chicken
+        items:
+          - [chicken pieces, 800, g]
+          - [plain yoghurt, 200, g]
+          - [ginger-garlic paste, 2, tbsp]
+          - [garam masala, 2, tsp]
+          - [chilli powder, 1, tsp]
+          - [turmeric, 0.5, tsp]
+          - [onions, 3, null]
+          - [ghee or oil, 4, tbsp]
+          - [salt, 1, tsp]
+      - group: Rice
+        items:
+          - [basmati rice, 400, g]
+          - [green cardamom pods, 4, null]
+          - [cloves, 4, null]
+          - [cinnamon stick, 1, null]
+          - [bay leaf, 1, null]
+          - [saffron threads, 1, pinch]
+          - [hot milk, 3, tbsp]
+          - [chopped fresh mint, 3, tbsp]
+          - [chopped fresh coriander, 3, tbsp]
+          - [salt, null, null]
+    steps:
+      - Marinate the chicken with the yoghurt, ginger-garlic paste, spices and salt.
+      - Fry the thinly sliced onions in the ghee until deep golden. Set half aside.
+      - Add the chicken and its marinade to the pot with the other half of the onion and simmer covered for 20 minutes.
+      - Boil the rinsed rice in plenty of salted water with the whole spices for 6-7 minutes, until three-quarters cooked. Drain. Steep the saffron in the milk.
+      - Cover the chicken with the rice, mint, coriander, reserved onion and saffron milk. Seal the lid tightly and cook over the lowest heat for 25 minutes.
+      - Rest for 5 minutes and mix gently as you serve.
+
+  - name: Pumpkin risotto
+    category: Rice
+    difficulty: MEDIUM
+    prep: 15
+    cook: 30
+    servings: 4
+    origin: Italy
+    originCountry: IT
+    notes: In Italian, risotto alla zucca. Some of the pumpkin melts into the rice, giving it colour and creaminess.
+    tags: [rice, vegetarian, autumn]
+    ingredients:
+      - items:
+          - [carnaroli or arborio rice, 320, g]
+          - [peeled pumpkin, 500, g]
+          - [onion, 0.5, null]
+          - [dry white wine, 100, ml]
+          - [hot vegetable stock, 1.2, l]
+          - [butter, 60, g]
+          - [grated Parmesan, 60, g]
+          - [fresh sage, 4, leaf, optional]
+          - [salt, null, null]
+          - [black pepper, null, null]
+    steps:
+      - Cut the pumpkin into small dice.
+      - Gently cook the chopped onion in 20 g of butter. Add the pumpkin and cook for 5 minutes.
+      - Add the rice, toast it for 2 minutes and pour in the wine.
+      - Add the stock a ladle at a time, stirring, for 17-18 minutes.
+      - Off the heat, add the rest of the butter and the Parmesan and stir vigorously. Season and serve with sage fried in butter.
+
+  - name: Arroz con gandules
+    category: Rice
+    difficulty: MEDIUM
+    prep: 15
+    cook: 40
+    servings: 6
+    origin: Puerto Rico
+    originCountry: PR
+    notes: Puerto Rico's national dish, a must at Christmas. The sofrito (recaíto) has culantro, coriander, sweet ají peppers, garlic and onion.
+    tags: [rice, festive]
+    ingredients:
+      - items:
+          - [medium-grain rice, 400, g]
+          - [cooked pigeon peas (gandules), 400, g]
+          - [Puerto Rican sofrito (recaíto), 3, tbsp]
+          - [diced cooking ham, 100, g]
+          - [alcaparrado (olives and capers), 2, tbsp]
+          - [tomato sauce, 115, g]
+          - [sazón with achiote, 1, sachet]
+          - [ground cumin, 0.5, tsp]
+          - [chicken stock or water, 800, ml]
+          - [achiote oil, 3, tbsp]
+          - [salt, null, null]
+    steps:
+      - Fry the ham in the achiote oil in a heavy pot. Add the sofrito and cook for 3 minutes.
+      - Add the tomato sauce, alcaparrado, sazón and cumin and cook for 2 minutes.
+      - Add the drained pigeon peas and the stock, season with salt and bring to the boil.
+      - Add the rice and cook uncovered over a medium heat until the liquid drops to the level of the rice.
+      - Stir once, cover and cook over the lowest heat for 20-25 minutes, until the rice is done and the crust (pegao) forms at the bottom.
+
+  - name: Jollof rice
+    category: Rice
+    difficulty: MEDIUM
+    prep: 20
+    cook: 45
+    servings: 6
+    origin: West Africa
+    originCountry: NG
+    notes: Rice with tomatoes and peppers from Nigeria, Ghana and Senegal, each country with its own version. This is the Nigerian one.
+    tags: [rice, spicy]
+    utensils: [Blender]
+    ingredients:
+      - items:
+          - [long-grain parboiled rice, 400, g]
+          - [ripe tomatoes, 4, null]
+          - [red peppers, 2, null]
+          - [scotch bonnet chilli, 1, null]
+          - [onions, 2, null]
+          - [tomato purée, 3, tbsp]
+          - [curry powder, 1, tsp]
+          - [dried thyme, 1, tsp]
+          - [bay leaves, 2, null]
+          - [chicken stock, 700, ml]
+          - [sunflower oil, 80, ml]
+          - [salt, null, null]
+    steps:
+      - Blend the tomatoes, peppers, scotch bonnet and one onion and simmer the purée for 15 minutes until reduced.
+      - Gently cook the other onion, chopped, in the oil for 5 minutes. Add the tomato purée and fry it for 5 minutes, stirring.
+      - Add the reduced purée, curry powder, thyme, bay leaves and salt and cook for 5 minutes.
+      - Add the rinsed rice and the stock, cover with foil and the lid, and cook over a very low heat for 25-30 minutes, until the rice is done.
+      - "If it catches a little at the bottom, all the better: that smoky flavour is much loved."

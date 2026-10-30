@@ -1,0 +1,532 @@
+id: colombian-cooking
+version: 1
+updated: 2026-10-31
+language: en
+name: "World cuisine: Colombia"
+description: >-
+  Cooking from Colombia's regions: bandeja paisa, Antioquian beans, ajiaco, sancocho, arepas,
+  empanadas, patacones, hogao, ají, arroz con pollo, changua, pandebono, buñuelos, natilla,
+  posta negra, mote de queso, coconut rice, seafood casserole, sobrebarriga and coconut
+  lemonade. With substitutes for the ingredients that are harder to find outside Colombia.
+author: Miga
+authorGithub: calamares00
+cover:
+  emoji: "🫓"
+  kicker: World cuisine
+  title: Colombia
+  colors: ["#a16207", "#1d4ed8"]
+defaults:
+  origin: Colombia
+  originCountry: CO
+  source: "Miga «World cuisine: Colombia» pack"
+recipes:
+
+  - name: Bandeja paisa
+    category: Meat
+    difficulty: HARD
+    prep: 30
+    cook: 60
+    servings: 4
+    origin: Antioquia
+    notes: Colombia's heartiest dish. The beans are the Antioquian beans recipe in this same pack.
+    tags: [one-plate meal, festive]
+    ingredients:
+      - items:
+          - [Antioquian beans, 800, g]
+          - [cooked white rice, 600, g]
+          - [minced beef, 400, g]
+          - [hogao, 4, tbsp]
+          - [skin-on pork belly for chicharrón, 500, g]
+          - [Antioquian chorizos, 4, null]
+          - [eggs, 4, null]
+          - [ripe plantains, 2, null]
+          - [arepas, 4, null]
+          - [avocado, 1, null]
+          - [sunflower oil, null, null]
+          - [salt, null, null]
+    steps:
+      - Cut the pork belly into 5 cm pieces, salt it and simmer in a pot with water to cover, over a medium heat, until the water evaporates. Let it fry in its own fat until the skin is crisp.
+      - Fry the minced beef with the hogao and salt until dry and crumbly.
+      - Grill or fry the chorizos. Fry the plantains, sliced lengthways, and the eggs.
+      - Serve each plate with rice, beans, minced beef, chicharrón, chorizo, a fried egg, plantain slices, an arepa and avocado.
+
+  - name: Antioquian beans
+    category: Legumes
+    difficulty: MEDIUM
+    prep: 15
+    cook: 120
+    servings: 6
+    origin: Antioquia
+    notes: Soak the cargamanto beans the night before. Grated green plantain thickens the broth.
+    tags: [stew, home-style]
+    ingredients:
+      - items:
+          - [cargamanto or red beans, 500, g]
+          - [pig's trotter or ham hock, 400, g]
+          - [green plantain, 1, null]
+          - [carrot, 1, null]
+          - [hogao, 6, tbsp]
+          - [ground cumin, 0.5, tsp]
+          - [salt, null, null]
+    steps:
+      - Simmer the drained beans with the trotter in plenty of water for 1½ hours, or 40 minutes in a pressure cooker.
+      - Add the grated green plantain and carrot and simmer for 20 more minutes, until the broth thickens.
+      - Stir in the hogao, cumin and salt and simmer for 10 minutes.
+      - Shred the meat from the trotter and return it to the pot. Serve with white rice and avocado.
+
+  - name: Ajiaco santafereño
+    category: Soups
+    difficulty: MEDIUM
+    prep: 30
+    cook: 70
+    servings: 6
+    origin: Bogotá
+    notes: Guascas, an Andean herb, give it its flavour; look for them dried in Latin American shops. The criolla potatoes fall apart and thicken the soup.
+    tags: [soup, chicken]
+    ingredients:
+      - items:
+          - [bone-in chicken breasts, 2, null]
+          - [corn on the cob, 3, null]
+          - [criolla potatoes, 500, g]
+          - [pastusa or floury potatoes, 500, g]
+          - [sabanera or red potatoes, 500, g]
+          - [Welsh onions or spring onions, 2, null]
+          - [garlic, 2, clove]
+          - [dried guascas, 3, tbsp]
+          - [water, 3, l]
+          - [salt, null, null]
+          - [double cream, 200, ml]
+          - [capers, 4, tbsp]
+          - [avocados, 2, null]
+    steps:
+      - Simmer the chicken with the corn in pieces, the onions, garlic and salt in the water for 40 minutes. Take out the chicken and shred it.
+      - Add the peeled and sliced pastusa and sabanera potatoes to the broth and simmer for 20 minutes.
+      - Add the peeled criolla potatoes and simmer for 15 more minutes, stirring, until they fall apart and the soup thickens.
+      - Add the guascas and chicken and simmer for 5 minutes.
+      - Serve with the cream, capers and avocado on the side so everyone helps themselves.
+
+  - name: Sancocho de gallina
+    category: Soups
+    difficulty: MEDIUM
+    prep: 30
+    cook: 120
+    servings: 6
+    origin: Valle del Cauca
+    notes: A free-range hen has more flavour than chicken but takes longer. Served with white rice, avocado and ají.
+    tags: [soup, Sunday]
+    ingredients:
+      - items:
+          - [hen or chicken pieces, 1.5, kg]
+          - [green plantains, 2, null]
+          - [cassava, 500, g]
+          - [potatoes, 4, null]
+          - [corn on the cob, 2, null]
+          - [Welsh onions or spring onions, 3, null]
+          - [garlic, 3, clove]
+          - [ground cumin, 1, tsp]
+          - [fresh coriander, 1, bunch]
+          - [water, 4, l]
+          - [salt, null, null]
+    steps:
+      - Simmer the hen in the water with the onions, crushed garlic, cumin, half the coriander and salt for 1 hour, or 30 minutes if using chicken.
+      - Add the peeled plantains, broken into pieces by hand, and the sliced corn and simmer for 20 minutes.
+      - Add the cassava and potatoes in chunks and simmer for 25-30 more minutes, until everything is tender.
+      - Season with salt and serve with the rest of the coriander, chopped.
+
+  - name: Paisa arepas
+    category: Breads and doughs
+    difficulty: EASY
+    prep: 10
+    cook: 15
+    servings: 6
+    origin: Antioquia
+    notes: Made with pre-cooked white maize flour. Eaten with butter and fresh cheese, or alongside any meal.
+    tags: [bread, gluten-free]
+    ingredients:
+      - items:
+          - [pre-cooked white maize flour, 300, g]
+          - [warm water, 400, ml]
+          - [salt, 1, tsp]
+          - [butter, 20, g]
+    steps:
+      - Mix the flour with the salt and add the water little by little, kneading until the dough is soft and not sticky. Rest for 5 minutes.
+      - Shape mandarin-sized balls and flatten them into 1 cm thick discs.
+      - Cook them on a greased griddle or frying pan over a medium heat for 5-6 minutes on each side, until they form a crust.
+      - Spread with butter to serve.
+
+  - name: Colombian empanadas
+    category: Starters
+    difficulty: MEDIUM
+    prep: 45
+    cook: 30
+    servings: 6
+    notes: The dough is yellow maize, which is why they are so crisp. Serve with ají.
+    tags: [fried, snack, gluten-free]
+    ingredients:
+      - group: Dough
+        items:
+          - [pre-cooked yellow maize flour, 300, g]
+          - [warm water, 400, ml]
+          - [salt, 1, tsp]
+          - [ground achiote or turmeric, 0.5, tsp]
+      - group: Filling
+        items:
+          - [potatoes, 400, g]
+          - [minced beef, 250, g]
+          - [hogao, 5, tbsp]
+          - [ground cumin, 0.5, tsp]
+          - [salt, null, null]
+          - [sunflower oil for frying, null, null]
+    steps:
+      - Boil the peeled potatoes and crush them lightly, leaving some lumps.
+      - Fry the beef with the hogao, cumin and salt and mix with the potato. Let it cool.
+      - Mix the flour with the salt, achiote and water and knead until soft.
+      - Roll small balls of dough thinly between two sheets of plastic, add a spoonful of filling, fold over and trim the edge with a glass.
+      - Deep-fry in hot oil until golden and crisp.
+
+  - name: Patacones
+    category: Starters
+    difficulty: EASY
+    prep: 10
+    cook: 15
+    servings: 4
+    notes: On the coast they are also called tostones. Eat them with hogao, guacamole or salty white cheese.
+    tags: [fried, vegan, gluten-free]
+    ingredients:
+      - items:
+          - [green plantains, 2, null]
+          - [sunflower oil for frying, null, null]
+          - [salt, null, null]
+    steps:
+      - Peel the plantains and cut them into 4 cm pieces.
+      - Fry them in oil at a medium temperature for 5 minutes, until tender but not browned. Lift them out.
+      - Flatten them with a board or a plantain press to 1 cm thick.
+      - Fry them again in very hot oil until golden and crisp. Salt them.
+
+  - name: Hogao
+    category: Sauces
+    difficulty: EASY
+    prep: 10
+    cook: 20
+    servings: 6
+    notes: Colombia's sofrito, the base for beans, meat and rice dishes. It keeps in the fridge for up to 5 days.
+    tags: [sauce, vegan]
+    ingredients:
+      - items:
+          - [ripe tomatoes, 4, null]
+          - [Welsh onions or spring onions, 4, null]
+          - [garlic, 2, clove]
+          - [sunflower oil, 3, tbsp]
+          - [ground cumin, 0.5, tsp]
+          - [ground achiote, 0.5, tsp, optional]
+          - [salt, 1, tsp]
+    steps:
+      - Very finely chop the tomatoes, onions and garlic.
+      - Fry the onion and garlic in the oil over a medium heat for 5 minutes.
+      - Add the tomato, cumin, achiote and salt and cook gently for 15 minutes, stirring, until thick.
+
+  - name: Colombian ají
+    category: Sauces
+    difficulty: EASY
+    prep: 15
+    cook: 0
+    servings: 8
+    notes: The hot sauce served with empanadas, sancochos and almost everything else. It improves after resting for 1 hour.
+    tags: [sauce, spicy, vegan]
+    ingredients:
+      - items:
+          - [hot chillies, 3, null]
+          - [Welsh onions or spring onions, 2, null]
+          - [tomato, 1, null]
+          - [chopped fresh coriander, 4, tbsp]
+          - [white vinegar, 3, tbsp]
+          - [lime juice, 2, tbsp]
+          - [water, 100, ml]
+          - [salt, 1, tsp]
+    steps:
+      - Very finely chop the chillies, onions and tomato.
+      - Mix with the coriander, vinegar, lime juice, water and salt.
+      - Leave in the fridge for at least 1 hour.
+
+  - name: Colombian arroz con pollo
+    category: Rice
+    difficulty: MEDIUM
+    prep: 20
+    cook: 45
+    servings: 6
+    notes: A dish for family celebrations. Worcestershire sauce (salsa negra) and achiote give it its golden colour.
+    tags: [rice, chicken, festive]
+    ingredients:
+      - items:
+          - [chicken pieces, 1, kg]
+          - [long-grain rice, 400, g]
+          - [carrots, 2, null]
+          - [peas, 150, g]
+          - [red pepper, 1, null]
+          - [onion, 1, null]
+          - [garlic, 3, clove]
+          - [Worcestershire sauce, 2, tbsp]
+          - [ground achiote, 1, tsp]
+          - [ground cumin, 0.5, tsp]
+          - [chopped fresh coriander, 3, tbsp]
+          - [sunflower oil, 3, tbsp]
+          - [salt, null, null]
+    steps:
+      - Simmer the chicken in 1.2 litres of salted water for 30 minutes. Shred it and keep the stock.
+      - Fry the chopped onion, pepper and garlic in the oil for 5 minutes. Add the diced carrot, achiote and cumin.
+      - Add the rice, stir and pour in 900 ml of the stock with the Worcestershire sauce. Season with salt.
+      - When the stock drops to the level of the rice, add the chicken and peas, cover and cook over the lowest heat for 20 minutes.
+      - Fluff up with a fork, add the coriander and serve with patacones and salad.
+
+  - name: Changua
+    category: Soups
+    difficulty: EASY
+    prep: 5
+    cook: 10
+    servings: 2
+    origin: Bogotá and Boyacá
+    notes: The traditional breakfast of the Bogotá savanna. The stale toasted bread (pan calado) goes in the bottom of the bowl.
+    tags: [soup, breakfast, vegetarian]
+    ingredients:
+      - items:
+          - [whole milk, 500, ml]
+          - [water, 250, ml]
+          - [eggs, 2, null]
+          - [Welsh onion or spring onion, 1, null]
+          - [chopped fresh coriander, 2, tbsp]
+          - [stale toasted bread, 2, slice]
+          - [salt, 0.5, tsp]
+    steps:
+      - Heat the milk with the water, salt and chopped onion until it boils.
+      - Lower the heat and crack the eggs into the milk one at a time. Poach them for 3-4 minutes without stirring, until the whites set.
+      - Put the bread in the bowls, ladle the changua over with one egg in each bowl and sprinkle with coriander.
+
+  - name: Pandebono
+    category: Breads and doughs
+    difficulty: EASY
+    prep: 15
+    cook: 20
+    servings: 12
+    origin: Valle del Cauca
+    notes: Made with sour cassava starch and costeño cheese. If you can't find them, use regular cassava starch and feta mixed with fresh cheese.
+    tags: [bread, cheese, gluten-free]
+    utensils: [Oven]
+    ingredients:
+      - items:
+          - [sour cassava starch, 100, g]
+          - [pre-cooked maize flour, 40, g]
+          - [grated costeño or fresh cheese, 250, g]
+          - [egg, 1, null]
+          - [sugar, 1, tbsp]
+          - [milk, 3, tbsp]
+    steps:
+      - Preheat the oven to 220 °C.
+      - Mix the starch, flour, cheese and sugar. Add the egg and milk little by little and knead into a soft dough that doesn't stick.
+      - Shape 12 balls or rings and put them on a tray lined with baking paper.
+      - Bake for 15-18 minutes, until golden. Eat them warm.
+
+  - name: Colombian buñuelos
+    category: Desserts
+    difficulty: MEDIUM
+    prep: 20
+    cook: 20
+    servings: 6
+    notes: A must at Christmas, with natilla. The oil must not be too hot; if the dough is right, they turn over by themselves as they fry.
+    tags: [fried, Christmas, cheese]
+    ingredients:
+      - items:
+          - [costeño cheese or feta, 250, g]
+          - [cassava starch, 100, g]
+          - [pre-cooked maize flour, 2, tbsp]
+          - [egg, 1, null]
+          - [sugar, 2, tbsp]
+          - [baking powder, 0.5, tsp]
+          - [milk, 2, tbsp]
+          - [sunflower oil for frying, null, null]
+    steps:
+      - Grate or blend the cheese very finely.
+      - Mix with the starch, flour, sugar and baking powder. Add the egg and milk and knead until smooth.
+      - Shape smooth 4 cm balls with no cracks.
+      - Heat plenty of oil over a medium-low heat, to about 150 °C, add the buñuelos and let them puff up and turn; fry for 8-10 minutes, until golden.
+
+  - name: Colombian natilla
+    category: Desserts
+    difficulty: EASY
+    prep: 10
+    cook: 30
+    servings: 8
+    notes: Made for the Novena de Aguinaldos before Christmas. Cut into squares once cold.
+    tags: [dessert, Christmas]
+    ingredients:
+      - items:
+          - [whole milk, 1, l]
+          - [grated panela, 250, g]
+          - [cornflour, 150, g]
+          - [cinnamon sticks, 2, null]
+          - [butter, 30, g]
+          - [desiccated coconut, 50, g, optional]
+          - [ground cinnamon, null, null]
+    steps:
+      - Heat 750 ml of the milk with the panela and cinnamon until the panela dissolves.
+      - Mix the cornflour with the rest of the cold milk and strain it into the hot milk.
+      - Cook over a medium heat, stirring constantly, for 15-20 minutes, until thick and it comes away from the bottom.
+      - Add the butter and coconut, remove the cinnamon and pour into a mould. Let it cool and dust with ground cinnamon.
+
+  - name: Posta negra cartagenera
+    category: Meat
+    difficulty: MEDIUM
+    prep: 20
+    cook: 150
+    servings: 6
+    origin: Cartagena
+    notes: Caramelised panela and Worcestershire sauce give it its dark colour. Best marinated the day before.
+    tags: [braise, beef]
+    ingredients:
+      - items:
+          - [beef rump in one piece, 1.2, kg]
+          - [grated panela, 100, g]
+          - [Worcestershire sauce, 4, tbsp]
+          - [red wine, 250, ml]
+          - [onions, 2, null]
+          - [tomatoes, 2, null]
+          - [garlic, 4, clove]
+          - [sweet ají pepper or pepper, 1, null]
+          - [sunflower oil, 3, tbsp]
+          - [salt, null, null]
+          - [black pepper, null, null]
+    steps:
+      - Blend the onion, tomato, garlic and pepper with the Worcestershire sauce, salt and pepper, and marinate the meat for at least 2 hours.
+      - Heat the oil with the panela until it caramelises and darkens, without burning.
+      - Brown the drained meat in the caramel on all sides.
+      - Add the marinade and wine, cover and simmer for 2 hours, turning, until tender and the sauce is thick.
+      - Slice the meat and serve with the sauce, coconut rice and patacones.
+
+  - name: Mote de queso
+    category: Soups
+    difficulty: EASY
+    prep: 20
+    cook: 40
+    servings: 6
+    origin: Córdoba and Sucre
+    notes: A thick yam soup with costeño cheese. Yam can be replaced with cassava or potato.
+    tags: [soup, cheese]
+    ingredients:
+      - items:
+          - [yam (ñame), 1, kg]
+          - [costeño cheese or feta, 300, g]
+          - [onion, 1, null]
+          - [garlic, 3, clove]
+          - [Welsh onions or spring onions, 2, null]
+          - [sunflower oil, 3, tbsp]
+          - [lime juice, 2, tbsp]
+          - [water, 2, l]
+          - [salt, null, null]
+    steps:
+      - Peel the yam and cut it into chunks. Simmer it in the water for 25-30 minutes, until it starts to break down and thicken the broth.
+      - Fry the chopped onion, garlic and spring onions in the oil for 5 minutes and add them to the pot.
+      - Add the cubed cheese and simmer for 5 more minutes, until soft but not fully melted.
+      - Finish with the lime juice and season with salt; careful, the cheese is salty.
+
+  - name: Coconut rice
+    category: Rice
+    difficulty: MEDIUM
+    prep: 10
+    cook: 45
+    servings: 6
+    origin: Caribbean coast
+    notes: The coconut milk is reduced until it releases its oil and the solids toast (titoté); that gives the brown colour and toasty flavour.
+    tags: [rice, side]
+    ingredients:
+      - items:
+          - [coconut milk, 800, ml]
+          - [long-grain rice, 400, g]
+          - [grated panela, 2, tbsp]
+          - [raisins, 50, g, optional]
+          - [water, 300, ml]
+          - [salt, 1, tsp]
+    steps:
+      - Cook the coconut milk in a pot over a medium heat, stirring, for 15-20 minutes, until the water evaporates, it releases its oil and the solids toast and darken.
+      - Add the panela and let it caramelise for 1 minute.
+      - Add the water and salt, scraping the bottom, and bring to the boil.
+      - Add the rice and raisins, cook uncovered until the liquid drops to the level of the rice, then cover and cook over the lowest heat for 20 minutes.
+
+  - name: Seafood casserole
+    category: Fish and seafood
+    difficulty: MEDIUM
+    prep: 20
+    cook: 30
+    servings: 4
+    origin: Caribbean coast
+    tags: [seafood, coconut milk]
+    ingredients:
+      - items:
+          - [peeled prawns, 300, g]
+          - [cleaned squid, 250, g]
+          - [mussels, 400, g]
+          - [clams, 250, g]
+          - [white fish fillet, 250, g]
+          - [onion, 1, null]
+          - [red pepper, 1, null]
+          - [tomatoes, 2, null]
+          - [garlic, 3, clove]
+          - [white wine, 100, ml]
+          - [coconut milk, 400, ml]
+          - [double cream, 100, ml]
+          - [chopped fresh coriander, 3, tbsp]
+          - [butter, 30, g]
+          - [salt, null, null]
+    steps:
+      - Fry the chopped onion, pepper and garlic in the butter for 5 minutes. Add the chopped tomato and cook for 5 minutes.
+      - Pour in the wine and let it evaporate. Add the coconut milk and simmer for 5 minutes.
+      - Add the mussels and clams, cover and cook until they open.
+      - Add the squid rings, cubed fish and prawns and cook for 4 minutes.
+      - Stir in the cream and coriander, season with salt and serve with coconut rice and patacones.
+
+  - name: Sobrebarriga in sauce
+    category: Meat
+    difficulty: MEDIUM
+    prep: 15
+    cook: 150
+    servings: 6
+    origin: Bogotá
+    notes: Sobrebarriga is beef flank. It is first simmered until tender and then finished in sauce.
+    tags: [braise, beef]
+    ingredients:
+      - items:
+          - [beef flank (sobrebarriga), 1.2, kg]
+          - [beer, 330, ml]
+          - [Welsh onions or spring onions, 3, null]
+          - [garlic, 4, clove]
+          - [bay leaves, 2, null]
+          - [dried thyme, 1, tsp]
+          - [hogao, 8, tbsp]
+          - [ground cumin, 0.5, tsp]
+          - [salt, null, null]
+          - [black pepper, null, null]
+    steps:
+      - Simmer the whole flank with the beer, onions, garlic, bay leaves, thyme, salt and water to cover for 2 hours, or 50 minutes in a pressure cooker.
+      - Take out the meat and keep 300 ml of the strained stock.
+      - Mix the hogao with the cumin, pepper and reserved stock and simmer for 5 minutes.
+      - Cut the meat into portions, add it to the sauce and simmer for 10 minutes. Serve with salted potatoes and rice.
+
+  - name: Coconut lemonade
+    category: Drinks
+    difficulty: EASY
+    prep: 10
+    cook: 0
+    servings: 4
+    origin: Caribbean coast
+    notes: Cartagena's refreshing drink. Blend it just before serving so it is frothy.
+    tags: [drink, cold, vegan]
+    utensils: [Blender]
+    ingredients:
+      - items:
+          - [limes or lemons, 4, null]
+          - [cream of coconut, 200, ml]
+          - [coconut milk, 200, ml]
+          - [sugar, 4, tbsp]
+          - [ice, 3, cup]
+    steps:
+      - Squeeze the limes and keep the juice.
+      - Put the juice, cream of coconut, coconut milk, sugar and ice in the blender.
+      - Blend until the ice is crushed and the mixture is frothy. Serve straight away.

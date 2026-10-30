@@ -1,0 +1,653 @@
+id: arroces
+version: 1
+updated: 2026-10-31
+language: es
+name: Arroces
+description: >-
+  Paellas, arroces secos, melosos y caldosos y arroces del mundo: paella de marisco, mixta y de
+  verduras, arroz del señoret, a banda, con conejo y caracoles, con costra, caldoso de bogavante,
+  meloso de setas, empedrado, huertano, a la cubana, pilaf, biryani, risotto de calabaza, gallo
+  pinto, arroz con gandules y jollof. Y ninguna paella lleva chorizo.
+author: Miga
+authorGithub: calamares00
+cover:
+  emoji: "🍚"
+  title: Arroces
+  colors: ["#b45309", "#f59e0b"]
+defaults:
+  source: Pack «Arroces» de Miga
+recipes:
+
+  - name: Paella de marisco
+    category: Arroces
+    difficulty: MEDIUM
+    prep: 20
+    cook: 35
+    servings: 4
+    origin: Comunidad Valenciana
+    originCountry: ES
+    notes: El arroz no se remueve una vez añadido el caldo. Los últimos minutos a fuego fuerte forman el socarrat del fondo.
+    tags: [paella, marisco]
+    ingredients:
+      - items:
+          - [arroz bomba, 400, g]
+          - [gambas o langostinos, 8, null]
+          - [cigalas, 4, null, optional]
+          - [mejillones, 500, g]
+          - [almejas, 250, g]
+          - [sepia o calamar limpio, 300, g]
+          - [ñora, 1, null]
+          - [ajo, 3, diente]
+          - [tomate rallado, 150, g]
+          - [pimentón dulce, 1, cucharadita]
+          - [hebras de azafrán, 1, pizca]
+          - [caldo de pescado caliente, 1.2, l]
+          - [aceite de oliva, 6, cucharada]
+          - [sal, null, null]
+    steps:
+      - Abre los mejillones al vapor con un poco de agua, quita una concha y cuela el líquido para añadirlo al caldo. Hidrata la ñora en agua caliente y raspa su carne.
+      - Dora las gambas y las cigalas en la paella con el aceite y retíralas.
+      - Sofríe la sepia en dados 5 minutos. Añade el ajo picado, el tomate y la carne de ñora y sofríe hasta que el tomate pierda el agua. Añade el pimentón.
+      - Incorpora el arroz y remueve 1 minuto. Vierte el caldo con el azafrán, ajusta de sal y reparte el arroz por toda la paella.
+      - Cuece 8 minutos a fuego fuerte y 9-10 minutos a fuego suave. A mitad de cocción, coloca las almejas, los mejillones, las gambas y las cigalas.
+      - Sube el fuego 1 minuto al final para el socarrat. Deja que repose 5 minutos tapada con un paño.
+
+  - name: Paella mixta
+    category: Arroces
+    difficulty: MEDIUM
+    prep: 20
+    cook: 45
+    servings: 4
+    origin: España
+    originCountry: ES
+    notes: Combina carne y marisco. Es la paella más común fuera de Valencia, aunque allí no se considera tradicional.
+    tags: [paella, marisco]
+    ingredients:
+      - items:
+          - [arroz bomba, 400, g]
+          - [contramuslos de pollo troceados, 400, g]
+          - [costilla de cerdo troceada, 200, g]
+          - [gambas, 8, null]
+          - [mejillones, 400, g]
+          - [calamar limpio, 250, g]
+          - [pimiento rojo, 1, null]
+          - [judías verdes planas, 100, g]
+          - [ajo, 3, diente]
+          - [tomate rallado, 150, g]
+          - [pimentón dulce, 1, cucharadita]
+          - [hebras de azafrán, 1, pizca]
+          - [caldo de pollo y pescado caliente, 1.2, l]
+          - [aceite de oliva, 6, cucharada]
+          - [sal, null, null]
+    steps:
+      - Abre los mejillones al vapor y quita una concha. Dora las gambas en la paella con el aceite y retíralas.
+      - Dora bien el pollo y la costilla, salados, a fuego medio 10 minutos.
+      - Añade el calamar en anillas, el pimiento en tiras y las judías y sofríe 5 minutos. Añade el ajo, el tomate y el pimentón y sofríe hasta que se reduzca.
+      - Incorpora el arroz, remueve 1 minuto y vierte el caldo con el azafrán. Ajusta de sal.
+      - Cuece 8 minutos a fuego fuerte y 9-10 a fuego suave, sin remover, colocando los mejillones y las gambas a mitad de cocción.
+      - Deja que repose 5 minutos antes de servir.
+
+  - name: Paella de verduras
+    category: Arroces
+    difficulty: MEDIUM
+    prep: 20
+    cook: 35
+    servings: 4
+    origin: Comunidad Valenciana
+    originCountry: ES
+    tags: [paella, vegana]
+    ingredients:
+      - items:
+          - [arroz bomba, 400, g]
+          - [alcachofas, 4, null]
+          - [judías verdes planas, 150, g]
+          - [garrofón cocido, 150, g]
+          - [pimiento rojo, 1, null]
+          - [calabacín, 1, null]
+          - [champiñones, 150, g]
+          - [ajo, 3, diente]
+          - [tomate rallado, 150, g]
+          - [pimentón dulce, 1, cucharadita]
+          - [hebras de azafrán, 1, pizca]
+          - [romero fresco, 1, ramita]
+          - [caldo de verduras caliente, 1.2, l]
+          - [aceite de oliva, 6, cucharada]
+          - [sal, null, null]
+    steps:
+      - Limpia las alcachofas, córtalas en cuartos y frótalas con limón para que no se oscurezcan.
+      - Sofríe en la paella con el aceite las alcachofas, las judías y el pimiento en tiras 8 minutos. Añade el calabacín y los champiñones y sofríe 3 minutos.
+      - Añade el ajo, el tomate y el pimentón y sofríe hasta que el tomate pierda el agua.
+      - Incorpora el arroz y el garrofón, remueve y vierte el caldo con el azafrán. Ajusta de sal.
+      - Cuece 8 minutos a fuego fuerte y 9-10 a fuego suave, sin remover. Pon la ramita de romero encima los últimos minutos.
+      - Deja que repose 5 minutos tapada con un paño.
+
+  - name: Arroz del señoret
+    category: Arroces
+    difficulty: MEDIUM
+    prep: 25
+    cook: 30
+    servings: 4
+    origin: Alicante y Valencia
+    originCountry: ES
+    notes: Se llama así porque todo el marisco va pelado, para que el «señorito» no se manche las manos.
+    tags: [arroz seco, marisco]
+    ingredients:
+      - items:
+          - [arroz bomba, 400, g]
+          - [gambas peladas, 300, g]
+          - [sepia limpia, 300, g]
+          - [calamar limpio, 200, g]
+          - [rape en dados, 200, g, optional]
+          - [ñora, 1, null]
+          - [ajo, 3, diente]
+          - [tomate rallado, 150, g]
+          - [pimentón dulce, 1, cucharadita]
+          - [hebras de azafrán, 1, pizca]
+          - [caldo de pescado y marisco caliente, 1.2, l]
+          - [aceite de oliva, 6, cucharada]
+          - [sal, null, null]
+          - [alioli, null, null, optional]
+    steps:
+      - Hidrata la ñora y raspa su carne. Haz el caldo con las cabezas y cáscaras de las gambas si las tienes.
+      - Sofríe en la paella con el aceite la sepia y el calamar en dados pequeños 8 minutos. Añade el rape y saltéalo 1 minuto.
+      - Añade el ajo picado, el tomate y la ñora y sofríe hasta que se reduzca. Añade el pimentón.
+      - Incorpora el arroz, remueve 1 minuto y vierte el caldo con el azafrán. Ajusta de sal.
+      - Cuece 8 minutos a fuego fuerte y 8 a fuego suave. Reparte las gambas por encima y cuece 2 minutos más.
+      - Deja que repose 5 minutos y sirve con alioli.
+
+  - name: Arroz a banda
+    category: Arroces
+    difficulty: MEDIUM
+    prep: 30
+    cook: 60
+    servings: 4
+    origin: Alicante
+    originCountry: ES
+    notes: Los pescadores cocían el pescado de roca en el caldo y lo servían aparte («a banda»). Lo esencial es un buen fumet de morralla.
+    tags: [arroz seco, pescado]
+    ingredients:
+      - group: Fumet
+        items:
+          - [pescado de roca o de morralla, 1, kg]
+          - [ñoras, 2, null]
+          - [tomate, 1, null]
+          - [ajo, 1, cabeza]
+          - [agua, 2, l]
+          - [aceite de oliva, 3, cucharada]
+      - group: Arroz
+        items:
+          - [arroz bomba, 400, g]
+          - [sepia limpia, 250, g]
+          - [ajo, 2, diente]
+          - [pimentón dulce, 1, cucharadita]
+          - [hebras de azafrán, 1, pizca]
+          - [aceite de oliva, 5, cucharada]
+          - [sal, null, null]
+          - [alioli, null, null]
+    steps:
+      - group: Fumet
+        items:
+          - Fríe en una olla las ñoras, el tomate partido y la cabeza de ajos partida en el aceite. Añade el pescado limpio y el agua.
+          - Cuece a fuego suave 30 minutos, cuela y ajusta de sal. Reserva 1,2 litros caliente.
+      - group: Arroz
+        items:
+          - Sofríe la sepia en dados pequeños en la paella con el aceite 8 minutos, hasta que se dore. Añade el ajo picado y el pimentón.
+          - Incorpora el arroz, remueve 1 minuto y vierte el fumet con el azafrán.
+          - Cuece 8 minutos a fuego fuerte y 9-10 a fuego suave, sin remover. Deja que repose 5 minutos.
+          - Sirve con alioli y, si quieres, el pescado del caldo aparte.
+
+  - name: Arroz con conejo y caracoles
+    category: Arroces
+    difficulty: MEDIUM
+    prep: 20
+    cook: 50
+    servings: 4
+    origin: Murcia y Alicante
+    originCountry: ES
+    notes: Los caracoles se compran ya cocidos y limpios. Se perfuma con romero o tomillo, y en Alicante a veces se hace a la leña de sarmientos.
+    tags: [paella, carne]
+    ingredients:
+      - items:
+          - [arroz bomba, 400, g]
+          - [conejo troceado, 1, null]
+          - [caracoles cocidos, 24, null]
+          - [pimiento rojo, 1, null]
+          - [ajo, 3, diente]
+          - [tomate rallado, 150, g]
+          - [pimentón dulce, 1, cucharadita]
+          - [hebras de azafrán, 1, pizca]
+          - [romero fresco, 1, ramita]
+          - [agua o caldo, 1.3, l]
+          - [aceite de oliva, 6, cucharada]
+          - [sal, null, null]
+    steps:
+      - Sala el conejo y dóralo en la paella con el aceite a fuego medio 15 minutos. Añade el pimiento en tiras y dóralo.
+      - Añade el ajo picado, el tomate y el pimentón y sofríe hasta que se reduzca.
+      - Vierte el agua con el azafrán y el romero, añade los caracoles y cuece 20 minutos para que se haga el caldo. Ajusta de sal y retira el romero.
+      - Añade el arroz repartiéndolo bien y cuece 8 minutos a fuego fuerte y 9-10 a fuego suave, sin remover.
+      - Deja que repose 5 minutos.
+
+  - name: Arroz con costra
+    category: Arroces
+    difficulty: MEDIUM
+    prep: 20
+    cook: 60
+    servings: 6
+    origin: Elche
+    originCountry: ES
+    notes: El huevo batido que lo cubre forma la costra al gratinar. En Elche lleva embutidos locales, la pelota y el blanquet.
+    tags: [al horno, carne]
+    utensils: [Horno]
+    ingredients:
+      - items:
+          - [arroz redondo, 400, g]
+          - [pollo troceado, 400, g]
+          - [costilla de cerdo troceada, 300, g]
+          - [butifarra blanca o blanquet, 1, null]
+          - [butifarra roja o morcilla de cebolla, 1, null]
+          - [garbanzos cocidos, 200, g]
+          - [tomate rallado, 150, g]
+          - [hebras de azafrán, 1, pizca]
+          - [caldo de carne caliente, 1, l]
+          - [huevos, 6, null]
+          - [aceite de oliva, 5, cucharada]
+          - [sal, null, null]
+    steps:
+      - Dora el pollo y la costilla en una cazuela de barro con el aceite. Añade los embutidos en rodajas y dóralos.
+      - Añade el tomate y sofríe hasta que se reduzca. Incorpora el caldo con el azafrán y cuece 20 minutos. Ajusta de sal.
+      - Precalienta el horno a 220 °C con el gratinador. Añade el arroz y los garbanzos a la cazuela y cuece 12 minutos a fuego medio.
+      - Bate los huevos con una pizca de sal y viértelos por encima.
+      - Hornea 8-10 minutos, hasta que el huevo forme una costra dorada. Deja que repose 5 minutos.
+
+  - name: Arroz caldoso de bogavante
+    category: Arroces
+    difficulty: MEDIUM
+    prep: 20
+    cook: 35
+    servings: 4
+    origin: España
+    originCountry: ES
+    notes: El arroz caldoso se sirve recién hecho, con bastante caldo, porque sigue absorbiéndolo en el plato.
+    tags: [arroz caldoso, marisco]
+    ingredients:
+      - items:
+          - [bogavante vivo o descongelado, 1, null]
+          - [arroz bomba, 320, g]
+          - [cebolla, 1, null]
+          - [pimiento verde, 1, null]
+          - [ajo, 2, diente]
+          - [tomate rallado, 200, g]
+          - [brandy, 50, ml]
+          - [pimentón dulce, 1, cucharadita]
+          - [hebras de azafrán, 1, pizca]
+          - [caldo de pescado caliente, 1.6, l]
+          - [aceite de oliva, 5, cucharada]
+          - [sal, null, null]
+    steps:
+      - Corta el bogavante por la mitad a lo largo, separa las pinzas y cáscalas un poco. Dóralo en una cazuela con el aceite 2 minutos y retíralo.
+      - Pocha la cebolla, el pimiento y el ajo picados 10 minutos. Añade el tomate y sofríe hasta que se reduzca.
+      - Riega con el brandy, deja que se evapore y añade el pimentón y el arroz. Remueve 1 minuto.
+      - Vierte el caldo con el azafrán, ajusta de sal y cuece 12 minutos a fuego medio.
+      - Añade el bogavante y cuece 5-6 minutos más. Sirve enseguida, con el arroz en su caldo.
+
+  - name: Arroz meloso de setas
+    category: Arroces
+    difficulty: EASY
+    prep: 15
+    cook: 30
+    servings: 4
+    origin: España
+    originCountry: ES
+    notes: El arroz meloso queda a medio camino entre el seco y el caldoso; se remueve de vez en cuando para que suelte almidón.
+    tags: [arroz meloso, vegana]
+    ingredients:
+      - items:
+          - [arroz bomba, 320, g]
+          - [setas variadas, 400, g]
+          - [cebolla, 1, null]
+          - [ajo, 2, diente]
+          - [tomate rallado, 100, g]
+          - [vino blanco, 100, ml]
+          - [tomillo fresco, 1, ramita]
+          - [caldo de verduras caliente, 1.2, l]
+          - [aceite de oliva, 5, cucharada]
+          - [perejil picado, 2, cucharada]
+          - [sal, null, null]
+    steps:
+      - Saltea las setas troceadas en la mitad del aceite a fuego fuerte y resérvalas.
+      - Pocha la cebolla y el ajo picados en el resto del aceite 8 minutos. Añade el tomate y sofríe 5 minutos.
+      - Añade el arroz y el tomillo, remueve y riega con el vino. Deja que se evapore.
+      - Añade el caldo y cuece 16-17 minutos, removiendo de vez en cuando. Incorpora las setas a mitad de cocción.
+      - Ajusta de sal y sirve con perejil; debe quedar jugoso.
+
+  - name: Arroz con judías y nabos
+    category: Arroces
+    difficulty: MEDIUM
+    prep: 20
+    cook: 120
+    servings: 6
+    origin: Valencia
+    originCountry: ES
+    notes: En valenciano, arròs amb fesols i naps, un arroz caldoso de invierno. Las alubias se ponen en remojo la víspera.
+    tags: [arroz caldoso, invierno]
+    ingredients:
+      - items:
+          - [arroz redondo, 300, g]
+          - [alubias blancas secas, 250, g]
+          - [magro de cerdo, 300, g]
+          - [oreja o pie de cerdo, 300, g, optional]
+          - [morcilla de cebolla, 1, null]
+          - [nabos, 3, null]
+          - [cardo o acelgas, 200, g, optional]
+          - [hebras de azafrán, 1, pizca]
+          - [agua, 2.5, l]
+          - [sal, null, null]
+    steps:
+      - Pon en una olla las alubias escurridas, el magro, la oreja y el agua y cuece a fuego suave 1 hora, retirando la espuma.
+      - Añade los nabos pelados en trozos, el cardo y la morcilla y cuece 30 minutos más.
+      - Añade el azafrán y la sal y, cuando hierva, el arroz.
+      - Cuece 16-18 minutos y deja que repose 2 minutos. Debe quedar caldoso.
+
+  - name: Arroz huertano
+    category: Arroces
+    difficulty: EASY
+    prep: 20
+    cook: 35
+    servings: 4
+    origin: Murcia
+    originCountry: ES
+    notes: El arroz de la huerta murciana se hace con las verduras de temporada; en primavera, con habas y alcachofas.
+    tags: [arroz seco, vegana]
+    ingredients:
+      - items:
+          - [arroz de Calasparra o bomba, 400, g]
+          - [alcachofas, 3, null]
+          - [pimiento rojo, 1, null]
+          - [pimiento verde, 1, null]
+          - [coliflor, 200, g]
+          - [habas tiernas, 150, g]
+          - [ajo, 3, diente]
+          - [tomate rallado, 150, g]
+          - [pimentón dulce, 1, cucharadita]
+          - [hebras de azafrán, 1, pizca]
+          - [caldo de verduras caliente, 1.2, l]
+          - [aceite de oliva, 6, cucharada]
+          - [sal, null, null]
+    steps:
+      - Sofríe en la paella con el aceite los pimientos en tiras, la coliflor en ramilletes y las alcachofas en cuartos 10 minutos.
+      - Añade las habas, el ajo picado, el tomate y el pimentón y sofríe hasta que el tomate pierda el agua.
+      - Incorpora el arroz, remueve y vierte el caldo con el azafrán. Ajusta de sal.
+      - Cuece 8 minutos a fuego fuerte y 10 a fuego suave, sin remover. Deja que repose 5 minutos.
+
+  - name: Arroz empedrado
+    category: Arroces
+    difficulty: EASY
+    prep: 15
+    cook: 35
+    servings: 4
+    origin: Valencia
+    originCountry: ES
+    notes: Se llama empedrado porque las alubias blancas parecen piedras sobre el arroz. El bacalao se desala 48 horas antes.
+    tags: [arroz seco, bacalao]
+    ingredients:
+      - items:
+          - [arroz bomba, 400, g]
+          - [bacalao desalado, 300, g]
+          - [alubias blancas cocidas, 300, g]
+          - [tomates maduros, 2, null]
+          - [ajo, 1, cabeza]
+          - [pimentón dulce, 1, cucharadita]
+          - [hebras de azafrán, 1, pizca]
+          - [agua o caldo de pescado caliente, 1.2, l]
+          - [aceite de oliva, 6, cucharada]
+          - [perejil picado, 2, cucharada]
+          - [sal, null, null]
+    steps:
+      - Dora en la paella con el aceite la cabeza de ajos entera y el bacalao desmigado 3 minutos.
+      - Añade los tomates rallados y sofríe hasta que se reduzcan. Añade el pimentón.
+      - Incorpora el arroz, remueve y vierte el caldo con el azafrán. Ajusta de sal con cuidado, porque el bacalao ya es salado.
+      - Reparte las alubias por encima y cuece 8 minutos a fuego fuerte y 9-10 a fuego suave, sin remover.
+      - Espolvorea el perejil y deja que repose 5 minutos.
+
+  - name: Arroz con coliflor y bacalao
+    category: Arroces
+    difficulty: EASY
+    prep: 15
+    cook: 35
+    servings: 4
+    origin: Valencia
+    originCountry: ES
+    notes: Arroz tradicional de Cuaresma. El bacalao se desala 48 horas antes.
+    tags: [arroz seco, cuaresma]
+    ingredients:
+      - items:
+          - [arroz bomba, 400, g]
+          - [coliflor, 400, g]
+          - [bacalao desalado, 250, g]
+          - [ajos tiernos, 4, null]
+          - [ñora, 1, null]
+          - [tomate rallado, 100, g]
+          - [pimentón dulce, 1, cucharadita]
+          - [hebras de azafrán, 1, pizca]
+          - [caldo de verduras o agua caliente, 1.2, l]
+          - [aceite de oliva, 6, cucharada]
+          - [sal, null, null]
+    steps:
+      - Hidrata la ñora y raspa su carne.
+      - Dora en la paella con el aceite la coliflor en ramilletes pequeños 8 minutos. Añade los ajos tiernos en trozos y el bacalao desmigado.
+      - Añade el tomate y la ñora y sofríe hasta que se reduzca. Añade el pimentón.
+      - Incorpora el arroz, remueve y vierte el caldo con el azafrán. Ajusta de sal.
+      - Cuece 8 minutos a fuego fuerte y 9-10 a fuego suave, sin remover. Deja que repose 5 minutos.
+
+  - name: Arroz a la cubana
+    category: Arroces
+    difficulty: EASY
+    prep: 10
+    cook: 30
+    servings: 4
+    origin: España
+    originCountry: ES
+    notes: Pese al nombre, es un plato muy popular en España. El tomate frito casero marca la diferencia.
+    tags: [arroz, casero, vegetariana]
+    ingredients:
+      - group: Arroz blanco
+        items:
+          - [arroz de grano largo, 300, g]
+          - [agua, 600, ml]
+          - [ajo, 1, diente]
+          - [aceite de oliva, 1, cucharada]
+          - [sal, 1, cucharadita]
+      - group: Para servir
+        items:
+          - [tomate frito casero, 300, g]
+          - [huevos, 4, null]
+          - [plátanos maduros, 2, null]
+          - [aceite de oliva para freír, null, null]
+    steps:
+      - Dora el ajo en el aceite, añade el arroz y remueve 1 minuto. Añade el agua hirviendo y la sal, tapa y cuece a fuego suave 15 minutos. Deja que repose 5 minutos.
+      - Pela los plátanos, córtalos por la mitad a lo largo y fríelos hasta que se doren.
+      - Fríe los huevos con la yema líquida.
+      - Sirve el arroz en un cuenco desmoldado en el plato, con el tomate caliente, el huevo frito y el plátano.
+
+  - name: Gallo pinto
+    category: Arroces
+    difficulty: EASY
+    prep: 10
+    cook: 15
+    servings: 4
+    origin: Costa Rica y Nicaragua
+    originCountry: CR
+    notes: El desayuno nacional de Costa Rica y Nicaragua, con arroz y frijoles del día anterior. En Costa Rica lleva salsa Lizano.
+    tags: [arroz, desayuno, vegana]
+    ingredients:
+      - items:
+          - [arroz blanco cocido del día anterior, 400, g]
+          - [frijoles negros cocidos con su caldo, 400, g]
+          - [cebolla, 1, null]
+          - [pimiento rojo, 0.5, null]
+          - [ajo, 2, diente]
+          - [cilantro fresco picado, 3, cucharada]
+          - [salsa Lizano o Worcestershire, 2, cucharada]
+          - [aceite de girasol, 2, cucharada]
+          - [sal, null, null]
+    steps:
+      - Pocha la cebolla, el pimiento y el ajo picados en el aceite 5 minutos.
+      - Añade los frijoles con un poco de su caldo y cuece 3 minutos.
+      - Incorpora el arroz y la salsa y mezcla hasta que el arroz tome color y esté caliente.
+      - Ajusta de sal, añade el cilantro y sirve con huevos, plátano frito o natilla (nata agria).
+
+  - name: Arroz pilaf
+    category: Arroces
+    difficulty: EASY
+    prep: 5
+    cook: 25
+    servings: 4
+    origin: Turquía
+    originCountry: TR
+    notes: En turco, şehriyeli pilav. Los fideos tostados en mantequilla le dan su sabor característico.
+    tags: [arroz, guarnición]
+    ingredients:
+      - items:
+          - [arroz de grano largo, 300, g]
+          - [mantequilla, 40, g]
+          - [fideos cabello de ángel, 30, g]
+          - [caldo de pollo caliente, 450, ml]
+          - [sal, 1, cucharadita]
+    steps:
+      - Lava el arroz hasta que el agua salga clara y déjalo en remojo 15 minutos. Escúrrelo.
+      - Tuesta los fideos en la mantequilla hasta que estén dorados.
+      - Añade el arroz y remueve 2 minutos. Vierte el caldo con la sal.
+      - Tapa y cuece a fuego muy suave 15 minutos. Apaga el fuego, cubre con un paño bajo la tapa y deja que repose 10 minutos.
+
+  - name: Biryani de pollo
+    category: Arroces
+    difficulty: HARD
+    prep: 40
+    cook: 60
+    servings: 6
+    origin: India
+    originCountry: IN
+    notes: El pollo se marina al menos 2 horas. El cierre final (dum) cuece el arroz con el vapor del pollo.
+    tags: [arroz, especiado]
+    ingredients:
+      - group: Pollo
+        items:
+          - [pollo troceado, 800, g]
+          - [yogur natural, 200, g]
+          - [pasta de jengibre y ajo, 2, cucharada]
+          - [garam masala, 2, cucharadita]
+          - [chile en polvo, 1, cucharadita]
+          - [cúrcuma, 0.5, cucharadita]
+          - [cebollas, 3, null]
+          - [ghee o aceite, 4, cucharada]
+          - [sal, 1, cucharadita]
+      - group: Arroz
+        items:
+          - [arroz basmati, 400, g]
+          - [cardamomo verde, 4, null]
+          - [clavos, 4, null]
+          - [canela en rama, 1, null]
+          - [laurel, 1, hoja]
+          - [hebras de azafrán, 1, pizca]
+          - [leche caliente, 3, cucharada]
+          - [menta fresca picada, 3, cucharada]
+          - [cilantro fresco picado, 3, cucharada]
+          - [sal, null, null]
+    steps:
+      - Marina el pollo con el yogur, la pasta de jengibre y ajo, las especias y la sal.
+      - Fríe las cebollas en tiras finas en el ghee hasta que estén muy doradas. Reserva la mitad.
+      - Añade el pollo con la marinada a la olla con la otra mitad de la cebolla y cuece tapado a fuego suave 20 minutos.
+      - Cuece el arroz lavado en abundante agua con sal y las especias enteras 6-7 minutos, hasta que esté hecho en sus tres cuartas partes. Escúrrelo. Infusiona el azafrán en la leche.
+      - Cubre el pollo con el arroz, la menta, el cilantro, la cebolla reservada y la leche con azafrán. Tapa herméticamente y cuece a fuego mínimo 25 minutos.
+      - Deja que repose 5 minutos y mezcla con cuidado al servir.
+
+  - name: Risotto de calabaza
+    category: Arroces
+    difficulty: MEDIUM
+    prep: 15
+    cook: 30
+    servings: 4
+    origin: Italia
+    originCountry: IT
+    notes: En italiano, risotto alla zucca. Parte de la calabaza se deshace en el arroz y le da color y cremosidad.
+    tags: [arroz, vegetariana, otoño]
+    ingredients:
+      - items:
+          - [arroz carnaroli o arborio, 320, g]
+          - [calabaza pelada, 500, g]
+          - [cebolla, 0.5, null]
+          - [vino blanco seco, 100, ml]
+          - [caldo de verduras caliente, 1.2, l]
+          - [mantequilla, 60, g]
+          - [queso parmesano rallado, 60, g]
+          - [salvia fresca, 4, hoja, optional]
+          - [sal, null, null]
+          - [pimienta negra, null, null]
+    steps:
+      - Corta la calabaza en dados pequeños.
+      - Pocha la cebolla picada en 20 g de mantequilla. Añade la calabaza y rehógala 5 minutos.
+      - Añade el arroz, tuéstalo 2 minutos y riega con el vino.
+      - Añade el caldo cazo a cazo, removiendo, durante 17-18 minutos.
+      - Fuera del fuego, añade el resto de la mantequilla y el parmesano y remueve con energía. Salpimienta y sirve con salvia frita en mantequilla.
+
+  - name: Arroz con gandules
+    category: Arroces
+    difficulty: MEDIUM
+    prep: 15
+    cook: 40
+    servings: 6
+    origin: Puerto Rico
+    originCountry: PR
+    notes: El plato nacional de Puerto Rico, imprescindible en Navidad. El sofrito (recaíto) lleva culantro, cilantro, ajíes dulces, ajo y cebolla.
+    tags: [arroz, fiesta]
+    ingredients:
+      - items:
+          - [arroz de grano medio, 400, g]
+          - [gandules cocidos, 400, g]
+          - [sofrito puertorriqueño (recaíto), 3, cucharada]
+          - [jamón de cocinar en dados, 100, g]
+          - [alcaparrado (aceitunas y alcaparras), 2, cucharada]
+          - [salsa de tomate, 115, g]
+          - [sazón con achiote, 1, sobre]
+          - [comino molido, 0.5, cucharadita]
+          - [caldo de pollo o agua, 800, ml]
+          - [aceite con achiote, 3, cucharada]
+          - [sal, null, null]
+    steps:
+      - Sofríe el jamón en el aceite con achiote en un caldero. Añade el sofrito y cocina 3 minutos.
+      - Añade la salsa de tomate, el alcaparrado, el sazón y el comino y cocina 2 minutos.
+      - Incorpora los gandules escurridos y el caldo, ajusta de sal y lleva a ebullición.
+      - Añade el arroz y cuece a fuego medio sin tapar hasta que el líquido baje al nivel del arroz.
+      - Remueve una vez, tapa y cuece a fuego mínimo 20-25 minutos, hasta que el arroz esté hecho y se forme el pegao en el fondo.
+
+  - name: Arroz jollof
+    category: Arroces
+    difficulty: MEDIUM
+    prep: 20
+    cook: 45
+    servings: 6
+    origin: África occidental
+    originCountry: NG
+    notes: Arroz con tomate y pimientos de Nigeria, Ghana y Senegal, cada país con su versión. Esta es la nigeriana.
+    tags: [arroz, picante]
+    utensils: [Batidora]
+    ingredients:
+      - items:
+          - [arroz vaporizado de grano largo, 400, g]
+          - [tomates maduros, 4, null]
+          - [pimientos rojos, 2, null]
+          - [chile habanero, 1, null]
+          - [cebollas, 2, null]
+          - [concentrado de tomate, 3, cucharada]
+          - [curry en polvo, 1, cucharadita]
+          - [tomillo seco, 1, cucharadita]
+          - [laurel, 2, hoja]
+          - [caldo de pollo, 700, ml]
+          - [aceite de girasol, 80, ml]
+          - [sal, null, null]
+    steps:
+      - Tritura los tomates, los pimientos, el habanero y una cebolla y cuece el puré 15 minutos hasta que se reduzca.
+      - Pocha la otra cebolla picada en el aceite 5 minutos. Añade el concentrado y fríelo 5 minutos, removiendo.
+      - Añade el puré reducido, el curry, el tomillo, el laurel y la sal y cuece 5 minutos.
+      - Incorpora el arroz lavado y el caldo, tapa con papel de aluminio y la tapa, y cuece a fuego muy suave 25-30 minutos, hasta que el arroz esté hecho.
+      - "Si se pega un poco al fondo, mejor: ese sabor ahumado es muy apreciado."

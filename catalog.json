@@ -1,0 +1,77 @@
+{
+  "schemaVersion": 1,
+  "packs": [
+    {
+      "id": "christmas-special",
+      "name": "Christmas special",
+      "author": "Miga",
+      "authorGithub": "calamares00",
+      "description": "Timeless recipes for Christmas Eve, Christmas Day and Twelfth Night: prawn cocktail, ham croquettes, galets soup, roast lamb, suckling pig, sea bream, hake in green sauce, red cabbage, roscón de Reyes, turrón, polvorones and marzipan. With notes for cooking ahead and for big gatherings.",
+      "coverImageUrl": "packs/christmas-special/cover.jpg",
+      "latestVersion": 1,
+      "recipeCount": 22,
+      "downloadUrl": "dist/christmas-special-v1.zip",
+      "language": "en"
+    },
+    {
+      "id": "cocina-mediterranea",
+      "name": "Cocina mediterránea",
+      "author": "Miga",
+      "authorGithub": "calamares00",
+      "description": "Veinte recetas de las orillas del Mediterráneo: España, Italia, Grecia, Líbano, Marruecos y Túnez. Gazpacho, paella, tortilla, musaka, hummus, falafel, shakshuka, risotto, tajín y más, con aceite de oliva, verduras de temporada y legumbres.",
+      "coverImageUrl": "packs/cocina-mediterranea/cover.jpg",
+      "latestVersion": 1,
+      "recipeCount": 20,
+      "downloadUrl": "dist/cocina-mediterranea-v1.zip",
+      "language": "es"
+    },
+    {
+      "id": "cocina-mexicana",
+      "name": "Cocina mexicana",
+      "author": "Miga",
+      "authorGithub": "calamares00",
+      "description": "Veinte clásicos de México para cocinar en casa: tacos al pastor, cochinita pibil, pozole, chilaquiles, enchiladas, salsas, guacamole, aguas frescas y flan. Con ingredientes fáciles de encontrar y alternativas cuando hace falta.",
+      "coverImageUrl": "packs/cocina-mexicana/cover.jpg",
+      "latestVersion": 1,
+      "recipeCount": 20,
+      "downloadUrl": "dist/cocina-mexicana-v1.zip",
+      "language": "es"
+    },
+    {
+      "id": "especial-navidad",
+      "name": "Especial Navidad",
+      "author": "Miga",
+      "authorGithub": "calamares00",
+      "description": "Las recetas de siempre para Nochebuena, Navidad y Reyes: cóctel de gambas, croquetas, sopa de galets, cordero asado, cochinillo, besugo, merluza en salsa verde, lombarda, roscón de Reyes, turrones, polvorones y mazapanes. Con notas para adelantar trabajo y cocinar para mucha gente.",
+      "coverImageUrl": "packs/especial-navidad/cover.jpg",
+      "latestVersion": 1,
+      "recipeCount": 22,
+      "downloadUrl": "dist/especial-navidad-v1.zip",
+      "language": "es"
+    },
+    {
+      "id": "mediterranean-cooking",
+      "name": "Mediterranean cooking",
+      "author": "Miga",
+      "authorGithub": "calamares00",
+      "description": "Twenty recipes from around the Mediterranean: Spain, Italy, Greece, Lebanon, Morocco and Tunisia. Gazpacho, paella, Spanish omelette, moussaka, hummus, falafel, shakshuka, risotto, tagine and more, with olive oil, seasonal vegetables and pulses.",
+      "coverImageUrl": "packs/mediterranean-cooking/cover.jpg",
+      "latestVersion": 1,
+      "recipeCount": 20,
+      "downloadUrl": "dist/mediterranean-cooking-v1.zip",
+      "language": "en"
+    },
+    {
+      "id": "mexican-cooking",
+      "name": "Mexican cooking",
+      "author": "Miga",
+      "authorGithub": "calamares00",
+      "description": "Twenty Mexican classics to cook at home: tacos al pastor, cochinita pibil, pozole, chilaquiles, enchiladas, salsas, guacamole, aguas frescas and flan. With easy-to-find ingredients and alternatives where needed.",
+      "coverImageUrl": "packs/mexican-cooking/cover.jpg",
+      "latestVersion": 1,
+      "recipeCount": 20,
+      "downloadUrl": "dist/mexican-cooking-v1.zip",
+      "language": "en"
+    }
+  ]
+}

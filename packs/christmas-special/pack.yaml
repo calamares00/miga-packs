@@ -1,0 +1,674 @@
+id: christmas-special
+version: 1
+updated: 2026-10-30
+language: en
+name: Christmas special
+description: >-
+  Timeless recipes for Christmas Eve, Christmas Day and Twelfth Night: prawn cocktail, ham
+  croquettes, galets soup, roast lamb, suckling pig, sea bream, hake in green sauce, red cabbage,
+  roscón de Reyes, turrón, polvorones and marzipan. With notes for cooking ahead and for big
+  gatherings.
+author: Miga
+authorGithub: calamares00
+cover:
+  emoji: "🎄"
+  title: Christmas special
+  colors: ["#7f1d1d", "#dc2626"]
+defaults:
+  source: Miga «Christmas special» pack
+recipes:
+
+  - name: Prawn cocktail
+    category: Starters
+    difficulty: EASY
+    prep: 20
+    cook: 3
+    servings: 6
+    origin: Spain
+    originCountry: ES
+    tags: [christmas, seafood, cold]
+    notes: You can prepare it in the morning and assemble it just before serving.
+    ingredients:
+      - group: Cocktail
+        items:
+          - [cooked peeled prawns, 500, g]
+          - [lettuce (little gem or iceberg), 1, null]
+          - [canned pineapple, 4, slice, optional]
+          - [hard-boiled eggs, 2, null, optional]
+      - group: Marie Rose sauce
+        items:
+          - [mayonnaise, 200, g]
+          - [ketchup, 3, tbsp]
+          - [orange juice, 2, tbsp]
+          - [brandy, 1, tbsp, optional]
+          - [Worcestershire sauce, 1, tsp, optional]
+    steps:
+      - Mix the mayonnaise with the ketchup, orange juice, brandy and Worcestershire sauce. Chill.
+      - Shred the lettuce finely and divide it among glasses.
+      - Add the pineapple and chopped egg, and place the prawns on top.
+      - Spoon the sauce over just before serving and hang a whole prawn on the rim.
+
+  - name: Ham croquettes
+    category: Starters
+    difficulty: MEDIUM
+    prep: 30
+    cook: 25
+    servings: 6
+    origin: Spain
+    originCountry: ES
+    tags: [christmas, fried, freezer friendly]
+    notes: The mixture needs at least 4 hours in the fridge. Breaded raw croquettes freeze very well; fry them straight from frozen.
+    ingredients:
+      - group: Béchamel
+        items:
+          - [butter, 60, g]
+          - [olive oil, 2, tbsp]
+          - [finely chopped small onion, 0.5, null]
+          - [plain flour, 90, g]
+          - [whole milk, 750, ml]
+          - [finely chopped Serrano ham, 150, g]
+          - [nutmeg, 1, pinch]
+          - [salt, null, null]
+      - group: Coating
+        items:
+          - [eggs, 2, null]
+          - [breadcrumbs, 150, g]
+          - [olive or sunflower oil for frying, 500, ml]
+    steps:
+      - Soften the onion in the butter and oil for 5 minutes. Add the ham and fry for 1 minute.
+      - Stir in the flour and cook for 2 minutes, stirring constantly.
+      - Gradually add the hot milk, whisking, and cook for 10-12 minutes over low heat until the mixture comes away from the sides.
+      - Season with nutmeg and a little salt (the ham is already salty). Spread on a tray, cover with cling film touching the surface and chill for at least 4 hours.
+      - Shape the croquettes, dip them in beaten egg and breadcrumbs.
+      - Fry in batches in very hot oil (180 °C) until golden. Drain on paper.
+
+  - name: Seafood salpicón
+    category: Fish and seafood
+    difficulty: EASY
+    prep: 25
+    cook: 10
+    servings: 6
+    origin: Spain
+    originCountry: ES
+    tags: [christmas, seafood, cold, gluten free]
+    ingredients:
+      - items:
+          - [cooked king prawns, 400, g]
+          - [mussels, 1, kg]
+          - [crab sticks or surimi, 150, g, optional]
+          - [red pepper, 1, null]
+          - [green pepper, 1, null]
+          - [spring onion, 1, null]
+          - [extra virgin olive oil, 100, ml]
+          - [white wine vinegar, 3, tbsp]
+          - [salt, null, null]
+    steps:
+      - Steam the mussels open in a covered pot for 3-4 minutes. Remove the shells and let them cool.
+      - Peel the prawns and cut them up if large.
+      - Chop the peppers and spring onion very finely.
+      - Mix the seafood with the vegetables and dress with the oil, vinegar and salt.
+      - Chill for at least 1 hour before serving so the flavours blend.
+
+  - name: Endive and pomegranate salad
+    category: Salads
+    difficulty: EASY
+    prep: 15
+    cook: 0
+    servings: 6
+    origin: Spain
+    originCountry: ES
+    tags: [christmas, vegetarian, gluten free]
+    ingredients:
+      - items:
+          - [curly endive (frisée), 1, null]
+          - [pomegranate, 1, null]
+          - [shelled walnuts, 60, g]
+          - [goat's or blue cheese, 100, g, optional]
+          - [extra virgin olive oil, 5, tbsp]
+          - [balsamic vinegar, 2, tbsp]
+          - [Dijon mustard, 1, tsp]
+          - [honey, 1, tsp]
+          - [salt, null, null]
+    steps:
+      - Wash the endive, dry it well and tear it up.
+      - Seed the pomegranate by tapping the skin with a spoon over a bowl.
+      - Whisk the oil with the vinegar, mustard, honey and salt.
+      - Arrange the endive with the pomegranate, walnuts and crumbled cheese, and dress just before serving.
+
+  - name: Galets soup
+    category: Soups
+    difficulty: MEDIUM
+    prep: 30
+    cook: 180
+    servings: 8
+    origin: Catalonia
+    originCountry: ES
+    tags: [christmas, broth, freezer friendly]
+    utensils: [Pressure cooker]
+    notes: This is the Catalan Christmas escudella. The broth can be made days ahead and frozen; in a pressure cooker it takes about 45 minutes.
+    ingredients:
+      - group: Broth
+        items:
+          - [beef shin, 500, g]
+          - [chicken thighs, 2, null]
+          - [ham bone, 1, null]
+          - [beef knuckle bone, 1, null]
+          - [leeks, 2, null]
+          - [carrots, 2, null]
+          - [parsnip, 1, null]
+          - [celery stick, 1, null]
+          - [potato, 1, null]
+          - [water, 4, l]
+          - [salt, null, null]
+      - group: Meatball
+        items:
+          - [minced pork and beef, 300, g]
+          - [egg, 1, null]
+          - [garlic, 1, clove]
+          - [chopped parsley, 1, tbsp]
+          - [breadcrumbs, 3, tbsp]
+          - [flour, null, null]
+      - group: To serve
+        items:
+          - [galets (large shell pasta), 300, g]
+    steps:
+      - group: Broth
+        items:
+          - Put the meat and bones in cold water, bring to the boil and skim.
+          - Add the vegetables and simmer gently for about 3 hours, without a rolling boil.
+      - group: Meatball
+        items:
+          - Mix the mince with the egg, garlic, parsley, breadcrumbs and salt. Shape into one or two long meatballs and dust with flour.
+          - Poach them in the broth for the last 30 minutes.
+      - group: Soup
+        items:
+          - Strain the broth and check the salt. Cook the galets in it as the packet says (about 15 minutes).
+          - Serve the soup with the galets and, on the side, the meat, the sliced meatball and the vegetables.
+
+  - name: Consommé with sherry
+    category: Soups
+    difficulty: EASY
+    prep: 15
+    cook: 150
+    servings: 6
+    origin: Spain
+    originCountry: ES
+    tags: [christmas, broth, gluten free]
+    ingredients:
+      - items:
+          - [chicken carcass, 1, null]
+          - [beef shin, 300, g]
+          - [ham bone, 1, null]
+          - [onion, 1, null]
+          - [carrots, 2, null]
+          - [leek, 1, null]
+          - [water, 3, l]
+          - [fino or amontillado sherry, 100, ml]
+          - [salt, null, null]
+    steps:
+      - Char the halved onion, cut side down, in a dry pan until blackened; it will colour the broth.
+      - Simmer the meat, bones and vegetables in the water very gently for 2 h 30 min, skimming.
+      - Strain through a sieve lined with a cloth, skim off the fat and check the salt.
+      - Serve piping hot in cups with a splash of sherry in each.
+
+  - name: Seafood bisque
+    category: Soups
+    difficulty: MEDIUM
+    prep: 25
+    cook: 45
+    servings: 6
+    origin: Spain
+    originCountry: ES
+    tags: [christmas, seafood]
+    utensils: [Blender]
+    ingredients:
+      - items:
+          - [raw prawns, 500, g]
+          - [onion, 1, null]
+          - [leek, 1, null]
+          - [carrot, 1, null]
+          - [ripe tomatoes, 2, null]
+          - [brandy, 50, ml]
+          - [rice, 2, tbsp]
+          - [fish stock, 1.2, l]
+          - [cooking cream, 150, ml, optional]
+          - [olive oil, 4, tbsp]
+          - [sweet paprika, 0.5, tsp]
+          - [salt, null, null]
+    steps:
+      - Peel the prawns and keep the tails. Brown the heads and shells in the oil, pressing them to release their juices.
+      - Add the chopped vegetables and fry for 10 minutes. Add the tomato and paprika and cook for 5 minutes.
+      - Flambé with the brandy, add the rice and stock, and simmer for 25 minutes.
+      - Blend, strain well while pressing, and return to the heat. Add the cream and season.
+      - Sauté the prawn tails for 1 minute and serve them in the hot bisque.
+
+  - name: Roast milk-fed lamb
+    category: Meat
+    difficulty: MEDIUM
+    prep: 15
+    cook: 120
+    servings: 6
+    origin: Castile
+    originCountry: ES
+    tags: [christmas, oven, gluten free]
+    utensils: [Oven]
+    notes: Allow about 350 g of lamb on the bone per person.
+    ingredients:
+      - items:
+          - [milk-fed lamb shoulders, 2, null]
+          - [lard, 40, g]
+          - [garlic, 4, clove]
+          - [white wine, 150, ml]
+          - [water, 250, ml]
+          - [rosemary and thyme, 2, sprig]
+          - [potatoes, 4, null, optional]
+          - [salt, null, null]
+    steps:
+      - Preheat the oven to 180 °C. Salt the lamb and rub it with the lard.
+      - Place it skin side down in a clay dish with the garlic, herbs, wine and water. If using potatoes, slice them underneath.
+      - Roast for 1 hour, basting with the juices every 20 minutes.
+      - Turn it over, raise to 200 °C and roast 45-60 minutes more, until the skin is golden and crisp.
+      - Rest for 10 minutes and serve with its juices.
+
+  - name: Roast stuffed turkey
+    category: Meat
+    difficulty: HARD
+    prep: 45
+    cook: 200
+    servings: 10
+    origin: Catalonia
+    originCountry: ES
+    tags: [christmas, oven, for a crowd]
+    utensils: [Oven]
+    notes: Allow about 40 minutes in the oven per kilo. If the turkey is frozen, thaw it in the fridge for 2-3 days.
+    ingredients:
+      - group: Turkey
+        items:
+          - [whole turkey (about 5 kg), 1, null]
+          - [soft butter, 100, g]
+          - [chicken stock, 500, ml]
+          - [white wine or brandy, 150, ml]
+          - [salt and pepper, null, null]
+      - group: Stuffing
+        items:
+          - [minced pork, 400, g]
+          - [chopped onion, 1, null]
+          - [diced dessert apples, 2, null]
+          - [pitted prunes, 100, g]
+          - [dried apricots, 80, g]
+          - [pine nuts, 40, g]
+          - [day-old bread in cubes, 150, g]
+          - [egg, 1, null]
+    steps:
+      - group: Stuffing
+        items:
+          - Fry the onion, add the mince and brown it. Add the apple, dried fruit and pine nuts and cook for 5 minutes.
+          - Off the heat, mix with the bread and egg, and season.
+      - group: Turkey
+        items:
+          - Pat the turkey dry, season inside and out, and fill it loosely. Tie the legs.
+          - Rub with the butter, place in a tray with the stock and wine and cover with foil.
+          - Roast at 170 °C for about 3 hours, basting every 30 minutes. Uncover for the last hour and raise to 190 °C to brown.
+          - Check that the thigh juices run clear (or 75 °C at the thickest part). Rest covered for 20 minutes before carving.
+
+  - name: Baked sea bream
+    category: Fish and seafood
+    difficulty: EASY
+    prep: 15
+    cook: 30
+    servings: 4
+    origin: Madrid and the Cantabrian coast
+    originCountry: ES
+    tags: [christmas, fish, oven, gluten free]
+    utensils: [Oven]
+    notes: Red sea bream (besugo) is traditional; gilt-head bream or a large sea bass work just as well.
+    ingredients:
+      - items:
+          - [cleaned red sea bream (1.2-1.5 kg), 1, null]
+          - [potatoes, 3, null]
+          - [onion, 1, null]
+          - [lemon, 1, null]
+          - [garlic, 4, clove]
+          - [dried chilli, 1, null, optional]
+          - [white wine, 100, ml]
+          - [wine vinegar, 1, tbsp]
+          - [extra virgin olive oil, 100, ml]
+          - [chopped parsley, 2, tbsp]
+          - [salt, null, null]
+    steps:
+      - Bake the sliced potatoes with the onion in strips, salt and a splash of oil at 200 °C for 20 minutes.
+      - Make two or three cuts on each side of the fish, season and slip half a lemon slice into each cut.
+      - Lay it on the potatoes, pour over the wine and bake for 20-25 minutes.
+      - Fry the sliced garlic with the chilli in the rest of the oil, take off the heat and add the vinegar and parsley.
+      - Pour the dressing over the fish as it comes out of the oven.
+
+  - name: Red cabbage with apple
+    category: Vegetables
+    difficulty: EASY
+    prep: 15
+    cook: 40
+    servings: 6
+    origin: Spain
+    originCountry: ES
+    tags: [christmas, side, vegan, gluten free]
+    notes: A Christmas Eve classic in Madrid and Castile. Even better made the day before.
+    ingredients:
+      - items:
+          - [red cabbage, 1, null]
+          - [dessert apples, 2, null]
+          - [onion, 1, null]
+          - [garlic, 2, clove]
+          - [raisins, 40, g, optional]
+          - [pine nuts, 30, g, optional]
+          - [apple cider vinegar, 3, tbsp]
+          - [brown sugar, 1, tbsp]
+          - [olive oil, 3, tbsp]
+          - [salt, null, null]
+    steps:
+      - Shred the cabbage finely and boil it in salted water with a splash of vinegar for 20 minutes. Drain.
+      - Fry the onion and garlic in the oil. Add the diced apple and cook for 5 minutes.
+      - Add the cabbage, raisins, pine nuts, the rest of the vinegar and the sugar.
+      - Cook for 10 minutes over medium heat, stirring, until glossy. Check the salt.
+
+  - name: Roscón de Reyes
+    category: Desserts
+    difficulty: HARD
+    prep: 60
+    cook: 25
+    servings: 8
+    origin: Spain
+    originCountry: ES
+    tags: [christmas, twelfth night, dough, oven]
+    utensils: [Oven, Stand mixer]
+    notes: Allow about 6 hours for the rises. Orange blossom water gives it its aroma.
+    ingredients:
+      - group: Dough
+        items:
+          - [strong bread flour, 500, g]
+          - [fresh yeast, 25, g]
+          - [lukewarm milk, 130, ml]
+          - [eggs, 2, null]
+          - [sugar, 100, g]
+          - [soft butter, 80, g]
+          - [orange blossom water, 2, tbsp]
+          - [orange zest, 1, null]
+          - [lemon zest, 1, null]
+          - [salt, 1, pinch]
+      - group: Decoration
+        items:
+          - [beaten egg, 1, null]
+          - [candied fruit, 100, g]
+          - [flaked almonds, 30, g]
+          - [sugar moistened with water, 4, tbsp]
+          - [whipped cream or chocolate truffle filling, 400, ml, optional]
+    steps:
+      - group: Dough
+        items:
+          - Dissolve the yeast in the warm milk. Mix with the flour, sugar, eggs, orange blossom water, zests and salt.
+          - Knead for 10 minutes and add the butter little by little, kneading until the dough is smooth and elastic.
+          - Leave covered to rise until doubled, about 2 hours.
+      - group: Shaping and baking
+        items:
+          - Shape into a ball, make a hole in the centre and stretch it into a ring. Hide the figurine and the bean if you like.
+          - Let it rise on baking paper for 2-3 more hours, until puffy.
+          - Brush with egg and decorate with the fruit, almonds and moistened sugar.
+          - Bake at 180 °C for 20-25 minutes, until golden. Cool on a rack and, if you like, split and fill with cream.
+
+  - name: Crunchy chocolate turrón
+    category: Desserts
+    difficulty: EASY
+    prep: 15
+    cook: 5
+    servings: 10
+    origin: Spain
+    originCountry: ES
+    tags: [christmas, chocolate, no bake]
+    notes: Use a turrón mould or a loaf tin lined with cling film. Needs 3 hours in the fridge.
+    ingredients:
+      - items:
+          - [milk chocolate, 200, g]
+          - [dark chocolate, 100, g]
+          - [butter or cocoa butter, 30, g]
+          - [puffed rice, 60, g]
+          - [toasted hazelnuts, 50, g, optional]
+    steps:
+      - Melt the chocolates with the butter over a water bath or in the microwave in 30-second bursts.
+      - Stir in the puffed rice and hazelnuts.
+      - Pour into the mould, level and chill for at least 3 hours.
+      - Turn out and cut into bars with a warm knife.
+
+  - name: Polvorones
+    category: Desserts
+    difficulty: MEDIUM
+    prep: 30
+    cook: 30
+    servings: 20
+    origin: Andalusia
+    originCountry: ES
+    tags: [christmas, oven, sweets]
+    utensils: [Oven]
+    notes: Toasting the flour is the secret to the melt-in-the-mouth texture. Wrap each one in tissue paper.
+    ingredients:
+      - items:
+          - [plain flour, 250, g]
+          - [toasted ground almonds, 100, g]
+          - [lard, 125, g]
+          - [icing sugar, 125, g]
+          - [ground cinnamon, 1, tsp]
+          - [toasted sesame seeds, 1, tbsp, optional]
+          - [icing sugar for dusting, null, null]
+    steps:
+      - Toast the flour on a tray in the oven at 150 °C for 25 minutes, stirring every 5, until biscuit coloured. Let it cool completely and sift.
+      - Beat the lard with the icing sugar, add the flour, almonds, cinnamon and sesame, and bring together without kneading.
+      - Roll the dough 1.5 cm thick between two sheets of paper and cut with an oval cutter.
+      - Bake at 200 °C for 10-12 minutes. Let them cool completely without touching (they break when warm) and dust with icing sugar.
+
+  - name: Toledo marzipan
+    category: Desserts
+    difficulty: EASY
+    prep: 30
+    cook: 10
+    servings: 20
+    origin: Toledo
+    originCountry: ES
+    tags: [christmas, almond, gluten free, sweets]
+    utensils: [Oven]
+    ingredients:
+      - items:
+          - [very finely ground raw almonds, 250, g]
+          - [icing sugar, 250, g]
+          - [water, 50, ml]
+          - [lemon zest, 1, null, optional]
+          - [egg yolk, 1, null]
+    steps:
+      - Heat the water with half the sugar until dissolved and pour it over the almonds mixed with the rest of the sugar and the zest.
+      - Work into a firm paste. Wrap in cling film and rest for 2 hours in the fridge.
+      - Shape into small figures (fish, stars, rings) of about 20 g.
+      - Brush with beaten yolk and brown under the grill at 220 °C for 3-5 minutes.
+
+  - name: Roast suckling pig
+    category: Meat
+    difficulty: MEDIUM
+    prep: 15
+    cook: 150
+    servings: 6
+    origin: Segovia
+    originCountry: ES
+    tags: [christmas, pork, oven, gluten free]
+    utensils: [Oven]
+    notes: Order it split open. A 4-5 kg suckling pig serves about 6 people.
+    ingredients:
+      - items:
+          - [suckling pig split open (4-5 kg), 1, null]
+          - [lard, 50, g]
+          - [water, 500, ml]
+          - [garlic, 4, clove]
+          - [bay leaves, 2, null]
+          - [coarse salt, null, null]
+    steps:
+      - Preheat the oven to 180 °C. Salt the inside of the pig.
+      - Place it skin side down in a clay dish, on wooden spoons or slats so it does not touch the bottom. Add the water, garlic and bay.
+      - Roast for 1 h 30 min, basting with the juices now and then.
+      - Turn it over, rub the skin with lard and prick it with a cocktail stick so it does not blister.
+      - Roast 1 more hour at 200 °C, until the skin is golden and crisp. Serve with its juices and a salad.
+
+  - name: Pork tenderloin with Pedro Ximénez
+    category: Meat
+    difficulty: EASY
+    prep: 10
+    cook: 25
+    servings: 4
+    origin: Andalusia
+    originCountry: ES
+    tags: [christmas, pork, gluten free]
+    ingredients:
+      - items:
+          - [pork tenderloins, 2, null]
+          - [onion, 1, null]
+          - [Pedro Ximénez sherry, 200, ml]
+          - [beef stock, 100, ml]
+          - [raisins, 40, g, optional]
+          - [butter, 20, g]
+          - [olive oil, 2, tbsp]
+          - [salt and pepper, null, null]
+    steps:
+      - Trim the tenderloins, season them and brown them whole in the oil on all sides. Set aside.
+      - In the same pan, soften the thinly sliced onion for 10 minutes.
+      - Add the Pedro Ximénez, stock and raisins, and reduce by half.
+      - Return the tenderloins and cook for 6-8 minutes, turning, until juicy inside.
+      - Cut into medallions, finish the sauce with the cold butter and pour it over.
+
+  - name: Hake in green sauce
+    category: Fish and seafood
+    difficulty: EASY
+    prep: 10
+    cook: 15
+    servings: 4
+    origin: Basque Country
+    originCountry: ES
+    tags: [christmas, fish]
+    ingredients:
+      - items:
+          - [hake fillets, 4, null]
+          - [clams, 300, g, optional]
+          - [garlic, 3, clove]
+          - [plain flour, 1, tbsp]
+          - [white wine, 100, ml]
+          - [fish stock, 200, ml]
+          - [chopped parsley, 3, tbsp]
+          - [extra virgin olive oil, 5, tbsp]
+          - [salt, null, null]
+    steps:
+      - Soak the clams in salted water for 30 minutes so they release their sand.
+      - Gently fry the chopped garlic in the oil in a wide pan. Add the flour and stir for 1 minute.
+      - Pour in the wine and stock gradually, swirling the pan, until the sauce comes together.
+      - Add the salted hake skin side up and the clams, and cook for 5-6 minutes, swirling the pan.
+      - Turn the hake, sprinkle with parsley and cook 2 more minutes. The clams should be open.
+
+  - name: Cardoons with almonds
+    category: Vegetables
+    difficulty: EASY
+    prep: 10
+    cook: 15
+    servings: 4
+    origin: Navarre and Aragon
+    originCountry: ES
+    tags: [christmas, vegetables, christmas eve]
+    notes: With jarred, ready-cooked cardoons it is very quick; fresh ones need about 45 minutes of boiling with a squeeze of lemon first.
+    ingredients:
+      - items:
+          - [cooked cardoons, 800, g]
+          - [raw almonds, 50, g]
+          - [garlic, 2, clove]
+          - [plain flour, 1, tbsp]
+          - [milk, 200, ml]
+          - [cardoon cooking liquid or vegetable stock, 200, ml]
+          - [olive oil, 3, tbsp]
+          - [diced Serrano ham, 60, g, optional]
+          - [salt, null, null]
+    steps:
+      - Brown the almonds in the oil and blend them with the garlic and a little milk.
+      - In the same oil, fry the ham and the flour for 1 minute.
+      - Add the milk, stock and almond paste, and simmer for 5 minutes until thick.
+      - Add the drained cardoons, cook 5 more minutes and check the salt.
+
+  - name: Soft Jijona turrón
+    category: Desserts
+    difficulty: MEDIUM
+    prep: 20
+    cook: 15
+    servings: 10
+    origin: Jijona
+    originCountry: ES
+    tags: [christmas, almond, gluten free, sweets]
+    utensils: [Food processor]
+    notes: Needs 24 hours under a weight to get the turrón texture.
+    ingredients:
+      - items:
+          - [toasted Marcona almonds, 300, g]
+          - [honey, 125, g]
+          - [sugar, 75, g]
+          - [egg white, 1, null]
+          - [ground cinnamon, 0.5, tsp, optional]
+          - [lemon zest, 1, null, optional]
+    steps:
+      - Grind the almonds into a paste that starts to release its oil.
+      - Heat the honey with the sugar in a pan, stirring, until dissolved and starting to boil.
+      - Whisk the egg white to stiff peaks and pour in the hot syrup in a thin stream, whisking all the time.
+      - Mix with the almond paste, cinnamon and zest, and cook for 5 minutes over low heat, stirring.
+      - Pour into a tin lined with baking paper, cover, put a weight on top and leave for 24 hours before cutting.
+
+  - name: Almond soup
+    category: Desserts
+    difficulty: EASY
+    prep: 10
+    cook: 20
+    servings: 6
+    origin: Castile
+    originCountry: ES
+    tags: [christmas, christmas eve, almond]
+    notes: A warm Christmas Eve dessert from Castile and Madrid.
+    ingredients:
+      - items:
+          - [ground almonds, 150, g]
+          - [milk, 1, l]
+          - [sugar, 120, g]
+          - [cinnamon stick, 1, null]
+          - [lemon peel, 1, null]
+          - [thin slices of day-old bread, 6, slice]
+          - [ground cinnamon, null, null]
+    steps:
+      - Bring the milk to the boil with the cinnamon and lemon peel. Take off the heat and infuse for 10 minutes.
+      - Strain, add the almonds and sugar, and simmer gently for 10 minutes, stirring.
+      - Toast the bread slices and place them in bowls.
+      - Pour the hot soup over them and dust with cinnamon.
+
+  - name: Christmas Eve compote
+    category: Desserts
+    difficulty: EASY
+    prep: 10
+    cook: 40
+    servings: 8
+    origin: Castile and León
+    originCountry: ES
+    tags: [christmas, christmas eve, vegan, gluten free]
+    notes: Served warm or cold, and keeps for several days in the fridge.
+    ingredients:
+      - items:
+          - [prunes, 150, g]
+          - [dried apricots, 150, g]
+          - [dried figs, 100, g]
+          - [raisins, 50, g]
+          - [dessert apples, 2, null]
+          - [winter pears, 2, null]
+          - [red wine, 500, ml]
+          - [water, 500, ml]
+          - [sugar, 150, g]
+          - [cinnamon stick, 1, null]
+          - [orange peel, 1, null]
+          - [cloves, 2, null]
+    steps:
+      - Put the wine, water, sugar, cinnamon, orange peel and cloves in a pot and bring to the boil.
+      - Add the dried fruit and simmer for 15 minutes.
+      - Add the apples and pears, peeled and quartered, and simmer 20 more minutes, until tender.
+      - Let it cool in its syrup and serve in bowls with some of the liquid.

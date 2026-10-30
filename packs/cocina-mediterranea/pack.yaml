@@ -1,0 +1,582 @@
+id: cocina-mediterranea
+version: 1
+updated: 2026-10-30
+language: es
+name: Cocina mediterránea
+description: >-
+  Veinte recetas de las orillas del Mediterráneo: España, Italia, Grecia, Líbano, Marruecos y
+  Túnez. Gazpacho, paella, tortilla, musaka, hummus, falafel, shakshuka, risotto, tajín y más,
+  con aceite de oliva, verduras de temporada y legumbres.
+author: Miga
+authorGithub: calamares00
+cover:
+  emoji: "🫒"
+  title: Cocina mediterránea
+  colors: ["#1d4ed8", "#0d9488"]
+defaults:
+  source: Pack «Cocina mediterránea» de Miga
+recipes:
+
+  - name: Gazpacho andaluz
+    category: Sopas y cremas
+    difficulty: EASY
+    prep: 15
+    cook: 0
+    servings: 4
+    origin: Andalucía
+    originCountry: ES
+    tags: [vegana, fría, verano]
+    utensils: [Batidora]
+    ingredients:
+      - items:
+          - [tomate maduro, 1, kg]
+          - [pimiento verde italiano, 1, null]
+          - [pepino, 0.5, null]
+          - [ajo, 1, diente]
+          - [pan del día anterior, 50, g, optional]
+          - [aceite de oliva virgen extra, 80, ml]
+          - [vinagre de Jerez, 2, cucharada]
+          - [sal, 1, cucharadita]
+          - [agua fría, 150, ml]
+    steps:
+      - Trocea los tomates, el pimiento, el pepino pelado y el ajo.
+      - Tritura todo con el pan remojado, el vinagre y la sal hasta que quede muy fino.
+      - Añade el aceite en hilo sin dejar de triturar para que emulsione. Ajusta la textura con el agua.
+      - Cuela si quieres una textura más fina y enfría al menos 2 horas.
+      - Sirve con dados de pepino, pimiento y pan tostado.
+
+  - name: Salmorejo cordobés
+    category: Sopas y cremas
+    difficulty: EASY
+    prep: 15
+    cook: 10
+    servings: 4
+    origin: Córdoba
+    originCountry: ES
+    tags: [fría, verano, vegetariana]
+    utensils: [Batidora]
+    ingredients:
+      - items:
+          - [tomate maduro, 1, kg]
+          - [pan de miga densa del día anterior, 200, g]
+          - [ajo, 1, diente]
+          - [aceite de oliva virgen extra, 150, ml]
+          - [sal, 1, cucharadita]
+          - [huevos, 2, null]
+          - [jamón serrano en taquitos, 50, g, optional]
+    steps:
+      - Cuece los huevos 10 minutos, enfríalos y pícalos.
+      - Tritura los tomates con el ajo y la sal. Cuela para quitar pieles y semillas.
+      - Añade el pan troceado, deja que se empape 10 minutos y tritura de nuevo.
+      - Incorpora el aceite poco a poco hasta lograr una crema espesa y brillante.
+      - Enfría y sirve con el huevo, el jamón y un hilo de aceite.
+
+  - name: Paella valenciana
+    category: Arroces
+    difficulty: HARD
+    prep: 20
+    cook: 45
+    servings: 6
+    origin: Valencia
+    originCountry: ES
+    tags: [arroz, pollo, fin de semana]
+    notes: Lo ideal es una paella de 40-45 cm. No se remueve el arroz una vez añadido.
+    ingredients:
+      - items:
+          - [pollo troceado, 800, g]
+          - [conejo troceado, 600, g]
+          - [judía verde plana (bajoqueta), 250, g]
+          - [garrofón, 150, g]
+          - [tomates rallados, 2, null]
+          - [arroz bomba o redondo, 500, g]
+          - [aceite de oliva, 100, ml]
+          - [pimentón dulce, 1, cucharadita]
+          - [hebras de azafrán, 1, pizca]
+          - [romero fresco, 1, rama, optional]
+          - [agua, 1.5, l]
+          - [sal, null, null]
+    steps:
+      - Calienta el aceite en la paella, sala la carne y dórala bien a fuego medio, unos 15 minutos.
+      - Añade las judías y el garrofón y rehógalos 5 minutos.
+      - Haz un hueco en el centro, sofríe el tomate y, al final, el pimentón sin que se queme.
+      - Vierte el agua, añade el azafrán y sal, y cuece 20 minutos a fuego medio para hacer el caldo.
+      - Reparte el arroz en cruz, extiéndelo y cuece 10 minutos a fuego fuerte y 8 a fuego suave, sin remover. Pon el romero los últimos minutos.
+      - Sube el fuego el último minuto para el socarrat y deja reposar 5 minutos tapada con un paño.
+
+  - name: Tortilla de patatas
+    category: Huevos
+    difficulty: MEDIUM
+    prep: 15
+    cook: 30
+    servings: 4
+    origin: España
+    originCountry: ES
+    tags: [vegetariana, sin gluten, clásico]
+    ingredients:
+      - items:
+          - [patata, 700, g]
+          - [huevos, 6, null]
+          - [cebolla, 1, null, optional]
+          - [aceite de oliva, 400, ml]
+          - [sal, null, null]
+    steps:
+      - Pela las patatas y córtalas en láminas finas. Pica la cebolla.
+      - Confita las patatas y la cebolla en el aceite a fuego medio-bajo 20 minutos, hasta que estén tiernas. Escúrrelas.
+      - Bate los huevos con sal, mezcla con las patatas y deja reposar 5 minutos.
+      - Cuaja la mezcla en una sartén con una cucharada de aceite, 3 minutos a fuego medio.
+      - Dale la vuelta con un plato y cuaja 2 minutos más por el otro lado. Mejor jugosa por dentro.
+
+  - name: Pisto manchego
+    category: Verduras
+    difficulty: EASY
+    prep: 20
+    cook: 45
+    servings: 4
+    origin: La Mancha
+    originCountry: ES
+    tags: [vegana, sin gluten, verduras]
+    ingredients:
+      - items:
+          - [cebolla, 1, null]
+          - [pimiento verde, 1, null]
+          - [pimiento rojo, 1, null]
+          - [calabacines, 2, null]
+          - [tomate triturado, 400, g]
+          - [aceite de oliva virgen extra, 5, cucharada]
+          - [azúcar, 1, cucharadita, optional]
+          - [sal, null, null]
+          - [huevos fritos, 4, null, optional]
+    steps:
+      - Corta todas las verduras en dados de tamaño parecido.
+      - Pocha la cebolla en el aceite 10 minutos. Añade los pimientos y cocina 10 minutos más.
+      - Incorpora el calabacín y deja que suelte el agua, unos 10 minutos.
+      - Añade el tomate, sal y el azúcar si el tomate es ácido, y cocina 15 minutos a fuego suave.
+      - Sirve con un huevo frito encima.
+
+  - name: Ensalada griega
+    category: Ensaladas
+    difficulty: EASY
+    prep: 15
+    cook: 0
+    servings: 4
+    origin: Grecia
+    originCountry: GR
+    tags: [vegetariana, sin gluten, verano]
+    ingredients:
+      - items:
+          - [tomates, 4, null]
+          - [pepino, 1, null]
+          - [pimiento verde, 1, null]
+          - [cebolla morada, 0.5, null]
+          - [aceitunas kalamata, 100, g]
+          - [queso feta, 200, g]
+          - [orégano seco, 1, cucharadita]
+          - [aceite de oliva virgen extra, 4, cucharada]
+          - [vinagre de vino tinto, 1, cucharada]
+          - [sal, null, null]
+    steps:
+      - Corta el tomate en gajos, el pepino en medias lunas, el pimiento en tiras y la cebolla en aros finos.
+      - Mezcla las verduras con las aceitunas y sala ligeramente.
+      - Coloca el feta en un bloque encima y espolvorea el orégano.
+      - Aliña con el aceite y el vinagre justo antes de servir.
+
+  - name: Tzatziki
+    category: Salsas
+    difficulty: EASY
+    prep: 15
+    cook: 0
+    servings: 4
+    origin: Grecia
+    originCountry: GR
+    tags: [vegetariana, sin gluten, aperitivo]
+    ingredients:
+      - items:
+          - [yogur griego, 400, g]
+          - [pepino, 1, null]
+          - [ajo, 1, diente]
+          - [eneldo o menta fresca picada, 1, cucharada]
+          - [aceite de oliva virgen extra, 1, cucharada]
+          - [zumo de limón, 1, cucharadita]
+          - [sal, null, null]
+    steps:
+      - Ralla el pepino con piel, sálalo y deja que escurra 10 minutos. Aprieta para quitar el agua.
+      - Mezcla el yogur con el pepino, el ajo rallado, el eneldo, el limón y el aceite.
+      - Prueba de sal y refrigera 30 minutos. Sirve con pan de pita.
+
+  - name: Musaka
+    category: Carnes
+    difficulty: HARD
+    prep: 40
+    cook: 75
+    servings: 6
+    origin: Grecia
+    originCountry: GR
+    tags: [horno, cordero, berenjena]
+    utensils: [Horno]
+    ingredients:
+      - group: Capas
+        items:
+          - [berenjenas, 3, null]
+          - [patatas, 2, null, optional]
+          - [aceite de oliva, 4, cucharada]
+          - [sal, null, null]
+      - group: Carne
+        items:
+          - [carne picada de cordero o ternera, 600, g]
+          - [cebolla, 1, null]
+          - [ajo, 2, diente]
+          - [tomate triturado, 400, g]
+          - [vino tinto, 100, ml]
+          - [canela molida, 0.5, cucharadita]
+          - [orégano seco, 1, cucharadita]
+      - group: Bechamel
+        items:
+          - [mantequilla, 60, g]
+          - [harina de trigo, 60, g]
+          - [leche, 700, ml]
+          - [huevo, 1, null]
+          - [queso kefalotiri o parmesano rallado, 60, g]
+          - [nuez moscada, 1, pizca]
+    steps:
+      - group: Preparación
+        items:
+          - Corta las berenjenas en rodajas de 1 cm, sálalas 20 minutos y sécalas. Úntalas con aceite y ásalas en el horno a 200 °C 20 minutos. Si usas patata, ásala igual en rodajas.
+          - Sofríe la cebolla y el ajo, añade la carne y dórala. Agrega el vino, el tomate, la canela y el orégano, y cocina 20 minutos.
+          - Para la bechamel, cocina la harina en la mantequilla 2 minutos, añade la leche poco a poco y cuece hasta espesar. Fuera del fuego, añade el huevo, la mitad del queso y la nuez moscada.
+      - group: Montaje
+        items:
+          - En una fuente, alterna patata, berenjena y carne, y termina con la bechamel y el resto del queso.
+          - Hornea a 180 °C 45 minutos, hasta que esté dorada. Deja reposar 20 minutos antes de cortar.
+
+  - name: Hummus
+    category: Legumbres
+    difficulty: EASY
+    prep: 10
+    cook: 0
+    servings: 6
+    origin: Líbano
+    originCountry: LB
+    tags: [vegana, sin gluten, aperitivo]
+    utensils: [Robot de cocina]
+    ingredients:
+      - items:
+          - [garbanzos cocidos, 400, g]
+          - [tahini, 4, cucharada]
+          - [zumo de limón, 3, cucharada]
+          - [ajo, 1, diente]
+          - [agua muy fría, 4, cucharada]
+          - [comino molido, 0.5, cucharadita]
+          - [sal, 1, cucharadita]
+          - [aceite de oliva virgen extra, null, null]
+          - [pimentón, null, null, optional]
+    steps:
+      - Tritura el tahini con el limón, el ajo y la sal hasta que quede blanquecino.
+      - Añade los garbanzos escurridos y el comino y tritura 2-3 minutos, añadiendo el agua fría poco a poco hasta que quede muy cremoso.
+      - Sirve con un hilo de aceite, pimentón y pan de pita.
+
+  - name: Tabulé
+    category: Ensaladas
+    difficulty: EASY
+    prep: 25
+    cook: 0
+    servings: 4
+    origin: Líbano
+    originCountry: LB
+    tags: [vegana, verano]
+    notes: El tabulé libanés es sobre todo perejil; el bulgur es un acompañante, no la base.
+    ingredients:
+      - items:
+          - [perejil fresco, 3, manojo]
+          - [hierbabuena fresca, 1, manojo]
+          - [bulgur fino, 50, g]
+          - [tomates, 3, null]
+          - [cebolletas, 2, null]
+          - [zumo de limón, 4, cucharada]
+          - [aceite de oliva virgen extra, 5, cucharada]
+          - [sal, null, null]
+    steps:
+      - Remoja el bulgur en agua fría 15 minutos y escúrrelo bien.
+      - Pica muy fino el perejil y la hierbabuena, bien secos, con un cuchillo afilado.
+      - Corta el tomate en dados pequeños y la cebolleta muy fina.
+      - Mezcla todo con el limón, el aceite y sal justo antes de servir.
+
+  - name: Falafel
+    category: Legumbres
+    difficulty: MEDIUM
+    prep: 20
+    cook: 15
+    servings: 4
+    origin: Oriente Próximo
+    tags: [vegana, fritura]
+    utensils: [Robot de cocina]
+    notes: Los garbanzos deben ser secos y remojados, no cocidos; si no, el falafel se deshace.
+    ingredients:
+      - items:
+          - [garbanzos secos remojados 24 horas, 250, g]
+          - [cebolla, 0.5, null]
+          - [ajo, 2, diente]
+          - [perejil fresco, 1, manojo]
+          - [cilantro fresco, 0.5, manojo]
+          - [comino molido, 1, cucharadita]
+          - [cilantro molido, 1, cucharadita]
+          - [bicarbonato, 0.5, cucharadita]
+          - [sal, 1, cucharadita]
+          - [aceite de girasol para freír, 500, ml]
+    steps:
+      - Escurre muy bien los garbanzos y tritúralos con la cebolla, el ajo, las hierbas y las especias hasta tener una textura de arena gruesa.
+      - Añade la sal y el bicarbonato y refrigera la masa 30 minutos.
+      - Forma bolitas o discos del tamaño de una nuez.
+      - Fríelas en aceite a 175 °C 3-4 minutos, hasta que estén doradas. Escúrrelas.
+      - Sirve en pan de pita con ensalada y salsa de tahini o tzatziki.
+
+  - name: Shakshuka
+    category: Huevos
+    difficulty: EASY
+    prep: 10
+    cook: 25
+    servings: 2
+    origin: Túnez
+    originCountry: TN
+    tags: [vegetariana, sin gluten, desayuno]
+    ingredients:
+      - items:
+          - [huevos, 4, null]
+          - [tomate triturado, 400, g]
+          - [pimiento rojo, 1, null]
+          - [cebolla, 1, null]
+          - [ajo, 2, diente]
+          - [comino molido, 1, cucharadita]
+          - [pimentón dulce, 1, cucharadita]
+          - [harissa o chile, 1, cucharadita, optional]
+          - [aceite de oliva, 3, cucharada]
+          - [cilantro o perejil fresco, null, null]
+          - [sal, null, null]
+    steps:
+      - Sofríe la cebolla y el pimiento en tiras en el aceite 10 minutos.
+      - Añade el ajo y las especias, remueve 1 minuto y agrega el tomate y la harissa. Cocina 10 minutos y sala.
+      - Haz cuatro huecos en la salsa y casca un huevo en cada uno.
+      - Tapa y cocina a fuego suave 6-8 minutos, hasta que las claras cuajen y las yemas sigan líquidas.
+      - Sirve con cilantro y pan para mojar.
+
+  - name: Cuscús de verduras
+    category: Verduras
+    difficulty: MEDIUM
+    prep: 20
+    cook: 40
+    servings: 4
+    origin: Marruecos
+    originCountry: MA
+    tags: [vegana, legumbres]
+    ingredients:
+      - group: Verduras
+        items:
+          - [cebolla, 1, null]
+          - [zanahorias, 2, null]
+          - [calabacín, 1, null]
+          - [nabo, 1, null]
+          - [calabaza, 250, g]
+          - [garbanzos cocidos, 400, g]
+          - [tomate triturado, 200, g]
+          - [ras el hanout, 2, cucharadita]
+          - [cúrcuma, 0.5, cucharadita]
+          - [caldo de verduras, 1, l]
+          - [aceite de oliva, 3, cucharada]
+          - [sal, null, null]
+      - group: Cuscús
+        items:
+          - [sémola de cuscús, 300, g]
+          - [mantequilla o aceite, 20, g]
+          - [pasas, 40, g, optional]
+    steps:
+      - Sofríe la cebolla en el aceite, añade las especias y el tomate, y cocina 5 minutos.
+      - Agrega la zanahoria, el nabo y el caldo, y cuece 15 minutos. Añade la calabaza, el calabacín y los garbanzos y cuece 15 minutos más. Sala.
+      - Pon la sémola en un bol, cúbrela con 300 ml del caldo hirviendo y tapa 5 minutos. Suéltala con un tenedor y la mantequilla.
+      - Sirve el cuscús con las verduras y su caldo por encima, y las pasas si te gustan.
+
+  - name: Tajín de pollo con limón y aceitunas
+    category: Carnes
+    difficulty: MEDIUM
+    prep: 15
+    cook: 60
+    servings: 4
+    origin: Marruecos
+    originCountry: MA
+    tags: [pollo, guiso]
+    notes: Sin tajín de barro, una cazuela de fondo grueso con tapa da buen resultado.
+    ingredients:
+      - items:
+          - [muslos de pollo, 8, null]
+          - [cebollas, 2, null]
+          - [ajo, 3, diente]
+          - [jengibre molido, 1, cucharadita]
+          - [cúrcuma, 1, cucharadita]
+          - [hebras de azafrán, 1, pizca, optional]
+          - [limón en conserva (encurtido), 1, null]
+          - [aceitunas verdes, 150, g]
+          - [cilantro y perejil frescos, 1, manojo]
+          - [aceite de oliva, 4, cucharada]
+          - [agua, 250, ml]
+          - [sal, null, null]
+    steps:
+      - Marina el pollo con el ajo rallado, las especias, el aceite y un poco de sal 30 minutos.
+      - Dora el pollo en la cazuela y retíralo. Pocha la cebolla en láminas 10 minutos.
+      - Devuelve el pollo, añade el agua y las hierbas, tapa y cuece a fuego suave 40 minutos.
+      - Añade la piel del limón en conserva en tiras y las aceitunas y cocina 10 minutos más, hasta que la salsa espese.
+
+  - name: Pasta al pesto genovés
+    category: Pastas
+    difficulty: EASY
+    prep: 10
+    cook: 12
+    servings: 4
+    origin: Génova
+    originCountry: IT
+    tags: [vegetariana, rápida]
+    utensils: [Batidora]
+    ingredients:
+      - group: Pesto
+        items:
+          - [albahaca fresca (solo hojas), 60, g]
+          - [piñones, 30, g]
+          - [ajo, 1, diente]
+          - [parmesano rallado, 50, g]
+          - [pecorino rallado, 20, g, optional]
+          - [aceite de oliva virgen extra, 100, ml]
+          - [sal, 1, pizca]
+      - group: Pasta
+        items:
+          - ["trofie, linguine o espaguetis", 400, g]
+          - [patata pequeña en dados, 1, null, optional]
+          - [judías verdes, 100, g, optional]
+    steps:
+      - Tritura brevemente la albahaca con el ajo, los piñones y la sal. Añade los quesos y el aceite y tritura a impulsos sin calentar la mezcla.
+      - Cuece la pasta en agua con sal; si usas patata y judías, échalas en la misma olla 8 minutos antes del final.
+      - Reserva un vaso del agua de cocción y escurre.
+      - Mezcla la pasta con el pesto fuera del fuego, aligerando con un poco del agua reservada.
+
+  - name: Risotto de setas
+    category: Arroces
+    difficulty: MEDIUM
+    prep: 15
+    cook: 30
+    servings: 4
+    origin: Italia
+    originCountry: IT
+    tags: [vegetariana, setas, otoño]
+    ingredients:
+      - items:
+          - [arroz arborio o carnaroli, 320, g]
+          - [setas variadas, 400, g]
+          - [boletus secos, 15, g, optional]
+          - [chalotas, 2, null]
+          - [vino blanco seco, 120, ml]
+          - [caldo de verduras caliente, 1.2, l]
+          - [mantequilla, 50, g]
+          - [parmesano rallado, 60, g]
+          - [aceite de oliva, 2, cucharada]
+          - [perejil picado, null, null]
+          - [sal y pimienta, null, null]
+    steps:
+      - Si usas boletus secos, hidrátalos 20 minutos en agua caliente; pícalos y añade el agua colada al caldo.
+      - Saltea las setas en aceite a fuego fuerte, sala y reserva.
+      - Pocha la chalota picada en la mitad de la mantequilla, añade el arroz y nácaralo 2 minutos. Moja con el vino y deja que se evapore.
+      - Añade el caldo cucharón a cucharón, removiendo, durante unos 18 minutos.
+      - Incorpora las setas, retira del fuego y manteca con el resto de la mantequilla y el parmesano. Reposa 2 minutos y sirve con perejil.
+
+  - name: Ensalada caprese
+    category: Ensaladas
+    difficulty: EASY
+    prep: 10
+    cook: 0
+    servings: 4
+    origin: Capri
+    originCountry: IT
+    tags: [vegetariana, sin gluten, verano, rápida]
+    ingredients:
+      - items:
+          - [tomates maduros, 4, null]
+          - [mozzarella de búfala, 250, g]
+          - [albahaca fresca, 1, manojo]
+          - [aceite de oliva virgen extra, 4, cucharada]
+          - [orégano seco, 1, pizca, optional]
+          - [sal en escamas y pimienta, null, null]
+    steps:
+      - Corta los tomates y la mozzarella en rodajas de grosor similar.
+      - Alterna tomate, mozzarella y hojas de albahaca en una fuente.
+      - Aliña con aceite, sal en escamas, pimienta y orégano justo al servir.
+
+  - name: Dorada al horno con patatas
+    category: Pescados y mariscos
+    difficulty: EASY
+    prep: 15
+    cook: 40
+    servings: 2
+    origin: España
+    originCountry: ES
+    tags: [pescado, horno, sin gluten]
+    utensils: [Horno]
+    ingredients:
+      - items:
+          - [doradas limpias (unos 400 g cada una), 2, null]
+          - [patatas, 3, null]
+          - [cebolla, 1, null]
+          - [ajo, 3, diente]
+          - [limón, 1, null]
+          - [vino blanco, 100, ml]
+          - [aceite de oliva virgen extra, 6, cucharada]
+          - [perejil picado, 2, cucharada]
+          - [sal, null, null]
+    steps:
+      - Corta las patatas en rodajas finas y la cebolla en juliana. Colócalas en una fuente con sal y la mitad del aceite, y hornea a 200 °C 20 minutos.
+      - Haz dos cortes en el lomo de cada dorada, sala y pon rodajas de limón en los cortes.
+      - Coloca las doradas sobre las patatas, riega con el vino y hornea 15-18 minutos.
+      - Dora el ajo laminado en el resto del aceite, añade el perejil y vierte el refrito sobre el pescado al servir.
+
+  - name: Gambas al ajillo
+    category: Pescados y mariscos
+    difficulty: EASY
+    prep: 10
+    cook: 5
+    servings: 4
+    origin: España
+    originCountry: ES
+    tags: [tapa, rápida, sin gluten, picante]
+    ingredients:
+      - items:
+          - [gambas peladas, 400, g]
+          - [ajo, 6, diente]
+          - [guindilla, 1, null]
+          - [aceite de oliva virgen extra, 120, ml]
+          - [perejil picado, 1, cucharada]
+          - [sal, null, null]
+    steps:
+      - Lamina el ajo y trocea la guindilla.
+      - Calienta el aceite a fuego suave en una cazuela de barro con el ajo y la guindilla hasta que el ajo empiece a dorarse.
+      - Sube el fuego, añade las gambas saladas y cocina 1-2 minutos, solo hasta que cambien de color.
+      - Espolvorea perejil y sirve enseguida, chisporroteando, con pan.
+
+  - name: Crema catalana
+    category: Postres
+    difficulty: MEDIUM
+    prep: 15
+    cook: 15
+    servings: 6
+    origin: Cataluña
+    originCountry: ES
+    tags: [postre, vegetariana, sin gluten]
+    notes: Necesita enfriar al menos 3 horas. Para quemar el azúcar, mejor soplete o pala de hierro.
+    ingredients:
+      - items:
+          - [leche entera, 1, l]
+          - [yemas de huevo, 8, null]
+          - [azúcar, 150, g]
+          - [maicena, 30, g]
+          - [piel de limón, 1, null]
+          - [rama de canela, 1, null]
+          - [azúcar para quemar, 6, cucharada]
+    steps:
+      - Infusiona la leche con la piel de limón y la canela hasta que hierva. Retira y deja reposar 10 minutos.
+      - Bate las yemas con el azúcar y la maicena hasta blanquear.
+      - Cuela la leche sobre las yemas, mezcla y devuelve al fuego suave, removiendo sin parar hasta que espese, sin que hierva.
+      - Reparte en cazuelitas, enfría y refrigera al menos 3 horas.
+      - Antes de servir, espolvorea azúcar y quémalo con soplete hasta caramelizar.

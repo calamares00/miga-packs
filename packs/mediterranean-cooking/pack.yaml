@@ -1,0 +1,582 @@
+id: mediterranean-cooking
+version: 1
+updated: 2026-10-30
+language: en
+name: Mediterranean cooking
+description: >-
+  Twenty recipes from around the Mediterranean: Spain, Italy, Greece, Lebanon, Morocco and
+  Tunisia. Gazpacho, paella, Spanish omelette, moussaka, hummus, falafel, shakshuka, risotto,
+  tagine and more, with olive oil, seasonal vegetables and pulses.
+author: Miga
+authorGithub: calamares00
+cover:
+  emoji: "🫒"
+  title: Mediterranean cooking
+  colors: ["#1d4ed8", "#0d9488"]
+defaults:
+  source: Miga «Mediterranean cooking» pack
+recipes:
+
+  - name: Andalusian gazpacho
+    category: Soups
+    difficulty: EASY
+    prep: 15
+    cook: 0
+    servings: 4
+    origin: Andalusia
+    originCountry: ES
+    tags: [vegan, cold, summer]
+    utensils: [Blender]
+    ingredients:
+      - items:
+          - [ripe tomatoes, 1, kg]
+          - [green Italian pepper, 1, null]
+          - [cucumber, 0.5, null]
+          - [garlic, 1, clove]
+          - [day-old bread, 50, g, optional]
+          - [extra virgin olive oil, 80, ml]
+          - [sherry vinegar, 2, tbsp]
+          - [salt, 1, tsp]
+          - [cold water, 150, ml]
+    steps:
+      - Chop the tomatoes, pepper, peeled cucumber and garlic.
+      - Blend everything with the soaked bread, vinegar and salt until very smooth.
+      - Drizzle in the oil while blending so it emulsifies. Adjust the texture with the water.
+      - Strain for a finer texture if you like, and chill for at least 2 hours.
+      - Serve with diced cucumber, pepper and croutons.
+
+  - name: Salmorejo
+    category: Soups
+    difficulty: EASY
+    prep: 15
+    cook: 10
+    servings: 4
+    origin: Córdoba
+    originCountry: ES
+    tags: [cold, summer, vegetarian]
+    utensils: [Blender]
+    ingredients:
+      - items:
+          - [ripe tomatoes, 1, kg]
+          - [dense day-old bread, 200, g]
+          - [garlic, 1, clove]
+          - [extra virgin olive oil, 150, ml]
+          - [salt, 1, tsp]
+          - [eggs, 2, null]
+          - [diced Serrano ham, 50, g, optional]
+    steps:
+      - Boil the eggs for 10 minutes, cool them and chop.
+      - Blend the tomatoes with the garlic and salt. Strain out the skins and seeds.
+      - Add the bread in pieces, let it soak for 10 minutes and blend again.
+      - Add the oil gradually until you have a thick, glossy cream.
+      - Chill and serve with the egg, the ham and a drizzle of oil.
+
+  - name: Valencian paella
+    category: Rice
+    difficulty: HARD
+    prep: 20
+    cook: 45
+    servings: 6
+    origin: Valencia
+    originCountry: ES
+    tags: [rice, chicken, weekend]
+    notes: Ideally use a 40-45 cm paella pan. Do not stir the rice once it is in.
+    ingredients:
+      - items:
+          - [chicken pieces, 800, g]
+          - [rabbit pieces, 600, g]
+          - [flat green beans, 250, g]
+          - [butter beans (garrofó), 150, g]
+          - [grated tomatoes, 2, null]
+          - [bomba or round rice, 500, g]
+          - [olive oil, 100, ml]
+          - [sweet paprika, 1, tsp]
+          - [saffron threads, 1, pinch]
+          - [fresh rosemary, 1, sprig, optional]
+          - [water, 1.5, l]
+          - [salt, null, null]
+    steps:
+      - Heat the oil in the paella pan, salt the meat and brown it well over medium heat, about 15 minutes.
+      - Add the green beans and butter beans and fry for 5 minutes.
+      - Make a space in the centre, fry the tomato and, at the end, the paprika without burning it.
+      - Pour in the water, add the saffron and salt, and simmer for 20 minutes to make the broth.
+      - Scatter the rice in a cross, spread it out and cook 10 minutes over high heat and 8 over low heat, without stirring. Add the rosemary for the last few minutes.
+      - Turn up the heat for the last minute for the socarrat crust and rest for 5 minutes under a cloth.
+
+  - name: Spanish omelette
+    category: Eggs
+    difficulty: MEDIUM
+    prep: 15
+    cook: 30
+    servings: 4
+    origin: Spain
+    originCountry: ES
+    tags: [vegetarian, gluten free, classic]
+    ingredients:
+      - items:
+          - [potatoes, 700, g]
+          - [eggs, 6, null]
+          - [onion, 1, null, optional]
+          - [olive oil, 400, ml]
+          - [salt, null, null]
+    steps:
+      - Peel the potatoes and slice them thinly. Chop the onion.
+      - Gently cook the potatoes and onion in the oil over medium-low heat for 20 minutes, until tender. Drain.
+      - Beat the eggs with salt, mix with the potatoes and leave for 5 minutes.
+      - Set the mixture in a pan with a tablespoon of oil, 3 minutes over medium heat.
+      - Flip it with a plate and cook 2 more minutes on the other side. Best left juicy inside.
+
+  - name: Pisto
+    category: Vegetables
+    difficulty: EASY
+    prep: 20
+    cook: 45
+    servings: 4
+    origin: La Mancha
+    originCountry: ES
+    tags: [vegan, gluten free, vegetables]
+    ingredients:
+      - items:
+          - [onion, 1, null]
+          - [green pepper, 1, null]
+          - [red pepper, 1, null]
+          - [courgettes, 2, null]
+          - [crushed tomatoes, 400, g]
+          - [extra virgin olive oil, 5, tbsp]
+          - [sugar, 1, tsp, optional]
+          - [salt, null, null]
+          - [fried eggs, 4, null, optional]
+    steps:
+      - Cut all the vegetables into dice of a similar size.
+      - Soften the onion in the oil for 10 minutes. Add the peppers and cook 10 minutes more.
+      - Add the courgette and let it release its water, about 10 minutes.
+      - Add the tomato, salt and the sugar if the tomato is acidic, and cook for 15 minutes over low heat.
+      - Serve with a fried egg on top.
+
+  - name: Greek salad
+    category: Salads
+    difficulty: EASY
+    prep: 15
+    cook: 0
+    servings: 4
+    origin: Greece
+    originCountry: GR
+    tags: [vegetarian, gluten free, summer]
+    ingredients:
+      - items:
+          - [tomatoes, 4, null]
+          - [cucumber, 1, null]
+          - [green pepper, 1, null]
+          - [red onion, 0.5, null]
+          - [Kalamata olives, 100, g]
+          - [feta cheese, 200, g]
+          - [dried oregano, 1, tsp]
+          - [extra virgin olive oil, 4, tbsp]
+          - [red wine vinegar, 1, tbsp]
+          - [salt, null, null]
+    steps:
+      - Cut the tomato into wedges, the cucumber into half moons, the pepper into strips and the onion into thin rings.
+      - Mix the vegetables with the olives and season lightly with salt.
+      - Place the feta on top in one block and sprinkle with oregano.
+      - Dress with the oil and vinegar just before serving.
+
+  - name: Tzatziki
+    category: Sauces
+    difficulty: EASY
+    prep: 15
+    cook: 0
+    servings: 4
+    origin: Greece
+    originCountry: GR
+    tags: [vegetarian, gluten free, snack]
+    ingredients:
+      - items:
+          - [Greek yoghurt, 400, g]
+          - [cucumber, 1, null]
+          - [garlic, 1, clove]
+          - [chopped fresh dill or mint, 1, tbsp]
+          - [extra virgin olive oil, 1, tbsp]
+          - [lemon juice, 1, tsp]
+          - [salt, null, null]
+    steps:
+      - Grate the unpeeled cucumber, salt it and let it drain for 10 minutes. Squeeze out the water.
+      - Mix the yoghurt with the cucumber, grated garlic, dill, lemon and oil.
+      - Check the salt and chill for 30 minutes. Serve with pitta bread.
+
+  - name: Moussaka
+    category: Meat
+    difficulty: HARD
+    prep: 40
+    cook: 75
+    servings: 6
+    origin: Greece
+    originCountry: GR
+    tags: [oven, lamb, aubergine]
+    utensils: [Oven]
+    ingredients:
+      - group: Layers
+        items:
+          - [aubergines, 3, null]
+          - [potatoes, 2, null, optional]
+          - [olive oil, 4, tbsp]
+          - [salt, null, null]
+      - group: Meat
+        items:
+          - [minced lamb or beef, 600, g]
+          - [onion, 1, null]
+          - [garlic, 2, clove]
+          - [crushed tomatoes, 400, g]
+          - [red wine, 100, ml]
+          - [ground cinnamon, 0.5, tsp]
+          - [dried oregano, 1, tsp]
+      - group: Béchamel
+        items:
+          - [butter, 60, g]
+          - [plain flour, 60, g]
+          - [milk, 700, ml]
+          - [egg, 1, null]
+          - [grated kefalotyri or Parmesan, 60, g]
+          - [nutmeg, 1, pinch]
+    steps:
+      - group: Preparation
+        items:
+          - Slice the aubergines 1 cm thick, salt them for 20 minutes and pat dry. Brush with oil and roast at 200 °C for 20 minutes. If using potato, roast the slices the same way.
+          - Fry the onion and garlic, add the meat and brown it. Add the wine, tomato, cinnamon and oregano and cook for 20 minutes.
+          - For the béchamel, cook the flour in the butter for 2 minutes, add the milk gradually and simmer until thick. Off the heat, add the egg, half the cheese and the nutmeg.
+      - group: Assembly
+        items:
+          - In a dish, layer potato, aubergine and meat, and finish with the béchamel and the rest of the cheese.
+          - Bake at 180 °C for 45 minutes, until golden. Rest for 20 minutes before cutting.
+
+  - name: Hummus
+    category: Legumes
+    difficulty: EASY
+    prep: 10
+    cook: 0
+    servings: 6
+    origin: Lebanon
+    originCountry: LB
+    tags: [vegan, gluten free, snack]
+    utensils: [Food processor]
+    ingredients:
+      - items:
+          - [cooked chickpeas, 400, g]
+          - [tahini, 4, tbsp]
+          - [lemon juice, 3, tbsp]
+          - [garlic, 1, clove]
+          - [ice-cold water, 4, tbsp]
+          - [ground cumin, 0.5, tsp]
+          - [salt, 1, tsp]
+          - [extra virgin olive oil, null, null]
+          - [paprika, null, null, optional]
+    steps:
+      - Blend the tahini with the lemon, garlic and salt until pale.
+      - Add the drained chickpeas and cumin and blend for 2-3 minutes, adding the cold water a little at a time, until very creamy.
+      - Serve with a drizzle of oil, paprika and pitta bread.
+
+  - name: Tabbouleh
+    category: Salads
+    difficulty: EASY
+    prep: 25
+    cook: 0
+    servings: 4
+    origin: Lebanon
+    originCountry: LB
+    tags: [vegan, summer]
+    notes: Lebanese tabbouleh is mostly parsley; the bulgur is a supporting act, not the base.
+    ingredients:
+      - items:
+          - [fresh parsley, 3, bunch]
+          - [fresh mint, 1, bunch]
+          - [fine bulgur, 50, g]
+          - [tomatoes, 3, null]
+          - [spring onions, 2, null]
+          - [lemon juice, 4, tbsp]
+          - [extra virgin olive oil, 5, tbsp]
+          - [salt, null, null]
+    steps:
+      - Soak the bulgur in cold water for 15 minutes and drain well.
+      - Chop the parsley and mint very finely, well dried, with a sharp knife.
+      - Dice the tomato small and slice the spring onion very thinly.
+      - Mix everything with the lemon, oil and salt just before serving.
+
+  - name: Falafel
+    category: Legumes
+    difficulty: MEDIUM
+    prep: 20
+    cook: 15
+    servings: 4
+    origin: Middle East
+    tags: [vegan, fried]
+    utensils: [Food processor]
+    notes: Use dried chickpeas soaked overnight, not cooked ones, or the falafel will fall apart.
+    ingredients:
+      - items:
+          - [dried chickpeas soaked for 24 hours, 250, g]
+          - [onion, 0.5, null]
+          - [garlic, 2, clove]
+          - [fresh parsley, 1, bunch]
+          - [fresh coriander, 0.5, bunch]
+          - [ground cumin, 1, tsp]
+          - [ground coriander, 1, tsp]
+          - [bicarbonate of soda, 0.5, tsp]
+          - [salt, 1, tsp]
+          - [sunflower oil for frying, 500, ml]
+    steps:
+      - Drain the chickpeas very well and blitz them with the onion, garlic, herbs and spices to a coarse sand texture.
+      - Add the salt and bicarbonate and chill the mixture for 30 minutes.
+      - Shape into walnut-sized balls or patties.
+      - Fry in oil at 175 °C for 3-4 minutes, until golden. Drain.
+      - Serve in pitta bread with salad and tahini sauce or tzatziki.
+
+  - name: Shakshuka
+    category: Eggs
+    difficulty: EASY
+    prep: 10
+    cook: 25
+    servings: 2
+    origin: Tunisia
+    originCountry: TN
+    tags: [vegetarian, gluten free, breakfast]
+    ingredients:
+      - items:
+          - [eggs, 4, null]
+          - [crushed tomatoes, 400, g]
+          - [red pepper, 1, null]
+          - [onion, 1, null]
+          - [garlic, 2, clove]
+          - [ground cumin, 1, tsp]
+          - [sweet paprika, 1, tsp]
+          - [harissa or chilli, 1, tsp, optional]
+          - [olive oil, 3, tbsp]
+          - [fresh coriander or parsley, null, null]
+          - [salt, null, null]
+    steps:
+      - Fry the onion and the pepper strips in the oil for 10 minutes.
+      - Add the garlic and spices, stir for 1 minute and add the tomato and harissa. Cook for 10 minutes and season.
+      - Make four wells in the sauce and crack an egg into each.
+      - Cover and cook over low heat for 6-8 minutes, until the whites set and the yolks are still runny.
+      - Serve with coriander and bread for dipping.
+
+  - name: Vegetable couscous
+    category: Vegetables
+    difficulty: MEDIUM
+    prep: 20
+    cook: 40
+    servings: 4
+    origin: Morocco
+    originCountry: MA
+    tags: [vegan, pulses]
+    ingredients:
+      - group: Vegetables
+        items:
+          - [onion, 1, null]
+          - [carrots, 2, null]
+          - [courgette, 1, null]
+          - [turnip, 1, null]
+          - [pumpkin, 250, g]
+          - [cooked chickpeas, 400, g]
+          - [crushed tomatoes, 200, g]
+          - [ras el hanout, 2, tsp]
+          - [turmeric, 0.5, tsp]
+          - [vegetable stock, 1, l]
+          - [olive oil, 3, tbsp]
+          - [salt, null, null]
+      - group: Couscous
+        items:
+          - [couscous, 300, g]
+          - [butter or oil, 20, g]
+          - [raisins, 40, g, optional]
+    steps:
+      - Fry the onion in the oil, add the spices and tomato and cook for 5 minutes.
+      - Add the carrot, turnip and stock and simmer for 15 minutes. Add the pumpkin, courgette and chickpeas and simmer for 15 more. Season.
+      - Put the couscous in a bowl, cover with 300 ml of the boiling broth and cover for 5 minutes. Fluff with a fork and the butter.
+      - Serve the couscous with the vegetables and broth on top, and the raisins if you like.
+
+  - name: Chicken tagine with lemon and olives
+    category: Meat
+    difficulty: MEDIUM
+    prep: 15
+    cook: 60
+    servings: 4
+    origin: Morocco
+    originCountry: MA
+    tags: [chicken, stew]
+    notes: Without a clay tagine, a heavy lidded casserole works well.
+    ingredients:
+      - items:
+          - [chicken thighs, 8, null]
+          - [onions, 2, null]
+          - [garlic, 3, clove]
+          - [ground ginger, 1, tsp]
+          - [turmeric, 1, tsp]
+          - [saffron threads, 1, pinch, optional]
+          - [preserved lemon, 1, null]
+          - [green olives, 150, g]
+          - [fresh coriander and parsley, 1, bunch]
+          - [olive oil, 4, tbsp]
+          - [water, 250, ml]
+          - [salt, null, null]
+    steps:
+      - Marinate the chicken with the grated garlic, spices, oil and a little salt for 30 minutes.
+      - Brown the chicken in the casserole and set aside. Soften the sliced onion for 10 minutes.
+      - Return the chicken, add the water and herbs, cover and simmer gently for 40 minutes.
+      - Add the preserved lemon peel in strips and the olives and cook 10 more minutes, until the sauce thickens.
+
+  - name: Pasta with Genovese pesto
+    category: Pasta
+    difficulty: EASY
+    prep: 10
+    cook: 12
+    servings: 4
+    origin: Genoa
+    originCountry: IT
+    tags: [vegetarian, quick]
+    utensils: [Blender]
+    ingredients:
+      - group: Pesto
+        items:
+          - [fresh basil (leaves only), 60, g]
+          - [pine nuts, 30, g]
+          - [garlic, 1, clove]
+          - [grated Parmesan, 50, g]
+          - [grated pecorino, 20, g, optional]
+          - [extra virgin olive oil, 100, ml]
+          - [salt, 1, pinch]
+      - group: Pasta
+        items:
+          - ["trofie, linguine or spaghetti", 400, g]
+          - [small potato in dice, 1, null, optional]
+          - [green beans, 100, g, optional]
+    steps:
+      - Briefly blend the basil with the garlic, pine nuts and salt. Add the cheeses and oil and pulse without warming the mixture.
+      - Cook the pasta in salted water; if using potato and green beans, add them to the same pot 8 minutes before the end.
+      - Keep a glass of the cooking water and drain.
+      - Toss the pasta with the pesto off the heat, loosening it with a little of the reserved water.
+
+  - name: Mushroom risotto
+    category: Rice
+    difficulty: MEDIUM
+    prep: 15
+    cook: 30
+    servings: 4
+    origin: Italy
+    originCountry: IT
+    tags: [vegetarian, mushrooms, autumn]
+    ingredients:
+      - items:
+          - [arborio or carnaroli rice, 320, g]
+          - [mixed mushrooms, 400, g]
+          - [dried porcini, 15, g, optional]
+          - [shallots, 2, null]
+          - [dry white wine, 120, ml]
+          - [hot vegetable stock, 1.2, l]
+          - [butter, 50, g]
+          - [grated Parmesan, 60, g]
+          - [olive oil, 2, tbsp]
+          - [chopped parsley, null, null]
+          - [salt and pepper, null, null]
+    steps:
+      - If using dried porcini, soak them in hot water for 20 minutes; chop them and add the strained water to the stock.
+      - Fry the mushrooms in oil over high heat, season and set aside.
+      - Soften the chopped shallot in half the butter, add the rice and toast it for 2 minutes. Add the wine and let it evaporate.
+      - Add the stock a ladleful at a time, stirring, for about 18 minutes.
+      - Stir in the mushrooms, take off the heat and beat in the rest of the butter and the Parmesan. Rest 2 minutes and serve with parsley.
+
+  - name: Caprese salad
+    category: Salads
+    difficulty: EASY
+    prep: 10
+    cook: 0
+    servings: 4
+    origin: Capri
+    originCountry: IT
+    tags: [vegetarian, gluten free, summer, quick]
+    ingredients:
+      - items:
+          - [ripe tomatoes, 4, null]
+          - [buffalo mozzarella, 250, g]
+          - [fresh basil, 1, bunch]
+          - [extra virgin olive oil, 4, tbsp]
+          - [dried oregano, 1, pinch, optional]
+          - [flaky salt and pepper, null, null]
+    steps:
+      - Slice the tomatoes and mozzarella to a similar thickness.
+      - Alternate tomato, mozzarella and basil leaves on a platter.
+      - Dress with oil, flaky salt, pepper and oregano just before serving.
+
+  - name: Baked sea bream with potatoes
+    category: Fish and seafood
+    difficulty: EASY
+    prep: 15
+    cook: 40
+    servings: 2
+    origin: Spain
+    originCountry: ES
+    tags: [fish, oven, gluten free]
+    utensils: [Oven]
+    ingredients:
+      - items:
+          - [cleaned sea bream (about 400 g each), 2, null]
+          - [potatoes, 3, null]
+          - [onion, 1, null]
+          - [garlic, 3, clove]
+          - [lemon, 1, null]
+          - [white wine, 100, ml]
+          - [extra virgin olive oil, 6, tbsp]
+          - [chopped parsley, 2, tbsp]
+          - [salt, null, null]
+    steps:
+      - Slice the potatoes thinly and the onion into strips. Put them in a dish with salt and half the oil and bake at 200 °C for 20 minutes.
+      - Make two cuts along each side of the fish, season and slip lemon slices into the cuts.
+      - Lay the fish on the potatoes, pour over the wine and bake for 15-18 minutes.
+      - Fry the sliced garlic in the rest of the oil, add the parsley and pour it over the fish to serve.
+
+  - name: Garlic prawns
+    category: Fish and seafood
+    difficulty: EASY
+    prep: 10
+    cook: 5
+    servings: 4
+    origin: Spain
+    originCountry: ES
+    tags: [tapa, quick, gluten free, spicy]
+    ingredients:
+      - items:
+          - [peeled prawns, 400, g]
+          - [garlic, 6, clove]
+          - [dried chilli (guindilla), 1, null]
+          - [extra virgin olive oil, 120, ml]
+          - [chopped parsley, 1, tbsp]
+          - [salt, null, null]
+    steps:
+      - Slice the garlic and break up the chilli.
+      - Gently heat the oil in a clay dish with the garlic and chilli until the garlic starts to colour.
+      - Turn up the heat, add the salted prawns and cook for 1-2 minutes, just until they change colour.
+      - Sprinkle with parsley and serve sizzling with bread.
+
+  - name: Crema catalana
+    category: Desserts
+    difficulty: MEDIUM
+    prep: 15
+    cook: 15
+    servings: 6
+    origin: Catalonia
+    originCountry: ES
+    tags: [dessert, vegetarian, gluten free]
+    notes: Needs at least 3 hours in the fridge. To caramelise the sugar, use a blowtorch or a hot iron.
+    ingredients:
+      - items:
+          - [whole milk, 1, l]
+          - [egg yolks, 8, null]
+          - [sugar, 150, g]
+          - [cornflour, 30, g]
+          - [lemon peel, 1, null]
+          - [cinnamon stick, 1, null]
+          - [sugar for caramelising, 6, tbsp]
+    steps:
+      - Bring the milk to the boil with the lemon peel and cinnamon. Take off the heat and infuse for 10 minutes.
+      - Whisk the yolks with the sugar and cornflour until pale.
+      - Strain the milk onto the yolks, mix and return to a low heat, stirring constantly until thick, without boiling.
+      - Pour into ramekins, cool and chill for at least 3 hours.
+      - Before serving, sprinkle with sugar and caramelise with a blowtorch.

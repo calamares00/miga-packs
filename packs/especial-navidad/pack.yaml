@@ -1,0 +1,659 @@
+id: especial-navidad
+version: 1
+updated: 2026-10-30
+language: es
+name: Especial Navidad
+description: >-
+  Las recetas de siempre para Nochebuena, Navidad y Reyes: cóctel de gambas, croquetas, sopa de
+  galets, cordero asado, cochinillo, besugo, merluza en salsa verde, lombarda, roscón de Reyes,
+  turrones, polvorones y mazapanes. Con notas para adelantar trabajo y cocinar para mucha gente.
+author: Miga
+authorGithub: calamares00
+cover:
+  emoji: "🎄"
+  title: Especial Navidad
+  colors: ["#7f1d1d", "#dc2626"]
+defaults:
+  source: Pack «Especial Navidad» de Miga
+recipes:
+
+  - name: Cóctel de gambas
+    category: Entrantes
+    difficulty: EASY
+    prep: 20
+    cook: 3
+    servings: 6
+    origin: España
+    originCountry: ES
+    tags: [navidad, marisco, frío]
+    notes: Se puede preparar por la mañana y montar justo antes de servir.
+    ingredients:
+      - group: Cóctel
+        items:
+          - [gambas cocidas y peladas, 500, g]
+          - [lechuga (cogollos o iceberg), 1, null]
+          - [piña en almíbar, 4, rodaja, optional]
+          - [huevos cocidos, 2, null, optional]
+      - group: Salsa rosa
+        items:
+          - [mayonesa, 200, g]
+          - [kétchup, 3, cucharada]
+          - [zumo de naranja, 2, cucharada]
+          - [brandy, 1, cucharada, optional]
+          - [salsa Worcestershire, 1, cucharadita, optional]
+    steps:
+      - Mezcla la mayonesa con el kétchup, el zumo de naranja, el brandy y la salsa Worcestershire. Refrigera.
+      - Corta la lechuga en juliana fina y repártela en copas.
+      - Añade la piña y el huevo picado, y coloca las gambas encima.
+      - Cubre con la salsa rosa justo al servir y decora con una gamba entera en el borde.
+  - name: Croquetas de jamón
+    category: Entrantes
+    difficulty: MEDIUM
+    prep: 30
+    cook: 25
+    servings: 6
+    origin: España
+    originCountry: ES
+    tags: [navidad, fritura, se congela]
+    notes: La masa necesita reposar al menos 4 horas en la nevera. Rebozadas y crudas se congelan muy bien; fríelas sin descongelar.
+    ingredients:
+      - group: Bechamel
+        items:
+          - [mantequilla, 60, g]
+          - [aceite de oliva, 2, cucharada]
+          - [cebolla pequeña picada, 0.5, null]
+          - [harina de trigo, 90, g]
+          - [leche entera, 750, ml]
+          - [jamón serrano picado muy fino, 150, g]
+          - [nuez moscada, 1, pizca]
+          - [sal, null, null]
+      - group: Rebozado
+        items:
+          - [huevos, 2, null]
+          - [pan rallado, 150, g]
+          - [aceite de oliva o girasol para freír, 500, ml]
+    steps:
+      - Pocha la cebolla en la mantequilla y el aceite 5 minutos. Añade el jamón y rehoga 1 minuto.
+      - Incorpora la harina y cocínala 2 minutos sin dejar de remover.
+      - Añade la leche caliente poco a poco, removiendo con varillas, y cuece 10-12 minutos a fuego bajo hasta que la masa se despegue de las paredes.
+      - Sazona con nuez moscada y poca sal (el jamón ya sala). Extiende en una fuente, cubre con film a piel y refrigera al menos 4 horas.
+      - Forma las croquetas, pásalas por huevo batido y pan rallado.
+      - Fríe en tandas en aceite muy caliente (180 °C) hasta que estén doradas. Escurre sobre papel.
+  - name: Salpicón de marisco
+    category: Pescados y mariscos
+    difficulty: EASY
+    prep: 25
+    cook: 10
+    servings: 6
+    origin: España
+    originCountry: ES
+    tags: [navidad, marisco, frío, sin gluten]
+    ingredients:
+      - items:
+          - [langostinos cocidos, 400, g]
+          - [mejillones, 1, kg]
+          - [palitos de cangrejo o surimi, 150, g, optional]
+          - [pimiento rojo, 1, null]
+          - [pimiento verde, 1, null]
+          - [cebolleta, 1, null]
+          - [aceite de oliva virgen extra, 100, ml]
+          - [vinagre de vino blanco, 3, cucharada]
+          - [sal, null, null]
+    steps:
+      - Abre los mejillones al vapor en una olla tapada 3-4 minutos. Retira las conchas y deja enfriar.
+      - Pela los langostinos y trocéalos si son grandes.
+      - Pica muy fino los pimientos y la cebolleta.
+      - Mezcla el marisco con las verduras y aliña con el aceite, el vinagre y sal.
+      - Refrigera al menos 1 hora antes de servir para que se mezclen los sabores.
+  - name: Ensalada de escarola con granada
+    category: Ensaladas
+    difficulty: EASY
+    prep: 15
+    cook: 0
+    servings: 6
+    origin: España
+    originCountry: ES
+    tags: [navidad, vegetariana, sin gluten]
+    ingredients:
+      - items:
+          - [escarola, 1, null]
+          - [granada, 1, null]
+          - [nueces peladas, 60, g]
+          - [queso de cabra o queso azul, 100, g, optional]
+          - [aceite de oliva virgen extra, 5, cucharada]
+          - [vinagre de Módena, 2, cucharada]
+          - [mostaza de Dijon, 1, cucharadita]
+          - [miel, 1, cucharadita]
+          - [sal, null, null]
+    steps:
+      - Lava la escarola, sécala bien y trocéala.
+      - Desgrana la granada golpeando la piel con una cuchara sobre un bol.
+      - Emulsiona el aceite con el vinagre, la mostaza, la miel y sal.
+      - Monta la escarola con la granada, las nueces y el queso desmenuzado, y aliña al servir.
+  - name: Sopa de galets
+    category: Sopas y cremas
+    difficulty: MEDIUM
+    prep: 30
+    cook: 180
+    servings: 8
+    origin: Cataluña
+    originCountry: ES
+    tags: [navidad, caldo, se congela]
+    utensils: [Olla exprés]
+    notes: Es la escudella de Navidad. El caldo se puede hacer días antes y congelar; en olla exprés tarda unos 45 minutos.
+    ingredients:
+      - group: Caldo
+        items:
+          - [jarrete de ternera, 500, g]
+          - [muslos de pollo, 2, null]
+          - [hueso de jamón, 1, null]
+          - [hueso de rodilla de ternera, 1, null]
+          - [puerros, 2, null]
+          - [zanahorias, 2, null]
+          - [chirivía, 1, null]
+          - [rama de apio, 1, null]
+          - [patata, 1, null]
+          - [agua, 4, l]
+          - [sal, null, null]
+      - group: Pelota
+        items:
+          - [carne picada de cerdo y ternera, 300, g]
+          - [huevo, 1, null]
+          - [ajo, 1, diente]
+          - [perejil picado, 1, cucharada]
+          - [pan rallado, 3, cucharada]
+          - [harina, null, null]
+      - group: Para servir
+        items:
+          - [galets (pasta de caracola grande), 300, g]
+    steps:
+      - group: Caldo
+        items:
+          - Pon las carnes y los huesos en agua fría, lleva a ebullición y desespuma.
+          - Añade las verduras y cuece a fuego suave unas 3 horas, sin que llegue a hervir con fuerza.
+      - group: Pelota
+        items:
+          - Mezcla la carne picada con el huevo, el ajo, el perejil, el pan rallado y sal. Forma una o dos pelotas alargadas y pásalas por harina.
+          - Cuécelas en el caldo los últimos 30 minutos.
+      - group: Sopa
+        items:
+          - Cuela el caldo y prueba de sal. Cuece los galets en él según el paquete (unos 15 minutos).
+          - Sirve la sopa con los galets y, aparte, la carne, la pelota en rodajas y las verduras.
+  - name: Consomé al jerez
+    category: Sopas y cremas
+    difficulty: EASY
+    prep: 15
+    cook: 150
+    servings: 6
+    origin: España
+    originCountry: ES
+    tags: [navidad, caldo, sin gluten]
+    ingredients:
+      - items:
+          - [carcasa de pollo, 1, null]
+          - [jarrete de ternera, 300, g]
+          - [hueso de jamón, 1, null]
+          - [cebolla, 1, null]
+          - [zanahorias, 2, null]
+          - [puerro, 1, null]
+          - [agua, 3, l]
+          - [vino de Jerez fino o amontillado, 100, ml]
+          - [sal, null, null]
+    steps:
+      - Tuesta la cebolla partida por la mitad en una sartén seca hasta que se ennegrezca la cara cortada; dará color al caldo.
+      - Cuece las carnes, huesos y verduras en el agua a fuego muy suave 2 h 30 min, desespumando.
+      - Cuela por un colador con un paño, desgrasa y prueba de sal.
+      - Sirve muy caliente en tazas con un chorrito de jerez en cada una.
+  - name: Crema de marisco
+    category: Sopas y cremas
+    difficulty: MEDIUM
+    prep: 25
+    cook: 45
+    servings: 6
+    origin: España
+    originCountry: ES
+    tags: [navidad, marisco]
+    utensils: [Batidora]
+    ingredients:
+      - items:
+          - [gambas o langostinos crudos, 500, g]
+          - [cebolla, 1, null]
+          - [puerro, 1, null]
+          - [zanahoria, 1, null]
+          - [tomates maduros, 2, null]
+          - [brandy, 50, ml]
+          - [arroz, 2, cucharada]
+          - [fumet de pescado, 1.2, l]
+          - [nata para cocinar, 150, ml, optional]
+          - [aceite de oliva, 4, cucharada]
+          - [pimentón dulce, 0.5, cucharadita]
+          - [sal, null, null]
+    steps:
+      - Pela las gambas y reserva los cuerpos. Dora las cabezas y cáscaras en el aceite, aplastándolas para que suelten su jugo.
+      - Añade las verduras picadas y rehoga 10 minutos. Incorpora el tomate y el pimentón, y cocina 5 minutos.
+      - Flambea con el brandy, añade el arroz y el fumet, y cuece 25 minutos.
+      - Tritura, cuela muy bien apretando y vuelve al fuego. Añade la nata y sala.
+      - Saltea los cuerpos de las gambas 1 minuto y sírvelos en la crema caliente.
+  - name: Cordero lechal asado
+    category: Carnes
+    difficulty: MEDIUM
+    prep: 15
+    cook: 120
+    servings: 6
+    origin: Castilla
+    originCountry: ES
+    tags: [navidad, horno, sin gluten]
+    utensils: [Horno]
+    notes: Calcula unos 350 g de cordero con hueso por persona.
+    ingredients:
+      - items:
+          - [paletillas de cordero lechal, 2, null]
+          - [manteca de cerdo, 40, g]
+          - [ajo, 4, diente]
+          - [vino blanco, 150, ml]
+          - [agua, 250, ml]
+          - [romero y tomillo, 2, rama]
+          - [patatas, 4, null, optional]
+          - [sal, null, null]
+    steps:
+      - Precalienta el horno a 180 °C. Sala el cordero y úntalo con la manteca.
+      - Colócalo con la piel hacia abajo en una fuente de barro con el ajo, las hierbas, el vino y el agua. Si pones patatas, en rodajas debajo.
+      - Asa 1 hora, regando con el jugo cada 20 minutos.
+      - Da la vuelta, sube a 200 °C y asa 45-60 minutos más, hasta que la piel esté dorada y crujiente.
+      - Deja reposar 10 minutos y sirve con su jugo.
+  - name: Pavo relleno al horno
+    category: Carnes
+    difficulty: HARD
+    prep: 45
+    cook: 200
+    servings: 10
+    origin: Cataluña
+    originCountry: ES
+    tags: [navidad, horno, para muchos]
+    utensils: [Horno]
+    notes: Cuenta unos 40 minutos de horno por kilo. Si el pavo está congelado, descongélalo 2-3 días en la nevera.
+    ingredients:
+      - group: Pavo
+        items:
+          - [pavo entero (unos 5 kg), 1, null]
+          - [mantequilla blanda, 100, g]
+          - [caldo de pollo, 500, ml]
+          - [vino blanco o brandy, 150, ml]
+          - [sal y pimienta, null, null]
+      - group: Relleno
+        items:
+          - [carne picada de cerdo, 400, g]
+          - [cebolla picada, 1, null]
+          - [manzanas reinetas en dados, 2, null]
+          - [ciruelas pasas sin hueso, 100, g]
+          - [orejones, 80, g]
+          - [piñones, 40, g]
+          - [pan del día anterior en dados, 150, g]
+          - [huevo, 1, null]
+    steps:
+      - group: Relleno
+        items:
+          - Sofríe la cebolla, añade la carne y dórala. Incorpora la manzana, las frutas secas y los piñones y cocina 5 minutos.
+          - Fuera del fuego, mezcla con el pan y el huevo, y salpimienta.
+      - group: Pavo
+        items:
+          - Seca el pavo, salpimiéntalo por dentro y por fuera, y rellénalo sin apretar. Ata las patas.
+          - Úntalo con la mantequilla, ponlo en una bandeja con el caldo y el vino y cúbrelo con papel de aluminio.
+          - Hornea a 170 °C unas 3 horas, regando cada 30 minutos. Destapa la última hora y sube a 190 °C para dorar.
+          - Comprueba que el jugo del muslo sale claro (o 75 °C en lo más grueso). Reposa 20 minutos tapado antes de trinchar.
+  - name: Besugo al horno
+    category: Pescados y mariscos
+    difficulty: EASY
+    prep: 15
+    cook: 30
+    servings: 4
+    origin: Madrid y Cantábrico
+    originCountry: ES
+    tags: [navidad, pescado, horno, sin gluten]
+    utensils: [Horno]
+    notes: Si no encuentras besugo, la dorada o la lubina grande funcionan igual.
+    ingredients:
+      - items:
+          - ["besugo limpio (1,2-1,5 kg)", 1, null]
+          - [patatas, 3, null]
+          - [cebolla, 1, null]
+          - [limón, 1, null]
+          - [ajo, 4, diente]
+          - [guindilla, 1, null, optional]
+          - [vino blanco, 100, ml]
+          - [vinagre de vino, 1, cucharada]
+          - [aceite de oliva virgen extra, 100, ml]
+          - [perejil picado, 2, cucharada]
+          - [sal, null, null]
+    steps:
+      - Hornea las patatas en rodajas con la cebolla en juliana, sal y un chorro de aceite a 200 °C 20 minutos.
+      - Haz dos o tres cortes en cada lado del besugo, sálalo e introduce media rodaja de limón en cada corte.
+      - Ponlo sobre las patatas, riega con el vino y hornea 20-25 minutos.
+      - Dora el ajo laminado con la guindilla en el resto del aceite, retira del fuego y añade el vinagre y el perejil.
+      - Vierte el refrito sobre el besugo al sacarlo del horno.
+  - name: Lombarda con manzana
+    category: Verduras
+    difficulty: EASY
+    prep: 15
+    cook: 40
+    servings: 6
+    origin: España
+    originCountry: ES
+    tags: [navidad, guarnición, vegana, sin gluten]
+    notes: Típica de Nochebuena en Madrid y Castilla. Gana si se hace un día antes.
+    ingredients:
+      - items:
+          - [lombarda, 1, null]
+          - [manzanas reinetas, 2, null]
+          - [cebolla, 1, null]
+          - [ajo, 2, diente]
+          - [pasas, 40, g, optional]
+          - [piñones, 30, g, optional]
+          - [vinagre de manzana, 3, cucharada]
+          - [azúcar moreno, 1, cucharada]
+          - [aceite de oliva, 3, cucharada]
+          - [sal, null, null]
+    steps:
+      - Corta la lombarda en juliana fina y cuécela en agua con sal y un chorro de vinagre 20 minutos. Escurre.
+      - Sofríe la cebolla y el ajo en el aceite. Añade la manzana en dados y cocina 5 minutos.
+      - Incorpora la lombarda, las pasas, los piñones, el resto del vinagre y el azúcar.
+      - Cocina 10 minutos a fuego medio, removiendo, hasta que quede brillante. Prueba de sal.
+  - name: Roscón de Reyes
+    category: Postres
+    difficulty: HARD
+    prep: 60
+    cook: 25
+    servings: 8
+    origin: España
+    originCountry: ES
+    tags: [navidad, reyes, masa, horno]
+    utensils: [Horno, Amasadora]
+    notes: Necesita unas 6 horas entre levados. El agua de azahar es lo que le da su aroma.
+    ingredients:
+      - group: Masa
+        items:
+          - [harina de fuerza, 500, g]
+          - [levadura fresca de panadería, 25, g]
+          - [leche templada, 130, ml]
+          - [huevos, 2, null]
+          - [azúcar, 100, g]
+          - [mantequilla blanda, 80, g]
+          - [agua de azahar, 2, cucharada]
+          - [ralladura de naranja, 1, null]
+          - [ralladura de limón, 1, null]
+          - [sal, 1, pizca]
+      - group: Decoración
+        items:
+          - [huevo batido, 1, null]
+          - [fruta escarchada, 100, g]
+          - [almendra laminada, 30, g]
+          - [azúcar humedecido con agua, 4, cucharada]
+          - [nata montada o trufa, 400, ml, optional]
+    steps:
+      - group: Masa
+        items:
+          - Disuelve la levadura en la leche templada. Mezcla con la harina, el azúcar, los huevos, el azahar, las ralladuras y la sal.
+          - Amasa 10 minutos y añade la mantequilla poco a poco, amasando hasta que la masa esté fina y elástica.
+          - Deja levar tapada hasta que doble su volumen, unas 2 horas.
+      - group: Formado y horneado
+        items:
+          - Forma una bola, haz un agujero en el centro y estírala hasta formar un aro. Esconde la figurita y el haba si quieres.
+          - Deja levar sobre papel de horno 2-3 horas más, hasta que esté hinchado.
+          - Pinta con huevo, decora con la fruta, la almendra y el azúcar humedecido.
+          - Hornea a 180 °C 20-25 minutos, hasta que esté dorado. Enfría en una rejilla y, si quieres, ábrelo y rellénalo de nata.
+  - name: Turrón de chocolate crujiente
+    category: Postres
+    difficulty: EASY
+    prep: 15
+    cook: 5
+    servings: 10
+    origin: España
+    originCountry: ES
+    tags: [navidad, chocolate, sin horno]
+    notes: Usa un molde de turrón o de plum cake forrado con film. Necesita 3 horas de nevera.
+    ingredients:
+      - items:
+          - [chocolate con leche, 200, g]
+          - [chocolate negro, 100, g]
+          - [mantequilla o manteca de cacao, 30, g]
+          - [arroz inflado, 60, g]
+          - [avellanas tostadas, 50, g, optional]
+    steps:
+      - Funde los chocolates con la mantequilla al baño maría o en el microondas a intervalos de 30 segundos.
+      - Mezcla con el arroz inflado y las avellanas.
+      - Vierte en el molde, alisa y refrigera al menos 3 horas.
+      - Desmolda y corta en barritas con un cuchillo caliente.
+  - name: Polvorones
+    category: Postres
+    difficulty: MEDIUM
+    prep: 30
+    cook: 30
+    servings: 20
+    origin: Andalucía
+    originCountry: ES
+    tags: [navidad, horno, dulces]
+    utensils: [Horno]
+    notes: Tostar la harina es el secreto de la textura que se deshace. Envuelve cada polvorón en papel de seda.
+    ingredients:
+      - items:
+          - [harina de trigo, 250, g]
+          - [almendra molida tostada, 100, g]
+          - [manteca de cerdo, 125, g]
+          - [azúcar glas, 125, g]
+          - [canela molida, 1, cucharadita]
+          - [ajonjolí tostado, 1, cucharada, optional]
+          - [azúcar glas para espolvorear, null, null]
+    steps:
+      - Tuesta la harina en una bandeja en el horno a 150 °C 25 minutos, removiendo cada 5, hasta que tenga color de galleta. Deja enfriar del todo y tamiza.
+      - Mezcla la manteca con el azúcar glas, añade la harina, la almendra, la canela y el ajonjolí, y une sin amasar.
+      - Estira la masa a 1,5 cm de grosor entre dos papeles y córtala con un cortapastas ovalado.
+      - Hornea a 200 °C 10-12 minutos. Déjalos enfriar del todo sin tocarlos (se rompen en caliente) y espolvorea azúcar glas.
+  - name: Mazapanes de Toledo
+    category: Postres
+    difficulty: EASY
+    prep: 30
+    cook: 10
+    servings: 20
+    origin: Toledo
+    originCountry: ES
+    tags: [navidad, almendra, sin gluten, dulces]
+    utensils: [Horno]
+    ingredients:
+      - items:
+          - [almendra cruda molida muy fina, 250, g]
+          - [azúcar glas, 250, g]
+          - [agua, 50, ml]
+          - [ralladura de limón, 1, null, optional]
+          - [yema de huevo, 1, null]
+    steps:
+      - Calienta el agua con la mitad del azúcar hasta que se disuelva y vierte sobre la almendra mezclada con el resto del azúcar y la ralladura.
+      - Une hasta tener una pasta compacta. Envuelve en film y deja reposar 2 horas en la nevera.
+      - Da forma a las figuritas (peces, estrellas, rosquillas) de unos 20 g.
+      - Pinta con yema batida y gratina en el horno a 220 °C, solo con calor de arriba, 3-5 minutos, hasta que se doren.
+
+  - name: Cochinillo asado
+    category: Carnes
+    difficulty: MEDIUM
+    prep: 15
+    cook: 150
+    servings: 6
+    origin: Segovia
+    originCountry: ES
+    tags: [navidad, cerdo, horno, sin gluten]
+    utensils: [Horno]
+    notes: Encárgalo abierto en canal. Un cochinillo de 4-5 kg da para unas 6 personas.
+    ingredients:
+      - items:
+          - [cochinillo abierto en canal (4-5 kg), 1, null]
+          - [manteca de cerdo, 50, g]
+          - [agua, 500, ml]
+          - [ajo, 4, diente]
+          - [hojas de laurel, 2, null]
+          - [sal gruesa, null, null]
+    steps:
+      - Precalienta el horno a 180 °C. Sala el cochinillo por la parte interior.
+      - Colócalo en una fuente de barro con la piel hacia abajo, sobre unas tablillas o cucharas de madera para que no toque el fondo. Añade el agua, el ajo y el laurel.
+      - Asa 1 h 30 min, regando de vez en cuando con el jugo.
+      - Dale la vuelta, unta la piel con manteca y pínchala con un palillo para que no se hinche.
+      - Asa 1 hora más a 200 °C, hasta que la piel esté dorada y crujiente. Sirve con su jugo y una ensalada.
+
+  - name: Solomillo de cerdo al Pedro Ximénez
+    category: Carnes
+    difficulty: EASY
+    prep: 10
+    cook: 25
+    servings: 4
+    origin: Andalucía
+    originCountry: ES
+    tags: [navidad, cerdo, sin gluten]
+    ingredients:
+      - items:
+          - [solomillos de cerdo, 2, null]
+          - [cebolla, 1, null]
+          - [vino Pedro Ximénez, 200, ml]
+          - [caldo de carne, 100, ml]
+          - [pasas, 40, g, optional]
+          - [mantequilla, 20, g]
+          - [aceite de oliva, 2, cucharada]
+          - [sal y pimienta, null, null]
+    steps:
+      - Limpia los solomillos de grasa y telillas, salpimiéntalos y dóralos enteros en el aceite por todos los lados. Resérvalos.
+      - En la misma sartén pocha la cebolla en juliana fina 10 minutos.
+      - Añade el Pedro Ximénez, el caldo y las pasas, y deja reducir a la mitad.
+      - Vuelve a poner los solomillos y cocina 6-8 minutos, dándoles la vuelta, hasta que estén jugosos por dentro.
+      - Corta en medallones, termina la salsa con la mantequilla fría y sirve por encima.
+
+  - name: Merluza en salsa verde
+    category: Pescados y mariscos
+    difficulty: EASY
+    prep: 10
+    cook: 15
+    servings: 4
+    origin: País Vasco
+    originCountry: ES
+    tags: [navidad, pescado]
+    ingredients:
+      - items:
+          - [lomos de merluza, 4, null]
+          - [almejas, 300, g, optional]
+          - [ajo, 3, diente]
+          - [harina de trigo, 1, cucharada]
+          - [vino blanco, 100, ml]
+          - [fumet de pescado, 200, ml]
+          - [perejil picado, 3, cucharada]
+          - [aceite de oliva virgen extra, 5, cucharada]
+          - [sal, null, null]
+    steps:
+      - Deja las almejas en agua con sal 30 minutos para que suelten la arena.
+      - Dora el ajo picado en el aceite a fuego suave en una cazuela amplia. Añade la harina y remueve 1 minuto.
+      - Vierte el vino y el fumet poco a poco, moviendo la cazuela, hasta que la salsa ligue.
+      - Coloca la merluza salada con la piel hacia arriba y las almejas, y cocina 5-6 minutos moviendo la cazuela en vaivén.
+      - Da la vuelta a la merluza, espolvorea el perejil y cocina 2 minutos más. Las almejas deben estar abiertas.
+
+  - name: Cardo con almendras
+    category: Verduras
+    difficulty: EASY
+    prep: 10
+    cook: 15
+    servings: 4
+    origin: Navarra y Aragón
+    originCountry: ES
+    tags: [navidad, verduras, nochebuena]
+    notes: Con cardo en conserva ya cocido es muy rápido; si es fresco, cuécelo antes unos 45 minutos con un chorro de limón.
+    ingredients:
+      - items:
+          - [cardo cocido, 800, g]
+          - [almendras crudas, 50, g]
+          - [ajo, 2, diente]
+          - [harina de trigo, 1, cucharada]
+          - [leche, 200, ml]
+          - [caldo de cocción del cardo o de verduras, 200, ml]
+          - [aceite de oliva, 3, cucharada]
+          - [jamón serrano en taquitos, 60, g, optional]
+          - [sal, null, null]
+    steps:
+      - Dora las almendras en el aceite y tritúralas con el ajo y un poco de leche.
+      - En el mismo aceite, rehoga el jamón y la harina 1 minuto.
+      - Añade la leche, el caldo y el majado de almendras, y cuece 5 minutos hasta que espese.
+      - Incorpora el cardo escurrido, cocina 5 minutos más y prueba de sal.
+
+  - name: Turrón blando de Jijona
+    category: Postres
+    difficulty: MEDIUM
+    prep: 20
+    cook: 15
+    servings: 10
+    origin: Jijona
+    originCountry: ES
+    tags: [navidad, almendra, sin gluten, dulces]
+    utensils: [Robot de cocina]
+    notes: Necesita reposar 24 horas con peso encima para tener la textura de turrón.
+    ingredients:
+      - items:
+          - [almendra marcona tostada, 300, g]
+          - [miel, 125, g]
+          - [azúcar, 75, g]
+          - [clara de huevo, 1, null]
+          - [canela molida, 0.5, cucharadita, optional]
+          - [ralladura de limón, 1, null, optional]
+    steps:
+      - Tritura las almendras hasta obtener una pasta que empiece a soltar aceite.
+      - Calienta la miel con el azúcar en un cazo, removiendo, hasta que se disuelva y empiece a hervir.
+      - Monta la clara a punto de nieve y añade el almíbar caliente en hilo sin dejar de batir.
+      - Mezcla con la pasta de almendra, la canela y la ralladura, y cocina 5 minutos a fuego bajo removiendo.
+      - Vierte en un molde forrado con papel de horno, cubre, pon peso encima y deja reposar 24 horas antes de cortar.
+
+  - name: Sopa de almendras
+    category: Postres
+    difficulty: EASY
+    prep: 10
+    cook: 20
+    servings: 6
+    origin: Castilla
+    originCountry: ES
+    tags: [navidad, nochebuena, almendra]
+    notes: Postre caliente típico de Nochebuena en Castilla y Madrid.
+    ingredients:
+      - items:
+          - [almendra molida, 150, g]
+          - [leche, 1, l]
+          - [azúcar, 120, g]
+          - [rama de canela, 1, null]
+          - [piel de limón, 1, null]
+          - [pan del día anterior en rebanadas finas, 6, rebanada]
+          - [canela molida, null, null]
+    steps:
+      - Calienta la leche con la canela y la piel de limón hasta que hierva. Retira y deja infusionar 10 minutos.
+      - Cuela, añade la almendra y el azúcar, y cuece 10 minutos a fuego suave removiendo.
+      - Tuesta las rebanadas de pan y repártelas en cuencos.
+      - Vierte la sopa caliente por encima y espolvorea canela.
+
+  - name: Compota de Nochebuena
+    category: Postres
+    difficulty: EASY
+    prep: 10
+    cook: 40
+    servings: 8
+    origin: Castilla y León
+    originCountry: ES
+    tags: [navidad, nochebuena, vegana, sin gluten]
+    notes: Se toma templada o fría y aguanta varios días en la nevera.
+    ingredients:
+      - items:
+          - [ciruelas pasas, 150, g]
+          - [orejones de albaricoque, 150, g]
+          - [higos secos, 100, g]
+          - [pasas, 50, g]
+          - [manzanas reinetas, 2, null]
+          - [peras de invierno, 2, null]
+          - [vino tinto, 500, ml]
+          - [agua, 500, ml]
+          - [azúcar, 150, g]
+          - [rama de canela, 1, null]
+          - [piel de naranja, 1, null]
+          - [clavos de olor, 2, null]
+    steps:
+      - Pon el vino, el agua, el azúcar, la canela, la piel de naranja y los clavos en una olla y lleva a ebullición.
+      - Añade las frutas secas y cuece 15 minutos a fuego suave.
+      - Incorpora la manzana y la pera peladas y en cuartos, y cuece 20 minutos más, hasta que estén tiernas.
+      - Deja enfriar en su almíbar y sirve en cuencos con un poco del caldo.

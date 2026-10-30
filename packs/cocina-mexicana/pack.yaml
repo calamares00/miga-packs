@@ -1,0 +1,581 @@
+id: cocina-mexicana
+version: 1
+updated: 2026-10-30
+language: es
+name: Cocina mexicana
+description: >-
+  Veinte clásicos de México para cocinar en casa: tacos al pastor, cochinita pibil, pozole,
+  chilaquiles, enchiladas, salsas, guacamole, aguas frescas y flan. Con ingredientes fáciles de
+  encontrar y alternativas cuando hace falta.
+author: Miga
+authorGithub: calamares00
+cover:
+  emoji: "🌮"
+  title: Cocina mexicana
+  colors: ["#c2410c", "#f59e0b"]
+defaults:
+  origin: México
+  originCountry: MX
+  source: Pack «Cocina mexicana» de Miga
+recipes:
+
+  - name: Tacos al pastor
+    category: Carnes
+    difficulty: MEDIUM
+    prep: 30
+    cook: 25
+    servings: 4
+    tags: [tacos, cerdo, picante]
+    utensils: [Plancha, Batidora]
+    notes: >-
+      El adobo mejora si la carne reposa toda la noche. Sin trompo, una sartén o plancha muy
+      caliente da el toque tostado.
+    ingredients:
+      - group: Adobo
+        items:
+          - [chiles guajillo secos, 4, null]
+          - [chile ancho seco, 1, null]
+          - [pasta de achiote, 50, g]
+          - [zumo de piña, 100, ml]
+          - [vinagre de manzana, 2, cucharada]
+          - [ajo, 3, diente]
+          - [orégano seco, 1, cucharadita]
+          - [comino molido, 0.5, cucharadita]
+          - [sal, 1, cucharadita]
+      - group: Tacos
+        items:
+          - [lomo o aguja de cerdo en filetes finos, 800, g]
+          - [tortillas de maíz, 16, null]
+          - [piña en dados, 200, g]
+          - [cebolla blanca picada, 1, null]
+          - [cilantro fresco picado, 1, manojo]
+          - [limas, 2, null]
+          - [salsa verde, null, null, optional]
+    steps:
+      - Retira las semillas y venas de los chiles y tuéstalos 30 segundos por lado en una sartén seca. Remójalos 15 minutos en agua caliente.
+      - Tritura los chiles escurridos con el achiote, el zumo de piña, el vinagre, el ajo, el orégano, el comino y la sal hasta tener una pasta fina.
+      - Unta bien los filetes de cerdo con el adobo y deja marinar al menos 2 horas en la nevera.
+      - Cocina la carne en una plancha muy caliente 3-4 minutos por lado, hasta que se dore en los bordes. Córtala en tiras finas.
+      - Dora los dados de piña en la misma plancha.
+      - Calienta las tortillas y sirve la carne con piña, cebolla, cilantro y unas gotas de lima.
+
+  - name: Guacamole
+    category: Salsas
+    difficulty: EASY
+    prep: 10
+    cook: 0
+    servings: 4
+    tags: [vegetariana, vegana, sin gluten, aperitivo]
+    notes: Para que no se oscurezca, guárdalo con el hueso del aguacate y film pegado a la superficie.
+    ingredients:
+      - items:
+          - [aguacates maduros, 3, null]
+          - [lima, 1, null]
+          - [tomate, 1, null]
+          - [cebolla blanca, 0.25, null]
+          - [chile serrano o jalapeño, 1, null, optional]
+          - [cilantro fresco picado, 2, cucharada]
+          - [sal, null, null]
+    steps:
+      - Pica muy fino la cebolla, el tomate sin semillas y el chile sin venas.
+      - Machaca la pulpa de los aguacates con un tenedor o en molcajete, dejando algún trozo.
+      - Mezcla con el zumo de la lima, la cebolla, el tomate, el chile y el cilantro.
+      - Sala al gusto y sirve enseguida con totopos.
+
+  - name: Pico de gallo
+    category: Salsas
+    difficulty: EASY
+    prep: 15
+    cook: 0
+    servings: 4
+    tags: [vegetariana, vegana, sin gluten, fresca]
+    ingredients:
+      - items:
+          - [tomates maduros y firmes, 4, null]
+          - [cebolla blanca, 0.5, null]
+          - [chile serrano, 1, null]
+          - [cilantro fresco picado, 1, manojo]
+          - [lima, 1, null]
+          - [sal, null, null]
+    steps:
+      - Corta los tomates en dados pequeños y escúrrelos un poco.
+      - Pica la cebolla y el chile muy finos.
+      - Mezcla todo con el cilantro, el zumo de lima y sal.
+      - Deja reposar 10 minutos antes de servir para que se mezclen los sabores.
+
+  - name: Salsa verde
+    category: Salsas
+    difficulty: EASY
+    prep: 5
+    cook: 10
+    servings: 6
+    tags: [vegetariana, vegana, sin gluten, picante]
+    notes: Si no encuentras tomatillos frescos, usa tomatillos de lata escurridos y omite la cocción.
+    ingredients:
+      - items:
+          - [tomatillo verde, 500, g]
+          - [chiles serranos, 2, null]
+          - [cebolla blanca, 0.25, null]
+          - [ajo, 1, diente]
+          - [cilantro fresco, 0.5, manojo]
+          - [sal, 1, cucharadita]
+    steps:
+      - Quita la cáscara a los tomatillos y lávalos.
+      - Cuécelos con los chiles en agua hirviendo 8-10 minutos, hasta que cambien a verde oliva.
+      - Tritura los tomatillos y los chiles con la cebolla, el ajo, el cilantro, la sal y un poco del agua de cocción.
+      - Prueba de sal y deja enfriar. Se conserva 5 días en la nevera.
+
+  - name: Chilaquiles verdes
+    category: Huevos
+    difficulty: EASY
+    prep: 10
+    cook: 20
+    servings: 4
+    tags: [desayuno, vegetariana]
+    ingredients:
+      - items:
+          - [tortillas de maíz del día anterior, 12, null]
+          - [aceite de girasol, 150, ml]
+          - [salsa verde, 500, ml]
+          - [huevos, 4, null]
+          - [nata agria o crema, 100, ml]
+          - [queso fresco desmenuzado, 100, g]
+          - [cebolla morada en aros finos, 0.5, null]
+          - [cilantro fresco, null, null, optional]
+    steps:
+      - Corta las tortillas en triángulos y fríelas en el aceite caliente hasta que estén crujientes. Escúrrelas sobre papel.
+      - Calienta la salsa verde en una sartén amplia.
+      - Añade los totopos y remueve 1-2 minutos, solo hasta que se impregnen sin ablandarse del todo.
+      - Fríe los huevos aparte.
+      - Sirve los chilaquiles con el huevo encima, la crema, el queso, la cebolla y el cilantro.
+
+  - name: Enchiladas rojas
+    category: Carnes
+    difficulty: MEDIUM
+    prep: 25
+    cook: 30
+    servings: 4
+    tags: [pollo, horno]
+    utensils: [Horno, Batidora]
+    ingredients:
+      - group: Salsa
+        items:
+          - [chiles guajillo secos, 5, null]
+          - [chiles anchos secos, 2, null]
+          - [tomates, 2, null]
+          - [ajo, 2, diente]
+          - [cebolla blanca, 0.5, null]
+          - [comino molido, 0.25, cucharadita]
+          - [caldo de pollo, 300, ml]
+          - [sal, null, null]
+      - group: Enchiladas
+        items:
+          - [pollo cocido y deshebrado, 400, g]
+          - [tortillas de maíz, 12, null]
+          - [aceite de girasol, 3, cucharada]
+          - [queso para gratinar, 150, g]
+          - [nata agria o crema, 100, ml]
+          - [lechuga en tiras, null, null, optional]
+    steps:
+      - Limpia los chiles de semillas, tuéstalos brevemente y remójalos 15 minutos en agua caliente.
+      - Tritura los chiles con el tomate, el ajo, la cebolla, el comino y el caldo. Cuela la salsa.
+      - Cocina la salsa en una cazuela con una cucharada de aceite 10 minutos, a fuego medio. Sala al gusto.
+      - Pasa cada tortilla un momento por aceite caliente para que no se rompa y luego por la salsa.
+      - Rellena con pollo, enrolla y colócalas en una fuente. Cubre con el resto de la salsa y el queso.
+      - Hornea a 200 °C 10-12 minutos y sirve con crema y lechuga.
+
+  - name: Pozole rojo
+    category: Sopas y cremas
+    difficulty: MEDIUM
+    prep: 30
+    cook: 120
+    servings: 6
+    tags: [cerdo, guiso, fiesta]
+    utensils: [Olla exprés]
+    notes: El maíz pozolero (cacahuazintle) precocido se vende en tiendas latinas. En olla exprés, la carne está lista en 35 minutos.
+    ingredients:
+      - group: Caldo
+        items:
+          - [carne de cerdo (espaldilla y costilla), 1, kg]
+          - [maíz pozolero precocido escurrido, 800, g]
+          - [cebolla blanca, 1, null]
+          - [ajo, 5, diente]
+          - [hojas de laurel, 2, null]
+          - [sal, null, null]
+      - group: Salsa
+        items:
+          - [chiles guajillo secos, 6, null]
+          - [chiles anchos secos, 2, null]
+          - [orégano seco, 1, cucharadita]
+          - [comino molido, 0.5, cucharadita]
+      - group: Para servir
+        items:
+          - [lechuga en tiras finas, null, null]
+          - [rábanos en rodajas, 6, null]
+          - [cebolla picada, null, null]
+          - [orégano seco, null, null]
+          - [limas, 3, null]
+          - [tostadas de maíz, null, null, optional]
+    steps:
+      - group: Caldo
+        items:
+          - Cubre la carne con 3 litros de agua y añade media cebolla, 3 dientes de ajo, el laurel y sal. Cuece a fuego suave 1 h 30 min, quitando la espuma.
+          - Saca la carne, deshébrala y reserva el caldo colado.
+      - group: Salsa y montaje
+        items:
+          - Limpia y remoja los chiles 15 minutos. Tritúralos con el resto de la cebolla y del ajo, el orégano, el comino y un poco de caldo. Cuela.
+          - Añade la salsa al caldo con el maíz y la carne y cuece 30 minutos más. Prueba de sal.
+          - Sirve muy caliente y deja que cada uno añada lechuga, rábano, cebolla, orégano y lima.
+
+  - name: Sopa de tortilla
+    category: Sopas y cremas
+    difficulty: EASY
+    prep: 15
+    cook: 25
+    servings: 4
+    tags: [vegetariana, sopa]
+    utensils: [Batidora]
+    ingredients:
+      - items:
+          - [tomates maduros, 4, null]
+          - [cebolla blanca, 0.5, null]
+          - [ajo, 2, diente]
+          - [chile pasilla o ancho seco, 1, null]
+          - [caldo de verduras o de pollo, 1, l]
+          - [tortillas de maíz, 8, null]
+          - [aceite de girasol, 100, ml]
+          - [aguacate en dados, 1, null]
+          - [queso fresco en dados, 100, g]
+          - [nata agria o crema, null, null, optional]
+          - [sal, null, null]
+    steps:
+      - Corta las tortillas en tiras y fríelas hasta que estén doradas y crujientes. Escúrrelas.
+      - Fríe el chile sin semillas unos segundos en el mismo aceite y resérvalo.
+      - Tritura el tomate con la cebolla y el ajo. Sofríe el puré 8 minutos en una cazuela con un poco de aceite.
+      - Añade el caldo y la mitad del chile troceado, y cuece 15 minutos. Sala al gusto.
+      - Sirve la sopa sobre las tiras de tortilla con aguacate, queso, crema y el resto del chile desmenuzado.
+
+  - name: Cochinita pibil
+    category: Carnes
+    difficulty: MEDIUM
+    prep: 20
+    cook: 240
+    servings: 6
+    tags: [cerdo, horno, yucatán]
+    utensils: [Horno]
+    notes: Tradicionalmente se envuelve en hojas de plátano; el papel de horno y el aluminio funcionan bien.
+    ingredients:
+      - group: Cochinita
+        items:
+          - [paleta o aguja de cerdo en trozos grandes, 1.5, kg]
+          - [pasta de achiote, 100, g]
+          - [zumo de naranja, 200, ml]
+          - [zumo de lima, 50, ml]
+          - [vinagre blanco, 2, cucharada]
+          - [ajo, 4, diente]
+          - [comino molido, 1, cucharadita]
+          - [orégano seco, 1, cucharadita]
+          - [sal, 2, cucharadita]
+          - [hojas de plátano, null, null, optional]
+      - group: Cebolla encurtida
+        items:
+          - [cebollas moradas, 2, null]
+          - [zumo de lima, 100, ml]
+          - [chile habanero picado, 1, null, optional]
+          - [sal, null, null]
+    steps:
+      - group: Cochinita
+        items:
+          - Disuelve el achiote en los zumos y el vinagre y tritúralo con el ajo, el comino, el orégano y la sal.
+          - Marina la carne en esta mezcla al menos 4 horas (mejor toda la noche).
+          - Forra una fuente con hojas de plátano o papel de horno, coloca la carne con el adobo y cierra bien con aluminio.
+          - Hornea a 160 °C unas 4 horas, hasta que la carne se deshaga. Deshébrala con su jugo.
+      - group: Cebolla encurtida
+        items:
+          - Corta la cebolla en plumas finas, mézclala con el zumo de lima, el habanero y sal, y deja reposar 30 minutos.
+          - Sirve la cochinita en tortillas o pan, con la cebolla encurtida.
+
+  - name: Tinga de pollo
+    category: Carnes
+    difficulty: EASY
+    prep: 15
+    cook: 30
+    servings: 4
+    tags: [pollo, tostadas]
+    utensils: [Batidora]
+    ingredients:
+      - items:
+          - [pechuga de pollo, 600, g]
+          - [tomates, 4, null]
+          - [chiles chipotles en adobo, 2, null]
+          - [cebollas blancas en plumas, 2, null]
+          - [ajo, 2, diente]
+          - [orégano seco, 0.5, cucharadita]
+          - [aceite de oliva, 2, cucharada]
+          - [sal, null, null]
+          - [tostadas de maíz, 12, null]
+          - [frijoles refritos, null, null, optional]
+          - [nata agria o crema, null, null]
+          - [lechuga en tiras, null, null]
+    steps:
+      - Cuece el pollo en agua con sal 20 minutos. Deja enfriar y deshébralo. Guarda un vaso del caldo.
+      - Tritura el tomate con los chipotles, el ajo, el orégano y medio vaso del caldo.
+      - Sofríe la cebolla en el aceite hasta que esté blanda, unos 8 minutos.
+      - Añade la salsa, cuece 5 minutos y agrega el pollo. Cocina 5 minutos más, hasta que quede jugoso pero no caldoso.
+      - Sirve sobre tostadas untadas con frijoles, con lechuga y crema.
+
+  - name: Frijoles refritos
+    category: Legumbres
+    difficulty: EASY
+    prep: 5
+    cook: 15
+    servings: 4
+    tags: [vegetariana, sin gluten, guarnición]
+    notes: Con frijoles cocidos en casa salen aún mejor; guarda un poco del caldo de cocción.
+    ingredients:
+      - items:
+          - [frijoles negros o pintos cocidos, 800, g]
+          - [cebolla blanca picada, 0.5, null]
+          - [ajo, 1, diente]
+          - [manteca de cerdo o aceite, 3, cucharada]
+          - [agua o caldo de cocción, 150, ml]
+          - [sal, null, null]
+          - [queso fresco desmenuzado, null, null, optional]
+    steps:
+      - Calienta la manteca y dora la cebolla y el ajo picados.
+      - Añade los frijoles con el líquido y aplástalos con un pasapurés o el dorso de una cuchara.
+      - Cocina removiendo hasta que espesen como un puré cremoso. Sala al gusto.
+      - Sirve con queso fresco por encima.
+
+  - name: Arroz rojo mexicano
+    category: Arroces
+    difficulty: EASY
+    prep: 10
+    cook: 25
+    servings: 4
+    tags: [vegetariana, guarnición]
+    utensils: [Batidora]
+    ingredients:
+      - items:
+          - [arroz de grano largo, 250, g]
+          - [tomates, 2, null]
+          - [cebolla blanca, 0.25, null]
+          - [ajo, 1, diente]
+          - [aceite de girasol, 3, cucharada]
+          - [caldo de pollo o de verduras, 450, ml]
+          - [zanahoria en dados, 1, null]
+          - [guisantes, 80, g]
+          - [sal, null, null]
+    steps:
+      - Lava el arroz hasta que el agua salga clara y escúrrelo bien.
+      - Tritura el tomate con la cebolla y el ajo.
+      - Dora el arroz en el aceite, removiendo, hasta que suene seco y tome color, unos 5 minutos.
+      - Añade el puré de tomate y cocina 2 minutos. Agrega el caldo, la zanahoria, los guisantes y sal.
+      - Cuando hierva, tapa y cuece a fuego mínimo 15-18 minutos. Deja reposar 5 minutos tapado y suelta con un tenedor.
+
+  - name: Huevos rancheros
+    category: Huevos
+    difficulty: EASY
+    prep: 10
+    cook: 15
+    servings: 2
+    tags: [desayuno, vegetariana, picante]
+    ingredients:
+      - items:
+          - [huevos, 4, null]
+          - [tortillas de maíz, 4, null]
+          - [tomates, 3, null]
+          - [cebolla blanca, 0.25, null]
+          - [ajo, 1, diente]
+          - [chile serrano, 1, null]
+          - [aceite de girasol, 3, cucharada]
+          - [frijoles refritos, null, null, optional]
+          - [sal, null, null]
+    steps:
+      - Asa el tomate, la cebolla, el ajo y el chile en una sartén seca hasta que se tuesten. Tritúralos.
+      - Cocina la salsa en una cucharada de aceite 5 minutos y sala al gusto.
+      - Pasa las tortillas por aceite caliente unos segundos para que se ablanden.
+      - Fríe los huevos.
+      - Sirve cada tortilla con frijoles, un huevo y la salsa ranchera por encima.
+
+  - name: Quesadillas
+    category: Panes y masas
+    difficulty: EASY
+    prep: 5
+    cook: 10
+    servings: 4
+    tags: [vegetariana, rápida]
+    utensils: [Plancha]
+    notes: Admiten rellenos como champiñones, flor de calabaza, rajas de chile poblano o tinga de pollo.
+    ingredients:
+      - items:
+          - [tortillas de maíz o de trigo, 8, null]
+          - [queso Oaxaca o mozzarella rallado, 250, g]
+          - [champiñones laminados y salteados, 200, g, optional]
+          - [epazote o cilantro, null, null, optional]
+          - [salsa verde, null, null]
+    steps:
+      - Calienta una plancha o sartén a fuego medio.
+      - Pon queso sobre media tortilla, añade el relleno que quieras y dóblala.
+      - Cocina 2-3 minutos por lado, hasta que el queso se funda y la tortilla esté dorada.
+      - Sirve con salsa verde.
+
+  - name: Chiles rellenos de queso
+    category: Verduras
+    difficulty: HARD
+    prep: 40
+    cook: 30
+    servings: 4
+    tags: [vegetariana, fritura]
+    utensils: [Batidora]
+    notes: Si no encuentras chiles poblanos, usa pimientos italianos verdes; quedan menos picantes.
+    ingredients:
+      - group: Chiles
+        items:
+          - [chiles poblanos, 4, null]
+          - [queso fresco o Oaxaca, 250, g]
+          - [huevos, 3, null]
+          - [harina de trigo, 4, cucharada]
+          - [aceite de girasol para freír, 300, ml]
+          - [sal, null, null]
+      - group: Caldillo de tomate
+        items:
+          - [tomates, 4, null]
+          - [cebolla blanca, 0.25, null]
+          - [ajo, 1, diente]
+          - [caldo de verduras, 250, ml]
+          - [aceite de oliva, 1, cucharada]
+    steps:
+      - group: Chiles
+        items:
+          - Asa los chiles directamente al fuego o bajo el grill hasta que la piel se ennegrezca. Mételos en una bolsa 10 minutos y pélalos.
+          - Haz un corte lateral, retira las semillas con cuidado y rellena con el queso. Cierra con un palillo.
+          - Monta las claras a punto de nieve, añade las yemas y una pizca de sal.
+          - Pasa los chiles por harina y luego por el huevo, y fríelos en aceite caliente hasta que estén dorados. Escúrrelos.
+      - group: Caldillo
+        items:
+          - Tritura el tomate con la cebolla, el ajo y el caldo. Cuécelo con el aceite 10 minutos y sala.
+          - Sirve los chiles bañados en el caldillo caliente.
+
+  - name: Carnitas
+    category: Carnes
+    difficulty: MEDIUM
+    prep: 15
+    cook: 150
+    servings: 6
+    tags: [cerdo, tacos]
+    utensils: [Horno]
+    ingredients:
+      - items:
+          - [aguja o paleta de cerdo en dados grandes, 1.5, kg]
+          - [manteca de cerdo, 200, g]
+          - [naranja, 1, null]
+          - [leche, 100, ml]
+          - [ajo, 4, diente]
+          - [hojas de laurel, 2, null]
+          - [orégano seco, 1, cucharadita]
+          - [sal, 2, cucharadita]
+          - [tortillas de maíz, null, null]
+          - [cebolla y cilantro picados, null, null]
+    steps:
+      - Funde la manteca en una cazuela grande de fondo grueso y añade la carne, la sal, el ajo, el laurel y el orégano.
+      - Exprime la naranja sobre la carne y echa también la cáscara. Añade la leche (ayuda a dorar).
+      - Cocina tapado a fuego bajo 2 horas, removiendo de vez en cuando, hasta que la carne esté muy tierna.
+      - Destapa, sube el fuego y deja que se dore por fuera unos 15-20 minutos.
+      - Escurre, desmenuza un poco y sirve en tortillas con cebolla, cilantro y salsa.
+
+  - name: Esquites
+    category: Verduras
+    difficulty: EASY
+    prep: 5
+    cook: 15
+    servings: 4
+    tags: [vegetariana, aperitivo, calle]
+    ingredients:
+      - items:
+          - [granos de maíz dulce, 500, g]
+          - [mantequilla, 30, g]
+          - [cebolla blanca picada, 0.25, null]
+          - [chile serrano picado, 1, null, optional]
+          - [mayonesa, 4, cucharada]
+          - [queso fresco o feta desmenuzado, 80, g]
+          - [chile en polvo, 1, cucharadita]
+          - [limas, 2, null]
+          - [sal, null, null]
+    steps:
+      - Funde la mantequilla y sofríe la cebolla y el chile 3 minutos.
+      - Añade el maíz y cocina 8-10 minutos, hasta que tome algo de color. Sala.
+      - Sirve en vasos con mayonesa, queso, chile en polvo y un chorrito de lima.
+
+  - name: Agua de horchata
+    category: Bebidas
+    difficulty: EASY
+    prep: 15
+    cook: 0
+    servings: 6
+    tags: [bebida, sin gluten, vegetariana]
+    utensils: [Batidora]
+    notes: Necesita remojo de 4 horas o toda la noche.
+    ingredients:
+      - items:
+          - [arroz blanco, 200, g]
+          - [rama de canela, 1, null]
+          - [agua, 1.5, l]
+          - [azúcar, 120, g]
+          - [leche, 250, ml, optional]
+          - [extracto de vainilla, 1, cucharadita]
+          - [hielo, null, null]
+    steps:
+      - Remoja el arroz con la canela troceada en 500 ml de agua caliente durante 4 horas o toda la noche.
+      - Tritura el arroz con la canela y el agua del remojo hasta que quede muy fino.
+      - Cuela con un colador fino o una tela, apretando bien.
+      - Añade el resto del agua, el azúcar, la vainilla y la leche, y mezcla hasta disolver.
+      - Enfría en la nevera y sirve con mucho hielo.
+
+  - name: Agua de jamaica
+    category: Bebidas
+    difficulty: EASY
+    prep: 5
+    cook: 10
+    servings: 6
+    tags: [bebida, vegana, sin gluten]
+    ingredients:
+      - items:
+          - [flor de jamaica (hibisco) seca, 50, g]
+          - [agua, 2, l]
+          - [azúcar, 120, g]
+          - [lima, 1, null, optional]
+          - [hielo, null, null]
+    steps:
+      - Hierve la flor de jamaica en 500 ml de agua 5 minutos y deja infusionar 10 minutos más.
+      - Cuela y endulza el concentrado mientras está caliente.
+      - Añade el resto del agua fría y el zumo de lima.
+      - Sirve muy fría con hielo.
+
+  - name: Flan napolitano
+    category: Postres
+    difficulty: MEDIUM
+    prep: 15
+    cook: 60
+    servings: 8
+    tags: [postre, horno, vegetariana]
+    utensils: [Horno, Batidora]
+    notes: Mejor de un día para otro. Se hace al baño maría en una flanera o molde redondo de unos 20 cm.
+    ingredients:
+      - group: Caramelo
+        items:
+          - [azúcar, 150, g]
+          - [agua, 3, cucharada]
+      - group: Flan
+        items:
+          - [leche condensada, 397, g]
+          - [leche evaporada, 410, g]
+          - [queso crema, 150, g]
+          - [huevos, 5, null]
+          - [extracto de vainilla, 1, cucharadita]
+    steps:
+      - Calienta el azúcar con el agua sin remover hasta obtener un caramelo dorado. Viértelo en el molde y cubre el fondo.
+      - Tritura las leches con el queso crema, los huevos y la vainilla, sin batir de más.
+      - Vierte la mezcla en el molde, tapa con aluminio y hornea al baño maría a 170 °C unos 60 minutos, hasta que cuaje.
+      - Deja enfriar y refrigera al menos 4 horas.
+      - Pasa un cuchillo por el borde y desmolda sobre un plato con algo de fondo.

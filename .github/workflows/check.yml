@@ -1,0 +1,27 @@
+name: Check packs
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  check:
+    name: Packs are built and up to date
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install PyYAML
+        run: pip install pyyaml
+
+      # Rebuilds every pack: fails on an invalid pack.yaml, and when dist/ or catalog.json were not
+      # rebuilt after changing a pack (the build is reproducible, so a fresh build must match).
+      - name: Build
+        run: python3 tools/build.py
+
+      - name: Check dist/ and catalog.json are committed
+        run: git diff --exit-code -- dist catalog.json

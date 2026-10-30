@@ -1,0 +1,580 @@
+id: mexican-cooking
+version: 1
+updated: 2026-10-30
+language: en
+name: Mexican cooking
+description: >-
+  Twenty Mexican classics to cook at home: tacos al pastor, cochinita pibil, pozole, chilaquiles,
+  enchiladas, salsas, guacamole, aguas frescas and flan. With easy-to-find ingredients and
+  alternatives where needed.
+author: Miga
+authorGithub: calamares00
+cover:
+  emoji: "🌮"
+  title: Mexican cooking
+  colors: ["#c2410c", "#f59e0b"]
+defaults:
+  origin: Mexico
+  originCountry: MX
+  source: Miga «Mexican cooking» pack
+recipes:
+
+  - name: Tacos al pastor
+    category: Meat
+    difficulty: MEDIUM
+    prep: 30
+    cook: 25
+    servings: 4
+    tags: [tacos, pork, spicy]
+    utensils: [Griddle, Blender]
+    notes: >-
+      The marinade is even better if the meat rests overnight. Without a vertical spit, a very hot
+      pan or griddle gives the charred edges.
+    ingredients:
+      - group: Marinade
+        items:
+          - [dried guajillo chiles, 4, null]
+          - [dried ancho chile, 1, null]
+          - [achiote paste, 50, g]
+          - [pineapple juice, 100, ml]
+          - [apple cider vinegar, 2, tbsp]
+          - [garlic, 3, clove]
+          - [dried oregano, 1, tsp]
+          - [ground cumin, 0.5, tsp]
+          - [salt, 1, tsp]
+      - group: Tacos
+        items:
+          - [thinly sliced pork loin or shoulder, 800, g]
+          - [corn tortillas, 16, null]
+          - [diced pineapple, 200, g]
+          - [chopped white onion, 1, null]
+          - [chopped fresh coriander, 1, bunch]
+          - [limes, 2, null]
+          - [salsa verde, null, null, optional]
+    steps:
+      - Remove the seeds and veins from the chiles and toast them in a dry pan for 30 seconds per side. Soak them in hot water for 15 minutes.
+      - Blend the drained chiles with the achiote, pineapple juice, vinegar, garlic, oregano, cumin and salt into a smooth paste.
+      - Coat the pork well with the marinade and leave it in the fridge for at least 2 hours.
+      - Cook the meat on a very hot griddle for 3-4 minutes per side, until the edges char. Cut it into thin strips.
+      - Brown the pineapple on the same griddle.
+      - Warm the tortillas and serve the meat with pineapple, onion, coriander and a squeeze of lime.
+
+  - name: Guacamole
+    category: Sauces
+    difficulty: EASY
+    prep: 10
+    cook: 0
+    servings: 4
+    tags: [vegetarian, vegan, gluten free, snack]
+    notes: To stop it browning, keep it with the avocado stone and cling film pressed onto the surface.
+    ingredients:
+      - items:
+          - [ripe avocados, 3, null]
+          - [lime, 1, null]
+          - [tomato, 1, null]
+          - [white onion, 0.25, null]
+          - [serrano or jalapeño chile, 1, null, optional]
+          - [chopped fresh coriander, 2, tbsp]
+          - [salt, null, null]
+    steps:
+      - Finely chop the onion, the deseeded tomato and the chile without its veins.
+      - Mash the avocado flesh with a fork or in a molcajete, leaving some chunks.
+      - Mix with the lime juice, onion, tomato, chile and coriander.
+      - Season with salt and serve straight away with tortilla chips.
+
+  - name: Pico de gallo
+    category: Sauces
+    difficulty: EASY
+    prep: 15
+    cook: 0
+    servings: 4
+    tags: [vegetarian, vegan, gluten free, fresh]
+    ingredients:
+      - items:
+          - [ripe but firm tomatoes, 4, null]
+          - [white onion, 0.5, null]
+          - [serrano chile, 1, null]
+          - [chopped fresh coriander, 1, bunch]
+          - [lime, 1, null]
+          - [salt, null, null]
+    steps:
+      - Dice the tomatoes small and drain them a little.
+      - Chop the onion and chile very finely.
+      - Mix everything with the coriander, lime juice and salt.
+      - Leave for 10 minutes before serving so the flavours come together.
+
+  - name: Salsa verde
+    category: Sauces
+    difficulty: EASY
+    prep: 5
+    cook: 10
+    servings: 6
+    tags: [vegetarian, vegan, gluten free, spicy]
+    notes: If you cannot find fresh tomatillos, use drained canned ones and skip the cooking.
+    ingredients:
+      - items:
+          - [tomatillos, 500, g]
+          - [serrano chiles, 2, null]
+          - [white onion, 0.25, null]
+          - [garlic, 1, clove]
+          - [fresh coriander, 0.5, bunch]
+          - [salt, 1, tsp]
+    steps:
+      - Husk and rinse the tomatillos.
+      - Boil them with the chiles for 8-10 minutes, until they turn olive green.
+      - Blend the tomatillos and chiles with the onion, garlic, coriander, salt and a little of the cooking water.
+      - Check the salt and leave to cool. It keeps for 5 days in the fridge.
+
+  - name: Chilaquiles verdes
+    category: Eggs
+    difficulty: EASY
+    prep: 10
+    cook: 20
+    servings: 4
+    tags: [breakfast, vegetarian]
+    ingredients:
+      - items:
+          - [day-old corn tortillas, 12, null]
+          - [sunflower oil, 150, ml]
+          - [salsa verde, 500, ml]
+          - [eggs, 4, null]
+          - [sour cream or crema, 100, ml]
+          - [crumbled fresh cheese, 100, g]
+          - [red onion in thin rings, 0.5, null]
+          - [fresh coriander, null, null, optional]
+    steps:
+      - Cut the tortillas into triangles and fry them in hot oil until crisp. Drain on paper.
+      - Heat the salsa verde in a wide pan.
+      - Add the tortilla chips and stir for 1-2 minutes, just until coated but not fully softened.
+      - Fry the eggs separately.
+      - Serve the chilaquiles topped with the eggs, cream, cheese, onion and coriander.
+
+  - name: Red enchiladas
+    category: Meat
+    difficulty: MEDIUM
+    prep: 25
+    cook: 30
+    servings: 4
+    tags: [chicken, oven]
+    utensils: [Oven, Blender]
+    ingredients:
+      - group: Sauce
+        items:
+          - [dried guajillo chiles, 5, null]
+          - [dried ancho chiles, 2, null]
+          - [tomatoes, 2, null]
+          - [garlic, 2, clove]
+          - [white onion, 0.5, null]
+          - [ground cumin, 0.25, tsp]
+          - [chicken stock, 300, ml]
+          - [salt, null, null]
+      - group: Enchiladas
+        items:
+          - [cooked and shredded chicken, 400, g]
+          - [corn tortillas, 12, null]
+          - [sunflower oil, 3, tbsp]
+          - [melting cheese, 150, g]
+          - [sour cream or crema, 100, ml]
+          - [shredded lettuce, null, null, optional]
+    steps:
+      - Deseed the chiles, toast them briefly and soak them in hot water for 15 minutes.
+      - Blend the chiles with the tomato, garlic, onion, cumin and stock. Strain the sauce.
+      - Cook the sauce in a pan with a tablespoon of oil for 10 minutes over medium heat. Season with salt.
+      - Dip each tortilla briefly in hot oil so it does not tear, then in the sauce.
+      - Fill with chicken, roll up and arrange in a dish. Cover with the rest of the sauce and the cheese.
+      - Bake at 200 °C for 10-12 minutes and serve with cream and lettuce.
+
+  - name: Red pozole
+    category: Soups
+    difficulty: MEDIUM
+    prep: 30
+    cook: 120
+    servings: 6
+    tags: [pork, stew, party]
+    utensils: [Pressure cooker]
+    notes: Precooked hominy (cacahuazintle corn) is sold in Latin American shops. In a pressure cooker the meat is ready in 35 minutes.
+    ingredients:
+      - group: Broth
+        items:
+          - [pork (shoulder and ribs), 1, kg]
+          - [drained precooked hominy, 800, g]
+          - [white onion, 1, null]
+          - [garlic, 5, clove]
+          - [bay leaves, 2, null]
+          - [salt, null, null]
+      - group: Sauce
+        items:
+          - [dried guajillo chiles, 6, null]
+          - [dried ancho chiles, 2, null]
+          - [dried oregano, 1, tsp]
+          - [ground cumin, 0.5, tsp]
+      - group: To serve
+        items:
+          - [finely shredded lettuce, null, null]
+          - [sliced radishes, 6, null]
+          - [chopped onion, null, null]
+          - [dried oregano, null, null]
+          - [limes, 3, null]
+          - [corn tostadas, null, null, optional]
+    steps:
+      - group: Broth
+        items:
+          - Cover the meat with 3 litres of water and add half the onion, 3 garlic cloves, the bay leaves and salt. Simmer for 1 h 30 min, skimming off the foam.
+          - Take out the meat, shred it and keep the strained broth.
+      - group: Sauce and finishing
+        items:
+          - Clean and soak the chiles for 15 minutes. Blend them with the rest of the onion and garlic, the oregano, the cumin and a little broth. Strain.
+          - Add the sauce to the broth with the hominy and the meat and simmer for 30 more minutes. Check the salt.
+          - Serve piping hot and let everyone add lettuce, radish, onion, oregano and lime.
+
+  - name: Tortilla soup
+    category: Soups
+    difficulty: EASY
+    prep: 15
+    cook: 25
+    servings: 4
+    tags: [vegetarian, soup]
+    utensils: [Blender]
+    ingredients:
+      - items:
+          - [ripe tomatoes, 4, null]
+          - [white onion, 0.5, null]
+          - [garlic, 2, clove]
+          - [dried pasilla or ancho chile, 1, null]
+          - [vegetable or chicken stock, 1, l]
+          - [corn tortillas, 8, null]
+          - [sunflower oil, 100, ml]
+          - [diced avocado, 1, null]
+          - [diced fresh cheese, 100, g]
+          - [sour cream or crema, null, null, optional]
+          - [salt, null, null]
+    steps:
+      - Cut the tortillas into strips and fry them until golden and crisp. Drain.
+      - Fry the deseeded chile for a few seconds in the same oil and set it aside.
+      - Blend the tomato with the onion and garlic. Fry the purée in a pot with a little oil for 8 minutes.
+      - Add the stock and half the chile, broken up, and simmer for 15 minutes. Season with salt.
+      - Serve the soup over the tortilla strips with avocado, cheese, cream and the rest of the chile crumbled on top.
+
+  - name: Cochinita pibil
+    category: Meat
+    difficulty: MEDIUM
+    prep: 20
+    cook: 240
+    servings: 6
+    tags: [pork, oven, yucatán]
+    utensils: [Oven]
+    notes: Traditionally it is wrapped in banana leaves; baking paper and foil work well too.
+    ingredients:
+      - group: Cochinita
+        items:
+          - [pork shoulder in large chunks, 1.5, kg]
+          - [achiote paste, 100, g]
+          - [orange juice, 200, ml]
+          - [lime juice, 50, ml]
+          - [white vinegar, 2, tbsp]
+          - [garlic, 4, clove]
+          - [ground cumin, 1, tsp]
+          - [dried oregano, 1, tsp]
+          - [salt, 2, tsp]
+          - [banana leaves, null, null, optional]
+      - group: Pickled onion
+        items:
+          - [red onions, 2, null]
+          - [lime juice, 100, ml]
+          - [chopped habanero chile, 1, null, optional]
+          - [salt, null, null]
+    steps:
+      - group: Cochinita
+        items:
+          - Dissolve the achiote in the juices and vinegar and blend with the garlic, cumin, oregano and salt.
+          - Marinate the meat in this mixture for at least 4 hours (better overnight).
+          - Line a dish with banana leaves or baking paper, add the meat with its marinade and seal tightly with foil.
+          - Bake at 160 °C for about 4 hours, until the meat falls apart. Shred it in its juices.
+      - group: Pickled onion
+        items:
+          - Slice the onion thinly and mix with the lime juice, habanero and salt. Leave for 30 minutes.
+          - Serve the cochinita in tortillas or bread rolls with the pickled onion.
+
+  - name: Chicken tinga
+    category: Meat
+    difficulty: EASY
+    prep: 15
+    cook: 30
+    servings: 4
+    tags: [chicken, tostadas]
+    utensils: [Blender]
+    ingredients:
+      - items:
+          - [chicken breast, 600, g]
+          - [tomatoes, 4, null]
+          - [chipotle chiles in adobo, 2, null]
+          - [thinly sliced white onions, 2, null]
+          - [garlic, 2, clove]
+          - [dried oregano, 0.5, tsp]
+          - [olive oil, 2, tbsp]
+          - [salt, null, null]
+          - [corn tostadas, 12, null]
+          - [refried beans, null, null, optional]
+          - [sour cream or crema, null, null]
+          - [shredded lettuce, null, null]
+    steps:
+      - Poach the chicken in salted water for 20 minutes. Let it cool and shred it. Keep a glass of the broth.
+      - Blend the tomato with the chipotles, garlic, oregano and half a glass of broth.
+      - Fry the onion in the oil until soft, about 8 minutes.
+      - Add the sauce, cook for 5 minutes and stir in the chicken. Cook 5 more minutes, until juicy but not runny.
+      - Serve on tostadas spread with beans, with lettuce and cream.
+
+  - name: Refried beans
+    category: Legumes
+    difficulty: EASY
+    prep: 5
+    cook: 15
+    servings: 4
+    tags: [vegetarian, gluten free, side]
+    notes: Home-cooked beans are even better; keep some of their cooking liquid.
+    ingredients:
+      - items:
+          - [cooked black or pinto beans, 800, g]
+          - [chopped white onion, 0.5, null]
+          - [garlic, 1, clove]
+          - [lard or oil, 3, tbsp]
+          - [water or bean cooking liquid, 150, ml]
+          - [salt, null, null]
+          - [crumbled fresh cheese, null, null, optional]
+    steps:
+      - Heat the lard and fry the chopped onion and garlic until golden.
+      - Add the beans with the liquid and mash them with a potato masher or the back of a spoon.
+      - Cook, stirring, until they thicken into a creamy purée. Season with salt.
+      - Serve with fresh cheese on top.
+
+  - name: Mexican red rice
+    category: Rice
+    difficulty: EASY
+    prep: 10
+    cook: 25
+    servings: 4
+    tags: [vegetarian, side]
+    utensils: [Blender]
+    ingredients:
+      - items:
+          - [long-grain rice, 250, g]
+          - [tomatoes, 2, null]
+          - [white onion, 0.25, null]
+          - [garlic, 1, clove]
+          - [sunflower oil, 3, tbsp]
+          - [chicken or vegetable stock, 450, ml]
+          - [diced carrot, 1, null]
+          - [peas, 80, g]
+          - [salt, null, null]
+    steps:
+      - Rinse the rice until the water runs clear and drain well.
+      - Blend the tomato with the onion and garlic.
+      - Fry the rice in the oil, stirring, until it sounds dry and takes on colour, about 5 minutes.
+      - Add the tomato purée and cook for 2 minutes. Add the stock, carrot, peas and salt.
+      - Once boiling, cover and cook over the lowest heat for 15-18 minutes. Rest covered for 5 minutes and fluff with a fork.
+
+  - name: Huevos rancheros
+    category: Eggs
+    difficulty: EASY
+    prep: 10
+    cook: 15
+    servings: 2
+    tags: [breakfast, vegetarian, spicy]
+    ingredients:
+      - items:
+          - [eggs, 4, null]
+          - [corn tortillas, 4, null]
+          - [tomatoes, 3, null]
+          - [white onion, 0.25, null]
+          - [garlic, 1, clove]
+          - [serrano chile, 1, null]
+          - [sunflower oil, 3, tbsp]
+          - [refried beans, null, null, optional]
+          - [salt, null, null]
+    steps:
+      - Char the tomato, onion, garlic and chile in a dry pan. Blend them.
+      - Cook the sauce in a tablespoon of oil for 5 minutes and season with salt.
+      - Dip the tortillas in hot oil for a few seconds to soften them.
+      - Fry the eggs.
+      - Serve each tortilla with beans, an egg and the ranchera sauce on top.
+
+  - name: Quesadillas
+    category: Breads and doughs
+    difficulty: EASY
+    prep: 5
+    cook: 10
+    servings: 4
+    tags: [vegetarian, quick]
+    utensils: [Griddle]
+    notes: Try fillings such as mushrooms, squash blossoms, poblano strips or chicken tinga.
+    ingredients:
+      - items:
+          - [corn or flour tortillas, 8, null]
+          - [grated Oaxaca cheese or mozzarella, 250, g]
+          - [sliced sautéed mushrooms, 200, g, optional]
+          - [epazote or coriander, null, null, optional]
+          - [salsa verde, null, null]
+    steps:
+      - Heat a griddle or pan over medium heat.
+      - Put cheese on half a tortilla, add the filling you like and fold it over.
+      - Cook for 2-3 minutes per side, until the cheese melts and the tortilla is golden.
+      - Serve with salsa verde.
+
+  - name: Cheese-stuffed chiles rellenos
+    category: Vegetables
+    difficulty: HARD
+    prep: 40
+    cook: 30
+    servings: 4
+    tags: [vegetarian, fried]
+    utensils: [Blender]
+    notes: If you cannot find poblano chiles, use green Italian peppers; they are milder.
+    ingredients:
+      - group: Chiles
+        items:
+          - [poblano chiles, 4, null]
+          - [fresh or Oaxaca cheese, 250, g]
+          - [eggs, 3, null]
+          - [plain flour, 4, tbsp]
+          - [sunflower oil for frying, 300, ml]
+          - [salt, null, null]
+      - group: Tomato broth
+        items:
+          - [tomatoes, 4, null]
+          - [white onion, 0.25, null]
+          - [garlic, 1, clove]
+          - [vegetable stock, 250, ml]
+          - [olive oil, 1, tbsp]
+    steps:
+      - group: Chiles
+        items:
+          - Roast the chiles over a flame or under the grill until the skin blackens. Put them in a bag for 10 minutes and peel them.
+          - Make a slit down one side, carefully remove the seeds and fill with the cheese. Close with a cocktail stick.
+          - Whisk the egg whites to stiff peaks, fold in the yolks and a pinch of salt.
+          - Dust the chiles with flour, dip them in the egg and fry in hot oil until golden. Drain.
+      - group: Tomato broth
+        items:
+          - Blend the tomato with the onion, garlic and stock. Simmer it with the oil for 10 minutes and season.
+          - Serve the chiles in the hot tomato broth.
+
+  - name: Carnitas
+    category: Meat
+    difficulty: MEDIUM
+    prep: 15
+    cook: 150
+    servings: 6
+    tags: [pork, tacos]
+    ingredients:
+      - items:
+          - [pork shoulder in large cubes, 1.5, kg]
+          - [lard, 200, g]
+          - [orange, 1, null]
+          - [milk, 100, ml]
+          - [garlic, 4, clove]
+          - [bay leaves, 2, null]
+          - [dried oregano, 1, tsp]
+          - [salt, 2, tsp]
+          - [corn tortillas, null, null]
+          - [chopped onion and coriander, null, null]
+    steps:
+      - Melt the lard in a large heavy pot and add the meat, salt, garlic, bay leaves and oregano.
+      - Squeeze the orange over the meat and add the peel too. Pour in the milk (it helps the browning).
+      - Cook covered over low heat for 2 hours, stirring now and then, until the meat is very tender.
+      - Uncover, turn up the heat and let it brown on the outside for 15-20 minutes.
+      - Drain, pull apart a little and serve in tortillas with onion, coriander and salsa.
+
+  - name: Esquites
+    category: Vegetables
+    difficulty: EASY
+    prep: 5
+    cook: 15
+    servings: 4
+    tags: [vegetarian, snack, street food]
+    ingredients:
+      - items:
+          - [sweetcorn kernels, 500, g]
+          - [butter, 30, g]
+          - [chopped white onion, 0.25, null]
+          - [chopped serrano chile, 1, null, optional]
+          - [mayonnaise, 4, tbsp]
+          - [crumbled fresh cheese or feta, 80, g]
+          - [chilli powder, 1, tsp]
+          - [limes, 2, null]
+          - [salt, null, null]
+    steps:
+      - Melt the butter and fry the onion and chile for 3 minutes.
+      - Add the corn and cook for 8-10 minutes, until it takes on some colour. Season with salt.
+      - Serve in cups with mayonnaise, cheese, chilli powder and a squeeze of lime.
+
+  - name: Horchata
+    category: Drinks
+    difficulty: EASY
+    prep: 15
+    cook: 0
+    servings: 6
+    tags: [drink, gluten free, vegetarian]
+    utensils: [Blender]
+    notes: Needs soaking for 4 hours or overnight.
+    ingredients:
+      - items:
+          - [white rice, 200, g]
+          - [cinnamon stick, 1, null]
+          - [water, 1.5, l]
+          - [sugar, 120, g]
+          - [milk, 250, ml, optional]
+          - [vanilla extract, 1, tsp]
+          - [ice, null, null]
+    steps:
+      - Soak the rice with the broken cinnamon stick in 500 ml of hot water for 4 hours or overnight.
+      - Blend the rice and cinnamon with the soaking water until very smooth.
+      - Strain through a fine sieve or a cloth, pressing well.
+      - Add the rest of the water, the sugar, vanilla and milk, and stir until dissolved.
+      - Chill in the fridge and serve over plenty of ice.
+
+  - name: Agua de jamaica
+    category: Drinks
+    difficulty: EASY
+    prep: 5
+    cook: 10
+    servings: 6
+    tags: [drink, vegan, gluten free]
+    ingredients:
+      - items:
+          - [dried hibiscus flowers, 50, g]
+          - [water, 2, l]
+          - [sugar, 120, g]
+          - [lime, 1, null, optional]
+          - [ice, null, null]
+    steps:
+      - Boil the hibiscus in 500 ml of water for 5 minutes and leave to infuse for 10 more.
+      - Strain and sweeten the concentrate while it is hot.
+      - Add the rest of the cold water and the lime juice.
+      - Serve very cold with ice.
+
+  - name: Mexican flan
+    category: Desserts
+    difficulty: MEDIUM
+    prep: 15
+    cook: 60
+    servings: 8
+    tags: [dessert, oven, vegetarian]
+    utensils: [Oven, Blender]
+    notes: Best made the day before. Bake it in a water bath in a flan mould or round tin of about 20 cm.
+    ingredients:
+      - group: Caramel
+        items:
+          - [sugar, 150, g]
+          - [water, 3, tbsp]
+      - group: Flan
+        items:
+          - [condensed milk, 397, g]
+          - [evaporated milk, 410, g]
+          - [cream cheese, 150, g]
+          - [eggs, 5, null]
+          - [vanilla extract, 1, tsp]
+    steps:
+      - Heat the sugar with the water without stirring until it turns into a golden caramel. Pour it into the mould and coat the base.
+      - Blend the milks with the cream cheese, eggs and vanilla, without overmixing.
+      - Pour into the mould, cover with foil and bake in a water bath at 170 °C for about 60 minutes, until set.
+      - Let it cool and chill for at least 4 hours.
+      - Run a knife around the edge and turn out onto a plate with a rim.

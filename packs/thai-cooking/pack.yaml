@@ -1,0 +1,607 @@
+id: thai-cooking
+version: 1
+updated: 2026-10-31
+language: en
+name: "World cuisine: Thailand"
+description: >-
+  Thailand's balance of hot, sour, sweet and salty: pad thai, tom yum, tom kha gai, green,
+  massaman and panang curries, som tam, larb, fried rice, pad kra pao, pad see ew, cashew chicken,
+  beef salad, fish cakes, Thai omelette, khao man gai, gai yang, jaew dipping sauce, mango sticky
+  rice and Thai iced tea. With substitutes for the less common ingredients.
+author: Miga
+authorGithub: calamares00
+cover:
+  emoji: "🍲"
+  kicker: World cuisine
+  title: Thailand
+  colors: ["#1e3a8a", "#dc2626"]
+defaults:
+  origin: Thailand
+  originCountry: TH
+  source: "Miga «World cuisine: Thailand» pack"
+recipes:
+
+  - name: Pad thai
+    category: Pasta
+    difficulty: MEDIUM
+    prep: 30
+    cook: 10
+    servings: 2
+    notes: It works best two portions at a time, so the wok doesn't cool down. Soak the noodles in lukewarm water, not hot, so they don't overcook.
+    tags: [noodles, stir-fry]
+    utensils: [Wok]
+    ingredients:
+      - group: Sauce
+        items:
+          - [tamarind paste, 3, tbsp]
+          - [fish sauce, 2, tbsp]
+          - [palm or brown sugar, 2, tbsp]
+      - group: Stir-fry
+        items:
+          - [medium flat rice noodles, 200, g]
+          - [peeled prawns, 200, g]
+          - [firm tofu, 100, g]
+          - [eggs, 2, null]
+          - [shallot, 1, null]
+          - [garlic, 2, clove]
+          - [sweet preserved radish, 1, tbsp, optional]
+          - [bean sprouts, 100, g]
+          - [garlic chives or spring onion, 1, bunch]
+          - [chopped roasted peanuts, 3, tbsp]
+          - [chilli powder, null, null]
+          - [lime, 1, null]
+          - [sunflower oil, 3, tbsp]
+    steps:
+      - Soak the noodles in lukewarm water for 30 minutes, until pliable. Drain.
+      - Heat the sauce ingredients until the sugar dissolves.
+      - In the wok with the oil, stir-fry the diced tofu, chopped shallot and garlic and the radish. Add the prawns and stir-fry for 1 minute.
+      - Push to one side, scramble the beaten eggs and break them up.
+      - Add the noodles and sauce and stir-fry over a high heat for 2-3 minutes, until tender. If they dry out, add a splash of water.
+      - Add the bean sprouts and chives in lengths, toss for 30 seconds and serve with peanuts, chilli powder and lime.
+
+  - name: Tom yum kung
+    category: Soups
+    difficulty: EASY
+    prep: 20
+    cook: 20
+    servings: 4
+    notes: Thailand's most famous hot and sour soup. The lemongrass, galangal and lime leaves add aroma but aren't eaten.
+    tags: [soup, spicy, seafood]
+    ingredients:
+      - items:
+          - [king prawns, 400, g]
+          - [water, 1, l]
+          - [lemongrass, 3, stalk]
+          - [galangal, 5, slice]
+          - [kaffir lime leaves, 5, null]
+          - [mushrooms (button or oyster), 150, g]
+          - [Thai chillies, 4, null]
+          - [fish sauce, 3, tbsp]
+          - [lime juice, 4, tbsp]
+          - [nam prik pao (roasted chilli paste), 1, tbsp, optional]
+          - [fresh coriander, 1, bunch]
+    steps:
+      - Peel the prawns and simmer the heads and shells in the water for 10 minutes. Strain.
+      - Add the bruised lemongrass in pieces, the galangal and the torn lime leaves to the stock and simmer for 5 minutes.
+      - Add the mushrooms and crushed chillies and simmer for 2 minutes. Add the prawns and simmer for 2 more minutes.
+      - Off the heat, add the fish sauce, lime juice and nam prik pao. Taste and adjust. Serve with coriander.
+
+  - name: Tom kha gai
+    category: Soups
+    difficulty: EASY
+    prep: 15
+    cook: 20
+    servings: 4
+    notes: Chicken soup with coconut milk and galangal (kha). Milder than tom yum.
+    tags: [soup, coconut milk]
+    ingredients:
+      - items:
+          - [chicken breast or thigh, 400, g]
+          - [coconut milk, 400, ml]
+          - [chicken stock, 300, ml]
+          - [galangal, 8, slice]
+          - [lemongrass, 2, stalk]
+          - [kaffir lime leaves, 5, null]
+          - [mushrooms, 150, g]
+          - [Thai chillies, 3, null]
+          - [fish sauce, 3, tbsp]
+          - [lime juice, 3, tbsp]
+          - [palm sugar, 1, tsp]
+          - [fresh coriander, 1, bunch]
+    steps:
+      - Bring the coconut milk and stock to the boil with the galangal, bruised lemongrass and torn lime leaves.
+      - Add the chicken in strips and simmer gently for 8 minutes.
+      - Add the mushrooms and crushed chillies and simmer for 3 minutes.
+      - Off the heat, add the fish sauce, sugar and lime juice. Serve with coriander.
+
+  - name: Green chicken curry
+    category: Meat
+    difficulty: EASY
+    prep: 15
+    cook: 20
+    servings: 4
+    notes: In Thai, kaeng khiao wan gai. Frying the curry paste in the coconut fat is the key to its flavour. In Thailand they use small round aubergines.
+    tags: [curry, spicy]
+    ingredients:
+      - items:
+          - [boneless chicken thighs, 500, g]
+          - [green curry paste, 3, tbsp]
+          - [coconut milk, 400, ml]
+          - [chicken stock, 150, ml]
+          - [aubergine, 1, null]
+          - [kaffir lime leaves, 4, null]
+          - [fish sauce, 2, tbsp]
+          - [palm sugar, 1, tbsp]
+          - [Thai basil, 1, bunch]
+          - [red chilli, 1, null]
+          - [sunflower oil, 1, tbsp]
+    steps:
+      - Heat the oil with the thick part of the coconut milk until the fat separates. Add the curry paste and fry for 2 minutes.
+      - Add the chicken in pieces and cook for 3 minutes.
+      - Add the rest of the coconut milk, the stock, the diced aubergine and the torn lime leaves. Simmer for 10-12 minutes.
+      - Season with the fish sauce and sugar. Add the basil and sliced chilli and serve with jasmine rice.
+
+  - name: Beef massaman curry
+    category: Meat
+    difficulty: MEDIUM
+    prep: 20
+    cook: 120
+    servings: 6
+    notes: A mild, spiced curry of Persian influence, with potatoes and peanuts. Massaman paste contains cinnamon, cardamom and cloves.
+    tags: [curry, stew]
+    ingredients:
+      - items:
+          - [stewing beef, 600, g]
+          - [massaman curry paste, 3, tbsp]
+          - [coconut milk, 800, ml]
+          - [potatoes, 3, null]
+          - [onion, 1, null]
+          - [roasted peanuts, 50, g]
+          - [tamarind paste, 2, tbsp]
+          - [palm sugar, 2, tbsp]
+          - [fish sauce, 2, tbsp]
+          - [cinnamon stick, 1, null]
+          - [green cardamom pods, 3, null]
+          - [bay leaves, 2, null]
+    steps:
+      - Simmer the cubed beef with half the coconut milk, the cinnamon, cardamom and bay leaves, covered, for 1 hour.
+      - In another pan, heat the thick part of the rest of the coconut milk until the fat separates and fry the curry paste for 2 minutes.
+      - Add the fried paste to the beef with the rest of the coconut milk, the potatoes in chunks, the onion in wedges and the peanuts.
+      - Simmer for 40 minutes, until the potatoes are tender. Season with the tamarind, sugar and fish sauce.
+
+  - name: Pork panang curry
+    category: Meat
+    difficulty: EASY
+    prep: 15
+    cook: 20
+    servings: 4
+    notes: A thick, slightly sweet curry with little sauce. Very finely shredded lime leaves are essential.
+    tags: [curry, spicy]
+    ingredients:
+      - items:
+          - [pork loin, 500, g]
+          - [panang curry paste, 2, tbsp]
+          - [coconut milk, 400, ml]
+          - [kaffir lime leaves, 6, null]
+          - [fish sauce, 2, tbsp]
+          - [palm sugar, 1, tbsp]
+          - [chopped roasted peanuts, 2, tbsp, optional]
+          - [red chilli, 1, null]
+          - [Thai basil, 1, bunch]
+    steps:
+      - Slice the pork thinly.
+      - Heat half the coconut milk until the fat separates and fry the curry paste for 2 minutes.
+      - Add the pork and cook for 3 minutes. Add the rest of the coconut milk, the fish sauce, sugar and peanuts.
+      - Simmer gently for 10 minutes, until the sauce thickens.
+      - Serve with the very finely shredded lime leaves, sliced chilli and basil.
+
+  - name: Som tam
+    category: Salads
+    difficulty: EASY
+    prep: 20
+    cook: 0
+    servings: 4
+    origin: Isan
+    notes: Green papaya salad pounded in a mortar. If you can't find green papaya, use kohlrabi or cucumber and carrot.
+    tags: [salad, spicy]
+    ingredients:
+      - items:
+          - [shredded green papaya, 300, g]
+          - [garlic, 2, clove]
+          - [Thai chillies, 3, null]
+          - [yardlong beans, 50, g]
+          - [cherry tomatoes, 6, null]
+          - [roasted peanuts, 2, tbsp]
+          - [dried shrimps, 1, tbsp, optional]
+          - [fish sauce, 2, tbsp]
+          - [lime juice, 2, tbsp]
+          - [palm sugar, 1, tbsp]
+    steps:
+      - Pound the garlic and chillies in a large mortar. Add the beans in pieces and the peanuts and pound lightly.
+      - Add the sugar, fish sauce, lime juice, dried shrimps and halved tomatoes, and pound so they release their juice.
+      - Add the papaya and mix with the pestle and a spoon, bruising it gently so it absorbs the dressing.
+      - Taste and adjust. Serve straight away with sticky rice.
+
+  - name: Larb gai
+    category: Salads
+    difficulty: EASY
+    prep: 20
+    cook: 10
+    servings: 4
+    origin: Isan
+    notes: A warm minced meat salad with herbs. Toasted ground sticky rice (khao khua) gives it its aroma and texture.
+    tags: [salad, spicy]
+    ingredients:
+      - items:
+          - [minced chicken, 400, g]
+          - [uncooked sticky rice, 2, tbsp]
+          - [shallots, 3, null]
+          - [spring onions, 2, null]
+          - [fresh mint, 1, bunch]
+          - [fresh coriander, 1, bunch]
+          - [fish sauce, 3, tbsp]
+          - [lime juice, 3, tbsp]
+          - [chilli powder, 1, tsp]
+          - [water, 3, tbsp]
+          - [lettuce, 1, null]
+    steps:
+      - Toast the sticky rice in a dry pan until golden and grind it in a mortar.
+      - Cook the chicken with the water in a frying pan, breaking it up, for 5-6 minutes, until cooked. Turn off the heat.
+      - Add the fish sauce, lime juice, chilli, sliced shallots and spring onion.
+      - Stir in the mint, coriander and toasted rice. Serve warm with lettuce leaves.
+
+  - name: Thai fried rice (khao pad)
+    category: Rice
+    difficulty: EASY
+    prep: 10
+    cook: 10
+    servings: 2
+    notes: Served with cucumber, lime and prik nam pla (fish sauce with chopped chilli).
+    tags: [rice, quick]
+    utensils: [Wok]
+    ingredients:
+      - items:
+          - [day-old cooked jasmine rice, 600, g]
+          - [peeled prawns or chicken, 250, g]
+          - [eggs, 2, null]
+          - [onion, 0.5, null]
+          - [garlic, 2, clove]
+          - [tomato, 1, null, optional]
+          - [fish sauce, 2, tbsp]
+          - [soy sauce, 1, tbsp]
+          - [sugar, 1, tsp]
+          - [spring onions, 2, null]
+          - [sunflower oil, 3, tbsp]
+          - [cucumber, 0.5, null]
+          - [lime, 1, null]
+    steps:
+      - Stir-fry the chopped garlic and sliced onion in the oil for 1 minute. Add the prawns and stir-fry for 2 minutes.
+      - Push to one side, scramble the eggs and break them up.
+      - Add the rice and tomato wedges and stir-fry over a high heat for 3 minutes.
+      - Add the fish sauce, soy sauce and sugar and stir-fry for 1 more minute. Finish with the spring onion.
+      - Serve with cucumber slices and lime wedges.
+
+  - name: Pad kra pao
+    category: Meat
+    difficulty: EASY
+    prep: 10
+    cook: 10
+    servings: 2
+    notes: Thailand's most popular street stir-fry, with holy basil (kra pao). Thai basil works well too. Served with rice and a crispy fried egg.
+    tags: [stir-fry, spicy, quick]
+    utensils: [Wok]
+    ingredients:
+      - items:
+          - [minced pork or chicken, 400, g]
+          - [holy or Thai basil, 1, bunch]
+          - [garlic, 4, clove]
+          - [Thai chillies, 4, null]
+          - [oyster sauce, 1, tbsp]
+          - [soy sauce, 1, tbsp]
+          - [fish sauce, 1, tbsp]
+          - [dark soy sauce, 1, tsp]
+          - [sugar, 1, tsp]
+          - [sunflower oil, 3, tbsp]
+          - [eggs, 2, null]
+          - [cooked jasmine rice, 400, g]
+    steps:
+      - Pound the garlic and chillies in a mortar to a coarse paste.
+      - Fry the eggs in plenty of very hot oil until the edges are crisp. Set aside.
+      - Stir-fry the garlic and chilli paste in 1 tablespoon of oil for a few seconds. Add the meat and stir-fry over a high heat for 4 minutes.
+      - Add the sauces and sugar and stir-fry for 1 minute. Stir in the basil and turn off the heat.
+      - Serve over rice with the fried egg on top.
+
+  - name: Pad see ew
+    category: Pasta
+    difficulty: EASY
+    prep: 15
+    cook: 10
+    servings: 2
+    notes: Wide rice noodles stir-fried with dark soy sauce. Separate fresh noodles before stir-frying so they don't clump.
+    tags: [noodles, stir-fry]
+    utensils: [Wok]
+    ingredients:
+      - items:
+          - [fresh wide rice noodles, 400, g]
+          - [sliced chicken or pork, 200, g]
+          - [Chinese broccoli (kai lan) or Tenderstem, 200, g]
+          - [eggs, 2, null]
+          - [garlic, 2, clove]
+          - [dark soy sauce, 1, tbsp]
+          - [soy sauce, 1, tbsp]
+          - [oyster sauce, 1, tbsp]
+          - [sugar, 1, tsp]
+          - [sunflower oil, 3, tbsp]
+          - [white pepper, null, null]
+    steps:
+      - Separate the noodles by hand. Cut the broccoli into pieces, keeping stems and leaves apart.
+      - Stir-fry the garlic and meat in the oil over a high heat for 3 minutes. Add the broccoli stems and stir-fry for 1 minute.
+      - Push to one side, scramble the eggs and break them up.
+      - Add the noodles, sauces and sugar and stir-fry without moving too much, letting them char a little, for 2-3 minutes. Add the leaves at the end.
+      - Serve with white pepper.
+
+  - name: Cashew chicken
+    category: Meat
+    difficulty: EASY
+    prep: 15
+    cook: 15
+    servings: 4
+    notes: In Thai, gai pad med mamuang. The fried dried chillies add aroma more than heat.
+    tags: [stir-fry, chicken]
+    utensils: [Wok]
+    ingredients:
+      - items:
+          - [chicken breast, 400, g]
+          - [plain flour, 2, tbsp]
+          - [raw cashews, 80, g]
+          - [dried chillies, 4, null]
+          - [onion, 1, null]
+          - [red pepper, 1, null]
+          - [spring onions, 2, null]
+          - [garlic, 3, clove]
+          - [oyster sauce, 2, tbsp]
+          - [soy sauce, 1, tbsp]
+          - [fish sauce, 1, tbsp]
+          - [sugar, 1, tsp]
+          - [nam prik pao (roasted chilli paste), 1, tbsp, optional]
+          - [sunflower oil, 5, tbsp]
+    steps:
+      - Fry the cashews in the oil until golden and lift them out. Fry the chillies in pieces for a few seconds and lift them out.
+      - Coat the diced chicken in the flour and fry it in the same oil until golden. Pour off some of the oil.
+      - Stir-fry the garlic, onion and pepper in pieces for 2 minutes.
+      - Add the chicken, sauces, sugar, nam prik pao and a splash of water and toss for 1 minute.
+      - Add the cashews, chillies and spring onion in lengths and serve with rice.
+
+  - name: Thai beef salad (yam nua)
+    category: Salads
+    difficulty: EASY
+    prep: 20
+    cook: 10
+    servings: 4
+    tags: [salad, spicy]
+    ingredients:
+      - group: Salad
+        items:
+          - [beef sirloin or fillet, 400, g]
+          - [cucumber, 1, null]
+          - [cherry tomatoes, 10, null]
+          - [red onion, 0.5, null]
+          - [spring onions, 2, null]
+          - [fresh mint, 1, bunch]
+          - [fresh coriander, 1, bunch]
+      - group: Dressing
+        items:
+          - [fish sauce, 3, tbsp]
+          - [lime juice, 3, tbsp]
+          - [palm sugar, 1, tbsp]
+          - [Thai chillies, 2, null]
+          - [garlic, 1, clove]
+    steps:
+      - Griddle or grill the beef for 3-4 minutes on each side, rare. Rest for 5 minutes and slice thinly.
+      - Mix the dressing ingredients with the very finely chopped chillies and garlic until the sugar dissolves.
+      - Toss the beef with the cucumber half-moons, halved tomatoes, sliced onion, spring onion and herbs.
+      - Pour over the dressing and serve straight away.
+
+  - name: Thai fish cakes (tod mun pla)
+    category: Fish and seafood
+    difficulty: MEDIUM
+    prep: 30
+    cook: 15
+    servings: 4
+    notes: The paste is kneaded by slapping it against the bowl so it turns springy. Served with a sweet and sour cucumber relish (ajad).
+    tags: [fried, snack]
+    utensils: [Food processor]
+    ingredients:
+      - group: Fish cakes
+        items:
+          - [white fish fillets, 400, g]
+          - [red curry paste, 2, tbsp]
+          - [egg, 1, null]
+          - [fish sauce, 1, tbsp]
+          - [sugar, 1, tsp]
+          - [yardlong beans, 50, g]
+          - [kaffir lime leaves, 5, null]
+          - [sunflower oil for frying, null, null]
+      - group: Ajad relish
+        items:
+          - [rice vinegar, 80, ml]
+          - [sugar, 4, tbsp]
+          - [salt, 0.5, tsp]
+          - [cucumber, 0.5, null]
+          - [shallot, 1, null]
+          - [red chilli, 1, null]
+    steps:
+      - Heat the vinegar with the sugar and salt until dissolved. Let it cool and add the diced cucumber and chopped shallot and chilli.
+      - Process the fish with the curry paste, egg, fish sauce and sugar to a paste.
+      - Tip it into a bowl and knead it by slapping it against the bowl for 2 minutes. Add the thinly sliced beans and the shredded lime leaves.
+      - With wet hands, shape 5 cm cakes 1 cm thick.
+      - Fry them in oil at 170 °C for 2-3 minutes on each side, until golden and puffed. Serve with the relish.
+
+  - name: Thai omelette (kai jeow)
+    category: Eggs
+    difficulty: EASY
+    prep: 5
+    cook: 5
+    servings: 1
+    notes: Fried in plenty of very hot oil, it puffs up, crisp outside and soft inside. Eaten over rice with sriracha.
+    tags: [egg, quick]
+    utensils: [Wok]
+    ingredients:
+      - items:
+          - [eggs, 3, null]
+          - [fish sauce, 1, tsp]
+          - [lime juice, 0.5, tsp]
+          - [sunflower oil, 100, ml]
+          - [cooked jasmine rice, 200, g]
+          - [sriracha sauce, null, null, optional]
+    steps:
+      - Beat the eggs with the fish sauce and lime juice until frothy.
+      - Heat the oil in the wok until smoking.
+      - Pour in the eggs from a height into the centre; they will puff up straight away.
+      - Fry for 1 minute, flip and fry for 30 more seconds. Drain and serve over the rice with sriracha.
+
+  - name: Khao man gai
+    category: Rice
+    difficulty: MEDIUM
+    prep: 20
+    cook: 60
+    servings: 4
+    notes: Hainanese-style chicken rice, one of Bangkok's most common street dishes. The rice is cooked with the chicken's fat and stock.
+    tags: [rice, chicken]
+    ingredients:
+      - group: Chicken and stock
+        items:
+          - [skin-on chicken thighs, 6, null]
+          - [fresh ginger, 5, cm]
+          - [garlic, 4, clove]
+          - [spring onions, 2, null]
+          - [water, 2, l]
+          - [salt, 1, tsp]
+      - group: Rice
+        items:
+          - [jasmine rice, 400, g]
+          - [chicken fat or oil, 2, tbsp]
+          - [chopped garlic, 1, tbsp]
+          - [chopped fresh ginger, 1, tbsp]
+      - group: Sauce
+        items:
+          - [fermented soybean paste (tao jiew), 3, tbsp]
+          - [grated fresh ginger, 1, tbsp]
+          - [garlic, 1, clove]
+          - [red chilli, 1, null]
+          - [rice vinegar, 1, tbsp]
+          - [sugar, 1, tsp]
+          - [dark soy sauce, 1, tsp]
+      - group: To serve
+        items:
+          - [cucumber, 1, null]
+          - [fresh coriander, 1, bunch]
+    steps:
+      - Simmer the chicken with the ginger, garlic, spring onions, salt and water very gently for 30 minutes. Take it out and set aside. Strain the stock.
+      - Fry the chopped garlic and ginger in the chicken fat, add the rinsed rice and stir for 2 minutes.
+      - Add 550 ml of the stock, cover and cook over the lowest heat for 15 minutes. Rest for 10 minutes.
+      - Mix the sauce ingredients with the chopped garlic and chilli.
+      - Serve the rice with the sliced chicken, cucumber, coriander, the sauce and a bowl of hot stock.
+
+  - name: Isan grilled chicken (gai yang)
+    category: Meat
+    difficulty: EASY
+    prep: 20
+    cook: 40
+    servings: 4
+    origin: Isan
+    notes: Served with som tam, sticky rice and jaew sauce. Marinate the chicken for at least 4 hours. Coriander stems can replace the roots.
+    tags: [grill, chicken]
+    utensils: [Barbecue]
+    ingredients:
+      - items:
+          - [whole chicken legs, 1, kg]
+          - [garlic, 6, clove]
+          - [coriander roots or stems, 4, null]
+          - [white peppercorns, 1, tsp]
+          - [lemongrass, 2, stalk]
+          - [fish sauce, 3, tbsp]
+          - [soy sauce, 1, tbsp]
+          - [palm sugar, 1, tbsp]
+    steps:
+      - Pound the garlic, coriander, pepper and chopped lemongrass in a mortar to a paste.
+      - Mix it with the sauces and sugar and marinate the chicken for at least 4 hours.
+      - Grill over medium embers for 35-40 minutes, turning often, until the skin is golden and the juices run clear.
+      - Serve with jaew sauce, som tam and sticky rice.
+
+  - name: Jaew dipping sauce
+    category: Sauces
+    difficulty: EASY
+    prep: 10
+    cook: 5
+    servings: 6
+    origin: Isan
+    notes: In Thai, nam jim jaew. The dipping sauce for the grilled meats of the north-east.
+    tags: [sauce, spicy]
+    ingredients:
+      - items:
+          - [uncooked sticky rice, 1, tbsp]
+          - [fish sauce, 3, tbsp]
+          - [lime juice, 3, tbsp]
+          - [tamarind paste, 1, tbsp]
+          - [palm sugar, 1, tbsp]
+          - [dried chilli powder, 1, tsp]
+          - [shallot, 1, null]
+          - [chopped fresh coriander, 1, tbsp]
+    steps:
+      - Toast the rice in a dry pan until golden and grind it in a mortar.
+      - Mix the fish sauce, lime juice, tamarind and sugar until dissolved.
+      - Add the chilli powder, the thinly sliced shallot, the toasted rice and the coriander.
+
+  - name: Mango sticky rice
+    category: Desserts
+    difficulty: MEDIUM
+    prep: 15
+    cook: 30
+    servings: 4
+    notes: In Thai, khao niao mamuang. Soak the sticky rice for at least 4 hours and steam it.
+    tags: [dessert, gluten-free]
+    utensils: [Steamer]
+    ingredients:
+      - group: Rice
+        items:
+          - [sticky (glutinous) rice, 300, g]
+          - [coconut milk, 300, ml]
+          - [sugar, 80, g]
+          - [salt, 0.5, tsp]
+      - group: Coconut sauce
+        items:
+          - [coconut milk, 100, ml]
+          - [sugar, 1, tbsp]
+          - [salt, 1, pinch]
+          - [cornflour, 1, tsp]
+      - group: To serve
+        items:
+          - [ripe mangoes, 2, null]
+          - [toasted sesame seeds or mung beans, 1, tbsp]
+    steps:
+      - Soak the rice for at least 4 hours, drain and steam it on a cloth for 25 minutes, until tender and translucent.
+      - Warm the coconut milk with the sugar and salt until dissolved, without boiling. Mix it into the hot rice, cover and let it soak in for 20 minutes.
+      - Heat the sauce ingredients until slightly thickened.
+      - Serve the rice with the peeled, sliced mango, the sauce on top and the sesame seeds.
+
+  - name: Thai iced tea (cha yen)
+    category: Drinks
+    difficulty: EASY
+    prep: 5
+    cook: 10
+    servings: 2
+    notes: Made with Thai tea mix, which is orange and contains spices such as star anise. Sold in Asian shops.
+    tags: [drink, cold]
+    ingredients:
+      - items:
+          - [loose Thai tea, 4, tbsp]
+          - [water, 500, ml]
+          - [sugar, 80, g]
+          - [condensed milk, 4, tbsp]
+          - [evaporated milk, 100, ml]
+          - [ice, 2, cup]
+    steps:
+      - Bring the water to the boil, add the tea and steep for 5 minutes. Strain.
+      - Stir the sugar and condensed milk into the hot tea. Let it cool.
+      - Fill glasses with ice, pour in the tea and top with the evaporated milk.

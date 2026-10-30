@@ -1,0 +1,608 @@
+id: cocina-tailandesa
+version: 1
+updated: 2026-10-31
+language: es
+name: "Cocina del mundo: Tailandia"
+description: >-
+  El equilibrio tailandés entre picante, ácido, dulce y salado: pad thai, tom yum, tom kha gai,
+  curris verde, massaman y panang, som tam, larb, arroz frito, pad kra pao, pad see ew, pollo con
+  anacardos, ensalada de ternera, tortitas de pescado, tortilla tailandesa, khao man gai, gai yang,
+  salsa jaew, mango con arroz glutinoso y té tailandés. Con equivalencias para los ingredientes
+  menos habituales.
+author: Miga
+authorGithub: calamares00
+cover:
+  emoji: "🍲"
+  kicker: Cocina del mundo
+  title: Tailandia
+  colors: ["#1e3a8a", "#dc2626"]
+defaults:
+  origin: Tailandia
+  originCountry: TH
+  source: "Pack «Cocina del mundo: Tailandia» de Miga"
+recipes:
+
+  - name: Pad thai
+    category: Pastas
+    difficulty: MEDIUM
+    prep: 30
+    cook: 10
+    servings: 2
+    notes: Sale mejor haciendo dos raciones cada vez, para que el wok no se enfríe. Remoja los fideos en agua templada, no caliente, para que no se pasen.
+    tags: [fideos, salteado]
+    utensils: [Wok]
+    ingredients:
+      - group: Salsa
+        items:
+          - [pasta de tamarindo, 3, cucharada]
+          - [salsa de pescado, 2, cucharada]
+          - [azúcar de palma o moreno, 2, cucharada]
+      - group: Salteado
+        items:
+          - [fideos de arroz planos medianos, 200, g]
+          - [gambas peladas, 200, g]
+          - [tofu firme, 100, g]
+          - [huevos, 2, null]
+          - [chalota, 1, null]
+          - [ajo, 2, diente]
+          - [rábano dulce encurtido, 1, cucharada, optional]
+          - [brotes de soja, 100, g]
+          - [cebollino chino o cebolleta, 1, manojo]
+          - [cacahuetes tostados picados, 3, cucharada]
+          - [chile en polvo, null, null]
+          - [lima, 1, null]
+          - [aceite de girasol, 3, cucharada]
+    steps:
+      - Remoja los fideos en agua templada 30 minutos, hasta que estén flexibles. Escúrrelos.
+      - Calienta los ingredientes de la salsa hasta que el azúcar se disuelva.
+      - Saltea en el wok con el aceite el tofu en dados, la chalota y el ajo picados y el rábano. Añade las gambas y saltea 1 minuto.
+      - Aparta a un lado, cuaja los huevos batidos y rómpelos.
+      - Añade los fideos y la salsa y saltea a fuego fuerte 2-3 minutos, hasta que los fideos estén tiernos. Si se secan, añade un chorrito de agua.
+      - Incorpora los brotes de soja y el cebollino en trozos, saltea 30 segundos y sirve con cacahuetes, chile en polvo y lima.
+
+  - name: Tom yum kung
+    category: Sopas y cremas
+    difficulty: EASY
+    prep: 20
+    cook: 20
+    servings: 4
+    notes: La sopa picante y ácida más famosa de Tailandia. La citronela, la galanga y las hojas de lima aromatizan pero no se comen.
+    tags: [sopa, picante, marisco]
+    ingredients:
+      - items:
+          - [langostinos, 400, g]
+          - [agua, 1, l]
+          - [hierba limón (citronela), 3, tallo]
+          - [galanga, 5, rodaja]
+          - [hojas de lima kaffir, 5, null]
+          - [setas (champiñones o de ostra), 150, g]
+          - [chiles tailandeses, 4, null]
+          - [salsa de pescado, 3, cucharada]
+          - [zumo de lima, 4, cucharada]
+          - [nam prik pao (pasta de chile tostado), 1, cucharada, optional]
+          - [cilantro fresco, 1, manojo]
+    steps:
+      - Pela los langostinos y cuece las cabezas y cáscaras en el agua 10 minutos. Cuela.
+      - Añade al caldo la citronela en trozos aplastada, la galanga y las hojas de lima rotas y cuece 5 minutos.
+      - Añade las setas y los chiles aplastados y cuece 2 minutos. Añade los langostinos y cuece 2 minutos más.
+      - Fuera del fuego, añade la salsa de pescado, el zumo de lima y el nam prik pao. Prueba y ajusta. Sirve con cilantro.
+
+  - name: Tom kha gai
+    category: Sopas y cremas
+    difficulty: EASY
+    prep: 15
+    cook: 20
+    servings: 4
+    notes: Sopa de pollo con leche de coco y galanga (kha). Más suave que el tom yum.
+    tags: [sopa, leche de coco]
+    ingredients:
+      - items:
+          - [pechuga o contramuslo de pollo, 400, g]
+          - [leche de coco, 400, ml]
+          - [caldo de pollo, 300, ml]
+          - [galanga, 8, rodaja]
+          - [hierba limón (citronela), 2, tallo]
+          - [hojas de lima kaffir, 5, null]
+          - [setas, 150, g]
+          - [chiles tailandeses, 3, null]
+          - [salsa de pescado, 3, cucharada]
+          - [zumo de lima, 3, cucharada]
+          - [azúcar de palma, 1, cucharadita]
+          - [cilantro fresco, 1, manojo]
+    steps:
+      - Lleva a ebullición la leche de coco con el caldo, la galanga, la citronela aplastada y las hojas de lima rotas.
+      - Añade el pollo en tiras y cuece a fuego suave 8 minutos.
+      - Añade las setas y los chiles aplastados y cuece 3 minutos.
+      - Fuera del fuego, añade la salsa de pescado, el azúcar y el zumo de lima. Sirve con cilantro.
+
+  - name: Curry verde de pollo
+    category: Carnes
+    difficulty: EASY
+    prep: 15
+    cook: 20
+    servings: 4
+    notes: En tailandés, kaeng khiao wan gai. Freír la pasta de curry en la grasa de la leche de coco es la clave del sabor. En Tailandia se usan berenjenas pequeñas y redondas.
+    tags: [curry, picante]
+    ingredients:
+      - items:
+          - [contramuslos de pollo deshuesados, 500, g]
+          - [pasta de curry verde, 3, cucharada]
+          - [leche de coco, 400, ml]
+          - [caldo de pollo, 150, ml]
+          - [berenjena, 1, null]
+          - [hojas de lima kaffir, 4, null]
+          - [salsa de pescado, 2, cucharada]
+          - [azúcar de palma, 1, cucharada]
+          - [albahaca tailandesa, 1, manojo]
+          - [chile rojo, 1, null]
+          - [aceite de girasol, 1, cucharada]
+    steps:
+      - Calienta el aceite con la parte espesa de la leche de coco hasta que suelte la grasa. Añade la pasta de curry y fríela 2 minutos.
+      - Añade el pollo en trozos y cocina 3 minutos.
+      - Añade el resto de la leche de coco, el caldo, la berenjena en dados y las hojas de lima rotas. Cuece 10-12 minutos.
+      - Sazona con la salsa de pescado y el azúcar. Añade la albahaca y el chile en tiras y sirve con arroz jazmín.
+
+  - name: Curry massaman de ternera
+    category: Carnes
+    difficulty: MEDIUM
+    prep: 20
+    cook: 120
+    servings: 6
+    notes: Un curry suave y especiado de influencia persa, con patata y cacahuetes. La pasta massaman lleva canela, cardamomo y clavo.
+    tags: [curry, guiso]
+    ingredients:
+      - items:
+          - [carne de ternera para guisar, 600, g]
+          - [pasta de curry massaman, 3, cucharada]
+          - [leche de coco, 800, ml]
+          - [patatas, 3, null]
+          - [cebolla, 1, null]
+          - [cacahuetes tostados, 50, g]
+          - [pasta de tamarindo, 2, cucharada]
+          - [azúcar de palma, 2, cucharada]
+          - [salsa de pescado, 2, cucharada]
+          - [canela en rama, 1, null]
+          - [cardamomo verde, 3, null]
+          - [laurel, 2, hoja]
+    steps:
+      - Cuece la ternera en dados con la mitad de la leche de coco, la canela, el cardamomo y el laurel a fuego suave, tapada, 1 hora.
+      - En otra cazuela, calienta la parte espesa del resto de la leche de coco hasta que suelte la grasa y fríe la pasta de curry 2 minutos.
+      - Añade el curry frito a la carne con el resto de la leche de coco, las patatas en trozos, la cebolla en gajos y los cacahuetes.
+      - Cuece 40 minutos, hasta que las patatas estén tiernas. Sazona con el tamarindo, el azúcar y la salsa de pescado.
+
+  - name: Curry panang de cerdo
+    category: Carnes
+    difficulty: EASY
+    prep: 15
+    cook: 20
+    servings: 4
+    notes: Un curry espeso y algo dulce, con poca salsa. Las hojas de lima en juliana muy fina son imprescindibles.
+    tags: [curry, picante]
+    ingredients:
+      - items:
+          - [lomo de cerdo, 500, g]
+          - [pasta de curry panang, 2, cucharada]
+          - [leche de coco, 400, ml]
+          - [hojas de lima kaffir, 6, null]
+          - [salsa de pescado, 2, cucharada]
+          - [azúcar de palma, 1, cucharada]
+          - [cacahuetes tostados picados, 2, cucharada, optional]
+          - [chile rojo, 1, null]
+          - [albahaca tailandesa, 1, manojo]
+    steps:
+      - Corta el cerdo en láminas finas.
+      - Calienta la mitad de la leche de coco hasta que suelte la grasa y fríe la pasta de curry 2 minutos.
+      - Añade el cerdo y cocina 3 minutos. Añade el resto de la leche de coco, la salsa de pescado, el azúcar y los cacahuetes.
+      - Cuece a fuego suave 10 minutos, hasta que la salsa espese.
+      - Sirve con las hojas de lima en juliana finísima, el chile en tiras y la albahaca.
+
+  - name: Som tam
+    category: Ensaladas
+    difficulty: EASY
+    prep: 20
+    cook: 0
+    servings: 4
+    origin: Isan
+    notes: Ensalada de papaya verde machacada en mortero. Si no encuentras papaya verde, usa colinabo o pepino y zanahoria.
+    tags: [ensalada, picante]
+    ingredients:
+      - items:
+          - [papaya verde rallada en tiras, 300, g]
+          - [ajo, 2, diente]
+          - [chiles tailandeses, 3, null]
+          - [judías verdes largas, 50, g]
+          - [tomates cherry, 6, null]
+          - [cacahuetes tostados, 2, cucharada]
+          - [gambas secas, 1, cucharada, optional]
+          - [salsa de pescado, 2, cucharada]
+          - [zumo de lima, 2, cucharada]
+          - [azúcar de palma, 1, cucharada]
+    steps:
+      - Machaca en un mortero grande el ajo y los chiles. Añade las judías en trozos y los cacahuetes y machaca ligeramente.
+      - Añade el azúcar, la salsa de pescado, el zumo de lima, las gambas secas y los tomates partidos, y machaca para que suelten jugo.
+      - Añade la papaya y mezcla con la mano del mortero y una cuchara, golpeando suavemente para que absorba el aliño.
+      - Prueba y ajusta. Sirve enseguida con arroz glutinoso.
+
+  - name: Larb gai
+    category: Ensaladas
+    difficulty: EASY
+    prep: 20
+    cook: 10
+    servings: 4
+    origin: Isan
+    notes: Ensalada templada de carne picada con hierbas. El arroz glutinoso tostado y molido (khao khua) le da su aroma y textura.
+    tags: [ensalada, picante]
+    ingredients:
+      - items:
+          - [carne picada de pollo, 400, g]
+          - [arroz glutinoso crudo, 2, cucharada]
+          - [chalotas, 3, null]
+          - [cebolleta, 2, null]
+          - [menta fresca, 1, manojo]
+          - [cilantro fresco, 1, manojo]
+          - [salsa de pescado, 3, cucharada]
+          - [zumo de lima, 3, cucharada]
+          - [chile en polvo, 1, cucharadita]
+          - [agua, 3, cucharada]
+          - [lechuga, 1, null]
+    steps:
+      - Tuesta el arroz glutinoso en una sartén sin aceite hasta que esté dorado y muélelo en un mortero.
+      - Cuece la carne con el agua en una sartén, deshaciéndola, 5-6 minutos, hasta que esté hecha. Apaga el fuego.
+      - Añade la salsa de pescado, el zumo de lima, el chile, las chalotas en láminas y la cebolleta.
+      - Incorpora la menta, el cilantro y el arroz tostado y mezcla. Sirve templado con hojas de lechuga.
+
+  - name: Arroz frito tailandés (khao pad)
+    category: Arroces
+    difficulty: EASY
+    prep: 10
+    cook: 10
+    servings: 2
+    notes: Se sirve con pepino, lima y prik nam pla (salsa de pescado con chile picado).
+    tags: [arroz, rápida]
+    utensils: [Wok]
+    ingredients:
+      - items:
+          - [arroz jazmín cocido del día anterior, 600, g]
+          - [gambas peladas o pollo, 250, g]
+          - [huevos, 2, null]
+          - [cebolla, 0.5, null]
+          - [ajo, 2, diente]
+          - [tomate, 1, null, optional]
+          - [salsa de pescado, 2, cucharada]
+          - [salsa de soja, 1, cucharada]
+          - [azúcar, 1, cucharadita]
+          - [cebolleta, 2, null]
+          - [aceite de girasol, 3, cucharada]
+          - [pepino, 0.5, null]
+          - [lima, 1, null]
+    steps:
+      - Saltea el ajo picado y la cebolla en tiras en el aceite 1 minuto. Añade las gambas y saltea 2 minutos.
+      - Aparta a un lado, cuaja los huevos y rómpelos.
+      - Añade el arroz y el tomate en gajos y saltea a fuego fuerte 3 minutos.
+      - Añade la salsa de pescado, la soja y el azúcar y saltea 1 minuto más. Termina con la cebolleta.
+      - Sirve con rodajas de pepino y gajos de lima.
+
+  - name: Pad kra pao
+    category: Carnes
+    difficulty: EASY
+    prep: 10
+    cook: 10
+    servings: 2
+    notes: El salteado callejero más popular de Tailandia, con albahaca sagrada (kra pao). Con albahaca tailandesa también queda bien. Se sirve con arroz y un huevo frito crujiente.
+    tags: [salteado, picante, rápida]
+    utensils: [Wok]
+    ingredients:
+      - items:
+          - [carne picada de cerdo o pollo, 400, g]
+          - [albahaca sagrada o tailandesa, 1, manojo]
+          - [ajo, 4, diente]
+          - [chiles tailandeses, 4, null]
+          - [salsa de ostras, 1, cucharada]
+          - [salsa de soja, 1, cucharada]
+          - [salsa de pescado, 1, cucharada]
+          - [salsa de soja oscura, 1, cucharadita]
+          - [azúcar, 1, cucharadita]
+          - [aceite de girasol, 3, cucharada]
+          - [huevos, 2, null]
+          - [arroz jazmín cocido, 400, g]
+    steps:
+      - Machaca el ajo y los chiles en un mortero hasta tener una pasta gruesa.
+      - Fríe los huevos en abundante aceite muy caliente hasta que los bordes estén crujientes. Resérvalos.
+      - Saltea la pasta de ajo y chile en 1 cucharada de aceite unos segundos. Añade la carne y saltea a fuego fuerte 4 minutos.
+      - Añade las salsas y el azúcar y saltea 1 minuto. Incorpora la albahaca y apaga el fuego.
+      - Sirve sobre arroz con el huevo frito encima.
+
+  - name: Pad see ew
+    category: Pastas
+    difficulty: EASY
+    prep: 15
+    cook: 10
+    servings: 2
+    notes: Fideos de arroz anchos salteados con soja oscura. Los fideos frescos se separan antes de saltear para que no se apelmacen.
+    tags: [fideos, salteado]
+    utensils: [Wok]
+    ingredients:
+      - items:
+          - [fideos de arroz anchos frescos, 400, g]
+          - [pollo o cerdo en láminas, 200, g]
+          - [brócoli chino (kai lan) o bimi, 200, g]
+          - [huevos, 2, null]
+          - [ajo, 2, diente]
+          - [salsa de soja oscura, 1, cucharada]
+          - [salsa de soja, 1, cucharada]
+          - [salsa de ostras, 1, cucharada]
+          - [azúcar, 1, cucharadita]
+          - [aceite de girasol, 3, cucharada]
+          - [pimienta blanca, null, null]
+    steps:
+      - Separa los fideos con las manos. Corta el brócoli en trozos, separando tallos y hojas.
+      - Saltea el ajo y la carne en el aceite a fuego fuerte 3 minutos. Añade los tallos del brócoli y saltea 1 minuto.
+      - Aparta a un lado, cuaja los huevos y rómpelos.
+      - Añade los fideos, las salsas y el azúcar y saltea sin mover demasiado, dejando que se tuesten un poco, 2-3 minutos. Añade las hojas al final.
+      - Sirve con pimienta blanca.
+
+  - name: Pollo con anacardos
+    category: Carnes
+    difficulty: EASY
+    prep: 15
+    cook: 15
+    servings: 4
+    notes: En tailandés, gai pad med mamuang. Los chiles secos fritos le dan aroma más que picante.
+    tags: [salteado, pollo]
+    utensils: [Wok]
+    ingredients:
+      - items:
+          - [pechuga de pollo, 400, g]
+          - [harina, 2, cucharada]
+          - [anacardos crudos, 80, g]
+          - [chiles secos, 4, null]
+          - [cebolla, 1, null]
+          - [pimiento rojo, 1, null]
+          - [cebolleta, 2, null]
+          - [ajo, 3, diente]
+          - [salsa de ostras, 2, cucharada]
+          - [salsa de soja, 1, cucharada]
+          - [salsa de pescado, 1, cucharada]
+          - [azúcar, 1, cucharadita]
+          - [nam prik pao (pasta de chile tostado), 1, cucharada, optional]
+          - [aceite de girasol, 5, cucharada]
+    steps:
+      - Fríe los anacardos en el aceite hasta que estén dorados y retíralos. Fríe los chiles en trozos unos segundos y retíralos.
+      - Reboza el pollo en dados con la harina y fríelo en el mismo aceite hasta que esté dorado. Retira parte del aceite.
+      - Saltea el ajo, la cebolla y el pimiento en trozos 2 minutos.
+      - Añade el pollo, las salsas, el azúcar, el nam prik pao y un chorrito de agua y saltea 1 minuto.
+      - Incorpora los anacardos, los chiles y la cebolleta en trozos y sirve con arroz.
+
+  - name: Ensalada de ternera (yam nua)
+    category: Ensaladas
+    difficulty: EASY
+    prep: 20
+    cook: 10
+    servings: 4
+    tags: [ensalada, picante]
+    ingredients:
+      - group: Ensalada
+        items:
+          - [entrecot o solomillo de ternera, 400, g]
+          - [pepino, 1, null]
+          - [tomates cherry, 10, null]
+          - [cebolla morada, 0.5, null]
+          - [cebolleta, 2, null]
+          - [menta fresca, 1, manojo]
+          - [cilantro fresco, 1, manojo]
+      - group: Aliño
+        items:
+          - [salsa de pescado, 3, cucharada]
+          - [zumo de lima, 3, cucharada]
+          - [azúcar de palma, 1, cucharada]
+          - [chiles tailandeses, 2, null]
+          - [ajo, 1, diente]
+    steps:
+      - Asa la carne a la plancha o la parrilla 3-4 minutos por cada lado, poco hecha. Deja que repose 5 minutos y córtala en lonchas finas.
+      - Mezcla los ingredientes del aliño con los chiles y el ajo muy picados, hasta que se disuelva el azúcar.
+      - Mezcla la carne con el pepino en medias lunas, los tomates partidos, la cebolla en láminas, la cebolleta y las hierbas.
+      - Riega con el aliño y sirve enseguida.
+
+  - name: Tortitas de pescado (tod mun pla)
+    category: Pescados y mariscos
+    difficulty: MEDIUM
+    prep: 30
+    cook: 15
+    servings: 4
+    notes: La masa se amasa golpeándola contra el bol para que quede elástica. Se sirven con una salsa de pepino agridulce (ajad).
+    tags: [frito, aperitivo]
+    utensils: [Robot de cocina]
+    ingredients:
+      - group: Tortitas
+        items:
+          - [filetes de pescado blanco, 400, g]
+          - [pasta de curry rojo, 2, cucharada]
+          - [huevo, 1, null]
+          - [salsa de pescado, 1, cucharada]
+          - [azúcar, 1, cucharadita]
+          - [judías verdes largas, 50, g]
+          - [hojas de lima kaffir, 5, null]
+          - [aceite de girasol para freír, null, null]
+      - group: Salsa ajad
+        items:
+          - [vinagre de arroz, 80, ml]
+          - [azúcar, 4, cucharada]
+          - [sal, 0.5, cucharadita]
+          - [pepino, 0.5, null]
+          - [chalota, 1, null]
+          - [chile rojo, 1, null]
+    steps:
+      - Calienta el vinagre con el azúcar y la sal hasta que se disuelvan. Deja que se enfríe y añade el pepino en daditos, la chalota y el chile picados.
+      - Tritura el pescado con la pasta de curry, el huevo, la salsa de pescado y el azúcar hasta tener una pasta.
+      - Pásala a un bol y amásala golpeándola contra el bol 2 minutos. Añade las judías en rodajas finas y las hojas de lima en juliana.
+      - Con las manos mojadas, forma tortitas de 5 cm y 1 cm de grosor.
+      - Fríelas en aceite a 170 °C 2-3 minutos por cada lado, hasta que estén doradas e infladas. Sírvelas con la salsa.
+
+  - name: Tortilla tailandesa (kai jeow)
+    category: Huevos
+    difficulty: EASY
+    prep: 5
+    cook: 5
+    servings: 1
+    notes: Al freírse en abundante aceite muy caliente, se hincha y queda crujiente por fuera y tierna por dentro. Se come sobre arroz con salsa sriracha.
+    tags: [huevo, rápida]
+    utensils: [Wok]
+    ingredients:
+      - items:
+          - [huevos, 3, null]
+          - [salsa de pescado, 1, cucharadita]
+          - [zumo de lima, 0.5, cucharadita]
+          - [aceite de girasol, 100, ml]
+          - [arroz jazmín cocido, 200, g]
+          - [salsa sriracha, null, null, optional]
+    steps:
+      - Bate los huevos con la salsa de pescado y el zumo de lima hasta que espumen.
+      - Calienta el aceite en el wok hasta que humee.
+      - Vierte los huevos desde cierta altura en el centro; se inflarán enseguida.
+      - Fríe 1 minuto, dale la vuelta y fríe 30 segundos más. Escurre y sirve sobre el arroz con sriracha.
+
+  - name: Khao man gai
+    category: Arroces
+    difficulty: MEDIUM
+    prep: 20
+    cook: 60
+    servings: 4
+    notes: El arroz con pollo de origen hainanés, uno de los platos callejeros más comunes de Bangkok. El arroz se cuece con la grasa y el caldo del pollo.
+    tags: [arroz, pollo]
+    ingredients:
+      - group: Pollo y caldo
+        items:
+          - [contramuslos de pollo con piel, 6, null]
+          - [jengibre fresco, 5, cm]
+          - [ajo, 4, diente]
+          - [cebolletas, 2, null]
+          - [agua, 2, l]
+          - [sal, 1, cucharadita]
+      - group: Arroz
+        items:
+          - [arroz jazmín, 400, g]
+          - [grasa de pollo o aceite, 2, cucharada]
+          - [ajo picado, 1, cucharada]
+          - [jengibre fresco picado, 1, cucharada]
+      - group: Salsa
+        items:
+          - [pasta de soja fermentada (tao jiew), 3, cucharada]
+          - [jengibre fresco rallado, 1, cucharada]
+          - [ajo, 1, diente]
+          - [chile rojo, 1, null]
+          - [vinagre de arroz, 1, cucharada]
+          - [azúcar, 1, cucharadita]
+          - [salsa de soja oscura, 1, cucharadita]
+      - group: Para servir
+        items:
+          - [pepino, 1, null]
+          - [cilantro fresco, 1, manojo]
+    steps:
+      - Cuece el pollo con el jengibre, el ajo, las cebolletas, la sal y el agua a fuego muy suave 30 minutos. Sácalo y resérvalo. Cuela el caldo.
+      - Fríe el ajo y el jengibre picados en la grasa de pollo, añade el arroz lavado y remueve 2 minutos.
+      - Añade 550 ml del caldo, tapa y cuece a fuego mínimo 15 minutos. Deja que repose 10 minutos.
+      - Mezcla los ingredientes de la salsa con el ajo y el chile picados.
+      - Sirve el arroz con el pollo en lonchas, pepino, cilantro, la salsa y un cuenco del caldo caliente.
+
+  - name: Pollo a la parrilla de Isan (gai yang)
+    category: Carnes
+    difficulty: EASY
+    prep: 20
+    cook: 40
+    servings: 4
+    origin: Isan
+    notes: Se sirve con som tam, arroz glutinoso y salsa jaew. Marina el pollo al menos 4 horas. Las raíces de cilantro se pueden sustituir por los tallos.
+    tags: [parrilla, pollo]
+    utensils: [Barbacoa]
+    ingredients:
+      - items:
+          - [muslos de pollo enteros, 1, kg]
+          - [ajo, 6, diente]
+          - [raíces o tallos de cilantro, 4, null]
+          - [pimienta blanca en grano, 1, cucharadita]
+          - [hierba limón (citronela), 2, tallo]
+          - [salsa de pescado, 3, cucharada]
+          - [salsa de soja, 1, cucharada]
+          - [azúcar de palma, 1, cucharada]
+    steps:
+      - Machaca en un mortero el ajo, el cilantro, la pimienta y la citronela picada hasta tener una pasta.
+      - Mézclala con las salsas y el azúcar y marina el pollo al menos 4 horas.
+      - Ásalo sobre brasas a fuego medio 35-40 minutos, dándole la vuelta a menudo, hasta que la piel esté dorada y el jugo salga transparente.
+      - Sírvelo con salsa jaew, som tam y arroz glutinoso.
+
+  - name: Salsa jaew
+    category: Salsas
+    difficulty: EASY
+    prep: 10
+    cook: 5
+    servings: 6
+    origin: Isan
+    notes: En tailandés, nam jim jaew. La salsa para mojar de las carnes a la parrilla del noreste.
+    tags: [salsa, picante]
+    ingredients:
+      - items:
+          - [arroz glutinoso crudo, 1, cucharada]
+          - [salsa de pescado, 3, cucharada]
+          - [zumo de lima, 3, cucharada]
+          - [pasta de tamarindo, 1, cucharada]
+          - [azúcar de palma, 1, cucharada]
+          - [chile seco en polvo, 1, cucharadita]
+          - [chalota, 1, null]
+          - [cilantro fresco picado, 1, cucharada]
+    steps:
+      - Tuesta el arroz en una sartén sin aceite hasta que esté dorado y muélelo en un mortero.
+      - Mezcla la salsa de pescado, el zumo de lima, el tamarindo y el azúcar hasta que se disuelva.
+      - Añade el chile en polvo, la chalota en láminas finas, el arroz tostado y el cilantro.
+
+  - name: Mango con arroz glutinoso
+    category: Postres
+    difficulty: MEDIUM
+    prep: 15
+    cook: 30
+    servings: 4
+    notes: En tailandés, khao niao mamuang. El arroz glutinoso se remoja al menos 4 horas y se cuece al vapor.
+    tags: [postre, sin gluten]
+    utensils: [Vaporera]
+    ingredients:
+      - group: Arroz
+        items:
+          - [arroz glutinoso, 300, g]
+          - [leche de coco, 300, ml]
+          - [azúcar, 80, g]
+          - [sal, 0.5, cucharadita]
+      - group: Salsa de coco
+        items:
+          - [leche de coco, 100, ml]
+          - [azúcar, 1, cucharada]
+          - [sal, 1, pizca]
+          - [maicena, 1, cucharadita]
+      - group: Para servir
+        items:
+          - [mangos maduros, 2, null]
+          - [sésamo tostado o judías mungo tostadas, 1, cucharada]
+    steps:
+      - Remoja el arroz al menos 4 horas, escúrrelo y cuécelo al vapor sobre un paño 25 minutos, hasta que esté tierno y translúcido.
+      - Calienta la leche de coco con el azúcar y la sal hasta que se disuelvan, sin que hierva. Mézclala con el arroz caliente, tapa y deja que lo absorba 20 minutos.
+      - Calienta los ingredientes de la salsa hasta que espese ligeramente.
+      - Sirve el arroz con el mango pelado en lonchas, la salsa por encima y el sésamo.
+
+  - name: Té tailandés helado (cha yen)
+    category: Bebidas
+    difficulty: EASY
+    prep: 5
+    cook: 10
+    servings: 2
+    notes: Se hace con mezcla de té tailandés, de color naranja, que lleva especias como el anís estrellado. Se vende en tiendas asiáticas.
+    tags: [bebida, fría]
+    ingredients:
+      - items:
+          - [té tailandés en hebras, 4, cucharada]
+          - [agua, 500, ml]
+          - [azúcar, 80, g]
+          - [leche condensada, 4, cucharada]
+          - [leche evaporada, 100, ml]
+          - [hielo, 2, taza]
+    steps:
+      - Lleva el agua a ebullición, añade el té y deja que infusione 5 minutos. Cuela.
+      - Añade el azúcar y la leche condensada al té caliente y remueve. Deja que se enfríe.
+      - Llena los vasos de hielo, vierte el té y termina con la leche evaporada por encima.

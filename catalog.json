@@ -38,6 +38,18 @@
       "language": "en"
     },
     {
+      "id": "argentine-cooking",
+      "name": "World cuisine: Argentina",
+      "author": "Miga",
+      "authorGithub": "calamares00",
+      "description": "From the asado to afternoon tea: beef short ribs, chimichurri, salsa criolla, choripán, provoleta, criolla empanadas, milanesa a la napolitana, locro, matambre, humita, carbonada, gnocchi with tuco, pastel de papa, revuelto gramajo, dulce de leche, alfajores, pastafrola, medialunas, tortas fritas and chipá.",
+      "coverImageUrl": "packs/argentine-cooking/cover.jpg",
+      "latestVersion": 1,
+      "recipeCount": 20,
+      "downloadUrl": "dist/argentine-cooking-v1.zip",
+      "language": "en"
+    },
+    {
       "id": "arroces",
       "name": "Arroces",
       "author": "Miga",
@@ -95,6 +107,18 @@
       "latestVersion": 1,
       "recipeCount": 20,
       "downloadUrl": "dist/cocina-alemana-v1.zip",
+      "language": "es"
+    },
+    {
+      "id": "cocina-argentina",
+      "name": "Cocina del mundo: Argentina",
+      "author": "Miga",
+      "authorGithub": "calamares00",
+      "description": "Del asado a la merienda: tira de asado, chimichurri, salsa criolla, choripán, provoleta, empanadas criollas, milanesa a la napolitana, locro, matambre arrollado, humita, carbonada, ñoquis con tuco, pastel de papa, revuelto gramajo, dulce de leche, alfajores de maicena, pastafrola, medialunas, tortas fritas y chipá.",
+      "coverImageUrl": "packs/cocina-argentina/cover.jpg",
+      "latestVersion": 1,
+      "recipeCount": 20,
+      "downloadUrl": "dist/cocina-argentina-v1.zip",
       "language": "es"
     },
     {

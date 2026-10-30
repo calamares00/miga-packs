@@ -1,0 +1,640 @@
+id: peruvian-cooking
+version: 1
+updated: 2026-10-31
+language: en
+name: "World cuisine: Peru"
+description: >-
+  Peruvian cooking from the coast, the Andes and the chifa tradition: ceviche, tiradito, lomo
+  saltado, ají de gallina, causa limeña, papa a la huancaína, ocopa, arroz chaufa, anticuchos,
+  pollo a la brasa, rocoto relleno, seco de res, arroz con pollo, chupe de camarones, papa
+  rellena, tallarines verdes, suspiro limeño, picarones, mazamorra morada and chicha morada.
+  With substitutes for Peruvian chillies.
+author: Miga
+authorGithub: calamares00
+cover:
+  emoji: "🌶️"
+  kicker: World cuisine
+  title: Peru
+  colors: ["#b91c1c", "#f43f5e"]
+defaults:
+  origin: Peru
+  originCountry: PE
+  source: "Miga «World cuisine: Peru» pack"
+recipes:
+
+  - name: Fish ceviche
+    category: Fish and seafood
+    difficulty: EASY
+    prep: 25
+    cook: 0
+    servings: 4
+    origin: Lima
+    notes: Fish eaten raw must first be frozen at -20 °C for at least 5 days, or bought already frozen for this purpose; lime juice does not kill parasites. The juice left over is leche de tigre.
+    tags: [fish, cold, gluten-free]
+    ingredients:
+      - items:
+          - ["firm white fish (corvina, sole or hake)", 600, g]
+          - [limes, 15, null]
+          - [ají limo or red chilli, 1, null]
+          - [red onion, 1, null]
+          - [chopped fresh coriander, 3, tbsp]
+          - [garlic, 1, clove]
+          - [salt, 1, tsp]
+          - [cooked sweet potato, 1, null]
+          - [cooked corn on the cob, 1, null]
+    steps:
+      - Slice the onion very thinly and soak it in iced water for 10 minutes. Drain.
+      - Cut the fish into 2 cm cubes, put it in a cold bowl and salt it. Add the grated garlic and the deseeded chopped chilli.
+      - Squeeze the limes right then, without pressing too hard so the juice isn't bitter, and pour it over the fish.
+      - Mix, add the onion and coriander and leave for 2-3 minutes, until the fish turns white outside.
+      - Serve straight away with slices of sweet potato and corn.
+
+  - name: Tiradito
+    category: Fish and seafood
+    difficulty: EASY
+    prep: 20
+    cook: 0
+    servings: 4
+    notes: The Japanese-influenced (Nikkei) ceviche, with the fish thinly sliced and no onion. Ají amarillo paste is sold in Latin American shops. The fish must have been frozen first.
+    tags: [fish, cold, gluten-free]
+    utensils: [Blender]
+    ingredients:
+      - items:
+          - [firm white fish, 500, g]
+          - [lime juice, 150, ml]
+          - [ají amarillo paste, 2, tbsp]
+          - [garlic, 1, clove]
+          - [fresh ginger, 1, cm]
+          - [salt, 1, tsp]
+          - [fresh coriander, 4, sprig]
+    steps:
+      - Slice the fish thinly, as for carpaccio, and arrange it on cold plates.
+      - Blend the lime juice with the ají paste, garlic, ginger and salt.
+      - Pour the sauce over the fish just before serving and garnish with coriander leaves.
+
+  - name: Lomo saltado
+    category: Meat
+    difficulty: MEDIUM
+    prep: 20
+    cook: 15
+    servings: 4
+    notes: Peru's most famous Peruvian-Chinese fusion dish. Everything is stir-fried over a very high heat, very quickly.
+    tags: [chifa, stir-fry]
+    utensils: [Wok]
+    ingredients:
+      - items:
+          - [beef sirloin or tenderloin, 500, g]
+          - [red onion, 1, null]
+          - [tomatoes, 2, null]
+          - [ají amarillo or yellow pepper, 1, null]
+          - [garlic, 2, clove]
+          - [soy sauce (sillao), 3, tbsp]
+          - [red wine vinegar, 2, tbsp]
+          - [ground cumin, 0.5, tsp]
+          - [chopped fresh coriander, 2, tbsp]
+          - [sunflower oil, 3, tbsp]
+          - [salt, null, null]
+          - [black pepper, null, null]
+          - [chips, 400, g]
+          - [cooked white rice, 600, g]
+    steps:
+      - Cut the beef into thick strips and season with salt, pepper and cumin. Cut the onion and tomatoes into wedges and the ají into strips.
+      - Get the wok very hot with the oil and brown the beef in two batches, 1 minute each. Take it out.
+      - Stir-fry the garlic and onion for 1 minute, add the ají and tomato and stir-fry for 1 more minute.
+      - Return the beef, add the soy sauce and vinegar around the edge of the wok and toss for 30 seconds.
+      - Add the coriander and chips, toss and serve with white rice.
+
+  - name: Ají de gallina
+    category: Meat
+    difficulty: MEDIUM
+    prep: 25
+    cook: 40
+    servings: 6
+    origin: Lima
+    notes: The creamy sauce is thickened with bread soaked in evaporated milk. Served with potatoes, rice, hard-boiled egg and black olives.
+    tags: [stew, chicken]
+    utensils: [Blender]
+    ingredients:
+      - items:
+          - [chicken breasts, 600, g]
+          - [sliced white bread, 4, slice]
+          - [evaporated milk, 410, ml]
+          - [ají amarillo paste, 4, tbsp]
+          - [onion, 1, null]
+          - [garlic, 3, clove]
+          - [walnuts or pecans, 50, g]
+          - [grated Parmesan, 50, g]
+          - [sunflower oil, 3, tbsp]
+          - [salt, null, null]
+          - [cooked yellow potatoes, 4, null]
+          - [hard-boiled eggs, 3, null]
+          - [black olives, 6, null]
+    steps:
+      - Simmer the chicken in salted water for 20 minutes. Shred it and keep the stock.
+      - Soak the bread in the evaporated milk and blend it with the nuts.
+      - Fry the chopped onion and garlic in the oil for 8 minutes. Add the ají paste and cook for 3 minutes.
+      - Add the blended bread and 250 ml of the stock and simmer for 5 minutes, stirring. Add the chicken and cheese and cook until thick.
+      - Serve over sliced potatoes, with white rice, hard-boiled egg and olives.
+
+  - name: Causa limeña
+    category: Starters
+    difficulty: MEDIUM
+    prep: 40
+    cook: 25
+    servings: 6
+    origin: Lima
+    notes: Served cold. Peruvian yellow potatoes give it its colour and texture; otherwise use floury potatoes.
+    tags: [cold, potato]
+    ingredients:
+      - group: Potato layer
+        items:
+          - [yellow or floury potatoes, 1, kg]
+          - [ají amarillo paste, 3, tbsp]
+          - [lime juice, 3, tbsp]
+          - [sunflower oil, 4, tbsp]
+          - [salt, 1, tsp]
+      - group: Filling
+        items:
+          - [shredded cooked chicken or tuna, 300, g]
+          - [mayonnaise, 5, tbsp]
+          - [chopped red onion, 2, tbsp]
+          - [avocados, 2, null]
+          - [hard-boiled eggs, 2, null]
+          - [black olives, 6, null]
+    steps:
+      - Boil the potatoes in their skins, peel them and pass them through a ricer while hot.
+      - Knead the mash with the ají paste, lime juice, oil and salt until smooth. Let it cool.
+      - Mix the chicken with the mayonnaise and onion.
+      - In a mould, layer potato, sliced avocado, the filling and another layer of potato.
+      - Chill for 1 hour, unmould and garnish with hard-boiled egg, olives and a little mayonnaise.
+
+  - name: Papa a la huancaína
+    category: Starters
+    difficulty: EASY
+    prep: 15
+    cook: 25
+    servings: 4
+    origin: Huancayo
+    notes: Huancaína sauce is also served with fried cassava and pasta. If it is too thick, add more milk.
+    tags: [potato, sauce, vegetarian]
+    utensils: [Blender]
+    ingredients:
+      - group: Potatoes
+        items:
+          - [yellow or floury potatoes, 6, null]
+          - [hard-boiled eggs, 2, null]
+          - [black olives, 6, null]
+          - [lettuce leaves, 4, null]
+      - group: Huancaína sauce
+        items:
+          - [ají amarillo paste, 4, tbsp]
+          - [fresh cheese, 200, g]
+          - [evaporated milk, 150, ml]
+          - [cream crackers, 4, null]
+          - [garlic, 1, clove]
+          - [sunflower oil, 3, tbsp]
+          - [salt, null, null]
+    steps:
+      - Boil the potatoes in their skins, peel them and cut into thick slices.
+      - Blend the sauce ingredients until smooth and thick. Season with salt.
+      - Lay the potatoes on the lettuce leaves, cover with the sauce and garnish with egg and olives.
+
+  - name: Ocopa arequipeña
+    category: Starters
+    difficulty: EASY
+    prep: 20
+    cook: 25
+    servings: 4
+    origin: Arequipa
+    notes: Huacatay (Peruvian black mint) is essential; look for it as a paste in Latin American shops.
+    tags: [potato, sauce, vegetarian]
+    utensils: [Blender]
+    ingredients:
+      - group: Sauce
+        items:
+          - [dried ají mirasol chillies, 3, null]
+          - [onion, 1, null]
+          - [garlic, 2, clove]
+          - [roasted peanuts, 50, g]
+          - [huacatay leaves or paste, 2, tbsp]
+          - [fresh cheese, 150, g]
+          - [cream crackers, 4, null]
+          - [evaporated milk, 150, ml]
+          - [sunflower oil, 4, tbsp]
+          - [salt, null, null]
+      - group: To serve
+        items:
+          - [potatoes, 6, null]
+          - [hard-boiled eggs, 2, null]
+          - [black olives, 6, null]
+    steps:
+      - Deseed the chillies, soak them in hot water for 15 minutes and drain.
+      - Fry the onion in pieces, the garlic and the chillies in the oil until the onion is golden.
+      - Blend the mixture with the peanuts, huacatay, cheese, crackers and milk into a thick sauce. Season with salt.
+      - Serve over sliced boiled potatoes, with hard-boiled egg and olives.
+
+  - name: Arroz chaufa
+    category: Rice
+    difficulty: EASY
+    prep: 15
+    cook: 10
+    servings: 4
+    notes: The fried rice of the chifas, Peruvian-Chinese restaurants. Made with day-old cooked rice.
+    tags: [chifa, rice]
+    utensils: [Wok]
+    ingredients:
+      - items:
+          - [day-old cooked rice, 600, g]
+          - [chicken breast, 300, g]
+          - [eggs, 3, null]
+          - [spring onions, 4, null]
+          - [grated ginger (kion), 1, tsp]
+          - [garlic, 2, clove]
+          - [soy sauce (sillao), 4, tbsp]
+          - [sesame oil, 1, tsp]
+          - [sunflower oil, 3, tbsp]
+          - [salt, null, null]
+    steps:
+      - Dice the chicken small and stir-fry it in the wok with 1 tablespoon of oil for 4 minutes. Take it out.
+      - Make a thin omelette with the beaten eggs, cut it into strips and set aside.
+      - Stir-fry the garlic, ginger and the white part of the spring onions in the rest of the oil for 30 seconds.
+      - Add the rice and stir-fry over a high heat for 3 minutes. Add the chicken, egg, soy sauce and sesame oil.
+      - Stir-fry for 1 more minute and finish with the chopped green part of the spring onions.
+
+  - name: Beef heart anticuchos
+    category: Meat
+    difficulty: MEDIUM
+    prep: 30
+    cook: 10
+    servings: 6
+    notes: Beef heart skewers marinated in ají panca, a Lima street classic. Marinate for at least 4 hours.
+    tags: [skewers, barbecue]
+    utensils: [Barbecue]
+    ingredients:
+      - items:
+          - [trimmed beef heart, 1, kg]
+          - [ají panca paste, 4, tbsp]
+          - [red wine vinegar, 100, ml]
+          - [garlic, 6, clove]
+          - [ground cumin, 1, tsp]
+          - [dried oregano, 1, tsp]
+          - [sunflower oil, 3, tbsp]
+          - [salt, 1, tsp]
+          - [boiled potatoes, 6, null]
+          - [cooked corn on the cob, 2, null]
+    steps:
+      - Trim the fat and sinew from the heart and cut it into 4 × 3 cm pieces.
+      - Mix the ají paste, vinegar, crushed garlic, cumin, oregano and salt and marinate the meat for at least 4 hours.
+      - Thread 3 pieces onto each skewer.
+      - Grill over hot embers for 2-3 minutes on each side, brushing with the marinade mixed with the oil. They should stay juicy.
+      - Serve with potatoes browned on the grill and corn.
+
+  - name: Pollo a la brasa
+    category: Meat
+    difficulty: EASY
+    prep: 15
+    cook: 75
+    servings: 4
+    notes: In Peru it is roasted in wood-fired rotisseries; this home-oven version is very close. Marinate for at least 4 hours.
+    tags: [chicken, roast]
+    utensils: [Oven]
+    ingredients:
+      - items:
+          - [whole chicken, 1.8, kg]
+          - [soy sauce (sillao), 3, tbsp]
+          - [dark beer, 100, ml]
+          - [lime juice, 2, tbsp]
+          - [ají panca paste, 1, tbsp]
+          - [garlic, 5, clove]
+          - [ground cumin, 1, tsp]
+          - [black pepper, 1, tsp]
+          - [dried rosemary, 1, tsp]
+          - [sunflower oil, 2, tbsp]
+          - [salt, 1, tsp]
+    steps:
+      - Blend all the ingredients except the chicken into a marinade.
+      - Loosen the breast skin with your fingers and rub the chicken inside, outside and under the skin. Marinate in the fridge for at least 4 hours.
+      - Preheat the oven to 200 °C. Put the chicken on a rack over a tray of water.
+      - Roast for 70-75 minutes, turning halfway, until the skin is dark and crisp and the juices run clear.
+      - Serve with chips, salad and ají sauce.
+
+  - name: Rocoto relleno
+    category: Vegetables
+    difficulty: HARD
+    prep: 60
+    cook: 30
+    servings: 6
+    origin: Arequipa
+    notes: Rocotos are very hot; the veins and seeds are removed and they are boiled three times with vinegar and sugar to tame them. Small red peppers can stand in.
+    tags: [stuffed, baked]
+    utensils: [Oven]
+    ingredients:
+      - group: Rocotos
+        items:
+          - [rocoto peppers, 6, null]
+          - [vinegar, 6, tbsp]
+          - [sugar, 6, tbsp]
+      - group: Filling
+        items:
+          - [minced beef, 400, g]
+          - [onion, 1, null]
+          - [garlic, 2, clove]
+          - [ají panca paste, 2, tbsp]
+          - [chopped roasted peanuts, 3, tbsp]
+          - [raisins, 2, tbsp]
+          - [hard-boiled eggs, 2, null]
+          - [black olives, 6, null]
+          - [ground cumin, 0.5, tsp]
+          - [sunflower oil, 2, tbsp]
+          - [salt, null, null]
+      - group: Topping
+        items:
+          - [sliced fresh cheese, 200, g]
+          - [evaporated milk, 150, ml]
+          - [egg, 1, null]
+    steps:
+      - Cut the tops off the rocotos and remove the seeds and veins, wearing gloves.
+      - Boil them for 5 minutes in water with 2 tablespoons of vinegar and 2 of sugar. Change the water and repeat twice more. Drain.
+      - Fry the chopped onion and garlic in the oil. Add the beef, ají panca, cumin and salt and cook for 10 minutes. Add the peanuts and raisins.
+      - Preheat the oven to 180 °C. Fill the rocotos, tuck in a piece of egg and an olive and top with a slice of cheese.
+      - Put them in a dish, pour over the milk beaten with the egg and bake for 25-30 minutes. Serve with potato gratin or roast potatoes.
+
+  - name: Seco de res
+    category: Meat
+    difficulty: MEDIUM
+    prep: 25
+    cook: 120
+    servings: 6
+    origin: Northern coast
+    notes: Blended coriander makes it green. It traditionally has chicha de jora (corn beer); lager is the most common substitute. Served with beans and rice.
+    tags: [stew, beef]
+    utensils: [Blender]
+    ingredients:
+      - items:
+          - [stewing beef, 1, kg]
+          - [fresh coriander, 2, bunch]
+          - [spinach, 1, handful]
+          - [ají amarillo paste, 2, tbsp]
+          - [onions, 2, null]
+          - [garlic, 4, clove]
+          - [chicha de jora or lager, 330, ml]
+          - [beef stock, 500, ml]
+          - [carrots, 2, null]
+          - [peas, 150, g]
+          - [ground cumin, 1, tsp]
+          - [sunflower oil, 4, tbsp]
+          - [salt, null, null]
+    steps:
+      - Blend the coriander and spinach with a little stock into a green purée.
+      - Brown the beef in pieces in the oil and take it out.
+      - Fry the chopped onions and garlic for 10 minutes. Add the ají paste and cumin and cook for 2 minutes. Add the coriander purée and cook for 3 minutes.
+      - Return the beef, add the chicha and stock, cover and simmer for 1½ hours.
+      - Add the sliced carrots and the peas and simmer for 15 more minutes. Season with salt.
+
+  - name: Peruvian arroz con pollo
+    category: Rice
+    difficulty: MEDIUM
+    prep: 20
+    cook: 50
+    servings: 6
+    notes: Green coriander rice made with dark beer. Served with salsa criolla of onion and lime.
+    tags: [rice, chicken]
+    utensils: [Blender]
+    ingredients:
+      - items:
+          - [chicken pieces, 1, kg]
+          - [long-grain rice, 400, g]
+          - [fresh coriander, 2, bunch]
+          - [ají amarillo paste, 2, tbsp]
+          - [onion, 1, null]
+          - [garlic, 3, clove]
+          - [dark beer, 200, ml]
+          - [chicken stock, 700, ml]
+          - [red pepper, 1, null]
+          - [carrot, 1, null]
+          - [peas, 150, g]
+          - [sweetcorn kernels, 150, g]
+          - [ground cumin, 0.5, tsp]
+          - [sunflower oil, 4, tbsp]
+          - [salt, null, null]
+    steps:
+      - Blend the coriander with a little stock.
+      - Salt the chicken and brown it in the oil. Take it out.
+      - Fry the chopped onion and garlic for 8 minutes. Add the ají paste, cumin and coriander purée and cook for 3 minutes.
+      - Return the chicken, add the beer and simmer for 15 minutes.
+      - Add the rice, stock, diced pepper and carrot, peas and corn. Season with salt, cover and simmer for 20 minutes.
+
+  - name: Chupe de camarones
+    category: Soups
+    difficulty: HARD
+    prep: 30
+    cook: 45
+    servings: 6
+    origin: Arequipa
+    notes: Arequipa's most famous soup, traditional in Lent. River shrimps are replaced here with king prawns.
+    tags: [soup, seafood]
+    ingredients:
+      - items:
+          - [king prawns or shrimps, 500, g]
+          - [onion, 1, null]
+          - [garlic, 3, clove]
+          - [ají panca paste, 2, tbsp]
+          - [tomato, 1, null]
+          - [dried oregano, 1, tsp]
+          - [yellow or floury potatoes, 500, g]
+          - [corn on the cob, 1, null]
+          - [rice, 60, g]
+          - [broad beans, 100, g]
+          - [fish stock, 1.5, l]
+          - [evaporated milk, 200, ml]
+          - [diced fresh cheese, 150, g]
+          - [eggs, 3, null]
+          - [huacatay, 1, sprig, optional]
+          - [sunflower oil, 3, tbsp]
+          - [salt, null, null]
+    steps:
+      - Peel the prawns and simmer the heads and shells in the fish stock for 15 minutes. Strain.
+      - Fry the chopped onion and garlic in the oil. Add the ají paste, grated tomato and oregano and cook for 5 minutes.
+      - Add the stock, the potatoes in chunks, the sliced corn and the rice and simmer for 15 minutes. Add the broad beans and simmer for 5 minutes.
+      - Add the prawns and evaporated milk and simmer for 3 minutes.
+      - Crack the eggs into the soup, add the cheese and huacatay and cook for 2 minutes without boiling hard. Season with salt.
+
+  - name: Papa rellena
+    category: Starters
+    difficulty: MEDIUM
+    prep: 45
+    cook: 40
+    servings: 6
+    notes: Large mashed-potato croquettes stuffed with beef. Served with salsa criolla.
+    tags: [fried, potato]
+    ingredients:
+      - group: Potato dough
+        items:
+          - [floury potatoes, 1, kg]
+          - [egg, 1, null]
+          - [salt, 1, tsp]
+      - group: Filling
+        items:
+          - [minced beef, 300, g]
+          - [onion, 1, null]
+          - [garlic, 2, clove]
+          - [ají panca paste, 1, tbsp]
+          - [ground cumin, 0.5, tsp]
+          - [raisins, 2, tbsp]
+          - [chopped black olives, 6, null]
+          - [hard-boiled eggs, 2, null]
+          - [sunflower oil, 2, tbsp]
+          - [salt, null, null]
+      - group: Coating
+        items:
+          - [plain flour, 100, g]
+          - [egg, 1, null]
+          - [sunflower oil for frying, null, null]
+    steps:
+      - Boil the potatoes in their skins, peel and mash them. Mix with the egg and salt and let it cool.
+      - Fry the chopped onion and garlic in the oil. Add the beef, ají, cumin and salt and cook for 10 minutes. Add the raisins, olives and chopped egg. Let it cool.
+      - With floured hands, flatten a portion of mash, put filling in the middle and close it into an elongated potato shape.
+      - Coat in flour and beaten egg and fry in hot oil until golden.
+
+  - name: Tallarines verdes
+    category: Pasta
+    difficulty: EASY
+    prep: 15
+    cook: 15
+    servings: 4
+    notes: Peruvian-style pesto, with spinach, fresh cheese and evaporated milk. Served with a breaded or griddled steak.
+    tags: [pasta, vegetarian]
+    utensils: [Blender]
+    ingredients:
+      - items:
+          - [linguine or spaghetti, 400, g]
+          - [fresh spinach, 200, g]
+          - [fresh basil, 1, bunch]
+          - [fresh cheese, 150, g]
+          - [evaporated milk, 150, ml]
+          - [walnuts, 30, g, optional]
+          - [onion, 0.5, null]
+          - [garlic, 2, clove]
+          - [sunflower oil, 3, tbsp]
+          - [salt, null, null]
+    steps:
+      - Blanch the spinach and basil for 30 seconds and plunge them into iced water. Drain.
+      - Fry the chopped onion and garlic in the oil for 5 minutes.
+      - Blend the leaves with the onion, cheese, milk and walnuts into a smooth sauce. Season with salt.
+      - Cook the pasta, drain and toss with the sauce in the pan over a low heat for 1 minute.
+
+  - name: Suspiro limeño
+    category: Desserts
+    difficulty: MEDIUM
+    prep: 20
+    cook: 40
+    servings: 6
+    origin: Lima
+    notes: The poet José Gálvez is said to have named it, calling it "soft and sweet like a woman's sigh". It is topped with port meringue.
+    tags: [dessert, sweet]
+    ingredients:
+      - group: Manjar
+        items:
+          - [evaporated milk, 400, ml]
+          - [condensed milk, 400, g]
+          - [egg yolks, 4, null]
+          - [vanilla extract, 1, tsp]
+      - group: Meringue
+        items:
+          - [egg whites, 3, null]
+          - [sugar, 150, g]
+          - [port wine, 60, ml]
+          - [ground cinnamon, null, null]
+    steps:
+      - Cook both milks over a medium heat, stirring constantly, for 30-35 minutes, until thick and you can see the bottom of the pan as you stir (manjar blanco).
+      - Off the heat, quickly stir in the beaten yolks and the vanilla. Divide between glasses and let it cool.
+      - Boil the port with the sugar to a thread-stage syrup, about 5 minutes.
+      - Whisk the whites to stiff peaks and pour in the hot syrup in a thin stream, still whisking, until the meringue is glossy and cool.
+      - Top the manjar with the meringue and dust with cinnamon.
+
+  - name: Picarones
+    category: Desserts
+    difficulty: HARD
+    prep: 90
+    cook: 30
+    servings: 6
+    notes: Sweet potato and squash doughnuts with chancaca syrup. The dough needs 1½ hours to rise; shaping them with a wet hand takes practice.
+    tags: [fried, dessert]
+    ingredients:
+      - group: Dough
+        items:
+          - [sweet potato, 250, g]
+          - [squash or pumpkin, 250, g]
+          - [aniseed, 1, tsp]
+          - [plain flour, 500, g]
+          - [dried yeast, 10, g]
+          - [sugar, 1, tbsp]
+          - [salt, 1, pinch]
+          - [sunflower oil for frying, null, null]
+      - group: Chancaca syrup
+        items:
+          - [chancaca or panela, 250, g]
+          - [water, 300, ml]
+          - [cinnamon stick, 1, null]
+          - [cloves, 3, null]
+          - [orange peel, 1, strip]
+    steps:
+      - Boil the sweet potato and squash in chunks with the aniseed in water until tender. Drain, keeping 200 ml of the warm water, and mash.
+      - Dissolve the yeast and sugar in the reserved water. Mix with the mash, flour and salt and beat by hand until elastic. Leave covered to rise for 1½ hours.
+      - Simmer the syrup ingredients for 15 minutes, until thick. Strain.
+      - With a hand dipped in salted water, take portions of dough, poke a hole with your thumb and drop them into the hot oil as rings.
+      - Fry them, turning with a stick, until golden. Serve hot, drenched in the syrup.
+
+  - name: Mazamorra morada
+    category: Desserts
+    difficulty: EASY
+    prep: 15
+    cook: 70
+    servings: 8
+    origin: Lima
+    notes: A thick purple corn pudding with fruit. Served warm or cold, sometimes alongside rice pudding (a "clásico").
+    tags: [dessert, gluten-free]
+    ingredients:
+      - items:
+          - [dried purple corn, 500, g]
+          - [water, 3, l]
+          - [pineapple peel, 1, null]
+          - [cinnamon stick, 1, null]
+          - [cloves, 4, null]
+          - [dried peaches, 80, g]
+          - [prunes, 80, g]
+          - [diced pineapple, 150, g]
+          - [sugar, 250, g]
+          - [potato or sweet potato starch, 100, g]
+          - [lime juice, 2, tbsp]
+          - [ground cinnamon, null, null]
+    steps:
+      - Simmer the purple corn kernels with the pineapple peel, cinnamon and cloves in the water for 45 minutes. Strain, keeping the liquid.
+      - Add the dried peaches, prunes, pineapple and sugar to the liquid and simmer for 10 minutes.
+      - Mix the starch with a little cold water and add it gradually, stirring, until thick. Simmer for 5 minutes.
+      - Off the heat, add the lime juice. Serve in bowls dusted with cinnamon.
+
+  - name: Chicha morada
+    category: Drinks
+    difficulty: EASY
+    prep: 10
+    cook: 50
+    servings: 8
+    notes: A non-alcoholic purple corn drink, Peru's most popular. Served ice-cold with bits of fruit.
+    tags: [drink, cold, vegan]
+    ingredients:
+      - items:
+          - [dried purple corn, 500, g]
+          - [water, 3, l]
+          - [pineapple peel, 1, null]
+          - [apple or quince, 1, null]
+          - [cinnamon stick, 1, null]
+          - [cloves, 5, null]
+          - [sugar, 200, g]
+          - [lime juice, 4, tbsp]
+          - [diced apple, 1, null, optional]
+    steps:
+      - Strip the corn and put the kernels and cobs, the pineapple peel, the chopped apple, cinnamon and cloves in the water.
+      - Simmer for 45 minutes, until the liquid is deep purple. Strain and let it cool.
+      - Add the sugar and lime juice and stir until dissolved.
+      - Serve ice-cold with diced apple.

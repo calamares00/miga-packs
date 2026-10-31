@@ -3,6 +3,7 @@ version: 2
 updated: 2026-10-31
 language: en
 name: "World cuisine: Mexico"
+series: World cuisine
 description: >-
   Mexican classics to cook at home: tacos al pastor, cochinita pibil, pozole, chilaquiles,
   enchiladas, salsas, guacamole, aguas frescas and flan. With easy-to-find ingredients and

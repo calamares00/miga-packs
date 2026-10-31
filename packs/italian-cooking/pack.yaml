@@ -3,6 +3,7 @@ version: 1
 updated: 2026-10-31
 language: en
 name: "World cuisine: Italy"
+series: World cuisine
 description: >-
   The great classics of Italy's regions: carbonara, amatriciana, cacio e pepe, lasagne, pasta
   alla Norma, spaghetti with clams, risotto alla milanese, ossobuco, saltimbocca, parmigiana,

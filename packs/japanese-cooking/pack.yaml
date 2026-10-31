@@ -3,6 +3,7 @@ version: 1
 updated: 2026-10-31
 language: en
 name: "World cuisine: Japan"
+series: World cuisine
 description: >-
   Japanese home cooking: miso soup, chicken teriyaki, gyoza, ramen, tonkatsu, oyakodon, onigiri,
   tamagoyaki, okonomiyaki, yakitori, tempura, maki rolls, karaage, nikujaga, yakisoba, gyudon,

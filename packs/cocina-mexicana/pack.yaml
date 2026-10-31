@@ -3,6 +3,7 @@ version: 2
 updated: 2026-10-31
 language: es
 name: "Cocina del mundo: México"
+series: Cocina del mundo
 description: >-
   Clásicos de México para cocinar en casa: tacos al pastor, cochinita pibil, pozole, chilaquiles,
   enchiladas, salsas, guacamole, aguas frescas y flan. Con ingredientes fáciles de encontrar y

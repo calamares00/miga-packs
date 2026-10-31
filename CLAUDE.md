@@ -16,6 +16,10 @@ Recipe books that the Miga app installs from **Settings › Recipe packs**. See 
   (`[huevos, 4, null]`). Quote names that contain commas.
 - After changing a published pack, raise its `version` so installed copies get the update. Do not
   rename recipes casually: the recipe uid comes from its name.
+- Every pack has a `series` (required by `tools/build.py`), used by the app to group packs:
+  "Cocina del mundo" / "World cuisine", "Cocina de cada día" / "Everyday cooking",
+  "Electrodomésticos" / "Kitchen appliances", "Especiales" / "Specials". Reuse an existing series
+  before creating a new one; both languages of a pack belong to the matching series.
 - Covers carry no recipe count. Redraw them with `node tools/render_covers.mjs`.
 - Country packs form the "Cocina del mundo: <país>" / "World cuisine: <country>" series, with
   `kicker` on the cover. Recipes must be real, traditional dishes (no inventions) and must not

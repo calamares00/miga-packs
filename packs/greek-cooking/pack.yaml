@@ -3,6 +3,7 @@ version: 1
 updated: 2026-10-31
 language: en
 name: "World cuisine: Greece"
+series: World cuisine
 description: >-
   Greek cooking beyond the salad and tzatziki: souvlaki, spanakopita, pastitsio, gemista,
   fasolada, avgolemono, dolmades, keftedes, briam, fava, kleftiko, stifado, saganaki cheese,

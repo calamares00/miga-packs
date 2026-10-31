@@ -125,6 +125,10 @@ def build_pack(pack_dir: Path):
     language = pack.get("language")
     if language not in LANGUAGES:
         fail(f"{pack_id}: language must be one of {sorted(LANGUAGES)}")
+    # Every pack belongs to a series (World cuisine, Specials...), which the app uses to group them.
+    series = pack.get("series")
+    if not isinstance(series, str) or not series.strip():
+        fail(f"{pack_id}: series is required (e.g. \"Cocina del mundo\" or \"World cuisine\")")
     book_uid = str(uuid.uuid5(NAMESPACE, f"{pack_id}/book"))
     book_cover = pack_dir / "book-cover.jpg"
     recipes = [recipe(pack, raw, pack["name"]) for raw in pack["recipes"]]
@@ -157,6 +161,7 @@ def build_pack(pack_dir: Path):
     entry = {
         "id": pack_id,
         "name": pack["name"],
+        "series": series.strip(),
         "author": pack.get("author", ""),
         "authorGithub": pack.get("authorGithub"),
         "description": " ".join(pack.get("description", "").split()),

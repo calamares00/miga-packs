@@ -3,6 +3,7 @@ version: 1
 updated: 2026-10-31
 language: es
 name: "Cocina del mundo: Italia"
+series: Cocina del mundo
 description: >-
   Los grandes clásicos de las regiones de Italia: carbonara, amatriciana, cacio e pepe, lasaña,
   pasta alla Norma, espaguetis con almejas, risotto a la milanesa, ossobuco, saltimbocca,

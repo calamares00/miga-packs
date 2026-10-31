@@ -3,6 +3,7 @@ version: 1
 updated: 2026-10-31
 language: es
 name: "Cocina del mundo: Estados Unidos"
+series: Cocina del mundo
 description: >-
   La cocina casera de Estados Unidos, del sur a Nueva Inglaterra: macarrones con queso, cerdo
   desmenuzado, pollo frito, sopa de almejas, chili, pan de maíz, tortitas, pastel de carne,

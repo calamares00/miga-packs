@@ -3,6 +3,7 @@ version: 1
 updated: 2026-10-31
 language: en
 name: "World cuisine: United States"
+series: World cuisine
 description: >-
   American home cooking, from the South to New England: mac and cheese, pulled pork, fried
   chicken, clam chowder, chili, cornbread, pancakes, meatloaf, jambalaya, gumbo, coleslaw, apple

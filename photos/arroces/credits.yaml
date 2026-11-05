@@ -1,0 +1,83 @@
+# Origin of every photo in this folder: source page, author and licence (CC0 1.0, Public domain,
+# CC BY x.y or CC BY-SA x.y). tools/build.py refuses a recipe photo without an entry here.
+
+paella-de-marisco.jpg:
+  source: https://commons.wikimedia.org/wiki/File:Paella_de_marisco_01_(cropped)_4.3.jpg
+  author: "Manuel M. Vicente from Spain"
+  license: CC BY 2.0
+
+paella-mixta.jpg:
+  source: https://commons.wikimedia.org/wiki/File:Paella_Mixta_at_Celler_sa_Premsa.jpg
+  author: "Tsumugii"
+  license: CC BY-SA 4.0
+
+paella-de-verduras.jpg:
+  source: https://commons.wikimedia.org/wiki/File:Paella_de_verduras_o_arroz_viudo.jpg
+  author: "Avicentegil"
+  license: CC BY-SA 4.0
+
+arroz-del-senoret.jpg:
+  source: https://commons.wikimedia.org/wiki/File:Arroz_del_%22Senyoret%22_(Grao_de_Castell%C3%B3n).jpg
+  author: "Juan Emilio Prades Bel"
+  license: CC BY 4.0
+
+arroz-a-banda.jpg:
+  source: https://commons.wikimedia.org/wiki/File:Arroz_a_banda.jpg
+  author: "Javier Lastras"
+  license: CC BY 2.0
+
+arroz-con-conejo-y-caracoles.jpg:
+  source: https://commons.wikimedia.org/wiki/File:Arroz_y_conejo_con_caracoles,_Murcia.jpg
+  author: "Avicentegil"
+  license: CC BY-SA 4.0
+
+arroz-con-costra.jpg:
+  source: https://commons.wikimedia.org/wiki/File:Arroz_con_costra.jpg
+  author: "Hinzel"
+  license: Public domain
+
+arroz-caldoso-de-bogavante.jpg:
+  source: https://commons.wikimedia.org/wiki/File:Arroz_con_Bogavante_(Caldoso).JPG
+  author: "Tamorlan"
+  license: CC BY 3.0
+
+arroz-empedrado.jpg:
+  source: https://commons.wikimedia.org/wiki/File:Arroz_Empedrado_con_Bacalao.jpg
+  author: "Juan Emilio Prades Bel"
+  license: CC BY 4.0
+
+arroz-a-la-cubana.jpg:
+  source: https://commons.wikimedia.org/wiki/File:Arroz_a_la_cubana_en_LLanes.jpg
+  author: "Larra Jungle Princess from Kuala Lumpur, Malaysia"
+  license: CC BY 2.0
+
+gallo-pinto.jpg:
+  source: https://commons.wikimedia.org/wiki/File:Costa_Rican_Gallo_Pinto.jpg
+  author: "Legendre17"
+  license: CC BY 3.0
+
+arroz-pilaf.jpg:
+  source: https://commons.wikimedia.org/wiki/File:Polu.jpg
+  author: "Mizu basyo at Japanese Wikipedia"
+  license: CC BY-SA 3.0
+
+biryani-de-pollo.jpg:
+  source: https://commons.wikimedia.org/wiki/File:Chicken_biriyani-_My_cafe_restaurant_-_Meghalaya_DSC_009.jpg
+  author: "Gitika Gayan"
+  license: CC BY-SA 4.0
+
+risotto-de-calabaza.jpg:
+  source: https://commons.wikimedia.org/wiki/File:Pumpkin_risotto.jpg
+  author: "o.tacke"
+  license: CC0 1.0
+
+arroz-con-gandules.jpg:
+  source: https://commons.wikimedia.org/wiki/File:Arroz_con_gandules.jpg
+  author: "Jose Kevo from Springfield, Missouri, EEUU"
+  license: CC BY-SA 2.0
+
+arroz-jollof.jpg:
+  source: https://commons.wikimedia.org/wiki/File:Jollof_(Jollof-_Rice).jpg
+  author: "DromoTetteh"
+  license: CC BY-SA 4.0
+

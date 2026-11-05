@@ -13,8 +13,8 @@ Cada pack está en español y en inglés; la app muestra los del idioma en que l
 | 🍳 [20-minute dinners](packs/20-minute-dinners/pack.yaml) | Everyday cooking | en | 20 | [20-minute-dinners-v1.zip](dist/20-minute-dinners-v1.zip) |
 | 🍟 [Freidora de aire](packs/freidora-de-aire/pack.yaml) | Electrodomésticos | es | 20 | [freidora-de-aire-v1.zip](dist/freidora-de-aire-v1.zip) |
 | 🍟 [Air fryer](packs/air-fryer/pack.yaml) | Kitchen appliances | en | 20 | [air-fryer-v1.zip](dist/air-fryer-v1.zip) |
-| 🥣 [Thermomix: cremas y purés](packs/thermomix-cremas-y-pures/pack.yaml) | Electrodomésticos | es | 20 | [thermomix-cremas-y-pures-v1.zip](dist/thermomix-cremas-y-pures-v1.zip) |
-| 🥣 [Thermomix: soups and purées](packs/thermomix-soups-and-purees/pack.yaml) | Kitchen appliances | en | 20 | [thermomix-soups-and-purees-v1.zip](dist/thermomix-soups-and-purees-v1.zip) |
+| 🥣 [Thermomix: cremas y purés](packs/thermomix-cremas-y-pures/pack.yaml) | Electrodomésticos | es | 20 | [thermomix-cremas-y-pures-v2.zip](dist/thermomix-cremas-y-pures-v2.zip) |
+| 🥣 [Thermomix: soups and purées](packs/thermomix-soups-and-purees/pack.yaml) | Kitchen appliances | en | 20 | [thermomix-soups-and-purees-v2.zip](dist/thermomix-soups-and-purees-v2.zip) |
 | 🍚 [Arroces](packs/arroces/pack.yaml) | Cocina de cada día | es | 20 | [arroces-v1.zip](dist/arroces-v1.zip) |
 | 🍚 [Rice dishes](packs/rice-dishes/pack.yaml) | Everyday cooking | en | 20 | [rice-dishes-v1.zip](dist/rice-dishes-v1.zip) |
 | 🥖 [Panadería](packs/panaderia/pack.yaml) | Cocina de cada día | es | 20 | [panaderia-v1.zip](dist/panaderia-v1.zip) |

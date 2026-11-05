@@ -2,9 +2,10 @@
 """Builds the Miga recipe packs: one ZIP per pack in dist/ and catalog.json at the root.
 
 Each pack lives in packs/<id>/: pack.yaml (metadata and recipes, see README.md), cover.jpg (square,
-shown in the catalogue) and book-cover.jpg (portrait, the book cover inside the app). The ZIP uses
-the app's export format: manifest.json (a library export with one book) plus the book cover and the
-recipe photos.
+shown in the catalogue) and book-cover.jpg (portrait, the book cover inside the app). Recipe photos
+live in photos/ (shared by the Spanish and English packs) and are named by a recipe's "photo"; each
+one must be listed in photos/credits.yaml as public domain or CC0. The ZIP uses the app's export
+format: manifest.json (a library export with one book) plus the book cover and the recipe photos.
 
 Builds are reproducible: the same pack.yaml and images always give the same ZIP, so a pack only
 changes when its content does. Raise "version" in pack.yaml after changing a pack, so the apps
@@ -26,6 +27,9 @@ import yaml
 ROOT = Path(__file__).resolve().parent.parent
 PACKS = ROOT / "packs"
 DIST = ROOT / "dist"
+PHOTOS = ROOT / "photos"
+# Only photos anybody may use without conditions: no attribution or share-alike requirements.
+FREE_LICENSES = {"CC0 1.0", "Public domain"}
 SCHEMA_VERSION = 5
 DIFFICULTIES = {"EASY", "MEDIUM", "HARD"}
 LANGUAGES = {"es", "en"}
@@ -79,7 +83,30 @@ def step_groups(steps, where):
     return groups
 
 
-def recipe(pack, raw, book_name):
+def load_credits():
+    path = PHOTOS / "credits.yaml"
+    if not path.exists():
+        return {}
+    return yaml.safe_load(path.read_text(encoding="utf-8")) or {}
+
+
+def recipe_photo(raw, where, credits):
+    """The recipe's photo file, checked against photos/credits.yaml; None without a photo."""
+    name = raw.get("photo")
+    if name is None:
+        return None
+    path = (PHOTOS / name).resolve()
+    if not path.is_relative_to(PHOTOS.resolve()) or not path.is_file() or path.suffix.lower() != ".jpg":
+        fail(f"{where}: photo {name} is not a .jpg in photos/")
+    credit = credits.get(name)
+    if not credit or not credit.get("source") or not credit.get("author"):
+        fail(f"{where}: photo {name} needs an entry with source and author in photos/credits.yaml")
+    if credit.get("license") not in FREE_LICENSES:
+        fail(f"{where}: photo {name} must be {' or '.join(sorted(FREE_LICENSES))}, not {credit.get('license')}")
+    return path
+
+
+def recipe(pack, raw, book_name, photo):
     where = f"{pack['id']} / {raw.get('name')}"
     defaults = pack.get("defaults", {})
     difficulty = raw.get("difficulty", "MEDIUM")
@@ -102,7 +129,7 @@ def recipe(pack, raw, book_name):
         "stepGroups": step_groups(raw["steps"], where),
         "tags": raw.get("tags", []),
         "utensils": raw.get("utensils", []),
-        "photos": [],
+        "photos": [{"fileName": "0.jpg", "isCover": True}] if photo else [],
         "origin": raw.get("origin", defaults.get("origin")),
         "originCountry": raw.get("originCountry", defaults.get("originCountry")),
     }
@@ -131,7 +158,9 @@ def build_pack(pack_dir: Path):
         fail(f"{pack_id}: series is required (e.g. \"Cocina del mundo\" or \"World cuisine\")")
     book_uid = str(uuid.uuid5(NAMESPACE, f"{pack_id}/book"))
     book_cover = pack_dir / "book-cover.jpg"
-    recipes = [recipe(pack, raw, pack["name"]) for raw in pack["recipes"]]
+    credits = load_credits()
+    photos = [recipe_photo(raw, f"{pack_id} / {raw.get('name')}", credits) for raw in pack["recipes"]]
+    recipes = [recipe(pack, raw, pack["name"], photo) for raw, photo in zip(pack["recipes"], photos)]
     names = [r["name"] for r in recipes]
     if len(set(names)) != len(names):
         fail(f"{pack_id}: two recipes share a name")
@@ -157,6 +186,9 @@ def build_pack(pack_dir: Path):
         write_entry(zip_file, "manifest.json", json.dumps(manifest, ensure_ascii=False, indent=2))
         if book_cover.exists():
             write_entry(zip_file, f"books/{book_uid}/cover.jpg", book_cover.read_bytes())
+        for r, photo in zip(recipes, photos):
+            if photo:
+                write_entry(zip_file, f"recipes/{r['uid']}/0.jpg", photo.read_bytes())
 
     entry = {
         "id": pack_id,
@@ -171,7 +203,8 @@ def build_pack(pack_dir: Path):
         "downloadUrl": f"dist/{zip_name}",
         "language": language,
     }
-    print(f"{pack_id} v{version}: {len(recipes)} recetas -> dist/{zip_name}")
+    photo_count = sum(1 for p in photos if p)
+    print(f"{pack_id} v{version}: {len(recipes)} recetas, {photo_count} fotos -> dist/{zip_name}")
     return entry
 
 

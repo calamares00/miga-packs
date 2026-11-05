@@ -1,0 +1,52 @@
+# Origin of every photo in photos/. Only public-domain or CC0 photos are allowed: tools/build.py
+# refuses a recipe photo without an entry here or with any other licence.
+
+tapas/calamares-a-la-romana.jpg:
+  source: https://commons.wikimedia.org/wiki/File:Deep_fried_squid_001.jpg
+  author: "Ocdp"
+  license: CC0 1.0
+
+tapas/croquetas.jpg:
+  source: https://commons.wikimedia.org/wiki/File:Croquetas_3.JPG
+  author: "Popo le Chien"
+  license: CC0 1.0
+
+tapas/ensaladilla-rusa.jpg:
+  source: https://commons.wikimedia.org/wiki/File:Ensaladilla_rusa_estilo_bar_congelada.JPG
+  author: "Marisa Rodriguez"
+  license: CC0 1.0
+
+tapas/gambas-a-la-plancha.jpg:
+  source: https://commons.wikimedia.org/wiki/File:Shrimp_tapas.jpg
+  author: "Jon Sullivan"
+  license: Public domain
+
+tapas/gildas.jpg:
+  source: https://commons.wikimedia.org/wiki/File:Gilda.JPG
+  author: "Txo"
+  license: Public domain
+
+tapas/pan-con-tomate.jpg:
+  source: https://commons.wikimedia.org/wiki/File:Pa_amb_tom%C3%A0quet_-_001.jpg
+  author: "Mutari"
+  license: Public domain
+
+tapas/patatas-bravas.jpg:
+  source: https://commons.wikimedia.org/wiki/File:Burgos_-_Raci%C3%B3n_de_patatas_bravas.jpg
+  author: "Zarateman"
+  license: CC0 1.0
+
+tapas/pimientos-de-padron.jpg:
+  source: https://commons.wikimedia.org/wiki/File:Pimientos_De_Padron_-_Casa_Don_Carlos_2025-10-01.jpg
+  author: "Andy Li"
+  license: CC0 1.0
+
+tapas/pulpo-a-la-gallega.jpg:
+  source: https://commons.wikimedia.org/wiki/File:Raci%C3%B3n_de_pulpo_a_feira.jpeg
+  author: "Manuel Ramallo"
+  license: CC0 1.0
+
+tapas/tortillitas-de-camarones.jpg:
+  source: https://commons.wikimedia.org/wiki/File:Chipiona_-_Bodega_El_Castillito,_tortillitas_de_camarones_y_tinto_de_verano.jpg
+  author: "Zarateman"
+  license: CC0 1.0

@@ -1,6 +1,6 @@
 id: spanish-tapas
-version: 1
-updated: 2026-10-31
+version: 2
+updated: 2026-11-05
 language: en
 name: Spanish tapas
 series: Specials
@@ -21,6 +21,7 @@ defaults:
 recipes:
 
   - name: Patatas bravas
+    photo: tapas/patatas-bravas.jpg
     category: Starters
     difficulty: EASY
     prep: 10
@@ -84,6 +85,7 @@ recipes:
       - Mix the potatoes with the aioli and parsley. Serve cold or at room temperature.
 
   - name: Padrón peppers
+    photo: tapas/pimientos-de-padron.jpg
     category: Vegetables
     difficulty: EASY
     prep: 2
@@ -148,6 +150,7 @@ recipes:
       - Drain them on kitchen paper and serve straight away with a drizzle of cane honey.
 
   - name: Galician-style octopus
+    photo: tapas/pulpo-a-la-gallega.jpg
     category: Fish and seafood
     difficulty: MEDIUM
     prep: 5
@@ -197,6 +200,7 @@ recipes:
       - Drain them and cover them with the oil, the finely chopped garlic and the parsley. They keep in the fridge for up to 5 days.
 
   - name: Fried squid rings
+    photo: tapas/calamares-a-la-romana.jpg
     category: Fish and seafood
     difficulty: EASY
     prep: 15
@@ -218,6 +222,7 @@ recipes:
       - Drain them on kitchen paper and serve straight away with lemon wedges.
 
   - name: Griddled prawns
+    photo: tapas/gambas-a-la-plancha.jpg
     category: Fish and seafood
     difficulty: EASY
     prep: 5
@@ -263,6 +268,7 @@ recipes:
       - Remove one shell from each mussel, arrange them on a dish and spoon the vinaigrette over them. Serve cold.
 
   - name: Shrimp fritters
+    photo: tapas/tortillitas-de-camarones.jpg
     category: Fish and seafood
     difficulty: MEDIUM
     prep: 10
@@ -288,6 +294,7 @@ recipes:
       - Fry them for 1 minute on each side, until golden, and drain them on kitchen paper.
 
   - name: Mushroom croquettes
+    photo: tapas/croquetas.jpg
     category: Starters
     difficulty: MEDIUM
     prep: 40
@@ -428,6 +435,7 @@ recipes:
       - Put the eggs on the potatoes with the ham and break them up at the table.
 
   - name: Russian salad
+    photo: tapas/ensaladilla-rusa.jpg
     category: Salads
     difficulty: EASY
     prep: 20
@@ -453,6 +461,7 @@ recipes:
       - Cover with the rest of the mayonnaise and decorate with the olives and pepper. Serve cold.
 
   - name: Gildas
+    photo: tapas/gildas.jpg
     category: Starters
     difficulty: EASY
     prep: 10
@@ -472,6 +481,7 @@ recipes:
       - Repeat until you have 4 gildas and drizzle with a little oil just before serving.
 
   - name: Pan con tomate with ham
+    photo: tapas/pan-con-tomate.jpg
     category: Breads and doughs
     difficulty: EASY
     prep: 5

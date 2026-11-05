@@ -19,8 +19,8 @@ Cada pack está en español y en inglés; la app muestra los del idioma en que l
 | 🍚 [Rice dishes](packs/rice-dishes/pack.yaml) | Everyday cooking | en | 20 | [rice-dishes-v1.zip](dist/rice-dishes-v1.zip) |
 | 🥖 [Panadería](packs/panaderia/pack.yaml) | Cocina de cada día | es | 20 | [panaderia-v1.zip](dist/panaderia-v1.zip) |
 | 🥖 [Bakery](packs/bakery/pack.yaml) | Everyday cooking | en | 20 | [bakery-v1.zip](dist/bakery-v1.zip) |
-| 🍤 [Tapas españolas](packs/tapas-espanolas/pack.yaml) | Especiales | es | 20 | [tapas-espanolas-v1.zip](dist/tapas-espanolas-v1.zip) |
-| 🍤 [Spanish tapas](packs/spanish-tapas/pack.yaml) | Specials | en | 20 | [spanish-tapas-v1.zip](dist/spanish-tapas-v1.zip) |
+| 🍤 [Tapas españolas](packs/tapas-espanolas/pack.yaml) | Especiales | es | 20 | [tapas-espanolas-v2.zip](dist/tapas-espanolas-v2.zip) |
+| 🍤 [Spanish tapas](packs/spanish-tapas/pack.yaml) | Specials | en | 20 | [spanish-tapas-v2.zip](dist/spanish-tapas-v2.zip) |
 | 🫒 [Cocina mediterránea](packs/cocina-mediterranea/pack.yaml) | Cocina del mundo | es | 20 | [cocina-mediterranea-v1.zip](dist/cocina-mediterranea-v1.zip) |
 | 🫒 [Mediterranean cooking](packs/mediterranean-cooking/pack.yaml) | World cuisine | en | 20 | [mediterranean-cooking-v1.zip](dist/mediterranean-cooking-v1.zip) |
 | 🎄 [Especial Navidad](packs/especial-navidad/pack.yaml) | Especiales | es | 22 | [especial-navidad-v1.zip](dist/especial-navidad-v1.zip) |
@@ -71,6 +71,8 @@ dist/<id>-v<versión>.zip      un ZIP por pack, en el formato de exportación de
 packs/<id>/pack.yaml          datos y recetas del pack
 packs/<id>/cover.jpg          portada cuadrada, para el catálogo
 packs/<id>/book-cover.jpg     portada vertical (0,72), la del libro en la app
+photos/<tema>/<plato>.jpg     fotos de recetas (4:3, 1280×960), compartidas por los dos idiomas
+photos/credits.yaml           origen, autor y licencia de cada foto
 tools/build.py                genera dist/ y catalog.json
 tools/render_covers.mjs       dibuja las portadas a partir de pack.yaml
 ```
@@ -118,6 +120,7 @@ defaults:                        # valores para todas las recetas que no los ind
   source: Pack «Cocina mexicana» de Miga
 recipes:
   - name: Guacamole
+    photo: mexico/guacamole.jpg  # opcional: foto en photos/, registrada en photos/credits.yaml
     category: Salsas             # mejor una de las categorías de la app (Entrantes, Ensaladas,
                                  # Sopas y cremas, Arroces, Pastas, Legumbres, Verduras, Carnes,
                                  # Pescados y mariscos, Huevos, Panes y masas, Salsas, Postres, Bebidas)
@@ -151,7 +154,25 @@ recipes:
 - Los identificadores de libro y recetas salen del `id` del pack y del nombre de cada receta:
   si cambias el nombre de una receta, la app la tratará como una receta nueva.
 
+### Fotos de las recetas
+
+Solo fotos reales del plato **en dominio público o CC0** (por ejemplo de Wikimedia Commons), que se
+pueden usar sin condiciones. Cada una va en `photos/` en 4:3 a 1280×960, en JPEG y sin metadatos
+EXIF, y tiene su entrada en `photos/credits.yaml`:
+
+```yaml
+tapas/patatas-bravas.jpg:
+  source: https://commons.wikimedia.org/wiki/File:Burgos_-_Raci%C3%B3n_de_patatas_bravas.jpg
+  author: "Zarateman"
+  license: CC0 1.0              # "CC0 1.0" o "Public domain"; cualquier otra hace fallar el build
+```
+
+`tools/build.py` falla si una receta apunta a una foto que no existe, que no está registrada o que
+tiene otra licencia. Una misma foto sirve para la receta en español y en inglés.
+
 ## Licencia
 
 Las recetas y las portadas se publican bajo [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/deed.es).
+Las fotos de `photos/` son de dominio público o CC0; su origen y autor están en
+[`photos/credits.yaml`](photos/credits.yaml).
 Los scripts de `tools/`, bajo [GPL-3.0](LICENSE).

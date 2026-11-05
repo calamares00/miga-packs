@@ -113,9 +113,9 @@
       "authorGithub": "calamares00",
       "description": "Timeless recipes for Christmas Eve, Christmas Day and Twelfth Night: prawn cocktail, ham croquettes, galets soup, roast lamb, suckling pig, sea bream, hake in green sauce, red cabbage, roscón de Reyes, turrón, polvorones and marzipan. With notes for cooking ahead and for big gatherings.",
       "coverImageUrl": "packs/christmas-special/cover.jpg",
-      "latestVersion": 1,
+      "latestVersion": 2,
       "recipeCount": 22,
-      "downloadUrl": "dist/christmas-special-v1.zip",
+      "downloadUrl": "dist/christmas-special-v2.zip",
       "language": "en"
     },
     {
@@ -334,9 +334,9 @@
       "authorGithub": "calamares00",
       "description": "Las recetas de siempre para Nochebuena, Navidad y Reyes: cóctel de gambas, croquetas, sopa de galets, cordero asado, cochinillo, besugo, merluza en salsa verde, lombarda, roscón de Reyes, turrones, polvorones y mazapanes. Con notas para adelantar trabajo y cocinar para mucha gente.",
       "coverImageUrl": "packs/especial-navidad/cover.jpg",
-      "latestVersion": 1,
+      "latestVersion": 2,
       "recipeCount": 22,
-      "downloadUrl": "dist/especial-navidad-v1.zip",
+      "downloadUrl": "dist/especial-navidad-v2.zip",
       "language": "es"
     },
     {

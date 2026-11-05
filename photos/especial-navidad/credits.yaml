@@ -1,0 +1,98 @@
+# Origin of every photo in this folder: source page, author and licence (CC0 1.0, Public domain,
+# CC BY x.y or CC BY-SA x.y). tools/build.py refuses a recipe photo without an entry here.
+
+coctel-de-gambas.jpg:
+  source: https://commons.wikimedia.org/wiki/File:Brockley_Jack_prawn_cocktail_(5927391101).jpg
+  author: "Ben Sutherland from Crystal Palace, London, UK"
+  license: CC BY 2.0
+
+croquetas-de-jamon.jpg:
+  source: https://commons.wikimedia.org/wiki/File:Croquetas-Jam%C3%B3n-Riofr%C3%ADo.jpg
+  author: "Tamorlan"
+  license: CC BY 3.0
+
+salpicon-de-marisco.jpg:
+  source: https://commons.wikimedia.org/wiki/File:Salpic%C3%B3n_de_Mariscos_-_2011.JPG
+  author: "Tamorlan"
+  license: CC BY 3.0
+
+sopa-de-galets.jpg:
+  source: https://commons.wikimedia.org/wiki/File:Escudella.jpg
+  author: "Sebastian Wallroth"
+  license: CC BY 2.0
+
+crema-de-marisco.jpg:
+  source: https://commons.wikimedia.org/wiki/File:Crema_de_marisco,_Espa%C3%B1a.jpg
+  author: "Juan Emilio Prades Bel"
+  license: CC BY 4.0
+
+cordero-lechal-asado.jpg:
+  source: https://commons.wikimedia.org/wiki/File:Burgos_-_Casa_Ojeda,_lechazo_al_horno_2.jpg
+  author: "Zarateman"
+  license: CC0 1.0
+
+pavo-relleno-al-horno.jpg:
+  source: https://commons.wikimedia.org/wiki/File:Turkey_stuffed_with_chicken_Pn.JPG
+  author: "MOs810"
+  license: CC BY-SA 3.0
+
+lombarda-con-manzana.jpg:
+  source: https://commons.wikimedia.org/wiki/File:Lombarda_con_manzana.jpg
+  author: "Xemenendura"
+  license: CC BY-SA 3.0
+
+roscon-de-reyes.jpg:
+  source: https://commons.wikimedia.org/wiki/File:Rosc%C3%B3n_de_Reyes_Magos.jpg
+  author: "Juan Emilio Prades Bel"
+  license: CC BY 4.0
+
+polvorones.jpg:
+  source: https://commons.wikimedia.org/wiki/File:Polvorones-2009.jpg
+  author: "Tamorlan"
+  license: CC BY 3.0
+
+mazapanes-de-toledo.jpg:
+  source: https://commons.wikimedia.org/wiki/File:Toledo_marzipan_(4280725347).jpg
+  author: "Weldon Kennedy from London, UK"
+  license: CC BY 2.0
+
+cochinillo-asado.jpg:
+  source: https://commons.wikimedia.org/wiki/File:Cochinillo_asado-Madrid.jpg
+  author: "Tamorlan"
+  license: CC BY 3.0
+
+merluza-en-salsa-verde.jpg:
+  source: https://commons.wikimedia.org/wiki/File:Hernani_-_merluza_en_salsa_verde.jpg
+  author: "Zarateman"
+  license: CC0 1.0
+
+cardo-con-almendras.jpg:
+  source: https://commons.wikimedia.org/wiki/File:Cardoon-navarrese15.JPG
+  author: "Xufanc"
+  license: CC BY-SA 3.0
+
+turron-blando-de-jijona.jpg:
+  source: https://commons.wikimedia.org/wiki/File:Turr%C3%B3n.jpg
+  author: "Juan Emilio Prades Bel"
+  license: CC BY 4.0
+
+sopa-de-almendras.jpg:
+  source: https://commons.wikimedia.org/wiki/File:Mandelsuppe_(6700956889).jpg
+  author: "Katrin Gilger"
+  license: CC BY-SA 2.0
+
+consome-al-jerez.jpg:
+  source: https://commons.wikimedia.org/wiki/File:Bruehe-2.jpg
+  author: "User:Rainer Zenz"
+  license: CC BY-SA 3.0
+
+solomillo-de-cerdo-al-pedro-ximenez.jpg:
+  source: https://commons.wikimedia.org/wiki/File:Pork_tenderloin_with_onion_sauce.jpg
+  author: "chispita_666 from Seattle, USA"
+  license: CC BY 2.0
+
+compota-de-nochebuena.jpg:
+  source: https://commons.wikimedia.org/wiki/File:Birnenkompott.jpg
+  author: "User:MarkusHagenlocher"
+  license: CC BY-SA 3.0
+

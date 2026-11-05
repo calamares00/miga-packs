@@ -1,6 +1,6 @@
 id: especial-navidad
-version: 1
-updated: 2026-10-30
+version: 2
+updated: 2026-11-05
 language: es
 name: Especial Navidad
 series: Especiales
@@ -19,6 +19,7 @@ defaults:
 recipes:
 
   - name: Cóctel de gambas
+    photo: especial-navidad/coctel-de-gambas.jpg
     category: Entrantes
     difficulty: EASY
     prep: 20
@@ -48,6 +49,7 @@ recipes:
       - Añade la piña y el huevo picado, y coloca las gambas encima.
       - Cubre con la salsa rosa justo al servir y decora con una gamba entera en el borde.
   - name: Croquetas de jamón
+    photo: especial-navidad/croquetas-de-jamon.jpg
     category: Entrantes
     difficulty: MEDIUM
     prep: 30
@@ -81,6 +83,7 @@ recipes:
       - Forma las croquetas, pásalas por huevo batido y pan rallado.
       - Fríe en tandas en aceite muy caliente (180 °C) hasta que estén doradas. Escurre sobre papel.
   - name: Salpicón de marisco
+    photo: especial-navidad/salpicon-de-marisco.jpg
     category: Pescados y mariscos
     difficulty: EASY
     prep: 25
@@ -132,6 +135,7 @@ recipes:
       - Emulsiona el aceite con el vinagre, la mostaza, la miel y sal.
       - Monta la escarola con la granada, las nueces y el queso desmenuzado, y aliña al servir.
   - name: Sopa de galets
+    photo: especial-navidad/sopa-de-galets.jpg
     category: Sopas y cremas
     difficulty: MEDIUM
     prep: 30
@@ -181,6 +185,7 @@ recipes:
           - Cuela el caldo y prueba de sal. Cuece los galets en él según el paquete (unos 15 minutos).
           - Sirve la sopa con los galets y, aparte, la carne, la pelota en rodajas y las verduras.
   - name: Consomé al jerez
+    photo: especial-navidad/consome-al-jerez.jpg
     category: Sopas y cremas
     difficulty: EASY
     prep: 15
@@ -206,6 +211,7 @@ recipes:
       - Cuela por un colador con un paño, desgrasa y prueba de sal.
       - Sirve muy caliente en tazas con un chorrito de jerez en cada una.
   - name: Crema de marisco
+    photo: especial-navidad/crema-de-marisco.jpg
     category: Sopas y cremas
     difficulty: MEDIUM
     prep: 25
@@ -236,6 +242,7 @@ recipes:
       - Tritura, cuela muy bien apretando y vuelve al fuego. Añade la nata y sala.
       - Saltea los cuerpos de las gambas 1 minuto y sírvelos en la crema caliente.
   - name: Cordero lechal asado
+    photo: especial-navidad/cordero-lechal-asado.jpg
     category: Carnes
     difficulty: MEDIUM
     prep: 15
@@ -263,6 +270,7 @@ recipes:
       - Da la vuelta, sube a 200 °C y asa 45-60 minutos más, hasta que la piel esté dorada y crujiente.
       - Deja reposar 10 minutos y sirve con su jugo.
   - name: Pavo relleno al horno
+    photo: especial-navidad/pavo-relleno-al-horno.jpg
     category: Carnes
     difficulty: HARD
     prep: 45
@@ -333,6 +341,7 @@ recipes:
       - Dora el ajo laminado con la guindilla en el resto del aceite, retira del fuego y añade el vinagre y el perejil.
       - Vierte el refrito sobre el besugo al sacarlo del horno.
   - name: Lombarda con manzana
+    photo: especial-navidad/lombarda-con-manzana.jpg
     category: Verduras
     difficulty: EASY
     prep: 15
@@ -360,6 +369,7 @@ recipes:
       - Incorpora la lombarda, las pasas, los piñones, el resto del vinagre y el azúcar.
       - Cocina 10 minutos a fuego medio, removiendo, hasta que quede brillante. Prueba de sal.
   - name: Roscón de Reyes
+    photo: especial-navidad/roscon-de-reyes.jpg
     category: Postres
     difficulty: HARD
     prep: 60
@@ -425,6 +435,7 @@ recipes:
       - Vierte en el molde, alisa y refrigera al menos 3 horas.
       - Desmolda y corta en barritas con un cuchillo caliente.
   - name: Polvorones
+    photo: especial-navidad/polvorones.jpg
     category: Postres
     difficulty: MEDIUM
     prep: 30
@@ -450,6 +461,7 @@ recipes:
       - Estira la masa a 1,5 cm de grosor entre dos papeles y córtala con un cortapastas ovalado.
       - Hornea a 200 °C 10-12 minutos. Déjalos enfriar del todo sin tocarlos (se rompen en caliente) y espolvorea azúcar glas.
   - name: Mazapanes de Toledo
+    photo: especial-navidad/mazapanes-de-toledo.jpg
     category: Postres
     difficulty: EASY
     prep: 30
@@ -473,6 +485,7 @@ recipes:
       - Pinta con yema batida y gratina en el horno a 220 °C, solo con calor de arriba, 3-5 minutos, hasta que se doren.
 
   - name: Cochinillo asado
+    photo: especial-navidad/cochinillo-asado.jpg
     category: Carnes
     difficulty: MEDIUM
     prep: 15
@@ -499,6 +512,7 @@ recipes:
       - Asa 1 hora más a 200 °C, hasta que la piel esté dorada y crujiente. Sirve con su jugo y una ensalada.
 
   - name: Solomillo de cerdo al Pedro Ximénez
+    photo: especial-navidad/solomillo-de-cerdo-al-pedro-ximenez.jpg
     category: Carnes
     difficulty: EASY
     prep: 10
@@ -525,6 +539,7 @@ recipes:
       - Corta en medallones, termina la salsa con la mantequilla fría y sirve por encima.
 
   - name: Merluza en salsa verde
+    photo: especial-navidad/merluza-en-salsa-verde.jpg
     category: Pescados y mariscos
     difficulty: EASY
     prep: 10
@@ -552,6 +567,7 @@ recipes:
       - Da la vuelta a la merluza, espolvorea el perejil y cocina 2 minutos más. Las almejas deben estar abiertas.
 
   - name: Cardo con almendras
+    photo: especial-navidad/cardo-con-almendras.jpg
     category: Verduras
     difficulty: EASY
     prep: 10
@@ -579,6 +595,7 @@ recipes:
       - Incorpora el cardo escurrido, cocina 5 minutos más y prueba de sal.
 
   - name: Turrón blando de Jijona
+    photo: especial-navidad/turron-blando-de-jijona.jpg
     category: Postres
     difficulty: MEDIUM
     prep: 20
@@ -605,6 +622,7 @@ recipes:
       - Vierte en un molde forrado con papel de horno, cubre, pon peso encima y deja reposar 24 horas antes de cortar.
 
   - name: Sopa de almendras
+    photo: especial-navidad/sopa-de-almendras.jpg
     category: Postres
     difficulty: EASY
     prep: 10
@@ -630,6 +648,7 @@ recipes:
       - Vierte la sopa caliente por encima y espolvorea canela.
 
   - name: Compota de Nochebuena
+    photo: especial-navidad/compota-de-nochebuena.jpg
     category: Postres
     difficulty: EASY
     prep: 10

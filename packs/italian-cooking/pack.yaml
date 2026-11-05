@@ -1,6 +1,6 @@
 id: italian-cooking
-version: 1
-updated: 2026-10-31
+version: 2
+updated: 2026-11-05
 language: en
 name: "World cuisine: Italy"
 series: World cuisine
@@ -23,6 +23,7 @@ defaults:
 recipes:
 
   - name: Spaghetti carbonara
+    photo: cocina-italiana/espaguetis-a-la-carbonara.jpg
     category: Pasta
     difficulty: MEDIUM
     prep: 10
@@ -48,6 +49,7 @@ recipes:
       - Serve with more pecorino and pepper.
 
   - name: Bucatini all'amatriciana
+    photo: cocina-italiana/bucatini-all-amatriciana.jpg
     category: Pasta
     difficulty: EASY
     prep: 10
@@ -71,6 +73,7 @@ recipes:
       - Cook the pasta al dente, drain and toss it with the sauce, the reserved guanciale and half the pecorino. Serve with the rest of the cheese.
 
   - name: Cacio e pepe
+    photo: cocina-italiana/cacio-e-pepe.jpg
     category: Pasta
     difficulty: MEDIUM
     prep: 5
@@ -92,6 +95,7 @@ recipes:
       - Finish cooking the pasta in the pepper pan with a little more water. Off the heat, add the cheese paste and stir vigorously until smooth and glossy.
 
   - name: Lasagne alla bolognese
+    photo: cocina-italiana/lasana-a-la-bolonesa.jpg
     category: Pasta
     difficulty: HARD
     prep: 40
@@ -144,6 +148,7 @@ recipes:
           - Bake for 30-35 minutes, until golden. Rest for 15 minutes before cutting.
 
   - name: Pasta alla Norma
+    photo: cocina-italiana/pasta-alla-norma.jpg
     category: Pasta
     difficulty: EASY
     prep: 15
@@ -171,6 +176,7 @@ recipes:
       - Serve with the rest of the aubergine, the ricotta salata and fresh basil.
 
   - name: Spaghetti with clams
+    photo: cocina-italiana/espaguetis-con-almejas.jpg
     category: Pasta
     difficulty: EASY
     prep: 10
@@ -196,6 +202,7 @@ recipes:
       - Finish cooking the pasta in the clam juices, stirring, until the sauce comes together. Add the parsley and serve.
 
   - name: Risotto alla milanese
+    photo: cocina-italiana/risotto-a-la-milanesa.jpg
     category: Rice
     difficulty: MEDIUM
     prep: 10
@@ -222,6 +229,7 @@ recipes:
       - Off the heat, add the rest of the cold butter and the Parmesan and stir vigorously (mantecatura). Rest for 1 minute and serve.
 
   - name: Ossobuco alla milanese
+    photo: cocina-italiana/ossobuco-a-la-milanesa.jpg
     category: Meat
     difficulty: MEDIUM
     prep: 20
@@ -257,6 +265,7 @@ recipes:
       - Mix the zest, very finely chopped garlic and parsley, and sprinkle the gremolata over the ossobuco just before serving.
 
   - name: Saltimbocca alla romana
+    photo: cocina-italiana/saltimbocca-a-la-romana.jpg
     category: Meat
     difficulty: EASY
     prep: 10
@@ -282,6 +291,7 @@ recipes:
       - Add the wine to the pan, scrape the bottom and let it reduce for 1 minute. Pour the sauce over the meat.
 
   - name: Aubergine parmigiana
+    photo: cocina-italiana/berenjenas-a-la-parmesana.jpg
     category: Vegetables
     difficulty: MEDIUM
     prep: 30
@@ -310,6 +320,7 @@ recipes:
       - Bake for 35-40 minutes and rest for 20 minutes before cutting.
 
   - name: Minestrone
+    photo: cocina-italiana/minestrone.jpg
     category: Soups
     difficulty: EASY
     prep: 20
@@ -340,6 +351,7 @@ recipes:
       - Add the beans and pasta and cook until the pasta is done. Season with salt and serve with a drizzle of oil.
 
   - name: Pasta e fagioli
+    photo: cocina-italiana/pasta-e-fagioli.jpg
     category: Legumes
     difficulty: EASY
     prep: 10
@@ -368,6 +380,7 @@ recipes:
       - Add the pasta and cook it in the soup, stirring, until al dente. Season and serve with a drizzle of oil.
 
   - name: Pizza margherita
+    photo: cocina-italiana/pizza-margarita.jpg
     category: Breads and doughs
     difficulty: MEDIUM
     prep: 30
@@ -399,6 +412,7 @@ recipes:
       - Add the mozzarella and bake for 2-3 minutes more. Finish with basil and a drizzle of oil.
 
   - name: Genoese focaccia
+    photo: cocina-italiana/focaccia-genovesa.jpg
     category: Breads and doughs
     difficulty: MEDIUM
     prep: 30
@@ -429,6 +443,7 @@ recipes:
       - Bake at 230 °C for 18-20 minutes, until golden. Let it cool on a rack.
 
   - name: Tomato bruschetta
+    photo: cocina-italiana/bruschetta-de-tomate.jpg
     category: Starters
     difficulty: EASY
     prep: 10
@@ -449,6 +464,7 @@ recipes:
       - Rub each slice with the peeled garlic, drizzle with the rest of the oil and top with the tomato just before serving.
 
   - name: Arancini
+    photo: cocina-italiana/arancini.jpg
     category: Starters
     difficulty: HARD
     prep: 60
@@ -485,6 +501,7 @@ recipes:
       - Fry in oil at 170 °C for 4-5 minutes, until golden, and drain.
 
   - name: Vitello tonnato
+    photo: cocina-italiana/vitello-tonnato.jpg
     category: Meat
     difficulty: MEDIUM
     prep: 20
@@ -518,6 +535,7 @@ recipes:
       - Slice the meat very thinly, arrange it on a platter and cover with the sauce. Garnish with the rest of the capers.
 
   - name: Caponata
+    photo: cocina-italiana/caponata.jpg
     category: Vegetables
     difficulty: EASY
     prep: 20
@@ -549,6 +567,7 @@ recipes:
       - Add the aubergine, fold gently and let it cool slightly. Serve with basil.
 
   - name: Tiramisu
+    photo: cocina-italiana/tiramisu.jpg
     category: Desserts
     difficulty: EASY
     prep: 30
@@ -573,6 +592,7 @@ recipes:
       - Chill for at least 6 hours and dust with cocoa just before serving.
 
   - name: Panna cotta
+    photo: cocina-italiana/panna-cotta.jpg
     category: Desserts
     difficulty: EASY
     prep: 15

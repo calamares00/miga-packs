@@ -1,5 +1,5 @@
 id: tapas-espanolas
-version: 2
+version: 3
 updated: 2026-11-05
 language: es
 name: Tapas españolas
@@ -59,6 +59,7 @@ recipes:
           - Sálalas y sírvelas con la salsa brava por encima.
 
   - name: Patatas alioli
+    photo: tapas/patatas-alioli.jpg
     category: Entrantes
     difficulty: EASY
     prep: 15
@@ -106,6 +107,7 @@ recipes:
       - Escúrrelos sobre papel de cocina y espolvoréalos con sal gruesa.
 
   - name: Champiñones al ajillo
+    photo: tapas/champinones-al-ajillo.jpg
     category: Verduras
     difficulty: EASY
     prep: 10
@@ -128,6 +130,7 @@ recipes:
       - Riega con el vino y deja que se evapore. Termina con el perejil.
 
   - name: Berenjenas con miel de caña
+    photo: tapas/berenjenas-con-miel-de-cana.jpg
     category: Verduras
     difficulty: EASY
     prep: 40
@@ -177,6 +180,7 @@ recipes:
       - Espolvorea sal gruesa y los pimentones y riega con el aceite.
 
   - name: Boquerones en vinagre
+    photo: tapas/boquerones-en-vinagre.jpg
     category: Pescados y mariscos
     difficulty: EASY
     prep: 20
@@ -243,6 +247,7 @@ recipes:
       - Si quieres, riégalas al servir con el resto del aceite mezclado con el ajo y el perejil picados.
 
   - name: Mejillones a la vinagreta
+    photo: tapas/mejillones-a-la-vinagreta.jpg
     category: Pescados y mariscos
     difficulty: EASY
     prep: 20
@@ -333,6 +338,7 @@ recipes:
           - Fríelas en tandas en abundante aceite muy caliente hasta que estén doradas y escúrrelas sobre papel de cocina.
 
   - name: Albóndigas en salsa
+    photo: tapas/albondigas-en-salsa.jpg
     category: Carnes
     difficulty: MEDIUM
     prep: 20
@@ -370,6 +376,7 @@ recipes:
           - Si te gusta fina, tritura la salsa. Añade las albóndigas y cuece todo junto a fuego suave 20 minutos.
 
   - name: Chorizo a la sidra
+    photo: tapas/chorizo-a-la-sidra.jpg
     category: Carnes
     difficulty: EASY
     prep: 5
@@ -389,6 +396,7 @@ recipes:
       - Córtalos en rodajas y sírvelos en cazuelitas de barro con su jugo y pan para mojar.
 
   - name: Pinchos morunos
+    photo: tapas/pinchos-morunos.jpg
     category: Carnes
     difficulty: EASY
     prep: 15
@@ -415,6 +423,7 @@ recipes:
       - Hazlas en una plancha o en la barbacoa a fuego fuerte 8-10 minutos, dándoles la vuelta para que se doren por todos los lados.
 
   - name: Huevos rotos con jamón
+    photo: tapas/huevos-rotos-con-jamon.jpg
     category: Huevos
     difficulty: EASY
     prep: 10
@@ -503,6 +512,7 @@ recipes:
       - Sala, riega con el aceite y cubre con el jamón.
 
   - name: Montaditos de lomo con pimiento
+    photo: tapas/montaditos-de-lomo-con-pimiento.jpg
     category: Panes y masas
     difficulty: EASY
     prep: 10

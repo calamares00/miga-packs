@@ -19,8 +19,8 @@ Cada pack está en español y en inglés; la app muestra los del idioma en que l
 | 🍚 [Rice dishes](packs/rice-dishes/pack.yaml) | Everyday cooking | en | 20 | [rice-dishes-v1.zip](dist/rice-dishes-v1.zip) |
 | 🥖 [Panadería](packs/panaderia/pack.yaml) | Cocina de cada día | es | 20 | [panaderia-v1.zip](dist/panaderia-v1.zip) |
 | 🥖 [Bakery](packs/bakery/pack.yaml) | Everyday cooking | en | 20 | [bakery-v1.zip](dist/bakery-v1.zip) |
-| 🍤 [Tapas españolas](packs/tapas-espanolas/pack.yaml) | Especiales | es | 20 | [tapas-espanolas-v2.zip](dist/tapas-espanolas-v2.zip) |
-| 🍤 [Spanish tapas](packs/spanish-tapas/pack.yaml) | Specials | en | 20 | [spanish-tapas-v2.zip](dist/spanish-tapas-v2.zip) |
+| 🍤 [Tapas españolas](packs/tapas-espanolas/pack.yaml) | Especiales | es | 20 | [tapas-espanolas-v3.zip](dist/tapas-espanolas-v3.zip) |
+| 🍤 [Spanish tapas](packs/spanish-tapas/pack.yaml) | Specials | en | 20 | [spanish-tapas-v3.zip](dist/spanish-tapas-v3.zip) |
 | 🫒 [Cocina mediterránea](packs/cocina-mediterranea/pack.yaml) | Cocina del mundo | es | 20 | [cocina-mediterranea-v1.zip](dist/cocina-mediterranea-v1.zip) |
 | 🫒 [Mediterranean cooking](packs/mediterranean-cooking/pack.yaml) | World cuisine | en | 20 | [mediterranean-cooking-v1.zip](dist/mediterranean-cooking-v1.zip) |
 | 🎄 [Especial Navidad](packs/especial-navidad/pack.yaml) | Especiales | es | 22 | [especial-navidad-v1.zip](dist/especial-navidad-v1.zip) |
@@ -72,7 +72,7 @@ packs/<id>/pack.yaml          datos y recetas del pack
 packs/<id>/cover.jpg          portada cuadrada, para el catálogo
 packs/<id>/book-cover.jpg     portada vertical (0,72), la del libro en la app
 photos/<tema>/<plato>.jpg     fotos de recetas (4:3, 1280×960), compartidas por los dos idiomas
-photos/credits.yaml           origen, autor y licencia de cada foto
+photos/<tema>/credits.yaml    origen, autor y licencia de cada foto de esa carpeta
 tools/build.py                genera dist/ y catalog.json
 tools/render_covers.mjs       dibuja las portadas a partir de pack.yaml
 ```
@@ -120,7 +120,7 @@ defaults:                        # valores para todas las recetas que no los ind
   source: Pack «Cocina mexicana» de Miga
 recipes:
   - name: Guacamole
-    photo: mexico/guacamole.jpg  # opcional: foto en photos/, registrada en photos/credits.yaml
+    photo: cocina-mexicana/guacamole.jpg  # opcional: foto en photos/, con su entrada en credits.yaml
     category: Salsas             # mejor una de las categorías de la app (Entrantes, Ensaladas,
                                  # Sopas y cremas, Arroces, Pastas, Legumbres, Verduras, Carnes,
                                  # Pescados y mariscos, Huevos, Panes y masas, Salsas, Postres, Bebidas)
@@ -156,23 +156,26 @@ recipes:
 
 ### Fotos de las recetas
 
-Solo fotos reales del plato **en dominio público o CC0** (por ejemplo de Wikimedia Commons), que se
-pueden usar sin condiciones. Cada una va en `photos/` en 4:3 a 1280×960, en JPEG y sin metadatos
-EXIF, y tiene su entrada en `photos/credits.yaml`:
+Solo fotos reales del plato (por ejemplo de Wikimedia Commons) con licencia **CC0, dominio público,
+CC BY o CC BY-SA** (versiones 2.0, 2.5, 3.0 o 4.0). No se aceptan las no comerciales (NC), las que
+no permiten modificarlas (ND) ni las solo GFDL. Cada foto va en `photos/<tema>/` en 4:3 a
+1280×960, en JPEG y sin metadatos EXIF, y tiene su entrada en `photos/<tema>/credits.yaml`:
 
 ```yaml
-tapas/patatas-bravas.jpg:
+patatas-bravas.jpg:
   source: https://commons.wikimedia.org/wiki/File:Burgos_-_Raci%C3%B3n_de_patatas_bravas.jpg
   author: "Zarateman"
-  license: CC0 1.0              # "CC0 1.0" o "Public domain"; cualquier otra hace fallar el build
+  license: CC0 1.0              # "CC0 1.0", "Public domain", "CC BY 4.0", "CC BY-SA 3.0"…
 ```
 
-`tools/build.py` falla si una receta apunta a una foto que no existe, que no está registrada o que
-tiene otra licencia. Una misma foto sirve para la receta en español y en inglés.
+Con CC BY y CC BY-SA, `tools/build.py` añade a las notas de la receta la atribución que piden
+(autor, licencia, origen y que la foto está recortada). El build falla si una receta apunta a una
+foto que no existe, que no está registrada o que tiene otra licencia. Una misma foto sirve para la
+receta en español y en inglés.
 
 ## Licencia
 
 Las recetas y las portadas se publican bajo [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/deed.es).
-Las fotos de `photos/` son de dominio público o CC0; su origen y autor están en
-[`photos/credits.yaml`](photos/credits.yaml).
+Las fotos de `photos/` conservan su licencia (CC0, dominio público, CC BY o CC BY-SA); su origen,
+autor y licencia están en el `credits.yaml` de cada carpeta.
 Los scripts de `tools/`, bajo [GPL-3.0](LICENSE).

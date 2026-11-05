@@ -1,6 +1,6 @@
 id: thai-cooking
-version: 1
-updated: 2026-10-31
+version: 2
+updated: 2026-11-05
 language: en
 name: "World cuisine: Thailand"
 series: World cuisine
@@ -23,6 +23,7 @@ defaults:
 recipes:
 
   - name: Pad thai
+    photo: cocina-tailandesa/pad-thai.jpg
     category: Pasta
     difficulty: MEDIUM
     prep: 30
@@ -61,6 +62,7 @@ recipes:
       - Add the bean sprouts and chives in lengths, toss for 30 seconds and serve with peanuts, chilli powder and lime.
 
   - name: Tom yum kung
+    photo: cocina-tailandesa/tom-yum-kung.jpg
     category: Soups
     difficulty: EASY
     prep: 20
@@ -88,6 +90,7 @@ recipes:
       - Off the heat, add the fish sauce, lime juice and nam prik pao. Taste and adjust. Serve with coriander.
 
   - name: Tom kha gai
+    photo: cocina-tailandesa/tom-kha-gai.jpg
     category: Soups
     difficulty: EASY
     prep: 15
@@ -116,6 +119,7 @@ recipes:
       - Off the heat, add the fish sauce, sugar and lime juice. Serve with coriander.
 
   - name: Green chicken curry
+    photo: cocina-tailandesa/curry-verde-de-pollo.jpg
     category: Meat
     difficulty: EASY
     prep: 15
@@ -143,6 +147,7 @@ recipes:
       - Season with the fish sauce and sugar. Add the basil and sliced chilli and serve with jasmine rice.
 
   - name: Beef massaman curry
+    photo: cocina-tailandesa/curry-massaman-de-ternera.jpg
     category: Meat
     difficulty: MEDIUM
     prep: 20
@@ -171,6 +176,7 @@ recipes:
       - Simmer for 40 minutes, until the potatoes are tender. Season with the tamarind, sugar and fish sauce.
 
   - name: Pork panang curry
+    photo: cocina-tailandesa/curry-panang-de-cerdo.jpg
     category: Meat
     difficulty: EASY
     prep: 15
@@ -197,6 +203,7 @@ recipes:
       - Serve with the very finely shredded lime leaves, sliced chilli and basil.
 
   - name: Som tam
+    photo: cocina-tailandesa/som-tam.jpg
     category: Salads
     difficulty: EASY
     prep: 20
@@ -224,6 +231,7 @@ recipes:
       - Taste and adjust. Serve straight away with sticky rice.
 
   - name: Larb gai
+    photo: cocina-tailandesa/larb-gai.jpg
     category: Salads
     difficulty: EASY
     prep: 20
@@ -252,6 +260,7 @@ recipes:
       - Stir in the mint, coriander and toasted rice. Serve warm with lettuce leaves.
 
   - name: Thai fried rice (khao pad)
+    photo: cocina-tailandesa/arroz-frito-tailandes-khao-pad.jpg
     category: Rice
     difficulty: EASY
     prep: 10
@@ -283,6 +292,7 @@ recipes:
       - Serve with cucumber slices and lime wedges.
 
   - name: Pad kra pao
+    photo: cocina-tailandesa/pad-kra-pao.jpg
     category: Meat
     difficulty: EASY
     prep: 10
@@ -313,6 +323,7 @@ recipes:
       - Serve over rice with the fried egg on top.
 
   - name: Pad see ew
+    photo: cocina-tailandesa/pad-see-ew.jpg
     category: Pasta
     difficulty: EASY
     prep: 15
@@ -342,6 +353,7 @@ recipes:
       - Serve with white pepper.
 
   - name: Cashew chicken
+    photo: cocina-tailandesa/pollo-con-anacardos.jpg
     category: Meat
     difficulty: EASY
     prep: 15
@@ -404,6 +416,7 @@ recipes:
       - Pour over the dressing and serve straight away.
 
   - name: Thai fish cakes (tod mun pla)
+    photo: cocina-tailandesa/tortitas-de-pescado-tod-mun-pla.jpg
     category: Fish and seafood
     difficulty: MEDIUM
     prep: 30
@@ -462,6 +475,7 @@ recipes:
       - Fry for 1 minute, flip and fry for 30 more seconds. Drain and serve over the rice with sriracha.
 
   - name: Khao man gai
+    photo: cocina-tailandesa/khao-man-gai.jpg
     category: Rice
     difficulty: MEDIUM
     prep: 20
@@ -505,6 +519,7 @@ recipes:
       - Serve the rice with the sliced chicken, cucumber, coriander, the sauce and a bowl of hot stock.
 
   - name: Isan grilled chicken (gai yang)
+    photo: cocina-tailandesa/pollo-a-la-parrilla-de-isan-gai-yang.jpg
     category: Meat
     difficulty: EASY
     prep: 20
@@ -531,6 +546,7 @@ recipes:
       - Serve with jaew sauce, som tam and sticky rice.
 
   - name: Jaew dipping sauce
+    photo: cocina-tailandesa/salsa-jaew.jpg
     category: Sauces
     difficulty: EASY
     prep: 10
@@ -555,6 +571,7 @@ recipes:
       - Add the chilli powder, the thinly sliced shallot, the toasted rice and the coriander.
 
   - name: Mango sticky rice
+    photo: cocina-tailandesa/mango-con-arroz-glutinoso.jpg
     category: Desserts
     difficulty: MEDIUM
     prep: 15
@@ -587,6 +604,7 @@ recipes:
       - Serve the rice with the peeled, sliced mango, the sauce on top and the sesame seeds.
 
   - name: Thai iced tea (cha yen)
+    photo: cocina-tailandesa/te-tailandes-helado-cha-yen.jpg
     category: Drinks
     difficulty: EASY
     prep: 5

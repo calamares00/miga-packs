@@ -1,0 +1,93 @@
+# Origin of every photo in this folder: source page, author and licence (CC0 1.0, Public domain,
+# CC BY x.y or CC BY-SA x.y). tools/build.py refuses a recipe photo without an entry here.
+
+pad-thai.jpg:
+  source: https://commons.wikimedia.org/wiki/File:Phat_Thai_kung_Chang_Khien_street_stall.jpg
+  author: "Takeaway"
+  license: CC BY-SA 3.0
+
+tom-yum-kung.jpg:
+  source: https://commons.wikimedia.org/wiki/File:Tom_yum_goong_at_Thai_Orchid_Villa_Kamppi.jpg
+  author: "JIP"
+  license: CC BY-SA 4.0
+
+tom-kha-gai.jpg:
+  source: https://commons.wikimedia.org/wiki/File:Tom_kha_gai2.jpg
+  author: "lydiajoy1"
+  license: CC BY 2.0
+
+curry-verde-de-pollo.jpg:
+  source: https://commons.wikimedia.org/wiki/File:Thai_green_chicken_curry_at_Highgate_Cricket_Club,_Crouch_End,_London_1.jpg
+  author: "Acabashi"
+  license: CC BY-SA 4.0
+
+curry-massaman-de-ternera.jpg:
+  source: https://commons.wikimedia.org/wiki/File:Beef_Massaman_curry_with_brown_rice.jpg
+  author: "Vee Satayamas"
+  license: CC BY-SA 4.0
+
+curry-panang-de-cerdo.jpg:
+  source: https://commons.wikimedia.org/wiki/File:Panang_curry_(42943883862).jpg
+  author: "Vee Satayamas from Bangkok, Thailand"
+  license: CC BY 2.0
+
+som-tam.jpg:
+  source: https://commons.wikimedia.org/wiki/File:Som_Tam_green_papaya_salad,_Bangkok,_Thailand.jpg
+  author: "Vyacheslav Argenberg"
+  license: CC BY 4.0
+
+larb-gai.jpg:
+  source: https://commons.wikimedia.org/wiki/File:LaoFood_LarbNeua.JPG
+  author: "Jpatokal"
+  license: CC BY-SA 4.0
+
+arroz-frito-tailandes-khao-pad.jpg:
+  source: https://commons.wikimedia.org/wiki/File:Khao_Phat_Mu.jpg
+  author: "User:Mattes"
+  license: Public domain
+
+pad-kra-pao.jpg:
+  source: https://commons.wikimedia.org/wiki/File:Siam_Garden_Phat_kaphrao_ac.jpg
+  author: "Asturio Cantabrio"
+  license: CC BY-SA 4.0
+
+pad-see-ew.jpg:
+  source: https://commons.wikimedia.org/wiki/File:Pad_See_Ew_-_Bangkok.jpg
+  author: "Vee Satayamas"
+  license: CC BY-SA 4.0
+
+pollo-con-anacardos.jpg:
+  source: https://commons.wikimedia.org/wiki/File:Cashew_Chicken_(6078860960).jpg
+  author: "Jaysin Trevino from Evanston, IL, US"
+  license: CC BY 2.0
+
+tortitas-de-pescado-tod-mun-pla.jpg:
+  source: https://commons.wikimedia.org/wiki/File:Thai_Fish_Cake.jpg
+  author: "Justin Hee"
+  license: CC BY 2.0
+
+khao-man-gai.jpg:
+  source: https://commons.wikimedia.org/wiki/File:Hainanese_chicken_rice.jpg
+  author: "Misaochan"
+  license: CC BY 4.0
+
+pollo-a-la-parrilla-de-isan-gai-yang.jpg:
+  source: https://commons.wikimedia.org/wiki/File:Gai_yang_Khuukam.JPG
+  author: "Nissy-KITAQ"
+  license: CC BY-SA 3.0
+
+salsa-jaew.jpg:
+  source: https://commons.wikimedia.org/wiki/File:Jeow_Bong_-_Laotian_chili_dip.jpg
+  author: "Isan1985"
+  license: CC BY-SA 4.0
+
+mango-con-arroz-glutinoso.jpg:
+  source: https://commons.wikimedia.org/wiki/File:Mango_sticy_rice_(3859549574).jpg
+  author: "Dennis Wong from Hong Kong, Hong Kong"
+  license: CC BY 2.0
+
+te-tailandes-helado-cha-yen.jpg:
+  source: https://commons.wikimedia.org/wiki/File:Cha-Yen_(Thai_iced_tea)_-_Namo_2026-07-30.jpg
+  author: "Andy Li"
+  license: CC0 1.0
+

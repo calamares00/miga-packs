@@ -1,6 +1,6 @@
 id: cocina-alemana
-version: 1
-updated: 2026-10-31
+version: 2
+updated: 2026-11-05
 language: es
 name: "Cocina del mundo: Alemania"
 series: Cocina del mundo
@@ -23,6 +23,7 @@ defaults:
 recipes:
 
   - name: Schnitzel de cerdo
+    photo: cocina-alemana/schnitzel-de-cerdo.jpg
     category: Carnes
     difficulty: EASY
     prep: 15
@@ -49,6 +50,7 @@ recipes:
       - Escúrrelos y sírvelos con gajos de limón, ensalada de patata o bratkartoffeln.
 
   - name: Rouladen de ternera
+    photo: cocina-alemana/rouladen-de-ternera.jpg
     category: Carnes
     difficulty: MEDIUM
     prep: 25
@@ -80,6 +82,7 @@ recipes:
       - Saca los rollos, cuela la salsa, espésala con la maicena disuelta en agua y sirve.
 
   - name: Sauerbraten
+    photo: cocina-alemana/sauerbraten.jpg
     category: Carnes
     difficulty: HARD
     prep: 30
@@ -116,6 +119,7 @@ recipes:
       - Saca la carne, cuela el líquido y cuécelo con el lebkuchen desmenuzado y las pasas hasta que espese. Corta la carne en lonchas y sírvela con la salsa.
 
   - name: Ensalada de patata suaba
+    photo: cocina-alemana/ensalada-de-patata-suaba.jpg
     category: Ensaladas
     difficulty: EASY
     prep: 15
@@ -143,6 +147,7 @@ recipes:
       - Añade el aceite y el cebollino, mezcla y ajusta de sal y vinagre.
 
   - name: Bratkartoffeln
+    photo: cocina-alemana/bratkartoffeln.jpg
     category: Verduras
     difficulty: EASY
     prep: 10
@@ -168,6 +173,7 @@ recipes:
       - Salpimienta, añade la mejorana y el perejil y sirve.
 
   - name: Kartoffelpuffer
+    photo: cocina-alemana/kartoffelpuffer.jpg
     category: Verduras
     difficulty: EASY
     prep: 20
@@ -192,6 +198,7 @@ recipes:
       - Escúrrelas sobre papel de cocina y sírvelas calientes con la compota de manzana.
 
   - name: Käsespätzle
+    photo: cocina-alemana/kasespatzle.jpg
     category: Pastas
     difficulty: MEDIUM
     prep: 20
@@ -223,6 +230,7 @@ recipes:
       - Cubre con la cebolla frita y el cebollino y sirve enseguida.
 
   - name: Königsberger Klopse
+    photo: cocina-alemana/konigsberger-klopse.jpg
     category: Carnes
     difficulty: MEDIUM
     prep: 25
@@ -260,6 +268,7 @@ recipes:
       - Añade la nata, las alcaparras, el limón y el azúcar. Fuera del fuego, liga con la yema. Calienta las albóndigas en la salsa y sirve con patatas cocidas.
 
   - name: Currywurst
+    photo: cocina-alemana/currywurst.jpg
     category: Carnes
     difficulty: EASY
     prep: 10
@@ -292,6 +301,7 @@ recipes:
       - Cúbrelas con la salsa caliente y espolvorea curry por encima.
 
   - name: Frikadellen
+    photo: cocina-alemana/frikadellen.jpg
     category: Carnes
     difficulty: EASY
     prep: 15
@@ -318,6 +328,7 @@ recipes:
       - Fríelas en el aceite a fuego medio 5-6 minutos por cada lado, hasta que estén doradas y hechas por dentro.
 
   - name: Potaje alemán de lentejas
+    photo: cocina-alemana/potaje-aleman-de-lentejas.jpg
     category: Legumbres
     difficulty: EASY
     prep: 20
@@ -348,6 +359,7 @@ recipes:
       - Incorpora las salchichas en rodajas y calienta 5 minutos. Termina con el vinagre y salpimienta.
 
   - name: Sopa de guisantes
+    photo: cocina-alemana/sopa-de-guisantes.jpg
     category: Legumbres
     difficulty: EASY
     prep: 15
@@ -376,6 +388,7 @@ recipes:
       - Saca el codillo, desmenuza la carne y devuélvela a la sopa con las salchichas en rodajas. Salpimienta.
 
   - name: Sopa de patata alemana
+    photo: cocina-alemana/sopa-de-patata-alemana.jpg
     category: Sopas y cremas
     difficulty: EASY
     prep: 20
@@ -406,6 +419,7 @@ recipes:
       - Añade la nata, la nuez moscada y las salchichas en rodajas, calienta y ajusta de sal. Sirve con perejil.
 
   - name: Flammkuchen
+    photo: cocina-alemana/flammkuchen.jpg
     category: Panes y masas
     difficulty: EASY
     prep: 20
@@ -437,6 +451,7 @@ recipes:
       - Hornea cada flammkuchen 10-12 minutos sobre la bandeja caliente, hasta que los bordes estén crujientes y dorados.
 
   - name: Brezeln
+    photo: cocina-alemana/brezeln.jpg
     category: Panes y masas
     difficulty: MEDIUM
     prep: 90
@@ -468,6 +483,7 @@ recipes:
       - Colócalas en bandejas con papel de horno, haz un corte en la parte gruesa, espolvorea sal gruesa y hornea 15 minutos, hasta que estén muy doradas.
 
   - name: Maultaschen
+    photo: cocina-alemana/maultaschen.jpg
     category: Pastas
     difficulty: HARD
     prep: 60
@@ -507,6 +523,7 @@ recipes:
       - Cuécelos en el caldo a fuego suave 10-12 minutos. Sírvelos en el caldo con cebollino.
 
   - name: Pastel de manzana alemán
+    photo: cocina-alemana/pastel-de-manzana-aleman.jpg
     category: Postres
     difficulty: EASY
     prep: 20
@@ -535,6 +552,7 @@ recipes:
       - Hornea 40-45 minutos. Deja que se enfríe y espolvorea el azúcar glas.
 
   - name: Tarta Selva Negra
+    photo: cocina-alemana/tarta-selva-negra.jpg
     category: Postres
     difficulty: HARD
     prep: 60
@@ -578,6 +596,7 @@ recipes:
           - Decora con virutas de chocolate por los lados y rosetas de nata con una cereza encima.
 
   - name: Rote Grütze
+    photo: cocina-alemana/rote-grutze.jpg
     category: Postres
     difficulty: EASY
     prep: 10
@@ -600,6 +619,7 @@ recipes:
       - Reparte en cuencos y refrigera al menos 2 horas.
 
   - name: Obatzda
+    photo: cocina-alemana/obatzda.jpg
     category: Salsas
     difficulty: EASY
     prep: 10

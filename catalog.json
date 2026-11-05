@@ -126,9 +126,9 @@
       "authorGithub": "calamares00",
       "description": "Los clásicos de la cocina alemana de norte a sur: schnitzel, rouladen, sauerbraten, ensalada de patata suaba, bratkartoffeln, kartoffelpuffer, käsespätzle, königsberger klopse, currywurst, frikadellen, potajes de lentejas y de guisantes, sopa de patata, flammkuchen, brezeln, maultaschen, obatzda y postres como el pastel de manzana, la tarta Selva Negra y la rote grütze.",
       "coverImageUrl": "packs/cocina-alemana/cover.jpg",
-      "latestVersion": 1,
+      "latestVersion": 2,
       "recipeCount": 20,
-      "downloadUrl": "dist/cocina-alemana-v1.zip",
+      "downloadUrl": "dist/cocina-alemana-v2.zip",
       "language": "es"
     },
     {
@@ -360,9 +360,9 @@
       "authorGithub": "calamares00",
       "description": "German classics from north to south: schnitzel, rouladen, sauerbraten, Swabian potato salad, Bratkartoffeln, Kartoffelpuffer, Käsespätzle, Königsberger Klopse, currywurst, Frikadellen, lentil and split pea stews, potato soup, Flammkuchen, pretzels, Maultaschen, Obatzda and sweets such as apple cake, Black Forest gateau and rote Grütze.",
       "coverImageUrl": "packs/german-cooking/cover.jpg",
-      "latestVersion": 1,
+      "latestVersion": 2,
       "recipeCount": 20,
-      "downloadUrl": "dist/german-cooking-v1.zip",
+      "downloadUrl": "dist/german-cooking-v2.zip",
       "language": "en"
     },
     {

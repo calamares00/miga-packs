@@ -61,9 +61,9 @@
       "authorGithub": "calamares00",
       "description": "Paellas, arroces secos, melosos y caldosos y arroces del mundo: paella de marisco, mixta y de verduras, arroz del señoret, a banda, con conejo y caracoles, con costra, caldoso de bogavante, meloso de setas, empedrado, huertano, a la cubana, pilaf, biryani, risotto de calabaza, gallo pinto, arroz con gandules y jollof. Y ninguna paella lleva chorizo.",
       "coverImageUrl": "packs/arroces/cover.jpg",
-      "latestVersion": 1,
+      "latestVersion": 2,
       "recipeCount": 20,
-      "downloadUrl": "dist/arroces-v1.zip",
+      "downloadUrl": "dist/arroces-v2.zip",
       "language": "es"
     },
     {
@@ -477,9 +477,9 @@
       "authorGithub": "calamares00",
       "description": "Paellas, dry, creamy and soupy Spanish rices and rice dishes from around the world: seafood, mixed and vegetable paella, arroz del senyoret, arroz a banda, rice with rabbit and snails, crusted rice, soupy lobster rice, creamy mushroom rice, arroz empedrado, Murcian garden rice, Cuban-style rice, pilaf, biryani, pumpkin risotto, gallo pinto, arroz con gandules and jollof. And there is no chorizo in any paella.",
       "coverImageUrl": "packs/rice-dishes/cover.jpg",
-      "latestVersion": 1,
+      "latestVersion": 2,
       "recipeCount": 20,
-      "downloadUrl": "dist/rice-dishes-v1.zip",
+      "downloadUrl": "dist/rice-dishes-v2.zip",
       "language": "en"
     },
     {

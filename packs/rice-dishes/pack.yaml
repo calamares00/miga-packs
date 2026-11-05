@@ -1,6 +1,6 @@
 id: rice-dishes
-version: 1
-updated: 2026-10-31
+version: 2
+updated: 2026-11-05
 language: en
 name: Rice dishes
 series: Everyday cooking
@@ -21,6 +21,7 @@ defaults:
 recipes:
 
   - name: Seafood paella
+    photo: arroces/paella-de-marisco.jpg
     category: Rice
     difficulty: MEDIUM
     prep: 20
@@ -55,6 +56,7 @@ recipes:
       - Turn up the heat for 1 minute at the end for the socarrat. Rest for 5 minutes covered with a tea towel.
 
   - name: Mixed paella
+    photo: arroces/paella-mixta.jpg
     category: Rice
     difficulty: MEDIUM
     prep: 20
@@ -90,6 +92,7 @@ recipes:
       - Rest for 5 minutes before serving.
 
   - name: Vegetable paella
+    photo: arroces/paella-de-verduras.jpg
     category: Rice
     difficulty: MEDIUM
     prep: 20
@@ -124,6 +127,7 @@ recipes:
       - Rest for 5 minutes covered with a tea towel.
 
   - name: Arroz del senyoret
+    photo: arroces/arroz-del-senoret.jpg
     category: Rice
     difficulty: MEDIUM
     prep: 25
@@ -158,6 +162,7 @@ recipes:
       - Rest for 5 minutes and serve with aioli.
 
   - name: Arroz a banda
+    photo: arroces/arroz-a-banda.jpg
     category: Rice
     difficulty: MEDIUM
     prep: 30
@@ -199,6 +204,7 @@ recipes:
           - Serve with aioli and, if you like, the fish from the stock on the side.
 
   - name: Rice with rabbit and snails
+    photo: arroces/arroz-con-conejo-y-caracoles.jpg
     category: Rice
     difficulty: MEDIUM
     prep: 20
@@ -230,6 +236,7 @@ recipes:
       - Rest for 5 minutes.
 
   - name: Arroz con costra
+    photo: arroces/arroz-con-costra.jpg
     category: Rice
     difficulty: MEDIUM
     prep: 20
@@ -262,6 +269,7 @@ recipes:
       - Bake for 8-10 minutes, until the egg forms a golden crust. Rest for 5 minutes.
 
   - name: Soupy rice with lobster
+    photo: arroces/arroz-caldoso-de-bogavante.jpg
     category: Rice
     difficulty: MEDIUM
     prep: 20
@@ -382,6 +390,7 @@ recipes:
       - Cook for 8 minutes over a high heat and 10 over a low heat, without stirring. Rest for 5 minutes.
 
   - name: Arroz empedrado
+    photo: arroces/arroz-empedrado.jpg
     category: Rice
     difficulty: EASY
     prep: 15
@@ -442,6 +451,7 @@ recipes:
       - Cook for 8 minutes over a high heat and 9-10 over a low heat, without stirring. Rest for 5 minutes.
 
   - name: Cuban-style rice
+    photo: arroces/arroz-a-la-cubana.jpg
     category: Rice
     difficulty: EASY
     prep: 10
@@ -472,6 +482,7 @@ recipes:
       - Serve the rice turned out of a bowl onto the plate, with the hot tomato sauce, the fried egg and the banana.
 
   - name: Gallo pinto
+    photo: arroces/gallo-pinto.jpg
     category: Rice
     difficulty: EASY
     prep: 10
@@ -499,6 +510,7 @@ recipes:
       - Season with salt, add the coriander and serve with eggs, fried plantain or soured cream.
 
   - name: Pilaf rice
+    photo: arroces/arroz-pilaf.jpg
     category: Rice
     difficulty: EASY
     prep: 5
@@ -522,6 +534,7 @@ recipes:
       - Cover and simmer very gently for 15 minutes. Turn off the heat, put a tea towel under the lid and rest for 10 minutes.
 
   - name: Chicken biryani
+    photo: arroces/biryani-de-pollo.jpg
     category: Rice
     difficulty: HARD
     prep: 40
@@ -564,6 +577,7 @@ recipes:
       - Rest for 5 minutes and mix gently as you serve.
 
   - name: Pumpkin risotto
+    photo: arroces/risotto-de-calabaza.jpg
     category: Rice
     difficulty: MEDIUM
     prep: 15
@@ -593,6 +607,7 @@ recipes:
       - Off the heat, add the rest of the butter and the Parmesan and stir vigorously. Season and serve with sage fried in butter.
 
   - name: Arroz con gandules
+    photo: arroces/arroz-con-gandules.jpg
     category: Rice
     difficulty: MEDIUM
     prep: 15
@@ -623,6 +638,7 @@ recipes:
       - Stir once, cover and cook over the lowest heat for 20-25 minutes, until the rice is done and the crust (pegao) forms at the bottom.
 
   - name: Jollof rice
+    photo: arroces/arroz-jollof.jpg
     category: Rice
     difficulty: MEDIUM
     prep: 20

@@ -15,8 +15,8 @@ Cada pack está en español y en inglés; la app muestra los del idioma en que l
 | 🍟 [Air fryer](packs/air-fryer/pack.yaml) | Kitchen appliances | en | 20 | [air-fryer-v1.zip](dist/air-fryer-v1.zip) |
 | 🥣 [Thermomix: cremas y purés](packs/thermomix-cremas-y-pures/pack.yaml) | Electrodomésticos | es | 20 | [thermomix-cremas-y-pures-v1.zip](dist/thermomix-cremas-y-pures-v1.zip) |
 | 🥣 [Thermomix: soups and purées](packs/thermomix-soups-and-purees/pack.yaml) | Kitchen appliances | en | 20 | [thermomix-soups-and-purees-v1.zip](dist/thermomix-soups-and-purees-v1.zip) |
-| 🍚 [Arroces](packs/arroces/pack.yaml) | Cocina de cada día | es | 20 | [arroces-v1.zip](dist/arroces-v1.zip) |
-| 🍚 [Rice dishes](packs/rice-dishes/pack.yaml) | Everyday cooking | en | 20 | [rice-dishes-v1.zip](dist/rice-dishes-v1.zip) |
+| 🍚 [Arroces](packs/arroces/pack.yaml) | Cocina de cada día | es | 20 | [arroces-v2.zip](dist/arroces-v2.zip) |
+| 🍚 [Rice dishes](packs/rice-dishes/pack.yaml) | Everyday cooking | en | 20 | [rice-dishes-v2.zip](dist/rice-dishes-v2.zip) |
 | 🥖 [Panadería](packs/panaderia/pack.yaml) | Cocina de cada día | es | 20 | [panaderia-v1.zip](dist/panaderia-v1.zip) |
 | 🥖 [Bakery](packs/bakery/pack.yaml) | Everyday cooking | en | 20 | [bakery-v1.zip](dist/bakery-v1.zip) |
 | 🍤 [Tapas españolas](packs/tapas-espanolas/pack.yaml) | Especiales | es | 20 | [tapas-espanolas-v3.zip](dist/tapas-espanolas-v3.zip) |

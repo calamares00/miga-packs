@@ -1,6 +1,6 @@
 id: arroces
-version: 1
-updated: 2026-10-31
+version: 2
+updated: 2026-11-05
 language: es
 name: Arroces
 series: Cocina de cada día
@@ -20,6 +20,7 @@ defaults:
 recipes:
 
   - name: Paella de marisco
+    photo: arroces/paella-de-marisco.jpg
     category: Arroces
     difficulty: MEDIUM
     prep: 20
@@ -54,6 +55,7 @@ recipes:
       - Sube el fuego 1 minuto al final para el socarrat. Deja que repose 5 minutos tapada con un paño.
 
   - name: Paella mixta
+    photo: arroces/paella-mixta.jpg
     category: Arroces
     difficulty: MEDIUM
     prep: 20
@@ -89,6 +91,7 @@ recipes:
       - Deja que repose 5 minutos antes de servir.
 
   - name: Paella de verduras
+    photo: arroces/paella-de-verduras.jpg
     category: Arroces
     difficulty: MEDIUM
     prep: 20
@@ -123,6 +126,7 @@ recipes:
       - Deja que repose 5 minutos tapada con un paño.
 
   - name: Arroz del señoret
+    photo: arroces/arroz-del-senoret.jpg
     category: Arroces
     difficulty: MEDIUM
     prep: 25
@@ -157,6 +161,7 @@ recipes:
       - Deja que repose 5 minutos y sirve con alioli.
 
   - name: Arroz a banda
+    photo: arroces/arroz-a-banda.jpg
     category: Arroces
     difficulty: MEDIUM
     prep: 30
@@ -198,6 +203,7 @@ recipes:
           - Sirve con alioli y, si quieres, el pescado del caldo aparte.
 
   - name: Arroz con conejo y caracoles
+    photo: arroces/arroz-con-conejo-y-caracoles.jpg
     category: Arroces
     difficulty: MEDIUM
     prep: 20
@@ -229,6 +235,7 @@ recipes:
       - Deja que repose 5 minutos.
 
   - name: Arroz con costra
+    photo: arroces/arroz-con-costra.jpg
     category: Arroces
     difficulty: MEDIUM
     prep: 20
@@ -261,6 +268,7 @@ recipes:
       - Hornea 8-10 minutos, hasta que el huevo forme una costra dorada. Deja que repose 5 minutos.
 
   - name: Arroz caldoso de bogavante
+    photo: arroces/arroz-caldoso-de-bogavante.jpg
     category: Arroces
     difficulty: MEDIUM
     prep: 20
@@ -381,6 +389,7 @@ recipes:
       - Cuece 8 minutos a fuego fuerte y 10 a fuego suave, sin remover. Deja que repose 5 minutos.
 
   - name: Arroz empedrado
+    photo: arroces/arroz-empedrado.jpg
     category: Arroces
     difficulty: EASY
     prep: 15
@@ -441,6 +450,7 @@ recipes:
       - Cuece 8 minutos a fuego fuerte y 9-10 a fuego suave, sin remover. Deja que repose 5 minutos.
 
   - name: Arroz a la cubana
+    photo: arroces/arroz-a-la-cubana.jpg
     category: Arroces
     difficulty: EASY
     prep: 10
@@ -471,6 +481,7 @@ recipes:
       - Sirve el arroz en un cuenco desmoldado en el plato, con el tomate caliente, el huevo frito y el plátano.
 
   - name: Gallo pinto
+    photo: arroces/gallo-pinto.jpg
     category: Arroces
     difficulty: EASY
     prep: 10
@@ -498,6 +509,7 @@ recipes:
       - Ajusta de sal, añade el cilantro y sirve con huevos, plátano frito o natilla (nata agria).
 
   - name: Arroz pilaf
+    photo: arroces/arroz-pilaf.jpg
     category: Arroces
     difficulty: EASY
     prep: 5
@@ -521,6 +533,7 @@ recipes:
       - Tapa y cuece a fuego muy suave 15 minutos. Apaga el fuego, cubre con un paño bajo la tapa y deja que repose 10 minutos.
 
   - name: Biryani de pollo
+    photo: arroces/biryani-de-pollo.jpg
     category: Arroces
     difficulty: HARD
     prep: 40
@@ -563,6 +576,7 @@ recipes:
       - Deja que repose 5 minutos y mezcla con cuidado al servir.
 
   - name: Risotto de calabaza
+    photo: arroces/risotto-de-calabaza.jpg
     category: Arroces
     difficulty: MEDIUM
     prep: 15
@@ -592,6 +606,7 @@ recipes:
       - Fuera del fuego, añade el resto de la mantequilla y el parmesano y remueve con energía. Salpimienta y sirve con salvia frita en mantequilla.
 
   - name: Arroz con gandules
+    photo: arroces/arroz-con-gandules.jpg
     category: Arroces
     difficulty: MEDIUM
     prep: 15
@@ -622,6 +637,7 @@ recipes:
       - Remueve una vez, tapa y cuece a fuego mínimo 20-25 minutos, hasta que el arroz esté hecho y se forme el pegao en el fondo.
 
   - name: Arroz jollof
+    photo: arroces/arroz-jollof.jpg
     category: Arroces
     difficulty: MEDIUM
     prep: 20

@@ -1,0 +1,98 @@
+# Origin of every photo in this folder: source page, author and licence (CC0 1.0, Public domain,
+# CC BY x.y or CC BY-SA x.y). tools/build.py refuses a recipe photo without an entry here.
+
+spanakopita.jpg:
+  source: https://commons.wikimedia.org/wiki/File:Spanakopita.jpg
+  author: "Alpha"
+  license: CC BY-SA 2.0
+
+pastitsio.jpg:
+  source: https://commons.wikimedia.org/wiki/File:Greek_pastitsio.jpg
+  author: "Katrin Morenz from Aachen, Deutschland"
+  license: CC BY-SA 2.0
+
+gemista.jpg:
+  source: https://commons.wikimedia.org/wiki/File:Gemista.jpg
+  author: "Photo and cooking: Badseed"
+  license: CC BY-SA 3.0
+
+fasolada.jpg:
+  source: https://commons.wikimedia.org/wiki/File:Fasolada,_2006.jpg
+  author: "Gordon Joly"
+  license: CC BY-SA 2.0
+
+sopa-avgolemono.jpg:
+  source: https://commons.wikimedia.org/wiki/File:Avgolemono_soup.jpg
+  author: "robin.norwood"
+  license: CC BY-SA 2.0
+
+dolmades.jpg:
+  source: https://commons.wikimedia.org/wiki/File:Dolmades_Kurdish_and_Greek_-_Dec_2018.jpg
+  author: "Sina.ahm"
+  license: CC BY-SA 4.0
+
+keftedes.jpg:
+  source: https://commons.wikimedia.org/wiki/File:Tomato_keftedes.jpg
+  author: "ArticCynda"
+  license: CC BY-SA 4.0
+
+briam.jpg:
+  source: https://commons.wikimedia.org/wiki/File:Ratatouille_001.jpg
+  author: "Arnaud 25"
+  license: CC BY-SA 4.0
+
+kleftiko.jpg:
+  source: https://commons.wikimedia.org/wiki/File:Kleftiko.JPG
+  author: "Lord Mountbatten"
+  license: CC BY-SA 3.0
+
+queso-saganaki.jpg:
+  source: https://commons.wikimedia.org/wiki/File:Grekiska_koket_02.jpg
+  author: "Scouten"
+  license: CC BY-SA 3.0
+
+gambas-saganaki.jpg:
+  source: https://commons.wikimedia.org/wiki/File:Athenian_Prawn_Saganaki.jpg
+  author: "Kivotoswinebar"
+  license: CC BY-SA 4.0
+
+gigantes-plaki.jpg:
+  source: https://commons.wikimedia.org/wiki/File:Gigandes_plaki.jpg
+  author: "Hevesli"
+  license: Public domain
+
+taramosalata.jpg:
+  source: https://commons.wikimedia.org/wiki/File:Taramosalata01.jpg
+  author: "Robert Kindermann"
+  license: CC BY-SA 2.5
+
+melitzanosalata.jpg:
+  source: https://commons.wikimedia.org/wiki/File:Baba_Ghanoush.jpg
+  author: "Basel15 at English Wikipedia"
+  license: Public domain
+
+spanakorizo.jpg:
+  source: https://commons.wikimedia.org/wiki/File:%CE%A3%CF%80%CE%B1%CE%BD%CE%B1%CE%BA%CF%8C%CF%81%CF%85%CE%B6%CE%BF_Spanakorizo_(Las_Siete_Orillas_project)_(2).jpg
+  author: "El Mono Español"
+  license: CC BY-SA 4.0
+
+loukoumades.jpg:
+  source: https://commons.wikimedia.org/wiki/File:Lokma_Galata_Bridge.JPG
+  author: "Benreis"
+  license: CC BY 3.0
+
+baklava.jpg:
+  source: https://commons.wikimedia.org/wiki/File:Baklava_-_Turkish_special,_80-ply.JPEG
+  author: "Kultigin"
+  license: Public domain
+
+souvlaki-de-cerdo-con-pita.jpg:
+  source: https://commons.wikimedia.org/wiki/File:Souvlaki_in_Athens.JPG
+  author: "Miyagawa"
+  license: CC BY-SA 4.0
+
+stifado-de-ternera.jpg:
+  source: https://commons.wikimedia.org/wiki/File:20240503_Stifado_Restaurant_MeGusto_anagoria.jpg
+  author: "Anagoria"
+  license: CC BY-SA 4.0
+

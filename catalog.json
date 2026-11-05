@@ -9,9 +9,9 @@
       "authorGithub": "calamares00",
       "description": "Home-made dinners on the table in 20 minutes or less, with ingredients from any supermarket: omelettes, scrambled eggs, pasta, griddled fish, chicken stir-fry, vegetable soups, hearty salads and quick pizzas. For the days when you don't feel like a fuss.",
       "coverImageUrl": "packs/20-minute-dinners/cover.jpg",
-      "latestVersion": 1,
+      "latestVersion": 2,
       "recipeCount": 20,
-      "downloadUrl": "dist/20-minute-dinners-v1.zip",
+      "downloadUrl": "dist/20-minute-dinners-v2.zip",
       "language": "en"
     },
     {
@@ -87,9 +87,9 @@
       "authorGithub": "calamares00",
       "description": "Cenas caseras que están en la mesa en 20 minutos o menos, con ingredientes de cualquier supermercado: tortillas, revueltos, pasta, pescado a la plancha, wok de pollo, cremas de verduras, ensaladas completas y pizzas exprés. Para los días en que no apetece complicarse.",
       "coverImageUrl": "packs/cenas-en-20-minutos/cover.jpg",
-      "latestVersion": 1,
+      "latestVersion": 2,
       "recipeCount": 20,
-      "downloadUrl": "dist/cenas-en-20-minutos-v1.zip",
+      "downloadUrl": "dist/cenas-en-20-minutos-v2.zip",
       "language": "es"
     },
     {

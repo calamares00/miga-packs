@@ -35,9 +35,9 @@
       "authorGithub": "calamares00",
       "description": "American home cooking, from the South to New England: mac and cheese, pulled pork, fried chicken, clam chowder, chili, cornbread, pancakes, meatloaf, jambalaya, gumbo, coleslaw, apple pie, chocolate chip cookies, New York cheesecake, cheesesteak, Cobb salad and key lime pie. With measurements in grams.",
       "coverImageUrl": "packs/american-cooking/cover.jpg",
-      "latestVersion": 1,
+      "latestVersion": 2,
       "recipeCount": 20,
-      "downloadUrl": "dist/american-cooking-v1.zip",
+      "downloadUrl": "dist/american-cooking-v2.zip",
       "language": "en"
     },
     {
@@ -191,9 +191,9 @@
       "authorGithub": "calamares00",
       "description": "La cocina casera de Estados Unidos, del sur a Nueva Inglaterra: macarrones con queso, cerdo desmenuzado, pollo frito, sopa de almejas, chili, pan de maíz, tortitas, pastel de carne, jambalaya, gumbo, ensalada de col, tarta de manzana, galletas con pepitas de chocolate, tarta de queso de Nueva York, cheesesteak, ensalada Cobb y tarta de lima. Con medidas en gramos.",
       "coverImageUrl": "packs/cocina-estadounidense/cover.jpg",
-      "latestVersion": 1,
+      "latestVersion": 2,
       "recipeCount": 20,
-      "downloadUrl": "dist/cocina-estadounidense-v1.zip",
+      "downloadUrl": "dist/cocina-estadounidense-v2.zip",
       "language": "es"
     },
     {

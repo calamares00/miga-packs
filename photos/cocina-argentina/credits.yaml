@@ -1,0 +1,93 @@
+# Origin of every photo in this folder: source page, author and licence (CC0 1.0, Public domain,
+# CC BY x.y or CC BY-SA x.y). tools/build.py refuses a recipe photo without an entry here.
+
+tira-de-asado.jpg:
+  source: https://commons.wikimedia.org/wiki/File:Asado_a.jpg
+  author: "Maxd2"
+  license: CC0 1.0
+
+chimichurri.jpg:
+  source: https://commons.wikimedia.org/wiki/File:Chimichurri_Sauce_Recipe_(13294574784).jpg
+  author: "Dominic Lockyer"
+  license: CC BY 2.0
+
+salsa-criolla.jpg:
+  source: https://commons.wikimedia.org/wiki/File:Salsa_criolla.jpg
+  author: "No machine-readable author provided. Manuel González Olaechea assumed (based on copyright claims)."
+  license: CC BY 3.0
+
+choripan.jpg:
+  source: https://commons.wikimedia.org/wiki/File:Argentine_Chorip%C3%A1n_(61087).jpg
+  author: "Horacio Cambeiro"
+  license: CC BY 3.0
+
+provoleta.jpg:
+  source: https://commons.wikimedia.org/wiki/File:Provoleta_con_cazuela_(porci%C3%B3n).jpg
+  author: "Horacio Cambeiro"
+  license: CC BY 3.0
+
+empanadas-criollas-de-carne.jpg:
+  source: https://commons.wikimedia.org/wiki/File:Empanadas_criollas_de_carne_fritas,_de_elaboraci%C3%B3n_casera.jpg
+  author: "Horacio Cambeiro"
+  license: CC BY-SA 3.0
+
+milanesa-a-la-napolitana.jpg:
+  source: https://commons.wikimedia.org/wiki/File:Milanesa_napolitana_argentina_con_arroz.jpg
+  author: "Horacio Cambeiro"
+  license: CC BY-SA 4.0
+
+locro.jpg:
+  source: https://commons.wikimedia.org/wiki/File:Locro_argentino,_plato_tradicional.jpg
+  author: "Horacio Cambeiro"
+  license: CC BY-SA 3.0
+
+matambre-arrollado.jpg:
+  source: https://commons.wikimedia.org/wiki/File:Matambre_Arrollado_08.jpg
+  author: "Claudio Javier Bentancour"
+  license: CC BY-SA 4.0
+
+noquis-con-tuco.jpg:
+  source: https://commons.wikimedia.org/wiki/File:Tradici%C3%B3n_argentina_de_los_%22%C3%B1oquis_del_29%22.jpg
+  author: "Horacio Cambeiro"
+  license: CC BY-SA 3.0
+
+pastel-de-papa.jpg:
+  source: https://commons.wikimedia.org/wiki/File:Pastel_de_Papas.jpg
+  author: "Marco Antonio Correa Flores"
+  license: CC BY-SA 4.0
+
+revuelto-gramajo.jpg:
+  source: https://commons.wikimedia.org/wiki/File:Revuelto_gramajo.jpg
+  author: "Neo139"
+  license: CC0 1.0
+
+dulce-de-leche-casero.jpg:
+  source: https://commons.wikimedia.org/wiki/File:S%C3%BCt_re%C3%A7eli_(or_Dulce_de_leche).jpg
+  author: "E4024"
+  license: CC BY-SA 4.0
+
+alfajores-de-maicena.jpg:
+  source: https://commons.wikimedia.org/wiki/File:Alfajores-de-maicena-biscuits-recipe.jpg
+  author: "Sara McCleary"
+  license: CC BY-SA 4.0
+
+pastafrola.jpg:
+  source: https://commons.wikimedia.org/wiki/File:Pastafrolas_artesanales_argentinas_(Argentina).jpg
+  author: "Horacio Cambeiro"
+  license: CC BY-SA 3.0
+
+tortas-fritas.jpg:
+  source: https://commons.wikimedia.org/wiki/File:Tortas_fritas_de_Argentina.jpg
+  author: "Horacio Cambeiro"
+  license: CC BY 3.0
+
+chipa.jpg:
+  source: https://commons.wikimedia.org/wiki/File:Chipa_Paraguay.jpg
+  author: "Ekem at English Wikipedia"
+  license: CC BY-SA 3.0
+
+carbonada-criolla.jpg:
+  source: https://commons.wikimedia.org/wiki/File:Carbonada.JPG
+  author: "Marco Antonio Correa Flores"
+  license: CC BY-SA 4.0
+

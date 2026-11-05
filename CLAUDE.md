@@ -21,10 +21,13 @@ Recipe books that the Miga app installs from **Settings › Recipe packs**. See 
   "Electrodomésticos" / "Kitchen appliances", "Especiales" / "Specials". Reuse an existing series
   before creating a new one; both languages of a pack belong to the matching series.
 - Covers carry no recipe count. Redraw them with `node tools/render_covers.mjs`.
-- Recipe photos: real photos of the dish, **public domain or CC0 only** (no CC BY / BY-SA), in
-  `photos/<topic>/<dish>.jpg`, 4:3 at 1280x960, JPEG without EXIF, each with its source, author and
-  licence in `photos/credits.yaml` (the build refuses anything else). Look at a photo before using
-  it: the file name is not enough. Both languages of a pack point to the same file.
+- Recipe photos: real photos of the dish, in `photos/<topic>/<dish>.jpg` (the topic is the Spanish
+  pack id, or `tapas`), 4:3 at 1280x960, JPEG without EXIF, each with its source, author and
+  licence in `photos/<topic>/credits.yaml`. Licences: prefer CC0 / Public domain, then CC BY, then
+  CC BY-SA (x.y = 2.0, 2.5, 3.0 or 4.0, unported); never NC, ND or GFDL-only. For CC BY / BY-SA
+  the build appends the attribution to the recipe notes. Look at a photo before using it: the file
+  name is not enough. Both languages of a pack point to the same file. One pull request per pack
+  pair.
 - Country packs form the "Cocina del mundo: <país>" / "World cuisine: <country>" series, with
   `kicker` on the cover. Recipes must be real, traditional dishes (no inventions) and must not
   repeat a dish already in another pack of the same language.

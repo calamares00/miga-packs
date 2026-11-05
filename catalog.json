@@ -22,9 +22,9 @@
       "authorGithub": "calamares00",
       "description": "Recipes made for the air fryer: chips, wings, home-made nuggets, breaded fish, crispy vegetables, meatballs, burgers, ribs and even desserts. With very little oil and the time and temperature for each dish. Times are a guide: every model heats differently.",
       "coverImageUrl": "packs/air-fryer/cover.jpg",
-      "latestVersion": 1,
+      "latestVersion": 2,
       "recipeCount": 20,
-      "downloadUrl": "dist/air-fryer-v1.zip",
+      "downloadUrl": "dist/air-fryer-v2.zip",
       "language": "en"
     },
     {
@@ -74,9 +74,9 @@
       "authorGithub": "calamares00",
       "description": "Bread and pastries to make at home, from sourdough starter to madeleines: sourdough loaf, baguette, sandwich loaf, wholemeal, rye, chapata, walnut and raisin bread, pitta, naan, bagels, burger buns, milk rolls, brioche, croissants, pains au chocolat, ensaïmadas, tortas de aceite, Spanish magdalenas and anise rosquillas. With exact weights and proving times.",
       "coverImageUrl": "packs/bakery/cover.jpg",
-      "latestVersion": 1,
+      "latestVersion": 2,
       "recipeCount": 20,
-      "downloadUrl": "dist/bakery-v1.zip",
+      "downloadUrl": "dist/bakery-v2.zip",
       "language": "en"
     },
     {
@@ -256,9 +256,9 @@
       "authorGithub": "calamares00",
       "description": "Recetas de las orillas del Mediterráneo: España, Italia, Grecia, Líbano, Marruecos y Túnez. Gazpacho, paella, tortilla, musaka, hummus, falafel, shakshuka, risotto, tajín y más, con aceite de oliva, verduras de temporada y legumbres.",
       "coverImageUrl": "packs/cocina-mediterranea/cover.jpg",
-      "latestVersion": 1,
+      "latestVersion": 2,
       "recipeCount": 20,
-      "downloadUrl": "dist/cocina-mediterranea-v1.zip",
+      "downloadUrl": "dist/cocina-mediterranea-v2.zip",
       "language": "es"
     },
     {
@@ -347,9 +347,9 @@
       "authorGithub": "calamares00",
       "description": "Recetas pensadas para la freidora de aire: patatas, alitas, nuggets caseros, pescado rebozado, verduras crujientes, albóndigas, hamburguesas, costillas y hasta postres. Con muy poco aceite y los tiempos y temperaturas de cada plato. Los tiempos son orientativos: cada modelo calienta de forma distinta.",
       "coverImageUrl": "packs/freidora-de-aire/cover.jpg",
-      "latestVersion": 1,
+      "latestVersion": 2,
       "recipeCount": 20,
-      "downloadUrl": "dist/freidora-de-aire-v1.zip",
+      "downloadUrl": "dist/freidora-de-aire-v2.zip",
       "language": "es"
     },
     {
@@ -425,9 +425,9 @@
       "authorGithub": "calamares00",
       "description": "Recipes from around the Mediterranean: Spain, Italy, Greece, Lebanon, Morocco and Tunisia. Gazpacho, paella, Spanish omelette, moussaka, hummus, falafel, shakshuka, risotto, tagine and more, with olive oil, seasonal vegetables and pulses.",
       "coverImageUrl": "packs/mediterranean-cooking/cover.jpg",
-      "latestVersion": 1,
+      "latestVersion": 2,
       "recipeCount": 20,
-      "downloadUrl": "dist/mediterranean-cooking-v1.zip",
+      "downloadUrl": "dist/mediterranean-cooking-v2.zip",
       "language": "en"
     },
     {
@@ -451,9 +451,9 @@
       "authorGithub": "calamares00",
       "description": "Panes y bollería para hacer en casa, de la masa madre a las magdalenas: hogaza de masa madre, barra, pan de molde, integral, de centeno, chapata, pan de nueces y pasas, pita, naan, bagels, panecillos de hamburguesa, bollos de leche, brioche, cruasanes, napolitanas de chocolate, ensaimadas, tortas de aceite, magdalenas y rosquillas de anís. Con pesos exactos y tiempos de levado.",
       "coverImageUrl": "packs/panaderia/cover.jpg",
-      "latestVersion": 1,
+      "latestVersion": 2,
       "recipeCount": 20,
-      "downloadUrl": "dist/panaderia-v1.zip",
+      "downloadUrl": "dist/panaderia-v2.zip",
       "language": "es"
     },
     {
@@ -542,9 +542,9 @@
       "authorGithub": "calamares00",
       "description": "Cremas y purés programados para Thermomix TM6 (vaso de 2,2 litros), que funcionan igual en TM5 y TM7. Calabaza, verduras, vichyssoise, champiñones, zanahoria con jengibre, brócoli, espárragos, guisantes con menta, tomate, lentejas rojas, coliflor, espinacas, boniato, alcachofas, pimientos asados, castañas, apio nabo, alubias, remolacha y puré de patatas. En TM31 (vaso de 2 litros y 100 °C como máximo), sofríe a temperatura Varoma.",
       "coverImageUrl": "packs/thermomix-cremas-y-pures/cover.jpg",
-      "latestVersion": 1,
+      "latestVersion": 2,
       "recipeCount": 20,
-      "downloadUrl": "dist/thermomix-cremas-y-pures-v1.zip",
+      "downloadUrl": "dist/thermomix-cremas-y-pures-v2.zip",
       "language": "es"
     },
     {
@@ -555,9 +555,9 @@
       "authorGithub": "calamares00",
       "description": "Smooth soups and purées programmed for the Thermomix TM6 (2.2 litre bowl), which work just the same on the TM5 and TM7. Pumpkin, mixed vegetable, vichyssoise, mushroom, carrot and ginger, broccoli, asparagus, pea and mint, tomato, red lentil, cauliflower, spinach, sweet potato, artichoke, roasted pepper, chestnut, celeriac, white bean, beetroot and mashed potato. On a TM31 (2 litre bowl, 100 °C maximum), fry at Varoma temperature.",
       "coverImageUrl": "packs/thermomix-soups-and-purees/cover.jpg",
-      "latestVersion": 1,
+      "latestVersion": 2,
       "recipeCount": 20,
-      "downloadUrl": "dist/thermomix-soups-and-purees-v1.zip",
+      "downloadUrl": "dist/thermomix-soups-and-purees-v2.zip",
       "language": "en"
     },
     {

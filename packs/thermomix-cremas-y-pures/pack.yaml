@@ -1,6 +1,6 @@
 id: thermomix-cremas-y-pures
-version: 1
-updated: 2026-10-31
+version: 2
+updated: 2026-11-05
 language: es
 name: "Thermomix: cremas y purés"
 series: Electrodomésticos
@@ -22,6 +22,7 @@ defaults:
 recipes:
 
   - name: Crema de calabaza
+    photo: thermomix-cremas-y-pures/crema-de-calabaza.jpg
     category: Sopas y cremas
     difficulty: EASY
     prep: 10
@@ -49,6 +50,7 @@ recipes:
       - Añade la nata y tritura 1 min/vel 5-10, subiendo la velocidad progresivamente. Ajusta de sal.
 
   - name: Crema de verduras
+    photo: thermomix-cremas-y-pures/crema-de-verduras.jpg
     category: Sopas y cremas
     difficulty: EASY
     prep: 10
@@ -76,6 +78,7 @@ recipes:
       - Tritura 1 min/vel 5-10 progresivamente y ajusta de sal.
 
   - name: Puré de patatas
+    photo: thermomix-cremas-y-pures/pure-de-patatas.jpg
     category: Verduras
     difficulty: EASY
     prep: 10
@@ -98,6 +101,7 @@ recipes:
       - Añade la mantequilla y la nuez moscada y mezcla 20 seg/vel 3,5. Quita la mariposa y sirve.
 
   - name: Vichyssoise
+    photo: thermomix-cremas-y-pures/vichyssoise.jpg
     category: Sopas y cremas
     difficulty: EASY
     prep: 10
@@ -125,6 +129,7 @@ recipes:
       - Enfría en la nevera al menos 3 horas y sirve con cebollino.
 
   - name: Crema de champiñones
+    photo: thermomix-cremas-y-pures/crema-de-champinones.jpg
     category: Sopas y cremas
     difficulty: EASY
     prep: 10
@@ -153,6 +158,7 @@ recipes:
       - Añade la nata y tritura 1 min/vel 5-10 progresivamente.
 
   - name: Crema de zanahoria y jengibre
+    photo: thermomix-cremas-y-pures/crema-de-zanahoria-y-jengibre.jpg
     category: Sopas y cremas
     difficulty: EASY
     prep: 10
@@ -179,6 +185,7 @@ recipes:
       - Añade el zumo de naranja y tritura 1 min/vel 5-10 progresivamente.
 
   - name: Crema de brócoli
+    photo: thermomix-cremas-y-pures/crema-de-brocoli.jpg
     category: Sopas y cremas
     difficulty: EASY
     prep: 10
@@ -203,6 +210,7 @@ recipes:
       - Añade los quesitos y tritura 1 min/vel 5-10 progresivamente.
 
   - name: Crema de espárragos blancos
+    photo: thermomix-cremas-y-pures/crema-de-esparragos-blancos.jpg
     category: Sopas y cremas
     difficulty: EASY
     prep: 10
@@ -228,6 +236,7 @@ recipes:
       - Añade la nata y tritura 1 min/vel 5-10 progresivamente. Sirve con los espárragos reservados en rodajas.
 
   - name: Crema de guisantes y menta
+    photo: thermomix-cremas-y-pures/crema-de-guisantes-y-menta.jpg
     category: Sopas y cremas
     difficulty: EASY
     prep: 5
@@ -252,6 +261,7 @@ recipes:
       - Añade la menta y la nata y tritura 1 min/vel 5-10 progresivamente. Cuela si la quieres muy fina.
 
   - name: Crema de tomate
+    photo: thermomix-cremas-y-pures/crema-de-tomate.jpg
     category: Sopas y cremas
     difficulty: EASY
     prep: 10
@@ -278,6 +288,7 @@ recipes:
       - Añade la albahaca y tritura 1 min/vel 5-10 progresivamente.
 
   - name: Crema de lentejas rojas
+    photo: thermomix-cremas-y-pures/crema-de-lentejas-rojas.jpg
     category: Legumbres
     difficulty: EASY
     prep: 5
@@ -305,6 +316,7 @@ recipes:
       - Añade el zumo de limón y tritura 40 seg/vel 5-10 progresivamente.
 
   - name: Crema de coliflor
+    photo: thermomix-cremas-y-pures/crema-de-coliflor.jpg
     category: Sopas y cremas
     difficulty: EASY
     prep: 10
@@ -330,6 +342,7 @@ recipes:
       - Añade la leche y la nuez moscada y tritura 1 min/vel 5-10 progresivamente.
 
   - name: Crema de espinacas
+    photo: thermomix-cremas-y-pures/crema-de-espinacas.jpg
     category: Sopas y cremas
     difficulty: EASY
     prep: 5
@@ -383,6 +396,7 @@ recipes:
       - Tritura 1 min/vel 5-10 progresivamente y sirve con pimentón ahumado.
 
   - name: Crema de alcachofas
+    photo: thermomix-cremas-y-pures/crema-de-alcachofas.jpg
     category: Sopas y cremas
     difficulty: EASY
     prep: 20
@@ -408,6 +422,7 @@ recipes:
       - Tritura 1 min/vel 5-10 progresivamente. Cuela si la quieres muy fina.
 
   - name: Crema de pimientos rojos asados
+    photo: thermomix-cremas-y-pures/crema-de-pimientos-rojos-asados.jpg
     category: Sopas y cremas
     difficulty: EASY
     prep: 10
@@ -433,6 +448,7 @@ recipes:
       - Tritura 1 min/vel 5-10 progresivamente.
 
   - name: Crema de castañas
+    photo: thermomix-cremas-y-pures/crema-de-castanas.jpg
     category: Sopas y cremas
     difficulty: EASY
     prep: 10
@@ -459,6 +475,7 @@ recipes:
       - Añade la nata y tritura 1 min/vel 5-10 progresivamente.
 
   - name: Crema de apio nabo
+    photo: thermomix-cremas-y-pures/crema-de-apio-nabo.jpg
     category: Sopas y cremas
     difficulty: EASY
     prep: 15
@@ -509,6 +526,7 @@ recipes:
       - Tritura 1 min/vel 5-10 progresivamente y sirve con un hilo de aceite.
 
   - name: Crema de remolacha
+    photo: thermomix-cremas-y-pures/crema-de-remolacha.jpg
     category: Sopas y cremas
     difficulty: EASY
     prep: 10

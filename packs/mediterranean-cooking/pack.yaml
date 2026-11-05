@@ -1,6 +1,6 @@
 id: mediterranean-cooking
-version: 1
-updated: 2026-10-30
+version: 2
+updated: 2026-11-05
 language: en
 name: Mediterranean cooking
 series: World cuisine
@@ -19,6 +19,7 @@ defaults:
 recipes:
 
   - name: Andalusian gazpacho
+    photo: cocina-mediterranea/gazpacho-andaluz.jpg
     category: Soups
     difficulty: EASY
     prep: 15
@@ -47,6 +48,7 @@ recipes:
       - Serve with diced cucumber, pepper and croutons.
 
   - name: Salmorejo
+    photo: cocina-mediterranea/salmorejo-cordobes.jpg
     category: Soups
     difficulty: EASY
     prep: 15
@@ -73,6 +75,7 @@ recipes:
       - Chill and serve with the egg, the ham and a drizzle of oil.
 
   - name: Valencian paella
+    photo: cocina-mediterranea/paella-valenciana.jpg
     category: Rice
     difficulty: HARD
     prep: 20
@@ -105,6 +108,7 @@ recipes:
       - Turn up the heat for the last minute for the socarrat crust and rest for 5 minutes under a cloth.
 
   - name: Spanish omelette
+    photo: cocina-mediterranea/tortilla-de-patatas.jpg
     category: Eggs
     difficulty: MEDIUM
     prep: 15
@@ -128,6 +132,7 @@ recipes:
       - Flip it with a plate and cook 2 more minutes on the other side. Best left juicy inside.
 
   - name: Pisto
+    photo: cocina-mediterranea/pisto-manchego.jpg
     category: Vegetables
     difficulty: EASY
     prep: 20
@@ -155,6 +160,7 @@ recipes:
       - Serve with a fried egg on top.
 
   - name: Greek salad
+    photo: cocina-mediterranea/ensalada-griega.jpg
     category: Salads
     difficulty: EASY
     prep: 15
@@ -182,6 +188,7 @@ recipes:
       - Dress with the oil and vinegar just before serving.
 
   - name: Tzatziki
+    photo: cocina-mediterranea/tzatziki.jpg
     category: Sauces
     difficulty: EASY
     prep: 15
@@ -205,6 +212,7 @@ recipes:
       - Check the salt and chill for 30 minutes. Serve with pitta bread.
 
   - name: Moussaka
+    photo: cocina-mediterranea/musaka.jpg
     category: Meat
     difficulty: HARD
     prep: 40
@@ -250,6 +258,7 @@ recipes:
           - Bake at 180 °C for 45 minutes, until golden. Rest for 20 minutes before cutting.
 
   - name: Hummus
+    photo: cocina-mediterranea/hummus.jpg
     category: Legumes
     difficulty: EASY
     prep: 10
@@ -276,6 +285,7 @@ recipes:
       - Serve with a drizzle of oil, paprika and pitta bread.
 
   - name: Tabbouleh
+    photo: cocina-mediterranea/tabule.jpg
     category: Salads
     difficulty: EASY
     prep: 25
@@ -302,6 +312,7 @@ recipes:
       - Mix everything with the lemon, oil and salt just before serving.
 
   - name: Falafel
+    photo: cocina-mediterranea/falafel.jpg
     category: Legumes
     difficulty: MEDIUM
     prep: 20
@@ -331,6 +342,7 @@ recipes:
       - Serve in pitta bread with salad and tahini sauce or tzatziki.
 
   - name: Shakshuka
+    photo: cocina-mediterranea/shakshuka.jpg
     category: Eggs
     difficulty: EASY
     prep: 10
@@ -360,6 +372,7 @@ recipes:
       - Serve with coriander and bread for dipping.
 
   - name: Vegetable couscous
+    photo: cocina-mediterranea/cuscus-de-verduras.jpg
     category: Vegetables
     difficulty: MEDIUM
     prep: 20
@@ -395,6 +408,7 @@ recipes:
       - Serve the couscous with the vegetables and broth on top, and the raisins if you like.
 
   - name: Chicken tagine with lemon and olives
+    photo: cocina-mediterranea/tajin-de-pollo-con-limon-y-aceitunas.jpg
     category: Meat
     difficulty: MEDIUM
     prep: 15
@@ -425,6 +439,7 @@ recipes:
       - Add the preserved lemon peel in strips and the olives and cook 10 more minutes, until the sauce thickens.
 
   - name: Pasta with Genovese pesto
+    photo: cocina-mediterranea/pasta-al-pesto-genoves.jpg
     category: Pasta
     difficulty: EASY
     prep: 10
@@ -456,6 +471,7 @@ recipes:
       - Toss the pasta with the pesto off the heat, loosening it with a little of the reserved water.
 
   - name: Mushroom risotto
+    photo: cocina-mediterranea/risotto-de-setas.jpg
     category: Rice
     difficulty: MEDIUM
     prep: 15
@@ -485,6 +501,7 @@ recipes:
       - Stir in the mushrooms, take off the heat and beat in the rest of the butter and the Parmesan. Rest 2 minutes and serve with parsley.
 
   - name: Caprese salad
+    photo: cocina-mediterranea/ensalada-caprese.jpg
     category: Salads
     difficulty: EASY
     prep: 10
@@ -534,6 +551,7 @@ recipes:
       - Fry the sliced garlic in the rest of the oil, add the parsley and pour it over the fish to serve.
 
   - name: Garlic prawns
+    photo: cocina-mediterranea/gambas-al-ajillo.jpg
     category: Fish and seafood
     difficulty: EASY
     prep: 10
@@ -557,6 +575,7 @@ recipes:
       - Sprinkle with parsley and serve sizzling with bread.
 
   - name: Crema catalana
+    photo: cocina-mediterranea/crema-catalana.jpg
     category: Desserts
     difficulty: MEDIUM
     prep: 15

@@ -11,18 +11,18 @@ Cada pack está en español y en inglés; la app muestra los del idioma en que l
 | :--- | :--- | :---: | :---: | :--- |
 | 🍳 [Cenas en 20 minutos](packs/cenas-en-20-minutos/pack.yaml) | Cocina de cada día | es | 20 | [cenas-en-20-minutos-v2.zip](dist/cenas-en-20-minutos-v2.zip) |
 | 🍳 [20-minute dinners](packs/20-minute-dinners/pack.yaml) | Everyday cooking | en | 20 | [20-minute-dinners-v2.zip](dist/20-minute-dinners-v2.zip) |
-| 🍟 [Freidora de aire](packs/freidora-de-aire/pack.yaml) | Electrodomésticos | es | 20 | [freidora-de-aire-v1.zip](dist/freidora-de-aire-v1.zip) |
-| 🍟 [Air fryer](packs/air-fryer/pack.yaml) | Kitchen appliances | en | 20 | [air-fryer-v1.zip](dist/air-fryer-v1.zip) |
-| 🥣 [Thermomix: cremas y purés](packs/thermomix-cremas-y-pures/pack.yaml) | Electrodomésticos | es | 20 | [thermomix-cremas-y-pures-v1.zip](dist/thermomix-cremas-y-pures-v1.zip) |
-| 🥣 [Thermomix: soups and purées](packs/thermomix-soups-and-purees/pack.yaml) | Kitchen appliances | en | 20 | [thermomix-soups-and-purees-v1.zip](dist/thermomix-soups-and-purees-v1.zip) |
+| 🍟 [Freidora de aire](packs/freidora-de-aire/pack.yaml) | Electrodomésticos | es | 20 | [freidora-de-aire-v2.zip](dist/freidora-de-aire-v2.zip) |
+| 🍟 [Air fryer](packs/air-fryer/pack.yaml) | Kitchen appliances | en | 20 | [air-fryer-v2.zip](dist/air-fryer-v2.zip) |
+| 🥣 [Thermomix: cremas y purés](packs/thermomix-cremas-y-pures/pack.yaml) | Electrodomésticos | es | 20 | [thermomix-cremas-y-pures-v2.zip](dist/thermomix-cremas-y-pures-v2.zip) |
+| 🥣 [Thermomix: soups and purées](packs/thermomix-soups-and-purees/pack.yaml) | Kitchen appliances | en | 20 | [thermomix-soups-and-purees-v2.zip](dist/thermomix-soups-and-purees-v2.zip) |
 | 🍚 [Arroces](packs/arroces/pack.yaml) | Cocina de cada día | es | 20 | [arroces-v2.zip](dist/arroces-v2.zip) |
 | 🍚 [Rice dishes](packs/rice-dishes/pack.yaml) | Everyday cooking | en | 20 | [rice-dishes-v2.zip](dist/rice-dishes-v2.zip) |
-| 🥖 [Panadería](packs/panaderia/pack.yaml) | Cocina de cada día | es | 20 | [panaderia-v1.zip](dist/panaderia-v1.zip) |
-| 🥖 [Bakery](packs/bakery/pack.yaml) | Everyday cooking | en | 20 | [bakery-v1.zip](dist/bakery-v1.zip) |
+| 🥖 [Panadería](packs/panaderia/pack.yaml) | Cocina de cada día | es | 20 | [panaderia-v2.zip](dist/panaderia-v2.zip) |
+| 🥖 [Bakery](packs/bakery/pack.yaml) | Everyday cooking | en | 20 | [bakery-v2.zip](dist/bakery-v2.zip) |
 | 🍤 [Tapas españolas](packs/tapas-espanolas/pack.yaml) | Especiales | es | 20 | [tapas-espanolas-v3.zip](dist/tapas-espanolas-v3.zip) |
 | 🍤 [Spanish tapas](packs/spanish-tapas/pack.yaml) | Specials | en | 20 | [spanish-tapas-v3.zip](dist/spanish-tapas-v3.zip) |
-| 🫒 [Cocina mediterránea](packs/cocina-mediterranea/pack.yaml) | Cocina del mundo | es | 20 | [cocina-mediterranea-v1.zip](dist/cocina-mediterranea-v1.zip) |
-| 🫒 [Mediterranean cooking](packs/mediterranean-cooking/pack.yaml) | World cuisine | en | 20 | [mediterranean-cooking-v1.zip](dist/mediterranean-cooking-v1.zip) |
+| 🫒 [Cocina mediterránea](packs/cocina-mediterranea/pack.yaml) | Cocina del mundo | es | 20 | [cocina-mediterranea-v2.zip](dist/cocina-mediterranea-v2.zip) |
+| 🫒 [Mediterranean cooking](packs/mediterranean-cooking/pack.yaml) | World cuisine | en | 20 | [mediterranean-cooking-v2.zip](dist/mediterranean-cooking-v2.zip) |
 | 🎄 [Especial Navidad](packs/especial-navidad/pack.yaml) | Especiales | es | 22 | [especial-navidad-v1.zip](dist/especial-navidad-v1.zip) |
 | 🎄 [Christmas special](packs/christmas-special/pack.yaml) | Specials | en | 22 | [christmas-special-v1.zip](dist/christmas-special-v1.zip) |
 | 🥨 [Cocina del mundo: Alemania](packs/cocina-alemana/pack.yaml) | Cocina del mundo | es | 20 | [cocina-alemana-v1.zip](dist/cocina-alemana-v1.zip) |

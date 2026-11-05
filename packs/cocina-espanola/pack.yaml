@@ -1,6 +1,6 @@
 id: cocina-espanola
-version: 1
-updated: 2026-10-31
+version: 2
+updated: 2026-11-05
 language: es
 name: "Cocina del mundo: España"
 series: Cocina del mundo
@@ -24,6 +24,7 @@ defaults:
 recipes:
 
   - name: Cocido madrileño
+    photo: cocina-espanola/cocido-madrileno.jpg
     category: Legumbres
     difficulty: MEDIUM
     prep: 20
@@ -63,6 +64,7 @@ recipes:
       - Sirve después los garbanzos con las verduras y, por último, las carnes troceadas.
 
   - name: Fabada asturiana
+    photo: cocina-espanola/fabada-asturiana.jpg
     category: Legumbres
     difficulty: MEDIUM
     prep: 15
@@ -89,6 +91,7 @@ recipes:
       - Deja que repose 30 minutos antes de servir, con el compango troceado aparte.
 
   - name: Lentejas estofadas con chorizo
+    photo: cocina-espanola/lentejas-estofadas-con-chorizo.jpg
     category: Legumbres
     difficulty: EASY
     prep: 15
@@ -116,6 +119,7 @@ recipes:
       - Cuece a fuego suave 20 minutos, añade la patata cascada en trozos y la sal y cuece 20 minutos más, hasta que las lentejas estén tiernas.
 
   - name: Marmitako
+    photo: cocina-espanola/marmitako.jpg
     category: Pescados y mariscos
     difficulty: EASY
     prep: 20
@@ -144,6 +148,7 @@ recipes:
       - Apaga el fuego, añade el bonito en dados salados, tapa y deja que repose 5 minutos antes de servir.
 
   - name: Bacalao al pil pil
+    photo: cocina-espanola/bacalao-al-pil-pil.jpg
     category: Pescados y mariscos
     difficulty: HARD
     prep: 10
@@ -167,6 +172,7 @@ recipes:
       - Devuelve el bacalao a la cazuela, mueve un poco más y sirve con los ajos y la guindilla por encima.
 
   - name: Pollo al ajillo
+    photo: cocina-espanola/pollo-al-ajillo.jpg
     category: Carnes
     difficulty: EASY
     prep: 10
@@ -191,6 +197,7 @@ recipes:
       - Destapa y deja que la salsa se reduzca 5 minutos. Sirve con perejil picado.
 
   - name: Arroz negro
+    photo: cocina-espanola/arroz-negro.jpg
     category: Arroces
     difficulty: MEDIUM
     prep: 20
@@ -220,6 +227,7 @@ recipes:
       - Deja que repose 5 minutos tapado con un paño y sirve con alioli.
 
   - name: Fideuá
+    photo: cocina-espanola/fideua.jpg
     category: Pastas
     difficulty: MEDIUM
     prep: 20
@@ -251,6 +259,7 @@ recipes:
       - Deja que repose 5 minutos y sirve con alioli.
 
   - name: Arroz al horno
+    photo: cocina-espanola/arroz-al-horno.jpg
     category: Arroces
     difficulty: MEDIUM
     prep: 20
@@ -282,6 +291,7 @@ recipes:
       - Hornea 20 minutos, hasta que el arroz esté hecho y sin caldo. Deja que repose 5 minutos.
 
   - name: Escalivada
+    photo: cocina-espanola/escalivada.jpg
     category: Verduras
     difficulty: EASY
     prep: 15
@@ -306,6 +316,7 @@ recipes:
       - Colócalas en una fuente y alíñalas con el aceite, el ajo picado, si lo usas, y la sal. Se toman templadas o frías.
 
   - name: Patatas a la riojana
+    photo: cocina-espanola/patatas-a-la-riojana.jpg
     category: Verduras
     difficulty: EASY
     prep: 15
@@ -334,6 +345,7 @@ recipes:
       - Cuece a fuego medio 25-30 minutos, hasta que las patatas estén tiernas y el caldo haya espesado. Deja que repose 5 minutos.
 
   - name: Sopa castellana
+    photo: cocina-espanola/sopa-castellana.jpg
     category: Sopas y cremas
     difficulty: EASY
     prep: 10
@@ -360,6 +372,7 @@ recipes:
       - Casca los huevos sobre la sopa, tapa y deja que cuajen 3-4 minutos, con la yema líquida.
 
   - name: Caldo gallego
+    photo: cocina-espanola/caldo-gallego.jpg
     category: Sopas y cremas
     difficulty: EASY
     prep: 15
@@ -385,6 +398,7 @@ recipes:
       - Cuece 30 minutos más y ajusta de sal. Deja que repose antes de servir; está aún mejor al día siguiente.
 
   - name: Papas arrugadas con mojo picón
+    photo: cocina-espanola/papas-arrugadas-con-mojo-picon.jpg
     category: Verduras
     difficulty: EASY
     prep: 15
@@ -416,6 +430,7 @@ recipes:
       - Añade el vinagre y el aceite poco a poco, mezclando hasta que emulsione. Sirve las papas con el mojo.
 
   - name: Ajoblanco
+    photo: cocina-espanola/ajoblanco.jpg
     category: Sopas y cremas
     difficulty: EASY
     prep: 15
@@ -443,6 +458,7 @@ recipes:
       - Sirve con las uvas peladas y un hilo de aceite.
 
   - name: Empanada gallega de atún
+    photo: cocina-espanola/empanada-gallega-de-atun.jpg
     category: Panes y masas
     difficulty: MEDIUM
     prep: 60
@@ -487,6 +503,7 @@ recipes:
           - Pinta con huevo batido y hornea 40-45 minutos, hasta que esté dorada.
 
   - name: Migas extremeñas
+    photo: cocina-espanola/migas-extremenas.jpg
     category: Panes y masas
     difficulty: EASY
     prep: 15
@@ -512,6 +529,7 @@ recipes:
       - Añade el pimentón, los ajos, la panceta, el chorizo y el pimiento, mezcla y sirve.
 
   - name: Rabo de toro
+    photo: cocina-espanola/rabo-de-toro.jpg
     category: Carnes
     difficulty: MEDIUM
     prep: 20
@@ -544,6 +562,7 @@ recipes:
       - Retira la carne, tritura y cuela la salsa y vuelve a juntarlo todo.
 
   - name: Torrijas
+    photo: cocina-espanola/torrijas.jpg
     category: Postres
     difficulty: EASY
     prep: 15
@@ -569,6 +588,7 @@ recipes:
       - Escúrrelas y rebózalas en el azúcar mezclado con la canela.
 
   - name: Arroz con leche
+    photo: cocina-espanola/arroz-con-leche.jpg
     category: Postres
     difficulty: EASY
     prep: 5
@@ -593,6 +613,7 @@ recipes:
       - Retira la canela y el limón, reparte en cuencos y espolvorea canela molida. Se sirve frío o templado.
 
   - name: Tarta de Santiago
+    photo: cocina-espanola/tarta-de-santiago.jpg
     category: Postres
     difficulty: EASY
     prep: 15

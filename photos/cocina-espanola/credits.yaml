@@ -1,0 +1,108 @@
+# Origin of every photo in this folder: source page, author and licence (CC0 1.0, Public domain,
+# CC BY x.y or CC BY-SA x.y). tools/build.py refuses a recipe photo without an entry here.
+
+cocido-madrileno.jpg:
+  source: https://commons.wikimedia.org/wiki/File:CocidoMadrile%C3%B1o.jpg
+  author: "Tnarik"
+  license: CC BY-SA 2.0
+
+fabada-asturiana.jpg:
+  source: https://commons.wikimedia.org/wiki/File:Fabada_con_compangu.jpg
+  author: "Amasuela, Luis Lafuente Agudín"
+  license: CC BY-SA 4.0
+
+lentejas-estofadas-con-chorizo.jpg:
+  source: https://commons.wikimedia.org/wiki/File:Guiso_argentino_de_lentejas_servido_en_plato_de_porcelana_floral_azul,_preparado_con_lentejas_marca_%E2%80%9CLa_Granja%E2%80%9D,_carne_vacuna,_zanahorias,_cebolla,_ajo,_cilantro_y_especias,_acompa%C3%B1ado_con_pan_y_galletas_saladas.jpg
+  author: "Horacio Cambeiro"
+  license: CC BY-SA 3.0
+
+marmitako.jpg:
+  source: https://commons.wikimedia.org/wiki/File:Marmitako_de_at%C3%BAn_(Espa%C3%B1a).jpg
+  author: "Juan Emilio Prades Bel"
+  license: CC BY-SA 4.0
+
+bacalao-al-pil-pil.jpg:
+  source: https://commons.wikimedia.org/wiki/File:Bacalao-pil-pil-01-jlastras.jpg
+  author: "Javier Lastras from España/Spain"
+  license: CC BY 2.0
+
+pollo-al-ajillo.jpg:
+  source: https://commons.wikimedia.org/wiki/File:Pollo_al_ajillo.jpg
+  author: "Juan Emilio Prades Bel"
+  license: CC BY-SA 4.0
+
+arroz-negro.jpg:
+  source: https://commons.wikimedia.org/wiki/File:Arroz_negro_con_tinta_de_calamar_y_langostinos_en_paellera.jpg
+  author: "JArribasphoto"
+  license: CC BY-SA 4.0
+
+fideua.jpg:
+  source: https://commons.wikimedia.org/wiki/File:Plato_t%C3%ADpico_de_fideu%C3%A1_de_pescado_y_marisco.jpg
+  author: "Juan Emilio Prades Bel"
+  license: CC BY-SA 4.0
+
+arroz-al-horno.jpg:
+  source: https://commons.wikimedia.org/wiki/File:Arroz_al_horno.JPG
+  author: "19Tarrestnom65"
+  license: CC BY-SA 4.0
+
+escalivada.jpg:
+  source: https://commons.wikimedia.org/wiki/File:Escalivada_-_8564805343.jpg
+  author: "Sílvia Martín"
+  license: CC BY 2.0
+
+patatas-a-la-riojana.jpg:
+  source: https://commons.wikimedia.org/wiki/File:Patatas_a_la_riojana.jpg
+  author: "Lorena Suárez"
+  license: CC BY-SA 2.0
+
+sopa-castellana.jpg:
+  source: https://commons.wikimedia.org/wiki/File:Sopa_Castellana_00.jpg
+  author: "Xemenendura"
+  license: CC BY-SA 4.0
+
+caldo-gallego.jpg:
+  source: https://commons.wikimedia.org/wiki/File:Caldo_galego,_Galiza.jpg
+  author: "Juan"
+  license: CC BY-SA 2.0
+
+papas-arrugadas-con-mojo-picon.jpg:
+  source: https://commons.wikimedia.org/wiki/File:Mojo_rojo_-_Papas_arrugads.JPG
+  author: "Tamorlan"
+  license: CC BY-SA 3.0
+
+ajoblanco.jpg:
+  source: https://commons.wikimedia.org/wiki/File:Ajo_blanco_(7310199262).jpg
+  author: "cyclonebill from Copenhagen, Denmark"
+  license: CC BY-SA 2.0
+
+rabo-de-toro.jpg:
+  source: https://commons.wikimedia.org/wiki/File:Rabo_de_toro,_gastronom%C3%ADa_rural,_comarca_Maestrazgo.jpg
+  author: "Juan Emilio Prades Bel"
+  license: CC BY 4.0
+
+torrijas.jpg:
+  source: https://commons.wikimedia.org/wiki/File:Torrijas,_gastronom%C3%ADa_de_Semana_Santa_(Espa%C3%B1a).jpg
+  author: "Juan Emilio Prades Bel"
+  license: CC BY 4.0
+
+arroz-con-leche.jpg:
+  source: https://commons.wikimedia.org/wiki/File:Arroz_con_leche_espolvoreado_con_canela_molida.jpg
+  author: "Juan Emilio Prades Bel"
+  license: CC BY-SA 4.0
+
+tarta-de-santiago.jpg:
+  source: https://commons.wikimedia.org/wiki/File:Tarta_de_Santiago_(4467497071).jpg
+  author: "Katrin Gilger"
+  license: CC BY-SA 2.0
+
+empanada-gallega-de-atun.jpg:
+  source: https://commons.wikimedia.org/wiki/File:Empanada_gallega_de_caballa_(1944px).jpg
+  author: "Yoolian"
+  license: CC0 1.0
+
+migas-extremenas.jpg:
+  source: https://commons.wikimedia.org/wiki/File:Migas_de_pan,_guiso_rural_antiguo_(Espa%C3%B1a).jpg
+  author: "Juan Emilio Prades Bel"
+  license: CC BY 4.0
+

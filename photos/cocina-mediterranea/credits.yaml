@@ -1,0 +1,98 @@
+# Origin of every photo in this folder: source page, author and licence (CC0 1.0, Public domain,
+# CC BY x.y or CC BY-SA x.y). tools/build.py refuses a recipe photo without an entry here.
+
+gazpacho-andaluz.jpg:
+  source: https://commons.wikimedia.org/wiki/File:Sopa_fr%C3%ADa_espa%C3%B1ola._Gazpacho_andaluz_con_su_guarnici%C3%B3n.jpg
+  author: "Juan Emilio Prades Bel"
+  license: CC BY 4.0
+
+salmorejo-cordobes.jpg:
+  source: https://commons.wikimedia.org/wiki/File:Salmorejo_cordouan.JPG
+  author: "P.Lechien"
+  license: CC0 1.0
+
+paella-valenciana.jpg:
+  source: https://commons.wikimedia.org/wiki/File:01_Paella_Valenciana_original.jpg
+  author: "Jan Harenburg"
+  license: CC BY-SA 4.0
+
+tortilla-de-patatas.jpg:
+  source: https://commons.wikimedia.org/wiki/File:Tortilla_de_patata_-_San_Sebasti%C3%A1n.jpg
+  author: "Kent Wang"
+  license: CC BY-SA 2.0
+
+pisto-manchego.jpg:
+  source: https://commons.wikimedia.org/wiki/File:Pisto,_sofrito_de_verduras.jpg
+  author: "Juan Emilio Prades Bel"
+  license: CC BY 4.0
+
+ensalada-griega.jpg:
+  source: https://commons.wikimedia.org/wiki/File:Greek_salad_(5178297958).jpg
+  author: "Geoff Peters from Vancouver, BC, Canada"
+  license: CC BY 2.0
+
+tzatziki.jpg:
+  source: https://commons.wikimedia.org/wiki/File:Tzatiki_(3656301454).jpg
+  author: "Vegan Feast Catering"
+  license: CC BY 2.0
+
+musaka.jpg:
+  source: https://commons.wikimedia.org/wiki/File:Musaka_in_Greece.jpg
+  author: "Stolbovsky"
+  license: CC BY-SA 3.0
+
+hummus.jpg:
+  source: https://commons.wikimedia.org/wiki/File:Lebanese_style_hummus.jpg
+  author: "Beyrouthhh at English Wikipedia"
+  license: CC BY 3.0
+
+tabule.jpg:
+  source: https://commons.wikimedia.org/wiki/File:Flickr_-_cyclonebill_-_Tabbouleh.jpg
+  author: "cyclonebill"
+  license: CC BY-SA 2.0
+
+falafel.jpg:
+  source: https://commons.wikimedia.org/wiki/File:Falafel_1.JPG
+  author: "Miansari66"
+  license: CC0 1.0
+
+shakshuka.jpg:
+  source: https://commons.wikimedia.org/wiki/File:Shakshuka1.jpg
+  author: "Joe Mahoney"
+  license: CC BY 2.0
+
+cuscus-de-verduras.jpg:
+  source: https://commons.wikimedia.org/wiki/File:%D9%83%D8%B3%D9%83%D8%B3_Couscous;_Cusc%C3%BAs_(Las_Siete_Orillas_project).jpg
+  author: "El Mono Español"
+  license: CC BY-SA 4.0
+
+tajin-de-pollo-con-limon-y-aceitunas.jpg:
+  source: https://commons.wikimedia.org/wiki/File:Moroccan_food-Chicken_tagine_with_preserved_lemons_and_olives-02.jpg
+  author: "Foodista"
+  license: CC BY 2.0
+
+pasta-al-pesto-genoves.jpg:
+  source: https://commons.wikimedia.org/wiki/File:Pasta_with_pesto.jpg
+  author: "Paul Goyette"
+  license: CC BY-SA 2.0
+
+risotto-de-setas.jpg:
+  source: https://commons.wikimedia.org/wiki/File:Mushroom_and_Leek_Risotto_(49535206656).jpg
+  author: "spurekar"
+  license: CC BY 2.0
+
+ensalada-caprese.jpg:
+  source: https://commons.wikimedia.org/wiki/File:Ensalada_caprese,_Mazatl%C3%A1n,_17_de_mayo_de_2023.jpg
+  author: "El Nuevo Doge"
+  license: CC0 1.0
+
+gambas-al-ajillo.jpg:
+  source: https://commons.wikimedia.org/wiki/File:(Gambas_al_ajillo)_Tapas_(Madrid).jpg
+  author: "Annie and Andrew"
+  license: CC BY 2.0
+
+crema-catalana.jpg:
+  source: https://commons.wikimedia.org/wiki/File:Cazuelita_con_crema_catalana._Postre.jpg
+  author: "Juan Emilio Prades Bel"
+  license: CC BY 4.0
+

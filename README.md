@@ -35,8 +35,8 @@ Cada pack está en español y en inglés; la app muestra los del idioma en que l
 | 🫓 [World cuisine: Colombia](packs/colombian-cooking/pack.yaml) | World cuisine | en | 20 | [colombian-cooking-v2.zip](dist/colombian-cooking-v2.zip) |
 | 🥘 [Cocina del mundo: España](packs/cocina-espanola/pack.yaml) | Cocina del mundo | es | 21 | [cocina-espanola-v2.zip](dist/cocina-espanola-v2.zip) |
 | 🥘 [World cuisine: Spain](packs/spanish-cooking/pack.yaml) | World cuisine | en | 21 | [spanish-cooking-v2.zip](dist/spanish-cooking-v2.zip) |
-| 🌭 [Cocina del mundo: Estados Unidos](packs/cocina-estadounidense/pack.yaml) | Cocina del mundo | es | 20 | [cocina-estadounidense-v1.zip](dist/cocina-estadounidense-v1.zip) |
-| 🌭 [World cuisine: United States](packs/american-cooking/pack.yaml) | World cuisine | en | 20 | [american-cooking-v1.zip](dist/american-cooking-v1.zip) |
+| 🌭 [Cocina del mundo: Estados Unidos](packs/cocina-estadounidense/pack.yaml) | Cocina del mundo | es | 20 | [cocina-estadounidense-v2.zip](dist/cocina-estadounidense-v2.zip) |
+| 🌭 [World cuisine: United States](packs/american-cooking/pack.yaml) | World cuisine | en | 20 | [american-cooking-v2.zip](dist/american-cooking-v2.zip) |
 | 🥙 [Cocina del mundo: Grecia](packs/cocina-griega/pack.yaml) | Cocina del mundo | es | 20 | [cocina-griega-v1.zip](dist/cocina-griega-v1.zip) |
 | 🥙 [World cuisine: Greece](packs/greek-cooking/pack.yaml) | World cuisine | en | 20 | [greek-cooking-v1.zip](dist/greek-cooking-v1.zip) |
 | 🍛 [Cocina del mundo: Indonesia](packs/cocina-indonesia/pack.yaml) | Cocina del mundo | es | 20 | [cocina-indonesia-v1.zip](dist/cocina-indonesia-v1.zip) |

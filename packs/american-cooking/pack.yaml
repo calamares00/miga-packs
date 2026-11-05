@@ -1,6 +1,6 @@
 id: american-cooking
-version: 1
-updated: 2026-10-31
+version: 2
+updated: 2026-11-05
 language: en
 name: "World cuisine: United States"
 series: World cuisine
@@ -23,6 +23,7 @@ defaults:
 recipes:
 
   - name: Mac and cheese
+    photo: cocina-estadounidense/macarrones-con-queso.jpg
     category: Pasta
     difficulty: EASY
     prep: 15
@@ -50,6 +51,7 @@ recipes:
       - Bake for 20 minutes, until golden and bubbling.
 
   - name: Pulled pork
+    photo: cocina-estadounidense/cerdo-desmenuzado.jpg
     category: Meat
     difficulty: EASY
     prep: 20
@@ -86,6 +88,7 @@ recipes:
       - Serve in the buns with coleslaw.
 
   - name: Southern fried chicken
+    photo: cocina-estadounidense/pollo-frito-al-estilo-del-sur.jpg
     category: Meat
     difficulty: MEDIUM
     prep: 20
@@ -120,6 +123,7 @@ recipes:
       - Drain on a rack.
 
   - name: New England clam chowder
+    photo: cocina-estadounidense/sopa-de-almejas-de-nueva-inglaterra.jpg
     category: Soups
     difficulty: MEDIUM
     prep: 20
@@ -151,6 +155,7 @@ recipes:
       - Add the milk and cream and heat without boiling for 5 minutes. Add the clams, season and serve.
 
   - name: Chili con carne
+    photo: cocina-estadounidense/chili-con-carne.jpg
     category: Meat
     difficulty: EASY
     prep: 15
@@ -183,6 +188,7 @@ recipes:
       - Add the beans and chocolate and simmer for 20 more minutes. Season with salt and serve with grated cheese, onion or soured cream.
 
   - name: Cornbread
+    photo: cocina-estadounidense/pan-de-maiz.jpg
     category: Breads and doughs
     difficulty: EASY
     prep: 10
@@ -209,6 +215,7 @@ recipes:
       - Brush the hot tin with the rest of the butter, pour in the batter and bake for 20-25 minutes, until golden.
 
   - name: Pancakes
+    photo: cocina-estadounidense/tortitas-americanas.jpg
     category: Breads and doughs
     difficulty: EASY
     prep: 10
@@ -235,6 +242,7 @@ recipes:
       - Serve stacked with butter and maple syrup.
 
   - name: Meatloaf
+    photo: cocina-estadounidense/pastel-de-carne.jpg
     category: Meat
     difficulty: EASY
     prep: 20
@@ -270,6 +278,7 @@ recipes:
       - Bake for 45 minutes, brush with the rest of the glaze and bake for 15 more minutes.
 
   - name: Jambalaya
+    photo: cocina-estadounidense/jambalaya.jpg
     category: Rice
     difficulty: MEDIUM
     prep: 20
@@ -303,6 +312,7 @@ recipes:
       - Lay the prawns on top, cover and cook for 5 more minutes. Serve with chopped spring onion.
 
   - name: Chicken and sausage gumbo
+    photo: cocina-estadounidense/gumbo-de-pollo-y-salchicha.jpg
     category: Soups
     difficulty: HARD
     prep: 30
@@ -336,6 +346,7 @@ recipes:
       - Serve in bowls over white rice with chopped spring onion.
 
   - name: Coleslaw
+    photo: cocina-estadounidense/ensalada-de-col.jpg
     category: Salads
     difficulty: EASY
     prep: 15
@@ -363,6 +374,7 @@ recipes:
       - Toss everything together and chill for at least 30 minutes before serving.
 
   - name: Apple pie
+    photo: cocina-estadounidense/tarta-de-manzana.jpg
     category: Desserts
     difficulty: MEDIUM
     prep: 60
@@ -397,6 +409,7 @@ recipes:
       - Brush with egg and bake for 20 minutes. Lower to 180 °C and bake for 40 more minutes, until golden and the juices bubble.
 
   - name: Chocolate chip cookies
+    photo: cocina-estadounidense/galletas-con-pepitas-de-chocolate.jpg
     category: Desserts
     difficulty: EASY
     prep: 15
@@ -424,6 +437,7 @@ recipes:
       - Bake for 10-12 minutes, until the edges are golden. Leave to cool on the tray for 5 minutes.
 
   - name: New York cheesecake
+    photo: cocina-estadounidense/tarta-de-queso-de-nueva-york.jpg
     category: Desserts
     difficulty: MEDIUM
     prep: 20
@@ -454,6 +468,7 @@ recipes:
       - Turn off the oven and leave the cheesecake inside, with the door ajar, for 1 hour. Chill for at least 6 hours.
 
   - name: Philly cheesesteak
+    photo: cocina-estadounidense/philly-cheesesteak.jpg
     category: Meat
     difficulty: EASY
     prep: 15
@@ -480,6 +495,7 @@ recipes:
       - Open the rolls, lay them over the cheese and flip with the spatula to fill them.
 
   - name: Cobb salad
+    photo: cocina-estadounidense/ensalada-cobb.jpg
     category: Salads
     difficulty: EASY
     prep: 20
@@ -514,6 +530,7 @@ recipes:
       - Mix the vinaigrette ingredients, drizzle over the salad and sprinkle with the chives.
 
   - name: Deviled eggs
+    photo: cocina-estadounidense/huevos-rellenos-a-la-diabla.jpg
     category: Eggs
     difficulty: EASY
     prep: 15
@@ -537,6 +554,7 @@ recipes:
       - Pipe or spoon the filling into the whites and sprinkle with paprika and chives.
 
   - name: Boston baked beans
+    photo: cocina-estadounidense/alubias-al-horno-de-boston.jpg
     category: Legumes
     difficulty: EASY
     prep: 15
@@ -563,6 +581,7 @@ recipes:
       - Cover and bake for 4 hours, adding water if they dry out. Uncover for the last hour so they brown.
 
   - name: Banana bread
+    photo: cocina-estadounidense/bizcocho-de-platano.jpg
     category: Desserts
     difficulty: EASY
     prep: 15
@@ -589,6 +608,7 @@ recipes:
       - Pour into the tin and bake for 55-60 minutes, until a skewer comes out clean. Let it cool before turning out.
 
   - name: Key lime pie
+    photo: cocina-estadounidense/tarta-de-lima-de-los-cayos.jpg
     category: Desserts
     difficulty: EASY
     prep: 20

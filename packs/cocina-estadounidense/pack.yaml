@@ -1,6 +1,6 @@
 id: cocina-estadounidense
-version: 1
-updated: 2026-10-31
+version: 2
+updated: 2026-11-05
 language: es
 name: "Cocina del mundo: Estados Unidos"
 series: Cocina del mundo
@@ -23,6 +23,7 @@ defaults:
 recipes:
 
   - name: Macarrones con queso
+    photo: cocina-estadounidense/macarrones-con-queso.jpg
     category: Pastas
     difficulty: EASY
     prep: 15
@@ -50,6 +51,7 @@ recipes:
       - Hornea 20 minutos, hasta que esté dorado y burbujeante.
 
   - name: Cerdo desmenuzado
+    photo: cocina-estadounidense/cerdo-desmenuzado.jpg
     category: Carnes
     difficulty: EASY
     prep: 20
@@ -86,6 +88,7 @@ recipes:
       - Sírvela en los panecillos con ensalada de col.
 
   - name: Pollo frito al estilo del sur
+    photo: cocina-estadounidense/pollo-frito-al-estilo-del-sur.jpg
     category: Carnes
     difficulty: MEDIUM
     prep: 20
@@ -120,6 +123,7 @@ recipes:
       - Escúrrelo sobre una rejilla.
 
   - name: Sopa de almejas de Nueva Inglaterra
+    photo: cocina-estadounidense/sopa-de-almejas-de-nueva-inglaterra.jpg
     category: Sopas y cremas
     difficulty: MEDIUM
     prep: 20
@@ -151,6 +155,7 @@ recipes:
       - Añade la leche y la nata y calienta sin que hierva 5 minutos. Incorpora las almejas, salpimienta y sirve.
 
   - name: Chili con carne
+    photo: cocina-estadounidense/chili-con-carne.jpg
     category: Carnes
     difficulty: EASY
     prep: 15
@@ -183,6 +188,7 @@ recipes:
       - Añade las alubias y el chocolate y cuece 20 minutos más. Ajusta de sal y sirve con queso rallado, cebolla o nata agria.
 
   - name: Pan de maíz
+    photo: cocina-estadounidense/pan-de-maiz.jpg
     category: Panes y masas
     difficulty: EASY
     prep: 10
@@ -209,6 +215,7 @@ recipes:
       - Pinta el molde caliente con el resto de la mantequilla, vierte la masa y hornea 20-25 minutos, hasta que esté dorado.
 
   - name: Tortitas americanas
+    photo: cocina-estadounidense/tortitas-americanas.jpg
     category: Panes y masas
     difficulty: EASY
     prep: 10
@@ -235,6 +242,7 @@ recipes:
       - Sírvelas apiladas con mantequilla y sirope de arce.
 
   - name: Pastel de carne
+    photo: cocina-estadounidense/pastel-de-carne.jpg
     category: Carnes
     difficulty: EASY
     prep: 20
@@ -270,6 +278,7 @@ recipes:
       - Hornea 45 minutos, pinta con el resto del glaseado y hornea 15 minutos más.
 
   - name: Jambalaya
+    photo: cocina-estadounidense/jambalaya.jpg
     category: Arroces
     difficulty: MEDIUM
     prep: 20
@@ -303,6 +312,7 @@ recipes:
       - Coloca las gambas encima, tapa y cuece 5 minutos más. Sirve con cebolleta picada.
 
   - name: Gumbo de pollo y salchicha
+    photo: cocina-estadounidense/gumbo-de-pollo-y-salchicha.jpg
     category: Sopas y cremas
     difficulty: HARD
     prep: 30
@@ -336,6 +346,7 @@ recipes:
       - Sirve en cuencos sobre arroz blanco con cebolleta picada.
 
   - name: Ensalada de col
+    photo: cocina-estadounidense/ensalada-de-col.jpg
     category: Ensaladas
     difficulty: EASY
     prep: 15
@@ -363,6 +374,7 @@ recipes:
       - Mézclalo todo y refrigera al menos 30 minutos antes de servir.
 
   - name: Tarta de manzana
+    photo: cocina-estadounidense/tarta-de-manzana.jpg
     category: Postres
     difficulty: MEDIUM
     prep: 60
@@ -397,6 +409,7 @@ recipes:
       - Pinta con huevo y hornea 20 minutos. Baja a 180 °C y hornea 40 minutos más, hasta que esté dorada y el jugo burbujee.
 
   - name: Galletas con pepitas de chocolate
+    photo: cocina-estadounidense/galletas-con-pepitas-de-chocolate.jpg
     category: Postres
     difficulty: EASY
     prep: 15
@@ -424,6 +437,7 @@ recipes:
       - Hornea 10-12 minutos, hasta que los bordes estén dorados. Deja que se enfríen 5 minutos en la bandeja.
 
   - name: Tarta de queso de Nueva York
+    photo: cocina-estadounidense/tarta-de-queso-de-nueva-york.jpg
     category: Postres
     difficulty: MEDIUM
     prep: 20
@@ -454,6 +468,7 @@ recipes:
       - Apaga el horno y deja la tarta dentro, con la puerta entreabierta, 1 hora. Refrigérala al menos 6 horas.
 
   - name: Philly cheesesteak
+    photo: cocina-estadounidense/philly-cheesesteak.jpg
     category: Carnes
     difficulty: EASY
     prep: 15
@@ -480,6 +495,7 @@ recipes:
       - Abre los panes, colócalos encima del queso y dales la vuelta con la espátula para rellenarlos.
 
   - name: Ensalada Cobb
+    photo: cocina-estadounidense/ensalada-cobb.jpg
     category: Ensaladas
     difficulty: EASY
     prep: 20
@@ -514,6 +530,7 @@ recipes:
       - Mezcla los ingredientes de la vinagreta, riega la ensalada y espolvorea el cebollino.
 
   - name: Huevos rellenos a la diabla
+    photo: cocina-estadounidense/huevos-rellenos-a-la-diabla.jpg
     category: Huevos
     difficulty: EASY
     prep: 15
@@ -537,6 +554,7 @@ recipes:
       - Rellena las claras con una manga o una cucharilla y espolvorea pimentón y cebollino.
 
   - name: Alubias al horno de Boston
+    photo: cocina-estadounidense/alubias-al-horno-de-boston.jpg
     category: Legumbres
     difficulty: EASY
     prep: 15
@@ -563,6 +581,7 @@ recipes:
       - Tapa y hornea 4 horas, añadiendo agua si se secan. Destapa la última hora para que se doren.
 
   - name: Bizcocho de plátano
+    photo: cocina-estadounidense/bizcocho-de-platano.jpg
     category: Postres
     difficulty: EASY
     prep: 15
@@ -589,6 +608,7 @@ recipes:
       - Vierte en el molde y hornea 55-60 minutos, hasta que un palillo salga limpio. Deja que se enfríe antes de desmoldarlo.
 
   - name: Tarta de lima de los Cayos
+    photo: cocina-estadounidense/tarta-de-lima-de-los-cayos.jpg
     category: Postres
     difficulty: EASY
     prep: 20

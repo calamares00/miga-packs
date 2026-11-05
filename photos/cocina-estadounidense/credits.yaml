@@ -1,0 +1,103 @@
+# Origin of every photo in this folder: source page, author and licence (CC0 1.0, Public domain,
+# CC BY x.y or CC BY-SA x.y). tools/build.py refuses a recipe photo without an entry here.
+
+macarrones-con-queso.jpg:
+  source: https://commons.wikimedia.org/wiki/File:Macaroni_and_cheese_(2)_(cropped).jpg
+  author: "Sumeet Jain from San Francisco, USA"
+  license: CC BY-SA 2.0
+
+cerdo-desmenuzado.jpg:
+  source: https://commons.wikimedia.org/wiki/File:Pulled_pork_sandwich_-_%22Naked%22.jpg
+  author: "Infrogmation of New Orleans"
+  license: CC BY-SA 4.0
+
+pollo-frito-al-estilo-del-sur.jpg:
+  source: https://commons.wikimedia.org/wiki/File:Fried_chicken,_fried_okra_and_mac_%26_cheese_from_Mary_Mac%27s_Tea_Room_in_Atlanta.jpg
+  author: "Gatorfan252525"
+  license: CC BY-SA 4.0
+
+sopa-de-almejas-de-nueva-inglaterra.jpg:
+  source: https://commons.wikimedia.org/wiki/File:New_England-style_clam_chowder_(22848857879).jpg
+  author: "Scottb211 from Gaylord, Michigan, U.S.A."
+  license: CC BY 2.0
+
+chili-con-carne.jpg:
+  source: https://commons.wikimedia.org/wiki/File:Chili_con_carne_in_Helsinki.jpg
+  author: "JIP"
+  license: CC BY-SA 3.0
+
+pan-de-maiz.jpg:
+  source: https://commons.wikimedia.org/wiki/File:Corn_bread_and_butter.jpg
+  author: "E4024"
+  license: CC BY-SA 4.0
+
+tortitas-americanas.jpg:
+  source: https://commons.wikimedia.org/wiki/File:Pancakes_with_fruit.jpg
+  author: "Nightcrafter"
+  license: CC BY-SA 4.0
+
+pastel-de-carne.jpg:
+  source: https://commons.wikimedia.org/wiki/File:MeatloafWithSauce.jpg
+  author: "Renee Comet (photographer)"
+  license: Public domain
+
+jambalaya.jpg:
+  source: https://commons.wikimedia.org/wiki/File:Jambalaya_-_3315899200.jpg
+  author: "Arnold Gatilao"
+  license: CC BY 2.0
+
+gumbo-de-pollo-y-salchicha.jpg:
+  source: https://commons.wikimedia.org/wiki/File:New_Orleans_Gumbo_-_3.jpg
+  author: "HarshLight"
+  license: CC BY 2.0
+
+ensalada-de-col.jpg:
+  source: https://commons.wikimedia.org/wiki/File:Ensalada_de_col_o_ensalada_americana.jpg
+  author: "Avicentegil"
+  license: CC BY-SA 4.0
+
+tarta-de-manzana.jpg:
+  source: https://commons.wikimedia.org/wiki/File:Apple_cake_with_vanilla_ice_cream_2.jpg
+  author: "W.carter"
+  license: CC0 1.0
+
+galletas-con-pepitas-de-chocolate.jpg:
+  source: https://commons.wikimedia.org/wiki/File:Chocolate_chip_cookie_(5685549754).jpg
+  author: "Lara604"
+  license: CC BY 2.0
+
+tarta-de-queso-de-nueva-york.jpg:
+  source: https://commons.wikimedia.org/wiki/File:Baked_cheesecake_with_raspberries_and_blueberries.jpg
+  author: "zingyyellow"
+  license: CC BY 2.0
+
+philly-cheesesteak.jpg:
+  source: https://commons.wikimedia.org/wiki/File:Philly_Cheesesteak_-_5449870218.jpg
+  author: "JoshBerglund19"
+  license: CC BY 2.0
+
+ensalada-cobb.jpg:
+  source: https://commons.wikimedia.org/wiki/File:Cobb_salad,_21_July_2008.jpg
+  author: "Marilyn C. Cole"
+  license: CC BY-SA 2.0
+
+huevos-rellenos-a-la-diabla.jpg:
+  source: https://commons.wikimedia.org/wiki/File:Deviled_eggs_closeup.jpg
+  author: "Michele Ursino"
+  license: CC BY-SA 2.0
+
+alubias-al-horno-de-boston.jpg:
+  source: https://commons.wikimedia.org/wiki/File:Baked_beans_in_tomato_sauce.jpg
+  author: "Mk2010"
+  license: CC BY-SA 3.0
+
+bizcocho-de-platano.jpg:
+  source: https://commons.wikimedia.org/wiki/File:Banana_bread_slices.jpg
+  author: "Shisma"
+  license: CC BY 4.0
+
+tarta-de-lima-de-los-cayos.jpg:
+  source: https://commons.wikimedia.org/wiki/File:A_Decorated_Key_Lime_Pie_From_Publix.jpg
+  author: "Southernscholar at English Wikipedia"
+  license: Public domain
+

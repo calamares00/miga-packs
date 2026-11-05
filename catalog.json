@@ -243,9 +243,9 @@
       "authorGithub": "calamares00",
       "description": "La cocina casera de Japón: sopa de miso, pollo teriyaki, gyoza, ramen, tonkatsu, oyakodon, onigiri, tamagoyaki, okonomiyaki, yakitori, tempura, makis, karaage, nikujaga, yakisoba, gyudon, curry japonés y dorayaki. Con el dashi y las salsas de base explicados paso a paso.",
       "coverImageUrl": "packs/cocina-japonesa/cover.jpg",
-      "latestVersion": 1,
+      "latestVersion": 2,
       "recipeCount": 20,
-      "downloadUrl": "dist/cocina-japonesa-v1.zip",
+      "downloadUrl": "dist/cocina-japonesa-v2.zip",
       "language": "es"
     },
     {
@@ -412,9 +412,9 @@
       "authorGithub": "calamares00",
       "description": "Japanese home cooking: miso soup, chicken teriyaki, gyoza, ramen, tonkatsu, oyakodon, onigiri, tamagoyaki, okonomiyaki, yakitori, tempura, maki rolls, karaage, nikujaga, yakisoba, gyudon, Japanese curry and dorayaki. With dashi and the basic sauces explained step by step.",
       "coverImageUrl": "packs/japanese-cooking/cover.jpg",
-      "latestVersion": 1,
+      "latestVersion": 2,
       "recipeCount": 20,
-      "downloadUrl": "dist/japanese-cooking-v1.zip",
+      "downloadUrl": "dist/japanese-cooking-v2.zip",
       "language": "en"
     },
     {

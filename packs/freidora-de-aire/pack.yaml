@@ -1,6 +1,6 @@
 id: freidora-de-aire
-version: 1
-updated: 2026-10-31
+version: 2
+updated: 2026-11-05
 language: es
 name: Freidora de aire
 series: Electrodomésticos
@@ -20,6 +20,7 @@ defaults:
 recipes:
 
   - name: Patatas fritas en freidora de aire
+    photo: freidora-de-aire/patatas-fritas-en-freidora-de-aire.jpg
     category: Verduras
     difficulty: EASY
     prep: 10
@@ -42,6 +43,7 @@ recipes:
       - Sala nada más sacarlas y espolvorea el pimentón si quieres.
 
   - name: Alitas de pollo crujientes
+    photo: freidora-de-aire/alitas-de-pollo-crujientes.jpg
     category: Carnes
     difficulty: EASY
     prep: 5
@@ -64,6 +66,7 @@ recipes:
       - Dales la vuelta, sube a 200 °C y cocina 8-10 minutos más, hasta que la piel esté dorada y crujiente.
 
   - name: Contramuslos de pollo al limón y romero
+    photo: freidora-de-aire/contramuslos-de-pollo-al-limon-y-romero.jpg
     category: Carnes
     difficulty: EASY
     prep: 5
@@ -87,6 +90,7 @@ recipes:
       - Dales la vuelta y cocina 10-12 minutos más, hasta que la piel esté dorada y el jugo salga transparente.
 
   - name: Nuggets de pollo caseros
+    photo: freidora-de-aire/nuggets-de-pollo-caseros.jpg
     category: Carnes
     difficulty: EASY
     prep: 15
@@ -133,6 +137,7 @@ recipes:
       - Coloca los lomos con la piel hacia abajo y cocina a 190 °C durante 8-10 minutos, según el grosor.
 
   - name: Gambas rebozadas con panko
+    photo: freidora-de-aire/gambas-rebozadas-con-panko.jpg
     category: Pescados y mariscos
     difficulty: EASY
     prep: 15
@@ -159,6 +164,7 @@ recipes:
       - Sirve con la mayonesa mezclada con la sriracha.
 
   - name: Varitas de merluza caseras
+    photo: freidora-de-aire/varitas-de-merluza-caseras.jpg
     category: Pescados y mariscos
     difficulty: EASY
     prep: 15
@@ -182,6 +188,7 @@ recipes:
       - Cocina a 200 °C durante 10 minutos, dándoles la vuelta con cuidado a mitad de tiempo.
 
   - name: Coles de Bruselas crujientes
+    photo: freidora-de-aire/coles-de-bruselas-crujientes.jpg
     category: Verduras
     difficulty: EASY
     prep: 5
@@ -225,6 +232,7 @@ recipes:
       - Sirve con unas gotas de limón.
 
   - name: Gajos de boniato especiados
+    photo: freidora-de-aire/gajos-de-boniato-especiados.jpg
     category: Verduras
     difficulty: EASY
     prep: 5
@@ -245,6 +253,7 @@ recipes:
       - Cocina a 190 °C durante 18-20 minutos, agitando la cesta a mitad de tiempo, hasta que estén tiernos por dentro y dorados por fuera.
 
   - name: Calabacín rebozado con parmesano
+    photo: freidora-de-aire/calabacin-rebozado-con-parmesano.jpg
     category: Verduras
     difficulty: EASY
     prep: 10
@@ -268,6 +277,7 @@ recipes:
       - Cocina a 200 °C durante 8-10 minutos, dándole la vuelta a mitad de tiempo.
 
   - name: Champiñones rellenos
+    photo: freidora-de-aire/champinones-rellenos.jpg
     category: Entrantes
     difficulty: EASY
     prep: 10
@@ -290,6 +300,7 @@ recipes:
       - Cocina a 180 °C durante 8-10 minutos, hasta que estén tiernos y dorados por encima.
 
   - name: Garbanzos crujientes especiados
+    photo: freidora-de-aire/garbanzos-crujientes-especiados.jpg
     category: Legumbres
     difficulty: EASY
     prep: 5
@@ -311,6 +322,7 @@ recipes:
       - Mézclalos con el aceite y las especias y cocina 4-5 minutos más, hasta que estén crujientes.
 
   - name: Albóndigas en freidora de aire
+    photo: freidora-de-aire/albondigas-en-freidora-de-aire.jpg
     category: Carnes
     difficulty: EASY
     prep: 15
@@ -335,6 +347,7 @@ recipes:
       - Sírvelas solas o termínalas 5 minutos en la salsa de tomate que más te guste.
 
   - name: Hamburguesas caseras
+    photo: freidora-de-aire/hamburguesas-caseras.jpg
     category: Carnes
     difficulty: EASY
     prep: 10
@@ -362,6 +375,7 @@ recipes:
       - Tuesta los panes 2 minutos en la freidora y monta las hamburguesas con la lechuga, el tomate y la cebolla.
 
   - name: Costillas de cerdo con miel y mostaza
+    photo: freidora-de-aire/costillas-de-cerdo-con-miel-y-mostaza.jpg
     category: Carnes
     difficulty: MEDIUM
     prep: 10
@@ -384,6 +398,7 @@ recipes:
       - Sube a 200 °C y cocina 8-10 minutos más, pintándolas otra vez a mitad de tiempo, hasta que estén caramelizadas.
 
   - name: Huevos duros en freidora de aire
+    photo: freidora-de-aire/huevos-duros-en-freidora-de-aire.jpg
     category: Huevos
     difficulty: EASY
     prep: 1
@@ -401,6 +416,7 @@ recipes:
       - Pásalos a un bol con agua y hielo 5 minutos para cortar la cocción y pélalos.
 
   - name: Pan de ajo
+    photo: freidora-de-aire/pan-de-ajo.jpg
     category: Panes y masas
     difficulty: EASY
     prep: 5
@@ -422,6 +438,7 @@ recipes:
       - Cocina a 180 °C durante 5-6 minutos, hasta que estén dorados.
 
   - name: Manzanas asadas con canela
+    photo: freidora-de-aire/manzanas-asadas-con-canela.jpg
     category: Postres
     difficulty: EASY
     prep: 5
@@ -442,6 +459,7 @@ recipes:
       - Cocina a 180 °C durante 12-15 minutos, hasta que estén tiernas. Sírvelas templadas.
 
   - name: Brownie en freidora de aire
+    photo: freidora-de-aire/brownie-en-freidora-de-aire.jpg
     category: Postres
     difficulty: EASY
     prep: 10

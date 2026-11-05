@@ -1,0 +1,98 @@
+# Origin of every photo in this folder: source page, author and licence (CC0 1.0, Public domain,
+# CC BY x.y or CC BY-SA x.y). tools/build.py refuses a recipe photo without an entry here.
+
+pollo-kung-pao.jpg:
+  source: https://commons.wikimedia.org/wiki/File:Kung_Pao_Chicken_at_Yujiayan_Restaurant_(20230510123120).jpg
+  author: "N509FZ"
+  license: CC BY-SA 4.0
+
+mapo-tofu.jpg:
+  source: https://commons.wikimedia.org/wiki/File:Authentic_Mapo_Tofu.jpg
+  author: "Sichuanfoodlover"
+  license: CC BY-SA 4.0
+
+jiaozi-de-cerdo-y-col.jpg:
+  source: https://commons.wikimedia.org/wiki/File:Dumplings_(jiaozhi)_(Pork_and_napa_cabbage).jpg
+  author: "NeoBatfreak"
+  license: CC BY-SA 4.0
+
+cerdo-agridulce.jpg:
+  source: https://commons.wikimedia.org/wiki/File:Sweet-and-sour_pork.jpg
+  author: "Lusheeta~commonswiki"
+  license: CC BY-SA 3.0
+
+sopa-agripicante.jpg:
+  source: https://commons.wikimedia.org/wiki/File:Hot-and-Sour-Soup-Bowl.jpg
+  author: "Evan-Amos"
+  license: Public domain
+
+sopa-wonton.jpg:
+  source: https://commons.wikimedia.org/wiki/File:Sopa_de_Wanton.jpg
+  author: "Francesc Fort"
+  license: CC BY-SA 4.0
+
+chow-mein-de-pollo.jpg:
+  source: https://commons.wikimedia.org/wiki/File:Chicken_Chow_Mein.JPG
+  author: "Miansari66"
+  license: CC0 1.0
+
+sopa-de-huevo.jpg:
+  source: https://commons.wikimedia.org/wiki/File:Egg_drop_soup.jpg
+  author: "GeeJo"
+  license: CC BY-SA 2.0
+
+hong-shao-rou.jpg:
+  source: https://commons.wikimedia.org/wiki/File:Red_braised_pork_belly_%E7%BA%A2%E7%83%A7%E8%82%89_h%C3%B3ngsh%C4%81or%C3%B2u_23_January_2025_Filipinas4.jpg
+  author: "Valenzuela400"
+  license: CC BY-SA 4.0
+
+dan-dan-mian.jpg:
+  source: https://commons.wikimedia.org/wiki/File:Dan_dan_mian,_dan_dan_noodles,_makaron_dandan.jpg
+  author: "MOs810"
+  license: CC BY-SA 3.0
+
+tortitas-de-cebolleta.jpg:
+  source: https://commons.wikimedia.org/wiki/File:Scallion_pancake_(4354349219).jpg
+  author: "Karen and Brad Emerson"
+  license: CC BY 2.0
+
+cerdo-dos-veces-cocinado.jpg:
+  source: https://commons.wikimedia.org/wiki/File:Twice-cooked_Pork_%E5%9B%9E%E9%94%85%E8%82%89_(1648213963).jpg
+  author: "Alpha from Melbourne, Australia"
+  license: CC BY-SA 2.0
+
+ensalada-de-pepino-aplastado.jpg:
+  source: https://commons.wikimedia.org/wiki/File:Pine_and_Crane_DTLA_-_smashed_cucumber_salad.jpg
+  author: "Benoît Prieur"
+  license: CC0 1.0
+
+rollitos-de-primavera.jpg:
+  source: https://commons.wikimedia.org/wiki/File:Deep_Fried_Spring_Roll.jpg
+  author: "Hiroooooo"
+  license: CC BY-SA 4.0
+
+char-siu.jpg:
+  source: https://commons.wikimedia.org/wiki/File:Char_Siu_and_Siu_Yuk_in_Tai_Po.jpg
+  author: "Peachyeung316"
+  license: CC BY-SA 4.0
+
+judias-verdes-salteadas-en-seco.jpg:
+  source: https://commons.wikimedia.org/wiki/File:Xiang_Yuan,_New_Southgate,_London_(6946921290).jpg
+  author: "Ewan Munro from London, UK"
+  license: CC BY-SA 2.0
+
+tomate-con-huevo.jpg:
+  source: https://commons.wikimedia.org/wiki/File:%E3%83%88%E3%83%9E%E3%83%88%E3%81%AE%E5%8D%B5%E7%82%92%E3%82%81.jpg
+  author: "Suginami"
+  license: CC0 1.0
+
+pescado-al-vapor-con-jengibre-y-cebolleta.jpg:
+  source: https://commons.wikimedia.org/wiki/File:Ginger_Scallion_Red_Perch_(50-366)_(25058329532).jpg
+  author: "Tim Sackton from Somerville, MA"
+  license: CC BY-SA 2.0
+
+congee-de-pollo-y-jengibre.jpg:
+  source: https://commons.wikimedia.org/wiki/File:Chinese_rice_congee.jpg
+  author: "Daiju Azuma"
+  license: CC BY-SA 2.5
+

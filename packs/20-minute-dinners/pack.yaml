@@ -1,6 +1,6 @@
 id: 20-minute-dinners
-version: 1
-updated: 2026-10-31
+version: 2
+updated: 2026-11-05
 language: en
 name: 20-minute dinners
 series: Everyday cooking
@@ -19,6 +19,7 @@ defaults:
 recipes:
 
   - name: Spinach and cheese omelette
+    photo: cenas-en-20-minutos/tortilla-francesa-con-espinacas-y-queso.jpg
     category: Eggs
     difficulty: EASY
     prep: 5
@@ -40,6 +41,7 @@ recipes:
       - Fold the omelette in half and cook for 1 more minute. Serve it soft in the middle.
 
   - name: Scrambled eggs with mushrooms and ham
+    photo: cenas-en-20-minutos/revuelto-de-champinones-y-jamon.jpg
     category: Eggs
     difficulty: EASY
     prep: 5
@@ -63,6 +65,7 @@ recipes:
       - Sprinkle with the parsley and serve straight away.
 
   - name: Spaghetti with garlic, oil and chilli
+    photo: cenas-en-20-minutos/espaguetis-con-ajo-aceite-y-guindilla.jpg
     category: Pasta
     difficulty: EASY
     prep: 3
@@ -86,6 +89,7 @@ recipes:
       - Toss for 1 minute so the sauce comes together, add the parsley and serve.
 
   - name: Pasta with cherry tomatoes and basil
+    photo: cenas-en-20-minutos/pasta-con-tomates-cherry-y-albahaca.jpg
     category: Pasta
     difficulty: EASY
     prep: 5
@@ -108,6 +112,7 @@ recipes:
       - Finish with the basil, torn by hand, and the Parmesan.
 
   - name: Griddled salmon with asparagus
+    photo: cenas-en-20-minutos/salmon-a-la-plancha-con-esparragos.jpg
     category: Fish and seafood
     difficulty: EASY
     prep: 5
@@ -152,6 +157,7 @@ recipes:
       - Return the hake to the pan, sprinkle with the parsley and cook for 2 more minutes, shaking the pan so the sauce thickens.
 
   - name: Chicken and vegetable stir-fry
+    photo: cenas-en-20-minutos/wok-de-pollo-con-verduras.jpg
     category: Meat
     difficulty: EASY
     prep: 8
@@ -178,6 +184,7 @@ recipes:
       - Serve topped with sesame seeds.
 
   - name: Lemon chicken with couscous
+    photo: cenas-en-20-minutos/pollo-al-limon-con-cuscus.jpg
     category: Meat
     difficulty: EASY
     prep: 5
@@ -205,6 +212,7 @@ recipes:
       - Fluff up the couscous with a fork and the butter and serve it with the chicken and its sauce.
 
   - name: Beef fajitas
+    photo: cenas-en-20-minutos/fajitas-de-ternera.jpg
     category: Meat
     difficulty: EASY
     prep: 8
@@ -230,6 +238,7 @@ recipes:
       - Warm the tortillas in another pan and fill them with the mixture and a spoonful of soured cream.
 
   - name: Pork loin with honey mustard sauce
+    photo: cenas-en-20-minutos/lomo-con-salsa-de-mostaza-y-miel.jpg
     category: Meat
     difficulty: EASY
     prep: 3
@@ -251,6 +260,7 @@ recipes:
       - Return the pork to the pan for 1 minute to coat it and serve with the sauce.
 
   - name: Egg fried rice with peas
+    photo: cenas-en-20-minutos/arroz-salteado-con-huevo-y-guisantes.jpg
     category: Rice
     difficulty: EASY
     prep: 5
@@ -274,6 +284,7 @@ recipes:
       - Add the rice and soy sauce and stir-fry over a high heat for 3-4 minutes, until the rice is hot and loose.
 
   - name: Gnocchi with butter and sage
+    photo: cenas-en-20-minutos/noquis-con-mantequilla-y-salvia.jpg
     category: Pasta
     difficulty: EASY
     prep: 2
@@ -296,6 +307,7 @@ recipes:
       - Add the drained gnocchi to the pan, toss for 1 minute and serve with Parmesan and pepper.
 
   - name: Quick courgette soup
+    photo: cenas-en-20-minutos/crema-de-calabacin-expres.jpg
     category: Soups
     difficulty: EASY
     prep: 5
@@ -318,6 +330,7 @@ recipes:
       - Blend with the cheese triangles until smooth. Season to taste.
 
   - name: Quick noodle soup
+    photo: cenas-en-20-minutos/sopa-de-fideos-rapida.jpg
     category: Soups
     difficulty: EASY
     prep: 2
@@ -337,6 +350,7 @@ recipes:
       - Serve with the chopped egg, the ham and a few mint leaves.
 
   - name: Chickpea and tuna salad
+    photo: cenas-en-20-minutos/ensalada-de-garbanzos-con-atun.jpg
     category: Salads
     difficulty: EASY
     prep: 10
@@ -361,6 +375,7 @@ recipes:
       - Dress with the oil, vinegar and salt just before serving.
 
   - name: Chicken Caesar salad
+    photo: cenas-en-20-minutos/ensalada-cesar-con-pollo.jpg
     category: Salads
     difficulty: EASY
     prep: 10
@@ -389,6 +404,7 @@ recipes:
       - Tear up the lettuce and serve it with the chicken, croutons, Parmesan and dressing.
 
   - name: Avocado toast with egg
+    photo: cenas-en-20-minutos/tostas-de-aguacate-con-huevo.jpg
     category: Eggs
     difficulty: EASY
     prep: 5
@@ -411,6 +427,7 @@ recipes:
       - Put an egg on each toast and finish with flaky salt and chilli flakes.
 
   - name: Tortilla wrap pizza
+    photo: cenas-en-20-minutos/pizza-de-tortilla-de-trigo.jpg
     category: Breads and doughs
     difficulty: EASY
     prep: 5
@@ -433,6 +450,7 @@ recipes:
       - Sprinkle with the oregano and cut into slices.
 
   - name: Chicken and avocado wrap
+    photo: cenas-en-20-minutos/wrap-de-pollo-y-aguacate.jpg
     category: Meat
     difficulty: EASY
     prep: 10
@@ -457,6 +475,7 @@ recipes:
       - Roll them up tightly and cut them in half on the diagonal.
 
   - name: Prawns with sautéed courgette
+    photo: cenas-en-20-minutos/gambas-salteadas-con-calabacin.jpg
     category: Fish and seafood
     difficulty: EASY
     prep: 5

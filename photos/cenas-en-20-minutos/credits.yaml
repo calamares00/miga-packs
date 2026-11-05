@@ -1,0 +1,98 @@
+# Origin of every photo in this folder: source page, author and licence (CC0 1.0, Public domain,
+# CC BY x.y or CC BY-SA x.y). tools/build.py refuses a recipe photo without an entry here.
+
+tortilla-francesa-con-espinacas-y-queso.jpg:
+  source: https://commons.wikimedia.org/wiki/File:346_-_Mon_Ami_Gabi.jpg
+  author: "Laura H-B"
+  license: CC BY-SA 2.0
+
+revuelto-de-champinones-y-jamon.jpg:
+  source: https://commons.wikimedia.org/wiki/File:Revuelto_de_huevo,_setas_y_jam%C3%B3n_serrano.jpg
+  author: "Juan Emilio Prades Bel"
+  license: CC BY 4.0
+
+espaguetis-con-ajo-aceite-y-guindilla.jpg:
+  source: https://commons.wikimedia.org/wiki/File:Spaghetti_aglio_e_olio_1.jpg
+  author: "10Rosso"
+  license: CC BY 2.0
+
+pasta-con-tomates-cherry-y-albahaca.jpg:
+  source: https://commons.wikimedia.org/wiki/File:Spaghetti_with_cherry_tomatoes_and_cashew_nuts_(20142599775).jpg
+  author: "Luca Nebuloni from Milan, Italy"
+  license: CC BY 2.0
+
+salmon-a-la-plancha-con-esparragos.jpg:
+  source: https://commons.wikimedia.org/wiki/File:Grilled_salmon_and_asparagus_on_rice_-_Boston,_Massachusetts.jpg
+  author: "Daderot"
+  license: CC0 1.0
+
+wok-de-pollo-con-verduras.jpg:
+  source: https://commons.wikimedia.org/wiki/File:Chicken_and_Vegetable_Stir-Fry_(15914100572).jpg
+  author: "Yummy O Yummy"
+  license: CC BY 2.0
+
+pollo-al-limon-con-cuscus.jpg:
+  source: https://commons.wikimedia.org/wiki/File:Couscous_with_Chicken_and_Vegetable_Stew.JPG
+  author: "Miansari66"
+  license: CC0 1.0
+
+fajitas-de-ternera.jpg:
+  source: https://commons.wikimedia.org/wiki/File:Beef_Fajitas_Costa_Rica.JPG
+  author: "Eric T Gunther"
+  license: CC BY-SA 3.0
+
+lomo-con-salsa-de-mostaza-y-miel.jpg:
+  source: https://commons.wikimedia.org/wiki/File:%C3%89chine_de_porc_du_ventoux_sauce_moutarde.JPG
+  author: "Véronique PAGNIER"
+  license: CC BY-SA 3.0
+
+arroz-salteado-con-huevo-y-guisantes.jpg:
+  source: https://commons.wikimedia.org/wiki/File:Egg_Fried_Rice.jpg
+  author: "Gaurav Dhwaj Khadka"
+  license: CC BY-SA 4.0
+
+noquis-con-mantequilla-y-salvia.jpg:
+  source: https://commons.wikimedia.org/wiki/File:Sage_brown_butter_gnocchi_with_Italian_green_beans_(3557511131).jpg
+  author: "Karen and Brad Emerson"
+  license: CC BY 2.0
+
+crema-de-calabacin-expres.jpg:
+  source: https://commons.wikimedia.org/wiki/File:Zucchini_soup.JPG
+  author: "Sb2s3"
+  license: CC BY-SA 4.0
+
+sopa-de-fideos-rapida.jpg:
+  source: https://commons.wikimedia.org/wiki/File:Sopa_de_fideos-2008.jpg
+  author: "Daniel Lobo"
+  license: CC BY 2.0
+
+ensalada-de-garbanzos-con-atun.jpg:
+  source: https://commons.wikimedia.org/wiki/File:Chickpea_Chop_Salad_(9484308160).jpg
+  author: "Cajsa Lilliehook from Portland"
+  license: CC BY-SA 2.0
+
+ensalada-cesar-con-pollo.jpg:
+  source: https://commons.wikimedia.org/wiki/File:Chicken_Caesar_Salad_at_French_Market_Restaurant.jpg
+  author: "pattyonflickr"
+  license: CC BY 2.0
+
+tostas-de-aguacate-con-huevo.jpg:
+  source: https://commons.wikimedia.org/wiki/File:Avocado_toast_with_eggs_(28508171495).jpg
+  author: "Luca Nebuloni from Milan, Italy"
+  license: CC BY 2.0
+
+pizza-de-tortilla-de-trigo.jpg:
+  source: https://commons.wikimedia.org/wiki/File:Tortilla_pizza.jpg
+  author: "jeffreyw"
+  license: CC BY 2.0
+
+wrap-de-pollo-y-aguacate.jpg:
+  source: https://commons.wikimedia.org/wiki/File:Smoked_chicken_and_avocado_wrap.jpg
+  author: "Takeaway"
+  license: CC BY-SA 3.0
+
+gambas-salteadas-con-calabacin.jpg:
+  source: https://commons.wikimedia.org/wiki/File:HK_%E9%87%91%E9%90%98_Admiralty_%E9%A6%99%E6%B8%AF%E8%90%AC%E8%B1%AA%E9%85%92%E5%BA%97_JW_Marriott_Hotel_%E8%87%AA%E5%8A%A9%E9%A4%90%E5%BB%B3_buffet_restaurant_JW_Cafe_food_September_2022_Px3_103.jpg
+  author: "TSCHEAN SUWHM MEIU"
+  license: CC BY-SA 4.0
+

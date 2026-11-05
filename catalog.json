@@ -165,9 +165,9 @@
       "authorGithub": "calamares00",
       "description": "La cocina de las regiones de Colombia: bandeja paisa, frijoles antioqueños, ajiaco santafereño, sancocho, arepas, empanadas, patacones, hogao, ají, arroz con pollo, changua, pandebono, buñuelos, natilla, posta negra cartagenera, mote de queso, arroz con coco, cazuela de mariscos, sobrebarriga y limonada de coco. Con equivalencias para los ingredientes menos habituales fuera de Colombia.",
       "coverImageUrl": "packs/cocina-colombiana/cover.jpg",
-      "latestVersion": 1,
+      "latestVersion": 2,
       "recipeCount": 20,
-      "downloadUrl": "dist/cocina-colombiana-v1.zip",
+      "downloadUrl": "dist/cocina-colombiana-v2.zip",
       "language": "es"
     },
     {
@@ -321,9 +321,9 @@
       "authorGithub": "calamares00",
       "description": "Cooking from Colombia's regions: bandeja paisa, Antioquian beans, ajiaco, sancocho, arepas, empanadas, patacones, hogao, ají, arroz con pollo, changua, pandebono, buñuelos, natilla, posta negra, mote de queso, coconut rice, seafood casserole, sobrebarriga and coconut lemonade. With substitutes for the ingredients that are harder to find outside Colombia.",
       "coverImageUrl": "packs/colombian-cooking/cover.jpg",
-      "latestVersion": 1,
+      "latestVersion": 2,
       "recipeCount": 20,
-      "downloadUrl": "dist/colombian-cooking-v1.zip",
+      "downloadUrl": "dist/colombian-cooking-v2.zip",
       "language": "en"
     },
     {

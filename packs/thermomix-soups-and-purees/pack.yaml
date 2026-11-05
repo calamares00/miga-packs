@@ -1,6 +1,6 @@
 id: thermomix-soups-and-purees
-version: 1
-updated: 2026-10-31
+version: 2
+updated: 2026-11-05
 language: en
 name: "Thermomix: soups and purées"
 series: Kitchen appliances
@@ -22,6 +22,7 @@ defaults:
 recipes:
 
   - name: Pumpkin soup
+    photo: thermomix-cremas-y-pures/crema-de-calabaza.jpg
     category: Soups
     difficulty: EASY
     prep: 10
@@ -49,6 +50,7 @@ recipes:
       - Add the cream and blend 1 min/speed 5-10, increasing the speed gradually. Season to taste.
 
   - name: Mixed vegetable soup
+    photo: thermomix-cremas-y-pures/crema-de-verduras.jpg
     category: Soups
     difficulty: EASY
     prep: 10
@@ -76,6 +78,7 @@ recipes:
       - Blend 1 min/speed 5-10, increasing gradually, and season to taste.
 
   - name: Mashed potatoes
+    photo: thermomix-cremas-y-pures/pure-de-patatas.jpg
     category: Vegetables
     difficulty: EASY
     prep: 10
@@ -98,6 +101,7 @@ recipes:
       - Add the butter and nutmeg and mix 20 sec/speed 3.5. Remove the butterfly and serve.
 
   - name: Vichyssoise
+    photo: thermomix-cremas-y-pures/vichyssoise.jpg
     category: Soups
     difficulty: EASY
     prep: 10
@@ -125,6 +129,7 @@ recipes:
       - Chill for at least 3 hours and serve with chives.
 
   - name: Mushroom soup
+    photo: thermomix-cremas-y-pures/crema-de-champinones.jpg
     category: Soups
     difficulty: EASY
     prep: 10
@@ -153,6 +158,7 @@ recipes:
       - Add the cream and blend 1 min/speed 5-10, increasing gradually.
 
   - name: Carrot and ginger soup
+    photo: thermomix-cremas-y-pures/crema-de-zanahoria-y-jengibre.jpg
     category: Soups
     difficulty: EASY
     prep: 10
@@ -179,6 +185,7 @@ recipes:
       - Add the orange juice and blend 1 min/speed 5-10, increasing gradually.
 
   - name: Broccoli soup
+    photo: thermomix-cremas-y-pures/crema-de-brocoli.jpg
     category: Soups
     difficulty: EASY
     prep: 10
@@ -203,6 +210,7 @@ recipes:
       - Add the cheese triangles and blend 1 min/speed 5-10, increasing gradually.
 
   - name: White asparagus soup
+    photo: thermomix-cremas-y-pures/crema-de-esparragos-blancos.jpg
     category: Soups
     difficulty: EASY
     prep: 10
@@ -228,6 +236,7 @@ recipes:
       - Add the cream and blend 1 min/speed 5-10, increasing gradually. Serve with the reserved asparagus, sliced.
 
   - name: Pea and mint soup
+    photo: thermomix-cremas-y-pures/crema-de-guisantes-y-menta.jpg
     category: Soups
     difficulty: EASY
     prep: 5
@@ -252,6 +261,7 @@ recipes:
       - Add the mint and cream and blend 1 min/speed 5-10, increasing gradually. Strain if you want it very smooth.
 
   - name: Tomato soup
+    photo: thermomix-cremas-y-pures/crema-de-tomate.jpg
     category: Soups
     difficulty: EASY
     prep: 10
@@ -278,6 +288,7 @@ recipes:
       - Add the basil and blend 1 min/speed 5-10, increasing gradually.
 
   - name: Red lentil soup
+    photo: thermomix-cremas-y-pures/crema-de-lentejas-rojas.jpg
     category: Legumes
     difficulty: EASY
     prep: 5
@@ -305,6 +316,7 @@ recipes:
       - Add the lemon juice and blend 40 sec/speed 5-10, increasing gradually.
 
   - name: Cauliflower soup
+    photo: thermomix-cremas-y-pures/crema-de-coliflor.jpg
     category: Soups
     difficulty: EASY
     prep: 10
@@ -330,6 +342,7 @@ recipes:
       - Add the milk and nutmeg and blend 1 min/speed 5-10, increasing gradually.
 
   - name: Spinach soup
+    photo: thermomix-cremas-y-pures/crema-de-espinacas.jpg
     category: Soups
     difficulty: EASY
     prep: 5
@@ -383,6 +396,7 @@ recipes:
       - Blend 1 min/speed 5-10, increasing gradually, and serve with smoked paprika.
 
   - name: Artichoke soup
+    photo: thermomix-cremas-y-pures/crema-de-alcachofas.jpg
     category: Soups
     difficulty: EASY
     prep: 20
@@ -408,6 +422,7 @@ recipes:
       - Blend 1 min/speed 5-10, increasing gradually. Strain if you want it very smooth.
 
   - name: Roasted red pepper soup
+    photo: thermomix-cremas-y-pures/crema-de-pimientos-rojos-asados.jpg
     category: Soups
     difficulty: EASY
     prep: 10
@@ -433,6 +448,7 @@ recipes:
       - Blend 1 min/speed 5-10, increasing gradually.
 
   - name: Chestnut soup
+    photo: thermomix-cremas-y-pures/crema-de-castanas.jpg
     category: Soups
     difficulty: EASY
     prep: 10
@@ -459,6 +475,7 @@ recipes:
       - Add the cream and blend 1 min/speed 5-10, increasing gradually.
 
   - name: Celeriac soup
+    photo: thermomix-cremas-y-pures/crema-de-apio-nabo.jpg
     category: Soups
     difficulty: EASY
     prep: 15
@@ -509,6 +526,7 @@ recipes:
       - Blend 1 min/speed 5-10, increasing gradually, and serve with a drizzle of oil.
 
   - name: Beetroot soup
+    photo: thermomix-cremas-y-pures/crema-de-remolacha.jpg
     category: Soups
     difficulty: EASY
     prep: 10

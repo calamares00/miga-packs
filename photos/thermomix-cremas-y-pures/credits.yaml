@@ -1,0 +1,93 @@
+# Origin of every photo in this folder: source page, author and licence (CC0 1.0, Public domain,
+# CC BY x.y or CC BY-SA x.y). tools/build.py refuses a recipe photo without an entry here.
+
+crema-de-calabaza.jpg:
+  source: https://commons.wikimedia.org/wiki/File:Crema_de_calabaza.JPG
+  author: "Laia Gil"
+  license: CC BY 3.0
+
+pure-de-patatas.jpg:
+  source: https://commons.wikimedia.org/wiki/File:MashedPotatoes.jpg
+  author: "Renee Comet (photographer)"
+  license: Public domain
+
+vichyssoise.jpg:
+  source: https://commons.wikimedia.org/wiki/File:Vichyssoise_potato_and_leek_cold_soup_bottles_Vikings_Luxury_Dinner_Buffet_26_January_2025_Philippines4.jpg
+  author: "Valenzuela400"
+  license: CC BY-SA 4.0
+
+crema-de-champinones.jpg:
+  source: https://commons.wikimedia.org/wiki/File:Cream_of_mushroom_soup.jpg
+  author: "MichalPL"
+  license: CC BY-SA 4.0
+
+crema-de-zanahoria-y-jengibre.jpg:
+  source: https://commons.wikimedia.org/wiki/File:Carrot_ginger_soup_with_sesame_oil_garnish.jpg
+  author: "James Cohen from San Francisco, U. S. of A."
+  license: CC BY 2.0
+
+crema-de-brocoli.jpg:
+  source: https://commons.wikimedia.org/wiki/File:Cream_of_broccoli_soup.jpg
+  author: "Alpha from Melbourne, Australia"
+  license: CC BY-SA 2.0
+
+crema-de-esparragos-blancos.jpg:
+  source: https://commons.wikimedia.org/wiki/File:Spargel-Suppe_(asparagus_soup).jpg
+  author: "Manfred&amp;Barbara Aulbach"
+  license: CC BY-SA 3.0
+
+crema-de-guisantes-y-menta.jpg:
+  source: https://commons.wikimedia.org/wiki/File:Courgette,_Pea_%26_Mint_Soup_-_Brooklands_Cafe_2026-05-15.jpg
+  author: "Andy Li"
+  license: CC0 1.0
+
+crema-de-lentejas-rojas.jpg:
+  source: https://commons.wikimedia.org/wiki/File:Mercimek_%C3%A7orbasi.jpg
+  author: "E4024"
+  license: CC BY-SA 4.0
+
+crema-de-coliflor.jpg:
+  source: https://commons.wikimedia.org/wiki/File:Vegan_cauliflower_soup_-_Receta_de_crema_de_coliflor_(5206366293).jpg
+  author: "Lablascovegmenu from London"
+  license: CC BY 2.0
+
+crema-de-espinacas.jpg:
+  source: https://commons.wikimedia.org/wiki/File:Watercress_and_spinach_soup_2.jpg
+  author: "Amelia Crook"
+  license: CC BY 2.0
+
+crema-de-alcachofas.jpg:
+  source: https://commons.wikimedia.org/wiki/File:Cream_of_artichoke.jpg
+  author: "E4024"
+  license: CC BY-SA 4.0
+
+crema-de-pimientos-rojos-asados.jpg:
+  source: https://commons.wikimedia.org/wiki/File:Roasted_Red_Pepper_and_Tomato_Soup.jpg
+  author: "Thriving Vegetarian"
+  license: CC BY 2.0
+
+crema-de-apio-nabo.jpg:
+  source: https://commons.wikimedia.org/wiki/File:-2021-11-08_Bowl_of_Celeriac_soup,_Trimingham.JPG
+  author: "Kolforn (Kolforn) I'd appreciate if you could mail me (Kolforn@gmail.com) if you want to use this picture out of the Wik"
+  license: CC BY-SA 4.0
+
+crema-de-remolacha.jpg:
+  source: https://commons.wikimedia.org/wiki/File:Home_cooked_beetroot_soup_during_the_COVID-19_pandemic_in_Brisbane,_Australia.jpg
+  author: "Kgbo"
+  license: CC BY-SA 4.0
+
+crema-de-verduras.jpg:
+  source: https://commons.wikimedia.org/wiki/File:Green_vegetable_soup.jpg
+  author: "Tiia Monto"
+  license: CC BY-SA 4.0
+
+crema-de-tomate.jpg:
+  source: https://commons.wikimedia.org/wiki/File:Tomato_soup.jpg
+  author: "GeeJo"
+  license: CC BY-SA 2.0
+
+crema-de-castanas.jpg:
+  source: https://commons.wikimedia.org/wiki/File:Chestnut_and_parsnip_soup.jpg
+  author: "Alpha from Melbourne, Australia"
+  license: CC BY-SA 2.0
+

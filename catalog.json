@@ -178,9 +178,9 @@
       "authorGithub": "calamares00",
       "description": "Un recorrido por las cocinas regionales de España: cocido madrileño, fabada, lentejas, marmitako, bacalao al pil pil, pollo al ajillo, arroz negro, fideuá, arroz al horno, escalivada, patatas a la riojana, caldo gallego, papas arrugadas con mojo, ajoblanco, empanada gallega, migas, rabo de toro, torrijas, arroz con leche y tarta de Santiago. Sin repetir los platos de los packs de cocina mediterránea, tapas y Navidad.",
       "coverImageUrl": "packs/cocina-espanola/cover.jpg",
-      "latestVersion": 1,
+      "latestVersion": 2,
       "recipeCount": 21,
-      "downloadUrl": "dist/cocina-espanola-v1.zip",
+      "downloadUrl": "dist/cocina-espanola-v2.zip",
       "language": "es"
     },
     {
@@ -490,9 +490,9 @@
       "authorGithub": "calamares00",
       "description": "A tour of Spain's regional cooking: cocido madrileño, fabada, lentil stew, marmitako, bacalao al pil pil, garlic chicken, black rice, fideuà, oven-baked rice, escalivada, Rioja-style potatoes, Galician broth, papas arrugadas with mojo, ajoblanco, Galician empanada, migas, oxtail stew, torrijas, rice pudding and Santiago almond cake. Without repeating the dishes in the Mediterranean, tapas and Christmas packs.",
       "coverImageUrl": "packs/spanish-cooking/cover.jpg",
-      "latestVersion": 1,
+      "latestVersion": 2,
       "recipeCount": 21,
-      "downloadUrl": "dist/spanish-cooking-v1.zip",
+      "downloadUrl": "dist/spanish-cooking-v2.zip",
       "language": "en"
     },
     {

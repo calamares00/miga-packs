@@ -100,9 +100,9 @@
       "authorGithub": "calamares00",
       "description": "Classics from Sichuan, Cantonese and northern Chinese cooking: kung pao chicken, mapo tofu, jiaozi, sweet and sour pork, hot and sour soup, wontons, chow mein, hong shao rou, dan dan noodles, char siu, steamed fish, spring rolls and congee. With the basic sauces and spices of the Chinese pantry.",
       "coverImageUrl": "packs/chinese-cooking/cover.jpg",
-      "latestVersion": 1,
+      "latestVersion": 2,
       "recipeCount": 20,
-      "downloadUrl": "dist/chinese-cooking-v1.zip",
+      "downloadUrl": "dist/chinese-cooking-v2.zip",
       "language": "en"
     },
     {
@@ -152,9 +152,9 @@
       "authorGithub": "calamares00",
       "description": "Clásicos de las cocinas de Sichuan, Cantón y el norte de China: pollo kung pao, mapo tofu, jiaozi, cerdo agridulce, sopa agripicante, wonton, chow mein, hong shao rou, dan dan mian, char siu, pescado al vapor, rollitos de primavera y congee. Con las salsas y especias básicas de la despensa china.",
       "coverImageUrl": "packs/cocina-china/cover.jpg",
-      "latestVersion": 1,
+      "latestVersion": 2,
       "recipeCount": 20,
-      "downloadUrl": "dist/cocina-china-v1.zip",
+      "downloadUrl": "dist/cocina-china-v2.zip",
       "language": "es"
     },
     {

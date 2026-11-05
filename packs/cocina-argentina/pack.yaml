@@ -1,6 +1,6 @@
 id: cocina-argentina
-version: 1
-updated: 2026-10-31
+version: 2
+updated: 2026-11-05
 language: es
 name: "Cocina del mundo: Argentina"
 series: Cocina del mundo
@@ -23,6 +23,7 @@ defaults:
 recipes:
 
   - name: Tira de asado
+    photo: cocina-argentina/tira-de-asado.jpg
     category: Carnes
     difficulty: MEDIUM
     prep: 60
@@ -45,6 +46,7 @@ recipes:
       - Córtala entre los huesos y sírvela con chimichurri y salsa criolla.
 
   - name: Chimichurri
+    photo: cocina-argentina/chimichurri.jpg
     category: Salsas
     difficulty: EASY
     prep: 10
@@ -69,6 +71,7 @@ recipes:
       - Incorpora el vinagre y el aceite, mezcla y pásalo a un frasco.
 
   - name: Salsa criolla
+    photo: cocina-argentina/salsa-criolla.jpg
     category: Salsas
     difficulty: EASY
     prep: 15
@@ -92,6 +95,7 @@ recipes:
       - Deja que repose 30 minutos antes de servir.
 
   - name: Choripán
+    photo: cocina-argentina/choripan.jpg
     category: Carnes
     difficulty: EASY
     prep: 5
@@ -113,6 +117,7 @@ recipes:
       - Pon cada chorizo en un pan con chimichurri y salsa criolla.
 
   - name: Provoleta
+    photo: cocina-argentina/provoleta.jpg
     category: Entrantes
     difficulty: EASY
     prep: 5
@@ -134,6 +139,7 @@ recipes:
       - Riega con el aceite y sirve enseguida con pan.
 
   - name: Empanadas criollas de carne
+    photo: cocina-argentina/empanadas-criollas-de-carne.jpg
     category: Entrantes
     difficulty: MEDIUM
     prep: 60
@@ -167,6 +173,7 @@ recipes:
       - Pinta con huevo y hornea 15-18 minutos, hasta que estén doradas.
 
   - name: Milanesa a la napolitana
+    photo: cocina-argentina/milanesa-a-la-napolitana.jpg
     category: Carnes
     difficulty: EASY
     prep: 20
@@ -195,6 +202,7 @@ recipes:
       - Espolvorea el orégano y gratina 5-8 minutos, hasta que el queso se funda.
 
   - name: Locro
+    photo: cocina-argentina/locro.jpg
     category: Legumbres
     difficulty: HARD
     prep: 30
@@ -229,6 +237,7 @@ recipes:
       - Sirve el locro con una cucharada de quiquirimichi por encima.
 
   - name: Matambre arrollado
+    photo: cocina-argentina/matambre-arrollado.jpg
     category: Carnes
     difficulty: MEDIUM
     prep: 30
@@ -282,6 +291,7 @@ recipes:
       - Ajusta de sal y azúcar, añade la albahaca y el queso y sirve cuando empiece a fundirse.
 
   - name: Carbonada criolla
+    photo: cocina-argentina/carbonada-criolla.jpg
     category: Carnes
     difficulty: MEDIUM
     prep: 25
@@ -312,6 +322,7 @@ recipes:
       - Añade los duraznos en trozos, cuece 5 minutos y ajusta de sal.
 
   - name: Ñoquis con tuco
+    photo: cocina-argentina/noquis-con-tuco.jpg
     category: Pastas
     difficulty: MEDIUM
     prep: 40
@@ -350,6 +361,7 @@ recipes:
           - Cuécelos en agua hirviendo con sal y sácalos cuando suban a la superficie. Sírvelos con el tuco y queso rallado.
 
   - name: Pastel de papa
+    photo: cocina-argentina/pastel-de-papa.jpg
     category: Carnes
     difficulty: EASY
     prep: 25
@@ -385,6 +397,7 @@ recipes:
       - Espolvorea el queso rallado y hornea 20-25 minutos, hasta que esté dorado.
 
   - name: Revuelto gramajo
+    photo: cocina-argentina/revuelto-gramajo.jpg
     category: Huevos
     difficulty: EASY
     prep: 15
@@ -410,6 +423,7 @@ recipes:
       - Incorpora las papas fritas, mezcla un momento para que no se ablanden y sirve con perejil.
 
   - name: Dulce de leche casero
+    photo: cocina-argentina/dulce-de-leche-casero.jpg
     category: Postres
     difficulty: EASY
     prep: 5
@@ -430,6 +444,7 @@ recipes:
       - Añade la vainilla y pásalo a frascos limpios. Espesa más al enfriarse.
 
   - name: Alfajores de maicena
+    photo: cocina-argentina/alfajores-de-maicena.jpg
     category: Postres
     difficulty: MEDIUM
     prep: 30
@@ -460,6 +475,7 @@ recipes:
       - Une las tapitas de dos en dos con dulce de leche y pasa el borde por coco rallado.
 
   - name: Pastafrola
+    photo: cocina-argentina/pastafrola.jpg
     category: Postres
     difficulty: EASY
     prep: 25
@@ -519,6 +535,7 @@ recipes:
       - Pinta con huevo y hornea a 200 °C 12-15 minutos. Hierve el azúcar con el agua 2 minutos y pinta las medialunas recién salidas del horno.
 
   - name: Tortas fritas
+    photo: cocina-argentina/tortas-fritas.jpg
     category: Panes y masas
     difficulty: EASY
     prep: 20
@@ -542,6 +559,7 @@ recipes:
       - Escúrrelos y espolvoréalos con azúcar.
 
   - name: Chipá
+    photo: cocina-argentina/chipa.jpg
     category: Panes y masas
     difficulty: EASY
     prep: 20

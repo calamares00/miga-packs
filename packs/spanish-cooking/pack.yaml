@@ -1,6 +1,6 @@
 id: spanish-cooking
-version: 1
-updated: 2026-10-31
+version: 2
+updated: 2026-11-05
 language: en
 name: "World cuisine: Spain"
 series: World cuisine
@@ -24,6 +24,7 @@ defaults:
 recipes:
 
   - name: Cocido madrileño
+    photo: cocina-espanola/cocido-madrileno.jpg
     category: Legumes
     difficulty: MEDIUM
     prep: 20
@@ -63,6 +64,7 @@ recipes:
       - Then serve the chickpeas with the vegetables and, finally, the meats cut into pieces.
 
   - name: Fabada asturiana
+    photo: cocina-espanola/fabada-asturiana.jpg
     category: Legumes
     difficulty: MEDIUM
     prep: 15
@@ -89,6 +91,7 @@ recipes:
       - Leave to rest for 30 minutes before serving, with the compango sliced on the side.
 
   - name: Lentil stew with chorizo
+    photo: cocina-espanola/lentejas-estofadas-con-chorizo.jpg
     category: Legumes
     difficulty: EASY
     prep: 15
@@ -116,6 +119,7 @@ recipes:
       - Simmer for 20 minutes, add the potato broken into chunks and the salt and simmer for 20 more minutes, until the lentils are tender.
 
   - name: Marmitako
+    photo: cocina-espanola/marmitako.jpg
     category: Fish and seafood
     difficulty: EASY
     prep: 20
@@ -144,6 +148,7 @@ recipes:
       - Turn off the heat, add the salted cubes of tuna, cover and leave for 5 minutes before serving.
 
   - name: Bacalao al pil pil
+    photo: cocina-espanola/bacalao-al-pil-pil.jpg
     category: Fish and seafood
     difficulty: HARD
     prep: 10
@@ -167,6 +172,7 @@ recipes:
       - Return the cod to the dish, swirl a little more and serve with the garlic and chilli on top.
 
   - name: Garlic chicken
+    photo: cocina-espanola/pollo-al-ajillo.jpg
     category: Meat
     difficulty: EASY
     prep: 10
@@ -191,6 +197,7 @@ recipes:
       - Uncover and let the sauce reduce for 5 minutes. Serve with chopped parsley.
 
   - name: Black rice
+    photo: cocina-espanola/arroz-negro.jpg
     category: Rice
     difficulty: MEDIUM
     prep: 20
@@ -220,6 +227,7 @@ recipes:
       - Leave to rest for 5 minutes covered with a tea towel and serve with aioli.
 
   - name: Fideuà
+    photo: cocina-espanola/fideua.jpg
     category: Pasta
     difficulty: MEDIUM
     prep: 20
@@ -251,6 +259,7 @@ recipes:
       - Leave to rest for 5 minutes and serve with aioli.
 
   - name: Oven-baked rice
+    photo: cocina-espanola/arroz-al-horno.jpg
     category: Rice
     difficulty: MEDIUM
     prep: 20
@@ -282,6 +291,7 @@ recipes:
       - Bake for 20 minutes, until the rice is cooked and the stock absorbed. Rest for 5 minutes.
 
   - name: Escalivada
+    photo: cocina-espanola/escalivada.jpg
     category: Vegetables
     difficulty: EASY
     prep: 15
@@ -306,6 +316,7 @@ recipes:
       - Arrange on a dish and dress with the oil, the chopped garlic if using, and the salt. Eat warm or cold.
 
   - name: Rioja-style potatoes
+    photo: cocina-espanola/patatas-a-la-riojana.jpg
     category: Vegetables
     difficulty: EASY
     prep: 15
@@ -334,6 +345,7 @@ recipes:
       - Simmer over a medium heat for 25-30 minutes, until the potatoes are tender and the broth has thickened. Rest for 5 minutes.
 
   - name: Castilian garlic soup
+    photo: cocina-espanola/sopa-castellana.jpg
     category: Soups
     difficulty: EASY
     prep: 10
@@ -360,6 +372,7 @@ recipes:
       - Crack the eggs into the soup, cover and let them set for 3-4 minutes, with runny yolks.
 
   - name: Galician broth
+    photo: cocina-espanola/caldo-gallego.jpg
     category: Soups
     difficulty: EASY
     prep: 15
@@ -385,6 +398,7 @@ recipes:
       - Simmer for 30 more minutes and season with salt. Let it rest before serving; it is even better the next day.
 
   - name: Papas arrugadas with mojo picón
+    photo: cocina-espanola/papas-arrugadas-con-mojo-picon.jpg
     category: Vegetables
     difficulty: EASY
     prep: 15
@@ -416,6 +430,7 @@ recipes:
       - Add the vinegar and oil little by little, mixing until it emulsifies. Serve the potatoes with the mojo.
 
   - name: Ajoblanco
+    photo: cocina-espanola/ajoblanco.jpg
     category: Soups
     difficulty: EASY
     prep: 15
@@ -443,6 +458,7 @@ recipes:
       - Serve with the peeled grapes and a drizzle of oil.
 
   - name: Galician tuna empanada
+    photo: cocina-espanola/empanada-gallega-de-atun.jpg
     category: Breads and doughs
     difficulty: MEDIUM
     prep: 60
@@ -487,6 +503,7 @@ recipes:
           - Brush with beaten egg and bake for 40-45 minutes, until golden.
 
   - name: Extremaduran migas
+    photo: cocina-espanola/migas-extremenas.jpg
     category: Breads and doughs
     difficulty: EASY
     prep: 15
@@ -512,6 +529,7 @@ recipes:
       - Add the paprika, garlic, pork belly, chorizo and pepper, mix and serve.
 
   - name: Oxtail stew
+    photo: cocina-espanola/rabo-de-toro.jpg
     category: Meat
     difficulty: MEDIUM
     prep: 20
@@ -544,6 +562,7 @@ recipes:
       - Take out the meat, blend and strain the sauce and put everything back together.
 
   - name: Torrijas
+    photo: cocina-espanola/torrijas.jpg
     category: Desserts
     difficulty: EASY
     prep: 15
@@ -569,6 +588,7 @@ recipes:
       - Drain them and coat in the sugar mixed with the cinnamon.
 
   - name: Rice pudding
+    photo: cocina-espanola/arroz-con-leche.jpg
     category: Desserts
     difficulty: EASY
     prep: 5
@@ -593,6 +613,7 @@ recipes:
       - Remove the cinnamon and lemon, divide between bowls and dust with ground cinnamon. Serve cold or warm.
 
   - name: Santiago almond cake
+    photo: cocina-espanola/tarta-de-santiago.jpg
     category: Desserts
     difficulty: EASY
     prep: 15

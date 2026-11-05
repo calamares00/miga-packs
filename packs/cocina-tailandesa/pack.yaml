@@ -1,6 +1,6 @@
 id: cocina-tailandesa
-version: 1
-updated: 2026-10-31
+version: 2
+updated: 2026-11-05
 language: es
 name: "Cocina del mundo: Tailandia"
 series: Cocina del mundo
@@ -24,6 +24,7 @@ defaults:
 recipes:
 
   - name: Pad thai
+    photo: cocina-tailandesa/pad-thai.jpg
     category: Pastas
     difficulty: MEDIUM
     prep: 30
@@ -62,6 +63,7 @@ recipes:
       - Incorpora los brotes de soja y el cebollino en trozos, saltea 30 segundos y sirve con cacahuetes, chile en polvo y lima.
 
   - name: Tom yum kung
+    photo: cocina-tailandesa/tom-yum-kung.jpg
     category: Sopas y cremas
     difficulty: EASY
     prep: 20
@@ -89,6 +91,7 @@ recipes:
       - Fuera del fuego, añade la salsa de pescado, el zumo de lima y el nam prik pao. Prueba y ajusta. Sirve con cilantro.
 
   - name: Tom kha gai
+    photo: cocina-tailandesa/tom-kha-gai.jpg
     category: Sopas y cremas
     difficulty: EASY
     prep: 15
@@ -117,6 +120,7 @@ recipes:
       - Fuera del fuego, añade la salsa de pescado, el azúcar y el zumo de lima. Sirve con cilantro.
 
   - name: Curry verde de pollo
+    photo: cocina-tailandesa/curry-verde-de-pollo.jpg
     category: Carnes
     difficulty: EASY
     prep: 15
@@ -144,6 +148,7 @@ recipes:
       - Sazona con la salsa de pescado y el azúcar. Añade la albahaca y el chile en tiras y sirve con arroz jazmín.
 
   - name: Curry massaman de ternera
+    photo: cocina-tailandesa/curry-massaman-de-ternera.jpg
     category: Carnes
     difficulty: MEDIUM
     prep: 20
@@ -172,6 +177,7 @@ recipes:
       - Cuece 40 minutos, hasta que las patatas estén tiernas. Sazona con el tamarindo, el azúcar y la salsa de pescado.
 
   - name: Curry panang de cerdo
+    photo: cocina-tailandesa/curry-panang-de-cerdo.jpg
     category: Carnes
     difficulty: EASY
     prep: 15
@@ -198,6 +204,7 @@ recipes:
       - Sirve con las hojas de lima en juliana finísima, el chile en tiras y la albahaca.
 
   - name: Som tam
+    photo: cocina-tailandesa/som-tam.jpg
     category: Ensaladas
     difficulty: EASY
     prep: 20
@@ -225,6 +232,7 @@ recipes:
       - Prueba y ajusta. Sirve enseguida con arroz glutinoso.
 
   - name: Larb gai
+    photo: cocina-tailandesa/larb-gai.jpg
     category: Ensaladas
     difficulty: EASY
     prep: 20
@@ -253,6 +261,7 @@ recipes:
       - Incorpora la menta, el cilantro y el arroz tostado y mezcla. Sirve templado con hojas de lechuga.
 
   - name: Arroz frito tailandés (khao pad)
+    photo: cocina-tailandesa/arroz-frito-tailandes-khao-pad.jpg
     category: Arroces
     difficulty: EASY
     prep: 10
@@ -284,6 +293,7 @@ recipes:
       - Sirve con rodajas de pepino y gajos de lima.
 
   - name: Pad kra pao
+    photo: cocina-tailandesa/pad-kra-pao.jpg
     category: Carnes
     difficulty: EASY
     prep: 10
@@ -314,6 +324,7 @@ recipes:
       - Sirve sobre arroz con el huevo frito encima.
 
   - name: Pad see ew
+    photo: cocina-tailandesa/pad-see-ew.jpg
     category: Pastas
     difficulty: EASY
     prep: 15
@@ -343,6 +354,7 @@ recipes:
       - Sirve con pimienta blanca.
 
   - name: Pollo con anacardos
+    photo: cocina-tailandesa/pollo-con-anacardos.jpg
     category: Carnes
     difficulty: EASY
     prep: 15
@@ -405,6 +417,7 @@ recipes:
       - Riega con el aliño y sirve enseguida.
 
   - name: Tortitas de pescado (tod mun pla)
+    photo: cocina-tailandesa/tortitas-de-pescado-tod-mun-pla.jpg
     category: Pescados y mariscos
     difficulty: MEDIUM
     prep: 30
@@ -463,6 +476,7 @@ recipes:
       - Fríe 1 minuto, dale la vuelta y fríe 30 segundos más. Escurre y sirve sobre el arroz con sriracha.
 
   - name: Khao man gai
+    photo: cocina-tailandesa/khao-man-gai.jpg
     category: Arroces
     difficulty: MEDIUM
     prep: 20
@@ -506,6 +520,7 @@ recipes:
       - Sirve el arroz con el pollo en lonchas, pepino, cilantro, la salsa y un cuenco del caldo caliente.
 
   - name: Pollo a la parrilla de Isan (gai yang)
+    photo: cocina-tailandesa/pollo-a-la-parrilla-de-isan-gai-yang.jpg
     category: Carnes
     difficulty: EASY
     prep: 20
@@ -532,6 +547,7 @@ recipes:
       - Sírvelo con salsa jaew, som tam y arroz glutinoso.
 
   - name: Salsa jaew
+    photo: cocina-tailandesa/salsa-jaew.jpg
     category: Salsas
     difficulty: EASY
     prep: 10
@@ -556,6 +572,7 @@ recipes:
       - Añade el chile en polvo, la chalota en láminas finas, el arroz tostado y el cilantro.
 
   - name: Mango con arroz glutinoso
+    photo: cocina-tailandesa/mango-con-arroz-glutinoso.jpg
     category: Postres
     difficulty: MEDIUM
     prep: 15
@@ -588,6 +605,7 @@ recipes:
       - Sirve el arroz con el mango pelado en lonchas, la salsa por encima y el sésamo.
 
   - name: Té tailandés helado (cha yen)
+    photo: cocina-tailandesa/te-tailandes-helado-cha-yen.jpg
     category: Bebidas
     difficulty: EASY
     prep: 5

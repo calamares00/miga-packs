@@ -1,0 +1,98 @@
+# Origin of every photo in this folder: source page, author and licence (CC0 1.0, Public domain,
+# CC BY x.y or CC BY-SA x.y). tools/build.py refuses a recipe photo without an entry here.
+
+sopa-de-miso.jpg:
+  source: https://commons.wikimedia.org/wiki/File:Miso_Soup_001.jpg
+  author: "Ocdp"
+  license: CC0 1.0
+
+pollo-teriyaki.jpg:
+  source: https://commons.wikimedia.org/wiki/File:Bowl_of_Teriyaki_chicken_and_beef_YakinikuCNE.jpg
+  author: "CNEcija12345"
+  license: CC BY-SA 4.0
+
+gyoza.jpg:
+  source: https://commons.wikimedia.org/wiki/File:Gyoza_no_Antei_-_3.jpg
+  author: "Enming Yan / 闫恩铭"
+  license: CC BY-SA 4.0
+
+ramen-de-shoyu.jpg:
+  source: https://commons.wikimedia.org/wiki/File:Torisoba_bij_Ramen_Yamaguchi_te_Nishi-Waseda,_-8_september_2017_a.jpg
+  author: "Tak H. uit Chiba, Japan"
+  license: CC BY-SA 2.0
+
+tonkatsu.jpg:
+  source: https://commons.wikimedia.org/wiki/File:Tonkatsu_by_ayustety_in_Tokyo.jpg
+  author: "ayustety from Tokyo, Japan"
+  license: CC BY-SA 2.0
+
+oyakodon.jpg:
+  source: https://commons.wikimedia.org/wiki/File:Oyakodon_003.jpg
+  author: "Ocdp"
+  license: CC0 1.0
+
+onigiri.jpg:
+  source: https://commons.wikimedia.org/wiki/File:Onigiri_001.jpg
+  author: "Ocdp"
+  license: CC0 1.0
+
+tamagoyaki.jpg:
+  source: https://commons.wikimedia.org/wiki/File:%E9%B3%A5%E7%84%BC%E3%81%8D%E5%B1%85%E9%85%92%E5%B1%8B_(39394233682).jpg
+  author: "極地狐"
+  license: CC BY 2.0
+
+okonomiyaki.jpg:
+  source: https://commons.wikimedia.org/wiki/File:Okonomiyaki_001.jpg
+  author: "ume-y"
+  license: CC BY 2.0
+
+yakitori.jpg:
+  source: https://commons.wikimedia.org/wiki/File:Yakitori_-_Tora.jpg
+  author: "Francesc Fort"
+  license: CC BY-SA 4.0
+
+tempura-de-verduras-y-gambas.jpg:
+  source: https://commons.wikimedia.org/wiki/File:Tempura_prawn_and_vegetable_soba_by_adactio_at_E-Kagen_in_Brighton.jpg
+  author: "adactio from E-Kagen Sushi &amp; Noodle Coffee Bar [1], Brighton, England"
+  license: CC BY 2.0
+
+makis-de-salmon-y-pepino.jpg:
+  source: https://commons.wikimedia.org/wiki/File:Fresh_and_delicious_maki_roll_from_Phengphian_Laogumnerd_Cuisine.jpg
+  author: "Phengphian Laogumnerd Cuisine"
+  license: CC BY-SA 4.0
+
+karaage.jpg:
+  source: https://commons.wikimedia.org/wiki/File:Chicken_karaage_003.jpg
+  author: "Ocdp"
+  license: CC0 1.0
+
+nikujaga.jpg:
+  source: https://commons.wikimedia.org/wiki/File:Braised_pork_and_potatoes_(3089327692).jpg
+  author: "Yumi Kimura from Yokohama, JAPAN"
+  license: CC BY-SA 2.0
+
+yakisoba.jpg:
+  source: https://commons.wikimedia.org/wiki/File:Yakisoba_-_01.jpg
+  author: "Quercus acuta"
+  license: CC BY-SA 4.0
+
+gyudon.jpg:
+  source: https://commons.wikimedia.org/wiki/File:Gyuu-don_001.jpg
+  author: "Ocdp"
+  license: CC0 1.0
+
+curry-japones.jpg:
+  source: https://commons.wikimedia.org/wiki/File:Beef_curry_rice_003.jpg
+  author: "Ocdp"
+  license: CC0 1.0
+
+agedashi-tofu.jpg:
+  source: https://commons.wikimedia.org/wiki/File:Agedashi_tofu_2.jpg
+  author: "Misaochan2"
+  license: CC BY-SA 4.0
+
+dorayaki.jpg:
+  source: https://commons.wikimedia.org/wiki/File:Dorayaki_004.jpg
+  author: "Ocdp"
+  license: CC0 1.0
+

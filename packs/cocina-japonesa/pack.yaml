@@ -1,6 +1,6 @@
 id: cocina-japonesa
-version: 1
-updated: 2026-10-31
+version: 2
+updated: 2026-11-05
 language: es
 name: "Cocina del mundo: Japón"
 series: Cocina del mundo
@@ -22,6 +22,7 @@ defaults:
 recipes:
 
   - name: Sopa de miso
+    photo: cocina-japonesa/sopa-de-miso.jpg
     category: Sopas y cremas
     difficulty: EASY
     prep: 10
@@ -49,6 +50,7 @@ recipes:
       - Disuelve el miso en un cazo con un poco de dashi caliente, incorpóralo a la sopa y apaga el fuego. Sirve con cebolleta picada.
 
   - name: Pollo teriyaki
+    photo: cocina-japonesa/pollo-teriyaki.jpg
     category: Carnes
     difficulty: EASY
     prep: 5
@@ -72,6 +74,7 @@ recipes:
       - Corta en tiras y sirve con arroz y sésamo por encima.
 
   - name: Gyoza
+    photo: cocina-japonesa/gyoza.jpg
     category: Entrantes
     difficulty: MEDIUM
     prep: 40
@@ -105,6 +108,7 @@ recipes:
       - Sirve con la salsa mezclada.
 
   - name: Ramen de shoyu
+    photo: cocina-japonesa/ramen-de-shoyu.jpg
     category: Sopas y cremas
     difficulty: MEDIUM
     prep: 20
@@ -148,6 +152,7 @@ recipes:
           - Llena los cuencos con el caldo caliente, añade los fideos y coloca encima el cerdo, el huevo partido por la mitad, el bambú, media hoja de nori y la cebolleta.
 
   - name: Tonkatsu
+    photo: cocina-japonesa/tonkatsu.jpg
     category: Carnes
     difficulty: EASY
     prep: 15
@@ -172,6 +177,7 @@ recipes:
       - Córtalas en tiras y sírvelas con la col en juliana muy fina y la salsa tonkatsu.
 
   - name: Oyakodon
+    photo: cocina-japonesa/oyakodon.jpg
     category: Arroces
     difficulty: EASY
     prep: 10
@@ -198,6 +204,7 @@ recipes:
       - Desliza la mezcla sobre el arroz caliente y termina con la cebolleta.
 
   - name: Onigiri
+    photo: cocina-japonesa/onigiri.jpg
     category: Arroces
     difficulty: EASY
     prep: 20
@@ -220,6 +227,7 @@ recipes:
       - Envuelve la base con una tira de nori justo antes de comerlos para que esté crujiente.
 
   - name: Tamagoyaki
+    photo: cocina-japonesa/tamagoyaki.jpg
     category: Huevos
     difficulty: MEDIUM
     prep: 5
@@ -243,6 +251,7 @@ recipes:
       - Da forma al rollo con una esterilla de bambú, deja que repose 5 minutos y córtalo en rodajas gruesas.
 
   - name: Okonomiyaki
+    photo: cocina-japonesa/okonomiyaki.jpg
     category: Panes y masas
     difficulty: EASY
     prep: 15
@@ -274,6 +283,7 @@ recipes:
       - Dale la vuelta otra vez, cubre con la salsa, la mayonesa en zigzag, el katsuobushi y el aonori. Repite con el resto de la masa.
 
   - name: Yakitori
+    photo: cocina-japonesa/yakitori.jpg
     category: Carnes
     difficulty: EASY
     prep: 20
@@ -300,6 +310,7 @@ recipes:
       - Píntalos con la tare y ásalos 1 minuto más por cada lado, dos veces, hasta que estén glaseados.
 
   - name: Tempura de verduras y gambas
+    photo: cocina-japonesa/tempura-de-verduras-y-gambas.jpg
     category: Entrantes
     difficulty: MEDIUM
     prep: 20
@@ -333,6 +344,7 @@ recipes:
       - Escurre sobre una rejilla y sirve enseguida con la salsa y el daikon.
 
   - name: Makis de salmón y pepino
+    photo: cocina-japonesa/makis-de-salmon-y-pepino.jpg
     category: Pescados y mariscos
     difficulty: MEDIUM
     prep: 40
@@ -365,6 +377,7 @@ recipes:
       - Sirve con soja, wasabi y gari.
 
   - name: Karaage
+    photo: cocina-japonesa/karaage.jpg
     category: Carnes
     difficulty: EASY
     prep: 40
@@ -389,6 +402,7 @@ recipes:
       - Fríelo de nuevo a 180 °C 1 minuto, hasta que esté muy crujiente. Sirve con limón y mayonesa.
 
   - name: Nikujaga
+    photo: cocina-japonesa/nikujaga.jpg
     category: Carnes
     difficulty: EASY
     prep: 15
@@ -418,6 +432,7 @@ recipes:
       - Añade los tirabeques los últimos 2 minutos.
 
   - name: Yakisoba
+    photo: cocina-japonesa/yakisoba.jpg
     category: Pastas
     difficulty: EASY
     prep: 10
@@ -449,6 +464,7 @@ recipes:
       - Incorpora la salsa y saltea hasta que los fideos estén bien cubiertos. Sirve con beni shoga y aonori.
 
   - name: Gyudon
+    photo: cocina-japonesa/gyudon.jpg
     category: Arroces
     difficulty: EASY
     prep: 10
@@ -474,6 +490,7 @@ recipes:
       - Sirve sobre el arroz caliente con un poco del caldo, beni shoga y, si quieres, una yema de huevo cruda o un huevo poché encima.
 
   - name: Curry japonés
+    photo: cocina-japonesa/curry-japones.jpg
     category: Carnes
     difficulty: EASY
     prep: 15
@@ -500,6 +517,7 @@ recipes:
       - Cuece a fuego suave 10 minutos más, removiendo, hasta que espese. Sirve con el arroz.
 
   - name: Agedashi tofu
+    photo: cocina-japonesa/agedashi-tofu.jpg
     category: Legumbres
     difficulty: EASY
     prep: 10
@@ -546,6 +564,7 @@ recipes:
       - Mezcla el pepino y la wakame con el aliño y sirve frío con el sésamo.
 
   - name: Dorayaki
+    photo: cocina-japonesa/dorayaki.jpg
     category: Postres
     difficulty: EASY
     prep: 15

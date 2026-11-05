@@ -1,6 +1,6 @@
 id: indonesian-cooking
-version: 1
-updated: 2026-10-31
+version: 2
+updated: 2026-11-05
 language: en
 name: "World cuisine: Indonesia"
 series: World cuisine
@@ -22,6 +22,7 @@ defaults:
 recipes:
 
   - name: Nasi goreng
+    photo: cocina-indonesia/nasi-goreng.jpg
     category: Rice
     difficulty: EASY
     prep: 10
@@ -53,6 +54,7 @@ recipes:
       - Serve the rice topped with a fried egg, with slices of cucumber and tomato and crispy shallots.
 
   - name: Mie goreng
+    photo: cocina-indonesia/mie-goreng.jpg
     category: Pasta
     difficulty: EASY
     prep: 10
@@ -84,6 +86,7 @@ recipes:
       - Add the vegetables, noodles and sauces and stir-fry over a high heat for 3 minutes. Serve with crispy shallots.
 
   - name: Chicken satay with peanut sauce
+    photo: cocina-indonesia/satay-de-pollo-con-salsa-de-cacahuete.jpg
     category: Meat
     difficulty: MEDIUM
     prep: 30
@@ -124,6 +127,7 @@ recipes:
           - Serve the skewers with the sauce spooned over.
 
   - name: Gado-gado
+    photo: cocina-indonesia/gado-gado.jpg
     category: Salads
     difficulty: EASY
     prep: 25
@@ -160,6 +164,7 @@ recipes:
       - Pour over the sauce and serve with krupuk.
 
   - name: Beef rendang
+    photo: cocina-indonesia/rendang-de-ternera.jpg
     category: Meat
     difficulty: HARD
     prep: 30
@@ -198,6 +203,7 @@ recipes:
       - Keep cooking, stirring more and more often, until the sauce has reduced completely and the meat is dark and tender, another 1-1½ hours.
 
   - name: Soto ayam
+    photo: cocina-indonesia/soto-ayam.jpg
     category: Soups
     difficulty: MEDIUM
     prep: 25
@@ -239,6 +245,7 @@ recipes:
       - Put noodles, vegetables, chicken and egg in bowls, ladle over the broth and serve with crispy shallots, lime and sambal.
 
   - name: Opor ayam
+    photo: cocina-indonesia/opor-ayam.jpg
     category: Meat
     difficulty: MEDIUM
     prep: 20
@@ -271,6 +278,7 @@ recipes:
       - Pour in the water and coconut milk, add the sugar and salt and simmer gently, uncovered, for 35-40 minutes, stirring now and then so it doesn't split, until the chicken is tender.
 
   - name: Ayam goreng
+    photo: cocina-indonesia/ayam-goreng.jpg
     category: Meat
     difficulty: MEDIUM
     prep: 15
@@ -300,6 +308,7 @@ recipes:
       - Drain the chicken and deep-fry it in hot oil for 5-6 minutes, until golden.
 
   - name: Sambal oelek
+    photo: cocina-indonesia/sambal-oelek.jpg
     category: Sauces
     difficulty: EASY
     prep: 10
@@ -319,6 +328,7 @@ recipes:
       - Stir in the vinegar and sugar.
 
   - name: Tempe orek
+    photo: cocina-indonesia/tempe-orek.jpg
     category: Legumes
     difficulty: EASY
     prep: 15
@@ -344,6 +354,7 @@ recipes:
       - Add the tempeh and toss until well coated in the sauce.
 
   - name: Perkedel kentang
+    photo: cocina-indonesia/perkedel-kentang.jpg
     category: Starters
     difficulty: EASY
     prep: 20
@@ -368,6 +379,7 @@ recipes:
       - Dip them in the other beaten egg and fry in hot oil until golden.
 
   - name: Sayur lodeh
+    photo: cocina-indonesia/sayur-lodeh.jpg
     category: Vegetables
     difficulty: EASY
     prep: 20
@@ -400,6 +412,7 @@ recipes:
       - Add the aubergine, chayote and tofu in cubes, the coconut milk, sugar and salt, and simmer gently for 10-12 minutes, stirring carefully, until the vegetables are tender.
 
   - name: Bakso
+    photo: cocina-indonesia/bakso.jpg
     category: Soups
     difficulty: MEDIUM
     prep: 30
@@ -442,6 +455,7 @@ recipes:
           - Serve noodles, pak choi and meatballs in bowls with the broth, crispy shallots and celery. Everyone adds sambal and kecap manis to taste.
 
   - name: Nasi kuning
+    photo: cocina-indonesia/nasi-kuning.jpg
     category: Rice
     difficulty: EASY
     prep: 5
@@ -465,6 +479,7 @@ recipes:
       - Cover, turn the heat to the lowest setting and cook for 15 minutes. Leave to rest covered for 5 minutes and fluff up with a fork.
 
   - name: Cap cai
+    photo: cocina-indonesia/cap-cai.jpg
     category: Vegetables
     difficulty: EASY
     prep: 15
@@ -496,6 +511,7 @@ recipes:
       - Add the sauces, pepper and the water with the cornflour stirred in and cook for 2 minutes, until the sauce thickens and the vegetables are still crunchy.
 
   - name: Tumis kangkung
+    photo: cocina-indonesia/tumis-kangkung.jpg
     category: Vegetables
     difficulty: EASY
     prep: 10
@@ -519,6 +535,7 @@ recipes:
       - Add the stems and stir-fry for 1 minute. Add the leaves and sauce and stir-fry until wilted, less than a minute. Season with salt.
 
   - name: Pisang goreng
+    photo: cocina-indonesia/pisang-goreng.jpg
     category: Desserts
     difficulty: EASY
     prep: 10
@@ -541,6 +558,7 @@ recipes:
       - Drain on kitchen paper and serve hot.
 
   - name: Martabak manis
+    photo: cocina-indonesia/martabak-manis.jpg
     category: Desserts
     difficulty: MEDIUM
     prep: 70
@@ -572,6 +590,7 @@ recipes:
       - Turn it out, spread with the butter, scatter over the chocolate, peanuts and condensed milk, fold in half and cut into pieces.
 
   - name: Klepon
+    photo: cocina-indonesia/klepon.jpg
     category: Desserts
     difficulty: MEDIUM
     prep: 25
@@ -596,6 +615,7 @@ recipes:
       - Drain and roll them in the coconut.
 
   - name: Es teler
+    photo: cocina-indonesia/es-teler.jpg
     category: Drinks
     difficulty: EASY
     prep: 10

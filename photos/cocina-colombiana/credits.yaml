@@ -1,0 +1,98 @@
+# Origin of every photo in this folder: source page, author and licence (CC0 1.0, Public domain,
+# CC BY x.y or CC BY-SA x.y). tools/build.py refuses a recipe photo without an entry here.
+
+bandeja-paisa.jpg:
+  source: https://commons.wikimedia.org/wiki/File:Bandeja_Paisa_(Bogot%C3%A1).jpg
+  author: "Edgar Zuniga Jr."
+  license: CC BY 2.0
+
+ajiaco-santafereno.jpg:
+  source: https://commons.wikimedia.org/wiki/File:Ajiaco_in_Bogot%C3%A1.jpg
+  author: "Bernard Gagnon"
+  license: CC BY-SA 4.0
+
+sancocho-de-gallina.jpg:
+  source: https://commons.wikimedia.org/wiki/File:Sancocho_cruzado_de_gallina,_rabo_y_costilla_con_arepa.jpg
+  author: "Rodolfo pimentel"
+  license: CC BY-SA 4.0
+
+arepas-paisas.jpg:
+  source: https://commons.wikimedia.org/wiki/File:Arepas_Colombia.JPG
+  author: "Andreji"
+  license: CC BY-SA 3.0
+
+empanadas-colombianas.jpg:
+  source: https://commons.wikimedia.org/wiki/File:Empanada_colombiana.jpg
+  author: "Francesc Fort"
+  license: CC BY-SA 4.0
+
+patacones.jpg:
+  source: https://commons.wikimedia.org/wiki/File:Patacones_-_Barranquilla.jpg
+  author: "Jdvillalobos"
+  license: CC BY 3.0
+
+hogao.jpg:
+  source: https://commons.wikimedia.org/wiki/File:Hogao.JPG
+  author: "Xemenendura"
+  license: CC BY-SA 4.0
+
+aji-colombiano.jpg:
+  source: https://commons.wikimedia.org/wiki/File:Colombian_empanadas_with_aj%C3%AD.jpg
+  author: "Huhorihe2"
+  license: CC BY-SA 4.0
+
+arroz-con-pollo-colombiano.jpg:
+  source: https://commons.wikimedia.org/wiki/File:Arroz_con_pollo_Barranquilla_Colombia_2025-06-10_a_las_22.20.13.jpg
+  author: "Jdvillalobos"
+  license: CC BY-SA 4.0
+
+changua.jpg:
+  source: https://commons.wikimedia.org/wiki/File:Changua_1.jpg
+  author: "Caldobasico"
+  license: CC BY-SA 4.0
+
+pandebono.jpg:
+  source: https://commons.wikimedia.org/wiki/File:Pandebono_2_(comprada_en_la_Panader%C3%ADa_Colombia_Viva,_en_Barcelona,_Espa%C3%B1a).jpg
+  author: "El Mono Español"
+  license: CC BY-SA 4.0
+
+bunuelos-colombianos.jpg:
+  source: https://commons.wikimedia.org/wiki/File:Bu%C3%B1uelos_Colombianos_(24221303805).jpg
+  author: "John Alexis Guerra Gómez"
+  license: CC BY-SA 2.0
+
+natilla-colombiana.jpg:
+  source: https://commons.wikimedia.org/wiki/File:PorcionNatillaCol.jpg
+  author: "Jdvillalobos"
+  license: CC0 1.0
+
+posta-negra-cartagenera.jpg:
+  source: https://commons.wikimedia.org/wiki/File:Posta_cartagenera_o_negra.jpg
+  author: "Xemenendura"
+  license: CC BY-SA 4.0
+
+mote-de-queso.jpg:
+  source: https://commons.wikimedia.org/wiki/File:Mote_de_queso_con_chicharr%C3%B3n_en_Monter%C3%ADa.jpg
+  author: "Futbolero"
+  license: CC BY-SA 4.0
+
+arroz-con-coco.jpg:
+  source: https://commons.wikimedia.org/wiki/File:Arroz_con_coco.JPG
+  author: "Adriblanco"
+  license: CC BY-SA 4.0
+
+cazuela-de-mariscos.jpg:
+  source: https://commons.wikimedia.org/wiki/File:Cazuela_de_mariscos.jpg
+  author: "Aleposta"
+  license: Public domain
+
+limonada-de-coco.jpg:
+  source: https://commons.wikimedia.org/wiki/File:Limonada_de_coco.jpg
+  author: "Caldobasico"
+  license: CC BY-SA 4.0
+
+sobrebarriga-en-salsa.jpg:
+  source: https://commons.wikimedia.org/wiki/File:Flank_steak_with_gravy.jpg
+  author: "User:B"
+  license: CC BY-SA 4.0
+

@@ -1,0 +1,103 @@
+# Origin of every photo in this folder: source page, author and licence (CC0 1.0, Public domain,
+# CC BY x.y or CC BY-SA x.y). tools/build.py refuses a recipe photo without an entry here.
+
+ceviche-de-pescado.jpg:
+  source: https://commons.wikimedia.org/wiki/File:Ceviche_de_pescado_(La_Punta,_Callao).jpg
+  author: "Jorge G. Mori"
+  license: Public domain
+
+tiradito.jpg:
+  source: https://commons.wikimedia.org/wiki/File:Tiradito.jpg
+  author: "Manuel González Olaechea"
+  license: CC BY 3.0
+
+lomo-saltado.jpg:
+  source: https://commons.wikimedia.org/wiki/File:Lomo_Salteado.jpg
+  author: "PapiPijuan"
+  license: CC BY-SA 4.0
+
+aji-de-gallina.jpg:
+  source: https://commons.wikimedia.org/wiki/File:Aj%C3%AD_de_gallina.jpg
+  author: "Feralbt"
+  license: CC BY-SA 3.0
+
+causa-limena.jpg:
+  source: https://commons.wikimedia.org/wiki/File:Causa_a_la_Lime%C3%B1a_(48836160237).jpg
+  author: "F Delventhal from Outside Washington, D.C., US"
+  license: CC BY 2.0
+
+papa-a-la-huancaina.jpg:
+  source: https://commons.wikimedia.org/wiki/File:Cuisine_Per%C3%BA_Papa_a_la_Huanca%C3%ADna.jpg
+  author: "AgainErick"
+  license: CC BY-SA 3.0
+
+arroz-chaufa.jpg:
+  source: https://commons.wikimedia.org/wiki/File:Arroz_chaufa_simple.JPG
+  author: "Dtarazona"
+  license: Public domain
+
+anticuchos-de-corazon.jpg:
+  source: https://commons.wikimedia.org/wiki/File:Sliced-up_anticuchos_on_a_plate.jpg
+  author: "Ser Amantio di Nicolao"
+  license: CC0 1.0
+
+pollo-a-la-brasa.jpg:
+  source: https://commons.wikimedia.org/wiki/File:Pollo_a_la_brasa_pierna_con_papas.JPG
+  author: "Dtarazona"
+  license: Public domain
+
+rocoto-relleno.jpg:
+  source: https://commons.wikimedia.org/wiki/File:%22rocoto%22_relleno.jpg
+  author: "franzconde"
+  license: CC BY 2.0
+
+seco-de-res.jpg:
+  source: https://commons.wikimedia.org/wiki/File:Seco_cusco.jpg
+  author: "pratiproy"
+  license: CC BY 2.0
+
+arroz-con-pollo-peruano.jpg:
+  source: https://commons.wikimedia.org/wiki/File:Arroz_con_pollo_peruano.jpg
+  author: "MiguelAlanCS"
+  license: CC BY-SA 4.0
+
+chupe-de-camarones.jpg:
+  source: https://commons.wikimedia.org/wiki/File:Chupe_de_Camarones.jpg
+  author: "Greg Ma"
+  license: CC BY 2.0
+
+papa-rellena.jpg:
+  source: https://commons.wikimedia.org/wiki/File:Peru_PapasRellenas2.jpg
+  author: "Håkan Svensson (Xauxa)."
+  license: CC BY-SA 3.0
+
+tallarines-verdes.jpg:
+  source: https://commons.wikimedia.org/wiki/File:Tallarines_verdes.jpg
+  author: "Miguel Alan Córdova Silva"
+  license: CC BY-SA 4.0
+
+suspiro-limeno.jpg:
+  source: https://commons.wikimedia.org/wiki/File:Suspiro_de_lime%C3%B1a.JPG
+  author: "No machine-readable author provided. Manuel González Olaechea assumed (based on copyright claims)."
+  license: CC BY-SA 3.0
+
+picarones.jpg:
+  source: https://commons.wikimedia.org/wiki/File:Que_ricos_picarones!.jpg
+  author: "G M"
+  license: CC BY 2.0
+
+mazamorra-morada.jpg:
+  source: https://commons.wikimedia.org/wiki/File:Lima_(Per%C3%BA)_-_Restaurante_El_Embrujo_-_Mazamorra_morada.jpg
+  author: "Mover el Bigote"
+  license: CC BY 2.0
+
+chicha-morada.jpg:
+  source: https://commons.wikimedia.org/wiki/File:Chicha_Morada_2017.jpg
+  author: "young shanahan from Bogotá, Colombia"
+  license: CC BY 2.0
+
+ocopa-arequipena.jpg:
+  source: https://commons.wikimedia.org/wiki/File:Ocopa_(Peru).JPG
+  author: "Dtarazona"
+  license: CC BY-SA 3.0
+

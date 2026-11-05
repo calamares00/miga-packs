@@ -1,6 +1,6 @@
 id: tapas-espanolas
-version: 1
-updated: 2026-10-31
+version: 2
+updated: 2026-11-05
 language: es
 name: Tapas españolas
 series: Especiales
@@ -22,6 +22,7 @@ defaults:
 recipes:
 
   - name: Patatas bravas
+    photo: tapas/patatas-bravas.jpg
     category: Entrantes
     difficulty: EASY
     prep: 10
@@ -85,6 +86,7 @@ recipes:
       - Mezcla las patatas con el alioli y el perejil. Sírvelas frías o a temperatura ambiente.
 
   - name: Pimientos de Padrón
+    photo: tapas/pimientos-de-padron.jpg
     category: Verduras
     difficulty: EASY
     prep: 2
@@ -149,6 +151,7 @@ recipes:
       - Escúrrelas sobre papel de cocina y sírvelas enseguida con un hilo de miel de caña por encima.
 
   - name: Pulpo a la gallega
+    photo: tapas/pulpo-a-la-gallega.jpg
     category: Pescados y mariscos
     difficulty: MEDIUM
     prep: 5
@@ -198,6 +201,7 @@ recipes:
       - Escúrrelos y cúbrelos con el aceite, el ajo muy picado y el perejil. Se conservan en la nevera hasta 5 días.
 
   - name: Calamares a la romana
+    photo: tapas/calamares-a-la-romana.jpg
     category: Pescados y mariscos
     difficulty: EASY
     prep: 15
@@ -219,6 +223,7 @@ recipes:
       - Escúrrelos sobre papel de cocina y sírvelos enseguida con gajos de limón.
 
   - name: Gambas a la plancha
+    photo: tapas/gambas-a-la-plancha.jpg
     category: Pescados y mariscos
     difficulty: EASY
     prep: 5
@@ -264,6 +269,7 @@ recipes:
       - Quita una de las conchas a cada mejillón, colócalos en una fuente y cúbrelos con la vinagreta. Sírvelos fríos.
 
   - name: Tortillitas de camarones
+    photo: tapas/tortillitas-de-camarones.jpg
     category: Pescados y mariscos
     difficulty: MEDIUM
     prep: 10
@@ -289,6 +295,7 @@ recipes:
       - Fríelas 1 minuto por cada lado, hasta que estén doradas, y escúrrelas sobre papel de cocina.
 
   - name: Croquetas de setas
+    photo: tapas/croquetas.jpg
     category: Entrantes
     difficulty: MEDIUM
     prep: 40
@@ -429,6 +436,7 @@ recipes:
       - Coloca los huevos sobre las patatas con el jamón y rómpelos en la mesa.
 
   - name: Ensaladilla rusa
+    photo: tapas/ensaladilla-rusa.jpg
     category: Ensaladas
     difficulty: EASY
     prep: 20
@@ -453,6 +461,7 @@ recipes:
       - Cubre con el resto de la mayonesa y decora con las aceitunas y el pimiento. Sírvela fría.
 
   - name: Gildas
+    photo: tapas/gildas.jpg
     category: Entrantes
     difficulty: EASY
     prep: 10
@@ -471,6 +480,7 @@ recipes:
       - Repite hasta tener 4 gildas y riégalas con un hilo de aceite justo antes de servir.
 
   - name: Pan con tomate y jamón
+    photo: tapas/pan-con-tomate.jpg
     category: Panes y masas
     difficulty: EASY
     prep: 5

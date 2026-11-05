@@ -1,0 +1,98 @@
+# Origin of every photo in this folder: source page, author and licence (CC0 1.0, Public domain,
+# CC BY x.y or CC BY-SA x.y). tools/build.py refuses a recipe photo without an entry here.
+
+masa-madre.jpg:
+  source: https://commons.wikimedia.org/wiki/File:Sourdough.jpg
+  author: "Janus Sandsgaard"
+  license: CC BY 4.0
+
+hogaza-de-masa-madre.jpg:
+  source: https://commons.wikimedia.org/wiki/File:Sourdough_Bread_Loaf.jpg
+  author: "Agelaia"
+  license: CC BY 4.0
+
+barra-de-pan.jpg:
+  source: https://commons.wikimedia.org/wiki/File:Baguettes_-_stonesoup.jpg
+  author: "jules / stonesoup"
+  license: CC BY 2.0
+
+pan-de-molde.jpg:
+  source: https://commons.wikimedia.org/wiki/File:Tin_Loaf_-_one_slash_in_the_crust.jpg
+  author: "Mike Finn"
+  license: CC BY 2.0
+
+pan-integral.jpg:
+  source: https://commons.wikimedia.org/wiki/File:Brown_bread_made_with_dinkel_wheat_and_millet_01.jpg
+  author: "Kritzolina"
+  license: CC BY-SA 4.0
+
+pan-de-centeno.jpg:
+  source: https://commons.wikimedia.org/wiki/File:Pan_de_centeno,_un_pan_t%C3%ADpico_alem%C3%A1n,_elaborado_con_harina_de_centeno_y_masa_madre.jpg
+  author: "Juan Emilio Prades Bel"
+  license: CC BY 4.0
+
+chapata.jpg:
+  source: https://commons.wikimedia.org/wiki/File:Ciabatta_cut.JPG
+  author: "Vincent Talleu"
+  license: CC BY-SA 3.0
+
+bollos-de-leche.jpg:
+  source: https://commons.wikimedia.org/wiki/File:Bollos_rellenos_de_dulce_de_leche_en_una_panader%C3%ADa_de_Capiov%C3%AD_(Argentina).jpg
+  author: "Horacio Cambeiro"
+  license: CC BY-SA 3.0
+
+brioche.jpg:
+  source: https://commons.wikimedia.org/wiki/File:Brioche.jpg
+  author: "David.Monniaux"
+  license: CC BY-SA 3.0
+
+cruasanes.jpg:
+  source: https://commons.wikimedia.org/wiki/File:Croissants_au_beurre_(18953292873).jpg
+  author: "Herry Wibisono (herryway)"
+  license: CC0 1.0
+
+napolitanas-de-chocolate.jpg:
+  source: https://commons.wikimedia.org/wiki/File:Pain_au_chocolat_Luc_Viatour.jpg
+  author: "Luc Viatour"
+  license: CC BY-SA 3.0
+
+ensaimadas.jpg:
+  source: https://commons.wikimedia.org/wiki/File:Ensa%C3%AFmada.jpg
+  author: "Popo le Chien"
+  license: CC0 1.0
+
+magdalenas.jpg:
+  source: https://commons.wikimedia.org/wiki/File:Plain_vanilla_muffin_in_Tuntorp.jpg
+  author: "W.carter"
+  license: CC BY-SA 4.0
+
+pan-de-pita.jpg:
+  source: https://commons.wikimedia.org/wiki/File:Homemade_hummus_and_pita.jpg
+  author: "Satdeep Gill"
+  license: CC BY-SA 4.0
+
+naan.jpg:
+  source: https://commons.wikimedia.org/wiki/File:Naan_2.jpg
+  author: "Shisma"
+  license: CC BY 4.0
+
+bagels.jpg:
+  source: https://commons.wikimedia.org/wiki/File:Shug%27s_Bagels,_Maple_Street,_New_Orleans_28_September_2025_-_Poppy_Seed_Bagel.png
+  author: "Infrogmation"
+  license: CC BY-SA 4.0
+
+tortas-de-aceite.jpg:
+  source: https://commons.wikimedia.org/wiki/File:Tortas_de_Aceite.JPG
+  author: "Alfonsofvazquez"
+  license: CC BY-SA 4.0
+
+pan-de-nueces-y-pasas.jpg:
+  source: https://commons.wikimedia.org/wiki/File:A_Walnut_and_Raisin_Bread.jpg
+  author: "Peachyeung316"
+  license: CC BY-SA 4.0
+
+panecillos-de-hamburguesa.jpg:
+  source: https://commons.wikimedia.org/wiki/File:Sesame_seed_hamburger_buns.jpg
+  author: "jeffreyw"
+  license: CC BY 2.0
+

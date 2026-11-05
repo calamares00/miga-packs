@@ -1,6 +1,6 @@
 id: panaderia
-version: 1
-updated: 2026-10-31
+version: 2
+updated: 2026-11-05
 language: es
 name: Panadería
 series: Cocina de cada día
@@ -21,6 +21,7 @@ defaults:
 recipes:
 
   - name: Masa madre
+    photo: panaderia/masa-madre.jpg
     category: Panes y masas
     difficulty: EASY
     prep: 10
@@ -40,6 +41,7 @@ recipes:
       - Cuando doble su volumen en 4-6 horas tras alimentarla, ya puedes usarla. Úsala en su punto más alto.
 
   - name: Hogaza de masa madre
+    photo: panaderia/hogaza-de-masa-madre.jpg
     category: Panes y masas
     difficulty: HARD
     prep: 60
@@ -64,6 +66,7 @@ recipes:
       - Hornea tapada 20 minutos, destapa, baja a 230 °C y hornea 20-25 minutos más, hasta que esté muy dorada. Deja que se enfríe sobre una rejilla al menos 1 hora antes de cortarla.
 
   - name: Barra de pan
+    photo: panaderia/barra-de-pan.jpg
     category: Panes y masas
     difficulty: MEDIUM
     prep: 30
@@ -86,6 +89,7 @@ recipes:
       - Precalienta el horno a 240 °C con una bandeja vacía en la base. Pasa las barras a la bandeja, haz 3-4 cortes en diagonal, echa un vaso de agua en la bandeja caliente para crear vapor y hornea 20-22 minutos.
 
   - name: Pan de molde
+    photo: panaderia/pan-de-molde.jpg
     category: Panes y masas
     difficulty: EASY
     prep: 25
@@ -111,6 +115,7 @@ recipes:
       - Hornea a 190 °C 30 minutos. Desmolda enseguida y deja que se enfríe sobre una rejilla.
 
   - name: Pan integral
+    photo: panaderia/pan-integral.jpg
     category: Panes y masas
     difficulty: EASY
     prep: 20
@@ -136,6 +141,7 @@ recipes:
       - Pinta con agua, espolvorea semillas por encima y hornea a 200 °C 35 minutos.
 
   - name: Pan de centeno
+    photo: panaderia/pan-de-centeno.jpg
     category: Panes y masas
     difficulty: MEDIUM
     prep: 20
@@ -161,6 +167,7 @@ recipes:
       - Desmolda y deja que se enfríe del todo sobre una rejilla, mejor hasta el día siguiente.
 
   - name: Chapata
+    photo: panaderia/chapata.jpg
     category: Panes y masas
     difficulty: MEDIUM
     prep: 30
@@ -190,6 +197,7 @@ recipes:
       - Hornea a 230 °C con vapor 22-25 minutos, hasta que esté dorada.
 
   - name: Bollos de leche
+    photo: panaderia/bollos-de-leche.jpg
     category: Panes y masas
     difficulty: EASY
     prep: 30
@@ -217,6 +225,7 @@ recipes:
       - Hornea a 180 °C 14-15 minutos, hasta que estén doradas.
 
   - name: Brioche
+    photo: panaderia/brioche.jpg
     category: Panes y masas
     difficulty: HARD
     prep: 40
@@ -243,6 +252,7 @@ recipes:
       - Pinta con huevo y hornea a 180 °C 30 minutos. Si se dora demasiado, cubre con papel de aluminio.
 
   - name: Cruasanes
+    photo: panaderia/cruasanes.jpg
     category: Panes y masas
     difficulty: HARD
     prep: 240
@@ -274,6 +284,7 @@ recipes:
       - Colócalos en bandejas, pinta con huevo y deja que leven a unos 25 °C 2 horas, hasta que tiemblen al mover la bandeja. Pinta otra vez y hornea a 200 °C 15-18 minutos.
 
   - name: Napolitanas de chocolate
+    photo: panaderia/napolitanas-de-chocolate.jpg
     category: Panes y masas
     difficulty: HARD
     prep: 240
@@ -294,6 +305,7 @@ recipes:
       - Pinta otra vez y hornea a 200 °C 15-18 minutos, hasta que estén muy doradas.
 
   - name: Ensaimadas
+    photo: panaderia/ensaimadas.jpg
     category: Panes y masas
     difficulty: HARD
     prep: 60
@@ -323,6 +335,7 @@ recipes:
       - Deja que leven tapadas toda la noche, unas 10-12 horas, hasta que tripliquen su volumen. Pulveriza con agua y hornea a 180 °C 12-15 minutos. Espolvorea con azúcar glas ya frías.
 
   - name: Magdalenas
+    photo: panaderia/magdalenas.jpg
     category: Postres
     difficulty: EASY
     prep: 15
@@ -349,6 +362,7 @@ recipes:
       - Hornea 5 minutos a 220 °C y 10 minutos a 200 °C, hasta que estén doradas.
 
   - name: Pan de pita
+    photo: panaderia/pan-de-pita.jpg
     category: Panes y masas
     difficulty: EASY
     prep: 20
@@ -373,6 +387,7 @@ recipes:
       - Envuélvelos en un paño para que se mantengan blandos.
 
   - name: Naan
+    photo: panaderia/naan.jpg
     category: Panes y masas
     difficulty: EASY
     prep: 20
@@ -401,6 +416,7 @@ recipes:
       - Píntalos con el resto del ghee mezclado con el ajo y el cilantro.
 
   - name: Panecillos de hamburguesa
+    photo: panaderia/panecillos-de-hamburguesa.jpg
     category: Panes y masas
     difficulty: EASY
     prep: 25
@@ -429,6 +445,7 @@ recipes:
       - Hornea a 200 °C 14-15 minutos.
 
   - name: Bagels
+    photo: panaderia/bagels.jpg
     category: Panes y masas
     difficulty: MEDIUM
     prep: 40
@@ -456,6 +473,7 @@ recipes:
       - Hornea en una bandeja con papel de horno 20 minutos, hasta que estén dorados.
 
   - name: Tortas de aceite
+    photo: panaderia/tortas-de-aceite.jpg
     category: Panes y masas
     difficulty: MEDIUM
     prep: 40
@@ -483,6 +501,7 @@ recipes:
       - Espolvorea azúcar por encima y hornea 10-12 minutos, hasta que estén doradas y crujientes.
 
   - name: Pan de nueces y pasas
+    photo: panaderia/pan-de-nueces-y-pasas.jpg
     category: Panes y masas
     difficulty: MEDIUM
     prep: 25

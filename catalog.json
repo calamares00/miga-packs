@@ -22,9 +22,9 @@
       "authorGithub": "calamares00",
       "description": "Recipes made for the air fryer: chips, wings, home-made nuggets, breaded fish, crispy vegetables, meatballs, burgers, ribs and even desserts. With very little oil and the time and temperature for each dish. Times are a guide: every model heats differently.",
       "coverImageUrl": "packs/air-fryer/cover.jpg",
-      "latestVersion": 1,
+      "latestVersion": 2,
       "recipeCount": 20,
-      "downloadUrl": "dist/air-fryer-v1.zip",
+      "downloadUrl": "dist/air-fryer-v2.zip",
       "language": "en"
     },
     {
@@ -347,9 +347,9 @@
       "authorGithub": "calamares00",
       "description": "Recetas pensadas para la freidora de aire: patatas, alitas, nuggets caseros, pescado rebozado, verduras crujientes, albóndigas, hamburguesas, costillas y hasta postres. Con muy poco aceite y los tiempos y temperaturas de cada plato. Los tiempos son orientativos: cada modelo calienta de forma distinta.",
       "coverImageUrl": "packs/freidora-de-aire/cover.jpg",
-      "latestVersion": 1,
+      "latestVersion": 2,
       "recipeCount": 20,
-      "downloadUrl": "dist/freidora-de-aire-v1.zip",
+      "downloadUrl": "dist/freidora-de-aire-v2.zip",
       "language": "es"
     },
     {

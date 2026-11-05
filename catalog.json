@@ -503,9 +503,9 @@
       "authorGithub": "calamares00",
       "description": "Bar tapas from all over Spain to share: patatas bravas, Padrón peppers, Galician-style octopus, marinated anchovies, fried squid rings, shrimp fritters, mushroom croquettes, chorizo in cider, pinchos morunos, huevos rotos, Russian salad, gildas and pan con tomate, among others.",
       "coverImageUrl": "packs/spanish-tapas/cover.jpg",
-      "latestVersion": 2,
+      "latestVersion": 3,
       "recipeCount": 20,
-      "downloadUrl": "dist/spanish-tapas-v2.zip",
+      "downloadUrl": "dist/spanish-tapas-v3.zip",
       "language": "en"
     },
     {
@@ -516,9 +516,9 @@
       "authorGithub": "calamares00",
       "description": "Tapas de bar de toda España para compartir: patatas bravas, pimientos de Padrón, pulpo a la gallega, boquerones en vinagre, calamares a la romana, tortillitas de camarones, croquetas de setas, chorizo a la sidra, pinchos morunos, huevos rotos, ensaladilla, gildas y pan con tomate, entre otras.",
       "coverImageUrl": "packs/tapas-espanolas/cover.jpg",
-      "latestVersion": 2,
+      "latestVersion": 3,
       "recipeCount": 20,
-      "downloadUrl": "dist/tapas-espanolas-v2.zip",
+      "downloadUrl": "dist/tapas-espanolas-v3.zip",
       "language": "es"
     },
     {

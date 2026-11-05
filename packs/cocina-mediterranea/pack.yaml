@@ -1,6 +1,6 @@
 id: cocina-mediterranea
-version: 1
-updated: 2026-10-30
+version: 2
+updated: 2026-11-05
 language: es
 name: Cocina mediterránea
 series: Cocina del mundo
@@ -19,6 +19,7 @@ defaults:
 recipes:
 
   - name: Gazpacho andaluz
+    photo: cocina-mediterranea/gazpacho-andaluz.jpg
     category: Sopas y cremas
     difficulty: EASY
     prep: 15
@@ -47,6 +48,7 @@ recipes:
       - Sirve con dados de pepino, pimiento y pan tostado.
 
   - name: Salmorejo cordobés
+    photo: cocina-mediterranea/salmorejo-cordobes.jpg
     category: Sopas y cremas
     difficulty: EASY
     prep: 15
@@ -73,6 +75,7 @@ recipes:
       - Enfría y sirve con el huevo, el jamón y un hilo de aceite.
 
   - name: Paella valenciana
+    photo: cocina-mediterranea/paella-valenciana.jpg
     category: Arroces
     difficulty: HARD
     prep: 20
@@ -105,6 +108,7 @@ recipes:
       - Sube el fuego el último minuto para el socarrat y deja reposar 5 minutos tapada con un paño.
 
   - name: Tortilla de patatas
+    photo: cocina-mediterranea/tortilla-de-patatas.jpg
     category: Huevos
     difficulty: MEDIUM
     prep: 15
@@ -128,6 +132,7 @@ recipes:
       - Dale la vuelta con un plato y cuaja 2 minutos más por el otro lado. Mejor jugosa por dentro.
 
   - name: Pisto manchego
+    photo: cocina-mediterranea/pisto-manchego.jpg
     category: Verduras
     difficulty: EASY
     prep: 20
@@ -155,6 +160,7 @@ recipes:
       - Sirve con un huevo frito encima.
 
   - name: Ensalada griega
+    photo: cocina-mediterranea/ensalada-griega.jpg
     category: Ensaladas
     difficulty: EASY
     prep: 15
@@ -182,6 +188,7 @@ recipes:
       - Aliña con el aceite y el vinagre justo antes de servir.
 
   - name: Tzatziki
+    photo: cocina-mediterranea/tzatziki.jpg
     category: Salsas
     difficulty: EASY
     prep: 15
@@ -205,6 +212,7 @@ recipes:
       - Prueba de sal y refrigera 30 minutos. Sirve con pan de pita.
 
   - name: Musaka
+    photo: cocina-mediterranea/musaka.jpg
     category: Carnes
     difficulty: HARD
     prep: 40
@@ -250,6 +258,7 @@ recipes:
           - Hornea a 180 °C 45 minutos, hasta que esté dorada. Deja reposar 20 minutos antes de cortar.
 
   - name: Hummus
+    photo: cocina-mediterranea/hummus.jpg
     category: Legumbres
     difficulty: EASY
     prep: 10
@@ -276,6 +285,7 @@ recipes:
       - Sirve con un hilo de aceite, pimentón y pan de pita.
 
   - name: Tabulé
+    photo: cocina-mediterranea/tabule.jpg
     category: Ensaladas
     difficulty: EASY
     prep: 25
@@ -302,6 +312,7 @@ recipes:
       - Mezcla todo con el limón, el aceite y sal justo antes de servir.
 
   - name: Falafel
+    photo: cocina-mediterranea/falafel.jpg
     category: Legumbres
     difficulty: MEDIUM
     prep: 20
@@ -331,6 +342,7 @@ recipes:
       - Sirve en pan de pita con ensalada y salsa de tahini o tzatziki.
 
   - name: Shakshuka
+    photo: cocina-mediterranea/shakshuka.jpg
     category: Huevos
     difficulty: EASY
     prep: 10
@@ -360,6 +372,7 @@ recipes:
       - Sirve con cilantro y pan para mojar.
 
   - name: Cuscús de verduras
+    photo: cocina-mediterranea/cuscus-de-verduras.jpg
     category: Verduras
     difficulty: MEDIUM
     prep: 20
@@ -395,6 +408,7 @@ recipes:
       - Sirve el cuscús con las verduras y su caldo por encima, y las pasas si te gustan.
 
   - name: Tajín de pollo con limón y aceitunas
+    photo: cocina-mediterranea/tajin-de-pollo-con-limon-y-aceitunas.jpg
     category: Carnes
     difficulty: MEDIUM
     prep: 15
@@ -425,6 +439,7 @@ recipes:
       - Añade la piel del limón en conserva en tiras y las aceitunas y cocina 10 minutos más, hasta que la salsa espese.
 
   - name: Pasta al pesto genovés
+    photo: cocina-mediterranea/pasta-al-pesto-genoves.jpg
     category: Pastas
     difficulty: EASY
     prep: 10
@@ -456,6 +471,7 @@ recipes:
       - Mezcla la pasta con el pesto fuera del fuego, aligerando con un poco del agua reservada.
 
   - name: Risotto de setas
+    photo: cocina-mediterranea/risotto-de-setas.jpg
     category: Arroces
     difficulty: MEDIUM
     prep: 15
@@ -485,6 +501,7 @@ recipes:
       - Incorpora las setas, retira del fuego y manteca con el resto de la mantequilla y el parmesano. Reposa 2 minutos y sirve con perejil.
 
   - name: Ensalada caprese
+    photo: cocina-mediterranea/ensalada-caprese.jpg
     category: Ensaladas
     difficulty: EASY
     prep: 10
@@ -534,6 +551,7 @@ recipes:
       - Dora el ajo laminado en el resto del aceite, añade el perejil y vierte el refrito sobre el pescado al servir.
 
   - name: Gambas al ajillo
+    photo: cocina-mediterranea/gambas-al-ajillo.jpg
     category: Pescados y mariscos
     difficulty: EASY
     prep: 10
@@ -557,6 +575,7 @@ recipes:
       - Espolvorea perejil y sirve enseguida, chisporroteando, con pan.
 
   - name: Crema catalana
+    photo: cocina-mediterranea/crema-catalana.jpg
     category: Postres
     difficulty: MEDIUM
     prep: 15

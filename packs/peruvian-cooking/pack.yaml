@@ -1,6 +1,6 @@
 id: peruvian-cooking
-version: 1
-updated: 2026-10-31
+version: 2
+updated: 2026-11-05
 language: en
 name: "World cuisine: Peru"
 series: World cuisine
@@ -24,6 +24,7 @@ defaults:
 recipes:
 
   - name: Fish ceviche
+    photo: cocina-peruana/ceviche-de-pescado.jpg
     category: Fish and seafood
     difficulty: EASY
     prep: 25
@@ -51,6 +52,7 @@ recipes:
       - Serve straight away with slices of sweet potato and corn.
 
   - name: Tiradito
+    photo: cocina-peruana/tiradito.jpg
     category: Fish and seafood
     difficulty: EASY
     prep: 20
@@ -74,6 +76,7 @@ recipes:
       - Pour the sauce over the fish just before serving and garnish with coriander leaves.
 
   - name: Lomo saltado
+    photo: cocina-peruana/lomo-saltado.jpg
     category: Meat
     difficulty: MEDIUM
     prep: 20
@@ -106,6 +109,7 @@ recipes:
       - Add the coriander and chips, toss and serve with white rice.
 
   - name: Ají de gallina
+    photo: cocina-peruana/aji-de-gallina.jpg
     category: Meat
     difficulty: MEDIUM
     prep: 25
@@ -138,6 +142,7 @@ recipes:
       - Serve over sliced potatoes, with white rice, hard-boiled egg and olives.
 
   - name: Causa limeña
+    photo: cocina-peruana/causa-limena.jpg
     category: Starters
     difficulty: MEDIUM
     prep: 40
@@ -170,6 +175,7 @@ recipes:
       - Chill for 1 hour, unmould and garnish with hard-boiled egg, olives and a little mayonnaise.
 
   - name: Papa a la huancaína
+    photo: cocina-peruana/papa-a-la-huancaina.jpg
     category: Starters
     difficulty: EASY
     prep: 15
@@ -201,6 +207,7 @@ recipes:
       - Lay the potatoes on the lettuce leaves, cover with the sauce and garnish with egg and olives.
 
   - name: Ocopa arequipeña
+    photo: cocina-peruana/ocopa-arequipena.jpg
     category: Starters
     difficulty: EASY
     prep: 20
@@ -235,6 +242,7 @@ recipes:
       - Serve over sliced boiled potatoes, with hard-boiled egg and olives.
 
   - name: Arroz chaufa
+    photo: cocina-peruana/arroz-chaufa.jpg
     category: Rice
     difficulty: EASY
     prep: 15
@@ -263,6 +271,7 @@ recipes:
       - Stir-fry for 1 more minute and finish with the chopped green part of the spring onions.
 
   - name: Beef heart anticuchos
+    photo: cocina-peruana/anticuchos-de-corazon.jpg
     category: Meat
     difficulty: MEDIUM
     prep: 30
@@ -291,6 +300,7 @@ recipes:
       - Serve with potatoes browned on the grill and corn.
 
   - name: Pollo a la brasa
+    photo: cocina-peruana/pollo-a-la-brasa.jpg
     category: Meat
     difficulty: EASY
     prep: 15
@@ -320,6 +330,7 @@ recipes:
       - Serve with chips, salad and ají sauce.
 
   - name: Rocoto relleno
+    photo: cocina-peruana/rocoto-relleno.jpg
     category: Vegetables
     difficulty: HARD
     prep: 60
@@ -361,6 +372,7 @@ recipes:
       - Put them in a dish, pour over the milk beaten with the egg and bake for 25-30 minutes. Serve with potato gratin or roast potatoes.
 
   - name: Seco de res
+    photo: cocina-peruana/seco-de-res.jpg
     category: Meat
     difficulty: MEDIUM
     prep: 25
@@ -393,6 +405,7 @@ recipes:
       - Add the sliced carrots and the peas and simmer for 15 more minutes. Season with salt.
 
   - name: Peruvian arroz con pollo
+    photo: cocina-peruana/arroz-con-pollo-peruano.jpg
     category: Rice
     difficulty: MEDIUM
     prep: 20
@@ -426,6 +439,7 @@ recipes:
       - Add the rice, stock, diced pepper and carrot, peas and corn. Season with salt, cover and simmer for 20 minutes.
 
   - name: Chupe de camarones
+    photo: cocina-peruana/chupe-de-camarones.jpg
     category: Soups
     difficulty: HARD
     prep: 30
@@ -461,6 +475,7 @@ recipes:
       - Crack the eggs into the soup, add the cheese and huacatay and cook for 2 minutes without boiling hard. Season with salt.
 
   - name: Papa rellena
+    photo: cocina-peruana/papa-rellena.jpg
     category: Starters
     difficulty: MEDIUM
     prep: 45
@@ -498,6 +513,7 @@ recipes:
       - Coat in flour and beaten egg and fry in hot oil until golden.
 
   - name: Tallarines verdes
+    photo: cocina-peruana/tallarines-verdes.jpg
     category: Pasta
     difficulty: EASY
     prep: 15
@@ -525,6 +541,7 @@ recipes:
       - Cook the pasta, drain and toss with the sauce in the pan over a low heat for 1 minute.
 
   - name: Suspiro limeño
+    photo: cocina-peruana/suspiro-limeno.jpg
     category: Desserts
     difficulty: MEDIUM
     prep: 20
@@ -554,6 +571,7 @@ recipes:
       - Top the manjar with the meringue and dust with cinnamon.
 
   - name: Picarones
+    photo: cocina-peruana/picarones.jpg
     category: Desserts
     difficulty: HARD
     prep: 90
@@ -587,6 +605,7 @@ recipes:
       - Fry them, turning with a stick, until golden. Serve hot, drenched in the syrup.
 
   - name: Mazamorra morada
+    photo: cocina-peruana/mazamorra-morada.jpg
     category: Desserts
     difficulty: EASY
     prep: 15
@@ -616,6 +635,7 @@ recipes:
       - Off the heat, add the lime juice. Serve in bowls dusted with cinnamon.
 
   - name: Chicha morada
+    photo: cocina-peruana/chicha-morada.jpg
     category: Drinks
     difficulty: EASY
     prep: 10

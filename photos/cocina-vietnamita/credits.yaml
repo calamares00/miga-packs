@@ -1,0 +1,93 @@
+# Origin of every photo in this folder: source page, author and licence (CC0 1.0, Public domain,
+# CC BY x.y or CC BY-SA x.y). tools/build.py refuses a recipe photo without an entry here.
+
+pho-bo.jpg:
+  source: https://commons.wikimedia.org/wiki/File:Pho_Bo_by_Banh_%26_Mee_in_Kirkgate_Market.jpg
+  author: "Andy Li"
+  license: CC0 1.0
+
+bun-cha.jpg:
+  source: https://commons.wikimedia.org/wiki/File:B%C3%BAn_ch%E1%BA%A3_Vietnamese_food.jpg
+  author: "stuart_spivack"
+  license: CC BY 2.0
+
+banh-mi-de-cerdo-a-la-citronela.jpg:
+  source: https://commons.wikimedia.org/wiki/File:Vietnamese_Grilled_Pork_B%C3%A1nh_M%C3%AC,_B%C3%A1nh_M%C3%AC_B%C3%A1nh_M%C3%AC_Westfield_Carousel,_2026_(01).jpg
+  author: "Bahnfrend"
+  license: CC BY-SA 4.0
+
+rollitos-frescos-goi-cuon.jpg:
+  source: https://commons.wikimedia.org/wiki/File:G%E1%BB%8Fi_cu%E1%BB%91n_at_a_Vietnamese-style_restaurant_in_Beijing_(20180103175625).jpg
+  author: "N509FZ"
+  license: CC BY-SA 4.0
+
+rollitos-fritos-cha-gio.jpg:
+  source: https://commons.wikimedia.org/wiki/File:Ch%E1%BA%A3_gi%C3%B2_SG_(nem_r%C3%A1n_gi%C3%B2n)_%E1%BB%9F_qu%C3%A1n_b%C3%BAn_ri%C3%AAu_B%C3%A0_Ti_ng26th7n2023_(7).jpg
+  author: "Phương Huy"
+  license: CC BY-SA 4.0
+
+bun-bo-hue.jpg:
+  source: https://commons.wikimedia.org/wiki/File:Bun_Bo_Hue_1.jpg
+  author: "SauceSupreme"
+  license: CC BY 2.0
+
+com-tam-con-chuleta-de-cerdo.jpg:
+  source: https://commons.wikimedia.org/wiki/File:C%C6%A1m_t%E1%BA%A5m_SG_(c%C6%A1m_s%C6%B0%E1%BB%9Dn)_ng27th9n2020_(1).jpg
+  author: "Phương Huy"
+  license: CC0 1.0
+
+pescado-caramelizado-ca-kho-to.jpg:
+  source: https://commons.wikimedia.org/wiki/File:C%C3%A1_kho_t%E1%BB%99,_c%C3%A1_h%C3%BA.jpg
+  author: "Charles Haynes"
+  license: CC BY-SA 2.0
+
+cerdo-caramelizado-con-huevos-thit-kho-trung.jpg:
+  source: https://commons.wikimedia.org/wiki/File:Th%E1%BB%8Bt_kho_h%E1%BB%99t_v%E1%BB%8Bt.jpg
+  author: "Baoothersks"
+  license: CC BY-SA 4.0
+
+sopa-agria-canh-chua.jpg:
+  source: https://commons.wikimedia.org/wiki/File:Canh_chua_%C4%90%C3%B4ng_H%C3%A0.jpg
+  author: "Phương Huy (thảo luận)"
+  license: Public domain
+
+bo-luc-lac.jpg:
+  source: https://commons.wikimedia.org/wiki/File:Beef_Lok_Lak.jpg
+  author: "James Antrobus"
+  license: CC BY 2.0
+
+pollo-con-citronela-y-chile-ga-xao-sa-ot.jpg:
+  source: https://commons.wikimedia.org/wiki/File:Lemongrass_Chicken_(7491346796).jpg
+  author: "Jen Arrr"
+  license: CC BY-SA 2.0
+
+banh-xeo.jpg:
+  source: https://commons.wikimedia.org/wiki/File:B%C3%A1nh_x%C3%A8o_with_pork_sausage_and_shrimp_served_with_various_garnishes.jpg
+  author: "Ser Amantio di Nicolao"
+  license: CC BY-SA 4.0
+
+nuoc-cham.jpg:
+  source: https://commons.wikimedia.org/wiki/File:C%E1%BB%ADa_Vi%E1%BB%87t_th4n2023,_Ks_Song_Ph%C6%B0%C6%A1ng_(%C4%91%E1%BB%93_%C4%83n,_ch%C3%A9n_n%C6%B0%E1%BB%9Bc_ch%E1%BA%A5m).jpg
+  author: "Phương Huy"
+  license: CC BY-SA 4.0
+
+bun-thit-nuong.jpg:
+  source: https://commons.wikimedia.org/wiki/File:B%C3%BAn_th%E1%BB%8Bt_n%C6%B0%E1%BB%9Bng_b%C3%B2_in_Xizhimen_(20141226135500).JPG
+  author: "N509FZ"
+  license: CC BY-SA 4.0
+
+platano-con-leche-de-coco-che-chuoi.jpg:
+  source: https://commons.wikimedia.org/wiki/File:Banana,_tapioca,_coconut_creme_Vietnamese_pudding_(che_chuoi)_-_28356997961.jpg
+  author: "HungryHuy"
+  license: CC BY 2.0
+
+cafe-con-leche-condensada-ca-phe-sua-a.jpg:
+  source: https://commons.wikimedia.org/wiki/File:Ca_Phe_Sua_Da.jpg
+  author: "Clarin"
+  license: CC BY 2.5
+
+batido-de-aguacate-sinh-to-bo.jpg:
+  source: https://commons.wikimedia.org/wiki/File:Sinh_t%E1%BB%91_b%C6%A1.jpg
+  author: "Hoangkid (thảo luận)"
+  license: Public domain
+

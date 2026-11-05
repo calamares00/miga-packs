@@ -1,0 +1,103 @@
+# Origin of every photo in this folder: source page, author and licence (CC0 1.0, Public domain,
+# CC BY x.y or CC BY-SA x.y). tools/build.py refuses a recipe photo without an entry here.
+
+nasi-goreng.jpg:
+  source: https://commons.wikimedia.org/wiki/File:Nasi_Goreng_Kampung.jpg
+  author: "Supardisahabu"
+  license: CC BY-SA 4.0
+
+mie-goreng.jpg:
+  source: https://commons.wikimedia.org/wiki/File:Mie_Goreng_Natra_Bintan.jpg
+  author: "Jpatokal"
+  license: CC BY-SA 4.0
+
+satay-de-pollo-con-salsa-de-cacahuete.jpg:
+  source: https://commons.wikimedia.org/wiki/File:DFC_2193_Sticky_char-grilled_skewers_of_savory_satay_glazed_in_a_rich_peanut_sauce_resting_on_a_banana_leaf.jpg
+  author: "PattayaPatrol"
+  license: CC BY-SA 4.0
+
+gado-gado.jpg:
+  source: https://commons.wikimedia.org/wiki/File:Gado-gado_in_Jakarta.JPG
+  author: "Sakurai Midori"
+  license: CC BY 3.0
+
+rendang-de-ternera.jpg:
+  source: https://commons.wikimedia.org/wiki/File:Aunt_Lay_Leong%27s_Rendang_Beef_(2875293268).jpg
+  author: "Alpha from Melbourne, Australia"
+  license: CC BY-SA 2.0
+
+soto-ayam.jpg:
+  source: https://commons.wikimedia.org/wiki/File:Soto_Ayam_Kudus.jpg
+  author: "Afrogindahood"
+  license: CC BY-SA 4.0
+
+opor-ayam.jpg:
+  source: https://commons.wikimedia.org/wiki/File:Opor_Ayam_3.jpg
+  author: "Pitchrigi"
+  license: CC BY-SA 4.0
+
+ayam-goreng.jpg:
+  source: https://commons.wikimedia.org/wiki/File:Ayam_goreng_kalasan,_sleman.jpg
+  author: "Irhanz"
+  license: CC BY-SA 4.0
+
+sambal-oelek.jpg:
+  source: https://commons.wikimedia.org/wiki/File:GT_Sambal_Oelek.jpg
+  author: "GeoTrinity"
+  license: CC BY-SA 3.0
+
+tempe-orek.jpg:
+  source: https://commons.wikimedia.org/wiki/File:Tempe_Orek.jpg
+  author: "Indonesiagood"
+  license: CC BY 4.0
+
+perkedel-kentang.jpg:
+  source: https://commons.wikimedia.org/wiki/File:Perkedel_kentang.JPG
+  author: "Sakurai Midori"
+  license: CC BY-SA 3.0
+
+sayur-lodeh.jpg:
+  source: https://commons.wikimedia.org/wiki/File:Sayur_Lodeh_Ibu_Sulastri.jpg
+  author: "Gunawan Kartapranata"
+  license: CC BY-SA 4.0
+
+bakso.jpg:
+  source: https://commons.wikimedia.org/wiki/File:Bakmi_Bangka_Bakso_Kuah_3.jpg
+  author: "Gunawan Kartapranata"
+  license: CC BY-SA 4.0
+
+nasi-kuning.jpg:
+  source: https://commons.wikimedia.org/wiki/File:Nasi_Kuning_Telur.jpg
+  author: "Supardisahabu"
+  license: CC BY-SA 4.0
+
+tumis-kangkung.jpg:
+  source: https://commons.wikimedia.org/wiki/File:Tumis_kangkung_Makassar.JPG
+  author: "Midori"
+  license: CC BY 3.0
+
+pisang-goreng.jpg:
+  source: https://commons.wikimedia.org/wiki/File:Pisang_Goreng.jpg
+  author: "Supardisahabu"
+  license: CC BY-SA 4.0
+
+martabak-manis.jpg:
+  source: https://commons.wikimedia.org/wiki/File:Giant_Apam_Balik.jpg
+  author: "Yun Huang Yong"
+  license: CC BY 2.0
+
+klepon.jpg:
+  source: https://commons.wikimedia.org/wiki/File:Klepon_Khas_Tulungagung.jpg
+  author: "Robijuniarta"
+  license: CC BY-SA 4.0
+
+es-teler.jpg:
+  source: https://commons.wikimedia.org/wiki/File:Es_Teller_77.jpg
+  author: "Gunawan Kartapranata"
+  license: CC BY-SA 3.0
+
+cap-cai.jpg:
+  source: https://commons.wikimedia.org/wiki/File:Cap_Cay_(Sayur_Cap_Chay).jpg
+  author: "Lim Natee"
+  license: CC BY-SA 4.0
+

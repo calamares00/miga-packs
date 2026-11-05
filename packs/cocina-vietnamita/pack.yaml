@@ -1,6 +1,6 @@
 id: cocina-vietnamita
-version: 1
-updated: 2026-10-31
+version: 2
+updated: 2026-11-05
 language: es
 name: "Cocina del mundo: Vietnam"
 series: Cocina del mundo
@@ -23,6 +23,7 @@ defaults:
 recipes:
 
   - name: Phở bò
+    photo: cocina-vietnamita/pho-bo.jpg
     category: Sopas y cremas
     difficulty: HARD
     prep: 30
@@ -66,6 +67,7 @@ recipes:
       - Remoja y escalda los fideos, repártelos en cuencos con la falda en lonchas y la carne cruda en láminas. Vierte encima el caldo hirviendo y sirve con las hierbas, los brotes, la lima y el chile.
 
   - name: Bún chả
+    photo: cocina-vietnamita/bun-cha.jpg
     category: Carnes
     difficulty: MEDIUM
     prep: 40
@@ -103,6 +105,7 @@ recipes:
       - Sirve la carne en cuencos con la salsa templada, y aparte los fideos cocidos y las hierbas para mojar.
 
   - name: Bánh mì de cerdo a la citronela
+    photo: cocina-vietnamita/banh-mi-de-cerdo-a-la-citronela.jpg
     category: Panes y masas
     difficulty: MEDIUM
     prep: 40
@@ -143,6 +146,7 @@ recipes:
       - Unta el paté y la mayonesa, pon el cerdo, el encurtido escurrido, el pepino en tiras, el cilantro y el chile, y unas gotas de salsa Maggi.
 
   - name: Rollitos frescos (gỏi cuốn)
+    photo: cocina-vietnamita/rollitos-frescos-goi-cuon.jpg
     category: Entrantes
     difficulty: MEDIUM
     prep: 40
@@ -174,6 +178,7 @@ recipes:
       - Mezcla la hoisin con la crema de cacahuete y el agua y espolvorea los cacahuetes. Sirve los rollitos con la salsa.
 
   - name: Rollitos fritos (chả giò)
+    photo: cocina-vietnamita/rollitos-fritos-cha-gio.jpg
     category: Entrantes
     difficulty: MEDIUM
     prep: 45
@@ -204,6 +209,7 @@ recipes:
       - Sírvelos con lechuga, hierbas y nước chấm.
 
   - name: Bún bò Huế
+    photo: cocina-vietnamita/bun-bo-hue.jpg
     category: Sopas y cremas
     difficulty: HARD
     prep: 30
@@ -245,6 +251,7 @@ recipes:
       - Cuece los fideos y sírvelos con el morcillo en lonchas, el codillo y el caldo, cebolla en aros finos, las hierbas, los brotes y la lima. El resto del aceite picante va aparte.
 
   - name: Cơm tấm con chuleta de cerdo
+    photo: cocina-vietnamita/com-tam-con-chuleta-de-cerdo.jpg
     category: Arroces
     difficulty: MEDIUM
     prep: 30
@@ -282,6 +289,7 @@ recipes:
       - Sirve el arroz con la chuleta, un huevo frito, la cebolleta en aceite, pepino, tomate y nước chấm.
 
   - name: Pescado caramelizado (cá kho tộ)
+    photo: cocina-vietnamita/pescado-caramelizado-ca-kho-to.jpg
     category: Pescados y mariscos
     difficulty: MEDIUM
     prep: 15
@@ -310,6 +318,7 @@ recipes:
       - Termina con el chile y la cebolleta. Sirve con arroz blanco.
 
   - name: Cerdo caramelizado con huevos (thịt kho trứng)
+    photo: cocina-vietnamita/cerdo-caramelizado-con-huevos-thit-kho-trung.jpg
     category: Carnes
     difficulty: EASY
     prep: 15
@@ -336,6 +345,7 @@ recipes:
       - Sirve con arroz blanco y verduras encurtidas.
 
   - name: Sopa agria (canh chua)
+    photo: cocina-vietnamita/sopa-agria-canh-chua.jpg
     category: Sopas y cremas
     difficulty: EASY
     prep: 20
@@ -366,6 +376,7 @@ recipes:
       - Fuera del fuego, añade los brotes de soja. Sirve con el ajo frito, las hierbas y el chile.
 
   - name: Bò lúc lắc
+    photo: cocina-vietnamita/bo-luc-lac.jpg
     category: Carnes
     difficulty: EASY
     prep: 20
@@ -401,6 +412,7 @@ recipes:
       - Coloca la carne sobre los berros y el tomate en rodajas y sírvela con la lima mezclada con la sal y la pimienta para mojar.
 
   - name: Pollo con citronela y chile (gà xào sả ớt)
+    photo: cocina-vietnamita/pollo-con-citronela-y-chile-ga-xao-sa-ot.jpg
     category: Carnes
     difficulty: EASY
     prep: 15
@@ -428,6 +440,7 @@ recipes:
       - Sirve con cilantro y arroz blanco.
 
   - name: Bánh xèo
+    photo: cocina-vietnamita/banh-xeo.jpg
     category: Panes y masas
     difficulty: MEDIUM
     prep: 30
@@ -495,6 +508,7 @@ recipes:
       - Mezcla el pollo con las verduras, la menta y el aliño. Sirve con los cacahuetes y las chalotas fritas por encima.
 
   - name: Nước chấm
+    photo: cocina-vietnamita/nuoc-cham.jpg
     category: Salsas
     difficulty: EASY
     prep: 10
@@ -516,6 +530,7 @@ recipes:
       - Añade el ajo y el chile muy picados justo antes de servir, para que floten.
 
   - name: Bún thịt nướng
+    photo: cocina-vietnamita/bun-thit-nuong.jpg
     category: Carnes
     difficulty: MEDIUM
     prep: 40
@@ -578,6 +593,7 @@ recipes:
       - Incorpora el tofu y cuece 5 minutos para que se impregne. Sirve con cebolleta y pimienta.
 
   - name: Plátano con leche de coco (chè chuối)
+    photo: cocina-vietnamita/platano-con-leche-de-coco-che-chuoi.jpg
     category: Postres
     difficulty: EASY
     prep: 10
@@ -602,6 +618,7 @@ recipes:
       - Sirve templado con los cacahuetes y el sésamo.
 
   - name: Café con leche condensada (cà phê sữa đá)
+    photo: cocina-vietnamita/cafe-con-leche-condensada-ca-phe-sua-a.jpg
     category: Bebidas
     difficulty: EASY
     prep: 5
@@ -621,6 +638,7 @@ recipes:
       - Mezcla el café con la leche condensada y viértelo sobre un vaso con hielo.
 
   - name: Batido de aguacate (sinh tố bơ)
+    photo: cocina-vietnamita/batido-de-aguacate-sinh-to-bo.jpg
     category: Bebidas
     difficulty: EASY
     prep: 5

@@ -1,6 +1,6 @@
 id: cocina-colombiana
-version: 1
-updated: 2026-10-31
+version: 2
+updated: 2026-11-05
 language: es
 name: "Cocina del mundo: Colombia"
 series: Cocina del mundo
@@ -24,6 +24,7 @@ defaults:
 recipes:
 
   - name: Bandeja paisa
+    photo: cocina-colombiana/bandeja-paisa.jpg
     category: Carnes
     difficulty: HARD
     prep: 30
@@ -77,6 +78,7 @@ recipes:
       - Desmenuza la carne de la pezuña y devuélvela a la olla. Sirve con arroz blanco y aguacate.
 
   - name: Ajiaco santafereño
+    photo: cocina-colombiana/ajiaco-santafereno.jpg
     category: Sopas y cremas
     difficulty: MEDIUM
     prep: 30
@@ -108,6 +110,7 @@ recipes:
       - Sirve con la crema de leche, las alcaparras y el aguacate aparte para que cada uno se sirva.
 
   - name: Sancocho de gallina
+    photo: cocina-colombiana/sancocho-de-gallina.jpg
     category: Sopas y cremas
     difficulty: MEDIUM
     prep: 30
@@ -136,6 +139,7 @@ recipes:
       - Ajusta de sal y sirve con el resto del cilantro picado.
 
   - name: Arepas paisas
+    photo: cocina-colombiana/arepas-paisas.jpg
     category: Panes y masas
     difficulty: EASY
     prep: 10
@@ -157,6 +161,7 @@ recipes:
       - Úntalas con mantequilla al servir.
 
   - name: Empanadas colombianas
+    photo: cocina-colombiana/empanadas-colombianas.jpg
     category: Entrantes
     difficulty: MEDIUM
     prep: 45
@@ -187,6 +192,7 @@ recipes:
       - Fríelas en abundante aceite caliente hasta que estén doradas y crujientes.
 
   - name: Patacones
+    photo: cocina-colombiana/patacones.jpg
     category: Entrantes
     difficulty: EASY
     prep: 10
@@ -206,6 +212,7 @@ recipes:
       - Fríelos de nuevo en aceite muy caliente hasta que estén dorados y crujientes. Sálalos.
 
   - name: Hogao
+    photo: cocina-colombiana/hogao.jpg
     category: Salsas
     difficulty: EASY
     prep: 10
@@ -228,6 +235,7 @@ recipes:
       - Añade el tomate, el comino, el achiote y la sal y cocina a fuego suave 15 minutos, removiendo, hasta que esté espeso.
 
   - name: Ají colombiano
+    photo: cocina-colombiana/aji-colombiano.jpg
     category: Salsas
     difficulty: EASY
     prep: 15
@@ -251,6 +259,7 @@ recipes:
       - Deja que repose al menos 1 hora en la nevera.
 
   - name: Arroz con pollo colombiano
+    photo: cocina-colombiana/arroz-con-pollo-colombiano.jpg
     category: Arroces
     difficulty: MEDIUM
     prep: 20
@@ -281,6 +290,7 @@ recipes:
       - Suelta el arroz con un tenedor, añade el cilantro y sirve con patacones y ensalada.
 
   - name: Changua
+    photo: cocina-colombiana/changua.jpg
     category: Sopas y cremas
     difficulty: EASY
     prep: 5
@@ -304,6 +314,7 @@ recipes:
       - Pon el pan en los platos, sirve encima la changua con un huevo en cada plato y espolvorea el cilantro.
 
   - name: Pandebono
+    photo: cocina-colombiana/pandebono.jpg
     category: Panes y masas
     difficulty: EASY
     prep: 15
@@ -328,6 +339,7 @@ recipes:
       - Hornea 15-18 minutos, hasta que estén doradas. Cómelos calientes.
 
   - name: Buñuelos colombianos
+    photo: cocina-colombiana/bunuelos-colombianos.jpg
     category: Postres
     difficulty: MEDIUM
     prep: 20
@@ -352,6 +364,7 @@ recipes:
       - Calienta abundante aceite a fuego medio-bajo, a unos 150 °C, añade los buñuelos y deja que se hinchen y giren; fríelos 8-10 minutos, hasta que estén dorados.
 
   - name: Natilla colombiana
+    photo: cocina-colombiana/natilla-colombiana.jpg
     category: Postres
     difficulty: EASY
     prep: 10
@@ -375,6 +388,7 @@ recipes:
       - Añade la mantequilla y el coco, retira la canela y vierte en un molde. Deja que se enfríe y espolvorea canela molida.
 
   - name: Posta negra cartagenera
+    photo: cocina-colombiana/posta-negra-cartagenera.jpg
     category: Carnes
     difficulty: MEDIUM
     prep: 20
@@ -404,6 +418,7 @@ recipes:
       - Corta la carne en lonchas y sírvela con la salsa, arroz con coco y patacones.
 
   - name: Mote de queso
+    photo: cocina-colombiana/mote-de-queso.jpg
     category: Sopas y cremas
     difficulty: EASY
     prep: 20
@@ -430,6 +445,7 @@ recipes:
       - Termina con el zumo de limón y ajusta de sal; ojo, el queso es salado.
 
   - name: Arroz con coco
+    photo: cocina-colombiana/arroz-con-coco.jpg
     category: Arroces
     difficulty: MEDIUM
     prep: 10
@@ -453,6 +469,7 @@ recipes:
       - Incorpora el arroz y las pasas, cuece sin tapar hasta que el líquido baje al nivel del arroz, y después tapa y cuece a fuego mínimo 20 minutos.
 
   - name: Cazuela de mariscos
+    photo: cocina-colombiana/cazuela-de-mariscos.jpg
     category: Pescados y mariscos
     difficulty: MEDIUM
     prep: 20
@@ -485,6 +502,7 @@ recipes:
       - Incorpora la crema y el cilantro, ajusta de sal y sirve con arroz con coco y patacones.
 
   - name: Sobrebarriga en salsa
+    photo: cocina-colombiana/sobrebarriga-en-salsa.jpg
     category: Carnes
     difficulty: MEDIUM
     prep: 15
@@ -512,6 +530,7 @@ recipes:
       - Corta la carne en porciones, añádela a la salsa y cuece 10 minutos. Sirve con papas saladas y arroz.
 
   - name: Limonada de coco
+    photo: cocina-colombiana/limonada-de-coco.jpg
     category: Bebidas
     difficulty: EASY
     prep: 10

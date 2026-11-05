@@ -1,6 +1,6 @@
 id: cocina-peruana
-version: 1
-updated: 2026-10-31
+version: 2
+updated: 2026-11-05
 language: es
 name: "Cocina del mundo: Perú"
 series: Cocina del mundo
@@ -24,6 +24,7 @@ defaults:
 recipes:
 
   - name: Ceviche de pescado
+    photo: cocina-peruana/ceviche-de-pescado.jpg
     category: Pescados y mariscos
     difficulty: EASY
     prep: 25
@@ -51,6 +52,7 @@ recipes:
       - Sirve enseguida con rodajas de camote y choclo.
 
   - name: Tiradito
+    photo: cocina-peruana/tiradito.jpg
     category: Pescados y mariscos
     difficulty: EASY
     prep: 20
@@ -74,6 +76,7 @@ recipes:
       - Vierte la salsa sobre el pescado justo antes de servir y decora con hojas de cilantro.
 
   - name: Lomo saltado
+    photo: cocina-peruana/lomo-saltado.jpg
     category: Carnes
     difficulty: MEDIUM
     prep: 20
@@ -106,6 +109,7 @@ recipes:
       - Añade el cilantro y las patatas fritas, mezcla y sirve con arroz blanco.
 
   - name: Ají de gallina
+    photo: cocina-peruana/aji-de-gallina.jpg
     category: Carnes
     difficulty: MEDIUM
     prep: 25
@@ -138,6 +142,7 @@ recipes:
       - Sirve sobre papas en rodajas, con arroz blanco, huevo duro y aceitunas.
 
   - name: Causa limeña
+    photo: cocina-peruana/causa-limena.jpg
     category: Entrantes
     difficulty: MEDIUM
     prep: 40
@@ -170,6 +175,7 @@ recipes:
       - Refrigera 1 hora, desmolda y decora con huevo duro, aceitunas y un poco de mayonesa.
 
   - name: Papa a la huancaína
+    photo: cocina-peruana/papa-a-la-huancaina.jpg
     category: Entrantes
     difficulty: EASY
     prep: 15
@@ -201,6 +207,7 @@ recipes:
       - Coloca las papas sobre las hojas de lechuga, cúbrelas con la salsa y decora con huevo duro y aceitunas.
 
   - name: Ocopa arequipeña
+    photo: cocina-peruana/ocopa-arequipena.jpg
     category: Entrantes
     difficulty: EASY
     prep: 20
@@ -235,6 +242,7 @@ recipes:
       - Sirve sobre las papas cocidas en rodajas, con huevo duro y aceitunas.
 
   - name: Arroz chaufa
+    photo: cocina-peruana/arroz-chaufa.jpg
     category: Arroces
     difficulty: EASY
     prep: 15
@@ -263,6 +271,7 @@ recipes:
       - Saltea 1 minuto más y termina con la parte verde de la cebolleta picada.
 
   - name: Anticuchos de corazón
+    photo: cocina-peruana/anticuchos-de-corazon.jpg
     category: Carnes
     difficulty: MEDIUM
     prep: 30
@@ -291,6 +300,7 @@ recipes:
       - Sírvelos con papas doradas en la parrilla y choclo.
 
   - name: Pollo a la brasa
+    photo: cocina-peruana/pollo-a-la-brasa.jpg
     category: Carnes
     difficulty: EASY
     prep: 15
@@ -320,6 +330,7 @@ recipes:
       - Sírvelo con papas fritas, ensalada y salsa de ají.
 
   - name: Rocoto relleno
+    photo: cocina-peruana/rocoto-relleno.jpg
     category: Verduras
     difficulty: HARD
     prep: 60
@@ -361,6 +372,7 @@ recipes:
       - Colócalos en una fuente, vierte la leche batida con el huevo y hornea 25-30 minutos. Sírvelos con pastel de papa o papas doradas.
 
   - name: Seco de res
+    photo: cocina-peruana/seco-de-res.jpg
     category: Carnes
     difficulty: MEDIUM
     prep: 25
@@ -393,6 +405,7 @@ recipes:
       - Añade las zanahorias en rodajas y las arvejas y cuece 15 minutos más. Ajusta de sal.
 
   - name: Arroz con pollo peruano
+    photo: cocina-peruana/arroz-con-pollo-peruano.jpg
     category: Arroces
     difficulty: MEDIUM
     prep: 20
@@ -426,6 +439,7 @@ recipes:
       - Añade el arroz, el caldo, el pimiento y la zanahoria en dados, las arvejas y el choclo. Ajusta de sal, tapa y cuece a fuego suave 20 minutos.
 
   - name: Chupe de camarones
+    photo: cocina-peruana/chupe-de-camarones.jpg
     category: Sopas y cremas
     difficulty: HARD
     prep: 30
@@ -461,6 +475,7 @@ recipes:
       - Casca los huevos en la sopa, añade el queso y el huacatay y cuece 2 minutos sin que hierva fuerte. Ajusta de sal.
 
   - name: Papa rellena
+    photo: cocina-peruana/papa-rellena.jpg
     category: Entrantes
     difficulty: MEDIUM
     prep: 45
@@ -498,6 +513,7 @@ recipes:
       - Pásalas por harina y huevo batido y fríelas en aceite caliente hasta que estén doradas.
 
   - name: Tallarines verdes
+    photo: cocina-peruana/tallarines-verdes.jpg
     category: Pastas
     difficulty: EASY
     prep: 15
@@ -525,6 +541,7 @@ recipes:
       - Cuece la pasta, escúrrela y mézclala con la salsa en la cazuela a fuego suave 1 minuto.
 
   - name: Suspiro limeño
+    photo: cocina-peruana/suspiro-limeno.jpg
     category: Postres
     difficulty: MEDIUM
     prep: 20
@@ -554,6 +571,7 @@ recipes:
       - Cubre el manjar con el merengue y espolvorea canela.
 
   - name: Picarones
+    photo: cocina-peruana/picarones.jpg
     category: Postres
     difficulty: HARD
     prep: 90
@@ -587,6 +605,7 @@ recipes:
       - Fríelos, girándolos con un palito, hasta que estén dorados. Sírvelos calientes bañados en la miel.
 
   - name: Mazamorra morada
+    photo: cocina-peruana/mazamorra-morada.jpg
     category: Postres
     difficulty: EASY
     prep: 15
@@ -616,6 +635,7 @@ recipes:
       - Fuera del fuego, añade el zumo de lima. Sirve en cuencos espolvoreada de canela.
 
   - name: Chicha morada
+    photo: cocina-peruana/chicha-morada.jpg
     category: Bebidas
     difficulty: EASY
     prep: 10

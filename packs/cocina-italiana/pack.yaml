@@ -1,6 +1,6 @@
 id: cocina-italiana
-version: 1
-updated: 2026-10-31
+version: 2
+updated: 2026-11-05
 language: es
 name: "Cocina del mundo: Italia"
 series: Cocina del mundo
@@ -23,6 +23,7 @@ defaults:
 recipes:
 
   - name: Espaguetis a la carbonara
+    photo: cocina-italiana/espaguetis-a-la-carbonara.jpg
     category: Pastas
     difficulty: MEDIUM
     prep: 10
@@ -48,6 +49,7 @@ recipes:
       - Sirve con más pecorino y pimienta.
 
   - name: Bucatini all'amatriciana
+    photo: cocina-italiana/bucatini-all-amatriciana.jpg
     category: Pastas
     difficulty: EASY
     prep: 10
@@ -71,6 +73,7 @@ recipes:
       - Cuece la pasta al dente, escúrrela y mézclala con la salsa, el guanciale reservado y la mitad del pecorino. Sirve con el resto del queso.
 
   - name: Cacio e pepe
+    photo: cocina-italiana/cacio-e-pepe.jpg
     category: Pastas
     difficulty: MEDIUM
     prep: 5
@@ -92,6 +95,7 @@ recipes:
       - Termina de cocer la pasta en la sartén de la pimienta con un poco más de agua. Fuera del fuego, añade la crema de queso y remueve enérgicamente hasta que quede ligada y brillante.
 
   - name: Lasaña a la boloñesa
+    photo: cocina-italiana/lasana-a-la-bolonesa.jpg
     category: Pastas
     difficulty: HARD
     prep: 40
@@ -144,6 +148,7 @@ recipes:
           - Hornea 30-35 minutos, hasta que esté dorada. Deja que repose 15 minutos antes de cortarla.
 
   - name: Pasta alla Norma
+    photo: cocina-italiana/pasta-alla-norma.jpg
     category: Pastas
     difficulty: EASY
     prep: 15
@@ -171,6 +176,7 @@ recipes:
       - Sirve con el resto de la berenjena, la ricotta salata y albahaca fresca.
 
   - name: Espaguetis con almejas
+    photo: cocina-italiana/espaguetis-con-almejas.jpg
     category: Pastas
     difficulty: EASY
     prep: 10
@@ -196,6 +202,7 @@ recipes:
       - Termina de cocer la pasta en el jugo de las almejas, removiendo, hasta que la salsa ligue. Añade el perejil y sirve.
 
   - name: Risotto a la milanesa
+    photo: cocina-italiana/risotto-a-la-milanesa.jpg
     category: Arroces
     difficulty: MEDIUM
     prep: 10
@@ -222,6 +229,7 @@ recipes:
       - Fuera del fuego, añade el resto de la mantequilla fría y el parmesano y remueve con energía (mantecatura). Deja que repose 1 minuto y sirve.
 
   - name: Ossobuco a la milanesa
+    photo: cocina-italiana/ossobuco-a-la-milanesa.jpg
     category: Carnes
     difficulty: MEDIUM
     prep: 20
@@ -257,6 +265,7 @@ recipes:
       - Mezcla la ralladura, el ajo muy picado y el perejil, y espolvorea la gremolata sobre el ossobuco justo antes de servir.
 
   - name: Saltimbocca a la romana
+    photo: cocina-italiana/saltimbocca-a-la-romana.jpg
     category: Carnes
     difficulty: EASY
     prep: 10
@@ -282,6 +291,7 @@ recipes:
       - Añade el vino a la sartén, raspa el fondo y deja que se reduzca 1 minuto. Vierte la salsa sobre los filetes.
 
   - name: Berenjenas a la parmesana
+    photo: cocina-italiana/berenjenas-a-la-parmesana.jpg
     category: Verduras
     difficulty: MEDIUM
     prep: 30
@@ -310,6 +320,7 @@ recipes:
       - Hornea 35-40 minutos y deja que repose 20 minutos antes de cortarla.
 
   - name: Minestrone
+    photo: cocina-italiana/minestrone.jpg
     category: Sopas y cremas
     difficulty: EASY
     prep: 20
@@ -340,6 +351,7 @@ recipes:
       - Añade las alubias y la pasta y cuece hasta que la pasta esté hecha. Ajusta de sal y sirve con un hilo de aceite.
 
   - name: Pasta e fagioli
+    photo: cocina-italiana/pasta-e-fagioli.jpg
     category: Legumbres
     difficulty: EASY
     prep: 10
@@ -368,6 +380,7 @@ recipes:
       - Añade la pasta y cuécela en la sopa, removiendo, hasta que esté al dente. Salpimienta y sirve con un hilo de aceite.
 
   - name: Pizza margarita
+    photo: cocina-italiana/pizza-margarita.jpg
     category: Panes y masas
     difficulty: MEDIUM
     prep: 30
@@ -399,6 +412,7 @@ recipes:
       - Añade la mozzarella y hornea 2-3 minutos más. Termina con albahaca y un hilo de aceite.
 
   - name: Focaccia genovesa
+    photo: cocina-italiana/focaccia-genovesa.jpg
     category: Panes y masas
     difficulty: MEDIUM
     prep: 30
@@ -429,6 +443,7 @@ recipes:
       - Hornea a 230 °C 18-20 minutos, hasta que esté dorada. Deja que se temple sobre una rejilla.
 
   - name: Bruschetta de tomate
+    photo: cocina-italiana/bruschetta-de-tomate.jpg
     category: Entrantes
     difficulty: EASY
     prep: 10
@@ -449,6 +464,7 @@ recipes:
       - Frota cada rebanada con el ajo pelado, riégala con el resto del aceite y cubre con el tomate justo antes de servir.
 
   - name: Arancini
+    photo: cocina-italiana/arancini.jpg
     category: Entrantes
     difficulty: HARD
     prep: 60
@@ -485,6 +501,7 @@ recipes:
       - Fríelos en aceite a 170 °C 4-5 minutos, hasta que estén dorados, y escúrrelos.
 
   - name: Vitello tonnato
+    photo: cocina-italiana/vitello-tonnato.jpg
     category: Carnes
     difficulty: MEDIUM
     prep: 20
@@ -518,6 +535,7 @@ recipes:
       - Corta la carne en lonchas muy finas, colócalas en una fuente y cúbrelas con la salsa. Decora con el resto de las alcaparras.
 
   - name: Caponata
+    photo: cocina-italiana/caponata.jpg
     category: Verduras
     difficulty: EASY
     prep: 20
@@ -549,6 +567,7 @@ recipes:
       - Añade la berenjena, mezcla con cuidado y deja que se temple. Sirve con albahaca.
 
   - name: Tiramisú
+    photo: cocina-italiana/tiramisu.jpg
     category: Postres
     difficulty: EASY
     prep: 30
@@ -573,6 +592,7 @@ recipes:
       - Refrigera al menos 6 horas y espolvorea el cacao justo antes de servir.
 
   - name: Panna cotta
+    photo: cocina-italiana/panna-cotta.jpg
     category: Postres
     difficulty: EASY
     prep: 15

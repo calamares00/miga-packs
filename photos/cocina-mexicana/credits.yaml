@@ -1,0 +1,103 @@
+# Origin of every photo in this folder: source page, author and licence (CC0 1.0, Public domain,
+# CC BY x.y or CC BY-SA x.y). tools/build.py refuses a recipe photo without an entry here.
+
+tacos-al-pastor.jpg:
+  source: https://commons.wikimedia.org/wiki/File:Tacos_al_pastor,_taco_de_panza.jpg
+  author: "T.Tseng"
+  license: CC BY 2.0
+
+guacamole.jpg:
+  source: https://commons.wikimedia.org/wiki/File:Guacamole_IMGP1271.jpg
+  author: "Nikodem Nijaki"
+  license: CC BY-SA 3.0
+
+pico-de-gallo.jpg:
+  source: https://commons.wikimedia.org/wiki/File:Mmm..._Pico_de_Gallo_(5923456035).jpg
+  author: "jeffreyw"
+  license: CC BY 2.0
+
+salsa-verde.jpg:
+  source: https://commons.wikimedia.org/wiki/File:SALSA_VERDE.jpg
+  author: "No machine-readable author provided. JEDIKNIGHT1970 assumed (based on copyright claims)."
+  license: CC BY-SA 2.5
+
+chilaquiles-verdes.jpg:
+  source: https://commons.wikimedia.org/wiki/File:01_Chilaquiles_verdes_con_frijoles_chinos.jpg
+  author: "ismael villafranco"
+  license: CC BY 2.0
+
+enchiladas-rojas.jpg:
+  source: https://commons.wikimedia.org/wiki/File:Enchiladas_con_salsa_roja.jpg
+  author: "Dahyana Yasada R. R."
+  license: CC BY-SA 4.0
+
+pozole-rojo.jpg:
+  source: https://commons.wikimedia.org/wiki/File:Pozole_Rojo.jpg
+  author: "Diegosalcido"
+  license: CC BY-SA 4.0
+
+sopa-de-tortilla.jpg:
+  source: https://commons.wikimedia.org/wiki/File:Tortilla_Soup.jpg
+  author: "Wikiwrimo"
+  license: CC BY-SA 4.0
+
+cochinita-pibil.jpg:
+  source: https://commons.wikimedia.org/wiki/File:Cochinita_pibil,_Mazatl%C3%A1n,_22_de_marzo_de_2023.jpg
+  author: "El Nuevo Doge"
+  license: CC0 1.0
+
+tinga-de-pollo.jpg:
+  source: https://commons.wikimedia.org/wiki/File:Tinga.jpg
+  author: "El Mono Español"
+  license: CC BY-SA 4.0
+
+frijoles-refritos.jpg:
+  source: https://commons.wikimedia.org/wiki/File:Refried_beans-frijoles_refritos.jpg
+  author: "Drywontonmee at English Wikipedia"
+  license: CC BY 2.5
+
+arroz-rojo-mexicano.jpg:
+  source: https://commons.wikimedia.org/wiki/File:Spanish_rice_from_a_mix_(close_up).jpg
+  author: "Bodhi Peace"
+  license: CC BY-SA 4.0
+
+huevos-rancheros.jpg:
+  source: https://commons.wikimedia.org/wiki/File:Ela_huevos_rancheros.jpg
+  author: "Elchavobeer"
+  license: CC BY-SA 3.0
+
+quesadillas.jpg:
+  source: https://commons.wikimedia.org/wiki/File:At_Long_Island_2023_267.jpg
+  author: "Photograph by Mike Peel (www.mikepeel.net)."
+  license: CC BY-SA 4.0
+
+chiles-rellenos-de-queso.jpg:
+  source: https://commons.wikimedia.org/wiki/File:Chile_de_cera_relleno.jpg
+  author: "Koffermejia"
+  license: CC BY-SA 4.0
+
+carnitas.jpg:
+  source: https://commons.wikimedia.org/wiki/File:Carnitas_tacos.jpg
+  author: "Jj saezdeo"
+  license: CC BY-SA 4.0
+
+esquites.jpg:
+  source: https://commons.wikimedia.org/wiki/File:Esquites_in_the_streets_of_Coyoacan,_Mexico.jpg
+  author: "Melissa Guadalupe Huertas"
+  license: CC BY-SA 4.0
+
+agua-de-horchata.jpg:
+  source: https://commons.wikimedia.org/wiki/File:Agua_de_horchata_(21253977200).jpg
+  author: "Dan Cortés from Ciudad de México, México"
+  license: CC BY-SA 2.0
+
+agua-de-jamaica.jpg:
+  source: https://commons.wikimedia.org/wiki/File:Homemade_sorrel_drink.jpg
+  author: "stu_spivack"
+  license: CC BY-SA 2.0
+
+flan-napolitano.jpg:
+  source: https://commons.wikimedia.org/wiki/File:Flan_Napolitano,_Restaurante_Kinich,_Izamal,_Yucatan,_Mexico.jpg
+  author: "Sharon Hahn Darlin"
+  license: CC BY 2.0
+

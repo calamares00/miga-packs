@@ -1,6 +1,6 @@
 id: cocina-mexicana
-version: 2
-updated: 2026-10-31
+version: 3
+updated: 2026-11-05
 language: es
 name: "Cocina del mundo: México"
 series: Cocina del mundo
@@ -22,6 +22,7 @@ defaults:
 recipes:
 
   - name: Tacos al pastor
+    photo: cocina-mexicana/tacos-al-pastor.jpg
     category: Carnes
     difficulty: MEDIUM
     prep: 30
@@ -62,6 +63,7 @@ recipes:
       - Calienta las tortillas y sirve la carne con piña, cebolla, cilantro y unas gotas de lima.
 
   - name: Guacamole
+    photo: cocina-mexicana/guacamole.jpg
     category: Salsas
     difficulty: EASY
     prep: 10
@@ -85,6 +87,7 @@ recipes:
       - Sala al gusto y sirve enseguida con totopos.
 
   - name: Pico de gallo
+    photo: cocina-mexicana/pico-de-gallo.jpg
     category: Salsas
     difficulty: EASY
     prep: 15
@@ -106,6 +109,7 @@ recipes:
       - Deja reposar 10 minutos antes de servir para que se mezclen los sabores.
 
   - name: Salsa verde
+    photo: cocina-mexicana/salsa-verde.jpg
     category: Salsas
     difficulty: EASY
     prep: 5
@@ -128,6 +132,7 @@ recipes:
       - Prueba de sal y deja enfriar. Se conserva 5 días en la nevera.
 
   - name: Chilaquiles verdes
+    photo: cocina-mexicana/chilaquiles-verdes.jpg
     category: Huevos
     difficulty: EASY
     prep: 10
@@ -152,6 +157,7 @@ recipes:
       - Sirve los chilaquiles con el huevo encima, la crema, el queso, la cebolla y el cilantro.
 
   - name: Enchiladas rojas
+    photo: cocina-mexicana/enchiladas-rojas.jpg
     category: Carnes
     difficulty: MEDIUM
     prep: 25
@@ -187,6 +193,7 @@ recipes:
       - Hornea a 200 °C 10-12 minutos y sirve con crema y lechuga.
 
   - name: Pozole rojo
+    photo: cocina-mexicana/pozole-rojo.jpg
     category: Sopas y cremas
     difficulty: MEDIUM
     prep: 30
@@ -230,6 +237,7 @@ recipes:
           - Sirve muy caliente y deja que cada uno añada lechuga, rábano, cebolla, orégano y lima.
 
   - name: Sopa de tortilla
+    photo: cocina-mexicana/sopa-de-tortilla.jpg
     category: Sopas y cremas
     difficulty: EASY
     prep: 15
@@ -258,6 +266,7 @@ recipes:
       - Sirve la sopa sobre las tiras de tortilla con aguacate, queso, crema y el resto del chile desmenuzado.
 
   - name: Cochinita pibil
+    photo: cocina-mexicana/cochinita-pibil.jpg
     category: Carnes
     difficulty: MEDIUM
     prep: 20
@@ -298,6 +307,7 @@ recipes:
           - Sirve la cochinita en tortillas o pan, con la cebolla encurtida.
 
   - name: Tinga de pollo
+    photo: cocina-mexicana/tinga-de-pollo.jpg
     category: Carnes
     difficulty: EASY
     prep: 15
@@ -327,6 +337,7 @@ recipes:
       - Sirve sobre tostadas untadas con frijoles, con lechuga y crema.
 
   - name: Frijoles refritos
+    photo: cocina-mexicana/frijoles-refritos.jpg
     category: Legumbres
     difficulty: EASY
     prep: 5
@@ -350,6 +361,7 @@ recipes:
       - Sirve con queso fresco por encima.
 
   - name: Arroz rojo mexicano
+    photo: cocina-mexicana/arroz-rojo-mexicano.jpg
     category: Arroces
     difficulty: EASY
     prep: 10
@@ -376,6 +388,7 @@ recipes:
       - Cuando hierva, tapa y cuece a fuego mínimo 15-18 minutos. Deja reposar 5 minutos tapado y suelta con un tenedor.
 
   - name: Huevos rancheros
+    photo: cocina-mexicana/huevos-rancheros.jpg
     category: Huevos
     difficulty: EASY
     prep: 10
@@ -401,6 +414,7 @@ recipes:
       - Sirve cada tortilla con frijoles, un huevo y la salsa ranchera por encima.
 
   - name: Quesadillas
+    photo: cocina-mexicana/quesadillas.jpg
     category: Panes y masas
     difficulty: EASY
     prep: 5
@@ -423,6 +437,7 @@ recipes:
       - Sirve con salsa verde.
 
   - name: Chiles rellenos de queso
+    photo: cocina-mexicana/chiles-rellenos-de-queso.jpg
     category: Verduras
     difficulty: HARD
     prep: 40
@@ -460,6 +475,7 @@ recipes:
           - Sirve los chiles bañados en el caldillo caliente.
 
   - name: Carnitas
+    photo: cocina-mexicana/carnitas.jpg
     category: Carnes
     difficulty: MEDIUM
     prep: 15
@@ -487,6 +503,7 @@ recipes:
       - Escurre, desmenuza un poco y sirve en tortillas con cebolla, cilantro y salsa.
 
   - name: Esquites
+    photo: cocina-mexicana/esquites.jpg
     category: Verduras
     difficulty: EASY
     prep: 5
@@ -510,6 +527,7 @@ recipes:
       - Sirve en vasos con mayonesa, queso, chile en polvo y un chorrito de lima.
 
   - name: Agua de horchata
+    photo: cocina-mexicana/agua-de-horchata.jpg
     category: Bebidas
     difficulty: EASY
     prep: 15
@@ -535,6 +553,7 @@ recipes:
       - Enfría en la nevera y sirve con mucho hielo.
 
   - name: Agua de jamaica
+    photo: cocina-mexicana/agua-de-jamaica.jpg
     category: Bebidas
     difficulty: EASY
     prep: 5
@@ -555,6 +574,7 @@ recipes:
       - Sirve muy fría con hielo.
 
   - name: Flan napolitano
+    photo: cocina-mexicana/flan-napolitano.jpg
     category: Postres
     difficulty: MEDIUM
     prep: 15

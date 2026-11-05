@@ -1,6 +1,6 @@
 id: german-cooking
-version: 1
-updated: 2026-10-31
+version: 2
+updated: 2026-11-05
 language: en
 name: "World cuisine: Germany"
 series: World cuisine
@@ -23,6 +23,7 @@ defaults:
 recipes:
 
   - name: Pork schnitzel
+    photo: cocina-alemana/schnitzel-de-cerdo.jpg
     category: Meat
     difficulty: EASY
     prep: 15
@@ -49,6 +50,7 @@ recipes:
       - Drain and serve with lemon wedges, potato salad or Bratkartoffeln.
 
   - name: Beef rouladen
+    photo: cocina-alemana/rouladen-de-ternera.jpg
     category: Meat
     difficulty: MEDIUM
     prep: 25
@@ -80,6 +82,7 @@ recipes:
       - Take out the rolls, strain the sauce, thicken it with the cornflour mixed with water and serve.
 
   - name: Sauerbraten
+    photo: cocina-alemana/sauerbraten.jpg
     category: Meat
     difficulty: HARD
     prep: 30
@@ -116,6 +119,7 @@ recipes:
       - Take out the meat, strain the liquid and cook it with the crumbled Lebkuchen and raisins until thick. Slice the meat and serve with the sauce.
 
   - name: Swabian potato salad
+    photo: cocina-alemana/ensalada-de-patata-suaba.jpg
     category: Salads
     difficulty: EASY
     prep: 15
@@ -143,6 +147,7 @@ recipes:
       - Add the oil and chives, mix and adjust the salt and vinegar.
 
   - name: Bratkartoffeln
+    photo: cocina-alemana/bratkartoffeln.jpg
     category: Vegetables
     difficulty: EASY
     prep: 10
@@ -168,6 +173,7 @@ recipes:
       - Season, add the marjoram and parsley and serve.
 
   - name: Kartoffelpuffer
+    photo: cocina-alemana/kartoffelpuffer.jpg
     category: Vegetables
     difficulty: EASY
     prep: 20
@@ -192,6 +198,7 @@ recipes:
       - Drain on kitchen paper and serve hot with the apple sauce.
 
   - name: Käsespätzle
+    photo: cocina-alemana/kasespatzle.jpg
     category: Pasta
     difficulty: MEDIUM
     prep: 20
@@ -223,6 +230,7 @@ recipes:
       - Top with the fried onions and chives and serve straight away.
 
   - name: Königsberger Klopse
+    photo: cocina-alemana/konigsberger-klopse.jpg
     category: Meat
     difficulty: MEDIUM
     prep: 25
@@ -260,6 +268,7 @@ recipes:
       - Add the cream, capers, lemon juice and sugar. Off the heat, stir in the yolk. Warm the meatballs in the sauce and serve with boiled potatoes.
 
   - name: Currywurst
+    photo: cocina-alemana/currywurst.jpg
     category: Meat
     difficulty: EASY
     prep: 10
@@ -292,6 +301,7 @@ recipes:
       - Cover with the hot sauce and sprinkle with curry powder.
 
   - name: Frikadellen
+    photo: cocina-alemana/frikadellen.jpg
     category: Meat
     difficulty: EASY
     prep: 15
@@ -318,6 +328,7 @@ recipes:
       - Fry them in the oil over a medium heat for 5-6 minutes on each side, until golden and cooked through.
 
   - name: German lentil stew
+    photo: cocina-alemana/potaje-aleman-de-lentejas.jpg
     category: Legumes
     difficulty: EASY
     prep: 20
@@ -348,6 +359,7 @@ recipes:
       - Add the sliced frankfurters and heat for 5 minutes. Finish with the vinegar and season.
 
   - name: Split pea soup
+    photo: cocina-alemana/sopa-de-guisantes.jpg
     category: Legumes
     difficulty: EASY
     prep: 15
@@ -376,6 +388,7 @@ recipes:
       - Take out the ham hock, shred the meat and return it to the soup with the sliced frankfurters. Season.
 
   - name: German potato soup
+    photo: cocina-alemana/sopa-de-patata-alemana.jpg
     category: Soups
     difficulty: EASY
     prep: 20
@@ -406,6 +419,7 @@ recipes:
       - Add the cream, nutmeg and sliced frankfurters, heat through and season with salt. Serve with parsley.
 
   - name: Flammkuchen
+    photo: cocina-alemana/flammkuchen.jpg
     category: Breads and doughs
     difficulty: EASY
     prep: 20
@@ -437,6 +451,7 @@ recipes:
       - Bake each Flammkuchen for 10-12 minutes on the hot tray, until the edges are crisp and golden.
 
   - name: Soft pretzels
+    photo: cocina-alemana/brezeln.jpg
     category: Breads and doughs
     difficulty: MEDIUM
     prep: 90
@@ -468,6 +483,7 @@ recipes:
       - Put them on trays lined with baking paper, slash the thick part, sprinkle with coarse salt and bake for 15 minutes, until deep brown.
 
   - name: Maultaschen
+    photo: cocina-alemana/maultaschen.jpg
     category: Pasta
     difficulty: HARD
     prep: 60
@@ -507,6 +523,7 @@ recipes:
       - Simmer them in the stock for 10-12 minutes. Serve in the broth with chives.
 
   - name: German apple cake
+    photo: cocina-alemana/pastel-de-manzana-aleman.jpg
     category: Desserts
     difficulty: EASY
     prep: 20
@@ -535,6 +552,7 @@ recipes:
       - Bake for 40-45 minutes. Let it cool and dust with icing sugar.
 
   - name: Black Forest gateau
+    photo: cocina-alemana/tarta-selva-negra.jpg
     category: Desserts
     difficulty: HARD
     prep: 60
@@ -578,6 +596,7 @@ recipes:
           - Press chocolate shavings around the sides and pipe rosettes of cream, each topped with a cherry.
 
   - name: Rote Grütze
+    photo: cocina-alemana/rote-grutze.jpg
     category: Desserts
     difficulty: EASY
     prep: 10
@@ -600,6 +619,7 @@ recipes:
       - Divide between bowls and chill for at least 2 hours.
 
   - name: Obatzda
+    photo: cocina-alemana/obatzda.jpg
     category: Sauces
     difficulty: EASY
     prep: 10

@@ -1,6 +1,6 @@
 id: mexican-cooking
-version: 2
-updated: 2026-10-31
+version: 3
+updated: 2026-11-05
 language: en
 name: "World cuisine: Mexico"
 series: World cuisine
@@ -22,6 +22,7 @@ defaults:
 recipes:
 
   - name: Tacos al pastor
+    photo: cocina-mexicana/tacos-al-pastor.jpg
     category: Meat
     difficulty: MEDIUM
     prep: 30
@@ -62,6 +63,7 @@ recipes:
       - Warm the tortillas and serve the meat with pineapple, onion, coriander and a squeeze of lime.
 
   - name: Guacamole
+    photo: cocina-mexicana/guacamole.jpg
     category: Sauces
     difficulty: EASY
     prep: 10
@@ -85,6 +87,7 @@ recipes:
       - Season with salt and serve straight away with tortilla chips.
 
   - name: Pico de gallo
+    photo: cocina-mexicana/pico-de-gallo.jpg
     category: Sauces
     difficulty: EASY
     prep: 15
@@ -106,6 +109,7 @@ recipes:
       - Leave for 10 minutes before serving so the flavours come together.
 
   - name: Salsa verde
+    photo: cocina-mexicana/salsa-verde.jpg
     category: Sauces
     difficulty: EASY
     prep: 5
@@ -128,6 +132,7 @@ recipes:
       - Check the salt and leave to cool. It keeps for 5 days in the fridge.
 
   - name: Chilaquiles verdes
+    photo: cocina-mexicana/chilaquiles-verdes.jpg
     category: Eggs
     difficulty: EASY
     prep: 10
@@ -152,6 +157,7 @@ recipes:
       - Serve the chilaquiles topped with the eggs, cream, cheese, onion and coriander.
 
   - name: Red enchiladas
+    photo: cocina-mexicana/enchiladas-rojas.jpg
     category: Meat
     difficulty: MEDIUM
     prep: 25
@@ -187,6 +193,7 @@ recipes:
       - Bake at 200 °C for 10-12 minutes and serve with cream and lettuce.
 
   - name: Red pozole
+    photo: cocina-mexicana/pozole-rojo.jpg
     category: Soups
     difficulty: MEDIUM
     prep: 30
@@ -230,6 +237,7 @@ recipes:
           - Serve piping hot and let everyone add lettuce, radish, onion, oregano and lime.
 
   - name: Tortilla soup
+    photo: cocina-mexicana/sopa-de-tortilla.jpg
     category: Soups
     difficulty: EASY
     prep: 15
@@ -258,6 +266,7 @@ recipes:
       - Serve the soup over the tortilla strips with avocado, cheese, cream and the rest of the chile crumbled on top.
 
   - name: Cochinita pibil
+    photo: cocina-mexicana/cochinita-pibil.jpg
     category: Meat
     difficulty: MEDIUM
     prep: 20
@@ -298,6 +307,7 @@ recipes:
           - Serve the cochinita in tortillas or bread rolls with the pickled onion.
 
   - name: Chicken tinga
+    photo: cocina-mexicana/tinga-de-pollo.jpg
     category: Meat
     difficulty: EASY
     prep: 15
@@ -327,6 +337,7 @@ recipes:
       - Serve on tostadas spread with beans, with lettuce and cream.
 
   - name: Refried beans
+    photo: cocina-mexicana/frijoles-refritos.jpg
     category: Legumes
     difficulty: EASY
     prep: 5
@@ -350,6 +361,7 @@ recipes:
       - Serve with fresh cheese on top.
 
   - name: Mexican red rice
+    photo: cocina-mexicana/arroz-rojo-mexicano.jpg
     category: Rice
     difficulty: EASY
     prep: 10
@@ -376,6 +388,7 @@ recipes:
       - Once boiling, cover and cook over the lowest heat for 15-18 minutes. Rest covered for 5 minutes and fluff with a fork.
 
   - name: Huevos rancheros
+    photo: cocina-mexicana/huevos-rancheros.jpg
     category: Eggs
     difficulty: EASY
     prep: 10
@@ -401,6 +414,7 @@ recipes:
       - Serve each tortilla with beans, an egg and the ranchera sauce on top.
 
   - name: Quesadillas
+    photo: cocina-mexicana/quesadillas.jpg
     category: Breads and doughs
     difficulty: EASY
     prep: 5
@@ -423,6 +437,7 @@ recipes:
       - Serve with salsa verde.
 
   - name: Cheese-stuffed chiles rellenos
+    photo: cocina-mexicana/chiles-rellenos-de-queso.jpg
     category: Vegetables
     difficulty: HARD
     prep: 40
@@ -460,6 +475,7 @@ recipes:
           - Serve the chiles in the hot tomato broth.
 
   - name: Carnitas
+    photo: cocina-mexicana/carnitas.jpg
     category: Meat
     difficulty: MEDIUM
     prep: 15
@@ -486,6 +502,7 @@ recipes:
       - Drain, pull apart a little and serve in tortillas with onion, coriander and salsa.
 
   - name: Esquites
+    photo: cocina-mexicana/esquites.jpg
     category: Vegetables
     difficulty: EASY
     prep: 5
@@ -509,6 +526,7 @@ recipes:
       - Serve in cups with mayonnaise, cheese, chilli powder and a squeeze of lime.
 
   - name: Horchata
+    photo: cocina-mexicana/agua-de-horchata.jpg
     category: Drinks
     difficulty: EASY
     prep: 15
@@ -534,6 +552,7 @@ recipes:
       - Chill in the fridge and serve over plenty of ice.
 
   - name: Agua de jamaica
+    photo: cocina-mexicana/agua-de-jamaica.jpg
     category: Drinks
     difficulty: EASY
     prep: 5
@@ -554,6 +573,7 @@ recipes:
       - Serve very cold with ice.
 
   - name: Mexican flan
+    photo: cocina-mexicana/flan-napolitano.jpg
     category: Desserts
     difficulty: MEDIUM
     prep: 15

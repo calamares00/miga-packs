@@ -1,6 +1,6 @@
 id: japanese-cooking
-version: 1
-updated: 2026-10-31
+version: 2
+updated: 2026-11-05
 language: en
 name: "World cuisine: Japan"
 series: World cuisine
@@ -22,6 +22,7 @@ defaults:
 recipes:
 
   - name: Miso soup
+    photo: cocina-japonesa/sopa-de-miso.jpg
     category: Soups
     difficulty: EASY
     prep: 10
@@ -49,6 +50,7 @@ recipes:
       - Dissolve the miso in a ladle of hot dashi, stir it into the soup and turn off the heat. Serve with chopped spring onion.
 
   - name: Chicken teriyaki
+    photo: cocina-japonesa/pollo-teriyaki.jpg
     category: Meat
     difficulty: EASY
     prep: 5
@@ -72,6 +74,7 @@ recipes:
       - Slice and serve with rice, topped with sesame seeds.
 
   - name: Gyoza
+    photo: cocina-japonesa/gyoza.jpg
     category: Starters
     difficulty: MEDIUM
     prep: 40
@@ -105,6 +108,7 @@ recipes:
       - Serve with the mixed dipping sauce.
 
   - name: Shoyu ramen
+    photo: cocina-japonesa/ramen-de-shoyu.jpg
     category: Soups
     difficulty: MEDIUM
     prep: 20
@@ -148,6 +152,7 @@ recipes:
           - Fill the bowls with the hot broth, add the noodles and top with the pork, a halved egg, bamboo shoots, half a sheet of nori and spring onion.
 
   - name: Tonkatsu
+    photo: cocina-japonesa/tonkatsu.jpg
     category: Meat
     difficulty: EASY
     prep: 15
@@ -172,6 +177,7 @@ recipes:
       - Slice and serve with very finely shredded cabbage and the tonkatsu sauce.
 
   - name: Oyakodon
+    photo: cocina-japonesa/oyakodon.jpg
     category: Rice
     difficulty: EASY
     prep: 10
@@ -198,6 +204,7 @@ recipes:
       - Slide it over the hot rice and finish with the spring onion.
 
   - name: Onigiri
+    photo: cocina-japonesa/onigiri.jpg
     category: Rice
     difficulty: EASY
     prep: 20
@@ -220,6 +227,7 @@ recipes:
       - Wrap the base with a strip of nori just before eating so it stays crisp.
 
   - name: Tamagoyaki
+    photo: cocina-japonesa/tamagoyaki.jpg
     category: Eggs
     difficulty: MEDIUM
     prep: 5
@@ -243,6 +251,7 @@ recipes:
       - Shape the roll with a bamboo mat, leave for 5 minutes and cut into thick slices.
 
   - name: Okonomiyaki
+    photo: cocina-japonesa/okonomiyaki.jpg
     category: Breads and doughs
     difficulty: EASY
     prep: 15
@@ -274,6 +283,7 @@ recipes:
       - Flip it again and top with the sauce, zigzags of mayonnaise, katsuobushi and aonori. Repeat with the rest of the batter.
 
   - name: Yakitori
+    photo: cocina-japonesa/yakitori.jpg
     category: Meat
     difficulty: EASY
     prep: 20
@@ -300,6 +310,7 @@ recipes:
       - Brush with tare and grill for 1 more minute on each side, twice, until glazed.
 
   - name: Vegetable and prawn tempura
+    photo: cocina-japonesa/tempura-de-verduras-y-gambas.jpg
     category: Starters
     difficulty: MEDIUM
     prep: 20
@@ -333,6 +344,7 @@ recipes:
       - Drain on a rack and serve straight away with the sauce and daikon.
 
   - name: Salmon and cucumber maki
+    photo: cocina-japonesa/makis-de-salmon-y-pepino.jpg
     category: Fish and seafood
     difficulty: MEDIUM
     prep: 40
@@ -365,6 +377,7 @@ recipes:
       - Serve with soy sauce, wasabi and gari.
 
   - name: Karaage
+    photo: cocina-japonesa/karaage.jpg
     category: Meat
     difficulty: EASY
     prep: 40
@@ -389,6 +402,7 @@ recipes:
       - Fry again at 180 °C for 1 minute, until very crisp. Serve with lemon and mayonnaise.
 
   - name: Nikujaga
+    photo: cocina-japonesa/nikujaga.jpg
     category: Meat
     difficulty: EASY
     prep: 15
@@ -418,6 +432,7 @@ recipes:
       - Add the mangetout for the last 2 minutes.
 
   - name: Yakisoba
+    photo: cocina-japonesa/yakisoba.jpg
     category: Pasta
     difficulty: EASY
     prep: 10
@@ -449,6 +464,7 @@ recipes:
       - Add the sauce and toss until the noodles are well coated. Serve with beni shoga and aonori.
 
   - name: Gyudon
+    photo: cocina-japonesa/gyudon.jpg
     category: Rice
     difficulty: EASY
     prep: 10
@@ -474,6 +490,7 @@ recipes:
       - Serve over hot rice with a little of the broth, beni shoga and, if you like, a raw egg yolk or a poached egg on top.
 
   - name: Japanese curry
+    photo: cocina-japonesa/curry-japones.jpg
     category: Meat
     difficulty: EASY
     prep: 15
@@ -500,6 +517,7 @@ recipes:
       - Simmer for 10 more minutes, stirring, until thick. Serve with the rice.
 
   - name: Agedashi tofu
+    photo: cocina-japonesa/agedashi-tofu.jpg
     category: Legumes
     difficulty: EASY
     prep: 10
@@ -546,6 +564,7 @@ recipes:
       - Mix the cucumber and wakame with the dressing and serve cold with the sesame seeds.
 
   - name: Dorayaki
+    photo: cocina-japonesa/dorayaki.jpg
     category: Desserts
     difficulty: EASY
     prep: 15

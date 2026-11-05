@@ -1,0 +1,103 @@
+# Origin of every photo in this folder: source page, author and licence (CC0 1.0, Public domain,
+# CC BY x.y or CC BY-SA x.y). tools/build.py refuses a recipe photo without an entry here.
+
+schnitzel-de-cerdo.jpg:
+  source: https://commons.wikimedia.org/wiki/File:02021_0368_Schnitzel_mit_Bratkartoffeln_und_Salat,_Beskiden.jpg
+  author: "Silar"
+  license: CC BY-SA 4.0
+
+rouladen-de-ternera.jpg:
+  source: https://commons.wikimedia.org/wiki/File:Th%C3%BCringer_Rinderroulade_mit_Kl%C3%B6%C3%9Fen.JPG
+  author: "Dr. Bernd Gross"
+  license: CC BY-SA 4.0
+
+sauerbraten.jpg:
+  source: https://commons.wikimedia.org/wiki/File:Sauerbraten_with_potato_dumplings.jpg
+  author: "Jameres"
+  license: Public domain
+
+ensalada-de-patata-suaba.jpg:
+  source: https://commons.wikimedia.org/wiki/File:German_potato_salad.jpg
+  author: "jules"
+  license: CC BY 2.0
+
+bratkartoffeln.jpg:
+  source: https://commons.wikimedia.org/wiki/File:Bratkartoffeln-mit-Speck.jpg
+  author: "Einfachkartoffel"
+  license: CC BY-SA 4.0
+
+kartoffelpuffer.jpg:
+  source: https://commons.wikimedia.org/wiki/File:Reibekuchen_mit_Apfelmus.jpg
+  author: "Martin van Baal"
+  license: CC BY-SA 4.0
+
+kasespatzle.jpg:
+  source: https://commons.wikimedia.org/wiki/File:2015_0718_K%C3%A4sesp%C3%A4tzle_S%C3%B6lden.jpg
+  author: "Takeaway"
+  license: CC BY-SA 4.0
+
+konigsberger-klopse.jpg:
+  source: https://commons.wikimedia.org/wiki/File:K%C3%B6nigsberger_Klopse_Ketzin_An_der_F%C3%A4hre.jpg
+  author: "Benreis"
+  license: CC BY 3.0
+
+currywurst.jpg:
+  source: https://commons.wikimedia.org/wiki/File:Currywurst-2024.jpg
+  author: "Richard Mischau, Britta Mischau"
+  license: CC BY-SA 4.0
+
+frikadellen.jpg:
+  source: https://commons.wikimedia.org/wiki/File:020230716_Frikadelle_mit_Gem%C3%BCse_und_Kartoffeln.jpg
+  author: "Silar"
+  license: CC BY-SA 4.0
+
+potaje-aleman-de-lentejas.jpg:
+  source: https://commons.wikimedia.org/wiki/File:Linseneintopf_mit_Blutwurst_2.JPG
+  author: "Brücke-Osteuropa"
+  license: CC0 1.0
+
+sopa-de-guisantes.jpg:
+  source: https://commons.wikimedia.org/wiki/File:Pea_soup_2.jpg
+  author: "Tiia Monto"
+  license: CC BY-SA 3.0
+
+sopa-de-patata-alemana.jpg:
+  source: https://commons.wikimedia.org/wiki/File:Potato_soup,_Aachen.jpg
+  author: "Gerda Arendt"
+  license: CC0 1.0
+
+flammkuchen.jpg:
+  source: https://commons.wikimedia.org/wiki/File:Tarte_flamb%C3%A9e_alsacienne_514471722.jpg
+  author: "Lulu Durand"
+  license: CC BY 2.0
+
+brezeln.jpg:
+  source: https://commons.wikimedia.org/wiki/File:Zwei_schw%C3%A4bische_Brezeln_1.jpg
+  author: "Ursula Jaeger"
+  license: CC BY-SA 4.0
+
+maultaschen.jpg:
+  source: https://commons.wikimedia.org/wiki/File:Schw%C3%A4bische_Maultaschen_(Ausschnitt).jpg
+  author: "Brücke-Osteuropa Derivative work MagentaGreen"
+  license: CC0 1.0
+
+pastel-de-manzana-aleman.jpg:
+  source: https://commons.wikimedia.org/wiki/File:Gedeckter_Apfelkuchen,_hausgemachter_Apfelkuchen.jpg
+  author: "Clint Budd"
+  license: CC BY 2.0
+
+tarta-selva-negra.jpg:
+  source: https://commons.wikimedia.org/wiki/File:Black_Forest_gateau.jpg
+  author: "Mikelo"
+  license: CC BY-SA 2.0
+
+rote-grutze.jpg:
+  source: https://commons.wikimedia.org/wiki/File:Rote_Gr%C3%BCtze_mit_Sahne.jpg
+  author: "Like_the_Grand_Canyon from Bochum, Germany"
+  license: CC BY 2.0
+
+obatzda.jpg:
+  source: https://commons.wikimedia.org/wiki/File:Obatzter-1.jpg
+  author: "Rainer Z ..."
+  license: CC BY-SA 3.0
+

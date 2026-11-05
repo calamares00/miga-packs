@@ -1,6 +1,6 @@
 id: vietnamese-cooking
-version: 1
-updated: 2026-10-31
+version: 2
+updated: 2026-11-05
 language: en
 name: "World cuisine: Vietnam"
 series: World cuisine
@@ -24,6 +24,7 @@ defaults:
 recipes:
 
   - name: Phở bò
+    photo: cocina-vietnamita/pho-bo.jpg
     category: Soups
     difficulty: HARD
     prep: 30
@@ -67,6 +68,7 @@ recipes:
       - Soak and blanch the noodles, divide them between bowls with the sliced brisket and raw beef. Pour over the boiling broth and serve with the herbs, sprouts, lime and chilli.
 
   - name: Bún chả
+    photo: cocina-vietnamita/bun-cha.jpg
     category: Meat
     difficulty: MEDIUM
     prep: 40
@@ -104,6 +106,7 @@ recipes:
       - Serve the pork in bowls with the warm broth, and the cooked noodles and herbs on the side for dipping.
 
   - name: Lemongrass pork bánh mì
+    photo: cocina-vietnamita/banh-mi-de-cerdo-a-la-citronela.jpg
     category: Breads and doughs
     difficulty: MEDIUM
     prep: 40
@@ -144,6 +147,7 @@ recipes:
       - Spread with the pâté and mayonnaise, add the pork, drained pickle, cucumber strips, coriander and chilli, and a few drops of Maggi.
 
   - name: Fresh spring rolls (gỏi cuốn)
+    photo: cocina-vietnamita/rollitos-frescos-goi-cuon.jpg
     category: Starters
     difficulty: MEDIUM
     prep: 40
@@ -175,6 +179,7 @@ recipes:
       - Mix the hoisin with the peanut butter and water and sprinkle with the peanuts. Serve the rolls with the sauce.
 
   - name: Fried spring rolls (chả giò)
+    photo: cocina-vietnamita/rollitos-fritos-cha-gio.jpg
     category: Starters
     difficulty: MEDIUM
     prep: 45
@@ -205,6 +210,7 @@ recipes:
       - Serve with lettuce, herbs and nước chấm.
 
   - name: Bún bò Huế
+    photo: cocina-vietnamita/bun-bo-hue.jpg
     category: Soups
     difficulty: HARD
     prep: 30
@@ -246,6 +252,7 @@ recipes:
       - Cook the noodles and serve with the sliced shank, the knuckle and the broth, thinly sliced onion, herbs, sprouts and lime. The rest of the chilli oil goes on the side.
 
   - name: Cơm tấm with pork chop
+    photo: cocina-vietnamita/com-tam-con-chuleta-de-cerdo.jpg
     category: Rice
     difficulty: MEDIUM
     prep: 30
@@ -283,6 +290,7 @@ recipes:
       - Serve the rice with a chop, a fried egg, the spring onion oil, cucumber, tomato and nước chấm.
 
   - name: Caramelised fish (cá kho tộ)
+    photo: cocina-vietnamita/pescado-caramelizado-ca-kho-to.jpg
     category: Fish and seafood
     difficulty: MEDIUM
     prep: 15
@@ -311,6 +319,7 @@ recipes:
       - Finish with the chilli and spring onion. Serve with white rice.
 
   - name: Caramelised pork with eggs (thịt kho trứng)
+    photo: cocina-vietnamita/cerdo-caramelizado-con-huevos-thit-kho-trung.jpg
     category: Meat
     difficulty: EASY
     prep: 15
@@ -337,6 +346,7 @@ recipes:
       - Serve with white rice and pickled vegetables.
 
   - name: Sour soup (canh chua)
+    photo: cocina-vietnamita/sopa-agria-canh-chua.jpg
     category: Soups
     difficulty: EASY
     prep: 20
@@ -367,6 +377,7 @@ recipes:
       - Off the heat, add the bean sprouts. Serve with the fried garlic, herbs and chilli.
 
   - name: Shaking beef (bò lúc lắc)
+    photo: cocina-vietnamita/bo-luc-lac.jpg
     category: Meat
     difficulty: EASY
     prep: 20
@@ -402,6 +413,7 @@ recipes:
       - Serve the beef on the watercress and sliced tomato with the lime mixed with salt and pepper for dipping.
 
   - name: Lemongrass chilli chicken (gà xào sả ớt)
+    photo: cocina-vietnamita/pollo-con-citronela-y-chile-ga-xao-sa-ot.jpg
     category: Meat
     difficulty: EASY
     prep: 15
@@ -429,6 +441,7 @@ recipes:
       - Serve with coriander and white rice.
 
   - name: Bánh xèo
+    photo: cocina-vietnamita/banh-xeo.jpg
     category: Breads and doughs
     difficulty: MEDIUM
     prep: 30
@@ -496,6 +509,7 @@ recipes:
       - Toss the chicken with the vegetables, mint and dressing. Serve topped with the peanuts and fried shallots.
 
   - name: Nước chấm
+    photo: cocina-vietnamita/nuoc-cham.jpg
     category: Sauces
     difficulty: EASY
     prep: 10
@@ -517,6 +531,7 @@ recipes:
       - Add the very finely chopped garlic and chilli just before serving, so they float.
 
   - name: Bún thịt nướng
+    photo: cocina-vietnamita/bun-thit-nuong.jpg
     category: Meat
     difficulty: MEDIUM
     prep: 40
@@ -579,6 +594,7 @@ recipes:
       - Add the tofu and simmer for 5 minutes so it soaks up the sauce. Serve with spring onion and pepper.
 
   - name: Banana in coconut milk (chè chuối)
+    photo: cocina-vietnamita/platano-con-leche-de-coco-che-chuoi.jpg
     category: Desserts
     difficulty: EASY
     prep: 10
@@ -603,6 +619,7 @@ recipes:
       - Serve warm with the peanuts and sesame.
 
   - name: Iced coffee with condensed milk (cà phê sữa đá)
+    photo: cocina-vietnamita/cafe-con-leche-condensada-ca-phe-sua-a.jpg
     category: Drinks
     difficulty: EASY
     prep: 5
@@ -622,6 +639,7 @@ recipes:
       - Stir the coffee into the condensed milk and pour it over a glass of ice.
 
   - name: Avocado smoothie (sinh tố bơ)
+    photo: cocina-vietnamita/batido-de-aguacate-sinh-to-bo.jpg
     category: Drinks
     difficulty: EASY
     prep: 5

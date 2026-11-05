@@ -1,0 +1,103 @@
+# Origin of every photo in this folder: source page, author and licence (CC0 1.0, Public domain,
+# CC BY x.y or CC BY-SA x.y). tools/build.py refuses a recipe photo without an entry here.
+
+espaguetis-a-la-carbonara.jpg:
+  source: https://commons.wikimedia.org/wiki/File:Spaghetti_Carbonara_von_Unico_Tauberbischofsheim.jpg
+  author: "Triplec85"
+  license: CC BY-SA 4.0
+
+bucatini-all-amatriciana.jpg:
+  source: https://commons.wikimedia.org/wiki/File:Bucatini_allamatriciana.jpg
+  author: "Popo le Chien"
+  license: CC0 1.0
+
+cacio-e-pepe.jpg:
+  source: https://commons.wikimedia.org/wiki/File:Cacio_e_pepe.jpg
+  author: "Popo le Chien"
+  license: CC BY-SA 3.0
+
+lasana-a-la-bolonesa.jpg:
+  source: https://commons.wikimedia.org/wiki/File:Lasagna_bolognese.jpg
+  author: "Sambawamba"
+  license: CC BY-SA 4.0
+
+pasta-alla-norma.jpg:
+  source: https://commons.wikimedia.org/wiki/File:Pasta_Norma_Villa_Principe_di_Belmonte_Ispica_2017.jpg
+  author: "Muesse"
+  license: CC BY-SA 4.0
+
+espaguetis-con-almejas.jpg:
+  source: https://commons.wikimedia.org/wiki/File:Spaghetti_alle_vongole.jpg
+  author: "Flickr user: [2], retouched by AM"
+  license: CC BY 2.0
+
+risotto-a-la-milanesa.jpg:
+  source: https://commons.wikimedia.org/wiki/File:Risotto_alla_Milanese.JPG
+  author: "Number55"
+  license: CC BY-SA 3.0
+
+ossobuco-a-la-milanesa.jpg:
+  source: https://commons.wikimedia.org/wiki/File:Risotto_alla_milanese_con_ossobuco_di_vitello_piemontese_(4520611482).jpg
+  author: "Micaela &amp; Massimo from Vaprio d'Adda (MI), Italy"
+  license: CC BY 2.0
+
+saltimbocca-a-la-romana.jpg:
+  source: https://commons.wikimedia.org/wiki/File:Saltimbocca_alla_romana_(5461963389).jpg
+  author: "Katrin Gilger"
+  license: CC BY-SA 2.0
+
+berenjenas-a-la-parmesana.jpg:
+  source: https://commons.wikimedia.org/wiki/File:Parmigiana_de_melanzale_-_Italiamos.jpg
+  author: "Francesc Fort"
+  license: CC BY-SA 4.0
+
+minestrone.jpg:
+  source: https://commons.wikimedia.org/wiki/File:Minestrone_soup.jpg
+  author: "Katrin Morenz from Aachen, Deutschland"
+  license: CC BY-SA 2.0
+
+pasta-e-fagioli.jpg:
+  source: https://commons.wikimedia.org/wiki/File:Pasta_e_fagioli_cannellini.jpg
+  author: "Spinoziano"
+  license: CC BY-SA 4.0
+
+pizza-margarita.jpg:
+  source: https://commons.wikimedia.org/wiki/File:La_contenciosa_pizza_Margarita..._@_Barrakuda,_SV.jpg
+  author: "robertorodriguex"
+  license: CC BY-SA 2.0
+
+focaccia-genovesa.jpg:
+  source: https://commons.wikimedia.org/wiki/File:Focaccia_genovese.JPG
+  author: "Wikipedius"
+  license: CC BY-SA 3.0
+
+bruschetta-de-tomate.jpg:
+  source: https://commons.wikimedia.org/wiki/File:Bruschetta_Tomate_2007_by-RaBoe_03.jpg
+  author: "Ra Boe"
+  license: CC BY-SA 2.5
+
+arancini.jpg:
+  source: https://commons.wikimedia.org/wiki/File:Arancini_002.jpg
+  author: "No machine-readable author provided. Gmelfi assumed (based on copyright claims)."
+  license: Public domain
+
+vitello-tonnato.jpg:
+  source: https://commons.wikimedia.org/wiki/File:Vitello_tonnato_2015.jpg
+  author: "Xocolatl (talk) 11:20, 3 August 2015 (UTC)"
+  license: CC BY 3.0
+
+caponata.jpg:
+  source: https://commons.wikimedia.org/wiki/File:Amiata2009Mauro037.jpg
+  author: "No machine-readable author provided. FaleBot assumed (based on copyright claims)."
+  license: CC BY-SA 2.5
+
+tiramisu.jpg:
+  source: https://commons.wikimedia.org/wiki/File:Dessert_Tiramisu.jpg
+  author: "Javier Lastras"
+  license: CC BY 2.0
+
+panna-cotta.jpg:
+  source: https://commons.wikimedia.org/wiki/File:Panna_Cotta_with_cream_and_garnish.jpg
+  author: "hiro"
+  license: CC BY-SA 2.0
+

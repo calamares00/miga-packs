@@ -1,6 +1,6 @@
 id: cenas-en-20-minutos
-version: 1
-updated: 2026-10-31
+version: 2
+updated: 2026-11-05
 language: es
 name: Cenas en 20 minutos
 series: Cocina de cada día
@@ -19,6 +19,7 @@ defaults:
 recipes:
 
   - name: Tortilla francesa con espinacas y queso
+    photo: cenas-en-20-minutos/tortilla-francesa-con-espinacas-y-queso.jpg
     category: Huevos
     difficulty: EASY
     prep: 5
@@ -40,6 +41,7 @@ recipes:
       - Dobla la tortilla por la mitad y deja que se haga 1 minuto más. Sírvela jugosa.
 
   - name: Revuelto de champiñones y jamón
+    photo: cenas-en-20-minutos/revuelto-de-champinones-y-jamon.jpg
     category: Huevos
     difficulty: EASY
     prep: 5
@@ -63,6 +65,7 @@ recipes:
       - Espolvorea el perejil y sirve enseguida.
 
   - name: Espaguetis con ajo, aceite y guindilla
+    photo: cenas-en-20-minutos/espaguetis-con-ajo-aceite-y-guindilla.jpg
     category: Pastas
     difficulty: EASY
     prep: 3
@@ -86,6 +89,7 @@ recipes:
       - Saltea 1 minuto para que la salsa ligue, añade el perejil y sirve.
 
   - name: Pasta con tomates cherry y albahaca
+    photo: cenas-en-20-minutos/pasta-con-tomates-cherry-y-albahaca.jpg
     category: Pastas
     difficulty: EASY
     prep: 5
@@ -108,6 +112,7 @@ recipes:
       - Termina con la albahaca troceada a mano y el parmesano.
 
   - name: Salmón a la plancha con espárragos
+    photo: cenas-en-20-minutos/salmon-a-la-plancha-con-esparragos.jpg
     category: Pescados y mariscos
     difficulty: EASY
     prep: 5
@@ -152,6 +157,7 @@ recipes:
       - Devuelve la merluza a la sartén, espolvorea el perejil y cocina 2 minutos más, moviendo la sartén para que la salsa espese.
 
   - name: Wok de pollo con verduras
+    photo: cenas-en-20-minutos/wok-de-pollo-con-verduras.jpg
     category: Carnes
     difficulty: EASY
     prep: 8
@@ -178,6 +184,7 @@ recipes:
       - Sirve con sésamo por encima.
 
   - name: Pollo al limón con cuscús
+    photo: cenas-en-20-minutos/pollo-al-limon-con-cuscus.jpg
     category: Carnes
     difficulty: EASY
     prep: 5
@@ -205,6 +212,7 @@ recipes:
       - Suelta el cuscús con un tenedor y la mantequilla y sírvelo con el pollo y su salsa.
 
   - name: Fajitas de ternera
+    photo: cenas-en-20-minutos/fajitas-de-ternera.jpg
     category: Carnes
     difficulty: EASY
     prep: 8
@@ -230,6 +238,7 @@ recipes:
       - Calienta las tortillas en otra sartén y rellénalas con la mezcla y una cucharada de nata agria.
 
   - name: Lomo con salsa de mostaza y miel
+    photo: cenas-en-20-minutos/lomo-con-salsa-de-mostaza-y-miel.jpg
     category: Carnes
     difficulty: EASY
     prep: 3
@@ -251,6 +260,7 @@ recipes:
       - Devuelve el lomo a la sartén 1 minuto para que se impregne y sirve con la salsa.
 
   - name: Arroz salteado con huevo y guisantes
+    photo: cenas-en-20-minutos/arroz-salteado-con-huevo-y-guisantes.jpg
     category: Arroces
     difficulty: EASY
     prep: 5
@@ -274,6 +284,7 @@ recipes:
       - Añade el arroz y la soja y saltea a fuego fuerte 3-4 minutos, hasta que el arroz esté caliente y suelto.
 
   - name: Ñoquis con mantequilla y salvia
+    photo: cenas-en-20-minutos/noquis-con-mantequilla-y-salvia.jpg
     category: Pastas
     difficulty: EASY
     prep: 2
@@ -296,6 +307,7 @@ recipes:
       - Pasa los ñoquis escurridos a la sartén, saltéalos 1 minuto y sirve con parmesano y pimienta.
 
   - name: Crema de calabacín exprés
+    photo: cenas-en-20-minutos/crema-de-calabacin-expres.jpg
     category: Sopas y cremas
     difficulty: EASY
     prep: 5
@@ -318,6 +330,7 @@ recipes:
       - Tritura con los quesitos hasta que quede una crema fina. Ajusta de sal.
 
   - name: Sopa de fideos rápida
+    photo: cenas-en-20-minutos/sopa-de-fideos-rapida.jpg
     category: Sopas y cremas
     difficulty: EASY
     prep: 2
@@ -337,6 +350,7 @@ recipes:
       - Sirve con el huevo duro picado, el jamón y unas hojas de hierbabuena.
 
   - name: Ensalada de garbanzos con atún
+    photo: cenas-en-20-minutos/ensalada-de-garbanzos-con-atun.jpg
     category: Ensaladas
     difficulty: EASY
     prep: 10
@@ -361,6 +375,7 @@ recipes:
       - Aliña con el aceite, el vinagre y la sal justo antes de servir.
 
   - name: Ensalada César con pollo
+    photo: cenas-en-20-minutos/ensalada-cesar-con-pollo.jpg
     category: Ensaladas
     difficulty: EASY
     prep: 10
@@ -389,6 +404,7 @@ recipes:
       - Trocea la lechuga y sírvela con el pollo, los picatostes, el parmesano y la salsa.
 
   - name: Tostas de aguacate con huevo
+    photo: cenas-en-20-minutos/tostas-de-aguacate-con-huevo.jpg
     category: Huevos
     difficulty: EASY
     prep: 5
@@ -411,6 +427,7 @@ recipes:
       - Coloca un huevo sobre cada tosta y termina con sal en escamas y copos de chile.
 
   - name: Pizza de tortilla de trigo
+    photo: cenas-en-20-minutos/pizza-de-tortilla-de-trigo.jpg
     category: Panes y masas
     difficulty: EASY
     prep: 5
@@ -433,6 +450,7 @@ recipes:
       - Espolvorea el orégano y corta en porciones.
 
   - name: Wrap de pollo y aguacate
+    photo: cenas-en-20-minutos/wrap-de-pollo-y-aguacate.jpg
     category: Carnes
     difficulty: EASY
     prep: 10
@@ -457,6 +475,7 @@ recipes:
       - Enróllalas bien apretadas y córtalas por la mitad en diagonal.
 
   - name: Gambas salteadas con calabacín
+    photo: cenas-en-20-minutos/gambas-salteadas-con-calabacin.jpg
     category: Pescados y mariscos
     difficulty: EASY
     prep: 5

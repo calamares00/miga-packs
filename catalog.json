@@ -295,9 +295,9 @@
       "authorGithub": "calamares00",
       "description": "El equilibrio tailandés entre picante, ácido, dulce y salado: pad thai, tom yum, tom kha gai, curris verde, massaman y panang, som tam, larb, arroz frito, pad kra pao, pad see ew, pollo con anacardos, ensalada de ternera, tortitas de pescado, tortilla tailandesa, khao man gai, gai yang, salsa jaew, mango con arroz glutinoso y té tailandés. Con equivalencias para los ingredientes menos habituales.",
       "coverImageUrl": "packs/cocina-tailandesa/cover.jpg",
-      "latestVersion": 1,
+      "latestVersion": 2,
       "recipeCount": 20,
-      "downloadUrl": "dist/cocina-tailandesa-v1.zip",
+      "downloadUrl": "dist/cocina-tailandesa-v2.zip",
       "language": "es"
     },
     {
@@ -529,9 +529,9 @@
       "authorGithub": "calamares00",
       "description": "Thailand's balance of hot, sour, sweet and salty: pad thai, tom yum, tom kha gai, green, massaman and panang curries, som tam, larb, fried rice, pad kra pao, pad see ew, cashew chicken, beef salad, fish cakes, Thai omelette, khao man gai, gai yang, jaew dipping sauce, mango sticky rice and Thai iced tea. With substitutes for the less common ingredients.",
       "coverImageUrl": "packs/thai-cooking/cover.jpg",
-      "latestVersion": 1,
+      "latestVersion": 2,
       "recipeCount": 20,
-      "downloadUrl": "dist/thai-cooking-v1.zip",
+      "downloadUrl": "dist/thai-cooking-v2.zip",
       "language": "en"
     },
     {

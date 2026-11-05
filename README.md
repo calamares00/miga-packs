@@ -49,8 +49,8 @@ Cada pack está en español y en inglés; la app muestra los del idioma en que l
 | 🌮 [World cuisine: Mexico](packs/mexican-cooking/pack.yaml) | World cuisine | en | 20 | [mexican-cooking-v3.zip](dist/mexican-cooking-v3.zip) |
 | 🌶️ [Cocina del mundo: Perú](packs/cocina-peruana/pack.yaml) | Cocina del mundo | es | 20 | [cocina-peruana-v2.zip](dist/cocina-peruana-v2.zip) |
 | 🌶️ [World cuisine: Peru](packs/peruvian-cooking/pack.yaml) | World cuisine | en | 20 | [peruvian-cooking-v2.zip](dist/peruvian-cooking-v2.zip) |
-| 🍲 [Cocina del mundo: Tailandia](packs/cocina-tailandesa/pack.yaml) | Cocina del mundo | es | 20 | [cocina-tailandesa-v1.zip](dist/cocina-tailandesa-v1.zip) |
-| 🍲 [World cuisine: Thailand](packs/thai-cooking/pack.yaml) | World cuisine | en | 20 | [thai-cooking-v1.zip](dist/thai-cooking-v1.zip) |
+| 🍲 [Cocina del mundo: Tailandia](packs/cocina-tailandesa/pack.yaml) | Cocina del mundo | es | 20 | [cocina-tailandesa-v2.zip](dist/cocina-tailandesa-v2.zip) |
+| 🍲 [World cuisine: Thailand](packs/thai-cooking/pack.yaml) | World cuisine | en | 20 | [thai-cooking-v2.zip](dist/thai-cooking-v2.zip) |
 | 🍜 [Cocina del mundo: Vietnam](packs/cocina-vietnamita/pack.yaml) | Cocina del mundo | es | 20 | [cocina-vietnamita-v1.zip](dist/cocina-vietnamita-v1.zip) |
 | 🍜 [World cuisine: Vietnam](packs/vietnamese-cooking/pack.yaml) | World cuisine | en | 20 | [vietnamese-cooking-v1.zip](dist/vietnamese-cooking-v1.zip) |
 

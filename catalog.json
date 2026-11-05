@@ -230,9 +230,9 @@
       "authorGithub": "calamares00",
       "description": "Los grandes clásicos de las regiones de Italia: carbonara, amatriciana, cacio e pepe, lasaña, pasta alla Norma, espaguetis con almejas, risotto a la milanesa, ossobuco, saltimbocca, parmigiana, minestrone, pasta e fagioli, pizza margarita, focaccia, arancini, vitello tonnato, caponata, tiramisú y panna cotta. Hechos como en Italia, sin nata en la carbonara.",
       "coverImageUrl": "packs/cocina-italiana/cover.jpg",
-      "latestVersion": 1,
+      "latestVersion": 2,
       "recipeCount": 20,
-      "downloadUrl": "dist/cocina-italiana-v1.zip",
+      "downloadUrl": "dist/cocina-italiana-v2.zip",
       "language": "es"
     },
     {
@@ -399,9 +399,9 @@
       "authorGithub": "calamares00",
       "description": "The great classics of Italy's regions: carbonara, amatriciana, cacio e pepe, lasagne, pasta alla Norma, spaghetti with clams, risotto alla milanese, ossobuco, saltimbocca, parmigiana, minestrone, pasta e fagioli, pizza margherita, focaccia, arancini, vitello tonnato, caponata, tiramisu and panna cotta. Made the Italian way, with no cream in the carbonara.",
       "coverImageUrl": "packs/italian-cooking/cover.jpg",
-      "latestVersion": 1,
+      "latestVersion": 2,
       "recipeCount": 20,
-      "downloadUrl": "dist/italian-cooking-v1.zip",
+      "downloadUrl": "dist/italian-cooking-v2.zip",
       "language": "en"
     },
     {

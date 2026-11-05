@@ -1,0 +1,93 @@
+# Origin of every photo in this folder: source page, author and licence (CC0 1.0, Public domain,
+# CC BY x.y or CC BY-SA x.y). tools/build.py refuses a recipe photo without an entry here.
+
+patatas-fritas-en-freidora-de-aire.jpg:
+  source: https://commons.wikimedia.org/wiki/File:Hot_chips.jpg
+  author: "Maksym Kozlenko"
+  license: CC BY-SA 4.0
+
+alitas-de-pollo-crujientes.jpg:
+  source: https://commons.wikimedia.org/wiki/File:Chicken_Wings-_It%27s_been_a_while._Baton_Rouge_LA_2026.jpg
+  author: "Paul Lowry"
+  license: CC BY 4.0
+
+nuggets-de-pollo-caseros.jpg:
+  source: https://commons.wikimedia.org/wiki/File:Some_chicken_nuggets.jpg
+  author: "K1234567890y"
+  license: CC0 1.0
+
+gambas-rebozadas-con-panko.jpg:
+  source: https://commons.wikimedia.org/wiki/File:Panko-encrusted_shrimp_with_dipping_sauces,_Silver_Diner.jpg
+  author: "Ser Amantio di Nicolao"
+  license: CC BY-SA 4.0
+
+champinones-rellenos.jpg:
+  source: https://commons.wikimedia.org/wiki/File:Stuffed_mushrooms,_2015-06-25.jpg
+  author: "Crisco 1492"
+  license: CC BY-SA 4.0
+
+albondigas-en-freidora-de-aire.jpg:
+  source: https://commons.wikimedia.org/wiki/File:Meatballs_for_Italian_wedding_soup_-_November_2024_-_Sarah_Stierch.jpg
+  author: "Missvain"
+  license: CC0 1.0
+
+hamburguesas-caseras.jpg:
+  source: https://commons.wikimedia.org/wiki/File:Home_made_Chicken_Burger.jpg
+  author: "Ibrahim Husain Meraj"
+  license: CC BY-SA 3.0
+
+huevos-duros-en-freidora-de-aire.jpg:
+  source: https://commons.wikimedia.org/wiki/File:Boiled_Egg_-_Crossection.jpg
+  author: "Ramesh NG"
+  license: CC BY-SA 2.0
+
+pan-de-ajo.jpg:
+  source: https://commons.wikimedia.org/wiki/File:Garlic_Bread_Mozzarella_-_Oregano_Pizzeria_2025-05-17.jpg
+  author: "Andy Li"
+  license: CC0 1.0
+
+manzanas-asadas-con-canela.jpg:
+  source: https://commons.wikimedia.org/wiki/File:Bratapfel300.jpg
+  author: "Manfred Heyde"
+  license: CC BY-SA 3.0
+
+brownie-en-freidora-de-aire.jpg:
+  source: https://commons.wikimedia.org/wiki/File:Brownie_IMG_001.jpg
+  author: "Phadke09"
+  license: CC BY-SA 4.0
+
+contramuslos-de-pollo-al-limon-y-romero.jpg:
+  source: https://commons.wikimedia.org/wiki/File:Roast_Chicken_Legs_and_Thighs_(31196736704).jpg
+  author: "Willis Lam"
+  license: CC BY-SA 2.0
+
+varitas-de-merluza-caseras.jpg:
+  source: https://commons.wikimedia.org/wiki/File:Fish_Fingers_-_RYBKA_2024-01-25.jpg
+  author: "Andy Li"
+  license: CC0 1.0
+
+coles-de-bruselas-crujientes.jpg:
+  source: https://commons.wikimedia.org/wiki/File:Roasted_Brussels_Sprouts_with_Kumquats.jpg
+  author: "Kelly Sue"
+  license: CC BY-SA 2.0
+
+gajos-de-boniato-especiados.jpg:
+  source: https://commons.wikimedia.org/wiki/File:Sesame-roasted_sweet_potato_wedges_with_Brocolli_(3257806891).jpg
+  author: "Karen and Brad Emerson"
+  license: CC BY 2.0
+
+calabacin-rebozado-con-parmesano.jpg:
+  source: https://commons.wikimedia.org/wiki/File:Fried_Zucchini_dish.jpg
+  author: "Chris Olszewski"
+  license: CC BY-SA 4.0
+
+garbanzos-crujientes-especiados.jpg:
+  source: https://commons.wikimedia.org/wiki/File:Hot_leblebi_-_salty_leblebi.jpg
+  author: "E4024"
+  license: CC BY-SA 4.0
+
+costillas-de-cerdo-con-miel-y-mostaza.jpg:
+  source: https://commons.wikimedia.org/wiki/File:Balinese_Roasted_Pork_Ribs_-_Iga_Babi_Panggang_Bali.JPG
+  author: "Gunawan Kartapranata"
+  license: CC BY-SA 3.0
+

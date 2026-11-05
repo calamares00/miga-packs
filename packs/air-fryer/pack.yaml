@@ -1,6 +1,6 @@
 id: air-fryer
-version: 1
-updated: 2026-10-31
+version: 2
+updated: 2026-11-05
 language: en
 name: Air fryer
 series: Kitchen appliances
@@ -19,6 +19,7 @@ defaults:
 recipes:
 
   - name: Air fryer chips
+    photo: freidora-de-aire/patatas-fritas-en-freidora-de-aire.jpg
     category: Vegetables
     difficulty: EASY
     prep: 10
@@ -41,6 +42,7 @@ recipes:
       - Salt them as soon as they come out and sprinkle with paprika if you like.
 
   - name: Crispy chicken wings
+    photo: freidora-de-aire/alitas-de-pollo-crujientes.jpg
     category: Meat
     difficulty: EASY
     prep: 5
@@ -63,6 +65,7 @@ recipes:
       - Turn them over, raise to 200 °C and cook for 8-10 more minutes, until the skin is golden and crisp.
 
   - name: Lemon and rosemary chicken thighs
+    photo: freidora-de-aire/contramuslos-de-pollo-al-limon-y-romero.jpg
     category: Meat
     difficulty: EASY
     prep: 5
@@ -86,6 +89,7 @@ recipes:
       - Turn them over and cook for 10-12 more minutes, until the skin is golden and the juices run clear.
 
   - name: Home-made chicken nuggets
+    photo: freidora-de-aire/nuggets-de-pollo-caseros.jpg
     category: Meat
     difficulty: EASY
     prep: 15
@@ -132,6 +136,7 @@ recipes:
       - Put the fillets skin side down and cook at 190 °C for 8-10 minutes, depending on thickness.
 
   - name: Panko prawns
+    photo: freidora-de-aire/gambas-rebozadas-con-panko.jpg
     category: Fish and seafood
     difficulty: EASY
     prep: 15
@@ -158,6 +163,7 @@ recipes:
       - Serve with the mayonnaise mixed with the sriracha.
 
   - name: Home-made fish fingers
+    photo: freidora-de-aire/varitas-de-merluza-caseras.jpg
     category: Fish and seafood
     difficulty: EASY
     prep: 15
@@ -181,6 +187,7 @@ recipes:
       - Cook at 200 °C for 10 minutes, turning them carefully halfway through.
 
   - name: Crispy Brussels sprouts
+    photo: freidora-de-aire/coles-de-bruselas-crujientes.jpg
     category: Vegetables
     difficulty: EASY
     prep: 5
@@ -224,6 +231,7 @@ recipes:
       - Serve with a few drops of lemon.
 
   - name: Spiced sweet potato wedges
+    photo: freidora-de-aire/gajos-de-boniato-especiados.jpg
     category: Vegetables
     difficulty: EASY
     prep: 5
@@ -244,6 +252,7 @@ recipes:
       - Cook at 190 °C for 18-20 minutes, shaking the basket halfway through, until tender inside and golden outside.
 
   - name: Parmesan-crusted courgette
+    photo: freidora-de-aire/calabacin-rebozado-con-parmesano.jpg
     category: Vegetables
     difficulty: EASY
     prep: 10
@@ -267,6 +276,7 @@ recipes:
       - Cook at 200 °C for 8-10 minutes, turning halfway through.
 
   - name: Stuffed mushrooms
+    photo: freidora-de-aire/champinones-rellenos.jpg
     category: Starters
     difficulty: EASY
     prep: 10
@@ -289,6 +299,7 @@ recipes:
       - Cook at 180 °C for 8-10 minutes, until tender and golden on top.
 
   - name: Crispy spiced chickpeas
+    photo: freidora-de-aire/garbanzos-crujientes-especiados.jpg
     category: Legumes
     difficulty: EASY
     prep: 5
@@ -310,6 +321,7 @@ recipes:
       - Toss them with the oil and spices and cook for 4-5 more minutes, until crunchy.
 
   - name: Air fryer meatballs
+    photo: freidora-de-aire/albondigas-en-freidora-de-aire.jpg
     category: Meat
     difficulty: EASY
     prep: 15
@@ -334,6 +346,7 @@ recipes:
       - Serve them as they are or finish them for 5 minutes in your favourite tomato sauce.
 
   - name: Home-made burgers
+    photo: freidora-de-aire/hamburguesas-caseras.jpg
     category: Meat
     difficulty: EASY
     prep: 10
@@ -361,6 +374,7 @@ recipes:
       - Toast the buns in the air fryer for 2 minutes and build the burgers with the lettuce, tomato and onion.
 
   - name: Honey mustard pork ribs
+    photo: freidora-de-aire/costillas-de-cerdo-con-miel-y-mostaza.jpg
     category: Meat
     difficulty: MEDIUM
     prep: 10
@@ -383,6 +397,7 @@ recipes:
       - Raise to 200 °C and cook for 8-10 more minutes, brushing again halfway through, until caramelised.
 
   - name: Air fryer hard-boiled eggs
+    photo: freidora-de-aire/huevos-duros-en-freidora-de-aire.jpg
     category: Eggs
     difficulty: EASY
     prep: 1
@@ -400,6 +415,7 @@ recipes:
       - Move them to a bowl of iced water for 5 minutes to stop the cooking, then peel.
 
   - name: Garlic bread
+    photo: freidora-de-aire/pan-de-ajo.jpg
     category: Breads and doughs
     difficulty: EASY
     prep: 5
@@ -421,6 +437,7 @@ recipes:
       - Cook at 180 °C for 5-6 minutes, until golden.
 
   - name: Cinnamon baked apples
+    photo: freidora-de-aire/manzanas-asadas-con-canela.jpg
     category: Desserts
     difficulty: EASY
     prep: 5
@@ -441,6 +458,7 @@ recipes:
       - Cook at 180 °C for 12-15 minutes, until tender. Serve warm.
 
   - name: Air fryer brownie
+    photo: freidora-de-aire/brownie-en-freidora-de-aire.jpg
     category: Desserts
     difficulty: EASY
     prep: 10

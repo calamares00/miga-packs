@@ -269,9 +269,9 @@
       "authorGithub": "calamares00",
       "description": "Clásicos de México para cocinar en casa: tacos al pastor, cochinita pibil, pozole, chilaquiles, enchiladas, salsas, guacamole, aguas frescas y flan. Con ingredientes fáciles de encontrar y alternativas cuando hace falta.",
       "coverImageUrl": "packs/cocina-mexicana/cover.jpg",
-      "latestVersion": 2,
+      "latestVersion": 3,
       "recipeCount": 20,
-      "downloadUrl": "dist/cocina-mexicana-v2.zip",
+      "downloadUrl": "dist/cocina-mexicana-v3.zip",
       "language": "es"
     },
     {
@@ -438,9 +438,9 @@
       "authorGithub": "calamares00",
       "description": "Mexican classics to cook at home: tacos al pastor, cochinita pibil, pozole, chilaquiles, enchiladas, salsas, guacamole, aguas frescas and flan. With easy-to-find ingredients and alternatives where needed.",
       "coverImageUrl": "packs/mexican-cooking/cover.jpg",
-      "latestVersion": 2,
+      "latestVersion": 3,
       "recipeCount": 20,
-      "downloadUrl": "dist/mexican-cooking-v2.zip",
+      "downloadUrl": "dist/mexican-cooking-v3.zip",
       "language": "en"
     },
     {

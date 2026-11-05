@@ -1,6 +1,6 @@
 id: christmas-special
-version: 1
-updated: 2026-10-30
+version: 2
+updated: 2026-11-05
 language: en
 name: Christmas special
 series: Specials
@@ -20,6 +20,7 @@ defaults:
 recipes:
 
   - name: Prawn cocktail
+    photo: especial-navidad/coctel-de-gambas.jpg
     category: Starters
     difficulty: EASY
     prep: 20
@@ -50,6 +51,7 @@ recipes:
       - Spoon the sauce over just before serving and hang a whole prawn on the rim.
 
   - name: Ham croquettes
+    photo: especial-navidad/croquetas-de-jamon.jpg
     category: Starters
     difficulty: MEDIUM
     prep: 30
@@ -84,6 +86,7 @@ recipes:
       - Fry in batches in very hot oil (180 °C) until golden. Drain on paper.
 
   - name: Seafood salpicón
+    photo: especial-navidad/salpicon-de-marisco.jpg
     category: Fish and seafood
     difficulty: EASY
     prep: 25
@@ -137,6 +140,7 @@ recipes:
       - Arrange the endive with the pomegranate, walnuts and crumbled cheese, and dress just before serving.
 
   - name: Galets soup
+    photo: especial-navidad/sopa-de-galets.jpg
     category: Soups
     difficulty: MEDIUM
     prep: 30
@@ -187,6 +191,7 @@ recipes:
           - Serve the soup with the galets and, on the side, the meat, the sliced meatball and the vegetables.
 
   - name: Consommé with sherry
+    photo: especial-navidad/consome-al-jerez.jpg
     category: Soups
     difficulty: EASY
     prep: 15
@@ -213,6 +218,7 @@ recipes:
       - Serve piping hot in cups with a splash of sherry in each.
 
   - name: Seafood bisque
+    photo: especial-navidad/crema-de-marisco.jpg
     category: Soups
     difficulty: MEDIUM
     prep: 25
@@ -244,6 +250,7 @@ recipes:
       - Sauté the prawn tails for 1 minute and serve them in the hot bisque.
 
   - name: Roast milk-fed lamb
+    photo: especial-navidad/cordero-lechal-asado.jpg
     category: Meat
     difficulty: MEDIUM
     prep: 15
@@ -272,6 +279,7 @@ recipes:
       - Rest for 10 minutes and serve with its juices.
 
   - name: Roast stuffed turkey
+    photo: especial-navidad/pavo-relleno-al-horno.jpg
     category: Meat
     difficulty: HARD
     prep: 45
@@ -344,6 +352,7 @@ recipes:
       - Pour the dressing over the fish as it comes out of the oven.
 
   - name: Red cabbage with apple
+    photo: especial-navidad/lombarda-con-manzana.jpg
     category: Vegetables
     difficulty: EASY
     prep: 15
@@ -372,6 +381,7 @@ recipes:
       - Cook for 10 minutes over medium heat, stirring, until glossy. Check the salt.
 
   - name: Roscón de Reyes
+    photo: especial-navidad/roscon-de-reyes.jpg
     category: Desserts
     difficulty: HARD
     prep: 60
@@ -439,6 +449,7 @@ recipes:
       - Turn out and cut into bars with a warm knife.
 
   - name: Polvorones
+    photo: especial-navidad/polvorones.jpg
     category: Desserts
     difficulty: MEDIUM
     prep: 30
@@ -465,6 +476,7 @@ recipes:
       - Bake at 200 °C for 10-12 minutes. Let them cool completely without touching (they break when warm) and dust with icing sugar.
 
   - name: Toledo marzipan
+    photo: especial-navidad/mazapanes-de-toledo.jpg
     category: Desserts
     difficulty: EASY
     prep: 30
@@ -488,6 +500,7 @@ recipes:
       - Brush with beaten yolk and brown under the grill at 220 °C for 3-5 minutes.
 
   - name: Roast suckling pig
+    photo: especial-navidad/cochinillo-asado.jpg
     category: Meat
     difficulty: MEDIUM
     prep: 15
@@ -514,6 +527,7 @@ recipes:
       - Roast 1 more hour at 200 °C, until the skin is golden and crisp. Serve with its juices and a salad.
 
   - name: Pork tenderloin with Pedro Ximénez
+    photo: especial-navidad/solomillo-de-cerdo-al-pedro-ximenez.jpg
     category: Meat
     difficulty: EASY
     prep: 10
@@ -540,6 +554,7 @@ recipes:
       - Cut into medallions, finish the sauce with the cold butter and pour it over.
 
   - name: Hake in green sauce
+    photo: especial-navidad/merluza-en-salsa-verde.jpg
     category: Fish and seafood
     difficulty: EASY
     prep: 10
@@ -567,6 +582,7 @@ recipes:
       - Turn the hake, sprinkle with parsley and cook 2 more minutes. The clams should be open.
 
   - name: Cardoons with almonds
+    photo: especial-navidad/cardo-con-almendras.jpg
     category: Vegetables
     difficulty: EASY
     prep: 10
@@ -594,6 +610,7 @@ recipes:
       - Add the drained cardoons, cook 5 more minutes and check the salt.
 
   - name: Soft Jijona turrón
+    photo: especial-navidad/turron-blando-de-jijona.jpg
     category: Desserts
     difficulty: MEDIUM
     prep: 20
@@ -620,6 +637,7 @@ recipes:
       - Pour into a tin lined with baking paper, cover, put a weight on top and leave for 24 hours before cutting.
 
   - name: Almond soup
+    photo: especial-navidad/sopa-de-almendras.jpg
     category: Desserts
     difficulty: EASY
     prep: 10
@@ -645,6 +663,7 @@ recipes:
       - Pour the hot soup over them and dust with cinnamon.
 
   - name: Christmas Eve compote
+    photo: especial-navidad/compota-de-nochebuena.jpg
     category: Desserts
     difficulty: EASY
     prep: 10

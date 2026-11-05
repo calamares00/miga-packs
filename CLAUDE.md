@@ -26,8 +26,10 @@ Recipe books that the Miga app installs from **Settings › Recipe packs**. See 
   licence in `photos/<topic>/credits.yaml`. Licences: prefer CC0 / Public domain, then CC BY, then
   CC BY-SA (x.y = 2.0, 2.5, 3.0 or 4.0, unported); never NC, ND or GFDL-only. For CC BY / BY-SA
   the build appends the attribution to the recipe notes. Look at a photo before using it: the file
-  name is not enough. Both languages of a pack point to the same file. One pull request per pack
-  pair.
+  name is not enough. Both languages of a pack point to the same file. A batch of packs goes in a
+  single pull request (parallel ones conflict in README and catalog.json).
+- After merging packs, update `packs/catalog.json` in `calamares00/miga-web` right away: the app
+  reads that copy, not this repo's.
 - Country packs form the "Cocina del mundo: <país>" / "World cuisine: <country>" series, with
   `kicker` on the cover. Recipes must be real, traditional dishes (no inventions) and must not
   repeat a dish already in another pack of the same language.

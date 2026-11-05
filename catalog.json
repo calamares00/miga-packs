@@ -74,9 +74,9 @@
       "authorGithub": "calamares00",
       "description": "Bread and pastries to make at home, from sourdough starter to madeleines: sourdough loaf, baguette, sandwich loaf, wholemeal, rye, chapata, walnut and raisin bread, pitta, naan, bagels, burger buns, milk rolls, brioche, croissants, pains au chocolat, ensaïmadas, tortas de aceite, Spanish magdalenas and anise rosquillas. With exact weights and proving times.",
       "coverImageUrl": "packs/bakery/cover.jpg",
-      "latestVersion": 1,
+      "latestVersion": 2,
       "recipeCount": 20,
-      "downloadUrl": "dist/bakery-v1.zip",
+      "downloadUrl": "dist/bakery-v2.zip",
       "language": "en"
     },
     {
@@ -451,9 +451,9 @@
       "authorGithub": "calamares00",
       "description": "Panes y bollería para hacer en casa, de la masa madre a las magdalenas: hogaza de masa madre, barra, pan de molde, integral, de centeno, chapata, pan de nueces y pasas, pita, naan, bagels, panecillos de hamburguesa, bollos de leche, brioche, cruasanes, napolitanas de chocolate, ensaimadas, tortas de aceite, magdalenas y rosquillas de anís. Con pesos exactos y tiempos de levado.",
       "coverImageUrl": "packs/panaderia/cover.jpg",
-      "latestVersion": 1,
+      "latestVersion": 2,
       "recipeCount": 20,
-      "downloadUrl": "dist/panaderia-v1.zip",
+      "downloadUrl": "dist/panaderia-v2.zip",
       "language": "es"
     },
     {

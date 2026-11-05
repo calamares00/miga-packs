@@ -17,8 +17,8 @@ Cada pack está en español y en inglés; la app muestra los del idioma en que l
 | 🥣 [Thermomix: soups and purées](packs/thermomix-soups-and-purees/pack.yaml) | Kitchen appliances | en | 20 | [thermomix-soups-and-purees-v1.zip](dist/thermomix-soups-and-purees-v1.zip) |
 | 🍚 [Arroces](packs/arroces/pack.yaml) | Cocina de cada día | es | 20 | [arroces-v1.zip](dist/arroces-v1.zip) |
 | 🍚 [Rice dishes](packs/rice-dishes/pack.yaml) | Everyday cooking | en | 20 | [rice-dishes-v1.zip](dist/rice-dishes-v1.zip) |
-| 🥖 [Panadería](packs/panaderia/pack.yaml) | Cocina de cada día | es | 20 | [panaderia-v1.zip](dist/panaderia-v1.zip) |
-| 🥖 [Bakery](packs/bakery/pack.yaml) | Everyday cooking | en | 20 | [bakery-v1.zip](dist/bakery-v1.zip) |
+| 🥖 [Panadería](packs/panaderia/pack.yaml) | Cocina de cada día | es | 20 | [panaderia-v2.zip](dist/panaderia-v2.zip) |
+| 🥖 [Bakery](packs/bakery/pack.yaml) | Everyday cooking | en | 20 | [bakery-v2.zip](dist/bakery-v2.zip) |
 | 🍤 [Tapas españolas](packs/tapas-espanolas/pack.yaml) | Especiales | es | 20 | [tapas-espanolas-v3.zip](dist/tapas-espanolas-v3.zip) |
 | 🍤 [Spanish tapas](packs/spanish-tapas/pack.yaml) | Specials | en | 20 | [spanish-tapas-v3.zip](dist/spanish-tapas-v3.zip) |
 | 🫒 [Cocina mediterránea](packs/cocina-mediterranea/pack.yaml) | Cocina del mundo | es | 20 | [cocina-mediterranea-v1.zip](dist/cocina-mediterranea-v1.zip) |

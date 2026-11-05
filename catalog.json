@@ -217,9 +217,9 @@
       "authorGithub": "calamares00",
       "description": "Los platos de diario y de fiesta de Indonesia: nasi goreng, mie goreng, satay de pollo con salsa de cacahuete, gado-gado, rendang, soto ayam, opor ayam, bakso, sayur lodeh, sambal y postres como el pisang goreng, el martabak o los klepon. Con equivalencias para los ingredientes menos habituales.",
       "coverImageUrl": "packs/cocina-indonesia/cover.jpg",
-      "latestVersion": 1,
+      "latestVersion": 2,
       "recipeCount": 20,
-      "downloadUrl": "dist/cocina-indonesia-v1.zip",
+      "downloadUrl": "dist/cocina-indonesia-v2.zip",
       "language": "es"
     },
     {
@@ -386,9 +386,9 @@
       "authorGithub": "calamares00",
       "description": "Everyday and festive dishes from Indonesia: nasi goreng, mie goreng, chicken satay with peanut sauce, gado-gado, rendang, soto ayam, opor ayam, bakso, sayur lodeh, sambal and sweets such as pisang goreng, martabak and klepon. With substitutes for the less common ingredients.",
       "coverImageUrl": "packs/indonesian-cooking/cover.jpg",
-      "latestVersion": 1,
+      "latestVersion": 2,
       "recipeCount": 20,
-      "downloadUrl": "dist/indonesian-cooking-v1.zip",
+      "downloadUrl": "dist/indonesian-cooking-v2.zip",
       "language": "en"
     },
     {

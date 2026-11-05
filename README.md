@@ -39,8 +39,8 @@ Cada pack está en español y en inglés; la app muestra los del idioma en que l
 | 🌭 [World cuisine: United States](packs/american-cooking/pack.yaml) | World cuisine | en | 20 | [american-cooking-v2.zip](dist/american-cooking-v2.zip) |
 | 🥙 [Cocina del mundo: Grecia](packs/cocina-griega/pack.yaml) | Cocina del mundo | es | 20 | [cocina-griega-v2.zip](dist/cocina-griega-v2.zip) |
 | 🥙 [World cuisine: Greece](packs/greek-cooking/pack.yaml) | World cuisine | en | 20 | [greek-cooking-v2.zip](dist/greek-cooking-v2.zip) |
-| 🍛 [Cocina del mundo: Indonesia](packs/cocina-indonesia/pack.yaml) | Cocina del mundo | es | 20 | [cocina-indonesia-v1.zip](dist/cocina-indonesia-v1.zip) |
-| 🍛 [World cuisine: Indonesia](packs/indonesian-cooking/pack.yaml) | World cuisine | en | 20 | [indonesian-cooking-v1.zip](dist/indonesian-cooking-v1.zip) |
+| 🍛 [Cocina del mundo: Indonesia](packs/cocina-indonesia/pack.yaml) | Cocina del mundo | es | 20 | [cocina-indonesia-v2.zip](dist/cocina-indonesia-v2.zip) |
+| 🍛 [World cuisine: Indonesia](packs/indonesian-cooking/pack.yaml) | World cuisine | en | 20 | [indonesian-cooking-v2.zip](dist/indonesian-cooking-v2.zip) |
 | 🍝 [Cocina del mundo: Italia](packs/cocina-italiana/pack.yaml) | Cocina del mundo | es | 20 | [cocina-italiana-v1.zip](dist/cocina-italiana-v1.zip) |
 | 🍝 [World cuisine: Italy](packs/italian-cooking/pack.yaml) | World cuisine | en | 20 | [italian-cooking-v1.zip](dist/italian-cooking-v1.zip) |
 | 🍣 [Cocina del mundo: Japón](packs/cocina-japonesa/pack.yaml) | Cocina del mundo | es | 20 | [cocina-japonesa-v1.zip](dist/cocina-japonesa-v1.zip) |

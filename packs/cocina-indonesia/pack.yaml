@@ -1,6 +1,6 @@
 id: cocina-indonesia
-version: 1
-updated: 2026-10-31
+version: 2
+updated: 2026-11-05
 language: es
 name: "Cocina del mundo: Indonesia"
 series: Cocina del mundo
@@ -23,6 +23,7 @@ defaults:
 recipes:
 
   - name: Nasi goreng
+    photo: cocina-indonesia/nasi-goreng.jpg
     category: Arroces
     difficulty: EASY
     prep: 10
@@ -54,6 +55,7 @@ recipes:
       - Sirve el arroz con un huevo frito encima, rodajas de pepino y tomate y cebolla frita.
 
   - name: Mie goreng
+    photo: cocina-indonesia/mie-goreng.jpg
     category: Pastas
     difficulty: EASY
     prep: 10
@@ -85,6 +87,7 @@ recipes:
       - Incorpora las verduras, los fideos y las salsas y saltea a fuego fuerte 3 minutos. Sirve con cebolla frita.
 
   - name: Satay de pollo con salsa de cacahuete
+    photo: cocina-indonesia/satay-de-pollo-con-salsa-de-cacahuete.jpg
     category: Carnes
     difficulty: MEDIUM
     prep: 30
@@ -125,6 +128,7 @@ recipes:
           - Sirve las brochetas con la salsa por encima.
 
   - name: Gado-gado
+    photo: cocina-indonesia/gado-gado.jpg
     category: Ensaladas
     difficulty: EASY
     prep: 25
@@ -161,6 +165,7 @@ recipes:
       - Cubre con la salsa y sirve con krupuk.
 
   - name: Rendang de ternera
+    photo: cocina-indonesia/rendang-de-ternera.jpg
     category: Carnes
     difficulty: HARD
     prep: 30
@@ -199,6 +204,7 @@ recipes:
       - Sigue cociendo, removiendo cada vez más a menudo, hasta que la salsa se haya reducido del todo y la carne esté oscura y tierna, otra hora u hora y media.
 
   - name: Soto ayam
+    photo: cocina-indonesia/soto-ayam.jpg
     category: Sopas y cremas
     difficulty: MEDIUM
     prep: 25
@@ -240,6 +246,7 @@ recipes:
       - Reparte en cuencos los fideos, las verduras, el pollo y el huevo, cubre con el caldo y sirve con cebolla frita, lima y sambal.
 
   - name: Opor ayam
+    photo: cocina-indonesia/opor-ayam.jpg
     category: Carnes
     difficulty: MEDIUM
     prep: 20
@@ -272,6 +279,7 @@ recipes:
       - Incorpora el agua y la leche de coco, el azúcar y la sal y cuece a fuego suave, sin tapar, 35-40 minutos, removiendo de vez en cuando para que no se corte, hasta que el pollo esté tierno.
 
   - name: Ayam goreng
+    photo: cocina-indonesia/ayam-goreng.jpg
     category: Carnes
     difficulty: MEDIUM
     prep: 15
@@ -301,6 +309,7 @@ recipes:
       - Escurre el pollo y fríelo en abundante aceite caliente 5-6 minutos, hasta que esté dorado.
 
   - name: Sambal oelek
+    photo: cocina-indonesia/sambal-oelek.jpg
     category: Salsas
     difficulty: EASY
     prep: 10
@@ -320,6 +329,7 @@ recipes:
       - Añade el vinagre y el azúcar y mezcla.
 
   - name: Tempe orek
+    photo: cocina-indonesia/tempe-orek.jpg
     category: Legumbres
     difficulty: EASY
     prep: 15
@@ -345,6 +355,7 @@ recipes:
       - Incorpora el tempeh y saltea hasta que quede bien cubierto por la salsa.
 
   - name: Perkedel kentang
+    photo: cocina-indonesia/perkedel-kentang.jpg
     category: Entrantes
     difficulty: EASY
     prep: 20
@@ -369,6 +380,7 @@ recipes:
       - Pásalas por el otro huevo batido y fríelas en aceite caliente hasta que estén doradas.
 
   - name: Sayur lodeh
+    photo: cocina-indonesia/sayur-lodeh.jpg
     category: Verduras
     difficulty: EASY
     prep: 20
@@ -401,6 +413,7 @@ recipes:
       - Añade la berenjena, el chayote y el tofu en dados, la leche de coco, el azúcar y la sal, y cuece a fuego suave 10-12 minutos, removiendo con cuidado, hasta que las verduras estén tiernas.
 
   - name: Bakso
+    photo: cocina-indonesia/bakso.jpg
     category: Sopas y cremas
     difficulty: MEDIUM
     prep: 30
@@ -443,6 +456,7 @@ recipes:
           - Sirve en cuencos los fideos, el pak choi y las albóndigas con el caldo, cebolla frita y apio. Cada uno añade sambal y kecap manis al gusto.
 
   - name: Nasi kuning
+    photo: cocina-indonesia/nasi-kuning.jpg
     category: Arroces
     difficulty: EASY
     prep: 5
@@ -466,6 +480,7 @@ recipes:
       - Tapa, baja el fuego al mínimo y cuece 15 minutos. Deja que repose tapado 5 minutos y suéltalo con un tenedor.
 
   - name: Cap cai
+    photo: cocina-indonesia/cap-cai.jpg
     category: Verduras
     difficulty: EASY
     prep: 15
@@ -497,6 +512,7 @@ recipes:
       - Agrega las salsas, la pimienta y el agua con la maicena disuelta y cuece 2 minutos, hasta que la salsa espese y las verduras sigan crujientes.
 
   - name: Tumis kangkung
+    photo: cocina-indonesia/tumis-kangkung.jpg
     category: Verduras
     difficulty: EASY
     prep: 10
@@ -520,6 +536,7 @@ recipes:
       - Añade los tallos y saltea 1 minuto. Añade las hojas y la salsa y saltea hasta que se ablanden, menos de 1 minuto. Ajusta de sal.
 
   - name: Pisang goreng
+    photo: cocina-indonesia/pisang-goreng.jpg
     category: Postres
     difficulty: EASY
     prep: 10
@@ -542,6 +559,7 @@ recipes:
       - Escúrrelos sobre papel de cocina y sírvelos calientes.
 
   - name: Martabak manis
+    photo: cocina-indonesia/martabak-manis.jpg
     category: Postres
     difficulty: MEDIUM
     prep: 70
@@ -573,6 +591,7 @@ recipes:
       - Desmolda, unta con la mantequilla, reparte el chocolate, los cacahuetes y la leche condensada, dobla por la mitad y corta en porciones.
 
   - name: Klepon
+    photo: cocina-indonesia/klepon.jpg
     category: Postres
     difficulty: MEDIUM
     prep: 25
@@ -597,6 +616,7 @@ recipes:
       - Escúrrelas y rebózalas en el coco.
 
   - name: Es teler
+    photo: cocina-indonesia/es-teler.jpg
     category: Bebidas
     difficulty: EASY
     prep: 10

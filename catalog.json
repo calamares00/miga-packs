@@ -204,9 +204,9 @@
       "authorGithub": "calamares00",
       "description": "La cocina griega más allá de la ensalada y el tzatziki: souvlaki, spanakopita, pastitsio, gemista, fasolada, avgolemono, dolmades, keftedes, briam, fava, kleftiko, stifado, queso saganaki, gambas con feta, gigantes, taramosalata, melitzanosalata, spanakorizo, loukoumades y baklava. Con aceite de oliva, limón, orégano y eneldo.",
       "coverImageUrl": "packs/cocina-griega/cover.jpg",
-      "latestVersion": 1,
+      "latestVersion": 2,
       "recipeCount": 20,
-      "downloadUrl": "dist/cocina-griega-v1.zip",
+      "downloadUrl": "dist/cocina-griega-v2.zip",
       "language": "es"
     },
     {
@@ -373,9 +373,9 @@
       "authorGithub": "calamares00",
       "description": "Greek cooking beyond the salad and tzatziki: souvlaki, spanakopita, pastitsio, gemista, fasolada, avgolemono, dolmades, keftedes, briam, fava, kleftiko, stifado, saganaki cheese, prawns with feta, gigantes, taramasalata, melitzanosalata, spanakorizo, loukoumades and baklava. With olive oil, lemon, oregano and dill.",
       "coverImageUrl": "packs/greek-cooking/cover.jpg",
-      "latestVersion": 1,
+      "latestVersion": 2,
       "recipeCount": 20,
-      "downloadUrl": "dist/greek-cooking-v1.zip",
+      "downloadUrl": "dist/greek-cooking-v2.zip",
       "language": "en"
     },
     {

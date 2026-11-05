@@ -1,6 +1,6 @@
 id: cocina-griega
-version: 1
-updated: 2026-10-31
+version: 2
+updated: 2026-11-05
 language: es
 name: "Cocina del mundo: Grecia"
 series: Cocina del mundo
@@ -23,6 +23,7 @@ defaults:
 recipes:
 
   - name: Souvlaki de cerdo con pita
+    photo: cocina-griega/souvlaki-de-cerdo-con-pita.jpg
     category: Carnes
     difficulty: EASY
     prep: 20
@@ -54,6 +55,7 @@ recipes:
       - Calienta las pitas y sírvelas con la carne, el tzatziki, el tomate y la cebolla en rodajas finas. En Grecia se le añaden unas patatas fritas dentro.
 
   - name: Spanakopita
+    photo: cocina-griega/spanakopita.jpg
     category: Panes y masas
     difficulty: MEDIUM
     prep: 30
@@ -79,6 +81,7 @@ recipes:
       - Marca las porciones con un cuchillo y hornea 40-45 minutos, hasta que esté dorada.
 
   - name: Pastitsio
+    photo: cocina-griega/pastitsio.jpg
     category: Pastas
     difficulty: HARD
     prep: 30
@@ -125,6 +128,7 @@ recipes:
           - Hornea 45 minutos, hasta que esté dorado. Deja que repose 20 minutos antes de cortarlo.
 
   - name: Gemista
+    photo: cocina-griega/gemista.jpg
     category: Verduras
     difficulty: MEDIUM
     prep: 30
@@ -155,6 +159,7 @@ recipes:
       - Hornea 1 hora y 10 minutos, hasta que el arroz esté hecho y las verduras doradas.
 
   - name: Fasolada
+    photo: cocina-griega/fasolada.jpg
     category: Legumbres
     difficulty: EASY
     prep: 15
@@ -181,6 +186,7 @@ recipes:
       - Añade el tomate, el concentrado, el resto del aceite, la sal y la pimienta, y cuece 30 minutos más, hasta que el caldo espese.
 
   - name: Sopa avgolemono
+    photo: cocina-griega/sopa-avgolemono.jpg
     category: Sopas y cremas
     difficulty: MEDIUM
     prep: 10
@@ -204,6 +210,7 @@ recipes:
       - Vierte la mezcla en la olla, removiendo, y calienta sin que llegue a hervir hasta que la sopa espese un poco. Salpimienta.
 
   - name: Dolmades
+    photo: cocina-griega/dolmades.jpg
     category: Entrantes
     difficulty: MEDIUM
     prep: 60
@@ -231,6 +238,7 @@ recipes:
       - Riega con el resto del aceite, el zumo de limón restante y el agua, pon un plato encima para que no se muevan y cuece tapado a fuego suave 45-50 minutos.
 
   - name: Keftedes
+    photo: cocina-griega/keftedes.jpg
     category: Carnes
     difficulty: EASY
     prep: 20
@@ -259,6 +267,7 @@ recipes:
       - Fríelas en aceite caliente 5-6 minutos, hasta que estén doradas. Sírvelas con limón.
 
   - name: Briam
+    photo: cocina-griega/briam.jpg
     category: Verduras
     difficulty: EASY
     prep: 20
@@ -315,6 +324,7 @@ recipes:
       - Sirve templado con el resto del aceite, las alcaparras y la cebolla morada.
 
   - name: Kleftiko
+    photo: cocina-griega/kleftiko.jpg
     category: Carnes
     difficulty: MEDIUM
     prep: 20
@@ -344,6 +354,7 @@ recipes:
       - Abre el paquete, sube el horno a 200 °C y dora 15 minutos más.
 
   - name: Stifado de ternera
+    photo: cocina-griega/stifado-de-ternera.jpg
     category: Carnes
     difficulty: MEDIUM
     prep: 30
@@ -373,6 +384,7 @@ recipes:
       - Añade las cebollitas y cuece 45-60 minutos más, hasta que la carne esté tierna y la salsa espesa.
 
   - name: Queso saganaki
+    photo: cocina-griega/queso-saganaki.jpg
     category: Entrantes
     difficulty: EASY
     prep: 5
@@ -392,6 +404,7 @@ recipes:
       - Sírvelo enseguida con zumo de limón por encima.
 
   - name: Gambas saganaki
+    photo: cocina-griega/gambas-saganaki.jpg
     category: Pescados y mariscos
     difficulty: EASY
     prep: 10
@@ -418,6 +431,7 @@ recipes:
       - Desmenuza el feta por encima, tapa y cuece 3-4 minutos más, hasta que el queso se ablande. Sirve con perejil.
 
   - name: Gigantes plaki
+    photo: cocina-griega/gigantes-plaki.jpg
     category: Legumbres
     difficulty: EASY
     prep: 15
@@ -447,6 +461,7 @@ recipes:
       - Riega con el resto del aceite y hornea 50-60 minutos, hasta que la salsa espese y la superficie se dore.
 
   - name: Taramosalata
+    photo: cocina-griega/taramosalata.jpg
     category: Salsas
     difficulty: EASY
     prep: 15
@@ -469,6 +484,7 @@ recipes:
       - Refrigera al menos 1 hora y sirve con pan de pita.
 
   - name: Melitzanosalata
+    photo: cocina-griega/melitzanosalata.jpg
     category: Salsas
     difficulty: EASY
     prep: 10
@@ -493,6 +509,7 @@ recipes:
       - Sirve frío o a temperatura ambiente con pan.
 
   - name: Spanakorizo
+    photo: cocina-griega/spanakorizo.jpg
     category: Arroces
     difficulty: EASY
     prep: 15
@@ -520,6 +537,7 @@ recipes:
       - Añade el eneldo y el zumo de limón y sirve con feta desmenuzado.
 
   - name: Loukoumades
+    photo: cocina-griega/loukoumades.jpg
     category: Postres
     difficulty: MEDIUM
     prep: 75
@@ -551,6 +569,7 @@ recipes:
       - Báñalas en el almíbar y sírvelas con nueces y canela.
 
   - name: Baklava
+    photo: cocina-griega/baklava.jpg
     category: Postres
     difficulty: MEDIUM
     prep: 40

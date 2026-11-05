@@ -27,8 +27,8 @@ Cada pack está en español y en inglés; la app muestra los del idioma en que l
 | 🎄 [Christmas special](packs/christmas-special/pack.yaml) | Specials | en | 22 | [christmas-special-v2.zip](dist/christmas-special-v2.zip) |
 | 🥨 [Cocina del mundo: Alemania](packs/cocina-alemana/pack.yaml) | Cocina del mundo | es | 20 | [cocina-alemana-v2.zip](dist/cocina-alemana-v2.zip) |
 | 🥨 [World cuisine: Germany](packs/german-cooking/pack.yaml) | World cuisine | en | 20 | [german-cooking-v2.zip](dist/german-cooking-v2.zip) |
-| 🥩 [Cocina del mundo: Argentina](packs/cocina-argentina/pack.yaml) | Cocina del mundo | es | 20 | [cocina-argentina-v1.zip](dist/cocina-argentina-v1.zip) |
-| 🥩 [World cuisine: Argentina](packs/argentine-cooking/pack.yaml) | World cuisine | en | 20 | [argentine-cooking-v1.zip](dist/argentine-cooking-v1.zip) |
+| 🥩 [Cocina del mundo: Argentina](packs/cocina-argentina/pack.yaml) | Cocina del mundo | es | 20 | [cocina-argentina-v2.zip](dist/cocina-argentina-v2.zip) |
+| 🥩 [World cuisine: Argentina](packs/argentine-cooking/pack.yaml) | World cuisine | en | 20 | [argentine-cooking-v2.zip](dist/argentine-cooking-v2.zip) |
 | 🥟 [Cocina del mundo: China](packs/cocina-china/pack.yaml) | Cocina del mundo | es | 20 | [cocina-china-v1.zip](dist/cocina-china-v1.zip) |
 | 🥟 [World cuisine: China](packs/chinese-cooking/pack.yaml) | World cuisine | en | 20 | [chinese-cooking-v1.zip](dist/chinese-cooking-v1.zip) |
 | 🫓 [Cocina del mundo: Colombia](packs/cocina-colombiana/pack.yaml) | Cocina del mundo | es | 20 | [cocina-colombiana-v1.zip](dist/cocina-colombiana-v1.zip) |

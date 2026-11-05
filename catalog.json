@@ -282,9 +282,9 @@
       "authorGithub": "calamares00",
       "description": "La cocina peruana de la costa, la sierra y la herencia chifa: ceviche, tiradito, lomo saltado, ají de gallina, causa limeña, papa a la huancaína, ocopa, arroz chaufa, anticuchos, pollo a la brasa, rocoto relleno, seco de res, arroz con pollo, chupe de camarones, papa rellena, tallarines verdes, suspiro limeño, picarones, mazamorra morada y chicha morada. Con equivalencias para los ajíes peruanos.",
       "coverImageUrl": "packs/cocina-peruana/cover.jpg",
-      "latestVersion": 1,
+      "latestVersion": 2,
       "recipeCount": 20,
-      "downloadUrl": "dist/cocina-peruana-v1.zip",
+      "downloadUrl": "dist/cocina-peruana-v2.zip",
       "language": "es"
     },
     {
@@ -464,9 +464,9 @@
       "authorGithub": "calamares00",
       "description": "Peruvian cooking from the coast, the Andes and the chifa tradition: ceviche, tiradito, lomo saltado, ají de gallina, causa limeña, papa a la huancaína, ocopa, arroz chaufa, anticuchos, pollo a la brasa, rocoto relleno, seco de res, arroz con pollo, chupe de camarones, papa rellena, tallarines verdes, suspiro limeño, picarones, mazamorra morada and chicha morada. With substitutes for Peruvian chillies.",
       "coverImageUrl": "packs/peruvian-cooking/cover.jpg",
-      "latestVersion": 1,
+      "latestVersion": 2,
       "recipeCount": 20,
-      "downloadUrl": "dist/peruvian-cooking-v1.zip",
+      "downloadUrl": "dist/peruvian-cooking-v2.zip",
       "language": "en"
     },
     {

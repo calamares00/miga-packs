@@ -1,0 +1,102 @@
+# Origin of every photo in this folder: source page, author and licence (CC0 1.0, Public domain,
+# CC BY x.y or CC BY-SA x.y). tools/build.py refuses a recipe photo without an entry here.
+
+calamares-a-la-romana.jpg:
+  source: https://commons.wikimedia.org/wiki/File:Deep_fried_squid_001.jpg
+  author: "Ocdp"
+  license: CC0 1.0
+
+croquetas.jpg:
+  source: https://commons.wikimedia.org/wiki/File:Croquetas_3.JPG
+  author: "Popo le Chien"
+  license: CC0 1.0
+
+ensaladilla-rusa.jpg:
+  source: https://commons.wikimedia.org/wiki/File:Ensaladilla_rusa_estilo_bar_congelada.JPG
+  author: "Marisa Rodriguez"
+  license: CC0 1.0
+
+gambas-a-la-plancha.jpg:
+  source: https://commons.wikimedia.org/wiki/File:Shrimp_tapas.jpg
+  author: "Jon Sullivan"
+  license: Public domain
+
+gildas.jpg:
+  source: https://commons.wikimedia.org/wiki/File:Gilda.JPG
+  author: "Txo"
+  license: Public domain
+
+pan-con-tomate.jpg:
+  source: https://commons.wikimedia.org/wiki/File:Pa_amb_tom%C3%A0quet_-_001.jpg
+  author: "Mutari"
+  license: Public domain
+
+patatas-bravas.jpg:
+  source: https://commons.wikimedia.org/wiki/File:Burgos_-_Raci%C3%B3n_de_patatas_bravas.jpg
+  author: "Zarateman"
+  license: CC0 1.0
+
+pimientos-de-padron.jpg:
+  source: https://commons.wikimedia.org/wiki/File:Pimientos_De_Padron_-_Casa_Don_Carlos_2025-10-01.jpg
+  author: "Andy Li"
+  license: CC0 1.0
+
+pulpo-a-la-gallega.jpg:
+  source: https://commons.wikimedia.org/wiki/File:Raci%C3%B3n_de_pulpo_a_feira.jpeg
+  author: "Manuel Ramallo"
+  license: CC0 1.0
+
+tortillitas-de-camarones.jpg:
+  source: https://commons.wikimedia.org/wiki/File:Chipiona_-_Bodega_El_Castillito,_tortillitas_de_camarones_y_tinto_de_verano.jpg
+  author: "Zarateman"
+  license: CC0 1.0
+patatas-alioli.jpg:
+  source: https://commons.wikimedia.org/wiki/File:Patatas_Ali-Oli-2009.jpg
+  author: "Tamorlan"
+  license: CC BY 3.0
+
+berenjenas-con-miel-de-cana.jpg:
+  source: https://commons.wikimedia.org/wiki/File:Berenjenas_con_miel_de_ca%C3%B1a_La_Gamba_de_ORO.jpg
+  author: "Lagambadeoro"
+  license: CC BY-SA 3.0
+
+boquerones-en-vinagre.jpg:
+  source: https://commons.wikimedia.org/wiki/File:Raci%C3%B3n_de_anchoas_en_vinagre_(Mad).jpg
+  author: "Tamorlan"
+  license: CC BY 3.0
+
+mejillones-a-la-vinagreta.jpg:
+  source: https://commons.wikimedia.org/wiki/File:RiberioMejillones-La_R%C3%ADa.jpg
+  author: "Tamorlan"
+  license: CC BY 3.0
+
+chorizo-a-la-sidra.jpg:
+  source: https://commons.wikimedia.org/wiki/File:Chorizo_a_la_sidra.jpg
+  author: "Lu from Seattle, USA"
+  license: CC BY 2.0
+
+pinchos-morunos.jpg:
+  source: https://commons.wikimedia.org/wiki/File:Pincho_moruno-2009.jpg
+  author: "Tamorlan"
+  license: CC BY 3.0
+
+huevos-rotos-con-jamon.jpg:
+  source: https://commons.wikimedia.org/wiki/File:Detalle-Huevos_Rotos.JPG
+  author: "Tamorlan"
+  license: CC BY 3.0
+
+champinones-al-ajillo.jpg:
+  source: https://commons.wikimedia.org/wiki/File:Champi%C3%B1ones_al_ajillo_(Madrid).jpg
+  author: "Tamorlan"
+  license: CC BY 3.0
+
+albondigas-en-salsa.jpg:
+  source: https://commons.wikimedia.org/wiki/File:Alb%C3%B3ndigas_en_salsa_con_patatas_fritas.jpg
+  author: "Juan Emilio Prades Bel"
+  license: CC BY-SA 4.0
+
+montaditos-de-lomo-con-pimiento.jpg:
+  source: https://commons.wikimedia.org/wiki/File:Montaditos_con_jarra_de_cerveza.jpg
+  author: "Trubble"
+  license: CC BY-SA 2.0
+

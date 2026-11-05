@@ -1,5 +1,5 @@
 id: spanish-tapas
-version: 2
+version: 3
 updated: 2026-11-05
 language: en
 name: Spanish tapas
@@ -58,6 +58,7 @@ recipes:
           - Salt them and serve with the brava sauce on top.
 
   - name: Potatoes with aioli
+    photo: tapas/patatas-alioli.jpg
     category: Starters
     difficulty: EASY
     prep: 15
@@ -105,6 +106,7 @@ recipes:
       - Drain them on kitchen paper and sprinkle with coarse salt.
 
   - name: Garlic mushrooms
+    photo: tapas/champinones-al-ajillo.jpg
     category: Vegetables
     difficulty: EASY
     prep: 10
@@ -127,6 +129,7 @@ recipes:
       - Pour in the wine and let it evaporate. Finish with the parsley.
 
   - name: Fried aubergine with cane honey
+    photo: tapas/berenjenas-con-miel-de-cana.jpg
     category: Vegetables
     difficulty: EASY
     prep: 40
@@ -176,6 +179,7 @@ recipes:
       - Sprinkle with coarse salt and both paprikas and drizzle with the oil.
 
   - name: Marinated anchovies
+    photo: tapas/boquerones-en-vinagre.jpg
     category: Fish and seafood
     difficulty: EASY
     prep: 20
@@ -242,6 +246,7 @@ recipes:
       - If you like, drizzle them with the rest of the oil mixed with the chopped garlic and parsley before serving.
 
   - name: Mussels in vinaigrette
+    photo: tapas/mejillones-a-la-vinagreta.jpg
     category: Fish and seafood
     difficulty: EASY
     prep: 20
@@ -332,6 +337,7 @@ recipes:
           - Fry them in batches in plenty of very hot oil until golden and drain them on kitchen paper.
 
   - name: Meatballs in sauce
+    photo: tapas/albondigas-en-salsa.jpg
     category: Meat
     difficulty: MEDIUM
     prep: 20
@@ -369,6 +375,7 @@ recipes:
           - If you like a smooth sauce, blend it. Add the meatballs and simmer everything together gently for 20 minutes.
 
   - name: Chorizo in cider
+    photo: tapas/chorizo-a-la-sidra.jpg
     category: Meat
     difficulty: EASY
     prep: 5
@@ -388,6 +395,7 @@ recipes:
       - Slice them and serve them in small earthenware dishes with their juices and bread for dipping.
 
   - name: Pinchos morunos
+    photo: tapas/pinchos-morunos.jpg
     category: Meat
     difficulty: EASY
     prep: 15
@@ -414,6 +422,7 @@ recipes:
       - Cook them on a griddle or barbecue over a high heat for 8-10 minutes, turning them so they brown on all sides.
 
   - name: Huevos rotos with ham
+    photo: tapas/huevos-rotos-con-jamon.jpg
     category: Eggs
     difficulty: EASY
     prep: 10
@@ -504,6 +513,7 @@ recipes:
       - Salt, drizzle with the oil and top with the ham.
 
   - name: Pork loin and pepper montaditos
+    photo: tapas/montaditos-de-lomo-con-pimiento.jpg
     category: Breads and doughs
     difficulty: EASY
     prep: 10

@@ -3,8 +3,9 @@
 
 Each pack lives in packs/<id>/: pack.yaml (metadata and recipes, see README.md), cover.jpg (square,
 shown in the catalogue) and book-cover.jpg (portrait, the book cover inside the app). Recipe photos
-live in photos/ (shared by the Spanish and English packs) and are named by a recipe's "photo"; each
-one must be listed in photos/credits.yaml as public domain or CC0. The ZIP uses the app's export
+live in photos/<topic>/ (shared by the Spanish and English packs) and are named by a recipe's
+"photo"; each one must be listed in photos/<topic>/credits.yaml with its source, author and licence:
+public domain, CC0, CC BY or CC BY-SA. For the CC ones the attribution is added to the recipe notes. The ZIP uses the app's export
 format: manifest.json (a library export with one book) plus the book cover and the recipe photos.
 
 Builds are reproducible: the same pack.yaml and images always give the same ZIP, so a pack only
@@ -28,8 +29,12 @@ ROOT = Path(__file__).resolve().parent.parent
 PACKS = ROOT / "packs"
 DIST = ROOT / "dist"
 PHOTOS = ROOT / "photos"
-# Only photos anybody may use without conditions: no attribution or share-alike requirements.
-FREE_LICENSES = {"CC0 1.0", "Public domain"}
+# Photo licences: free of conditions, or needing only attribution (and share-alike, which a cropped
+# copy keeps). Non-commercial, no-derivatives and GFDL-only photos are not accepted.
+NO_ATTRIBUTION_LICENSES = {"CC0 1.0", "Public domain"}
+ATTRIBUTION_LICENSE = re.compile(r"^CC BY(-SA)? (2\.0|2\.5|3\.0|4\.0)$")
+PHOTO_CREDIT = {"es": "📷 Foto: {author} · {license} ({license_url}) · {source} (recortada)",
+                "en": "📷 Photo: {author} · {license} ({license_url}) · {source} (cropped)"}
 SCHEMA_VERSION = 5
 DIFFICULTIES = {"EASY", "MEDIUM", "HARD"}
 LANGUAGES = {"es", "en"}
@@ -84,14 +89,22 @@ def step_groups(steps, where):
 
 
 def load_credits():
-    path = PHOTOS / "credits.yaml"
-    if not path.exists():
-        return {}
-    return yaml.safe_load(path.read_text(encoding="utf-8")) or {}
+    """Every photos/<topic>/credits.yaml, keyed by "<topic>/<file>" as recipes name their photos."""
+    credits = {}
+    for path in sorted(PHOTOS.glob("*/credits.yaml")):
+        for name, credit in (yaml.safe_load(path.read_text(encoding="utf-8")) or {}).items():
+            credits[f"{path.parent.name}/{name}"] = credit
+    return credits
+
+
+def license_url(license_name):
+    """"CC BY-SA 4.0" -> https://creativecommons.org/licenses/by-sa/4.0/"""
+    match = ATTRIBUTION_LICENSE.match(license_name)
+    return f"https://creativecommons.org/licenses/{'by-sa' if match.group(1) else 'by'}/{match.group(2)}/"
 
 
 def recipe_photo(raw, where, credits):
-    """The recipe's photo file, checked against photos/credits.yaml; None without a photo."""
+    """The recipe's photo file and its credit, checked against the credits files; None without one."""
     name = raw.get("photo")
     if name is None:
         return None
@@ -100,10 +113,20 @@ def recipe_photo(raw, where, credits):
         fail(f"{where}: photo {name} is not a .jpg in photos/")
     credit = credits.get(name)
     if not credit or not credit.get("source") or not credit.get("author"):
-        fail(f"{where}: photo {name} needs an entry with source and author in photos/credits.yaml")
-    if credit.get("license") not in FREE_LICENSES:
-        fail(f"{where}: photo {name} must be {' or '.join(sorted(FREE_LICENSES))}, not {credit.get('license')}")
-    return path
+        fail(f"{where}: photo {name} needs an entry with source and author in photos/<topic>/credits.yaml")
+    license_name = credit.get("license")
+    if license_name not in NO_ATTRIBUTION_LICENSES and not ATTRIBUTION_LICENSE.match(str(license_name)):
+        fail(f"{where}: photo {name} has licence {license_name}; only CC0 1.0, Public domain, CC BY or CC BY-SA")
+    return path, credit
+
+
+def notes_with_credit(notes, credit, language):
+    """The recipe notes, plus the attribution a CC BY / BY-SA photo requires."""
+    if credit is None or credit["license"] in NO_ATTRIBUTION_LICENSES:
+        return notes
+    line = PHOTO_CREDIT[language].format(author=credit["author"], license=credit["license"],
+                                         license_url=license_url(credit["license"]), source=credit["source"])
+    return f"{notes}\n\n{line}" if notes else line
 
 
 def recipe(pack, raw, book_name, photo):
@@ -122,7 +145,7 @@ def recipe(pack, raw, book_name, photo):
         "prepTimeMinutes": raw.get("prep"),
         "cookTimeMinutes": raw.get("cook"),
         "servings": raw.get("servings", 4),
-        "notes": raw.get("notes", ""),
+        "notes": notes_with_credit(raw.get("notes", ""), photo[1] if photo else None, pack["language"]),
         "source": raw.get("source", defaults.get("source", "")),
         "isFavorite": False,
         "ingredientGroups": ingredient_groups(raw["ingredients"], where),
@@ -188,7 +211,7 @@ def build_pack(pack_dir: Path):
             write_entry(zip_file, f"books/{book_uid}/cover.jpg", book_cover.read_bytes())
         for r, photo in zip(recipes, photos):
             if photo:
-                write_entry(zip_file, f"recipes/{r['uid']}/0.jpg", photo.read_bytes())
+                write_entry(zip_file, f"recipes/{r['uid']}/0.jpg", photo[0].read_bytes())
 
     entry = {
         "id": pack_id,

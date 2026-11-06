@@ -178,8 +178,9 @@ patatas-bravas.jpg:
   license: CC0 1.0              # "CC0 1.0", "Public domain", "CC BY 4.0", "CC BY-SA 3.0"…
 ```
 
-Con CC BY y CC BY-SA, `tools/build.py` añade a las notas de la receta la atribución que piden
-(autor, licencia, origen y que la foto está recortada). El build falla si una receta apunta a una
+Con CC BY y CC BY-SA, `tools/build.py` añade a las notas de la receta la atribución que piden:
+`📷 Foto: [autor](página de la foto) · CC BY 4.0`, con el autor como enlace que la app muestra
+pulsable. El build falla si una receta apunta a una
 foto que no existe, que no está registrada o que tiene otra licencia. Una misma foto sirve para la
 receta en español y en inglés.
 

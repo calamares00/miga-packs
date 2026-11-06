@@ -1,6 +1,6 @@
 id: mexican-cooking
-version: 3
-updated: 2026-11-05
+version: 4
+updated: 2026-11-06
 language: en
 name: "World cuisine: Mexico"
 series: World cuisine
@@ -22,6 +22,8 @@ defaults:
 recipes:
 
   - name: Tacos al pastor
+    health: [YELLOW, "Pork marinated in spices with pineapple in corn tortillas: tasty and complete, though the pork adds fat."]
+    nutrition: [520, 32, 45, 22]
     photo: cocina-mexicana/tacos-al-pastor.jpg
     category: Meat
     difficulty: MEDIUM
@@ -63,6 +65,8 @@ recipes:
       - Warm the tortillas and serve the meat with pineapple, onion, coriander and a squeeze of lime.
 
   - name: Guacamole
+    health: [GREEN, "Avocado with tomato, onion and lime: healthy fats, fibre and vitamins."]
+    nutrition: [190, 3, 11, 16]
     photo: cocina-mexicana/guacamole.jpg
     category: Sauces
     difficulty: EASY
@@ -87,6 +91,8 @@ recipes:
       - Season with salt and serve straight away with tortilla chips.
 
   - name: Pico de gallo
+    health: [GREEN, "Fresh tomato, onion, chilli and coriander: almost no calories and full of vitamins."]
+    nutrition: [35, 1, 7, 0]
     photo: cocina-mexicana/pico-de-gallo.jpg
     category: Sauces
     difficulty: EASY
@@ -109,6 +115,8 @@ recipes:
       - Leave for 10 minutes before serving so the flavours come together.
 
   - name: Salsa verde
+    health: [GREEN, "Tomatillo with chilli and coriander, with no fat: very light."]
+    nutrition: [30, 1, 6, 1]
     photo: cocina-mexicana/salsa-verde.jpg
     category: Sauces
     difficulty: EASY
@@ -132,6 +140,8 @@ recipes:
       - Check the salt and leave to cool. It keeps for 5 days in the fridge.
 
   - name: Chilaquiles verdes
+    health: [YELLOW, "Fried tortilla chips with green salsa, egg, cream and cheese: complete, but fairly fatty."]
+    nutrition: [560, 18, 45, 35]
     photo: cocina-mexicana/chilaquiles-verdes.jpg
     category: Eggs
     difficulty: EASY
@@ -157,6 +167,8 @@ recipes:
       - Serve the chilaquiles topped with the eggs, cream, cheese, onion and coriander.
 
   - name: Red enchiladas
+    health: [YELLOW, "Tortillas filled with chicken in a chilli sauce, with cream and cheese: complete, with moderate fat."]
+    nutrition: [520, 34, 42, 24]
     photo: cocina-mexicana/enchiladas-rojas.jpg
     category: Meat
     difficulty: MEDIUM
@@ -193,6 +205,8 @@ recipes:
       - Bake at 200 °C for 10-12 minutes and serve with cream and lettuce.
 
   - name: Red pozole
+    health: [YELLOW, "A pork broth with hominy and raw vegetables: nourishing, but with fat from the meat."]
+    nutrition: [460, 32, 38, 20]
     photo: cocina-mexicana/pozole-rojo.jpg
     category: Soups
     difficulty: MEDIUM
@@ -237,6 +251,8 @@ recipes:
           - Serve piping hot and let everyone add lettuce, radish, onion, oregano and lime.
 
   - name: Tortilla soup
+    health: [YELLOW, "A tomato broth with fried tortilla, avocado and cheese: tasty, but the fried tortilla adds fat."]
+    nutrition: [400, 9, 32, 27]
     photo: cocina-mexicana/sopa-de-tortilla.jpg
     category: Soups
     difficulty: EASY
@@ -266,6 +282,8 @@ recipes:
       - Serve the soup over the tortilla strips with avocado, cheese, cream and the rest of the chile crumbled on top.
 
   - name: Cochinita pibil
+    health: [YELLOW, "Pork marinated in achiote and citrus, slowly roasted: high in protein, but a fatty cut."]
+    nutrition: [470, 40, 8, 30]
     photo: cocina-mexicana/cochinita-pibil.jpg
     category: Meat
     difficulty: MEDIUM
@@ -307,6 +325,8 @@ recipes:
           - Serve the cochinita in tortillas or bread rolls with the pickled onion.
 
   - name: Chicken tinga
+    health: [GREEN, "Lean chicken in a tomato and chipotle sauce: high in protein and low in fat."]
+    nutrition: [420, 40, 38, 11]
     photo: cocina-mexicana/tinga-de-pollo.jpg
     category: Meat
     difficulty: EASY
@@ -337,6 +357,8 @@ recipes:
       - Serve on tostadas spread with beans, with lettuce and cream.
 
   - name: Refried beans
+    health: [YELLOW, "Beans with plenty of fibre and plant protein, but refried in lard."]
+    nutrition: [320, 15, 40, 11]
     photo: cocina-mexicana/frijoles-refritos.jpg
     category: Legumes
     difficulty: EASY
@@ -361,6 +383,8 @@ recipes:
       - Serve with fresh cheese on top.
 
   - name: Mexican red rice
+    health: [GREEN, "Rice with tomato and vegetables: simple and low in fat."]
+    nutrition: [330, 7, 56, 9]
     photo: cocina-mexicana/arroz-rojo-mexicano.jpg
     category: Rice
     difficulty: EASY
@@ -388,6 +412,8 @@ recipes:
       - Once boiling, cover and cook over the lowest heat for 15-18 minutes. Rest covered for 5 minutes and fluff with a fork.
 
   - name: Huevos rancheros
+    health: [YELLOW, "Fried eggs on a tortilla with tomato salsa and beans: complete, though with fat from frying."]
+    nutrition: [520, 20, 45, 29]
     photo: cocina-mexicana/huevos-rancheros.jpg
     category: Eggs
     difficulty: EASY
@@ -414,6 +440,8 @@ recipes:
       - Serve each tortilla with beans, an egg and the ranchera sauce on top.
 
   - name: Quesadillas
+    health: [YELLOW, "Tortillas with melted cheese and mushrooms: tasty, but the cheese adds fat and salt."]
+    nutrition: [420, 20, 40, 19]
     photo: cocina-mexicana/quesadillas.jpg
     category: Breads and doughs
     difficulty: EASY
@@ -437,6 +465,8 @@ recipes:
       - Serve with salsa verde.
 
   - name: Cheese-stuffed chiles rellenos
+    health: [RED, "Chillies stuffed with cheese, battered and deep-fried: a lot of fat."]
+    nutrition: [480, 22, 18, 36]
     photo: cocina-mexicana/chiles-rellenos-de-queso.jpg
     category: Vegetables
     difficulty: HARD
@@ -475,6 +505,8 @@ recipes:
           - Serve the chiles in the hot tomato broth.
 
   - name: Carnitas
+    health: [RED, "Pork cooked in its own lard: a lot of saturated fat."]
+    nutrition: [620, 48, 4, 46]
     photo: cocina-mexicana/carnitas.jpg
     category: Meat
     difficulty: MEDIUM
@@ -502,6 +534,8 @@ recipes:
       - Drain, pull apart a little and serve in tortillas with onion, coriander and salsa.
 
   - name: Esquites
+    health: [YELLOW, "Sweet corn with mayonnaise, cheese and butter: tasty, but with fat."]
+    nutrition: [320, 9, 30, 19]
     photo: cocina-mexicana/esquites.jpg
     category: Vegetables
     difficulty: EASY
@@ -526,6 +560,8 @@ recipes:
       - Serve in cups with mayonnaise, cheese, chilli powder and a squeeze of lime.
 
   - name: Horchata
+    health: [YELLOW, "A rice drink with milk and sugar: refreshing, but sweet."]
+    nutrition: [190, 3, 40, 2]
     photo: cocina-mexicana/agua-de-horchata.jpg
     category: Drinks
     difficulty: EASY
@@ -552,6 +588,8 @@ recipes:
       - Chill in the fridge and serve over plenty of ice.
 
   - name: Agua de jamaica
+    health: [YELLOW, "A hibiscus drink with antioxidants, but with added sugar. With less sugar it is healthier."]
+    nutrition: [80, 0, 21, 0]
     photo: cocina-mexicana/agua-de-jamaica.jpg
     category: Drinks
     difficulty: EASY
@@ -573,6 +611,8 @@ recipes:
       - Serve very cold with ice.
 
   - name: Mexican flan
+    health: [RED, "A flan with condensed milk, cream cheese and caramel: a lot of sugar and fat."]
+    nutrition: [380, 10, 50, 16]
     photo: cocina-mexicana/flan-napolitano.jpg
     category: Desserts
     difficulty: MEDIUM

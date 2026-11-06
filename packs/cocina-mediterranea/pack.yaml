@@ -1,6 +1,6 @@
 id: cocina-mediterranea
-version: 2
-updated: 2026-11-05
+version: 3
+updated: 2026-11-06
 language: es
 name: Cocina mediterránea
 series: Cocina del mundo
@@ -19,6 +19,8 @@ defaults:
 recipes:
 
   - name: Gazpacho andaluz
+    health: [GREEN, "Verduras crudas con aceite de oliva: mucha vitamina C, agua y antioxidantes. Muy saludable y refrescante."]
+    nutrition: [230, 3, 15, 19]
     photo: cocina-mediterranea/gazpacho-andaluz.jpg
     category: Sopas y cremas
     difficulty: EASY
@@ -48,6 +50,8 @@ recipes:
       - Sirve con dados de pepino, pimiento y pan tostado.
 
   - name: Salmorejo cordobés
+    health: [GREEN, "Tomate, pan y aceite de oliva con huevo y jamón. Saludable, aunque el pan y el aceite lo hacen calórico."]
+    nutrition: [470, 11, 35, 33]
     photo: cocina-mediterranea/salmorejo-cordobes.jpg
     category: Sopas y cremas
     difficulty: EASY
@@ -75,6 +79,8 @@ recipes:
       - Enfría y sirve con el huevo, el jamón y un hilo de aceite.
 
   - name: Paella valenciana
+    health: [GREEN, "Pollo, conejo, verdura y garrofón con arroz: un plato completo y equilibrado con aceite de oliva."]
+    nutrition: [680, 42, 72, 22]
     photo: cocina-mediterranea/paella-valenciana.jpg
     category: Arroces
     difficulty: HARD
@@ -108,6 +114,8 @@ recipes:
       - Sube el fuego el último minuto para el socarrat y deja reposar 5 minutos tapada con un paño.
 
   - name: Tortilla de patatas
+    health: [YELLOW, "Huevo y patata, buena combinación, pero la patata se fríe en mucho aceite. Escurrirla bien la aligera."]
+    nutrition: [420, 13, 32, 27]
     photo: cocina-mediterranea/tortilla-de-patatas.jpg
     category: Huevos
     difficulty: MEDIUM
@@ -132,6 +140,8 @@ recipes:
       - Dale la vuelta con un plato y cuaja 2 minutos más por el otro lado. Mejor jugosa por dentro.
 
   - name: Pisto manchego
+    health: [GREEN, "Verduras guisadas en aceite de oliva con huevo: mucha fibra y vitaminas. Freír el huevo con poco aceite."]
+    nutrition: [310, 10, 17, 23]
     photo: cocina-mediterranea/pisto-manchego.jpg
     category: Verduras
     difficulty: EASY
@@ -160,6 +170,8 @@ recipes:
       - Sirve con un huevo frito encima.
 
   - name: Ensalada griega
+    health: [GREEN, "Verduras frescas, aceitunas y feta con aceite de oliva. Saludable, aunque el queso y las aceitunas son salados."]
+    nutrition: [330, 9, 10, 28]
     photo: cocina-mediterranea/ensalada-griega.jpg
     category: Ensaladas
     difficulty: EASY
@@ -188,6 +200,8 @@ recipes:
       - Aliña con el aceite y el vinagre justo antes de servir.
 
   - name: Tzatziki
+    health: [GREEN, "Yogur con pepino y hierbas: proteína, probióticos y pocas calorías."]
+    nutrition: [120, 9, 6, 7]
     photo: cocina-mediterranea/tzatziki.jpg
     category: Salsas
     difficulty: EASY
@@ -212,6 +226,8 @@ recipes:
       - Prueba de sal y refrigera 30 minutos. Sirve con pan de pita.
 
   - name: Musaka
+    health: [YELLOW, "Verdura y carne con bechamel: completo, pero la carne, el aceite y la bechamel lo hacen muy calórico."]
+    nutrition: [520, 26, 28, 34]
     photo: cocina-mediterranea/musaka.jpg
     category: Carnes
     difficulty: HARD
@@ -258,6 +274,8 @@ recipes:
           - Hornea a 180 °C 45 minutos, hasta que esté dorada. Deja reposar 20 minutos antes de cortar.
 
   - name: Hummus
+    health: [GREEN, "Garbanzos, tahini y limón: proteína vegetal, fibra y grasas saludables."]
+    nutrition: [190, 7, 15, 12]
     photo: cocina-mediterranea/hummus.jpg
     category: Legumbres
     difficulty: EASY
@@ -285,6 +303,8 @@ recipes:
       - Sirve con un hilo de aceite, pimentón y pan de pita.
 
   - name: Tabulé
+    health: [GREEN, "Ensalada de hierbas, tomate y bulgur con aceite de oliva: fibra, vitaminas y antioxidantes."]
+    nutrition: [230, 4, 17, 17]
     photo: cocina-mediterranea/tabule.jpg
     category: Ensaladas
     difficulty: EASY
@@ -312,6 +332,8 @@ recipes:
       - Mezcla todo con el limón, el aceite y sal justo antes de servir.
 
   - name: Falafel
+    health: [YELLOW, "Garbanzos y hierbas muy sanos, pero las bolas van fritas en aceite. Al horno serían más ligeras."]
+    nutrition: [380, 14, 40, 18]
     photo: cocina-mediterranea/falafel.jpg
     category: Legumbres
     difficulty: MEDIUM
@@ -342,6 +364,8 @@ recipes:
       - Sirve en pan de pita con ensalada y salsa de tahini o tzatziki.
 
   - name: Shakshuka
+    health: [GREEN, "Huevos en salsa de tomate y pimiento con especias: proteína y verdura. Muy equilibrado."]
+    nutrition: [380, 17, 21, 25]
     photo: cocina-mediterranea/shakshuka.jpg
     category: Huevos
     difficulty: EASY
@@ -372,6 +396,8 @@ recipes:
       - Sirve con cilantro y pan para mojar.
 
   - name: Cuscús de verduras
+    health: [GREEN, "Cuscús con muchas verduras y garbanzos: fibra, proteína vegetal y poca grasa."]
+    nutrition: [560, 18, 94, 13]
     photo: cocina-mediterranea/cuscus-de-verduras.jpg
     category: Verduras
     difficulty: MEDIUM
@@ -408,6 +434,8 @@ recipes:
       - Sirve el cuscús con las verduras y su caldo por encima, y las pasas si te gustan.
 
   - name: Tajín de pollo con limón y aceitunas
+    health: [YELLOW, "Pollo con especias, limón y aceitunas. Sabroso y con proteína, aunque los muslos con piel y las aceitunas aportan grasa y sal."]
+    nutrition: [520, 38, 8, 37]
     photo: cocina-mediterranea/tajin-de-pollo-con-limon-y-aceitunas.jpg
     category: Carnes
     difficulty: MEDIUM
@@ -439,6 +467,8 @@ recipes:
       - Añade la piel del limón en conserva en tiras y las aceitunas y cocina 10 minutos más, hasta que la salsa espese.
 
   - name: Pasta al pesto genovés
+    health: [YELLOW, "Pasta con pesto de albahaca, piñones, queso y aceite de oliva. Muy sabroso, pero el pesto es calórico."]
+    nutrition: [680, 19, 82, 32]
     photo: cocina-mediterranea/pasta-al-pesto-genoves.jpg
     category: Pastas
     difficulty: EASY
@@ -471,6 +501,8 @@ recipes:
       - Mezcla la pasta con el pesto fuera del fuego, aligerando con un poco del agua reservada.
 
   - name: Risotto de setas
+    health: [YELLOW, "Setas y arroz ligeros, pero la mantequilla y el parmesano lo hacen bastante graso."]
+    nutrition: [500, 13, 66, 19]
     photo: cocina-mediterranea/risotto-de-setas.jpg
     category: Arroces
     difficulty: MEDIUM
@@ -501,6 +533,8 @@ recipes:
       - Incorpora las setas, retira del fuego y manteca con el resto de la mantequilla y el parmesano. Reposa 2 minutos y sirve con perejil.
 
   - name: Ensalada caprese
+    health: [GREEN, "Tomate, mozzarella y aceite de oliva: sencillo y saludable. El queso aporta grasa, mejor en raciones moderadas."]
+    nutrition: [300, 13, 6, 25]
     photo: cocina-mediterranea/ensalada-caprese.jpg
     category: Ensaladas
     difficulty: EASY
@@ -524,6 +558,8 @@ recipes:
       - Aliña con aceite, sal en escamas, pimienta y orégano justo al servir.
 
   - name: Dorada al horno con patatas
+    health: [GREEN, "Pescado blanco al horno con patatas y aceite de oliva. Proteína de calidad y un plato muy equilibrado."]
+    nutrition: [620, 40, 40, 30]
     category: Pescados y mariscos
     difficulty: EASY
     prep: 15
@@ -551,6 +587,8 @@ recipes:
       - Dora el ajo laminado en el resto del aceite, añade el perejil y vierte el refrito sobre el pescado al servir.
 
   - name: Gambas al ajillo
+    health: [YELLOW, "Gambas magras, pero en mucho aceite. Rico en proteína; mojar poco pan en el aceite."]
+    nutrition: [320, 20, 2, 26]
     photo: cocina-mediterranea/gambas-al-ajillo.jpg
     category: Pescados y mariscos
     difficulty: EASY
@@ -575,6 +613,8 @@ recipes:
       - Espolvorea perejil y sirve enseguida, chisporroteando, con pan.
 
   - name: Crema catalana
+    health: [RED, "Natillas con yemas, leche entera y azúcar quemado: mucho azúcar. Un postre para ocasiones."]
+    nutrition: [330, 8, 42, 14]
     photo: cocina-mediterranea/crema-catalana.jpg
     category: Postres
     difficulty: MEDIUM

@@ -1,6 +1,6 @@
 id: tapas-espanolas
-version: 3
-updated: 2026-11-05
+version: 4
+updated: 2026-11-06
 language: es
 name: Tapas españolas
 series: Especiales
@@ -22,6 +22,8 @@ defaults:
 recipes:
 
   - name: Patatas bravas
+    health: [YELLOW, "Las patatas fritas en abundante aceite aportan bastante grasa y calorías. La salsa es ligera, con pimentón y poco aceite; mejor como tapa ocasional."]
+    nutrition: [420, 5, 48, 23]
     photo: tapas/patatas-bravas.jpg
     category: Entrantes
     difficulty: EASY
@@ -59,6 +61,8 @@ recipes:
           - Sálalas y sírvelas con la salsa brava por encima.
 
   - name: Patatas alioli
+    health: [YELLOW, "Patata cocida, pero el alioli casero lleva mucho aceite y es muy calórico. La grasa es de oliva, más saludable, aunque conviene moderar la cantidad."]
+    nutrition: [560, 5, 30, 47]
     photo: tapas/patatas-alioli.jpg
     category: Entrantes
     difficulty: EASY
@@ -87,6 +91,8 @@ recipes:
       - Mezcla las patatas con el alioli y el perejil. Sírvelas frías o a temperatura ambiente.
 
   - name: Pimientos de Padrón
+    health: [GREEN, "Verdura con muy pocas calorías, salteada brevemente en aceite de oliva. Solo hay que vigilar la sal gruesa."]
+    nutrition: [135, 1, 4, 13]
     photo: tapas/pimientos-de-padron.jpg
     category: Verduras
     difficulty: EASY
@@ -107,6 +113,8 @@ recipes:
       - Escúrrelos sobre papel de cocina y espolvoréalos con sal gruesa.
 
   - name: Champiñones al ajillo
+    health: [GREEN, "Champiñones con ajo y aceite de oliva: pocas calorías y buena fibra. El aceite es la mayor parte de la energía del plato."]
+    nutrition: [150, 3, 4, 14]
     photo: tapas/champinones-al-ajillo.jpg
     category: Verduras
     difficulty: EASY
@@ -130,6 +138,8 @@ recipes:
       - Riega con el vino y deja que se evapore. Termina con el perejil.
 
   - name: Berenjenas con miel de caña
+    health: [YELLOW, "La berenjena es verdura, pero rebozada y frita absorbe mucho aceite. La miel de caña añade azúcar."]
+    nutrition: [330, 5, 38, 18]
     photo: tapas/berenjenas-con-miel-de-cana.jpg
     category: Verduras
     difficulty: EASY
@@ -154,6 +164,8 @@ recipes:
       - Escúrrelas sobre papel de cocina y sírvelas enseguida con un hilo de miel de caña por encima.
 
   - name: Pulpo a la gallega
+    health: [GREEN, "El pulpo es una proteína magra con pocas grasas, acompañada de patata cocida. El aceite de oliva y el pimentón completan un plato equilibrado."]
+    nutrition: [500, 50, 22, 15]
     photo: tapas/pulpo-a-la-gallega.jpg
     category: Pescados y mariscos
     difficulty: MEDIUM
@@ -180,6 +192,8 @@ recipes:
       - Espolvorea sal gruesa y los pimentones y riega con el aceite.
 
   - name: Boquerones en vinagre
+    health: [GREEN, "Pescado azul crudo marinado, rico en proteína y grasas saludables omega 3. Es un plato salado: moderar si se cuida la sal."]
+    nutrition: [250, 20, 1, 18]
     photo: tapas/boquerones-en-vinagre.jpg
     category: Pescados y mariscos
     difficulty: EASY
@@ -205,6 +219,8 @@ recipes:
       - Escúrrelos y cúbrelos con el aceite, el ajo muy picado y el perejil. Se conservan en la nevera hasta 5 días.
 
   - name: Calamares a la romana
+    health: [YELLOW, "El calamar es magro, pero el rebozado frito añade grasa e hidratos. Con limón y en raciones pequeñas es una tapa razonable."]
+    nutrition: [375, 25, 22, 19]
     photo: tapas/calamares-a-la-romana.jpg
     category: Pescados y mariscos
     difficulty: EASY
@@ -227,6 +243,8 @@ recipes:
       - Escúrrelos sobre papel de cocina y sírvelos enseguida con gajos de limón.
 
   - name: Gambas a la plancha
+    health: [GREEN, "Marisco a la plancha con muy poca grasa añadida: proteína magra y pocas calorías. Vigilar la sal gruesa."]
+    nutrition: [130, 14, 1, 7]
     photo: tapas/gambas-a-la-plancha.jpg
     category: Pescados y mariscos
     difficulty: EASY
@@ -247,6 +265,8 @@ recipes:
       - Si quieres, riégalas al servir con el resto del aceite mezclado con el ajo y el perejil picados.
 
   - name: Mejillones a la vinagreta
+    health: [GREEN, "Mejillones con verduras crudas en vinagreta: proteína, hierro y grasas de oliva. Un plato ligero y completo."]
+    nutrition: [290, 13, 6, 22]
     photo: tapas/mejillones-a-la-vinagreta.jpg
     category: Pescados y mariscos
     difficulty: EASY
@@ -274,6 +294,8 @@ recipes:
       - Quita una de las conchas a cada mejillón, colócalos en una fuente y cúbrelos con la vinagreta. Sírvelos fríos.
 
   - name: Tortillitas de camarones
+    health: [YELLOW, "Masa de harinas con camarones, frita en aceite: aporta grasa e hidratos. Mejor tomarlas recién hechas y en poca cantidad."]
+    nutrition: [300, 10, 28, 16]
     photo: tapas/tortillitas-de-camarones.jpg
     category: Pescados y mariscos
     difficulty: MEDIUM
@@ -300,6 +322,8 @@ recipes:
       - Fríelas 1 minuto por cada lado, hasta que estén doradas, y escúrrelas sobre papel de cocina.
 
   - name: Croquetas de setas
+    health: [YELLOW, "Bechamel con mantequilla y leche entera, empanada y frita: bastante grasa y calorías. Las setas aportan sabor y algo de fibra."]
+    nutrition: [450, 12, 45, 25]
     photo: tapas/croquetas.jpg
     category: Entrantes
     difficulty: MEDIUM
@@ -338,6 +362,8 @@ recipes:
           - Fríelas en tandas en abundante aceite muy caliente hasta que estén doradas y escúrrelas sobre papel de cocina.
 
   - name: Albóndigas en salsa
+    health: [YELLOW, "Carne picada con salsa de verduras y vino: buena proteína pero bastante grasa. Freírlas en menos aceite la aligera."]
+    nutrition: [520, 30, 18, 36]
     photo: tapas/albondigas-en-salsa.jpg
     category: Carnes
     difficulty: MEDIUM
@@ -376,6 +402,8 @@ recipes:
           - Si te gusta fina, tritura la salsa. Añade las albóndigas y cuece todo junto a fuego suave 20 minutos.
 
   - name: Chorizo a la sidra
+    health: [RED, "El chorizo es un embutido muy graso y salado. La sidra aporta algo de azúcar; mejor como tapa ocasional."]
+    nutrition: [480, 22, 5, 40]
     photo: tapas/chorizo-a-la-sidra.jpg
     category: Carnes
     difficulty: EASY
@@ -396,6 +424,8 @@ recipes:
       - Córtalos en rodajas y sírvelos en cazuelitas de barro con su jugo y pan para mojar.
 
   - name: Pinchos morunos
+    health: [GREEN, "Carne de cerdo magra adobada con especias y hecha a la plancha o brasa. Mucha proteína y grasa moderada."]
+    nutrition: [330, 32, 1, 21]
     photo: tapas/pinchos-morunos.jpg
     category: Carnes
     difficulty: EASY
@@ -423,6 +453,8 @@ recipes:
       - Hazlas en una plancha o en la barbacoa a fuego fuerte 8-10 minutos, dándoles la vuelta para que se doren por todos los lados.
 
   - name: Huevos rotos con jamón
+    health: [RED, "Patatas y huevos fritos con jamón: mucha grasa y sal. Un plato contundente para tomar de vez en cuando."]
+    nutrition: [540, 20, 42, 32]
     photo: tapas/huevos-rotos-con-jamon.jpg
     category: Huevos
     difficulty: EASY
@@ -445,6 +477,8 @@ recipes:
       - Coloca los huevos sobre las patatas con el jamón y rómpelos en la mesa.
 
   - name: Ensaladilla rusa
+    health: [YELLOW, "Patata, verduras, huevo y atún dan un plato completo, pero la mayonesa lo hace muy graso. Usar menos mayonesa lo aligera."]
+    nutrition: [480, 14, 25, 36]
     photo: tapas/ensaladilla-rusa.jpg
     category: Ensaladas
     difficulty: EASY
@@ -470,6 +504,8 @@ recipes:
       - Cubre con el resto de la mayonesa y decora con las aceitunas y el pimiento. Sírvela fría.
 
   - name: Gildas
+    health: [YELLOW, "Pocas calorías, pero anchoas, aceitunas y guindillas en vinagre son muy saladas. Mejor como aperitivo puntual."]
+    nutrition: [80, 3, 1, 7]
     photo: tapas/gildas.jpg
     category: Entrantes
     difficulty: EASY
@@ -489,6 +525,8 @@ recipes:
       - Repite hasta tener 4 gildas y riégalas con un hilo de aceite justo antes de servir.
 
   - name: Pan con tomate y jamón
+    health: [YELLOW, "Pan, tomate y aceite de oliva son una buena base. El jamón aporta proteína pero también sal y grasa."]
+    nutrition: [375, 14, 30, 21]
     photo: tapas/pan-con-tomate.jpg
     category: Panes y masas
     difficulty: EASY
@@ -512,6 +550,8 @@ recipes:
       - Sala, riega con el aceite y cubre con el jamón.
 
   - name: Montaditos de lomo con pimiento
+    health: [YELLOW, "Lomo de cerdo magro con pimientos fritos sobre pan. Equilibrado, aunque el pan y el aceite suben las calorías."]
+    nutrition: [450, 30, 35, 19]
     photo: tapas/montaditos-de-lomo-con-pimiento.jpg
     category: Panes y masas
     difficulty: EASY

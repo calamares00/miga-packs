@@ -1,6 +1,6 @@
 id: air-fryer
-version: 2
-updated: 2026-11-05
+version: 3
+updated: 2026-11-06
 language: en
 name: Air fryer
 series: Kitchen appliances
@@ -19,6 +19,8 @@ defaults:
 recipes:
 
   - name: Air fryer chips
+    health: [GREEN, "Chips made with very little oil: much less fat than deep-fried. A simple, reasonable side."]
+    nutrition: [250, 5, 48, 7]
     photo: freidora-de-aire/patatas-fritas-en-freidora-de-aire.jpg
     category: Vegetables
     difficulty: EASY
@@ -42,6 +44,8 @@ recipes:
       - Salt them as soon as they come out and sprinkle with paprika if you like.
 
   - name: Crispy chicken wings
+    health: [YELLOW, "Wings have quite a lot of skin and fat, though they are not deep-fried. High in protein; better with a salad."]
+    nutrition: [560, 46, 2, 40]
     photo: freidora-de-aire/alitas-de-pollo-crujientes.jpg
     category: Meat
     difficulty: EASY
@@ -65,6 +69,8 @@ recipes:
       - Turn them over, raise to 200 °C and cook for 8-10 more minutes, until the skin is golden and crisp.
 
   - name: Lemon and rosemary chicken thighs
+    health: [YELLOW, "Thighs with the skin on, fattier than breast, with lemon and herbs. Not deep-fried, so reasonable."]
+    nutrition: [380, 30, 2, 28]
     photo: freidora-de-aire/contramuslos-de-pollo-al-limon-y-romero.jpg
     category: Meat
     difficulty: EASY
@@ -89,6 +95,8 @@ recipes:
       - Turn them over and cook for 10-12 more minutes, until the skin is golden and the juices run clear.
 
   - name: Home-made chicken nuggets
+    health: [GREEN, "Lean breast breaded without deep-frying: high in protein with moderate fat. Healthier than bought nuggets."]
+    nutrition: [300, 34, 20, 9]
     photo: freidora-de-aire/nuggets-de-pollo-caseros.jpg
     category: Meat
     difficulty: EASY
@@ -114,6 +122,8 @@ recipes:
       - Cook at 200 °C for 10-12 minutes, turning them halfway through.
 
   - name: Herb-crusted salmon
+    health: [GREEN, "Salmon rich in omega-3 with a light crust of breadcrumbs and herbs. A very balanced dish."]
+    nutrition: [450, 36, 7, 31]
     category: Fish and seafood
     difficulty: EASY
     prep: 5
@@ -136,6 +146,8 @@ recipes:
       - Put the fillets skin side down and cook at 190 °C for 8-10 minutes, depending on thickness.
 
   - name: Panko prawns
+    health: [YELLOW, "Lean prawns with a batter that is not deep-fried, but the mayonnaise dip adds a lot of fat. Go easy on the dip."]
+    nutrition: [380, 26, 32, 16]
     photo: freidora-de-aire/gambas-rebozadas-con-panko.jpg
     category: Fish and seafood
     difficulty: EASY
@@ -163,6 +175,8 @@ recipes:
       - Serve with the mayonnaise mixed with the sriracha.
 
   - name: Home-made fish fingers
+    health: [GREEN, "White fish breaded without deep-frying. High in protein and low in fat; a good choice for children."]
+    nutrition: [300, 30, 30, 6]
     photo: freidora-de-aire/varitas-de-merluza-caseras.jpg
     category: Fish and seafood
     difficulty: EASY
@@ -187,6 +201,8 @@ recipes:
       - Cook at 200 °C for 10 minutes, turning them carefully halfway through.
 
   - name: Crispy Brussels sprouts
+    health: [GREEN, "A high-fibre vegetable with little oil. The honey adds a little sugar, but the dish stays light."]
+    nutrition: [150, 5, 16, 7]
     photo: freidora-de-aire/coles-de-bruselas-crujientes.jpg
     category: Vegetables
     difficulty: EASY
@@ -209,6 +225,8 @@ recipes:
       - Dress with the balsamic vinegar and honey as soon as they come out.
 
   - name: Roast broccoli with Parmesan
+    health: [GREEN, "Broccoli roasted with little oil and a little cheese. A vegetable rich in fibre and vitamins."]
+    nutrition: [190, 12, 12, 11]
     category: Vegetables
     difficulty: EASY
     prep: 5
@@ -231,6 +249,8 @@ recipes:
       - Serve with a few drops of lemon.
 
   - name: Spiced sweet potato wedges
+    health: [GREEN, "Sweet potato roasted with spices and little oil: carbohydrate with fibre and vitamin A. A healthy side."]
+    nutrition: [270, 4, 48, 7]
     photo: freidora-de-aire/gajos-de-boniato-especiados.jpg
     category: Vegetables
     difficulty: EASY
@@ -252,6 +272,8 @@ recipes:
       - Cook at 190 °C for 18-20 minutes, shaking the basket halfway through, until tender inside and golden outside.
 
   - name: Parmesan-crusted courgette
+    health: [GREEN, "Courgette with a light coating of breadcrumbs and cheese, not deep-fried. A vegetable with some crunch."]
+    nutrition: [230, 11, 24, 9]
     photo: freidora-de-aire/calabacin-rebozado-con-parmesano.jpg
     category: Vegetables
     difficulty: EASY
@@ -276,6 +298,8 @@ recipes:
       - Cook at 200 °C for 8-10 minutes, turning halfway through.
 
   - name: Stuffed mushrooms
+    health: [YELLOW, "Light mushrooms, but filled with ham and cream cheese, which add fat and salt."]
+    nutrition: [140, 8, 4, 10]
     photo: freidora-de-aire/champinones-rellenos.jpg
     category: Starters
     difficulty: EASY
@@ -299,6 +323,8 @@ recipes:
       - Cook at 180 °C for 8-10 minutes, until tender and golden on top.
 
   - name: Crispy spiced chickpeas
+    health: [GREEN, "Roasted pulses with little oil: plenty of fibre and plant protein. A much better snack than fried ones."]
+    nutrition: [200, 9, 25, 7]
     photo: freidora-de-aire/garbanzos-crujientes-especiados.jpg
     category: Legumes
     difficulty: EASY
@@ -321,6 +347,8 @@ recipes:
       - Toss them with the oil and spices and cook for 4-5 more minutes, until crunchy.
 
   - name: Air fryer meatballs
+    health: [YELLOW, "Mixed minced meat cooked without frying in oil. Good protein, though the meat adds fat."]
+    nutrition: [380, 26, 8, 27]
     photo: freidora-de-aire/albondigas-en-freidora-de-aire.jpg
     category: Meat
     difficulty: EASY
@@ -346,6 +374,8 @@ recipes:
       - Serve them as they are or finish them for 5 minutes in your favourite tomato sauce.
 
   - name: Home-made burgers
+    health: [YELLOW, "A beef burger with cheese and a bun. Healthier than a fast-food one, but high in calories and fat."]
+    nutrition: [640, 40, 32, 38]
     photo: freidora-de-aire/hamburguesas-caseras.jpg
     category: Meat
     difficulty: EASY
@@ -374,6 +404,8 @@ recipes:
       - Toast the buns in the air fryer for 2 minutes and build the burgers with the lettuce, tomato and onion.
 
   - name: Honey mustard pork ribs
+    health: [RED, "Pork ribs, a fatty cut, with a honey glaze. A lot of fat and sugar: best now and then."]
+    nutrition: [620, 38, 14, 46]
     photo: freidora-de-aire/costillas-de-cerdo-con-miel-y-mostaza.jpg
     category: Meat
     difficulty: MEDIUM
@@ -397,6 +429,8 @@ recipes:
       - Raise to 200 °C and cook for 8-10 more minutes, brushing again halfway through, until caramelised.
 
   - name: Air fryer hard-boiled eggs
+    health: [GREEN, "Hard-boiled eggs with nothing added: good-quality protein, vitamins and few calories."]
+    nutrition: [110, 9, 1, 7]
     photo: freidora-de-aire/huevos-duros-en-freidora-de-aire.jpg
     category: Eggs
     difficulty: EASY
@@ -415,6 +449,8 @@ recipes:
       - Move them to a bowl of iced water for 5 minutes to stop the cooking, then peel.
 
   - name: Garlic bread
+    health: [YELLOW, "White bread with butter and cheese: lots of refined carbohydrate and fat. An occasional side."]
+    nutrition: [360, 10, 44, 17]
     photo: freidora-de-aire/pan-de-ajo.jpg
     category: Breads and doughs
     difficulty: EASY
@@ -437,6 +473,8 @@ recipes:
       - Cook at 180 °C for 5-6 minutes, until golden.
 
   - name: Cinnamon baked apples
+    health: [GREEN, "Baked fruit with a little sugar, butter and walnuts. A simple, moderate dessert."]
+    nutrition: [210, 2, 32, 9]
     photo: freidora-de-aire/manzanas-asadas-con-canela.jpg
     category: Desserts
     difficulty: EASY
@@ -458,6 +496,8 @@ recipes:
       - Cook at 180 °C for 12-15 minutes, until tender. Serve warm.
 
   - name: Air fryer brownie
+    health: [RED, "A dessert with chocolate, butter and sugar: very high in calories. For special occasions and small portions."]
+    nutrition: [360, 5, 32, 24]
     photo: freidora-de-aire/brownie-en-freidora-de-aire.jpg
     category: Desserts
     difficulty: EASY

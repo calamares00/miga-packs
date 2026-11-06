@@ -1,6 +1,6 @@
 id: rice-dishes
-version: 2
-updated: 2026-11-05
+version: 3
+updated: 2026-11-06
 language: en
 name: Rice dishes
 series: Everyday cooking
@@ -21,6 +21,8 @@ defaults:
 recipes:
 
   - name: Seafood paella
+    health: [GREEN, "Rice with seafood and a tomato sofrito in olive oil: lean protein and little saturated fat. Watch the salt in the stock."]
+    nutrition: [620, 38, 82, 15]
     photo: arroces/paella-de-marisco.jpg
     category: Rice
     difficulty: MEDIUM
@@ -56,6 +58,8 @@ recipes:
       - Turn up the heat for 1 minute at the end for the socarrat. Rest for 5 minutes covered with a tea towel.
 
   - name: Mixed paella
+    health: [YELLOW, "Rice with chicken, pork and seafood: complete, though the ribs and chicken skin add fat."]
+    nutrition: [720, 42, 82, 24]
     photo: arroces/paella-mixta.jpg
     category: Rice
     difficulty: MEDIUM
@@ -92,6 +96,8 @@ recipes:
       - Rest for 5 minutes before serving.
 
   - name: Vegetable paella
+    health: [GREEN, "Rice with lots of vegetables and beans, cooked in olive oil. High in fibre and balanced."]
+    nutrition: [560, 14, 92, 15]
     photo: arroces/paella-de-verduras.jpg
     category: Rice
     difficulty: MEDIUM
@@ -127,6 +133,8 @@ recipes:
       - Rest for 5 minutes covered with a tea towel.
 
   - name: Arroz del senyoret
+    health: [GREEN, "Rice with peeled seafood and monkfish: lean protein and olive oil. A balanced rice dish."]
+    nutrition: [640, 42, 82, 16]
     photo: arroces/arroz-del-senoret.jpg
     category: Rice
     difficulty: MEDIUM
@@ -162,6 +170,8 @@ recipes:
       - Rest for 5 minutes and serve with aioli.
 
   - name: Arroz a banda
+    health: [GREEN, "Rice cooked in fish stock with cuttlefish: low in fat with lean protein. Aioli, if added, adds calories."]
+    nutrition: [590, 24, 82, 18]
     photo: arroces/arroz-a-banda.jpg
     category: Rice
     difficulty: MEDIUM
@@ -204,6 +214,8 @@ recipes:
           - Serve with aioli and, if you like, the fish from the stock on the side.
 
   - name: Rice with rabbit and snails
+    health: [GREEN, "Rabbit is a lean meat and snails add protein and iron. A balanced traditional rice dish."]
+    nutrition: [700, 48, 82, 19]
     photo: arroces/arroz-con-conejo-y-caracoles.jpg
     category: Rice
     difficulty: MEDIUM
@@ -236,6 +248,8 @@ recipes:
       - Rest for 5 minutes.
 
   - name: Arroz con costra
+    health: [RED, "Rice with sausages, ribs and egg: very hearty and fatty. A dish for celebrations."]
+    nutrition: [720, 38, 62, 34]
     photo: arroces/arroz-con-costra.jpg
     category: Rice
     difficulty: MEDIUM
@@ -269,6 +283,8 @@ recipes:
       - Bake for 8-10 minutes, until the egg forms a golden crust. Rest for 5 minutes.
 
   - name: Soupy rice with lobster
+    health: [GREEN, "Lobster, a lean protein, in a soupy rice with sofrito. The brandy and oil are moderate."]
+    nutrition: [560, 30, 70, 17]
     photo: arroces/arroz-caldoso-de-bogavante.jpg
     category: Rice
     difficulty: MEDIUM
@@ -301,6 +317,8 @@ recipes:
       - Add the lobster and cook for 5-6 more minutes. Serve straight away, with the rice in its broth.
 
   - name: Creamy mushroom rice
+    health: [GREEN, "Rice with mushrooms and olive oil: little saturated fat, with fibre. A tasty vegetarian dish."]
+    nutrition: [470, 10, 68, 16]
     category: Rice
     difficulty: EASY
     prep: 15
@@ -331,6 +349,8 @@ recipes:
       - Season with salt and serve with parsley; it should be juicy.
 
   - name: Rice with beans and turnips
+    health: [YELLOW, "Beans, vegetables and rice are very nourishing, but the pork cuts and black pudding add a lot of fat."]
+    nutrition: [560, 32, 58, 22]
     category: Rice
     difficulty: MEDIUM
     prep: 20
@@ -359,6 +379,8 @@ recipes:
       - Cook for 16-18 minutes and rest for 2 minutes. It should be soupy.
 
   - name: Murcian garden rice
+    health: [GREEN, "Rice with lots of garden vegetables and olive oil. Light, with fibre and vitamins."]
+    nutrition: [540, 13, 90, 15]
     category: Rice
     difficulty: EASY
     prep: 20
@@ -390,6 +412,8 @@ recipes:
       - Cook for 8 minutes over a high heat and 10 over a low heat, without stirring. Rest for 5 minutes.
 
   - name: Arroz empedrado
+    health: [GREEN, "Salt cod, beans and rice: lean protein and fibre. A complete, balanced dish; watch the salt in the cod."]
+    nutrition: [660, 36, 96, 16]
     photo: arroces/arroz-empedrado.jpg
     category: Rice
     difficulty: EASY
@@ -421,6 +445,8 @@ recipes:
       - Sprinkle with parsley and rest for 5 minutes.
 
   - name: Rice with cauliflower and salt cod
+    health: [GREEN, "Cauliflower and salt cod with rice and olive oil: lean protein and vegetables. Balanced."]
+    nutrition: [590, 30, 86, 15]
     category: Rice
     difficulty: EASY
     prep: 15
@@ -451,6 +477,8 @@ recipes:
       - Cook for 8 minutes over a high heat and 9-10 over a low heat, without stirring. Rest for 5 minutes.
 
   - name: Cuban-style rice
+    health: [YELLOW, "Rice with tomato and egg is complete, but the banana and egg are fried. Frying them in little oil helps."]
+    nutrition: [560, 13, 85, 19]
     photo: arroces/arroz-a-la-cubana.jpg
     category: Rice
     difficulty: EASY
@@ -482,6 +510,8 @@ recipes:
       - Serve the rice turned out of a bowl onto the plate, with the hot tomato sauce, the fried egg and the banana.
 
   - name: Gallo pinto
+    health: [GREEN, "Rice with black beans: complete plant protein and plenty of fibre. A simple, nourishing dish."]
+    nutrition: [400, 13, 70, 8]
     photo: arroces/gallo-pinto.jpg
     category: Rice
     difficulty: EASY
@@ -510,6 +540,8 @@ recipes:
       - Season with salt, add the coriander and serve with eggs, fried plantain or soured cream.
 
   - name: Pilaf rice
+    health: [YELLOW, "White rice with butter and noodles: refined carbohydrate and some fat. Best as a side."]
+    nutrition: [400, 7, 67, 10]
     photo: arroces/arroz-pilaf.jpg
     category: Rice
     difficulty: EASY
@@ -534,6 +566,8 @@ recipes:
       - Cover and simmer very gently for 15 minutes. Turn off the heat, put a tea towel under the lid and rest for 10 minutes.
 
   - name: Chicken biryani
+    health: [YELLOW, "Chicken, yoghurt and spices, complete and tasty, though the ghee and fried onion raise the fat."]
+    nutrition: [620, 36, 66, 22]
     photo: arroces/biryani-de-pollo.jpg
     category: Rice
     difficulty: HARD
@@ -577,6 +611,8 @@ recipes:
       - Rest for 5 minutes and mix gently as you serve.
 
   - name: Pumpkin risotto
+    health: [YELLOW, "Pumpkin and rice are light, but the butter and Parmesan make it fairly fatty."]
+    nutrition: [530, 13, 72, 19]
     photo: arroces/risotto-de-calabaza.jpg
     category: Rice
     difficulty: MEDIUM
@@ -607,6 +643,8 @@ recipes:
       - Off the heat, add the rest of the butter and the Parmesan and stir vigorously. Season and serve with sage fried in butter.
 
   - name: Arroz con gandules
+    health: [YELLOW, "Rice with pigeon peas, a good pulse, but the ham and seasonings add salt."]
+    nutrition: [420, 13, 68, 10]
     photo: arroces/arroz-con-gandules.jpg
     category: Rice
     difficulty: MEDIUM
@@ -638,6 +676,8 @@ recipes:
       - Stir once, cover and cook over the lowest heat for 20-25 minutes, until the rice is done and the crust (pegao) forms at the bottom.
 
   - name: Jollof rice
+    health: [GREEN, "Rice with plenty of tomato, pepper and spices. Rich in vegetables, though with quite a lot of oil."]
+    nutrition: [420, 8, 68, 13]
     photo: arroces/arroz-jollof.jpg
     category: Rice
     difficulty: MEDIUM

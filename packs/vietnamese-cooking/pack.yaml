@@ -1,6 +1,6 @@
 id: vietnamese-cooking
-version: 2
-updated: 2026-11-05
+version: 3
+updated: 2026-11-06
 language: en
 name: "World cuisine: Vietnam"
 series: World cuisine
@@ -24,6 +24,8 @@ defaults:
 recipes:
 
   - name: Phở bò
+    health: [GREEN, "A bone broth with rice noodles, beef and fresh herbs: complete and low in fat, though salty."]
+    nutrition: [450, 30, 55, 11]
     photo: cocina-vietnamita/pho-bo.jpg
     category: Soups
     difficulty: HARD
@@ -68,6 +70,8 @@ recipes:
       - Soak and blanch the noodles, divide them between bowls with the sliced brisket and raw beef. Pour over the boiling broth and serve with the herbs, sprouts, lime and chilli.
 
   - name: Bún chả
+    health: [YELLOW, "Grilled pork with noodles and herbs, complete, but the pork belly adds a lot of fat."]
+    nutrition: [650, 32, 55, 34]
     photo: cocina-vietnamita/bun-cha.jpg
     category: Meat
     difficulty: MEDIUM
@@ -106,6 +110,8 @@ recipes:
       - Serve the pork in bowls with the warm broth, and the cooked noodles and herbs on the side for dipping.
 
   - name: Lemongrass pork bánh mì
+    health: [YELLOW, "A pork sandwich with pickled vegetables and herbs: complete, though made with white bread and mayonnaise."]
+    nutrition: [560, 32, 58, 22]
     photo: cocina-vietnamita/banh-mi-de-cerdo-a-la-citronela.jpg
     category: Breads and doughs
     difficulty: MEDIUM
@@ -147,6 +153,8 @@ recipes:
       - Spread with the pâté and mayonnaise, add the pork, drained pickle, cucumber strips, coriander and chilli, and a few drops of Maggi.
 
   - name: Fresh spring rolls (gỏi cuốn)
+    health: [GREEN, "Rice paper rolls with prawns, vegetables and herbs, not fried: light and balanced."]
+    nutrition: [320, 20, 32, 12]
     photo: cocina-vietnamita/rollitos-frescos-goi-cuon.jpg
     category: Starters
     difficulty: MEDIUM
@@ -179,6 +187,8 @@ recipes:
       - Mix the hoisin with the peanut butter and water and sprinkle with the peanuts. Serve the rolls with the sauce.
 
   - name: Fried spring rolls (chả giò)
+    health: [YELLOW, "Pork and prawn rolls deep-fried in oil: tasty but fatty."]
+    nutrition: [380, 18, 30, 21]
     photo: cocina-vietnamita/rollitos-fritos-cha-gio.jpg
     category: Starters
     difficulty: MEDIUM
@@ -210,6 +220,8 @@ recipes:
       - Serve with lettuce, herbs and nước chấm.
 
   - name: Bún bò Huế
+    health: [YELLOW, "A spicy noodle soup with beef and pork hock: very complete, but with fat and salt."]
+    nutrition: [560, 40, 55, 20]
     photo: cocina-vietnamita/bun-bo-hue.jpg
     category: Soups
     difficulty: HARD
@@ -252,6 +264,8 @@ recipes:
       - Cook the noodles and serve with the sliced shank, the knuckle and the broth, thinly sliced onion, herbs, sprouts and lime. The rest of the chilli oil goes on the side.
 
   - name: Cơm tấm with pork chop
+    health: [YELLOW, "A pork chop with honey and lemongrass over broken rice: complete, with fat and a little sugar."]
+    nutrition: [620, 34, 70, 22]
     photo: cocina-vietnamita/com-tam-con-chuleta-de-cerdo.jpg
     category: Rice
     difficulty: MEDIUM
@@ -290,6 +304,8 @@ recipes:
       - Serve the rice with a chop, a fried egg, the spring onion oil, cucumber, tomato and nước chấm.
 
   - name: Caramelised fish (cá kho tộ)
+    health: [GREEN, "Fish braised in caramel and fish sauce: good-quality protein, though salty and with sugar."]
+    nutrition: [300, 30, 14, 13]
     photo: cocina-vietnamita/pescado-caramelizado-ca-kho-to.jpg
     category: Fish and seafood
     difficulty: MEDIUM
@@ -319,6 +335,8 @@ recipes:
       - Finish with the chilli and spring onion. Serve with white rice.
 
   - name: Caramelised pork with eggs (thịt kho trứng)
+    health: [RED, "Pork belly braised with eggs: a lot of saturated fat and salt."]
+    nutrition: [620, 24, 10, 54]
     photo: cocina-vietnamita/cerdo-caramelizado-con-huevos-thit-kho-trung.jpg
     category: Meat
     difficulty: EASY
@@ -346,6 +364,8 @@ recipes:
       - Serve with white rice and pickled vegetables.
 
   - name: Sour soup (canh chua)
+    health: [GREEN, "A sour fish soup with pineapple and vegetables: very light and with protein."]
+    nutrition: [200, 24, 16, 4]
     photo: cocina-vietnamita/sopa-agria-canh-chua.jpg
     category: Soups
     difficulty: EASY
@@ -377,6 +397,8 @@ recipes:
       - Off the heat, add the bean sprouts. Serve with the fried garlic, herbs and chilli.
 
   - name: Shaking beef (bò lúc lắc)
+    health: [YELLOW, "Beef cubes stir-fried with oyster and soy sauces: high in protein, with salt."]
+    nutrition: [380, 32, 8, 24]
     photo: cocina-vietnamita/bo-luc-lac.jpg
     category: Meat
     difficulty: EASY
@@ -413,6 +435,8 @@ recipes:
       - Serve the beef on the watercress and sliced tomato with the lime mixed with salt and pepper for dipping.
 
   - name: Lemongrass chilli chicken (gà xào sả ớt)
+    health: [YELLOW, "Chicken stir-fried with lemongrass and chilli: good protein, though thigh meat and oil add fat."]
+    nutrition: [360, 30, 6, 24]
     photo: cocina-vietnamita/pollo-con-citronela-y-chile-ga-xao-sa-ot.jpg
     category: Meat
     difficulty: EASY
@@ -441,6 +465,8 @@ recipes:
       - Serve with coriander and white rice.
 
   - name: Bánh xèo
+    health: [YELLOW, "A rice and coconut crêpe filled with pork belly and prawns, fried: tasty but fatty."]
+    nutrition: [520, 18, 46, 30]
     photo: cocina-vietnamita/banh-xeo.jpg
     category: Breads and doughs
     difficulty: MEDIUM
@@ -479,6 +505,8 @@ recipes:
       - Repeat with the rest and serve with lettuce, herbs and nước chấm.
 
   - name: Chicken and cabbage salad (gỏi gà)
+    health: [GREEN, "A salad of cabbage, carrot and chicken with herbs and peanuts: light, with fibre and protein."]
+    nutrition: [280, 30, 15, 11]
     category: Salads
     difficulty: EASY
     prep: 25
@@ -509,6 +537,8 @@ recipes:
       - Toss the chicken with the vegetables, mint and dressing. Serve topped with the peanuts and fried shallots.
 
   - name: Nước chấm
+    health: [GREEN, "A fish sauce dip with lime, garlic and sugar: few calories, but salty."]
+    nutrition: [25, 1, 6, 0]
     photo: cocina-vietnamita/nuoc-cham.jpg
     category: Sauces
     difficulty: EASY
@@ -531,6 +561,8 @@ recipes:
       - Add the very finely chopped garlic and chilli just before serving, so they float.
 
   - name: Bún thịt nướng
+    health: [YELLOW, "Rice noodles with grilled pork, vegetables and herbs: complete, though the pork shoulder adds fat."]
+    nutrition: [560, 30, 60, 22]
     photo: cocina-vietnamita/bun-thit-nuong.jpg
     category: Meat
     difficulty: MEDIUM
@@ -569,6 +601,8 @@ recipes:
       - Pour over nước chấm as you eat.
 
   - name: Tofu in tomato sauce (đậu hũ sốt cà chua)
+    health: [GREEN, "Tofu in tomato sauce: plant protein with little fat, and vegetables."]
+    nutrition: [200, 14, 10, 12]
     category: Legumes
     difficulty: EASY
     prep: 10
@@ -594,6 +628,8 @@ recipes:
       - Add the tofu and simmer for 5 minutes so it soaks up the sauce. Serve with spring onion and pepper.
 
   - name: Banana in coconut milk (chè chuối)
+    health: [RED, "Banana in coconut milk with tapioca and sugar: sweet and with saturated fat from the coconut."]
+    nutrition: [380, 4, 52, 19]
     photo: cocina-vietnamita/platano-con-leche-de-coco-che-chuoi.jpg
     category: Desserts
     difficulty: EASY
@@ -619,6 +655,8 @@ recipes:
       - Serve warm with the peanuts and sesame.
 
   - name: Iced coffee with condensed milk (cà phê sữa đá)
+    health: [YELLOW, "Coffee with condensed milk: a pick-me-up and very sweet."]
+    nutrition: [130, 3, 22, 3]
     photo: cocina-vietnamita/cafe-con-leche-condensada-ca-phe-sua-a.jpg
     category: Drinks
     difficulty: EASY
@@ -639,6 +677,8 @@ recipes:
       - Stir the coffee into the condensed milk and pour it over a glass of ice.
 
   - name: Avocado smoothie (sinh tố bơ)
+    health: [YELLOW, "Avocado with milk and condensed milk: healthy fats, but with added sugar."]
+    nutrition: [330, 7, 32, 20]
     photo: cocina-vietnamita/batido-de-aguacate-sinh-to-bo.jpg
     category: Drinks
     difficulty: EASY

@@ -1,6 +1,6 @@
 id: freidora-de-aire
-version: 2
-updated: 2026-11-05
+version: 3
+updated: 2026-11-06
 language: es
 name: Freidora de aire
 series: Electrodomésticos
@@ -20,6 +20,8 @@ defaults:
 recipes:
 
   - name: Patatas fritas en freidora de aire
+    health: [GREEN, "Patatas hechas con muy poco aceite: mucha menos grasa que fritas. Un acompañamiento sencillo y razonable."]
+    nutrition: [250, 5, 48, 7]
     photo: freidora-de-aire/patatas-fritas-en-freidora-de-aire.jpg
     category: Verduras
     difficulty: EASY
@@ -43,6 +45,8 @@ recipes:
       - Sala nada más sacarlas y espolvorea el pimentón si quieres.
 
   - name: Alitas de pollo crujientes
+    health: [YELLOW, "Las alitas tienen bastante piel y grasa, aunque sin freír en aceite. Mucha proteína; mejor con ensalada."]
+    nutrition: [560, 46, 2, 40]
     photo: freidora-de-aire/alitas-de-pollo-crujientes.jpg
     category: Carnes
     difficulty: EASY
@@ -66,6 +70,8 @@ recipes:
       - Dales la vuelta, sube a 200 °C y cocina 8-10 minutos más, hasta que la piel esté dorada y crujiente.
 
   - name: Contramuslos de pollo al limón y romero
+    health: [YELLOW, "Contramuslo con piel, más graso que la pechuga, con limón y hierbas. Sin freír en aceite resulta razonable."]
+    nutrition: [380, 30, 2, 28]
     photo: freidora-de-aire/contramuslos-de-pollo-al-limon-y-romero.jpg
     category: Carnes
     difficulty: EASY
@@ -90,6 +96,8 @@ recipes:
       - Dales la vuelta y cocina 10-12 minutos más, hasta que la piel esté dorada y el jugo salga transparente.
 
   - name: Nuggets de pollo caseros
+    health: [GREEN, "Pechuga magra empanada sin freír en aceite: mucha proteína y grasa moderada. Más sana que los nuggets comprados."]
+    nutrition: [300, 34, 20, 9]
     photo: freidora-de-aire/nuggets-de-pollo-caseros.jpg
     category: Carnes
     difficulty: EASY
@@ -115,6 +123,8 @@ recipes:
       - Cocina a 200 °C durante 10-12 minutos, dándoles la vuelta a mitad de tiempo.
 
   - name: Salmón con costra de hierbas
+    health: [GREEN, "Salmón rico en omega 3 con una costra ligera de pan y hierbas. Un plato muy equilibrado."]
+    nutrition: [450, 36, 7, 31]
     category: Pescados y mariscos
     difficulty: EASY
     prep: 5
@@ -137,6 +147,8 @@ recipes:
       - Coloca los lomos con la piel hacia abajo y cocina a 190 °C durante 8-10 minutos, según el grosor.
 
   - name: Gambas rebozadas con panko
+    health: [YELLOW, "Gambas magras con rebozado sin freír, pero la salsa de mayonesa añade bastante grasa. Moderar la salsa."]
+    nutrition: [380, 26, 32, 16]
     photo: freidora-de-aire/gambas-rebozadas-con-panko.jpg
     category: Pescados y mariscos
     difficulty: EASY
@@ -164,6 +176,8 @@ recipes:
       - Sirve con la mayonesa mezclada con la sriracha.
 
   - name: Varitas de merluza caseras
+    health: [GREEN, "Pescado blanco empanado sin freír en aceite. Mucha proteína y poca grasa; buena opción para niños."]
+    nutrition: [300, 30, 30, 6]
     photo: freidora-de-aire/varitas-de-merluza-caseras.jpg
     category: Pescados y mariscos
     difficulty: EASY
@@ -188,6 +202,8 @@ recipes:
       - Cocina a 200 °C durante 10 minutos, dándoles la vuelta con cuidado a mitad de tiempo.
 
   - name: Coles de Bruselas crujientes
+    health: [GREEN, "Verdura rica en fibra con poco aceite. La miel añade algo de azúcar, pero el plato sigue siendo ligero."]
+    nutrition: [150, 5, 16, 7]
     photo: freidora-de-aire/coles-de-bruselas-crujientes.jpg
     category: Verduras
     difficulty: EASY
@@ -210,6 +226,8 @@ recipes:
       - Aliña con el vinagre balsámico y la miel recién salidas.
 
   - name: Brócoli asado con parmesano
+    health: [GREEN, "Brócoli asado con poco aceite y un poco de queso. Verdura con mucha fibra y vitaminas."]
+    nutrition: [190, 12, 12, 11]
     category: Verduras
     difficulty: EASY
     prep: 5
@@ -232,6 +250,8 @@ recipes:
       - Sirve con unas gotas de limón.
 
   - name: Gajos de boniato especiados
+    health: [GREEN, "Boniato asado con especias y poco aceite: hidratos con fibra y vitamina A. Un acompañamiento sano."]
+    nutrition: [270, 4, 48, 7]
     photo: freidora-de-aire/gajos-de-boniato-especiados.jpg
     category: Verduras
     difficulty: EASY
@@ -253,6 +273,8 @@ recipes:
       - Cocina a 190 °C durante 18-20 minutos, agitando la cesta a mitad de tiempo, hasta que estén tiernos por dentro y dorados por fuera.
 
   - name: Calabacín rebozado con parmesano
+    health: [GREEN, "Calabacín con un empanado ligero de pan y queso, sin freír en aceite. Verdura con un toque crujiente."]
+    nutrition: [230, 11, 24, 9]
     photo: freidora-de-aire/calabacin-rebozado-con-parmesano.jpg
     category: Verduras
     difficulty: EASY
@@ -277,6 +299,8 @@ recipes:
       - Cocina a 200 °C durante 8-10 minutos, dándole la vuelta a mitad de tiempo.
 
   - name: Champiñones rellenos
+    health: [YELLOW, "Champiñones ligeros, pero rellenos de jamón y queso de untar, que aportan grasa y sal."]
+    nutrition: [140, 8, 4, 10]
     photo: freidora-de-aire/champinones-rellenos.jpg
     category: Entrantes
     difficulty: EASY
@@ -300,6 +324,8 @@ recipes:
       - Cocina a 180 °C durante 8-10 minutos, hasta que estén tiernos y dorados por encima.
 
   - name: Garbanzos crujientes especiados
+    health: [GREEN, "Legumbre tostada con poco aceite: mucha fibra y proteína vegetal. Un aperitivo mucho mejor que los fritos."]
+    nutrition: [200, 9, 25, 7]
     photo: freidora-de-aire/garbanzos-crujientes-especiados.jpg
     category: Legumbres
     difficulty: EASY
@@ -322,6 +348,8 @@ recipes:
       - Mézclalos con el aceite y las especias y cocina 4-5 minutos más, hasta que estén crujientes.
 
   - name: Albóndigas en freidora de aire
+    health: [YELLOW, "Carne picada mixta sin freír en aceite. Buena proteína, aunque la carne aporta grasa."]
+    nutrition: [380, 26, 8, 27]
     photo: freidora-de-aire/albondigas-en-freidora-de-aire.jpg
     category: Carnes
     difficulty: EASY
@@ -347,6 +375,8 @@ recipes:
       - Sírvelas solas o termínalas 5 minutos en la salsa de tomate que más te guste.
 
   - name: Hamburguesas caseras
+    health: [YELLOW, "Hamburguesa de ternera con queso y pan. Más sana que la de comida rápida, pero calórica y con grasa."]
+    nutrition: [640, 40, 32, 38]
     photo: freidora-de-aire/hamburguesas-caseras.jpg
     category: Carnes
     difficulty: EASY
@@ -375,6 +405,8 @@ recipes:
       - Tuesta los panes 2 minutos en la freidora y monta las hamburguesas con la lechuga, el tomate y la cebolla.
 
   - name: Costillas de cerdo con miel y mostaza
+    health: [RED, "Costillas de cerdo, un corte graso, con glaseado de miel. Mucha grasa y azúcar: mejor de vez en cuando."]
+    nutrition: [620, 38, 14, 46]
     photo: freidora-de-aire/costillas-de-cerdo-con-miel-y-mostaza.jpg
     category: Carnes
     difficulty: MEDIUM
@@ -398,6 +430,8 @@ recipes:
       - Sube a 200 °C y cocina 8-10 minutos más, pintándolas otra vez a mitad de tiempo, hasta que estén caramelizadas.
 
   - name: Huevos duros en freidora de aire
+    health: [GREEN, "Huevos duros sin nada añadido: proteína de calidad, vitaminas y pocas calorías."]
+    nutrition: [110, 9, 1, 7]
     photo: freidora-de-aire/huevos-duros-en-freidora-de-aire.jpg
     category: Huevos
     difficulty: EASY
@@ -416,6 +450,8 @@ recipes:
       - Pásalos a un bol con agua y hielo 5 minutos para cortar la cocción y pélalos.
 
   - name: Pan de ajo
+    health: [YELLOW, "Pan blanco con mantequilla y queso: muchos hidratos refinados y grasa. Acompañamiento ocasional."]
+    nutrition: [360, 10, 44, 17]
     photo: freidora-de-aire/pan-de-ajo.jpg
     category: Panes y masas
     difficulty: EASY
@@ -438,6 +474,8 @@ recipes:
       - Cocina a 180 °C durante 5-6 minutos, hasta que estén dorados.
 
   - name: Manzanas asadas con canela
+    health: [GREEN, "Fruta asada con un poco de azúcar, mantequilla y nueces. Un postre sencillo y moderado."]
+    nutrition: [210, 2, 32, 9]
     photo: freidora-de-aire/manzanas-asadas-con-canela.jpg
     category: Postres
     difficulty: EASY
@@ -459,6 +497,8 @@ recipes:
       - Cocina a 180 °C durante 12-15 minutos, hasta que estén tiernas. Sírvelas templadas.
 
   - name: Brownie en freidora de aire
+    health: [RED, "Postre con chocolate, mantequilla y azúcar: muy calórico. Para ocasiones especiales y en porciones pequeñas."]
+    nutrition: [360, 5, 32, 24]
     photo: freidora-de-aire/brownie-en-freidora-de-aire.jpg
     category: Postres
     difficulty: EASY

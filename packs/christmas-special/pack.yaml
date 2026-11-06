@@ -1,6 +1,6 @@
 id: christmas-special
-version: 2
-updated: 2026-11-05
+version: 3
+updated: 2026-11-06
 language: en
 name: Christmas special
 series: Specials
@@ -20,6 +20,8 @@ defaults:
 recipes:
 
   - name: Prawn cocktail
+    health: [YELLOW, "Lean seafood and lettuce, but the Marie Rose sauce with mayonnaise and the tinned pineapple add fat and sugar."]
+    nutrition: [360, 20, 10, 27]
     photo: especial-navidad/coctel-de-gambas.jpg
     category: Starters
     difficulty: EASY
@@ -51,6 +53,8 @@ recipes:
       - Spoon the sauce over just before serving and hang a whole prawn on the rim.
 
   - name: Ham croquettes
+    health: [YELLOW, "Béchamel with butter and whole milk, with ham, breaded and fried: fat and salt. Best in small numbers."]
+    nutrition: [460, 15, 42, 25]
     photo: especial-navidad/croquetas-de-jamon.jpg
     category: Starters
     difficulty: MEDIUM
@@ -86,6 +90,8 @@ recipes:
       - Fry in batches in very hot oil (180 °C) until golden. Drain on paper.
 
   - name: Seafood salpicón
+    health: [GREEN, "Seafood with peppers and onion in an olive oil vinaigrette: lean protein and healthy fats. The surimi is processed."]
+    nutrition: [290, 22, 7, 19]
     photo: especial-navidad/salpicon-de-marisco.jpg
     category: Fish and seafood
     difficulty: EASY
@@ -114,6 +120,8 @@ recipes:
       - Chill for at least 1 hour before serving so the flavours blend.
 
   - name: Endive and pomegranate salad
+    health: [GREEN, "Green leaves, pomegranate and walnuts with cheese and olive oil: fibre, antioxidants and healthy fats."]
+    nutrition: [230, 6, 9, 20]
     category: Salads
     difficulty: EASY
     prep: 15
@@ -140,6 +148,8 @@ recipes:
       - Arrange the endive with the pomegranate, walnuts and crumbled cheese, and dress just before serving.
 
   - name: Galets soup
+    health: [YELLOW, "A broth of meats and vegetables with pasta and a meatball: nourishing and comforting, though with fat and salt."]
+    nutrition: [420, 30, 35, 17]
     photo: especial-navidad/sopa-de-galets.jpg
     category: Soups
     difficulty: MEDIUM
@@ -191,6 +201,8 @@ recipes:
           - Serve the soup with the galets and, on the side, the meat, the sliced meatball and the vegetables.
 
   - name: Consommé with sherry
+    health: [GREEN, "A very light clarified broth, with few calories. The sherry and ham add flavour and a little salt."]
+    nutrition: [60, 6, 2, 2]
     photo: especial-navidad/consome-al-jerez.jpg
     category: Soups
     difficulty: EASY
@@ -218,6 +230,8 @@ recipes:
       - Serve piping hot in cups with a splash of sherry in each.
 
   - name: Seafood bisque
+    health: [YELLOW, "A seafood soup with vegetables, but the cream and oil make it fattier. Less cream makes it lighter."]
+    nutrition: [260, 16, 11, 16]
     photo: especial-navidad/crema-de-marisco.jpg
     category: Soups
     difficulty: MEDIUM
@@ -250,6 +264,8 @@ recipes:
       - Sauté the prawn tails for 1 minute and serve them in the hot bisque.
 
   - name: Roast milk-fed lamb
+    health: [YELLOW, "Milk-fed lamb roasted with lard: good-quality protein but fairly fatty. The roast potatoes round it off."]
+    nutrition: [620, 40, 25, 40]
     photo: especial-navidad/cordero-lechal-asado.jpg
     category: Meat
     difficulty: MEDIUM
@@ -279,6 +295,8 @@ recipes:
       - Rest for 10 minutes and serve with its juices.
 
   - name: Roast stuffed turkey
+    health: [YELLOW, "Turkey, a lean meat, with a stuffing of pork, dried fruit and butter that adds fat and calories."]
+    nutrition: [720, 70, 15, 40]
     photo: especial-navidad/pavo-relleno-al-horno.jpg
     category: Meat
     difficulty: HARD
@@ -321,6 +339,8 @@ recipes:
           - Check that the thigh juices run clear (or 75 °C at the thickest part). Rest covered for 20 minutes before carving.
 
   - name: Baked sea bream
+    health: [GREEN, "Fish baked with potatoes and olive oil: good-quality protein and a balanced dish."]
+    nutrition: [480, 38, 28, 24]
     category: Fish and seafood
     difficulty: EASY
     prep: 15
@@ -352,6 +372,8 @@ recipes:
       - Pour the dressing over the fish as it comes out of the oven.
 
   - name: Red cabbage with apple
+    health: [GREEN, "Red cabbage with apple and nuts: plenty of fibre and antioxidants. It has a little sugar."]
+    nutrition: [190, 3, 25, 10]
     photo: especial-navidad/lombarda-con-manzana.jpg
     category: Vegetables
     difficulty: EASY
@@ -381,6 +403,8 @@ recipes:
       - Cook for 10 minutes over medium heat, stirring, until glossy. Check the salt.
 
   - name: Roscón de Reyes
+    health: [RED, "A sweet bread with sugar and butter, often filled with cream: a lot of sugar. For the occasion."]
+    nutrition: [360, 9, 58, 10]
     photo: especial-navidad/roscon-de-reyes.jpg
     category: Desserts
     difficulty: HARD
@@ -426,6 +450,8 @@ recipes:
           - Bake at 180 °C for 20-25 minutes, until golden. Cool on a rack and, if you like, split and fill with cream.
 
   - name: Crunchy chocolate turrón
+    health: [RED, "Chocolate with butter and puffed rice: very high in sugar and fat. A sweet for small portions."]
+    nutrition: [210, 3, 21, 13]
     category: Desserts
     difficulty: EASY
     prep: 15
@@ -449,6 +475,8 @@ recipes:
       - Turn out and cut into bars with a warm knife.
 
   - name: Polvorones
+    health: [RED, "A sweet made of lard, flour and sugar: very high in calories and fat. One now and then."]
+    nutrition: [150, 2, 17, 8]
     photo: especial-navidad/polvorones.jpg
     category: Desserts
     difficulty: MEDIUM
@@ -476,6 +504,8 @@ recipes:
       - Bake at 200 °C for 10-12 minutes. Let them cool completely without touching (they break when warm) and dust with icing sugar.
 
   - name: Toledo marzipan
+    health: [YELLOW, "Almond with a lot of sugar: healthy fats but very sweet. A couple of pieces as a treat."]
+    nutrition: [120, 3, 14, 6]
     photo: especial-navidad/mazapanes-de-toledo.jpg
     category: Desserts
     difficulty: EASY
@@ -500,6 +530,8 @@ recipes:
       - Brush with beaten yolk and brown under the grill at 220 °C for 3-5 minutes.
 
   - name: Roast suckling pig
+    health: [RED, "Suckling pig with its skin and fat, roasted with lard: very fatty. A celebration dish to enjoy in moderation."]
+    nutrition: [700, 42, 0, 59]
     photo: especial-navidad/cochinillo-asado.jpg
     category: Meat
     difficulty: MEDIUM
@@ -527,6 +559,8 @@ recipes:
       - Roast 1 more hour at 200 °C, until the skin is golden and crisp. Serve with its juices and a salad.
 
   - name: Pork tenderloin with Pedro Ximénez
+    health: [YELLOW, "Pork tenderloin, a lean meat, with a sweet Pedro Ximénez and raisin sauce. Balanced, though with sugar."]
+    nutrition: [420, 38, 22, 15]
     photo: especial-navidad/solomillo-de-cerdo-al-pedro-ximenez.jpg
     category: Meat
     difficulty: EASY
@@ -554,6 +588,8 @@ recipes:
       - Cut into medallions, finish the sauce with the cold butter and pour it over.
 
   - name: Hake in green sauce
+    health: [GREEN, "White fish and clams in a parsley sauce with olive oil: lean protein and very light."]
+    nutrition: [300, 34, 5, 16]
     photo: especial-navidad/merluza-en-salsa-verde.jpg
     category: Fish and seafood
     difficulty: EASY
@@ -582,6 +618,8 @@ recipes:
       - Turn the hake, sprinkle with parsley and cook 2 more minutes. The clams should be open.
 
   - name: Cardoons with almonds
+    health: [GREEN, "A high-fibre vegetable in an almond sauce. The ham adds flavour and a little salt."]
+    nutrition: [230, 10, 13, 16]
     photo: especial-navidad/cardo-con-almendras.jpg
     category: Vegetables
     difficulty: EASY
@@ -610,6 +648,8 @@ recipes:
       - Add the drained cardoons, cook 5 more minutes and check the salt.
 
   - name: Soft Jijona turrón
+    health: [YELLOW, "Almond with honey and sugar: healthy fats and protein, but very sweet. In small portions."]
+    nutrition: [290, 8, 26, 18]
     photo: especial-navidad/turron-blando-de-jijona.jpg
     category: Desserts
     difficulty: MEDIUM
@@ -637,6 +677,8 @@ recipes:
       - Pour into a tin lined with baking paper, cover, put a weight on top and leave for 24 hours before cutting.
 
   - name: Almond soup
+    health: [YELLOW, "Almond, milk and bread with plenty of sugar: nourishing but sweet. An occasional traditional dessert."]
+    nutrition: [420, 12, 48, 20]
     photo: especial-navidad/sopa-de-almendras.jpg
     category: Desserts
     difficulty: EASY
@@ -663,6 +705,8 @@ recipes:
       - Pour the hot soup over them and dust with cinnamon.
 
   - name: Christmas Eve compote
+    health: [YELLOW, "Fresh and dried fruit with fibre, cooked in wine with sugar. Tasty but sweet; the alcohol reduces with cooking."]
+    nutrition: [260, 2, 55, 1]
     photo: especial-navidad/compota-de-nochebuena.jpg
     category: Desserts
     difficulty: EASY

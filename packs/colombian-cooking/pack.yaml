@@ -1,6 +1,6 @@
 id: colombian-cooking
-version: 2
-updated: 2026-11-05
+version: 3
+updated: 2026-11-06
 language: en
 name: "World cuisine: Colombia"
 series: World cuisine
@@ -23,6 +23,8 @@ defaults:
 recipes:
 
   - name: Bandeja paisa
+    health: [RED, "A very large plate with pork crackling, chorizo, fried egg and meat: a lot of fat and calories. A dish for celebrations."]
+    nutrition: [1350, 58, 120, 70]
     photo: cocina-colombiana/bandeja-paisa.jpg
     category: Meat
     difficulty: HARD
@@ -53,6 +55,8 @@ recipes:
       - Serve each plate with rice, beans, minced beef, chicharrón, chorizo, a fried egg, plantain slices, an arepa and avocado.
 
   - name: Antioquian beans
+    health: [YELLOW, "Beans rich in fibre and plant protein, but cooked with pork trotter or hock, which adds fat."]
+    nutrition: [420, 24, 48, 14]
     category: Legumes
     difficulty: MEDIUM
     prep: 15
@@ -77,6 +81,8 @@ recipes:
       - Shred the meat from the trotter and return it to the pot. Serve with white rice and avocado.
 
   - name: Ajiaco santafereño
+    health: [GREEN, "A chicken soup with three kinds of potato and corn: complete, filling and low in fat."]
+    nutrition: [450, 30, 62, 8]
     photo: cocina-colombiana/ajiaco-santafereno.jpg
     category: Soups
     difficulty: MEDIUM
@@ -109,6 +115,8 @@ recipes:
       - Serve with the cream, capers and avocado on the side so everyone helps themselves.
 
   - name: Sancocho de gallina
+    health: [GREEN, "A hen broth with plantain, cassava, potato and corn: complete and comforting, with moderate fat."]
+    nutrition: [590, 40, 70, 15]
     photo: cocina-colombiana/sancocho-de-gallina.jpg
     category: Soups
     difficulty: MEDIUM
@@ -138,6 +146,8 @@ recipes:
       - Season with salt and serve with the rest of the coriander, chopped.
 
   - name: Paisa arepas
+    health: [GREEN, "A corn arepa with a little butter: simple, gluten-free and low in fat."]
+    nutrition: [210, 4, 40, 3]
     photo: cocina-colombiana/arepas-paisas.jpg
     category: Breads and doughs
     difficulty: EASY
@@ -160,6 +170,8 @@ recipes:
       - Spread with butter to serve.
 
   - name: Colombian empanadas
+    health: [YELLOW, "Corn dough filled with potato and meat, deep-fried: tasty but fatty."]
+    nutrition: [420, 14, 45, 20]
     photo: cocina-colombiana/empanadas-colombianas.jpg
     category: Starters
     difficulty: MEDIUM
@@ -191,6 +203,8 @@ recipes:
       - Deep-fry in hot oil until golden and crisp.
 
   - name: Patacones
+    health: [YELLOW, "Green plantain fried twice: it gives fibre, but soaks up quite a lot of oil."]
+    nutrition: [290, 2, 40, 14]
     photo: cocina-colombiana/patacones.jpg
     category: Starters
     difficulty: EASY
@@ -211,6 +225,8 @@ recipes:
       - Fry them again in very hot oil until golden and crisp. Salt them.
 
   - name: Hogao
+    health: [GREEN, "A sofrito of tomato and spring onion with a little oil: vegetables and few calories."]
+    nutrition: [90, 1, 6, 7]
     photo: cocina-colombiana/hogao.jpg
     category: Sauces
     difficulty: EASY
@@ -234,6 +250,8 @@ recipes:
       - Add the tomato, cumin, achiote and salt and cook gently for 15 minutes, stirring, until thick.
 
   - name: Colombian ají
+    health: [GREEN, "A sauce of chilli, onion, tomato and coriander with vinegar: almost no calories."]
+    nutrition: [15, 0, 3, 0]
     photo: cocina-colombiana/aji-colombiano.jpg
     category: Sauces
     difficulty: EASY
@@ -258,6 +276,8 @@ recipes:
       - Leave in the fridge for at least 1 hour.
 
   - name: Colombian arroz con pollo
+    health: [GREEN, "Rice with chicken and vegetables: a complete, balanced dish with protein and carbohydrate."]
+    nutrition: [560, 36, 62, 17]
     photo: cocina-colombiana/arroz-con-pollo-colombiano.jpg
     category: Rice
     difficulty: MEDIUM
@@ -289,6 +309,8 @@ recipes:
       - Fluff up with a fork, add the coriander and serve with patacones and salad.
 
   - name: Changua
+    health: [GREEN, "A milk broth with egg and bread: a simple breakfast with protein and calcium."]
+    nutrition: [340, 17, 28, 17]
     photo: cocina-colombiana/changua.jpg
     category: Soups
     difficulty: EASY
@@ -313,6 +335,8 @@ recipes:
       - Put the bread in the bowls, ladle the changua over with one egg in each bowl and sprinkle with coriander.
 
   - name: Pandebono
+    health: [YELLOW, "Starch and cheese rolls: gluten-free, but with plenty of cheese, fat and salt."]
+    nutrition: [130, 5, 12, 7]
     photo: cocina-colombiana/pandebono.jpg
     category: Breads and doughs
     difficulty: EASY
@@ -338,6 +362,8 @@ recipes:
       - Bake for 15-18 minutes, until golden. Eat them warm.
 
   - name: Colombian buñuelos
+    health: [YELLOW, "Fried cheese and starch balls: fat and salt. A Christmas classic to enjoy in moderation."]
+    nutrition: [280, 9, 20, 18]
     photo: cocina-colombiana/bunuelos-colombianos.jpg
     category: Desserts
     difficulty: MEDIUM
@@ -363,6 +389,8 @@ recipes:
       - Heat plenty of oil over a medium-low heat, to about 150 °C, add the buñuelos and let them puff up and turn; fry for 8-10 minutes, until golden.
 
   - name: Colombian natilla
+    health: [RED, "A milk pudding with panela, cornflour and coconut: very sweet. For the holidays."]
+    nutrition: [320, 5, 55, 10]
     photo: cocina-colombiana/natilla-colombiana.jpg
     category: Desserts
     difficulty: EASY
@@ -387,6 +415,8 @@ recipes:
       - Add the butter and coconut, remove the cinnamon and pour into a mould. Let it cool and dust with ground cinnamon.
 
   - name: Posta negra cartagenera
+    health: [YELLOW, "Lean beef in a sweet panela and wine sauce. High in protein, though with sugar."]
+    nutrition: [450, 48, 22, 16]
     photo: cocina-colombiana/posta-negra-cartagenera.jpg
     category: Meat
     difficulty: MEDIUM
@@ -417,6 +447,8 @@ recipes:
       - Slice the meat and serve with the sauce, coconut rice and patacones.
 
   - name: Mote de queso
+    health: [YELLOW, "A yam soup with salty Colombian cheese: filling and with calcium, but the cheese adds fat and salt."]
+    nutrition: [440, 13, 55, 18]
     photo: cocina-colombiana/mote-de-queso.jpg
     category: Soups
     difficulty: EASY
@@ -444,6 +476,8 @@ recipes:
       - Finish with the lime juice and season with salt; careful, the cheese is salty.
 
   - name: Coconut rice
+    health: [YELLOW, "Rice with coconut milk, panela and raisins: tasty, but with coconut fat and sugar."]
+    nutrition: [470, 7, 62, 22]
     photo: cocina-colombiana/arroz-con-coco.jpg
     category: Rice
     difficulty: MEDIUM
@@ -468,6 +502,8 @@ recipes:
       - Add the rice and raisins, cook uncovered until the liquid drops to the level of the rice, then cover and cook over the lowest heat for 20 minutes.
 
   - name: Seafood casserole
+    health: [GREEN, "Seafood and fish in a tomato sauce: plenty of lean protein. With coconut milk it adds some fat."]
+    nutrition: [450, 48, 14, 22]
     photo: cocina-colombiana/cazuela-de-mariscos.jpg
     category: Fish and seafood
     difficulty: MEDIUM
@@ -501,6 +537,8 @@ recipes:
       - Stir in the cream and coriander, season with salt and serve with coconut rice and patacones.
 
   - name: Sobrebarriga in sauce
+    health: [YELLOW, "Beef flank braised in beer with hogao: good protein, though it is a cut with some fat."]
+    nutrition: [440, 44, 6, 26]
     photo: cocina-colombiana/sobrebarriga-en-salsa.jpg
     category: Meat
     difficulty: MEDIUM
@@ -529,6 +567,8 @@ recipes:
       - Cut the meat into portions, add it to the sauce and simmer for 10 minutes. Serve with salted potatoes and rice.
 
   - name: Coconut lemonade
+    health: [RED, "A drink with coconut cream, coconut milk and sugar: a lot of saturated fat and sugar."]
+    nutrition: [300, 2, 24, 23]
     photo: cocina-colombiana/limonada-de-coco.jpg
     category: Drinks
     difficulty: EASY

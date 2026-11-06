@@ -1,6 +1,6 @@
 id: german-cooking
-version: 2
-updated: 2026-11-05
+version: 3
+updated: 2026-11-06
 language: en
 name: "World cuisine: Germany"
 series: World cuisine
@@ -23,6 +23,8 @@ defaults:
 recipes:
 
   - name: Pork schnitzel
+    health: [YELLOW, "Lean pork loin, but breaded and fried in oil and butter. Better with a salad."]
+    nutrition: [520, 38, 30, 28]
     photo: cocina-alemana/schnitzel-de-cerdo.jpg
     category: Meat
     difficulty: EASY
@@ -50,6 +52,8 @@ recipes:
       - Drain and serve with lemon wedges, potato salad or Bratkartoffeln.
 
   - name: Beef rouladen
+    health: [YELLOW, "Beef rolled around bacon and gherkin in a wine sauce: good-quality protein, though the bacon adds fat and salt."]
+    nutrition: [450, 42, 10, 25]
     photo: cocina-alemana/rouladen-de-ternera.jpg
     category: Meat
     difficulty: MEDIUM
@@ -82,6 +86,8 @@ recipes:
       - Take out the rolls, strain the sauce, thicken it with the cornflour mixed with water and serve.
 
   - name: Sauerbraten
+    health: [GREEN, "Lean beef marinated and slowly braised: high in protein and low in fat. The sauce has a little sugar."]
+    nutrition: [400, 52, 12, 14]
     photo: cocina-alemana/sauerbraten.jpg
     category: Meat
     difficulty: HARD
@@ -119,6 +125,8 @@ recipes:
       - Take out the meat, strain the liquid and cook it with the crumbled Lebkuchen and raisins until thick. Slice the meat and serve with the sauce.
 
   - name: Swabian potato salad
+    health: [GREEN, "Potato in a dressing of stock, vinegar and a little oil, with no mayonnaise. A light salad."]
+    nutrition: [210, 4, 30, 9]
     photo: cocina-alemana/ensalada-de-patata-suaba.jpg
     category: Salads
     difficulty: EASY
@@ -147,6 +155,8 @@ recipes:
       - Add the oil and chives, mix and adjust the salt and vinegar.
 
   - name: Bratkartoffeln
+    health: [YELLOW, "Potatoes pan-fried with bacon, butter and oil: tasty but fatty."]
+    nutrition: [380, 9, 42, 20]
     photo: cocina-alemana/bratkartoffeln.jpg
     category: Vegetables
     difficulty: EASY
@@ -173,6 +183,8 @@ recipes:
       - Season, add the marjoram and parsley and serve.
 
   - name: Kartoffelpuffer
+    health: [YELLOW, "Potato pancakes fried in oil, with apple sauce. Tasty, though fried."]
+    nutrition: [400, 8, 58, 16]
     photo: cocina-alemana/kartoffelpuffer.jpg
     category: Vegetables
     difficulty: EASY
@@ -198,6 +210,8 @@ recipes:
       - Drain on kitchen paper and serve hot with the apple sauce.
 
   - name: Käsespätzle
+    health: [RED, "Egg noodles with lots of cheese and onion fried in butter: very high in calories and fat."]
+    nutrition: [760, 34, 80, 34]
     photo: cocina-alemana/kasespatzle.jpg
     category: Pasta
     difficulty: MEDIUM
@@ -230,6 +244,8 @@ recipes:
       - Top with the fried onions and chives and serve straight away.
 
   - name: Königsberger Klopse
+    health: [YELLOW, "Meatballs poached in stock, not fried, with a cream and caper sauce. Good protein but a fatty sauce."]
+    nutrition: [520, 30, 18, 37]
     photo: cocina-alemana/konigsberger-klopse.jpg
     category: Meat
     difficulty: MEDIUM
@@ -268,6 +284,8 @@ recipes:
       - Add the cream, capers, lemon juice and sugar. Off the heat, stir in the yolk. Warm the meatballs in the sauce and serve with boiled potatoes.
 
   - name: Currywurst
+    health: [RED, "A processed sausage with a ketchup and sugar sauce: fat, salt and sugar. Fast food for the odd occasion."]
+    nutrition: [480, 17, 20, 37]
     photo: cocina-alemana/currywurst.jpg
     category: Meat
     difficulty: EASY
@@ -301,6 +319,8 @@ recipes:
       - Cover with the hot sauce and sprinkle with curry powder.
 
   - name: Frikadellen
+    health: [YELLOW, "Minced meat with bread and onion, fried in a little oil. Good protein, but with fat."]
+    nutrition: [420, 26, 12, 30]
     photo: cocina-alemana/frikadellen.jpg
     category: Meat
     difficulty: EASY
@@ -328,6 +348,8 @@ recipes:
       - Fry them in the oil over a medium heat for 5-6 minutes on each side, until golden and cooked through.
 
   - name: German lentil stew
+    health: [YELLOW, "Lentils and vegetables are very nourishing, but the bacon and sausages add fat and salt."]
+    nutrition: [460, 26, 42, 20]
     photo: cocina-alemana/potaje-aleman-de-lentejas.jpg
     category: Legumes
     difficulty: EASY
@@ -359,6 +381,8 @@ recipes:
       - Add the sliced frankfurters and heat for 5 minutes. Finish with the vinegar and season.
 
   - name: Split pea soup
+    health: [YELLOW, "Dried peas with lots of fibre and protein, with smoked meat and sausages that add fat and salt."]
+    nutrition: [520, 32, 55, 19]
     photo: cocina-alemana/sopa-de-guisantes.jpg
     category: Legumes
     difficulty: EASY
@@ -388,6 +412,8 @@ recipes:
       - Take out the ham hock, shred the meat and return it to the soup with the sliced frankfurters. Season.
 
   - name: German potato soup
+    health: [YELLOW, "A potato and vegetable soup, with butter, cream and sausages that make it fattier."]
+    nutrition: [360, 10, 36, 20]
     photo: cocina-alemana/sopa-de-patata-alemana.jpg
     category: Soups
     difficulty: EASY
@@ -419,6 +445,8 @@ recipes:
       - Add the cream, nutmeg and sliced frankfurters, heat through and season with salt. Serve with parsley.
 
   - name: Flammkuchen
+    health: [RED, "A thin dough with crème fraîche and bacon: a lot of saturated fat and salt."]
+    nutrition: [560, 15, 50, 33]
     photo: cocina-alemana/flammkuchen.jpg
     category: Breads and doughs
     difficulty: EASY
@@ -451,6 +479,8 @@ recipes:
       - Bake each Flammkuchen for 10-12 minutes on the hot tray, until the edges are crisp and golden.
 
   - name: Soft pretzels
+    health: [YELLOW, "White-flour bread with butter and coarse salt on top. Watch the salt."]
+    nutrition: [230, 6, 40, 3]
     photo: cocina-alemana/brezeln.jpg
     category: Breads and doughs
     difficulty: MEDIUM
@@ -483,6 +513,8 @@ recipes:
       - Put them on trays lined with baking paper, slash the thick part, sprinkle with coarse salt and bake for 15 minutes, until deep brown.
 
   - name: Maultaschen
+    health: [YELLOW, "Pasta filled with meat, sausage and spinach. Complete, though the meat adds fat."]
+    nutrition: [470, 23, 45, 21]
     photo: cocina-alemana/maultaschen.jpg
     category: Pasta
     difficulty: HARD
@@ -523,6 +555,8 @@ recipes:
       - Simmer them in the stock for 10-12 minutes. Serve in the broth with chives.
 
   - name: German apple cake
+    health: [YELLOW, "A sponge with apple: there is fruit, but also butter and sugar. A moderate dessert."]
+    nutrition: [300, 5, 40, 13]
     photo: cocina-alemana/pastel-de-manzana-aleman.jpg
     category: Desserts
     difficulty: EASY
@@ -552,6 +586,8 @@ recipes:
       - Bake for 40-45 minutes. Let it cool and dust with icing sugar.
 
   - name: Black Forest gateau
+    health: [RED, "A chocolate cake with whipped cream, cherries and kirsch: a lot of sugar and fat."]
+    nutrition: [430, 6, 42, 26]
     photo: cocina-alemana/tarta-selva-negra.jpg
     category: Desserts
     difficulty: HARD
@@ -596,6 +632,8 @@ recipes:
           - Press chocolate shavings around the sides and pipe rosettes of cream, each topped with a cherry.
 
   - name: Rote Grütze
+    health: [YELLOW, "Red berries rich in antioxidants, but with juice and added sugar. Without cream or custard it is lighter."]
+    nutrition: [210, 1, 48, 1]
     photo: cocina-alemana/rote-grutze.jpg
     category: Desserts
     difficulty: EASY
@@ -619,6 +657,8 @@ recipes:
       - Divide between bowls and chill for at least 2 hours.
 
   - name: Obatzda
+    health: [RED, "Camembert with butter and cream cheese: a lot of saturated fat and salt. Spread it in moderation."]
+    nutrition: [310, 12, 3, 28]
     photo: cocina-alemana/obatzda.jpg
     category: Sauces
     difficulty: EASY

@@ -1,6 +1,6 @@
 id: spanish-tapas
-version: 3
-updated: 2026-11-05
+version: 4
+updated: 2026-11-06
 language: en
 name: Spanish tapas
 series: Specials
@@ -21,6 +21,8 @@ defaults:
 recipes:
 
   - name: Patatas bravas
+    health: [YELLOW, "Potatoes deep-fried in plenty of oil add quite a lot of fat and calories. The sauce is light, with paprika and little oil; best as an occasional tapa."]
+    nutrition: [420, 5, 48, 23]
     photo: tapas/patatas-bravas.jpg
     category: Starters
     difficulty: EASY
@@ -58,6 +60,8 @@ recipes:
           - Salt them and serve with the brava sauce on top.
 
   - name: Potatoes with aioli
+    health: [YELLOW, "Boiled potato, but home-made aioli is mostly oil and very high in calories. The fat is olive oil, a healthier kind, but keep the portion moderate."]
+    nutrition: [560, 5, 30, 47]
     photo: tapas/patatas-alioli.jpg
     category: Starters
     difficulty: EASY
@@ -86,6 +90,8 @@ recipes:
       - Mix the potatoes with the aioli and parsley. Serve cold or at room temperature.
 
   - name: Padrón peppers
+    health: [GREEN, "A very low-calorie vegetable, briefly fried in olive oil. Just go easy on the coarse salt."]
+    nutrition: [135, 1, 4, 13]
     photo: tapas/pimientos-de-padron.jpg
     category: Vegetables
     difficulty: EASY
@@ -106,6 +112,8 @@ recipes:
       - Drain them on kitchen paper and sprinkle with coarse salt.
 
   - name: Garlic mushrooms
+    health: [GREEN, "Mushrooms with garlic and olive oil: few calories and good fibre. The oil gives most of the energy in the dish."]
+    nutrition: [150, 3, 4, 14]
     photo: tapas/champinones-al-ajillo.jpg
     category: Vegetables
     difficulty: EASY
@@ -129,6 +137,8 @@ recipes:
       - Pour in the wine and let it evaporate. Finish with the parsley.
 
   - name: Fried aubergine with cane honey
+    health: [YELLOW, "Aubergine is a vegetable, but battered and fried it soaks up a lot of oil. The cane honey adds sugar."]
+    nutrition: [330, 5, 38, 18]
     photo: tapas/berenjenas-con-miel-de-cana.jpg
     category: Vegetables
     difficulty: EASY
@@ -153,6 +163,8 @@ recipes:
       - Drain them on kitchen paper and serve straight away with a drizzle of cane honey.
 
   - name: Galician-style octopus
+    health: [GREEN, "Octopus is a lean protein with little fat, served with boiled potato. Olive oil and paprika round off a balanced dish."]
+    nutrition: [500, 50, 22, 15]
     photo: tapas/pulpo-a-la-gallega.jpg
     category: Fish and seafood
     difficulty: MEDIUM
@@ -179,6 +191,8 @@ recipes:
       - Sprinkle with coarse salt and both paprikas and drizzle with the oil.
 
   - name: Marinated anchovies
+    health: [GREEN, "Raw marinated oily fish, rich in protein and healthy omega-3 fats. It is a salty dish: go easy if you watch your salt."]
+    nutrition: [250, 20, 1, 18]
     photo: tapas/boquerones-en-vinagre.jpg
     category: Fish and seafood
     difficulty: EASY
@@ -204,6 +218,8 @@ recipes:
       - Drain them and cover them with the oil, the finely chopped garlic and the parsley. They keep in the fridge for up to 5 days.
 
   - name: Fried squid rings
+    health: [YELLOW, "Squid is lean, but the fried batter adds fat and carbohydrate. With lemon and in small portions it is a reasonable tapa."]
+    nutrition: [375, 25, 22, 19]
     photo: tapas/calamares-a-la-romana.jpg
     category: Fish and seafood
     difficulty: EASY
@@ -226,6 +242,8 @@ recipes:
       - Drain them on kitchen paper and serve straight away with lemon wedges.
 
   - name: Griddled prawns
+    health: [GREEN, "Griddled seafood with very little added fat: lean protein and few calories. Watch the coarse salt."]
+    nutrition: [130, 14, 1, 7]
     photo: tapas/gambas-a-la-plancha.jpg
     category: Fish and seafood
     difficulty: EASY
@@ -246,6 +264,8 @@ recipes:
       - If you like, drizzle them with the rest of the oil mixed with the chopped garlic and parsley before serving.
 
   - name: Mussels in vinaigrette
+    health: [GREEN, "Mussels with raw vegetables in a vinaigrette: protein, iron and olive oil fats. A light, complete dish."]
+    nutrition: [290, 13, 6, 22]
     photo: tapas/mejillones-a-la-vinagreta.jpg
     category: Fish and seafood
     difficulty: EASY
@@ -273,6 +293,8 @@ recipes:
       - Remove one shell from each mussel, arrange them on a dish and spoon the vinaigrette over them. Serve cold.
 
   - name: Shrimp fritters
+    health: [YELLOW, "Flour batter with shrimps, fried in oil: it adds fat and carbohydrate. Best eaten freshly made and in small amounts."]
+    nutrition: [300, 10, 28, 16]
     photo: tapas/tortillitas-de-camarones.jpg
     category: Fish and seafood
     difficulty: MEDIUM
@@ -299,6 +321,8 @@ recipes:
       - Fry them for 1 minute on each side, until golden, and drain them on kitchen paper.
 
   - name: Mushroom croquettes
+    health: [YELLOW, "Béchamel with butter and whole milk, breaded and fried: quite a lot of fat and calories. The mushrooms add flavour and some fibre."]
+    nutrition: [450, 12, 45, 25]
     photo: tapas/croquetas.jpg
     category: Starters
     difficulty: MEDIUM
@@ -337,6 +361,8 @@ recipes:
           - Fry them in batches in plenty of very hot oil until golden and drain them on kitchen paper.
 
   - name: Meatballs in sauce
+    health: [YELLOW, "Minced meat in a vegetable and wine sauce: good protein but fairly high in fat. Frying them in less oil makes it lighter."]
+    nutrition: [520, 30, 18, 36]
     photo: tapas/albondigas-en-salsa.jpg
     category: Meat
     difficulty: MEDIUM
@@ -375,6 +401,8 @@ recipes:
           - If you like a smooth sauce, blend it. Add the meatballs and simmer everything together gently for 20 minutes.
 
   - name: Chorizo in cider
+    health: [RED, "Chorizo is a very fatty, salty cured sausage. The cider adds some sugar; best as an occasional tapa."]
+    nutrition: [480, 22, 5, 40]
     photo: tapas/chorizo-a-la-sidra.jpg
     category: Meat
     difficulty: EASY
@@ -395,6 +423,8 @@ recipes:
       - Slice them and serve them in small earthenware dishes with their juices and bread for dipping.
 
   - name: Pinchos morunos
+    health: [GREEN, "Lean pork marinated in spices and cooked on a griddle or grill. High in protein with moderate fat."]
+    nutrition: [330, 32, 1, 21]
     photo: tapas/pinchos-morunos.jpg
     category: Meat
     difficulty: EASY
@@ -422,6 +452,8 @@ recipes:
       - Cook them on a griddle or barbecue over a high heat for 8-10 minutes, turning them so they brown on all sides.
 
   - name: Huevos rotos with ham
+    health: [RED, "Fried potatoes and eggs with ham: a lot of fat and salt. A hearty dish for now and then."]
+    nutrition: [540, 20, 42, 32]
     photo: tapas/huevos-rotos-con-jamon.jpg
     category: Eggs
     difficulty: EASY
@@ -444,6 +476,8 @@ recipes:
       - Put the eggs on the potatoes with the ham and break them up at the table.
 
   - name: Russian salad
+    health: [YELLOW, "Potato, vegetables, egg and tuna make a complete dish, but the mayonnaise makes it very fatty. Less mayonnaise makes it lighter."]
+    nutrition: [480, 14, 25, 36]
     photo: tapas/ensaladilla-rusa.jpg
     category: Salads
     difficulty: EASY
@@ -470,6 +504,8 @@ recipes:
       - Cover with the rest of the mayonnaise and decorate with the olives and pepper. Serve cold.
 
   - name: Gildas
+    health: [YELLOW, "Few calories, but anchovies, olives and pickled chillies are very salty. Best as an occasional appetiser."]
+    nutrition: [80, 3, 1, 7]
     photo: tapas/gildas.jpg
     category: Starters
     difficulty: EASY
@@ -490,6 +526,8 @@ recipes:
       - Repeat until you have 4 gildas and drizzle with a little oil just before serving.
 
   - name: Pan con tomate with ham
+    health: [YELLOW, "Bread, tomato and olive oil make a good base. The ham adds protein but also salt and fat."]
+    nutrition: [375, 14, 30, 21]
     photo: tapas/pan-con-tomate.jpg
     category: Breads and doughs
     difficulty: EASY
@@ -513,6 +551,8 @@ recipes:
       - Salt, drizzle with the oil and top with the ham.
 
   - name: Pork loin and pepper montaditos
+    health: [YELLOW, "Lean pork loin with fried peppers on bread. Balanced, though the bread and oil raise the calories."]
+    nutrition: [450, 30, 35, 19]
     photo: tapas/montaditos-de-lomo-con-pimiento.jpg
     category: Breads and doughs
     difficulty: EASY

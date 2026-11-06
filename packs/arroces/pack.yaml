@@ -1,6 +1,6 @@
 id: arroces
-version: 2
-updated: 2026-11-05
+version: 3
+updated: 2026-11-06
 language: es
 name: Arroces
 series: Cocina de cada día
@@ -20,6 +20,8 @@ defaults:
 recipes:
 
   - name: Paella de marisco
+    health: [GREEN, "Arroz con marisco y sofrito de tomate en aceite de oliva: proteína magra y poca grasa saturada. Vigilar la sal del caldo."]
+    nutrition: [620, 38, 82, 15]
     photo: arroces/paella-de-marisco.jpg
     category: Arroces
     difficulty: MEDIUM
@@ -55,6 +57,8 @@ recipes:
       - Sube el fuego 1 minuto al final para el socarrat. Deja que repose 5 minutos tapada con un paño.
 
   - name: Paella mixta
+    health: [YELLOW, "Arroz con pollo, cerdo y marisco: completo, aunque la costilla y la piel del pollo añaden grasa."]
+    nutrition: [720, 42, 82, 24]
     photo: arroces/paella-mixta.jpg
     category: Arroces
     difficulty: MEDIUM
@@ -91,6 +95,8 @@ recipes:
       - Deja que repose 5 minutos antes de servir.
 
   - name: Paella de verduras
+    health: [GREEN, "Arroz con muchas verduras y legumbre, cocinado con aceite de oliva. Rico en fibra y equilibrado."]
+    nutrition: [560, 14, 92, 15]
     photo: arroces/paella-de-verduras.jpg
     category: Arroces
     difficulty: MEDIUM
@@ -126,6 +132,8 @@ recipes:
       - Deja que repose 5 minutos tapada con un paño.
 
   - name: Arroz del señoret
+    health: [GREEN, "Arroz con marisco y rape ya pelados: proteína magra y aceite de oliva. Un arroz equilibrado."]
+    nutrition: [640, 42, 82, 16]
     photo: arroces/arroz-del-senoret.jpg
     category: Arroces
     difficulty: MEDIUM
@@ -161,6 +169,8 @@ recipes:
       - Deja que repose 5 minutos y sirve con alioli.
 
   - name: Arroz a banda
+    health: [GREEN, "Arroz cocido en caldo de pescado con sepia: poca grasa y proteína magra. El alioli, si se añade, suma calorías."]
+    nutrition: [590, 24, 82, 18]
     photo: arroces/arroz-a-banda.jpg
     category: Arroces
     difficulty: MEDIUM
@@ -203,6 +213,8 @@ recipes:
           - Sirve con alioli y, si quieres, el pescado del caldo aparte.
 
   - name: Arroz con conejo y caracoles
+    health: [GREEN, "El conejo es una carne magra y los caracoles aportan proteína y hierro. Un arroz tradicional equilibrado."]
+    nutrition: [700, 48, 82, 19]
     photo: arroces/arroz-con-conejo-y-caracoles.jpg
     category: Arroces
     difficulty: MEDIUM
@@ -235,6 +247,8 @@ recipes:
       - Deja que repose 5 minutos.
 
   - name: Arroz con costra
+    health: [RED, "Arroz con embutidos, costilla y huevo: muy contundente y graso. Un plato de celebración."]
+    nutrition: [720, 38, 62, 34]
     photo: arroces/arroz-con-costra.jpg
     category: Arroces
     difficulty: MEDIUM
@@ -268,6 +282,8 @@ recipes:
       - Hornea 8-10 minutos, hasta que el huevo forme una costra dorada. Deja que repose 5 minutos.
 
   - name: Arroz caldoso de bogavante
+    health: [GREEN, "Bogavante, una proteína magra, en un arroz caldoso con sofrito. El brandy y el aceite son moderados."]
+    nutrition: [560, 30, 70, 17]
     photo: arroces/arroz-caldoso-de-bogavante.jpg
     category: Arroces
     difficulty: MEDIUM
@@ -300,6 +316,8 @@ recipes:
       - Añade el bogavante y cuece 5-6 minutos más. Sirve enseguida, con el arroz en su caldo.
 
   - name: Arroz meloso de setas
+    health: [GREEN, "Arroz con setas y aceite de oliva: pocas grasas saturadas y con fibra. Un plato vegetal sabroso."]
+    nutrition: [470, 10, 68, 16]
     category: Arroces
     difficulty: EASY
     prep: 15
@@ -330,6 +348,8 @@ recipes:
       - Ajusta de sal y sirve con perejil; debe quedar jugoso.
 
   - name: Arroz con judías y nabos
+    health: [YELLOW, "Legumbre, verdura y arroz muy nutritivos, pero las partes de cerdo y la morcilla aportan mucha grasa."]
+    nutrition: [560, 32, 58, 22]
     category: Arroces
     difficulty: MEDIUM
     prep: 20
@@ -358,6 +378,8 @@ recipes:
       - Cuece 16-18 minutos y deja que repose 2 minutos. Debe quedar caldoso.
 
   - name: Arroz huertano
+    health: [GREEN, "Arroz con muchas verduras de la huerta y aceite de oliva. Ligero, con fibra y vitaminas."]
+    nutrition: [540, 13, 90, 15]
     category: Arroces
     difficulty: EASY
     prep: 20
@@ -389,6 +411,8 @@ recipes:
       - Cuece 8 minutos a fuego fuerte y 10 a fuego suave, sin remover. Deja que repose 5 minutos.
 
   - name: Arroz empedrado
+    health: [GREEN, "Bacalao, alubias y arroz: proteína magra y fibra. Un plato completo y equilibrado; vigilar la sal del bacalao."]
+    nutrition: [660, 36, 96, 16]
     photo: arroces/arroz-empedrado.jpg
     category: Arroces
     difficulty: EASY
@@ -420,6 +444,8 @@ recipes:
       - Espolvorea el perejil y deja que repose 5 minutos.
 
   - name: Arroz con coliflor y bacalao
+    health: [GREEN, "Coliflor y bacalao con arroz y aceite de oliva: proteína magra y verdura. Equilibrado."]
+    nutrition: [590, 30, 86, 15]
     category: Arroces
     difficulty: EASY
     prep: 15
@@ -450,6 +476,8 @@ recipes:
       - Cuece 8 minutos a fuego fuerte y 9-10 a fuego suave, sin remover. Deja que repose 5 minutos.
 
   - name: Arroz a la cubana
+    health: [YELLOW, "Arroz con tomate y huevo, completo, pero el plátano y el huevo van fritos. Freírlos con poco aceite ayuda."]
+    nutrition: [560, 13, 85, 19]
     photo: arroces/arroz-a-la-cubana.jpg
     category: Arroces
     difficulty: EASY
@@ -481,6 +509,8 @@ recipes:
       - Sirve el arroz en un cuenco desmoldado en el plato, con el tomate caliente, el huevo frito y el plátano.
 
   - name: Gallo pinto
+    health: [GREEN, "Arroz con frijoles: proteína vegetal completa y mucha fibra. Un plato sencillo y nutritivo."]
+    nutrition: [400, 13, 70, 8]
     photo: arroces/gallo-pinto.jpg
     category: Arroces
     difficulty: EASY
@@ -509,6 +539,8 @@ recipes:
       - Ajusta de sal, añade el cilantro y sirve con huevos, plátano frito o natilla (nata agria).
 
   - name: Arroz pilaf
+    health: [YELLOW, "Arroz blanco con mantequilla y fideos: hidratos refinados y algo de grasa. Mejor como guarnición."]
+    nutrition: [400, 7, 67, 10]
     photo: arroces/arroz-pilaf.jpg
     category: Arroces
     difficulty: EASY
@@ -533,6 +565,8 @@ recipes:
       - Tapa y cuece a fuego muy suave 15 minutos. Apaga el fuego, cubre con un paño bajo la tapa y deja que repose 10 minutos.
 
   - name: Biryani de pollo
+    health: [YELLOW, "Pollo, yogur y especias, completo y sabroso, aunque el ghee y la cebolla frita suben la grasa."]
+    nutrition: [620, 36, 66, 22]
     photo: arroces/biryani-de-pollo.jpg
     category: Arroces
     difficulty: HARD
@@ -576,6 +610,8 @@ recipes:
       - Deja que repose 5 minutos y mezcla con cuidado al servir.
 
   - name: Risotto de calabaza
+    health: [YELLOW, "Calabaza y arroz, ligeros, pero la mantequilla y el parmesano lo hacen bastante graso."]
+    nutrition: [530, 13, 72, 19]
     photo: arroces/risotto-de-calabaza.jpg
     category: Arroces
     difficulty: MEDIUM
@@ -606,6 +642,8 @@ recipes:
       - Fuera del fuego, añade el resto de la mantequilla y el parmesano y remueve con energía. Salpimienta y sirve con salvia frita en mantequilla.
 
   - name: Arroz con gandules
+    health: [YELLOW, "Arroz con gandules, buena legumbre, pero el jamón y los sazonadores aportan sal."]
+    nutrition: [420, 13, 68, 10]
     photo: arroces/arroz-con-gandules.jpg
     category: Arroces
     difficulty: MEDIUM
@@ -637,6 +675,8 @@ recipes:
       - Remueve una vez, tapa y cuece a fuego mínimo 20-25 minutos, hasta que el arroz esté hecho y se forme el pegao en el fondo.
 
   - name: Arroz jollof
+    health: [GREEN, "Arroz con mucho tomate, pimiento y especias. Rico en verdura, aunque lleva bastante aceite."]
+    nutrition: [420, 8, 68, 13]
     photo: arroces/arroz-jollof.jpg
     category: Arroces
     difficulty: MEDIUM

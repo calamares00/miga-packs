@@ -1,6 +1,6 @@
 id: japanese-cooking
-version: 2
-updated: 2026-11-05
+version: 3
+updated: 2026-11-06
 language: en
 name: "World cuisine: Japan"
 series: World cuisine
@@ -22,6 +22,8 @@ defaults:
 recipes:
 
   - name: Miso soup
+    health: [GREEN, "A dashi broth with miso, tofu and seaweed: very light and nourishing. The miso adds quite a lot of salt."]
+    nutrition: [70, 6, 4, 3]
     photo: cocina-japonesa/sopa-de-miso.jpg
     category: Soups
     difficulty: EASY
@@ -50,6 +52,8 @@ recipes:
       - Dissolve the miso in a ladle of hot dashi, stir it into the soup and turn off the heat. Serve with chopped spring onion.
 
   - name: Chicken teriyaki
+    health: [YELLOW, "Chicken with skin in a soy, mirin and sugar glaze: good protein, but with sugar and salt."]
+    nutrition: [420, 30, 18, 24]
     photo: cocina-japonesa/pollo-teriyaki.jpg
     category: Meat
     difficulty: EASY
@@ -74,6 +78,8 @@ recipes:
       - Slice and serve with rice, topped with sesame seeds.
 
   - name: Gyoza
+    health: [GREEN, "Pork and cabbage dumplings pan-fried and steamed: complete, with moderate fat. Go easy on the dipping sauce."]
+    nutrition: [420, 18, 40, 20]
     photo: cocina-japonesa/gyoza.jpg
     category: Starters
     difficulty: MEDIUM
@@ -108,6 +114,8 @@ recipes:
       - Serve with the mixed dipping sauce.
 
   - name: Shoyu ramen
+    health: [YELLOW, "Noodles in broth with egg and pork: very complete and comforting, but very salty."]
+    nutrition: [620, 32, 72, 20]
     photo: cocina-japonesa/ramen-de-shoyu.jpg
     category: Soups
     difficulty: MEDIUM
@@ -152,6 +160,8 @@ recipes:
           - Fill the bowls with the hot broth, add the noodles and top with the pork, a halved egg, bamboo shoots, half a sheet of nori and spring onion.
 
   - name: Tonkatsu
+    health: [RED, "A breaded, deep-fried pork cutlet: a lot of fat. The raw cabbage served with it helps."]
+    nutrition: [620, 36, 30, 38]
     photo: cocina-japonesa/tonkatsu.jpg
     category: Meat
     difficulty: EASY
@@ -177,6 +187,8 @@ recipes:
       - Slice and serve with very finely shredded cabbage and the tonkatsu sauce.
 
   - name: Oyakodon
+    health: [GREEN, "Rice with chicken and egg in a dashi broth: complete and balanced. The sauce has a little sugar."]
+    nutrition: [560, 30, 80, 12]
     photo: cocina-japonesa/oyakodon.jpg
     category: Rice
     difficulty: EASY
@@ -204,6 +216,8 @@ recipes:
       - Slide it over the hot rice and finish with the spring onion.
 
   - name: Onigiri
+    health: [GREEN, "Rice balls filled with salmon or plum: simple and low in fat."]
+    nutrition: [290, 10, 55, 4]
     photo: cocina-japonesa/onigiri.jpg
     category: Rice
     difficulty: EASY
@@ -227,6 +241,8 @@ recipes:
       - Wrap the base with a strip of nori just before eating so it stays crisp.
 
   - name: Tamagoyaki
+    health: [GREEN, "A rolled Japanese omelette with a touch of sugar: protein with little fat."]
+    nutrition: [230, 13, 8, 16]
     photo: cocina-japonesa/tamagoyaki.jpg
     category: Eggs
     difficulty: MEDIUM
@@ -251,6 +267,8 @@ recipes:
       - Shape the roll with a bamboo mat, leave for 5 minutes and cut into thick slices.
 
   - name: Okonomiyaki
+    health: [YELLOW, "A cabbage pancake with flour and egg, complete, but the pork belly and sauces add fat and salt."]
+    nutrition: [620, 24, 52, 34]
     photo: cocina-japonesa/okonomiyaki.jpg
     category: Breads and doughs
     difficulty: EASY
@@ -283,6 +301,8 @@ recipes:
       - Flip it again and top with the sauce, zigzags of mayonnaise, katsuobushi and aonori. Repeat with the rest of the batter.
 
   - name: Yakitori
+    health: [YELLOW, "Grilled chicken skewers with a sweet soy glaze: good protein, with sugar and salt."]
+    nutrition: [380, 32, 18, 18]
     photo: cocina-japonesa/yakitori.jpg
     category: Meat
     difficulty: EASY
@@ -310,6 +330,8 @@ recipes:
       - Brush with tare and grill for 1 more minute on each side, twice, until glazed.
 
   - name: Vegetable and prawn tempura
+    health: [YELLOW, "Vegetables and prawns in a light batter, but deep-fried."]
+    nutrition: [380, 14, 40, 18]
     photo: cocina-japonesa/tempura-de-verduras-y-gambas.jpg
     category: Starters
     difficulty: MEDIUM
@@ -344,6 +366,8 @@ recipes:
       - Drain on a rack and serve straight away with the sauce and daikon.
 
   - name: Salmon and cucumber maki
+    health: [GREEN, "Rice with salmon and cucumber wrapped in seaweed: light and balanced. The soy adds salt."]
+    nutrition: [370, 13, 66, 5]
     photo: cocina-japonesa/makis-de-salmon-y-pepino.jpg
     category: Fish and seafood
     difficulty: MEDIUM
@@ -377,6 +401,8 @@ recipes:
       - Serve with soy sauce, wasabi and gari.
 
   - name: Karaage
+    health: [YELLOW, "Marinated, deep-fried chicken: high in protein, but with fat from frying."]
+    nutrition: [450, 30, 18, 28]
     photo: cocina-japonesa/karaage.jpg
     category: Meat
     difficulty: EASY
@@ -402,6 +428,8 @@ recipes:
       - Fry again at 180 °C for 1 minute, until very crisp. Serve with lemon and mayonnaise.
 
   - name: Nikujaga
+    health: [GREEN, "Beef with potato and vegetables in dashi: complete and low in fat. It has a little sugar."]
+    nutrition: [380, 18, 45, 13]
     photo: cocina-japonesa/nikujaga.jpg
     category: Meat
     difficulty: EASY
@@ -432,6 +460,8 @@ recipes:
       - Add the mangetout for the last 2 minutes.
 
   - name: Yakisoba
+    health: [YELLOW, "Stir-fried noodles with vegetables and meat, but with sweet and salty sauces."]
+    nutrition: [520, 20, 70, 18]
     photo: cocina-japonesa/yakisoba.jpg
     category: Pasta
     difficulty: EASY
@@ -464,6 +494,8 @@ recipes:
       - Add the sauce and toss until the noodles are well coated. Serve with beni shoga and aonori.
 
   - name: Gyudon
+    health: [YELLOW, "Rice with beef and onion in a sweet soy sauce: complete, though with sugar and salt."]
+    nutrition: [640, 30, 90, 16]
     photo: cocina-japonesa/gyudon.jpg
     category: Rice
     difficulty: EASY
@@ -490,6 +522,8 @@ recipes:
       - Serve over hot rice with a little of the broth, beni shoga and, if you like, a raw egg yolk or a poached egg on top.
 
   - name: Japanese curry
+    health: [YELLOW, "A stew with meat and vegetables, but the bought curry roux is fatty and salty."]
+    nutrition: [540, 28, 50, 25]
     photo: cocina-japonesa/curry-japones.jpg
     category: Meat
     difficulty: EASY
@@ -517,6 +551,8 @@ recipes:
       - Simmer for 10 more minutes, stirring, until thick. Serve with the rice.
 
   - name: Agedashi tofu
+    health: [YELLOW, "Tofu, a plant protein, but coated and fried. The broth is light."]
+    nutrition: [230, 11, 15, 14]
     photo: cocina-japonesa/agedashi-tofu.jpg
     category: Legumes
     difficulty: EASY
@@ -542,6 +578,8 @@ recipes:
       - Serve in bowls with the hot broth around it and the daikon, ginger and spring onion on top.
 
   - name: Cucumber and wakame sunomono
+    health: [GREEN, "Cucumber and seaweed in rice vinegar: almost no calories and refreshing. It has a little sugar."]
+    nutrition: [50, 1, 9, 1]
     category: Salads
     difficulty: EASY
     prep: 15
@@ -564,6 +602,8 @@ recipes:
       - Mix the cucumber and wakame with the dressing and serve cold with the sesame seeds.
 
   - name: Dorayaki
+    health: [YELLOW, "Sweet pancakes filled with red bean paste: sweet, though low in fat."]
+    nutrition: [290, 7, 58, 3]
     photo: cocina-japonesa/dorayaki.jpg
     category: Desserts
     difficulty: EASY

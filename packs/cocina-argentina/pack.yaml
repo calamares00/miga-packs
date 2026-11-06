@@ -1,6 +1,6 @@
 id: cocina-argentina
-version: 2
-updated: 2026-11-05
+version: 3
+updated: 2026-11-06
 language: es
 name: "Cocina del mundo: Argentina"
 series: Cocina del mundo
@@ -23,6 +23,8 @@ defaults:
 recipes:
 
   - name: Tira de asado
+    health: [RED, "Costillar de res con mucha grasa y sal gruesa: muy contundente. Mejor con ensalada y en raciones moderadas."]
+    nutrition: [780, 52, 0, 63]
     photo: cocina-argentina/tira-de-asado.jpg
     category: Carnes
     difficulty: MEDIUM
@@ -46,6 +48,8 @@ recipes:
       - Córtala entre los huesos y sírvela con chimichurri y salsa criolla.
 
   - name: Chimichurri
+    health: [GREEN, "Salsa de hierbas, ajo y aceite: grasa de calidad y sin azúcar. Muy calórica por el aceite, se usa en poca cantidad."]
+    nutrition: [170, 0, 1, 19]
     photo: cocina-argentina/chimichurri.jpg
     category: Salsas
     difficulty: EASY
@@ -71,6 +75,8 @@ recipes:
       - Incorpora el vinagre y el aceite, mezcla y pásalo a un frasco.
 
   - name: Salsa criolla
+    health: [GREEN, "Verduras crudas con vinagre y un poco de aceite: muy ligera y con vitaminas."]
+    nutrition: [120, 1, 5, 11]
     photo: cocina-argentina/salsa-criolla.jpg
     category: Salsas
     difficulty: EASY
@@ -95,6 +101,8 @@ recipes:
       - Deja que repose 30 minutos antes de servir.
 
   - name: Choripán
+    health: [RED, "Chorizo graso en pan blanco: mucha grasa saturada y sal. Un clásico para tomar de vez en cuando."]
+    nutrition: [620, 24, 45, 38]
     photo: cocina-argentina/choripan.jpg
     category: Carnes
     difficulty: EASY
@@ -117,6 +125,8 @@ recipes:
       - Pon cada chorizo en un pan con chimichurri y salsa criolla.
 
   - name: Provoleta
+    health: [RED, "Queso provolone fundido: mucha grasa saturada y sal, aunque buena proteína. Para compartir en poca cantidad."]
+    nutrition: [290, 20, 2, 23]
     photo: cocina-argentina/provoleta.jpg
     category: Entrantes
     difficulty: EASY
@@ -139,6 +149,8 @@ recipes:
       - Riega con el aceite y sirve enseguida con pan.
 
   - name: Empanadas criollas de carne
+    health: [YELLOW, "Carne picada con cebolla, huevo y aceitunas en masa: completas pero con grasa. Al horno son más ligeras que fritas."]
+    nutrition: [520, 26, 42, 27]
     photo: cocina-argentina/empanadas-criollas-de-carne.jpg
     category: Entrantes
     difficulty: MEDIUM
@@ -173,6 +185,8 @@ recipes:
       - Pinta con huevo y hornea 15-18 minutos, hasta que estén doradas.
 
   - name: Milanesa a la napolitana
+    health: [RED, "Filete empanado y frito, cubierto de jamón y mozzarella: mucha grasa y calorías."]
+    nutrition: [720, 52, 35, 40]
     photo: cocina-argentina/milanesa-a-la-napolitana.jpg
     category: Carnes
     difficulty: EASY
@@ -202,6 +216,8 @@ recipes:
       - Espolvorea el orégano y gratina 5-8 minutos, hasta que el queso se funda.
 
   - name: Locro
+    health: [YELLOW, "Maíz, alubias y calabaza muy nutritivos, pero la panceta, el chorizo y las patitas aportan mucha grasa."]
+    nutrition: [560, 30, 55, 24]
     photo: cocina-argentina/locro.jpg
     category: Legumbres
     difficulty: HARD
@@ -237,6 +253,8 @@ recipes:
       - Sirve el locro con una cucharada de quiquirimichi por encima.
 
   - name: Matambre arrollado
+    health: [GREEN, "Carne magra de vaca rellena de huevo y verduras, cocida sin grasa añadida. Mucha proteína."]
+    nutrition: [330, 42, 4, 16]
     photo: cocina-argentina/matambre-arrollado.jpg
     category: Carnes
     difficulty: MEDIUM
@@ -264,6 +282,8 @@ recipes:
       - Deja que se enfríe en el agua y después prénsalo en la nevera con un peso encima toda la noche. Sírvelo en rodajas finas.
 
   - name: Humita en olla
+    health: [GREEN, "Maíz tierno con calabaza, leche y queso fresco: rico en fibra y moderado en grasa."]
+    nutrition: [400, 15, 52, 15]
     category: Verduras
     difficulty: MEDIUM
     prep: 30
@@ -291,6 +311,8 @@ recipes:
       - Ajusta de sal y azúcar, añade la albahaca y el queso y sirve cuando empiece a fundirse.
 
   - name: Carbonada criolla
+    health: [GREEN, "Guiso de carne con muchas verduras, zapallo y batata. Completo, aunque el melocotón en almíbar añade azúcar."]
+    nutrition: [470, 28, 58, 13]
     photo: cocina-argentina/carbonada-criolla.jpg
     category: Carnes
     difficulty: MEDIUM
@@ -322,6 +344,8 @@ recipes:
       - Añade los duraznos en trozos, cuece 5 minutos y ajusta de sal.
 
   - name: Ñoquis con tuco
+    health: [GREEN, "Ñoquis de patata con salsa de tomate casera: sencillos y con poca grasa."]
+    nutrition: [450, 11, 85, 8]
     photo: cocina-argentina/noquis-con-tuco.jpg
     category: Pastas
     difficulty: MEDIUM
@@ -361,6 +385,8 @@ recipes:
           - Cuécelos en agua hirviendo con sal y sácalos cuando suban a la superficie. Sírvelos con el tuco y queso rallado.
 
   - name: Pastel de papa
+    health: [YELLOW, "Carne picada con verduras, huevo y puré de patata: completo, aunque la carne y el puré con mantequilla suman grasa."]
+    nutrition: [560, 30, 45, 28]
     photo: cocina-argentina/pastel-de-papa.jpg
     category: Carnes
     difficulty: EASY
@@ -397,6 +423,8 @@ recipes:
       - Espolvorea el queso rallado y hornea 20-25 minutos, hasta que esté dorado.
 
   - name: Revuelto gramajo
+    health: [RED, "Patatas fritas con jamón y huevo revuelto con mantequilla: mucha grasa y sal."]
+    nutrition: [520, 22, 30, 35]
     photo: cocina-argentina/revuelto-gramajo.jpg
     category: Huevos
     difficulty: EASY
@@ -423,6 +451,8 @@ recipes:
       - Incorpora las papas fritas, mezcla un momento para que no se ablanden y sirve con perejil.
 
   - name: Dulce de leche casero
+    health: [RED, "Leche con mucho azúcar reducida a crema: muy dulce. Usar en poca cantidad."]
+    nutrition: [310, 7, 52, 8]
     photo: cocina-argentina/dulce-de-leche-casero.jpg
     category: Postres
     difficulty: EASY
@@ -444,6 +474,8 @@ recipes:
       - Añade la vainilla y pásalo a frascos limpios. Espesa más al enfriarse.
 
   - name: Alfajores de maicena
+    health: [RED, "Galletas de maicena con mantequilla y dulce de leche: mucho azúcar y grasa."]
+    nutrition: [260, 3, 37, 11]
     photo: cocina-argentina/alfajores-de-maicena.jpg
     category: Postres
     difficulty: MEDIUM
@@ -475,6 +507,8 @@ recipes:
       - Une las tapitas de dos en dos con dulce de leche y pasa el borde por coco rallado.
 
   - name: Pastafrola
+    health: [RED, "Tarta de masa con mantequilla y dulce de membrillo: muy dulce y calórica."]
+    nutrition: [450, 5, 72, 17]
     photo: cocina-argentina/pastafrola.jpg
     category: Postres
     difficulty: EASY
@@ -503,6 +537,8 @@ recipes:
       - Hornea 30-35 minutos, hasta que esté dorada.
 
   - name: Medialunas de manteca
+    health: [RED, "Bollería con mucha mantequilla y almíbar: grasa saturada y azúcar. Para darse un capricho."]
+    nutrition: [270, 4, 30, 15]
     category: Panes y masas
     difficulty: HARD
     prep: 180
@@ -535,6 +571,8 @@ recipes:
       - Pinta con huevo y hornea a 200 °C 12-15 minutos. Hierve el azúcar con el agua 2 minutos y pinta las medialunas recién salidas del horno.
 
   - name: Tortas fritas
+    health: [RED, "Masa frita en grasa y espolvoreada con azúcar: mucha grasa. Un capricho ocasional."]
+    nutrition: [230, 4, 32, 10]
     photo: cocina-argentina/tortas-fritas.jpg
     category: Panes y masas
     difficulty: EASY
@@ -559,6 +597,8 @@ recipes:
       - Escúrrelos y espolvoréalos con azúcar.
 
   - name: Chipá
+    health: [YELLOW, "Panecillos de almidón con queso y mantequilla: sin gluten pero con grasa y sal."]
+    nutrition: [150, 4, 19, 7]
     photo: cocina-argentina/chipa.jpg
     category: Panes y masas
     difficulty: EASY

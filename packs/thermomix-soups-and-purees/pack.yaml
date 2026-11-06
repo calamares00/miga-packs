@@ -1,6 +1,6 @@
 id: thermomix-soups-and-purees
-version: 2
-updated: 2026-11-05
+version: 3
+updated: 2026-11-06
 language: en
 name: "Thermomix: soups and purées"
 series: Kitchen appliances
@@ -22,6 +22,8 @@ defaults:
 recipes:
 
   - name: Pumpkin soup
+    health: [GREEN, "A vegetable soup with little oil and a touch of cream. Rich in fibre and vitamin A, and low in calories."]
+    nutrition: [170, 3, 18, 10]
     photo: thermomix-cremas-y-pures/crema-de-calabaza.jpg
     category: Soups
     difficulty: EASY
@@ -50,6 +52,8 @@ recipes:
       - Add the cream and blend 1 min/speed 5-10, increasing the speed gradually. Season to taste.
 
   - name: Mixed vegetable soup
+    health: [GREEN, "Lots of different vegetables with a little olive oil. Light, filling and full of fibre."]
+    nutrition: [150, 3, 17, 8]
     photo: thermomix-cremas-y-pures/crema-de-verduras.jpg
     category: Soups
     difficulty: EASY
@@ -78,6 +82,8 @@ recipes:
       - Blend 1 min/speed 5-10, increasing gradually, and season to taste.
 
   - name: Mashed potatoes
+    health: [YELLOW, "Potato with whole milk and butter: comforting, but with some fat. A good side in moderate amounts."]
+    nutrition: [250, 6, 36, 11]
     photo: thermomix-cremas-y-pures/pure-de-patatas.jpg
     category: Vegetables
     difficulty: EASY
@@ -101,6 +107,8 @@ recipes:
       - Add the butter and nutmeg and mix 20 sec/speed 3.5. Remove the butterfly and serve.
 
   - name: Vichyssoise
+    health: [YELLOW, "Leek and potato are light, but the butter and cream make it fattier. Use less cream to lighten it."]
+    nutrition: [250, 4, 20, 17]
     photo: thermomix-cremas-y-pures/vichyssoise.jpg
     category: Soups
     difficulty: EASY
@@ -129,6 +137,8 @@ recipes:
       - Chill for at least 3 hours and serve with chives.
 
   - name: Mushroom soup
+    health: [YELLOW, "Light mushrooms with butter and cream, which add saturated fat. With less cream it is healthier."]
+    nutrition: [190, 5, 11, 14]
     photo: thermomix-cremas-y-pures/crema-de-champinones.jpg
     category: Soups
     difficulty: EASY
@@ -158,6 +168,8 @@ recipes:
       - Add the cream and blend 1 min/speed 5-10, increasing gradually.
 
   - name: Carrot and ginger soup
+    health: [GREEN, "Carrot, ginger and orange with little oil: plenty of vitamin A and few calories."]
+    nutrition: [170, 3, 22, 8]
     photo: thermomix-cremas-y-pures/crema-de-zanahoria-y-jengibre.jpg
     category: Soups
     difficulty: EASY
@@ -185,6 +197,8 @@ recipes:
       - Add the orange juice and blend 1 min/speed 5-10, increasing gradually.
 
   - name: Broccoli soup
+    health: [GREEN, "Broccoli and potato with little oil and a little cheese. A vegetable dish rich in fibre and vitamins."]
+    nutrition: [180, 7, 16, 10]
     photo: thermomix-cremas-y-pures/crema-de-brocoli.jpg
     category: Soups
     difficulty: EASY
@@ -210,6 +224,8 @@ recipes:
       - Add the cheese triangles and blend 1 min/speed 5-10, increasing gradually.
 
   - name: White asparagus soup
+    health: [YELLOW, "Light asparagus and leek, with butter and cream that raise the fat. The tinned asparagus adds salt."]
+    nutrition: [190, 4, 12, 15]
     photo: thermomix-cremas-y-pures/crema-de-esparragos-blancos.jpg
     category: Soups
     difficulty: EASY
@@ -236,6 +252,8 @@ recipes:
       - Add the cream and blend 1 min/speed 5-10, increasing gradually. Serve with the reserved asparagus, sliced.
 
   - name: Pea and mint soup
+    health: [GREEN, "Peas bring fibre and plant protein, with a little butter and cream. Light and fresh."]
+    nutrition: [200, 8, 18, 10]
     photo: thermomix-cremas-y-pures/crema-de-guisantes-y-menta.jpg
     category: Soups
     difficulty: EASY
@@ -261,6 +279,8 @@ recipes:
       - Add the mint and cream and blend 1 min/speed 5-10, increasing gradually. Strain if you want it very smooth.
 
   - name: Tomato soup
+    health: [GREEN, "Ripe tomato with olive oil and basil: rich in lycopene and very light."]
+    nutrition: [160, 3, 13, 10]
     photo: thermomix-cremas-y-pures/crema-de-tomate.jpg
     category: Soups
     difficulty: EASY
@@ -288,6 +308,8 @@ recipes:
       - Add the basil and blend 1 min/speed 5-10, increasing gradually.
 
   - name: Red lentil soup
+    health: [GREEN, "Red lentils with vegetables and spices: plenty of plant protein, fibre and iron. Very complete."]
+    nutrition: [290, 15, 38, 8]
     photo: thermomix-cremas-y-pures/crema-de-lentejas-rojas.jpg
     category: Legumes
     difficulty: EASY
@@ -316,6 +338,8 @@ recipes:
       - Add the lemon juice and blend 40 sec/speed 5-10, increasing gradually.
 
   - name: Cauliflower soup
+    health: [GREEN, "Cauliflower with a little butter and milk. Few calories and plenty of fibre."]
+    nutrition: [150, 5, 13, 8]
     photo: thermomix-cremas-y-pures/crema-de-coliflor.jpg
     category: Soups
     difficulty: EASY
@@ -342,6 +366,8 @@ recipes:
       - Add the milk and nutmeg and blend 1 min/speed 5-10, increasing gradually.
 
   - name: Spinach soup
+    health: [GREEN, "Spinach and potato with a little cream cheese. A vegetable dish rich in iron and folate."]
+    nutrition: [200, 5, 17, 12]
     photo: thermomix-cremas-y-pures/crema-de-espinacas.jpg
     category: Soups
     difficulty: EASY
@@ -370,6 +396,8 @@ recipes:
       - Add the cream cheese and nutmeg and blend 1 min/speed 5-10, increasing gradually.
 
   - name: Sweet potato soup
+    health: [GREEN, "Sweet potato with spices and little oil: carbohydrate with fibre and plenty of vitamin A."]
+    nutrition: [230, 3, 35, 8]
     category: Soups
     difficulty: EASY
     prep: 10
@@ -396,6 +424,8 @@ recipes:
       - Blend 1 min/speed 5-10, increasing gradually, and serve with smoked paprika.
 
   - name: Artichoke soup
+    health: [GREEN, "Artichokes and potato with olive oil: plenty of fibre and very few calories."]
+    nutrition: [170, 5, 20, 8]
     photo: thermomix-cremas-y-pures/crema-de-alcachofas.jpg
     category: Soups
     difficulty: EASY
@@ -422,6 +452,8 @@ recipes:
       - Blend 1 min/speed 5-10, increasing gradually. Strain if you want it very smooth.
 
   - name: Roasted red pepper soup
+    health: [GREEN, "Roasted peppers with little oil: plenty of vitamin C and few calories."]
+    nutrition: [160, 3, 19, 8]
     photo: thermomix-cremas-y-pures/crema-de-pimientos-rojos-asados.jpg
     category: Soups
     difficulty: EASY
@@ -448,6 +480,8 @@ recipes:
       - Blend 1 min/speed 5-10, increasing gradually.
 
   - name: Chestnut soup
+    health: [YELLOW, "Chestnuts with butter and cream: a tasty but calorie-rich soup. Have it in moderate portions."]
+    nutrition: [320, 4, 46, 14]
     photo: thermomix-cremas-y-pures/crema-de-castanas.jpg
     category: Soups
     difficulty: EASY
@@ -475,6 +509,8 @@ recipes:
       - Add the cream and blend 1 min/speed 5-10, increasing gradually.
 
   - name: Celeriac soup
+    health: [GREEN, "Celeriac, potato and apple with a little butter and cream. Light, with fibre."]
+    nutrition: [190, 3, 20, 11]
     photo: thermomix-cremas-y-pures/crema-de-apio-nabo.jpg
     category: Soups
     difficulty: EASY
@@ -502,6 +538,8 @@ recipes:
       - Add the cream and blend 1 min/speed 5-10, increasing gradually.
 
   - name: White bean soup
+    health: [GREEN, "Beans with olive oil and rosemary: plenty of fibre and plant protein. Filling and healthy."]
+    nutrition: [270, 12, 32, 10]
     category: Legumes
     difficulty: EASY
     prep: 5
@@ -526,6 +564,8 @@ recipes:
       - Blend 1 min/speed 5-10, increasing gradually, and serve with a drizzle of oil.
 
   - name: Beetroot soup
+    health: [GREEN, "Beetroot and potato with little oil and yoghurt. Few calories and full of antioxidants."]
+    nutrition: [190, 5, 22, 9]
     photo: thermomix-cremas-y-pures/crema-de-remolacha.jpg
     category: Soups
     difficulty: EASY

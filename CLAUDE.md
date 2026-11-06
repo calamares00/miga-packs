@@ -21,6 +21,10 @@ Recipe books that the Miga app installs from **Settings › Recipe packs**. See 
   "Electrodomésticos" / "Kitchen appliances", "Especiales" / "Specials". Reuse an existing series
   before creating a new one; both languages of a pack belong to the matching series.
 - Covers carry no recipe count. Redraw them with `node tools/render_covers.mjs`.
+- Every recipe has `health: [GREEN|YELLOW|RED, "short reason"]` (in the pack's language) and
+  `nutrition: [kcal, protein g, carbs g, fat g]` per serving, the same numbers in both languages;
+  the build requires them. Keep them in step when ingredients or servings change. The app shows
+  them and never sends pack recipes to the cooking assistant.
 - Recipe photos: real photos of the dish, in `photos/<topic>/<dish>.jpg` (the topic is the Spanish
   pack id, or `tapas`), 4:3 at 1280x960, JPEG without EXIF, each with its source, author and
   licence in `photos/<topic>/credits.yaml`. Licences: prefer CC0 / Public domain, then CC BY, then

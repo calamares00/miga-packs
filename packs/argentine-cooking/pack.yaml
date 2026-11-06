@@ -1,6 +1,6 @@
 id: argentine-cooking
-version: 2
-updated: 2026-11-05
+version: 3
+updated: 2026-11-06
 language: en
 name: "World cuisine: Argentina"
 series: World cuisine
@@ -23,6 +23,8 @@ defaults:
 recipes:
 
   - name: Beef short ribs on the grill
+    health: [RED, "Beef short ribs with plenty of fat and coarse salt: very hearty. Better with a salad and in moderate portions."]
+    nutrition: [780, 52, 0, 63]
     photo: cocina-argentina/tira-de-asado.jpg
     category: Meat
     difficulty: MEDIUM
@@ -46,6 +48,8 @@ recipes:
       - Cut between the bones and serve with chimichurri and salsa criolla.
 
   - name: Chimichurri
+    health: [GREEN, "A sauce of herbs, garlic and oil: good-quality fat and no sugar. High in calories from the oil, so it is used sparingly."]
+    nutrition: [170, 0, 1, 19]
     photo: cocina-argentina/chimichurri.jpg
     category: Sauces
     difficulty: EASY
@@ -71,6 +75,8 @@ recipes:
       - Stir in the vinegar and oil and transfer to a jar.
 
   - name: Salsa criolla
+    health: [GREEN, "Raw vegetables with vinegar and a little oil: very light, with vitamins."]
+    nutrition: [120, 1, 5, 11]
     photo: cocina-argentina/salsa-criolla.jpg
     category: Sauces
     difficulty: EASY
@@ -95,6 +101,8 @@ recipes:
       - Leave to rest for 30 minutes before serving.
 
   - name: Choripán
+    health: [RED, "A fatty sausage in white bread: a lot of saturated fat and salt. A classic for now and then."]
+    nutrition: [620, 24, 45, 38]
     photo: cocina-argentina/choripan.jpg
     category: Meat
     difficulty: EASY
@@ -117,6 +125,8 @@ recipes:
       - Put each chorizo in a roll with chimichurri and salsa criolla.
 
   - name: Provoleta
+    health: [RED, "Melted provolone: a lot of saturated fat and salt, though good protein. To share in small amounts."]
+    nutrition: [290, 20, 2, 23]
     photo: cocina-argentina/provoleta.jpg
     category: Starters
     difficulty: EASY
@@ -139,6 +149,8 @@ recipes:
       - Drizzle with the oil and serve straight away with bread.
 
   - name: Criolla beef empanadas
+    health: [YELLOW, "Minced beef with onion, egg and olives in pastry: complete but with fat. Baked they are lighter than fried."]
+    nutrition: [520, 26, 42, 27]
     photo: cocina-argentina/empanadas-criollas-de-carne.jpg
     category: Starters
     difficulty: MEDIUM
@@ -173,6 +185,8 @@ recipes:
       - Brush with egg and bake for 15-18 minutes, until golden.
 
   - name: Milanesa a la napolitana
+    health: [RED, "A breaded, fried steak topped with ham and mozzarella: a lot of fat and calories."]
+    nutrition: [720, 52, 35, 40]
     photo: cocina-argentina/milanesa-a-la-napolitana.jpg
     category: Meat
     difficulty: EASY
@@ -202,6 +216,8 @@ recipes:
       - Sprinkle with oregano and grill for 5-8 minutes, until the cheese melts.
 
   - name: Locro
+    health: [YELLOW, "Corn, beans and squash are very nourishing, but the pork belly, chorizo and trotters add a lot of fat."]
+    nutrition: [560, 30, 55, 24]
     photo: cocina-argentina/locro.jpg
     category: Legumes
     difficulty: HARD
@@ -237,6 +253,8 @@ recipes:
       - Serve the locro with a spoonful of quiquirimichi on top.
 
   - name: Matambre arrollado
+    health: [GREEN, "Lean beef rolled around egg and vegetables, cooked without added fat. High in protein."]
+    nutrition: [330, 42, 4, 16]
     photo: cocina-argentina/matambre-arrollado.jpg
     category: Meat
     difficulty: MEDIUM
@@ -264,6 +282,8 @@ recipes:
       - Let it cool in the water, then press it in the fridge under a weight overnight. Serve in thin slices.
 
   - name: Humita en olla
+    health: [GREEN, "Fresh corn with squash, milk and fresh cheese: high in fibre and moderate in fat."]
+    nutrition: [400, 15, 52, 15]
     category: Vegetables
     difficulty: MEDIUM
     prep: 30
@@ -291,6 +311,8 @@ recipes:
       - Adjust the salt and sugar, add the basil and cheese and serve as it starts to melt.
 
   - name: Carbonada criolla
+    health: [GREEN, "A beef stew with lots of vegetables, squash and sweet potato. Complete, though the peaches in syrup add sugar."]
+    nutrition: [470, 28, 58, 13]
     photo: cocina-argentina/carbonada-criolla.jpg
     category: Meat
     difficulty: MEDIUM
@@ -322,6 +344,8 @@ recipes:
       - Add the peaches in pieces, simmer for 5 minutes and season with salt.
 
   - name: Gnocchi with tuco
+    health: [GREEN, "Potato gnocchi with a home-made tomato sauce: simple and low in fat."]
+    nutrition: [450, 11, 85, 8]
     photo: cocina-argentina/noquis-con-tuco.jpg
     category: Pasta
     difficulty: MEDIUM
@@ -361,6 +385,8 @@ recipes:
           - Cook in boiling salted water and lift them out when they rise to the surface. Serve with the tuco and grated cheese.
 
   - name: Pastel de papa
+    health: [YELLOW, "Minced beef with vegetables, egg and mashed potato: complete, though the meat and buttery mash add fat."]
+    nutrition: [560, 30, 45, 28]
     photo: cocina-argentina/pastel-de-papa.jpg
     category: Meat
     difficulty: EASY
@@ -397,6 +423,8 @@ recipes:
       - Sprinkle with the grated cheese and bake for 20-25 minutes, until golden.
 
   - name: Revuelto gramajo
+    health: [RED, "Fried potatoes with ham and egg scrambled with butter: a lot of fat and salt."]
+    nutrition: [520, 22, 30, 35]
     photo: cocina-argentina/revuelto-gramajo.jpg
     category: Eggs
     difficulty: EASY
@@ -423,6 +451,8 @@ recipes:
       - Fold in the fried potatoes for just a moment so they stay crisp and serve with parsley.
 
   - name: Home-made dulce de leche
+    health: [RED, "Milk with a lot of sugar reduced to a spread: very sweet. Use in small amounts."]
+    nutrition: [310, 7, 52, 8]
     photo: cocina-argentina/dulce-de-leche-casero.jpg
     category: Desserts
     difficulty: EASY
@@ -444,6 +474,8 @@ recipes:
       - Add the vanilla and transfer to clean jars. It thickens further as it cools.
 
   - name: Cornflour alfajores
+    health: [RED, "Cornflour biscuits with butter and dulce de leche: a lot of sugar and fat."]
+    nutrition: [260, 3, 37, 11]
     photo: cocina-argentina/alfajores-de-maicena.jpg
     category: Desserts
     difficulty: MEDIUM
@@ -475,6 +507,8 @@ recipes:
       - Sandwich them in pairs with dulce de leche and roll the edges in coconut.
 
   - name: Pastafrola
+    health: [RED, "A tart with buttery pastry and quince paste: very sweet and high in calories."]
+    nutrition: [450, 5, 72, 17]
     photo: cocina-argentina/pastafrola.jpg
     category: Desserts
     difficulty: EASY
@@ -503,6 +537,8 @@ recipes:
       - Bake for 30-35 minutes, until golden.
 
   - name: Medialunas
+    health: [RED, "Pastries with plenty of butter and syrup: saturated fat and sugar. An occasional treat."]
+    nutrition: [270, 4, 30, 15]
     category: Breads and doughs
     difficulty: HARD
     prep: 180
@@ -535,6 +571,8 @@ recipes:
       - Brush with egg and bake at 200 °C for 12-15 minutes. Boil the sugar with the water for 2 minutes and brush the medialunas as they come out of the oven.
 
   - name: Tortas fritas
+    health: [RED, "Dough fried in fat and dusted with sugar: a lot of fat. An occasional treat."]
+    nutrition: [230, 4, 32, 10]
     photo: cocina-argentina/tortas-fritas.jpg
     category: Breads and doughs
     difficulty: EASY
@@ -559,6 +597,8 @@ recipes:
       - Drain and sprinkle with sugar.
 
   - name: Chipá
+    health: [YELLOW, "Starch rolls with cheese and butter: gluten-free but with fat and salt."]
+    nutrition: [150, 4, 19, 7]
     photo: cocina-argentina/chipa.jpg
     category: Breads and doughs
     difficulty: EASY

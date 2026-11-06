@@ -1,6 +1,6 @@
 id: cocina-mexicana
-version: 3
-updated: 2026-11-05
+version: 4
+updated: 2026-11-06
 language: es
 name: "Cocina del mundo: México"
 series: Cocina del mundo
@@ -22,6 +22,8 @@ defaults:
 recipes:
 
   - name: Tacos al pastor
+    health: [YELLOW, "Cerdo adobado con especias y piña en tortillas de maíz: sabroso y completo, aunque el cerdo aporta grasa."]
+    nutrition: [520, 32, 45, 22]
     photo: cocina-mexicana/tacos-al-pastor.jpg
     category: Carnes
     difficulty: MEDIUM
@@ -63,6 +65,8 @@ recipes:
       - Calienta las tortillas y sirve la carne con piña, cebolla, cilantro y unas gotas de lima.
 
   - name: Guacamole
+    health: [GREEN, "Aguacate con tomate, cebolla y lima: grasas saludables, fibra y vitaminas."]
+    nutrition: [190, 3, 11, 16]
     photo: cocina-mexicana/guacamole.jpg
     category: Salsas
     difficulty: EASY
@@ -87,6 +91,8 @@ recipes:
       - Sala al gusto y sirve enseguida con totopos.
 
   - name: Pico de gallo
+    health: [GREEN, "Tomate, cebolla, chile y cilantro frescos: casi sin calorías y lleno de vitaminas."]
+    nutrition: [35, 1, 7, 0]
     photo: cocina-mexicana/pico-de-gallo.jpg
     category: Salsas
     difficulty: EASY
@@ -109,6 +115,8 @@ recipes:
       - Deja reposar 10 minutos antes de servir para que se mezclen los sabores.
 
   - name: Salsa verde
+    health: [GREEN, "Tomatillo con chile y cilantro, sin grasa: muy ligera."]
+    nutrition: [30, 1, 6, 1]
     photo: cocina-mexicana/salsa-verde.jpg
     category: Salsas
     difficulty: EASY
@@ -132,6 +140,8 @@ recipes:
       - Prueba de sal y deja enfriar. Se conserva 5 días en la nevera.
 
   - name: Chilaquiles verdes
+    health: [YELLOW, "Totopos fritos con salsa verde, huevo, crema y queso: completo, pero con bastante grasa."]
+    nutrition: [560, 18, 45, 35]
     photo: cocina-mexicana/chilaquiles-verdes.jpg
     category: Huevos
     difficulty: EASY
@@ -157,6 +167,8 @@ recipes:
       - Sirve los chilaquiles con el huevo encima, la crema, el queso, la cebolla y el cilantro.
 
   - name: Enchiladas rojas
+    health: [YELLOW, "Tortillas rellenas de pollo en salsa de chiles, con crema y queso: completo, con grasa moderada."]
+    nutrition: [520, 34, 42, 24]
     photo: cocina-mexicana/enchiladas-rojas.jpg
     category: Carnes
     difficulty: MEDIUM
@@ -193,6 +205,8 @@ recipes:
       - Hornea a 200 °C 10-12 minutos y sirve con crema y lechuga.
 
   - name: Pozole rojo
+    health: [YELLOW, "Caldo de cerdo con maíz y verduras crudas: nutritivo, pero con grasa de la carne."]
+    nutrition: [460, 32, 38, 20]
     photo: cocina-mexicana/pozole-rojo.jpg
     category: Sopas y cremas
     difficulty: MEDIUM
@@ -237,6 +251,8 @@ recipes:
           - Sirve muy caliente y deja que cada uno añada lechuga, rábano, cebolla, orégano y lima.
 
   - name: Sopa de tortilla
+    health: [YELLOW, "Caldo de tomate con tortilla frita, aguacate y queso: sabrosa, pero la tortilla frita suma grasa."]
+    nutrition: [400, 9, 32, 27]
     photo: cocina-mexicana/sopa-de-tortilla.jpg
     category: Sopas y cremas
     difficulty: EASY
@@ -266,6 +282,8 @@ recipes:
       - Sirve la sopa sobre las tiras de tortilla con aguacate, queso, crema y el resto del chile desmenuzado.
 
   - name: Cochinita pibil
+    health: [YELLOW, "Cerdo marinado en achiote y cítricos, asado lentamente: mucha proteína, pero corte graso."]
+    nutrition: [470, 40, 8, 30]
     photo: cocina-mexicana/cochinita-pibil.jpg
     category: Carnes
     difficulty: MEDIUM
@@ -307,6 +325,8 @@ recipes:
           - Sirve la cochinita en tortillas o pan, con la cebolla encurtida.
 
   - name: Tinga de pollo
+    health: [GREEN, "Pollo magro en salsa de tomate y chipotle: mucha proteína y poca grasa."]
+    nutrition: [420, 40, 38, 11]
     photo: cocina-mexicana/tinga-de-pollo.jpg
     category: Carnes
     difficulty: EASY
@@ -337,6 +357,8 @@ recipes:
       - Sirve sobre tostadas untadas con frijoles, con lechuga y crema.
 
   - name: Frijoles refritos
+    health: [YELLOW, "Frijoles con mucha fibra y proteína vegetal, pero refritos en manteca de cerdo."]
+    nutrition: [320, 15, 40, 11]
     photo: cocina-mexicana/frijoles-refritos.jpg
     category: Legumbres
     difficulty: EASY
@@ -361,6 +383,8 @@ recipes:
       - Sirve con queso fresco por encima.
 
   - name: Arroz rojo mexicano
+    health: [GREEN, "Arroz con tomate y verduras: sencillo y con poca grasa."]
+    nutrition: [330, 7, 56, 9]
     photo: cocina-mexicana/arroz-rojo-mexicano.jpg
     category: Arroces
     difficulty: EASY
@@ -388,6 +412,8 @@ recipes:
       - Cuando hierva, tapa y cuece a fuego mínimo 15-18 minutos. Deja reposar 5 minutos tapado y suelta con un tenedor.
 
   - name: Huevos rancheros
+    health: [YELLOW, "Huevos fritos sobre tortilla con salsa de tomate y frijoles: completo, aunque con grasa por la fritura."]
+    nutrition: [520, 20, 45, 29]
     photo: cocina-mexicana/huevos-rancheros.jpg
     category: Huevos
     difficulty: EASY
@@ -414,6 +440,8 @@ recipes:
       - Sirve cada tortilla con frijoles, un huevo y la salsa ranchera por encima.
 
   - name: Quesadillas
+    health: [YELLOW, "Tortillas con queso fundido y champiñones: sabrosas, pero el queso aporta grasa y sal."]
+    nutrition: [420, 20, 40, 19]
     photo: cocina-mexicana/quesadillas.jpg
     category: Panes y masas
     difficulty: EASY
@@ -437,6 +465,8 @@ recipes:
       - Sirve con salsa verde.
 
   - name: Chiles rellenos de queso
+    health: [RED, "Chiles rellenos de queso, rebozados y fritos: mucha grasa."]
+    nutrition: [480, 22, 18, 36]
     photo: cocina-mexicana/chiles-rellenos-de-queso.jpg
     category: Verduras
     difficulty: HARD
@@ -475,6 +505,8 @@ recipes:
           - Sirve los chiles bañados en el caldillo caliente.
 
   - name: Carnitas
+    health: [RED, "Cerdo cocinado en su propia manteca: mucha grasa saturada."]
+    nutrition: [620, 48, 4, 46]
     photo: cocina-mexicana/carnitas.jpg
     category: Carnes
     difficulty: MEDIUM
@@ -503,6 +535,8 @@ recipes:
       - Escurre, desmenuza un poco y sirve en tortillas con cebolla, cilantro y salsa.
 
   - name: Esquites
+    health: [YELLOW, "Maíz dulce con mayonesa, queso y mantequilla: sabroso, pero con grasa."]
+    nutrition: [320, 9, 30, 19]
     photo: cocina-mexicana/esquites.jpg
     category: Verduras
     difficulty: EASY
@@ -527,6 +561,8 @@ recipes:
       - Sirve en vasos con mayonesa, queso, chile en polvo y un chorrito de lima.
 
   - name: Agua de horchata
+    health: [YELLOW, "Bebida de arroz con leche y azúcar: refrescante, pero dulce."]
+    nutrition: [190, 3, 40, 2]
     photo: cocina-mexicana/agua-de-horchata.jpg
     category: Bebidas
     difficulty: EASY
@@ -553,6 +589,8 @@ recipes:
       - Enfría en la nevera y sirve con mucho hielo.
 
   - name: Agua de jamaica
+    health: [YELLOW, "Infusión de hibisco con antioxidantes, pero con azúcar añadido. Con menos azúcar es más sana."]
+    nutrition: [80, 0, 21, 0]
     photo: cocina-mexicana/agua-de-jamaica.jpg
     category: Bebidas
     difficulty: EASY
@@ -574,6 +612,8 @@ recipes:
       - Sirve muy fría con hielo.
 
   - name: Flan napolitano
+    health: [RED, "Flan con leche condensada, queso crema y caramelo: mucho azúcar y grasa."]
+    nutrition: [380, 10, 50, 16]
     photo: cocina-mexicana/flan-napolitano.jpg
     category: Postres
     difficulty: MEDIUM

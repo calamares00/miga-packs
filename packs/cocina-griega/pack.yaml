@@ -1,6 +1,6 @@
 id: cocina-griega
-version: 2
-updated: 2026-11-05
+version: 3
+updated: 2026-11-06
 language: es
 name: "Cocina del mundo: Grecia"
 series: Cocina del mundo
@@ -23,6 +23,8 @@ defaults:
 recipes:
 
   - name: Souvlaki de cerdo con pita
+    health: [YELLOW, "Brochetas de cerdo con pan de pita y salsa de yogur. Buena proteína, aunque la aguja es un corte algo graso."]
+    nutrition: [620, 44, 40, 30]
     photo: cocina-griega/souvlaki-de-cerdo-con-pita.jpg
     category: Carnes
     difficulty: EASY
@@ -55,6 +57,8 @@ recipes:
       - Calienta las pitas y sírvelas con la carne, el tzatziki, el tomate y la cebolla en rodajas finas. En Grecia se le añaden unas patatas fritas dentro.
 
   - name: Spanakopita
+    health: [GREEN, "Espinacas, hierbas y feta en masa filo con aceite de oliva: mucha verdura, aunque el queso aporta sal."]
+    nutrition: [290, 12, 18, 19]
     photo: cocina-griega/spanakopita.jpg
     category: Panes y masas
     difficulty: MEDIUM
@@ -81,6 +85,8 @@ recipes:
       - Marca las porciones con un cuchillo y hornea 40-45 minutos, hasta que esté dorada.
 
   - name: Pastitsio
+    health: [YELLOW, "Pasta con carne y bechamel al horno: muy completo, pero calórico y con grasa."]
+    nutrition: [620, 32, 60, 27]
     photo: cocina-griega/pastitsio.jpg
     category: Pastas
     difficulty: HARD
@@ -128,6 +134,8 @@ recipes:
           - Hornea 45 minutos, hasta que esté dorado. Deja que repose 20 minutos antes de cortarlo.
 
   - name: Gemista
+    health: [GREEN, "Tomates y pimientos rellenos de arroz y hierbas con aceite de oliva: mucha verdura y fibra."]
+    nutrition: [430, 7, 55, 21]
     photo: cocina-griega/gemista.jpg
     category: Verduras
     difficulty: MEDIUM
@@ -159,6 +167,8 @@ recipes:
       - Hornea 1 hora y 10 minutos, hasta que el arroz esté hecho y las verduras doradas.
 
   - name: Fasolada
+    health: [GREEN, "Sopa de alubias con verduras y aceite de oliva: mucha fibra y proteína vegetal."]
+    nutrition: [470, 18, 52, 21]
     photo: cocina-griega/fasolada.jpg
     category: Legumbres
     difficulty: EASY
@@ -186,6 +196,8 @@ recipes:
       - Añade el tomate, el concentrado, el resto del aceite, la sal y la pimienta, y cuece 30 minutos más, hasta que el caldo espese.
 
   - name: Sopa avgolemono
+    health: [GREEN, "Caldo con arroz, pollo y salsa de huevo y limón: ligera, nutritiva y con proteína."]
+    nutrition: [310, 28, 26, 9]
     photo: cocina-griega/sopa-avgolemono.jpg
     category: Sopas y cremas
     difficulty: MEDIUM
@@ -210,6 +222,8 @@ recipes:
       - Vierte la mezcla en la olla, removiendo, y calienta sin que llegue a hervir hasta que la sopa espese un poco. Salpimienta.
 
   - name: Dolmades
+    health: [GREEN, "Hojas de parra rellenas de arroz y hierbas con aceite de oliva: plato vegetal y con fibra."]
+    nutrition: [390, 5, 45, 21]
     photo: cocina-griega/dolmades.jpg
     category: Entrantes
     difficulty: MEDIUM
@@ -238,6 +252,8 @@ recipes:
       - Riega con el resto del aceite, el zumo de limón restante y el agua, pon un plato encima para que no se muevan y cuece tapado a fuego suave 45-50 minutos.
 
   - name: Keftedes
+    health: [YELLOW, "Albóndigas de carne con hierbas, fritas: buena proteína, aunque con grasa."]
+    nutrition: [430, 26, 12, 31]
     photo: cocina-griega/keftedes.jpg
     category: Carnes
     difficulty: EASY
@@ -267,6 +283,8 @@ recipes:
       - Fríelas en aceite caliente 5-6 minutos, hasta que estén doradas. Sírvelas con limón.
 
   - name: Briam
+    health: [GREEN, "Verduras asadas con tomate y aceite de oliva: mucha fibra y antioxidantes."]
+    nutrition: [330, 5, 30, 22]
     photo: cocina-griega/briam.jpg
     category: Verduras
     difficulty: EASY
@@ -297,6 +315,8 @@ recipes:
       - Tapa con papel de aluminio y hornea 45 minutos. Destapa, remueve con cuidado y hornea 30 minutos más, hasta que las verduras estén tiernas y doradas.
 
   - name: Fava de Santorini
+    health: [GREEN, "Puré de guisantes amarillos con aceite de oliva: proteína vegetal, fibra y grasas saludables."]
+    nutrition: [280, 10, 30, 13]
     category: Legumbres
     difficulty: EASY
     prep: 10
@@ -324,6 +344,8 @@ recipes:
       - Sirve templado con el resto del aceite, las alcaparras y la cebolla morada.
 
   - name: Kleftiko
+    health: [YELLOW, "Cordero con patatas, limón y feta al horno: completo, pero el cordero y el queso aportan grasa."]
+    nutrition: [720, 52, 32, 42]
     photo: cocina-griega/kleftiko.jpg
     category: Carnes
     difficulty: MEDIUM
@@ -354,6 +376,8 @@ recipes:
       - Abre el paquete, sube el horno a 200 °C y dora 15 minutos más.
 
   - name: Stifado de ternera
+    health: [GREEN, "Ternera guisada con muchas cebollitas, tomate y especias: proteína magra y verdura."]
+    nutrition: [420, 40, 20, 18]
     photo: cocina-griega/stifado-de-ternera.jpg
     category: Carnes
     difficulty: MEDIUM
@@ -384,6 +408,8 @@ recipes:
       - Añade las cebollitas y cuece 45-60 minutos más, hasta que la carne esté tierna y la salsa espesa.
 
   - name: Queso saganaki
+    health: [RED, "Queso frito en aceite: mucha grasa saturada y sal. Para compartir en poca cantidad."]
+    nutrition: [340, 17, 6, 28]
     photo: cocina-griega/queso-saganaki.jpg
     category: Entrantes
     difficulty: EASY
@@ -404,6 +430,8 @@ recipes:
       - Sírvelo enseguida con zumo de limón por encima.
 
   - name: Gambas saganaki
+    health: [GREEN, "Gambas en salsa de tomate con feta: mucha proteína. El queso aporta grasa y sal."]
+    nutrition: [320, 30, 8, 18]
     photo: cocina-griega/gambas-saganaki.jpg
     category: Pescados y mariscos
     difficulty: EASY
@@ -431,6 +459,8 @@ recipes:
       - Desmenuza el feta por encima, tapa y cuece 3-4 minutos más, hasta que el queso se ablande. Sirve con perejil.
 
   - name: Gigantes plaki
+    health: [GREEN, "Judiones al horno con tomate y hierbas: mucha fibra y proteína vegetal."]
+    nutrition: [420, 18, 50, 15]
     photo: cocina-griega/gigantes-plaki.jpg
     category: Legumbres
     difficulty: EASY
@@ -461,6 +491,8 @@ recipes:
       - Riega con el resto del aceite y hornea 50-60 minutos, hasta que la salsa espese y la superficie se dore.
 
   - name: Taramosalata
+    health: [YELLOW, "Crema de huevas de pescado con pan y mucho aceite: calórica y salada. Para untar en poca cantidad."]
+    nutrition: [340, 4, 14, 30]
     photo: cocina-griega/taramosalata.jpg
     category: Salsas
     difficulty: EASY
@@ -484,6 +516,8 @@ recipes:
       - Refrigera al menos 1 hora y sirve con pan de pita.
 
   - name: Melitzanosalata
+    health: [GREEN, "Berenjena asada con ajo y aceite de oliva: ligera y con fibra."]
+    nutrition: [110, 1, 7, 9]
     photo: cocina-griega/melitzanosalata.jpg
     category: Salsas
     difficulty: EASY
@@ -509,6 +543,8 @@ recipes:
       - Sirve frío o a temperatura ambiente con pan.
 
   - name: Spanakorizo
+    health: [GREEN, "Arroz con muchas espinacas, hierbas y aceite de oliva. El feta aporta sal."]
+    nutrition: [550, 14, 50, 34]
     photo: cocina-griega/spanakorizo.jpg
     category: Arroces
     difficulty: EASY
@@ -537,6 +573,8 @@ recipes:
       - Añade el eneldo y el zumo de limón y sirve con feta desmenuzado.
 
   - name: Loukoumades
+    health: [RED, "Buñuelos fritos bañados en miel: mucha grasa y azúcar."]
+    nutrition: [430, 6, 72, 14]
     photo: cocina-griega/loukoumades.jpg
     category: Postres
     difficulty: MEDIUM
@@ -569,6 +607,8 @@ recipes:
       - Báñalas en el almíbar y sírvelas con nueces y canela.
 
   - name: Baklava
+    health: [RED, "Masa filo con nueces, mantequilla y almíbar: muy dulce y calórica. En porciones pequeñas."]
+    nutrition: [450, 6, 50, 26]
     photo: cocina-griega/baklava.jpg
     category: Postres
     difficulty: MEDIUM

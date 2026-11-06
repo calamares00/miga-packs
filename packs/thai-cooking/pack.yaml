@@ -1,6 +1,6 @@
 id: thai-cooking
-version: 2
-updated: 2026-11-05
+version: 3
+updated: 2026-11-06
 language: en
 name: "World cuisine: Thailand"
 series: World cuisine
@@ -23,6 +23,8 @@ defaults:
 recipes:
 
   - name: Pad thai
+    health: [YELLOW, "Rice noodles with prawns, tofu, egg and vegetables: complete, but with sugar and oil."]
+    nutrition: [650, 34, 80, 22]
     photo: cocina-tailandesa/pad-thai.jpg
     category: Pasta
     difficulty: MEDIUM
@@ -62,6 +64,8 @@ recipes:
       - Add the bean sprouts and chives in lengths, toss for 30 seconds and serve with peanuts, chilli powder and lime.
 
   - name: Tom yum kung
+    health: [GREEN, "A hot and sour prawn and mushroom soup: high in protein and very low in calories."]
+    nutrition: [150, 22, 8, 3]
     photo: cocina-tailandesa/tom-yum-kung.jpg
     category: Soups
     difficulty: EASY
@@ -90,6 +94,8 @@ recipes:
       - Off the heat, add the fish sauce, lime juice and nam prik pao. Taste and adjust. Serve with coriander.
 
   - name: Tom kha gai
+    health: [YELLOW, "A chicken soup with coconut milk: protein and aromas, but the coconut adds saturated fat."]
+    nutrition: [380, 26, 10, 27]
     photo: cocina-tailandesa/tom-kha-gai.jpg
     category: Soups
     difficulty: EASY
@@ -119,6 +125,8 @@ recipes:
       - Off the heat, add the fish sauce, sugar and lime juice. Serve with coriander.
 
   - name: Green chicken curry
+    health: [YELLOW, "Chicken and aubergine in green curry with coconut milk: complete, but with saturated fat from the coconut."]
+    nutrition: [460, 30, 12, 33]
     photo: cocina-tailandesa/curry-verde-de-pollo.jpg
     category: Meat
     difficulty: EASY
@@ -147,6 +155,8 @@ recipes:
       - Season with the fish sauce and sugar. Add the basil and sliced chilli and serve with jasmine rice.
 
   - name: Beef massaman curry
+    health: [YELLOW, "Beef and potato in a coconut curry with peanuts: very complete but calorie-dense and fatty."]
+    nutrition: [620, 32, 30, 42]
     photo: cocina-tailandesa/curry-massaman-de-ternera.jpg
     category: Meat
     difficulty: MEDIUM
@@ -176,6 +186,8 @@ recipes:
       - Simmer for 40 minutes, until the potatoes are tender. Season with the tamarind, sugar and fish sauce.
 
   - name: Pork panang curry
+    health: [YELLOW, "Lean pork in a coconut curry: good protein, though the coconut milk adds saturated fat."]
+    nutrition: [450, 32, 8, 32]
     photo: cocina-tailandesa/curry-panang-de-cerdo.jpg
     category: Meat
     difficulty: EASY
@@ -203,6 +215,8 @@ recipes:
       - Serve with the very finely shredded lime leaves, sliced chilli and basil.
 
   - name: Som tam
+    health: [GREEN, "Green papaya with vegetables, peanuts and lime: very light, spicy and with fibre."]
+    nutrition: [120, 4, 16, 5]
     photo: cocina-tailandesa/som-tam.jpg
     category: Salads
     difficulty: EASY
@@ -231,6 +245,8 @@ recipes:
       - Taste and adjust. Serve straight away with sticky rice.
 
   - name: Larb gai
+    health: [GREEN, "Minced chicken with fresh herbs and lime: high in protein and very low in fat."]
+    nutrition: [220, 24, 8, 10]
     photo: cocina-tailandesa/larb-gai.jpg
     category: Salads
     difficulty: EASY
@@ -260,6 +276,8 @@ recipes:
       - Stir in the mint, coriander and toasted rice. Serve warm with lettuce leaves.
 
   - name: Thai fried rice (khao pad)
+    health: [YELLOW, "Fried rice with prawns and egg: complete, though with oil and fish sauce."]
+    nutrition: [620, 34, 85, 15]
     photo: cocina-tailandesa/arroz-frito-tailandes-khao-pad.jpg
     category: Rice
     difficulty: EASY
@@ -292,6 +310,8 @@ recipes:
       - Serve with cucumber slices and lime wedges.
 
   - name: Pad kra pao
+    health: [YELLOW, "Minced meat stir-fried with basil and chilli: protein, but served with rice and a fried egg."]
+    nutrition: [520, 40, 14, 34]
     photo: cocina-tailandesa/pad-kra-pao.jpg
     category: Meat
     difficulty: EASY
@@ -323,6 +343,8 @@ recipes:
       - Serve over rice with the fried egg on top.
 
   - name: Pad see ew
+    health: [YELLOW, "Wide noodles stir-fried with chicken, greens and egg: complete, but with sweet and salty sauces."]
+    nutrition: [680, 34, 90, 20]
     photo: cocina-tailandesa/pad-see-ew.jpg
     category: Pasta
     difficulty: EASY
@@ -353,6 +375,8 @@ recipes:
       - Serve with white pepper.
 
   - name: Cashew chicken
+    health: [YELLOW, "Chicken with cashews and vegetables: good protein and healthy fats, with sauces that add salt."]
+    nutrition: [400, 30, 16, 24]
     photo: cocina-tailandesa/pollo-con-anacardos.jpg
     category: Meat
     difficulty: EASY
@@ -386,6 +410,8 @@ recipes:
       - Add the cashews, chillies and spring onion in lengths and serve with rice.
 
   - name: Thai beef salad (yam nua)
+    health: [GREEN, "Grilled beef with fresh vegetables, herbs and lime: protein and vegetables with little fat."]
+    nutrition: [280, 26, 10, 15]
     category: Salads
     difficulty: EASY
     prep: 20
@@ -416,6 +442,8 @@ recipes:
       - Pour over the dressing and serve straight away.
 
   - name: Thai fish cakes (tod mun pla)
+    health: [YELLOW, "Fish cakes with curry paste, deep-fried: protein, but with fat."]
+    nutrition: [260, 22, 6, 16]
     photo: cocina-tailandesa/tortitas-de-pescado-tod-mun-pla.jpg
     category: Fish and seafood
     difficulty: MEDIUM
@@ -452,6 +480,8 @@ recipes:
       - Fry them in oil at 170 °C for 2-3 minutes on each side, until golden and puffed. Serve with the relish.
 
   - name: Thai omelette (kai jeow)
+    health: [RED, "An omelette deep-fried in plenty of oil, over rice: very fatty."]
+    nutrition: [620, 20, 56, 34]
     category: Eggs
     difficulty: EASY
     prep: 5
@@ -475,6 +505,8 @@ recipes:
       - Fry for 1 minute, flip and fry for 30 more seconds. Drain and serve over the rice with sriracha.
 
   - name: Khao man gai
+    health: [YELLOW, "Rice cooked in stock with chicken fat, and chicken with skin: complete but fatty."]
+    nutrition: [620, 32, 78, 20]
     photo: cocina-tailandesa/khao-man-gai.jpg
     category: Rice
     difficulty: MEDIUM
@@ -519,6 +551,8 @@ recipes:
       - Serve the rice with the sliced chicken, cucumber, coriander, the sauce and a bowl of hot stock.
 
   - name: Isan grilled chicken (gai yang)
+    health: [YELLOW, "Marinated grilled chicken: high in protein, though the skin adds fat."]
+    nutrition: [420, 40, 4, 27]
     photo: cocina-tailandesa/pollo-a-la-parrilla-de-isan-gai-yang.jpg
     category: Meat
     difficulty: EASY
@@ -546,6 +580,8 @@ recipes:
       - Serve with jaew sauce, som tam and sticky rice.
 
   - name: Jaew dipping sauce
+    health: [GREEN, "A sauce of chilli, lime and fish sauce: almost no calories, but salty."]
+    nutrition: [25, 1, 5, 0]
     photo: cocina-tailandesa/salsa-jaew.jpg
     category: Sauces
     difficulty: EASY
@@ -571,6 +607,8 @@ recipes:
       - Add the chilli powder, the thinly sliced shallot, the toasted rice and the coriander.
 
   - name: Mango sticky rice
+    health: [RED, "Sticky rice with coconut milk and sugar: very sweet and with coconut fat. The mango adds vitamins."]
+    nutrition: [520, 7, 82, 19]
     photo: cocina-tailandesa/mango-con-arroz-glutinoso.jpg
     category: Desserts
     difficulty: MEDIUM
@@ -604,6 +642,8 @@ recipes:
       - Serve the rice with the peeled, sliced mango, the sauce on top and the sesame seeds.
 
   - name: Thai iced tea (cha yen)
+    health: [RED, "Tea with plenty of sugar and condensed milk: very sweet."]
+    nutrition: [300, 6, 58, 6]
     photo: cocina-tailandesa/te-tailandes-helado-cha-yen.jpg
     category: Drinks
     difficulty: EASY

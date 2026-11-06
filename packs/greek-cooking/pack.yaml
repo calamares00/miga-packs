@@ -1,6 +1,6 @@
 id: greek-cooking
-version: 2
-updated: 2026-11-05
+version: 3
+updated: 2026-11-06
 language: en
 name: "World cuisine: Greece"
 series: World cuisine
@@ -23,6 +23,8 @@ defaults:
 recipes:
 
   - name: Pork souvlaki with pitta
+    health: [YELLOW, "Pork skewers with pitta and a yoghurt sauce. Good protein, though shoulder is a slightly fatty cut."]
+    nutrition: [620, 44, 40, 30]
     photo: cocina-griega/souvlaki-de-cerdo-con-pita.jpg
     category: Meat
     difficulty: EASY
@@ -55,6 +57,8 @@ recipes:
       - Warm the pittas and serve with the meat, tzatziki and thinly sliced tomato and onion. In Greece, a few chips go inside too.
 
   - name: Spanakopita
+    health: [GREEN, "Spinach, herbs and feta in filo with olive oil: plenty of vegetables, though the cheese adds salt."]
+    nutrition: [290, 12, 18, 19]
     photo: cocina-griega/spanakopita.jpg
     category: Breads and doughs
     difficulty: MEDIUM
@@ -81,6 +85,8 @@ recipes:
       - Score the portions with a knife and bake for 40-45 minutes, until golden.
 
   - name: Pastitsio
+    health: [YELLOW, "Pasta baked with meat and béchamel: very complete, but high in calories and fat."]
+    nutrition: [620, 32, 60, 27]
     photo: cocina-griega/pastitsio.jpg
     category: Pasta
     difficulty: HARD
@@ -128,6 +134,8 @@ recipes:
           - Bake for 45 minutes, until golden. Rest for 20 minutes before cutting.
 
   - name: Gemista
+    health: [GREEN, "Tomatoes and peppers stuffed with rice and herbs in olive oil: plenty of vegetables and fibre."]
+    nutrition: [430, 7, 55, 21]
     photo: cocina-griega/gemista.jpg
     category: Vegetables
     difficulty: MEDIUM
@@ -159,6 +167,8 @@ recipes:
       - Bake for 1 hour 10 minutes, until the rice is cooked and the vegetables are golden.
 
   - name: Fasolada
+    health: [GREEN, "A bean soup with vegetables and olive oil: plenty of fibre and plant protein."]
+    nutrition: [470, 18, 52, 21]
     photo: cocina-griega/fasolada.jpg
     category: Legumes
     difficulty: EASY
@@ -186,6 +196,8 @@ recipes:
       - Add the tomatoes, tomato purée, the rest of the oil, salt and pepper, and simmer for 30 more minutes, until the broth thickens.
 
   - name: Avgolemono soup
+    health: [GREEN, "A broth with rice, chicken and an egg and lemon sauce: light, nourishing and with protein."]
+    nutrition: [310, 28, 26, 9]
     photo: cocina-griega/sopa-avgolemono.jpg
     category: Soups
     difficulty: MEDIUM
@@ -210,6 +222,8 @@ recipes:
       - Pour the mixture into the pot, stirring, and heat without boiling until the soup thickens slightly. Season.
 
   - name: Dolmades
+    health: [GREEN, "Vine leaves stuffed with rice and herbs in olive oil: a vegetable dish with fibre."]
+    nutrition: [390, 5, 45, 21]
     photo: cocina-griega/dolmades.jpg
     category: Starters
     difficulty: MEDIUM
@@ -238,6 +252,8 @@ recipes:
       - Pour over the rest of the oil, the remaining lemon juice and the water, weigh down with a plate so they don't move and simmer covered for 45-50 minutes.
 
   - name: Keftedes
+    health: [YELLOW, "Meatballs with herbs, fried: good protein, though with fat."]
+    nutrition: [430, 26, 12, 31]
     photo: cocina-griega/keftedes.jpg
     category: Meat
     difficulty: EASY
@@ -267,6 +283,8 @@ recipes:
       - Fry in hot oil for 5-6 minutes, until golden. Serve with lemon.
 
   - name: Briam
+    health: [GREEN, "Vegetables roasted with tomato and olive oil: plenty of fibre and antioxidants."]
+    nutrition: [330, 5, 30, 22]
     photo: cocina-griega/briam.jpg
     category: Vegetables
     difficulty: EASY
@@ -297,6 +315,8 @@ recipes:
       - Cover with foil and bake for 45 minutes. Uncover, stir gently and bake for 30 more minutes, until the vegetables are tender and golden.
 
   - name: Santorini fava
+    health: [GREEN, "A yellow split pea purée with olive oil: plant protein, fibre and healthy fats."]
+    nutrition: [280, 10, 30, 13]
     category: Legumes
     difficulty: EASY
     prep: 10
@@ -324,6 +344,8 @@ recipes:
       - Serve warm with the rest of the oil, the capers and the red onion.
 
   - name: Kleftiko
+    health: [YELLOW, "Lamb baked with potatoes, lemon and feta: complete, but the lamb and cheese add fat."]
+    nutrition: [720, 52, 32, 42]
     photo: cocina-griega/kleftiko.jpg
     category: Meat
     difficulty: MEDIUM
@@ -354,6 +376,8 @@ recipes:
       - Open the parcel, raise the oven to 200 °C and brown for 15 more minutes.
 
   - name: Beef stifado
+    health: [GREEN, "Beef stewed with plenty of small onions, tomato and spices: lean protein and vegetables."]
+    nutrition: [420, 40, 20, 18]
     photo: cocina-griega/stifado-de-ternera.jpg
     category: Meat
     difficulty: MEDIUM
@@ -384,6 +408,8 @@ recipes:
       - Add the onions and simmer for 45-60 more minutes, until the meat is tender and the sauce thick.
 
   - name: Saganaki cheese
+    health: [RED, "Cheese fried in oil: a lot of saturated fat and salt. To share in small amounts."]
+    nutrition: [340, 17, 6, 28]
     photo: cocina-griega/queso-saganaki.jpg
     category: Starters
     difficulty: EASY
@@ -404,6 +430,8 @@ recipes:
       - Serve straight away with a squeeze of lemon.
 
   - name: Prawn saganaki
+    health: [GREEN, "Prawns in a tomato sauce with feta: plenty of protein. The cheese adds fat and salt."]
+    nutrition: [320, 30, 8, 18]
     photo: cocina-griega/gambas-saganaki.jpg
     category: Fish and seafood
     difficulty: EASY
@@ -431,6 +459,8 @@ recipes:
       - Crumble the feta over the top, cover and cook for 3-4 more minutes, until the cheese softens. Serve with parsley.
 
   - name: Gigantes plaki
+    health: [GREEN, "Giant beans baked with tomato and herbs: plenty of fibre and plant protein."]
+    nutrition: [420, 18, 50, 15]
     photo: cocina-griega/gigantes-plaki.jpg
     category: Legumes
     difficulty: EASY
@@ -461,6 +491,8 @@ recipes:
       - Drizzle with the rest of the oil and bake for 50-60 minutes, until the sauce thickens and the top browns.
 
   - name: Taramasalata
+    health: [YELLOW, "A fish roe spread with bread and plenty of oil: high in calories and salty. Spread it sparingly."]
+    nutrition: [340, 4, 14, 30]
     photo: cocina-griega/taramosalata.jpg
     category: Sauces
     difficulty: EASY
@@ -484,6 +516,8 @@ recipes:
       - Chill for at least 1 hour and serve with pitta bread.
 
   - name: Melitzanosalata
+    health: [GREEN, "Roasted aubergine with garlic and olive oil: light, with fibre."]
+    nutrition: [110, 1, 7, 9]
     photo: cocina-griega/melitzanosalata.jpg
     category: Sauces
     difficulty: EASY
@@ -509,6 +543,8 @@ recipes:
       - Serve cold or at room temperature with bread.
 
   - name: Spanakorizo
+    health: [GREEN, "Rice with plenty of spinach, herbs and olive oil. The feta adds salt."]
+    nutrition: [550, 14, 50, 34]
     photo: cocina-griega/spanakorizo.jpg
     category: Rice
     difficulty: EASY
@@ -537,6 +573,8 @@ recipes:
       - Stir in the dill and lemon juice and serve with crumbled feta.
 
   - name: Loukoumades
+    health: [RED, "Fried doughnuts soaked in honey: a lot of fat and sugar."]
+    nutrition: [430, 6, 72, 14]
     photo: cocina-griega/loukoumades.jpg
     category: Desserts
     difficulty: MEDIUM
@@ -569,6 +607,8 @@ recipes:
       - Toss them in the syrup and serve with walnuts and cinnamon.
 
   - name: Baklava
+    health: [RED, "Filo with walnuts, butter and syrup: very sweet and high in calories. In small portions."]
+    nutrition: [450, 6, 50, 26]
     photo: cocina-griega/baklava.jpg
     category: Desserts
     difficulty: MEDIUM

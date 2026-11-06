@@ -1,6 +1,6 @@
 id: cocina-indonesia
-version: 2
-updated: 2026-11-05
+version: 3
+updated: 2026-11-06
 language: es
 name: "Cocina del mundo: Indonesia"
 series: Cocina del mundo
@@ -23,6 +23,8 @@ defaults:
 recipes:
 
   - name: Nasi goreng
+    health: [YELLOW, "Arroz salteado con huevo y verdura: completo, pero la salsa dulce de soja y el aceite aportan azúcar, sal y grasa."]
+    nutrition: [520, 15, 72, 19]
     photo: cocina-indonesia/nasi-goreng.jpg
     category: Arroces
     difficulty: EASY
@@ -55,6 +57,8 @@ recipes:
       - Sirve el arroz con un huevo frito encima, rodajas de pepino y tomate y cebolla frita.
 
   - name: Mie goreng
+    health: [YELLOW, "Fideos con pollo, gambas y verduras: completo, aunque el kecap manis y el aceite suman azúcar, sal y grasa."]
+    nutrition: [560, 34, 64, 18]
     photo: cocina-indonesia/mie-goreng.jpg
     category: Pastas
     difficulty: EASY
@@ -87,6 +91,8 @@ recipes:
       - Incorpora las verduras, los fideos y las salsas y saltea a fuego fuerte 3 minutos. Sirve con cebolla frita.
 
   - name: Satay de pollo con salsa de cacahuete
+    health: [YELLOW, "Pollo a la brasa, buena proteína, con salsa de cacahuete: grasas saludables pero muy calórica."]
+    nutrition: [560, 42, 15, 37]
     photo: cocina-indonesia/satay-de-pollo-con-salsa-de-cacahuete.jpg
     category: Carnes
     difficulty: MEDIUM
@@ -128,6 +134,8 @@ recipes:
           - Sirve las brochetas con la salsa por encima.
 
   - name: Gado-gado
+    health: [GREEN, "Verduras, tofu, huevo y patata con salsa de cacahuete: muy completo y rico en fibra."]
+    nutrition: [500, 23, 35, 31]
     photo: cocina-indonesia/gado-gado.jpg
     category: Ensaladas
     difficulty: EASY
@@ -165,6 +173,8 @@ recipes:
       - Cubre con la salsa y sirve con krupuk.
 
   - name: Rendang de ternera
+    health: [YELLOW, "Ternera guisada en leche de coco y especias: mucha proteína, pero el coco aporta grasa saturada."]
+    nutrition: [560, 40, 10, 40]
     photo: cocina-indonesia/rendang-de-ternera.jpg
     category: Carnes
     difficulty: HARD
@@ -204,6 +214,8 @@ recipes:
       - Sigue cociendo, removiendo cada vez más a menudo, hasta que la salsa se haya reducido del todo y la carne esté oscura y tierna, otra hora u hora y media.
 
   - name: Soto ayam
+    health: [GREEN, "Sopa de pollo con cúrcuma y especias: ligera, aromática y con proteína."]
+    nutrition: [350, 32, 12, 19]
     photo: cocina-indonesia/soto-ayam.jpg
     category: Sopas y cremas
     difficulty: MEDIUM
@@ -246,6 +258,8 @@ recipes:
       - Reparte en cuencos los fideos, las verduras, el pollo y el huevo, cubre con el caldo y sirve con cebolla frita, lima y sambal.
 
   - name: Opor ayam
+    health: [YELLOW, "Pollo en leche de coco con especias: buena proteína, aunque el coco aporta grasa saturada."]
+    nutrition: [560, 46, 10, 38]
     photo: cocina-indonesia/opor-ayam.jpg
     category: Carnes
     difficulty: MEDIUM
@@ -279,6 +293,8 @@ recipes:
       - Incorpora el agua y la leche de coco, el azúcar y la sal y cuece a fuego suave, sin tapar, 35-40 minutos, removiendo de vez en cuando para que no se corte, hasta que el pollo esté tierno.
 
   - name: Ayam goreng
+    health: [YELLOW, "Pollo marinado en especias, cocido y luego frito: buena proteína, pero con grasa por la fritura."]
+    nutrition: [520, 48, 6, 34]
     photo: cocina-indonesia/ayam-goreng.jpg
     category: Carnes
     difficulty: MEDIUM
@@ -309,6 +325,8 @@ recipes:
       - Escurre el pollo y fríelo en abundante aceite caliente 5-6 minutos, hasta que esté dorado.
 
   - name: Sambal oelek
+    health: [GREEN, "Pasta de chile casi sin calorías. Picante y algo salada: en poca cantidad."]
+    nutrition: [15, 1, 3, 0]
     photo: cocina-indonesia/sambal-oelek.jpg
     category: Salsas
     difficulty: EASY
@@ -329,6 +347,8 @@ recipes:
       - Añade el vinagre y el azúcar y mezcla.
 
   - name: Tempe orek
+    health: [YELLOW, "Tempeh, proteína vegetal con fibra, pero frito y con salsa dulce: grasa y azúcar."]
+    nutrition: [340, 18, 20, 21]
     photo: cocina-indonesia/tempe-orek.jpg
     category: Legumbres
     difficulty: EASY
@@ -355,6 +375,8 @@ recipes:
       - Incorpora el tempeh y saltea hasta que quede bien cubierto por la salsa.
 
   - name: Perkedel kentang
+    health: [YELLOW, "Tortitas de patata y huevo fritas: sabrosas, pero con grasa por la fritura."]
+    nutrition: [250, 6, 26, 13]
     photo: cocina-indonesia/perkedel-kentang.jpg
     category: Entrantes
     difficulty: EASY
@@ -380,6 +402,8 @@ recipes:
       - Pásalas por el otro huevo batido y fríelas en aceite caliente hasta que estén doradas.
 
   - name: Sayur lodeh
+    health: [GREEN, "Verduras y tofu en caldo de leche de coco: mucha fibra y proteína vegetal. El coco aporta grasa."]
+    nutrition: [300, 11, 20, 21]
     photo: cocina-indonesia/sayur-lodeh.jpg
     category: Verduras
     difficulty: EASY
@@ -413,6 +437,8 @@ recipes:
       - Añade la berenjena, el chayote y el tofu en dados, la leche de coco, el azúcar y la sal, y cuece a fuego suave 10-12 minutos, removiendo con cuidado, hasta que las verduras estén tiernas.
 
   - name: Bakso
+    health: [GREEN, "Albóndigas de ternera magra en caldo: mucha proteína y poca grasa. Vigilar la sal del caldo."]
+    nutrition: [260, 22, 14, 12]
     photo: cocina-indonesia/bakso.jpg
     category: Sopas y cremas
     difficulty: MEDIUM
@@ -456,6 +482,8 @@ recipes:
           - Sirve en cuencos los fideos, el pak choi y las albóndigas con el caldo, cebolla frita y apio. Cada uno añade sambal y kecap manis al gusto.
 
   - name: Nasi kuning
+    health: [YELLOW, "Arroz cocido en leche de coco y especias: aromático, pero con grasa del coco."]
+    nutrition: [530, 8, 80, 20]
     photo: cocina-indonesia/nasi-kuning.jpg
     category: Arroces
     difficulty: EASY
@@ -480,6 +508,8 @@ recipes:
       - Tapa, baja el fuego al mínimo y cuece 15 minutos. Deja que repose tapado 5 minutos y suéltalo con un tenedor.
 
   - name: Cap cai
+    health: [GREEN, "Muchas verduras salteadas con gambas o pollo: ligero, completo y con fibra."]
+    nutrition: [200, 16, 15, 8]
     photo: cocina-indonesia/cap-cai.jpg
     category: Verduras
     difficulty: EASY
@@ -512,6 +542,8 @@ recipes:
       - Agrega las salsas, la pimienta y el agua con la maicena disuelta y cuece 2 minutos, hasta que la salsa espese y las verduras sigan crujientes.
 
   - name: Tumis kangkung
+    health: [GREEN, "Verdura de hoja salteada con ajo: muchas vitaminas y muy pocas calorías."]
+    nutrition: [90, 3, 6, 7]
     photo: cocina-indonesia/tumis-kangkung.jpg
     category: Verduras
     difficulty: EASY
@@ -536,6 +568,8 @@ recipes:
       - Añade los tallos y saltea 1 minuto. Añade las hojas y la salsa y saltea hasta que se ablanden, menos de 1 minuto. Ajusta de sal.
 
   - name: Pisang goreng
+    health: [YELLOW, "Plátano rebozado y frito: fruta, pero con grasa por la fritura. Postre ocasional."]
+    nutrition: [300, 3, 48, 11]
     photo: cocina-indonesia/pisang-goreng.jpg
     category: Postres
     difficulty: EASY
@@ -559,6 +593,8 @@ recipes:
       - Escúrrelos sobre papel de cocina y sírvelos calientes.
 
   - name: Martabak manis
+    health: [RED, "Tortita gruesa con mantequilla, azúcar y rellenos dulces: muy calórica."]
+    nutrition: [480, 9, 68, 19]
     photo: cocina-indonesia/martabak-manis.jpg
     category: Postres
     difficulty: MEDIUM
@@ -591,6 +627,8 @@ recipes:
       - Desmolda, unta con la mantequilla, reparte el chocolate, los cacahuetes y la leche condensada, dobla por la mitad y corta en porciones.
 
   - name: Klepon
+    health: [YELLOW, "Bolitas de arroz glutinoso con azúcar de palma y coco: dulces y con grasa del coco."]
+    nutrition: [250, 3, 42, 8]
     photo: cocina-indonesia/klepon.jpg
     category: Postres
     difficulty: MEDIUM
@@ -616,6 +654,8 @@ recipes:
       - Escúrrelas y rebózalas en el coco.
 
   - name: Es teler
+    health: [RED, "Postre de aguacate, coco, fruta en almíbar y leche condensada: mucho azúcar y grasa."]
+    nutrition: [380, 5, 42, 23]
     photo: cocina-indonesia/es-teler.jpg
     category: Bebidas
     difficulty: EASY

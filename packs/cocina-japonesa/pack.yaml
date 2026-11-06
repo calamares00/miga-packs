@@ -1,6 +1,6 @@
 id: cocina-japonesa
-version: 2
-updated: 2026-11-05
+version: 3
+updated: 2026-11-06
 language: es
 name: "Cocina del mundo: Japón"
 series: Cocina del mundo
@@ -22,6 +22,8 @@ defaults:
 recipes:
 
   - name: Sopa de miso
+    health: [GREEN, "Caldo dashi con miso, tofu y algas: muy ligero y nutritivo. El miso aporta bastante sal."]
+    nutrition: [70, 6, 4, 3]
     photo: cocina-japonesa/sopa-de-miso.jpg
     category: Sopas y cremas
     difficulty: EASY
@@ -50,6 +52,8 @@ recipes:
       - Disuelve el miso en un cazo con un poco de dashi caliente, incorpóralo a la sopa y apaga el fuego. Sirve con cebolleta picada.
 
   - name: Pollo teriyaki
+    health: [YELLOW, "Pollo con piel glaseado con soja, mirin y azúcar: buena proteína, pero con azúcar y sal."]
+    nutrition: [420, 30, 18, 24]
     photo: cocina-japonesa/pollo-teriyaki.jpg
     category: Carnes
     difficulty: EASY
@@ -74,6 +78,8 @@ recipes:
       - Corta en tiras y sirve con arroz y sésamo por encima.
 
   - name: Gyoza
+    health: [GREEN, "Empanadillas de cerdo y col a la plancha y al vapor: completas, con grasa moderada. Moderar la salsa."]
+    nutrition: [420, 18, 40, 20]
     photo: cocina-japonesa/gyoza.jpg
     category: Entrantes
     difficulty: MEDIUM
@@ -108,6 +114,8 @@ recipes:
       - Sirve con la salsa mezclada.
 
   - name: Ramen de shoyu
+    health: [YELLOW, "Fideos en caldo con huevo y cerdo: muy completo y reconfortante, pero muy salado."]
+    nutrition: [620, 32, 72, 20]
     photo: cocina-japonesa/ramen-de-shoyu.jpg
     category: Sopas y cremas
     difficulty: MEDIUM
@@ -152,6 +160,8 @@ recipes:
           - Llena los cuencos con el caldo caliente, añade los fideos y coloca encima el cerdo, el huevo partido por la mitad, el bambú, media hoja de nori y la cebolleta.
 
   - name: Tonkatsu
+    health: [RED, "Chuleta de cerdo empanada y frita: mucha grasa. La col cruda que la acompaña ayuda."]
+    nutrition: [620, 36, 30, 38]
     photo: cocina-japonesa/tonkatsu.jpg
     category: Carnes
     difficulty: EASY
@@ -177,6 +187,8 @@ recipes:
       - Córtalas en tiras y sírvelas con la col en juliana muy fina y la salsa tonkatsu.
 
   - name: Oyakodon
+    health: [GREEN, "Arroz con pollo y huevo en caldo dashi: completo y equilibrado. La salsa lleva algo de azúcar."]
+    nutrition: [560, 30, 80, 12]
     photo: cocina-japonesa/oyakodon.jpg
     category: Arroces
     difficulty: EASY
@@ -204,6 +216,8 @@ recipes:
       - Desliza la mezcla sobre el arroz caliente y termina con la cebolleta.
 
   - name: Onigiri
+    health: [GREEN, "Bolas de arroz con relleno de salmón o ciruela: sencillas y con poca grasa."]
+    nutrition: [290, 10, 55, 4]
     photo: cocina-japonesa/onigiri.jpg
     category: Arroces
     difficulty: EASY
@@ -227,6 +241,8 @@ recipes:
       - Envuelve la base con una tira de nori justo antes de comerlos para que esté crujiente.
 
   - name: Tamagoyaki
+    health: [GREEN, "Tortilla japonesa enrollada con un toque de azúcar: proteína con poca grasa."]
+    nutrition: [230, 13, 8, 16]
     photo: cocina-japonesa/tamagoyaki.jpg
     category: Huevos
     difficulty: MEDIUM
@@ -251,6 +267,8 @@ recipes:
       - Da forma al rollo con una esterilla de bambú, deja que repose 5 minutos y córtalo en rodajas gruesas.
 
   - name: Okonomiyaki
+    health: [YELLOW, "Tortita de col con harina y huevo, completa, pero la panceta y las salsas aportan grasa y sal."]
+    nutrition: [620, 24, 52, 34]
     photo: cocina-japonesa/okonomiyaki.jpg
     category: Panes y masas
     difficulty: EASY
@@ -283,6 +301,8 @@ recipes:
       - Dale la vuelta otra vez, cubre con la salsa, la mayonesa en zigzag, el katsuobushi y el aonori. Repite con el resto de la masa.
 
   - name: Yakitori
+    health: [YELLOW, "Brochetas de pollo a la parrilla con salsa dulce de soja: buena proteína, con azúcar y sal."]
+    nutrition: [380, 32, 18, 18]
     photo: cocina-japonesa/yakitori.jpg
     category: Carnes
     difficulty: EASY
@@ -310,6 +330,8 @@ recipes:
       - Píntalos con la tare y ásalos 1 minuto más por cada lado, dos veces, hasta que estén glaseados.
 
   - name: Tempura de verduras y gambas
+    health: [YELLOW, "Verduras y langostinos rebozados y fritos: masa ligera, pero frita en aceite."]
+    nutrition: [380, 14, 40, 18]
     photo: cocina-japonesa/tempura-de-verduras-y-gambas.jpg
     category: Entrantes
     difficulty: MEDIUM
@@ -344,6 +366,8 @@ recipes:
       - Escurre sobre una rejilla y sirve enseguida con la salsa y el daikon.
 
   - name: Makis de salmón y pepino
+    health: [GREEN, "Arroz con salmón y pepino envuelto en alga: ligero y equilibrado. La soja aporta sal."]
+    nutrition: [370, 13, 66, 5]
     photo: cocina-japonesa/makis-de-salmon-y-pepino.jpg
     category: Pescados y mariscos
     difficulty: MEDIUM
@@ -377,6 +401,8 @@ recipes:
       - Sirve con soja, wasabi y gari.
 
   - name: Karaage
+    health: [YELLOW, "Pollo marinado y frito: mucha proteína, pero con grasa por la fritura."]
+    nutrition: [450, 30, 18, 28]
     photo: cocina-japonesa/karaage.jpg
     category: Carnes
     difficulty: EASY
@@ -402,6 +428,8 @@ recipes:
       - Fríelo de nuevo a 180 °C 1 minuto, hasta que esté muy crujiente. Sirve con limón y mayonesa.
 
   - name: Nikujaga
+    health: [GREEN, "Ternera con patata y verduras en caldo dashi: completo y con poca grasa. Lleva algo de azúcar."]
+    nutrition: [380, 18, 45, 13]
     photo: cocina-japonesa/nikujaga.jpg
     category: Carnes
     difficulty: EASY
@@ -432,6 +460,8 @@ recipes:
       - Añade los tirabeques los últimos 2 minutos.
 
   - name: Yakisoba
+    health: [YELLOW, "Fideos salteados con verdura y carne, pero con salsas dulces y saladas."]
+    nutrition: [520, 20, 70, 18]
     photo: cocina-japonesa/yakisoba.jpg
     category: Pastas
     difficulty: EASY
@@ -464,6 +494,8 @@ recipes:
       - Incorpora la salsa y saltea hasta que los fideos estén bien cubiertos. Sirve con beni shoga y aonori.
 
   - name: Gyudon
+    health: [YELLOW, "Arroz con ternera y cebolla en salsa dulce de soja: completo, aunque con azúcar y sal."]
+    nutrition: [640, 30, 90, 16]
     photo: cocina-japonesa/gyudon.jpg
     category: Arroces
     difficulty: EASY
@@ -490,6 +522,8 @@ recipes:
       - Sirve sobre el arroz caliente con un poco del caldo, beni shoga y, si quieres, una yema de huevo cruda o un huevo poché encima.
 
   - name: Curry japonés
+    health: [YELLOW, "Guiso con carne y verduras, pero el roux de curry comprado es graso y salado."]
+    nutrition: [540, 28, 50, 25]
     photo: cocina-japonesa/curry-japones.jpg
     category: Carnes
     difficulty: EASY
@@ -517,6 +551,8 @@ recipes:
       - Cuece a fuego suave 10 minutos más, removiendo, hasta que espese. Sirve con el arroz.
 
   - name: Agedashi tofu
+    health: [YELLOW, "Tofu, proteína vegetal, pero rebozado y frito. El caldo es ligero."]
+    nutrition: [230, 11, 15, 14]
     photo: cocina-japonesa/agedashi-tofu.jpg
     category: Legumbres
     difficulty: EASY
@@ -542,6 +578,8 @@ recipes:
       - Sírvelo en cuencos con el caldo caliente alrededor, el daikon, el jengibre y la cebolleta por encima.
 
   - name: Sunomono de pepino y wakame
+    health: [GREEN, "Pepino y alga en vinagre de arroz: casi sin calorías y refrescante. Lleva un poco de azúcar."]
+    nutrition: [50, 1, 9, 1]
     category: Ensaladas
     difficulty: EASY
     prep: 15
@@ -564,6 +602,8 @@ recipes:
       - Mezcla el pepino y la wakame con el aliño y sirve frío con el sésamo.
 
   - name: Dorayaki
+    health: [YELLOW, "Tortitas dulces rellenas de pasta de judía roja: dulces, aunque con poca grasa."]
+    nutrition: [290, 7, 58, 3]
     photo: cocina-japonesa/dorayaki.jpg
     category: Postres
     difficulty: EASY

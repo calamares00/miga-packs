@@ -1,6 +1,6 @@
 id: american-cooking
-version: 2
-updated: 2026-11-05
+version: 3
+updated: 2026-11-06
 language: en
 name: "World cuisine: United States"
 series: World cuisine
@@ -23,6 +23,8 @@ defaults:
 recipes:
 
   - name: Mac and cheese
+    health: [RED, "Pasta in a cheddar sauce with butter and whole milk: a lot of saturated fat and calories."]
+    nutrition: [780, 32, 75, 38]
     photo: cocina-estadounidense/macarrones-con-queso.jpg
     category: Pasta
     difficulty: EASY
@@ -51,6 +53,8 @@ recipes:
       - Bake for 20 minutes, until golden and bubbling.
 
   - name: Pulled pork
+    health: [YELLOW, "Pork shoulder slow-cooked with a sweet sauce: high in protein, but a fatty cut, and sugar."]
+    nutrition: [480, 45, 8, 29]
     photo: cocina-estadounidense/cerdo-desmenuzado.jpg
     category: Meat
     difficulty: EASY
@@ -88,6 +92,8 @@ recipes:
       - Serve in the buns with coleslaw.
 
   - name: Southern fried chicken
+    health: [RED, "Chicken battered and deep-fried in plenty of oil: a lot of fat and calories. For special occasions."]
+    nutrition: [720, 48, 42, 38]
     photo: cocina-estadounidense/pollo-frito-al-estilo-del-sur.jpg
     category: Meat
     difficulty: MEDIUM
@@ -123,6 +129,8 @@ recipes:
       - Drain on a rack.
 
   - name: New England clam chowder
+    health: [YELLOW, "Clams with potato in a creamy soup: protein and iron, but the bacon, butter and cream make it fatty."]
+    nutrition: [480, 22, 34, 28]
     photo: cocina-estadounidense/sopa-de-almejas-de-nueva-inglaterra.jpg
     category: Soups
     difficulty: MEDIUM
@@ -155,6 +163,8 @@ recipes:
       - Add the milk and cream and heat without boiling for 5 minutes. Add the clams, season and serve.
 
   - name: Chili con carne
+    health: [YELLOW, "Minced beef with beans, tomato and spices: complete and with fibre, though the meat adds fat."]
+    nutrition: [470, 34, 28, 24]
     photo: cocina-estadounidense/chili-con-carne.jpg
     category: Meat
     difficulty: EASY
@@ -188,6 +198,8 @@ recipes:
       - Add the beans and chocolate and simmer for 20 more minutes. Season with salt and serve with grated cheese, onion or soured cream.
 
   - name: Cornbread
+    health: [YELLOW, "Cornbread with butter and sugar: sweeter and fattier than ordinary bread."]
+    nutrition: [280, 6, 36, 11]
     photo: cocina-estadounidense/pan-de-maiz.jpg
     category: Breads and doughs
     difficulty: EASY
@@ -215,6 +227,8 @@ recipes:
       - Brush the hot tin with the rest of the butter, pour in the batter and bake for 20-25 minutes, until golden.
 
   - name: Pancakes
+    health: [YELLOW, "Pancakes with butter and maple syrup: lots of refined carbohydrate and sugar. Better with fruit."]
+    nutrition: [420, 10, 62, 13]
     photo: cocina-estadounidense/tortitas-americanas.jpg
     category: Breads and doughs
     difficulty: EASY
@@ -242,6 +256,8 @@ recipes:
       - Serve stacked with butter and maple syrup.
 
   - name: Meatloaf
+    health: [YELLOW, "Baked minced meat with a ketchup glaze: good protein, though with fat and a little sugar."]
+    nutrition: [470, 32, 15, 31]
     photo: cocina-estadounidense/pastel-de-carne.jpg
     category: Meat
     difficulty: EASY
@@ -278,6 +294,8 @@ recipes:
       - Bake for 45 minutes, brush with the rest of the glaze and bake for 15 more minutes.
 
   - name: Jambalaya
+    health: [YELLOW, "Rice with chicken, prawns and vegetables is complete, but the smoked sausage adds fat and salt."]
+    nutrition: [530, 36, 48, 20]
     photo: cocina-estadounidense/jambalaya.jpg
     category: Rice
     difficulty: MEDIUM
@@ -312,6 +330,8 @@ recipes:
       - Lay the prawns on top, cover and cook for 5 more minutes. Serve with chopped spring onion.
 
   - name: Chicken and sausage gumbo
+    health: [YELLOW, "A stew of vegetables, chicken and sausage on an oil and flour roux: tasty but fatty and salty."]
+    nutrition: [520, 32, 22, 34]
     photo: cocina-estadounidense/gumbo-de-pollo-y-salchicha.jpg
     category: Soups
     difficulty: HARD
@@ -346,6 +366,8 @@ recipes:
       - Serve in bowls over white rice with chopped spring onion.
 
   - name: Coleslaw
+    health: [YELLOW, "Raw cabbage with plenty of fibre, but dressed with mayonnaise, which adds fat."]
+    nutrition: [200, 2, 11, 17]
     photo: cocina-estadounidense/ensalada-de-col.jpg
     category: Salads
     difficulty: EASY
@@ -374,6 +396,8 @@ recipes:
       - Toss everything together and chill for at least 30 minutes before serving.
 
   - name: Apple pie
+    health: [RED, "A pie with a lot of butter in the pastry and a sugary apple filling: very high in calories."]
+    nutrition: [470, 5, 62, 24]
     photo: cocina-estadounidense/tarta-de-manzana.jpg
     category: Desserts
     difficulty: MEDIUM
@@ -409,6 +433,8 @@ recipes:
       - Brush with egg and bake for 20 minutes. Lower to 180 °C and bake for 40 more minutes, until golden and the juices bubble.
 
   - name: Chocolate chip cookies
+    health: [RED, "Biscuits with butter, sugar and chocolate: sweet and high in calories. One or two now and then."]
+    nutrition: [160, 2, 20, 8]
     photo: cocina-estadounidense/galletas-con-pepitas-de-chocolate.jpg
     category: Desserts
     difficulty: EASY
@@ -437,6 +463,8 @@ recipes:
       - Bake for 10-12 minutes, until the edges are golden. Leave to cool on the tray for 5 minutes.
 
   - name: New York cheesecake
+    health: [RED, "A cheesecake of cream cheese and sugar on a buttery biscuit base: a lot of saturated fat and sugar."]
+    nutrition: [520, 8, 40, 37]
     photo: cocina-estadounidense/tarta-de-queso-de-nueva-york.jpg
     category: Desserts
     difficulty: MEDIUM
@@ -468,6 +496,8 @@ recipes:
       - Turn off the oven and leave the cheesecake inside, with the door ajar, for 1 hour. Chill for at least 6 hours.
 
   - name: Philly cheesesteak
+    health: [YELLOW, "A beef sandwich with onion, pepper and melted cheese: complete but high in calories and fat."]
+    nutrition: [720, 44, 52, 36]
     photo: cocina-estadounidense/philly-cheesesteak.jpg
     category: Meat
     difficulty: EASY
@@ -495,6 +525,8 @@ recipes:
       - Open the rolls, lay them over the cheese and flip with the spatula to fill them.
 
   - name: Cobb salad
+    health: [YELLOW, "A salad with chicken, egg, avocado and vegetables, very complete, but the bacon and blue cheese add fat and salt."]
+    nutrition: [560, 36, 10, 42]
     photo: cocina-estadounidense/ensalada-cobb.jpg
     category: Salads
     difficulty: EASY
@@ -530,6 +562,8 @@ recipes:
       - Mix the vinaigrette ingredients, drizzle over the salad and sprinkle with the chives.
 
   - name: Deviled eggs
+    health: [YELLOW, "Eggs with a filling of yolk and mayonnaise: protein, though the mayonnaise adds fat."]
+    nutrition: [130, 6, 1, 11]
     photo: cocina-estadounidense/huevos-rellenos-a-la-diabla.jpg
     category: Eggs
     difficulty: EASY
@@ -554,6 +588,8 @@ recipes:
       - Pipe or spoon the filling into the whites and sprinkle with paprika and chives.
 
   - name: Boston baked beans
+    health: [YELLOW, "Beans with plenty of fibre and protein, but with bacon, molasses and sugar."]
+    nutrition: [380, 17, 52, 12]
     photo: cocina-estadounidense/alubias-al-horno-de-boston.jpg
     category: Legumes
     difficulty: EASY
@@ -581,6 +617,8 @@ recipes:
       - Cover and bake for 4 hours, adding water if they dry out. Uncover for the last hour so they brown.
 
   - name: Banana bread
+    health: [YELLOW, "A cake with banana and walnuts: some fruit, but with sugar and butter."]
+    nutrition: [280, 4, 40, 12]
     photo: cocina-estadounidense/bizcocho-de-platano.jpg
     category: Desserts
     difficulty: EASY
@@ -608,6 +646,8 @@ recipes:
       - Pour into the tin and bake for 55-60 minutes, until a skewer comes out clean. Let it cool before turning out.
 
   - name: Key lime pie
+    health: [RED, "A pie with condensed milk, egg yolks and a buttery biscuit base: a lot of sugar and fat."]
+    nutrition: [460, 8, 52, 25]
     photo: cocina-estadounidense/tarta-de-lima-de-los-cayos.jpg
     category: Desserts
     difficulty: EASY

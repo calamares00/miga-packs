@@ -1,6 +1,6 @@
 id: 20-minute-dinners
-version: 2
-updated: 2026-11-05
+version: 3
+updated: 2026-11-06
 language: en
 name: 20-minute dinners
 series: Everyday cooking
@@ -19,6 +19,8 @@ defaults:
 recipes:
 
   - name: Spinach and cheese omelette
+    health: [GREEN, "Egg, spinach and a little cheese: good-quality protein and vegetables with little added fat. A light, complete supper."]
+    nutrition: [300, 20, 2, 23]
     photo: cenas-en-20-minutos/tortilla-francesa-con-espinacas-y-queso.jpg
     category: Eggs
     difficulty: EASY
@@ -41,6 +43,8 @@ recipes:
       - Fold the omelette in half and cook for 1 more minute. Serve it soft in the middle.
 
   - name: Scrambled eggs with mushrooms and ham
+    health: [GREEN, "Eggs and mushrooms with little oil make a protein-rich supper. The ham adds salt, so little extra is needed."]
+    nutrition: [340, 24, 4, 25]
     photo: cenas-en-20-minutos/revuelto-de-champinones-y-jamon.jpg
     category: Eggs
     difficulty: EASY
@@ -65,6 +69,8 @@ recipes:
       - Sprinkle with the parsley and serve straight away.
 
   - name: Spaghetti with garlic, oil and chilli
+    health: [YELLOW, "Pasta with plenty of olive oil and garlic, with no protein or vegetables. Tasty and quick, better with a salad on the side."]
+    nutrition: [620, 13, 74, 30]
     photo: cenas-en-20-minutos/espaguetis-con-ajo-aceite-y-guindilla.jpg
     category: Pasta
     difficulty: EASY
@@ -89,6 +95,8 @@ recipes:
       - Toss for 1 minute so the sauce comes together, add the parsley and serve.
 
   - name: Pasta with cherry tomatoes and basil
+    health: [GREEN, "Pasta with fresh tomato, basil, olive oil and a little cheese. A balanced Mediterranean dish."]
+    nutrition: [560, 17, 78, 21]
     photo: cenas-en-20-minutos/pasta-con-tomates-cherry-y-albahaca.jpg
     category: Pasta
     difficulty: EASY
@@ -112,6 +120,8 @@ recipes:
       - Finish with the basil, torn by hand, and the Parmesan.
 
   - name: Griddled salmon with asparagus
+    health: [GREEN, "Oily fish rich in omega-3 with griddled vegetables. A very balanced and filling dish."]
+    nutrition: [420, 34, 6, 29]
     photo: cenas-en-20-minutos/salmon-a-la-plancha-con-esparragos.jpg
     category: Fish and seafood
     difficulty: EASY
@@ -134,6 +144,8 @@ recipes:
       - Serve with the asparagus, flaky salt, pepper and a few drops of lemon.
 
   - name: Lemon and parsley hake
+    health: [GREEN, "Lean white fish with lemon and a light dusting of flour. Light, with good-quality protein."]
+    nutrition: [290, 30, 8, 15]
     category: Fish and seafood
     difficulty: EASY
     prep: 5
@@ -157,6 +169,8 @@ recipes:
       - Return the hake to the pan, sprinkle with the parsley and cook for 2 more minutes, shaking the pan so the sauce thickens.
 
   - name: Chicken and vegetable stir-fry
+    health: [GREEN, "Lean chicken with plenty of stir-fried vegetables. The soy sauce adds salt; in moderation it is a very balanced supper."]
+    nutrition: [380, 38, 15, 18]
     photo: cenas-en-20-minutos/wok-de-pollo-con-verduras.jpg
     category: Meat
     difficulty: EASY
@@ -184,6 +198,8 @@ recipes:
       - Serve topped with sesame seeds.
 
   - name: Lemon chicken with couscous
+    health: [GREEN, "Griddled chicken breast with couscous: lean protein and carbohydrate. Adding vegetables rounds it off."]
+    nutrition: [560, 45, 60, 15]
     photo: cenas-en-20-minutos/pollo-al-limon-con-cuscus.jpg
     category: Meat
     difficulty: EASY
@@ -212,6 +228,8 @@ recipes:
       - Fluff up the couscous with a fork and the butter and serve it with the chicken and its sauce.
 
   - name: Beef fajitas
+    health: [YELLOW, "Beef with peppers and onion in wheat tortillas. Balanced, though the tortillas and sour cream add calories."]
+    nutrition: [620, 42, 52, 26]
     photo: cenas-en-20-minutos/fajitas-de-ternera.jpg
     category: Meat
     difficulty: EASY
@@ -238,6 +256,8 @@ recipes:
       - Warm the tortillas in another pan and fill them with the mixture and a spoonful of soured cream.
 
   - name: Pork loin with honey mustard sauce
+    health: [YELLOW, "Lean pork loin, but the sauce has cream and honey. Better with vegetables or a salad."]
+    nutrition: [460, 38, 10, 30]
     photo: cenas-en-20-minutos/lomo-con-salsa-de-mostaza-y-miel.jpg
     category: Meat
     difficulty: EASY
@@ -260,6 +280,8 @@ recipes:
       - Return the pork to the pan for 1 minute to coat it and serve with the sauce.
 
   - name: Egg fried rice with peas
+    health: [GREEN, "Rice with egg, peas and carrot: complete and simple. Go easy on the soy sauce for the salt."]
+    nutrition: [470, 14, 70, 15]
     photo: cenas-en-20-minutos/arroz-salteado-con-huevo-y-guisantes.jpg
     category: Rice
     difficulty: EASY
@@ -284,6 +306,8 @@ recipes:
       - Add the rice and soy sauce and stir-fry over a high heat for 3-4 minutes, until the rice is hot and loose.
 
   - name: Gnocchi with butter and sage
+    health: [YELLOW, "Potato gnocchi with plenty of butter and cheese. Tasty but fatty; serve with vegetables."]
+    nutrition: [560, 13, 70, 27]
     photo: cenas-en-20-minutos/noquis-con-mantequilla-y-salvia.jpg
     category: Pasta
     difficulty: EASY
@@ -307,6 +331,8 @@ recipes:
       - Add the drained gnocchi to the pan, toss for 1 minute and serve with Parmesan and pepper.
 
   - name: Quick courgette soup
+    health: [GREEN, "A vegetable soup with little fat. The cheese triangles make it creamy without adding much."]
+    nutrition: [130, 4, 12, 8]
     photo: cenas-en-20-minutos/crema-de-calabacin-expres.jpg
     category: Soups
     difficulty: EASY
@@ -330,6 +356,8 @@ recipes:
       - Blend with the cheese triangles until smooth. Season to taste.
 
   - name: Quick noodle soup
+    health: [GREEN, "A light broth with noodles, egg and ham. Comforting and low in calories; watch the salt in the stock."]
+    nutrition: [250, 15, 32, 7]
     photo: cenas-en-20-minutos/sopa-de-fideos-rapida.jpg
     category: Soups
     difficulty: EASY
@@ -350,6 +378,8 @@ recipes:
       - Serve with the chopped egg, the ham and a few mint leaves.
 
   - name: Chickpea and tuna salad
+    health: [GREEN, "Pulses, tuna and raw vegetables: fibre, protein and healthy fats. A very complete cold dish."]
+    nutrition: [620, 38, 45, 32]
     photo: cenas-en-20-minutos/ensalada-de-garbanzos-con-atun.jpg
     category: Salads
     difficulty: EASY
@@ -375,6 +405,8 @@ recipes:
       - Dress with the oil, vinegar and salt just before serving.
 
   - name: Chicken Caesar salad
+    health: [YELLOW, "Lettuce and chicken are light, but the mayonnaise dressing, bread and cheese raise the fat. A lighter dressing helps."]
+    nutrition: [520, 34, 20, 34]
     photo: cenas-en-20-minutos/ensalada-cesar-con-pollo.jpg
     category: Salads
     difficulty: EASY
@@ -404,6 +436,8 @@ recipes:
       - Tear up the lettuce and serve it with the chicken, croutons, Parmesan and dressing.
 
   - name: Avocado toast with egg
+    health: [GREEN, "Bread with avocado and egg: healthy fats, protein and carbohydrate. A very complete supper or breakfast."]
+    nutrition: [420, 15, 32, 26]
     photo: cenas-en-20-minutos/tostas-de-aguacate-con-huevo.jpg
     category: Eggs
     difficulty: EASY
@@ -427,6 +461,8 @@ recipes:
       - Put an egg on each toast and finish with flaky salt and chilli flakes.
 
   - name: Tortilla wrap pizza
+    health: [YELLOW, "A thin base with tomato, cheese and ham. Lighter than a normal pizza, but the cheese and ham add fat and salt."]
+    nutrition: [480, 26, 42, 23]
     photo: cenas-en-20-minutos/pizza-de-tortilla-de-trigo.jpg
     category: Breads and doughs
     difficulty: EASY
@@ -450,6 +486,8 @@ recipes:
       - Sprinkle with the oregano and cut into slices.
 
   - name: Chicken and avocado wrap
+    health: [GREEN, "Chicken, avocado and vegetables with a yoghurt dressing in a tortilla. Balanced and easy to take with you."]
+    nutrition: [520, 34, 40, 25]
     photo: cenas-en-20-minutos/wrap-de-pollo-y-aguacate.jpg
     category: Meat
     difficulty: EASY
@@ -475,6 +513,8 @@ recipes:
       - Roll them up tightly and cut them in half on the diagonal.
 
   - name: Prawns with sautéed courgette
+    health: [GREEN, "Lean seafood with courgette sautéed in olive oil. Few calories and plenty of protein."]
+    nutrition: [320, 30, 8, 19]
     photo: cenas-en-20-minutos/gambas-salteadas-con-calabacin.jpg
     category: Fish and seafood
     difficulty: EASY

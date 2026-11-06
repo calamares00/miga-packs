@@ -34,8 +34,9 @@ PHOTOS = ROOT / "photos"
 # copy keeps). Non-commercial, no-derivatives and GFDL-only photos are not accepted.
 NO_ATTRIBUTION_LICENSES = {"CC0 1.0", "Public domain"}
 ATTRIBUTION_LICENSE = re.compile(r"^CC BY(-SA)? (2\.0|2\.5|3\.0|4\.0)$")
-PHOTO_CREDIT = {"es": "📷 Foto: {author} · {license} ({license_url}) · {source} (recortada)",
-                "en": "📷 Photo: {author} · {license} ({license_url}) · {source} (cropped)"}
+# The author links to the photo's page, as a Markdown link the app shows as tappable text.
+PHOTO_CREDIT = {"es": "📷 Foto: [{author}]({source}) · {license}",
+                "en": "📷 Photo: [{author}]({source}) · {license}"}
 SCHEMA_VERSION = 5
 DIFFICULTIES = {"EASY", "MEDIUM", "HARD"}
 LANGUAGES = {"es", "en"}
@@ -98,12 +99,6 @@ def load_credits():
     return credits
 
 
-def license_url(license_name):
-    """"CC BY-SA 4.0" -> https://creativecommons.org/licenses/by-sa/4.0/"""
-    match = ATTRIBUTION_LICENSE.match(license_name)
-    return f"https://creativecommons.org/licenses/{'by-sa' if match.group(1) else 'by'}/{match.group(2)}/"
-
-
 def recipe_photo(raw, where, credits):
     """The recipe's photo file and its credit, checked against the credits files; None without one."""
     name = raw.get("photo")
@@ -125,8 +120,10 @@ def notes_with_credit(notes, credit, language):
     """The recipe notes, plus the attribution a CC BY / BY-SA photo requires."""
     if credit is None or credit["license"] in NO_ATTRIBUTION_LICENSES:
         return notes
-    line = PHOTO_CREDIT[language].format(author=credit["author"], license=credit["license"],
-                                         license_url=license_url(credit["license"]), source=credit["source"])
+    # Brackets in the author and parentheses in the address would break the Markdown link.
+    author = credit["author"].replace("[", "(").replace("]", ")")
+    source = credit["source"].replace("(", "%28").replace(")", "%29").replace(" ", "%20")
+    line = PHOTO_CREDIT[language].format(author=author, license=credit["license"], source=source)
     return f"{notes}\n\n{line}" if notes else line
 
 

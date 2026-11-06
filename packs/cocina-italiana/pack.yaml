@@ -1,6 +1,6 @@
 id: cocina-italiana
-version: 2
-updated: 2026-11-05
+version: 3
+updated: 2026-11-06
 language: es
 name: "Cocina del mundo: Italia"
 series: Cocina del mundo
@@ -23,6 +23,8 @@ defaults:
 recipes:
 
   - name: Espaguetis a la carbonara
+    health: [RED, "Pasta con guanciale, yemas y pecorino: mucha grasa saturada y calorías."]
+    nutrition: [720, 28, 75, 34]
     photo: cocina-italiana/espaguetis-a-la-carbonara.jpg
     category: Pastas
     difficulty: MEDIUM
@@ -49,6 +51,8 @@ recipes:
       - Sirve con más pecorino y pimienta.
 
   - name: Bucatini all'amatriciana
+    health: [YELLOW, "Pasta con tomate, buena base, pero el guanciale y el pecorino aportan grasa y sal."]
+    nutrition: [640, 23, 80, 25]
     photo: cocina-italiana/bucatini-all-amatriciana.jpg
     category: Pastas
     difficulty: EASY
@@ -73,6 +77,8 @@ recipes:
       - Cuece la pasta al dente, escúrrela y mézclala con la salsa, el guanciale reservado y la mitad del pecorino. Sirve con el resto del queso.
 
   - name: Cacio e pepe
+    health: [YELLOW, "Pasta solo con mucho queso pecorino: grasa y sal. Mejor con una ensalada."]
+    nutrition: [610, 28, 75, 22]
     photo: cocina-italiana/cacio-e-pepe.jpg
     category: Pastas
     difficulty: MEDIUM
@@ -95,6 +101,8 @@ recipes:
       - Termina de cocer la pasta en la sartén de la pimienta con un poco más de agua. Fuera del fuego, añade la crema de queso y remueve enérgicamente hasta que quede ligada y brillante.
 
   - name: Lasaña a la boloñesa
+    health: [YELLOW, "Lasaña con ragú de carne, bechamel y queso: muy completa pero calórica."]
+    nutrition: [620, 32, 45, 34]
     photo: cocina-italiana/lasana-a-la-bolonesa.jpg
     category: Pastas
     difficulty: HARD
@@ -148,6 +156,8 @@ recipes:
           - Hornea 30-35 minutos, hasta que esté dorada. Deja que repose 15 minutos antes de cortarla.
 
   - name: Pasta alla Norma
+    health: [YELLOW, "Pasta con tomate y berenjena, muy mediterránea, pero la berenjena frita absorbe aceite."]
+    nutrition: [620, 18, 85, 23]
     photo: cocina-italiana/pasta-alla-norma.jpg
     category: Pastas
     difficulty: EASY
@@ -176,6 +186,8 @@ recipes:
       - Sirve con el resto de la berenjena, la ricotta salata y albahaca fresca.
 
   - name: Espaguetis con almejas
+    health: [GREEN, "Pasta con almejas, ajo y aceite de oliva: proteína y hierro con poca grasa saturada."]
+    nutrition: [560, 22, 76, 17]
     photo: cocina-italiana/espaguetis-con-almejas.jpg
     category: Pastas
     difficulty: EASY
@@ -202,6 +214,8 @@ recipes:
       - Termina de cocer la pasta en el jugo de las almejas, removiendo, hasta que la salsa ligue. Añade el perejil y sirve.
 
   - name: Risotto a la milanesa
+    health: [YELLOW, "Arroz con azafrán, pero con mucha mantequilla y parmesano: bastante grasa."]
+    nutrition: [570, 14, 66, 25]
     photo: cocina-italiana/risotto-a-la-milanesa.jpg
     category: Arroces
     difficulty: MEDIUM
@@ -229,6 +243,8 @@ recipes:
       - Fuera del fuego, añade el resto de la mantequilla fría y el parmesano y remueve con energía (mantecatura). Deja que repose 1 minuto y sirve.
 
   - name: Ossobuco a la milanesa
+    health: [YELLOW, "Jarrete de ternera guisado con verduras y vino: mucha proteína, aunque con mantequilla."]
+    nutrition: [480, 48, 12, 24]
     photo: cocina-italiana/ossobuco-a-la-milanesa.jpg
     category: Carnes
     difficulty: MEDIUM
@@ -265,6 +281,8 @@ recipes:
       - Mezcla la ralladura, el ajo muy picado y el perejil, y espolvorea la gremolata sobre el ossobuco justo antes de servir.
 
   - name: Saltimbocca a la romana
+    health: [YELLOW, "Ternera magra con jamón y mantequilla: buena proteína, aunque el jamón aporta sal."]
+    nutrition: [360, 38, 4, 20]
     photo: cocina-italiana/saltimbocca-a-la-romana.jpg
     category: Carnes
     difficulty: EASY
@@ -291,6 +309,8 @@ recipes:
       - Añade el vino a la sartén, raspa el fondo y deja que se reduzca 1 minuto. Vierte la salsa sobre los filetes.
 
   - name: Berenjenas a la parmesana
+    health: [YELLOW, "Berenjena con tomate, mozzarella y parmesano: muy sabroso, pero frita y con mucho queso."]
+    nutrition: [420, 20, 18, 30]
     photo: cocina-italiana/berenjenas-a-la-parmesana.jpg
     category: Verduras
     difficulty: MEDIUM
@@ -320,6 +340,8 @@ recipes:
       - Hornea 35-40 minutos y deja que repose 20 minutos antes de cortarla.
 
   - name: Minestrone
+    health: [GREEN, "Sopa de muchas verduras, legumbre y pasta: rica en fibra y muy saludable."]
+    nutrition: [260, 10, 38, 7]
     photo: cocina-italiana/minestrone.jpg
     category: Sopas y cremas
     difficulty: EASY
@@ -351,6 +373,8 @@ recipes:
       - Añade las alubias y la pasta y cuece hasta que la pasta esté hecha. Ajusta de sal y sirve con un hilo de aceite.
 
   - name: Pasta e fagioli
+    health: [GREEN, "Pasta con alubias y verduras: proteína vegetal, fibra y poca grasa."]
+    nutrition: [450, 18, 72, 9]
     photo: cocina-italiana/pasta-e-fagioli.jpg
     category: Legumbres
     difficulty: EASY
@@ -380,6 +404,8 @@ recipes:
       - Añade la pasta y cuécela en la sopa, removiendo, hasta que esté al dente. Salpimienta y sirve con un hilo de aceite.
 
   - name: Pizza margarita
+    health: [YELLOW, "Pizza sencilla de tomate, mozzarella y albahaca. Equilibrada, aunque de harina refinada y con queso."]
+    nutrition: [750, 28, 100, 25]
     photo: cocina-italiana/pizza-margarita.jpg
     category: Panes y masas
     difficulty: MEDIUM
@@ -412,6 +438,8 @@ recipes:
       - Añade la mozzarella y hornea 2-3 minutos más. Termina con albahaca y un hilo de aceite.
 
   - name: Focaccia genovesa
+    health: [YELLOW, "Pan plano con bastante aceite de oliva y sal gruesa: grasa saludable pero calórico y salado."]
+    nutrition: [290, 7, 46, 9]
     photo: cocina-italiana/focaccia-genovesa.jpg
     category: Panes y masas
     difficulty: MEDIUM
@@ -443,6 +471,8 @@ recipes:
       - Hornea a 230 °C 18-20 minutos, hasta que esté dorada. Deja que se temple sobre una rejilla.
 
   - name: Bruschetta de tomate
+    health: [GREEN, "Pan con tomate fresco, albahaca y aceite de oliva: sencillo y saludable."]
+    nutrition: [280, 6, 36, 13]
     photo: cocina-italiana/bruschetta-de-tomate.jpg
     category: Entrantes
     difficulty: EASY
@@ -464,6 +494,8 @@ recipes:
       - Frota cada rebanada con el ajo pelado, riégala con el resto del aceite y cubre con el tomate justo antes de servir.
 
   - name: Arancini
+    health: [RED, "Bolas de arroz con ragú y queso, empanadas y fritas: mucha grasa y calorías."]
+    nutrition: [520, 15, 60, 24]
     photo: cocina-italiana/arancini.jpg
     category: Entrantes
     difficulty: HARD
@@ -501,6 +533,8 @@ recipes:
       - Fríelos en aceite a 170 °C 4-5 minutos, hasta que estén dorados, y escúrrelos.
 
   - name: Vitello tonnato
+    health: [YELLOW, "Ternera magra con salsa de atún y mayonesa: buena proteína, pero la salsa es grasa."]
+    nutrition: [440, 40, 3, 30]
     photo: cocina-italiana/vitello-tonnato.jpg
     category: Carnes
     difficulty: MEDIUM
@@ -535,6 +569,8 @@ recipes:
       - Corta la carne en lonchas muy finas, colócalas en una fuente y cúbrelas con la salsa. Decora con el resto de las alcaparras.
 
   - name: Caponata
+    health: [GREEN, "Berenjena y verduras agridulces con aceitunas y piñones: vegetal y con fibra, aunque lleva azúcar."]
+    nutrition: [210, 3, 18, 14]
     photo: cocina-italiana/caponata.jpg
     category: Verduras
     difficulty: EASY
@@ -567,6 +603,8 @@ recipes:
       - Añade la berenjena, mezcla con cuidado y deja que se temple. Sirve con albahaca.
 
   - name: Tiramisú
+    health: [RED, "Postre de mascarpone, huevo y azúcar con bizcocho: mucha grasa y azúcar."]
+    nutrition: [450, 9, 36, 30]
     photo: cocina-italiana/tiramisu.jpg
     category: Postres
     difficulty: EASY
@@ -592,6 +630,8 @@ recipes:
       - Refrigera al menos 6 horas y espolvorea el cacao justo antes de servir.
 
   - name: Panna cotta
+    health: [RED, "Nata con azúcar y gelatina: mucha grasa saturada. Los frutos rojos aportan algo de vitaminas."]
+    nutrition: [360, 3, 22, 29]
     photo: cocina-italiana/panna-cotta.jpg
     category: Postres
     difficulty: EASY

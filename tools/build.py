@@ -14,6 +14,7 @@ that installed it are offered the update.
 
 Usage: python3 tools/build.py   (needs PyYAML: pip install pyyaml)
 """
+import hashlib
 import json
 import re
 import sys
@@ -33,8 +34,9 @@ PHOTOS = ROOT / "photos"
 # copy keeps). Non-commercial, no-derivatives and GFDL-only photos are not accepted.
 NO_ATTRIBUTION_LICENSES = {"CC0 1.0", "Public domain"}
 ATTRIBUTION_LICENSE = re.compile(r"^CC BY(-SA)? (2\.0|2\.5|3\.0|4\.0)$")
-PHOTO_CREDIT = {"es": "📷 Foto: {author} · {license} ({license_url}) · {source} (recortada)",
-                "en": "📷 Photo: {author} · {license} ({license_url}) · {source} (cropped)"}
+# The author links to the photo's page, as a Markdown link the app shows as tappable text.
+PHOTO_CREDIT = {"es": "📷 Foto: [{author}]({source}) · {license}",
+                "en": "📷 Photo: [{author}]({source}) · {license}"}
 SCHEMA_VERSION = 5
 DIFFICULTIES = {"EASY", "MEDIUM", "HARD"}
 LANGUAGES = {"es", "en"}
@@ -97,12 +99,6 @@ def load_credits():
     return credits
 
 
-def license_url(license_name):
-    """"CC BY-SA 4.0" -> https://creativecommons.org/licenses/by-sa/4.0/"""
-    match = ATTRIBUTION_LICENSE.match(license_name)
-    return f"https://creativecommons.org/licenses/{'by-sa' if match.group(1) else 'by'}/{match.group(2)}/"
-
-
 def recipe_photo(raw, where, credits):
     """The recipe's photo file and its credit, checked against the credits files; None without one."""
     name = raw.get("photo")
@@ -124,17 +120,59 @@ def notes_with_credit(notes, credit, language):
     """The recipe notes, plus the attribution a CC BY / BY-SA photo requires."""
     if credit is None or credit["license"] in NO_ATTRIBUTION_LICENSES:
         return notes
-    line = PHOTO_CREDIT[language].format(author=credit["author"], license=credit["license"],
-                                         license_url=license_url(credit["license"]), source=credit["source"])
+    # Brackets in the author and parentheses in the address would break the Markdown link.
+    author = credit["author"].replace("[", "(").replace("]", ")")
+    source = credit["source"].replace("(", "%28").replace(")", "%29").replace(" ", "%20")
+    line = PHOTO_CREDIT[language].format(author=author, license=credit["license"], source=source)
     return f"{notes}\n\n{line}" if notes else line
 
 
-def recipe(pack, raw, book_name, photo):
+HEALTH_LEVELS = {"GREEN", "YELLOW", "RED"}
+
+
+def fingerprint(ingredients, steps):
+    """The app's HealthFingerprint: SHA-256 of the ingredients and steps, written the same way."""
+    text = ""
+    for group in ingredients:
+        text += (group["name"] or "") + "|"
+        for item in group["ingredients"]:
+            quantity = "null" if item["quantity"] is None else repr(float(item["quantity"]))
+            text += f"{item['name']},{quantity},{item['unit'] or ''};"
+    text += "##"
+    for group in steps:
+        text += (group["name"] or "") + "|"
+        for instruction in group["instructions"]:
+            text += instruction + ";"
+    return hashlib.sha256(text.encode("utf-8")).hexdigest()
+
+
+def health_and_nutrition(raw, where, ingredients, steps, analyzed_at):
+    """The fixed health rating and nutrition per serving of a recipe. Every pack recipe has them,
+    so the app never sends pack recipes to the cooking assistant."""
+    health, nutrition = raw.get("health"), raw.get("nutrition")
+    if not (isinstance(health, list) and len(health) == 2 and health[0] in HEALTH_LEVELS
+            and isinstance(health[1], str) and health[1].strip()):
+        fail(f"{where}: health must be [GREEN|YELLOW|RED, \"description\"]")
+    if not (isinstance(nutrition, list) and len(nutrition) == 4
+            and all(isinstance(v, (int, float)) and v >= 0 for v in nutrition) and isinstance(nutrition[0], int)):
+        fail(f"{where}: nutrition must be [kcal, protein g, carbs g, fat g] per serving")
+    digest = fingerprint(ingredients, steps)
+    return (
+        {"colorLevel": health[0], "description": " ".join(health[1].split()), "fingerprint": digest, "analyzedAt": analyzed_at},
+        {"caloriesPerServing": nutrition[0], "proteinGrams": float(nutrition[1]), "carbsGrams": float(nutrition[2]),
+         "fatGrams": float(nutrition[3]), "fingerprint": digest, "analyzedAt": analyzed_at},
+    )
+
+
+def recipe(pack, raw, book_name, photo, analyzed_at):
     where = f"{pack['id']} / {raw.get('name')}"
     defaults = pack.get("defaults", {})
     difficulty = raw.get("difficulty", "MEDIUM")
     if difficulty not in DIFFICULTIES:
         fail(f"{where}: difficulty must be one of {sorted(DIFFICULTIES)}")
+    ingredients = ingredient_groups(raw["ingredients"], where)
+    steps = step_groups(raw["steps"], where)
+    health, nutrition = health_and_nutrition(raw, where, ingredients, steps, analyzed_at)
     return {
         "version": SCHEMA_VERSION,
         "uid": str(uuid.uuid5(NAMESPACE, f"{pack['id']}/{slug(raw['name'])}")),
@@ -148,11 +186,13 @@ def recipe(pack, raw, book_name, photo):
         "notes": notes_with_credit(raw.get("notes", ""), photo[1] if photo else None, pack["language"]),
         "source": raw.get("source", defaults.get("source", "")),
         "isFavorite": False,
-        "ingredientGroups": ingredient_groups(raw["ingredients"], where),
-        "stepGroups": step_groups(raw["steps"], where),
+        "ingredientGroups": ingredients,
+        "stepGroups": steps,
         "tags": raw.get("tags", []),
         "utensils": raw.get("utensils", []),
         "photos": [{"fileName": "0.jpg", "isCover": True}] if photo else [],
+        "health": health,
+        "nutrition": nutrition,
         "origin": raw.get("origin", defaults.get("origin")),
         "originCountry": raw.get("originCountry", defaults.get("originCountry")),
     }
@@ -183,13 +223,14 @@ def build_pack(pack_dir: Path):
     book_cover = pack_dir / "book-cover.jpg"
     credits = load_credits()
     photos = [recipe_photo(raw, f"{pack_id} / {raw.get('name')}", credits) for raw in pack["recipes"]]
-    recipes = [recipe(pack, raw, pack["name"], photo) for raw, photo in zip(pack["recipes"], photos)]
+    updated = datetime(2026, 1, 1, tzinfo=timezone.utc) if "updated" not in pack else \
+        datetime.combine(pack["updated"], datetime.min.time(), tzinfo=timezone.utc)
+    analyzed_at = int(updated.timestamp() * 1000)
+    recipes = [recipe(pack, raw, pack["name"], photo, analyzed_at) for raw, photo in zip(pack["recipes"], photos)]
     names = [r["name"] for r in recipes]
     if len(set(names)) != len(names):
         fail(f"{pack_id}: two recipes share a name")
 
-    updated = datetime(2026, 1, 1, tzinfo=timezone.utc) if "updated" not in pack else \
-        datetime.combine(pack["updated"], datetime.min.time(), tzinfo=timezone.utc)
     manifest = {
         "version": SCHEMA_VERSION,
         "exportedAt": int(updated.timestamp() * 1000),

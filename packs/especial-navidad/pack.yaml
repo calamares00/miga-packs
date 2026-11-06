@@ -1,6 +1,6 @@
 id: especial-navidad
-version: 2
-updated: 2026-11-05
+version: 3
+updated: 2026-11-06
 language: es
 name: Especial Navidad
 series: Especiales
@@ -19,6 +19,8 @@ defaults:
 recipes:
 
   - name: Cóctel de gambas
+    health: [YELLOW, "Marisco magro y lechuga, pero la salsa rosa con mayonesa y la piña en almíbar suman grasa y azúcar."]
+    nutrition: [360, 20, 10, 27]
     photo: especial-navidad/coctel-de-gambas.jpg
     category: Entrantes
     difficulty: EASY
@@ -49,6 +51,8 @@ recipes:
       - Añade la piña y el huevo picado, y coloca las gambas encima.
       - Cubre con la salsa rosa justo al servir y decora con una gamba entera en el borde.
   - name: Croquetas de jamón
+    health: [YELLOW, "Bechamel con mantequilla y leche entera, con jamón, empanada y frita: grasa y sal. Mejor pocas."]
+    nutrition: [460, 15, 42, 25]
     photo: especial-navidad/croquetas-de-jamon.jpg
     category: Entrantes
     difficulty: MEDIUM
@@ -83,6 +87,8 @@ recipes:
       - Forma las croquetas, pásalas por huevo batido y pan rallado.
       - Fríe en tandas en aceite muy caliente (180 °C) hasta que estén doradas. Escurre sobre papel.
   - name: Salpicón de marisco
+    health: [GREEN, "Marisco con pimientos y cebolla en vinagreta de oliva: proteína magra y grasas saludables. El surimi es procesado."]
+    nutrition: [290, 22, 7, 19]
     photo: especial-navidad/salpicon-de-marisco.jpg
     category: Pescados y mariscos
     difficulty: EASY
@@ -110,6 +116,8 @@ recipes:
       - Mezcla el marisco con las verduras y aliña con el aceite, el vinagre y sal.
       - Refrigera al menos 1 hora antes de servir para que se mezclen los sabores.
   - name: Ensalada de escarola con granada
+    health: [GREEN, "Hojas verdes, granada y nueces con queso y aceite de oliva: fibra, antioxidantes y grasas saludables."]
+    nutrition: [230, 6, 9, 20]
     category: Ensaladas
     difficulty: EASY
     prep: 15
@@ -135,6 +143,8 @@ recipes:
       - Emulsiona el aceite con el vinagre, la mostaza, la miel y sal.
       - Monta la escarola con la granada, las nueces y el queso desmenuzado, y aliña al servir.
   - name: Sopa de galets
+    health: [YELLOW, "Caldo de carnes y verduras con pasta y pelota de carne: nutritivo y reconfortante, aunque con grasa y sal."]
+    nutrition: [420, 30, 35, 17]
     photo: especial-navidad/sopa-de-galets.jpg
     category: Sopas y cremas
     difficulty: MEDIUM
@@ -185,6 +195,8 @@ recipes:
           - Cuela el caldo y prueba de sal. Cuece los galets en él según el paquete (unos 15 minutos).
           - Sirve la sopa con los galets y, aparte, la carne, la pelota en rodajas y las verduras.
   - name: Consomé al jerez
+    health: [GREEN, "Caldo clarificado muy ligero, con pocas calorías. El jerez y el jamón aportan sabor y algo de sal."]
+    nutrition: [60, 6, 2, 2]
     photo: especial-navidad/consome-al-jerez.jpg
     category: Sopas y cremas
     difficulty: EASY
@@ -211,6 +223,8 @@ recipes:
       - Cuela por un colador con un paño, desgrasa y prueba de sal.
       - Sirve muy caliente en tazas con un chorrito de jerez en cada una.
   - name: Crema de marisco
+    health: [YELLOW, "Crema de marisco con verduras, pero la nata y el aceite la hacen más grasa. Con menos nata se aligera."]
+    nutrition: [260, 16, 11, 16]
     photo: especial-navidad/crema-de-marisco.jpg
     category: Sopas y cremas
     difficulty: MEDIUM
@@ -242,6 +256,8 @@ recipes:
       - Tritura, cuela muy bien apretando y vuelve al fuego. Añade la nata y sala.
       - Saltea los cuerpos de las gambas 1 minuto y sírvelos en la crema caliente.
   - name: Cordero lechal asado
+    health: [YELLOW, "Cordero lechal asado con manteca: proteína de calidad pero bastante grasa. Las patatas asadas lo completan."]
+    nutrition: [620, 40, 25, 40]
     photo: especial-navidad/cordero-lechal-asado.jpg
     category: Carnes
     difficulty: MEDIUM
@@ -270,6 +286,8 @@ recipes:
       - Da la vuelta, sube a 200 °C y asa 45-60 minutos más, hasta que la piel esté dorada y crujiente.
       - Deja reposar 10 minutos y sirve con su jugo.
   - name: Pavo relleno al horno
+    health: [YELLOW, "Pavo, carne magra, con un relleno de carne de cerdo, fruta seca y mantequilla que suma grasa y calorías."]
+    nutrition: [720, 70, 15, 40]
     photo: especial-navidad/pavo-relleno-al-horno.jpg
     category: Carnes
     difficulty: HARD
@@ -311,6 +329,8 @@ recipes:
           - Hornea a 170 °C unas 3 horas, regando cada 30 minutos. Destapa la última hora y sube a 190 °C para dorar.
           - Comprueba que el jugo del muslo sale claro (o 75 °C en lo más grueso). Reposa 20 minutos tapado antes de trinchar.
   - name: Besugo al horno
+    health: [GREEN, "Pescado al horno con patatas y aceite de oliva: proteína de calidad y un plato equilibrado."]
+    nutrition: [480, 38, 28, 24]
     category: Pescados y mariscos
     difficulty: EASY
     prep: 15
@@ -341,6 +361,8 @@ recipes:
       - Dora el ajo laminado con la guindilla en el resto del aceite, retira del fuego y añade el vinagre y el perejil.
       - Vierte el refrito sobre el besugo al sacarlo del horno.
   - name: Lombarda con manzana
+    health: [GREEN, "Lombarda con manzana y frutos secos: mucha fibra y antioxidantes. Lleva un poco de azúcar."]
+    nutrition: [190, 3, 25, 10]
     photo: especial-navidad/lombarda-con-manzana.jpg
     category: Verduras
     difficulty: EASY
@@ -369,6 +391,8 @@ recipes:
       - Incorpora la lombarda, las pasas, los piñones, el resto del vinagre y el azúcar.
       - Cocina 10 minutos a fuego medio, removiendo, hasta que quede brillante. Prueba de sal.
   - name: Roscón de Reyes
+    health: [RED, "Bollo dulce con azúcar y mantequilla, a menudo relleno de nata: mucho azúcar. Para la ocasión."]
+    nutrition: [360, 9, 58, 10]
     photo: especial-navidad/roscon-de-reyes.jpg
     category: Postres
     difficulty: HARD
@@ -413,6 +437,8 @@ recipes:
           - Pinta con huevo, decora con la fruta, la almendra y el azúcar humedecido.
           - Hornea a 180 °C 20-25 minutos, hasta que esté dorado. Enfría en una rejilla y, si quieres, ábrelo y rellénalo de nata.
   - name: Turrón de chocolate crujiente
+    health: [RED, "Chocolate con mantequilla y arroz inflado: muy rico en azúcar y grasa. Dulce para porciones pequeñas."]
+    nutrition: [210, 3, 21, 13]
     category: Postres
     difficulty: EASY
     prep: 15
@@ -435,6 +461,8 @@ recipes:
       - Vierte en el molde, alisa y refrigera al menos 3 horas.
       - Desmolda y corta en barritas con un cuchillo caliente.
   - name: Polvorones
+    health: [RED, "Dulce de manteca de cerdo, harina y azúcar: muy calórico y graso. Uno de vez en cuando."]
+    nutrition: [150, 2, 17, 8]
     photo: especial-navidad/polvorones.jpg
     category: Postres
     difficulty: MEDIUM
@@ -461,6 +489,8 @@ recipes:
       - Estira la masa a 1,5 cm de grosor entre dos papeles y córtala con un cortapastas ovalado.
       - Hornea a 200 °C 10-12 minutos. Déjalos enfriar del todo sin tocarlos (se rompen en caliente) y espolvorea azúcar glas.
   - name: Mazapanes de Toledo
+    health: [YELLOW, "Almendra con mucho azúcar: grasas saludables pero muy dulce. Un par de piezas como capricho."]
+    nutrition: [120, 3, 14, 6]
     photo: especial-navidad/mazapanes-de-toledo.jpg
     category: Postres
     difficulty: EASY
@@ -485,6 +515,8 @@ recipes:
       - Pinta con yema batida y gratina en el horno a 220 °C, solo con calor de arriba, 3-5 minutos, hasta que se doren.
 
   - name: Cochinillo asado
+    health: [RED, "Cochinillo con su piel y grasa, asado con manteca: muy graso. Plato de celebración para tomar con moderación."]
+    nutrition: [700, 42, 0, 59]
     photo: especial-navidad/cochinillo-asado.jpg
     category: Carnes
     difficulty: MEDIUM
@@ -512,6 +544,8 @@ recipes:
       - Asa 1 hora más a 200 °C, hasta que la piel esté dorada y crujiente. Sirve con su jugo y una ensalada.
 
   - name: Solomillo de cerdo al Pedro Ximénez
+    health: [YELLOW, "Solomillo de cerdo, carne magra, con salsa dulce de Pedro Ximénez y pasas. Equilibrado, aunque con azúcar."]
+    nutrition: [420, 38, 22, 15]
     photo: especial-navidad/solomillo-de-cerdo-al-pedro-ximenez.jpg
     category: Carnes
     difficulty: EASY
@@ -539,6 +573,8 @@ recipes:
       - Corta en medallones, termina la salsa con la mantequilla fría y sirve por encima.
 
   - name: Merluza en salsa verde
+    health: [GREEN, "Pescado blanco y almejas en salsa de perejil con aceite de oliva: proteína magra y muy ligero."]
+    nutrition: [300, 34, 5, 16]
     photo: especial-navidad/merluza-en-salsa-verde.jpg
     category: Pescados y mariscos
     difficulty: EASY
@@ -567,6 +603,8 @@ recipes:
       - Da la vuelta a la merluza, espolvorea el perejil y cocina 2 minutos más. Las almejas deben estar abiertas.
 
   - name: Cardo con almendras
+    health: [GREEN, "Verdura con mucha fibra en salsa de almendras. El jamón aporta sabor y algo de sal."]
+    nutrition: [230, 10, 13, 16]
     photo: especial-navidad/cardo-con-almendras.jpg
     category: Verduras
     difficulty: EASY
@@ -595,6 +633,8 @@ recipes:
       - Incorpora el cardo escurrido, cocina 5 minutos más y prueba de sal.
 
   - name: Turrón blando de Jijona
+    health: [YELLOW, "Almendra con miel y azúcar: grasas saludables y proteína, pero muy dulce. En porciones pequeñas."]
+    nutrition: [290, 8, 26, 18]
     photo: especial-navidad/turron-blando-de-jijona.jpg
     category: Postres
     difficulty: MEDIUM
@@ -622,6 +662,8 @@ recipes:
       - Vierte en un molde forrado con papel de horno, cubre, pon peso encima y deja reposar 24 horas antes de cortar.
 
   - name: Sopa de almendras
+    health: [YELLOW, "Almendra, leche y pan con bastante azúcar: nutritiva pero dulce. Postre tradicional ocasional."]
+    nutrition: [420, 12, 48, 20]
     photo: especial-navidad/sopa-de-almendras.jpg
     category: Postres
     difficulty: EASY
@@ -648,6 +690,8 @@ recipes:
       - Vierte la sopa caliente por encima y espolvorea canela.
 
   - name: Compota de Nochebuena
+    health: [YELLOW, "Fruta fresca y seca con fibra, cocida en vino con azúcar. Sabrosa pero dulce; el alcohol se reduce al cocer."]
+    nutrition: [260, 2, 55, 1]
     photo: especial-navidad/compota-de-nochebuena.jpg
     category: Postres
     difficulty: EASY

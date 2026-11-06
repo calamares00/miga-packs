@@ -1,6 +1,6 @@
 id: chinese-cooking
-version: 2
-updated: 2026-11-05
+version: 3
+updated: 2026-11-06
 language: en
 name: "World cuisine: China"
 series: World cuisine
@@ -23,6 +23,8 @@ defaults:
 recipes:
 
   - name: Kung pao chicken
+    health: [YELLOW, "Chicken with peanuts and vegetables, high in protein, though the sauces add quite a lot of salt."]
+    nutrition: [380, 30, 12, 24]
     photo: cocina-china/pollo-kung-pao.jpg
     category: Meat
     difficulty: MEDIUM
@@ -66,6 +68,8 @@ recipes:
       - Stir the sauce, pour it into the wok and toss until thick and glossy. Add the peanuts and serve.
 
   - name: Mapo tofu
+    health: [YELLOW, "Tofu with plant protein and a little meat, but the spicy sauce is oily and very salty."]
+    nutrition: [320, 20, 8, 23]
     photo: cocina-china/mapo-tofu.jpg
     category: Legumes
     difficulty: MEDIUM
@@ -101,6 +105,8 @@ recipes:
       - Serve topped with the Sichuan pepper and chopped spring onion.
 
   - name: Pork and cabbage jiaozi
+    health: [GREEN, "Boiled pork and cabbage dumplings: protein, vegetables and carbohydrate with moderate fat. Go easy on the soy."]
+    nutrition: [520, 24, 62, 19]
     photo: cocina-china/jiaozi-de-cerdo-y-col.jpg
     category: Breads and doughs
     difficulty: MEDIUM
@@ -149,6 +155,8 @@ recipes:
           - Mix the dipping sauce and serve the jiaozi hot.
 
   - name: Sweet and sour pork
+    health: [RED, "Battered, deep-fried pork in a sugary sauce: a lot of fat and sugar."]
+    nutrition: [560, 30, 48, 27]
     photo: cocina-china/cerdo-agridulce.jpg
     category: Meat
     difficulty: MEDIUM
@@ -188,6 +196,8 @@ recipes:
       - Add the pork, toss for a few seconds to coat it in the sauce and serve straight away.
 
   - name: Hot and sour soup
+    health: [GREEN, "A broth with tofu, mushrooms and a little pork: light and with protein. The soy adds a fair amount of salt."]
+    nutrition: [180, 16, 10, 8]
     photo: cocina-china/sopa-agripicante.jpg
     category: Soups
     difficulty: EASY
@@ -220,6 +230,8 @@ recipes:
       - Off the heat, add the vinegar, white pepper and sesame oil. Serve with chopped spring onion.
 
   - name: Wonton soup
+    health: [GREEN, "A soup with pork and prawn wontons: complete and moderate in fat. Watch the salt in the stock."]
+    nutrition: [380, 26, 36, 13]
     photo: cocina-china/sopa-wonton.jpg
     category: Soups
     difficulty: MEDIUM
@@ -255,6 +267,8 @@ recipes:
       - Transfer them to the bowls, ladle over the stock and finish with spring onion and a few drops of sesame oil.
 
   - name: Chicken chow mein
+    health: [GREEN, "Noodles with chicken and plenty of stir-fried vegetables. Balanced; the sauces add salt."]
+    nutrition: [440, 26, 52, 13]
     photo: cocina-china/chow-mein-de-pollo.jpg
     category: Pasta
     difficulty: EASY
@@ -286,6 +300,8 @@ recipes:
       - Add the garlic, vegetables, chicken and sauces and stir-fry over a high heat for 2 more minutes.
 
   - name: Egg drop soup
+    health: [GREEN, "A broth with beaten egg: very light, with protein and few calories."]
+    nutrition: [110, 9, 6, 6]
     photo: cocina-china/sopa-de-huevo.jpg
     category: Soups
     difficulty: EASY
@@ -310,6 +326,8 @@ recipes:
       - Finish with the sesame oil and chopped spring onion.
 
   - name: Hong shao rou
+    health: [RED, "Pork belly braised with sugar and soy: very fatty, sweet and salty. For special occasions."]
+    nutrition: [720, 22, 12, 64]
     photo: cocina-china/hong-shao-rou.jpg
     category: Meat
     difficulty: MEDIUM
@@ -340,6 +358,8 @@ recipes:
       - Uncover and turn up the heat until the sauce has reduced to a thick glaze, stirring so it doesn't stick.
 
   - name: Tomato and egg stir-fry
+    health: [GREEN, "Stir-fried tomato and egg: protein and vitamins in a simple dish, with some oil."]
+    nutrition: [340, 14, 10, 27]
     photo: cocina-china/tomate-con-huevo.jpg
     category: Eggs
     difficulty: EASY
@@ -363,6 +383,8 @@ recipes:
       - Return the eggs, fold gently and serve with chopped spring onion.
 
   - name: Dan dan noodles
+    health: [YELLOW, "Noodles with sesame paste and chilli oil: very tasty but fatty and salty."]
+    nutrition: [580, 20, 62, 28]
     photo: cocina-china/dan-dan-mian.jpg
     category: Pasta
     difficulty: MEDIUM
@@ -402,6 +424,8 @@ recipes:
       - Add 2 tablespoons of the cooking water to each bowl, then the noodles and pak choi. Top with the pork, peanuts and spring onion and mix as you eat.
 
   - name: Spring onion pancakes
+    health: [YELLOW, "Flour pancakes with spring onion, made with quite a lot of oil. Better as a side."]
+    nutrition: [410, 8, 56, 16]
     photo: cocina-china/tortitas-de-cebolleta.jpg
     category: Breads and doughs
     difficulty: MEDIUM
@@ -424,6 +448,8 @@ recipes:
       - Fry the pancakes in a frying pan with a little oil over a medium heat for 3 minutes on each side, until golden and flaky.
 
   - name: Steamed fish with ginger and spring onion
+    health: [GREEN, "Steamed fish with ginger: lean protein and very little fat. Go easy on the soy."]
+    nutrition: [380, 36, 6, 22]
     photo: cocina-china/pescado-al-vapor-con-jengibre-y-cebolleta.jpg
     category: Fish and seafood
     difficulty: EASY
@@ -450,6 +476,8 @@ recipes:
       - Scatter over the rest of the ginger and the spring onion in fine strips, heat the oil until smoking and pour it over so it sizzles. Garnish with coriander.
 
   - name: Garlic pak choi
+    health: [GREEN, "Leafy greens stir-fried with garlic and little oil: plenty of vitamins and few calories."]
+    nutrition: [90, 2, 5, 7]
     category: Vegetables
     difficulty: EASY
     prep: 5
@@ -471,6 +499,8 @@ recipes:
       - Add the pak choi and stir-fry over a high heat for 2 minutes. Add the sauce, sugar and a splash of water and stir-fry for 1 more minute, until tender but still crunchy.
 
   - name: Twice-cooked pork
+    health: [RED, "Pork belly boiled then stir-fried with a spicy paste: a lot of saturated fat and salt."]
+    nutrition: [560, 16, 8, 51]
     photo: cocina-china/cerdo-dos-veces-cocinado.jpg
     category: Meat
     difficulty: MEDIUM
@@ -500,6 +530,8 @@ recipes:
       - Add the leek and pepper in pieces, the wine, soy sauce and sugar and stir-fry everything together for 2 minutes.
 
   - name: Smashed cucumber salad
+    health: [GREEN, "Raw cucumber with garlic and vinegar: very light and refreshing. The soy adds salt."]
+    nutrition: [60, 1, 5, 4]
     photo: cocina-china/ensalada-de-pepino-aplastado.jpg
     category: Salads
     difficulty: EASY
@@ -524,6 +556,8 @@ recipes:
       - Mix the chopped garlic with the vinegar, soy sauce, sugar and oils, and dress the cucumber just before serving.
 
   - name: Spring rolls
+    health: [YELLOW, "Rolls with pork and vegetables, but deep-fried. Better in small numbers and well drained."]
+    nutrition: [380, 13, 30, 23]
     photo: cocina-china/rollitos-de-primavera.jpg
     category: Starters
     difficulty: MEDIUM
@@ -550,6 +584,8 @@ recipes:
       - Deep-fry at 170 °C for 4-5 minutes, until golden and crisp.
 
   - name: Char siu
+    health: [YELLOW, "Roast pork with a honey and hoisin glaze: good protein but a lot of sugar and some fat."]
+    nutrition: [520, 40, 30, 26]
     photo: cocina-china/char-siu.jpg
     category: Meat
     difficulty: MEDIUM
@@ -579,6 +615,8 @@ recipes:
       - Brush with the remaining honey and grill for 3-5 minutes, until caramelised at the edges. Let it rest before slicing.
 
   - name: Chicken and ginger congee
+    health: [GREEN, "Rice cooked in stock with chicken and ginger: very light and easy to digest."]
+    nutrition: [270, 20, 35, 5]
     photo: cocina-china/congee-de-pollo-y-jengibre.jpg
     category: Rice
     difficulty: EASY
@@ -605,6 +643,8 @@ recipes:
       - Season with salt and white pepper, add the chicken and serve with the rest of the ginger in fine strips, spring onion, a few drops of soy sauce and sesame oil.
 
   - name: Dry-fried green beans
+    health: [GREEN, "Green beans with a little pork and spices: plenty of vegetables, though stir-fried in oil."]
+    nutrition: [200, 8, 9, 15]
     photo: cocina-china/judias-verdes-salteadas-en-seco.jpg
     category: Vegetables
     difficulty: EASY

@@ -1,6 +1,6 @@
 id: cocina-alemana
-version: 2
-updated: 2026-11-05
+version: 3
+updated: 2026-11-06
 language: es
 name: "Cocina del mundo: Alemania"
 series: Cocina del mundo
@@ -23,6 +23,8 @@ defaults:
 recipes:
 
   - name: Schnitzel de cerdo
+    health: [YELLOW, "Lomo de cerdo magro, pero empanado y frito en aceite y mantequilla. Mejor con ensalada."]
+    nutrition: [520, 38, 30, 28]
     photo: cocina-alemana/schnitzel-de-cerdo.jpg
     category: Carnes
     difficulty: EASY
@@ -50,6 +52,8 @@ recipes:
       - Escúrrelos y sírvelos con gajos de limón, ensalada de patata o bratkartoffeln.
 
   - name: Rouladen de ternera
+    health: [YELLOW, "Ternera rellena de bacon y pepinillo en salsa de vino: proteína de calidad, aunque el bacon aporta grasa y sal."]
+    nutrition: [450, 42, 10, 25]
     photo: cocina-alemana/rouladen-de-ternera.jpg
     category: Carnes
     difficulty: MEDIUM
@@ -82,6 +86,8 @@ recipes:
       - Saca los rollos, cuela la salsa, espésala con la maicena disuelta en agua y sirve.
 
   - name: Sauerbraten
+    health: [GREEN, "Carne de ternera magra marinada y guisada lentamente: mucha proteína y poca grasa. La salsa lleva algo de azúcar."]
+    nutrition: [400, 52, 12, 14]
     photo: cocina-alemana/sauerbraten.jpg
     category: Carnes
     difficulty: HARD
@@ -119,6 +125,8 @@ recipes:
       - Saca la carne, cuela el líquido y cuécelo con el lebkuchen desmenuzado y las pasas hasta que espese. Corta la carne en lonchas y sírvela con la salsa.
 
   - name: Ensalada de patata suaba
+    health: [GREEN, "Patata con aliño de caldo, vinagre y poco aceite, sin mayonesa. Una ensalada ligera."]
+    nutrition: [210, 4, 30, 9]
     photo: cocina-alemana/ensalada-de-patata-suaba.jpg
     category: Ensaladas
     difficulty: EASY
@@ -147,6 +155,8 @@ recipes:
       - Añade el aceite y el cebollino, mezcla y ajusta de sal y vinagre.
 
   - name: Bratkartoffeln
+    health: [YELLOW, "Patatas salteadas con bacon, mantequilla y aceite: sabrosas pero grasas."]
+    nutrition: [380, 9, 42, 20]
     photo: cocina-alemana/bratkartoffeln.jpg
     category: Verduras
     difficulty: EASY
@@ -173,6 +183,8 @@ recipes:
       - Salpimienta, añade la mejorana y el perejil y sirve.
 
   - name: Kartoffelpuffer
+    health: [YELLOW, "Tortitas de patata fritas en aceite, con compota de manzana. Ricas, aunque fritas."]
+    nutrition: [400, 8, 58, 16]
     photo: cocina-alemana/kartoffelpuffer.jpg
     category: Verduras
     difficulty: EASY
@@ -198,6 +210,8 @@ recipes:
       - Escúrrelas sobre papel de cocina y sírvelas calientes con la compota de manzana.
 
   - name: Käsespätzle
+    health: [RED, "Pasta de huevo con mucho queso y cebolla frita en mantequilla: muy calórica y grasa."]
+    nutrition: [760, 34, 80, 34]
     photo: cocina-alemana/kasespatzle.jpg
     category: Pastas
     difficulty: MEDIUM
@@ -230,6 +244,8 @@ recipes:
       - Cubre con la cebolla frita y el cebollino y sirve enseguida.
 
   - name: Königsberger Klopse
+    health: [YELLOW, "Albóndigas cocidas en caldo, sin freír, con salsa de nata y alcaparras. Proteína de calidad pero salsa grasa."]
+    nutrition: [520, 30, 18, 37]
     photo: cocina-alemana/konigsberger-klopse.jpg
     category: Carnes
     difficulty: MEDIUM
@@ -268,6 +284,8 @@ recipes:
       - Añade la nata, las alcaparras, el limón y el azúcar. Fuera del fuego, liga con la yema. Calienta las albóndigas en la salsa y sirve con patatas cocidas.
 
   - name: Currywurst
+    health: [RED, "Salchicha procesada con salsa de ketchup y azúcar: grasa, sal y azúcar. Comida rápida para ocasiones."]
+    nutrition: [480, 17, 20, 37]
     photo: cocina-alemana/currywurst.jpg
     category: Carnes
     difficulty: EASY
@@ -301,6 +319,8 @@ recipes:
       - Cúbrelas con la salsa caliente y espolvorea curry por encima.
 
   - name: Frikadellen
+    health: [YELLOW, "Carne picada con pan y cebolla, frita en un poco de aceite. Buena proteína, pero con grasa."]
+    nutrition: [420, 26, 12, 30]
     photo: cocina-alemana/frikadellen.jpg
     category: Carnes
     difficulty: EASY
@@ -328,6 +348,8 @@ recipes:
       - Fríelas en el aceite a fuego medio 5-6 minutos por cada lado, hasta que estén doradas y hechas por dentro.
 
   - name: Potaje alemán de lentejas
+    health: [YELLOW, "Lentejas y verduras muy nutritivas, pero el bacon y las salchichas añaden grasa y sal."]
+    nutrition: [460, 26, 42, 20]
     photo: cocina-alemana/potaje-aleman-de-lentejas.jpg
     category: Legumbres
     difficulty: EASY
@@ -359,6 +381,8 @@ recipes:
       - Incorpora las salchichas en rodajas y calienta 5 minutos. Termina con el vinagre y salpimienta.
 
   - name: Sopa de guisantes
+    health: [YELLOW, "Guisantes secos con mucha fibra y proteína, con carne ahumada y salchichas que aportan grasa y sal."]
+    nutrition: [520, 32, 55, 19]
     photo: cocina-alemana/sopa-de-guisantes.jpg
     category: Legumbres
     difficulty: EASY
@@ -388,6 +412,8 @@ recipes:
       - Saca el codillo, desmenuza la carne y devuélvela a la sopa con las salchichas en rodajas. Salpimienta.
 
   - name: Sopa de patata alemana
+    health: [YELLOW, "Sopa de patata y verduras, con mantequilla, nata y salchichas que la hacen más grasa."]
+    nutrition: [360, 10, 36, 20]
     photo: cocina-alemana/sopa-de-patata-alemana.jpg
     category: Sopas y cremas
     difficulty: EASY
@@ -419,6 +445,8 @@ recipes:
       - Añade la nata, la nuez moscada y las salchichas en rodajas, calienta y ajusta de sal. Sirve con perejil.
 
   - name: Flammkuchen
+    health: [RED, "Masa fina con crème fraîche y bacon: mucha grasa saturada y sal."]
+    nutrition: [560, 15, 50, 33]
     photo: cocina-alemana/flammkuchen.jpg
     category: Panes y masas
     difficulty: EASY
@@ -451,6 +479,8 @@ recipes:
       - Hornea cada flammkuchen 10-12 minutos sobre la bandeja caliente, hasta que los bordes estén crujientes y dorados.
 
   - name: Brezeln
+    health: [YELLOW, "Pan de harina blanca con mantequilla y sal gruesa por encima. Moderar por la sal."]
+    nutrition: [230, 6, 40, 3]
     photo: cocina-alemana/brezeln.jpg
     category: Panes y masas
     difficulty: MEDIUM
@@ -483,6 +513,8 @@ recipes:
       - Colócalas en bandejas con papel de horno, haz un corte en la parte gruesa, espolvorea sal gruesa y hornea 15 minutos, hasta que estén muy doradas.
 
   - name: Maultaschen
+    health: [YELLOW, "Pasta rellena de carne, salchicha y espinacas. Completa, aunque con grasa de la carne."]
+    nutrition: [470, 23, 45, 21]
     photo: cocina-alemana/maultaschen.jpg
     category: Pastas
     difficulty: HARD
@@ -523,6 +555,8 @@ recipes:
       - Cuécelos en el caldo a fuego suave 10-12 minutos. Sírvelos en el caldo con cebollino.
 
   - name: Pastel de manzana alemán
+    health: [YELLOW, "Bizcocho con manzana: fruta, pero con mantequilla y azúcar. Un postre moderado."]
+    nutrition: [300, 5, 40, 13]
     photo: cocina-alemana/pastel-de-manzana-aleman.jpg
     category: Postres
     difficulty: EASY
@@ -552,6 +586,8 @@ recipes:
       - Hornea 40-45 minutos. Deja que se enfríe y espolvorea el azúcar glas.
 
   - name: Tarta Selva Negra
+    health: [RED, "Tarta de chocolate con nata montada, cerezas y kirsch: mucho azúcar y grasa."]
+    nutrition: [430, 6, 42, 26]
     photo: cocina-alemana/tarta-selva-negra.jpg
     category: Postres
     difficulty: HARD
@@ -596,6 +632,8 @@ recipes:
           - Decora con virutas de chocolate por los lados y rosetas de nata con una cereza encima.
 
   - name: Rote Grütze
+    health: [YELLOW, "Frutos rojos ricos en antioxidantes, pero con zumo y azúcar añadido. Sin la nata o natillas es más ligero."]
+    nutrition: [210, 1, 48, 1]
     photo: cocina-alemana/rote-grutze.jpg
     category: Postres
     difficulty: EASY
@@ -619,6 +657,8 @@ recipes:
       - Reparte en cuencos y refrigera al menos 2 horas.
 
   - name: Obatzda
+    health: [RED, "Queso camembert con mantequilla y queso crema: mucha grasa saturada y sal. Para untar con moderación."]
+    nutrition: [310, 12, 3, 28]
     photo: cocina-alemana/obatzda.jpg
     category: Salsas
     difficulty: EASY

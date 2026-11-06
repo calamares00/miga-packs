@@ -1,6 +1,6 @@
 id: cenas-en-20-minutos
-version: 2
-updated: 2026-11-05
+version: 3
+updated: 2026-11-06
 language: es
 name: Cenas en 20 minutos
 series: Cocina de cada día
@@ -19,6 +19,8 @@ defaults:
 recipes:
 
   - name: Tortilla francesa con espinacas y queso
+    health: [GREEN, "Huevo, espinacas y un poco de queso: proteína de calidad y verdura con poca grasa añadida. Una cena ligera y completa."]
+    nutrition: [300, 20, 2, 23]
     photo: cenas-en-20-minutos/tortilla-francesa-con-espinacas-y-queso.jpg
     category: Huevos
     difficulty: EASY
@@ -41,6 +43,8 @@ recipes:
       - Dobla la tortilla por la mitad y deja que se haga 1 minuto más. Sírvela jugosa.
 
   - name: Revuelto de champiñones y jamón
+    health: [GREEN, "Huevos y champiñones con poco aceite dan una cena rica en proteína. El jamón aporta sal: no hace falta añadir mucha."]
+    nutrition: [340, 24, 4, 25]
     photo: cenas-en-20-minutos/revuelto-de-champinones-y-jamon.jpg
     category: Huevos
     difficulty: EASY
@@ -65,6 +69,8 @@ recipes:
       - Espolvorea el perejil y sirve enseguida.
 
   - name: Espaguetis con ajo, aceite y guindilla
+    health: [YELLOW, "Pasta con bastante aceite de oliva y ajo, sin proteína ni verdura. Sabrosa y rápida, mejor con una ensalada al lado."]
+    nutrition: [620, 13, 74, 30]
     photo: cenas-en-20-minutos/espaguetis-con-ajo-aceite-y-guindilla.jpg
     category: Pastas
     difficulty: EASY
@@ -89,6 +95,8 @@ recipes:
       - Saltea 1 minuto para que la salsa ligue, añade el perejil y sirve.
 
   - name: Pasta con tomates cherry y albahaca
+    health: [GREEN, "Pasta con tomate fresco, albahaca, aceite de oliva y un poco de queso. Un plato mediterráneo equilibrado."]
+    nutrition: [560, 17, 78, 21]
     photo: cenas-en-20-minutos/pasta-con-tomates-cherry-y-albahaca.jpg
     category: Pastas
     difficulty: EASY
@@ -112,6 +120,8 @@ recipes:
       - Termina con la albahaca troceada a mano y el parmesano.
 
   - name: Salmón a la plancha con espárragos
+    health: [GREEN, "Pescado azul rico en omega 3 con verdura a la plancha. Un plato muy equilibrado y saciante."]
+    nutrition: [420, 34, 6, 29]
     photo: cenas-en-20-minutos/salmon-a-la-plancha-con-esparragos.jpg
     category: Pescados y mariscos
     difficulty: EASY
@@ -134,6 +144,8 @@ recipes:
       - Sirve con los espárragos, sal en escamas, pimienta y unas gotas de limón.
 
   - name: Merluza al limón con perejil
+    health: [GREEN, "Pescado blanco magro con limón y poco rebozado. Ligero y con proteína de calidad."]
+    nutrition: [290, 30, 8, 15]
     category: Pescados y mariscos
     difficulty: EASY
     prep: 5
@@ -157,6 +169,8 @@ recipes:
       - Devuelve la merluza a la sartén, espolvorea el perejil y cocina 2 minutos más, moviendo la sartén para que la salsa espese.
 
   - name: Wok de pollo con verduras
+    health: [GREEN, "Pollo magro con muchas verduras salteadas. La soja aporta sal: con moderación es una cena muy equilibrada."]
+    nutrition: [380, 38, 15, 18]
     photo: cenas-en-20-minutos/wok-de-pollo-con-verduras.jpg
     category: Carnes
     difficulty: EASY
@@ -184,6 +198,8 @@ recipes:
       - Sirve con sésamo por encima.
 
   - name: Pollo al limón con cuscús
+    health: [GREEN, "Pechuga a la plancha con cuscús: proteína magra e hidratos. Añadir verdura lo completa."]
+    nutrition: [560, 45, 60, 15]
     photo: cenas-en-20-minutos/pollo-al-limon-con-cuscus.jpg
     category: Carnes
     difficulty: EASY
@@ -212,6 +228,8 @@ recipes:
       - Suelta el cuscús con un tenedor y la mantequilla y sírvelo con el pollo y su salsa.
 
   - name: Fajitas de ternera
+    health: [YELLOW, "Ternera con pimientos y cebolla en tortillas de trigo. Equilibrado, aunque las tortillas y la nata agria suman calorías."]
+    nutrition: [620, 42, 52, 26]
     photo: cenas-en-20-minutos/fajitas-de-ternera.jpg
     category: Carnes
     difficulty: EASY
@@ -238,6 +256,8 @@ recipes:
       - Calienta las tortillas en otra sartén y rellénalas con la mezcla y una cucharada de nata agria.
 
   - name: Lomo con salsa de mostaza y miel
+    health: [YELLOW, "Lomo de cerdo magro, pero la salsa lleva nata y miel. Mejor con verdura o ensalada."]
+    nutrition: [460, 38, 10, 30]
     photo: cenas-en-20-minutos/lomo-con-salsa-de-mostaza-y-miel.jpg
     category: Carnes
     difficulty: EASY
@@ -260,6 +280,8 @@ recipes:
       - Devuelve el lomo a la sartén 1 minuto para que se impregne y sirve con la salsa.
 
   - name: Arroz salteado con huevo y guisantes
+    health: [GREEN, "Arroz con huevo, guisantes y zanahoria: completo y sencillo. Moderar la salsa de soja por la sal."]
+    nutrition: [470, 14, 70, 15]
     photo: cenas-en-20-minutos/arroz-salteado-con-huevo-y-guisantes.jpg
     category: Arroces
     difficulty: EASY
@@ -284,6 +306,8 @@ recipes:
       - Añade el arroz y la soja y saltea a fuego fuerte 3-4 minutos, hasta que el arroz esté caliente y suelto.
 
   - name: Ñoquis con mantequilla y salvia
+    health: [YELLOW, "Ñoquis de patata con bastante mantequilla y queso. Rico pero graso; acompañar con verdura."]
+    nutrition: [560, 13, 70, 27]
     photo: cenas-en-20-minutos/noquis-con-mantequilla-y-salvia.jpg
     category: Pastas
     difficulty: EASY
@@ -307,6 +331,8 @@ recipes:
       - Pasa los ñoquis escurridos a la sartén, saltéalos 1 minuto y sirve con parmesano y pimienta.
 
   - name: Crema de calabacín exprés
+    health: [GREEN, "Crema de verdura con poca grasa. Los quesitos le dan cremosidad sin añadir mucho."]
+    nutrition: [130, 4, 12, 8]
     photo: cenas-en-20-minutos/crema-de-calabacin-expres.jpg
     category: Sopas y cremas
     difficulty: EASY
@@ -330,6 +356,8 @@ recipes:
       - Tritura con los quesitos hasta que quede una crema fina. Ajusta de sal.
 
   - name: Sopa de fideos rápida
+    health: [GREEN, "Sopa ligera de caldo y fideos con huevo y jamón. Reconfortante y con pocas calorías; vigilar la sal del caldo."]
+    nutrition: [250, 15, 32, 7]
     photo: cenas-en-20-minutos/sopa-de-fideos-rapida.jpg
     category: Sopas y cremas
     difficulty: EASY
@@ -350,6 +378,8 @@ recipes:
       - Sirve con el huevo duro picado, el jamón y unas hojas de hierbabuena.
 
   - name: Ensalada de garbanzos con atún
+    health: [GREEN, "Legumbres, atún y verduras crudas: fibra, proteína y grasas saludables. Un plato frío muy completo."]
+    nutrition: [620, 38, 45, 32]
     photo: cenas-en-20-minutos/ensalada-de-garbanzos-con-atun.jpg
     category: Ensaladas
     difficulty: EASY
@@ -375,6 +405,8 @@ recipes:
       - Aliña con el aceite, el vinagre y la sal justo antes de servir.
 
   - name: Ensalada César con pollo
+    health: [YELLOW, "Lechuga y pollo son ligeros, pero la salsa con mayonesa, el pan y el queso suben la grasa. Aligerar la salsa lo mejora."]
+    nutrition: [520, 34, 20, 34]
     photo: cenas-en-20-minutos/ensalada-cesar-con-pollo.jpg
     category: Ensaladas
     difficulty: EASY
@@ -404,6 +436,8 @@ recipes:
       - Trocea la lechuga y sírvela con el pollo, los picatostes, el parmesano y la salsa.
 
   - name: Tostas de aguacate con huevo
+    health: [GREEN, "Pan con aguacate y huevo: grasas saludables, proteína e hidratos. Una cena o desayuno muy completo."]
+    nutrition: [420, 15, 32, 26]
     photo: cenas-en-20-minutos/tostas-de-aguacate-con-huevo.jpg
     category: Huevos
     difficulty: EASY
@@ -427,6 +461,8 @@ recipes:
       - Coloca un huevo sobre cada tosta y termina con sal en escamas y copos de chile.
 
   - name: Pizza de tortilla de trigo
+    health: [YELLOW, "Base fina con tomate, queso y jamón. Más ligera que una pizza normal, pero el queso y el jamón aportan grasa y sal."]
+    nutrition: [480, 26, 42, 23]
     photo: cenas-en-20-minutos/pizza-de-tortilla-de-trigo.jpg
     category: Panes y masas
     difficulty: EASY
@@ -450,6 +486,8 @@ recipes:
       - Espolvorea el orégano y corta en porciones.
 
   - name: Wrap de pollo y aguacate
+    health: [GREEN, "Pollo, aguacate y verdura con salsa de yogur en tortilla. Equilibrado y fácil de llevar."]
+    nutrition: [520, 34, 40, 25]
     photo: cenas-en-20-minutos/wrap-de-pollo-y-aguacate.jpg
     category: Carnes
     difficulty: EASY
@@ -475,6 +513,8 @@ recipes:
       - Enróllalas bien apretadas y córtalas por la mitad en diagonal.
 
   - name: Gambas salteadas con calabacín
+    health: [GREEN, "Marisco magro con calabacín salteado en aceite de oliva. Pocas calorías y mucha proteína."]
+    nutrition: [320, 30, 8, 19]
     photo: cenas-en-20-minutos/gambas-salteadas-con-calabacin.jpg
     category: Pescados y mariscos
     difficulty: EASY

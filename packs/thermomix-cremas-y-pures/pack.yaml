@@ -1,6 +1,6 @@
 id: thermomix-cremas-y-pures
-version: 2
-updated: 2026-11-05
+version: 3
+updated: 2026-11-06
 language: es
 name: "Thermomix: cremas y purés"
 series: Electrodomésticos
@@ -22,6 +22,8 @@ defaults:
 recipes:
 
   - name: Crema de calabaza
+    health: [GREEN, "Crema de verdura con poco aceite y un toque de nata. Rica en fibra y vitamina A, y con pocas calorías."]
+    nutrition: [170, 3, 18, 10]
     photo: thermomix-cremas-y-pures/crema-de-calabaza.jpg
     category: Sopas y cremas
     difficulty: EASY
@@ -50,6 +52,8 @@ recipes:
       - Añade la nata y tritura 1 min/vel 5-10, subiendo la velocidad progresivamente. Ajusta de sal.
 
   - name: Crema de verduras
+    health: [GREEN, "Muchas verduras distintas con un poco de aceite de oliva. Ligera, saciante y llena de fibra."]
+    nutrition: [150, 3, 17, 8]
     photo: thermomix-cremas-y-pures/crema-de-verduras.jpg
     category: Sopas y cremas
     difficulty: EASY
@@ -78,6 +82,8 @@ recipes:
       - Tritura 1 min/vel 5-10 progresivamente y ajusta de sal.
 
   - name: Puré de patatas
+    health: [YELLOW, "Patata con leche entera y mantequilla: reconfortante, pero con grasa. Buen acompañamiento en cantidad moderada."]
+    nutrition: [250, 6, 36, 11]
     photo: thermomix-cremas-y-pures/pure-de-patatas.jpg
     category: Verduras
     difficulty: EASY
@@ -101,6 +107,8 @@ recipes:
       - Añade la mantequilla y la nuez moscada y mezcla 20 seg/vel 3,5. Quita la mariposa y sirve.
 
   - name: Vichyssoise
+    health: [YELLOW, "Puerro y patata ligeros, pero la mantequilla y la nata la hacen más grasa. Aligerarla con menos nata."]
+    nutrition: [250, 4, 20, 17]
     photo: thermomix-cremas-y-pures/vichyssoise.jpg
     category: Sopas y cremas
     difficulty: EASY
@@ -129,6 +137,8 @@ recipes:
       - Enfría en la nevera al menos 3 horas y sirve con cebollino.
 
   - name: Crema de champiñones
+    health: [YELLOW, "Champiñones ligeros con mantequilla y nata, que aportan grasa saturada. Con menos nata queda más sana."]
+    nutrition: [190, 5, 11, 14]
     photo: thermomix-cremas-y-pures/crema-de-champinones.jpg
     category: Sopas y cremas
     difficulty: EASY
@@ -158,6 +168,8 @@ recipes:
       - Añade la nata y tritura 1 min/vel 5-10 progresivamente.
 
   - name: Crema de zanahoria y jengibre
+    health: [GREEN, "Zanahoria, jengibre y naranja con poco aceite: mucha vitamina A y pocas calorías."]
+    nutrition: [170, 3, 22, 8]
     photo: thermomix-cremas-y-pures/crema-de-zanahoria-y-jengibre.jpg
     category: Sopas y cremas
     difficulty: EASY
@@ -185,6 +197,8 @@ recipes:
       - Añade el zumo de naranja y tritura 1 min/vel 5-10 progresivamente.
 
   - name: Crema de brócoli
+    health: [GREEN, "Brócoli y patata con poco aceite y un poco de queso. Verdura con mucha fibra y vitaminas."]
+    nutrition: [180, 7, 16, 10]
     photo: thermomix-cremas-y-pures/crema-de-brocoli.jpg
     category: Sopas y cremas
     difficulty: EASY
@@ -210,6 +224,8 @@ recipes:
       - Añade los quesitos y tritura 1 min/vel 5-10 progresivamente.
 
   - name: Crema de espárragos blancos
+    health: [YELLOW, "Espárragos y puerro ligeros, con mantequilla y nata que suben la grasa. Las conservas aportan sal."]
+    nutrition: [190, 4, 12, 15]
     photo: thermomix-cremas-y-pures/crema-de-esparragos-blancos.jpg
     category: Sopas y cremas
     difficulty: EASY
@@ -236,6 +252,8 @@ recipes:
       - Añade la nata y tritura 1 min/vel 5-10 progresivamente. Sirve con los espárragos reservados en rodajas.
 
   - name: Crema de guisantes y menta
+    health: [GREEN, "Guisantes con fibra y proteína vegetal, con algo de mantequilla y nata. Ligera y fresca."]
+    nutrition: [200, 8, 18, 10]
     photo: thermomix-cremas-y-pures/crema-de-guisantes-y-menta.jpg
     category: Sopas y cremas
     difficulty: EASY
@@ -261,6 +279,8 @@ recipes:
       - Añade la menta y la nata y tritura 1 min/vel 5-10 progresivamente. Cuela si la quieres muy fina.
 
   - name: Crema de tomate
+    health: [GREEN, "Tomate maduro con aceite de oliva y albahaca: rica en licopeno y muy ligera."]
+    nutrition: [160, 3, 13, 10]
     photo: thermomix-cremas-y-pures/crema-de-tomate.jpg
     category: Sopas y cremas
     difficulty: EASY
@@ -288,6 +308,8 @@ recipes:
       - Añade la albahaca y tritura 1 min/vel 5-10 progresivamente.
 
   - name: Crema de lentejas rojas
+    health: [GREEN, "Lentejas rojas con verduras y especias: mucha proteína vegetal, fibra y hierro. Muy completa."]
+    nutrition: [290, 15, 38, 8]
     photo: thermomix-cremas-y-pures/crema-de-lentejas-rojas.jpg
     category: Legumbres
     difficulty: EASY
@@ -316,6 +338,8 @@ recipes:
       - Añade el zumo de limón y tritura 40 seg/vel 5-10 progresivamente.
 
   - name: Crema de coliflor
+    health: [GREEN, "Coliflor con un poco de mantequilla y leche. Pocas calorías y mucha fibra."]
+    nutrition: [150, 5, 13, 8]
     photo: thermomix-cremas-y-pures/crema-de-coliflor.jpg
     category: Sopas y cremas
     difficulty: EASY
@@ -342,6 +366,8 @@ recipes:
       - Añade la leche y la nuez moscada y tritura 1 min/vel 5-10 progresivamente.
 
   - name: Crema de espinacas
+    health: [GREEN, "Espinacas y patata con un poco de queso crema. Verdura rica en hierro y folatos."]
+    nutrition: [200, 5, 17, 12]
     photo: thermomix-cremas-y-pures/crema-de-espinacas.jpg
     category: Sopas y cremas
     difficulty: EASY
@@ -370,6 +396,8 @@ recipes:
       - Añade el queso crema y la nuez moscada y tritura 1 min/vel 5-10 progresivamente.
 
   - name: Crema de boniato
+    health: [GREEN, "Boniato con especias y poco aceite: hidratos con fibra y mucha vitamina A."]
+    nutrition: [230, 3, 35, 8]
     category: Sopas y cremas
     difficulty: EASY
     prep: 10
@@ -396,6 +424,8 @@ recipes:
       - Tritura 1 min/vel 5-10 progresivamente y sirve con pimentón ahumado.
 
   - name: Crema de alcachofas
+    health: [GREEN, "Alcachofas y patata con aceite de oliva: mucha fibra y muy pocas calorías."]
+    nutrition: [170, 5, 20, 8]
     photo: thermomix-cremas-y-pures/crema-de-alcachofas.jpg
     category: Sopas y cremas
     difficulty: EASY
@@ -422,6 +452,8 @@ recipes:
       - Tritura 1 min/vel 5-10 progresivamente. Cuela si la quieres muy fina.
 
   - name: Crema de pimientos rojos asados
+    health: [GREEN, "Pimientos asados con poco aceite: mucha vitamina C y pocas calorías."]
+    nutrition: [160, 3, 19, 8]
     photo: thermomix-cremas-y-pures/crema-de-pimientos-rojos-asados.jpg
     category: Sopas y cremas
     difficulty: EASY
@@ -448,6 +480,8 @@ recipes:
       - Tritura 1 min/vel 5-10 progresivamente.
 
   - name: Crema de castañas
+    health: [YELLOW, "Castañas con mantequilla y nata: crema sabrosa pero calórica. Para tomar en raciones moderadas."]
+    nutrition: [320, 4, 46, 14]
     photo: thermomix-cremas-y-pures/crema-de-castanas.jpg
     category: Sopas y cremas
     difficulty: EASY
@@ -475,6 +509,8 @@ recipes:
       - Añade la nata y tritura 1 min/vel 5-10 progresivamente.
 
   - name: Crema de apio nabo
+    health: [GREEN, "Apio nabo, patata y manzana con algo de mantequilla y nata. Ligera y con fibra."]
+    nutrition: [190, 3, 20, 11]
     photo: thermomix-cremas-y-pures/crema-de-apio-nabo.jpg
     category: Sopas y cremas
     difficulty: EASY
@@ -502,6 +538,8 @@ recipes:
       - Añade la nata y tritura 1 min/vel 5-10 progresivamente.
 
   - name: Crema de alubias blancas
+    health: [GREEN, "Alubias con aceite de oliva y romero: mucha fibra y proteína vegetal. Saciante y sana."]
+    nutrition: [270, 12, 32, 10]
     category: Legumbres
     difficulty: EASY
     prep: 5
@@ -526,6 +564,8 @@ recipes:
       - Tritura 1 min/vel 5-10 progresivamente y sirve con un hilo de aceite.
 
   - name: Crema de remolacha
+    health: [GREEN, "Remolacha y patata con poco aceite y yogur. Pocas calorías y llena de antioxidantes."]
+    nutrition: [190, 5, 22, 9]
     photo: thermomix-cremas-y-pures/crema-de-remolacha.jpg
     category: Sopas y cremas
     difficulty: EASY

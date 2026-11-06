@@ -1,6 +1,6 @@
 id: cocina-china
-version: 2
-updated: 2026-11-05
+version: 3
+updated: 2026-11-06
 language: es
 name: "Cocina del mundo: China"
 series: Cocina del mundo
@@ -23,6 +23,8 @@ defaults:
 recipes:
 
   - name: Pollo kung pao
+    health: [YELLOW, "Pollo con cacahuetes y verduras, rico en proteína, aunque las salsas aportan bastante sal."]
+    nutrition: [380, 30, 12, 24]
     photo: cocina-china/pollo-kung-pao.jpg
     category: Carnes
     difficulty: MEDIUM
@@ -66,6 +68,8 @@ recipes:
       - Remueve la salsa, échala al wok y saltea hasta que espese y brille. Añade los cacahuetes y sirve.
 
   - name: Mapo tofu
+    health: [YELLOW, "Tofu con proteína vegetal y algo de carne, pero la salsa picante es grasa y muy salada."]
+    nutrition: [320, 20, 8, 23]
     photo: cocina-china/mapo-tofu.jpg
     category: Legumbres
     difficulty: MEDIUM
@@ -101,6 +105,8 @@ recipes:
       - Sirve con la pimienta de Sichuan y la cebolleta picada por encima.
 
   - name: Jiaozi de cerdo y col
+    health: [GREEN, "Empanadillas de cerdo y col cocidas: proteína, verdura e hidratos con grasa moderada. Moderar la soja."]
+    nutrition: [520, 24, 62, 19]
     photo: cocina-china/jiaozi-de-cerdo-y-col.jpg
     category: Panes y masas
     difficulty: MEDIUM
@@ -149,6 +155,8 @@ recipes:
           - Mezcla los ingredientes de la salsa y sirve los jiaozi calientes.
 
   - name: Cerdo agridulce
+    health: [RED, "Cerdo rebozado y frito con salsa azucarada: mucha grasa y azúcar."]
+    nutrition: [560, 30, 48, 27]
     photo: cocina-china/cerdo-agridulce.jpg
     category: Carnes
     difficulty: MEDIUM
@@ -188,6 +196,8 @@ recipes:
       - Incorpora el cerdo, saltea unos segundos para cubrirlo con la salsa y sirve enseguida.
 
   - name: Sopa agripicante
+    health: [GREEN, "Caldo con tofu, setas y algo de cerdo: ligero y con proteína. La soja aporta bastante sal."]
+    nutrition: [180, 16, 10, 8]
     photo: cocina-china/sopa-agripicante.jpg
     category: Sopas y cremas
     difficulty: EASY
@@ -220,6 +230,8 @@ recipes:
       - Fuera del fuego, añade el vinagre, la pimienta blanca y el aceite de sésamo. Sirve con cebolleta picada.
 
   - name: Sopa wonton
+    health: [GREEN, "Sopa con wonton de cerdo y gambas: completa y con grasa moderada. Vigilar la sal del caldo."]
+    nutrition: [380, 26, 36, 13]
     photo: cocina-china/sopa-wonton.jpg
     category: Sopas y cremas
     difficulty: MEDIUM
@@ -255,6 +267,8 @@ recipes:
       - Pásalos a los cuencos, cubre con el caldo y termina con cebolleta y unas gotas de aceite de sésamo.
 
   - name: Chow mein de pollo
+    health: [GREEN, "Fideos con pollo y muchas verduras salteadas. Equilibrado; las salsas añaden sal."]
+    nutrition: [440, 26, 52, 13]
     photo: cocina-china/chow-mein-de-pollo.jpg
     category: Pastas
     difficulty: EASY
@@ -286,6 +300,8 @@ recipes:
       - Incorpora el ajo, las verduras, el pollo y las salsas y saltea a fuego fuerte 2 minutos más.
 
   - name: Sopa de huevo
+    health: [GREEN, "Caldo con huevo batido: muy ligero, con proteína y pocas calorías."]
+    nutrition: [110, 9, 6, 6]
     photo: cocina-china/sopa-de-huevo.jpg
     category: Sopas y cremas
     difficulty: EASY
@@ -310,6 +326,8 @@ recipes:
       - Termina con el aceite de sésamo y la cebolleta picada.
 
   - name: Hong shao rou
+    health: [RED, "Panceta de cerdo guisada con azúcar y soja: muy grasa, dulce y salada. Para ocasiones."]
+    nutrition: [720, 22, 12, 64]
     photo: cocina-china/hong-shao-rou.jpg
     category: Carnes
     difficulty: MEDIUM
@@ -340,6 +358,8 @@ recipes:
       - Destapa y sube el fuego hasta que la salsa se reduzca y quede brillante y espesa, removiendo para que no se pegue.
 
   - name: Tomate con huevo
+    health: [GREEN, "Tomate y huevo salteados: proteína y vitaminas en un plato sencillo, con algo de aceite."]
+    nutrition: [340, 14, 10, 27]
     photo: cocina-china/tomate-con-huevo.jpg
     category: Huevos
     difficulty: EASY
@@ -363,6 +383,8 @@ recipes:
       - Devuelve los huevos, mezcla con cuidado y sirve con la cebolleta picada.
 
   - name: Dan dan mian
+    health: [YELLOW, "Fideos con pasta de sésamo y aceite de chile: muy sabrosos pero grasos y salados."]
+    nutrition: [580, 20, 62, 28]
     photo: cocina-china/dan-dan-mian.jpg
     category: Pastas
     difficulty: MEDIUM
@@ -402,6 +424,8 @@ recipes:
       - Añade a cada cuenco 2 cucharadas del agua de cocción, los fideos y el pak choi. Cubre con la carne, los cacahuetes y la cebolleta y mezcla al comer.
 
   - name: Tortitas de cebolleta
+    health: [YELLOW, "Tortitas de harina con cebolleta, hechas con bastante aceite. Mejor como acompañamiento."]
+    nutrition: [410, 8, 56, 16]
     photo: cocina-china/tortitas-de-cebolleta.jpg
     category: Panes y masas
     difficulty: MEDIUM
@@ -424,6 +448,8 @@ recipes:
       - Fríe las tortitas en una sartén con un poco de aceite a fuego medio 3 minutos por cada lado, hasta que estén doradas y hojaldradas.
 
   - name: Pescado al vapor con jengibre y cebolleta
+    health: [GREEN, "Pescado al vapor con jengibre: proteína magra y muy poca grasa. Moderar la soja."]
+    nutrition: [380, 36, 6, 22]
     photo: cocina-china/pescado-al-vapor-con-jengibre-y-cebolleta.jpg
     category: Pescados y mariscos
     difficulty: EASY
@@ -450,6 +476,8 @@ recipes:
       - Pon por encima el resto del jengibre y la cebolleta en tiras finas, calienta el aceite hasta que humee y viértelo encima para que chisporrotee. Decora con cilantro.
 
   - name: Pak choi con ajo
+    health: [GREEN, "Verdura de hoja salteada con ajo y poco aceite: muchas vitaminas y pocas calorías."]
+    nutrition: [90, 2, 5, 7]
     category: Verduras
     difficulty: EASY
     prep: 5
@@ -471,6 +499,8 @@ recipes:
       - Añade el pak choi y saltea a fuego fuerte 2 minutos. Agrega la salsa, el azúcar y un chorrito de agua y saltea 1 minuto más, hasta que esté tierno pero crujiente.
 
   - name: Cerdo dos veces cocinado
+    health: [RED, "Panceta de cerdo cocida y salteada con pasta picante: mucha grasa saturada y sal."]
+    nutrition: [560, 16, 8, 51]
     photo: cocina-china/cerdo-dos-veces-cocinado.jpg
     category: Carnes
     difficulty: MEDIUM
@@ -500,6 +530,8 @@ recipes:
       - Incorpora el puerro y el pimiento en trozos, el vino, la soja y el azúcar y saltea todo junto 2 minutos.
 
   - name: Ensalada de pepino aplastado
+    health: [GREEN, "Pepino crudo con ajo y vinagre: muy ligera y refrescante. La soja aporta sal."]
+    nutrition: [60, 1, 5, 4]
     photo: cocina-china/ensalada-de-pepino-aplastado.jpg
     category: Ensaladas
     difficulty: EASY
@@ -524,6 +556,8 @@ recipes:
       - Mezcla el ajo picado con el vinagre, la soja, el azúcar y los aceites, y aliña el pepino justo antes de servir.
 
   - name: Rollitos de primavera
+    health: [YELLOW, "Rollitos con cerdo y verduras, pero fritos en aceite. Mejor pocos y bien escurridos."]
+    nutrition: [380, 13, 30, 23]
     photo: cocina-china/rollitos-de-primavera.jpg
     category: Entrantes
     difficulty: MEDIUM
@@ -550,6 +584,8 @@ recipes:
       - Fríelos en aceite a 170 °C 4-5 minutos, hasta que estén dorados y crujientes.
 
   - name: Char siu
+    health: [YELLOW, "Cerdo asado con glaseado de miel y hoisin: buena proteína pero mucho azúcar y algo de grasa."]
+    nutrition: [520, 40, 30, 26]
     photo: cocina-china/char-siu.jpg
     category: Carnes
     difficulty: MEDIUM
@@ -579,6 +615,8 @@ recipes:
       - Píntala con la miel restante y gratínala 3-5 minutos, hasta que se caramelice por los bordes. Deja que repose antes de cortarla en lonchas.
 
   - name: Congee de pollo y jengibre
+    health: [GREEN, "Arroz cocido en caldo con pollo y jengibre: muy ligero y fácil de digerir."]
+    nutrition: [270, 20, 35, 5]
     photo: cocina-china/congee-de-pollo-y-jengibre.jpg
     category: Arroces
     difficulty: EASY
@@ -605,6 +643,8 @@ recipes:
       - Ajusta de sal y pimienta blanca, añade el pollo y sirve con el resto del jengibre en tiras finas, cebolleta, unas gotas de soja y aceite de sésamo.
 
   - name: Judías verdes salteadas en seco
+    health: [GREEN, "Judías verdes con un poco de cerdo y especias: mucha verdura, aunque salteadas con aceite."]
+    nutrition: [200, 8, 9, 15]
     photo: cocina-china/judias-verdes-salteadas-en-seco.jpg
     category: Verduras
     difficulty: EASY

@@ -1,6 +1,6 @@
 id: cocina-estadounidense
-version: 2
-updated: 2026-11-05
+version: 3
+updated: 2026-11-06
 language: es
 name: "Cocina del mundo: Estados Unidos"
 series: Cocina del mundo
@@ -23,6 +23,8 @@ defaults:
 recipes:
 
   - name: Macarrones con queso
+    health: [RED, "Pasta con salsa de queso cheddar, mantequilla y leche entera: mucha grasa saturada y calorías."]
+    nutrition: [780, 32, 75, 38]
     photo: cocina-estadounidense/macarrones-con-queso.jpg
     category: Pastas
     difficulty: EASY
@@ -51,6 +53,8 @@ recipes:
       - Hornea 20 minutos, hasta que esté dorado y burbujeante.
 
   - name: Cerdo desmenuzado
+    health: [YELLOW, "Paletilla de cerdo cocinada lentamente con salsa dulce: mucha proteína, pero corte graso y azúcar."]
+    nutrition: [480, 45, 8, 29]
     photo: cocina-estadounidense/cerdo-desmenuzado.jpg
     category: Carnes
     difficulty: EASY
@@ -88,6 +92,8 @@ recipes:
       - Sírvela en los panecillos con ensalada de col.
 
   - name: Pollo frito al estilo del sur
+    health: [RED, "Pollo rebozado y frito en abundante aceite: mucha grasa y calorías. Para ocasiones."]
+    nutrition: [720, 48, 42, 38]
     photo: cocina-estadounidense/pollo-frito-al-estilo-del-sur.jpg
     category: Carnes
     difficulty: MEDIUM
@@ -123,6 +129,8 @@ recipes:
       - Escúrrelo sobre una rejilla.
 
   - name: Sopa de almejas de Nueva Inglaterra
+    health: [YELLOW, "Almejas con patata en sopa cremosa: proteína y hierro, pero la panceta, la mantequilla y la nata la hacen grasa."]
+    nutrition: [480, 22, 34, 28]
     photo: cocina-estadounidense/sopa-de-almejas-de-nueva-inglaterra.jpg
     category: Sopas y cremas
     difficulty: MEDIUM
@@ -155,6 +163,8 @@ recipes:
       - Añade la leche y la nata y calienta sin que hierva 5 minutos. Incorpora las almejas, salpimienta y sirve.
 
   - name: Chili con carne
+    health: [YELLOW, "Carne picada con alubias, tomate y especias: completo y con fibra, aunque la carne aporta grasa."]
+    nutrition: [470, 34, 28, 24]
     photo: cocina-estadounidense/chili-con-carne.jpg
     category: Carnes
     difficulty: EASY
@@ -188,6 +198,8 @@ recipes:
       - Añade las alubias y el chocolate y cuece 20 minutos más. Ajusta de sal y sirve con queso rallado, cebolla o nata agria.
 
   - name: Pan de maíz
+    health: [YELLOW, "Pan de maíz con mantequilla y azúcar: más dulce y graso que el pan normal."]
+    nutrition: [280, 6, 36, 11]
     photo: cocina-estadounidense/pan-de-maiz.jpg
     category: Panes y masas
     difficulty: EASY
@@ -215,6 +227,8 @@ recipes:
       - Pinta el molde caliente con el resto de la mantequilla, vierte la masa y hornea 20-25 minutos, hasta que esté dorado.
 
   - name: Tortitas americanas
+    health: [YELLOW, "Tortitas con mantequilla y sirope de arce: muchos hidratos refinados y azúcar. Mejor con fruta."]
+    nutrition: [420, 10, 62, 13]
     photo: cocina-estadounidense/tortitas-americanas.jpg
     category: Panes y masas
     difficulty: EASY
@@ -242,6 +256,8 @@ recipes:
       - Sírvelas apiladas con mantequilla y sirope de arce.
 
   - name: Pastel de carne
+    health: [YELLOW, "Carne picada al horno con glaseado de ketchup: buena proteína, aunque con grasa y algo de azúcar."]
+    nutrition: [470, 32, 15, 31]
     photo: cocina-estadounidense/pastel-de-carne.jpg
     category: Carnes
     difficulty: EASY
@@ -278,6 +294,8 @@ recipes:
       - Hornea 45 minutos, pinta con el resto del glaseado y hornea 15 minutos más.
 
   - name: Jambalaya
+    health: [YELLOW, "Arroz con pollo, gambas y verduras, completo, pero la salchicha ahumada aporta grasa y sal."]
+    nutrition: [530, 36, 48, 20]
     photo: cocina-estadounidense/jambalaya.jpg
     category: Arroces
     difficulty: MEDIUM
@@ -312,6 +330,8 @@ recipes:
       - Coloca las gambas encima, tapa y cuece 5 minutos más. Sirve con cebolleta picada.
 
   - name: Gumbo de pollo y salchicha
+    health: [YELLOW, "Guiso con verduras, pollo y salchicha sobre roux de aceite y harina: sabroso pero graso y salado."]
+    nutrition: [520, 32, 22, 34]
     photo: cocina-estadounidense/gumbo-de-pollo-y-salchicha.jpg
     category: Sopas y cremas
     difficulty: HARD
@@ -346,6 +366,8 @@ recipes:
       - Sirve en cuencos sobre arroz blanco con cebolleta picada.
 
   - name: Ensalada de col
+    health: [YELLOW, "Col cruda con mucha fibra, pero aliñada con mayonesa, que aporta grasa."]
+    nutrition: [200, 2, 11, 17]
     photo: cocina-estadounidense/ensalada-de-col.jpg
     category: Ensaladas
     difficulty: EASY
@@ -374,6 +396,8 @@ recipes:
       - Mézclalo todo y refrigera al menos 30 minutos antes de servir.
 
   - name: Tarta de manzana
+    health: [RED, "Tarta de masa con mucha mantequilla y relleno azucarado de manzana: muy calórica."]
+    nutrition: [470, 5, 62, 24]
     photo: cocina-estadounidense/tarta-de-manzana.jpg
     category: Postres
     difficulty: MEDIUM
@@ -409,6 +433,8 @@ recipes:
       - Pinta con huevo y hornea 20 minutos. Baja a 180 °C y hornea 40 minutos más, hasta que esté dorada y el jugo burbujee.
 
   - name: Galletas con pepitas de chocolate
+    health: [RED, "Galletas con mantequilla, azúcar y chocolate: dulces y calóricas. Una o dos de vez en cuando."]
+    nutrition: [160, 2, 20, 8]
     photo: cocina-estadounidense/galletas-con-pepitas-de-chocolate.jpg
     category: Postres
     difficulty: EASY
@@ -437,6 +463,8 @@ recipes:
       - Hornea 10-12 minutos, hasta que los bordes estén dorados. Deja que se enfríen 5 minutos en la bandeja.
 
   - name: Tarta de queso de Nueva York
+    health: [RED, "Tarta de queso crema, azúcar y base de galleta con mantequilla: mucha grasa saturada y azúcar."]
+    nutrition: [520, 8, 40, 37]
     photo: cocina-estadounidense/tarta-de-queso-de-nueva-york.jpg
     category: Postres
     difficulty: MEDIUM
@@ -468,6 +496,8 @@ recipes:
       - Apaga el horno y deja la tarta dentro, con la puerta entreabierta, 1 hora. Refrigérala al menos 6 horas.
 
   - name: Philly cheesesteak
+    health: [YELLOW, "Bocadillo de ternera con cebolla, pimiento y queso fundido: completo pero calórico y con grasa."]
+    nutrition: [720, 44, 52, 36]
     photo: cocina-estadounidense/philly-cheesesteak.jpg
     category: Carnes
     difficulty: EASY
@@ -495,6 +525,8 @@ recipes:
       - Abre los panes, colócalos encima del queso y dales la vuelta con la espátula para rellenarlos.
 
   - name: Ensalada Cobb
+    health: [YELLOW, "Ensalada con pollo, huevo, aguacate y verduras, muy completa, pero el bacon y el queso azul suman grasa y sal."]
+    nutrition: [560, 36, 10, 42]
     photo: cocina-estadounidense/ensalada-cobb.jpg
     category: Ensaladas
     difficulty: EASY
@@ -530,6 +562,8 @@ recipes:
       - Mezcla los ingredientes de la vinagreta, riega la ensalada y espolvorea el cebollino.
 
   - name: Huevos rellenos a la diabla
+    health: [YELLOW, "Huevos con relleno de yema y mayonesa: proteína, aunque la mayonesa añade grasa."]
+    nutrition: [130, 6, 1, 11]
     photo: cocina-estadounidense/huevos-rellenos-a-la-diabla.jpg
     category: Huevos
     difficulty: EASY
@@ -554,6 +588,8 @@ recipes:
       - Rellena las claras con una manga o una cucharilla y espolvorea pimentón y cebollino.
 
   - name: Alubias al horno de Boston
+    health: [YELLOW, "Alubias con mucha fibra y proteína, pero con bacon, melaza y azúcar."]
+    nutrition: [380, 17, 52, 12]
     photo: cocina-estadounidense/alubias-al-horno-de-boston.jpg
     category: Legumbres
     difficulty: EASY
@@ -581,6 +617,8 @@ recipes:
       - Tapa y hornea 4 horas, añadiendo agua si se secan. Destapa la última hora para que se doren.
 
   - name: Bizcocho de plátano
+    health: [YELLOW, "Bizcocho con plátano y nueces: algo de fruta, pero con azúcar y mantequilla."]
+    nutrition: [280, 4, 40, 12]
     photo: cocina-estadounidense/bizcocho-de-platano.jpg
     category: Postres
     difficulty: EASY
@@ -608,6 +646,8 @@ recipes:
       - Vierte en el molde y hornea 55-60 minutos, hasta que un palillo salga limpio. Deja que se enfríe antes de desmoldarlo.
 
   - name: Tarta de lima de los Cayos
+    health: [RED, "Tarta con leche condensada, yemas y base de galleta con mantequilla: mucho azúcar y grasa."]
+    nutrition: [460, 8, 52, 25]
     photo: cocina-estadounidense/tarta-de-lima-de-los-cayos.jpg
     category: Postres
     difficulty: EASY

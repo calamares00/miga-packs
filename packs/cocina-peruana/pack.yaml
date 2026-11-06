@@ -1,6 +1,6 @@
 id: cocina-peruana
-version: 2
-updated: 2026-11-05
+version: 3
+updated: 2026-11-06
 language: es
 name: "Cocina del mundo: Perú"
 series: Cocina del mundo
@@ -24,6 +24,8 @@ defaults:
 recipes:
 
   - name: Ceviche de pescado
+    health: [GREEN, "Pescado blanco crudo marinado en lima con cebolla: proteína magra y muy pocas calorías. Muy saludable."]
+    nutrition: [220, 32, 14, 3]
     photo: cocina-peruana/ceviche-de-pescado.jpg
     category: Pescados y mariscos
     difficulty: EASY
@@ -52,6 +54,8 @@ recipes:
       - Sirve enseguida con rodajas de camote y choclo.
 
   - name: Tiradito
+    health: [GREEN, "Pescado crudo en láminas con salsa de ají y lima: proteína magra, ligero y sin apenas grasa."]
+    nutrition: [160, 28, 6, 2]
     photo: cocina-peruana/tiradito.jpg
     category: Pescados y mariscos
     difficulty: EASY
@@ -76,6 +80,8 @@ recipes:
       - Vierte la salsa sobre el pescado justo antes de servir y decora con hojas de cilantro.
 
   - name: Lomo saltado
+    health: [YELLOW, "Ternera salteada con verduras, completa, pero se sirve con patatas fritas y arroz: muy calórica."]
+    nutrition: [720, 36, 70, 30]
     photo: cocina-peruana/lomo-saltado.jpg
     category: Carnes
     difficulty: MEDIUM
@@ -109,6 +115,8 @@ recipes:
       - Añade el cilantro y las patatas fritas, mezcla y sirve con arroz blanco.
 
   - name: Ají de gallina
+    health: [YELLOW, "Pollo en salsa cremosa de ají con leche evaporada, pan, nueces y queso: completo pero calórico."]
+    nutrition: [520, 40, 30, 26]
     photo: cocina-peruana/aji-de-gallina.jpg
     category: Carnes
     difficulty: MEDIUM
@@ -142,6 +150,8 @@ recipes:
       - Sirve sobre papas en rodajas, con arroz blanco, huevo duro y aceitunas.
 
   - name: Causa limeña
+    health: [YELLOW, "Puré de patata con ají relleno de pollo y aguacate: completa, aunque la mayonesa añade grasa."]
+    nutrition: [450, 18, 45, 22]
     photo: cocina-peruana/causa-limena.jpg
     category: Entrantes
     difficulty: MEDIUM
@@ -175,6 +185,8 @@ recipes:
       - Refrigera 1 hora, desmolda y decora con huevo duro, aceitunas y un poco de mayonesa.
 
   - name: Papa a la huancaína
+    health: [YELLOW, "Patata cocida con salsa de queso, leche y ají: sabrosa pero con grasa y sal."]
+    nutrition: [480, 17, 50, 24]
     photo: cocina-peruana/papa-a-la-huancaina.jpg
     category: Entrantes
     difficulty: EASY
@@ -207,6 +219,8 @@ recipes:
       - Coloca las papas sobre las hojas de lechuga, cúbrelas con la salsa y decora con huevo duro y aceitunas.
 
   - name: Ocopa arequipeña
+    health: [YELLOW, "Patata con salsa de ají, cacahuete, huacatay y queso: sabrosa, aunque la salsa es calórica."]
+    nutrition: [420, 16, 40, 22]
     photo: cocina-peruana/ocopa-arequipena.jpg
     category: Entrantes
     difficulty: EASY
@@ -242,6 +256,8 @@ recipes:
       - Sirve sobre las papas cocidas en rodajas, con huevo duro y aceitunas.
 
   - name: Arroz chaufa
+    health: [YELLOW, "Arroz salteado con pollo y huevo: completo, pero la soja y el aceite aportan sal y grasa."]
+    nutrition: [560, 32, 62, 19]
     photo: cocina-peruana/arroz-chaufa.jpg
     category: Arroces
     difficulty: EASY
@@ -271,6 +287,8 @@ recipes:
       - Saltea 1 minuto más y termina con la parte verde de la cebolleta picada.
 
   - name: Anticuchos de corazón
+    health: [GREEN, "Corazón de res, una carne magra rica en hierro, a la parrilla. Mucha proteína y poca grasa."]
+    nutrition: [280, 30, 4, 15]
     photo: cocina-peruana/anticuchos-de-corazon.jpg
     category: Carnes
     difficulty: MEDIUM
@@ -300,6 +318,8 @@ recipes:
       - Sírvelos con papas doradas en la parrilla y choclo.
 
   - name: Pollo a la brasa
+    health: [YELLOW, "Pollo asado marinado: buena proteína, aunque la piel aporta grasa. Mejor con ensalada que con patatas fritas."]
+    nutrition: [560, 52, 4, 36]
     photo: cocina-peruana/pollo-a-la-brasa.jpg
     category: Carnes
     difficulty: EASY
@@ -330,6 +350,8 @@ recipes:
       - Sírvelo con papas fritas, ensalada y salsa de ají.
 
   - name: Rocoto relleno
+    health: [YELLOW, "Rocotos rellenos de carne con queso y huevo: completos, con grasa moderada y algo de azúcar."]
+    nutrition: [380, 24, 22, 22]
     photo: cocina-peruana/rocoto-relleno.jpg
     category: Verduras
     difficulty: HARD
@@ -372,6 +394,8 @@ recipes:
       - Colócalos en una fuente, vierte la leche batida con el huevo y hornea 25-30 minutos. Sírvelos con pastel de papa o papas doradas.
 
   - name: Seco de res
+    health: [GREEN, "Carne guisada en salsa de cilantro con verduras: mucha proteína. Se suele servir con frijoles y arroz."]
+    nutrition: [380, 42, 12, 17]
     photo: cocina-peruana/seco-de-res.jpg
     category: Carnes
     difficulty: MEDIUM
@@ -405,6 +429,8 @@ recipes:
       - Añade las zanahorias en rodajas y las arvejas y cuece 15 minutos más. Ajusta de sal.
 
   - name: Arroz con pollo peruano
+    health: [GREEN, "Arroz verde con pollo y verduras: completo y equilibrado."]
+    nutrition: [620, 38, 62, 22]
     photo: cocina-peruana/arroz-con-pollo-peruano.jpg
     category: Arroces
     difficulty: MEDIUM
@@ -439,6 +465,8 @@ recipes:
       - Añade el arroz, el caldo, el pimiento y la zanahoria en dados, las arvejas y el choclo. Ajusta de sal, tapa y cuece a fuego suave 20 minutos.
 
   - name: Chupe de camarones
+    health: [YELLOW, "Sopa de langostinos con patata, leche y huevo: muy completa, pero calórica."]
+    nutrition: [430, 28, 40, 17]
     photo: cocina-peruana/chupe-de-camarones.jpg
     category: Sopas y cremas
     difficulty: HARD
@@ -475,6 +503,8 @@ recipes:
       - Casca los huevos en la sopa, añade el queso y el huacatay y cuece 2 minutos sin que hierva fuerte. Ajusta de sal.
 
   - name: Papa rellena
+    health: [YELLOW, "Patata rellena de carne, empanada y frita: completa pero con grasa."]
+    nutrition: [420, 18, 48, 17]
     photo: cocina-peruana/papa-rellena.jpg
     category: Entrantes
     difficulty: MEDIUM
@@ -513,6 +543,8 @@ recipes:
       - Pásalas por harina y huevo batido y fríelas en aceite caliente hasta que estén doradas.
 
   - name: Tallarines verdes
+    health: [YELLOW, "Pasta con salsa verde de espinacas, albahaca, queso y leche evaporada: sabrosa y con algo de grasa."]
+    nutrition: [620, 24, 85, 20]
     photo: cocina-peruana/tallarines-verdes.jpg
     category: Pastas
     difficulty: EASY
@@ -541,6 +573,8 @@ recipes:
       - Cuece la pasta, escúrrela y mézclala con la salsa en la cazuela a fuego suave 1 minuto.
 
   - name: Suspiro limeño
+    health: [RED, "Dulce de leche con merengue: mucho azúcar. Un postre muy dulce para ocasiones."]
+    nutrition: [470, 11, 72, 14]
     photo: cocina-peruana/suspiro-limeno.jpg
     category: Postres
     difficulty: MEDIUM
@@ -571,6 +605,8 @@ recipes:
       - Cubre el manjar con el merengue y espolvorea canela.
 
   - name: Picarones
+    health: [RED, "Rosquillas de calabaza y boniato fritas con miel de chancaca: mucha grasa y azúcar."]
+    nutrition: [520, 9, 90, 14]
     photo: cocina-peruana/picarones.jpg
     category: Postres
     difficulty: HARD
@@ -605,6 +641,8 @@ recipes:
       - Fríelos, girándolos con un palito, hasta que estén dorados. Sírvelos calientes bañados en la miel.
 
   - name: Mazamorra morada
+    health: [YELLOW, "Postre de maíz morado con fruta: antioxidantes, pero con bastante azúcar."]
+    nutrition: [230, 2, 56, 0]
     photo: cocina-peruana/mazamorra-morada.jpg
     category: Postres
     difficulty: EASY
@@ -635,6 +673,8 @@ recipes:
       - Fuera del fuego, añade el zumo de lima. Sirve en cuencos espolvoreada de canela.
 
   - name: Chicha morada
+    health: [YELLOW, "Bebida de maíz morado con fruta y especias: antioxidantes, pero con azúcar añadido."]
+    nutrition: [140, 1, 35, 0]
     photo: cocina-peruana/chicha-morada.jpg
     category: Bebidas
     difficulty: EASY

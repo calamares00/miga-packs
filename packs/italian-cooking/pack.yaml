@@ -1,6 +1,6 @@
 id: italian-cooking
-version: 2
-updated: 2026-11-05
+version: 3
+updated: 2026-11-06
 language: en
 name: "World cuisine: Italy"
 series: World cuisine
@@ -23,6 +23,8 @@ defaults:
 recipes:
 
   - name: Spaghetti carbonara
+    health: [RED, "Pasta with guanciale, egg yolks and pecorino: a lot of saturated fat and calories."]
+    nutrition: [720, 28, 75, 34]
     photo: cocina-italiana/espaguetis-a-la-carbonara.jpg
     category: Pasta
     difficulty: MEDIUM
@@ -49,6 +51,8 @@ recipes:
       - Serve with more pecorino and pepper.
 
   - name: Bucatini all'amatriciana
+    health: [YELLOW, "Pasta with tomato, a good base, but the guanciale and pecorino add fat and salt."]
+    nutrition: [640, 23, 80, 25]
     photo: cocina-italiana/bucatini-all-amatriciana.jpg
     category: Pasta
     difficulty: EASY
@@ -73,6 +77,8 @@ recipes:
       - Cook the pasta al dente, drain and toss it with the sauce, the reserved guanciale and half the pecorino. Serve with the rest of the cheese.
 
   - name: Cacio e pepe
+    health: [YELLOW, "Pasta with just plenty of pecorino: fat and salt. Better with a salad."]
+    nutrition: [610, 28, 75, 22]
     photo: cocina-italiana/cacio-e-pepe.jpg
     category: Pasta
     difficulty: MEDIUM
@@ -95,6 +101,8 @@ recipes:
       - Finish cooking the pasta in the pepper pan with a little more water. Off the heat, add the cheese paste and stir vigorously until smooth and glossy.
 
   - name: Lasagne alla bolognese
+    health: [YELLOW, "Lasagne with meat ragù, béchamel and cheese: very complete but high in calories."]
+    nutrition: [620, 32, 45, 34]
     photo: cocina-italiana/lasana-a-la-bolonesa.jpg
     category: Pasta
     difficulty: HARD
@@ -148,6 +156,8 @@ recipes:
           - Bake for 30-35 minutes, until golden. Rest for 15 minutes before cutting.
 
   - name: Pasta alla Norma
+    health: [YELLOW, "Pasta with tomato and aubergine, very Mediterranean, but the fried aubergine soaks up oil."]
+    nutrition: [620, 18, 85, 23]
     photo: cocina-italiana/pasta-alla-norma.jpg
     category: Pasta
     difficulty: EASY
@@ -176,6 +186,8 @@ recipes:
       - Serve with the rest of the aubergine, the ricotta salata and fresh basil.
 
   - name: Spaghetti with clams
+    health: [GREEN, "Pasta with clams, garlic and olive oil: protein and iron with little saturated fat."]
+    nutrition: [560, 22, 76, 17]
     photo: cocina-italiana/espaguetis-con-almejas.jpg
     category: Pasta
     difficulty: EASY
@@ -202,6 +214,8 @@ recipes:
       - Finish cooking the pasta in the clam juices, stirring, until the sauce comes together. Add the parsley and serve.
 
   - name: Risotto alla milanese
+    health: [YELLOW, "Saffron rice, but with plenty of butter and Parmesan: fairly high in fat."]
+    nutrition: [570, 14, 66, 25]
     photo: cocina-italiana/risotto-a-la-milanesa.jpg
     category: Rice
     difficulty: MEDIUM
@@ -229,6 +243,8 @@ recipes:
       - Off the heat, add the rest of the cold butter and the Parmesan and stir vigorously (mantecatura). Rest for 1 minute and serve.
 
   - name: Ossobuco alla milanese
+    health: [YELLOW, "Veal shank braised with vegetables and wine: high in protein, though with butter."]
+    nutrition: [480, 48, 12, 24]
     photo: cocina-italiana/ossobuco-a-la-milanesa.jpg
     category: Meat
     difficulty: MEDIUM
@@ -265,6 +281,8 @@ recipes:
       - Mix the zest, very finely chopped garlic and parsley, and sprinkle the gremolata over the ossobuco just before serving.
 
   - name: Saltimbocca alla romana
+    health: [YELLOW, "Lean veal with ham and butter: good protein, though the ham adds salt."]
+    nutrition: [360, 38, 4, 20]
     photo: cocina-italiana/saltimbocca-a-la-romana.jpg
     category: Meat
     difficulty: EASY
@@ -291,6 +309,8 @@ recipes:
       - Add the wine to the pan, scrape the bottom and let it reduce for 1 minute. Pour the sauce over the meat.
 
   - name: Aubergine parmigiana
+    health: [YELLOW, "Aubergine with tomato, mozzarella and Parmesan: very tasty, but fried and with plenty of cheese."]
+    nutrition: [420, 20, 18, 30]
     photo: cocina-italiana/berenjenas-a-la-parmesana.jpg
     category: Vegetables
     difficulty: MEDIUM
@@ -320,6 +340,8 @@ recipes:
       - Bake for 35-40 minutes and rest for 20 minutes before cutting.
 
   - name: Minestrone
+    health: [GREEN, "A soup of many vegetables, beans and pasta: high in fibre and very healthy."]
+    nutrition: [260, 10, 38, 7]
     photo: cocina-italiana/minestrone.jpg
     category: Soups
     difficulty: EASY
@@ -351,6 +373,8 @@ recipes:
       - Add the beans and pasta and cook until the pasta is done. Season with salt and serve with a drizzle of oil.
 
   - name: Pasta e fagioli
+    health: [GREEN, "Pasta with beans and vegetables: plant protein, fibre and little fat."]
+    nutrition: [450, 18, 72, 9]
     photo: cocina-italiana/pasta-e-fagioli.jpg
     category: Legumes
     difficulty: EASY
@@ -380,6 +404,8 @@ recipes:
       - Add the pasta and cook it in the soup, stirring, until al dente. Season and serve with a drizzle of oil.
 
   - name: Pizza margherita
+    health: [YELLOW, "A simple pizza of tomato, mozzarella and basil. Balanced, though made with refined flour and cheese."]
+    nutrition: [750, 28, 100, 25]
     photo: cocina-italiana/pizza-margarita.jpg
     category: Breads and doughs
     difficulty: MEDIUM
@@ -412,6 +438,8 @@ recipes:
       - Add the mozzarella and bake for 2-3 minutes more. Finish with basil and a drizzle of oil.
 
   - name: Genoese focaccia
+    health: [YELLOW, "A flatbread with plenty of olive oil and coarse salt: healthy fat but calorie-dense and salty."]
+    nutrition: [290, 7, 46, 9]
     photo: cocina-italiana/focaccia-genovesa.jpg
     category: Breads and doughs
     difficulty: MEDIUM
@@ -443,6 +471,8 @@ recipes:
       - Bake at 230 °C for 18-20 minutes, until golden. Let it cool on a rack.
 
   - name: Tomato bruschetta
+    health: [GREEN, "Bread with fresh tomato, basil and olive oil: simple and healthy."]
+    nutrition: [280, 6, 36, 13]
     photo: cocina-italiana/bruschetta-de-tomate.jpg
     category: Starters
     difficulty: EASY
@@ -464,6 +494,8 @@ recipes:
       - Rub each slice with the peeled garlic, drizzle with the rest of the oil and top with the tomato just before serving.
 
   - name: Arancini
+    health: [RED, "Rice balls with ragù and cheese, breaded and deep-fried: a lot of fat and calories."]
+    nutrition: [520, 15, 60, 24]
     photo: cocina-italiana/arancini.jpg
     category: Starters
     difficulty: HARD
@@ -501,6 +533,8 @@ recipes:
       - Fry in oil at 170 °C for 4-5 minutes, until golden, and drain.
 
   - name: Vitello tonnato
+    health: [YELLOW, "Lean veal with a tuna and mayonnaise sauce: good protein, but the sauce is fatty."]
+    nutrition: [440, 40, 3, 30]
     photo: cocina-italiana/vitello-tonnato.jpg
     category: Meat
     difficulty: MEDIUM
@@ -535,6 +569,8 @@ recipes:
       - Slice the meat very thinly, arrange it on a platter and cover with the sauce. Garnish with the rest of the capers.
 
   - name: Caponata
+    health: [GREEN, "Sweet-and-sour aubergine and vegetables with olives and pine nuts: plant-based and with fibre, though with sugar."]
+    nutrition: [210, 3, 18, 14]
     photo: cocina-italiana/caponata.jpg
     category: Vegetables
     difficulty: EASY
@@ -567,6 +603,8 @@ recipes:
       - Add the aubergine, fold gently and let it cool slightly. Serve with basil.
 
   - name: Tiramisu
+    health: [RED, "A dessert of mascarpone, egg and sugar with sponge fingers: a lot of fat and sugar."]
+    nutrition: [450, 9, 36, 30]
     photo: cocina-italiana/tiramisu.jpg
     category: Desserts
     difficulty: EASY
@@ -592,6 +630,8 @@ recipes:
       - Chill for at least 6 hours and dust with cocoa just before serving.
 
   - name: Panna cotta
+    health: [RED, "Cream with sugar and gelatine: a lot of saturated fat. The red berries add some vitamins."]
+    nutrition: [360, 3, 22, 29]
     photo: cocina-italiana/panna-cotta.jpg
     category: Desserts
     difficulty: EASY

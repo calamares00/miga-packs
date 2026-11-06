@@ -1,6 +1,6 @@
 id: cocina-vietnamita
-version: 2
-updated: 2026-11-05
+version: 3
+updated: 2026-11-06
 language: es
 name: "Cocina del mundo: Vietnam"
 series: Cocina del mundo
@@ -23,6 +23,8 @@ defaults:
 recipes:
 
   - name: Phở bò
+    health: [GREEN, "Caldo de huesos con fideos de arroz, ternera y hierbas frescas: completo y con poca grasa, aunque salado."]
+    nutrition: [450, 30, 55, 11]
     photo: cocina-vietnamita/pho-bo.jpg
     category: Sopas y cremas
     difficulty: HARD
@@ -67,6 +69,8 @@ recipes:
       - Remoja y escalda los fideos, repártelos en cuencos con la falda en lonchas y la carne cruda en láminas. Vierte encima el caldo hirviendo y sirve con las hierbas, los brotes, la lima y el chile.
 
   - name: Bún chả
+    health: [YELLOW, "Cerdo a la parrilla con fideos y hierbas, completo, pero la panceta aporta mucha grasa."]
+    nutrition: [650, 32, 55, 34]
     photo: cocina-vietnamita/bun-cha.jpg
     category: Carnes
     difficulty: MEDIUM
@@ -105,6 +109,8 @@ recipes:
       - Sirve la carne en cuencos con la salsa templada, y aparte los fideos cocidos y las hierbas para mojar.
 
   - name: Bánh mì de cerdo a la citronela
+    health: [YELLOW, "Bocadillo de cerdo con verduras encurtidas y hierbas: completo, aunque de pan blanco y con mayonesa."]
+    nutrition: [560, 32, 58, 22]
     photo: cocina-vietnamita/banh-mi-de-cerdo-a-la-citronela.jpg
     category: Panes y masas
     difficulty: MEDIUM
@@ -146,6 +152,8 @@ recipes:
       - Unta el paté y la mayonesa, pon el cerdo, el encurtido escurrido, el pepino en tiras, el cilantro y el chile, y unas gotas de salsa Maggi.
 
   - name: Rollitos frescos (gỏi cuốn)
+    health: [GREEN, "Rollitos de papel de arroz con langostinos, verdura y hierbas, sin freír: ligeros y equilibrados."]
+    nutrition: [320, 20, 32, 12]
     photo: cocina-vietnamita/rollitos-frescos-goi-cuon.jpg
     category: Entrantes
     difficulty: MEDIUM
@@ -178,6 +186,8 @@ recipes:
       - Mezcla la hoisin con la crema de cacahuete y el agua y espolvorea los cacahuetes. Sirve los rollitos con la salsa.
 
   - name: Rollitos fritos (chả giò)
+    health: [YELLOW, "Rollitos de cerdo y langostino fritos en aceite: sabrosos pero grasos."]
+    nutrition: [380, 18, 30, 21]
     photo: cocina-vietnamita/rollitos-fritos-cha-gio.jpg
     category: Entrantes
     difficulty: MEDIUM
@@ -209,6 +219,8 @@ recipes:
       - Sírvelos con lechuga, hierbas y nước chấm.
 
   - name: Bún bò Huế
+    health: [YELLOW, "Sopa picante de fideos con ternera y codillo: muy completa, pero con grasa y sal."]
+    nutrition: [560, 40, 55, 20]
     photo: cocina-vietnamita/bun-bo-hue.jpg
     category: Sopas y cremas
     difficulty: HARD
@@ -251,6 +263,8 @@ recipes:
       - Cuece los fideos y sírvelos con el morcillo en lonchas, el codillo y el caldo, cebolla en aros finos, las hierbas, los brotes y la lima. El resto del aceite picante va aparte.
 
   - name: Cơm tấm con chuleta de cerdo
+    health: [YELLOW, "Chuleta de cerdo con miel y citronela sobre arroz partido: completo, con grasa y algo de azúcar."]
+    nutrition: [620, 34, 70, 22]
     photo: cocina-vietnamita/com-tam-con-chuleta-de-cerdo.jpg
     category: Arroces
     difficulty: MEDIUM
@@ -289,6 +303,8 @@ recipes:
       - Sirve el arroz con la chuleta, un huevo frito, la cebolleta en aceite, pepino, tomate y nước chấm.
 
   - name: Pescado caramelizado (cá kho tộ)
+    health: [GREEN, "Pescado guisado en caramelo y salsa de pescado: proteína de calidad, aunque salado y con azúcar."]
+    nutrition: [300, 30, 14, 13]
     photo: cocina-vietnamita/pescado-caramelizado-ca-kho-to.jpg
     category: Pescados y mariscos
     difficulty: MEDIUM
@@ -318,6 +334,8 @@ recipes:
       - Termina con el chile y la cebolleta. Sirve con arroz blanco.
 
   - name: Cerdo caramelizado con huevos (thịt kho trứng)
+    health: [RED, "Panceta de cerdo guisada con huevos: mucha grasa saturada y sal."]
+    nutrition: [620, 24, 10, 54]
     photo: cocina-vietnamita/cerdo-caramelizado-con-huevos-thit-kho-trung.jpg
     category: Carnes
     difficulty: EASY
@@ -345,6 +363,8 @@ recipes:
       - Sirve con arroz blanco y verduras encurtidas.
 
   - name: Sopa agria (canh chua)
+    health: [GREEN, "Sopa ácida de pescado con piña y verduras: muy ligera y con proteína."]
+    nutrition: [200, 24, 16, 4]
     photo: cocina-vietnamita/sopa-agria-canh-chua.jpg
     category: Sopas y cremas
     difficulty: EASY
@@ -376,6 +396,8 @@ recipes:
       - Fuera del fuego, añade los brotes de soja. Sirve con el ajo frito, las hierbas y el chile.
 
   - name: Bò lúc lắc
+    health: [YELLOW, "Dados de ternera salteados con salsas de ostra y soja: mucha proteína, con sal."]
+    nutrition: [380, 32, 8, 24]
     photo: cocina-vietnamita/bo-luc-lac.jpg
     category: Carnes
     difficulty: EASY
@@ -412,6 +434,8 @@ recipes:
       - Coloca la carne sobre los berros y el tomate en rodajas y sírvela con la lima mezclada con la sal y la pimienta para mojar.
 
   - name: Pollo con citronela y chile (gà xào sả ớt)
+    health: [YELLOW, "Pollo salteado con citronela y chile: buena proteína, aunque el contramuslo y el aceite aportan grasa."]
+    nutrition: [360, 30, 6, 24]
     photo: cocina-vietnamita/pollo-con-citronela-y-chile-ga-xao-sa-ot.jpg
     category: Carnes
     difficulty: EASY
@@ -440,6 +464,8 @@ recipes:
       - Sirve con cilantro y arroz blanco.
 
   - name: Bánh xèo
+    health: [YELLOW, "Crepe de arroz y coco rellena de panceta y gambas, frita: sabrosa pero grasa."]
+    nutrition: [520, 18, 46, 30]
     photo: cocina-vietnamita/banh-xeo.jpg
     category: Panes y masas
     difficulty: MEDIUM
@@ -478,6 +504,8 @@ recipes:
       - Repite con el resto y sirve con lechuga, hierbas y nước chấm.
 
   - name: Ensalada de pollo y col (gỏi gà)
+    health: [GREEN, "Ensalada de col, zanahoria y pollo con hierbas y cacahuetes: ligera, con fibra y proteína."]
+    nutrition: [280, 30, 15, 11]
     category: Ensaladas
     difficulty: EASY
     prep: 25
@@ -508,6 +536,8 @@ recipes:
       - Mezcla el pollo con las verduras, la menta y el aliño. Sirve con los cacahuetes y las chalotas fritas por encima.
 
   - name: Nước chấm
+    health: [GREEN, "Salsa de pescado con lima, ajo y azúcar: pocas calorías, pero salada."]
+    nutrition: [25, 1, 6, 0]
     photo: cocina-vietnamita/nuoc-cham.jpg
     category: Salsas
     difficulty: EASY
@@ -530,6 +560,8 @@ recipes:
       - Añade el ajo y el chile muy picados justo antes de servir, para que floten.
 
   - name: Bún thịt nướng
+    health: [YELLOW, "Fideos de arroz con cerdo a la parrilla, verduras y hierbas: completo, aunque la paleta aporta grasa."]
+    nutrition: [560, 30, 60, 22]
     photo: cocina-vietnamita/bun-thit-nuong.jpg
     category: Carnes
     difficulty: MEDIUM
@@ -568,6 +600,8 @@ recipes:
       - Riega con nước chấm al comer.
 
   - name: Tofu en salsa de tomate (đậu hũ sốt cà chua)
+    health: [GREEN, "Tofu en salsa de tomate: proteína vegetal con poca grasa y verdura."]
+    nutrition: [200, 14, 10, 12]
     category: Legumbres
     difficulty: EASY
     prep: 10
@@ -593,6 +627,8 @@ recipes:
       - Incorpora el tofu y cuece 5 minutos para que se impregne. Sirve con cebolleta y pimienta.
 
   - name: Plátano con leche de coco (chè chuối)
+    health: [RED, "Plátano en leche de coco con tapioca y azúcar: dulce y con grasa saturada del coco."]
+    nutrition: [380, 4, 52, 19]
     photo: cocina-vietnamita/platano-con-leche-de-coco-che-chuoi.jpg
     category: Postres
     difficulty: EASY
@@ -618,6 +654,8 @@ recipes:
       - Sirve templado con los cacahuetes y el sésamo.
 
   - name: Café con leche condensada (cà phê sữa đá)
+    health: [YELLOW, "Café con leche condensada: estimulante y muy dulce."]
+    nutrition: [130, 3, 22, 3]
     photo: cocina-vietnamita/cafe-con-leche-condensada-ca-phe-sua-a.jpg
     category: Bebidas
     difficulty: EASY
@@ -638,6 +676,8 @@ recipes:
       - Mezcla el café con la leche condensada y viértelo sobre un vaso con hielo.
 
   - name: Batido de aguacate (sinh tố bơ)
+    health: [YELLOW, "Aguacate con leche y leche condensada: grasas saludables, pero con azúcar añadido."]
+    nutrition: [330, 7, 32, 20]
     photo: cocina-vietnamita/batido-de-aguacate-sinh-to-bo.jpg
     category: Bebidas
     difficulty: EASY

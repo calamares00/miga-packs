@@ -1,6 +1,6 @@
 id: cocina-colombiana
-version: 2
-updated: 2026-11-05
+version: 3
+updated: 2026-11-06
 language: es
 name: "Cocina del mundo: Colombia"
 series: Cocina del mundo
@@ -24,6 +24,8 @@ defaults:
 recipes:
 
   - name: Bandeja paisa
+    health: [RED, "Plato muy abundante con chicharrón, chorizo, huevo frito y carne: mucha grasa y calorías. Un plato de celebración."]
+    nutrition: [1350, 58, 120, 70]
     photo: cocina-colombiana/bandeja-paisa.jpg
     category: Carnes
     difficulty: HARD
@@ -54,6 +56,8 @@ recipes:
       - Sirve en cada plato arroz, frijoles, carne molida, chicharrón, chorizo, huevo frito, tajadas de plátano, una arepa y aguacate.
 
   - name: Frijoles antioqueños
+    health: [YELLOW, "Frijoles con mucha fibra y proteína vegetal, pero cocidos con pezuña o codillo de cerdo, que aportan grasa."]
+    nutrition: [420, 24, 48, 14]
     category: Legumbres
     difficulty: MEDIUM
     prep: 15
@@ -78,6 +82,8 @@ recipes:
       - Desmenuza la carne de la pezuña y devuélvela a la olla. Sirve con arroz blanco y aguacate.
 
   - name: Ajiaco santafereño
+    health: [GREEN, "Sopa de pollo con tres tipos de papa y maíz: completa, saciante y con poca grasa."]
+    nutrition: [450, 30, 62, 8]
     photo: cocina-colombiana/ajiaco-santafereno.jpg
     category: Sopas y cremas
     difficulty: MEDIUM
@@ -110,6 +116,8 @@ recipes:
       - Sirve con la crema de leche, las alcaparras y el aguacate aparte para que cada uno se sirva.
 
   - name: Sancocho de gallina
+    health: [GREEN, "Caldo de gallina con plátano, yuca, papa y maíz: completo y reconfortante, con grasa moderada."]
+    nutrition: [590, 40, 70, 15]
     photo: cocina-colombiana/sancocho-de-gallina.jpg
     category: Sopas y cremas
     difficulty: MEDIUM
@@ -139,6 +147,8 @@ recipes:
       - Ajusta de sal y sirve con el resto del cilantro picado.
 
   - name: Arepas paisas
+    health: [GREEN, "Arepa de maíz con un poco de mantequilla: sencilla, sin gluten y con poca grasa."]
+    nutrition: [210, 4, 40, 3]
     photo: cocina-colombiana/arepas-paisas.jpg
     category: Panes y masas
     difficulty: EASY
@@ -161,6 +171,8 @@ recipes:
       - Úntalas con mantequilla al servir.
 
   - name: Empanadas colombianas
+    health: [YELLOW, "Masa de maíz rellena de papa y carne, frita en aceite: sabrosas pero grasas."]
+    nutrition: [420, 14, 45, 20]
     photo: cocina-colombiana/empanadas-colombianas.jpg
     category: Entrantes
     difficulty: MEDIUM
@@ -192,6 +204,8 @@ recipes:
       - Fríelas en abundante aceite caliente hasta que estén doradas y crujientes.
 
   - name: Patacones
+    health: [YELLOW, "Plátano verde frito dos veces: aporta fibra, pero absorbe bastante aceite."]
+    nutrition: [290, 2, 40, 14]
     photo: cocina-colombiana/patacones.jpg
     category: Entrantes
     difficulty: EASY
@@ -212,6 +226,8 @@ recipes:
       - Fríelos de nuevo en aceite muy caliente hasta que estén dorados y crujientes. Sálalos.
 
   - name: Hogao
+    health: [GREEN, "Sofrito de tomate y cebolla larga con un poco de aceite: verdura, pocas calorías."]
+    nutrition: [90, 1, 6, 7]
     photo: cocina-colombiana/hogao.jpg
     category: Salsas
     difficulty: EASY
@@ -235,6 +251,8 @@ recipes:
       - Añade el tomate, el comino, el achiote y la sal y cocina a fuego suave 15 minutos, removiendo, hasta que esté espeso.
 
   - name: Ají colombiano
+    health: [GREEN, "Salsa de ají, cebolla, tomate y cilantro con vinagre: casi sin calorías."]
+    nutrition: [15, 0, 3, 0]
     photo: cocina-colombiana/aji-colombiano.jpg
     category: Salsas
     difficulty: EASY
@@ -259,6 +277,8 @@ recipes:
       - Deja que repose al menos 1 hora en la nevera.
 
   - name: Arroz con pollo colombiano
+    health: [GREEN, "Arroz con pollo y verduras: plato completo y equilibrado, con proteína e hidratos."]
+    nutrition: [560, 36, 62, 17]
     photo: cocina-colombiana/arroz-con-pollo-colombiano.jpg
     category: Arroces
     difficulty: MEDIUM
@@ -290,6 +310,8 @@ recipes:
       - Suelta el arroz con un tenedor, añade el cilantro y sirve con patacones y ensalada.
 
   - name: Changua
+    health: [GREEN, "Caldo de leche con huevo y pan: desayuno sencillo con proteína y calcio."]
+    nutrition: [340, 17, 28, 17]
     photo: cocina-colombiana/changua.jpg
     category: Sopas y cremas
     difficulty: EASY
@@ -314,6 +336,8 @@ recipes:
       - Pon el pan en los platos, sirve encima la changua con un huevo en cada plato y espolvorea el cilantro.
 
   - name: Pandebono
+    health: [YELLOW, "Panecillos de almidón y queso: sin gluten, pero con bastante queso, grasa y sal."]
+    nutrition: [130, 5, 12, 7]
     photo: cocina-colombiana/pandebono.jpg
     category: Panes y masas
     difficulty: EASY
@@ -339,6 +363,8 @@ recipes:
       - Hornea 15-18 minutos, hasta que estén doradas. Cómelos calientes.
 
   - name: Buñuelos colombianos
+    health: [YELLOW, "Bolas de queso y almidón fritas: grasa y sal. Típicas de Navidad, para tomar con moderación."]
+    nutrition: [280, 9, 20, 18]
     photo: cocina-colombiana/bunuelos-colombianos.jpg
     category: Postres
     difficulty: MEDIUM
@@ -364,6 +390,8 @@ recipes:
       - Calienta abundante aceite a fuego medio-bajo, a unos 150 °C, añade los buñuelos y deja que se hinchen y giren; fríelos 8-10 minutos, hasta que estén dorados.
 
   - name: Natilla colombiana
+    health: [RED, "Postre de leche con panela, maicena y coco: muy dulce. Para las fiestas."]
+    nutrition: [320, 5, 55, 10]
     photo: cocina-colombiana/natilla-colombiana.jpg
     category: Postres
     difficulty: EASY
@@ -388,6 +416,8 @@ recipes:
       - Añade la mantequilla y el coco, retira la canela y vierte en un molde. Deja que se enfríe y espolvorea canela molida.
 
   - name: Posta negra cartagenera
+    health: [YELLOW, "Carne de res magra en salsa dulce de panela y vino. Mucha proteína, aunque con azúcar."]
+    nutrition: [450, 48, 22, 16]
     photo: cocina-colombiana/posta-negra-cartagenera.jpg
     category: Carnes
     difficulty: MEDIUM
@@ -418,6 +448,8 @@ recipes:
       - Corta la carne en lonchas y sírvela con la salsa, arroz con coco y patacones.
 
   - name: Mote de queso
+    health: [YELLOW, "Sopa de ñame con queso costeño: saciante y con calcio, pero el queso aporta grasa y sal."]
+    nutrition: [440, 13, 55, 18]
     photo: cocina-colombiana/mote-de-queso.jpg
     category: Sopas y cremas
     difficulty: EASY
@@ -445,6 +477,8 @@ recipes:
       - Termina con el zumo de limón y ajusta de sal; ojo, el queso es salado.
 
   - name: Arroz con coco
+    health: [YELLOW, "Arroz con leche de coco, panela y pasas: sabroso pero con grasa del coco y azúcar."]
+    nutrition: [470, 7, 62, 22]
     photo: cocina-colombiana/arroz-con-coco.jpg
     category: Arroces
     difficulty: MEDIUM
@@ -469,6 +503,8 @@ recipes:
       - Incorpora el arroz y las pasas, cuece sin tapar hasta que el líquido baje al nivel del arroz, y después tapa y cuece a fuego mínimo 20 minutos.
 
   - name: Cazuela de mariscos
+    health: [GREEN, "Marisco y pescado en salsa de tomate: mucha proteína magra. Si lleva leche de coco, suma algo de grasa."]
+    nutrition: [450, 48, 14, 22]
     photo: cocina-colombiana/cazuela-de-mariscos.jpg
     category: Pescados y mariscos
     difficulty: MEDIUM
@@ -502,6 +538,8 @@ recipes:
       - Incorpora la crema y el cilantro, ajusta de sal y sirve con arroz con coco y patacones.
 
   - name: Sobrebarriga en salsa
+    health: [YELLOW, "Falda de res guisada en cerveza con hogao: buena proteína, aunque es un corte con grasa."]
+    nutrition: [440, 44, 6, 26]
     photo: cocina-colombiana/sobrebarriga-en-salsa.jpg
     category: Carnes
     difficulty: MEDIUM
@@ -530,6 +568,8 @@ recipes:
       - Corta la carne en porciones, añádela a la salsa y cuece 10 minutos. Sirve con papas saladas y arroz.
 
   - name: Limonada de coco
+    health: [RED, "Bebida con crema y leche de coco y azúcar: mucha grasa saturada y azúcar."]
+    nutrition: [300, 2, 24, 23]
     photo: cocina-colombiana/limonada-de-coco.jpg
     category: Bebidas
     difficulty: EASY

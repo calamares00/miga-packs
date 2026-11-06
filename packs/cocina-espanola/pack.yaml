@@ -1,6 +1,6 @@
 id: cocina-espanola
-version: 2
-updated: 2026-11-05
+version: 3
+updated: 2026-11-06
 language: es
 name: "Cocina del mundo: España"
 series: Cocina del mundo
@@ -24,6 +24,8 @@ defaults:
 recipes:
 
   - name: Cocido madrileño
+    health: [YELLOW, "Garbanzos, verdura y carnes: muy nutritivo y completo, pero el tocino, el chorizo y la morcilla aportan mucha grasa."]
+    nutrition: [780, 50, 55, 40]
     photo: cocina-espanola/cocido-madrileno.jpg
     category: Legumbres
     difficulty: MEDIUM
@@ -64,6 +66,8 @@ recipes:
       - Sirve después los garbanzos con las verduras y, por último, las carnes troceadas.
 
   - name: Fabada asturiana
+    health: [RED, "Alubias muy nutritivas con chorizo, morcilla, lacón y panceta: mucha grasa saturada y sal. Plato contundente para ocasiones."]
+    nutrition: [760, 42, 55, 42]
     photo: cocina-espanola/fabada-asturiana.jpg
     category: Legumbres
     difficulty: MEDIUM
@@ -91,6 +95,8 @@ recipes:
       - Deja que repose 30 minutos antes de servir, con el compango troceado aparte.
 
   - name: Lentejas estofadas con chorizo
+    health: [GREEN, "Lentejas con verduras: hierro, fibra y proteína vegetal. El chorizo añade grasa; con menos queda más sana."]
+    nutrition: [520, 28, 62, 17]
     photo: cocina-espanola/lentejas-estofadas-con-chorizo.jpg
     category: Legumbres
     difficulty: EASY
@@ -119,6 +125,8 @@ recipes:
       - Cuece a fuego suave 20 minutos, añade la patata cascada en trozos y la sal y cuece 20 minutos más, hasta que las lentejas estén tiernas.
 
   - name: Marmitako
+    health: [GREEN, "Bonito, pescado azul con omega 3, guisado con patata y verduras. Un plato muy completo."]
+    nutrition: [540, 40, 48, 19]
     photo: cocina-espanola/marmitako.jpg
     category: Pescados y mariscos
     difficulty: EASY
@@ -148,6 +156,8 @@ recipes:
       - Apaga el fuego, añade el bonito en dados salados, tapa y deja que repose 5 minutos antes de servir.
 
   - name: Bacalao al pil pil
+    health: [YELLOW, "Bacalao, proteína magra, pero emulsionado con mucho aceite. Grasa de oliva, aunque abundante."]
+    nutrition: [520, 38, 2, 40]
     photo: cocina-espanola/bacalao-al-pil-pil.jpg
     category: Pescados y mariscos
     difficulty: HARD
@@ -172,6 +182,8 @@ recipes:
       - Devuelve el bacalao a la cazuela, mueve un poco más y sirve con los ajos y la guindilla por encima.
 
   - name: Pollo al ajillo
+    health: [YELLOW, "Pollo con ajo, vino y aceite de oliva: buena proteína, aunque la piel y el aceite aportan grasa."]
+    nutrition: [520, 42, 3, 36]
     photo: cocina-espanola/pollo-al-ajillo.jpg
     category: Carnes
     difficulty: EASY
@@ -197,6 +209,8 @@ recipes:
       - Destapa y deja que la salsa se reduzca 5 minutos. Sirve con perejil picado.
 
   - name: Arroz negro
+    health: [GREEN, "Arroz con sepia en su tinta y aceite de oliva: proteína magra y poca grasa saturada."]
+    nutrition: [580, 28, 82, 15]
     photo: cocina-espanola/arroz-negro.jpg
     category: Arroces
     difficulty: MEDIUM
@@ -227,6 +241,8 @@ recipes:
       - Deja que repose 5 minutos tapado con un paño y sirve con alioli.
 
   - name: Fideuá
+    health: [GREEN, "Fideos con marisco y sofrito en aceite de oliva: proteína magra. El alioli, si se añade, suma calorías."]
+    nutrition: [640, 34, 82, 19]
     photo: cocina-espanola/fideua.jpg
     category: Pastas
     difficulty: MEDIUM
@@ -259,6 +275,8 @@ recipes:
       - Deja que repose 5 minutos y sirve con alioli.
 
   - name: Arroz al horno
+    health: [YELLOW, "Arroz al horno con costilla, morcilla y garbanzos: muy completo pero con grasa del cerdo."]
+    nutrition: [720, 28, 92, 27]
     photo: cocina-espanola/arroz-al-horno.jpg
     category: Arroces
     difficulty: MEDIUM
@@ -291,6 +309,8 @@ recipes:
       - Hornea 20 minutos, hasta que el arroz esté hecho y sin caldo. Deja que repose 5 minutos.
 
   - name: Escalivada
+    health: [GREEN, "Verduras asadas con aceite de oliva: mucha fibra y antioxidantes con pocas calorías."]
+    nutrition: [200, 3, 18, 13]
     photo: cocina-espanola/escalivada.jpg
     category: Verduras
     difficulty: EASY
@@ -316,6 +336,8 @@ recipes:
       - Colócalas en una fuente y alíñalas con el aceite, el ajo picado, si lo usas, y la sal. Se toman templadas o frías.
 
   - name: Patatas a la riojana
+    health: [YELLOW, "Patatas guisadas con chorizo: reconfortante, pero el chorizo aporta grasa y sal."]
+    nutrition: [480, 16, 45, 26]
     photo: cocina-espanola/patatas-a-la-riojana.jpg
     category: Verduras
     difficulty: EASY
@@ -345,6 +367,8 @@ recipes:
       - Cuece a fuego medio 25-30 minutos, hasta que las patatas estén tiernas y el caldo haya espesado. Deja que repose 5 minutos.
 
   - name: Sopa castellana
+    health: [YELLOW, "Sopa de pan, ajo, jamón y huevo: sencilla y reconfortante, pero con sal y aceite."]
+    nutrition: [370, 18, 28, 21]
     photo: cocina-espanola/sopa-castellana.jpg
     category: Sopas y cremas
     difficulty: EASY
@@ -372,6 +396,8 @@ recipes:
       - Casca los huevos sobre la sopa, tapa y deja que cuajen 3-4 minutos, con la yema líquida.
 
   - name: Caldo gallego
+    health: [YELLOW, "Verdura de hoja, alubias y patata muy nutritivas, con lacón, tocino y chorizo que aportan grasa y sal."]
+    nutrition: [430, 24, 40, 19]
     photo: cocina-espanola/caldo-gallego.jpg
     category: Sopas y cremas
     difficulty: EASY
@@ -398,6 +424,8 @@ recipes:
       - Cuece 30 minutos más y ajusta de sal. Deja que repose antes de servir; está aún mejor al día siguiente.
 
   - name: Papas arrugadas con mojo picón
+    health: [GREEN, "Patatas con piel cocidas y mojo de aceite de oliva y especias. Sano, pero con mucha sal en la piel."]
+    nutrition: [340, 5, 42, 17]
     photo: cocina-espanola/papas-arrugadas-con-mojo-picon.jpg
     category: Verduras
     difficulty: EASY
@@ -430,6 +458,8 @@ recipes:
       - Añade el vinagre y el aceite poco a poco, mezclando hasta que emulsione. Sirve las papas con el mojo.
 
   - name: Ajoblanco
+    health: [GREEN, "Sopa fría de almendra, pan y aceite de oliva: grasas saludables. Calórica, mejor en raciones pequeñas."]
+    nutrition: [620, 12, 22, 54]
     photo: cocina-espanola/ajoblanco.jpg
     category: Sopas y cremas
     difficulty: EASY
@@ -458,6 +488,8 @@ recipes:
       - Sirve con las uvas peladas y un hilo de aceite.
 
   - name: Empanada gallega de atún
+    health: [YELLOW, "Masa rellena de atún, huevo y sofrito: completa, aunque el aceite y la masa la hacen calórica."]
+    nutrition: [460, 20, 40, 24]
     photo: cocina-espanola/empanada-gallega-de-atun.jpg
     category: Panes y masas
     difficulty: MEDIUM
@@ -503,6 +535,8 @@ recipes:
           - Pinta con huevo batido y hornea 40-45 minutos, hasta que esté dorada.
 
   - name: Migas extremeñas
+    health: [RED, "Pan frito en aceite con panceta y chorizo: mucha grasa y sal. Plato contundente de pastor."]
+    nutrition: [820, 24, 70, 50]
     photo: cocina-espanola/migas-extremenas.jpg
     category: Panes y masas
     difficulty: EASY
@@ -529,6 +563,8 @@ recipes:
       - Añade el pimentón, los ajos, la panceta, el chorizo y el pimiento, mezcla y sirve.
 
   - name: Rabo de toro
+    health: [YELLOW, "Rabo guisado con verduras y vino: mucha proteína y colágeno, pero un corte graso."]
+    nutrition: [680, 52, 14, 42]
     photo: cocina-espanola/rabo-de-toro.jpg
     category: Carnes
     difficulty: MEDIUM
@@ -562,6 +598,8 @@ recipes:
       - Retira la carne, tritura y cuela la salsa y vuelve a juntarlo todo.
 
   - name: Torrijas
+    health: [RED, "Pan empapado en leche, frito y rebozado en azúcar: mucha grasa y azúcar."]
+    nutrition: [450, 10, 62, 18]
     photo: cocina-espanola/torrijas.jpg
     category: Postres
     difficulty: EASY
@@ -588,6 +626,8 @@ recipes:
       - Escúrrelas y rebózalas en el azúcar mezclado con la canela.
 
   - name: Arroz con leche
+    health: [YELLOW, "Arroz con leche entera y azúcar: postre tradicional con calcio, pero muy dulce."]
+    nutrition: [400, 11, 64, 12]
     photo: cocina-espanola/arroz-con-leche.jpg
     category: Postres
     difficulty: EASY
@@ -613,6 +653,8 @@ recipes:
       - Retira la canela y el limón, reparte en cuencos y espolvorea canela molida. Se sirve frío o templado.
 
   - name: Tarta de Santiago
+    health: [YELLOW, "Tarta de almendra y huevo sin harina: grasas saludables, pero con mucho azúcar."]
+    nutrition: [420, 12, 36, 26]
     photo: cocina-espanola/tarta-de-santiago.jpg
     category: Postres
     difficulty: EASY

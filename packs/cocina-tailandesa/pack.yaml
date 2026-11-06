@@ -1,6 +1,6 @@
 id: cocina-tailandesa
-version: 2
-updated: 2026-11-05
+version: 3
+updated: 2026-11-06
 language: es
 name: "Cocina del mundo: Tailandia"
 series: Cocina del mundo
@@ -24,6 +24,8 @@ defaults:
 recipes:
 
   - name: Pad thai
+    health: [YELLOW, "Fideos de arroz con gambas, tofu, huevo y verdura: completo, pero con azúcar y aceite."]
+    nutrition: [650, 34, 80, 22]
     photo: cocina-tailandesa/pad-thai.jpg
     category: Pastas
     difficulty: MEDIUM
@@ -63,6 +65,8 @@ recipes:
       - Incorpora los brotes de soja y el cebollino en trozos, saltea 30 segundos y sirve con cacahuetes, chile en polvo y lima.
 
   - name: Tom yum kung
+    health: [GREEN, "Sopa picante y ácida de langostinos y setas: mucha proteína y muy pocas calorías."]
+    nutrition: [150, 22, 8, 3]
     photo: cocina-tailandesa/tom-yum-kung.jpg
     category: Sopas y cremas
     difficulty: EASY
@@ -91,6 +95,8 @@ recipes:
       - Fuera del fuego, añade la salsa de pescado, el zumo de lima y el nam prik pao. Prueba y ajusta. Sirve con cilantro.
 
   - name: Tom kha gai
+    health: [YELLOW, "Sopa de pollo con leche de coco: proteína y aromas, pero el coco aporta grasa saturada."]
+    nutrition: [380, 26, 10, 27]
     photo: cocina-tailandesa/tom-kha-gai.jpg
     category: Sopas y cremas
     difficulty: EASY
@@ -120,6 +126,8 @@ recipes:
       - Fuera del fuego, añade la salsa de pescado, el azúcar y el zumo de lima. Sirve con cilantro.
 
   - name: Curry verde de pollo
+    health: [YELLOW, "Pollo y berenjena en curry verde con leche de coco: completo, pero con grasa saturada del coco."]
+    nutrition: [460, 30, 12, 33]
     photo: cocina-tailandesa/curry-verde-de-pollo.jpg
     category: Carnes
     difficulty: EASY
@@ -148,6 +156,8 @@ recipes:
       - Sazona con la salsa de pescado y el azúcar. Añade la albahaca y el chile en tiras y sirve con arroz jazmín.
 
   - name: Curry massaman de ternera
+    health: [YELLOW, "Ternera y patata en curry de coco con cacahuetes: muy completo pero calórico y graso."]
+    nutrition: [620, 32, 30, 42]
     photo: cocina-tailandesa/curry-massaman-de-ternera.jpg
     category: Carnes
     difficulty: MEDIUM
@@ -177,6 +187,8 @@ recipes:
       - Cuece 40 minutos, hasta que las patatas estén tiernas. Sazona con el tamarindo, el azúcar y la salsa de pescado.
 
   - name: Curry panang de cerdo
+    health: [YELLOW, "Cerdo magro en curry de coco: buena proteína, aunque la leche de coco aporta grasa saturada."]
+    nutrition: [450, 32, 8, 32]
     photo: cocina-tailandesa/curry-panang-de-cerdo.jpg
     category: Carnes
     difficulty: EASY
@@ -204,6 +216,8 @@ recipes:
       - Sirve con las hojas de lima en juliana finísima, el chile en tiras y la albahaca.
 
   - name: Som tam
+    health: [GREEN, "Papaya verde con verduras, cacahuetes y lima: muy ligera, picante y con fibra."]
+    nutrition: [120, 4, 16, 5]
     photo: cocina-tailandesa/som-tam.jpg
     category: Ensaladas
     difficulty: EASY
@@ -232,6 +246,8 @@ recipes:
       - Prueba y ajusta. Sirve enseguida con arroz glutinoso.
 
   - name: Larb gai
+    health: [GREEN, "Pollo picado con hierbas frescas y lima: mucha proteína y muy poca grasa."]
+    nutrition: [220, 24, 8, 10]
     photo: cocina-tailandesa/larb-gai.jpg
     category: Ensaladas
     difficulty: EASY
@@ -261,6 +277,8 @@ recipes:
       - Incorpora la menta, el cilantro y el arroz tostado y mezcla. Sirve templado con hojas de lechuga.
 
   - name: Arroz frito tailandés (khao pad)
+    health: [YELLOW, "Arroz frito con gambas y huevo: completo, aunque con aceite y salsa de pescado."]
+    nutrition: [620, 34, 85, 15]
     photo: cocina-tailandesa/arroz-frito-tailandes-khao-pad.jpg
     category: Arroces
     difficulty: EASY
@@ -293,6 +311,8 @@ recipes:
       - Sirve con rodajas de pepino y gajos de lima.
 
   - name: Pad kra pao
+    health: [YELLOW, "Carne picada salteada con albahaca y chile: proteína, pero se sirve con arroz y huevo frito."]
+    nutrition: [520, 40, 14, 34]
     photo: cocina-tailandesa/pad-kra-pao.jpg
     category: Carnes
     difficulty: EASY
@@ -324,6 +344,8 @@ recipes:
       - Sirve sobre arroz con el huevo frito encima.
 
   - name: Pad see ew
+    health: [YELLOW, "Fideos anchos salteados con pollo, verdura y huevo: completo, pero con salsas dulces y saladas."]
+    nutrition: [680, 34, 90, 20]
     photo: cocina-tailandesa/pad-see-ew.jpg
     category: Pastas
     difficulty: EASY
@@ -354,6 +376,8 @@ recipes:
       - Sirve con pimienta blanca.
 
   - name: Pollo con anacardos
+    health: [YELLOW, "Pollo con anacardos y verduras: buena proteína y grasas saludables, con salsas que aportan sal."]
+    nutrition: [400, 30, 16, 24]
     photo: cocina-tailandesa/pollo-con-anacardos.jpg
     category: Carnes
     difficulty: EASY
@@ -387,6 +411,8 @@ recipes:
       - Incorpora los anacardos, los chiles y la cebolleta en trozos y sirve con arroz.
 
   - name: Ensalada de ternera (yam nua)
+    health: [GREEN, "Ternera a la plancha con verduras frescas, hierbas y lima: proteína y verdura con poca grasa."]
+    nutrition: [280, 26, 10, 15]
     category: Ensaladas
     difficulty: EASY
     prep: 20
@@ -417,6 +443,8 @@ recipes:
       - Riega con el aliño y sirve enseguida.
 
   - name: Tortitas de pescado (tod mun pla)
+    health: [YELLOW, "Tortitas de pescado con curry, fritas en aceite: proteína, pero con grasa."]
+    nutrition: [260, 22, 6, 16]
     photo: cocina-tailandesa/tortitas-de-pescado-tod-mun-pla.jpg
     category: Pescados y mariscos
     difficulty: MEDIUM
@@ -453,6 +481,8 @@ recipes:
       - Fríelas en aceite a 170 °C 2-3 minutos por cada lado, hasta que estén doradas e infladas. Sírvelas con la salsa.
 
   - name: Tortilla tailandesa (kai jeow)
+    health: [RED, "Tortilla frita en mucho aceite sobre arroz: muy grasa."]
+    nutrition: [620, 20, 56, 34]
     category: Huevos
     difficulty: EASY
     prep: 5
@@ -476,6 +506,8 @@ recipes:
       - Fríe 1 minuto, dale la vuelta y fríe 30 segundos más. Escurre y sirve sobre el arroz con sriracha.
 
   - name: Khao man gai
+    health: [YELLOW, "Arroz cocido en caldo con grasa de pollo y pollo con piel: completo pero graso."]
+    nutrition: [620, 32, 78, 20]
     photo: cocina-tailandesa/khao-man-gai.jpg
     category: Arroces
     difficulty: MEDIUM
@@ -520,6 +552,8 @@ recipes:
       - Sirve el arroz con el pollo en lonchas, pepino, cilantro, la salsa y un cuenco del caldo caliente.
 
   - name: Pollo a la parrilla de Isan (gai yang)
+    health: [YELLOW, "Pollo marinado a la parrilla: mucha proteína, aunque la piel aporta grasa."]
+    nutrition: [420, 40, 4, 27]
     photo: cocina-tailandesa/pollo-a-la-parrilla-de-isan-gai-yang.jpg
     category: Carnes
     difficulty: EASY
@@ -547,6 +581,8 @@ recipes:
       - Sírvelo con salsa jaew, som tam y arroz glutinoso.
 
   - name: Salsa jaew
+    health: [GREEN, "Salsa de chile, lima y salsa de pescado: casi sin calorías, pero salada."]
+    nutrition: [25, 1, 5, 0]
     photo: cocina-tailandesa/salsa-jaew.jpg
     category: Salsas
     difficulty: EASY
@@ -572,6 +608,8 @@ recipes:
       - Añade el chile en polvo, la chalota en láminas finas, el arroz tostado y el cilantro.
 
   - name: Mango con arroz glutinoso
+    health: [RED, "Arroz glutinoso con leche de coco y azúcar: muy dulce y con grasa del coco. El mango aporta vitaminas."]
+    nutrition: [520, 7, 82, 19]
     photo: cocina-tailandesa/mango-con-arroz-glutinoso.jpg
     category: Postres
     difficulty: MEDIUM
@@ -605,6 +643,8 @@ recipes:
       - Sirve el arroz con el mango pelado en lonchas, la salsa por encima y el sésamo.
 
   - name: Té tailandés helado (cha yen)
+    health: [RED, "Té con mucho azúcar y leche condensada: muy dulce."]
+    nutrition: [300, 6, 58, 6]
     photo: cocina-tailandesa/te-tailandes-helado-cha-yen.jpg
     category: Bebidas
     difficulty: EASY

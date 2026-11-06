@@ -1,6 +1,6 @@
 id: spanish-cooking
-version: 2
-updated: 2026-11-05
+version: 3
+updated: 2026-11-06
 language: en
 name: "World cuisine: Spain"
 series: World cuisine
@@ -24,6 +24,8 @@ defaults:
 recipes:
 
   - name: Cocido madrileño
+    health: [YELLOW, "Chickpeas, vegetables and meats: very nourishing and complete, but the pork fat, chorizo and black pudding add a lot of fat."]
+    nutrition: [780, 50, 55, 40]
     photo: cocina-espanola/cocido-madrileno.jpg
     category: Legumes
     difficulty: MEDIUM
@@ -64,6 +66,8 @@ recipes:
       - Then serve the chickpeas with the vegetables and, finally, the meats cut into pieces.
 
   - name: Fabada asturiana
+    health: [RED, "Very nourishing beans with chorizo, black pudding, cured shoulder and pork belly: a lot of saturated fat and salt. A hearty dish for occasions."]
+    nutrition: [760, 42, 55, 42]
     photo: cocina-espanola/fabada-asturiana.jpg
     category: Legumes
     difficulty: MEDIUM
@@ -91,6 +95,8 @@ recipes:
       - Leave to rest for 30 minutes before serving, with the compango sliced on the side.
 
   - name: Lentil stew with chorizo
+    health: [GREEN, "Lentils with vegetables: iron, fibre and plant protein. The chorizo adds fat; with less it is healthier."]
+    nutrition: [520, 28, 62, 17]
     photo: cocina-espanola/lentejas-estofadas-con-chorizo.jpg
     category: Legumes
     difficulty: EASY
@@ -119,6 +125,8 @@ recipes:
       - Simmer for 20 minutes, add the potato broken into chunks and the salt and simmer for 20 more minutes, until the lentils are tender.
 
   - name: Marmitako
+    health: [GREEN, "Albacore, an oily fish with omega-3, stewed with potato and vegetables. A very complete dish."]
+    nutrition: [540, 40, 48, 19]
     photo: cocina-espanola/marmitako.jpg
     category: Fish and seafood
     difficulty: EASY
@@ -148,6 +156,8 @@ recipes:
       - Turn off the heat, add the salted cubes of tuna, cover and leave for 5 minutes before serving.
 
   - name: Bacalao al pil pil
+    health: [YELLOW, "Salt cod, a lean protein, but emulsified with plenty of oil. Olive oil fat, though a lot of it."]
+    nutrition: [520, 38, 2, 40]
     photo: cocina-espanola/bacalao-al-pil-pil.jpg
     category: Fish and seafood
     difficulty: HARD
@@ -172,6 +182,8 @@ recipes:
       - Return the cod to the dish, swirl a little more and serve with the garlic and chilli on top.
 
   - name: Garlic chicken
+    health: [YELLOW, "Chicken with garlic, wine and olive oil: good protein, though the skin and oil add fat."]
+    nutrition: [520, 42, 3, 36]
     photo: cocina-espanola/pollo-al-ajillo.jpg
     category: Meat
     difficulty: EASY
@@ -197,6 +209,8 @@ recipes:
       - Uncover and let the sauce reduce for 5 minutes. Serve with chopped parsley.
 
   - name: Black rice
+    health: [GREEN, "Rice with cuttlefish in its ink and olive oil: lean protein and little saturated fat."]
+    nutrition: [580, 28, 82, 15]
     photo: cocina-espanola/arroz-negro.jpg
     category: Rice
     difficulty: MEDIUM
@@ -227,6 +241,8 @@ recipes:
       - Leave to rest for 5 minutes covered with a tea towel and serve with aioli.
 
   - name: Fideuà
+    health: [GREEN, "Noodles with seafood and a sofrito in olive oil: lean protein. Aioli, if added, adds calories."]
+    nutrition: [640, 34, 82, 19]
     photo: cocina-espanola/fideua.jpg
     category: Pasta
     difficulty: MEDIUM
@@ -259,6 +275,8 @@ recipes:
       - Leave to rest for 5 minutes and serve with aioli.
 
   - name: Oven-baked rice
+    health: [YELLOW, "Baked rice with pork ribs, black pudding and chickpeas: very complete but with pork fat."]
+    nutrition: [720, 28, 92, 27]
     photo: cocina-espanola/arroz-al-horno.jpg
     category: Rice
     difficulty: MEDIUM
@@ -291,6 +309,8 @@ recipes:
       - Bake for 20 minutes, until the rice is cooked and the stock absorbed. Rest for 5 minutes.
 
   - name: Escalivada
+    health: [GREEN, "Roasted vegetables with olive oil: plenty of fibre and antioxidants with few calories."]
+    nutrition: [200, 3, 18, 13]
     photo: cocina-espanola/escalivada.jpg
     category: Vegetables
     difficulty: EASY
@@ -316,6 +336,8 @@ recipes:
       - Arrange on a dish and dress with the oil, the chopped garlic if using, and the salt. Eat warm or cold.
 
   - name: Rioja-style potatoes
+    health: [YELLOW, "Potatoes stewed with chorizo: comforting, but the chorizo adds fat and salt."]
+    nutrition: [480, 16, 45, 26]
     photo: cocina-espanola/patatas-a-la-riojana.jpg
     category: Vegetables
     difficulty: EASY
@@ -345,6 +367,8 @@ recipes:
       - Simmer over a medium heat for 25-30 minutes, until the potatoes are tender and the broth has thickened. Rest for 5 minutes.
 
   - name: Castilian garlic soup
+    health: [YELLOW, "A soup of bread, garlic, ham and egg: simple and comforting, but with salt and oil."]
+    nutrition: [370, 18, 28, 21]
     photo: cocina-espanola/sopa-castellana.jpg
     category: Soups
     difficulty: EASY
@@ -372,6 +396,8 @@ recipes:
       - Crack the eggs into the soup, cover and let them set for 3-4 minutes, with runny yolks.
 
   - name: Galician broth
+    health: [YELLOW, "Leafy greens, beans and potato are very nourishing, with cured pork, fat and chorizo that add fat and salt."]
+    nutrition: [430, 24, 40, 19]
     photo: cocina-espanola/caldo-gallego.jpg
     category: Soups
     difficulty: EASY
@@ -398,6 +424,8 @@ recipes:
       - Simmer for 30 more minutes and season with salt. Let it rest before serving; it is even better the next day.
 
   - name: Papas arrugadas with mojo picón
+    health: [GREEN, "Potatoes boiled in their skins with an olive oil and spice mojo. Healthy, but with a lot of salt on the skins."]
+    nutrition: [340, 5, 42, 17]
     photo: cocina-espanola/papas-arrugadas-con-mojo-picon.jpg
     category: Vegetables
     difficulty: EASY
@@ -430,6 +458,8 @@ recipes:
       - Add the vinegar and oil little by little, mixing until it emulsifies. Serve the potatoes with the mojo.
 
   - name: Ajoblanco
+    health: [GREEN, "A cold soup of almond, bread and olive oil: healthy fats. High in calories, so keep portions small."]
+    nutrition: [620, 12, 22, 54]
     photo: cocina-espanola/ajoblanco.jpg
     category: Soups
     difficulty: EASY
@@ -458,6 +488,8 @@ recipes:
       - Serve with the peeled grapes and a drizzle of oil.
 
   - name: Galician tuna empanada
+    health: [YELLOW, "Pastry filled with tuna, egg and sofrito: complete, though the oil and pastry make it high in calories."]
+    nutrition: [460, 20, 40, 24]
     photo: cocina-espanola/empanada-gallega-de-atun.jpg
     category: Breads and doughs
     difficulty: MEDIUM
@@ -503,6 +535,8 @@ recipes:
           - Brush with beaten egg and bake for 40-45 minutes, until golden.
 
   - name: Extremaduran migas
+    health: [RED, "Bread fried in oil with pork belly and chorizo: a lot of fat and salt. A hearty shepherd's dish."]
+    nutrition: [820, 24, 70, 50]
     photo: cocina-espanola/migas-extremenas.jpg
     category: Breads and doughs
     difficulty: EASY
@@ -529,6 +563,8 @@ recipes:
       - Add the paprika, garlic, pork belly, chorizo and pepper, mix and serve.
 
   - name: Oxtail stew
+    health: [YELLOW, "Oxtail stewed with vegetables and wine: high in protein and collagen, but a fatty cut."]
+    nutrition: [680, 52, 14, 42]
     photo: cocina-espanola/rabo-de-toro.jpg
     category: Meat
     difficulty: MEDIUM
@@ -562,6 +598,8 @@ recipes:
       - Take out the meat, blend and strain the sauce and put everything back together.
 
   - name: Torrijas
+    health: [RED, "Bread soaked in milk, fried and coated in sugar: a lot of fat and sugar."]
+    nutrition: [450, 10, 62, 18]
     photo: cocina-espanola/torrijas.jpg
     category: Desserts
     difficulty: EASY
@@ -588,6 +626,8 @@ recipes:
       - Drain them and coat in the sugar mixed with the cinnamon.
 
   - name: Rice pudding
+    health: [YELLOW, "Rice cooked in whole milk with sugar: a traditional dessert with calcium, but very sweet."]
+    nutrition: [400, 11, 64, 12]
     photo: cocina-espanola/arroz-con-leche.jpg
     category: Desserts
     difficulty: EASY
@@ -613,6 +653,8 @@ recipes:
       - Remove the cinnamon and lemon, divide between bowls and dust with ground cinnamon. Serve cold or warm.
 
   - name: Santiago almond cake
+    health: [YELLOW, "An almond and egg cake with no flour: healthy fats, but a lot of sugar."]
+    nutrition: [420, 12, 36, 26]
     photo: cocina-espanola/tarta-de-santiago.jpg
     category: Desserts
     difficulty: EASY

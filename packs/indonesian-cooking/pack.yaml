@@ -1,6 +1,6 @@
 id: indonesian-cooking
-version: 2
-updated: 2026-11-05
+version: 3
+updated: 2026-11-06
 language: en
 name: "World cuisine: Indonesia"
 series: World cuisine
@@ -22,6 +22,8 @@ defaults:
 recipes:
 
   - name: Nasi goreng
+    health: [YELLOW, "Fried rice with egg and vegetables: complete, but the sweet soy sauce and oil add sugar, salt and fat."]
+    nutrition: [520, 15, 72, 19]
     photo: cocina-indonesia/nasi-goreng.jpg
     category: Rice
     difficulty: EASY
@@ -54,6 +56,8 @@ recipes:
       - Serve the rice topped with a fried egg, with slices of cucumber and tomato and crispy shallots.
 
   - name: Mie goreng
+    health: [YELLOW, "Noodles with chicken, prawns and vegetables: complete, though the kecap manis and oil add sugar, salt and fat."]
+    nutrition: [560, 34, 64, 18]
     photo: cocina-indonesia/mie-goreng.jpg
     category: Pasta
     difficulty: EASY
@@ -86,6 +90,8 @@ recipes:
       - Add the vegetables, noodles and sauces and stir-fry over a high heat for 3 minutes. Serve with crispy shallots.
 
   - name: Chicken satay with peanut sauce
+    health: [YELLOW, "Grilled chicken, good protein, with peanut sauce: healthy fats but very high in calories."]
+    nutrition: [560, 42, 15, 37]
     photo: cocina-indonesia/satay-de-pollo-con-salsa-de-cacahuete.jpg
     category: Meat
     difficulty: MEDIUM
@@ -127,6 +133,8 @@ recipes:
           - Serve the skewers with the sauce spooned over.
 
   - name: Gado-gado
+    health: [GREEN, "Vegetables, tofu, egg and potato with peanut sauce: very complete and high in fibre."]
+    nutrition: [500, 23, 35, 31]
     photo: cocina-indonesia/gado-gado.jpg
     category: Salads
     difficulty: EASY
@@ -164,6 +172,8 @@ recipes:
       - Pour over the sauce and serve with krupuk.
 
   - name: Beef rendang
+    health: [YELLOW, "Beef slow-cooked in coconut milk and spices: high in protein, but the coconut adds saturated fat."]
+    nutrition: [560, 40, 10, 40]
     photo: cocina-indonesia/rendang-de-ternera.jpg
     category: Meat
     difficulty: HARD
@@ -203,6 +213,8 @@ recipes:
       - Keep cooking, stirring more and more often, until the sauce has reduced completely and the meat is dark and tender, another 1-1½ hours.
 
   - name: Soto ayam
+    health: [GREEN, "A chicken soup with turmeric and spices: light, fragrant and with protein."]
+    nutrition: [350, 32, 12, 19]
     photo: cocina-indonesia/soto-ayam.jpg
     category: Soups
     difficulty: MEDIUM
@@ -245,6 +257,8 @@ recipes:
       - Put noodles, vegetables, chicken and egg in bowls, ladle over the broth and serve with crispy shallots, lime and sambal.
 
   - name: Opor ayam
+    health: [YELLOW, "Chicken in coconut milk with spices: good protein, though the coconut adds saturated fat."]
+    nutrition: [560, 46, 10, 38]
     photo: cocina-indonesia/opor-ayam.jpg
     category: Meat
     difficulty: MEDIUM
@@ -278,6 +292,8 @@ recipes:
       - Pour in the water and coconut milk, add the sugar and salt and simmer gently, uncovered, for 35-40 minutes, stirring now and then so it doesn't split, until the chicken is tender.
 
   - name: Ayam goreng
+    health: [YELLOW, "Chicken marinated in spices, simmered and then fried: good protein, but with fat from frying."]
+    nutrition: [520, 48, 6, 34]
     photo: cocina-indonesia/ayam-goreng.jpg
     category: Meat
     difficulty: MEDIUM
@@ -308,6 +324,8 @@ recipes:
       - Drain the chicken and deep-fry it in hot oil for 5-6 minutes, until golden.
 
   - name: Sambal oelek
+    health: [GREEN, "A chilli paste with almost no calories. Hot and a little salty: use a small amount."]
+    nutrition: [15, 1, 3, 0]
     photo: cocina-indonesia/sambal-oelek.jpg
     category: Sauces
     difficulty: EASY
@@ -328,6 +346,8 @@ recipes:
       - Stir in the vinegar and sugar.
 
   - name: Tempe orek
+    health: [YELLOW, "Tempeh, a plant protein with fibre, but fried and in a sweet sauce: fat and sugar."]
+    nutrition: [340, 18, 20, 21]
     photo: cocina-indonesia/tempe-orek.jpg
     category: Legumes
     difficulty: EASY
@@ -354,6 +374,8 @@ recipes:
       - Add the tempeh and toss until well coated in the sauce.
 
   - name: Perkedel kentang
+    health: [YELLOW, "Fried potato and egg patties: tasty, but with fat from frying."]
+    nutrition: [250, 6, 26, 13]
     photo: cocina-indonesia/perkedel-kentang.jpg
     category: Starters
     difficulty: EASY
@@ -379,6 +401,8 @@ recipes:
       - Dip them in the other beaten egg and fry in hot oil until golden.
 
   - name: Sayur lodeh
+    health: [GREEN, "Vegetables and tofu in a coconut milk broth: plenty of fibre and plant protein. The coconut adds fat."]
+    nutrition: [300, 11, 20, 21]
     photo: cocina-indonesia/sayur-lodeh.jpg
     category: Vegetables
     difficulty: EASY
@@ -412,6 +436,8 @@ recipes:
       - Add the aubergine, chayote and tofu in cubes, the coconut milk, sugar and salt, and simmer gently for 10-12 minutes, stirring carefully, until the vegetables are tender.
 
   - name: Bakso
+    health: [GREEN, "Lean beef meatballs in broth: high in protein and low in fat. Watch the salt in the broth."]
+    nutrition: [260, 22, 14, 12]
     photo: cocina-indonesia/bakso.jpg
     category: Soups
     difficulty: MEDIUM
@@ -455,6 +481,8 @@ recipes:
           - Serve noodles, pak choi and meatballs in bowls with the broth, crispy shallots and celery. Everyone adds sambal and kecap manis to taste.
 
   - name: Nasi kuning
+    health: [YELLOW, "Rice cooked in coconut milk and spices: fragrant, but with fat from the coconut."]
+    nutrition: [530, 8, 80, 20]
     photo: cocina-indonesia/nasi-kuning.jpg
     category: Rice
     difficulty: EASY
@@ -479,6 +507,8 @@ recipes:
       - Cover, turn the heat to the lowest setting and cook for 15 minutes. Leave to rest covered for 5 minutes and fluff up with a fork.
 
   - name: Cap cai
+    health: [GREEN, "Lots of stir-fried vegetables with prawns or chicken: light, complete and with fibre."]
+    nutrition: [200, 16, 15, 8]
     photo: cocina-indonesia/cap-cai.jpg
     category: Vegetables
     difficulty: EASY
@@ -511,6 +541,8 @@ recipes:
       - Add the sauces, pepper and the water with the cornflour stirred in and cook for 2 minutes, until the sauce thickens and the vegetables are still crunchy.
 
   - name: Tumis kangkung
+    health: [GREEN, "Leafy greens stir-fried with garlic: plenty of vitamins and very few calories."]
+    nutrition: [90, 3, 6, 7]
     photo: cocina-indonesia/tumis-kangkung.jpg
     category: Vegetables
     difficulty: EASY
@@ -535,6 +567,8 @@ recipes:
       - Add the stems and stir-fry for 1 minute. Add the leaves and sauce and stir-fry until wilted, less than a minute. Season with salt.
 
   - name: Pisang goreng
+    health: [YELLOW, "Battered, fried banana: fruit, but with fat from frying. An occasional dessert."]
+    nutrition: [300, 3, 48, 11]
     photo: cocina-indonesia/pisang-goreng.jpg
     category: Desserts
     difficulty: EASY
@@ -558,6 +592,8 @@ recipes:
       - Drain on kitchen paper and serve hot.
 
   - name: Martabak manis
+    health: [RED, "A thick pancake with butter, sugar and sweet fillings: very high in calories."]
+    nutrition: [480, 9, 68, 19]
     photo: cocina-indonesia/martabak-manis.jpg
     category: Desserts
     difficulty: MEDIUM
@@ -590,6 +626,8 @@ recipes:
       - Turn it out, spread with the butter, scatter over the chocolate, peanuts and condensed milk, fold in half and cut into pieces.
 
   - name: Klepon
+    health: [YELLOW, "Glutinous rice balls with palm sugar and coconut: sweet, with fat from the coconut."]
+    nutrition: [250, 3, 42, 8]
     photo: cocina-indonesia/klepon.jpg
     category: Desserts
     difficulty: MEDIUM
@@ -615,6 +653,8 @@ recipes:
       - Drain and roll them in the coconut.
 
   - name: Es teler
+    health: [RED, "A dessert of avocado, coconut, fruit in syrup and condensed milk: a lot of sugar and fat."]
+    nutrition: [380, 5, 42, 23]
     photo: cocina-indonesia/es-teler.jpg
     category: Drinks
     difficulty: EASY

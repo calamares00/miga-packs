@@ -1,6 +1,6 @@
 id: bakery
-version: 2
-updated: 2026-11-05
+version: 3
+updated: 2026-11-06
 language: en
 name: Bakery
 series: Everyday cooking
@@ -20,6 +20,8 @@ defaults:
 recipes:
 
   - name: Sourdough starter
+    health: [GREEN, "A starter for making bread, not eaten on its own. Just flour and water, with no fat or sugar."]
+    nutrition: [340, 11, 70, 2]
     photo: panaderia/masa-madre.jpg
     category: Breads and doughs
     difficulty: EASY
@@ -40,6 +42,8 @@ recipes:
       - When it doubles within 4-6 hours of feeding, it is ready. Use it at its peak.
 
   - name: Sourdough loaf
+    health: [GREEN, "Sourdough bread with some wholemeal flour: no fat or sugar, and easier to digest. Watch the salt."]
+    nutrition: [200, 7, 41, 1]
     photo: panaderia/hogaza-de-masa-madre.jpg
     category: Breads and doughs
     difficulty: HARD
@@ -65,6 +69,8 @@ recipes:
       - Bake covered for 20 minutes, uncover, lower to 230 °C and bake for 20-25 more minutes, until deep golden. Cool on a rack for at least 1 hour before slicing.
 
   - name: Baguette
+    health: [GREEN, "Simple bread of flour, water, yeast and salt, with no fat. Better with wholemeal flour for more fibre."]
+    nutrition: [590, 20, 122, 2]
     photo: panaderia/barra-de-pan.jpg
     category: Breads and doughs
     difficulty: MEDIUM
@@ -88,6 +94,8 @@ recipes:
       - Preheat the oven to 240 °C with an empty tray at the bottom. Transfer the baguettes to a baking tray, make 3-4 diagonal slashes, pour a glass of water into the hot tray for steam and bake for 20-22 minutes.
 
   - name: Sandwich loaf
+    health: [YELLOW, "Soft bread with milk, butter and sugar: a little fattier and sweeter than ordinary bread."]
+    nutrition: [190, 6, 33, 4]
     photo: panaderia/pan-de-molde.jpg
     category: Breads and doughs
     difficulty: EASY
@@ -114,6 +122,8 @@ recipes:
       - Bake at 190 °C for 30 minutes. Turn out straight away and cool on a rack.
 
   - name: Wholemeal bread
+    health: [GREEN, "Wholemeal bread with seeds: plenty of fibre and healthy fats. One of the best bread choices."]
+    nutrition: [170, 6, 30, 4]
     photo: panaderia/pan-integral.jpg
     category: Breads and doughs
     difficulty: EASY
@@ -140,6 +150,8 @@ recipes:
       - Brush with water, sprinkle seeds on top and bake at 200 °C for 35 minutes.
 
   - name: Rye bread
+    health: [GREEN, "Rye bread with plenty of fibre and no fat. More filling than white bread."]
+    nutrition: [160, 5, 33, 1]
     photo: panaderia/pan-de-centeno.jpg
     category: Breads and doughs
     difficulty: MEDIUM
@@ -166,6 +178,8 @@ recipes:
       - Turn out and let it cool completely on a rack, ideally until the next day.
 
   - name: Chapata
+    health: [GREEN, "Bread of flour, water and a little oil, with no sugar. Light, but made with white flour."]
+    nutrition: [900, 30, 180, 8]
     photo: panaderia/chapata.jpg
     category: Breads and doughs
     difficulty: MEDIUM
@@ -196,6 +210,8 @@ recipes:
       - Bake at 230 °C with steam for 22-25 minutes, until golden.
 
   - name: Milk rolls
+    health: [YELLOW, "Soft buns with sugar, butter and egg. Best for occasional breakfasts."]
+    nutrition: [230, 6, 36, 6]
     photo: panaderia/bollos-de-leche.jpg
     category: Breads and doughs
     difficulty: EASY
@@ -224,6 +240,8 @@ recipes:
       - Bake at 180 °C for 14-15 minutes, until golden.
 
   - name: Brioche
+    health: [RED, "Brioche with lots of butter, egg and sugar: very high in calories and fat. For special occasions."]
+    nutrition: [330, 8, 36, 18]
     photo: panaderia/brioche.jpg
     category: Breads and doughs
     difficulty: HARD
@@ -251,6 +269,8 @@ recipes:
       - Brush with egg and bake at 180 °C for 30 minutes. If it browns too fast, cover with foil.
 
   - name: Croissants
+    health: [RED, "Laminated dough with plenty of butter: very fatty and high in calories. An occasional treat."]
+    nutrition: [310, 6, 34, 17]
     photo: panaderia/cruasanes.jpg
     category: Breads and doughs
     difficulty: HARD
@@ -283,6 +303,8 @@ recipes:
       - Put them on trays, brush with egg and prove at about 25 °C for 2 hours, until they wobble when you shake the tray. Brush again and bake at 200 °C for 15-18 minutes.
 
   - name: Pains au chocolat
+    health: [RED, "Butter pastry with chocolate: a lot of saturated fat and sugar. Pastry for the odd occasion."]
+    nutrition: [360, 6, 40, 20]
     photo: panaderia/napolitanas-de-chocolate.jpg
     category: Breads and doughs
     difficulty: HARD
@@ -304,6 +326,8 @@ recipes:
       - Brush again and bake at 200 °C for 15-18 minutes, until deep golden.
 
   - name: Ensaïmadas
+    health: [RED, "Sweet dough with lard and icing sugar: a lot of saturated fat and sugar."]
+    nutrition: [310, 6, 42, 13]
     photo: panaderia/ensaimadas.jpg
     category: Breads and doughs
     difficulty: HARD
@@ -334,6 +358,8 @@ recipes:
       - Prove covered overnight, about 10-12 hours, until tripled. Spray with water and bake at 180 °C for 12-15 minutes. Dust with icing sugar once cool.
 
   - name: Spanish magdalenas
+    health: [RED, "Little cakes with plenty of sugar and oil: sweet and high in calories. Best as an occasional treat."]
+    nutrition: [210, 3, 22, 12]
     photo: panaderia/magdalenas.jpg
     category: Desserts
     difficulty: EASY
@@ -361,6 +387,8 @@ recipes:
       - Bake for 5 minutes at 220 °C and 10 minutes at 200 °C, until golden.
 
   - name: Pitta bread
+    health: [GREEN, "Flatbread of flour, water and a little oil, with no sugar. Ideal filled with vegetables and protein."]
+    nutrition: [250, 7, 47, 4]
     photo: panaderia/pan-de-pita.jpg
     category: Breads and doughs
     difficulty: EASY
@@ -386,6 +414,8 @@ recipes:
       - Wrap them in a tea towel to keep them soft.
 
   - name: Naan
+    health: [YELLOW, "Flatbread with yoghurt and milk, brushed with ghee or butter. A little fattier than plain bread."]
+    nutrition: [230, 7, 38, 5]
     photo: panaderia/naan.jpg
     category: Breads and doughs
     difficulty: EASY
@@ -415,6 +445,8 @@ recipes:
       - Brush with the rest of the ghee mixed with the garlic and coriander.
 
   - name: Burger buns
+    health: [YELLOW, "Soft buns with milk, butter, egg and sugar. Fattier and sweeter than ordinary bread."]
+    nutrition: [300, 9, 49, 7]
     photo: panaderia/panecillos-de-hamburguesa.jpg
     category: Breads and doughs
     difficulty: EASY
@@ -444,6 +476,8 @@ recipes:
       - Bake at 200 °C for 14-15 minutes.
 
   - name: Bagels
+    health: [GREEN, "Bread boiled then baked, with no fat, a little honey and seeds. Dense and filling."]
+    nutrition: [270, 9, 54, 3]
     photo: panaderia/bagels.jpg
     category: Breads and doughs
     difficulty: MEDIUM
@@ -472,6 +506,8 @@ recipes:
       - Bake on a tray lined with baking paper for 20 minutes, until golden.
 
   - name: Tortas de aceite
+    health: [YELLOW, "Thin biscuits with olive oil and sugar on top. Healthy fat, but sweet and high in calories."]
+    nutrition: [160, 2, 22, 7]
     photo: panaderia/tortas-de-aceite.jpg
     category: Breads and doughs
     difficulty: MEDIUM
@@ -500,6 +536,8 @@ recipes:
       - Sprinkle with sugar and bake for 10-12 minutes, until golden and crisp.
 
   - name: Walnut and raisin bread
+    health: [GREEN, "Bread with wholemeal flour, walnuts and raisins: fibre, healthy fats and natural sugar from the fruit."]
+    nutrition: [250, 8, 43, 6]
     photo: panaderia/pan-de-nueces-y-pasas.jpg
     category: Breads and doughs
     difficulty: MEDIUM
@@ -527,6 +565,8 @@ recipes:
       - Slash and bake at 230 °C with steam for 35 minutes.
 
   - name: Anise rosquillas
+    health: [RED, "Fried rings coated in sugar: a lot of fat and sugar. A traditional sweet for special occasions."]
+    nutrition: [190, 3, 26, 8]
     category: Desserts
     difficulty: MEDIUM
     prep: 30

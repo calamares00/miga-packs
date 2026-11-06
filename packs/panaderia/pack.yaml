@@ -1,6 +1,6 @@
 id: panaderia
-version: 2
-updated: 2026-11-05
+version: 3
+updated: 2026-11-06
 language: es
 name: Panadería
 series: Cocina de cada día
@@ -21,6 +21,8 @@ defaults:
 recipes:
 
   - name: Masa madre
+    health: [GREEN, "Es un fermento para hacer pan, no se come solo. Harina y agua, sin grasa ni azúcar."]
+    nutrition: [340, 11, 70, 2]
     photo: panaderia/masa-madre.jpg
     category: Panes y masas
     difficulty: EASY
@@ -41,6 +43,8 @@ recipes:
       - Cuando doble su volumen en 4-6 horas tras alimentarla, ya puedes usarla. Úsala en su punto más alto.
 
   - name: Hogaza de masa madre
+    health: [GREEN, "Pan de masa madre con algo de harina integral: sin grasa ni azúcar y más digestivo. Moderar por la sal."]
+    nutrition: [200, 7, 41, 1]
     photo: panaderia/hogaza-de-masa-madre.jpg
     category: Panes y masas
     difficulty: HARD
@@ -66,6 +70,8 @@ recipes:
       - Hornea tapada 20 minutos, destapa, baja a 230 °C y hornea 20-25 minutos más, hasta que esté muy dorada. Deja que se enfríe sobre una rejilla al menos 1 hora antes de cortarla.
 
   - name: Barra de pan
+    health: [GREEN, "Pan sencillo de harina, agua, levadura y sal, sin grasa. Mejor con harina integral para más fibra."]
+    nutrition: [590, 20, 122, 2]
     photo: panaderia/barra-de-pan.jpg
     category: Panes y masas
     difficulty: MEDIUM
@@ -89,6 +95,8 @@ recipes:
       - Precalienta el horno a 240 °C con una bandeja vacía en la base. Pasa las barras a la bandeja, haz 3-4 cortes en diagonal, echa un vaso de agua en la bandeja caliente para crear vapor y hornea 20-22 minutos.
 
   - name: Pan de molde
+    health: [YELLOW, "Pan blando con leche, mantequilla y azúcar: algo más graso y dulce que el pan corriente."]
+    nutrition: [190, 6, 33, 4]
     photo: panaderia/pan-de-molde.jpg
     category: Panes y masas
     difficulty: EASY
@@ -115,6 +123,8 @@ recipes:
       - Hornea a 190 °C 30 minutos. Desmolda enseguida y deja que se enfríe sobre una rejilla.
 
   - name: Pan integral
+    health: [GREEN, "Pan integral con semillas: mucha fibra y grasas saludables. Una de las mejores opciones de pan."]
+    nutrition: [170, 6, 30, 4]
     photo: panaderia/pan-integral.jpg
     category: Panes y masas
     difficulty: EASY
@@ -141,6 +151,8 @@ recipes:
       - Pinta con agua, espolvorea semillas por encima y hornea a 200 °C 35 minutos.
 
   - name: Pan de centeno
+    health: [GREEN, "Pan de centeno con mucha fibra y sin grasa. Sacia más que el pan blanco."]
+    nutrition: [160, 5, 33, 1]
     photo: panaderia/pan-de-centeno.jpg
     category: Panes y masas
     difficulty: MEDIUM
@@ -167,6 +179,8 @@ recipes:
       - Desmolda y deja que se enfríe del todo sobre una rejilla, mejor hasta el día siguiente.
 
   - name: Chapata
+    health: [GREEN, "Pan de harina, agua y un poco de aceite, sin azúcar. Ligero, pero de harina blanca."]
+    nutrition: [900, 30, 180, 8]
     photo: panaderia/chapata.jpg
     category: Panes y masas
     difficulty: MEDIUM
@@ -197,6 +211,8 @@ recipes:
       - Hornea a 230 °C con vapor 22-25 minutos, hasta que esté dorada.
 
   - name: Bollos de leche
+    health: [YELLOW, "Bollos tiernos con azúcar, mantequilla y huevo. Mejor para desayunos ocasionales."]
+    nutrition: [230, 6, 36, 6]
     photo: panaderia/bollos-de-leche.jpg
     category: Panes y masas
     difficulty: EASY
@@ -225,6 +241,8 @@ recipes:
       - Hornea a 180 °C 14-15 minutos, hasta que estén doradas.
 
   - name: Brioche
+    health: [RED, "Brioche con mucha mantequilla, huevo y azúcar: muy calórico y graso. Para ocasiones especiales."]
+    nutrition: [330, 8, 36, 18]
     photo: panaderia/brioche.jpg
     category: Panes y masas
     difficulty: HARD
@@ -252,6 +270,8 @@ recipes:
       - Pinta con huevo y hornea a 180 °C 30 minutos. Si se dora demasiado, cubre con papel de aluminio.
 
   - name: Cruasanes
+    health: [RED, "Masa hojaldrada con mucha mantequilla: muy grasa y calórica. Para darse un capricho de vez en cuando."]
+    nutrition: [310, 6, 34, 17]
     photo: panaderia/cruasanes.jpg
     category: Panes y masas
     difficulty: HARD
@@ -284,6 +304,8 @@ recipes:
       - Colócalos en bandejas, pinta con huevo y deja que leven a unos 25 °C 2 horas, hasta que tiemblen al mover la bandeja. Pinta otra vez y hornea a 200 °C 15-18 minutos.
 
   - name: Napolitanas de chocolate
+    health: [RED, "Hojaldre con mantequilla y chocolate: mucha grasa saturada y azúcar. Bollería para ocasiones puntuales."]
+    nutrition: [360, 6, 40, 20]
     photo: panaderia/napolitanas-de-chocolate.jpg
     category: Panes y masas
     difficulty: HARD
@@ -305,6 +327,8 @@ recipes:
       - Pinta otra vez y hornea a 200 °C 15-18 minutos, hasta que estén muy doradas.
 
   - name: Ensaimadas
+    health: [RED, "Masa dulce con manteca de cerdo y azúcar glas: mucha grasa saturada y azúcar."]
+    nutrition: [310, 6, 42, 13]
     photo: panaderia/ensaimadas.jpg
     category: Panes y masas
     difficulty: HARD
@@ -335,6 +359,8 @@ recipes:
       - Deja que leven tapadas toda la noche, unas 10-12 horas, hasta que tripliquen su volumen. Pulveriza con agua y hornea a 180 °C 12-15 minutos. Espolvorea con azúcar glas ya frías.
 
   - name: Magdalenas
+    health: [RED, "Bizcochos con mucho azúcar y aceite: dulces y calóricos. Mejor como capricho ocasional."]
+    nutrition: [210, 3, 22, 12]
     photo: panaderia/magdalenas.jpg
     category: Postres
     difficulty: EASY
@@ -362,6 +388,8 @@ recipes:
       - Hornea 5 minutos a 220 °C y 10 minutos a 200 °C, hasta que estén doradas.
 
   - name: Pan de pita
+    health: [GREEN, "Pan plano de harina, agua y un poco de aceite, sin azúcar. Ideal para rellenar con verduras y proteína."]
+    nutrition: [250, 7, 47, 4]
     photo: panaderia/pan-de-pita.jpg
     category: Panes y masas
     difficulty: EASY
@@ -387,6 +415,8 @@ recipes:
       - Envuélvelos en un paño para que se mantengan blandos.
 
   - name: Naan
+    health: [YELLOW, "Pan plano con yogur y leche, pintado con ghee o mantequilla. Algo más graso que un pan normal."]
+    nutrition: [230, 7, 38, 5]
     photo: panaderia/naan.jpg
     category: Panes y masas
     difficulty: EASY
@@ -416,6 +446,8 @@ recipes:
       - Píntalos con el resto del ghee mezclado con el ajo y el cilantro.
 
   - name: Panecillos de hamburguesa
+    health: [YELLOW, "Panecillos tiernos con leche, mantequilla, huevo y azúcar. Más grasos y dulces que el pan corriente."]
+    nutrition: [300, 9, 49, 7]
     photo: panaderia/panecillos-de-hamburguesa.jpg
     category: Panes y masas
     difficulty: EASY
@@ -445,6 +477,8 @@ recipes:
       - Hornea a 200 °C 14-15 minutos.
 
   - name: Bagels
+    health: [GREEN, "Pan hervido y horneado, sin grasa, con un poco de miel y semillas. Denso y saciante."]
+    nutrition: [270, 9, 54, 3]
     photo: panaderia/bagels.jpg
     category: Panes y masas
     difficulty: MEDIUM
@@ -473,6 +507,8 @@ recipes:
       - Hornea en una bandeja con papel de horno 20 minutos, hasta que estén dorados.
 
   - name: Tortas de aceite
+    health: [YELLOW, "Tortas finas con aceite de oliva y azúcar por encima. Grasa saludable, pero dulces y calóricas."]
+    nutrition: [160, 2, 22, 7]
     photo: panaderia/tortas-de-aceite.jpg
     category: Panes y masas
     difficulty: MEDIUM
@@ -501,6 +537,8 @@ recipes:
       - Espolvorea azúcar por encima y hornea 10-12 minutos, hasta que estén doradas y crujientes.
 
   - name: Pan de nueces y pasas
+    health: [GREEN, "Pan con harina integral, nueces y pasas: fibra, grasas saludables y azúcar natural de la fruta."]
+    nutrition: [250, 8, 43, 6]
     photo: panaderia/pan-de-nueces-y-pasas.jpg
     category: Panes y masas
     difficulty: MEDIUM
@@ -528,6 +566,8 @@ recipes:
       - Haz unos cortes y hornea a 230 °C con vapor 35 minutos.
 
   - name: Rosquillas de anís
+    health: [RED, "Rosquillas fritas y rebozadas en azúcar: mucha grasa y azúcar. Dulce típico para ocasiones."]
+    nutrition: [190, 3, 26, 8]
     category: Postres
     difficulty: MEDIUM
     prep: 30

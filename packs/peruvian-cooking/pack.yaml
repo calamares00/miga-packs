@@ -1,6 +1,6 @@
 id: peruvian-cooking
-version: 2
-updated: 2026-11-05
+version: 3
+updated: 2026-11-06
 language: en
 name: "World cuisine: Peru"
 series: World cuisine
@@ -24,6 +24,8 @@ defaults:
 recipes:
 
   - name: Fish ceviche
+    health: [GREEN, "Raw white fish cured in lime with onion: lean protein and very few calories. Very healthy."]
+    nutrition: [220, 32, 14, 3]
     photo: cocina-peruana/ceviche-de-pescado.jpg
     category: Fish and seafood
     difficulty: EASY
@@ -52,6 +54,8 @@ recipes:
       - Serve straight away with slices of sweet potato and corn.
 
   - name: Tiradito
+    health: [GREEN, "Thinly sliced raw fish with a chilli and lime sauce: lean protein, light and with hardly any fat."]
+    nutrition: [160, 28, 6, 2]
     photo: cocina-peruana/tiradito.jpg
     category: Fish and seafood
     difficulty: EASY
@@ -76,6 +80,8 @@ recipes:
       - Pour the sauce over the fish just before serving and garnish with coriander leaves.
 
   - name: Lomo saltado
+    health: [YELLOW, "Beef stir-fried with vegetables, complete, but served with chips and rice: very high in calories."]
+    nutrition: [720, 36, 70, 30]
     photo: cocina-peruana/lomo-saltado.jpg
     category: Meat
     difficulty: MEDIUM
@@ -109,6 +115,8 @@ recipes:
       - Add the coriander and chips, toss and serve with white rice.
 
   - name: Ají de gallina
+    health: [YELLOW, "Chicken in a creamy chilli sauce with evaporated milk, bread, walnuts and cheese: complete but calorie-dense."]
+    nutrition: [520, 40, 30, 26]
     photo: cocina-peruana/aji-de-gallina.jpg
     category: Meat
     difficulty: MEDIUM
@@ -142,6 +150,8 @@ recipes:
       - Serve over sliced potatoes, with white rice, hard-boiled egg and olives.
 
   - name: Causa limeña
+    health: [YELLOW, "Mashed potato with chilli, filled with chicken and avocado: complete, though the mayonnaise adds fat."]
+    nutrition: [450, 18, 45, 22]
     photo: cocina-peruana/causa-limena.jpg
     category: Starters
     difficulty: MEDIUM
@@ -175,6 +185,8 @@ recipes:
       - Chill for 1 hour, unmould and garnish with hard-boiled egg, olives and a little mayonnaise.
 
   - name: Papa a la huancaína
+    health: [YELLOW, "Boiled potato with a cheese, milk and chilli sauce: tasty but with fat and salt."]
+    nutrition: [480, 17, 50, 24]
     photo: cocina-peruana/papa-a-la-huancaina.jpg
     category: Starters
     difficulty: EASY
@@ -207,6 +219,8 @@ recipes:
       - Lay the potatoes on the lettuce leaves, cover with the sauce and garnish with egg and olives.
 
   - name: Ocopa arequipeña
+    health: [YELLOW, "Potato with a sauce of chilli, peanut, huacatay and cheese: tasty, though the sauce is calorie-dense."]
+    nutrition: [420, 16, 40, 22]
     photo: cocina-peruana/ocopa-arequipena.jpg
     category: Starters
     difficulty: EASY
@@ -242,6 +256,8 @@ recipes:
       - Serve over sliced boiled potatoes, with hard-boiled egg and olives.
 
   - name: Arroz chaufa
+    health: [YELLOW, "Fried rice with chicken and egg: complete, but the soy and oil add salt and fat."]
+    nutrition: [560, 32, 62, 19]
     photo: cocina-peruana/arroz-chaufa.jpg
     category: Rice
     difficulty: EASY
@@ -271,6 +287,8 @@ recipes:
       - Stir-fry for 1 more minute and finish with the chopped green part of the spring onions.
 
   - name: Beef heart anticuchos
+    health: [GREEN, "Beef heart, a lean meat rich in iron, grilled. High in protein and low in fat."]
+    nutrition: [280, 30, 4, 15]
     photo: cocina-peruana/anticuchos-de-corazon.jpg
     category: Meat
     difficulty: MEDIUM
@@ -300,6 +318,8 @@ recipes:
       - Serve with potatoes browned on the grill and corn.
 
   - name: Pollo a la brasa
+    health: [YELLOW, "Marinated roast chicken: good protein, though the skin adds fat. Better with salad than chips."]
+    nutrition: [560, 52, 4, 36]
     photo: cocina-peruana/pollo-a-la-brasa.jpg
     category: Meat
     difficulty: EASY
@@ -330,6 +350,8 @@ recipes:
       - Serve with chips, salad and ají sauce.
 
   - name: Rocoto relleno
+    health: [YELLOW, "Rocoto peppers stuffed with meat, cheese and egg: complete, with moderate fat and a little sugar."]
+    nutrition: [380, 24, 22, 22]
     photo: cocina-peruana/rocoto-relleno.jpg
     category: Vegetables
     difficulty: HARD
@@ -372,6 +394,8 @@ recipes:
       - Put them in a dish, pour over the milk beaten with the egg and bake for 25-30 minutes. Serve with potato gratin or roast potatoes.
 
   - name: Seco de res
+    health: [GREEN, "Beef stewed in a coriander sauce with vegetables: high in protein. Usually served with beans and rice."]
+    nutrition: [380, 42, 12, 17]
     photo: cocina-peruana/seco-de-res.jpg
     category: Meat
     difficulty: MEDIUM
@@ -405,6 +429,8 @@ recipes:
       - Add the sliced carrots and the peas and simmer for 15 more minutes. Season with salt.
 
   - name: Peruvian arroz con pollo
+    health: [GREEN, "Green rice with chicken and vegetables: complete and balanced."]
+    nutrition: [620, 38, 62, 22]
     photo: cocina-peruana/arroz-con-pollo-peruano.jpg
     category: Rice
     difficulty: MEDIUM
@@ -439,6 +465,8 @@ recipes:
       - Add the rice, stock, diced pepper and carrot, peas and corn. Season with salt, cover and simmer for 20 minutes.
 
   - name: Chupe de camarones
+    health: [YELLOW, "A prawn soup with potato, milk and egg: very complete, but calorie-dense."]
+    nutrition: [430, 28, 40, 17]
     photo: cocina-peruana/chupe-de-camarones.jpg
     category: Soups
     difficulty: HARD
@@ -475,6 +503,8 @@ recipes:
       - Crack the eggs into the soup, add the cheese and huacatay and cook for 2 minutes without boiling hard. Season with salt.
 
   - name: Papa rellena
+    health: [YELLOW, "Potato filled with meat, breaded and fried: complete but with fat."]
+    nutrition: [420, 18, 48, 17]
     photo: cocina-peruana/papa-rellena.jpg
     category: Starters
     difficulty: MEDIUM
@@ -513,6 +543,8 @@ recipes:
       - Coat in flour and beaten egg and fry in hot oil until golden.
 
   - name: Tallarines verdes
+    health: [YELLOW, "Pasta with a green sauce of spinach, basil, cheese and evaporated milk: tasty, with some fat."]
+    nutrition: [620, 24, 85, 20]
     photo: cocina-peruana/tallarines-verdes.jpg
     category: Pasta
     difficulty: EASY
@@ -541,6 +573,8 @@ recipes:
       - Cook the pasta, drain and toss with the sauce in the pan over a low heat for 1 minute.
 
   - name: Suspiro limeño
+    health: [RED, "Dulce de leche topped with meringue: a lot of sugar. A very sweet dessert for special occasions."]
+    nutrition: [470, 11, 72, 14]
     photo: cocina-peruana/suspiro-limeno.jpg
     category: Desserts
     difficulty: MEDIUM
@@ -571,6 +605,8 @@ recipes:
       - Top the manjar with the meringue and dust with cinnamon.
 
   - name: Picarones
+    health: [RED, "Pumpkin and sweet potato doughnuts, fried and served with chancaca syrup: a lot of fat and sugar."]
+    nutrition: [520, 9, 90, 14]
     photo: cocina-peruana/picarones.jpg
     category: Desserts
     difficulty: HARD
@@ -605,6 +641,8 @@ recipes:
       - Fry them, turning with a stick, until golden. Serve hot, drenched in the syrup.
 
   - name: Mazamorra morada
+    health: [YELLOW, "A purple corn dessert with fruit: antioxidants, but with plenty of sugar."]
+    nutrition: [230, 2, 56, 0]
     photo: cocina-peruana/mazamorra-morada.jpg
     category: Desserts
     difficulty: EASY
@@ -635,6 +673,8 @@ recipes:
       - Off the heat, add the lime juice. Serve in bowls dusted with cinnamon.
 
   - name: Chicha morada
+    health: [YELLOW, "A purple corn drink with fruit and spices: antioxidants, but with added sugar."]
+    nutrition: [140, 1, 35, 0]
     photo: cocina-peruana/chicha-morada.jpg
     category: Drinks
     difficulty: EASY

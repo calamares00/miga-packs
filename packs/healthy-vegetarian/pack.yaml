@@ -1,0 +1,302 @@
+id: healthy-vegetarian
+version: 1
+updated: 2026-11-07
+language: en
+name: "Healthy cooking: vegetarian"
+series: Healthy cooking
+description: >-
+  Dishes without meat or fish, with eggs, dairy, pulses and plenty of vegetables, complete in
+  protein: vegetable frittata, aubergines stuffed with quinoa and feta, peppers stuffed with brown
+  rice, black bean burgers, lentil salad with feta, crustless spinach quiche, courgettes stuffed
+  with ricotta, cauliflower baked with yoghurt, couscous with vegetables and halloumi and baked
+  eggs with spinach.
+author: Miga
+authorGithub: calamares00
+cover:
+  emoji: "🥚"
+  kicker: Healthy cooking
+  title: Vegetarian
+  colors: ["#4d7c0f", "#facc15"]
+defaults:
+  source: "Miga «Healthy cooking: vegetarian» pack"
+recipes:
+
+  - name: Vegetable frittata
+    health: [GREEN, "Eggs with plenty of vegetables and a little cheese, baked: complete protein and fibre."]
+    nutrition: [290, 19, 9, 20]
+    photo: saludable-vegetariano/frittata-de-verduras.jpg
+    category: Eggs
+    difficulty: EASY
+    prep: 15
+    cook: 25
+    servings: 4
+    tags: [eggs, vegetarian, gluten-free]
+    utensils: [Oven]
+    ingredients:
+      - items:
+          - [eggs, 8, null]
+          - [courgette, 1, null]
+          - [red pepper, 1, null]
+          - [onion, 1, null]
+          - [baby spinach, 80, g]
+          - [grated parmesan, 30, g]
+          - [extra virgin olive oil, 2, tbsp]
+          - [fresh basil, 1, handful]
+          - [salt and black pepper, null, null]
+    steps:
+      - "Preheat the oven to 190 °C. Sauté the diced onion, pepper and courgette in an ovenproof pan for 8 minutes. Add the spinach."
+      - "Beat the eggs with the parmesan, basil, salt and pepper and pour them over the vegetables."
+      - "Cook for 2 minutes on the hob and finish in the oven for 12-15 minutes, until set in the centre."
+
+  - name: Aubergines stuffed with quinoa and feta
+    health: [GREEN, "Aubergine with quinoa, vegetables and a little feta: fibre and protein with moderate fat."]
+    nutrition: [380, 15, 40, 18]
+    photo: saludable-vegetariano/berenjenas-rellenas-de-quinoa-y-feta.jpg
+    category: Vegetables
+    difficulty: EASY
+    prep: 20
+    cook: 40
+    servings: 4
+    tags: [vegetarian, baked, gluten-free]
+    utensils: [Oven]
+    ingredients:
+      - items:
+          - [aubergines, 2, null]
+          - [quinoa, 120, g]
+          - [cherry tomatoes, 200, g]
+          - [red onion, 1, null]
+          - [garlic, 2, clove]
+          - [feta cheese, 100, g]
+          - [fresh mint or parsley, 1, handful]
+          - [extra virgin olive oil, 3, tbsp]
+          - [ground cumin, 1, tsp]
+          - [salt and black pepper, null, null]
+    steps:
+      - "Halve the aubergines, score the flesh, drizzle with 1 tablespoon of oil and roast at 200 °C for 25 minutes."
+      - Cook the quinoa in twice its volume of water for 12 minutes.
+      - "Scoop out the aubergines, leaving 1 cm. Sauté the onion and garlic in the rest of the oil, add the chopped flesh, tomatoes and cumin and cook for 5 minutes. Mix with the quinoa and season."
+      - "Fill the aubergines, crumble over the feta and bake for 10 minutes. Finish with the herbs."
+
+  - name: Peppers stuffed with brown rice
+    health: [GREEN, "Peppers with brown rice, beans and vegetables: fibre and plant protein."]
+    nutrition: [400, 15, 58, 12]
+    photo: saludable-vegetariano/pimientos-rellenos-de-arroz-integral.jpg
+    category: Vegetables
+    difficulty: EASY
+    prep: 20
+    cook: 45
+    servings: 4
+    tags: [vegetarian, baked, gluten-free]
+    utensils: [Oven]
+    ingredients:
+      - items:
+          - [large red peppers, 4, null]
+          - [cooked brown rice, 300, g]
+          - [cooked black beans, 200, g]
+          - [sweetcorn, 100, g]
+          - [onion, 1, null]
+          - [crushed tomatoes, 200, g]
+          - [ground cumin, 1, tsp]
+          - [smoked paprika, 1, tsp]
+          - [grated mozzarella, 60, g]
+          - [olive oil, 2, tbsp]
+          - [salt, null, null]
+    steps:
+      - Preheat the oven to 190 °C. Cut the tops off the peppers and remove the seeds.
+      - "Soften the chopped onion in the oil, add the tomatoes and spices and cook for 5 minutes. Mix with the rice, beans and sweetcorn and salt."
+      - "Fill the peppers, top with the cheese and put their lids back on."
+      - "Bake for 35-40 minutes, until the peppers are tender."
+
+  - name: Black bean burgers
+    health: [GREEN, "Pulse and oat burgers cooked on a griddle: fibre and plant protein."]
+    nutrition: [320, 14, 42, 10]
+    photo: saludable-vegetariano/hamburguesas-de-alubias-negras.jpg
+    category: Legumes
+    difficulty: EASY
+    prep: 20
+    cook: 15
+    servings: 4
+    notes: "They can be frozen raw, separated with baking paper."
+    tags: [pulses, vegetarian]
+    ingredients:
+      - items:
+          - [cooked black beans, 500, g]
+          - [rolled oats, 60, g]
+          - [egg, 1, null]
+          - [red onion, 0.5, null]
+          - [garlic, 1, clove]
+          - [ground cumin, 1, tsp]
+          - [smoked paprika, 1, tsp]
+          - [fresh coriander, 1, handful]
+          - [olive oil, 1, tbsp]
+          - [salt, null, null]
+    steps:
+      - Drain the beans and dry them well. Mash three quarters with a fork and leave the rest whole.
+      - "Mix them with the oats, egg, chopped onion and garlic, spices, coriander and salt. Leave for 10 minutes."
+      - Shape into 4 burgers and cook on a griddle with the oil for 4-5 minutes per side.
+      - Serve them in wholemeal buns or with salad.
+
+  - name: Lentil salad with feta
+    health: [GREEN, "Lentils with raw vegetables and a little feta: fibre, iron and protein."]
+    nutrition: [380, 20, 40, 15]
+    photo: saludable-vegetariano/ensalada-de-lentejas-con-feta.jpg
+    category: Salads
+    difficulty: EASY
+    prep: 15
+    cook: 0
+    servings: 4
+    tags: [salad, pulses, vegetarian, gluten-free]
+    ingredients:
+      - items:
+          - [cooked lentils, 500, g]
+          - [cherry tomatoes, 200, g]
+          - [cucumber, 1, null]
+          - [red pepper, 1, null]
+          - [red onion, 0.5, null]
+          - [feta cheese, 100, g]
+          - [fresh parsley, 1, handful]
+          - [extra virgin olive oil, 3, tbsp]
+          - [red wine vinegar, 1, tbsp]
+          - [dried oregano, 1, tsp]
+          - [salt and black pepper, null, null]
+    steps:
+      - Rinse and drain the lentils.
+      - Dice the vegetables and mix them with the lentils.
+      - "Dress with the oil, vinegar, oregano, salt and pepper, and finish with the crumbled feta and parsley."
+
+  - name: Crustless spinach quiche
+    health: [GREEN, "Eggs, spinach and fresh cheese without pastry: protein and vegetables with little fat."]
+    nutrition: [260, 20, 7, 17]
+    photo: saludable-vegetariano/quiche-sin-masa-de-espinacas.jpg
+    category: Eggs
+    difficulty: EASY
+    prep: 15
+    cook: 35
+    servings: 6
+    tags: [eggs, vegetarian, gluten-free, baked]
+    utensils: [Oven]
+    ingredients:
+      - items:
+          - [eggs, 6, null]
+          - [fresh spinach, 400, g]
+          - [onion, 1, null]
+          - [quark or fromage frais, 250, g]
+          - [grated gruyère or emmental, 50, g]
+          - [nutmeg, 1, pinch]
+          - [olive oil, 1, tbsp]
+          - [salt and black pepper, null, null]
+    steps:
+      - "Preheat the oven to 180 °C. Soften the chopped onion in the oil, add the spinach and cook until the liquid evaporates."
+      - "Beat the eggs with the fresh cheese, half the grated cheese, the nutmeg, salt and pepper. Add the spinach."
+      - "Pour into a greased dish, top with the rest of the cheese and bake for 30-35 minutes, until set and golden."
+
+  - name: Courgettes stuffed with ricotta
+    health: [GREEN, "Courgettes with ricotta, herbs and tomato: light, with dairy protein."]
+    nutrition: [240, 14, 12, 15]
+    photo: saludable-vegetariano/calabacines-rellenos-de-requeson.jpg
+    category: Vegetables
+    difficulty: EASY
+    prep: 15
+    cook: 30
+    servings: 4
+    tags: [vegetarian, baked, gluten-free]
+    utensils: [Oven]
+    ingredients:
+      - items:
+          - [courgettes, 4, null]
+          - [ricotta, 250, g]
+          - [egg, 1, null]
+          - [grated parmesan, 30, g]
+          - [fresh basil, 1, handful]
+          - [lemon zest, 1, tsp]
+          - [tomato sauce, 250, ml]
+          - [extra virgin olive oil, 1, tbsp]
+          - [salt and black pepper, null, null]
+    steps:
+      - Preheat the oven to 190 °C. Halve the courgettes lengthways and scoop them out with a teaspoon.
+      - "Mix the ricotta with the egg, half the parmesan, the basil, zest, chopped flesh, salt and pepper."
+      - "Spread the sauce in a dish, lay the stuffed courgettes on top, sprinkle with the rest of the parmesan and drizzle with the oil."
+      - "Bake for 25-30 minutes, until tender and golden."
+
+  - name: Cauliflower bake with yoghurt
+    health: [GREEN, "Cauliflower baked with yoghurt instead of béchamel: much lighter."]
+    nutrition: [210, 13, 14, 12]
+    photo: saludable-vegetariano/coliflor-gratinada-con-yogur.jpg
+    category: Vegetables
+    difficulty: EASY
+    prep: 15
+    cook: 30
+    servings: 4
+    tags: [vegetarian, baked, gluten-free]
+    utensils: [Oven]
+    ingredients:
+      - items:
+          - [cauliflower, 1, null]
+          - [plain Greek yoghurt, 250, g]
+          - [egg, 1, null]
+          - [Dijon mustard, 1, tsp]
+          - [grated cheddar or emmental, 60, g]
+          - [nutmeg, 1, pinch]
+          - [chives, 1, bunch]
+          - [salt and black pepper, null, null]
+    steps:
+      - Preheat the oven to 200 °C. Steam the cauliflower florets for 8 minutes and place them in a baking dish.
+      - "Mix the yoghurt with the egg, mustard, half the cheese, the nutmeg, salt and pepper."
+      - "Cover the cauliflower with the mixture, sprinkle with the rest of the cheese and bake for 20 minutes. Finish with chives."
+
+  - name: Couscous with roasted vegetables and halloumi
+    health: [GREEN, "Wholemeal couscous with vegetables and a little halloumi: complete and balanced."]
+    nutrition: [480, 20, 55, 20]
+    photo: saludable-vegetariano/cuscus-con-verduras-asadas-y-halloumi.jpg
+    category: Vegetables
+    difficulty: EASY
+    prep: 15
+    cook: 30
+    servings: 4
+    tags: [vegetarian, baked]
+    utensils: [Oven]
+    ingredients:
+      - items:
+          - [wholemeal couscous, 200, g]
+          - [hot vegetable stock, 220, ml]
+          - [halloumi, 200, g]
+          - [courgette, 1, null]
+          - [red pepper, 1, null]
+          - [red onion, 1, null]
+          - [cherry tomatoes, 200, g]
+          - [extra virgin olive oil, 3, tbsp]
+          - [ras el hanout or cumin, 1, tsp]
+          - [fresh mint, 1, handful]
+          - [lemon, 1, null]
+    steps:
+      - Roast the vegetables in chunks with 2 tablespoons of oil and the spices at 210 °C for 25 minutes.
+      - "Pour the stock over the couscous, cover for 5 minutes and fluff with a fork."
+      - Brown the halloumi slices in a dry pan for 1-2 minutes per side.
+      - "Mix the couscous with the vegetables, the rest of the oil and the lemon juice, and serve with the halloumi and mint."
+
+  - name: Baked eggs with spinach and tomato
+    health: [GREEN, "Eggs baked over greens and tomato: protein and fibre with little fat."]
+    nutrition: [250, 16, 12, 15]
+    photo: saludable-vegetariano/huevos-al-horno-con-espinacas-y-tomate.jpg
+    category: Eggs
+    difficulty: EASY
+    prep: 10
+    cook: 20
+    servings: 4
+    tags: [eggs, vegetarian, gluten-free]
+    utensils: [Oven]
+    ingredients:
+      - items:
+          - [eggs, 8, null]
+          - [fresh spinach, 300, g]
+          - [crushed tomatoes, 400, g]
+          - [onion, 1, null]
+          - [garlic, 2, clove]
+          - [sweet paprika, 1, tsp]
+          - [feta cheese, 50, g]
+          - [extra virgin olive oil, 2, tbsp]
+          - [salt and black pepper, null, null]
+    steps:
+      - "Preheat the oven to 190 °C. Soften the onion and garlic in the oil, add the paprika and tomatoes and simmer for 10 minutes. Stir in the spinach and salt."
+      - "Divide among four small dishes, make two hollows in each and crack in the eggs."
+      - "Bake for 10-12 minutes, until the whites are set and the yolks runny. Finish with the feta and pepper."

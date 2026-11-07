@@ -1,0 +1,271 @@
+id: healthy-breakfasts-and-snacks
+version: 1
+updated: 2026-11-07
+language: en
+name: "Healthy cooking: breakfasts and snacks"
+series: Healthy cooking
+description: >-
+  Breakfasts and snacks with oats, fruit, yoghurt, nuts and eggs, with little added sugar: apple
+  porridge, overnight oats, homemade granola, chia pudding, oat and banana pancakes, banana
+  muffins, oat and date bars, green smoothie, ricotta and strawberry toast and spinach scrambled
+  eggs.
+author: Miga
+authorGithub: calamares00
+cover:
+  emoji: "🥣"
+  kicker: Healthy cooking
+  title: Breakfasts and snacks
+  colors: ["#b45309", "#fbbf24"]
+defaults:
+  source: "Miga «Healthy cooking: breakfasts and snacks» pack"
+recipes:
+
+  - name: Apple and cinnamon porridge
+    health: [GREEN, "Oats with fruit and nuts: fibre and slow-release energy."]
+    nutrition: [340, 11, 50, 11]
+    photo: saludable-desayunos-y-meriendas/porridge-de-avena-con-manzana-y-canela.jpg
+    category: Desserts
+    difficulty: EASY
+    prep: 5
+    cook: 10
+    servings: 2
+    tags: [breakfast, vegetarian]
+    ingredients:
+      - items:
+          - [rolled oats, 80, g]
+          - [milk or plant milk, 400, ml]
+          - [apple, 1, null]
+          - [ground cinnamon, 1, tsp]
+          - [walnuts, 20, g]
+          - [honey (optional), 1, tsp]
+          - [salt, 1, pinch]
+    steps:
+      - "Put the oats, milk, salt and half the apple, grated, in a pan."
+      - "Cook over medium heat for 5-7 minutes, stirring, until thick."
+      - "Serve topped with the rest of the apple, diced, cinnamon, chopped walnuts and a drizzle of honey if you like."
+
+  - name: Overnight oats with berries
+    health: [GREEN, "Oats with yoghurt, seeds and fruit, uncooked: fibre, protein and little sugar."]
+    nutrition: [330, 14, 44, 11]
+    photo: saludable-desayunos-y-meriendas/avena-remojada-con-frutos-rojos.jpg
+    category: Desserts
+    difficulty: EASY
+    prep: 5
+    cook: 0
+    servings: 2
+    notes: It is made the night before and keeps for 3 days in the fridge in closed jars.
+    tags: [breakfast, vegetarian, no-cook]
+    ingredients:
+      - items:
+          - [rolled oats, 80, g]
+          - [plain yoghurt, 150, g]
+          - [milk or plant milk, 150, ml]
+          - [chia seeds, 1, tbsp]
+          - [fresh or frozen berries, 150, g]
+          - [vanilla extract, 0.5, tsp]
+    steps:
+      - "Mix the oats with the yoghurt, milk, chia and vanilla."
+      - "Divide between two jars, layering with the berries."
+      - Cover and leave in the fridge overnight. Stir before eating.
+
+  - name: Homemade granola
+    health: [YELLOW, "Oats, nuts and seeds with a little honey: nutritious but calorie-dense; keep portions small."]
+    nutrition: [210, 6, 22, 11]
+    photo: saludable-desayunos-y-meriendas/granola-casera.jpg
+    category: Desserts
+    difficulty: EASY
+    prep: 10
+    cook: 25
+    servings: 12
+    notes: One portion is about 40 g. It keeps for 3 weeks in an airtight jar.
+    tags: [breakfast, vegan, baked]
+    utensils: [Oven]
+    ingredients:
+      - items:
+          - [rolled oats, 250, g]
+          - [almonds, 80, g]
+          - [walnuts, 50, g]
+          - [pumpkin seeds, 40, g]
+          - [sesame seeds, 2, tbsp]
+          - [honey or maple syrup, 4, tbsp]
+          - [mild olive oil or coconut oil, 3, tbsp]
+          - [ground cinnamon, 1, tsp]
+          - [raisins or dried cranberries, 50, g]
+          - [salt, 1, pinch]
+    steps:
+      - "Preheat the oven to 160 °C. Mix the oats, chopped nuts, seeds, cinnamon and salt."
+      - "Warm the honey with the oil, pour over the mixture and stir until everything is coated."
+      - "Spread on a lined tray and bake for 20-25 minutes, stirring halfway, until golden."
+      - Leave to cool completely (it crisps as it cools) and add the raisins.
+
+  - name: Chia pudding with berries
+    health: [GREEN, "Chia seeds with milk and fruit: fibre, plant omega-3 and no added sugar."]
+    nutrition: [260, 8, 28, 13]
+    photo: saludable-desayunos-y-meriendas/pudin-de-chia-con-frutos-rojos.jpg
+    category: Desserts
+    difficulty: EASY
+    prep: 10
+    cook: 0
+    servings: 2
+    tags: [breakfast, vegan, gluten-free, no-cook]
+    ingredients:
+      - items:
+          - [chia seeds, 4, tbsp]
+          - [coconut drink or milk, 300, ml]
+          - [fresh or frozen berries, 150, g]
+          - [vanilla extract, 0.5, tsp]
+          - [desiccated coconut, 1, tbsp]
+    steps:
+      - Mix the chia with the milk and vanilla. Stir again after 10 minutes so it doesn't clump.
+      - "Leave in the fridge for at least 4 hours or overnight, until thick."
+      - "Crush half the berries with a fork. Serve the pudding with the crushed berries, the rest of the fruit and the coconut."
+
+  - name: Oat and banana pancakes
+    health: [GREEN, "Pancakes with no refined flour or sugar, sweetened with banana."]
+    nutrition: [290, 12, 42, 8]
+    photo: saludable-desayunos-y-meriendas/tortitas-de-avena-y-platano.jpg
+    category: Desserts
+    difficulty: EASY
+    prep: 5
+    cook: 15
+    servings: 2
+    tags: [breakfast, vegetarian]
+    utensils: [Blender]
+    ingredients:
+      - items:
+          - [ripe banana, 1, null]
+          - [eggs, 2, null]
+          - [rolled oats, 60, g]
+          - [baking powder, 0.5, tsp]
+          - [ground cinnamon, 0.5, tsp]
+          - [mild olive oil, 1, tsp]
+          - [yoghurt and fruit to serve, null, null]
+    steps:
+      - "Blend the banana with the eggs, oats, baking powder and cinnamon into a thick batter."
+      - Lightly grease a non-stick pan and cook spoonfuls of batter over medium-low heat for 2 minutes per side.
+      - Serve with yoghurt and fresh fruit.
+
+  - name: Banana oat muffins
+    health: [GREEN, "Oat and banana muffins with very little added sugar."]
+    nutrition: [170, 5, 24, 6]
+    photo: saludable-desayunos-y-meriendas/muffins-de-platano-y-avena.jpg
+    category: Desserts
+    difficulty: EASY
+    prep: 15
+    cook: 22
+    servings: 12
+    notes: They keep for 4 days in a closed container and freeze well.
+    tags: [snack, vegetarian, baked]
+    utensils: [Oven]
+    ingredients:
+      - items:
+          - [very ripe bananas, 3, null]
+          - [eggs, 2, null]
+          - [plain yoghurt, 125, g]
+          - [mild olive oil, 50, ml]
+          - [honey, 2, tbsp]
+          - [rolled oats, 150, g]
+          - [wholemeal flour, 80, g]
+          - [baking powder, 2, tsp]
+          - [ground cinnamon, 1, tsp]
+          - [chopped walnuts, 40, g]
+    steps:
+      - "Preheat the oven to 180 °C. Mash the bananas and mix with the eggs, yoghurt, oil and honey."
+      - "Add the oats, flour, baking powder and cinnamon and mix without overworking. Fold in the walnuts."
+      - "Divide among 12 muffin cases and bake for 20-22 minutes, until a skewer comes out clean."
+
+  - name: Oat and date bars
+    health: [YELLOW, "Oats, dates and nuts with no added sugar: filling but calorie-dense."]
+    nutrition: [190, 5, 24, 9]
+    photo: saludable-desayunos-y-meriendas/barritas-de-avena-y-datiles.jpg
+    category: Desserts
+    difficulty: EASY
+    prep: 15
+    cook: 0
+    servings: 12
+    notes: No oven needed. They keep for a week in the fridge.
+    tags: [snack, vegan, no-cook]
+    utensils: [Food processor]
+    ingredients:
+      - items:
+          - [pitted dates, 200, g]
+          - [rolled oats, 150, g]
+          - [almonds, 80, g]
+          - [natural peanut butter, 3, tbsp]
+          - [unsweetened cocoa powder, 1, tbsp]
+          - [salt, 1, pinch]
+    steps:
+      - "If the dates are dry, soak them in hot water for 10 minutes and drain."
+      - "Pulse the almonds in the processor, add the dates, oats, peanut butter, cocoa and salt, and process until the mixture sticks together when pressed."
+      - Press the mixture into a lined 20 x 20 cm tin and chill for 2 hours. Cut into 12 bars.
+
+  - name: Green smoothie
+    health: [GREEN, "Fruit and leafy greens blended: vitamins, fibre and no added sugar."]
+    nutrition: [180, 5, 34, 3]
+    photo: saludable-desayunos-y-meriendas/batido-verde.jpg
+    category: Drinks
+    difficulty: EASY
+    prep: 5
+    cook: 0
+    servings: 2
+    tags: [drink, vegan, gluten-free]
+    utensils: [Blender]
+    ingredients:
+      - items:
+          - [baby spinach, 60, g]
+          - [banana, 1, null]
+          - [green apple, 1, null]
+          - [cucumber, 0.5, null]
+          - [lemon juice, 1, tbsp]
+          - [fresh ginger, 1, cm]
+          - [cold water or plant milk, 250, ml]
+          - [ice cubes, 4, null]
+    steps:
+      - Chop the fruit and cucumber.
+      - Blend everything until very smooth.
+      - Serve straight away.
+
+  - name: Wholemeal toast with ricotta and strawberries
+    health: [GREEN, "Wholemeal bread with fresh cheese and fruit: protein, fibre and little sugar."]
+    nutrition: [260, 13, 34, 8]
+    photo: saludable-desayunos-y-meriendas/tostada-integral-con-requeson-y-fresas.jpg
+    category: Breads and doughs
+    difficulty: EASY
+    prep: 5
+    cook: 3
+    servings: 2
+    tags: [breakfast, vegetarian]
+    ingredients:
+      - items:
+          - [wholemeal bread, 2, slice]
+          - [ricotta, 120, g]
+          - [strawberries, 150, g]
+          - [fresh mint, 4, leaf]
+          - [honey (optional), 1, tsp]
+          - [chopped pistachios, 1, tbsp]
+    steps:
+      - Toast the bread.
+      - Spread with the ricotta and top with sliced strawberries.
+      - "Finish with mint, pistachios and a drizzle of honey if you like."
+
+  - name: Scrambled eggs with spinach and tomato
+    health: [GREEN, "Eggs with vegetables and little oil: quality protein to start the day."]
+    nutrition: [230, 15, 6, 16]
+    photo: saludable-desayunos-y-meriendas/revuelto-de-espinacas-y-tomate.jpg
+    category: Eggs
+    difficulty: EASY
+    prep: 5
+    cook: 8
+    servings: 2
+    tags: [breakfast, eggs, gluten-free, quick]
+    ingredients:
+      - items:
+          - [eggs, 4, null]
+          - [baby spinach, 80, g]
+          - [cherry tomatoes, 8, null]
+          - [extra virgin olive oil, 1, tbsp]
+          - [salt and black pepper, null, null]
+    steps:
+      - Sauté the halved tomatoes in the oil for 2 minutes and add the spinach until wilted.
+      - "Lower the heat, add the eggs beaten with salt and pepper and stir slowly until set but still soft."
+      - "Serve straight away, with wholemeal bread if you like."

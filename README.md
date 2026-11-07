@@ -79,6 +79,20 @@ Cada pack está en español y en inglés; la app muestra los del idioma en que l
 | 🥥 [Fusion cuisine: Peranakan](packs/peranakan-fusion/pack.yaml) | Fusion cuisine | en | 8 | [peranakan-fusion-v1.zip](dist/peranakan-fusion-v1.zip) |
 | 🌮 [Cocina fusión: Tex-Mex](packs/fusion-texmex/pack.yaml) | Cocina fusión | es | 8 | [fusion-texmex-v1.zip](dist/fusion-texmex-v1.zip) |
 | 🌮 [Fusion cuisine: Tex-Mex](packs/tex-mex-fusion/pack.yaml) | Fusion cuisine | en | 8 | [tex-mex-fusion-v1.zip](dist/tex-mex-fusion-v1.zip) |
+| 🍱 [Cocina saludable: batch cooking](packs/saludable-batch-cooking/pack.yaml) | Cocina saludable | es | 10 | [saludable-batch-cooking-v1.zip](dist/saludable-batch-cooking-v1.zip) |
+| 🍱 [Healthy cooking: batch cooking](packs/healthy-batch-cooking/pack.yaml) | Healthy cooking | en | 10 | [healthy-batch-cooking-v1.zip](dist/healthy-batch-cooking-v1.zip) |
+| 🥣 [Cocina saludable: desayunos y meriendas](packs/saludable-desayunos-y-meriendas/pack.yaml) | Cocina saludable | es | 10 | [saludable-desayunos-y-meriendas-v1.zip](dist/saludable-desayunos-y-meriendas-v1.zip) |
+| 🥣 [Healthy cooking: breakfasts and snacks](packs/healthy-breakfasts-and-snacks/pack.yaml) | Healthy cooking | en | 10 | [healthy-breakfasts-and-snacks-v1.zip](dist/healthy-breakfasts-and-snacks-v1.zip) |
+| 🥗 [Cocina saludable: ligero y saciante](packs/saludable-ligero-y-saciante/pack.yaml) | Cocina saludable | es | 10 | [saludable-ligero-y-saciante-v1.zip](dist/saludable-ligero-y-saciante-v1.zip) |
+| 🥗 [Healthy cooking: light and filling](packs/healthy-light-and-filling/pack.yaml) | Healthy cooking | en | 10 | [healthy-light-and-filling-v1.zip](dist/healthy-light-and-filling-v1.zip) |
+| 🌾 [Cocina saludable: sin gluten](packs/saludable-sin-gluten/pack.yaml) | Cocina saludable | es | 10 | [saludable-sin-gluten-v1.zip](dist/saludable-sin-gluten-v1.zip) |
+| 🌾 [Healthy cooking: gluten-free](packs/healthy-gluten-free/pack.yaml) | Healthy cooking | en | 10 | [healthy-gluten-free-v1.zip](dist/healthy-gluten-free-v1.zip) |
+| 🧂 [Cocina saludable: bajo en sal](packs/saludable-bajo-en-sal/pack.yaml) | Cocina saludable | es | 10 | [saludable-bajo-en-sal-v1.zip](dist/saludable-bajo-en-sal-v1.zip) |
+| 🧂 [Healthy cooking: low salt](packs/healthy-low-salt/pack.yaml) | Healthy cooking | en | 10 | [healthy-low-salt-v1.zip](dist/healthy-low-salt-v1.zip) |
+| 🥚 [Cocina saludable: vegetariano](packs/saludable-vegetariano/pack.yaml) | Cocina saludable | es | 10 | [saludable-vegetariano-v1.zip](dist/saludable-vegetariano-v1.zip) |
+| 🥚 [Healthy cooking: vegetarian](packs/healthy-vegetarian/pack.yaml) | Healthy cooking | en | 10 | [healthy-vegetarian-v1.zip](dist/healthy-vegetarian-v1.zip) |
+| 🌱 [Cocina saludable: vegano](packs/saludable-vegano/pack.yaml) | Cocina saludable | es | 10 | [saludable-vegano-v1.zip](dist/saludable-vegano-v1.zip) |
+| 🌱 [Healthy cooking: vegan](packs/healthy-vegan/pack.yaml) | Healthy cooking | en | 10 | [healthy-vegan-v1.zip](dist/healthy-vegan-v1.zip) |
 
 Las recetas se redactaron con ayuda de un asistente de IA. Si ves algún error,
 abre un issue o un pull request.

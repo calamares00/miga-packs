@@ -1,0 +1,292 @@
+id: saludable-bajo-en-sal
+version: 1
+updated: 2026-11-07
+language: es
+name: "Cocina saludable: bajo en sal"
+series: Cocina saludable
+description: >-
+  Recetas sin sal añadida o con muy poca, que ganan sabor con hierbas, especias, ajo, cítricos y
+  vinagres, y sin ingredientes muy salados como embutidos, quesos curados o salsas de soja: pollo
+  marinado al limón, lubina con hinojo y naranja, solomillo con manzana, crema de puerros y
+  manzana, ensalada de arroz integral, verduras asadas especiadas, tortilla de calabacín, pan sin
+  sal con semillas, salsa de tomate casera y peras asadas.
+author: Miga
+authorGithub: calamares00
+cover:
+  emoji: "🧂"
+  kicker: Cocina saludable
+  title: Bajo en sal
+  colors: ["#1d4ed8", "#93c5fd"]
+defaults:
+  source: "Pack «Cocina saludable: bajo en sal» de Miga"
+recipes:
+
+  - name: "Pollo marinado con limón, ajo y hierbas"
+    health: [GREEN, "Pollo a la plancha con marinada de cítricos y hierbas, sin sal: proteína magra y poco sodio."]
+    nutrition: [280, 40, 3, 12]
+    photo: saludable-bajo-en-sal/pollo-marinado-con-limon-ajo-y-hierbas.jpg
+    category: Carnes
+    difficulty: EASY
+    prep: 10
+    cook: 15
+    servings: 4
+    notes: El ácido del limón y el ajo hacen que no se eche de menos la sal. Marina al menos 1 hora.
+    tags: [pollo, plancha, sin sal]
+    utensils: [Plancha]
+    ingredients:
+      - items:
+          - [pechugas de pollo, 4, null]
+          - [limón (zumo y ralladura), 1, null]
+          - [ajo, 3, diente]
+          - [romero fresco, 1, ramita]
+          - [tomillo fresco, 3, ramita]
+          - [pimentón dulce, 1, cucharadita]
+          - [pimienta negra, 0.5, cucharadita]
+          - [aceite de oliva virgen extra, 3, cucharada]
+    steps:
+      - Abre las pechugas en filetes de grosor uniforme.
+      - "Mezcla el zumo y la ralladura de limón con el ajo machacado, las hierbas picadas, el pimentón, la pimienta y el aceite. Marina el pollo 1-4 horas en la nevera."
+      - Cocínalo a la plancha bien caliente 4-5 minutos por lado. Sírvelo con más limón.
+
+  - name: Lubina al horno con hinojo y naranja
+    health: [GREEN, "Pescado blanco con hinojo y cítricos: muy ligero y con muy poco sodio."]
+    nutrition: [290, 34, 10, 13]
+    photo: saludable-bajo-en-sal/lubina-al-horno-con-hinojo-y-naranja.jpg
+    category: Pescados y mariscos
+    difficulty: EASY
+    prep: 15
+    cook: 25
+    servings: 4
+    tags: [pescado, al horno, sin sal]
+    utensils: [Horno]
+    ingredients:
+      - items:
+          - [lubinas enteras limpias o 4 lomos, 2, null]
+          - [bulbos de hinojo, 2, null]
+          - [naranja, 1, null]
+          - [limón, 1, null]
+          - [eneldo fresco, 1, puñado]
+          - [semillas de hinojo, 1, cucharadita]
+          - [vino blanco, 100, ml]
+          - [aceite de oliva virgen extra, 3, cucharada]
+          - [pimienta negra, null, null]
+    steps:
+      - Precalienta el horno a 200 °C. Corta el hinojo en láminas finas y ásalo con 2 cucharadas de aceite y las semillas 10 minutos.
+      - "Coloca el pescado encima con rodajas de naranja y limón dentro y alrededor, el eneldo y pimienta."
+      - "Riega con el vino y el resto del aceite y hornea 15-20 minutos, según el tamaño."
+
+  - name: Solomillo de cerdo con manzana y romero
+    health: [GREEN, "Solomillo magro con manzana asada y hierbas, sin sal añadida."]
+    nutrition: [320, 32, 18, 13]
+    photo: saludable-bajo-en-sal/solomillo-de-cerdo-con-manzana-y-romero.jpg
+    category: Carnes
+    difficulty: EASY
+    prep: 15
+    cook: 25
+    servings: 4
+    tags: [cerdo, al horno, sin sal]
+    utensils: [Horno]
+    ingredients:
+      - items:
+          - [solomillos de cerdo, 2, null]
+          - [manzanas, 3, null]
+          - [cebolla morada, 1, null]
+          - [romero fresco, 2, ramita]
+          - [ajo, 3, diente]
+          - [mostaza en grano sin sal o pimienta, 1, cucharada]
+          - [vinagre de sidra, 2, cucharada]
+          - [aceite de oliva virgen extra, 2, cucharada]
+          - [pimienta negra, null, null]
+    steps:
+      - Precalienta el horno a 200 °C. Corta las manzanas y la cebolla en gajos y colócalas en una fuente con los ajos y el romero.
+      - "Unta los solomillos con la mostaza, el aceite y pimienta y dóralos en una sartén por todos los lados."
+      - "Ponlos sobre la manzana, riega con el vinagre y hornea 18-20 minutos. Deja reposar 5 minutos antes de cortar."
+
+  - name: Crema de puerros y manzana
+    health: [GREEN, "Crema de verdura y fruta sin sal ni nata: ligera y suave."]
+    nutrition: [170, 4, 24, 7]
+    photo: saludable-bajo-en-sal/crema-de-puerros-y-manzana.jpg
+    category: Sopas y cremas
+    difficulty: EASY
+    prep: 10
+    cook: 25
+    servings: 4
+    notes: "Usa caldo casero sin sal o agua: los caldos comprados llevan mucha sal."
+    tags: [sopa, vegano, sin sal]
+    utensils: [Batidora]
+    ingredients:
+      - items:
+          - [puerros, 3, null]
+          - [manzana, 1, null]
+          - [patata, 1, null]
+          - [caldo de verduras casero sin sal o agua, 900, ml]
+          - [nuez moscada, 1, pizca]
+          - [aceite de oliva virgen extra, 2, cucharada]
+          - [cebollino, 1, manojo]
+          - [pimienta blanca, null, null]
+    steps:
+      - Pocha los puerros en rodajas en el aceite 10 minutos sin que se doren.
+      - "Añade la manzana y la patata en dados y el caldo, y cuece 15 minutos."
+      - "Tritura, sazona con nuez moscada y pimienta, y sirve con cebollino picado."
+
+  - name: Ensalada de arroz integral con hierbas
+    health: [GREEN, "Arroz integral con verdura, hierbas y limón: fibra y sabor sin sal."]
+    nutrition: [380, 9, 54, 14]
+    photo: saludable-bajo-en-sal/ensalada-de-arroz-integral-con-hierbas.jpg
+    category: Ensaladas
+    difficulty: EASY
+    prep: 15
+    cook: 35
+    servings: 4
+    tags: [ensalada, vegano, sin sal]
+    ingredients:
+      - items:
+          - [arroz integral, 200, g]
+          - [tomates cherry, 200, g]
+          - [pepino, 1, null]
+          - [pimiento rojo, 1, null]
+          - [cebolleta, 2, null]
+          - ["menta, perejil y albahaca frescos", 1, manojo]
+          - [nueces, 30, g]
+          - [limón, 1, null]
+          - [aceite de oliva virgen extra, 3, cucharada]
+          - [comino molido, 0.5, cucharadita]
+          - [pimienta negra, null, null]
+    steps:
+      - "Cuece el arroz integral según el paquete, escúrrelo y déjalo enfriar."
+      - Pica las verduras y las hierbas.
+      - "Mezcla el aceite con el zumo y la ralladura de limón, el comino y pimienta. Junta todo y termina con las nueces."
+
+  - name: Verduras asadas con especias y limón
+    health: [GREEN, "Verduras asadas con especias: mucha fibra y sabor sin sal."]
+    nutrition: [200, 5, 26, 9]
+    photo: saludable-bajo-en-sal/verduras-asadas-con-especias-y-limon.jpg
+    category: Verduras
+    difficulty: EASY
+    prep: 15
+    cook: 35
+    servings: 4
+    tags: [vegano, al horno, sin sal]
+    utensils: [Horno]
+    ingredients:
+      - items:
+          - [boniato, 1, null]
+          - [zanahorias, 3, null]
+          - [coliflor, 0.5, null]
+          - [cebolla morada, 1, null]
+          - [pimiento rojo, 1, null]
+          - [comino molido, 1, cucharadita]
+          - [cilantro molido, 1, cucharadita]
+          - [pimentón ahumado, 1, cucharadita]
+          - [ajo en polvo, 1, cucharadita]
+          - [aceite de oliva virgen extra, 3, cucharada]
+          - [limón, 1, null]
+          - [cilantro o perejil fresco, 1, puñado]
+    steps:
+      - Precalienta el horno a 210 °C. Corta las verduras en trozos parecidos.
+      - Mézclalas con el aceite y las especias y extiéndelas en una bandeja sin amontonar.
+      - "Asa 30-35 minutos, dando la vuelta a mitad. Termina con zumo de limón y hierbas frescas."
+
+  - name: Tortilla de calabacín y cebolla
+    health: [GREEN, "Tortilla de verdura sin sal, aromatizada con hierbas y pimienta."]
+    nutrition: [240, 13, 8, 18]
+    photo: saludable-bajo-en-sal/tortilla-de-calabacin-y-cebolla.jpg
+    category: Huevos
+    difficulty: EASY
+    prep: 10
+    cook: 20
+    servings: 4
+    tags: [huevos, vegetariano, sin sal]
+    ingredients:
+      - items:
+          - [huevos, 6, null]
+          - [calabacines, 2, null]
+          - [cebolla, 1, null]
+          - [ajo, 1, diente]
+          - [perejil fresco, 1, puñado]
+          - [orégano seco, 0.5, cucharadita]
+          - [aceite de oliva virgen extra, 3, cucharada]
+          - [pimienta negra, null, null]
+    steps:
+      - "Pocha la cebolla en juliana y el calabacín en láminas finas en el aceite 12 minutos, hasta que estén tiernos. Añade el ajo al final."
+      - "Bate los huevos con el perejil, el orégano y pimienta y mézclalos con la verdura escurrida."
+      - Cuaja la tortilla en una sartén a fuego medio 3-4 minutos por lado.
+
+  - name: Pan sin sal con semillas
+    health: [GREEN, "Pan integral con semillas y sin sal: fibra sin el sodio del pan comprado."]
+    nutrition: [180, 7, 28, 5]
+    photo: saludable-bajo-en-sal/pan-sin-sal-con-semillas.jpg
+    category: Panes y masas
+    difficulty: MEDIUM
+    prep: 20
+    cook: 35
+    servings: 10
+    notes: El pan es una de las mayores fuentes de sal en la dieta. Las semillas tostadas y un poco de vinagre compensan el sabor. Necesita unas 2 horas de levado.
+    tags: [pan, vegano, sin sal]
+    utensils: [Horno]
+    ingredients:
+      - items:
+          - [harina integral de trigo, 250, g]
+          - [harina de fuerza, 250, g]
+          - [levadura seca de panadería, 7, g]
+          - [agua templada, 340, ml]
+          - ["semillas de girasol, lino y sésamo tostadas", 80, g]
+          - [vinagre de manzana, 1, cucharadita]
+          - [aceite de oliva, 1, cucharada]
+    steps:
+      - "Mezcla las harinas con la levadura y las semillas. Añade el agua, el vinagre y el aceite y amasa 10 minutos."
+      - "Deja levar tapada 1 hora, hasta que doble su volumen."
+      - Forma una barra o ponla en un molde de pan engrasado y deja levar 45 minutos más.
+      - "Hornea a 220 °C 30-35 minutos, hasta que suene hueco al golpear la base. Deja enfriar sobre una rejilla."
+
+  - name: Salsa de tomate casera con hierbas
+    health: [GREEN, "Salsa de tomate natural sin sal ni azúcar: base para pasta, pescado o huevos."]
+    nutrition: [80, 2, 9, 4]
+    photo: saludable-bajo-en-sal/salsa-de-tomate-casera-con-hierbas.jpg
+    category: Salsas
+    difficulty: EASY
+    prep: 10
+    cook: 40
+    servings: 6
+    notes: Las salsas de tomate compradas suelen llevar mucha sal. Esta se congela en raciones.
+    tags: [salsa, vegano, sin sal]
+    ingredients:
+      - items:
+          - [tomates maduros, 1.5, kg]
+          - [cebolla, 1, null]
+          - [zanahoria, 1, null]
+          - [ajo, 3, diente]
+          - [albahaca fresca, 1, manojo]
+          - [orégano seco, 1, cucharadita]
+          - [hoja de laurel, 1, null]
+          - [aceite de oliva virgen extra, 3, cucharada]
+          - [pimienta negra, null, null]
+    steps:
+      - "Pocha la cebolla, la zanahoria y el ajo picados en el aceite 10 minutos. La zanahoria aporta dulzor sin azúcar."
+      - "Añade los tomates troceados, el orégano y el laurel y cuece a fuego suave 30 minutos."
+      - "Retira el laurel, tritura y añade la albahaca y pimienta."
+
+  - name: Peras asadas con canela
+    health: [GREEN, "Fruta asada con especias y un poco de miel: postre ligero y sin sal."]
+    nutrition: [150, 2, 30, 4]
+    photo: saludable-bajo-en-sal/peras-asadas-con-canela.jpg
+    category: Postres
+    difficulty: EASY
+    prep: 10
+    cook: 30
+    servings: 4
+    tags: [postre, vegetariano, sin sal]
+    utensils: [Horno]
+    ingredients:
+      - items:
+          - [peras, 4, null]
+          - [canela en rama, 1, rama]
+          - [anís estrellado, 2, null]
+          - [zumo de naranja, 150, ml]
+          - [miel, 2, cucharada]
+          - [nueces picadas, 30, g]
+          - [yogur natural para servir, null, null]
+    steps:
+      - Precalienta el horno a 190 °C. Parte las peras por la mitad y quítales el corazón.
+      - "Colócalas en una fuente con el zumo, la miel, la canela y el anís."
+      - "Hornea 25-30 minutos, regándolas con el jugo, hasta que estén tiernas. Sirve con las nueces y yogur."

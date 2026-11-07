@@ -1,0 +1,331 @@
+id: saludable-batch-cooking
+version: 1
+updated: 2026-11-07
+language: es
+name: "Cocina saludable: batch cooking"
+series: Cocina saludable
+description: >-
+  Platos sanos para cocinar en una tarde y comer toda la semana: aguantan bien en la nevera o el
+  congelador y se recalientan sin perder nada. Bandeja de pollo y verduras, lentejas con verduras,
+  espinacas con garbanzos, chili de pavo, albóndigas de pavo, ratatouille, ensalada de quinoa,
+  salmón con boniato, pollo al curry con garbanzos y tacos de boniato.
+author: Miga
+authorGithub: calamares00
+cover:
+  emoji: "🍱"
+  kicker: Cocina saludable
+  title: Batch cooking
+  colors: ["#15803d", "#84cc16"]
+defaults:
+  source: "Pack «Cocina saludable: batch cooking» de Miga"
+recipes:
+
+  - name: Bandeja de pollo y verduras al horno
+    health: [GREEN, "Pollo con muchas verduras asadas y aceite de oliva: proteína magra y fibra."]
+    nutrition: [420, 38, 28, 17]
+    photo: saludable-batch-cooking/bandeja-de-pollo-y-verduras-al-horno.jpg
+    category: Carnes
+    difficulty: EASY
+    prep: 20
+    cook: 45
+    servings: 4
+    notes: "Se conserva 4 días en la nevera en recipientes cerrados. Para variar, sírvelo con arroz integral, en ensalada o dentro de un wrap."
+    tags: [pollo, al horno, sin gluten, táper]
+    utensils: [Horno]
+    ingredients:
+      - items:
+          - [contramuslos de pollo deshuesados y sin piel, 800, g]
+          - [boniato, 1, null]
+          - [brócoli, 1, null]
+          - [pimiento rojo, 1, null]
+          - [cebolla morada, 1, null]
+          - [calabacín, 1, null]
+          - [aceite de oliva virgen extra, 3, cucharada]
+          - [pimentón dulce, 2, cucharadita]
+          - [comino molido, 1, cucharadita]
+          - [ajo en polvo, 1, cucharadita]
+          - [limón, 1, null]
+          - [sal y pimienta negra, null, null]
+    steps:
+      - Precalienta el horno a 210 °C. Corta las verduras y el pollo en trozos de tamaño parecido.
+      - "Mézclalo todo en dos bandejas con el aceite, las especias, sal y pimienta, sin amontonar."
+      - "Hornea 40-45 minutos, dando la vuelta a mitad, hasta que el pollo esté dorado y el boniato tierno."
+      - "Riega con zumo de limón, deja enfriar y reparte en recipientes."
+
+  - name: Lentejas con verduras
+    health: [GREEN, "Lentejas guisadas solo con verduras: hierro, fibra y proteína vegetal sin grasa animal."]
+    nutrition: [360, 20, 52, 8]
+    photo: saludable-batch-cooking/lentejas-con-verduras.jpg
+    category: Legumbres
+    difficulty: EASY
+    prep: 15
+    cook: 45
+    servings: 6
+    notes: Están más ricas al día siguiente. Se conservan 5 días en la nevera y 3 meses congeladas.
+    tags: [legumbres, vegano, sin gluten, táper]
+    ingredients:
+      - items:
+          - [lentejas pardinas, 400, g]
+          - [cebolla, 1, null]
+          - [zanahorias, 2, null]
+          - [pimiento verde, 1, null]
+          - [puerro, 1, null]
+          - [patata, 1, null]
+          - [tomate triturado, 200, g]
+          - [ajo, 2, diente]
+          - [pimentón dulce, 1, cucharadita]
+          - [comino molido, 0.5, cucharadita]
+          - [hoja de laurel, 1, null]
+          - [aceite de oliva virgen extra, 3, cucharada]
+          - [sal, null, null]
+    steps:
+      - "Pica la cebolla, el pimiento, el puerro y el ajo y póchalos en el aceite 10 minutos."
+      - "Añade la zanahoria en rodajas, el tomate, el pimentón y el comino y cocina 3 minutos."
+      - "Agrega las lentejas lavadas, el laurel y 1,5 l de agua. Cuece a fuego suave 25 minutos."
+      - "Añade la patata cascada y cuece 15 minutos más, hasta que las lentejas estén tiernas. Sala al final."
+
+  - name: Espinacas con garbanzos
+    health: [GREEN, "Garbanzos con espinacas y especias: fibra, hierro y proteína vegetal."]
+    nutrition: [330, 15, 38, 13]
+    photo: saludable-batch-cooking/espinacas-con-garbanzos.jpg
+    category: Legumbres
+    difficulty: EASY
+    prep: 10
+    cook: 20
+    servings: 4
+    origin: Sevilla
+    notes: Es una tapa clásica sevillana. Aguanta 4 días en la nevera.
+    tags: [legumbres, vegano, táper]
+    ingredients:
+      - items:
+          - [garbanzos cocidos, 600, g]
+          - [espinacas frescas, 400, g]
+          - [pan del día anterior, 1, rebanada]
+          - [ajo, 3, diente]
+          - [comino molido, 1, cucharadita]
+          - [pimentón dulce, 1, cucharadita]
+          - [vinagre de jerez, 1, cucharada]
+          - [aceite de oliva virgen extra, 4, cucharada]
+          - [sal, null, null]
+    steps:
+      - "Fríe el pan y los ajos en el aceite hasta que estén dorados. Sácalos y májalos en el mortero con el comino, el pimentón y el vinagre."
+      - "En el mismo aceite, saltea las espinacas hasta que pierdan volumen."
+      - "Añade los garbanzos escurridos, el majado y un vaso de agua, y cuece 10 minutos a fuego suave. Sala."
+
+  - name: Chili de pavo con alubias
+    health: [GREEN, "Chili con pavo magro, alubias y verduras: mucha proteína y fibra con poca grasa."]
+    nutrition: [410, 36, 38, 11]
+    photo: saludable-batch-cooking/chili-de-pavo-con-alubias.jpg
+    category: Carnes
+    difficulty: EASY
+    prep: 15
+    cook: 40
+    servings: 6
+    notes: Se congela muy bien en raciones. Sírvelo con arroz integral o con yogur y cilantro.
+    tags: [pavo, legumbres, sin gluten, táper]
+    ingredients:
+      - items:
+          - [carne picada de pavo, 600, g]
+          - [alubias rojas cocidas, 500, g]
+          - [cebolla, 1, null]
+          - [pimiento rojo, 1, null]
+          - [zanahoria, 1, null]
+          - [ajo, 3, diente]
+          - [tomate triturado, 800, g]
+          - [comino molido, 2, cucharadita]
+          - [pimentón ahumado, 2, cucharadita]
+          - [chile en polvo, 1, cucharadita]
+          - [orégano seco, 1, cucharadita]
+          - [aceite de oliva, 2, cucharada]
+          - [sal, null, null]
+    steps:
+      - "Sofríe la cebolla, el pimiento, la zanahoria y el ajo picados en el aceite 8 minutos."
+      - "Añade el pavo y dóralo, deshaciéndolo. Agrega las especias y remueve 1 minuto."
+      - Incorpora el tomate y 200 ml de agua y cuece tapado 20 minutos.
+      - "Añade las alubias escurridas, sala y cuece 10 minutos más destapado."
+
+  - name: Albóndigas de pavo en salsa de tomate
+    health: [GREEN, "Albóndigas de pavo al horno en salsa de tomate casera: proteína magra sin fritura."]
+    nutrition: [350, 34, 18, 15]
+    photo: saludable-batch-cooking/albondigas-de-pavo-en-salsa-de-tomate.jpg
+    category: Carnes
+    difficulty: EASY
+    prep: 25
+    cook: 35
+    servings: 6
+    notes: Se hornean en lugar de freírse. Congélalas ya en la salsa.
+    tags: [pavo, al horno, táper]
+    utensils: [Horno]
+    ingredients:
+      - group: Albóndigas
+        items:
+          - [carne picada de pavo, 800, g]
+          - [copos de avena, 50, g]
+          - [huevo, 1, null]
+          - [cebolla rallada, 0.5, null]
+          - [ajo, 2, diente]
+          - [perejil fresco, 1, puñado]
+          - [sal y pimienta negra, null, null]
+      - group: Salsa
+        items:
+          - [tomate triturado, 800, g]
+          - [cebolla, 1, null]
+          - [zanahoria, 1, null]
+          - [aceite de oliva, 2, cucharada]
+          - [orégano seco, 1, cucharadita]
+    steps:
+      - Precalienta el horno a 200 °C. Mezcla los ingredientes de las albóndigas y forma bolas de 4 cm.
+      - Colócalas en una bandeja con papel y hornéalas 15 minutos.
+      - "Mientras, pocha la cebolla y la zanahoria picadas en el aceite 10 minutos, añade el tomate y el orégano y cuece 15 minutos. Tritura si la quieres fina."
+      - Añade las albóndigas a la salsa y cuece 10 minutos más.
+
+  - name: Ratatouille
+    health: [GREEN, "Guiso de verduras mediterráneas con aceite de oliva: muy ligero y rico en fibra."]
+    nutrition: [190, 4, 18, 12]
+    photo: saludable-batch-cooking/ratatouille.jpg
+    category: Verduras
+    difficulty: EASY
+    prep: 20
+    cook: 50
+    servings: 6
+    origin: Niza
+    notes: "Sirve de guarnición, de base para huevos o mezclado con pasta o legumbres. Dura 5 días en la nevera."
+    tags: [vegano, verdura, sin gluten, táper]
+    ingredients:
+      - items:
+          - [berenjenas, 2, null]
+          - [calabacines, 2, null]
+          - [pimiento rojo, 1, null]
+          - [pimiento amarillo, 1, null]
+          - [cebolla, 1, null]
+          - [tomates maduros, 4, null]
+          - [ajo, 3, diente]
+          - [tomillo, 2, ramita]
+          - [aceite de oliva virgen extra, 4, cucharada]
+          - [albahaca fresca, 1, puñado]
+          - [sal y pimienta negra, null, null]
+    steps:
+      - Corta todas las verduras en dados de 2 cm.
+      - Saltea por separado la berenjena y el calabacín con un poco de aceite hasta que se doren. Resérvalos.
+      - "Pocha la cebolla, los pimientos y el ajo 10 minutos. Añade el tomate y el tomillo y cuece 15 minutos."
+      - "Incorpora la berenjena y el calabacín, salpimienta y cuece 15 minutos a fuego suave. Termina con albahaca."
+
+  - name: Ensalada de quinoa con verduras asadas
+    health: [GREEN, "Quinoa con verduras asadas y garbanzos: fibra, proteína vegetal y grasas saludables."]
+    nutrition: [420, 15, 56, 15]
+    photo: saludable-batch-cooking/ensalada-de-quinoa-con-verduras-asadas.jpg
+    category: Ensaladas
+    difficulty: EASY
+    prep: 15
+    cook: 30
+    servings: 4
+    notes: Guarda el aliño aparte y mézclalo al servir. Dura 4 días en la nevera.
+    tags: [ensalada, vegano, sin gluten, táper]
+    utensils: [Horno]
+    ingredients:
+      - items:
+          - [quinoa, 200, g]
+          - [calabaza, 400, g]
+          - [pimiento rojo, 1, null]
+          - [cebolla morada, 1, null]
+          - [garbanzos cocidos, 250, g]
+          - [espinacas baby, 80, g]
+          - [pipas de calabaza, 30, g]
+          - [aceite de oliva virgen extra, 4, cucharada]
+          - [zumo de limón, 2, cucharada]
+          - [mostaza, 1, cucharadita]
+          - [comino molido, 1, cucharadita]
+          - [sal, null, null]
+    steps:
+      - "Asa la calabaza, el pimiento y la cebolla en dados con 1 cucharada de aceite y el comino a 210 °C 25-30 minutos."
+      - Lava la quinoa y cuécela en el doble de agua 12 minutos. Déjala reposar tapada 5 minutos y enfríala.
+      - "Mezcla el resto del aceite con el limón, la mostaza y sal."
+      - "Junta la quinoa con las verduras, los garbanzos y las espinacas, aliña y termina con las pipas tostadas."
+
+  - name: Salmón al horno con boniato y brócoli
+    health: [GREEN, "Salmón con verdura y boniato: omega-3, proteína y fibra."]
+    nutrition: [480, 34, 34, 22]
+    photo: saludable-batch-cooking/salmon-al-horno-con-boniato-y-brocoli.jpg
+    category: Pescados y mariscos
+    difficulty: EASY
+    prep: 15
+    cook: 30
+    servings: 4
+    notes: "El pescado cocinado se conserva 3 días en la nevera: prepara esta bandeja para la primera mitad de la semana."
+    tags: [pescado, al horno, sin gluten, táper]
+    utensils: [Horno]
+    ingredients:
+      - items:
+          - [lomos de salmón, 4, null]
+          - [boniatos, 2, null]
+          - [brócoli, 1, null]
+          - [aceite de oliva virgen extra, 3, cucharada]
+          - [pimentón dulce, 1, cucharadita]
+          - [eneldo seco, 1, cucharadita]
+          - [limón, 1, null]
+          - [sal y pimienta negra, null, null]
+    steps:
+      - "Precalienta el horno a 200 °C. Corta el boniato en dados, mézclalo con 2 cucharadas de aceite, el pimentón y sal, y hornéalo 15 minutos."
+      - "Añade el brócoli en ramilletes y el salmón con el resto del aceite, el eneldo, sal, pimienta y rodajas de limón."
+      - "Hornea 12-15 minutos más, hasta que el salmón esté hecho por dentro."
+
+  - name: Pollo al curry con garbanzos y espinacas
+    health: [GREEN, "Curry de pollo con legumbres y verdura y poca grasa: muy completo."]
+    nutrition: [420, 38, 30, 15]
+    photo: saludable-batch-cooking/pollo-al-curry-con-garbanzos-y-espinacas.jpg
+    category: Carnes
+    difficulty: EASY
+    prep: 15
+    cook: 35
+    servings: 6
+    notes: Congela en raciones con o sin arroz.
+    tags: [pollo, curry, sin gluten, táper]
+    ingredients:
+      - items:
+          - [pechugas de pollo, 700, g]
+          - [garbanzos cocidos, 400, g]
+          - [espinacas frescas, 200, g]
+          - [cebolla, 1, null]
+          - [ajo, 3, diente]
+          - [jengibre fresco rallado, 1, cucharada]
+          - [curry en polvo, 2, cucharada]
+          - [tomate triturado, 400, g]
+          - [leche de coco ligera, 200, ml]
+          - [aceite de oliva, 2, cucharada]
+          - [sal, null, null]
+    steps:
+      - "Pocha la cebolla picada en el aceite 8 minutos. Añade el ajo, el jengibre y el curry y cocina 1 minuto."
+      - Añade el pollo en dados y dóralo 5 minutos. Agrega el tomate y la leche de coco y cuece 15 minutos.
+      - Incorpora los garbanzos y las espinacas y cuece 5 minutos más. Sala.
+
+  - name: Tacos de boniato asado y alubias negras
+    health: [GREEN, "Boniato asado, alubias y verdura en tortilla de maíz: fibra, proteína vegetal y vitaminas."]
+    nutrition: [420, 15, 68, 10]
+    photo: saludable-batch-cooking/tacos-de-boniato-asado-y-alubias-negras.jpg
+    category: Verduras
+    difficulty: EASY
+    prep: 15
+    cook: 30
+    servings: 4
+    notes: "Asa el boniato y prepara las alubias con antelación: se guardan 4 días en la nevera y los tacos se montan en 5 minutos."
+    tags: [vegetariano, sin gluten, táper]
+    utensils: [Horno]
+    ingredients:
+      - items:
+          - [boniatos, 2, null]
+          - [alubias negras cocidas, 400, g]
+          - [tortillas de maíz, 8, null]
+          - [aguacate, 1, null]
+          - [col lombarda, 100, g]
+          - [comino molido, 1, cucharadita]
+          - [pimentón ahumado, 1, cucharadita]
+          - [aceite de oliva, 2, cucharada]
+          - [lima, 1, null]
+          - [yogur natural, 100, g]
+          - [cilantro fresco, 1, puñado]
+          - [sal, null, null]
+    steps:
+      - "Corta el boniato en dados, mézclalo con el aceite, las especias y sal y ásalo a 210 °C 25-30 minutos."
+      - Calienta las alubias con un poco de su líquido y aplasta algunas.
+      - "Calienta las tortillas y rellénalas con alubias, boniato, lombarda en tiras finas y aguacate."
+      - "Termina con yogur, zumo de lima y cilantro."

@@ -1,0 +1,307 @@
+id: healthy-gluten-free
+version: 1
+updated: 2026-11-07
+language: en
+name: "Healthy cooking: gluten-free"
+series: Healthy cooking
+description: >-
+  Dishes without wheat, barley or rye, made with rice, corn, pulses, buckwheat and nuts: chickpea
+  socca, asparagus risotto, almond-crusted salmon, cauliflower-crust pizza, buckwheat galettes,
+  polenta with mushrooms, courgette lasagne, meatballs in almond sauce, salt-baked sea bream and
+  flourless chocolate cake. Always check the labels of stocks, sauces and spices.
+author: Miga
+authorGithub: calamares00
+cover:
+  emoji: "🌾"
+  kicker: Healthy cooking
+  title: Gluten-free
+  colors: ["#a16207", "#fde047"]
+defaults:
+  source: "Miga «Healthy cooking: gluten-free» pack"
+recipes:
+
+  - name: Chickpea socca
+    health: [GREEN, "Chickpea flour flatbread with olive oil: plant protein and fibre, gluten-free."]
+    nutrition: [260, 10, 28, 12]
+    photo: saludable-sin-gluten/socca-de-garbanzo.jpg
+    category: Breads and doughs
+    difficulty: EASY
+    prep: 5
+    cook: 15
+    servings: 4
+    origin: Nice
+    notes: The batter improves if it rests for 1 hour. In Liguria it is called farinata.
+    tags: [gluten-free, vegan, baked]
+    utensils: [Oven]
+    ingredients:
+      - items:
+          - [chickpea flour, 200, g]
+          - [water, 400, ml]
+          - [extra virgin olive oil, 4, tbsp]
+          - [fresh rosemary, 1, sprig]
+          - [salt, 1, tsp]
+          - [black pepper, null, null]
+    steps:
+      - "Whisk the flour with the water, 2 tablespoons of oil and the salt until smooth. Rest for at least 30 minutes."
+      - Preheat the oven to 240 °C with a tray or cast-iron pan inside.
+      - "Brush the hot pan with the rest of the oil, pour in the batter (1 cm thick at most) and scatter over the rosemary."
+      - "Bake for 12-15 minutes, until golden and crisp at the edges. Serve hot with pepper."
+
+  - name: Asparagus and pea risotto
+    health: [YELLOW, "Creamy rice with green vegetables and a little parmesan: balanced, though fairly high in carbohydrates."]
+    nutrition: [470, 15, 70, 13]
+    photo: saludable-sin-gluten/risotto-de-esparragos-y-guisantes.jpg
+    category: Rice
+    difficulty: MEDIUM
+    prep: 15
+    cook: 25
+    servings: 4
+    notes: Check that the stock is gluten-free.
+    tags: [gluten-free, vegetarian, rice]
+    ingredients:
+      - items:
+          - [arborio or carnaroli rice, 320, g]
+          - [green asparagus, 1, bunch]
+          - [peas, 150, g]
+          - [shallot, 1, null]
+          - [white wine, 100, ml]
+          - [hot gluten-free vegetable stock, 1.2, l]
+          - [grated parmesan, 40, g]
+          - [olive oil, 2, tbsp]
+          - [butter, 15, g]
+          - [lemon zest, 1, tsp]
+          - [salt and black pepper, null, null]
+    steps:
+      - Cut off the asparagus tips and chop the tender stems.
+      - "Soften the chopped shallot in the oil, add the rice and toast it for 2 minutes. Pour in the wine."
+      - "Add the stock a ladleful at a time, stirring, for 16-18 minutes. After 10 minutes add the asparagus stems, and after 14 the tips and peas."
+      - "Off the heat, stir in the butter, parmesan and zest, season and rest for 2 minutes."
+
+  - name: Almond-crusted salmon
+    health: [GREEN, "Salmon with a nut crust: omega-3, protein and healthy fats."]
+    nutrition: [420, 34, 4, 30]
+    photo: saludable-sin-gluten/salmon-con-costra-de-almendras.jpg
+    category: Fish and seafood
+    difficulty: EASY
+    prep: 10
+    cook: 15
+    servings: 4
+    tags: [fish, gluten-free, baked]
+    utensils: [Oven]
+    ingredients:
+      - items:
+          - [salmon fillets, 4, null]
+          - [ground almonds, 60, g]
+          - [fresh parsley, 1, handful]
+          - [lemon zest, 1, tsp]
+          - [garlic, 1, clove]
+          - [gluten-free Dijon mustard, 1, tbsp]
+          - [extra virgin olive oil, 1, tbsp]
+          - [salt and black pepper, null, null]
+    steps:
+      - "Preheat the oven to 200 °C. Mix the almonds with the chopped parsley and garlic, the zest, oil, salt and pepper."
+      - "Place the salmon on a tray, brush with the mustard and cover with the mixture, pressing it on."
+      - "Bake for 12-15 minutes, until the crust is golden. Serve with salad or vegetables."
+
+  - name: Cauliflower-crust pizza
+    health: [GREEN, "A cauliflower and egg base instead of flour: light and full of vegetables."]
+    nutrition: [280, 18, 12, 18]
+    photo: saludable-sin-gluten/pizza-con-base-de-coliflor.jpg
+    category: Vegetables
+    difficulty: MEDIUM
+    prep: 25
+    cook: 30
+    servings: 2
+    notes: Squeezing the cauliflower very well is what makes the base firm.
+    tags: [gluten-free, vegetarian, pizza]
+    utensils: [Oven, Food processor]
+    ingredients:
+      - items:
+          - [cauliflower, 1, null]
+          - [egg, 1, null]
+          - [grated parmesan, 40, g]
+          - [dried oregano, 1, tsp]
+          - [tomato sauce, 120, ml]
+          - [mozzarella, 125, g]
+          - [cherry tomatoes, 8, null]
+          - [fresh basil, 1, handful]
+          - [salt, null, null]
+    steps:
+      - Preheat the oven to 220 °C. Process the cauliflower until it looks like rice and microwave it for 5 minutes.
+      - "Let it cool slightly, put it in a clean cloth and squeeze very hard to remove all the water."
+      - "Mix with the egg, parmesan, oregano and salt, and spread on baking paper into a 1 cm circle. Bake for 15 minutes."
+      - "Top with the sauce, mozzarella and tomatoes, and bake for 10 more minutes. Finish with basil."
+
+  - name: Buckwheat galettes
+    health: [GREEN, "Buckwheat crêpes with egg, ham and cheese: complete, with fibre."]
+    nutrition: [380, 22, 30, 19]
+    photo: saludable-sin-gluten/galettes-de-trigo-sarraceno.jpg
+    category: Breads and doughs
+    difficulty: MEDIUM
+    prep: 10
+    cook: 20
+    servings: 4
+    origin: Brittany
+    notes: "Buckwheat is not wheat and has no gluten, but buy flour labelled gluten-free to avoid traces."
+    tags: [gluten-free, eggs]
+    ingredients:
+      - items:
+          - [buckwheat flour, 200, g]
+          - [water, 450, ml]
+          - [egg for the batter, 1, null]
+          - [salt, 0.5, tsp]
+          - [butter, 20, g]
+          - [eggs, 4, null]
+          - [gluten-free cooked ham, 4, slice]
+          - [grated emmental, 100, g]
+    steps:
+      - "Whisk the flour with the water, egg and salt into a thin batter. Rest for 1 hour."
+      - Heat a large pan greased with a little butter and spread a ladleful of batter thinly.
+      - "When it comes away, put cheese and a slice of ham in the centre and crack an egg on top."
+      - "Fold the edges in, leaving the yolk visible, and cook until the white sets. Repeat with the rest."
+
+  - name: Creamy polenta with mushrooms
+    health: [GREEN, "Corn polenta with sautéed mushrooms: comforting and gluten-free."]
+    nutrition: [380, 12, 50, 14]
+    photo: saludable-sin-gluten/polenta-cremosa-con-setas.jpg
+    category: Vegetables
+    difficulty: EASY
+    prep: 10
+    cook: 25
+    servings: 4
+    tags: [gluten-free, vegetarian]
+    ingredients:
+      - items:
+          - [polenta (cornmeal), 200, g]
+          - [gluten-free vegetable stock, 1, l]
+          - [mixed mushrooms, 500, g]
+          - [garlic, 2, clove]
+          - [fresh thyme, 3, sprig]
+          - [grated parmesan, 40, g]
+          - [extra virgin olive oil, 3, tbsp]
+          - [fresh parsley, 1, handful]
+          - [salt and black pepper, null, null]
+    steps:
+      - "Bring the stock to the boil, whisk in the polenta and cook over low heat for 15-20 minutes, stirring often. Stir in the parmesan."
+      - "Sauté the chopped mushrooms in the oil over high heat until browned. Add the sliced garlic and thyme, and season."
+      - Serve the creamy polenta topped with the mushrooms and parsley.
+
+  - name: Courgette lasagne
+    health: [GREEN, "Lasagne with courgette slices instead of pasta: light, with vegetables and protein."]
+    nutrition: [380, 30, 14, 23]
+    photo: saludable-sin-gluten/lasana-de-calabacin.jpg
+    category: Meat
+    difficulty: MEDIUM
+    prep: 30
+    cook: 40
+    servings: 6
+    notes: Salt and dry the slices before assembling so it isn't watery.
+    tags: [gluten-free, baked]
+    utensils: [Oven]
+    ingredients:
+      - items:
+          - [large courgettes, 3, null]
+          - [lean minced beef, 500, g]
+          - [onion, 1, null]
+          - [carrot, 1, null]
+          - [garlic, 2, clove]
+          - [crushed tomatoes, 600, g]
+          - [ricotta, 250, g]
+          - [egg, 1, null]
+          - [grated mozzarella, 120, g]
+          - [dried oregano, 1, tsp]
+          - [olive oil, 2, tbsp]
+          - [salt and black pepper, null, null]
+    steps:
+      - "Slice the courgettes lengthways 3 mm thick, salt for 15 minutes, pat dry and griddle for 1 minute per side."
+      - "Fry the chopped onion, carrot and garlic, add the beef and brown it. Add the tomatoes and oregano and simmer for 20 minutes."
+      - "Mix the ricotta with the egg, salt and pepper."
+      - "Layer courgette, meat sauce and ricotta in a dish, finishing with sauce and mozzarella. Bake at 190 °C for 30 minutes and rest for 10 minutes."
+
+  - name: Chicken meatballs in almond sauce
+    health: [GREEN, "Chicken meatballs in a sauce thickened with almonds instead of flour."]
+    nutrition: [400, 34, 10, 25]
+    photo: saludable-sin-gluten/albondigas-de-pollo-en-salsa-de-almendras.jpg
+    category: Meat
+    difficulty: MEDIUM
+    prep: 25
+    cook: 30
+    servings: 4
+    tags: [gluten-free, chicken]
+    utensils: [Blender]
+    ingredients:
+      - group: Meatballs
+        items:
+          - [minced chicken, 600, g]
+          - [egg, 1, null]
+          - [quinoa flakes or gluten-free breadcrumbs, 40, g]
+          - [garlic, 1, clove]
+          - [fresh parsley, 1, handful]
+          - [salt and black pepper, null, null]
+      - group: Sauce
+        items:
+          - [raw almonds, 50, g]
+          - [onion, 1, null]
+          - [garlic, 2, clove]
+          - [white wine, 100, ml]
+          - [gluten-free chicken stock, 400, ml]
+          - [saffron threads, 1, pinch]
+          - [olive oil, 3, tbsp]
+    steps:
+      - "Mix the meatball ingredients, shape into 3 cm balls and brown them in the oil. Set aside."
+      - "In the same oil, brown the almonds and garlic and remove them. Soften the chopped onion for 8 minutes."
+      - Blend the almonds and garlic with the saffron and a little stock.
+      - "Add the wine to the onion, let it reduce, stir in the almond paste, the rest of the stock and the meatballs, and simmer for 15 minutes."
+
+  - name: Salt-baked sea bream
+    health: [GREEN, "Whole fish cooked in its own juices under a salt crust you don't eat: very light."]
+    nutrition: [260, 38, 0, 12]
+    photo: saludable-sin-gluten/dorada-a-la-sal.jpg
+    category: Fish and seafood
+    difficulty: EASY
+    prep: 10
+    cook: 25
+    servings: 4
+    notes: "The fish doesn't end up salty: the crust is removed in one piece and the skin protects it."
+    tags: [fish, gluten-free, baked]
+    utensils: [Oven]
+    ingredients:
+      - items:
+          - ["whole cleaned sea bream, scales on", 2, null]
+          - [coarse salt, 2, kg]
+          - [egg whites, 2, null]
+          - [lemon, 1, null]
+          - [bay leaves, 2, leaf]
+          - [extra virgin olive oil, 3, tbsp]
+    steps:
+      - Preheat the oven to 220 °C. Put lemon slices and a bay leaf inside each fish.
+      - Mix the salt with the egg whites and a little water until it feels like wet sand.
+      - "Spread a layer of salt on a tray, lay the fish on top and cover them completely with the rest, pressing down."
+      - "Bake for 25 minutes. Crack the crust at the table, remove the skin and serve the fillets with olive oil."
+
+  - name: Flourless chocolate cake
+    health: [RED, "Chocolate, egg and butter cake: a gluten-free treat, but very high in calories."]
+    nutrition: [340, 6, 26, 24]
+    photo: saludable-sin-gluten/bizcocho-de-chocolate-sin-harina.jpg
+    category: Desserts
+    difficulty: EASY
+    prep: 15
+    cook: 30
+    servings: 10
+    notes: Check that the chocolate and cocoa are suitable for coeliacs.
+    tags: [gluten-free, dessert, baked]
+    utensils: [Oven]
+    ingredients:
+      - items:
+          - [70% dark chocolate, 200, g]
+          - [butter, 120, g]
+          - [eggs, 4, null]
+          - [sugar, 120, g]
+          - [unsweetened cocoa powder, 30, g]
+          - [salt, 1, pinch]
+          - [berries to serve, 150, g]
+    steps:
+      - Preheat the oven to 175 °C and line a 20 cm tin. Melt the chocolate with the butter over a pan of simmering water.
+      - Whisk the eggs with the sugar and salt until pale and doubled in volume.
+      - "Fold in the warm chocolate, then the sifted cocoa."
+      - Bake for 25-30 minutes; the centre should stay slightly soft. Cool in the tin and serve with berries.

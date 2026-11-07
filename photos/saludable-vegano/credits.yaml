@@ -1,0 +1,53 @@
+# Origin of every photo in this folder: source page, author and licence (CC0 1.0, Public domain,
+# CC BY x.y or CC BY-SA x.y). tools/build.py refuses a recipe photo without an entry here.
+
+tofu-salteado-con-brocoli-y-sesamo.jpg:
+  source: https://www.flickr.com/photos/9998127@N06/44639594440
+  author: "wbaiv"
+  license: CC BY-SA 2.0
+
+bolonesa-de-lentejas.jpg:
+  source: https://www.flickr.com/photos/95767185@N00/8791559670
+  author: "Bernd Brägelmann"
+  license: CC BY-SA 2.0
+
+chili-sin-carne.jpg:
+  source: https://commons.wikimedia.org/wiki/File:Eargon-chili-finished.jpg
+  author: "Haus"
+  license: Public domain
+
+bol-de-quinoa-y-garbanzos.jpg:
+  source: https://www.flickr.com/photos/66491748@N05/41695870932
+  author: "Mumumío"
+  license: CC BY 2.0
+
+tacos-de-coliflor-asada.jpg:
+  source: https://www.flickr.com/photos/22693495@N02/18743037548
+  author: "veganLazySmurf"
+  license: CC BY 2.0
+
+hamburguesas-de-lentejas.jpg:
+  source: https://commons.wikimedia.org/wiki/File:Black_Lentil_Veggie_burger_(160167180).jpg
+  author: "Kari Sullivan from Austin, TX"
+  license: CC BY 2.0
+
+curry-de-verduras-y-garbanzos-con-coco.jpg:
+  source: https://www.flickr.com/photos/14514578@N08/38595021582
+  author: "cajsa.lilliehook"
+  license: CC BY-SA 2.0
+
+ensalada-de-fideos-de-arroz-con-tofu.jpg:
+  source: https://commons.wikimedia.org/wiki/File:Vegan_Vietnamese_Rice_Noodle_Salad_with_Tofu_(7242352372).jpg
+  author: "tomatoes and friends"
+  license: CC BY 2.0
+
+guiso-de-alubias-blancas-con-verduras.jpg:
+  source: https://commons.wikimedia.org/wiki/File:Kuru_Fasulye..JPG
+  author: "Miansari66"
+  license: CC0 1.0
+
+mousse-de-chocolate-y-aguacate.jpg:
+  source: https://commons.wikimedia.org/wiki/File:Avocado_chocolate_mousse_(48839488586).jpg
+  author: "Ella Olsson from Stockholm, Sweden"
+  license: CC BY 2.0
+

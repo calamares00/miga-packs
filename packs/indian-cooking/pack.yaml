@@ -1,0 +1,657 @@
+id: indian-cooking
+version: 1
+updated: 2026-11-07
+language: en
+name: "World cuisine: India"
+series: World cuisine
+description: >-
+  Curries, pulses, breads and sweets from India: butter chicken, tandoori chicken, rogan josh,
+  korma, vindaloo, palak paneer, chana masala, dal tadka, rajma, aloo gobi, baingan bharta,
+  samosas, onion bhajis, raita, mint chutney, chapatis, aloo paratha, kheer, mango lassi and masala
+  chai.
+author: Miga
+authorGithub: calamares00
+cover:
+  emoji: "🍛"
+  kicker: World cuisine
+  title: India
+  colors: ["#c2410c", "#f59e0b"]
+defaults:
+  origin: India
+  originCountry: IN
+  source: "Miga «World cuisine: India» pack"
+recipes:
+
+  - name: Butter chicken
+    health: [RED, "Chicken in a tomato sauce with butter and cream: very tasty but high in saturated fat."]
+    nutrition: [560, 38, 14, 39]
+    photo: cocina-india/pollo-a-la-mantequilla.jpg
+    category: Meat
+    difficulty: MEDIUM
+    prep: 20
+    cook: 40
+    servings: 4
+    origin: Delhi
+    notes: "If you can, marinate the chicken the day before. Kasuri methi (dried fenugreek leaves) gives it its typical aroma."
+    tags: [curry, chicken, gluten-free]
+    ingredients:
+      - group: Marinade
+        items:
+          - [boneless chicken thighs, 800, g]
+          - [plain yoghurt, 150, g]
+          - [garam masala, 1, tsp]
+          - [hot paprika or chilli powder, 1, tsp]
+          - [ginger and garlic paste, 1, tbsp]
+          - [salt, 1, tsp]
+      - group: Sauce
+        items:
+          - [butter, 60, g]
+          - [onion, 1, null]
+          - [ginger and garlic paste, 1, tbsp]
+          - [crushed tomatoes, 400, g]
+          - [garam masala, 1, tsp]
+          - [ground cumin, 1, tsp]
+          - [cashew nuts, 40, g]
+          - [single cream, 150, ml]
+          - [kasuri methi, 1, tbsp]
+          - [sugar, 1, tsp]
+    steps:
+      - Cut the chicken into pieces and mix it with the marinade ingredients. Leave it in the fridge for at least 1 hour.
+      - "Brown the chicken in a very hot pan with a little butter, in batches, until it has charred spots. Set aside."
+      - "In the same pan, melt the rest of the butter and fry the chopped onion for 8 minutes. Add the ginger and garlic paste, the spices, then the tomatoes and cashews. Simmer for 15 minutes."
+      - Blend the sauce until very smooth and return it to the pan with the chicken. Simmer for 10 minutes.
+      - "Stir in the cream, the sugar and the kasuri methi rubbed between your hands. Season and serve with basmati rice or naan."
+
+  - name: Tandoori chicken
+    health: [GREEN, "Chicken marinated in yoghurt and spices and roasted, with hardly any added fat."]
+    nutrition: [320, 42, 6, 13]
+    photo: cocina-india/pollo-tandoori.jpg
+    category: Meat
+    difficulty: EASY
+    prep: 15
+    cook: 35
+    servings: 4
+    origin: Punjab
+    notes: The traditional red colour comes from Kashmiri chilli; sweet paprika gives a similar colour with less heat.
+    tags: [chicken, roasted, gluten-free]
+    utensils: [Oven]
+    ingredients:
+      - items:
+          - [skinless chicken legs and thighs, 1.2, kg]
+          - [Greek yoghurt, 200, g]
+          - [lemon juice, 2, tbsp]
+          - [ginger and garlic paste, 2, tbsp]
+          - [Kashmiri chilli or sweet paprika, 2, tsp]
+          - [garam masala, 2, tsp]
+          - [ground cumin, 1, tsp]
+          - [turmeric, 0.5, tsp]
+          - [oil, 2, tbsp]
+          - [salt, 1.5, tsp]
+          - [red onion and lemon to serve, null, null]
+    steps:
+      - Make deep cuts in the chicken and rub it with the lemon juice and salt. Leave for 15 minutes.
+      - "Mix the yoghurt with the ginger and garlic paste, the spices and the oil. Coat the chicken well and marinate in the fridge for 4 to 12 hours."
+      - Preheat the oven to 230 °C. Place the chicken on a rack with a tray underneath.
+      - "Roast for 30-35 minutes, turning halfway, and finish for 3 minutes under the grill so it chars."
+      - "Serve with red onion rings, lemon wedges and raita."
+
+  - name: Rogan josh
+    health: [YELLOW, "Lamb braised in a spiced sauce: high in protein, but lamb is a fatty meat."]
+    nutrition: [480, 36, 10, 32]
+    photo: cocina-india/rogan-josh.jpg
+    category: Meat
+    difficulty: MEDIUM
+    prep: 20
+    cook: 90
+    servings: 4
+    origin: Kashmir
+    tags: [curry, lamb, gluten-free]
+    ingredients:
+      - items:
+          - [boneless lamb shoulder, 900, g]
+          - [oil or ghee, 3, tbsp]
+          - [onions, 2, null]
+          - [cardamom pods, 4, null]
+          - [cloves, 4, null]
+          - [cinnamon, 1, stick]
+          - [bay leaves, 2, null]
+          - [ginger and garlic paste, 2, tbsp]
+          - [Kashmiri chilli or sweet paprika, 1, tbsp]
+          - [ground cumin, 1, tsp]
+          - [ground coriander, 2, tsp]
+          - [plain yoghurt, 200, g]
+          - [garam masala, 1, tsp]
+          - [salt, null, null]
+    steps:
+      - "Cut the lamb into 4 cm cubes. Heat the oil in a pot and fry the cardamom, cloves, cinnamon and bay leaves for 1 minute."
+      - "Add the chopped onions and brown them well, about 12 minutes. Add the ginger and garlic paste and cook for 1 minute."
+      - "Turn up the heat, add the lamb and brown it. Stir in the chilli, cumin and ground coriander."
+      - "Lower the heat and add the yoghurt one spoonful at a time, stirring so it doesn't split. Add 250 ml of water and salt."
+      - "Cover and simmer for 1 hour 15 minutes, until the lamb is tender. Finish with the garam masala."
+
+  - name: Chicken korma
+    health: [YELLOW, "Mild curry with yoghurt and nuts: good protein, but the cashews and cream add calories."]
+    nutrition: [510, 38, 15, 33]
+    photo: cocina-india/korma-de-pollo.jpg
+    category: Meat
+    difficulty: EASY
+    prep: 15
+    cook: 35
+    servings: 4
+    origin: Uttar Pradesh
+    tags: [curry, chicken, mild, gluten-free]
+    utensils: [Blender]
+    ingredients:
+      - items:
+          - [chicken breasts or thighs, 700, g]
+          - [cashew nuts, 60, g]
+          - [ghee or oil, 3, tbsp]
+          - [onions, 2, null]
+          - [cardamom pods, 5, null]
+          - [cinnamon, 1, stick]
+          - [ginger and garlic paste, 1, tbsp]
+          - [ground coriander, 2, tsp]
+          - [plain yoghurt, 150, g]
+          - [single cream, 100, ml]
+          - [garam masala, 1, tsp]
+          - [salt, null, null]
+    steps:
+      - Soak the cashews in 150 ml of hot water for 15 minutes and blend them with the water into a cream.
+      - Heat the ghee and fry the cardamom and cinnamon for 30 seconds. Add the thinly sliced onions and soften them for 12 minutes without browning too much.
+      - "Add the ginger and garlic paste and the ground coriander, then the chicken pieces. Cook for 5 minutes."
+      - "Add the yoghurt little by little, the cashew cream and 100 ml of water. Salt and simmer, covered, for 20 minutes."
+      - Stir in the cream and the garam masala and cook for 2 more minutes. Serve with basmati rice.
+
+  - name: Pork vindaloo
+    health: [YELLOW, "Pork in a vinegar and chilli marinade: high in protein, with moderate fat depending on the cut."]
+    nutrition: [450, 35, 9, 30]
+    photo: cocina-india/vindaloo-de-cerdo.jpg
+    category: Meat
+    difficulty: MEDIUM
+    prep: 20
+    cook: 75
+    servings: 4
+    origin: Goa
+    notes: "It is a Goan dish of Portuguese origin (vinha d'alhos). It is quite hot: adjust the amount of chilli."
+    tags: [curry, pork, spicy, gluten-free]
+    utensils: [Blender]
+    ingredients:
+      - group: Spice paste
+        items:
+          - [dried red chillies, 8, null]
+          - [cumin seeds, 1, tsp]
+          - [black peppercorns, 1, tsp]
+          - [cloves, 6, null]
+          - [cinnamon, 1, stick]
+          - [garlic, 8, clove]
+          - [fresh ginger, 3, cm]
+          - [red wine vinegar, 80, ml]
+          - [sugar, 1, tsp]
+      - group: Stew
+        items:
+          - [pork shoulder, 900, g]
+          - [oil, 3, tbsp]
+          - [onions, 2, null]
+          - [turmeric, 1, tsp]
+          - [salt, 1.5, tsp]
+    steps:
+      - "Soak the chillies in hot water for 15 minutes. Dry-toast the cumin, pepper, cloves and cinnamon for 1 minute."
+      - "Blend the drained chillies with the spices, garlic, ginger, vinegar and sugar into a paste."
+      - "Cut the pork into cubes, mix it with the paste, turmeric and salt and marinate in the fridge for at least 4 hours."
+      - Brown the chopped onion in the oil for 10 minutes. Add the pork with its marinade and cook for 5 minutes.
+      - "Add 200 ml of water, cover and simmer for 1 hour, until the pork is tender and the sauce thick."
+
+  - name: Palak paneer
+    health: [GREEN, "Spinach with paneer cheese: rich in iron, calcium and protein."]
+    nutrition: [380, 19, 12, 28]
+    photo: cocina-india/palak-paneer.jpg
+    category: Vegetables
+    difficulty: EASY
+    prep: 15
+    cook: 25
+    servings: 4
+    origin: Punjab
+    notes: "If you can't find paneer, use halloumi or a firm fresh cheese."
+    tags: [vegetarian, gluten-free]
+    utensils: [Blender]
+    ingredients:
+      - items:
+          - [fresh spinach, 500, g]
+          - [paneer, 250, g]
+          - [ghee or oil, 3, tbsp]
+          - [cumin seeds, 1, tsp]
+          - [onion, 1, null]
+          - [tomato, 1, null]
+          - [ginger and garlic paste, 1, tbsp]
+          - [green chilli, 1, null]
+          - [garam masala, 1, tsp]
+          - [single cream, 3, tbsp]
+          - [salt, null, null]
+    steps:
+      - "Blanch the spinach for 1 minute in boiling water, cool it in iced water and blend it with the chilli."
+      - Cut the paneer into cubes and brown it in 1 tablespoon of ghee. Set aside.
+      - "Fry the cumin in the rest of the ghee for 30 seconds, add the chopped onion and soften for 8 minutes. Add the ginger and garlic paste and the chopped tomato and cook for 5 minutes."
+      - "Stir in the spinach purée, the garam masala and salt, and cook for 5 minutes."
+      - "Add the paneer and the cream, heat for 2 minutes and serve with chapatis or rice."
+
+  - name: Chana masala
+    health: [GREEN, "Chickpeas in a spiced tomato sauce: high in fibre and plant protein, low in fat."]
+    nutrition: [330, 14, 45, 10]
+    photo: cocina-india/chana-masala.jpg
+    category: Legumes
+    difficulty: EASY
+    prep: 10
+    cook: 30
+    servings: 4
+    origin: Punjab
+    tags: [vegan, pulses, gluten-free]
+    ingredients:
+      - items:
+          - [cooked chickpeas, 800, g]
+          - [oil, 3, tbsp]
+          - [cumin seeds, 1, tsp]
+          - [onions, 2, null]
+          - [ginger and garlic paste, 1, tbsp]
+          - [green chilli, 1, null]
+          - [crushed tomatoes, 400, g]
+          - [ground coriander, 2, tsp]
+          - [chilli powder, 0.5, tsp]
+          - [turmeric, 0.5, tsp]
+          - [amchur (dried mango powder) or lemon juice, 1, tsp]
+          - [garam masala, 1, tsp]
+          - [fresh coriander, 1, bunch]
+          - [salt, null, null]
+    steps:
+      - Fry the cumin in the oil for 30 seconds. Add the chopped onion and brown it for 10 minutes.
+      - "Add the ginger and garlic paste and the chopped chilli, then the ground coriander, chilli powder and turmeric. Cook for 1 minute."
+      - "Add the tomatoes and cook for 8 minutes, until the oil separates."
+      - Add the drained chickpeas and 200 ml of water. Mash a few to thicken and simmer for 10 minutes.
+      - "Finish with the amchur, garam masala, salt and chopped coriander."
+
+  - name: Dal tadka
+    health: [GREEN, "Lentils with a tempering of spices: plant protein, fibre and very little fat."]
+    nutrition: [290, 16, 40, 7]
+    photo: cocina-india/dal-tadka.jpg
+    category: Legumes
+    difficulty: EASY
+    prep: 10
+    cook: 35
+    servings: 4
+    tags: [vegetarian, pulses, gluten-free]
+    ingredients:
+      - group: Dal
+        items:
+          - [toor dal or red lentils, 250, g]
+          - [turmeric, 0.5, tsp]
+          - [tomato, 1, null]
+          - [salt, 1, tsp]
+      - group: Tadka
+        items:
+          - [ghee, 2, tbsp]
+          - [cumin seeds, 1, tsp]
+          - [mustard seeds, 0.5, tsp]
+          - [dried red chillies, 2, null]
+          - [garlic, 3, clove]
+          - [onion, 1, null]
+          - [chilli powder, 0.5, tsp]
+          - [fresh coriander, 1, handful]
+    steps:
+      - "Rinse the lentils and cook them with 900 ml of water, the turmeric and the chopped tomato for 25-30 minutes, until they fall apart. Salt and whisk a little so it is creamy."
+      - "For the tadka, heat the ghee and fry the mustard and cumin seeds until they crackle. Add the chillies and the sliced garlic."
+      - Add the chopped onion and brown it for 6 minutes. Remove from the heat and add the chilli powder.
+      - "Pour the sizzling tadka over the dal, sprinkle with coriander and serve with rice or chapatis."
+
+  - name: Rajma
+    health: [GREEN, "Red kidney beans in a spiced tomato sauce: high in fibre and plant protein."]
+    nutrition: [340, 15, 48, 9]
+    photo: cocina-india/rajma.jpg
+    category: Legumes
+    difficulty: EASY
+    prep: 10
+    cook: 40
+    servings: 4
+    origin: Punjab
+    notes: "It is traditionally served with white rice: rajma chawal."
+    tags: [vegan, pulses, gluten-free]
+    ingredients:
+      - items:
+          - [cooked red kidney beans, 800, g]
+          - [oil, 3, tbsp]
+          - [cumin seeds, 1, tsp]
+          - [bay leaf, 1, null]
+          - [onions, 2, null]
+          - [ginger and garlic paste, 1, tbsp]
+          - [crushed tomatoes, 400, g]
+          - [ground coriander, 2, tsp]
+          - [chilli powder, 1, tsp]
+          - [garam masala, 1, tsp]
+          - [salt, null, null]
+    steps:
+      - Fry the cumin and bay leaf in the oil. Add the grated or finely chopped onion and brown it for 10 minutes.
+      - "Add the ginger and garlic paste, ground coriander and chilli, then the tomatoes. Cook for 10 minutes."
+      - "Add the drained beans and 400 ml of water. Simmer for 20 minutes, mashing some beans to thicken."
+      - Finish with the garam masala and salt. Serve with white rice.
+
+  - name: Aloo gobi
+    health: [GREEN, "Potato and cauliflower sautéed with spices: vegetables and fibre with little fat."]
+    nutrition: [230, 6, 30, 10]
+    photo: cocina-india/aloo-gobi.jpg
+    category: Vegetables
+    difficulty: EASY
+    prep: 15
+    cook: 30
+    servings: 4
+    tags: [vegan, gluten-free]
+    ingredients:
+      - items:
+          - [cauliflower, 1, null]
+          - [potatoes, 3, null]
+          - [oil, 3, tbsp]
+          - [cumin seeds, 1, tsp]
+          - [onion, 1, null]
+          - [ginger and garlic paste, 1, tbsp]
+          - [tomato, 1, null]
+          - [turmeric, 1, tsp]
+          - [ground coriander, 2, tsp]
+          - [chilli powder, 0.5, tsp]
+          - [garam masala, 1, tsp]
+          - [fresh coriander, 1, handful]
+          - [salt, null, null]
+    steps:
+      - Cut the cauliflower into florets and the potatoes into 2 cm cubes.
+      - "Fry the cumin in the oil, add the chopped onion and soften for 6 minutes. Add the ginger and garlic paste and the chopped tomato and cook for 3 minutes."
+      - "Add the turmeric, ground coriander and chilli, then the potatoes and cauliflower. Salt and stir to coat them in the spices."
+      - "Cover and cook over medium-low heat for 20 minutes, stirring now and then, until tender. Uncover for the last few minutes so they brown."
+      - Finish with the garam masala and chopped coriander.
+
+  - name: Baingan bharta
+    health: [GREEN, "Roasted, mashed aubergine with tomato and spices: light and high in fibre."]
+    nutrition: [170, 4, 18, 10]
+    photo: cocina-india/baingan-bharta.jpg
+    category: Vegetables
+    difficulty: EASY
+    prep: 10
+    cook: 40
+    servings: 4
+    origin: Punjab
+    notes: "Ideally, roast the aubergine directly over a gas flame so it takes on a smoky flavour."
+    tags: [vegan, gluten-free]
+    utensils: [Oven]
+    ingredients:
+      - items:
+          - [large aubergines, 2, null]
+          - [oil, 3, tbsp]
+          - [cumin seeds, 1, tsp]
+          - [onion, 1, null]
+          - [garlic, 3, clove]
+          - [fresh ginger, 2, cm]
+          - [green chilli, 1, null]
+          - [tomatoes, 2, null]
+          - [chilli powder, 0.5, tsp]
+          - [garam masala, 1, tsp]
+          - [fresh coriander, 1, handful]
+          - [salt, null, null]
+    steps:
+      - "Prick the aubergines and roast them over a flame or in the oven at 220 °C for about 35 minutes, until very soft with charred skin."
+      - "Let them cool slightly, peel them and mash the flesh with a fork."
+      - "Fry the cumin in the oil, add the chopped onion and brown for 6 minutes. Add the chopped garlic, ginger and chilli."
+      - "Add the chopped tomatoes and chilli powder and cook for 6 minutes. Stir in the aubergine, salt and cook for 5 more minutes."
+      - Finish with the garam masala and coriander. Serve with chapatis.
+
+  - name: Potato samosas
+    health: [RED, "Deep-fried pastries filled with potato: high in calories from the frying and the pastry."]
+    nutrition: [380, 7, 48, 18]
+    photo: cocina-india/samosas-de-patata.jpg
+    category: Starters
+    difficulty: HARD
+    prep: 45
+    cook: 30
+    servings: 6
+    notes: Fry them over medium-low heat so the pastry turns crisp and blistered without browning too fast.
+    tags: [vegan, fried, snack]
+    ingredients:
+      - group: Pastry
+        items:
+          - [plain flour, 250, g]
+          - [ajwain or cumin seeds, 0.5, tsp]
+          - [oil, 4, tbsp]
+          - [salt, 0.5, tsp]
+          - [cold water, 90, ml]
+      - group: Filling
+        items:
+          - [potatoes, 600, g]
+          - [peas, 100, g]
+          - [oil, 2, tbsp]
+          - [cumin seeds, 1, tsp]
+          - [grated fresh ginger, 1, tbsp]
+          - [green chilli, 1, null]
+          - [ground coriander, 2, tsp]
+          - [garam masala, 1, tsp]
+          - [amchur or lemon juice, 1, tsp]
+          - [salt, 1, tsp]
+      - group: For frying
+        items:
+          - [sunflower oil, 1, l]
+    steps:
+      - "Mix the flour with the ajwain, salt and oil, rubbing with your fingers. Add the water little by little to form a firm dough. Cover and rest for 30 minutes."
+      - "Boil the potatoes, peel and roughly crush them. Fry the cumin in the oil, add the ginger, chilli, peas and spices, then the potato. Salt and leave to cool."
+      - "Divide the dough into 6 balls, roll each into an oval and cut it in half. Shape each half into a cone, sealing the edge with water."
+      - "Fill the cones and seal the top, pressing well."
+      - "Fry the samosas in oil at 160 °C for about 12-15 minutes, until golden. Serve with mint or tamarind chutney."
+
+  - name: Onion bhajis
+    health: [RED, "Deep-fried onion and gram flour fritters: tasty, but they soak up a lot of oil."]
+    nutrition: [260, 7, 26, 15]
+    photo: cocina-india/bhajis-de-cebolla.jpg
+    category: Starters
+    difficulty: EASY
+    prep: 15
+    cook: 15
+    servings: 4
+    tags: [vegan, fried, gluten-free, snack]
+    ingredients:
+      - items:
+          - [onions, 3, null]
+          - [gram flour (besan), 120, g]
+          - [rice flour, 2, tbsp]
+          - [cumin seeds, 1, tsp]
+          - [turmeric, 0.5, tsp]
+          - [chilli powder, 0.5, tsp]
+          - [green chilli, 1, null]
+          - [fresh coriander, 1, handful]
+          - [salt, 1, tsp]
+          - [sunflower oil for frying, 1, l]
+    steps:
+      - "Slice the onions thinly, salt them and leave for 10 minutes to release their water."
+      - "Add the flours, spices, chopped chilli and coriander. Mix with your hands, adding only enough water for the batter to bind."
+      - "Heat the oil to 170 °C and fry spoonfuls of the mixture in batches for 4-5 minutes, until golden and crisp."
+      - Drain on paper and serve hot with raita or chutney.
+
+  - name: Cucumber raita
+    health: [GREEN, "Yoghurt with cucumber and cumin: fresh, light and with calcium."]
+    nutrition: [80, 5, 7, 3]
+    photo: cocina-india/raita-de-pepino.jpg
+    category: Sauces
+    difficulty: EASY
+    prep: 10
+    cook: 0
+    servings: 4
+    tags: [vegetarian, cold, gluten-free]
+    ingredients:
+      - items:
+          - [plain yoghurt, 400, g]
+          - [cucumber, 1, null]
+          - [toasted ground cumin, 1, tsp]
+          - [fresh mint, 1, handful]
+          - [chilli powder, 1, pinch]
+          - [salt, 0.5, tsp]
+    steps:
+      - "Grate the cucumber, salt it lightly and squeeze it dry with your hands."
+      - "Whisk the yoghurt until smooth and mix it with the cucumber, cumin and chopped mint."
+      - "Season, sprinkle with a pinch of chilli and serve cold with curries, biryani or fritters."
+
+  - name: Mint and coriander chutney
+    health: [GREEN, "A sauce of fresh herbs, chilli and lemon: almost no calories."]
+    nutrition: [20, 1, 3, 0]
+    photo: cocina-india/chutney-de-menta-y-cilantro.jpg
+    category: Sauces
+    difficulty: EASY
+    prep: 10
+    cook: 0
+    servings: 6
+    notes: It keeps for 3 days in the fridge. A little yoghurt makes it milder for dipping.
+    tags: [vegan, cold, gluten-free]
+    utensils: [Blender]
+    ingredients:
+      - items:
+          - [fresh coriander, 1, bunch]
+          - [fresh mint, 1, bunch]
+          - [green chillies, 2, null]
+          - [fresh ginger, 2, cm]
+          - [garlic, 1, clove]
+          - [lemon juice, 2, tbsp]
+          - [ground cumin, 0.5, tsp]
+          - [sugar, 1, tsp]
+          - [salt, 0.5, tsp]
+    steps:
+      - Wash the herbs and remove the thickest mint stalks.
+      - Blend everything with 3-4 tablespoons of cold water into a smooth sauce.
+      - "Taste and adjust the salt, lemon and sugar. Serve with samosas, bhajis or tandoori chicken."
+
+  - name: Chapatis
+    health: [GREEN, "Flatbread made with wholemeal flour and no fat: fibre and slow-release carbohydrates."]
+    nutrition: [140, 5, 28, 1]
+    photo: cocina-india/chapatis.jpg
+    category: Breads and doughs
+    difficulty: MEDIUM
+    prep: 40
+    cook: 15
+    servings: 8
+    notes: Cook them in a very hot pan without oil; at the end you can brush them with a little ghee.
+    tags: [bread, vegan]
+    ingredients:
+      - items:
+          - [wholemeal wheat flour (atta), 300, g]
+          - [warm water, 200, ml]
+          - [salt, 0.5, tsp]
+          - [ghee (optional), 1, tbsp]
+    steps:
+      - "Mix the flour with the salt and add the water little by little, kneading for 8 minutes into a soft dough. Cover and rest for 30 minutes."
+      - "Divide the dough into 8 balls and roll them into thin 18 cm circles, using a little flour."
+      - "Cook each chapati in a very hot pan for 30 seconds, turn it and cook for 1 more minute."
+      - Turn it again and press the edges with a cloth so it puffs up. Keep them wrapped in a cloth and brush with ghee if you like.
+
+  - name: Aloo paratha
+    health: [YELLOW, "Wholemeal flatbread stuffed with potato and cooked with ghee: filling but fairly high in calories."]
+    nutrition: [320, 8, 48, 11]
+    photo: cocina-india/aloo-paratha.jpg
+    category: Breads and doughs
+    difficulty: MEDIUM
+    prep: 40
+    cook: 25
+    servings: 6
+    origin: Punjab
+    notes: "It is a typical North Indian breakfast, with yoghurt, pickles and a little butter."
+    tags: [bread, vegetarian, breakfast]
+    ingredients:
+      - group: Dough
+        items:
+          - [wholemeal wheat flour (atta), 300, g]
+          - [warm water, 190, ml]
+          - [salt, 0.5, tsp]
+      - group: Filling
+        items:
+          - [potatoes, 500, g]
+          - [green chilli, 1, null]
+          - [grated fresh ginger, 1, tsp]
+          - [fresh coriander, 1, handful]
+          - [ground cumin, 1, tsp]
+          - [garam masala, 0.5, tsp]
+          - [amchur or lemon juice, 1, tsp]
+          - [salt, 1, tsp]
+      - group: To cook
+        items:
+          - [ghee, 3, tbsp]
+    steps:
+      - Knead the flour with the salt and water into a soft dough. Cover and rest for 30 minutes.
+      - "Boil the potatoes, peel them and mash until smooth. Mix with the rest of the filling ingredients."
+      - "Divide the dough and filling into 6 portions. Roll a ball of dough into a small circle, put the filling in the centre, close the dough over it and carefully roll it out again to about 18 cm."
+      - Cook each paratha in a hot pan for 1 minute per side; then brush with ghee and brown both sides until spotted.
+      - Serve hot with yoghurt and pickles.
+
+  - name: Kheer
+    health: [YELLOW, "Cardamom rice pudding with nuts: a sugary dessert, best in small portions."]
+    nutrition: [310, 9, 46, 10]
+    photo: cocina-india/kheer.jpg
+    category: Desserts
+    difficulty: EASY
+    prep: 5
+    cook: 50
+    servings: 6
+    tags: [dessert, vegetarian, gluten-free]
+    ingredients:
+      - items:
+          - [basmati rice, 80, g]
+          - [whole milk, 1.2, l]
+          - [sugar, 100, g]
+          - [cardamom pods, 5, null]
+          - [saffron threads, 1, pinch]
+          - [flaked almonds, 30, g]
+          - [pistachios, 20, g]
+          - [raisins, 30, g]
+    steps:
+      - Rinse the rice and soak it for 20 minutes. Drain and lightly crush it with your fingers.
+      - "Bring the milk to the boil in a heavy-based pan, add the rice and simmer for 40 minutes, stirring often so it doesn't stick."
+      - "Add the sugar, crushed cardamom seeds, saffron, raisins and half the nuts. Cook for 10 more minutes, until thick."
+      - "Serve warm or cold, topped with the rest of the almonds and chopped pistachios."
+
+  - name: Mango lassi
+    health: [YELLOW, "Yoghurt and mango shake: provides calcium and fruit, but contains sugar."]
+    nutrition: [210, 7, 36, 4]
+    photo: cocina-india/lassi-de-mango.jpg
+    category: Drinks
+    difficulty: EASY
+    prep: 5
+    cook: 0
+    servings: 4
+    tags: [drink, vegetarian, gluten-free]
+    utensils: [Blender]
+    ingredients:
+      - items:
+          - [ripe mango (or mango pulp), 400, g]
+          - [plain yoghurt, 400, g]
+          - [cold milk, 200, ml]
+          - [sugar or honey, 2, tbsp]
+          - [ground cardamom, 1, pinch]
+          - [ice cubes, 6, null]
+    steps:
+      - Peel the mango and cut it into pieces.
+      - "Blend it with the yoghurt, milk, sugar, cardamom and ice until frothy."
+      - Serve straight away in cold glasses.
+
+  - name: Masala chai
+    health: [YELLOW, "Black tea with milk and spices: comforting, although it is drunk with sugar."]
+    nutrition: [90, 3, 13, 3]
+    photo: cocina-india/masala-chai.jpg
+    category: Drinks
+    difficulty: EASY
+    prep: 5
+    cook: 10
+    servings: 4
+    tags: [drink, hot, vegetarian]
+    ingredients:
+      - items:
+          - [water, 500, ml]
+          - [whole milk, 400, ml]
+          - [loose black tea (Assam), 3, tsp]
+          - [fresh ginger, 3, cm]
+          - [cardamom pods, 4, null]
+          - [cloves, 2, null]
+          - [cinnamon, 1, stick]
+          - [black peppercorns, 4, null]
+          - [sugar, 3, tbsp]
+    steps:
+      - "Lightly crush the cardamom, cloves, pepper and ginger."
+      - Boil the water with the spices and cinnamon for 5 minutes.
+      - "Add the tea and sugar and boil for 2 minutes. Add the milk and let it come up to the boil twice, lowering the heat in between."
+      - Strain and serve very hot.

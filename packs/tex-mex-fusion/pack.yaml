@@ -1,0 +1,271 @@
+id: tex-mex-fusion
+version: 1
+updated: 2026-11-07
+language: en
+name: "Fusion cuisine: Tex-Mex"
+series: Fusion cuisine
+description: >-
+  The cooking of Texans of Mexican descent, with more yellow cheese, cumin and beef than Mexico's:
+  nachos, chile con queso, cheese enchiladas with chili gravy, crispy beef tacos, breakfast tacos,
+  King Ranch chicken, Frito pie and sopaipillas.
+author: Miga
+authorGithub: calamares00
+cover:
+  emoji: "🌮"
+  kicker: Fusion cuisine
+  title: Tex-Mex
+  colors: ["#c2410c", "#facc15"]
+defaults:
+  origin: Texas
+  originCountry: US
+  source: "Miga «Fusion cuisine: Tex-Mex» pack"
+recipes:
+
+  - name: Nachos
+    health: [RED, "Tortilla chips with melted cheese, beans and meat: a very high-calorie, salty snack."]
+    nutrition: [620, 26, 52, 35]
+    photo: fusion-texmex/nachos.jpg
+    category: Starters
+    difficulty: EASY
+    prep: 15
+    cook: 10
+    servings: 4
+    origin: Piedras Negras (Coahuila)
+    notes: "Ignacio 'Nacho' Anaya invented them in 1943 for some customers from Eagle Pass, Texas, just across the border."
+    tags: [snack, cheese, baked]
+    utensils: [Oven]
+    ingredients:
+      - items:
+          - [tortilla chips, 250, g]
+          - [grated cheddar, 200, g]
+          - [grated Monterey Jack or mozzarella, 100, g]
+          - [refried beans, 200, g]
+          - [minced beef, 250, g]
+          - [ground cumin, 1, tsp]
+          - [chilli powder, 1, tsp]
+          - [sliced jalapeños, 3, tbsp]
+          - [pico de gallo, 150, g]
+          - [guacamole, 150, g]
+          - [sour cream, 100, g]
+          - [salt, null, null]
+    steps:
+      - "Brown the beef with the cumin, chilli powder and salt until crumbly and dry."
+      - Preheat the oven to 200 °C. Spread the chips on a tray in a single layer.
+      - "Dot with spoonfuls of beans and scatter over the beef, cheeses and jalapeños."
+      - "Bake for 8-10 minutes, until the cheese melts."
+      - "Serve straight away with pico de gallo, guacamole and sour cream."
+
+  - name: Chile con queso
+    health: [RED, "Hot melted cheese dip with chilli: very fatty; for dipping in moderation."]
+    nutrition: [320, 15, 8, 25]
+    photo: fusion-texmex/chile-con-queso.jpg
+    category: Sauces
+    difficulty: EASY
+    prep: 10
+    cook: 15
+    servings: 6
+    tags: [dip, cheese, vegetarian]
+    ingredients:
+      - items:
+          - [grated cheddar, 250, g]
+          - [processed cheese slices (American), 150, g]
+          - [evaporated milk, 200, ml]
+          - [cornflour, 1, tbsp]
+          - [butter, 1, tbsp]
+          - [onion, 0.5, null]
+          - [roasted green chillies or jalapeños, 2, null]
+          - [tomato, 1, null]
+          - [ground cumin, 0.5, tsp]
+          - [tortilla chips to serve, null, null]
+    steps:
+      - Toss the cheddar with the cornflour.
+      - Soften the chopped onion in the butter for 4 minutes. Add the chopped chillies and tomato and the cumin.
+      - "Add the evaporated milk and, when hot, the cheeses little by little over low heat, stirring until the sauce is smooth."
+      - Serve hot with tortilla chips.
+
+  - name: Cheese enchiladas with chili gravy
+    health: [RED, "Tortillas filled with cheese in a chilli gravy with more cheese: very high in calories and fat."]
+    nutrition: [640, 26, 46, 40]
+    photo: fusion-texmex/enchiladas-de-queso-con-chili-gravy.jpg
+    category: Breads and doughs
+    difficulty: MEDIUM
+    prep: 20
+    cook: 30
+    servings: 4
+    notes: "Chili gravy is a thick roux sauce with chilli powder and cumin, typical of Texan cafés."
+    tags: [cheese, baked, vegetarian]
+    utensils: [Oven]
+    ingredients:
+      - group: Chili gravy
+        items:
+          - [lard or oil, 3, tbsp]
+          - [flour, 3, tbsp]
+          - [chilli powder, 2, tbsp]
+          - [ground cumin, 1, tsp]
+          - [garlic powder, 1, tsp]
+          - [dried oregano, 1, tsp]
+          - [chicken stock, 500, ml]
+          - [salt, null, null]
+      - group: Enchiladas
+        items:
+          - [corn tortillas, 12, null]
+          - [grated cheddar, 350, g]
+          - [onion, 1, null]
+          - [oil for the tortillas, 3, tbsp]
+    steps:
+      - "Heat the lard, add the flour and cook for 2 minutes. Add the spices, then whisk in the stock little by little. Simmer for 10 minutes until thick and salt."
+      - Preheat the oven to 200 °C. Dip the tortillas briefly in hot oil to soften them.
+      - "Fill each tortilla with cheese and chopped onion, roll it up and place in a baking dish."
+      - "Cover with the chili gravy and the rest of the cheese and bake for 15 minutes, until bubbling."
+
+  - name: Crispy beef tacos
+    health: [YELLOW, "Fried tortilla tacos with beef and salad: complete, fairly high in fat and cheese."]
+    nutrition: [540, 28, 34, 32]
+    photo: fusion-texmex/tacos-crujientes-de-carne.jpg
+    category: Meat
+    difficulty: EASY
+    prep: 15
+    cook: 20
+    servings: 4
+    tags: [tacos, beef]
+    ingredients:
+      - items:
+          - [corn tortillas, 12, null]
+          - [oil for frying, 250, ml]
+          - [minced beef, 500, g]
+          - [onion, 1, null]
+          - [garlic, 2, clove]
+          - [chilli powder, 1, tbsp]
+          - [ground cumin, 1, tsp]
+          - [paprika, 1, tsp]
+          - [tomato purée, 1, tbsp]
+          - [iceberg lettuce, 0.25, null]
+          - [tomato, 2, null]
+          - [grated cheddar, 120, g]
+          - [hot sauce, null, null]
+          - [salt, null, null]
+    steps:
+      - "Brown the beef with the chopped onion and garlic. Add the spices, tomato purée and 100 ml of water, season and cook for 8 minutes until thick."
+      - "Fry each tortilla in hot oil for a few seconds per side and fold it into a U with tongs, holding it until crisp. Drain."
+      - "Fill the shells with the beef and top with shredded lettuce, diced tomato and cheese."
+      - Serve straight away with hot sauce.
+
+  - name: Breakfast tacos
+    health: [YELLOW, "Tortillas with egg, potato and bacon: good protein, with fat from the bacon and cheese."]
+    nutrition: [470, 22, 36, 26]
+    photo: fusion-texmex/tacos-de-desayuno.jpg
+    category: Eggs
+    difficulty: EASY
+    prep: 10
+    cook: 20
+    servings: 4
+    origin: San Antonio
+    notes: Austin and San Antonio argue about who makes them best; they are eaten everywhere for breakfast in flour tortillas.
+    tags: [eggs, breakfast]
+    ingredients:
+      - items:
+          - [flour tortillas, 8, null]
+          - [eggs, 6, null]
+          - [potatoes, 2, null]
+          - [bacon, 6, slice]
+          - [onion, 0.5, null]
+          - [grated cheddar, 80, g]
+          - [red or green salsa, null, null]
+          - [salt and black pepper, null, null]
+    steps:
+      - "Fry the bacon until crisp, remove it and chop it."
+      - "In the bacon fat, fry the potatoes cut into small cubes with the chopped onion for 12-15 minutes, until golden. Season."
+      - Add the beaten eggs and scramble over low heat until softly set. Stir in the bacon.
+      - "Warm the tortillas, fill them with the eggs and cheese and serve with salsa."
+
+  - name: King Ranch chicken
+    health: [RED, "Bake of chicken, tortillas, creamy sauce and cheese: very high in calories."]
+    nutrition: [610, 40, 34, 35]
+    photo: fusion-texmex/pollo-king-ranch.jpg
+    category: Meat
+    difficulty: EASY
+    prep: 25
+    cook: 40
+    servings: 6
+    notes: It is a classic of Texan family meals; it is named after the famous Texas ranch.
+    tags: [chicken, baked, cheese]
+    utensils: [Oven]
+    ingredients:
+      - items:
+          - [shredded cooked chicken, 600, g]
+          - [corn tortillas, 12, null]
+          - [butter, 40, g]
+          - [onion, 1, null]
+          - [green pepper, 1, null]
+          - [flour, 3, tbsp]
+          - [chicken stock, 400, ml]
+          - [sour cream, 200, g]
+          - [crushed tomatoes with green chillies, 400, g]
+          - [chilli powder, 2, tsp]
+          - [ground cumin, 1, tsp]
+          - [grated cheddar, 250, g]
+          - [salt, null, null]
+    steps:
+      - Soften the chopped onion and pepper in the butter for 8 minutes. Add the flour and cook for 1 minute.
+      - "Whisk in the stock, then the sour cream, tomatoes and spices, and simmer for 5 minutes. Mix with the chicken and salt."
+      - "Preheat the oven to 180 °C. In a baking dish, layer torn tortillas, the chicken mixture and cheese, three times."
+      - "Bake for 30 minutes, until bubbling and golden. Let rest for 10 minutes before serving."
+
+  - name: Frito pie
+    health: [RED, "Corn chips with beef chili and cheese: very high in calories and salt."]
+    nutrition: [700, 32, 48, 42]
+    photo: fusion-texmex/frito-pie.jpg
+    category: Meat
+    difficulty: EASY
+    prep: 15
+    cook: 45
+    servings: 4
+    notes: At Texas football games it is served inside the bag of chips itself.
+    tags: [meat, spicy]
+    ingredients:
+      - items:
+          - [Fritos-style corn chips, 200, g]
+          - [minced beef, 500, g]
+          - [onion, 1, null]
+          - [garlic, 2, clove]
+          - [chilli powder, 2, tbsp]
+          - [ground cumin, 2, tsp]
+          - [dried oregano, 1, tsp]
+          - [crushed tomatoes, 400, g]
+          - [beef stock, 250, ml]
+          - [masa harina, 1, tbsp]
+          - [grated cheddar, 150, g]
+          - [chopped onion and jalapeños to serve, null, null]
+          - [salt, null, null]
+    steps:
+      - Brown the beef with the chopped onion and garlic. Add the spices and cook for 1 minute.
+      - "Add the tomatoes and stock, season and simmer for 30 minutes."
+      - Thicken with the masa harina mixed with a little water and cook for 5 more minutes.
+      - "Divide the chips among bowls and top with the hot chili, cheese, chopped onion and jalapeños."
+
+  - name: Sopaipillas
+    health: [RED, "Puffed fried dough with honey: a fried, sugary treat."]
+    nutrition: [280, 5, 40, 11]
+    photo: fusion-texmex/sopaipillas.jpg
+    category: Desserts
+    difficulty: MEDIUM
+    prep: 20
+    cook: 15
+    servings: 6
+    notes: In Tex-Mex restaurants they are served at the end with honey or cinnamon sugar.
+    tags: [dessert, fried]
+    ingredients:
+      - items:
+          - [plain flour, 300, g]
+          - [baking powder, 2, tsp]
+          - [salt, 1, tsp]
+          - [lard or butter, 30, g]
+          - [warm water, 180, ml]
+          - [sunflower oil for frying, 1, l]
+          - [honey, 6, tbsp]
+          - [sugar and cinnamon (optional), null, null]
+    steps:
+      - "Mix the flour, baking powder and salt, rub in the lard with your fingers, then add the water. Knead for 2 minutes and rest, covered, for 15 minutes."
+      - Roll the dough out to 3 mm and cut it into 8 cm triangles or squares.
+      - "Fry them in oil at 190 °C, spooning oil over the top so they puff up, 1 minute per side."
+      - Drain and serve hot with honey or dusted with cinnamon sugar.

@@ -1,0 +1,43 @@
+# Origin of every photo in this folder: source page, author and licence (CC0 1.0, Public domain,
+# CC BY x.y or CC BY-SA x.y). tools/build.py refuses a recipe photo without an entry here.
+
+kedgeree.jpg:
+  source: https://commons.wikimedia.org/wiki/File:Kedgeree.jpg
+  author: "User:Justinc"
+  license: CC BY-SA 2.0
+
+sopa-mulligatawny.jpg:
+  source: https://commons.wikimedia.org/wiki/File:Mulligatawny_Soup.JPG
+  author: "Miansari66"
+  license: CC0 1.0
+
+pollo-tikka-masala.jpg:
+  source: https://commons.wikimedia.org/wiki/File:Chicken_Tikka_Masala_3.JPG
+  author: "Miansari66"
+  license: CC0 1.0
+
+pollo-coronacion.jpg:
+  source: https://commons.wikimedia.org/wiki/File:English_Coronation_Chicken.jpg
+  author: "BrigadierG"
+  license: CC0 1.0
+
+jalfrezi-de-pollo.jpg:
+  source: https://commons.wikimedia.org/wiki/File:Chicken_Jalfrezi_(2103956162).jpg
+  author: "David Pursehouse from Kawasaki, Japan"
+  license: CC BY 2.0
+
+curry-de-cordero-del-ferrocarril.jpg:
+  source: https://commons.wikimedia.org/wiki/File:Mutton_curry_photographed_in_West_Bengal,_India,_January_28,_2024.jpg
+  author: "Billjones94"
+  license: CC0 1.0
+
+country-captain.jpg:
+  source: https://commons.wikimedia.org/wiki/File:Country_Captain.jpg
+  author: "Dan Costin"
+  license: CC BY 2.0
+
+chutney-de-mango.jpg:
+  source: https://commons.wikimedia.org/wiki/File:Mango_Chutney.JPG
+  author: "Miansari66"
+  license: CC0 1.0
+

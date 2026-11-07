@@ -1,0 +1,43 @@
+# Origin of every photo in this folder: source page, author and licence (CC0 1.0, Public domain,
+# CC BY x.y or CC BY-SA x.y). tools/build.py refuses a recipe photo without an entry here.
+
+tallarin-saltado.jpg:
+  source: https://commons.wikimedia.org/wiki/File:Tallarin_Saltado_Peru.jpg
+  author: "AgainErick"
+  license: CC BY-SA 3.0
+
+chi-jau-kay.jpg:
+  source: https://commons.wikimedia.org/wiki/File:Chijaukay_con_frejolitos.JPG
+  author: "Dtarazona"
+  license: Public domain
+
+kam-lu-wantan.jpg:
+  source: https://commons.wikimedia.org/wiki/File:Kam_lu_wantan.JPG
+  author: "Dtarazona"
+  license: Public domain
+
+aeropuerto.jpg:
+  source: https://commons.wikimedia.org/wiki/File:Aeropuerto_Peru%C3%A0.jpg
+  author: "Francesc Fort"
+  license: CC BY-SA 4.0
+
+pollo-enrollado.jpg:
+  source: https://commons.wikimedia.org/wiki/File:Pollo_enrrollado_-_Cajamarca.JPG
+  author: "John PC"
+  license: CC BY-SA 3.0
+
+wantanes-fritos.jpg:
+  source: https://commons.wikimedia.org/wiki/File:Thai_wontons_with_mango_dipping_sauce.jpg
+  author: "Jon Sullivan"
+  license: Public domain
+
+chancho-con-tamarindo.jpg:
+  source: https://commons.wikimedia.org/wiki/File:20260701_Tamarind_pork_with_Macanese_shrimp_paste.jpg
+  author: "Yumeto"
+  license: CC BY-SA 4.0
+
+sopa-fuchifu.jpg:
+  source: https://commons.wikimedia.org/wiki/File:Sopa_fuchifu.jpg
+  author: "MiguelAlanCS"
+  license: CC BY-SA 4.0
+

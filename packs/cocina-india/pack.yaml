@@ -1,0 +1,657 @@
+id: cocina-india
+version: 1
+updated: 2026-11-07
+language: es
+name: "Cocina del mundo: India"
+series: Cocina del mundo
+description: >-
+  Curris, legumbres, panes y dulces de la India: pollo a la mantequilla, pollo tandoori, rogan
+  josh, korma, vindaloo, palak paneer, chana masala, dal tadka, rajma, aloo gobi, baingan bharta,
+  samosas, bhajis de cebolla, raita, chutney de menta, chapatis, aloo paratha, kheer, lassi de
+  mango y masala chai.
+author: Miga
+authorGithub: calamares00
+cover:
+  emoji: "🍛"
+  kicker: Cocina del mundo
+  title: India
+  colors: ["#c2410c", "#f59e0b"]
+defaults:
+  origin: India
+  originCountry: IN
+  source: "Pack «Cocina del mundo: India» de Miga"
+recipes:
+
+  - name: Pollo a la mantequilla
+    health: [RED, "Pollo en salsa de tomate con mantequilla y nata: muy sabroso pero con bastante grasa saturada."]
+    nutrition: [560, 38, 14, 39]
+    photo: cocina-india/pollo-a-la-mantequilla.jpg
+    category: Carnes
+    difficulty: MEDIUM
+    prep: 20
+    cook: 40
+    servings: 4
+    origin: Delhi
+    notes: "Si puedes, marina el pollo la víspera. El kasuri methi (hojas secas de fenogreco) es lo que le da su aroma típico."
+    tags: [curry, pollo, sin gluten]
+    ingredients:
+      - group: Marinada
+        items:
+          - [contramuslos de pollo deshuesados, 800, g]
+          - [yogur natural, 150, g]
+          - [garam masala, 1, cucharadita]
+          - [pimentón picante o chile en polvo, 1, cucharadita]
+          - [pasta de jengibre y ajo, 1, cucharada]
+          - [sal, 1, cucharadita]
+      - group: Salsa
+        items:
+          - [mantequilla, 60, g]
+          - [cebolla, 1, null]
+          - [pasta de jengibre y ajo, 1, cucharada]
+          - [tomate triturado, 400, g]
+          - [garam masala, 1, cucharadita]
+          - [comino molido, 1, cucharadita]
+          - [anacardos, 40, g]
+          - [nata para cocinar, 150, ml]
+          - [kasuri methi, 1, cucharada]
+          - [azúcar, 1, cucharadita]
+    steps:
+      - Corta el pollo en trozos y mézclalo con los ingredientes de la marinada. Déjalo en la nevera al menos 1 hora.
+      - "Dora el pollo en una sartén muy caliente con un poco de mantequilla, por tandas, hasta que tenga zonas tostadas. Resérvalo."
+      - "En la misma sartén, derrite el resto de la mantequilla y sofríe la cebolla picada 8 minutos. Añade la pasta de jengibre y ajo, las especias y luego el tomate y los anacardos. Cuece 15 minutos."
+      - Tritura la salsa hasta que quede muy fina y vuelve a ponerla en la sartén con el pollo. Cuece 10 minutos.
+      - "Añade la nata, el azúcar y el kasuri methi frotado entre las manos. Rectifica de sal y sirve con arroz basmati o naan."
+
+  - name: Pollo tandoori
+    health: [GREEN, "Pollo marinado en yogur y especias y asado al horno, sin apenas grasa añadida."]
+    nutrition: [320, 42, 6, 13]
+    photo: cocina-india/pollo-tandoori.jpg
+    category: Carnes
+    difficulty: EASY
+    prep: 15
+    cook: 35
+    servings: 4
+    origin: Punyab
+    notes: El color rojo tradicional viene del chile de Cachemira; el pimentón dulce da un color parecido sin picar tanto.
+    tags: [pollo, al horno, sin gluten]
+    utensils: [Horno]
+    ingredients:
+      - items:
+          - [muslos y contramuslos de pollo sin piel, 1.2, kg]
+          - [yogur griego, 200, g]
+          - [zumo de limón, 2, cucharada]
+          - [pasta de jengibre y ajo, 2, cucharada]
+          - [chile de Cachemira o pimentón dulce, 2, cucharadita]
+          - [garam masala, 2, cucharadita]
+          - [comino molido, 1, cucharadita]
+          - [cúrcuma, 0.5, cucharadita]
+          - [aceite, 2, cucharada]
+          - [sal, 1.5, cucharadita]
+          - [cebolla morada y limón para servir, null, null]
+    steps:
+      - Haz cortes profundos en el pollo y úntalo con el zumo de limón y la sal. Déjalo 15 minutos.
+      - "Mezcla el yogur con la pasta de jengibre y ajo, las especias y el aceite. Cubre bien el pollo y déjalo marinar en la nevera de 4 a 12 horas."
+      - Precalienta el horno a 230 °C. Pon el pollo sobre una rejilla con una bandeja debajo.
+      - "Hornea 30-35 minutos, dándole la vuelta a mitad, y termina 3 minutos con el grill para que se tueste."
+      - "Sirve con aros de cebolla morada, gajos de limón y raita."
+
+  - name: Rogan josh
+    health: [YELLOW, "Cordero guisado en salsa especiada: mucha proteína, pero la carne de cordero es grasa."]
+    nutrition: [480, 36, 10, 32]
+    photo: cocina-india/rogan-josh.jpg
+    category: Carnes
+    difficulty: MEDIUM
+    prep: 20
+    cook: 90
+    servings: 4
+    origin: Cachemira
+    tags: [curry, cordero, sin gluten]
+    ingredients:
+      - items:
+          - [paletilla de cordero deshuesada, 900, g]
+          - [aceite o ghee, 3, cucharada]
+          - [cebollas, 2, null]
+          - [vainas de cardamomo, 4, null]
+          - [clavos, 4, null]
+          - [canela, 1, rama]
+          - [hojas de laurel, 2, null]
+          - [pasta de jengibre y ajo, 2, cucharada]
+          - [chile de Cachemira o pimentón dulce, 1, cucharada]
+          - [comino molido, 1, cucharadita]
+          - [cilantro molido, 2, cucharadita]
+          - [yogur natural, 200, g]
+          - [garam masala, 1, cucharadita]
+          - [sal, null, null]
+    steps:
+      - "Corta el cordero en dados de 4 cm. Calienta el aceite en una olla y fríe 1 minuto el cardamomo, los clavos, la canela y el laurel."
+      - "Añade las cebollas picadas y dóralas bien, unos 12 minutos. Agrega la pasta de jengibre y ajo y cocina 1 minuto."
+      - "Sube el fuego, añade el cordero y dóralo. Incorpora el chile, el comino y el cilantro molido."
+      - "Baja el fuego y añade el yogur cucharada a cucharada, removiendo para que no se corte. Agrega 250 ml de agua y sal."
+      - "Tapa y cuece a fuego suave 1 hora y cuarto, hasta que el cordero esté tierno. Termina con el garam masala."
+
+  - name: Korma de pollo
+    health: [YELLOW, "Curry suave con yogur y frutos secos: buena proteína, pero los anacardos y la nata suman calorías."]
+    nutrition: [510, 38, 15, 33]
+    photo: cocina-india/korma-de-pollo.jpg
+    category: Carnes
+    difficulty: EASY
+    prep: 15
+    cook: 35
+    servings: 4
+    origin: Uttar Pradesh
+    tags: [curry, pollo, suave, sin gluten]
+    utensils: [Batidora]
+    ingredients:
+      - items:
+          - [pechugas o contramuslos de pollo, 700, g]
+          - [anacardos, 60, g]
+          - [ghee o aceite, 3, cucharada]
+          - [cebollas, 2, null]
+          - [vainas de cardamomo, 5, null]
+          - [canela, 1, rama]
+          - [pasta de jengibre y ajo, 1, cucharada]
+          - [cilantro molido, 2, cucharadita]
+          - [yogur natural, 150, g]
+          - [nata para cocinar, 100, ml]
+          - [garam masala, 1, cucharadita]
+          - [sal, null, null]
+    steps:
+      - Remoja los anacardos en 150 ml de agua caliente 15 minutos y tritúralos con el agua hasta obtener una crema.
+      - Calienta el ghee y fríe el cardamomo y la canela 30 segundos. Añade las cebollas en láminas finas y póchalas 12 minutos sin que se doren mucho.
+      - "Agrega la pasta de jengibre y ajo y el cilantro molido, y luego el pollo en trozos. Cocina 5 minutos."
+      - "Añade el yogur poco a poco, la crema de anacardos y 100 ml de agua. Sala y cuece tapado 20 minutos a fuego suave."
+      - Incorpora la nata y el garam masala y cuece 2 minutos más. Sirve con arroz basmati.
+
+  - name: Vindaloo de cerdo
+    health: [YELLOW, "Cerdo en un adobo de vinagre y chile: mucha proteína, con grasa moderada según el corte."]
+    nutrition: [450, 35, 9, 30]
+    photo: cocina-india/vindaloo-de-cerdo.jpg
+    category: Carnes
+    difficulty: MEDIUM
+    prep: 20
+    cook: 75
+    servings: 4
+    origin: Goa
+    notes: "Es un plato goano de origen portugués (vinha d'alhos). Pica bastante: ajusta la cantidad de chile."
+    tags: [curry, cerdo, picante, sin gluten]
+    utensils: [Batidora]
+    ingredients:
+      - group: Pasta de especias
+        items:
+          - [chiles rojos secos, 8, null]
+          - [comino en grano, 1, cucharadita]
+          - [pimienta negra en grano, 1, cucharadita]
+          - [clavos, 6, null]
+          - [canela, 1, rama]
+          - [ajo, 8, diente]
+          - [jengibre fresco, 3, cm]
+          - [vinagre de vino tinto, 80, ml]
+          - [azúcar, 1, cucharadita]
+      - group: Guiso
+        items:
+          - [paleta o aguja de cerdo, 900, g]
+          - [aceite, 3, cucharada]
+          - [cebollas, 2, null]
+          - [cúrcuma, 1, cucharadita]
+          - [sal, 1.5, cucharadita]
+    steps:
+      - "Remoja los chiles en agua caliente 15 minutos. Tuesta en seco el comino, la pimienta, los clavos y la canela 1 minuto."
+      - "Tritura los chiles escurridos con las especias, el ajo, el jengibre, el vinagre y el azúcar hasta obtener una pasta."
+      - "Corta el cerdo en dados, mézclalo con la pasta, la cúrcuma y la sal y déjalo marinar en la nevera al menos 4 horas."
+      - Dora la cebolla picada en el aceite 10 minutos. Añade el cerdo con su marinada y cocina 5 minutos.
+      - "Agrega 200 ml de agua, tapa y cuece a fuego suave 1 hora, hasta que el cerdo esté tierno y la salsa espesa."
+
+  - name: Palak paneer
+    health: [GREEN, "Espinacas con queso fresco paneer: mucho hierro, calcio y proteína vegetal y láctea."]
+    nutrition: [380, 19, 12, 28]
+    photo: cocina-india/palak-paneer.jpg
+    category: Verduras
+    difficulty: EASY
+    prep: 15
+    cook: 25
+    servings: 4
+    origin: Punyab
+    notes: "Si no encuentras paneer, usa halloumi o queso fresco firme."
+    tags: [vegetariano, sin gluten]
+    utensils: [Batidora]
+    ingredients:
+      - items:
+          - [espinacas frescas, 500, g]
+          - [paneer, 250, g]
+          - [ghee o aceite, 3, cucharada]
+          - [comino en grano, 1, cucharadita]
+          - [cebolla, 1, null]
+          - [tomate, 1, null]
+          - [pasta de jengibre y ajo, 1, cucharada]
+          - [chile verde, 1, null]
+          - [garam masala, 1, cucharadita]
+          - [nata para cocinar, 3, cucharada]
+          - [sal, null, null]
+    steps:
+      - "Escalda las espinacas 1 minuto en agua hirviendo, enfríalas en agua con hielo y tritúralas con el chile."
+      - Corta el paneer en dados y dóralo en 1 cucharada de ghee. Resérvalo.
+      - "En el resto del ghee fríe el comino 30 segundos, añade la cebolla picada y póchala 8 minutos. Agrega la pasta de jengibre y ajo y el tomate picado y cocina 5 minutos."
+      - "Incorpora el puré de espinacas, el garam masala y sal, y cuece 5 minutos."
+      - "Añade el paneer y la nata, calienta 2 minutos y sirve con chapatis o arroz."
+
+  - name: Chana masala
+    health: [GREEN, "Garbanzos en salsa de tomate especiada: mucha fibra y proteína vegetal, poca grasa."]
+    nutrition: [330, 14, 45, 10]
+    photo: cocina-india/chana-masala.jpg
+    category: Legumbres
+    difficulty: EASY
+    prep: 10
+    cook: 30
+    servings: 4
+    origin: Punyab
+    tags: [vegano, legumbres, sin gluten]
+    ingredients:
+      - items:
+          - [garbanzos cocidos, 800, g]
+          - [aceite, 3, cucharada]
+          - [comino en grano, 1, cucharadita]
+          - [cebollas, 2, null]
+          - [pasta de jengibre y ajo, 1, cucharada]
+          - [chile verde, 1, null]
+          - [tomate triturado, 400, g]
+          - [cilantro molido, 2, cucharadita]
+          - [chile en polvo, 0.5, cucharadita]
+          - [cúrcuma, 0.5, cucharadita]
+          - [amchur (mango seco en polvo) o zumo de limón, 1, cucharadita]
+          - [garam masala, 1, cucharadita]
+          - [cilantro fresco, 1, manojo]
+          - [sal, null, null]
+    steps:
+      - Fríe el comino en el aceite 30 segundos. Añade la cebolla picada y dórala 10 minutos.
+      - "Agrega la pasta de jengibre y ajo y el chile picado, y luego el cilantro molido, el chile en polvo y la cúrcuma. Cocina 1 minuto."
+      - "Añade el tomate y cuece 8 minutos, hasta que el aceite se separe."
+      - Incorpora los garbanzos escurridos y 200 ml de agua. Aplasta algunos para espesar y cuece 10 minutos.
+      - "Termina con el amchur, el garam masala, sal y el cilantro picado."
+
+  - name: Dal tadka
+    health: [GREEN, "Lentejas con un sofrito de especias: proteína vegetal, fibra y muy poca grasa."]
+    nutrition: [290, 16, 40, 7]
+    photo: cocina-india/dal-tadka.jpg
+    category: Legumbres
+    difficulty: EASY
+    prep: 10
+    cook: 35
+    servings: 4
+    tags: [vegetariano, legumbres, sin gluten]
+    ingredients:
+      - group: Dal
+        items:
+          - [toor dal o lentejas rojas, 250, g]
+          - [cúrcuma, 0.5, cucharadita]
+          - [tomate, 1, null]
+          - [sal, 1, cucharadita]
+      - group: Tadka
+        items:
+          - [ghee, 2, cucharada]
+          - [comino en grano, 1, cucharadita]
+          - [semillas de mostaza, 0.5, cucharadita]
+          - [chiles rojos secos, 2, null]
+          - [ajo, 3, diente]
+          - [cebolla, 1, null]
+          - [chile en polvo, 0.5, cucharadita]
+          - [cilantro fresco, 1, puñado]
+    steps:
+      - "Lava las lentejas y cuécelas con 900 ml de agua, la cúrcuma y el tomate picado 25-30 minutos, hasta que se deshagan. Sala y bate un poco para que quede cremoso."
+      - "Para el tadka, calienta el ghee y fríe la mostaza y el comino hasta que chisporroteen. Añade los chiles y el ajo laminado."
+      - Agrega la cebolla picada y dórala 6 minutos. Retira del fuego y añade el chile en polvo.
+      - "Vierte el tadka chisporroteante sobre el dal, espolvorea cilantro y sirve con arroz o chapatis."
+
+  - name: Rajma
+    health: [GREEN, "Alubias rojas en salsa de tomate especiada: mucha fibra y proteína vegetal."]
+    nutrition: [340, 15, 48, 9]
+    photo: cocina-india/rajma.jpg
+    category: Legumbres
+    difficulty: EASY
+    prep: 10
+    cook: 40
+    servings: 4
+    origin: Punyab
+    notes: "Se sirve tradicionalmente con arroz blanco: rajma chawal."
+    tags: [vegano, legumbres, sin gluten]
+    ingredients:
+      - items:
+          - [alubias rojas cocidas, 800, g]
+          - [aceite, 3, cucharada]
+          - [comino en grano, 1, cucharadita]
+          - [hoja de laurel, 1, null]
+          - [cebollas, 2, null]
+          - [pasta de jengibre y ajo, 1, cucharada]
+          - [tomate triturado, 400, g]
+          - [cilantro molido, 2, cucharadita]
+          - [chile en polvo, 1, cucharadita]
+          - [garam masala, 1, cucharadita]
+          - [sal, null, null]
+    steps:
+      - Fríe el comino y el laurel en el aceite. Añade la cebolla rallada o muy picada y dórala 10 minutos.
+      - "Agrega la pasta de jengibre y ajo, el cilantro molido y el chile, y luego el tomate. Cuece 10 minutos."
+      - "Incorpora las alubias escurridas y 400 ml de agua. Cuece 20 minutos a fuego suave, aplastando algunas alubias para espesar."
+      - Termina con el garam masala y sal. Sirve con arroz blanco.
+
+  - name: Aloo gobi
+    health: [GREEN, "Patata y coliflor salteadas con especias: verdura y fibra con poca grasa."]
+    nutrition: [230, 6, 30, 10]
+    photo: cocina-india/aloo-gobi.jpg
+    category: Verduras
+    difficulty: EASY
+    prep: 15
+    cook: 30
+    servings: 4
+    tags: [vegano, sin gluten]
+    ingredients:
+      - items:
+          - [coliflor, 1, null]
+          - [patatas, 3, null]
+          - [aceite, 3, cucharada]
+          - [comino en grano, 1, cucharadita]
+          - [cebolla, 1, null]
+          - [pasta de jengibre y ajo, 1, cucharada]
+          - [tomate, 1, null]
+          - [cúrcuma, 1, cucharadita]
+          - [cilantro molido, 2, cucharadita]
+          - [chile en polvo, 0.5, cucharadita]
+          - [garam masala, 1, cucharadita]
+          - [cilantro fresco, 1, puñado]
+          - [sal, null, null]
+    steps:
+      - Corta la coliflor en ramilletes y las patatas en dados de 2 cm.
+      - "Fríe el comino en el aceite, añade la cebolla picada y póchala 6 minutos. Agrega la pasta de jengibre y ajo y el tomate picado y cocina 3 minutos."
+      - "Añade la cúrcuma, el cilantro molido y el chile, y luego las patatas y la coliflor. Sala y remueve para cubrirlas de especias."
+      - "Tapa y cocina a fuego medio-bajo 20 minutos, removiendo de vez en cuando, hasta que estén tiernas. Destapa los últimos minutos para que se doren."
+      - Termina con el garam masala y el cilantro picado.
+
+  - name: Baingan bharta
+    health: [GREEN, "Berenjena asada y aplastada con tomate y especias: ligera y rica en fibra."]
+    nutrition: [170, 4, 18, 10]
+    photo: cocina-india/baingan-bharta.jpg
+    category: Verduras
+    difficulty: EASY
+    prep: 10
+    cook: 40
+    servings: 4
+    origin: Punyab
+    notes: Lo ideal es asar la berenjena directamente sobre la llama del fuego para que tome sabor ahumado.
+    tags: [vegano, sin gluten]
+    utensils: [Horno]
+    ingredients:
+      - items:
+          - [berenjenas grandes, 2, null]
+          - [aceite, 3, cucharada]
+          - [comino en grano, 1, cucharadita]
+          - [cebolla, 1, null]
+          - [ajo, 3, diente]
+          - [jengibre fresco, 2, cm]
+          - [chile verde, 1, null]
+          - [tomates, 2, null]
+          - [chile en polvo, 0.5, cucharadita]
+          - [garam masala, 1, cucharadita]
+          - [cilantro fresco, 1, puñado]
+          - [sal, null, null]
+    steps:
+      - "Pincha las berenjenas y ásalas sobre la llama o en el horno a 220 °C unos 35 minutos, hasta que estén muy blandas y la piel quemada."
+      - "Déjalas templar, pélalas y aplasta la pulpa con un tenedor."
+      - "Fríe el comino en el aceite, añade la cebolla picada y dórala 6 minutos. Agrega el ajo, el jengibre y el chile picados."
+      - "Añade los tomates picados y el chile en polvo y cocina 6 minutos. Incorpora la berenjena, sala y cocina 5 minutos más."
+      - Termina con el garam masala y el cilantro. Sirve con chapatis.
+
+  - name: Samosas de patata
+    health: [RED, "Empanadillas fritas rellenas de patata: muy calóricas por la fritura y la masa."]
+    nutrition: [380, 7, 48, 18]
+    photo: cocina-india/samosas-de-patata.jpg
+    category: Entrantes
+    difficulty: HARD
+    prep: 45
+    cook: 30
+    servings: 6
+    notes: "Se fríen a fuego medio-bajo para que la masa quede crujiente y con burbujitas, sin dorarse demasiado rápido."
+    tags: [vegano, frito, aperitivo]
+    ingredients:
+      - group: Masa
+        items:
+          - [harina de trigo, 250, g]
+          - [semillas de ajwain o comino, 0.5, cucharadita]
+          - [aceite, 4, cucharada]
+          - [sal, 0.5, cucharadita]
+          - [agua fría, 90, ml]
+      - group: Relleno
+        items:
+          - [patatas, 600, g]
+          - [guisantes, 100, g]
+          - [aceite, 2, cucharada]
+          - [comino en grano, 1, cucharadita]
+          - [jengibre fresco rallado, 1, cucharada]
+          - [chile verde, 1, null]
+          - [cilantro molido, 2, cucharadita]
+          - [garam masala, 1, cucharadita]
+          - [amchur o zumo de limón, 1, cucharadita]
+          - [sal, 1, cucharadita]
+      - group: Para freír
+        items:
+          - [aceite de girasol, 1, l]
+    steps:
+      - "Mezcla la harina con el ajwain, la sal y el aceite frotando con los dedos. Añade el agua poco a poco y forma una masa firme. Tápala y déjala reposar 30 minutos."
+      - "Cuece las patatas, pélalas y cháfalas en trozos. Fríe el comino en el aceite, añade el jengibre, el chile, los guisantes y las especias, y luego la patata. Sala y deja enfriar."
+      - "Divide la masa en 6 bolas, estira cada una en un óvalo y córtalo por la mitad. Forma un cono con cada mitad sellando el borde con agua."
+      - Rellena los conos y cierra la parte superior presionando bien.
+      - "Fríe las samosas en aceite a 160 °C unos 12-15 minutos, hasta que estén doradas. Sírvelas con chutney de menta o de tamarindo."
+
+  - name: Bhajis de cebolla
+    health: [RED, "Buñuelos fritos de cebolla y harina de garbanzo: sabrosos, pero absorben mucho aceite."]
+    nutrition: [260, 7, 26, 15]
+    photo: cocina-india/bhajis-de-cebolla.jpg
+    category: Entrantes
+    difficulty: EASY
+    prep: 15
+    cook: 15
+    servings: 4
+    tags: [vegano, frito, sin gluten, aperitivo]
+    ingredients:
+      - items:
+          - [cebollas, 3, null]
+          - [harina de garbanzo (besan), 120, g]
+          - [harina de arroz, 2, cucharada]
+          - [comino en grano, 1, cucharadita]
+          - [cúrcuma, 0.5, cucharadita]
+          - [chile en polvo, 0.5, cucharadita]
+          - [chile verde, 1, null]
+          - [cilantro fresco, 1, puñado]
+          - [sal, 1, cucharadita]
+          - [aceite de girasol para freír, 1, l]
+    steps:
+      - "Corta las cebollas en juliana fina, sálalas y déjalas 10 minutos para que suelten agua."
+      - "Añade las harinas, las especias, el chile y el cilantro picados. Mezcla con las manos, añadiendo solo el agua justa para que la masa ligue."
+      - "Calienta el aceite a 170 °C y fríe cucharadas de la mezcla, por tandas, 4-5 minutos, hasta que estén doradas y crujientes."
+      - Escúrrelas sobre papel y sírvelas calientes con raita o chutney.
+
+  - name: Raita de pepino
+    health: [GREEN, "Yogur con pepino y comino: fresco, ligero y con calcio."]
+    nutrition: [80, 5, 7, 3]
+    photo: cocina-india/raita-de-pepino.jpg
+    category: Salsas
+    difficulty: EASY
+    prep: 10
+    cook: 0
+    servings: 4
+    tags: [vegetariano, frío, sin gluten]
+    ingredients:
+      - items:
+          - [yogur natural, 400, g]
+          - [pepino, 1, null]
+          - [comino molido tostado, 1, cucharadita]
+          - [menta fresca, 1, puñado]
+          - [chile en polvo, 1, pizca]
+          - [sal, 0.5, cucharadita]
+    steps:
+      - "Ralla el pepino, sálalo un poco y escúrrelo apretando con las manos."
+      - "Bate el yogur hasta que quede liso y mézclalo con el pepino, el comino y la menta picada."
+      - "Rectifica de sal, espolvorea una pizca de chile y sirve frío con curris, biryani o fritos."
+
+  - name: Chutney de menta y cilantro
+    health: [GREEN, "Salsa de hierbas frescas, chile y limón: casi sin calorías."]
+    nutrition: [20, 1, 3, 0]
+    photo: cocina-india/chutney-de-menta-y-cilantro.jpg
+    category: Salsas
+    difficulty: EASY
+    prep: 10
+    cook: 0
+    servings: 6
+    notes: Se conserva 3 días en la nevera. Un poco de yogur lo vuelve más suave para mojar.
+    tags: [vegano, frío, sin gluten]
+    utensils: [Batidora]
+    ingredients:
+      - items:
+          - [cilantro fresco, 1, manojo]
+          - [menta fresca, 1, manojo]
+          - [chiles verdes, 2, null]
+          - [jengibre fresco, 2, cm]
+          - [ajo, 1, diente]
+          - [zumo de limón, 2, cucharada]
+          - [comino molido, 0.5, cucharadita]
+          - [azúcar, 1, cucharadita]
+          - [sal, 0.5, cucharadita]
+    steps:
+      - Lava las hierbas y quita los tallos más gruesos de la menta.
+      - Tritúralo todo con 3-4 cucharadas de agua fría hasta obtener una salsa fina.
+      - "Prueba y ajusta de sal, limón y azúcar. Sírvela con samosas, bhajis o pollo tandoori."
+
+  - name: Chapatis
+    health: [GREEN, "Pan plano de harina integral sin grasa: fibra y hidratos de absorción lenta."]
+    nutrition: [140, 5, 28, 1]
+    photo: cocina-india/chapatis.jpg
+    category: Panes y masas
+    difficulty: MEDIUM
+    prep: 40
+    cook: 15
+    servings: 8
+    notes: Se cocinan en una sartén muy caliente y sin aceite; al final se pueden untar con un poco de ghee.
+    tags: [pan, vegano]
+    ingredients:
+      - items:
+          - [harina integral de trigo (atta), 300, g]
+          - [agua templada, 200, ml]
+          - [sal, 0.5, cucharadita]
+          - [ghee (opcional), 1, cucharada]
+    steps:
+      - "Mezcla la harina con la sal y añade el agua poco a poco, amasando 8 minutos hasta obtener una masa suave. Tápala y déjala reposar 30 minutos."
+      - "Divide la masa en 8 bolas y estíralas en círculos finos de unos 18 cm, con un poco de harina."
+      - "Cocina cada chapati en una sartén muy caliente 30 segundos, dale la vuelta y cocina 1 minuto más."
+      - Dale la vuelta otra vez y presiona los bordes con un paño para que se hinche. Guárdalos envueltos en un paño y úntalos con ghee si quieres.
+
+  - name: Aloo paratha
+    health: [YELLOW, "Pan integral relleno de patata y cocinado con ghee: saciante pero bastante calórico."]
+    nutrition: [320, 8, 48, 11]
+    photo: cocina-india/aloo-paratha.jpg
+    category: Panes y masas
+    difficulty: MEDIUM
+    prep: 40
+    cook: 25
+    servings: 6
+    origin: Punyab
+    notes: "Es un desayuno típico del norte de la India, con yogur, encurtidos y un poco de mantequilla."
+    tags: [pan, vegetariano, desayuno]
+    ingredients:
+      - group: Masa
+        items:
+          - [harina integral de trigo (atta), 300, g]
+          - [agua templada, 190, ml]
+          - [sal, 0.5, cucharadita]
+      - group: Relleno
+        items:
+          - [patatas, 500, g]
+          - [chile verde, 1, null]
+          - [jengibre fresco rallado, 1, cucharadita]
+          - [cilantro fresco, 1, puñado]
+          - [comino molido, 1, cucharadita]
+          - [garam masala, 0.5, cucharadita]
+          - [amchur o zumo de limón, 1, cucharadita]
+          - [sal, 1, cucharadita]
+      - group: Para cocinar
+        items:
+          - [ghee, 3, cucharada]
+    steps:
+      - Amasa la harina con la sal y el agua hasta obtener una masa suave. Tápala y déjala reposar 30 minutos.
+      - "Cuece las patatas, pélalas y hazlas puré sin grumos. Mézclalas con el resto de ingredientes del relleno."
+      - "Divide la masa y el relleno en 6 porciones. Estira una bola de masa en un círculo pequeño, pon el relleno en el centro, cierra la masa por encima y vuelve a estirarla con cuidado hasta unos 18 cm."
+      - Cocina cada paratha en una sartén caliente 1 minuto por lado; luego úntalo con ghee y dóralo por ambos lados hasta que tenga manchas tostadas.
+      - Sírvelos calientes con yogur y encurtidos.
+
+  - name: Kheer
+    health: [YELLOW, "Arroz con leche al cardamomo con frutos secos: postre con azúcar, mejor en raciones pequeñas."]
+    nutrition: [310, 9, 46, 10]
+    photo: cocina-india/kheer.jpg
+    category: Postres
+    difficulty: EASY
+    prep: 5
+    cook: 50
+    servings: 6
+    tags: [postre, vegetariano, sin gluten]
+    ingredients:
+      - items:
+          - [arroz basmati, 80, g]
+          - [leche entera, 1.2, l]
+          - [azúcar, 100, g]
+          - [vainas de cardamomo, 5, null]
+          - [hebras de azafrán, 1, pizca]
+          - [almendras laminadas, 30, g]
+          - [pistachos, 20, g]
+          - [pasas, 30, g]
+    steps:
+      - Lava el arroz y déjalo en remojo 20 minutos. Escúrrelo y machácalo un poco con los dedos.
+      - "Lleva la leche a ebullición en una olla de fondo grueso, añade el arroz y cuece a fuego suave 40 minutos, removiendo a menudo para que no se pegue."
+      - "Añade el azúcar, las semillas de cardamomo machacadas, el azafrán, las pasas y la mitad de los frutos secos. Cuece 10 minutos más, hasta que espese."
+      - "Sírvelo templado o frío, con el resto de las almendras y los pistachos picados por encima."
+
+  - name: Lassi de mango
+    health: [YELLOW, "Batido de yogur y mango: aporta calcio y fruta, pero lleva azúcar."]
+    nutrition: [210, 7, 36, 4]
+    photo: cocina-india/lassi-de-mango.jpg
+    category: Bebidas
+    difficulty: EASY
+    prep: 5
+    cook: 0
+    servings: 4
+    tags: [bebida, vegetariano, sin gluten]
+    utensils: [Batidora]
+    ingredients:
+      - items:
+          - [mango maduro (o pulpa de mango), 400, g]
+          - [yogur natural, 400, g]
+          - [leche fría, 200, ml]
+          - [azúcar o miel, 2, cucharada]
+          - [cardamomo molido, 1, pizca]
+          - [cubitos de hielo, 6, null]
+    steps:
+      - Pela el mango y córtalo en trozos.
+      - "Tritúralo con el yogur, la leche, el azúcar, el cardamomo y el hielo hasta que quede espumoso."
+      - Sirve enseguida en vasos fríos.
+
+  - name: Masala chai
+    health: [YELLOW, "Té negro con leche y especias: reconfortante, aunque se toma con azúcar."]
+    nutrition: [90, 3, 13, 3]
+    photo: cocina-india/masala-chai.jpg
+    category: Bebidas
+    difficulty: EASY
+    prep: 5
+    cook: 10
+    servings: 4
+    tags: [bebida, caliente, vegetariano]
+    ingredients:
+      - items:
+          - [agua, 500, ml]
+          - [leche entera, 400, ml]
+          - [té negro (assam) en hebras, 3, cucharadita]
+          - [jengibre fresco, 3, cm]
+          - [vainas de cardamomo, 4, null]
+          - [clavos, 2, null]
+          - [canela, 1, rama]
+          - [pimienta negra en grano, 4, null]
+          - [azúcar, 3, cucharada]
+    steps:
+      - "Machaca ligeramente el cardamomo, los clavos, la pimienta y el jengibre."
+      - Hierve el agua con las especias y la canela 5 minutos.
+      - "Añade el té y el azúcar y hierve 2 minutos. Agrega la leche y deja que suba el hervor dos veces, bajando el fuego entre medias."
+      - Cuélalo y sírvelo muy caliente.

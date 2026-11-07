@@ -1,0 +1,300 @@
+id: fusion-criolla
+version: 1
+updated: 2026-11-07
+language: es
+name: "Cocina fusión: criolla"
+series: Cocina fusión
+description: >-
+  La cocina criolla de Nueva Orleans, donde se mezclaron Francia, España, África occidental y el
+  Caribe: gambas a la criolla, alubias rojas con arroz, étouffée de cangrejo de río, grillades con
+  sémola de maíz, arroz sucio, muffuletta, beignets y pudin de pan con salsa de whisky.
+author: Miga
+authorGithub: calamares00
+cover:
+  emoji: "🦐"
+  kicker: Cocina fusión
+  title: Criolla
+  colors: ["#4c1d95", "#ca8a04"]
+defaults:
+  origin: Nueva Orleans
+  originCountry: US
+  source: "Pack «Cocina fusión: criolla» de Miga"
+recipes:
+
+  - name: Gambas a la criolla
+    health: [GREEN, "Gambas en salsa de tomate con la 'santísima trinidad' de cebolla, apio y pimiento: ligera y con proteína magra."]
+    nutrition: [380, 30, 44, 9]
+    photo: fusion-criolla/gambas-a-la-criolla.jpg
+    category: Pescados y mariscos
+    difficulty: EASY
+    prep: 15
+    cook: 35
+    servings: 4
+    tags: [gambas, picante]
+    ingredients:
+      - items:
+          - [gambas peladas, 600, g]
+          - [mantequilla o aceite, 2, cucharada]
+          - [cebolla, 1, null]
+          - [apio, 2, rama]
+          - [pimiento verde, 1, null]
+          - [ajo, 3, diente]
+          - [tomate triturado, 400, g]
+          - [caldo de marisco o de pollo, 200, ml]
+          - [hoja de laurel, 2, null]
+          - [tomillo seco, 1, cucharadita]
+          - [pimienta de cayena, 0.5, cucharadita]
+          - [salsa Worcestershire, 1, cucharadita]
+          - [salsa picante tipo Tabasco, 1, cucharadita]
+          - [cebolleta, 2, null]
+          - [arroz blanco cocido, 600, g]
+          - [sal, null, null]
+    steps:
+      - "Pocha la cebolla, el apio y el pimiento picados en la mantequilla 10 minutos. Añade el ajo."
+      - "Agrega el tomate, el caldo, el laurel, el tomillo, la cayena y la Worcestershire, sala y cuece 20 minutos."
+      - "Añade las gambas y cuece 3-4 minutos, hasta que estén rosadas. Ajusta el picante con la salsa picante."
+      - Sirve sobre arroz blanco con cebolleta picada.
+
+  - name: Alubias rojas con arroz
+    health: [GREEN, "Alubias rojas guisadas con arroz: mucha fibra y proteína vegetal; el embutido añade grasa."]
+    nutrition: [560, 26, 78, 16]
+    photo: fusion-criolla/alubias-rojas-con-arroz.jpg
+    category: Legumbres
+    difficulty: EASY
+    prep: 15
+    cook: 150
+    servings: 6
+    notes: "Tradicionalmente se cocinaba los lunes, día de colada, con el hueso del jamón del domingo."
+    tags: [legumbres, arroz]
+    ingredients:
+      - items:
+          - [alubias rojas secas, 500, g]
+          - [salchicha ahumada (andouille o similar), 300, g]
+          - [hueso de jamón o jarrete ahumado, 1, null]
+          - [cebolla, 1, null]
+          - [apio, 2, rama]
+          - [pimiento verde, 1, null]
+          - [ajo, 4, diente]
+          - [hojas de laurel, 2, null]
+          - [tomillo seco, 1, cucharadita]
+          - [pimienta de cayena, 0.5, cucharadita]
+          - [aceite, 2, cucharada]
+          - [arroz blanco cocido, 900, g]
+          - [sal y pimienta negra, null, null]
+    steps:
+      - Remoja las alubias la noche anterior y escúrrelas.
+      - "Dora la salchicha en rodajas en el aceite y resérvala. En la misma grasa, pocha la cebolla, el apio, el pimiento y el ajo picados 10 minutos."
+      - "Añade las alubias, el hueso, el laurel, el tomillo, la cayena y agua hasta cubrir 5 cm. Cuece a fuego suave 2 horas, hasta que estén muy tiernas."
+      - "Aplasta parte de las alubias contra la olla para que quede cremoso, vuelve a echar la salchicha y cuece 15 minutos. Salpimienta."
+      - Sirve sobre arroz blanco.
+
+  - name: Étouffée de cangrejo de río
+    health: [YELLOW, "Marisco en salsa de roux con mantequilla: buena proteína, pero la salsa es grasa."]
+    nutrition: [460, 28, 46, 18]
+    photo: fusion-criolla/etouffee-de-cangrejo-de-rio.jpg
+    category: Pescados y mariscos
+    difficulty: MEDIUM
+    prep: 15
+    cook: 35
+    servings: 4
+    notes: "Étouffée significa 'ahogado' en francés. Si no encuentras colas de cangrejo de río, usa gambas."
+    tags: [marisco, guiso]
+    ingredients:
+      - items:
+          - [colas de cangrejo de río peladas o gambas, 500, g]
+          - [mantequilla, 60, g]
+          - [harina, 3, cucharada]
+          - [cebolla, 1, null]
+          - [apio, 2, rama]
+          - [pimiento verde, 1, null]
+          - [ajo, 3, diente]
+          - [caldo de marisco, 400, ml]
+          - [sazonador cajún o criollo, 2, cucharadita]
+          - [hoja de laurel, 1, null]
+          - [cebolleta, 3, null]
+          - [perejil fresco, 1, puñado]
+          - [arroz blanco cocido, 600, g]
+          - [sal, null, null]
+    steps:
+      - "Derrite la mantequilla, añade la harina y cocina removiendo 8-10 minutos, hasta obtener un roux color caramelo."
+      - "Añade la cebolla, el apio y el pimiento picados y cocina 8 minutos. Agrega el ajo."
+      - "Incorpora el caldo poco a poco, el sazonador y el laurel, y cuece 15 minutos hasta que espese."
+      - Añade el marisco y cuece 4-5 minutos. Termina con la cebolleta y el perejil y sirve sobre arroz.
+
+  - name: Grillades con sémola de maíz
+    health: [YELLOW, "Filetes de ternera en salsa con sémola de maíz cremosa: completo pero contundente."]
+    nutrition: [620, 38, 50, 28]
+    photo: fusion-criolla/grillades-con-semola-de-maiz.jpg
+    category: Carnes
+    difficulty: MEDIUM
+    prep: 20
+    cook: 75
+    servings: 4
+    notes: Es un clásico del brunch de Nueva Orleans.
+    tags: [ternera, guiso, desayuno]
+    ingredients:
+      - group: Grillades
+        items:
+          - [filetes finos de ternera (tapa o redondo), 700, g]
+          - [harina, 3, cucharada]
+          - [aceite, 3, cucharada]
+          - [cebolla, 1, null]
+          - [apio, 1, rama]
+          - [pimiento verde, 1, null]
+          - [ajo, 3, diente]
+          - [tomate triturado, 400, g]
+          - [caldo de carne, 300, ml]
+          - [sazonador criollo, 2, cucharadita]
+          - [sal y pimienta negra, null, null]
+      - group: Sémola
+        items:
+          - [sémola de maíz (grits) o polenta, 200, g]
+          - [leche, 500, ml]
+          - [agua, 500, ml]
+          - [mantequilla, 40, g]
+          - [queso cheddar rallado (opcional), 60, g]
+          - [sal, 1, cucharadita]
+    steps:
+      - "Corta la carne en trozos medianos, sazónala con el sazonador y enharínala. Dórala en el aceite y resérvala."
+      - "En la misma sartén, pocha la cebolla, el apio, el pimiento y el ajo picados 8 minutos. Añade el tomate y el caldo."
+      - "Vuelve a echar la carne, tapa y cuece a fuego suave 1 hora, hasta que esté tierna."
+      - "Para la sémola, hierve la leche con el agua y la sal, añade la sémola en lluvia batiendo y cuece 20-25 minutos a fuego bajo, removiendo. Termina con la mantequilla y el queso."
+      - Sirve la sémola cremosa con las grillades y su salsa por encima.
+
+  - name: Arroz sucio
+    health: [YELLOW, "Arroz con carne picada e higaditos: mucho hierro y proteína, con algo de grasa."]
+    nutrition: [470, 24, 52, 17]
+    photo: fusion-criolla/arroz-sucio.jpg
+    category: Arroces
+    difficulty: EASY
+    prep: 15
+    cook: 35
+    servings: 4
+    notes: Su color 'sucio' viene de los higaditos picados.
+    tags: [arroz, carne]
+    ingredients:
+      - items:
+          - [arroz de grano largo, 250, g]
+          - [caldo de pollo, 600, ml]
+          - [carne picada de cerdo, 250, g]
+          - [higaditos de pollo, 150, g]
+          - [cebolla, 1, null]
+          - [apio, 1, rama]
+          - [pimiento verde, 1, null]
+          - [ajo, 2, diente]
+          - [sazonador criollo, 2, cucharadita]
+          - [aceite, 1, cucharada]
+          - [cebolleta, 2, null]
+          - [sal, null, null]
+    steps:
+      - Cuece el arroz en 500 ml de caldo hasta que esté hecho.
+      - Dora la carne picada en el aceite. Añade los higaditos muy picados y cocina 3 minutos.
+      - "Agrega la cebolla, el apio, el pimiento y el ajo picados y el sazonador, y cocina 8 minutos. Añade el resto del caldo y deja que reduzca."
+      - "Mezcla con el arroz, rectifica de sal y sirve con cebolleta."
+
+  - name: Muffuletta
+    health: [RED, "Bocadillo de embutidos italianos, queso y ensalada de aceitunas: muy calórico y salado."]
+    nutrition: [780, 36, 56, 46]
+    photo: fusion-criolla/muffuletta.jpg
+    category: Panes y masas
+    difficulty: EASY
+    prep: 25
+    cook: 0
+    servings: 6
+    origin: Nueva Orleans
+    notes: Lo inventaron los inmigrantes sicilianos del Central Grocery en 1906. Está mejor tras reposar prensado 1 hora.
+    tags: [bocadillo, frío]
+    ingredients:
+      - group: Ensalada de aceitunas
+        items:
+          - [aceitunas verdes sin hueso, 150, g]
+          - [aceitunas negras sin hueso, 80, g]
+          - [verduras encurtidas (giardiniera), 150, g]
+          - [pimiento asado, 1, null]
+          - [alcaparras, 1, cucharada]
+          - [ajo, 1, diente]
+          - [orégano seco, 1, cucharadita]
+          - [aceite de oliva, 5, cucharada]
+          - [vinagre de vino tinto, 1, cucharada]
+      - group: Bocadillo
+        items:
+          - [pan redondo de sésamo (unos 25 cm), 1, null]
+          - [salami, 120, g]
+          - [mortadela, 120, g]
+          - [jamón cocido o capicola, 120, g]
+          - [provolone en lonchas, 120, g]
+          - [mozzarella en lonchas, 100, g]
+    steps:
+      - "Pica las aceitunas, la giardiniera, el pimiento, las alcaparras y el ajo y mézclalos con el orégano, el aceite y el vinagre. Déjalo reposar al menos 1 hora."
+      - Corta el pan por la mitad y vacía un poco la miga.
+      - Unta las dos mitades con la ensalada de aceitunas y su aceite.
+      - "Alterna en la base los embutidos y los quesos, cierra con la tapa y envuelve en film."
+      - Pon un peso encima 1 hora y córtalo en 6 porciones.
+
+  - name: Beignets
+    health: [RED, "Buñuelos fritos cubiertos de azúcar glas: un dulce frito y azucarado."]
+    nutrition: [310, 6, 44, 12]
+    photo: fusion-criolla/beignets.jpg
+    category: Postres
+    difficulty: MEDIUM
+    prep: 30
+    cook: 20
+    servings: 8
+    origin: Nueva Orleans
+    notes: "Se toman con café con achicoria, como en el Café du Monde del Barrio Francés. La masa necesita unas 2 horas de levado."
+    tags: [postre, frito, desayuno]
+    ingredients:
+      - items:
+          - [harina de trigo, 450, g]
+          - [levadura seca de panadería, 7, g]
+          - [agua templada, 180, ml]
+          - [leche evaporada, 120, ml]
+          - [huevo, 1, null]
+          - [azúcar, 50, g]
+          - [mantequilla derretida, 30, g]
+          - [sal, 1, cucharadita]
+          - [aceite de girasol para freír, 1, l]
+          - [azúcar glas, 100, g]
+    steps:
+      - Disuelve la levadura en el agua con una cucharada de azúcar y déjala 10 minutos.
+      - "Mezcla con la leche, el huevo, el resto del azúcar, la mantequilla, la sal y la harina, y amasa hasta obtener una masa suave. Deja que doble su volumen, unas 2 horas."
+      - Estira la masa a 5 mm y córtala en cuadrados de 6 cm.
+      - "Fríelos en aceite a 180 °C 1-2 minutos por lado, hasta que se inflen y doren."
+      - Escúrrelos y cúbrelos con muchísimo azúcar glas. Sírvelos calientes.
+
+  - name: Pudin de pan con salsa de whisky
+    health: [RED, "Pudin de pan con huevo, leche y azúcar con salsa de mantequilla: muy dulce y calórico."]
+    nutrition: [520, 11, 66, 22]
+    photo: fusion-criolla/pudin-de-pan-con-salsa-de-whisky.jpg
+    category: Postres
+    difficulty: EASY
+    prep: 20
+    cook: 50
+    servings: 8
+    notes: Es la forma criolla de aprovechar el pan francés del día anterior.
+    tags: [postre, al horno]
+    utensils: [Horno]
+    ingredients:
+      - group: Pudin
+        items:
+          - [pan de barra del día anterior, 400, g]
+          - [leche entera, 750, ml]
+          - [huevos, 4, null]
+          - [azúcar, 150, g]
+          - [pasas, 80, g]
+          - [mantequilla derretida, 40, g]
+          - [esencia de vainilla, 1, cucharadita]
+          - [canela molida, 1, cucharadita]
+          - [nuez moscada, 1, pizca]
+      - group: Salsa de whisky
+        items:
+          - [mantequilla, 80, g]
+          - [azúcar, 100, g]
+          - [huevo, 1, null]
+          - [bourbon, 50, ml]
+    steps:
+      - Corta el pan en dados y remójalo en la leche 20 minutos.
+      - "Precalienta el horno a 175 °C. Bate los huevos con el azúcar, la vainilla y las especias y mézclalos con el pan y las pasas."
+      - "Pasa a una fuente untada con la mantequilla derretida y hornea 45-50 minutos, hasta que esté cuajado y dorado."
+      - "Para la salsa, derrite la mantequilla con el azúcar a fuego bajo. Fuera del fuego, añade el huevo batido removiendo deprisa y luego el bourbon."
+      - Sirve el pudin templado con la salsa caliente por encima.

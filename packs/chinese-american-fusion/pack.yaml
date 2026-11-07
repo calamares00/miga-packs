@@ -1,0 +1,285 @@
+id: chinese-american-fusion
+version: 1
+updated: 2026-11-07
+language: en
+name: "Fusion cuisine: Chinese-American"
+series: Fusion cuisine
+description: >-
+  The cooking Chinese immigrants created in the United States, the food of the takeout box: General
+  Tso's chicken, orange chicken, beef and broccoli, chop suey, egg foo young, crab rangoon,
+  Mongolian beef and lo mein.
+author: Miga
+authorGithub: calamares00
+cover:
+  emoji: "🥡"
+  kicker: Fusion cuisine
+  title: Chinese-American
+  colors: ["#991b1b", "#ef4444"]
+defaults:
+  origin: United States
+  originCountry: US
+  source: "Miga «Fusion cuisine: Chinese-American» pack"
+recipes:
+
+  - name: General Tso's chicken
+    health: [RED, "Battered fried chicken in a sweet sauce: very tasty, but high in fat and sugar."]
+    nutrition: [620, 34, 52, 30]
+    photo: fusion-chino-estadounidense/pollo-del-general-tso.jpg
+    category: Meat
+    difficulty: MEDIUM
+    prep: 20
+    cook: 20
+    servings: 4
+    origin: New York
+    notes: "Chef Peng Chang-kuei created it in Taiwan, and it became famous, sweeter, in New York restaurants in the 1970s."
+    tags: [chicken, fried, spicy]
+    utensils: [Wok]
+    ingredients:
+      - group: Chicken
+        items:
+          - [boneless chicken thighs, 700, g]
+          - [soy sauce, 1, tbsp]
+          - [egg, 1, null]
+          - [cornflour, 80, g]
+          - [sunflower oil for frying, 1, l]
+      - group: Sauce
+        items:
+          - [soy sauce, 3, tbsp]
+          - [rice vinegar, 2, tbsp]
+          - [sugar, 3, tbsp]
+          - [hoisin sauce, 1, tbsp]
+          - [chicken stock, 120, ml]
+          - [cornflour, 1, tbsp]
+          - [dried red chillies, 8, null]
+          - [garlic, 3, clove]
+          - [grated fresh ginger, 1, tbsp]
+          - [spring onions, 2, null]
+    steps:
+      - "Cut the chicken into chunks, mix it with the soy sauce and egg, then with the cornflour until well coated."
+      - "Fry it in oil at 170 °C for 4 minutes, remove it, heat the oil to 190 °C and fry it again for 2 minutes so it is crisp."
+      - "Mix the soy sauce, vinegar, sugar, hoisin, stock and cornflour."
+      - "In the wok with 1 tablespoon of oil, stir-fry the chillies, garlic and ginger for 30 seconds. Add the sauce and cook until thick and glossy."
+      - "Add the chicken, toss to coat and serve with chopped spring onion and white rice."
+
+  - name: Orange chicken
+    health: [RED, "Fried chicken in a sugary orange sauce: high in calories, fat and sugar."]
+    nutrition: [600, 33, 55, 27]
+    photo: fusion-chino-estadounidense/pollo-a-la-naranja.jpg
+    category: Meat
+    difficulty: MEDIUM
+    prep: 20
+    cook: 20
+    servings: 4
+    origin: California
+    tags: [chicken, fried]
+    utensils: [Wok]
+    ingredients:
+      - group: Chicken
+        items:
+          - [boneless chicken thighs, 700, g]
+          - [egg, 1, null]
+          - [cornflour, 60, g]
+          - [plain flour, 30, g]
+          - [salt, 0.5, tsp]
+          - [sunflower oil for frying, 1, l]
+      - group: Sauce
+        items:
+          - [orange juice, 200, ml]
+          - [orange zest, 1, tbsp]
+          - [brown sugar, 3, tbsp]
+          - [soy sauce, 2, tbsp]
+          - [rice vinegar, 2, tbsp]
+          - [garlic, 2, clove]
+          - [grated fresh ginger, 1, tsp]
+          - [chilli flakes, 0.5, tsp]
+          - [cornflour, 1, tbsp]
+    steps:
+      - "Cut the chicken into chunks, dip it in the beaten egg and then in the mix of cornflour, flour and salt."
+      - "Fry it in batches in oil at 175 °C for 5-6 minutes, until golden. Drain."
+      - "Put the juice, zest, sugar, soy sauce, vinegar, garlic, ginger and chilli in the wok and bring to the boil. Thicken with the cornflour mixed with a little water."
+      - "Add the chicken, toss until glazed and serve with rice."
+
+  - name: Beef and broccoli
+    health: [GREEN, "Beef stir-fried with broccoli in oyster sauce: protein and vegetables with little fat."]
+    nutrition: [340, 30, 16, 17]
+    photo: fusion-chino-estadounidense/ternera-con-brocoli.jpg
+    category: Meat
+    difficulty: EASY
+    prep: 20
+    cook: 10
+    servings: 4
+    tags: [beef, stir-fry, quick]
+    utensils: [Wok]
+    ingredients:
+      - items:
+          - [flank or skirt steak, 500, g]
+          - [broccoli, 500, g]
+          - [soy sauce, 2, tbsp]
+          - [cornflour, 2, tsp]
+          - [bicarbonate of soda, 0.25, tsp]
+          - [oyster sauce, 3, tbsp]
+          - [Shaoxing wine or dry sherry, 1, tbsp]
+          - [sugar, 1, tsp]
+          - [garlic, 3, clove]
+          - [grated fresh ginger, 1, tsp]
+          - [sunflower oil, 3, tbsp]
+    steps:
+      - "Slice the beef thinly against the grain and mix it with 1 tablespoon of soy sauce, the cornflour, the bicarbonate and 1 tablespoon of water. Leave for 15 minutes."
+      - Blanch the broccoli florets for 1 minute and drain.
+      - "Mix the oyster sauce, the rest of the soy sauce, the wine, the sugar and 80 ml of water."
+      - "Stir-fry the beef in a very hot wok with 2 tablespoons of oil for 2 minutes and remove it. Stir-fry the garlic and ginger in the remaining oil, add the broccoli and the sauce and, when it boils, return the beef. Serve with rice."
+
+  - name: Chop suey
+    health: [GREEN, "Stir-fried pork with plenty of vegetables and bean sprouts: balanced and light."]
+    nutrition: [300, 24, 14, 16]
+    photo: fusion-chino-estadounidense/chop-suey.jpg
+    category: Meat
+    difficulty: EASY
+    prep: 20
+    cook: 10
+    servings: 4
+    notes: "It was one of the first Chinese dishes to become popular in the US, as early as the late 19th century."
+    tags: [pork, stir-fry, vegetables]
+    utensils: [Wok]
+    ingredients:
+      - items:
+          - [pork loin, 400, g]
+          - [bean sprouts, 250, g]
+          - [celery, 2, stalk]
+          - [onion, 1, null]
+          - [mushrooms, 150, g]
+          - [pak choi or Chinese cabbage, 200, g]
+          - [soy sauce, 3, tbsp]
+          - [oyster sauce, 2, tbsp]
+          - [chicken stock, 150, ml]
+          - [cornflour, 1, tbsp]
+          - [grated fresh ginger, 1, tsp]
+          - [sunflower oil, 3, tbsp]
+    steps:
+      - Cut the pork into thin strips and mix with 1 tablespoon of soy sauce and 1 teaspoon of cornflour.
+      - "Slice the celery diagonally, the onion into wedges, the mushrooms thinly and the pak choi into pieces."
+      - "Stir-fry the pork in a very hot wok for 3 minutes and remove it. Stir-fry the ginger, onion, celery and mushrooms for 3 minutes; add the pak choi and sprouts and stir-fry for 1 minute."
+      - "Return the pork, add the stock mixed with the soy sauce, oyster sauce and the rest of the cornflour, and cook until thick. Serve with rice."
+
+  - name: Egg foo young
+    health: [YELLOW, "Omelettes with vegetables and prawns in gravy: good protein, although they are fried in a fair amount of oil."]
+    nutrition: [330, 22, 10, 22]
+    photo: fusion-chino-estadounidense/egg-foo-young.jpg
+    category: Eggs
+    difficulty: EASY
+    prep: 15
+    cook: 20
+    servings: 4
+    tags: [eggs, prawns]
+    ingredients:
+      - group: Omelettes
+        items:
+          - [eggs, 8, null]
+          - [peeled prawns or chopped roast pork, 200, g]
+          - [bean sprouts, 150, g]
+          - [spring onions, 3, null]
+          - [mushrooms, 100, g]
+          - [soy sauce, 1, tbsp]
+          - [sunflower oil, 6, tbsp]
+      - group: Gravy
+        items:
+          - [chicken stock, 250, ml]
+          - [oyster sauce, 1, tbsp]
+          - [soy sauce, 1, tbsp]
+          - [cornflour, 1, tbsp]
+          - [sugar, 1, tsp]
+    steps:
+      - "Make the gravy: bring the stock to the boil with the oyster sauce, soy sauce and sugar, and thicken with the cornflour mixed with a little water."
+      - "Beat the eggs with the soy sauce and mix in the chopped prawns, sprouts, spring onion and chopped mushrooms."
+      - "Heat 2 tablespoons of oil in a small pan and pour in a ladleful of the mixture. Fry for 2 minutes per side, until golden and set. Repeat."
+      - Serve the omelettes stacked and covered with the hot gravy.
+
+  - name: Crab rangoon
+    health: [RED, "Fried wontons filled with cream cheese and crab: a very high-calorie snack."]
+    nutrition: [340, 10, 24, 23]
+    photo: fusion-chino-estadounidense/crab-rangoon.jpg
+    category: Starters
+    difficulty: EASY
+    prep: 25
+    cook: 10
+    servings: 6
+    origin: San Francisco
+    notes: It was created at the Trader Vic's tiki restaurant in San Francisco in the mid-20th century.
+    tags: [fried, snack]
+    ingredients:
+      - items:
+          - [wonton wrappers, 30, null]
+          - [cream cheese, 200, g]
+          - [crab meat or surimi, 150, g]
+          - [spring onions, 2, null]
+          - [garlic, 1, clove]
+          - [Worcestershire sauce, 1, tsp]
+          - [sugar, 1, tsp]
+          - [sunflower oil for frying, 1, l]
+          - [sweet and sour sauce for dipping, null, null]
+    steps:
+      - "Mix the cream cheese with the flaked crab, chopped spring onion and garlic, Worcestershire sauce and sugar."
+      - "Put a teaspoon of filling in the centre of each wrapper, wet the edges with water and close it by bringing the four corners together into a star."
+      - "Fry in batches in oil at 175 °C for 2-3 minutes, until golden."
+      - Drain and serve hot with sweet and sour sauce.
+
+  - name: Mongolian beef
+    health: [YELLOW, "Beef stir-fried in a soy and brown sugar sauce: high in protein, but a sweet and salty sauce."]
+    nutrition: [430, 30, 26, 22]
+    photo: fusion-chino-estadounidense/ternera-mongola.jpg
+    category: Meat
+    difficulty: EASY
+    prep: 15
+    cook: 15
+    servings: 4
+    notes: "Despite the name, it does not come from Mongolia: it is a Taiwanese and American restaurant dish."
+    tags: [beef, stir-fry]
+    utensils: [Wok]
+    ingredients:
+      - items:
+          - [flank steak, 600, g]
+          - [cornflour, 4, tbsp]
+          - [sunflower oil, 5, tbsp]
+          - [soy sauce, 4, tbsp]
+          - [brown sugar, 3, tbsp]
+          - [garlic, 4, clove]
+          - [grated fresh ginger, 1, tbsp]
+          - [chilli flakes, 0.5, tsp]
+          - [spring onions, 6, null]
+    steps:
+      - Slice the beef thinly against the grain and toss the strips in the cornflour.
+      - "Fry the beef in the wok in 4 tablespoons of very hot oil, in batches, for 2 minutes, until crisp. Remove it."
+      - "Stir-fry the garlic, ginger and chilli in the remaining oil for 30 seconds. Add the soy sauce, sugar and 80 ml of water and cook for 3 minutes, until thick."
+      - "Return the beef with the spring onions cut into 4 cm pieces, toss for 1 minute and serve with rice."
+
+  - name: Lo mein
+    health: [YELLOW, "Egg noodles tossed with vegetables and chicken: a complete dish, but with plenty of carbohydrates and salt."]
+    nutrition: [520, 28, 66, 16]
+    photo: fusion-chino-estadounidense/lo-mein.jpg
+    category: Pasta
+    difficulty: EASY
+    prep: 15
+    cook: 10
+    servings: 4
+    tags: [noodles, chicken, quick]
+    utensils: [Wok]
+    ingredients:
+      - items:
+          - [egg noodles, 350, g]
+          - [chicken breast, 300, g]
+          - [carrot, 1, null]
+          - [Chinese cabbage, 200, g]
+          - [mushrooms, 150, g]
+          - [spring onions, 3, null]
+          - [garlic, 2, clove]
+          - [soy sauce, 3, tbsp]
+          - [dark soy sauce, 1, tbsp]
+          - [oyster sauce, 2, tbsp]
+          - [sesame oil, 1, tsp]
+          - [sugar, 1, tsp]
+          - [sunflower oil, 3, tbsp]
+    steps:
+      - "Cook the noodles as the packet says, drain them and toss with the sesame oil."
+      - "Mix the soy sauces, oyster sauce and sugar."
+      - "Stir-fry the chicken strips in a very hot wok for 4 minutes. Add the garlic, julienned carrot, mushrooms and cabbage and stir-fry for 3 minutes."
+      - "Add the noodles and the sauce and toss for 2 minutes, lifting the noodles so they are coated. Finish with the spring onion."

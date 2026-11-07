@@ -1,0 +1,43 @@
+# Origin of every photo in this folder: source page, author and licence (CC0 1.0, Public domain,
+# CC BY x.y or CC BY-SA x.y). tools/build.py refuses a recipe photo without an entry here.
+
+nachos.jpg:
+  source: https://commons.wikimedia.org/wiki/File:NACHOS_-_Montagues_Tex_Mex_2026-06-03.jpg
+  author: "Andy Li"
+  license: CC0 1.0
+
+chile-con-queso.jpg:
+  source: https://commons.wikimedia.org/wiki/File:(Cantina_Diablo%27s)_Chile_Con_Queso.jpg
+  author: "Hungry Dudes"
+  license: CC BY 2.0
+
+enchiladas-de-queso-con-chili-gravy.jpg:
+  source: https://commons.wikimedia.org/wiki/File:Tex-Mex_Cheese_Enchiladas_(10497632385).jpg
+  author: "Michele Frazier from USA"
+  license: CC BY 2.0
+
+tacos-crujientes-de-carne.jpg:
+  source: https://commons.wikimedia.org/wiki/File:Taqueria_Rosita_-_December_2024_-_Sarah_Stierch_09.jpg
+  author: "Missvain"
+  license: CC0 1.0
+
+tacos-de-desayuno.jpg:
+  source: https://commons.wikimedia.org/wiki/File:BreakfastTaco.jpg
+  author: "Paxsimius"
+  license: CC BY-SA 4.0
+
+pollo-king-ranch.jpg:
+  source: https://commons.wikimedia.org/wiki/File:King_Ranch_chicken_casserole.jpg
+  author: "Michael Coté"
+  license: CC BY 2.0
+
+frito-pie.jpg:
+  source: https://commons.wikimedia.org/wiki/File:Frito_Pie_in_Ouagadougou,_Burkina_Faso,_2009.jpg
+  author: "Jeff Attaway from Dakar, Senegal"
+  license: CC BY 2.0
+
+sopaipillas.jpg:
+  source: https://commons.wikimedia.org/wiki/File:Sopapillas.jpg
+  author: "Popo le Chien"
+  license: CC0 1.0
+

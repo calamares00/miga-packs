@@ -1,0 +1,283 @@
+id: fusion-italoestadounidense
+version: 1
+updated: 2026-11-07
+language: es
+name: "Cocina fusión: italoestadounidense"
+series: Cocina fusión
+description: >-
+  La cocina de los inmigrantes italianos en Nueva York, Nueva Jersey y San Francisco, más generosa
+  en carne, queso y salsa que la de Italia: espaguetis con albóndigas, pollo a la parmesana, penne
+  alla vodka, fettuccine Alfredo, ziti al horno, gambas scampi, cioppino y sopa de boda italiana.
+author: Miga
+authorGithub: calamares00
+cover:
+  emoji: "🍝"
+  kicker: Cocina fusión
+  title: Italoestadounidense
+  colors: ["#166534", "#dc2626"]
+defaults:
+  origin: Estados Unidos
+  originCountry: US
+  source: "Pack «Cocina fusión: italoestadounidense» de Miga"
+recipes:
+
+  - name: Espaguetis con albóndigas
+    health: [YELLOW, "Pasta con albóndigas en salsa de tomate: completa y saciante, con bastantes calorías."]
+    nutrition: [720, 38, 82, 26]
+    photo: fusion-italoestadounidense/espaguetis-con-albondigas.jpg
+    category: Pastas
+    difficulty: MEDIUM
+    prep: 30
+    cook: 45
+    servings: 4
+    origin: Nueva York
+    tags: [pasta, carne]
+    ingredients:
+      - group: Albóndigas
+        items:
+          - [carne picada de ternera, 300, g]
+          - [carne picada de cerdo, 200, g]
+          - [pan rallado, 50, g]
+          - [leche, 60, ml]
+          - [huevo, 1, null]
+          - [parmesano rallado, 40, g]
+          - [ajo, 2, diente]
+          - [perejil fresco, 1, puñado]
+          - [sal y pimienta negra, null, null]
+      - group: Salsa y pasta
+        items:
+          - [aceite de oliva, 3, cucharada]
+          - [cebolla, 1, null]
+          - [ajo, 2, diente]
+          - [tomate triturado, 800, g]
+          - [orégano seco, 1, cucharadita]
+          - [albahaca fresca, 1, puñado]
+          - [espaguetis, 400, g]
+    steps:
+      - "Remoja el pan rallado en la leche y mézclalo con las carnes, el huevo, el parmesano, el ajo y el perejil picados, sal y pimienta. Forma albóndigas de 4 cm."
+      - Dóralas en el aceite por todos los lados y resérvalas.
+      - "En la misma cazuela, pocha la cebolla picada 8 minutos, añade el ajo, el tomate y el orégano y sala. Cuece 10 minutos."
+      - Añade las albóndigas y cuece tapado 25 minutos a fuego suave.
+      - "Cuece los espaguetis, mézclalos con parte de la salsa y sírvelos con las albóndigas, albahaca y más parmesano."
+
+  - name: Pollo a la parmesana
+    health: [RED, "Pollo empanado y frito gratinado con queso: mucha proteína, pero frito y con queso."]
+    nutrition: [640, 52, 30, 34]
+    photo: fusion-italoestadounidense/pollo-a-la-parmesana.jpg
+    category: Carnes
+    difficulty: MEDIUM
+    prep: 20
+    cook: 30
+    servings: 4
+    notes: Es la versión americana de las berenjenas a la parmesana italianas.
+    tags: [pollo, al horno, frito]
+    utensils: [Horno]
+    ingredients:
+      - items:
+          - [pechugas de pollo, 2, null]
+          - [harina, 50, g]
+          - [huevos, 2, null]
+          - [pan rallado, 100, g]
+          - [parmesano rallado, 60, g]
+          - [aceite de oliva para freír, 150, ml]
+          - [salsa de tomate marinara, 400, ml]
+          - [mozzarella, 200, g]
+          - [albahaca fresca, 1, puñado]
+          - [sal y pimienta negra, null, null]
+    steps:
+      - Abre las pechugas en dos filetes finos y aplánalos a 1 cm. Salpimienta.
+      - "Pásalos por harina, huevo batido y pan rallado mezclado con la mitad del parmesano."
+      - "Fríelos en el aceite 3 minutos por lado, hasta que estén dorados. Precalienta el horno a 220 °C."
+      - "Pon un poco de salsa en una fuente, coloca el pollo, cúbrelo con salsa, mozzarella en lonchas y el resto del parmesano."
+      - "Hornea 12-15 minutos, hasta que el queso burbujee. Sirve con albahaca y espaguetis."
+
+  - name: Penne alla vodka
+    health: [YELLOW, "Pasta en salsa de tomate con nata: sabrosa, pero con bastante grasa de la nata."]
+    nutrition: [640, 18, 82, 24]
+    photo: fusion-italoestadounidense/penne-alla-vodka.jpg
+    category: Pastas
+    difficulty: EASY
+    prep: 10
+    cook: 25
+    servings: 4
+    notes: El alcohol del vodka se evapora; lo que queda realza el sabor del tomate.
+    tags: [pasta, rápido, vegetariano]
+    ingredients:
+      - items:
+          - [penne, 400, g]
+          - [mantequilla, 30, g]
+          - [aceite de oliva, 1, cucharada]
+          - [chalota, 1, null]
+          - [ajo, 2, diente]
+          - [concentrado de tomate, 4, cucharada]
+          - [vodka, 60, ml]
+          - [nata para cocinar, 200, ml]
+          - [copos de chile, 0.5, cucharadita]
+          - [parmesano rallado, 50, g]
+          - [albahaca fresca, 1, puñado]
+          - [sal, null, null]
+    steps:
+      - Pon a cocer la pasta en abundante agua con sal.
+      - "Pocha la chalota y el ajo picados en la mantequilla y el aceite 4 minutos. Añade el concentrado y el chile y cocina 3 minutos, hasta que oscurezca."
+      - Añade el vodka y deja que se evapore 1 minuto. Incorpora la nata y cuece 2 minutos.
+      - "Escurre la pasta al dente, mézclala con la salsa, el parmesano y un poco de agua de cocción. Sirve con albahaca."
+
+  - name: Fettuccine Alfredo
+    health: [RED, "Pasta con mantequilla, nata y parmesano: muy calórica y rica en grasa saturada."]
+    nutrition: [780, 22, 80, 42]
+    photo: fusion-italoestadounidense/fettuccine-alfredo.jpg
+    category: Pastas
+    difficulty: EASY
+    prep: 5
+    cook: 15
+    servings: 4
+    notes: "En Roma, Alfredo di Lelio la hacía solo con mantequilla y parmesano; la nata la añadieron en EE. UU."
+    tags: [pasta, rápido, vegetariano]
+    ingredients:
+      - items:
+          - [fettuccine, 400, g]
+          - [mantequilla, 60, g]
+          - [nata para cocinar, 250, ml]
+          - [parmesano rallado, 100, g]
+          - [ajo, 1, diente]
+          - [nuez moscada, 1, pizca]
+          - [perejil fresco, 1, puñado]
+          - [sal y pimienta negra, null, null]
+    steps:
+      - Cuece la pasta en abundante agua con sal.
+      - "Derrite la mantequilla con el ajo aplastado, añade la nata y cuece a fuego suave 4 minutos. Retira el ajo."
+      - "Fuera del fuego añade el parmesano poco a poco, removiendo, y sazona con nuez moscada, sal y pimienta."
+      - Mezcla la pasta escurrida con la salsa y un poco de agua de cocción hasta que quede cremosa. Sirve con perejil.
+
+  - name: Ziti al horno
+    health: [RED, "Pasta gratinada con salsa de carne, ricotta y mozzarella: muy calórica."]
+    nutrition: [760, 40, 78, 31]
+    photo: fusion-italoestadounidense/ziti-al-horno.jpg
+    category: Pastas
+    difficulty: EASY
+    prep: 20
+    cook: 45
+    servings: 6
+    tags: [pasta, al horno, carne]
+    utensils: [Horno]
+    ingredients:
+      - items:
+          - [ziti o penne, 500, g]
+          - [carne picada de ternera o salchicha italiana, 400, g]
+          - [cebolla, 1, null]
+          - [ajo, 3, diente]
+          - [tomate triturado, 800, g]
+          - [orégano seco, 1, cucharadita]
+          - [ricotta, 400, g]
+          - [huevo, 1, null]
+          - [mozzarella, 250, g]
+          - [parmesano rallado, 60, g]
+          - [aceite de oliva, 2, cucharada]
+          - [sal y pimienta negra, null, null]
+    steps:
+      - "Dora la carne con la cebolla picada en el aceite. Añade el ajo, el tomate y el orégano, sala y cuece 15 minutos."
+      - Precalienta el horno a 190 °C. Cuece la pasta 2 minutos menos de lo indicado.
+      - "Mezcla la ricotta con el huevo, la mitad del parmesano y pimienta."
+      - "En una fuente, alterna pasta mezclada con salsa, cucharadas de ricotta y mozzarella, terminando con salsa, mozzarella y parmesano."
+      - "Hornea 25 minutos, hasta que esté dorado y burbujeante."
+
+  - name: Gambas scampi
+    health: [YELLOW, "Gambas con ajo, vino y mantequilla: proteína magra, con grasa de la mantequilla."]
+    nutrition: [560, 32, 64, 18]
+    photo: fusion-italoestadounidense/gambas-scampi.jpg
+    category: Pescados y mariscos
+    difficulty: EASY
+    prep: 10
+    cook: 15
+    servings: 4
+    notes: En Italia los scampi son cigalas; en EE. UU. el nombre pasó a designar esta forma de cocinar las gambas.
+    tags: [gambas, pasta, rápido]
+    ingredients:
+      - items:
+          - [gambas grandes peladas, 500, g]
+          - [linguine, 350, g]
+          - [mantequilla, 50, g]
+          - [aceite de oliva, 2, cucharada]
+          - [ajo, 5, diente]
+          - [copos de chile, 0.5, cucharadita]
+          - [vino blanco, 120, ml]
+          - [zumo de limón, 2, cucharada]
+          - [perejil fresco, 1, puñado]
+          - [sal y pimienta negra, null, null]
+    steps:
+      - Cuece la pasta en abundante agua con sal.
+      - "Calienta el aceite y la mitad de la mantequilla, saltea las gambas salpimentadas 1 minuto por lado y sácalas."
+      - "Añade el ajo laminado y el chile, y luego el vino y el limón. Reduce a la mitad e incorpora el resto de la mantequilla."
+      - "Vuelve a echar las gambas, añade la pasta escurrida y el perejil y mezcla con un poco de agua de cocción."
+
+  - name: Cioppino
+    health: [GREEN, "Guiso de pescado y marisco en caldo de tomate y vino: mucha proteína y poca grasa."]
+    nutrition: [380, 44, 16, 13]
+    photo: fusion-italoestadounidense/cioppino.jpg
+    category: Pescados y mariscos
+    difficulty: MEDIUM
+    prep: 25
+    cook: 40
+    servings: 6
+    origin: San Francisco
+    notes: Lo crearon los pescadores genoveses del barrio de North Beach con lo que sobraba de la pesca del día.
+    tags: [pescado, marisco, guiso]
+    ingredients:
+      - items:
+          - [filetes de pescado blanco firme (rape o merluza), 500, g]
+          - [gambas, 300, g]
+          - [mejillones, 500, g]
+          - [almejas, 300, g]
+          - [aceite de oliva, 4, cucharada]
+          - [cebolla, 1, null]
+          - [hinojo, 1, null]
+          - [ajo, 4, diente]
+          - [copos de chile, 0.5, cucharadita]
+          - [concentrado de tomate, 2, cucharada]
+          - [vino blanco, 250, ml]
+          - [tomate triturado, 400, g]
+          - [caldo de pescado, 750, ml]
+          - [hoja de laurel, 1, null]
+          - [perejil fresco, 1, puñado]
+          - [pan de masa madre para servir, null, null]
+    steps:
+      - "Pocha en el aceite la cebolla y el hinojo picados 8 minutos. Añade el ajo, el chile y el concentrado y cocina 2 minutos."
+      - "Añade el vino y deja que reduzca a la mitad. Incorpora el tomate, el caldo y el laurel y cuece 20 minutos."
+      - "Añade las almejas y los mejillones, tapa y cuece 3 minutos. Agrega el pescado en trozos y las gambas y cuece 4-5 minutos más."
+      - Desecha los moluscos que no se hayan abierto y sirve con perejil y pan tostado.
+
+  - name: Sopa de boda italiana
+    health: [GREEN, "Caldo con albondiguitas, verdura de hoja y pasta pequeña: completa y ligera."]
+    nutrition: [380, 26, 30, 17]
+    photo: fusion-italoestadounidense/sopa-de-boda-italiana.jpg
+    category: Sopas y cremas
+    difficulty: EASY
+    prep: 25
+    cook: 25
+    servings: 6
+    notes: "El nombre viene de la minestra maritata napolitana, donde la carne y la verdura 'se casan'; no es una sopa de bodas."
+    tags: [sopa, carne]
+    ingredients:
+      - group: Albondiguitas
+        items:
+          - [carne picada mixta, 400, g]
+          - [pan rallado, 30, g]
+          - [huevo, 1, null]
+          - [parmesano rallado, 40, g]
+          - [perejil fresco, 1, puñado]
+          - [sal y pimienta negra, null, null]
+      - group: Sopa
+        items:
+          - [aceite de oliva, 2, cucharada]
+          - [cebolla, 1, null]
+          - [zanahorias, 2, null]
+          - [apio, 2, rama]
+          - [caldo de pollo, 2, l]
+          - [pasta pequeña (acini di pepe u orzo), 120, g]
+          - [escarola o espinacas, 200, g]
+          - [parmesano para servir, null, null]
+    steps:
+      - Mezcla los ingredientes de las albondiguitas y forma bolitas de 2 cm.
+      - "Pocha en el aceite la cebolla, la zanahoria y el apio picados 8 minutos. Añade el caldo y lleva a ebullición."
+      - Echa las albondiguitas y la pasta y cuece 10 minutos a fuego suave.
+      - "Añade la verdura troceada, cuece 2 minutos y sirve con parmesano rallado."

@@ -1,0 +1,312 @@
+id: fusion-peranakan
+version: 1
+updated: 2026-11-07
+language: es
+name: "Cocina fusión: peranakan"
+series: Cocina fusión
+description: >-
+  La cocina nyonya de los peranakan, descendientes de chinos y malayos de Malaca, Penang y
+  Singapur, que mezcla técnicas chinas con especias, coco y tamarindo: laksa lemak, asam laksa,
+  ayam pongteh, ayam buah keluak, otak-otak, kueh pie tee, chap chye y kuih dadar.
+author: Miga
+authorGithub: calamares00
+cover:
+  emoji: "🥥"
+  kicker: Cocina fusión
+  title: Peranakan
+  colors: ["#0f766e", "#ec4899"]
+defaults:
+  origin: Malasia y Singapur
+  originCountry: MY
+  source: "Pack «Cocina fusión: peranakan» de Miga"
+recipes:
+
+  - name: Laksa lemak
+    health: [YELLOW, "Sopa de fideos con leche de coco, gambas y pollo: muy completa, pero rica en grasa del coco."]
+    nutrition: [620, 32, 52, 32]
+    photo: fusion-peranakan/laksa-lemak.jpg
+    category: Sopas y cremas
+    difficulty: MEDIUM
+    prep: 30
+    cook: 30
+    servings: 4
+    origin: Singapur
+    notes: La pasta de laksa se puede comprar hecha; con ella el plato se prepara en 20 minutos.
+    tags: [sopa, fideos, coco, picante]
+    utensils: [Batidora]
+    ingredients:
+      - group: Pasta de especias (rempah)
+        items:
+          - [chalotas, 6, null]
+          - [ajo, 3, diente]
+          - [galanga o jengibre, 3, cm]
+          - [hierba limón, 2, tallo]
+          - [chiles rojos secos remojados, 8, null]
+          - [cúrcuma, 1, cucharadita]
+          - [cilantro molido, 1, cucharada]
+          - [pasta de gambas (belacan), 1, cucharadita]
+          - [gambas secas remojadas, 2, cucharada]
+          - [nueces de macadamia o almendras, 4, null]
+      - group: Sopa
+        items:
+          - [aceite, 4, cucharada]
+          - [caldo de pollo, 1, l]
+          - [leche de coco, 400, ml]
+          - [pechuga de pollo, 300, g]
+          - [gambas, 300, g]
+          - [tofu frito (tau pok), 8, null]
+          - [fideos de arroz gruesos o fideos de huevo, 400, g]
+          - [brotes de soja, 150, g]
+          - [azúcar, 1, cucharadita]
+          - [sal, null, null]
+          - [hojas de laksa (rau ram) o cilantro vietnamita, 1, puñado]
+          - [huevos duros, 2, null]
+    steps:
+      - Tritura los ingredientes de la pasta de especias con un poco de agua hasta obtener una pasta fina.
+      - "Fríe la pasta en el aceite a fuego medio 8-10 minutos, removiendo, hasta que esté aromática y el aceite se separe."
+      - "Añade el caldo y lleva a ebullición. Cuece el pollo en él 12 minutos, sácalo y desmenúzalo. Cuece las gambas 2 minutos y sácalas."
+      - "Añade la leche de coco, el tofu, el azúcar y sal, y calienta sin que hierva fuerte."
+      - "Pon en cada cuenco fideos cocidos y brotes escaldados, cubre con la sopa y reparte el pollo, las gambas, medio huevo y las hojas de laksa picadas."
+
+  - name: Asam laksa
+    health: [GREEN, "Sopa ácida de pescado con tamarindo y fideos: ligera, con proteína y muy poca grasa."]
+    nutrition: [430, 28, 62, 7]
+    photo: fusion-peranakan/asam-laksa.jpg
+    category: Sopas y cremas
+    difficulty: MEDIUM
+    prep: 30
+    cook: 40
+    servings: 4
+    origin: Penang
+    notes: Tradicionalmente se hace con caballa. Se sirve con melaza de gambas (hae ko) por encima.
+    tags: [sopa, pescado, fideos]
+    utensils: [Batidora]
+    ingredients:
+      - items:
+          - [caballas, 600, g]
+          - [agua, 1.8, l]
+          - [pulpa de tamarindo, 50, g]
+          - [chalotas, 6, null]
+          - [chiles rojos frescos, 4, null]
+          - [chiles rojos secos remojados, 6, null]
+          - [hierba limón, 2, tallo]
+          - [galanga, 3, cm]
+          - [cúrcuma fresca o en polvo, 1, cucharadita]
+          - [pasta de gambas (belacan), 1, cucharadita]
+          - [flores de jengibre torch o tallos de hierba limón, 1, null]
+          - [azúcar, 2, cucharada]
+          - [sal, null, null]
+          - [fideos de arroz gruesos, 400, g]
+          - ["pepino, cebolla morada, piña y menta para servir", null, null]
+    steps:
+      - "Cuece las caballas en el agua 10 minutos. Sácalas, desmenuza la carne y cuela el caldo."
+      - "Tritura las chalotas, los chiles, la hierba limón, la galanga, la cúrcuma y la belacan."
+      - "Disuelve el tamarindo en un poco de caldo y cuélalo. Añádelo al caldo con la pasta, la flor de jengibre, el azúcar y sal y cuece 30 minutos."
+      - "Vuelve a echar el pescado desmenuzado y rectifica: debe ser ácido, picante y algo dulce."
+      - "Sirve sobre los fideos cocidos con pepino y cebolla en juliana, piña en tiras y menta."
+
+  - name: Ayam pongteh
+    health: [GREEN, "Pollo guisado con patata y pasta de soja fermentada: plato completo y sin apenas grasa añadida."]
+    nutrition: [430, 34, 30, 18]
+    photo: fusion-peranakan/ayam-pongteh.jpg
+    category: Carnes
+    difficulty: EASY
+    prep: 15
+    cook: 45
+    servings: 4
+    origin: Malaca
+    tags: [pollo, guiso]
+    ingredients:
+      - items:
+          - [muslos y contramuslos de pollo, 1, kg]
+          - [patatas, 3, null]
+          - [setas shiitake secas remojadas, 6, null]
+          - [chalotas, 10, null]
+          - [ajo, 6, diente]
+          - [taucheo (pasta de soja fermentada), 3, cucharada]
+          - [salsa de soja oscura, 2, cucharada]
+          - [azúcar de palma o moreno, 2, cucharada]
+          - [canela, 1, rama]
+          - [aceite, 3, cucharada]
+          - [agua, 500, ml]
+    steps:
+      - Machaca las chalotas y el ajo en un mortero hasta obtener una pasta.
+      - "Fríe la pasta en el aceite 5 minutos, añade el taucheo y la canela y fríe 2 minutos más."
+      - "Añade el pollo en trozos y dóralo. Agrega la soja oscura, el azúcar, las setas y el agua."
+      - "Tapa y cuece 20 minutos. Añade las patatas en trozos grandes y cuece 20 minutos más, hasta que estén tiernas y la salsa espesa."
+
+  - name: Ayam buah keluak
+    health: [YELLOW, "Pollo guisado en salsa de tamarindo y especias con nueces de keluak: proteína, con algo de grasa."]
+    nutrition: [470, 36, 16, 29]
+    photo: fusion-peranakan/ayam-buah-keluak.jpg
+    category: Carnes
+    difficulty: HARD
+    prep: 60
+    cook: 60
+    servings: 4
+    origin: Singapur
+    notes: "Es el plato más emblemático de la cocina peranakan. Las nueces de keluak se compran en tiendas del sudeste asiático y hay que remojarlas 3-4 días, cambiando el agua cada día; su pulpa negra sabe a chocolate amargo y trufa."
+    tags: [pollo, guiso, picante]
+    utensils: [Batidora]
+    ingredients:
+      - group: Rempah
+        items:
+          - [chalotas, 12, null]
+          - [ajo, 4, diente]
+          - [chiles rojos secos remojados, 15, null]
+          - [galanga, 4, cm]
+          - [hierba limón, 2, tallo]
+          - [cúrcuma, 1, cucharadita]
+          - [nueces de macadamia o almendras, 5, null]
+          - [pasta de gambas (belacan), 1, cucharada]
+      - group: Guiso
+        items:
+          - [nueces de keluak remojadas, 16, null]
+          - [carne picada de cerdo o gambas picadas, 100, g]
+          - [muslos y contramuslos de pollo, 1, kg]
+          - [pulpa de tamarindo, 50, g]
+          - [agua, 800, ml]
+          - [azúcar de palma o moreno, 2, cucharada]
+          - [aceite, 6, cucharada]
+          - [sal, null, null]
+    steps:
+      - "Cepilla las nueces remojadas, ábrelas por la parte plana con la punta de un cuchillo pesado y saca la pulpa negra. Mézclala con la carne picada, una pizca de sal y azúcar, y vuelve a rellenar las cáscaras."
+      - "Tritura los ingredientes del rempah hasta obtener una pasta fina y fríela en el aceite a fuego medio 10-12 minutos, hasta que esté oscura y aromática."
+      - Añade el pollo en trozos y dóralo en la pasta 5 minutos.
+      - "Disuelve el tamarindo en el agua, cuélalo y añádelo con el azúcar y sal. Agrega las nueces rellenas."
+      - Cuece tapado a fuego suave 45 minutos. Sirve con arroz; la pulpa de las nueces se saca con una cucharilla y se mezcla con la salsa.
+
+  - name: Otak-otak
+    health: [GREEN, "Pastel de pescado con coco y especias cocinado en hoja de plátano: proteína y poca grasa."]
+    nutrition: [250, 24, 6, 14]
+    photo: fusion-peranakan/otak-otak.jpg
+    category: Pescados y mariscos
+    difficulty: MEDIUM
+    prep: 40
+    cook: 15
+    servings: 4
+    origin: Malaca
+    tags: [pescado, coco]
+    utensils: [Batidora, Vaporera]
+    ingredients:
+      - items:
+          - [filetes de caballa o pescado blanco, 500, g]
+          - [leche de coco, 150, ml]
+          - [huevo, 1, null]
+          - [chalotas, 5, null]
+          - [chiles rojos secos remojados, 6, null]
+          - [hierba limón, 1, tallo]
+          - [galanga, 2, cm]
+          - [cúrcuma, 1, cucharadita]
+          - [pasta de gambas (belacan), 1, cucharadita]
+          - [hojas de lima kaffir, 4, null]
+          - [azúcar, 1, cucharadita]
+          - [sal, 1, cucharadita]
+          - [hojas de plátano, 8, hoja]
+    steps:
+      - "Tritura las chalotas, los chiles, la hierba limón, la galanga, la cúrcuma y la belacan."
+      - "Pica el pescado muy fino y mézclalo con la pasta, la leche de coco, el huevo, las hojas de lima en tiras finísimas, el azúcar y la sal."
+      - Pasa las hojas de plátano por la llama o agua caliente para ablandarlas y córtalas en rectángulos de 20 x 15 cm.
+      - "Pon 2 cucharadas de mezcla en cada hoja, dóblala en paquete y ciérrala con un palillo."
+      - Cuécelos al vapor 10 minutos o ásalos en la plancha 4 minutos por lado.
+
+  - name: Kueh pie tee
+    health: [YELLOW, "Cestitas fritas rellenas de verduras y gambas: el relleno es ligero, pero la cesta es frita."]
+    nutrition: [280, 10, 30, 13]
+    photo: fusion-peranakan/kueh-pie-tee.jpg
+    category: Entrantes
+    difficulty: HARD
+    prep: 40
+    cook: 40
+    servings: 6
+    notes: Las cestitas se fríen con un molde especial; también se venden hechas en tiendas asiáticas.
+    tags: [aperitivo, gambas]
+    ingredients:
+      - group: Cestitas
+        items:
+          - [harina de trigo, 100, g]
+          - [harina de arroz, 30, g]
+          - [huevo, 1, null]
+          - [agua, 200, ml]
+          - [sal, 1, pizca]
+          - [aceite de girasol para freír, 1, l]
+      - group: Relleno
+        items:
+          - [jícama o nabo, 500, g]
+          - [zanahoria, 1, null]
+          - [ajo, 3, diente]
+          - [taucheo (pasta de soja fermentada), 1, cucharada]
+          - [salsa de soja, 1, cucharada]
+          - [gambas cocidas peladas, 200, g]
+          - [huevo duro, 1, null]
+          - [cilantro fresco, 1, puñado]
+          - [salsa de chile, null, null]
+    steps:
+      - "Mezcla las harinas, el huevo, el agua y la sal en una masa líquida y déjala reposar 30 minutos."
+      - "Calienta el molde en el aceite a 175 °C, mójalo en la masa sin cubrirlo del todo y vuelve a meterlo en el aceite. Cuando la cesta se suelte, fríela 1 minuto más hasta que esté dorada. Repite."
+      - "Para el relleno, sofríe el ajo y el taucheo, añade la jícama y la zanahoria en juliana fina y la soja, y cuece 20 minutos hasta que estén tiernas."
+      - "Justo antes de servir, rellena las cestitas con la verdura escurrida y corona con una gamba, huevo rallado, cilantro y un poco de salsa de chile."
+
+  - name: Chap chye
+    health: [GREEN, "Guiso de col, setas y fideos de soja: ligero, con mucha verdura."]
+    nutrition: [230, 9, 30, 9]
+    photo: fusion-peranakan/chap-chye.jpg
+    category: Verduras
+    difficulty: EASY
+    prep: 20
+    cook: 25
+    servings: 4
+    notes: Es un plato del Año Nuevo Chino en las casas nyonya; está mejor al día siguiente.
+    tags: [verdura, guiso]
+    ingredients:
+      - items:
+          - [col blanca, 600, g]
+          - [setas shiitake secas, 6, null]
+          - [hongos oreja de madera secos, 10, g]
+          - [fideos de soja (glass noodles), 50, g]
+          - [piel de tofu seca o tofu frito, 50, g]
+          - [gambas secas, 2, cucharada]
+          - [ajo, 4, diente]
+          - [taucheo (pasta de soja fermentada), 2, cucharada]
+          - [salsa de soja, 1, cucharada]
+          - [aceite, 3, cucharada]
+          - [caldo o agua de remojo de las setas, 300, ml]
+    steps:
+      - "Remoja las setas, los hongos, los fideos, la piel de tofu y las gambas secas por separado 20 minutos. Corta las setas en láminas y la col en trozos grandes."
+      - "Fríe el ajo y las gambas secas en el aceite, añade el taucheo y fríe 1 minuto."
+      - "Añade las setas, los hongos y la col, y saltea 3 minutos. Agrega el caldo y la soja."
+      - "Tapa y cuece 15 minutos. Añade los fideos y el tofu y cuece 5 minutos más, hasta que la col esté muy tierna."
+
+  - name: Kuih dadar
+    health: [YELLOW, "Crepes de pandan rellenas de coco con azúcar de palma: dulce, con grasa del coco."]
+    nutrition: [300, 6, 42, 12]
+    photo: fusion-peranakan/kuih-dadar.jpg
+    category: Postres
+    difficulty: MEDIUM
+    prep: 30
+    cook: 25
+    servings: 6
+    tags: [postre, coco]
+    utensils: [Batidora]
+    ingredients:
+      - group: Relleno
+        items:
+          - [coco rallado fresco o deshidratado, 200, g]
+          - [azúcar de palma (gula melaka), 120, g]
+          - [agua, 80, ml]
+          - [hoja de pandan, 1, hoja]
+          - [sal, 1, pizca]
+      - group: Crepes
+        items:
+          - [harina de trigo, 150, g]
+          - [huevo, 1, null]
+          - [leche de coco, 300, ml]
+          - [hojas de pandan o extracto de pandan, 6, hoja]
+          - [sal, 1, pizca]
+          - [aceite, 1, cucharada]
+    steps:
+      - "Disuelve el azúcar de palma en el agua con la hoja de pandan, añade el coco y la sal y cuece 8 minutos hasta que esté húmedo pero sin líquido. Deja enfriar."
+      - Tritura las hojas de pandan con 3 cucharadas de agua y cuela el zumo verde.
+      - "Bate la harina con el huevo, la leche de coco, el zumo de pandan y la sal hasta obtener una masa fina. Déjala reposar 15 minutos."
+      - "Haz crepes finas en una sartén antiadherente apenas engrasada, sin que se doren."
+      - "Pon una cucharada de relleno en cada crepe, dobla los lados y enróllala como un rollito."

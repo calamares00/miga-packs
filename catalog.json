@@ -210,6 +210,19 @@
       "language": "es"
     },
     {
+      "id": "cocina-india",
+      "name": "Cocina del mundo: India",
+      "series": "Cocina del mundo",
+      "author": "Miga",
+      "authorGithub": "calamares00",
+      "description": "Curris, legumbres, panes y dulces de la India: pollo a la mantequilla, pollo tandoori, rogan josh, korma, vindaloo, palak paneer, chana masala, dal tadka, rajma, aloo gobi, baingan bharta, samosas, bhajis de cebolla, raita, chutney de menta, chapatis, aloo paratha, kheer, lassi de mango y masala chai.",
+      "coverImageUrl": null,
+      "latestVersion": 1,
+      "recipeCount": 20,
+      "downloadUrl": "dist/cocina-india-v1.zip",
+      "language": "es"
+    },
+    {
       "id": "cocina-indonesia",
       "name": "Cocina del mundo: Indonesia",
       "series": "Cocina del mundo",
@@ -228,11 +241,11 @@
       "series": "Cocina del mundo",
       "author": "Miga",
       "authorGithub": "calamares00",
-      "description": "Los grandes clásicos de las regiones de Italia: carbonara, amatriciana, cacio e pepe, lasaña, pasta alla Norma, espaguetis con almejas, risotto a la milanesa, ossobuco, saltimbocca, parmigiana, minestrone, pasta e fagioli, pizza margarita, focaccia, arancini, vitello tonnato, caponata, tiramisú y panna cotta. Hechos como en Italia, sin nata en la carbonara.",
+      "description": "Los grandes clásicos de las regiones de Italia: carbonara, amatriciana, cacio e pepe, lasaña, pasta alla Norma, espaguetis con almejas, risotto a la milanesa, ossobuco, saltimbocca, parmigiana, minestrone, pasta e fagioli, pizza margarita, focaccia, arancini, vitello tonnato, caponata, puttanesca, orecchiette con grelos, ñoquis a la sorrentina, pollo a la cazadora, ribollita, panzanella, carpaccio, calzone, tiramisú, panna cotta, cannoli y cantucci. Hechos como en Italia, sin nata en la carbonara.",
       "coverImageUrl": "packs/cocina-italiana/cover.jpg",
-      "latestVersion": 3,
-      "recipeCount": 20,
-      "downloadUrl": "dist/cocina-italiana-v3.zip",
+      "latestVersion": 4,
+      "recipeCount": 30,
+      "downloadUrl": "dist/cocina-italiana-v4.zip",
       "language": "es"
     },
     {
@@ -379,6 +392,19 @@
       "language": "en"
     },
     {
+      "id": "indian-cooking",
+      "name": "World cuisine: India",
+      "series": "World cuisine",
+      "author": "Miga",
+      "authorGithub": "calamares00",
+      "description": "Curries, pulses, breads and sweets from India: butter chicken, tandoori chicken, rogan josh, korma, vindaloo, palak paneer, chana masala, dal tadka, rajma, aloo gobi, baingan bharta, samosas, onion bhajis, raita, mint chutney, chapatis, aloo paratha, kheer, mango lassi and masala chai.",
+      "coverImageUrl": null,
+      "latestVersion": 1,
+      "recipeCount": 20,
+      "downloadUrl": "dist/indian-cooking-v1.zip",
+      "language": "en"
+    },
+    {
       "id": "indonesian-cooking",
       "name": "World cuisine: Indonesia",
       "series": "World cuisine",
@@ -397,11 +423,11 @@
       "series": "World cuisine",
       "author": "Miga",
       "authorGithub": "calamares00",
-      "description": "The great classics of Italy's regions: carbonara, amatriciana, cacio e pepe, lasagne, pasta alla Norma, spaghetti with clams, risotto alla milanese, ossobuco, saltimbocca, parmigiana, minestrone, pasta e fagioli, pizza margherita, focaccia, arancini, vitello tonnato, caponata, tiramisu and panna cotta. Made the Italian way, with no cream in the carbonara.",
+      "description": "The great classics of Italy's regions: carbonara, amatriciana, cacio e pepe, lasagne, pasta alla Norma, spaghetti with clams, risotto alla milanese, ossobuco, saltimbocca, parmigiana, minestrone, pasta e fagioli, pizza margherita, focaccia, arancini, vitello tonnato, caponata, puttanesca, orecchiette with turnip tops, gnocchi alla sorrentina, chicken cacciatore, ribollita, panzanella, carpaccio, calzone, tiramisu, panna cotta, cannoli and cantucci. Made the Italian way, with no cream in the carbonara.",
       "coverImageUrl": "packs/italian-cooking/cover.jpg",
-      "latestVersion": 3,
-      "recipeCount": 20,
-      "downloadUrl": "dist/italian-cooking-v3.zip",
+      "latestVersion": 4,
+      "recipeCount": 30,
+      "downloadUrl": "dist/italian-cooking-v4.zip",
       "language": "en"
     },
     {

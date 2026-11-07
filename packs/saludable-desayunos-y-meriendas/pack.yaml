@@ -1,0 +1,271 @@
+id: saludable-desayunos-y-meriendas
+version: 1
+updated: 2026-11-07
+language: es
+name: "Cocina saludable: desayunos y meriendas"
+series: Cocina saludable
+description: >-
+  Desayunos y meriendas con avena, fruta, yogur, frutos secos y huevo, con poco azúcar añadido:
+  porridge de manzana, avena remojada, granola casera, pudin de chía, tortitas de avena y plátano,
+  muffins de plátano, barritas de avena y dátiles, batido verde, tostada de requesón y fresas y
+  revuelto de espinacas.
+author: Miga
+authorGithub: calamares00
+cover:
+  emoji: "🥣"
+  kicker: Cocina saludable
+  title: Desayunos y meriendas
+  colors: ["#b45309", "#fbbf24"]
+defaults:
+  source: "Pack «Cocina saludable: desayunos y meriendas» de Miga"
+recipes:
+
+  - name: Porridge de avena con manzana y canela
+    health: [GREEN, "Avena con fruta y frutos secos: fibra y energía de absorción lenta."]
+    nutrition: [340, 11, 50, 11]
+    photo: saludable-desayunos-y-meriendas/porridge-de-avena-con-manzana-y-canela.jpg
+    category: Postres
+    difficulty: EASY
+    prep: 5
+    cook: 10
+    servings: 2
+    tags: [desayuno, vegetariano]
+    ingredients:
+      - items:
+          - [copos de avena, 80, g]
+          - [leche o bebida vegetal, 400, ml]
+          - [manzana, 1, null]
+          - [canela molida, 1, cucharadita]
+          - [nueces, 20, g]
+          - [miel (opcional), 1, cucharadita]
+          - [sal, 1, pizca]
+    steps:
+      - "Pon la avena, la leche, la sal y la mitad de la manzana rallada en un cazo."
+      - "Cuece a fuego medio 5-7 minutos, removiendo, hasta que espese."
+      - "Sirve con el resto de la manzana en dados, canela, nueces picadas y un hilo de miel si quieres."
+
+  - name: Avena remojada con frutos rojos
+    health: [GREEN, "Avena con yogur, semillas y fruta, sin cocinar: fibra, proteína y poco azúcar."]
+    nutrition: [330, 14, 44, 11]
+    photo: saludable-desayunos-y-meriendas/avena-remojada-con-frutos-rojos.jpg
+    category: Postres
+    difficulty: EASY
+    prep: 5
+    cook: 0
+    servings: 2
+    notes: Se prepara la noche anterior y aguanta 3 días en la nevera en tarros cerrados.
+    tags: [desayuno, vegetariano, sin cocción]
+    ingredients:
+      - items:
+          - [copos de avena, 80, g]
+          - [yogur natural, 150, g]
+          - [leche o bebida vegetal, 150, ml]
+          - [semillas de chía, 1, cucharada]
+          - [frutos rojos frescos o congelados, 150, g]
+          - [vainilla, 0.5, cucharadita]
+    steps:
+      - "Mezcla la avena con el yogur, la leche, la chía y la vainilla."
+      - "Reparte en dos tarros, alternando con los frutos rojos."
+      - Tapa y deja en la nevera toda la noche. Remueve antes de comer.
+
+  - name: Granola casera
+    health: [YELLOW, "Avena, frutos secos y semillas con poca miel: nutritiva, pero calórica; ración pequeña."]
+    nutrition: [210, 6, 22, 11]
+    photo: saludable-desayunos-y-meriendas/granola-casera.jpg
+    category: Postres
+    difficulty: EASY
+    prep: 10
+    cook: 25
+    servings: 12
+    notes: Una ración son unos 40 g. Se conserva 3 semanas en un bote hermético.
+    tags: [desayuno, vegano, al horno]
+    utensils: [Horno]
+    ingredients:
+      - items:
+          - [copos de avena, 250, g]
+          - [almendras, 80, g]
+          - [nueces, 50, g]
+          - [pipas de calabaza, 40, g]
+          - [semillas de sésamo, 2, cucharada]
+          - [miel o sirope de arce, 4, cucharada]
+          - [aceite de oliva suave o de coco, 3, cucharada]
+          - [canela molida, 1, cucharadita]
+          - [pasas o arándanos secos, 50, g]
+          - [sal, 1, pizca]
+    steps:
+      - "Precalienta el horno a 160 °C. Mezcla la avena, los frutos secos picados, las semillas, la canela y la sal."
+      - "Calienta la miel con el aceite, viértela sobre la mezcla y remueve hasta que todo esté humedecido."
+      - "Extiende en una bandeja con papel y hornea 20-25 minutos, removiendo a mitad, hasta que esté dorada."
+      - Deja enfriar del todo (se vuelve crujiente al enfriar) y añade las pasas.
+
+  - name: Pudin de chía con frutos rojos
+    health: [GREEN, "Semillas de chía con leche y fruta: fibra, omega-3 vegetal y sin azúcar añadido."]
+    nutrition: [260, 8, 28, 13]
+    photo: saludable-desayunos-y-meriendas/pudin-de-chia-con-frutos-rojos.jpg
+    category: Postres
+    difficulty: EASY
+    prep: 10
+    cook: 0
+    servings: 2
+    tags: [desayuno, vegano, sin gluten, sin cocción]
+    ingredients:
+      - items:
+          - [semillas de chía, 4, cucharada]
+          - [bebida de coco o leche, 300, ml]
+          - [frutos rojos frescos o congelados, 150, g]
+          - [vainilla, 0.5, cucharadita]
+          - [coco rallado, 1, cucharada]
+    steps:
+      - Mezcla la chía con la bebida y la vainilla. Remueve de nuevo a los 10 minutos para que no se apelmace.
+      - "Deja en la nevera al menos 4 horas o toda la noche, hasta que espese."
+      - "Aplasta la mitad de los frutos rojos con un tenedor. Sirve el pudin con el puré, el resto de la fruta y el coco."
+
+  - name: Tortitas de avena y plátano
+    health: [GREEN, "Tortitas sin harina refinada ni azúcar, endulzadas con plátano."]
+    nutrition: [290, 12, 42, 8]
+    photo: saludable-desayunos-y-meriendas/tortitas-de-avena-y-platano.jpg
+    category: Postres
+    difficulty: EASY
+    prep: 5
+    cook: 15
+    servings: 2
+    tags: [desayuno, vegetariano]
+    utensils: [Batidora]
+    ingredients:
+      - items:
+          - [plátano maduro, 1, null]
+          - [huevos, 2, null]
+          - [copos de avena, 60, g]
+          - [levadura química, 0.5, cucharadita]
+          - [canela molida, 0.5, cucharadita]
+          - [aceite de oliva suave, 1, cucharadita]
+          - [yogur y fruta para servir, null, null]
+    steps:
+      - "Tritura el plátano con los huevos, la avena, la levadura y la canela hasta obtener una masa espesa."
+      - Engrasa ligeramente una sartén antiadherente y cocina cucharadas de masa a fuego medio-bajo 2 minutos por lado.
+      - Sírvelas con yogur y fruta fresca.
+
+  - name: Muffins de plátano y avena
+    health: [GREEN, "Magdalenas de avena y plátano con muy poco azúcar añadido."]
+    nutrition: [170, 5, 24, 6]
+    photo: saludable-desayunos-y-meriendas/muffins-de-platano-y-avena.jpg
+    category: Postres
+    difficulty: EASY
+    prep: 15
+    cook: 22
+    servings: 12
+    notes: Aguantan 4 días en un recipiente cerrado y se congelan bien.
+    tags: [merienda, vegetariano, al horno]
+    utensils: [Horno]
+    ingredients:
+      - items:
+          - [plátanos muy maduros, 3, null]
+          - [huevos, 2, null]
+          - [yogur natural, 125, g]
+          - [aceite de oliva suave, 50, ml]
+          - [miel, 2, cucharada]
+          - [copos de avena, 150, g]
+          - [harina integral, 80, g]
+          - [levadura química, 2, cucharadita]
+          - [canela molida, 1, cucharadita]
+          - [nueces picadas, 40, g]
+    steps:
+      - "Precalienta el horno a 180 °C. Aplasta los plátanos y mézclalos con los huevos, el yogur, el aceite y la miel."
+      - "Añade la avena, la harina, la levadura y la canela y mezcla sin batir demasiado. Incorpora las nueces."
+      - "Reparte en 12 moldes de magdalena y hornea 20-22 minutos, hasta que al pinchar salga limpio."
+
+  - name: Barritas de avena y dátiles
+    health: [YELLOW, "Avena, dátiles y frutos secos sin azúcar añadido: saciantes pero densas en calorías."]
+    nutrition: [190, 5, 24, 9]
+    photo: saludable-desayunos-y-meriendas/barritas-de-avena-y-datiles.jpg
+    category: Postres
+    difficulty: EASY
+    prep: 15
+    cook: 0
+    servings: 12
+    notes: No necesitan horno. Se conservan una semana en la nevera.
+    tags: [merienda, vegano, sin cocción]
+    utensils: [Robot de cocina]
+    ingredients:
+      - items:
+          - [dátiles sin hueso, 200, g]
+          - [copos de avena, 150, g]
+          - [almendras, 80, g]
+          - [crema de cacahuete natural, 3, cucharada]
+          - [cacao puro en polvo, 1, cucharada]
+          - [sal, 1, pizca]
+    steps:
+      - "Si los dátiles están secos, remójalos 10 minutos en agua caliente y escúrrelos."
+      - "Tritura las almendras en el robot, añade los dátiles, la avena, la crema de cacahuete, el cacao y la sal, y tritura hasta que se forme una pasta que se pegue al apretarla."
+      - Presiona la mezcla en un molde forrado de 20 x 20 cm y enfría 2 horas. Corta en 12 barritas.
+
+  - name: Batido verde
+    health: [GREEN, "Fruta y hoja verde batidas: vitaminas, fibra y nada de azúcar añadido."]
+    nutrition: [180, 5, 34, 3]
+    photo: saludable-desayunos-y-meriendas/batido-verde.jpg
+    category: Bebidas
+    difficulty: EASY
+    prep: 5
+    cook: 0
+    servings: 2
+    tags: [bebida, vegano, sin gluten]
+    utensils: [Batidora]
+    ingredients:
+      - items:
+          - [espinacas baby, 60, g]
+          - [plátano, 1, null]
+          - [manzana verde, 1, null]
+          - [pepino, 0.5, null]
+          - [zumo de limón, 1, cucharada]
+          - [jengibre fresco, 1, cm]
+          - [agua fría o bebida vegetal, 250, ml]
+          - [cubitos de hielo, 4, null]
+    steps:
+      - Trocea la fruta y el pepino.
+      - Tritúralo todo hasta que esté muy fino.
+      - Sirve enseguida.
+
+  - name: Tostada integral con requesón y fresas
+    health: [GREEN, "Pan integral con queso fresco y fruta: proteína, fibra y poco azúcar."]
+    nutrition: [260, 13, 34, 8]
+    photo: saludable-desayunos-y-meriendas/tostada-integral-con-requeson-y-fresas.jpg
+    category: Panes y masas
+    difficulty: EASY
+    prep: 5
+    cook: 3
+    servings: 2
+    tags: [desayuno, vegetariano]
+    ingredients:
+      - items:
+          - [pan integral, 2, rebanada]
+          - [requesón o ricotta, 120, g]
+          - [fresas, 150, g]
+          - [menta fresca, 4, hoja]
+          - [miel (opcional), 1, cucharadita]
+          - [pistachos picados, 1, cucharada]
+    steps:
+      - Tuesta el pan.
+      - Unta el requesón y cubre con las fresas en láminas.
+      - "Termina con menta, pistachos y un hilo de miel si quieres."
+
+  - name: Revuelto de espinacas y tomate
+    health: [GREEN, "Huevo con verdura y poco aceite: proteína de calidad para empezar el día."]
+    nutrition: [230, 15, 6, 16]
+    photo: saludable-desayunos-y-meriendas/revuelto-de-espinacas-y-tomate.jpg
+    category: Huevos
+    difficulty: EASY
+    prep: 5
+    cook: 8
+    servings: 2
+    tags: [desayuno, huevos, sin gluten, rápido]
+    ingredients:
+      - items:
+          - [huevos, 4, null]
+          - [espinacas baby, 80, g]
+          - [tomates cherry, 8, null]
+          - [aceite de oliva virgen extra, 1, cucharada]
+          - [sal y pimienta negra, null, null]
+    steps:
+      - Saltea los tomates partidos por la mitad en el aceite 2 minutos y añade las espinacas hasta que pierdan volumen.
+      - "Baja el fuego, añade los huevos batidos con sal y pimienta y remueve despacio hasta que cuajen pero sigan jugosos."
+      - "Sirve enseguida, con pan integral si quieres."

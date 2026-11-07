@@ -1,0 +1,331 @@
+id: healthy-batch-cooking
+version: 1
+updated: 2026-11-07
+language: en
+name: "Healthy cooking: batch cooking"
+series: Healthy cooking
+description: >-
+  Healthy dishes to cook in one afternoon and eat all week: they keep well in the fridge or freezer
+  and reheat without losing anything. Chicken and vegetable traybake, lentils with vegetables,
+  spinach with chickpeas, turkey chili, turkey meatballs, ratatouille, quinoa salad, salmon with
+  sweet potato, chicken curry with chickpeas and sweet potato tacos.
+author: Miga
+authorGithub: calamares00
+cover:
+  emoji: "🍱"
+  kicker: Healthy cooking
+  title: Batch cooking
+  colors: ["#15803d", "#84cc16"]
+defaults:
+  source: "Miga «Healthy cooking: batch cooking» pack"
+recipes:
+
+  - name: Chicken and vegetable traybake
+    health: [GREEN, "Chicken with plenty of roasted vegetables and olive oil: lean protein and fibre."]
+    nutrition: [420, 38, 28, 17]
+    photo: saludable-batch-cooking/bandeja-de-pollo-y-verduras-al-horno.jpg
+    category: Meat
+    difficulty: EASY
+    prep: 20
+    cook: 45
+    servings: 4
+    notes: "It keeps for 4 days in the fridge in sealed containers. For variety, serve it with brown rice, in a salad or in a wrap."
+    tags: [chicken, roasted, gluten-free, meal prep]
+    utensils: [Oven]
+    ingredients:
+      - items:
+          - [boneless skinless chicken thighs, 800, g]
+          - [sweet potato, 1, null]
+          - [broccoli, 1, null]
+          - [red pepper, 1, null]
+          - [red onion, 1, null]
+          - [courgette, 1, null]
+          - [extra virgin olive oil, 3, tbsp]
+          - [sweet paprika, 2, tsp]
+          - [ground cumin, 1, tsp]
+          - [garlic powder, 1, tsp]
+          - [lemon, 1, null]
+          - [salt and black pepper, null, null]
+    steps:
+      - Preheat the oven to 210 °C. Cut the vegetables and chicken into similar-sized pieces.
+      - "Toss everything on two trays with the oil, spices, salt and pepper, without crowding."
+      - "Roast for 40-45 minutes, turning halfway, until the chicken is golden and the sweet potato tender."
+      - "Squeeze over the lemon juice, leave to cool and divide into containers."
+
+  - name: Lentils with vegetables
+    health: [GREEN, "Lentils stewed with vegetables only: iron, fibre and plant protein without animal fat."]
+    nutrition: [360, 20, 52, 8]
+    photo: saludable-batch-cooking/lentejas-con-verduras.jpg
+    category: Legumes
+    difficulty: EASY
+    prep: 15
+    cook: 45
+    servings: 6
+    notes: They taste better the next day. They keep for 5 days in the fridge and 3 months frozen.
+    tags: [pulses, vegan, gluten-free, meal prep]
+    ingredients:
+      - items:
+          - [brown lentils, 400, g]
+          - [onion, 1, null]
+          - [carrots, 2, null]
+          - [green pepper, 1, null]
+          - [leek, 1, null]
+          - [potato, 1, null]
+          - [crushed tomatoes, 200, g]
+          - [garlic, 2, clove]
+          - [sweet paprika, 1, tsp]
+          - [ground cumin, 0.5, tsp]
+          - [bay leaf, 1, null]
+          - [extra virgin olive oil, 3, tbsp]
+          - [salt, null, null]
+    steps:
+      - "Chop the onion, pepper, leek and garlic and soften them in the oil for 10 minutes."
+      - "Add the sliced carrots, tomatoes, paprika and cumin and cook for 3 minutes."
+      - "Add the rinsed lentils, bay leaf and 1.5 l of water. Simmer for 25 minutes."
+      - "Add the potato, broken into chunks, and cook for 15 more minutes, until the lentils are tender. Salt at the end."
+
+  - name: Spinach with chickpeas
+    health: [GREEN, "Chickpeas with spinach and spices: fibre, iron and plant protein."]
+    nutrition: [330, 15, 38, 13]
+    photo: saludable-batch-cooking/espinacas-con-garbanzos.jpg
+    category: Legumes
+    difficulty: EASY
+    prep: 10
+    cook: 20
+    servings: 4
+    origin: Seville
+    notes: It is a classic Seville tapa. It keeps for 4 days in the fridge.
+    tags: [pulses, vegan, meal prep]
+    ingredients:
+      - items:
+          - [cooked chickpeas, 600, g]
+          - [fresh spinach, 400, g]
+          - [day-old bread, 1, slice]
+          - [garlic, 3, clove]
+          - [ground cumin, 1, tsp]
+          - [sweet paprika, 1, tsp]
+          - [sherry vinegar, 1, tbsp]
+          - [extra virgin olive oil, 4, tbsp]
+          - [salt, null, null]
+    steps:
+      - "Fry the bread and garlic in the oil until golden. Remove them and pound in a mortar with the cumin, paprika and vinegar."
+      - "In the same oil, sauté the spinach until wilted."
+      - "Add the drained chickpeas, the paste and a glass of water, and simmer for 10 minutes. Salt."
+
+  - name: Turkey and bean chili
+    health: [GREEN, "Chili with lean turkey, beans and vegetables: high in protein and fibre with little fat."]
+    nutrition: [410, 36, 38, 11]
+    photo: saludable-batch-cooking/chili-de-pavo-con-alubias.jpg
+    category: Meat
+    difficulty: EASY
+    prep: 15
+    cook: 40
+    servings: 6
+    notes: It freezes very well in portions. Serve it with brown rice or with yoghurt and coriander.
+    tags: [turkey, pulses, gluten-free, meal prep]
+    ingredients:
+      - items:
+          - [minced turkey, 600, g]
+          - [cooked red kidney beans, 500, g]
+          - [onion, 1, null]
+          - [red pepper, 1, null]
+          - [carrot, 1, null]
+          - [garlic, 3, clove]
+          - [crushed tomatoes, 800, g]
+          - [ground cumin, 2, tsp]
+          - [smoked paprika, 2, tsp]
+          - [chilli powder, 1, tsp]
+          - [dried oregano, 1, tsp]
+          - [olive oil, 2, tbsp]
+          - [salt, null, null]
+    steps:
+      - "Fry the chopped onion, pepper, carrot and garlic in the oil for 8 minutes."
+      - "Add the turkey and brown it, breaking it up. Add the spices and stir for 1 minute."
+      - "Stir in the tomatoes and 200 ml of water and simmer, covered, for 20 minutes."
+      - "Add the drained beans, salt and cook for 10 more minutes uncovered."
+
+  - name: Turkey meatballs in tomato sauce
+    health: [GREEN, "Baked turkey meatballs in homemade tomato sauce: lean protein without frying."]
+    nutrition: [350, 34, 18, 15]
+    photo: saludable-batch-cooking/albondigas-de-pavo-en-salsa-de-tomate.jpg
+    category: Meat
+    difficulty: EASY
+    prep: 25
+    cook: 35
+    servings: 6
+    notes: They are baked instead of fried. Freeze them already in the sauce.
+    tags: [turkey, baked, meal prep]
+    utensils: [Oven]
+    ingredients:
+      - group: Meatballs
+        items:
+          - [minced turkey, 800, g]
+          - [rolled oats, 50, g]
+          - [egg, 1, null]
+          - [grated onion, 0.5, null]
+          - [garlic, 2, clove]
+          - [fresh parsley, 1, handful]
+          - [salt and black pepper, null, null]
+      - group: Sauce
+        items:
+          - [crushed tomatoes, 800, g]
+          - [onion, 1, null]
+          - [carrot, 1, null]
+          - [olive oil, 2, tbsp]
+          - [dried oregano, 1, tsp]
+    steps:
+      - Preheat the oven to 200 °C. Mix the meatball ingredients and shape into 4 cm balls.
+      - Place them on a lined tray and bake for 15 minutes.
+      - "Meanwhile, soften the chopped onion and carrot in the oil for 10 minutes, add the tomatoes and oregano and simmer for 15 minutes. Blend if you want it smooth."
+      - Add the meatballs to the sauce and simmer for 10 more minutes.
+
+  - name: Ratatouille
+    health: [GREEN, "Stew of Mediterranean vegetables with olive oil: very light and high in fibre."]
+    nutrition: [190, 4, 18, 12]
+    photo: saludable-batch-cooking/ratatouille.jpg
+    category: Vegetables
+    difficulty: EASY
+    prep: 20
+    cook: 50
+    servings: 6
+    origin: Nice
+    notes: "Use it as a side, as a base for eggs or mixed with pasta or pulses. It keeps for 5 days in the fridge."
+    tags: [vegan, vegetables, gluten-free, meal prep]
+    ingredients:
+      - items:
+          - [aubergines, 2, null]
+          - [courgettes, 2, null]
+          - [red pepper, 1, null]
+          - [yellow pepper, 1, null]
+          - [onion, 1, null]
+          - [ripe tomatoes, 4, null]
+          - [garlic, 3, clove]
+          - [thyme, 2, sprig]
+          - [extra virgin olive oil, 4, tbsp]
+          - [fresh basil, 1, handful]
+          - [salt and black pepper, null, null]
+    steps:
+      - Cut all the vegetables into 2 cm cubes.
+      - Sauté the aubergine and courgette separately in a little oil until golden. Set aside.
+      - "Soften the onion, peppers and garlic for 10 minutes. Add the tomatoes and thyme and simmer for 15 minutes."
+      - "Add the aubergine and courgette, season and simmer for 15 minutes. Finish with basil."
+
+  - name: Quinoa salad with roasted vegetables
+    health: [GREEN, "Quinoa with roasted vegetables and chickpeas: fibre, plant protein and healthy fats."]
+    nutrition: [420, 15, 56, 15]
+    photo: saludable-batch-cooking/ensalada-de-quinoa-con-verduras-asadas.jpg
+    category: Salads
+    difficulty: EASY
+    prep: 15
+    cook: 30
+    servings: 4
+    notes: Keep the dressing separate and add it when serving. It keeps for 4 days in the fridge.
+    tags: [salad, vegan, gluten-free, meal prep]
+    utensils: [Oven]
+    ingredients:
+      - items:
+          - [quinoa, 200, g]
+          - [pumpkin, 400, g]
+          - [red pepper, 1, null]
+          - [red onion, 1, null]
+          - [cooked chickpeas, 250, g]
+          - [baby spinach, 80, g]
+          - [pumpkin seeds, 30, g]
+          - [extra virgin olive oil, 4, tbsp]
+          - [lemon juice, 2, tbsp]
+          - [mustard, 1, tsp]
+          - [ground cumin, 1, tsp]
+          - [salt, null, null]
+    steps:
+      - "Roast the diced pumpkin, pepper and onion with 1 tablespoon of oil and the cumin at 210 °C for 25-30 minutes."
+      - Rinse the quinoa and cook it in twice its volume of water for 12 minutes. Let it stand covered for 5 minutes and cool.
+      - "Whisk the rest of the oil with the lemon juice, mustard and salt."
+      - "Combine the quinoa with the vegetables, chickpeas and spinach, dress and finish with the toasted seeds."
+
+  - name: Baked salmon with sweet potato and broccoli
+    health: [GREEN, "Salmon with vegetables and sweet potato: omega-3, protein and fibre."]
+    nutrition: [480, 34, 34, 22]
+    photo: saludable-batch-cooking/salmon-al-horno-con-boniato-y-brocoli.jpg
+    category: Fish and seafood
+    difficulty: EASY
+    prep: 15
+    cook: 30
+    servings: 4
+    notes: "Cooked fish keeps for 3 days in the fridge: make this tray for the first half of the week."
+    tags: [fish, baked, gluten-free, meal prep]
+    utensils: [Oven]
+    ingredients:
+      - items:
+          - [salmon fillets, 4, null]
+          - [sweet potatoes, 2, null]
+          - [broccoli, 1, null]
+          - [extra virgin olive oil, 3, tbsp]
+          - [sweet paprika, 1, tsp]
+          - [dried dill, 1, tsp]
+          - [lemon, 1, null]
+          - [salt and black pepper, null, null]
+    steps:
+      - "Preheat the oven to 200 °C. Dice the sweet potato, toss with 2 tablespoons of oil, the paprika and salt, and roast for 15 minutes."
+      - "Add the broccoli florets and the salmon with the rest of the oil, the dill, salt, pepper and lemon slices."
+      - "Bake for 12-15 more minutes, until the salmon is cooked through."
+
+  - name: Chicken curry with chickpeas and spinach
+    health: [GREEN, "Chicken curry with pulses and greens and little fat: very complete."]
+    nutrition: [420, 38, 30, 15]
+    photo: saludable-batch-cooking/pollo-al-curry-con-garbanzos-y-espinacas.jpg
+    category: Meat
+    difficulty: EASY
+    prep: 15
+    cook: 35
+    servings: 6
+    notes: Freeze in portions with or without rice.
+    tags: [chicken, curry, gluten-free, meal prep]
+    ingredients:
+      - items:
+          - [chicken breasts, 700, g]
+          - [cooked chickpeas, 400, g]
+          - [fresh spinach, 200, g]
+          - [onion, 1, null]
+          - [garlic, 3, clove]
+          - [grated fresh ginger, 1, tbsp]
+          - [curry powder, 2, tbsp]
+          - [crushed tomatoes, 400, g]
+          - [light coconut milk, 200, ml]
+          - [olive oil, 2, tbsp]
+          - [salt, null, null]
+    steps:
+      - "Soften the chopped onion in the oil for 8 minutes. Add the garlic, ginger and curry powder and cook for 1 minute."
+      - Add the diced chicken and brown it for 5 minutes. Add the tomatoes and coconut milk and simmer for 15 minutes.
+      - Add the chickpeas and spinach and cook for 5 more minutes. Salt.
+
+  - name: Roasted sweet potato and black bean tacos
+    health: [GREEN, "Roasted sweet potato, beans and vegetables in corn tortillas: fibre, plant protein and vitamins."]
+    nutrition: [420, 15, 68, 10]
+    photo: saludable-batch-cooking/tacos-de-boniato-asado-y-alubias-negras.jpg
+    category: Vegetables
+    difficulty: EASY
+    prep: 15
+    cook: 30
+    servings: 4
+    notes: "Roast the sweet potato and make the beans in advance: they keep for 4 days in the fridge and the tacos come together in 5 minutes."
+    tags: [vegetarian, gluten-free, meal prep]
+    utensils: [Oven]
+    ingredients:
+      - items:
+          - [sweet potatoes, 2, null]
+          - [cooked black beans, 400, g]
+          - [corn tortillas, 8, null]
+          - [avocado, 1, null]
+          - [red cabbage, 100, g]
+          - [ground cumin, 1, tsp]
+          - [smoked paprika, 1, tsp]
+          - [olive oil, 2, tbsp]
+          - [lime, 1, null]
+          - [plain yoghurt, 100, g]
+          - [fresh coriander, 1, handful]
+          - [salt, null, null]
+    steps:
+      - "Dice the sweet potato, toss with the oil, spices and salt and roast at 210 °C for 25-30 minutes."
+      - Warm the beans with a little of their liquid and mash a few.
+      - "Warm the tortillas and fill them with beans, sweet potato, finely shredded red cabbage and avocado."
+      - "Finish with yoghurt, lime juice and coriander."

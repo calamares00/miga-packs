@@ -1,0 +1,307 @@
+id: healthy-light-and-filling
+version: 1
+updated: 2026-11-07
+language: en
+name: "Healthy cooking: light and filling"
+series: Healthy cooking
+description: >-
+  Dishes under 450 kcal per serving that really fill you up, with lean protein, vegetables and
+  fibre: hake en papillote, niçoise salad, chicken skewers with yoghurt, chicken and vegetable
+  soup, baked cod with tomato, prawn stir-fry, turkey stuffed with spinach, chilled cucumber soup,
+  chicken and courgette burgers and chicken, mango and avocado salad.
+author: Miga
+authorGithub: calamares00
+cover:
+  emoji: "🥗"
+  kicker: Healthy cooking
+  title: Light and filling
+  colors: ["#0e7490", "#22d3ee"]
+defaults:
+  source: "Miga «Healthy cooking: light and filling» pack"
+recipes:
+
+  - name: Hake en papillote with vegetables
+    health: [GREEN, "White fish steamed in its own juices with vegetables: very few calories and plenty of protein."]
+    nutrition: [230, 32, 10, 7]
+    photo: saludable-ligero-y-saciante/merluza-en-papillote-con-verduras.jpg
+    category: Fish and seafood
+    difficulty: EASY
+    prep: 15
+    cook: 15
+    servings: 4
+    tags: [fish, baked, gluten-free]
+    utensils: [Oven]
+    ingredients:
+      - items:
+          - [hake fillets, 4, null]
+          - [courgette, 1, null]
+          - [carrot, 1, null]
+          - [leek, 1, null]
+          - [cherry tomatoes, 12, null]
+          - [lemon, 1, null]
+          - [fresh dill or parsley, 1, handful]
+          - [extra virgin olive oil, 1, tbsp]
+          - [white wine, 4, tbsp]
+          - [salt and black pepper, null, null]
+    steps:
+      - Preheat the oven to 200 °C. Cut the vegetables into thin strips.
+      - "Place each fillet on a bed of vegetables on a rectangle of baking paper. Add the tomatoes, lemon slices, herbs, salt, pepper, a drizzle of oil and a spoonful of wine."
+      - Seal the parcels by folding the edges and bake for 12-15 minutes. Open them at the table.
+
+  - name: Niçoise salad
+    health: [GREEN, "Tuna, egg, green beans and vegetables: protein and fibre with good fats."]
+    nutrition: [380, 28, 18, 22]
+    photo: saludable-ligero-y-saciante/ensalada-nicoise.jpg
+    category: Salads
+    difficulty: EASY
+    prep: 20
+    cook: 15
+    servings: 4
+    origin: Nice
+    tags: [salad, fish, gluten-free]
+    ingredients:
+      - items:
+          - [tuna in water, 240, g]
+          - [eggs, 4, null]
+          - [green beans, 200, g]
+          - [small potatoes, 300, g]
+          - [lettuce, 1, null]
+          - [tomatoes, 3, null]
+          - [black olives, 50, g]
+          - [anchovy fillets, 4, null]
+          - [extra virgin olive oil, 3, tbsp]
+          - [red wine vinegar, 1, tbsp]
+          - [Dijon mustard, 1, tsp]
+          - [salt and black pepper, null, null]
+    steps:
+      - "Boil the potatoes for 15 minutes, the green beans for 5 minutes and the eggs for 8 minutes. Cool everything."
+      - "Whisk the oil with the vinegar, mustard, salt and pepper."
+      - "Arrange the lettuce, tomato wedges, halved potatoes, beans, tuna, quartered eggs, olives and anchovies on a platter. Dress when serving."
+
+  - name: Chicken skewers with yoghurt sauce
+    health: [GREEN, "Grilled chicken and vegetables with yoghurt sauce: lean protein with very little fat."]
+    nutrition: [300, 40, 12, 10]
+    photo: saludable-ligero-y-saciante/brochetas-de-pollo-con-salsa-de-yogur.jpg
+    category: Meat
+    difficulty: EASY
+    prep: 20
+    cook: 15
+    servings: 4
+    tags: [chicken, grilled, gluten-free]
+    utensils: [Griddle]
+    ingredients:
+      - group: Skewers
+        items:
+          - [chicken breasts, 600, g]
+          - [red pepper, 1, null]
+          - [courgette, 1, null]
+          - [red onion, 1, null]
+          - [lemon juice, 2, tbsp]
+          - [sweet paprika, 1, tsp]
+          - [ground cumin, 1, tsp]
+          - [olive oil, 1, tbsp]
+          - [salt, null, null]
+      - group: Sauce
+        items:
+          - [fat-free Greek yoghurt, 200, g]
+          - [cucumber, 0.5, null]
+          - [garlic, 1, clove]
+          - [fresh mint, 1, handful]
+    steps:
+      - "Cut the chicken and vegetables into chunks and marinate with the lemon juice, spices, oil and salt for 20 minutes."
+      - "Mix the yoghurt with the grated, squeezed cucumber, chopped garlic, mint and salt."
+      - "Thread the chicken and vegetables alternately onto skewers and grill for 10-12 minutes, turning. Serve with the sauce."
+
+  - name: Chicken and vegetable soup
+    health: [GREEN, "Homemade broth with chicken and vegetables: comforting, filling and very light."]
+    nutrition: [220, 26, 14, 6]
+    photo: saludable-ligero-y-saciante/sopa-de-pollo-y-verduras.jpg
+    category: Soups
+    difficulty: EASY
+    prep: 15
+    cook: 45
+    servings: 6
+    tags: [soup, chicken, gluten-free]
+    ingredients:
+      - items:
+          - [chicken breasts or thighs, 500, g]
+          - [carrots, 3, null]
+          - [celery, 2, stalk]
+          - [leek, 1, null]
+          - [onion, 1, null]
+          - [courgette, 1, null]
+          - [green beans, 100, g]
+          - [bay leaf, 1, null]
+          - [thyme, 2, sprig]
+          - [fresh parsley, 1, handful]
+          - [water, 2, l]
+          - [salt and black pepper, null, null]
+    steps:
+      - "Simmer the chicken in the water with the halved onion, bay leaf and thyme for 25 minutes, skimming. Remove the chicken and shred it."
+      - "Add the sliced carrots, celery and leek to the broth and simmer for 10 minutes."
+      - "Add the diced courgette, chopped beans and chicken, and cook for 8 minutes. Season and finish with parsley."
+
+  - name: Baked cod with tomato and peppers
+    health: [GREEN, "Fresh cod on baked vegetables: lean protein with very few calories."]
+    nutrition: [260, 32, 12, 9]
+    photo: saludable-ligero-y-saciante/bacalao-al-horno-con-tomate-y-pimientos.jpg
+    category: Fish and seafood
+    difficulty: EASY
+    prep: 15
+    cook: 30
+    servings: 4
+    tags: [fish, baked, gluten-free]
+    utensils: [Oven]
+    ingredients:
+      - items:
+          - [fresh cod fillets, 4, null]
+          - [red pepper, 1, null]
+          - [green pepper, 1, null]
+          - [onion, 1, null]
+          - [ripe tomatoes, 3, null]
+          - [garlic, 2, clove]
+          - [black olives, 30, g]
+          - [extra virgin olive oil, 2, tbsp]
+          - [dried oregano, 1, tsp]
+          - [salt and black pepper, null, null]
+    steps:
+      - Preheat the oven to 200 °C. Slice the vegetables into strips and the tomatoes into wedges.
+      - "Toss them in a dish with the sliced garlic, oil, oregano and salt, and roast for 15 minutes."
+      - Lay the seasoned cod on top with the olives and bake for 12-15 more minutes.
+
+  - name: Prawn and vegetable stir-fry
+    health: [GREEN, "Prawns stir-fried with plenty of vegetables and little oil: light, with protein."]
+    nutrition: [240, 26, 16, 8]
+    photo: saludable-ligero-y-saciante/wok-de-gambas-y-verduras.jpg
+    category: Fish and seafood
+    difficulty: EASY
+    prep: 15
+    cook: 10
+    servings: 4
+    tags: [prawns, stir-fry, quick]
+    utensils: [Wok]
+    ingredients:
+      - items:
+          - [peeled prawns, 500, g]
+          - [broccoli, 200, g]
+          - [mangetout, 150, g]
+          - [red pepper, 1, null]
+          - [carrot, 1, null]
+          - [mushrooms, 150, g]
+          - [garlic, 2, clove]
+          - [grated fresh ginger, 1, tbsp]
+          - [low-salt soy sauce, 2, tbsp]
+          - [sesame oil, 1, tsp]
+          - [sunflower oil, 1, tbsp]
+    steps:
+      - Cut the vegetables into small pieces.
+      - Stir-fry the prawns in a very hot wok with the oil for 2 minutes and remove them.
+      - "Stir-fry the garlic and ginger, add the vegetables and stir-fry for 4 minutes with a splash of water."
+      - "Return the prawns with the soy sauce and sesame oil, toss for 1 minute and serve."
+
+  - name: Turkey breast stuffed with spinach
+    health: [GREEN, "Lean turkey stuffed with greens and fresh cheese: high protein and little fat."]
+    nutrition: [280, 42, 4, 10]
+    photo: saludable-ligero-y-saciante/pechuga-de-pavo-rellena-de-espinacas.jpg
+    category: Meat
+    difficulty: MEDIUM
+    prep: 20
+    cook: 35
+    servings: 4
+    tags: [turkey, baked, gluten-free]
+    utensils: [Oven]
+    ingredients:
+      - items:
+          - [whole turkey breast, 700, g]
+          - [fresh spinach, 200, g]
+          - [fresh cheese (queso fresco), 100, g]
+          - [garlic, 1, clove]
+          - [Dijon mustard, 1, tbsp]
+          - [olive oil, 1, tbsp]
+          - [dried thyme, 1, tsp]
+          - [salt and black pepper, null, null]
+    steps:
+      - Sauté the garlic and spinach until the liquid evaporates. Drain and mix with the crumbled cheese.
+      - "Butterfly the turkey breast and flatten it. Season, spread with the filling, roll up and tie with string."
+      - "Brush with the mustard, oil and thyme and roast at 190 °C for 30-35 minutes. Rest for 10 minutes before slicing."
+
+  - name: Chilled cucumber and yoghurt soup
+    health: [GREEN, "Chilled cucumber and yoghurt soup: hydrating, fresh and almost calorie-free."]
+    nutrition: [120, 7, 10, 6]
+    photo: saludable-ligero-y-saciante/crema-fria-de-pepino-y-yogur.jpg
+    category: Soups
+    difficulty: EASY
+    prep: 10
+    cook: 0
+    servings: 4
+    tags: [soup, cold, vegetarian, gluten-free]
+    utensils: [Blender]
+    ingredients:
+      - items:
+          - [cucumbers, 3, null]
+          - [plain yoghurt, 300, g]
+          - [garlic, 1, clove]
+          - [fresh mint, 1, handful]
+          - [fresh dill, 1, handful]
+          - [lemon juice, 1, tbsp]
+          - [extra virgin olive oil, 1, tbsp]
+          - [cold water, 150, ml]
+          - [salt, null, null]
+    steps:
+      - "Peel and chop the cucumbers, keeping a little diced to serve."
+      - "Blend with the yoghurt, garlic, herbs, lemon juice, water and salt until smooth."
+      - Chill for at least 1 hour and serve with the diced cucumber and a drizzle of oil.
+
+  - name: Chicken and courgette burgers
+    health: [GREEN, "Chicken burgers with grated courgette, griddled: lean and juicy."]
+    nutrition: [230, 30, 6, 9]
+    photo: saludable-ligero-y-saciante/hamburguesas-de-pollo-y-calabacin.jpg
+    category: Meat
+    difficulty: EASY
+    prep: 15
+    cook: 12
+    servings: 4
+    tags: [chicken, grilled]
+    utensils: [Griddle]
+    ingredients:
+      - items:
+          - [minced chicken breast, 500, g]
+          - [courgette, 1, null]
+          - [spring onion, 2, null]
+          - [garlic, 1, clove]
+          - [egg, 1, null]
+          - [rolled oats, 30, g]
+          - [fresh parsley, 1, handful]
+          - [olive oil, 1, tbsp]
+          - [salt and black pepper, null, null]
+    steps:
+      - "Grate the courgette, salt it for 10 minutes and squeeze it well."
+      - "Mix it with the chicken, chopped spring onion and garlic, egg, oats, parsley and pepper."
+      - Shape into 4 burgers and griddle with the oil for 5-6 minutes per side. Serve with salad.
+
+  - name: "Chicken, mango and avocado salad"
+    health: [GREEN, "Chicken with fruit, avocado and leafy greens: protein and healthy fats."]
+    nutrition: [380, 32, 20, 19]
+    photo: saludable-ligero-y-saciante/ensalada-de-pollo-mango-y-aguacate.jpg
+    category: Salads
+    difficulty: EASY
+    prep: 15
+    cook: 12
+    servings: 4
+    tags: [salad, chicken, gluten-free]
+    utensils: [Griddle]
+    ingredients:
+      - items:
+          - [chicken breasts, 500, g]
+          - [mango, 1, null]
+          - [avocado, 1, null]
+          - [mixed salad leaves, 150, g]
+          - [red onion, 0.5, null]
+          - [lime, 1, null]
+          - [extra virgin olive oil, 2, tbsp]
+          - [fresh coriander, 1, handful]
+          - [salt and black pepper, null, null]
+    steps:
+      - Season the chicken and griddle for 5-6 minutes per side. Let it rest and slice it.
+      - Dice the mango and avocado and slice the onion thinly.
+      - "Whisk the oil with the lime juice and salt. Toss the leaves with the mango, avocado, onion and chicken, dress and finish with coriander."

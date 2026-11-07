@@ -1,0 +1,292 @@
+id: healthy-low-salt
+version: 1
+updated: 2026-11-07
+language: en
+name: "Healthy cooking: low salt"
+series: Healthy cooking
+description: >-
+  Recipes with no added salt or very little, that get their flavour from herbs, spices, garlic,
+  citrus and vinegars, and without very salty ingredients such as cured meats, aged cheeses or soy
+  sauce: lemon-marinated chicken, sea bass with fennel and orange, pork tenderloin with apple, leek
+  and apple soup, brown rice salad, spiced roast vegetables, courgette omelette, salt-free seeded
+  bread, homemade tomato sauce and baked pears.
+author: Miga
+authorGithub: calamares00
+cover:
+  emoji: "🧂"
+  kicker: Healthy cooking
+  title: Low salt
+  colors: ["#1d4ed8", "#93c5fd"]
+defaults:
+  source: "Miga «Healthy cooking: low salt» pack"
+recipes:
+
+  - name: "Chicken marinated in lemon, garlic and herbs"
+    health: [GREEN, "Grilled chicken with a citrus and herb marinade, no salt: lean protein and little sodium."]
+    nutrition: [280, 40, 3, 12]
+    photo: saludable-bajo-en-sal/pollo-marinado-con-limon-ajo-y-hierbas.jpg
+    category: Meat
+    difficulty: EASY
+    prep: 10
+    cook: 15
+    servings: 4
+    notes: The lemon's acidity and the garlic mean you won't miss the salt. Marinate for at least 1 hour.
+    tags: [chicken, grilled, no salt]
+    utensils: [Griddle]
+    ingredients:
+      - items:
+          - [chicken breasts, 4, null]
+          - [lemon (juice and zest), 1, null]
+          - [garlic, 3, clove]
+          - [fresh rosemary, 1, sprig]
+          - [fresh thyme, 3, sprig]
+          - [sweet paprika, 1, tsp]
+          - [black pepper, 0.5, tsp]
+          - [extra virgin olive oil, 3, tbsp]
+    steps:
+      - Butterfly the chicken breasts into fillets of even thickness.
+      - "Mix the lemon juice and zest with the crushed garlic, chopped herbs, paprika, pepper and oil. Marinate the chicken for 1-4 hours in the fridge."
+      - Cook on a very hot griddle for 4-5 minutes per side. Serve with more lemon.
+
+  - name: Baked sea bass with fennel and orange
+    health: [GREEN, "White fish with fennel and citrus: very light and very low in sodium."]
+    nutrition: [290, 34, 10, 13]
+    photo: saludable-bajo-en-sal/lubina-al-horno-con-hinojo-y-naranja.jpg
+    category: Fish and seafood
+    difficulty: EASY
+    prep: 15
+    cook: 25
+    servings: 4
+    tags: [fish, baked, no salt]
+    utensils: [Oven]
+    ingredients:
+      - items:
+          - [whole cleaned sea bass or 4 fillets, 2, null]
+          - [fennel bulbs, 2, null]
+          - [orange, 1, null]
+          - [lemon, 1, null]
+          - [fresh dill, 1, handful]
+          - [fennel seeds, 1, tsp]
+          - [white wine, 100, ml]
+          - [extra virgin olive oil, 3, tbsp]
+          - [black pepper, null, null]
+    steps:
+      - Preheat the oven to 200 °C. Slice the fennel thinly and roast it with 2 tablespoons of oil and the seeds for 10 minutes.
+      - "Lay the fish on top with orange and lemon slices inside and around, the dill and pepper."
+      - "Pour over the wine and the rest of the oil and bake for 15-20 minutes, depending on size."
+
+  - name: Pork tenderloin with apple and rosemary
+    health: [GREEN, "Lean tenderloin with roasted apple and herbs, no added salt."]
+    nutrition: [320, 32, 18, 13]
+    photo: saludable-bajo-en-sal/solomillo-de-cerdo-con-manzana-y-romero.jpg
+    category: Meat
+    difficulty: EASY
+    prep: 15
+    cook: 25
+    servings: 4
+    tags: [pork, roasted, no salt]
+    utensils: [Oven]
+    ingredients:
+      - items:
+          - [pork tenderloins, 2, null]
+          - [apples, 3, null]
+          - [red onion, 1, null]
+          - [fresh rosemary, 2, sprig]
+          - [garlic, 3, clove]
+          - [salt-free wholegrain mustard or pepper, 1, tbsp]
+          - [cider vinegar, 2, tbsp]
+          - [extra virgin olive oil, 2, tbsp]
+          - [black pepper, null, null]
+    steps:
+      - Preheat the oven to 200 °C. Cut the apples and onion into wedges and place them in a dish with the garlic and rosemary.
+      - "Brush the tenderloins with the mustard, oil and pepper and brown them in a pan on all sides."
+      - "Lay them on the apples, drizzle with the vinegar and roast for 18-20 minutes. Rest for 5 minutes before slicing."
+
+  - name: Leek and apple soup
+    health: [GREEN, "Vegetable and fruit soup with no salt or cream: light and mild."]
+    nutrition: [170, 4, 24, 7]
+    photo: saludable-bajo-en-sal/crema-de-puerros-y-manzana.jpg
+    category: Soups
+    difficulty: EASY
+    prep: 10
+    cook: 25
+    servings: 4
+    notes: "Use salt-free homemade stock or water: shop-bought stocks contain a lot of salt."
+    tags: [soup, vegan, no salt]
+    utensils: [Blender]
+    ingredients:
+      - items:
+          - [leeks, 3, null]
+          - [apple, 1, null]
+          - [potato, 1, null]
+          - [salt-free homemade vegetable stock or water, 900, ml]
+          - [nutmeg, 1, pinch]
+          - [extra virgin olive oil, 2, tbsp]
+          - [chives, 1, bunch]
+          - [white pepper, null, null]
+    steps:
+      - Soften the sliced leeks in the oil for 10 minutes without browning.
+      - "Add the diced apple and potato and the stock, and simmer for 15 minutes."
+      - "Blend, season with nutmeg and pepper, and serve with chopped chives."
+
+  - name: Brown rice salad with herbs
+    health: [GREEN, "Brown rice with vegetables, herbs and lemon: fibre and flavour without salt."]
+    nutrition: [380, 9, 54, 14]
+    photo: saludable-bajo-en-sal/ensalada-de-arroz-integral-con-hierbas.jpg
+    category: Salads
+    difficulty: EASY
+    prep: 15
+    cook: 35
+    servings: 4
+    tags: [salad, vegan, no salt]
+    ingredients:
+      - items:
+          - [brown rice, 200, g]
+          - [cherry tomatoes, 200, g]
+          - [cucumber, 1, null]
+          - [red pepper, 1, null]
+          - [spring onion, 2, null]
+          - ["fresh mint, parsley and basil", 1, bunch]
+          - [walnuts, 30, g]
+          - [lemon, 1, null]
+          - [extra virgin olive oil, 3, tbsp]
+          - [ground cumin, 0.5, tsp]
+          - [black pepper, null, null]
+    steps:
+      - "Cook the brown rice as the packet says, drain and cool."
+      - Chop the vegetables and herbs.
+      - "Whisk the oil with the lemon juice and zest, cumin and pepper. Combine everything and finish with the walnuts."
+
+  - name: Spiced roast vegetables with lemon
+    health: [GREEN, "Roasted vegetables with spices: plenty of fibre and flavour without salt."]
+    nutrition: [200, 5, 26, 9]
+    photo: saludable-bajo-en-sal/verduras-asadas-con-especias-y-limon.jpg
+    category: Vegetables
+    difficulty: EASY
+    prep: 15
+    cook: 35
+    servings: 4
+    tags: [vegan, roasted, no salt]
+    utensils: [Oven]
+    ingredients:
+      - items:
+          - [sweet potato, 1, null]
+          - [carrots, 3, null]
+          - [cauliflower, 0.5, null]
+          - [red onion, 1, null]
+          - [red pepper, 1, null]
+          - [ground cumin, 1, tsp]
+          - [ground coriander, 1, tsp]
+          - [smoked paprika, 1, tsp]
+          - [garlic powder, 1, tsp]
+          - [extra virgin olive oil, 3, tbsp]
+          - [lemon, 1, null]
+          - [fresh coriander or parsley, 1, handful]
+    steps:
+      - Preheat the oven to 210 °C. Cut the vegetables into similar-sized pieces.
+      - Toss with the oil and spices and spread on a tray without crowding.
+      - "Roast for 30-35 minutes, turning halfway. Finish with lemon juice and fresh herbs."
+
+  - name: Courgette and onion omelette
+    health: [GREEN, "Vegetable omelette without salt, flavoured with herbs and pepper."]
+    nutrition: [240, 13, 8, 18]
+    photo: saludable-bajo-en-sal/tortilla-de-calabacin-y-cebolla.jpg
+    category: Eggs
+    difficulty: EASY
+    prep: 10
+    cook: 20
+    servings: 4
+    tags: [eggs, vegetarian, no salt]
+    ingredients:
+      - items:
+          - [eggs, 6, null]
+          - [courgettes, 2, null]
+          - [onion, 1, null]
+          - [garlic, 1, clove]
+          - [fresh parsley, 1, handful]
+          - [dried oregano, 0.5, tsp]
+          - [extra virgin olive oil, 3, tbsp]
+          - [black pepper, null, null]
+    steps:
+      - "Soften the sliced onion and thinly sliced courgettes in the oil for 12 minutes, until tender. Add the garlic at the end."
+      - "Beat the eggs with the parsley, oregano and pepper and mix with the drained vegetables."
+      - Cook the omelette in a pan over medium heat for 3-4 minutes per side.
+
+  - name: Salt-free seeded bread
+    health: [GREEN, "Wholemeal bread with seeds and no salt: fibre without the sodium of shop bread."]
+    nutrition: [180, 7, 28, 5]
+    photo: saludable-bajo-en-sal/pan-sin-sal-con-semillas.jpg
+    category: Breads and doughs
+    difficulty: MEDIUM
+    prep: 20
+    cook: 35
+    servings: 10
+    notes: Bread is one of the biggest sources of salt in the diet. Toasted seeds and a little vinegar make up for the flavour. It needs about 2 hours to rise.
+    tags: [bread, vegan, no salt]
+    utensils: [Oven]
+    ingredients:
+      - items:
+          - [wholemeal wheat flour, 250, g]
+          - [strong bread flour, 250, g]
+          - [dried yeast, 7, g]
+          - [warm water, 340, ml]
+          - ["toasted sunflower, flax and sesame seeds", 80, g]
+          - [apple cider vinegar, 1, tsp]
+          - [olive oil, 1, tbsp]
+    steps:
+      - "Mix the flours with the yeast and seeds. Add the water, vinegar and oil and knead for 10 minutes."
+      - "Leave to rise, covered, for 1 hour, until doubled."
+      - Shape into a loaf or put it in a greased loaf tin and leave to rise for 45 more minutes.
+      - "Bake at 220 °C for 30-35 minutes, until it sounds hollow when tapped underneath. Cool on a rack."
+
+  - name: Homemade tomato sauce with herbs
+    health: [GREEN, "Fresh tomato sauce with no salt or sugar: a base for pasta, fish or eggs."]
+    nutrition: [80, 2, 9, 4]
+    photo: saludable-bajo-en-sal/salsa-de-tomate-casera-con-hierbas.jpg
+    category: Sauces
+    difficulty: EASY
+    prep: 10
+    cook: 40
+    servings: 6
+    notes: Shop-bought tomato sauces usually contain a lot of salt. This one freezes in portions.
+    tags: [sauce, vegan, no salt]
+    ingredients:
+      - items:
+          - [ripe tomatoes, 1.5, kg]
+          - [onion, 1, null]
+          - [carrot, 1, null]
+          - [garlic, 3, clove]
+          - [fresh basil, 1, bunch]
+          - [dried oregano, 1, tsp]
+          - [bay leaf, 1, null]
+          - [extra virgin olive oil, 3, tbsp]
+          - [black pepper, null, null]
+    steps:
+      - "Soften the chopped onion, carrot and garlic in the oil for 10 minutes. The carrot adds sweetness without sugar."
+      - "Add the chopped tomatoes, oregano and bay leaf and simmer for 30 minutes."
+      - "Remove the bay leaf, blend and add the basil and pepper."
+
+  - name: Baked pears with cinnamon
+    health: [GREEN, "Baked fruit with spices and a little honey: a light, salt-free dessert."]
+    nutrition: [150, 2, 30, 4]
+    photo: saludable-bajo-en-sal/peras-asadas-con-canela.jpg
+    category: Desserts
+    difficulty: EASY
+    prep: 10
+    cook: 30
+    servings: 4
+    tags: [dessert, vegetarian, no salt]
+    utensils: [Oven]
+    ingredients:
+      - items:
+          - [pears, 4, null]
+          - [cinnamon, 1, stick]
+          - [star anise, 2, null]
+          - [orange juice, 150, ml]
+          - [honey, 2, tbsp]
+          - [chopped walnuts, 30, g]
+          - [plain yoghurt to serve, null, null]
+    steps:
+      - Preheat the oven to 190 °C. Halve the pears and remove the cores.
+      - "Place them in a dish with the orange juice, honey, cinnamon and star anise."
+      - "Bake for 25-30 minutes, basting with the juices, until tender. Serve with the walnuts and yoghurt."

@@ -1,0 +1,53 @@
+# Origin of every photo in this folder: source page, author and licence (CC0 1.0, Public domain,
+# CC BY x.y or CC BY-SA x.y). tools/build.py refuses a recipe photo without an entry here.
+
+pollo-marinado-con-limon-ajo-y-hierbas.jpg:
+  source: https://commons.wikimedia.org/wiki/File:Grilled_chicken_with_lemon_and_herbs_served_on_a_dark_platter.jpg
+  author: "Shixart1985"
+  license: CC BY 2.0
+
+lubina-al-horno-con-hinojo-y-naranja.jpg:
+  source: https://commons.wikimedia.org/wiki/File:LubinasYPargoAlHorno-P1090364.JPG
+  author: "El Pantera"
+  license: CC BY-SA 4.0
+
+solomillo-de-cerdo-con-manzana-y-romero.jpg:
+  source: https://www.flickr.com/photos/98178986@N00/4229627664
+  author: "@joefoodie"
+  license: CC BY 2.0
+
+crema-de-puerros-y-manzana.jpg:
+  source: https://commons.wikimedia.org/wiki/File:Food-healthy-soup-leek_(24243815251).jpg
+  author: "www.Pixel.la Free Stock Photos"
+  license: CC0 1.0
+
+ensalada-de-arroz-integral-con-hierbas.jpg:
+  source: https://www.flickr.com/photos/58367355@N00/15075447108
+  author: "jules:stonesoup"
+  license: CC BY 2.0
+
+verduras-asadas-con-especias-y-limon.jpg:
+  source: https://commons.wikimedia.org/wiki/File:Neon_root_veggies_(roasted_beets,_turnips,_rutabaga,_carrots_and_onions)_(6893015819).jpg
+  author: "Gloria Cabada-Leman"
+  license: CC BY 2.0
+
+tortilla-de-calabacin-y-cebolla.jpg:
+  source: https://commons.wikimedia.org/wiki/File:-2019-08-09_Courgette,_spring_onion_and_cheese_melt_fritter,_Cromer.JPG
+  author: "Kolforn (Kolforn) I'd appreciate if you could mail me (Kolforn@gmail.com) if you want to use this picture out of the Wik"
+  license: CC BY-SA 4.0
+
+pan-sin-sal-con-semillas.jpg:
+  source: https://www.flickr.com/photos/20218973@N00/4628872585
+  author: "Francis Storr"
+  license: CC BY-SA 2.0
+
+salsa-de-tomate-casera-con-hierbas.jpg:
+  source: https://www.flickr.com/photos/61052907@N03/5646314298
+  author: "TheFoodGroupie"
+  license: CC BY-SA 2.0
+
+peras-asadas-con-canela.jpg:
+  source: https://commons.wikimedia.org/wiki/File:Pot_roasted_pears_with_marscapone_panna_cotta.jpg
+  author: "jules"
+  license: CC BY 2.0
+

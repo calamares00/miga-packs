@@ -1,0 +1,307 @@
+id: saludable-ligero-y-saciante
+version: 1
+updated: 2026-11-07
+language: es
+name: "Cocina saludable: ligero y saciante"
+series: Cocina saludable
+description: >-
+  Platos de menos de 450 kcal por ración que llenan de verdad, con proteína magra, verdura y fibra:
+  merluza en papillote, ensalada niçoise, brochetas de pollo con yogur, sopa de pollo y verduras,
+  bacalao al horno con tomate, wok de gambas, pavo relleno de espinacas, crema fría de pepino,
+  hamburguesas de pollo y calabacín y ensalada de pollo, mango y aguacate.
+author: Miga
+authorGithub: calamares00
+cover:
+  emoji: "🥗"
+  kicker: Cocina saludable
+  title: Ligero y saciante
+  colors: ["#0e7490", "#22d3ee"]
+defaults:
+  source: "Pack «Cocina saludable: ligero y saciante» de Miga"
+recipes:
+
+  - name: Merluza en papillote con verduras
+    health: [GREEN, "Pescado blanco al vapor en su jugo con verdura: muy pocas calorías y mucha proteína."]
+    nutrition: [230, 32, 10, 7]
+    photo: saludable-ligero-y-saciante/merluza-en-papillote-con-verduras.jpg
+    category: Pescados y mariscos
+    difficulty: EASY
+    prep: 15
+    cook: 15
+    servings: 4
+    tags: [pescado, al horno, sin gluten]
+    utensils: [Horno]
+    ingredients:
+      - items:
+          - [lomos de merluza, 4, null]
+          - [calabacín, 1, null]
+          - [zanahoria, 1, null]
+          - [puerro, 1, null]
+          - [tomates cherry, 12, null]
+          - [limón, 1, null]
+          - [eneldo o perejil fresco, 1, puñado]
+          - [aceite de oliva virgen extra, 1, cucharada]
+          - [vino blanco, 4, cucharada]
+          - [sal y pimienta negra, null, null]
+    steps:
+      - Precalienta el horno a 200 °C. Corta las verduras en juliana fina.
+      - "Pon cada lomo sobre una cama de verduras en un rectángulo de papel de horno. Añade los tomates, rodajas de limón, hierbas, sal, pimienta, un hilo de aceite y una cucharada de vino."
+      - Cierra los paquetes doblando los bordes y hornea 12-15 minutos. Ábrelos en la mesa.
+
+  - name: Ensalada niçoise
+    health: [GREEN, "Atún, huevo, judías verdes y verdura: proteína y fibra con grasa de calidad."]
+    nutrition: [380, 28, 18, 22]
+    photo: saludable-ligero-y-saciante/ensalada-nicoise.jpg
+    category: Ensaladas
+    difficulty: EASY
+    prep: 20
+    cook: 15
+    servings: 4
+    origin: Niza
+    tags: [ensalada, pescado, sin gluten]
+    ingredients:
+      - items:
+          - [atún al natural, 240, g]
+          - [huevos, 4, null]
+          - [judías verdes, 200, g]
+          - [patatas pequeñas, 300, g]
+          - [lechuga, 1, null]
+          - [tomates, 3, null]
+          - [aceitunas negras, 50, g]
+          - [filetes de anchoa, 4, null]
+          - [aceite de oliva virgen extra, 3, cucharada]
+          - [vinagre de vino tinto, 1, cucharada]
+          - [mostaza de Dijon, 1, cucharadita]
+          - [sal y pimienta negra, null, null]
+    steps:
+      - "Cuece las patatas 15 minutos, las judías 5 minutos y los huevos 8 minutos. Enfríalo todo."
+      - "Bate el aceite con el vinagre, la mostaza, sal y pimienta."
+      - "Monta en una fuente la lechuga, los tomates en gajos, las patatas en mitades, las judías, el atún, los huevos en cuartos, las aceitunas y las anchoas. Aliña al servir."
+
+  - name: Brochetas de pollo con salsa de yogur
+    health: [GREEN, "Pollo y verdura a la plancha con salsa de yogur: proteína magra con muy poca grasa."]
+    nutrition: [300, 40, 12, 10]
+    photo: saludable-ligero-y-saciante/brochetas-de-pollo-con-salsa-de-yogur.jpg
+    category: Carnes
+    difficulty: EASY
+    prep: 20
+    cook: 15
+    servings: 4
+    tags: [pollo, plancha, sin gluten]
+    utensils: [Plancha]
+    ingredients:
+      - group: Brochetas
+        items:
+          - [pechugas de pollo, 600, g]
+          - [pimiento rojo, 1, null]
+          - [calabacín, 1, null]
+          - [cebolla morada, 1, null]
+          - [zumo de limón, 2, cucharada]
+          - [pimentón dulce, 1, cucharadita]
+          - [comino molido, 1, cucharadita]
+          - [aceite de oliva, 1, cucharada]
+          - [sal, null, null]
+      - group: Salsa
+        items:
+          - [yogur griego desnatado, 200, g]
+          - [pepino, 0.5, null]
+          - [ajo, 1, diente]
+          - [menta fresca, 1, puñado]
+    steps:
+      - "Corta el pollo y las verduras en dados y marínalos con el limón, las especias, el aceite y sal 20 minutos."
+      - "Mezcla el yogur con el pepino rallado y escurrido, el ajo picado, la menta y sal."
+      - "Ensarta alternando pollo y verdura y cocina a la plancha 10-12 minutos, girándolas. Sirve con la salsa."
+
+  - name: Sopa de pollo y verduras
+    health: [GREEN, "Caldo casero con pollo y verduras: reconfortante, saciante y muy ligero."]
+    nutrition: [220, 26, 14, 6]
+    photo: saludable-ligero-y-saciante/sopa-de-pollo-y-verduras.jpg
+    category: Sopas y cremas
+    difficulty: EASY
+    prep: 15
+    cook: 45
+    servings: 6
+    tags: [sopa, pollo, sin gluten]
+    ingredients:
+      - items:
+          - [pechugas o contramuslos de pollo, 500, g]
+          - [zanahorias, 3, null]
+          - [apio, 2, rama]
+          - [puerro, 1, null]
+          - [cebolla, 1, null]
+          - [calabacín, 1, null]
+          - [judías verdes, 100, g]
+          - [hoja de laurel, 1, null]
+          - [tomillo, 2, ramita]
+          - [perejil fresco, 1, puñado]
+          - [agua, 2, l]
+          - [sal y pimienta negra, null, null]
+    steps:
+      - "Cuece el pollo en el agua con la cebolla partida, el laurel y el tomillo 25 minutos, quitando la espuma. Saca el pollo y desmenúzalo."
+      - "Añade al caldo la zanahoria, el apio y el puerro en rodajas y cuece 10 minutos."
+      - "Agrega el calabacín en dados, las judías troceadas y el pollo, y cuece 8 minutos. Salpimienta y termina con perejil."
+
+  - name: Bacalao al horno con tomate y pimientos
+    health: [GREEN, "Bacalao fresco sobre verduras al horno: proteína magra con muy pocas calorías."]
+    nutrition: [260, 32, 12, 9]
+    photo: saludable-ligero-y-saciante/bacalao-al-horno-con-tomate-y-pimientos.jpg
+    category: Pescados y mariscos
+    difficulty: EASY
+    prep: 15
+    cook: 30
+    servings: 4
+    tags: [pescado, al horno, sin gluten]
+    utensils: [Horno]
+    ingredients:
+      - items:
+          - [lomos de bacalao fresco, 4, null]
+          - [pimiento rojo, 1, null]
+          - [pimiento verde, 1, null]
+          - [cebolla, 1, null]
+          - [tomates maduros, 3, null]
+          - [ajo, 2, diente]
+          - [aceitunas negras, 30, g]
+          - [aceite de oliva virgen extra, 2, cucharada]
+          - [orégano seco, 1, cucharadita]
+          - [sal y pimienta negra, null, null]
+    steps:
+      - Precalienta el horno a 200 °C. Corta las verduras en tiras y el tomate en gajos.
+      - "Mézclalas en una fuente con el ajo laminado, el aceite, el orégano y sal, y hornea 15 minutos."
+      - Coloca el bacalao salpimentado encima con las aceitunas y hornea 12-15 minutos más.
+
+  - name: Wok de gambas y verduras
+    health: [GREEN, "Gambas salteadas con mucha verdura y poco aceite: ligero y con proteína."]
+    nutrition: [240, 26, 16, 8]
+    photo: saludable-ligero-y-saciante/wok-de-gambas-y-verduras.jpg
+    category: Pescados y mariscos
+    difficulty: EASY
+    prep: 15
+    cook: 10
+    servings: 4
+    tags: [gambas, salteado, rápido]
+    utensils: [Wok]
+    ingredients:
+      - items:
+          - [gambas peladas, 500, g]
+          - [brócoli, 200, g]
+          - [tirabeques, 150, g]
+          - [pimiento rojo, 1, null]
+          - [zanahoria, 1, null]
+          - [champiñones, 150, g]
+          - [ajo, 2, diente]
+          - [jengibre fresco rallado, 1, cucharada]
+          - [salsa de soja baja en sal, 2, cucharada]
+          - [aceite de sésamo, 1, cucharadita]
+          - [aceite de girasol, 1, cucharada]
+    steps:
+      - Corta las verduras en trozos pequeños.
+      - Saltea las gambas en el wok muy caliente con el aceite 2 minutos y sácalas.
+      - "Saltea el ajo y el jengibre, añade las verduras y saltea 4 minutos con un chorrito de agua."
+      - "Vuelve a echar las gambas con la soja y el aceite de sésamo, saltea 1 minuto y sirve."
+
+  - name: Pechuga de pavo rellena de espinacas
+    health: [GREEN, "Pavo magro relleno de verdura y queso fresco: mucha proteína y poca grasa."]
+    nutrition: [280, 42, 4, 10]
+    photo: saludable-ligero-y-saciante/pechuga-de-pavo-rellena-de-espinacas.jpg
+    category: Carnes
+    difficulty: MEDIUM
+    prep: 20
+    cook: 35
+    servings: 4
+    tags: [pavo, al horno, sin gluten]
+    utensils: [Horno]
+    ingredients:
+      - items:
+          - [pechuga de pavo entera, 700, g]
+          - [espinacas frescas, 200, g]
+          - [queso fresco tipo Burgos, 100, g]
+          - [ajo, 1, diente]
+          - [mostaza de Dijon, 1, cucharada]
+          - [aceite de oliva, 1, cucharada]
+          - [tomillo seco, 1, cucharadita]
+          - [sal y pimienta negra, null, null]
+    steps:
+      - Saltea el ajo y las espinacas hasta que pierdan el agua. Escúrrelas y mézclalas con el queso desmenuzado.
+      - "Abre la pechuga en libro y aplánala. Salpimienta, extiende el relleno, enrolla y ata con hilo."
+      - "Unta con la mostaza, el aceite y el tomillo y hornea a 190 °C 30-35 minutos. Deja reposar 10 minutos antes de cortar."
+
+  - name: Crema fría de pepino y yogur
+    health: [GREEN, "Crema fría de pepino y yogur: hidratante, fresca y casi sin calorías."]
+    nutrition: [120, 7, 10, 6]
+    photo: saludable-ligero-y-saciante/crema-fria-de-pepino-y-yogur.jpg
+    category: Sopas y cremas
+    difficulty: EASY
+    prep: 10
+    cook: 0
+    servings: 4
+    tags: [sopa, frío, vegetariano, sin gluten]
+    utensils: [Batidora]
+    ingredients:
+      - items:
+          - [pepinos, 3, null]
+          - [yogur natural, 300, g]
+          - [ajo, 1, diente]
+          - [menta fresca, 1, puñado]
+          - [eneldo fresco, 1, puñado]
+          - [zumo de limón, 1, cucharada]
+          - [aceite de oliva virgen extra, 1, cucharada]
+          - [agua fría, 150, ml]
+          - [sal, null, null]
+    steps:
+      - "Pela los pepinos y trocéalos, reservando un poco en dados para servir."
+      - "Tritúralos con el yogur, el ajo, las hierbas, el limón, el agua y sal hasta que quede fino."
+      - Enfría al menos 1 hora y sirve con el pepino en dados y un hilo de aceite.
+
+  - name: Hamburguesas de pollo y calabacín
+    health: [GREEN, "Hamburguesas de pollo con verdura rallada a la plancha: magras y jugosas."]
+    nutrition: [230, 30, 6, 9]
+    photo: saludable-ligero-y-saciante/hamburguesas-de-pollo-y-calabacin.jpg
+    category: Carnes
+    difficulty: EASY
+    prep: 15
+    cook: 12
+    servings: 4
+    tags: [pollo, plancha]
+    utensils: [Plancha]
+    ingredients:
+      - items:
+          - [pechuga de pollo picada, 500, g]
+          - [calabacín, 1, null]
+          - [cebolleta, 2, null]
+          - [ajo, 1, diente]
+          - [huevo, 1, null]
+          - [copos de avena, 30, g]
+          - [perejil fresco, 1, puñado]
+          - [aceite de oliva, 1, cucharada]
+          - [sal y pimienta negra, null, null]
+    steps:
+      - "Ralla el calabacín, sálalo 10 minutos y escúrrelo apretando bien."
+      - "Mézclalo con el pollo, la cebolleta y el ajo picados, el huevo, la avena, el perejil y pimienta."
+      - Forma 4 hamburguesas y cocínalas a la plancha con el aceite 5-6 minutos por lado. Sírvelas con ensalada.
+
+  - name: "Ensalada de pollo, mango y aguacate"
+    health: [GREEN, "Pollo con fruta, aguacate y hojas verdes: proteína y grasas saludables."]
+    nutrition: [380, 32, 20, 19]
+    photo: saludable-ligero-y-saciante/ensalada-de-pollo-mango-y-aguacate.jpg
+    category: Ensaladas
+    difficulty: EASY
+    prep: 15
+    cook: 12
+    servings: 4
+    tags: [ensalada, pollo, sin gluten]
+    utensils: [Plancha]
+    ingredients:
+      - items:
+          - [pechugas de pollo, 500, g]
+          - [mango, 1, null]
+          - [aguacate, 1, null]
+          - [mezcla de hojas verdes, 150, g]
+          - [cebolla morada, 0.5, null]
+          - [lima, 1, null]
+          - [aceite de oliva virgen extra, 2, cucharada]
+          - [cilantro fresco, 1, puñado]
+          - [sal y pimienta negra, null, null]
+    steps:
+      - Salpimienta el pollo y hazlo a la plancha 5-6 minutos por lado. Déjalo reposar y córtalo en tiras.
+      - Corta el mango y el aguacate en dados y la cebolla en juliana fina.
+      - "Bate el aceite con el zumo de lima y sal. Mezcla las hojas con el mango, el aguacate, la cebolla y el pollo, aliña y termina con cilantro."

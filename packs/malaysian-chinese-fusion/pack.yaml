@@ -1,0 +1,293 @@
+id: malaysian-chinese-fusion
+version: 1
+updated: 2026-11-07
+language: en
+name: "Fusion cuisine: Malaysian Chinese"
+series: Fusion cuisine
+description: >-
+  The cooking of Malaysia's Chinese (Hokkien, Cantonese, Hainanese and Hakka) at the hawker stalls
+  of Penang and Kuala Lumpur: char kway teow, bak kut teh, Hokkien mee, yong tau foo, claypot
+  chicken rice, wantan mee, Hainanese chicken chop and kaya toast.
+author: Miga
+authorGithub: calamares00
+cover:
+  emoji: "🍲"
+  kicker: Fusion cuisine
+  title: Malaysian Chinese
+  colors: ["#14532d", "#16a34a"]
+defaults:
+  origin: Malaysia
+  originCountry: MY
+  source: "Miga «Fusion cuisine: Malaysian Chinese» pack"
+recipes:
+
+  - name: Char kway teow
+    health: [RED, "Rice noodles stir-fried with lard, sausage and seafood: very tasty but fatty."]
+    nutrition: [620, 26, 72, 25]
+    photo: fusion-chino-malaya/char-kway-teow.jpg
+    category: Pasta
+    difficulty: MEDIUM
+    prep: 15
+    cook: 10
+    servings: 2
+    origin: Penang
+    notes: It is made in small batches over very high heat so it gets 'wok breath'. Make two batches for more people.
+    tags: [noodles, seafood, stir-fry]
+    utensils: [Wok]
+    ingredients:
+      - items:
+          - [fresh flat rice noodles (kway teow), 400, g]
+          - [peeled prawns, 150, g]
+          - [cockles or clams (optional), 100, g]
+          - [Chinese sausage (lap cheong), 1, null]
+          - [eggs, 2, null]
+          - [bean sprouts, 100, g]
+          - [garlic chives, 1, bunch]
+          - [garlic, 3, clove]
+          - [sambal or chilli paste, 1, tbsp]
+          - [dark soy sauce, 1, tbsp]
+          - [soy sauce, 1, tbsp]
+          - [oyster sauce, 1, tsp]
+          - [lard or oil, 3, tbsp]
+    steps:
+      - Separate the noodles by hand. Mix the soy sauces and oyster sauce. Slice the sausage thinly and cut the chives into 4 cm lengths.
+      - "Heat the lard in the wok until smoking. Stir-fry the chopped garlic, sambal, sausage and prawns for 1 minute."
+      - "Add the noodles and the sauce and toss for 1 minute, letting them char a little."
+      - "Push the noodles to one side, crack the eggs into the space, scramble them and mix them through the noodles."
+      - "Add the cockles, sprouts and chives, toss for 30 seconds and serve straight away."
+
+  - name: Bak kut teh
+    health: [YELLOW, "Pork rib broth with herbs and spices: high in protein, with some fat."]
+    nutrition: [420, 34, 6, 29]
+    photo: fusion-chino-malaya/bak-kut-teh.jpg
+    category: Soups
+    difficulty: EASY
+    prep: 15
+    cook: 90
+    servings: 4
+    origin: Klang
+    notes: Bak kut teh spice mixes are sold in sachets in Asian shops; with them you only need to add garlic and soy sauce.
+    tags: [soup, pork]
+    ingredients:
+      - items:
+          - [pork ribs, 1, kg]
+          - [whole garlic bulbs, 2, null]
+          - [star anise, 3, null]
+          - [cinnamon, 1, stick]
+          - [cloves, 4, null]
+          - [white peppercorns, 1, tbsp]
+          - [fennel seeds, 1, tsp]
+          - [Chinese angelica root (dang gui) (optional), 2, slice]
+          - [soy sauce, 3, tbsp]
+          - [dark soy sauce, 1, tbsp]
+          - [dried shiitake mushrooms, 6, null]
+          - [fried tofu puffs (tau pok), 8, null]
+          - [water, 2.5, l]
+          - [salt, null, null]
+    steps:
+      - Blanch the ribs in boiling water for 5 minutes and rinse them.
+      - "Put the water, ribs, whole garlic bulbs and the spices tied in muslin into a pot. Bring to the boil."
+      - "Add the soy sauces and the soaked mushrooms and simmer for 1 hour 15 minutes, until the meat comes off the bone."
+      - "Add the tofu for the last 10 minutes and season with salt. Serve with rice, fried dough sticks (you tiao) and soy sauce with chilli."
+
+  - name: Kuala Lumpur Hokkien mee
+    health: [YELLOW, "Thick noodles in dark soy sauce with pork and seafood: complete but fairly fatty and salty."]
+    nutrition: [600, 30, 70, 22]
+    photo: fusion-chino-malaya/hokkien-mee-de-kuala-lumpur.jpg
+    category: Pasta
+    difficulty: MEDIUM
+    prep: 15
+    cook: 15
+    servings: 4
+    origin: Kuala Lumpur
+    tags: [noodles, pork, seafood]
+    utensils: [Wok]
+    ingredients:
+      - items:
+          - [thick fresh egg noodles, 600, g]
+          - [pork loin or belly, 200, g]
+          - [peeled prawns, 150, g]
+          - [squid, 150, g]
+          - [Chinese cabbage or choy sum, 200, g]
+          - [garlic, 4, clove]
+          - [dark soy sauce, 4, tbsp]
+          - [soy sauce, 2, tbsp]
+          - [oyster sauce, 1, tbsp]
+          - [sugar, 1, tsp]
+          - [chicken stock, 300, ml]
+          - [lard or oil, 3, tbsp]
+    steps:
+      - "Cut the pork into thin strips and the squid into rings. Mix the soy sauces, oyster sauce and sugar."
+      - Stir-fry the garlic and pork in very hot lard for 2 minutes; add the seafood and stir-fry for 1 minute.
+      - Add the noodles and the sauce and toss until they are dark and glossy.
+      - "Add the stock and greens, cover for 2 minutes and uncover so the sauce thickens and clings to the noodles. Serve with sambal."
+
+  - name: Yong tau foo
+    health: [GREEN, "Tofu and vegetables stuffed with fish paste in a clear broth: light, with lean protein."]
+    nutrition: [260, 24, 14, 11]
+    photo: fusion-chino-malaya/yong-tau-foo.jpg
+    category: Soups
+    difficulty: MEDIUM
+    prep: 40
+    cook: 15
+    servings: 4
+    origin: Ampang
+    notes: It is Hakka in origin; in Malaysia everyone picks the pieces they want at the stall.
+    tags: [soup, tofu, fish]
+    ingredients:
+      - group: Filling
+        items:
+          - [white fish fillets or fish paste, 400, g]
+          - [potato starch, 1, tbsp]
+          - [soy sauce, 1, tsp]
+          - [white pepper, 0.5, tsp]
+          - [salt, 0.5, tsp]
+      - group: Pieces and broth
+        items:
+          - [firm tofu, 300, g]
+          - [aubergine, 1, null]
+          - [long green peppers, 2, null]
+          - [fresh shiitake mushrooms, 6, null]
+          - [chicken or anchovy stock, 1.2, l]
+          - [choy sum or pak choi, 200, g]
+          - [hoisin and chilli sauce for dipping, null, null]
+    steps:
+      - "Blend the fish with the starch, soy sauce, pepper, salt and 2 tablespoons of cold water into an elastic paste."
+      - "Cut the tofu into triangles and make a slit in the middle; cut the aubergine into thick slices with a slit, open the peppers and remove the mushroom stalks."
+      - "Fill all the pieces with the fish paste, smoothing it with a wet spoon."
+      - Brown the pieces on the filled side in a pan with a little oil.
+      - "Simmer them in the boiling stock for 8 minutes, add the greens for the last minute and serve with the dipping sauces."
+
+  - name: Claypot chicken rice
+    health: [YELLOW, "Rice with chicken, mushrooms and Chinese sausage: a complete dish, with some fat from the sausage."]
+    nutrition: [560, 30, 66, 19]
+    photo: fusion-chino-malaya/arroz-con-pollo-en-cazuela-de-barro.jpg
+    category: Rice
+    difficulty: MEDIUM
+    prep: 20
+    cook: 35
+    servings: 4
+    notes: "The crispy crust at the bottom is the best part. Without a clay pot, use a heavy-based pan."
+    tags: [rice, chicken]
+    ingredients:
+      - items:
+          - [jasmine rice, 350, g]
+          - [boneless chicken thighs, 500, g]
+          - [Chinese sausage (lap cheong), 2, null]
+          - [dried shiitake mushrooms, 6, null]
+          - [soy sauce, 2, tbsp]
+          - [dark soy sauce, 1, tbsp]
+          - [oyster sauce, 1, tbsp]
+          - [sesame oil, 1, tbsp]
+          - [grated fresh ginger, 1, tsp]
+          - [potato starch, 1, tsp]
+          - [spring onions, 2, null]
+          - [pak choi, 2, null]
+    steps:
+      - "Soak the mushrooms for 30 minutes and slice them. Cut the chicken into pieces and marinate it with half the sauces, the ginger, starch and sesame oil."
+      - "Rinse the rice and put it in the pot with 450 ml of water. Cook covered over medium heat until the water is almost absorbed, about 10 minutes."
+      - "Lay the chicken, mushrooms and sliced sausage on top, cover and cook over low heat for 15 minutes."
+      - Drizzle a little oil around the edge of the pot and leave for 5 more minutes over medium heat to form the crust. Add the blanched pak choi.
+      - "Pour the remaining soy sauces over, add the spring onion and mix at the table."
+
+  - name: Wantan mee
+    health: [YELLOW, "Egg noodles with roast pork and wontons: complete but fairly salty."]
+    nutrition: [560, 30, 68, 18]
+    photo: fusion-chino-malaya/wantan-mee.jpg
+    category: Pasta
+    difficulty: MEDIUM
+    prep: 40
+    cook: 15
+    servings: 4
+    notes: "In Malaysia it is eaten 'dry', with dressed noodles and the wonton soup on the side."
+    tags: [noodles, pork]
+    ingredients:
+      - group: Wontons
+        items:
+          - [wonton wrappers, 20, null]
+          - [minced pork, 200, g]
+          - [chopped peeled prawns, 100, g]
+          - [soy sauce, 1, tsp]
+          - [sesame oil, 1, tsp]
+          - [chicken stock, 1, l]
+      - group: Noodles
+        items:
+          - [thin egg noodles, 400, g]
+          - [char siu (roast pork), 250, g]
+          - [oyster sauce, 2, tbsp]
+          - [dark soy sauce, 1, tbsp]
+          - [sesame oil, 1, tbsp]
+          - [choy sum, 200, g]
+          - [pickled green chillies, null, null]
+    steps:
+      - "Mix the pork, prawns, soy sauce and sesame oil. Put a teaspoon on each wrapper and close it into a little pouch."
+      - Simmer the wontons in the boiling stock for 4 minutes.
+      - "In a bowl, mix the oyster sauce, dark soy sauce and sesame oil with 2 tablespoons of stock."
+      - "Cook the noodles for 1 minute, drain and toss them in the sauce. Blanch the greens."
+      - "Serve the noodles with the sliced char siu and greens, with the wontons in their broth and the pickled chillies on the side."
+
+  - name: Hainanese chicken chop
+    health: [RED, "Breaded fried chicken with a sweet tomato sauce: fried and high in calories."]
+    nutrition: [540, 33, 36, 29]
+    photo: fusion-chino-malaya/chuleta-de-pollo-hainanesa.jpg
+    category: Meat
+    difficulty: MEDIUM
+    prep: 20
+    cook: 25
+    servings: 4
+    notes: "Hainanese cooks working for the British created it: a Western-style breaded chop with a Chinese sauce. It is also made with pork."
+    tags: [chicken, fried]
+    ingredients:
+      - group: Chicken
+        items:
+          - [boneless chicken thighs, 4, null]
+          - [soy sauce, 1, tbsp]
+          - [white pepper, 0.5, tsp]
+          - [egg, 1, null]
+          - [cream crackers or breadcrumbs, 100, g]
+          - [sunflower oil for frying, 500, ml]
+      - group: Sauce
+        items:
+          - [onion, 1, null]
+          - [tomatoes, 2, null]
+          - [peas, 80, g]
+          - [boiled potato, 1, null]
+          - [ketchup, 4, tbsp]
+          - [Worcestershire sauce, 1, tbsp]
+          - [sugar, 1, tbsp]
+          - [soy sauce, 1, tbsp]
+          - [chicken stock, 250, ml]
+          - [cornflour, 1, tbsp]
+    steps:
+      - Flatten the thighs with a mallet and marinate them with the soy sauce and pepper for 15 minutes.
+      - Dip them in beaten egg and then in the crushed crackers. Fry at 170 °C for 4 minutes per side. Drain.
+      - "For the sauce, fry the onion wedges for 3 minutes, add the tomato and potato in chunks, then the ketchup, Worcestershire, sugar, soy sauce and stock. Simmer for 5 minutes with the peas."
+      - "Thicken with the cornflour mixed with water, slice the chicken into strips and serve covered with the sauce."
+
+  - name: Kaya toast
+    health: [RED, "Toast with butter and coconut egg jam: a very sweet and fatty breakfast."]
+    nutrition: [380, 7, 42, 20]
+    photo: fusion-chino-malaya/tostadas-con-kaya.jpg
+    category: Desserts
+    difficulty: MEDIUM
+    prep: 10
+    cook: 40
+    servings: 6
+    notes: It is eaten for breakfast with soft-boiled eggs with soy sauce and pepper and coffee or tea with condensed milk. Kaya keeps for a week in the fridge.
+    tags: [breakfast, sweet]
+    ingredients:
+      - group: Kaya
+        items:
+          - [eggs, 3, null]
+          - [coconut milk, 200, ml]
+          - [sugar, 120, g]
+          - [pandan leaves or pandan extract, 3, leaf]
+      - group: Toast
+        items:
+          - [white sandwich bread, 12, slice]
+          - [cold butter, 80, g]
+    steps:
+      - Whisk the eggs with the sugar and coconut milk and strain into a heatproof bowl. Add the knotted pandan leaves.
+      - "Cook it over a pan of simmering water for 35-40 minutes, stirring often, until it thickens to a spreadable custard. Remove the pandan and whisk until smooth."
+      - Toast the bread until golden and crisp.
+      - "Spread with kaya, lay thin slices of cold butter on top and close with another slice of toast. Cut in half and serve straight away."

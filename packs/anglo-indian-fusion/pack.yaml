@@ -1,0 +1,286 @@
+id: anglo-indian-fusion
+version: 1
+updated: 2026-11-07
+language: en
+name: "Fusion cuisine: Anglo-Indian"
+series: Fusion cuisine
+description: >-
+  Dishes born where India and Britain met, from the clubs and trains of the Raj to British curry
+  houses: kedgeree, mulligatawny soup, chicken tikka masala, coronation chicken, jalfrezi, railway
+  mutton curry, country captain and mango chutney.
+author: Miga
+authorGithub: calamares00
+cover:
+  emoji: "🫖"
+  kicker: Fusion cuisine
+  title: Anglo-Indian
+  colors: ["#1e3a8a", "#d97706"]
+defaults:
+  origin: India and United Kingdom
+  originCountry: GB
+  source: "Miga «Fusion cuisine: Anglo-Indian» pack"
+recipes:
+
+  - name: Kedgeree
+    health: [GREEN, "Rice with smoked fish, egg and mild spices: good protein and omega-3."]
+    nutrition: [470, 30, 50, 16]
+    photo: fusion-anglo-india/kedgeree.jpg
+    category: Rice
+    difficulty: EASY
+    prep: 15
+    cook: 30
+    servings: 4
+    notes: It comes from Indian khichdi; the British turned it into a Victorian breakfast with smoked haddock.
+    tags: [rice, fish, breakfast]
+    ingredients:
+      - items:
+          - [smoked haddock or cod, 400, g]
+          - [milk, 400, ml]
+          - [bay leaf, 1, null]
+          - [basmati rice, 250, g]
+          - [butter, 40, g]
+          - [onion, 1, null]
+          - [mild curry powder, 2, tsp]
+          - [turmeric, 0.5, tsp]
+          - [eggs, 4, null]
+          - [fresh parsley, 1, handful]
+          - [lemon, 1, null]
+          - [salt and black pepper, null, null]
+    steps:
+      - "Poach the fish in the milk with the bay leaf over low heat for 8 minutes. Remove it, flake it without skin or bones and keep the milk."
+      - "Boil the eggs for 7 minutes, cool them and cut into quarters."
+      - "Soften the chopped onion in the butter for 8 minutes, add the curry powder and turmeric and then the rinsed rice. Stir for 1 minute."
+      - "Add the fish poaching milk made up to 500 ml with water, cover and cook for 12 minutes over low heat. Leave to rest for 5 minutes."
+      - "Gently fold in the fish and parsley, season and serve with the eggs and lemon wedges."
+
+  - name: Mulligatawny soup
+    health: [GREEN, "Soup of lentils, vegetables and spices with a touch of coconut: fibre and plant protein."]
+    nutrition: [300, 13, 38, 11]
+    photo: fusion-anglo-india/sopa-mulligatawny.jpg
+    category: Soups
+    difficulty: EASY
+    prep: 15
+    cook: 35
+    servings: 4
+    notes: "Its name comes from Tamil milagu thanni, 'pepper water'."
+    tags: [soup, pulses]
+    utensils: [Blender]
+    ingredients:
+      - items:
+          - [red lentils, 150, g]
+          - [onion, 1, null]
+          - [carrot, 1, null]
+          - [celery, 1, stalk]
+          - [tart apple, 1, null]
+          - [garlic, 2, clove]
+          - [grated fresh ginger, 1, tbsp]
+          - [curry powder, 1, tbsp]
+          - [chicken or vegetable stock, 1.2, l]
+          - [coconut milk, 150, ml]
+          - [cooked rice, 100, g]
+          - [lemon juice, 1, tbsp]
+          - [butter or oil, 2, tbsp]
+          - [salt, null, null]
+    steps:
+      - "Fry the chopped onion, carrot and celery in the butter for 8 minutes. Add the garlic, ginger and curry powder and cook for 1 minute."
+      - "Add the peeled diced apple, the lentils and the stock. Simmer for 25 minutes."
+      - "Blend the soup, add the coconut milk and lemon juice and season with salt."
+      - Serve with a spoonful of rice in each bowl.
+
+  - name: Chicken tikka masala
+    health: [YELLOW, "Grilled chicken in a creamy tomato sauce: high in protein, with fat from the cream."]
+    nutrition: [480, 40, 14, 29]
+    photo: fusion-anglo-india/pollo-tikka-masala.jpg
+    category: Meat
+    difficulty: MEDIUM
+    prep: 20
+    cook: 40
+    servings: 4
+    origin: Glasgow
+    notes: Glasgow and Birmingham both claim to have invented it in the British Indian restaurants of the 1960s and 70s.
+    tags: [curry, chicken, gluten-free]
+    utensils: [Oven, Blender]
+    ingredients:
+      - group: Tikka
+        items:
+          - [chicken breasts, 700, g]
+          - [plain yoghurt, 150, g]
+          - [ginger and garlic paste, 1, tbsp]
+          - [garam masala, 1, tsp]
+          - [sweet paprika, 1, tsp]
+          - [lemon juice, 1, tbsp]
+          - [salt, 1, tsp]
+      - group: Masala sauce
+        items:
+          - [oil or ghee, 3, tbsp]
+          - [onions, 2, null]
+          - [ginger and garlic paste, 1, tbsp]
+          - [garam masala, 2, tsp]
+          - [ground cumin, 1, tsp]
+          - [sweet paprika, 2, tsp]
+          - [chilli powder, 0.5, tsp]
+          - [crushed tomatoes, 400, g]
+          - [single cream, 150, ml]
+          - [fresh coriander, 1, handful]
+    steps:
+      - Cut the chicken into large chunks and marinate with the tikka ingredients for at least 1 hour.
+      - "Thread it onto skewers and cook under the oven grill on high for 12-15 minutes, turning, until charred in places."
+      - "For the sauce, brown the chopped onion in the oil for 12 minutes. Add the ginger and garlic paste and the spices, then the tomatoes. Simmer for 15 minutes and blend."
+      - "Add the cream and the chicken, simmer for 5 minutes and finish with coriander. Serve with rice or naan."
+
+  - name: Coronation chicken
+    health: [RED, "Chicken in curried mayonnaise with fruit: cold and tasty, but high in fat from the mayonnaise."]
+    nutrition: [460, 30, 12, 32]
+    photo: fusion-anglo-india/pollo-coronacion.jpg
+    category: Salads
+    difficulty: EASY
+    prep: 20
+    cook: 20
+    servings: 4
+    origin: London
+    notes: It was created for the banquet at Elizabeth II's coronation in 1953. Very popular in sandwiches.
+    tags: [chicken, cold, salad]
+    ingredients:
+      - items:
+          - [chicken breasts, 600, g]
+          - [mayonnaise, 150, g]
+          - [plain yoghurt, 100, g]
+          - [mild curry powder, 2, tsp]
+          - [mango chutney, 2, tbsp]
+          - [dried apricots, 50, g]
+          - [toasted flaked almonds, 30, g]
+          - [lemon juice, 1, tbsp]
+          - [fresh coriander, 1, handful]
+          - [salt and black pepper, null, null]
+    steps:
+      - Poach the chicken breasts in salted water over low heat for 15-18 minutes and let them cool in the liquid. Shred them.
+      - Toast the curry powder in a dry pan for 30 seconds to remove its raw taste.
+      - "Mix the mayonnaise with the yoghurt, curry powder, chutney and lemon. Add the chicken and chopped apricots and season."
+      - "Serve cold topped with the almonds and coriander, with rice salad or in sandwiches."
+
+  - name: Chicken jalfrezi
+    health: [GREEN, "Chicken stir-fried with peppers, onion and tomato: protein and vegetables with little fat."]
+    nutrition: [350, 36, 14, 17]
+    photo: fusion-anglo-india/jalfrezi-de-pollo.jpg
+    category: Meat
+    difficulty: EASY
+    prep: 15
+    cook: 25
+    servings: 4
+    notes: In colonial India it was made with leftover roast meat; today it is one of Britain's favourite curries.
+    tags: [curry, chicken, spicy, gluten-free]
+    ingredients:
+      - items:
+          - [chicken breasts or thighs, 700, g]
+          - [oil, 3, tbsp]
+          - [cumin seeds, 1, tsp]
+          - [onions, 2, null]
+          - [red pepper, 1, null]
+          - [green pepper, 1, null]
+          - [green chillies, 3, null]
+          - [ginger and garlic paste, 1, tbsp]
+          - [tomatoes, 3, null]
+          - [turmeric, 0.5, tsp]
+          - [chilli powder, 1, tsp]
+          - [ground coriander, 2, tsp]
+          - [garam masala, 1, tsp]
+          - [salt, null, null]
+    steps:
+      - "Fry the cumin in the oil, add 1 chopped onion and brown it for 8 minutes. Add the ginger and garlic paste and the ground spices, except the garam masala."
+      - Add the chopped tomatoes and cook for 5 minutes. Add the diced chicken and cook for 10 minutes.
+      - "Add the other onion in wedges, the peppers in squares and the chillies in strips, and stir-fry over high heat for 5 minutes: they should stay slightly crunchy."
+      - Finish with the garam masala and salt. Serve with rice or naan.
+
+  - name: Railway mutton curry
+    health: [YELLOW, "Lamb braised with potato and mild spices: high in protein, but a fatty meat."]
+    nutrition: [520, 36, 22, 32]
+    photo: fusion-anglo-india/curry-de-cordero-del-ferrocarril.jpg
+    category: Meat
+    difficulty: MEDIUM
+    prep: 20
+    cook: 90
+    servings: 4
+    notes: "It was served in the dining cars of British India's railways: milder, with tamarind to keep better."
+    tags: [curry, lamb, stew]
+    ingredients:
+      - items:
+          - [diced lamb shoulder, 800, g]
+          - [potatoes, 2, null]
+          - [onions, 2, null]
+          - [oil, 3, tbsp]
+          - [cinnamon, 1, stick]
+          - [cardamom pods, 4, null]
+          - [cloves, 4, null]
+          - [ginger and garlic paste, 2, tbsp]
+          - [Kashmiri chilli or sweet paprika, 2, tsp]
+          - [ground coriander, 2, tsp]
+          - [turmeric, 0.5, tsp]
+          - [plain yoghurt, 100, g]
+          - [tamarind paste, 1, tbsp]
+          - [coconut milk, 100, ml]
+          - [salt, null, null]
+    steps:
+      - "Fry the cinnamon, cardamom and cloves in the oil for 1 minute. Add the sliced onions and brown them for 12 minutes."
+      - "Add the ginger and garlic paste, the ground spices and the lamb, and brown it for 5 minutes."
+      - "Stir in the yoghurt little by little, 400 ml of water and salt. Cover and simmer for 1 hour."
+      - "Add the potatoes in large chunks, the tamarind and the coconut milk and cook for 25 more minutes, until tender. Serve with rice or bread."
+
+  - name: Country captain
+    health: [GREEN, "Chicken braised with tomato, pepper, curry and raisins: complete and low in fat."]
+    nutrition: [440, 38, 26, 20]
+    photo: fusion-anglo-india/country-captain.jpg
+    category: Meat
+    difficulty: EASY
+    prep: 20
+    cook: 50
+    servings: 4
+    notes: Spice-trade ship captains brought it from India to England and the American South.
+    tags: [chicken, curry, stew]
+    ingredients:
+      - items:
+          - [chicken legs and thighs, 1.2, kg]
+          - [flour, 2, tbsp]
+          - [oil, 3, tbsp]
+          - [onion, 1, null]
+          - [green pepper, 1, null]
+          - [garlic, 2, clove]
+          - [curry powder, 1, tbsp]
+          - [tinned peeled tomatoes, 400, g]
+          - [chicken stock, 200, ml]
+          - [raisins, 50, g]
+          - [toasted flaked almonds, 30, g]
+          - [salt and black pepper, null, null]
+    steps:
+      - "Season the chicken, dust it with flour and brown it well in the oil. Set aside."
+      - "Fry the chopped onion, pepper and garlic for 8 minutes. Add the curry powder and cook for 1 minute."
+      - "Add the tomatoes, stock and raisins, return the chicken, cover and simmer for 35-40 minutes."
+      - Serve over rice topped with the toasted almonds.
+
+  - name: Mango chutney
+    health: [YELLOW, "Sweet and sour mango preserve: fruit, but with a lot of sugar; eaten in small amounts."]
+    nutrition: [60, 0, 15, 0]
+    photo: fusion-anglo-india/chutney-de-mango.jpg
+    category: Sauces
+    difficulty: EASY
+    prep: 15
+    cook: 45
+    servings: 20
+    notes: It is the classic accompaniment to poppadoms in British Indian restaurants. It keeps for months in sterilised jars.
+    tags: [preserve, vegan, gluten-free]
+    ingredients:
+      - items:
+          - [slightly underripe mangoes, 1, kg]
+          - [sugar, 250, g]
+          - [cider vinegar, 200, ml]
+          - [grated fresh ginger, 2, tbsp]
+          - [garlic, 2, clove]
+          - [nigella or cumin seeds, 1, tsp]
+          - [crushed coriander seeds, 1, tsp]
+          - [chilli flakes, 1, tsp]
+          - [cardamom pods, 4, null]
+          - [salt, 1, tsp]
+    steps:
+      - Peel the mangoes and cut them into small dice.
+      - "Heat the vinegar with the sugar until dissolved. Add the mango, ginger, chopped garlic, spices and salt."
+      - "Simmer for 40-45 minutes, stirring often towards the end, until thick and glossy."
+      - Pot while hot in sterilised jars and leave for at least a week before opening.

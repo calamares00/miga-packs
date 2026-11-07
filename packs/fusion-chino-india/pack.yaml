@@ -1,0 +1,294 @@
+id: fusion-chino-india
+version: 1
+updated: 2026-11-07
+language: es
+name: "Cocina fusión: chino-india"
+series: Cocina fusión
+description: >-
+  La cocina indochina, nacida entre los chinos hakka de Calcuta y hoy en todos los puestos
+  callejeros de la India: gobi manchurian, pollo al chile, fideos hakka, arroz frito schezwan,
+  paneer al chile, sopa manchow, sopa de maíz dulce y patatas con miel y chile.
+author: Miga
+authorGithub: calamares00
+cover:
+  emoji: "🌶️"
+  kicker: Cocina fusión
+  title: Chino-india
+  colors: ["#b45309", "#dc2626"]
+defaults:
+  origin: India
+  originCountry: IN
+  source: "Pack «Cocina fusión: chino-india» de Miga"
+recipes:
+
+  - name: Gobi manchurian
+    health: [RED, "Coliflor rebozada y frita en salsa de soja y chile: frita y con bastante sal."]
+    nutrition: [330, 7, 38, 17]
+    photo: fusion-chino-india/gobi-manchurian.jpg
+    category: Verduras
+    difficulty: MEDIUM
+    prep: 20
+    cook: 20
+    servings: 4
+    notes: "Se puede servir seco, como aperitivo, o con más salsa para acompañar arroz frito."
+    tags: [vegano, frito, picante]
+    utensils: [Wok]
+    ingredients:
+      - group: Coliflor
+        items:
+          - [coliflor, 1, null]
+          - [maicena, 50, g]
+          - [harina de trigo, 50, g]
+          - [pasta de jengibre y ajo, 1, cucharadita]
+          - [chile en polvo, 1, cucharadita]
+          - [sal, 0.5, cucharadita]
+          - [aceite de girasol para freír, 1, l]
+      - group: Salsa
+        items:
+          - [ajo, 4, diente]
+          - [jengibre fresco, 2, cm]
+          - [chiles verdes, 2, null]
+          - [cebolla, 1, null]
+          - [pimiento verde, 1, null]
+          - [salsa de soja, 2, cucharada]
+          - [salsa de chile (sriracha o similar), 1, cucharada]
+          - [kétchup, 1, cucharada]
+          - [vinagre, 1, cucharadita]
+          - [maicena, 1, cucharadita]
+          - [cebolletas, 2, null]
+    steps:
+      - "Corta la coliflor en ramilletes pequeños, escáldala 2 minutos y escúrrela bien."
+      - "Mezcla las harinas, la pasta de jengibre y ajo, el chile y la sal con agua hasta obtener un rebozado espeso. Reboza la coliflor y fríela a 175 °C 4-5 minutos, hasta que esté crujiente."
+      - "En el wok con 2 cucharadas de aceite, saltea a fuego fuerte el ajo, el jengibre y los chiles picados, y luego la cebolla y el pimiento en dados 2 minutos."
+      - "Añade la soja, la salsa de chile, el kétchup y el vinagre, y espesa con la maicena disuelta en 80 ml de agua."
+      - "Echa la coliflor, saltea para cubrirla y sirve enseguida con la cebolleta picada."
+
+  - name: Pollo al chile
+    health: [YELLOW, "Pollo rebozado salteado con pimiento y chile: proteína, pero frito y con salsa salada."]
+    nutrition: [450, 34, 24, 24]
+    photo: fusion-chino-india/pollo-al-chile.jpg
+    category: Carnes
+    difficulty: MEDIUM
+    prep: 20
+    cook: 20
+    servings: 4
+    origin: Calcuta
+    tags: [pollo, picante, frito]
+    utensils: [Wok]
+    ingredients:
+      - group: Pollo
+        items:
+          - [contramuslos de pollo deshuesados, 600, g]
+          - [huevo, 1, null]
+          - [maicena, 3, cucharada]
+          - [harina de trigo, 2, cucharada]
+          - [pasta de jengibre y ajo, 1, cucharada]
+          - [salsa de soja, 1, cucharada]
+          - [pimienta negra, 0.5, cucharadita]
+          - [aceite de girasol para freír, 750, ml]
+      - group: Salteado
+        items:
+          - [ajo, 4, diente]
+          - [chiles verdes, 4, null]
+          - [cebolla, 1, null]
+          - [pimiento verde, 1, null]
+          - [salsa de soja, 2, cucharada]
+          - [salsa de chile verde o roja, 1, cucharada]
+          - [vinagre, 1, cucharadita]
+          - [maicena, 1, cucharadita]
+          - [cebolletas, 2, null]
+    steps:
+      - "Corta el pollo en dados y mézclalo con el huevo, las harinas, la pasta de jengibre y ajo, la soja y la pimienta."
+      - "Fríelo por tandas a 175 °C 5 minutos, hasta que esté dorado y crujiente. Escúrrelo."
+      - "Saltea en el wok con 2 cucharadas de aceite el ajo picado y los chiles en tiras 30 segundos, y luego la cebolla y el pimiento en cuadrados 2 minutos a fuego muy fuerte."
+      - "Añade las salsas, el vinagre y la maicena disuelta en 60 ml de agua. Cuando espese, echa el pollo, saltea y termina con la cebolleta."
+
+  - name: Fideos hakka
+    health: [YELLOW, "Fideos salteados con muchas verduras: ligeros de grasa pero con bastantes hidratos y sal."]
+    nutrition: [430, 12, 70, 11]
+    photo: fusion-chino-india/fideos-hakka.jpg
+    category: Pastas
+    difficulty: EASY
+    prep: 15
+    cook: 10
+    servings: 4
+    tags: [fideos, vegano, rápido]
+    utensils: [Wok]
+    ingredients:
+      - items:
+          - [fideos de trigo finos, 300, g]
+          - [col blanca, 200, g]
+          - [zanahoria, 1, null]
+          - [pimiento verde, 1, null]
+          - [cebolla, 1, null]
+          - [cebolletas, 3, null]
+          - [ajo, 3, diente]
+          - [salsa de soja, 3, cucharada]
+          - [vinagre, 1, cucharada]
+          - [salsa de chile, 1, cucharada]
+          - [pimienta negra, 0.5, cucharadita]
+          - [aceite de girasol, 3, cucharada]
+    steps:
+      - "Cuece los fideos al dente, enjuágalos en agua fría, escúrrelos y mézclalos con 1 cucharada de aceite."
+      - Corta todas las verduras en juliana fina.
+      - "Saltea el ajo picado en el wok muy caliente 20 segundos, añade la cebolla, la zanahoria, el pimiento y la col y saltea 2 minutos a fuego fuerte; deben quedar crujientes."
+      - "Añade los fideos, la soja, el vinagre, la salsa de chile y la pimienta, y saltea 2 minutos. Termina con la cebolleta."
+
+  - name: Arroz frito schezwan
+    health: [YELLOW, "Arroz salteado con verduras y salsa picante: plato sencillo, con bastantes hidratos."]
+    nutrition: [420, 9, 68, 12]
+    photo: fusion-chino-india/arroz-frito-schezwan.jpg
+    category: Arroces
+    difficulty: EASY
+    prep: 15
+    cook: 10
+    servings: 4
+    notes: Sale mejor con arroz cocido la víspera y bien frío. La salsa schezwan india se vende en tarro.
+    tags: [arroz, vegano, picante]
+    utensils: [Wok]
+    ingredients:
+      - items:
+          - [arroz basmati cocido y frío, 700, g]
+          - [salsa schezwan, 3, cucharada]
+          - [zanahoria, 1, null]
+          - [judías verdes, 80, g]
+          - [col blanca, 100, g]
+          - [pimiento verde, 1, null]
+          - [cebolletas, 3, null]
+          - [ajo, 3, diente]
+          - [salsa de soja, 1, cucharada]
+          - [vinagre, 1, cucharadita]
+          - [aceite de girasol, 3, cucharada]
+          - [sal, null, null]
+    steps:
+      - Pica todas las verduras en trozos pequeños.
+      - "Saltea el ajo en el wok muy caliente 20 segundos y añade las verduras, salvo la cebolleta. Saltea 2 minutos."
+      - "Añade la salsa schezwan y saltea 30 segundos. Echa el arroz y saltea 3 minutos, separando los granos."
+      - "Riega con la soja y el vinagre, rectifica de sal y termina con la cebolleta."
+
+  - name: Paneer al chile
+    health: [YELLOW, "Queso paneer frito y salteado con pimiento: buena proteína y calcio, pero bastante grasa."]
+    nutrition: [430, 20, 18, 31]
+    photo: fusion-chino-india/paneer-al-chile.jpg
+    category: Verduras
+    difficulty: EASY
+    prep: 15
+    cook: 15
+    servings: 4
+    tags: [vegetariano, picante]
+    utensils: [Wok]
+    ingredients:
+      - items:
+          - [paneer, 400, g]
+          - [maicena, 3, cucharada]
+          - [harina de trigo, 1, cucharada]
+          - [aceite de girasol, 6, cucharada]
+          - [ajo, 4, diente]
+          - [jengibre fresco, 2, cm]
+          - [chiles verdes, 3, null]
+          - [cebolla, 1, null]
+          - [pimiento verde, 1, null]
+          - [salsa de soja, 2, cucharada]
+          - [salsa de chile, 1, cucharada]
+          - [kétchup, 1, cucharada]
+          - [vinagre, 1, cucharadita]
+          - [cebolletas, 2, null]
+    steps:
+      - "Corta el paneer en dados, rebózalo en la maicena y la harina mezcladas con 3-4 cucharadas de agua y un poco de sal."
+      - "Dóralo en 4 cucharadas de aceite por todos los lados, hasta que esté crujiente. Resérvalo."
+      - "En el wok con el resto del aceite, saltea el ajo, el jengibre y los chiles picados, y luego la cebolla y el pimiento en cuadrados 2 minutos."
+      - "Añade la soja, la salsa de chile, el kétchup, el vinagre y 3 cucharadas de agua. Echa el paneer, saltea 1 minuto y termina con la cebolleta."
+
+  - name: Sopa manchow
+    health: [GREEN, "Sopa picante de verduras con fideos crujientes: ligera y con mucha verdura."]
+    nutrition: [170, 5, 24, 6]
+    photo: fusion-chino-india/sopa-manchow.jpg
+    category: Sopas y cremas
+    difficulty: EASY
+    prep: 20
+    cook: 15
+    servings: 4
+    tags: [sopa, vegano, picante]
+    ingredients:
+      - items:
+          - [caldo de verduras, 1, l]
+          - [ajo, 4, diente]
+          - [jengibre fresco, 3, cm]
+          - [chile verde, 1, null]
+          - [zanahoria, 1, null]
+          - [col blanca, 100, g]
+          - [judías verdes, 60, g]
+          - [champiñones, 80, g]
+          - [salsa de soja, 3, cucharada]
+          - [vinagre, 1, cucharada]
+          - [pimienta negra, 1, cucharadita]
+          - [maicena, 2, cucharada]
+          - [aceite, 1, cucharada]
+          - [fideos fritos crujientes, 60, g]
+          - [cilantro fresco, 1, puñado]
+    steps:
+      - "Pica muy fino el ajo, el jengibre, el chile y todas las verduras."
+      - "Saltea el ajo, el jengibre y el chile en el aceite 1 minuto. Añade las verduras y saltea 2 minutos a fuego fuerte."
+      - "Agrega el caldo, la soja y la pimienta y cuece 5 minutos."
+      - "Espesa con la maicena disuelta en 4 cucharadas de agua, añade el vinagre y el cilantro picado."
+      - Sirve muy caliente con los fideos crujientes por encima.
+
+  - name: Sopa de maíz dulce y pollo
+    health: [GREEN, "Sopa de maíz con pollo y huevo: ligera, con proteína y poca grasa."]
+    nutrition: [210, 16, 24, 6]
+    photo: fusion-chino-india/sopa-de-maiz-dulce-y-pollo.jpg
+    category: Sopas y cremas
+    difficulty: EASY
+    prep: 10
+    cook: 20
+    servings: 4
+    tags: [sopa, pollo, suave]
+    utensils: [Batidora]
+    ingredients:
+      - items:
+          - [caldo de pollo, 1, l]
+          - [maíz dulce en grano, 300, g]
+          - [pechuga de pollo, 200, g]
+          - [jengibre fresco rallado, 1, cucharadita]
+          - [huevo, 1, null]
+          - [maicena, 2, cucharada]
+          - [salsa de soja, 1, cucharada]
+          - [pimienta blanca, 0.5, cucharadita]
+          - [cebolletas, 2, null]
+          - [sal, null, null]
+    steps:
+      - Tritura la mitad del maíz con un poco de caldo.
+      - "Cuece el pollo en el caldo con el jengibre 10 minutos, sácalo y desmenúzalo."
+      - "Añade al caldo el maíz entero y el triturado, el pollo, la soja y la pimienta, y cuece 5 minutos. Espesa con la maicena disuelta en agua fría."
+      - "Vierte el huevo batido en hilo, removiendo despacio para que forme hebras. Sala y sirve con la cebolleta picada."
+
+  - name: Patatas con miel y chile
+    health: [RED, "Patatas fritas glaseadas con miel y chile: un aperitivo frito y con azúcar."]
+    nutrition: [380, 5, 52, 17]
+    photo: fusion-chino-india/patatas-con-miel-y-chile.jpg
+    category: Entrantes
+    difficulty: EASY
+    prep: 15
+    cook: 20
+    servings: 4
+    origin: Delhi
+    tags: [vegetariano, frito, aperitivo]
+    utensils: [Wok]
+    ingredients:
+      - items:
+          - [patatas, 600, g]
+          - [maicena, 4, cucharada]
+          - [aceite de girasol para freír, 750, ml]
+          - [ajo, 3, diente]
+          - [salsa de chile, 2, cucharada]
+          - [salsa de soja, 1, cucharada]
+          - [kétchup, 1, cucharada]
+          - [miel, 2, cucharada]
+          - [vinagre, 1, cucharadita]
+          - [semillas de sésamo, 1, cucharada]
+          - [cebolletas, 2, null]
+    steps:
+      - "Corta las patatas en bastones, cuécelas 3 minutos en agua con sal y escúrrelas bien. Rebózalas en la maicena."
+      - "Fríelas a 180 °C 6-8 minutos, hasta que estén muy crujientes."
+      - "En el wok con 1 cucharada de aceite, saltea el ajo picado, añade la salsa de chile, la soja, el kétchup y el vinagre y cuece 1 minuto."
+      - Fuera del fuego añade la miel y las patatas y mezcla. Sirve con sésamo tostado y cebolleta.

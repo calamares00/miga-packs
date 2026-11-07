@@ -1,0 +1,290 @@
+id: korean-chinese-fusion
+version: 1
+updated: 2026-11-07
+language: en
+name: "Fusion cuisine: Korean-Chinese"
+series: Fusion cuisine
+description: >-
+  The dishes of Korea's Chinese restaurants, created by Shandong immigrants in Incheon and ordered
+  for delivery all over the country: jajangmyeon, jjamppong, tangsuyuk, kkanpunggi, lajogi,
+  yusanseul, gun-mandu and goguma mattang.
+author: Miga
+authorGithub: calamares00
+cover:
+  emoji: "🍜"
+  kicker: Fusion cuisine
+  title: Korean-Chinese
+  colors: ["#1e293b", "#7c3aed"]
+defaults:
+  origin: South Korea
+  originCountry: KR
+  source: "Miga «Fusion cuisine: Korean-Chinese» pack"
+recipes:
+
+  - name: Jajangmyeon
+    health: [YELLOW, "Noodles in black bean sauce with pork and vegetables: complete but with plenty of carbohydrates and salt."]
+    nutrition: [640, 24, 92, 20]
+    photo: fusion-chino-coreana/jajangmyeon.jpg
+    category: Pasta
+    difficulty: MEDIUM
+    prep: 20
+    cook: 25
+    servings: 4
+    origin: Incheon
+    notes: Korean black bean paste (chunjang) is found in Asian shops; it is fried first to remove its bitterness.
+    tags: [noodles, pork]
+    utensils: [Wok]
+    ingredients:
+      - items:
+          - [thick fresh wheat noodles, 600, g]
+          - [pork belly or shoulder, 250, g]
+          - [chunjang (black bean paste), 5, tbsp]
+          - [onions, 2, null]
+          - [courgette, 1, null]
+          - [potato, 1, null]
+          - [white cabbage, 150, g]
+          - [sugar, 1, tbsp]
+          - [cornflour, 2, tbsp]
+          - [sunflower oil, 5, tbsp]
+          - [cucumber to serve, 0.5, null]
+    steps:
+      - "Fry the chunjang in 3 tablespoons of oil over medium heat for 3 minutes, stirring. Set aside, keeping the oil."
+      - "Cut the pork, onions, courgette, potato and cabbage into 1 cm dice. Brown the pork in the wok with the rest of the oil and add the vegetables; stir-fry for 5 minutes."
+      - "Add the fried chunjang with its oil and the sugar, toss for 1 minute and add 400 ml of water. Simmer for 10 minutes, until the potato is tender."
+      - Thicken with the cornflour mixed with 4 tablespoons of water.
+      - "Cook the noodles, drain and serve them topped with the sauce and julienned cucumber. Mix everything at the table."
+
+  - name: Jjamppong
+    health: [YELLOW, "Spicy noodle soup with seafood and vegetables: protein and vegetables, but very salty."]
+    nutrition: [520, 30, 70, 13]
+    photo: fusion-chino-coreana/jjamppong.jpg
+    category: Soups
+    difficulty: MEDIUM
+    prep: 20
+    cook: 25
+    servings: 4
+    tags: [soup, seafood, spicy, noodles]
+    utensils: [Wok]
+    ingredients:
+      - items:
+          - [thick fresh wheat noodles, 500, g]
+          - [mussels, 300, g]
+          - [prawns, 200, g]
+          - [squid, 200, g]
+          - [pork belly, 100, g]
+          - [onion, 1, null]
+          - [white cabbage, 150, g]
+          - [courgette, 0.5, null]
+          - [carrot, 0.5, null]
+          - [garlic, 4, clove]
+          - [gochugaru (Korean chilli flakes), 3, tbsp]
+          - [soy sauce, 2, tbsp]
+          - [chicken stock, 1.2, l]
+          - [sunflower oil, 3, tbsp]
+          - [salt, null, null]
+    steps:
+      - Cut the pork and vegetables into strips and the squid into rings.
+      - Stir-fry the chopped garlic and pork in the wok with the oil for 2 minutes. Add the vegetables and stir-fry for 3 minutes over high heat.
+      - "Lower the heat, add the gochugaru and stir for 30 seconds without burning it. Add the soy sauce and stock and bring to the boil."
+      - "Add the seafood and simmer for 4-5 minutes, until the mussels open. Salt."
+      - "Cook the noodles separately, divide them among bowls and ladle the soup over."
+
+  - name: Tangsuyuk
+    health: [RED, "Battered fried pork with sweet and sour sauce: fried and sugary."]
+    nutrition: [610, 28, 62, 28]
+    photo: fusion-chino-coreana/tangsuyuk.jpg
+    category: Meat
+    difficulty: MEDIUM
+    prep: 30
+    cook: 25
+    servings: 4
+    notes: The batter of soaked potato starch is what makes it so crisp. In Korea people argue about whether the sauce is poured over or used for dipping.
+    tags: [pork, fried]
+    ingredients:
+      - group: Pork
+        items:
+          - [pork loin, 500, g]
+          - [potato starch, 150, g]
+          - [egg white, 1, null]
+          - [grated fresh ginger, 1, tsp]
+          - [soy sauce, 1, tbsp]
+          - [sunflower oil for frying, 1, l]
+      - group: Sauce
+        items:
+          - [sugar, 80, g]
+          - [vinegar, 80, ml]
+          - [soy sauce, 1, tbsp]
+          - [water, 300, ml]
+          - [carrot, 0.5, null]
+          - [cucumber, 0.5, null]
+          - [onion, 0.5, null]
+          - [pineapple chunks, 100, g]
+          - [potato starch, 2, tbsp]
+    steps:
+      - Soak the starch in 250 ml of water for 1 hour; pour off the water on top and keep the paste at the bottom.
+      - "Cut the pork into thick strips, season with the soy sauce and ginger and mix with the egg white and starch paste."
+      - "Fry it at 170 °C for 4 minutes, remove and fry again at 190 °C for 2 minutes, until very crisp."
+      - "For the sauce, boil the water with the sugar, vinegar and soy sauce, add the vegetables in pieces and the pineapple and cook for 2 minutes. Thicken with the starch mixed with a little water."
+      - Serve the pork with the hot sauce poured over or on the side.
+
+  - name: Kkanpunggi
+    health: [RED, "Fried chicken in a garlic, chilli and vinegar sauce: tasty but fried and salty."]
+    nutrition: [520, 34, 30, 28]
+    photo: fusion-chino-coreana/kkanpunggi.jpg
+    category: Meat
+    difficulty: MEDIUM
+    prep: 20
+    cook: 20
+    servings: 4
+    tags: [chicken, fried, spicy]
+    utensils: [Wok]
+    ingredients:
+      - group: Chicken
+        items:
+          - [boneless chicken thighs, 700, g]
+          - [soy sauce, 1, tbsp]
+          - [egg, 1, null]
+          - [potato starch, 80, g]
+          - [sunflower oil for frying, 1, l]
+      - group: Sauce
+        items:
+          - [garlic, 6, clove]
+          - [fresh ginger, 2, cm]
+          - [dried red chillies, 6, null]
+          - [green chilli, 1, null]
+          - [spring onions, 2, null]
+          - [soy sauce, 3, tbsp]
+          - [vinegar, 2, tbsp]
+          - [sugar, 2, tbsp]
+          - [water, 3, tbsp]
+    steps:
+      - "Cut the chicken into pieces, mix with the soy sauce and egg and coat in the starch."
+      - "Fry it twice: 5 minutes at 170 °C and 2 minutes at 190 °C."
+      - "Mix the soy sauce, vinegar, sugar and water."
+      - "In the wok with 2 tablespoons of oil, stir-fry the chopped garlic and ginger, the chillies and spring onion for 1 minute. Add the sauce and, when it boils, the chicken. Toss until the sauce is absorbed and serve."
+
+  - name: Lajogi
+    health: [YELLOW, "Fried chicken stir-fried with vegetables and chilli oil: protein with vegetables, but fried and hot."]
+    nutrition: [480, 33, 24, 28]
+    photo: fusion-chino-coreana/lajogi.jpg
+    category: Meat
+    difficulty: MEDIUM
+    prep: 20
+    cook: 20
+    servings: 4
+    notes: "It is a Korean take on Sichuan la zi ji, with more vegetables and sauce."
+    tags: [chicken, spicy, fried]
+    utensils: [Wok]
+    ingredients:
+      - items:
+          - [boneless chicken thighs, 600, g]
+          - [potato starch, 70, g]
+          - [egg, 1, null]
+          - [sunflower oil for frying, 1, l]
+          - [dried red chillies, 10, null]
+          - [chilli oil, 2, tbsp]
+          - [garlic, 4, clove]
+          - [red pepper, 1, null]
+          - [onion, 1, null]
+          - [mushrooms, 100, g]
+          - [bamboo shoots, 100, g]
+          - [soy sauce, 3, tbsp]
+          - [oyster sauce, 1, tbsp]
+          - [chicken stock, 150, ml]
+          - [potato starch for the sauce, 1, tbsp]
+    steps:
+      - "Cut the chicken into chunks, mix with the egg and starch and fry at 175 °C for 5 minutes, until crisp."
+      - Heat the chilli oil in the wok and fry the dried chillies and garlic for 30 seconds.
+      - Add the vegetables in pieces and stir-fry for 3 minutes over high heat.
+      - "Add the soy sauce, oyster sauce and stock, thicken with the starch mixed with water and add the chicken. Toss for 1 minute and serve."
+
+  - name: Yusanseul
+    health: [GREEN, "Stir-fry of seafood, mushrooms and vegetables in strips: light and high in lean protein."]
+    nutrition: [290, 30, 14, 12]
+    photo: fusion-chino-coreana/yusanseul.jpg
+    category: Fish and seafood
+    difficulty: MEDIUM
+    prep: 30
+    cook: 10
+    servings: 4
+    notes: "It is a banquet dish: served at the table to share, sometimes over rice."
+    tags: [seafood, stir-fry]
+    utensils: [Wok]
+    ingredients:
+      - items:
+          - [peeled prawns, 200, g]
+          - [squid, 200, g]
+          - [sea cucumber or scallops, 150, g]
+          - [shiitake mushrooms, 6, null]
+          - [bamboo shoots, 100, g]
+          - [red pepper, 1, null]
+          - [green pepper, 1, null]
+          - [spring onion, 2, null]
+          - [garlic, 3, clove]
+          - [grated fresh ginger, 1, tsp]
+          - [oyster sauce, 2, tbsp]
+          - [chicken stock, 150, ml]
+          - [potato starch, 1, tbsp]
+          - [sesame oil, 1, tsp]
+          - [sunflower oil, 3, tbsp]
+    steps:
+      - "Cut the seafood, mushrooms, bamboo shoots and peppers into thin strips, all the same size."
+      - Blanch the seafood in boiling water for 30 seconds and drain.
+      - "Stir-fry the garlic, ginger and spring onion in a very hot wok, add the mushrooms, bamboo shoots and peppers and stir-fry for 2 minutes."
+      - "Add the seafood, oyster sauce and stock, thicken with the starch mixed with water and finish with the sesame oil."
+
+  - name: Gun-mandu
+    health: [YELLOW, "Pork and vegetable dumplings pan-fried until golden: balanced, though made with oil."]
+    nutrition: [380, 18, 38, 17]
+    photo: fusion-chino-coreana/gun-mandu.jpg
+    category: Starters
+    difficulty: MEDIUM
+    prep: 45
+    cook: 15
+    servings: 4
+    notes: "In Korean-Chinese restaurants they are given free with jajangmyeon, as 'service'."
+    tags: [dumplings, pork]
+    ingredients:
+      - items:
+          - [dumpling wrappers, 30, null]
+          - [minced pork, 250, g]
+          - [firm tofu, 100, g]
+          - [Chinese cabbage, 150, g]
+          - [garlic chives or spring onion, 1, bunch]
+          - [soaked sweet potato noodles (dangmyeon), 40, g]
+          - [garlic, 2, clove]
+          - [grated fresh ginger, 1, tsp]
+          - [soy sauce, 1, tbsp]
+          - [sesame oil, 1, tbsp]
+          - [sunflower oil, 4, tbsp]
+          - [soy sauce with vinegar for dipping, null, null]
+    steps:
+      - "Chop the cabbage, salt it for 10 minutes and squeeze it dry. Crumble the tofu and squeeze it in a cloth."
+      - "Mix the pork with the cabbage, tofu, chopped chives and noodles, garlic, ginger, soy sauce and sesame oil."
+      - "Put a teaspoon of filling on each wrapper, wet the edge and close into a half moon, pleating one side."
+      - "Brown them in a pan with the oil for 2 minutes, add 80 ml of water, cover and steam for 5 minutes. Uncover and let the bases crisp again."
+      - Serve with soy sauce mixed with vinegar and a little chilli.
+
+  - name: Goguma mattang
+    health: [RED, "Fried, caramelised sweet potato: a fried, sugary treat."]
+    nutrition: [340, 2, 58, 12]
+    photo: fusion-chino-coreana/goguma-mattang.jpg
+    category: Desserts
+    difficulty: EASY
+    prep: 10
+    cook: 20
+    servings: 4
+    notes: "It comes from Chinese basi digua. The caramel hardens as it cools: serve it straight away."
+    tags: [dessert, vegan, fried]
+    ingredients:
+      - items:
+          - [sweet potatoes, 600, g]
+          - [sunflower oil for frying, 750, ml]
+          - [sugar, 80, g]
+          - [rice or corn syrup, 2, tbsp]
+          - [black sesame seeds, 1, tbsp]
+    steps:
+      - Peel the sweet potatoes and cut them into rough 3 cm chunks. Soak for 10 minutes in cold water and dry well.
+      - "Fry them at 160 °C for 8 minutes, until tender, then for 2 minutes at 180 °C to brown them."
+      - "In a pan with 2 tablespoons of oil, melt the sugar over medium heat without stirring into a light caramel. Add the syrup."
+      - "Add the sweet potato, toss to coat and sprinkle with sesame. Serve straight away, separating the pieces."

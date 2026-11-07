@@ -1,0 +1,43 @@
+# Origin of every photo in this folder: source page, author and licence (CC0 1.0, Public domain,
+# CC BY x.y or CC BY-SA x.y). tools/build.py refuses a recipe photo without an entry here.
+
+gobi-manchurian.jpg:
+  source: https://commons.wikimedia.org/wiki/File:Delicious_Gobi_Manchurian.jpg
+  author: "Ranjitkumardharshini"
+  license: CC0 1.0
+
+pollo-al-chile.jpg:
+  source: https://commons.wikimedia.org/wiki/File:Dry_Chilli_Chicken_(15912782091).jpg
+  author: "Yummy O Yummy"
+  license: CC BY 2.0
+
+fideos-hakka.jpg:
+  source: https://commons.wikimedia.org/wiki/File:Hot_and_spicy_hakka_noodles_in_West_Bengal,_India,_photographed_on_December_5,_2023.jpg
+  author: "Billjones94"
+  license: CC0 1.0
+
+arroz-frito-schezwan.jpg:
+  source: https://commons.wikimedia.org/wiki/File:Veg_Triple_Schezwan_Fried_Rice_Vishwanand_2026-01-28.jpg
+  author: "Sakurakat"
+  license: CC0 1.0
+
+paneer-al-chile.jpg:
+  source: https://commons.wikimedia.org/wiki/File:Paneer_Chilli,_Bengaluru_(2026)_02.jpg
+  author: "Gpkp"
+  license: CC BY-SA 4.0
+
+sopa-manchow.jpg:
+  source: https://commons.wikimedia.org/wiki/File:Manchow_soup_-_Indo-Chinese_cuisine.jpg
+  author: "Sarkar Sayantan"
+  license: CC BY-SA 4.0
+
+sopa-de-maiz-dulce-y-pollo.jpg:
+  source: https://commons.wikimedia.org/wiki/File:An_aesthetic_Chicken_Sweetcorn_soup.jpg
+  author: "Thamizhpparithi Maari"
+  license: CC BY-SA 4.0
+
+patatas-con-miel-y-chile.jpg:
+  source: https://commons.wikimedia.org/wiki/File:Honey_Chilli_potato.jpg
+  author: "Simranjeet Sidhu"
+  license: CC BY-SA 4.0
+

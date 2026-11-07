@@ -1,0 +1,293 @@
+id: fusion-chino-malaya
+version: 1
+updated: 2026-11-07
+language: es
+name: "Cocina fusión: chino-malaya"
+series: Cocina fusión
+description: >-
+  La cocina de los chinos de Malasia (hokkien, cantoneses, hainaneses y hakka) en los puestos de
+  comida de Penang y Kuala Lumpur: char kway teow, bak kut teh, hokkien mee, yong tau foo, arroz
+  con pollo en cazuela de barro, wantan mee, chuleta de pollo hainanesa y tostadas con kaya.
+author: Miga
+authorGithub: calamares00
+cover:
+  emoji: "🍲"
+  kicker: Cocina fusión
+  title: Chino-malaya
+  colors: ["#14532d", "#16a34a"]
+defaults:
+  origin: Malasia
+  originCountry: MY
+  source: "Pack «Cocina fusión: chino-malaya» de Miga"
+recipes:
+
+  - name: Char kway teow
+    health: [RED, "Fideos de arroz salteados con manteca, embutido y marisco: muy sabrosos pero grasos."]
+    nutrition: [620, 26, 72, 25]
+    photo: fusion-chino-malaya/char-kway-teow.jpg
+    category: Pastas
+    difficulty: MEDIUM
+    prep: 15
+    cook: 10
+    servings: 2
+    origin: Penang
+    notes: Se hace en raciones pequeñas y a fuego muy fuerte para que tome el 'aliento del wok'. Haz dos tandas si es para más gente.
+    tags: [fideos, marisco, salteado]
+    utensils: [Wok]
+    ingredients:
+      - items:
+          - [fideos de arroz anchos frescos (kway teow), 400, g]
+          - [gambas peladas, 150, g]
+          - [berberechos o almejas (opcional), 100, g]
+          - [salchicha china (lap cheong), 1, null]
+          - [huevos, 2, null]
+          - [brotes de soja, 100, g]
+          - [cebollino chino, 1, manojo]
+          - [ajo, 3, diente]
+          - [sambal o pasta de chile, 1, cucharada]
+          - [salsa de soja oscura, 1, cucharada]
+          - [salsa de soja, 1, cucharada]
+          - [salsa de ostras, 1, cucharadita]
+          - [manteca de cerdo o aceite, 3, cucharada]
+    steps:
+      - Separa los fideos con las manos. Mezcla las salsas de soja y la de ostras. Corta la salchicha en láminas finas y el cebollino en trozos de 4 cm.
+      - "Calienta la manteca en el wok hasta que humee. Saltea el ajo picado, el sambal, la salchicha y las gambas 1 minuto."
+      - "Añade los fideos y la salsa y saltea 1 minuto, dejando que se tuesten un poco."
+      - "Aparta los fideos a un lado, casca los huevos en el hueco, revuélvelos y mézclalos con los fideos."
+      - "Añade los berberechos, los brotes y el cebollino, saltea 30 segundos y sirve enseguida."
+
+  - name: Bak kut teh
+    health: [YELLOW, "Caldo de costillas de cerdo con hierbas y especias: mucha proteína, con algo de grasa."]
+    nutrition: [420, 34, 6, 29]
+    photo: fusion-chino-malaya/bak-kut-teh.jpg
+    category: Sopas y cremas
+    difficulty: EASY
+    prep: 15
+    cook: 90
+    servings: 4
+    origin: Klang
+    notes: Las mezclas de especias para bak kut teh se venden en sobres en tiendas asiáticas; con ellas basta añadir ajo y soja.
+    tags: [sopa, cerdo]
+    ingredients:
+      - items:
+          - [costillas de cerdo, 1, kg]
+          - [cabezas de ajo enteras, 2, null]
+          - [anís estrellado, 3, null]
+          - [canela, 1, rama]
+          - [clavos, 4, null]
+          - [pimienta blanca en grano, 1, cucharada]
+          - [semillas de hinojo, 1, cucharadita]
+          - [raíz de angélica china (dang gui) (opcional), 2, rodaja]
+          - [salsa de soja, 3, cucharada]
+          - [salsa de soja oscura, 1, cucharada]
+          - [setas shiitake secas, 6, null]
+          - [tofu frito (tau pok), 8, null]
+          - [agua, 2.5, l]
+          - [sal, null, null]
+    steps:
+      - Escalda las costillas 5 minutos en agua hirviendo y enjuágalas.
+      - "Pon en una olla el agua, las costillas, las cabezas de ajo enteras y las especias atadas en una gasa. Lleva a ebullición."
+      - "Añade las sojas y las setas remojadas y cuece a fuego suave 1 hora y cuarto, hasta que la carne se separe del hueso."
+      - "Añade el tofu los últimos 10 minutos y rectifica de sal. Sirve con arroz, tiras de pan frito (you tiao) y salsa de soja con chile."
+
+  - name: Hokkien mee de Kuala Lumpur
+    health: [YELLOW, "Fideos gruesos en salsa de soja oscura con cerdo y marisco: completos pero con bastante grasa y sal."]
+    nutrition: [600, 30, 70, 22]
+    photo: fusion-chino-malaya/hokkien-mee-de-kuala-lumpur.jpg
+    category: Pastas
+    difficulty: MEDIUM
+    prep: 15
+    cook: 15
+    servings: 4
+    origin: Kuala Lumpur
+    tags: [fideos, cerdo, marisco]
+    utensils: [Wok]
+    ingredients:
+      - items:
+          - [fideos de huevo gruesos frescos, 600, g]
+          - [lomo o panceta de cerdo, 200, g]
+          - [gambas peladas, 150, g]
+          - [calamar, 150, g]
+          - [col china o choy sum, 200, g]
+          - [ajo, 4, diente]
+          - [salsa de soja oscura, 4, cucharada]
+          - [salsa de soja, 2, cucharada]
+          - [salsa de ostras, 1, cucharada]
+          - [azúcar, 1, cucharadita]
+          - [caldo de pollo, 300, ml]
+          - [manteca de cerdo o aceite, 3, cucharada]
+    steps:
+      - "Corta el cerdo en tiras finas y el calamar en anillas. Mezcla las sojas, la salsa de ostras y el azúcar."
+      - Saltea el ajo y el cerdo en la manteca muy caliente 2 minutos; añade el marisco y saltea 1 minuto.
+      - Añade los fideos y la salsa y saltea hasta que estén bien negros y brillantes.
+      - "Agrega el caldo y la verdura, tapa 2 minutos y destapa para que la salsa espese y se pegue a los fideos. Sirve con sambal."
+
+  - name: Yong tau foo
+    health: [GREEN, "Tofu y verduras rellenos de pescado en caldo claro: ligero y con proteína magra."]
+    nutrition: [260, 24, 14, 11]
+    photo: fusion-chino-malaya/yong-tau-foo.jpg
+    category: Sopas y cremas
+    difficulty: MEDIUM
+    prep: 40
+    cook: 15
+    servings: 4
+    origin: Ampang
+    notes: Es de origen hakka; en Malasia cada uno elige en el puesto las piezas que quiere.
+    tags: [sopa, tofu, pescado]
+    ingredients:
+      - group: Relleno
+        items:
+          - [filetes de pescado blanco o pasta de pescado, 400, g]
+          - [fécula de patata, 1, cucharada]
+          - [salsa de soja, 1, cucharadita]
+          - [pimienta blanca, 0.5, cucharadita]
+          - [sal, 0.5, cucharadita]
+      - group: Piezas y caldo
+        items:
+          - [tofu firme, 300, g]
+          - [berenjena, 1, null]
+          - [pimientos verdes alargados, 2, null]
+          - [setas shiitake frescas, 6, null]
+          - [caldo de pollo o de anchoas, 1.2, l]
+          - [choy sum o pak choi, 200, g]
+          - [salsa hoisin y salsa de chile para mojar, null, null]
+    steps:
+      - "Tritura el pescado con la fécula, la soja, la pimienta, la sal y 2 cucharadas de agua fría hasta obtener una pasta elástica."
+      - "Corta el tofu en triángulos y haz un corte en el centro; corta la berenjena en rodajas gruesas con un corte, abre los pimientos y quita el tallo a las setas."
+      - "Rellena todas las piezas con la pasta de pescado, alisándola con una cuchara mojada."
+      - Dora las piezas por el lado del relleno en una sartén con un poco de aceite.
+      - "Cuécelas en el caldo hirviendo 8 minutos, añade la verdura el último minuto y sirve con las salsas para mojar."
+
+  - name: Arroz con pollo en cazuela de barro
+    health: [YELLOW, "Arroz con pollo, setas y salchicha china: plato completo, con algo de grasa del embutido."]
+    nutrition: [560, 30, 66, 19]
+    photo: fusion-chino-malaya/arroz-con-pollo-en-cazuela-de-barro.jpg
+    category: Arroces
+    difficulty: MEDIUM
+    prep: 20
+    cook: 35
+    servings: 4
+    notes: "La costra tostada del fondo es lo más apreciado. Sin cazuela de barro, usa una olla de fondo grueso."
+    tags: [arroz, pollo]
+    ingredients:
+      - items:
+          - [arroz jazmín, 350, g]
+          - [contramuslos de pollo deshuesados, 500, g]
+          - [salchicha china (lap cheong), 2, null]
+          - [setas shiitake secas, 6, null]
+          - [salsa de soja, 2, cucharada]
+          - [salsa de soja oscura, 1, cucharada]
+          - [salsa de ostras, 1, cucharada]
+          - [aceite de sésamo, 1, cucharada]
+          - [jengibre fresco rallado, 1, cucharadita]
+          - [fécula de patata, 1, cucharadita]
+          - [cebolletas, 2, null]
+          - [pak choi, 2, null]
+    steps:
+      - "Remoja las setas 30 minutos y córtalas. Corta el pollo en trozos y adóbalo con la mitad de las salsas, el jengibre, la fécula y el aceite de sésamo."
+      - "Lava el arroz y ponlo en la cazuela con 450 ml de agua. Cuece tapado a fuego medio hasta que el agua casi se absorba, unos 10 minutos."
+      - "Coloca encima el pollo, las setas y la salchicha en rodajas, tapa y cuece a fuego bajo 15 minutos."
+      - Riega el borde de la cazuela con un hilo de aceite y deja 5 minutos más a fuego medio para que se forme la costra. Añade el pak choi escaldado.
+      - "Vierte el resto de las sojas por encima, añade la cebolleta y mezcla en la mesa."
+
+  - name: Wantan mee
+    health: [YELLOW, "Fideos de huevo con cerdo asado y wantanes: completos pero con bastante sal."]
+    nutrition: [560, 30, 68, 18]
+    photo: fusion-chino-malaya/wantan-mee.jpg
+    category: Pastas
+    difficulty: MEDIUM
+    prep: 40
+    cook: 15
+    servings: 4
+    notes: "En Malasia se toma 'seco', con los fideos aliñados y la sopa de wantanes aparte."
+    tags: [fideos, cerdo]
+    ingredients:
+      - group: Wantanes
+        items:
+          - [obleas de wantán, 20, null]
+          - [carne picada de cerdo, 200, g]
+          - [gambas peladas picadas, 100, g]
+          - [salsa de soja, 1, cucharadita]
+          - [aceite de sésamo, 1, cucharadita]
+          - [caldo de pollo, 1, l]
+      - group: Fideos
+        items:
+          - [fideos de huevo finos, 400, g]
+          - [char siu (cerdo asado), 250, g]
+          - [salsa de ostras, 2, cucharada]
+          - [salsa de soja oscura, 1, cucharada]
+          - [aceite de sésamo, 1, cucharada]
+          - [choy sum, 200, g]
+          - [chiles verdes encurtidos, null, null]
+    steps:
+      - "Mezcla el cerdo, las gambas, la soja y el aceite de sésamo. Pon una cucharadita en cada oblea y ciérrala en forma de bolsita."
+      - Cuece los wantanes en el caldo hirviendo 4 minutos.
+      - "Mezcla en un bol la salsa de ostras, la soja oscura y el aceite de sésamo con 2 cucharadas de caldo."
+      - "Cuece los fideos 1 minuto, escúrrelos y mézclalos con la salsa. Escalda la verdura."
+      - "Sirve los fideos con el char siu en lonchas y la verdura, con los wantanes en su caldo y los chiles encurtidos aparte."
+
+  - name: Chuleta de pollo hainanesa
+    health: [RED, "Pollo empanado y frito con salsa de tomate dulce: frito y calórico."]
+    nutrition: [540, 33, 36, 29]
+    photo: fusion-chino-malaya/chuleta-de-pollo-hainanesa.jpg
+    category: Carnes
+    difficulty: MEDIUM
+    prep: 20
+    cook: 25
+    servings: 4
+    notes: "La crearon los cocineros hainaneses que trabajaban para los británicos: una chuleta empanada a la occidental con salsa china. También se hace con cerdo."
+    tags: [pollo, frito]
+    ingredients:
+      - group: Pollo
+        items:
+          - [contramuslos de pollo deshuesados, 4, null]
+          - [salsa de soja, 1, cucharada]
+          - [pimienta blanca, 0.5, cucharadita]
+          - [huevo, 1, null]
+          - [galletas saladas o pan rallado, 100, g]
+          - [aceite de girasol para freír, 500, ml]
+      - group: Salsa
+        items:
+          - [cebolla, 1, null]
+          - [tomates, 2, null]
+          - [guisantes, 80, g]
+          - [patata cocida, 1, null]
+          - [kétchup, 4, cucharada]
+          - [salsa Worcestershire, 1, cucharada]
+          - [azúcar, 1, cucharada]
+          - [salsa de soja, 1, cucharada]
+          - [caldo de pollo, 250, ml]
+          - [maicena, 1, cucharada]
+    steps:
+      - Aplana los contramuslos con un mazo y adóbalos con la soja y la pimienta 15 minutos.
+      - Pásalos por el huevo batido y luego por las galletas trituradas. Fríelos a 170 °C 4 minutos por lado. Escúrrelos.
+      - "Para la salsa, sofríe la cebolla en gajos 3 minutos, añade el tomate y la patata en trozos y luego el kétchup, la Worcestershire, el azúcar, la soja y el caldo. Cuece 5 minutos con los guisantes."
+      - "Espesa con la maicena disuelta en agua, corta el pollo en tiras y sírvelo cubierto con la salsa."
+
+  - name: Tostadas con kaya
+    health: [RED, "Pan tostado con mantequilla y crema de coco y huevo: un desayuno muy dulce y graso."]
+    nutrition: [380, 7, 42, 20]
+    photo: fusion-chino-malaya/tostadas-con-kaya.jpg
+    category: Postres
+    difficulty: MEDIUM
+    prep: 10
+    cook: 40
+    servings: 6
+    notes: Se desayuna con huevos pasados por agua con soja y pimienta y un café o té con leche condensada. La kaya se conserva una semana en la nevera.
+    tags: [desayuno, dulce]
+    ingredients:
+      - group: Kaya
+        items:
+          - [huevos, 3, null]
+          - [leche de coco, 200, ml]
+          - [azúcar, 120, g]
+          - [hojas de pandan o extracto de pandan, 3, hoja]
+      - group: Tostadas
+        items:
+          - [pan de molde blanco, 12, rebanada]
+          - [mantequilla fría, 80, g]
+    steps:
+      - Bate los huevos con el azúcar y la leche de coco y cuélalo en un bol resistente al calor. Añade las hojas de pandan anudadas.
+      - "Cuécelo al baño maría a fuego suave 35-40 minutos, removiendo a menudo, hasta que espese como una crema untable. Retira el pandan y bátela para que quede lisa."
+      - Tuesta el pan hasta que esté dorado y crujiente.
+      - "Unta la kaya, pon lonchas finas de mantequilla fría encima y cierra con otra tostada. Córtalas por la mitad y sírvelas enseguida."

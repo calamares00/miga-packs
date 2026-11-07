@@ -1,0 +1,312 @@
+id: peranakan-fusion
+version: 1
+updated: 2026-11-07
+language: en
+name: "Fusion cuisine: Peranakan"
+series: Fusion cuisine
+description: >-
+  The Nyonya cooking of the Peranakan, descendants of Chinese and Malays in Malacca, Penang and
+  Singapore, which blends Chinese techniques with spices, coconut and tamarind: laksa lemak, asam
+  laksa, ayam pongteh, ayam buah keluak, otak-otak, kueh pie tee, chap chye and kuih dadar.
+author: Miga
+authorGithub: calamares00
+cover:
+  emoji: "🥥"
+  kicker: Fusion cuisine
+  title: Peranakan
+  colors: ["#0f766e", "#ec4899"]
+defaults:
+  origin: Malaysia and Singapore
+  originCountry: MY
+  source: "Miga «Fusion cuisine: Peranakan» pack"
+recipes:
+
+  - name: Laksa lemak
+    health: [YELLOW, "Noodle soup with coconut milk, prawns and chicken: very complete, but high in fat from the coconut."]
+    nutrition: [620, 32, 52, 32]
+    photo: fusion-peranakan/laksa-lemak.jpg
+    category: Soups
+    difficulty: MEDIUM
+    prep: 30
+    cook: 30
+    servings: 4
+    origin: Singapore
+    notes: Laksa paste can be bought ready-made; with it the dish takes 20 minutes.
+    tags: [soup, noodles, coconut, spicy]
+    utensils: [Blender]
+    ingredients:
+      - group: Spice paste (rempah)
+        items:
+          - [shallots, 6, null]
+          - [garlic, 3, clove]
+          - [galangal or ginger, 3, cm]
+          - [lemongrass, 2, stalk]
+          - [soaked dried red chillies, 8, null]
+          - [turmeric, 1, tsp]
+          - [ground coriander, 1, tbsp]
+          - [shrimp paste (belacan), 1, tsp]
+          - [soaked dried shrimp, 2, tbsp]
+          - [macadamia nuts or almonds, 4, null]
+      - group: Soup
+        items:
+          - [oil, 4, tbsp]
+          - [chicken stock, 1, l]
+          - [coconut milk, 400, ml]
+          - [chicken breast, 300, g]
+          - [prawns, 300, g]
+          - [fried tofu puffs (tau pok), 8, null]
+          - [thick rice noodles or egg noodles, 400, g]
+          - [bean sprouts, 150, g]
+          - [sugar, 1, tsp]
+          - [salt, null, null]
+          - [laksa leaves (Vietnamese coriander), 1, handful]
+          - [hard-boiled eggs, 2, null]
+    steps:
+      - Blend the spice paste ingredients with a little water into a fine paste.
+      - "Fry the paste in the oil over medium heat for 8-10 minutes, stirring, until fragrant and the oil separates."
+      - "Add the stock and bring to the boil. Poach the chicken in it for 12 minutes, remove and shred it. Cook the prawns for 2 minutes and remove them."
+      - "Add the coconut milk, tofu, sugar and salt, and heat without boiling hard."
+      - "Put cooked noodles and blanched sprouts in each bowl, ladle the soup over and top with chicken, prawns, half an egg and chopped laksa leaves."
+
+  - name: Asam laksa
+    health: [GREEN, "Sour fish soup with tamarind and noodles: light, with protein and very little fat."]
+    nutrition: [430, 28, 62, 7]
+    photo: fusion-peranakan/asam-laksa.jpg
+    category: Soups
+    difficulty: MEDIUM
+    prep: 30
+    cook: 40
+    servings: 4
+    origin: Penang
+    notes: It is traditionally made with mackerel. It is served with shrimp paste molasses (hae ko) on top.
+    tags: [soup, fish, noodles]
+    utensils: [Blender]
+    ingredients:
+      - items:
+          - [mackerel, 600, g]
+          - [water, 1.8, l]
+          - [tamarind pulp, 50, g]
+          - [shallots, 6, null]
+          - [fresh red chillies, 4, null]
+          - [soaked dried red chillies, 6, null]
+          - [lemongrass, 2, stalk]
+          - [galangal, 3, cm]
+          - [fresh or ground turmeric, 1, tsp]
+          - [shrimp paste (belacan), 1, tsp]
+          - [torch ginger flower or lemongrass stalks, 1, null]
+          - [sugar, 2, tbsp]
+          - [salt, null, null]
+          - [thick rice noodles, 400, g]
+          - ["cucumber, red onion, pineapple and mint to serve", null, null]
+    steps:
+      - "Poach the mackerel in the water for 10 minutes. Remove, flake the flesh and strain the stock."
+      - "Blend the shallots, chillies, lemongrass, galangal, turmeric and belacan."
+      - "Dissolve the tamarind in a little stock and strain it. Add it to the stock with the paste, ginger flower, sugar and salt and simmer for 30 minutes."
+      - "Return the flaked fish and adjust: it should be sour, spicy and a little sweet."
+      - "Serve over the cooked noodles with julienned cucumber and onion, strips of pineapple and mint."
+
+  - name: Ayam pongteh
+    health: [GREEN, "Chicken braised with potato and fermented bean paste: a complete dish with hardly any added fat."]
+    nutrition: [430, 34, 30, 18]
+    photo: fusion-peranakan/ayam-pongteh.jpg
+    category: Meat
+    difficulty: EASY
+    prep: 15
+    cook: 45
+    servings: 4
+    origin: Malacca
+    tags: [chicken, stew]
+    ingredients:
+      - items:
+          - [chicken legs and thighs, 1, kg]
+          - [potatoes, 3, null]
+          - [soaked dried shiitake mushrooms, 6, null]
+          - [shallots, 10, null]
+          - [garlic, 6, clove]
+          - [taucheo (fermented soybean paste), 3, tbsp]
+          - [dark soy sauce, 2, tbsp]
+          - [palm or brown sugar, 2, tbsp]
+          - [cinnamon, 1, stick]
+          - [oil, 3, tbsp]
+          - [water, 500, ml]
+    steps:
+      - Pound the shallots and garlic in a mortar into a paste.
+      - "Fry the paste in the oil for 5 minutes, add the taucheo and cinnamon and fry for 2 more minutes."
+      - "Add the chicken pieces and brown them. Add the dark soy sauce, sugar, mushrooms and water."
+      - "Cover and simmer for 20 minutes. Add the potatoes in large chunks and cook for 20 more minutes, until tender and the sauce is thick."
+
+  - name: Ayam buah keluak
+    health: [YELLOW, "Chicken braised in a tamarind and spice gravy with keluak nuts: protein, with some fat."]
+    nutrition: [470, 36, 16, 29]
+    photo: fusion-peranakan/ayam-buah-keluak.jpg
+    category: Meat
+    difficulty: HARD
+    prep: 60
+    cook: 60
+    servings: 4
+    origin: Singapore
+    notes: "It is the signature dish of Peranakan cooking. Keluak nuts are bought in Southeast Asian shops and must be soaked for 3-4 days, changing the water daily; their black flesh tastes of bitter chocolate and truffle."
+    tags: [chicken, stew, spicy]
+    utensils: [Blender]
+    ingredients:
+      - group: Rempah
+        items:
+          - [shallots, 12, null]
+          - [garlic, 4, clove]
+          - [soaked dried red chillies, 15, null]
+          - [galangal, 4, cm]
+          - [lemongrass, 2, stalk]
+          - [turmeric, 1, tsp]
+          - [macadamia nuts or almonds, 5, null]
+          - [shrimp paste (belacan), 1, tbsp]
+      - group: Stew
+        items:
+          - [soaked keluak nuts, 16, null]
+          - [minced pork or chopped prawns, 100, g]
+          - [chicken legs and thighs, 1, kg]
+          - [tamarind pulp, 50, g]
+          - [water, 800, ml]
+          - [palm or brown sugar, 2, tbsp]
+          - [oil, 6, tbsp]
+          - [salt, null, null]
+    steps:
+      - "Scrub the soaked nuts, prise them open at the flat end with the tip of a heavy knife and scoop out the black flesh. Mix it with the minced meat, a pinch of salt and sugar, and stuff it back into the shells."
+      - "Blend the rempah ingredients into a fine paste and fry it in the oil over medium heat for 10-12 minutes, until dark and fragrant."
+      - Add the chicken pieces and brown them in the paste for 5 minutes.
+      - "Dissolve the tamarind in the water, strain it and add it with the sugar and salt. Add the stuffed nuts."
+      - Simmer covered for 45 minutes. Serve with rice; the nut filling is scooped out with a teaspoon and mixed with the gravy.
+
+  - name: Otak-otak
+    health: [GREEN, "Spiced fish and coconut custard cooked in banana leaf: protein and little fat."]
+    nutrition: [250, 24, 6, 14]
+    photo: fusion-peranakan/otak-otak.jpg
+    category: Fish and seafood
+    difficulty: MEDIUM
+    prep: 40
+    cook: 15
+    servings: 4
+    origin: Malacca
+    tags: [fish, coconut]
+    utensils: [Blender, Steamer]
+    ingredients:
+      - items:
+          - [mackerel or white fish fillets, 500, g]
+          - [coconut milk, 150, ml]
+          - [egg, 1, null]
+          - [shallots, 5, null]
+          - [soaked dried red chillies, 6, null]
+          - [lemongrass, 1, stalk]
+          - [galangal, 2, cm]
+          - [turmeric, 1, tsp]
+          - [shrimp paste (belacan), 1, tsp]
+          - [kaffir lime leaves, 4, null]
+          - [sugar, 1, tsp]
+          - [salt, 1, tsp]
+          - [banana leaves, 8, leaf]
+    steps:
+      - "Blend the shallots, chillies, lemongrass, galangal, turmeric and belacan."
+      - "Finely chop the fish and mix it with the paste, coconut milk, egg, very finely shredded lime leaves, sugar and salt."
+      - Pass the banana leaves over a flame or through hot water to soften them and cut them into 20 x 15 cm rectangles.
+      - "Put 2 tablespoons of the mixture on each leaf, fold into a parcel and close with a cocktail stick."
+      - Steam them for 10 minutes or grill them for 4 minutes per side.
+
+  - name: Kueh pie tee
+    health: [YELLOW, "Fried pastry cups filled with vegetables and prawns: a light filling, but a fried cup."]
+    nutrition: [280, 10, 30, 13]
+    photo: fusion-peranakan/kueh-pie-tee.jpg
+    category: Starters
+    difficulty: HARD
+    prep: 40
+    cook: 40
+    servings: 6
+    notes: The cups are fried with a special mould; they are also sold ready-made in Asian shops.
+    tags: [snack, prawns]
+    ingredients:
+      - group: Cups
+        items:
+          - [plain flour, 100, g]
+          - [rice flour, 30, g]
+          - [egg, 1, null]
+          - [water, 200, ml]
+          - [salt, 1, pinch]
+          - [sunflower oil for frying, 1, l]
+      - group: Filling
+        items:
+          - [jicama or turnip, 500, g]
+          - [carrot, 1, null]
+          - [garlic, 3, clove]
+          - [taucheo (fermented soybean paste), 1, tbsp]
+          - [soy sauce, 1, tbsp]
+          - [cooked peeled prawns, 200, g]
+          - [hard-boiled egg, 1, null]
+          - [fresh coriander, 1, handful]
+          - [chilli sauce, null, null]
+    steps:
+      - "Mix the flours, egg, water and salt into a thin batter and rest for 30 minutes."
+      - "Heat the mould in oil at 175 °C, dip it in the batter without covering it completely and return it to the oil. When the cup comes loose, fry it for 1 more minute until golden. Repeat."
+      - "For the filling, fry the garlic and taucheo, add the finely julienned jicama and carrot and the soy sauce, and cook for 20 minutes until tender."
+      - "Just before serving, fill the cups with the drained vegetables and top with a prawn, grated egg, coriander and a little chilli sauce."
+
+  - name: Chap chye
+    health: [GREEN, "Braise of cabbage, mushrooms and glass noodles: light, with plenty of vegetables."]
+    nutrition: [230, 9, 30, 9]
+    photo: fusion-peranakan/chap-chye.jpg
+    category: Vegetables
+    difficulty: EASY
+    prep: 20
+    cook: 25
+    servings: 4
+    notes: It is a Chinese New Year dish in Nyonya homes; it is even better the next day.
+    tags: [vegetables, braise]
+    ingredients:
+      - items:
+          - [white cabbage, 600, g]
+          - [dried shiitake mushrooms, 6, null]
+          - [dried wood ear mushrooms, 10, g]
+          - [glass noodles, 50, g]
+          - [dried tofu skin or fried tofu, 50, g]
+          - [dried shrimp, 2, tbsp]
+          - [garlic, 4, clove]
+          - [taucheo (fermented soybean paste), 2, tbsp]
+          - [soy sauce, 1, tbsp]
+          - [oil, 3, tbsp]
+          - [stock or mushroom soaking water, 300, ml]
+    steps:
+      - "Soak the mushrooms, wood ears, noodles, tofu skin and dried shrimp separately for 20 minutes. Slice the mushrooms and cut the cabbage into large pieces."
+      - "Fry the garlic and dried shrimp in the oil, add the taucheo and fry for 1 minute."
+      - "Add the mushrooms, wood ears and cabbage, and stir-fry for 3 minutes. Add the stock and soy sauce."
+      - "Cover and cook for 15 minutes. Add the noodles and tofu and cook for 5 more minutes, until the cabbage is very tender."
+
+  - name: Kuih dadar
+    health: [YELLOW, "Pandan crêpes filled with coconut and palm sugar: sweet, with fat from the coconut."]
+    nutrition: [300, 6, 42, 12]
+    photo: fusion-peranakan/kuih-dadar.jpg
+    category: Desserts
+    difficulty: MEDIUM
+    prep: 30
+    cook: 25
+    servings: 6
+    tags: [dessert, coconut]
+    utensils: [Blender]
+    ingredients:
+      - group: Filling
+        items:
+          - [fresh or desiccated grated coconut, 200, g]
+          - [palm sugar (gula melaka), 120, g]
+          - [water, 80, ml]
+          - [pandan leaf, 1, leaf]
+          - [salt, 1, pinch]
+      - group: Crêpes
+        items:
+          - [plain flour, 150, g]
+          - [egg, 1, null]
+          - [coconut milk, 300, ml]
+          - [pandan leaves or pandan extract, 6, leaf]
+          - [salt, 1, pinch]
+          - [oil, 1, tbsp]
+    steps:
+      - "Dissolve the palm sugar in the water with the pandan leaf, add the coconut and salt and cook for 8 minutes until moist but without liquid. Leave to cool."
+      - Blend the pandan leaves with 3 tablespoons of water and strain the green juice.
+      - "Whisk the flour with the egg, coconut milk, pandan juice and salt into a smooth batter. Rest for 15 minutes."
+      - "Make thin crêpes in a barely greased non-stick pan, without browning them."
+      - "Put a spoonful of filling on each crêpe, fold in the sides and roll it up like a spring roll."

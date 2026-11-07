@@ -1,0 +1,286 @@
+id: fusion-anglo-india
+version: 1
+updated: 2026-11-07
+language: es
+name: "Cocina fusión: anglo-india"
+series: Cocina fusión
+description: >-
+  Los platos nacidos del encuentro entre la India y Gran Bretaña, de los clubes y trenes del Raj a
+  los restaurantes de curry británicos: kedgeree, sopa mulligatawny, pollo tikka masala, pollo
+  coronación, jalfrezi, curry de cordero del ferrocarril, country captain y chutney de mango.
+author: Miga
+authorGithub: calamares00
+cover:
+  emoji: "🫖"
+  kicker: Cocina fusión
+  title: Anglo-india
+  colors: ["#1e3a8a", "#d97706"]
+defaults:
+  origin: India y Reino Unido
+  originCountry: GB
+  source: "Pack «Cocina fusión: anglo-india» de Miga"
+recipes:
+
+  - name: Kedgeree
+    health: [GREEN, "Arroz con pescado ahumado, huevo y especias suaves: buena proteína y omega-3."]
+    nutrition: [470, 30, 50, 16]
+    photo: fusion-anglo-india/kedgeree.jpg
+    category: Arroces
+    difficulty: EASY
+    prep: 15
+    cook: 30
+    servings: 4
+    notes: Viene del khichdi indio; los británicos lo convirtieron en un desayuno victoriano con eglefino ahumado.
+    tags: [arroz, pescado, desayuno]
+    ingredients:
+      - items:
+          - [eglefino o bacalao ahumado, 400, g]
+          - [leche, 400, ml]
+          - [hoja de laurel, 1, null]
+          - [arroz basmati, 250, g]
+          - [mantequilla, 40, g]
+          - [cebolla, 1, null]
+          - [curry en polvo suave, 2, cucharadita]
+          - [cúrcuma, 0.5, cucharadita]
+          - [huevos, 4, null]
+          - [perejil fresco, 1, puñado]
+          - [limón, 1, null]
+          - [sal y pimienta negra, null, null]
+    steps:
+      - "Cuece el pescado en la leche con el laurel a fuego suave 8 minutos. Sácalo, desmenúzalo sin piel ni espinas y guarda la leche."
+      - "Cuece los huevos 7 minutos, enfríalos y córtalos en cuartos."
+      - "Pocha la cebolla picada en la mantequilla 8 minutos, añade el curry y la cúrcuma y luego el arroz lavado. Remueve 1 minuto."
+      - "Añade la leche de cocer el pescado completada con agua hasta 500 ml, tapa y cuece 12 minutos a fuego bajo. Deja reposar 5 minutos."
+      - "Mezcla con cuidado el pescado y el perejil, salpimienta y sirve con los huevos y gajos de limón."
+
+  - name: Sopa mulligatawny
+    health: [GREEN, "Sopa de lentejas, verduras y especias con un toque de coco: fibra y proteína vegetal."]
+    nutrition: [300, 13, 38, 11]
+    photo: fusion-anglo-india/sopa-mulligatawny.jpg
+    category: Sopas y cremas
+    difficulty: EASY
+    prep: 15
+    cook: 35
+    servings: 4
+    notes: "Su nombre viene del tamil milagu thanni, 'agua de pimienta'."
+    tags: [sopa, legumbres]
+    utensils: [Batidora]
+    ingredients:
+      - items:
+          - [lentejas rojas, 150, g]
+          - [cebolla, 1, null]
+          - [zanahoria, 1, null]
+          - [apio, 1, rama]
+          - [manzana ácida, 1, null]
+          - [ajo, 2, diente]
+          - [jengibre fresco rallado, 1, cucharada]
+          - [curry en polvo, 1, cucharada]
+          - [caldo de pollo o de verduras, 1.2, l]
+          - [leche de coco, 150, ml]
+          - [arroz cocido, 100, g]
+          - [zumo de limón, 1, cucharada]
+          - [mantequilla o aceite, 2, cucharada]
+          - [sal, null, null]
+    steps:
+      - "Sofríe la cebolla, la zanahoria y el apio picados en la mantequilla 8 minutos. Añade el ajo, el jengibre y el curry y cocina 1 minuto."
+      - "Añade la manzana pelada en dados, las lentejas y el caldo. Cuece 25 minutos."
+      - "Tritura la sopa, añade la leche de coco y el limón y sala."
+      - Sirve con una cucharada de arroz en cada plato.
+
+  - name: Pollo tikka masala
+    health: [YELLOW, "Pollo asado en salsa de tomate con nata: mucha proteína, con grasa de la nata."]
+    nutrition: [480, 40, 14, 29]
+    photo: fusion-anglo-india/pollo-tikka-masala.jpg
+    category: Carnes
+    difficulty: MEDIUM
+    prep: 20
+    cook: 40
+    servings: 4
+    origin: Glasgow
+    notes: Glasgow y Birmingham se disputan su invención en los restaurantes indios británicos de los años 60 y 70.
+    tags: [curry, pollo, sin gluten]
+    utensils: [Horno, Batidora]
+    ingredients:
+      - group: Tikka
+        items:
+          - [pechugas de pollo, 700, g]
+          - [yogur natural, 150, g]
+          - [pasta de jengibre y ajo, 1, cucharada]
+          - [garam masala, 1, cucharadita]
+          - [pimentón dulce, 1, cucharadita]
+          - [zumo de limón, 1, cucharada]
+          - [sal, 1, cucharadita]
+      - group: Salsa masala
+        items:
+          - [aceite o ghee, 3, cucharada]
+          - [cebollas, 2, null]
+          - [pasta de jengibre y ajo, 1, cucharada]
+          - [garam masala, 2, cucharadita]
+          - [comino molido, 1, cucharadita]
+          - [pimentón dulce, 2, cucharadita]
+          - [chile en polvo, 0.5, cucharadita]
+          - [tomate triturado, 400, g]
+          - [nata para cocinar, 150, ml]
+          - [cilantro fresco, 1, puñado]
+    steps:
+      - Corta el pollo en dados grandes y marínalo con los ingredientes del tikka al menos 1 hora.
+      - "Ensártalo en brochetas y ásalo con el grill del horno al máximo 12-15 minutos, girándolo, hasta que tenga zonas tostadas."
+      - "Para la salsa, dora la cebolla picada en el aceite 12 minutos. Añade la pasta de jengibre y ajo y las especias, y luego el tomate. Cuece 15 minutos y tritura."
+      - "Añade la nata y el pollo, cuece 5 minutos y termina con cilantro. Sirve con arroz o naan."
+
+  - name: Pollo coronación
+    health: [RED, "Pollo con mayonesa al curry y fruta: frío y sabroso, pero con mucha grasa por la mayonesa."]
+    nutrition: [460, 30, 12, 32]
+    photo: fusion-anglo-india/pollo-coronacion.jpg
+    category: Ensaladas
+    difficulty: EASY
+    prep: 20
+    cook: 20
+    servings: 4
+    origin: Londres
+    notes: Se creó para el banquete de la coronación de Isabel II en 1953. Muy típico en bocadillos.
+    tags: [pollo, frío, ensalada]
+    ingredients:
+      - items:
+          - [pechugas de pollo, 600, g]
+          - [mayonesa, 150, g]
+          - [yogur natural, 100, g]
+          - [curry en polvo suave, 2, cucharadita]
+          - [chutney de mango, 2, cucharada]
+          - [albaricoques secos, 50, g]
+          - [almendras laminadas tostadas, 30, g]
+          - [zumo de limón, 1, cucharada]
+          - [cilantro fresco, 1, puñado]
+          - [sal y pimienta negra, null, null]
+    steps:
+      - Cuece las pechugas en agua con sal a fuego suave 15-18 minutos y déjalas enfriar en el caldo. Desmenúzalas.
+      - Tuesta el curry en una sartén seca 30 segundos para que pierda el sabor crudo.
+      - "Mezcla la mayonesa con el yogur, el curry, el chutney y el limón. Añade el pollo y los albaricoques picados y salpimienta."
+      - "Sirve frío con las almendras y el cilantro por encima, con ensalada de arroz o en bocadillos."
+
+  - name: Jalfrezi de pollo
+    health: [GREEN, "Pollo salteado con pimientos, cebolla y tomate: proteína y verdura con poca grasa."]
+    nutrition: [350, 36, 14, 17]
+    photo: fusion-anglo-india/jalfrezi-de-pollo.jpg
+    category: Carnes
+    difficulty: EASY
+    prep: 15
+    cook: 25
+    servings: 4
+    notes: En la India colonial se hacía con las sobras del asado; hoy es uno de los curris favoritos de Reino Unido.
+    tags: [curry, pollo, picante, sin gluten]
+    ingredients:
+      - items:
+          - [pechugas o contramuslos de pollo, 700, g]
+          - [aceite, 3, cucharada]
+          - [comino en grano, 1, cucharadita]
+          - [cebollas, 2, null]
+          - [pimiento rojo, 1, null]
+          - [pimiento verde, 1, null]
+          - [chiles verdes, 3, null]
+          - [pasta de jengibre y ajo, 1, cucharada]
+          - [tomates, 3, null]
+          - [cúrcuma, 0.5, cucharadita]
+          - [chile en polvo, 1, cucharadita]
+          - [cilantro molido, 2, cucharadita]
+          - [garam masala, 1, cucharadita]
+          - [sal, null, null]
+    steps:
+      - "Fríe el comino en el aceite, añade 1 cebolla picada y dórala 8 minutos. Agrega la pasta de jengibre y ajo y las especias molidas, salvo el garam masala."
+      - Añade el tomate picado y cuece 5 minutos. Incorpora el pollo en dados y cocina 10 minutos.
+      - "Añade la otra cebolla en gajos, los pimientos en cuadrados y los chiles en tiras, y saltea a fuego fuerte 5 minutos: deben quedar algo crujientes."
+      - Termina con el garam masala y sal. Sirve con arroz o naan.
+
+  - name: Curry de cordero del ferrocarril
+    health: [YELLOW, "Cordero guisado con patata y especias suaves: mucha proteína, pero carne grasa."]
+    nutrition: [520, 36, 22, 32]
+    photo: fusion-anglo-india/curry-de-cordero-del-ferrocarril.jpg
+    category: Carnes
+    difficulty: MEDIUM
+    prep: 20
+    cook: 90
+    servings: 4
+    notes: "Se servía en los vagones restaurante del ferrocarril de la India británica: menos picante y con tamarindo para conservarse mejor."
+    tags: [curry, cordero, guiso]
+    ingredients:
+      - items:
+          - [paletilla de cordero en dados, 800, g]
+          - [patatas, 2, null]
+          - [cebollas, 2, null]
+          - [aceite, 3, cucharada]
+          - [canela, 1, rama]
+          - [vainas de cardamomo, 4, null]
+          - [clavos, 4, null]
+          - [pasta de jengibre y ajo, 2, cucharada]
+          - [chile de Cachemira o pimentón dulce, 2, cucharadita]
+          - [cilantro molido, 2, cucharadita]
+          - [cúrcuma, 0.5, cucharadita]
+          - [yogur natural, 100, g]
+          - [pasta de tamarindo, 1, cucharada]
+          - [leche de coco, 100, ml]
+          - [sal, null, null]
+    steps:
+      - "Fríe la canela, el cardamomo y los clavos en el aceite 1 minuto. Añade las cebollas en juliana y dóralas 12 minutos."
+      - "Añade la pasta de jengibre y ajo, las especias molidas y el cordero, y dóralo 5 minutos."
+      - "Incorpora el yogur poco a poco, 400 ml de agua y sal. Tapa y cuece a fuego suave 1 hora."
+      - "Añade las patatas en trozos grandes, el tamarindo y la leche de coco y cuece 25 minutos más, hasta que estén tiernas. Sirve con arroz o pan."
+
+  - name: Country captain
+    health: [GREEN, "Pollo guisado con tomate, pimiento, curry y pasas: completo y con poca grasa."]
+    nutrition: [440, 38, 26, 20]
+    photo: fusion-anglo-india/country-captain.jpg
+    category: Carnes
+    difficulty: EASY
+    prep: 20
+    cook: 50
+    servings: 4
+    notes: Lo llevaron de la India a Inglaterra y al sur de EE. UU. los capitanes de barco del comercio de especias.
+    tags: [pollo, curry, guiso]
+    ingredients:
+      - items:
+          - [muslos y contramuslos de pollo, 1.2, kg]
+          - [harina, 2, cucharada]
+          - [aceite, 3, cucharada]
+          - [cebolla, 1, null]
+          - [pimiento verde, 1, null]
+          - [ajo, 2, diente]
+          - [curry en polvo, 1, cucharada]
+          - [tomate pelado en conserva, 400, g]
+          - [caldo de pollo, 200, ml]
+          - [pasas, 50, g]
+          - [almendras laminadas tostadas, 30, g]
+          - [sal y pimienta negra, null, null]
+    steps:
+      - "Salpimienta el pollo, enharínalo y dóralo bien en el aceite. Resérvalo."
+      - "Sofríe la cebolla, el pimiento y el ajo picados 8 minutos. Añade el curry y cocina 1 minuto."
+      - "Añade el tomate, el caldo y las pasas, vuelve a poner el pollo, tapa y cuece 35-40 minutos."
+      - Sirve sobre arroz con las almendras tostadas por encima.
+
+  - name: Chutney de mango
+    health: [YELLOW, "Conserva agridulce de mango: fruta, pero con bastante azúcar; se toma en poca cantidad."]
+    nutrition: [60, 0, 15, 0]
+    photo: fusion-anglo-india/chutney-de-mango.jpg
+    category: Salsas
+    difficulty: EASY
+    prep: 15
+    cook: 45
+    servings: 20
+    notes: Es el acompañamiento clásico de los papadums en los restaurantes indios británicos. Se conserva meses en tarros esterilizados.
+    tags: [conserva, vegano, sin gluten]
+    ingredients:
+      - items:
+          - [mangos poco maduros, 1, kg]
+          - [azúcar, 250, g]
+          - [vinagre de sidra, 200, ml]
+          - [jengibre fresco rallado, 2, cucharada]
+          - [ajo, 2, diente]
+          - [semillas de nigella o comino, 1, cucharadita]
+          - [semillas de cilantro machacadas, 1, cucharadita]
+          - [chile en copos, 1, cucharadita]
+          - [vainas de cardamomo, 4, null]
+          - [sal, 1, cucharadita]
+    steps:
+      - Pela los mangos y córtalos en dados pequeños.
+      - "Calienta el vinagre con el azúcar hasta que se disuelva. Añade el mango, el jengibre, el ajo picado, las especias y la sal."
+      - "Cuece a fuego suave 40-45 minutos, removiendo a menudo al final, hasta que esté espeso y brillante."
+      - Envasa en caliente en tarros esterilizados y deja reposar al menos una semana antes de abrirlo.

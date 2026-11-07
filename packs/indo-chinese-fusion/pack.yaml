@@ -1,0 +1,294 @@
+id: indo-chinese-fusion
+version: 1
+updated: 2026-11-07
+language: en
+name: "Fusion cuisine: Indo-Chinese"
+series: Fusion cuisine
+description: >-
+  Indo-Chinese cooking, born among the Hakka Chinese of Kolkata and now at every street stall in
+  India: gobi manchurian, chilli chicken, Hakka noodles, Schezwan fried rice, chilli paneer,
+  manchow soup, sweetcorn soup and honey chilli potatoes.
+author: Miga
+authorGithub: calamares00
+cover:
+  emoji: "🌶️"
+  kicker: Fusion cuisine
+  title: Indo-Chinese
+  colors: ["#b45309", "#dc2626"]
+defaults:
+  origin: India
+  originCountry: IN
+  source: "Miga «Fusion cuisine: Indo-Chinese» pack"
+recipes:
+
+  - name: Gobi manchurian
+    health: [RED, "Battered, fried cauliflower in a soy and chilli sauce: fried and fairly salty."]
+    nutrition: [330, 7, 38, 17]
+    photo: fusion-chino-india/gobi-manchurian.jpg
+    category: Vegetables
+    difficulty: MEDIUM
+    prep: 20
+    cook: 20
+    servings: 4
+    notes: "It can be served dry, as a snack, or with more sauce to go with fried rice."
+    tags: [vegan, fried, spicy]
+    utensils: [Wok]
+    ingredients:
+      - group: Cauliflower
+        items:
+          - [cauliflower, 1, null]
+          - [cornflour, 50, g]
+          - [plain flour, 50, g]
+          - [ginger and garlic paste, 1, tsp]
+          - [chilli powder, 1, tsp]
+          - [salt, 0.5, tsp]
+          - [sunflower oil for frying, 1, l]
+      - group: Sauce
+        items:
+          - [garlic, 4, clove]
+          - [fresh ginger, 2, cm]
+          - [green chillies, 2, null]
+          - [onion, 1, null]
+          - [green pepper, 1, null]
+          - [soy sauce, 2, tbsp]
+          - [chilli sauce (sriracha or similar), 1, tbsp]
+          - [ketchup, 1, tbsp]
+          - [vinegar, 1, tsp]
+          - [cornflour, 1, tsp]
+          - [spring onions, 2, null]
+    steps:
+      - "Cut the cauliflower into small florets, blanch for 2 minutes and drain well."
+      - "Mix the flours, ginger and garlic paste, chilli and salt with water into a thick batter. Coat the cauliflower and fry it at 175 °C for 4-5 minutes, until crisp."
+      - "In the wok with 2 tablespoons of oil, stir-fry the chopped garlic, ginger and chillies over high heat, then the diced onion and pepper for 2 minutes."
+      - "Add the soy sauce, chilli sauce, ketchup and vinegar, and thicken with the cornflour mixed with 80 ml of water."
+      - "Add the cauliflower, toss to coat and serve straight away with chopped spring onion."
+
+  - name: Chilli chicken
+    health: [YELLOW, "Battered chicken stir-fried with pepper and chilli: protein, but fried and in a salty sauce."]
+    nutrition: [450, 34, 24, 24]
+    photo: fusion-chino-india/pollo-al-chile.jpg
+    category: Meat
+    difficulty: MEDIUM
+    prep: 20
+    cook: 20
+    servings: 4
+    origin: Kolkata
+    tags: [chicken, spicy, fried]
+    utensils: [Wok]
+    ingredients:
+      - group: Chicken
+        items:
+          - [boneless chicken thighs, 600, g]
+          - [egg, 1, null]
+          - [cornflour, 3, tbsp]
+          - [plain flour, 2, tbsp]
+          - [ginger and garlic paste, 1, tbsp]
+          - [soy sauce, 1, tbsp]
+          - [black pepper, 0.5, tsp]
+          - [sunflower oil for frying, 750, ml]
+      - group: Stir-fry
+        items:
+          - [garlic, 4, clove]
+          - [green chillies, 4, null]
+          - [onion, 1, null]
+          - [green pepper, 1, null]
+          - [soy sauce, 2, tbsp]
+          - [green or red chilli sauce, 1, tbsp]
+          - [vinegar, 1, tsp]
+          - [cornflour, 1, tsp]
+          - [spring onions, 2, null]
+    steps:
+      - "Cut the chicken into chunks and mix with the egg, flours, ginger and garlic paste, soy sauce and pepper."
+      - "Fry it in batches at 175 °C for 5 minutes, until golden and crisp. Drain."
+      - "Stir-fry the chopped garlic and slit chillies in the wok with 2 tablespoons of oil for 30 seconds, then the onion and pepper squares for 2 minutes over very high heat."
+      - "Add the sauces, vinegar and the cornflour mixed with 60 ml of water. When it thickens, add the chicken, toss and finish with the spring onion."
+
+  - name: Hakka noodles
+    health: [YELLOW, "Noodles stir-fried with plenty of vegetables: low in fat but with plenty of carbohydrates and salt."]
+    nutrition: [430, 12, 70, 11]
+    photo: fusion-chino-india/fideos-hakka.jpg
+    category: Pasta
+    difficulty: EASY
+    prep: 15
+    cook: 10
+    servings: 4
+    tags: [noodles, vegan, quick]
+    utensils: [Wok]
+    ingredients:
+      - items:
+          - [thin wheat noodles, 300, g]
+          - [white cabbage, 200, g]
+          - [carrot, 1, null]
+          - [green pepper, 1, null]
+          - [onion, 1, null]
+          - [spring onions, 3, null]
+          - [garlic, 3, clove]
+          - [soy sauce, 3, tbsp]
+          - [vinegar, 1, tbsp]
+          - [chilli sauce, 1, tbsp]
+          - [black pepper, 0.5, tsp]
+          - [sunflower oil, 3, tbsp]
+    steps:
+      - "Cook the noodles al dente, rinse them in cold water, drain and toss with 1 tablespoon of oil."
+      - Cut all the vegetables into thin strips.
+      - "Stir-fry the chopped garlic in a very hot wok for 20 seconds, add the onion, carrot, pepper and cabbage and stir-fry for 2 minutes over high heat; they should stay crunchy."
+      - "Add the noodles, soy sauce, vinegar, chilli sauce and pepper, and toss for 2 minutes. Finish with the spring onion."
+
+  - name: Schezwan fried rice
+    health: [YELLOW, "Rice stir-fried with vegetables and a spicy sauce: a simple dish, high in carbohydrates."]
+    nutrition: [420, 9, 68, 12]
+    photo: fusion-chino-india/arroz-frito-schezwan.jpg
+    category: Rice
+    difficulty: EASY
+    prep: 15
+    cook: 10
+    servings: 4
+    notes: It works best with rice cooked the day before and well chilled. Indian Schezwan sauce is sold in jars.
+    tags: [rice, vegan, spicy]
+    utensils: [Wok]
+    ingredients:
+      - items:
+          - [cold cooked basmati rice, 700, g]
+          - [Schezwan sauce, 3, tbsp]
+          - [carrot, 1, null]
+          - [green beans, 80, g]
+          - [white cabbage, 100, g]
+          - [green pepper, 1, null]
+          - [spring onions, 3, null]
+          - [garlic, 3, clove]
+          - [soy sauce, 1, tbsp]
+          - [vinegar, 1, tsp]
+          - [sunflower oil, 3, tbsp]
+          - [salt, null, null]
+    steps:
+      - Finely chop all the vegetables.
+      - "Stir-fry the garlic in a very hot wok for 20 seconds and add the vegetables, except the spring onion. Stir-fry for 2 minutes."
+      - "Add the Schezwan sauce and stir-fry for 30 seconds. Add the rice and stir-fry for 3 minutes, breaking up the grains."
+      - "Season with the soy sauce and vinegar, add salt to taste and finish with the spring onion."
+
+  - name: Chilli paneer
+    health: [YELLOW, "Paneer fried and stir-fried with pepper: good protein and calcium, but quite fatty."]
+    nutrition: [430, 20, 18, 31]
+    photo: fusion-chino-india/paneer-al-chile.jpg
+    category: Vegetables
+    difficulty: EASY
+    prep: 15
+    cook: 15
+    servings: 4
+    tags: [vegetarian, spicy]
+    utensils: [Wok]
+    ingredients:
+      - items:
+          - [paneer, 400, g]
+          - [cornflour, 3, tbsp]
+          - [plain flour, 1, tbsp]
+          - [sunflower oil, 6, tbsp]
+          - [garlic, 4, clove]
+          - [fresh ginger, 2, cm]
+          - [green chillies, 3, null]
+          - [onion, 1, null]
+          - [green pepper, 1, null]
+          - [soy sauce, 2, tbsp]
+          - [chilli sauce, 1, tbsp]
+          - [ketchup, 1, tbsp]
+          - [vinegar, 1, tsp]
+          - [spring onions, 2, null]
+    steps:
+      - Cut the paneer into cubes and coat in the cornflour and flour mixed with 3-4 tablespoons of water and a little salt.
+      - "Brown it in 4 tablespoons of oil on all sides, until crisp. Set aside."
+      - "In the wok with the rest of the oil, stir-fry the chopped garlic, ginger and chillies, then the onion and pepper squares for 2 minutes."
+      - "Add the soy sauce, chilli sauce, ketchup, vinegar and 3 tablespoons of water. Add the paneer, toss for 1 minute and finish with the spring onion."
+
+  - name: Manchow soup
+    health: [GREEN, "Spicy vegetable soup with crispy noodles: light and full of vegetables."]
+    nutrition: [170, 5, 24, 6]
+    photo: fusion-chino-india/sopa-manchow.jpg
+    category: Soups
+    difficulty: EASY
+    prep: 20
+    cook: 15
+    servings: 4
+    tags: [soup, vegan, spicy]
+    ingredients:
+      - items:
+          - [vegetable stock, 1, l]
+          - [garlic, 4, clove]
+          - [fresh ginger, 3, cm]
+          - [green chilli, 1, null]
+          - [carrot, 1, null]
+          - [white cabbage, 100, g]
+          - [green beans, 60, g]
+          - [mushrooms, 80, g]
+          - [soy sauce, 3, tbsp]
+          - [vinegar, 1, tbsp]
+          - [black pepper, 1, tsp]
+          - [cornflour, 2, tbsp]
+          - [oil, 1, tbsp]
+          - [crispy fried noodles, 60, g]
+          - [fresh coriander, 1, handful]
+    steps:
+      - "Very finely chop the garlic, ginger, chilli and all the vegetables."
+      - "Stir-fry the garlic, ginger and chilli in the oil for 1 minute. Add the vegetables and stir-fry for 2 minutes over high heat."
+      - "Add the stock, soy sauce and pepper and simmer for 5 minutes."
+      - "Thicken with the cornflour mixed with 4 tablespoons of water, add the vinegar and chopped coriander."
+      - Serve piping hot topped with the crispy noodles.
+
+  - name: Chicken sweetcorn soup
+    health: [GREEN, "Sweetcorn soup with chicken and egg: light, with protein and little fat."]
+    nutrition: [210, 16, 24, 6]
+    photo: fusion-chino-india/sopa-de-maiz-dulce-y-pollo.jpg
+    category: Soups
+    difficulty: EASY
+    prep: 10
+    cook: 20
+    servings: 4
+    tags: [soup, chicken, mild]
+    utensils: [Blender]
+    ingredients:
+      - items:
+          - [chicken stock, 1, l]
+          - [sweetcorn kernels, 300, g]
+          - [chicken breast, 200, g]
+          - [grated fresh ginger, 1, tsp]
+          - [egg, 1, null]
+          - [cornflour, 2, tbsp]
+          - [soy sauce, 1, tbsp]
+          - [white pepper, 0.5, tsp]
+          - [spring onions, 2, null]
+          - [salt, null, null]
+    steps:
+      - Blend half the sweetcorn with a little stock.
+      - "Poach the chicken in the stock with the ginger for 10 minutes, remove it and shred it."
+      - "Add the whole and blended sweetcorn, the chicken, soy sauce and pepper to the stock and simmer for 5 minutes. Thicken with the cornflour mixed with cold water."
+      - "Pour in the beaten egg in a thin stream, stirring slowly so it forms ribbons. Salt and serve with chopped spring onion."
+
+  - name: Honey chilli potatoes
+    health: [RED, "Fried potatoes glazed with honey and chilli: a fried, sugary snack."]
+    nutrition: [380, 5, 52, 17]
+    photo: fusion-chino-india/patatas-con-miel-y-chile.jpg
+    category: Starters
+    difficulty: EASY
+    prep: 15
+    cook: 20
+    servings: 4
+    origin: Delhi
+    tags: [vegetarian, fried, snack]
+    utensils: [Wok]
+    ingredients:
+      - items:
+          - [potatoes, 600, g]
+          - [cornflour, 4, tbsp]
+          - [sunflower oil for frying, 750, ml]
+          - [garlic, 3, clove]
+          - [chilli sauce, 2, tbsp]
+          - [soy sauce, 1, tbsp]
+          - [ketchup, 1, tbsp]
+          - [honey, 2, tbsp]
+          - [vinegar, 1, tsp]
+          - [sesame seeds, 1, tbsp]
+          - [spring onions, 2, null]
+    steps:
+      - "Cut the potatoes into fingers, parboil for 3 minutes in salted water and drain well. Toss them in the cornflour."
+      - "Fry them at 180 °C for 6-8 minutes, until very crisp."
+      - "In the wok with 1 tablespoon of oil, stir-fry the chopped garlic, add the chilli sauce, soy sauce, ketchup and vinegar and cook for 1 minute."
+      - "Off the heat, add the honey and the potatoes and toss. Serve with toasted sesame seeds and spring onion."

@@ -1,0 +1,43 @@
+# Origin of every photo in this folder: source page, author and licence (CC0 1.0, Public domain,
+# CC BY x.y or CC BY-SA x.y). tools/build.py refuses a recipe photo without an entry here.
+
+char-kway-teow.jpg:
+  source: https://commons.wikimedia.org/wiki/File:Char_kway_teow.JPG
+  author: "User: (WT-shared) Zeroin23 at wts wikivoyage"
+  license: Public domain
+
+bak-kut-teh.jpg:
+  source: https://commons.wikimedia.org/wiki/File:Bak_kut_teh.jpg
+  author: "Elizetang"
+  license: Public domain
+
+hokkien-mee-de-kuala-lumpur.jpg:
+  source: https://commons.wikimedia.org/wiki/File:KL_hokkien_mee.jpg
+  author: "brown_colour"
+  license: CC BY 2.0
+
+yong-tau-foo.jpg:
+  source: https://commons.wikimedia.org/wiki/File:Yong_Tau_Fu_(52570260550).jpg
+  author: "Choo Yut Shing from Singapore, Singapore"
+  license: CC BY 2.0
+
+arroz-con-pollo-en-cazuela-de-barro.jpg:
+  source: https://commons.wikimedia.org/wiki/File:Fook_Kee_Claypot_Chicken_Rice.jpg
+  author: "Lucius089"
+  license: CC0 1.0
+
+wantan-mee.jpg:
+  source: https://commons.wikimedia.org/wiki/File:Dry_Noodles_with_Prawn_%26_Pork_Wontons_and_Salt_%26_Pepper_Mushrooms_-_HOKO_Wonton_Noodles_2026-06-04.jpg
+  author: "Andy Li"
+  license: CC0 1.0
+
+chuleta-de-pollo-hainanesa.jpg:
+  source: https://commons.wikimedia.org/wiki/File:Chicken_Chop_mixed_vege.jpg
+  author: "Charles Haynes"
+  license: CC BY-SA 2.0
+
+tostadas-con-kaya.jpg:
+  source: https://commons.wikimedia.org/wiki/File:Kaya_toast,_Yinzo_Kopi,_Ipoh,_Malaysia.jpg
+  author: "Sharon Hahn Darlin"
+  license: CC BY 2.0
+

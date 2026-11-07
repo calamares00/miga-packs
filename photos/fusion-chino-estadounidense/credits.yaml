@@ -1,0 +1,43 @@
+# Origin of every photo in this folder: source page, author and licence (CC0 1.0, Public domain,
+# CC BY x.y or CC BY-SA x.y). tools/build.py refuses a recipe photo without an entry here.
+
+pollo-del-general-tso.jpg:
+  source: https://commons.wikimedia.org/wiki/File:General_Tso%27s_Chicken.JPG
+  author: "1700-talet"
+  license: CC BY 3.0
+
+pollo-a-la-naranja.jpg:
+  source: https://commons.wikimedia.org/wiki/File:Orange_Chicken_-_Thai_Pad_Thai_2025-12-03.jpg
+  author: "Andy Li"
+  license: CC0 1.0
+
+ternera-con-brocoli.jpg:
+  source: https://commons.wikimedia.org/wiki/File:Szechwan_beef_broccoli_food_dinner.jpg
+  author: "Jon Sullivan"
+  license: Public domain
+
+chop-suey.jpg:
+  source: https://commons.wikimedia.org/wiki/File:Chop_suey.jpg
+  author: "JeffDelfin45"
+  license: CC BY-SA 4.0
+
+egg-foo-young.jpg:
+  source: https://commons.wikimedia.org/wiki/File:Egg_foo_young.JPG
+  author: "BrokenSphere"
+  license: CC BY-SA 3.0
+
+crab-rangoon.jpg:
+  source: https://commons.wikimedia.org/wiki/File:Crab_Rangoon_IMG_4105.jpg
+  author: "TheHungryDudes"
+  license: CC BY 2.0
+
+ternera-mongola.jpg:
+  source: https://commons.wikimedia.org/wiki/File:Mongolian_beef_from_Hunan_Cafe,_Burke,_Virginia.jpg
+  author: "Ser Amantio di Nicolao"
+  license: CC BY-SA 4.0
+
+lo-mein.jpg:
+  source: https://commons.wikimedia.org/wiki/File:Ginger_%26_Spring_Onion_Lo_Mein_with_Soup_%26_Sauce_(V)_-_CK_Bistro_2024-03-17.jpg
+  author: "Andy Li"
+  license: CC0 1.0
+

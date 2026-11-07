@@ -1,0 +1,271 @@
+id: fusion-texmex
+version: 1
+updated: 2026-11-07
+language: es
+name: "Cocina fusión: Tex-Mex"
+series: Cocina fusión
+description: >-
+  La cocina de los tejanos de origen mexicano, con más queso amarillo, comino y carne de ternera
+  que la de México: nachos, chile con queso, enchiladas de queso con chili gravy, tacos crujientes
+  de carne, tacos de desayuno, pollo King Ranch, frito pie y sopaipillas.
+author: Miga
+authorGithub: calamares00
+cover:
+  emoji: "🌮"
+  kicker: Cocina fusión
+  title: Tex-Mex
+  colors: ["#c2410c", "#facc15"]
+defaults:
+  origin: Texas
+  originCountry: US
+  source: "Pack «Cocina fusión: Tex-Mex» de Miga"
+recipes:
+
+  - name: Nachos
+    health: [RED, "Totopos con queso fundido, frijoles y carne: un aperitivo muy calórico y salado."]
+    nutrition: [620, 26, 52, 35]
+    photo: fusion-texmex/nachos.jpg
+    category: Entrantes
+    difficulty: EASY
+    prep: 15
+    cook: 10
+    servings: 4
+    origin: Piedras Negras (Coahuila)
+    notes: "Los inventó en 1943 Ignacio 'Nacho' Anaya para unas clientas de Eagle Pass, Texas, al otro lado de la frontera."
+    tags: [aperitivo, queso, al horno]
+    utensils: [Horno]
+    ingredients:
+      - items:
+          - [totopos de maíz, 250, g]
+          - [queso cheddar rallado, 200, g]
+          - [queso Monterey Jack o mozzarella rallado, 100, g]
+          - [frijoles refritos, 200, g]
+          - [carne picada de ternera, 250, g]
+          - [comino molido, 1, cucharadita]
+          - [chile en polvo, 1, cucharadita]
+          - [jalapeños en rodajas, 3, cucharada]
+          - [pico de gallo, 150, g]
+          - [guacamole, 150, g]
+          - [nata agria, 100, g]
+          - [sal, null, null]
+    steps:
+      - "Dora la carne con el comino, el chile y sal hasta que esté suelta y seca."
+      - Precalienta el horno a 200 °C. Extiende los totopos en una bandeja en una sola capa.
+      - "Reparte cucharaditas de frijoles, la carne, los quesos y los jalapeños."
+      - "Hornea 8-10 minutos, hasta que el queso se funda."
+      - "Sirve enseguida con pico de gallo, guacamole y nata agria."
+
+  - name: Chile con queso
+    health: [RED, "Salsa caliente de queso fundido con chile: muy grasa; para mojar con moderación."]
+    nutrition: [320, 15, 8, 25]
+    photo: fusion-texmex/chile-con-queso.jpg
+    category: Salsas
+    difficulty: EASY
+    prep: 10
+    cook: 15
+    servings: 6
+    tags: [salsa, queso, vegetariano]
+    ingredients:
+      - items:
+          - [queso cheddar rallado, 250, g]
+          - [queso fundido en lonchas (tipo americano), 150, g]
+          - [leche evaporada, 200, ml]
+          - [maicena, 1, cucharada]
+          - [mantequilla, 1, cucharada]
+          - [cebolla, 0.5, null]
+          - [chiles verdes asados o jalapeños, 2, null]
+          - [tomate, 1, null]
+          - [comino molido, 0.5, cucharadita]
+          - [totopos para servir, null, null]
+    steps:
+      - Mezcla el cheddar con la maicena.
+      - Pocha la cebolla picada en la mantequilla 4 minutos. Añade los chiles y el tomate picados y el comino.
+      - "Añade la leche evaporada y, cuando esté caliente, los quesos poco a poco a fuego bajo, removiendo hasta que la salsa esté lisa."
+      - Sírvelo caliente con totopos.
+
+  - name: Enchiladas de queso con chili gravy
+    health: [RED, "Tortillas rellenas de queso con salsa de chile y más queso: muy calóricas y grasas."]
+    nutrition: [640, 26, 46, 40]
+    photo: fusion-texmex/enchiladas-de-queso-con-chili-gravy.jpg
+    category: Panes y masas
+    difficulty: MEDIUM
+    prep: 20
+    cook: 30
+    servings: 4
+    notes: "El chili gravy es una salsa espesa de roux con chile en polvo y comino, típica de los cafés tejanos."
+    tags: [queso, al horno, vegetariano]
+    utensils: [Horno]
+    ingredients:
+      - group: Chili gravy
+        items:
+          - [manteca o aceite, 3, cucharada]
+          - [harina, 3, cucharada]
+          - [chile en polvo, 2, cucharada]
+          - [comino molido, 1, cucharadita]
+          - [ajo en polvo, 1, cucharadita]
+          - [orégano seco, 1, cucharadita]
+          - [caldo de pollo, 500, ml]
+          - [sal, null, null]
+      - group: Enchiladas
+        items:
+          - [tortillas de maíz, 12, null]
+          - [queso cheddar rallado, 350, g]
+          - [cebolla, 1, null]
+          - [aceite para las tortillas, 3, cucharada]
+    steps:
+      - "Calienta la manteca, añade la harina y cocina 2 minutos. Agrega las especias y luego el caldo poco a poco, batiendo. Cuece 10 minutos hasta que espese y sala."
+      - Precalienta el horno a 200 °C. Pasa las tortillas unos segundos por aceite caliente para ablandarlas.
+      - "Rellena cada tortilla con queso y cebolla picada, enróllala y colócala en una fuente."
+      - "Cubre con el chili gravy y el resto del queso y hornea 15 minutos, hasta que burbujee."
+
+  - name: Tacos crujientes de carne
+    health: [YELLOW, "Tacos de tortilla frita con carne y verdura: completos, con bastante grasa y queso."]
+    nutrition: [540, 28, 34, 32]
+    photo: fusion-texmex/tacos-crujientes-de-carne.jpg
+    category: Carnes
+    difficulty: EASY
+    prep: 15
+    cook: 20
+    servings: 4
+    tags: [tacos, ternera]
+    ingredients:
+      - items:
+          - [tortillas de maíz, 12, null]
+          - [aceite para freír, 250, ml]
+          - [carne picada de ternera, 500, g]
+          - [cebolla, 1, null]
+          - [ajo, 2, diente]
+          - [chile en polvo, 1, cucharada]
+          - [comino molido, 1, cucharadita]
+          - [pimentón, 1, cucharadita]
+          - [concentrado de tomate, 1, cucharada]
+          - [lechuga iceberg, 0.25, null]
+          - [tomate, 2, null]
+          - [queso cheddar rallado, 120, g]
+          - [salsa picante, null, null]
+          - [sal, null, null]
+    steps:
+      - "Dora la carne con la cebolla y el ajo picados. Añade las especias, el concentrado y 100 ml de agua, sala y cuece 8 minutos hasta que espese."
+      - "Fríe cada tortilla en el aceite caliente unos segundos por lado y dóblala con unas pinzas en forma de U, sujetándola hasta que se ponga crujiente. Escúrrelas."
+      - "Rellena las tortillas con la carne y cubre con lechuga en tiras, tomate en dados y queso."
+      - Sírvelos enseguida con salsa picante.
+
+  - name: Tacos de desayuno
+    health: [YELLOW, "Tortillas con huevo, patata y beicon: buena proteína, con grasa del beicon y el queso."]
+    nutrition: [470, 22, 36, 26]
+    photo: fusion-texmex/tacos-de-desayuno.jpg
+    category: Huevos
+    difficulty: EASY
+    prep: 10
+    cook: 20
+    servings: 4
+    origin: San Antonio
+    notes: En Austin y San Antonio se discute quién los hace mejor; se desayunan en todas partes con tortillas de harina.
+    tags: [huevos, desayuno]
+    ingredients:
+      - items:
+          - [tortillas de harina, 8, null]
+          - [huevos, 6, null]
+          - [patatas, 2, null]
+          - [beicon, 6, loncha]
+          - [cebolla, 0.5, null]
+          - [queso cheddar rallado, 80, g]
+          - [salsa roja o verde, null, null]
+          - [sal y pimienta negra, null, null]
+    steps:
+      - "Dora el beicon en una sartén, sácalo y córtalo en trozos."
+      - "En la grasa del beicon, fríe las patatas en dados pequeños con la cebolla picada 12-15 minutos, hasta que estén doradas. Salpimienta."
+      - Añade los huevos batidos y revuélvelos a fuego bajo hasta que cuajen jugosos. Incorpora el beicon.
+      - "Calienta las tortillas, rellénalas con los huevos y el queso y sírvelas con salsa."
+
+  - name: Pollo King Ranch
+    health: [RED, "Gratinado de pollo, tortillas, salsa cremosa y queso: muy calórico."]
+    nutrition: [610, 40, 34, 35]
+    photo: fusion-texmex/pollo-king-ranch.jpg
+    category: Carnes
+    difficulty: EASY
+    prep: 25
+    cook: 40
+    servings: 6
+    notes: Es un clásico de las comidas familiares de Texas; lleva el nombre del famoso rancho tejano.
+    tags: [pollo, al horno, queso]
+    utensils: [Horno]
+    ingredients:
+      - items:
+          - [pollo cocido desmenuzado, 600, g]
+          - [tortillas de maíz, 12, null]
+          - [mantequilla, 40, g]
+          - [cebolla, 1, null]
+          - [pimiento verde, 1, null]
+          - [harina, 3, cucharada]
+          - [caldo de pollo, 400, ml]
+          - [nata agria, 200, g]
+          - [tomate triturado con chiles verdes, 400, g]
+          - [chile en polvo, 2, cucharadita]
+          - [comino molido, 1, cucharadita]
+          - [queso cheddar rallado, 250, g]
+          - [sal, null, null]
+    steps:
+      - Pocha la cebolla y el pimiento picados en la mantequilla 8 minutos. Añade la harina y cocina 1 minuto.
+      - "Incorpora el caldo batiendo, luego la nata agria, el tomate y las especias, y cuece 5 minutos. Mézclalo con el pollo y sala."
+      - "Precalienta el horno a 180 °C. En una fuente, alterna capas de tortillas en trozos, la mezcla de pollo y queso, tres veces."
+      - "Hornea 30 minutos, hasta que burbujee y esté dorado. Deja reposar 10 minutos antes de servir."
+
+  - name: Frito pie
+    health: [RED, "Chips de maíz con chili de carne y queso: muy calórico y salado."]
+    nutrition: [700, 32, 48, 42]
+    photo: fusion-texmex/frito-pie.jpg
+    category: Carnes
+    difficulty: EASY
+    prep: 15
+    cook: 45
+    servings: 4
+    notes: En los partidos de fútbol americano de Texas se sirve dentro de la propia bolsa de chips.
+    tags: [carne, picante]
+    ingredients:
+      - items:
+          - [chips de maíz tipo Fritos, 200, g]
+          - [carne picada de ternera, 500, g]
+          - [cebolla, 1, null]
+          - [ajo, 2, diente]
+          - [chile en polvo, 2, cucharada]
+          - [comino molido, 2, cucharadita]
+          - [orégano seco, 1, cucharadita]
+          - [tomate triturado, 400, g]
+          - [caldo de carne, 250, ml]
+          - [harina de maíz (masa harina), 1, cucharada]
+          - [queso cheddar rallado, 150, g]
+          - [cebolla picada y jalapeños para servir, null, null]
+          - [sal, null, null]
+    steps:
+      - Dora la carne con la cebolla y el ajo picados. Añade las especias y cocina 1 minuto.
+      - "Agrega el tomate y el caldo, sala y cuece 30 minutos a fuego suave."
+      - Espesa con la harina de maíz disuelta en un poco de agua y cuece 5 minutos más.
+      - "Reparte los chips en cuencos, cubre con el chili caliente, el queso, cebolla picada y jalapeños."
+
+  - name: Sopaipillas
+    health: [RED, "Masa frita e inflada con miel: un dulce frito y azucarado."]
+    nutrition: [280, 5, 40, 11]
+    photo: fusion-texmex/sopaipillas.jpg
+    category: Postres
+    difficulty: MEDIUM
+    prep: 20
+    cook: 15
+    servings: 6
+    notes: En los restaurantes Tex-Mex se sirven al final con miel o con canela y azúcar.
+    tags: [postre, frito]
+    ingredients:
+      - items:
+          - [harina de trigo, 300, g]
+          - [levadura química, 2, cucharadita]
+          - [sal, 1, cucharadita]
+          - [manteca o mantequilla, 30, g]
+          - [agua templada, 180, ml]
+          - [aceite de girasol para freír, 1, l]
+          - [miel, 6, cucharada]
+          - [azúcar y canela (opcional), null, null]
+    steps:
+      - "Mezcla la harina, la levadura y la sal, añade la manteca frotando con los dedos y luego el agua. Amasa 2 minutos y deja reposar 15 minutos tapada."
+      - Estira la masa a 3 mm y córtala en triángulos o cuadrados de 8 cm.
+      - "Fríelos en aceite a 190 °C, rociándolos con aceite por encima para que se inflen, 1 minuto por lado."
+      - Escúrrelos y sírvelos calientes con miel o espolvoreados con azúcar y canela.

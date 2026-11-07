@@ -1,0 +1,283 @@
+id: italian-american-fusion
+version: 1
+updated: 2026-11-07
+language: en
+name: "Fusion cuisine: Italian-American"
+series: Fusion cuisine
+description: >-
+  The cooking of Italian immigrants in New York, New Jersey and San Francisco, more generous with
+  meat, cheese and sauce than Italy's: spaghetti and meatballs, chicken parmesan, penne alla vodka,
+  fettuccine Alfredo, baked ziti, shrimp scampi, cioppino and Italian wedding soup.
+author: Miga
+authorGithub: calamares00
+cover:
+  emoji: "🍝"
+  kicker: Fusion cuisine
+  title: Italian-American
+  colors: ["#166534", "#dc2626"]
+defaults:
+  origin: United States
+  originCountry: US
+  source: "Miga «Fusion cuisine: Italian-American» pack"
+recipes:
+
+  - name: Spaghetti and meatballs
+    health: [YELLOW, "Pasta with meatballs in tomato sauce: complete and filling, with plenty of calories."]
+    nutrition: [720, 38, 82, 26]
+    photo: fusion-italoestadounidense/espaguetis-con-albondigas.jpg
+    category: Pasta
+    difficulty: MEDIUM
+    prep: 30
+    cook: 45
+    servings: 4
+    origin: New York
+    tags: [pasta, meat]
+    ingredients:
+      - group: Meatballs
+        items:
+          - [minced beef, 300, g]
+          - [minced pork, 200, g]
+          - [breadcrumbs, 50, g]
+          - [milk, 60, ml]
+          - [egg, 1, null]
+          - [grated parmesan, 40, g]
+          - [garlic, 2, clove]
+          - [fresh parsley, 1, handful]
+          - [salt and black pepper, null, null]
+      - group: Sauce and pasta
+        items:
+          - [olive oil, 3, tbsp]
+          - [onion, 1, null]
+          - [garlic, 2, clove]
+          - [crushed tomatoes, 800, g]
+          - [dried oregano, 1, tsp]
+          - [fresh basil, 1, handful]
+          - [spaghetti, 400, g]
+    steps:
+      - "Soak the breadcrumbs in the milk and mix with the meats, egg, parmesan, chopped garlic and parsley, salt and pepper. Shape into 4 cm meatballs."
+      - Brown them in the oil on all sides and set aside.
+      - "In the same pan, soften the chopped onion for 8 minutes, add the garlic, tomatoes and oregano and season. Simmer for 10 minutes."
+      - Add the meatballs and simmer covered for 25 minutes.
+      - "Cook the spaghetti, toss with some of the sauce and serve with the meatballs, basil and more parmesan."
+
+  - name: Chicken parmesan
+    health: [RED, "Breaded fried chicken baked with cheese: high in protein, but fried and cheesy."]
+    nutrition: [640, 52, 30, 34]
+    photo: fusion-italoestadounidense/pollo-a-la-parmesana.jpg
+    category: Meat
+    difficulty: MEDIUM
+    prep: 20
+    cook: 30
+    servings: 4
+    notes: It is the American version of Italian aubergine parmigiana.
+    tags: [chicken, baked, fried]
+    utensils: [Oven]
+    ingredients:
+      - items:
+          - [chicken breasts, 2, null]
+          - [flour, 50, g]
+          - [eggs, 2, null]
+          - [breadcrumbs, 100, g]
+          - [grated parmesan, 60, g]
+          - [olive oil for frying, 150, ml]
+          - [marinara sauce, 400, ml]
+          - [mozzarella, 200, g]
+          - [fresh basil, 1, handful]
+          - [salt and black pepper, null, null]
+    steps:
+      - Butterfly the breasts into two thin fillets each and flatten them to 1 cm. Season.
+      - "Dip them in flour, beaten egg and breadcrumbs mixed with half the parmesan."
+      - "Fry them in the oil for 3 minutes per side, until golden. Preheat the oven to 220 °C."
+      - "Spread a little sauce in a baking dish, lay the chicken on top and cover with sauce, sliced mozzarella and the rest of the parmesan."
+      - "Bake for 12-15 minutes, until the cheese bubbles. Serve with basil and spaghetti."
+
+  - name: Penne alla vodka
+    health: [YELLOW, "Pasta in a creamy tomato sauce: tasty, but fairly high in fat from the cream."]
+    nutrition: [640, 18, 82, 24]
+    photo: fusion-italoestadounidense/penne-alla-vodka.jpg
+    category: Pasta
+    difficulty: EASY
+    prep: 10
+    cook: 25
+    servings: 4
+    notes: The alcohol in the vodka cooks off; what remains brings out the tomato flavour.
+    tags: [pasta, quick, vegetarian]
+    ingredients:
+      - items:
+          - [penne, 400, g]
+          - [butter, 30, g]
+          - [olive oil, 1, tbsp]
+          - [shallot, 1, null]
+          - [garlic, 2, clove]
+          - [tomato purée, 4, tbsp]
+          - [vodka, 60, ml]
+          - [double cream, 200, ml]
+          - [chilli flakes, 0.5, tsp]
+          - [grated parmesan, 50, g]
+          - [fresh basil, 1, handful]
+          - [salt, null, null]
+    steps:
+      - Put the pasta on to cook in plenty of salted water.
+      - "Soften the chopped shallot and garlic in the butter and oil for 4 minutes. Add the tomato purée and chilli and cook for 3 minutes, until it darkens."
+      - Add the vodka and let it evaporate for 1 minute. Stir in the cream and simmer for 2 minutes.
+      - "Drain the pasta al dente, toss with the sauce, the parmesan and a little cooking water. Serve with basil."
+
+  - name: Fettuccine Alfredo
+    health: [RED, "Pasta with butter, cream and parmesan: very high in calories and saturated fat."]
+    nutrition: [780, 22, 80, 42]
+    photo: fusion-italoestadounidense/fettuccine-alfredo.jpg
+    category: Pasta
+    difficulty: EASY
+    prep: 5
+    cook: 15
+    servings: 4
+    notes: "In Rome, Alfredo di Lelio made it with just butter and parmesan; the cream was added in the US."
+    tags: [pasta, quick, vegetarian]
+    ingredients:
+      - items:
+          - [fettuccine, 400, g]
+          - [butter, 60, g]
+          - [double cream, 250, ml]
+          - [grated parmesan, 100, g]
+          - [garlic, 1, clove]
+          - [nutmeg, 1, pinch]
+          - [fresh parsley, 1, handful]
+          - [salt and black pepper, null, null]
+    steps:
+      - Cook the pasta in plenty of salted water.
+      - "Melt the butter with the crushed garlic, add the cream and simmer for 4 minutes. Remove the garlic."
+      - "Off the heat, add the parmesan little by little, stirring, and season with nutmeg, salt and pepper."
+      - Toss the drained pasta in the sauce with a little cooking water until creamy. Serve with parsley.
+
+  - name: Baked ziti
+    health: [RED, "Pasta baked with meat sauce, ricotta and mozzarella: very high in calories."]
+    nutrition: [760, 40, 78, 31]
+    photo: fusion-italoestadounidense/ziti-al-horno.jpg
+    category: Pasta
+    difficulty: EASY
+    prep: 20
+    cook: 45
+    servings: 6
+    tags: [pasta, baked, meat]
+    utensils: [Oven]
+    ingredients:
+      - items:
+          - [ziti or penne, 500, g]
+          - [minced beef or Italian sausage, 400, g]
+          - [onion, 1, null]
+          - [garlic, 3, clove]
+          - [crushed tomatoes, 800, g]
+          - [dried oregano, 1, tsp]
+          - [ricotta, 400, g]
+          - [egg, 1, null]
+          - [mozzarella, 250, g]
+          - [grated parmesan, 60, g]
+          - [olive oil, 2, tbsp]
+          - [salt and black pepper, null, null]
+    steps:
+      - "Brown the meat with the chopped onion in the oil. Add the garlic, tomatoes and oregano, season and simmer for 15 minutes."
+      - Preheat the oven to 190 °C. Cook the pasta 2 minutes less than the packet says.
+      - "Mix the ricotta with the egg, half the parmesan and pepper."
+      - "In a baking dish, layer pasta mixed with sauce, spoonfuls of ricotta and mozzarella, finishing with sauce, mozzarella and parmesan."
+      - "Bake for 25 minutes, until golden and bubbling."
+
+  - name: Shrimp scampi
+    health: [YELLOW, "Prawns with garlic, wine and butter: lean protein, with fat from the butter."]
+    nutrition: [560, 32, 64, 18]
+    photo: fusion-italoestadounidense/gambas-scampi.jpg
+    category: Fish and seafood
+    difficulty: EASY
+    prep: 10
+    cook: 15
+    servings: 4
+    notes: In Italy scampi are langoustines; in the US the name came to mean this way of cooking prawns.
+    tags: [prawns, pasta, quick]
+    ingredients:
+      - items:
+          - [large peeled prawns, 500, g]
+          - [linguine, 350, g]
+          - [butter, 50, g]
+          - [olive oil, 2, tbsp]
+          - [garlic, 5, clove]
+          - [chilli flakes, 0.5, tsp]
+          - [white wine, 120, ml]
+          - [lemon juice, 2, tbsp]
+          - [fresh parsley, 1, handful]
+          - [salt and black pepper, null, null]
+    steps:
+      - Cook the pasta in plenty of salted water.
+      - "Heat the oil and half the butter, sauté the seasoned prawns for 1 minute per side and remove them."
+      - "Add the sliced garlic and chilli, then the wine and lemon juice. Reduce by half and stir in the rest of the butter."
+      - "Return the prawns, add the drained pasta and parsley and toss with a little cooking water."
+
+  - name: Cioppino
+    health: [GREEN, "Fish and seafood stew in a tomato and wine broth: high in protein and low in fat."]
+    nutrition: [380, 44, 16, 13]
+    photo: fusion-italoestadounidense/cioppino.jpg
+    category: Fish and seafood
+    difficulty: MEDIUM
+    prep: 25
+    cook: 40
+    servings: 6
+    origin: San Francisco
+    notes: Genoese fishermen in the North Beach neighbourhood created it with whatever was left from the day's catch.
+    tags: [fish, seafood, stew]
+    ingredients:
+      - items:
+          - [firm white fish fillets (monkfish or hake), 500, g]
+          - [prawns, 300, g]
+          - [mussels, 500, g]
+          - [clams, 300, g]
+          - [olive oil, 4, tbsp]
+          - [onion, 1, null]
+          - [fennel bulb, 1, null]
+          - [garlic, 4, clove]
+          - [chilli flakes, 0.5, tsp]
+          - [tomato purée, 2, tbsp]
+          - [white wine, 250, ml]
+          - [crushed tomatoes, 400, g]
+          - [fish stock, 750, ml]
+          - [bay leaf, 1, null]
+          - [fresh parsley, 1, handful]
+          - [sourdough bread to serve, null, null]
+    steps:
+      - "Soften the chopped onion and fennel in the oil for 8 minutes. Add the garlic, chilli and tomato purée and cook for 2 minutes."
+      - "Add the wine and let it reduce by half. Add the tomatoes, stock and bay leaf and simmer for 20 minutes."
+      - "Add the clams and mussels, cover and cook for 3 minutes. Add the fish in chunks and the prawns and cook for 4-5 more minutes."
+      - Discard any shellfish that haven't opened and serve with parsley and toasted bread.
+
+  - name: Italian wedding soup
+    health: [GREEN, "Broth with little meatballs, leafy greens and small pasta: complete and light."]
+    nutrition: [380, 26, 30, 17]
+    photo: fusion-italoestadounidense/sopa-de-boda-italiana.jpg
+    category: Soups
+    difficulty: EASY
+    prep: 25
+    cook: 25
+    servings: 6
+    notes: "The name comes from Neapolitan minestra maritata, where the meat and greens are 'married'; it is not a wedding soup."
+    tags: [soup, meat]
+    ingredients:
+      - group: Little meatballs
+        items:
+          - [mixed minced meat, 400, g]
+          - [breadcrumbs, 30, g]
+          - [egg, 1, null]
+          - [grated parmesan, 40, g]
+          - [fresh parsley, 1, handful]
+          - [salt and black pepper, null, null]
+      - group: Soup
+        items:
+          - [olive oil, 2, tbsp]
+          - [onion, 1, null]
+          - [carrots, 2, null]
+          - [celery, 2, stalk]
+          - [chicken stock, 2, l]
+          - [small pasta (acini di pepe or orzo), 120, g]
+          - [escarole or spinach, 200, g]
+          - [parmesan to serve, null, null]
+    steps:
+      - Mix the meatball ingredients and roll into 2 cm balls.
+      - "Soften the chopped onion, carrot and celery in the oil for 8 minutes. Add the stock and bring to the boil."
+      - Add the meatballs and the pasta and simmer for 10 minutes.
+      - "Add the chopped greens, cook for 2 minutes and serve with grated parmesan."

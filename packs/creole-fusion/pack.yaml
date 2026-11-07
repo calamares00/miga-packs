@@ -1,0 +1,300 @@
+id: creole-fusion
+version: 1
+updated: 2026-11-07
+language: en
+name: "Fusion cuisine: Creole"
+series: Fusion cuisine
+description: >-
+  The Creole cooking of New Orleans, where France, Spain, West Africa and the Caribbean met: shrimp
+  Creole, red beans and rice, crawfish étouffée, grillades and grits, dirty rice, muffuletta,
+  beignets and bread pudding with whiskey sauce.
+author: Miga
+authorGithub: calamares00
+cover:
+  emoji: "🦐"
+  kicker: Fusion cuisine
+  title: Creole
+  colors: ["#4c1d95", "#ca8a04"]
+defaults:
+  origin: New Orleans
+  originCountry: US
+  source: "Miga «Fusion cuisine: Creole» pack"
+recipes:
+
+  - name: Shrimp Creole
+    health: [GREEN, "Prawns in a tomato sauce with the 'holy trinity' of onion, celery and pepper: light, with lean protein."]
+    nutrition: [380, 30, 44, 9]
+    photo: fusion-criolla/gambas-a-la-criolla.jpg
+    category: Fish and seafood
+    difficulty: EASY
+    prep: 15
+    cook: 35
+    servings: 4
+    tags: [prawns, spicy]
+    ingredients:
+      - items:
+          - [peeled prawns, 600, g]
+          - [butter or oil, 2, tbsp]
+          - [onion, 1, null]
+          - [celery, 2, stalk]
+          - [green pepper, 1, null]
+          - [garlic, 3, clove]
+          - [crushed tomatoes, 400, g]
+          - [seafood or chicken stock, 200, ml]
+          - [bay leaf, 2, null]
+          - [dried thyme, 1, tsp]
+          - [cayenne pepper, 0.5, tsp]
+          - [Worcestershire sauce, 1, tsp]
+          - [Tabasco-style hot sauce, 1, tsp]
+          - [spring onion, 2, null]
+          - [cooked white rice, 600, g]
+          - [salt, null, null]
+    steps:
+      - "Soften the chopped onion, celery and pepper in the butter for 10 minutes. Add the garlic."
+      - "Add the tomatoes, stock, bay leaves, thyme, cayenne and Worcestershire, season and simmer for 20 minutes."
+      - "Add the prawns and cook for 3-4 minutes, until pink. Adjust the heat with the hot sauce."
+      - Serve over white rice with chopped spring onion.
+
+  - name: Red beans and rice
+    health: [GREEN, "Stewed red beans with rice: high in fibre and plant protein; the sausage adds fat."]
+    nutrition: [560, 26, 78, 16]
+    photo: fusion-criolla/alubias-rojas-con-arroz.jpg
+    category: Legumes
+    difficulty: EASY
+    prep: 15
+    cook: 150
+    servings: 6
+    notes: "It was traditionally cooked on Mondays, washing day, with the ham bone from Sunday."
+    tags: [pulses, rice]
+    ingredients:
+      - items:
+          - [dried red kidney beans, 500, g]
+          - [smoked sausage (andouille or similar), 300, g]
+          - [ham bone or smoked ham hock, 1, null]
+          - [onion, 1, null]
+          - [celery, 2, stalk]
+          - [green pepper, 1, null]
+          - [garlic, 4, clove]
+          - [bay leaves, 2, null]
+          - [dried thyme, 1, tsp]
+          - [cayenne pepper, 0.5, tsp]
+          - [oil, 2, tbsp]
+          - [cooked white rice, 900, g]
+          - [salt and black pepper, null, null]
+    steps:
+      - Soak the beans overnight and drain them.
+      - "Brown the sliced sausage in the oil and set aside. In the same fat, soften the chopped onion, celery, pepper and garlic for 10 minutes."
+      - "Add the beans, ham bone, bay leaves, thyme, cayenne and water to cover by 5 cm. Simmer for 2 hours, until very tender."
+      - "Mash some of the beans against the pot so it turns creamy, return the sausage and cook for 15 minutes. Season."
+      - Serve over white rice.
+
+  - name: Crawfish étouffée
+    health: [YELLOW, "Shellfish in a butter roux sauce: good protein, but a fatty sauce."]
+    nutrition: [460, 28, 46, 18]
+    photo: fusion-criolla/etouffee-de-cangrejo-de-rio.jpg
+    category: Fish and seafood
+    difficulty: MEDIUM
+    prep: 15
+    cook: 35
+    servings: 4
+    notes: "Étouffée means 'smothered' in French. If you can't find crawfish tails, use prawns."
+    tags: [seafood, stew]
+    ingredients:
+      - items:
+          - [peeled crawfish tails or prawns, 500, g]
+          - [butter, 60, g]
+          - [flour, 3, tbsp]
+          - [onion, 1, null]
+          - [celery, 2, stalk]
+          - [green pepper, 1, null]
+          - [garlic, 3, clove]
+          - [seafood stock, 400, ml]
+          - [Cajun or Creole seasoning, 2, tsp]
+          - [bay leaf, 1, null]
+          - [spring onion, 3, null]
+          - [fresh parsley, 1, handful]
+          - [cooked white rice, 600, g]
+          - [salt, null, null]
+    steps:
+      - "Melt the butter, add the flour and cook, stirring, for 8-10 minutes, until the roux is caramel-coloured."
+      - "Add the chopped onion, celery and pepper and cook for 8 minutes. Add the garlic."
+      - "Stir in the stock little by little, the seasoning and bay leaf, and simmer for 15 minutes until thick."
+      - Add the shellfish and cook for 4-5 minutes. Finish with spring onion and parsley and serve over rice.
+
+  - name: Grillades and grits
+    health: [YELLOW, "Beef cutlets in gravy with creamy grits: complete but hearty."]
+    nutrition: [620, 38, 50, 28]
+    photo: fusion-criolla/grillades-con-semola-de-maiz.jpg
+    category: Meat
+    difficulty: MEDIUM
+    prep: 20
+    cook: 75
+    servings: 4
+    notes: It is a New Orleans brunch classic.
+    tags: [beef, stew, brunch]
+    ingredients:
+      - group: Grillades
+        items:
+          - [thin beef cutlets (topside or round), 700, g]
+          - [flour, 3, tbsp]
+          - [oil, 3, tbsp]
+          - [onion, 1, null]
+          - [celery, 1, stalk]
+          - [green pepper, 1, null]
+          - [garlic, 3, clove]
+          - [crushed tomatoes, 400, g]
+          - [beef stock, 300, ml]
+          - [Creole seasoning, 2, tsp]
+          - [salt and black pepper, null, null]
+      - group: Grits
+        items:
+          - [grits or polenta, 200, g]
+          - [milk, 500, ml]
+          - [water, 500, ml]
+          - [butter, 40, g]
+          - [grated cheddar (optional), 60, g]
+          - [salt, 1, tsp]
+    steps:
+      - "Cut the beef into medium pieces, season with the Creole seasoning and dust with flour. Brown in the oil and set aside."
+      - "In the same pan, soften the chopped onion, celery, pepper and garlic for 8 minutes. Add the tomatoes and stock."
+      - "Return the beef, cover and simmer for 1 hour, until tender."
+      - "For the grits, boil the milk with the water and salt, whisk in the grits and cook for 20-25 minutes over low heat, stirring. Finish with the butter and cheese."
+      - Serve the creamy grits topped with the grillades and their gravy.
+
+  - name: Dirty rice
+    health: [YELLOW, "Rice with minced meat and chicken livers: rich in iron and protein, with some fat."]
+    nutrition: [470, 24, 52, 17]
+    photo: fusion-criolla/arroz-sucio.jpg
+    category: Rice
+    difficulty: EASY
+    prep: 15
+    cook: 35
+    servings: 4
+    notes: Its 'dirty' colour comes from the chopped chicken livers.
+    tags: [rice, meat]
+    ingredients:
+      - items:
+          - [long-grain rice, 250, g]
+          - [chicken stock, 600, ml]
+          - [minced pork, 250, g]
+          - [chicken livers, 150, g]
+          - [onion, 1, null]
+          - [celery, 1, stalk]
+          - [green pepper, 1, null]
+          - [garlic, 2, clove]
+          - [Creole seasoning, 2, tsp]
+          - [oil, 1, tbsp]
+          - [spring onion, 2, null]
+          - [salt, null, null]
+    steps:
+      - Cook the rice in 500 ml of the stock until done.
+      - Brown the minced pork in the oil. Add the very finely chopped livers and cook for 3 minutes.
+      - "Add the chopped onion, celery, pepper and garlic and the seasoning, and cook for 8 minutes. Add the rest of the stock and let it reduce."
+      - "Mix with the rice, season and serve with spring onion."
+
+  - name: Muffuletta
+    health: [RED, "Sandwich of Italian cured meats, cheese and olive salad: very high in calories and salt."]
+    nutrition: [780, 36, 56, 46]
+    photo: fusion-criolla/muffuletta.jpg
+    category: Breads and doughs
+    difficulty: EASY
+    prep: 25
+    cook: 0
+    servings: 6
+    origin: New Orleans
+    notes: Sicilian immigrants at Central Grocery invented it in 1906. It is better after resting pressed for 1 hour.
+    tags: [sandwich, cold]
+    ingredients:
+      - group: Olive salad
+        items:
+          - [pitted green olives, 150, g]
+          - [pitted black olives, 80, g]
+          - [pickled vegetables (giardiniera), 150, g]
+          - [roasted pepper, 1, null]
+          - [capers, 1, tbsp]
+          - [garlic, 1, clove]
+          - [dried oregano, 1, tsp]
+          - [olive oil, 5, tbsp]
+          - [red wine vinegar, 1, tbsp]
+      - group: Sandwich
+        items:
+          - [round sesame loaf (about 25 cm), 1, null]
+          - [salami, 120, g]
+          - [mortadella, 120, g]
+          - [cooked ham or capicola, 120, g]
+          - [sliced provolone, 120, g]
+          - [sliced mozzarella, 100, g]
+    steps:
+      - "Chop the olives, giardiniera, pepper, capers and garlic and mix with the oregano, oil and vinegar. Leave for at least 1 hour."
+      - Cut the loaf in half horizontally and remove a little of the crumb.
+      - Spread both halves with the olive salad and its oil.
+      - "Layer the cured meats and cheeses on the base, close with the top and wrap in cling film."
+      - Put a weight on top for 1 hour and cut into 6 wedges.
+
+  - name: Beignets
+    health: [RED, "Fried doughnuts covered in icing sugar: a fried, sugary treat."]
+    nutrition: [310, 6, 44, 12]
+    photo: fusion-criolla/beignets.jpg
+    category: Desserts
+    difficulty: MEDIUM
+    prep: 30
+    cook: 20
+    servings: 8
+    origin: New Orleans
+    notes: "They are eaten with chicory coffee, as at Café du Monde in the French Quarter. The dough needs about 2 hours to rise."
+    tags: [dessert, fried, breakfast]
+    ingredients:
+      - items:
+          - [plain flour, 450, g]
+          - [dried yeast, 7, g]
+          - [warm water, 180, ml]
+          - [evaporated milk, 120, ml]
+          - [egg, 1, null]
+          - [sugar, 50, g]
+          - [melted butter, 30, g]
+          - [salt, 1, tsp]
+          - [sunflower oil for frying, 1, l]
+          - [icing sugar, 100, g]
+    steps:
+      - Dissolve the yeast in the water with a tablespoon of the sugar and leave for 10 minutes.
+      - "Mix with the milk, egg, remaining sugar, butter, salt and flour, and knead into a soft dough. Leave to double in size, about 2 hours."
+      - Roll the dough out to 5 mm and cut into 6 cm squares.
+      - "Fry them in oil at 180 °C for 1-2 minutes per side, until puffed and golden."
+      - Drain them and cover with lots of icing sugar. Serve hot.
+
+  - name: Bread pudding with whiskey sauce
+    health: [RED, "Bread pudding with egg, milk and sugar and a butter sauce: very sweet and high in calories."]
+    nutrition: [520, 11, 66, 22]
+    photo: fusion-criolla/pudin-de-pan-con-salsa-de-whisky.jpg
+    category: Desserts
+    difficulty: EASY
+    prep: 20
+    cook: 50
+    servings: 8
+    notes: It is the Creole way of using up the previous day's French bread.
+    tags: [dessert, baked]
+    utensils: [Oven]
+    ingredients:
+      - group: Pudding
+        items:
+          - [day-old French bread, 400, g]
+          - [whole milk, 750, ml]
+          - [eggs, 4, null]
+          - [sugar, 150, g]
+          - [raisins, 80, g]
+          - [melted butter, 40, g]
+          - [vanilla extract, 1, tsp]
+          - [ground cinnamon, 1, tsp]
+          - [nutmeg, 1, pinch]
+      - group: Whiskey sauce
+        items:
+          - [butter, 80, g]
+          - [sugar, 100, g]
+          - [egg, 1, null]
+          - [bourbon, 50, ml]
+    steps:
+      - Cut the bread into cubes and soak in the milk for 20 minutes.
+      - "Preheat the oven to 175 °C. Beat the eggs with the sugar, vanilla and spices and mix with the bread and raisins."
+      - "Transfer to a dish greased with the melted butter and bake for 45-50 minutes, until set and golden."
+      - "For the sauce, melt the butter with the sugar over low heat. Off the heat, whisk in the beaten egg quickly, then the bourbon."
+      - Serve the pudding warm with the hot sauce poured over.

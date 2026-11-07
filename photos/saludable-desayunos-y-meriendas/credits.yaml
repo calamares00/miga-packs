@@ -1,0 +1,53 @@
+# Origin of every photo in this folder: source page, author and licence (CC0 1.0, Public domain,
+# CC BY x.y or CC BY-SA x.y). tools/build.py refuses a recipe photo without an entry here.
+
+porridge-de-avena-con-manzana-y-canela.jpg:
+  source: https://commons.wikimedia.org/wiki/File:Apple_cinnamon_oatmeal_5.jpg
+  author: "Shisma"
+  license: CC BY 4.0
+
+avena-remojada-con-frutos-rojos.jpg:
+  source: https://commons.wikimedia.org/wiki/File:Child_Care_Recipes_(Team_Nutiriton)_(20230123-FNS-UNK-018).jpg
+  author: "USDAgov"
+  license: Public domain
+
+granola-casera.jpg:
+  source: https://commons.wikimedia.org/wiki/File:Homemade_granola_(12272245254).jpg
+  author: "Karen and Brad Emerson"
+  license: CC BY 2.0
+
+pudin-de-chia-con-frutos-rojos.jpg:
+  source: https://commons.wikimedia.org/wiki/File:Chia_seed_pudding_in_a_tea_cup.jpg
+  author: "Miscellaneous contributor"
+  license: CC0 1.0
+
+tortitas-de-avena-y-platano.jpg:
+  source: https://commons.wikimedia.org/wiki/File:Oatmeal_pancake_with_fruit.jpg
+  author: "Drhnn"
+  license: CC BY 4.0
+
+muffins-de-platano-y-avena.jpg:
+  source: https://www.flickr.com/photos/65186679@N07/7494967506
+  author: "elizaraxi"
+  license: CC BY 2.0
+
+barritas-de-avena-y-datiles.jpg:
+  source: https://commons.wikimedia.org/wiki/File:Healthy_oat_and_fruit_nut_snack_bars_on_a_white_plate_next_to_a_personalized_baking_dish_with_dates_nuts_and_seeds_on_a_wood_table_(16087466367).jpg
+  author: "Personal Creations"
+  license: CC BY 2.0
+
+batido-verde.jpg:
+  source: https://commons.wikimedia.org/wiki/File:Tropical_Smoothie_Cafe_-_Island_Green_smoothie,_June_2018.jpg
+  author: "Thomson200"
+  license: CC0 1.0
+
+revuelto-de-espinacas-y-tomate.jpg:
+  source: https://commons.wikimedia.org/wiki/File:Liat_Portal_for_Foodie_Disorder_-_Scrambled_eggs_with_spinach_avocado_and_vegetables.jpg
+  author: "HaJunkiyada"
+  license: CC BY-SA 4.0
+
+tostada-integral-con-requeson-y-fresas.jpg:
+  source: https://commons.wikimedia.org/wiki/File:Strawberry_Bruschetta_toast_with_honey_ricotta_balsamic_vinegar_mint_and_basil_on_a_personalized_stainless_steel_engraved_tray_(16218993459).jpg
+  author: "Personal Creations"
+  license: CC BY 2.0
+

@@ -1,0 +1,308 @@
+id: saludable-sin-gluten
+version: 1
+updated: 2026-11-07
+language: es
+name: "Cocina saludable: sin gluten"
+series: Cocina saludable
+description: >-
+  Platos que no llevan trigo, cebada ni centeno, hechos con arroz, maíz, legumbres, trigo sarraceno
+  y frutos secos: socca de garbanzo, risotto de espárragos, salmón con costra de almendras, pizza
+  con base de coliflor, galettes de trigo sarraceno, polenta con setas, lasaña de calabacín,
+  albóndigas en salsa de almendras, dorada a la sal y bizcocho de chocolate sin harina. Revisa
+  siempre las etiquetas de caldos, salsas y especias.
+author: Miga
+authorGithub: calamares00
+cover:
+  emoji: "🌾"
+  kicker: Cocina saludable
+  title: Sin gluten
+  colors: ["#a16207", "#fde047"]
+defaults:
+  source: "Pack «Cocina saludable: sin gluten» de Miga"
+recipes:
+
+  - name: Socca de garbanzo
+    health: [GREEN, "Torta de harina de garbanzo y aceite de oliva: proteína vegetal y fibra, sin gluten."]
+    nutrition: [260, 10, 28, 12]
+    photo: saludable-sin-gluten/socca-de-garbanzo.jpg
+    category: Panes y masas
+    difficulty: EASY
+    prep: 5
+    cook: 15
+    servings: 4
+    origin: Niza
+    notes: La masa mejora si reposa 1 hora. En Liguria se llama farinata.
+    tags: [sin gluten, vegano, al horno]
+    utensils: [Horno]
+    ingredients:
+      - items:
+          - [harina de garbanzo, 200, g]
+          - [agua, 400, ml]
+          - [aceite de oliva virgen extra, 4, cucharada]
+          - [romero fresco, 1, ramita]
+          - [sal, 1, cucharadita]
+          - [pimienta negra, null, null]
+    steps:
+      - "Bate la harina con el agua, 2 cucharadas de aceite y la sal hasta que no queden grumos. Deja reposar al menos 30 minutos."
+      - Precalienta el horno a 240 °C con una bandeja o sartén de hierro dentro.
+      - "Unta el recipiente caliente con el resto del aceite, vierte la masa (1 cm de grosor como máximo) y esparce el romero."
+      - "Hornea 12-15 minutos, hasta que esté dorada y crujiente por los bordes. Sirve caliente con pimienta."
+
+  - name: Risotto de espárragos y guisantes
+    health: [YELLOW, "Arroz cremoso con verdura verde y un poco de parmesano: equilibrado, aunque con bastantes hidratos."]
+    nutrition: [470, 15, 70, 13]
+    photo: saludable-sin-gluten/risotto-de-esparragos-y-guisantes.jpg
+    category: Arroces
+    difficulty: MEDIUM
+    prep: 15
+    cook: 25
+    servings: 4
+    notes: Comprueba que el caldo es sin gluten.
+    tags: [sin gluten, vegetariano, arroz]
+    ingredients:
+      - items:
+          - [arroz arborio o carnaroli, 320, g]
+          - [espárragos verdes, 1, manojo]
+          - [guisantes, 150, g]
+          - [chalota, 1, null]
+          - [vino blanco, 100, ml]
+          - [caldo de verduras sin gluten caliente, 1.2, l]
+          - [queso parmesano rallado, 40, g]
+          - [aceite de oliva, 2, cucharada]
+          - [mantequilla, 15, g]
+          - [ralladura de limón, 1, cucharadita]
+          - [sal y pimienta negra, null, null]
+    steps:
+      - Corta las puntas de los espárragos y trocea los tallos tiernos.
+      - "Pocha la chalota picada en el aceite, añade el arroz y nácaralo 2 minutos. Riega con el vino."
+      - "Añade el caldo poco a poco, removiendo, durante 16-18 minutos. A los 10 minutos agrega los tallos de espárrago y a los 14 las puntas y los guisantes."
+      - "Fuera del fuego, añade la mantequilla, el parmesano y la ralladura, salpimienta y deja reposar 2 minutos."
+
+  - name: Salmón con costra de almendras
+    health: [GREEN, "Salmón con costra de frutos secos: omega-3, proteína y grasas saludables."]
+    nutrition: [420, 34, 4, 30]
+    photo: saludable-sin-gluten/salmon-con-costra-de-almendras.jpg
+    category: Pescados y mariscos
+    difficulty: EASY
+    prep: 10
+    cook: 15
+    servings: 4
+    tags: [pescado, sin gluten, al horno]
+    utensils: [Horno]
+    ingredients:
+      - items:
+          - [lomos de salmón, 4, null]
+          - [almendras molidas, 60, g]
+          - [perejil fresco, 1, puñado]
+          - [ralladura de limón, 1, cucharadita]
+          - [ajo, 1, diente]
+          - [mostaza de Dijon sin gluten, 1, cucharada]
+          - [aceite de oliva virgen extra, 1, cucharada]
+          - [sal y pimienta negra, null, null]
+    steps:
+      - "Precalienta el horno a 200 °C. Mezcla las almendras con el perejil y el ajo picados, la ralladura, el aceite, sal y pimienta."
+      - "Coloca el salmón en una bandeja, úntalo con la mostaza y cúbrelo con la mezcla, presionando."
+      - "Hornea 12-15 minutos, hasta que la costra esté dorada. Sirve con ensalada o verduras."
+
+  - name: Pizza con base de coliflor
+    health: [GREEN, "Base de coliflor y huevo en vez de harina: ligera y rica en verdura."]
+    nutrition: [280, 18, 12, 18]
+    photo: saludable-sin-gluten/pizza-con-base-de-coliflor.jpg
+    category: Verduras
+    difficulty: MEDIUM
+    prep: 25
+    cook: 30
+    servings: 2
+    notes: Escurrir muy bien la coliflor es lo que hace que la base quede firme.
+    tags: [sin gluten, vegetariano, pizza]
+    utensils: [Horno, Robot de cocina]
+    ingredients:
+      - items:
+          - [coliflor, 1, null]
+          - [huevo, 1, null]
+          - [queso parmesano rallado, 40, g]
+          - [orégano seco, 1, cucharadita]
+          - [salsa de tomate, 120, ml]
+          - [mozzarella, 125, g]
+          - [tomates cherry, 8, null]
+          - [albahaca fresca, 1, puñado]
+          - [sal, null, null]
+    steps:
+      - Precalienta el horno a 220 °C. Tritura la coliflor hasta que parezca arroz y cuécela en el microondas 5 minutos.
+      - "Déjala templar, ponla en un paño limpio y escúrrela apretando con fuerza hasta sacar toda el agua."
+      - "Mézclala con el huevo, el parmesano, el orégano y sal, y extiéndela sobre papel de horno en un círculo de 1 cm. Hornea 15 minutos."
+      - "Cubre con la salsa, la mozzarella y los tomates, y hornea 10 minutos más. Termina con albahaca."
+
+  - name: Galettes de trigo sarraceno
+    health: [GREEN, "Crepes de trigo sarraceno con huevo, jamón y queso: completas, con fibra."]
+    nutrition: [380, 22, 30, 19]
+    photo: saludable-sin-gluten/galettes-de-trigo-sarraceno.jpg
+    category: Panes y masas
+    difficulty: MEDIUM
+    prep: 10
+    cook: 20
+    servings: 4
+    origin: Bretaña
+    notes: "El trigo sarraceno no es trigo y no tiene gluten, pero compra harina etiquetada sin gluten para evitar trazas."
+    tags: [sin gluten, huevos]
+    ingredients:
+      - items:
+          - [harina de trigo sarraceno, 200, g]
+          - [agua, 450, ml]
+          - [huevo para la masa, 1, null]
+          - [sal, 0.5, cucharadita]
+          - [mantequilla, 20, g]
+          - [huevos, 4, null]
+          - [jamón cocido sin gluten, 4, loncha]
+          - [queso emmental rallado, 100, g]
+    steps:
+      - "Bate la harina con el agua, el huevo y la sal hasta obtener una masa fina. Déjala reposar 1 hora."
+      - Calienta una sartén grande untada con un poco de mantequilla y extiende un cucharón de masa en capa fina.
+      - "Cuando se despegue, pon en el centro queso, una loncha de jamón y casca un huevo."
+      - Dobla los bordes hacia dentro dejando la yema a la vista y cocina hasta que la clara cuaje. Repite con el resto.
+
+  - name: Polenta cremosa con setas
+    health: [GREEN, "Polenta de maíz con setas salteadas: reconfortante y sin gluten."]
+    nutrition: [380, 12, 50, 14]
+    photo: saludable-sin-gluten/polenta-cremosa-con-setas.jpg
+    category: Verduras
+    difficulty: EASY
+    prep: 10
+    cook: 25
+    servings: 4
+    tags: [sin gluten, vegetariano]
+    ingredients:
+      - items:
+          - [polenta (sémola de maíz), 200, g]
+          - [caldo de verduras sin gluten, 1, l]
+          - [setas variadas, 500, g]
+          - [ajo, 2, diente]
+          - [tomillo fresco, 3, ramita]
+          - [queso parmesano rallado, 40, g]
+          - [aceite de oliva virgen extra, 3, cucharada]
+          - [perejil fresco, 1, puñado]
+          - [sal y pimienta negra, null, null]
+    steps:
+      - "Lleva el caldo a ebullición, añade la polenta en lluvia batiendo y cuece a fuego bajo 15-20 minutos, removiendo a menudo. Añade el parmesano."
+      - "Saltea las setas troceadas en el aceite a fuego fuerte hasta que se doren. Añade el ajo laminado y el tomillo, y salpimienta."
+      - Sirve la polenta cremosa con las setas y perejil por encima.
+
+  - name: Lasaña de calabacín
+    health: [GREEN, "Lasaña con láminas de calabacín en vez de pasta: ligera, con verdura y proteína."]
+    nutrition: [380, 30, 14, 23]
+    photo: saludable-sin-gluten/lasana-de-calabacin.jpg
+    category: Carnes
+    difficulty: MEDIUM
+    prep: 30
+    cook: 40
+    servings: 6
+    notes: Sala las láminas y sécalas antes de montarla para que no quede aguada.
+    tags: [sin gluten, al horno]
+    utensils: [Horno]
+    ingredients:
+      - items:
+          - [calabacines grandes, 3, null]
+          - [carne picada de ternera magra, 500, g]
+          - [cebolla, 1, null]
+          - [zanahoria, 1, null]
+          - [ajo, 2, diente]
+          - [tomate triturado, 600, g]
+          - [ricotta, 250, g]
+          - [huevo, 1, null]
+          - [mozzarella rallada, 120, g]
+          - [orégano seco, 1, cucharadita]
+          - [aceite de oliva, 2, cucharada]
+          - [sal y pimienta negra, null, null]
+    steps:
+      - "Corta los calabacines a lo largo en láminas de 3 mm, sálalas 15 minutos, sécalas y ásalas a la plancha 1 minuto por lado."
+      - "Sofríe la cebolla, la zanahoria y el ajo picados, añade la carne y dórala. Agrega el tomate y el orégano y cuece 20 minutos."
+      - "Mezcla la ricotta con el huevo, sal y pimienta."
+      - "Alterna en una fuente capas de calabacín, carne y ricotta, terminando con carne y mozzarella. Hornea a 190 °C 30 minutos y deja reposar 10 minutos."
+
+  - name: Albóndigas de pollo en salsa de almendras
+    health: [GREEN, "Albóndigas de pollo con salsa espesada con almendra en lugar de harina."]
+    nutrition: [400, 34, 10, 25]
+    photo: saludable-sin-gluten/albondigas-de-pollo-en-salsa-de-almendras.jpg
+    category: Carnes
+    difficulty: MEDIUM
+    prep: 25
+    cook: 30
+    servings: 4
+    tags: [sin gluten, pollo]
+    utensils: [Batidora]
+    ingredients:
+      - group: Albóndigas
+        items:
+          - [carne picada de pollo, 600, g]
+          - [huevo, 1, null]
+          - [copos de quinoa o pan rallado sin gluten, 40, g]
+          - [ajo, 1, diente]
+          - [perejil fresco, 1, puñado]
+          - [sal y pimienta negra, null, null]
+      - group: Salsa
+        items:
+          - [almendras crudas, 50, g]
+          - [cebolla, 1, null]
+          - [ajo, 2, diente]
+          - [vino blanco, 100, ml]
+          - [caldo de pollo sin gluten, 400, ml]
+          - [hebras de azafrán, 1, pizca]
+          - [aceite de oliva, 3, cucharada]
+    steps:
+      - "Mezcla los ingredientes de las albóndigas, forma bolas de 3 cm y dóralas en el aceite. Resérvalas."
+      - En el mismo aceite dora las almendras y los ajos y sácalos. Pocha la cebolla picada 8 minutos.
+      - Tritura las almendras y los ajos con el azafrán y un poco de caldo.
+      - "Añade el vino a la cebolla, deja que reduzca, incorpora el majado, el resto del caldo y las albóndigas, y cuece 15 minutos."
+
+  - name: Dorada a la sal
+    health: [GREEN, "Pescado entero cocinado en su jugo bajo una costra de sal que no se come: muy ligero."]
+    nutrition: [260, 38, 0, 12]
+    photo: saludable-sin-gluten/dorada-a-la-sal.jpg
+    category: Pescados y mariscos
+    difficulty: EASY
+    prep: 10
+    cook: 25
+    servings: 4
+    notes: "El pescado no queda salado: la costra se retira entera y la piel lo protege."
+    tags: [pescado, sin gluten, al horno]
+    utensils: [Horno]
+    ingredients:
+      - items:
+          - ["doradas enteras limpias, con escamas", 2, null]
+          - [sal gruesa, 2, kg]
+          - [claras de huevo, 2, null]
+          - [limón, 1, null]
+          - [laurel, 2, hoja]
+          - [aceite de oliva virgen extra, 3, cucharada]
+    steps:
+      - Precalienta el horno a 220 °C. Mete en la tripa de cada dorada rodajas de limón y una hoja de laurel.
+      - Mezcla la sal con las claras y un poco de agua hasta que parezca arena mojada.
+      - "Pon una capa de sal en una bandeja, coloca las doradas y cúbrelas por completo con el resto, presionando."
+      - "Hornea 25 minutos. Rompe la costra en la mesa, retira la piel y sirve los lomos con aceite de oliva."
+
+  - name: Bizcocho de chocolate sin harina
+    health: [RED, "Tarta de chocolate, huevo y mantequilla: un capricho sin gluten, pero muy calórico."]
+    nutrition: [340, 6, 26, 24]
+    photo: saludable-sin-gluten/bizcocho-de-chocolate-sin-harina.jpg
+    category: Postres
+    difficulty: EASY
+    prep: 15
+    cook: 30
+    servings: 10
+    notes: Comprueba que el chocolate y el cacao son aptos para celiacos.
+    tags: [sin gluten, postre, al horno]
+    utensils: [Horno]
+    ingredients:
+      - items:
+          - [chocolate negro 70 %, 200, g]
+          - [mantequilla, 120, g]
+          - [huevos, 4, null]
+          - [azúcar, 120, g]
+          - [cacao puro en polvo, 30, g]
+          - [sal, 1, pizca]
+          - [frutos rojos para servir, 150, g]
+    steps:
+      - Precalienta el horno a 175 °C y forra un molde de 20 cm. Derrite el chocolate con la mantequilla al baño maría.
+      - Bate los huevos con el azúcar y la sal hasta que blanqueen y doblen su volumen.
+      - Mezcla con el chocolate templado y añade el cacao tamizado con movimientos envolventes.
+      - Hornea 25-30 minutos; el centro debe quedar algo tierno. Déjalo enfriar en el molde y sírvelo con frutos rojos.

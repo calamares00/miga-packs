@@ -1,0 +1,302 @@
+id: saludable-vegetariano
+version: 1
+updated: 2026-11-07
+language: es
+name: "Cocina saludable: vegetariano"
+series: Cocina saludable
+description: >-
+  Platos sin carne ni pescado, con huevo, lácteos, legumbres y mucha verdura, completos en
+  proteína: frittata de verduras, berenjenas rellenas de quinoa y feta, pimientos rellenos de arroz
+  integral, hamburguesas de alubias negras, ensalada de lentejas con feta, quiche sin masa de
+  espinacas, calabacines rellenos de requesón, coliflor gratinada con yogur, cuscús con verduras y
+  halloumi y huevos al horno con espinacas.
+author: Miga
+authorGithub: calamares00
+cover:
+  emoji: "🥚"
+  kicker: Cocina saludable
+  title: Vegetariano
+  colors: ["#4d7c0f", "#facc15"]
+defaults:
+  source: "Pack «Cocina saludable: vegetariano» de Miga"
+recipes:
+
+  - name: Frittata de verduras
+    health: [GREEN, "Huevo con mucha verdura y poco queso, al horno: proteína completa y fibra."]
+    nutrition: [290, 19, 9, 20]
+    photo: saludable-vegetariano/frittata-de-verduras.jpg
+    category: Huevos
+    difficulty: EASY
+    prep: 15
+    cook: 25
+    servings: 4
+    tags: [huevos, vegetariano, sin gluten]
+    utensils: [Horno]
+    ingredients:
+      - items:
+          - [huevos, 8, null]
+          - [calabacín, 1, null]
+          - [pimiento rojo, 1, null]
+          - [cebolla, 1, null]
+          - [espinacas baby, 80, g]
+          - [queso parmesano rallado, 30, g]
+          - [aceite de oliva virgen extra, 2, cucharada]
+          - [albahaca fresca, 1, puñado]
+          - [sal y pimienta negra, null, null]
+    steps:
+      - "Precalienta el horno a 190 °C. Saltea la cebolla, el pimiento y el calabacín en dados en una sartén apta para horno 8 minutos. Añade las espinacas."
+      - "Bate los huevos con el parmesano, la albahaca, sal y pimienta y viértelos sobre las verduras."
+      - "Cuaja 2 minutos al fuego y termina en el horno 12-15 minutos, hasta que esté hecha en el centro."
+
+  - name: Berenjenas rellenas de quinoa y feta
+    health: [GREEN, "Berenjena con quinoa, verduras y un poco de feta: fibra y proteína con grasa moderada."]
+    nutrition: [380, 15, 40, 18]
+    photo: saludable-vegetariano/berenjenas-rellenas-de-quinoa-y-feta.jpg
+    category: Verduras
+    difficulty: EASY
+    prep: 20
+    cook: 40
+    servings: 4
+    tags: [vegetariano, al horno, sin gluten]
+    utensils: [Horno]
+    ingredients:
+      - items:
+          - [berenjenas, 2, null]
+          - [quinoa, 120, g]
+          - [tomates cherry, 200, g]
+          - [cebolla morada, 1, null]
+          - [ajo, 2, diente]
+          - [queso feta, 100, g]
+          - [menta o perejil fresco, 1, puñado]
+          - [aceite de oliva virgen extra, 3, cucharada]
+          - [comino molido, 1, cucharadita]
+          - [sal y pimienta negra, null, null]
+    steps:
+      - "Parte las berenjenas por la mitad, haz cortes en la carne, riégalas con 1 cucharada de aceite y ásalas a 200 °C 25 minutos."
+      - Cuece la quinoa en el doble de agua 12 minutos.
+      - "Vacía las berenjenas dejando 1 cm. Saltea la cebolla y el ajo con el resto del aceite, añade la pulpa picada, los tomates y el comino y cocina 5 minutos. Mezcla con la quinoa y salpimienta."
+      - "Rellena las berenjenas, desmenuza el feta por encima y hornea 10 minutos. Termina con las hierbas."
+
+  - name: Pimientos rellenos de arroz integral
+    health: [GREEN, "Pimiento con arroz integral, alubias y verdura: fibra y proteína vegetal."]
+    nutrition: [400, 15, 58, 12]
+    photo: saludable-vegetariano/pimientos-rellenos-de-arroz-integral.jpg
+    category: Verduras
+    difficulty: EASY
+    prep: 20
+    cook: 45
+    servings: 4
+    tags: [vegetariano, al horno, sin gluten]
+    utensils: [Horno]
+    ingredients:
+      - items:
+          - [pimientos rojos grandes, 4, null]
+          - [arroz integral cocido, 300, g]
+          - [alubias negras cocidas, 200, g]
+          - [maíz dulce, 100, g]
+          - [cebolla, 1, null]
+          - [tomate triturado, 200, g]
+          - [comino molido, 1, cucharadita]
+          - [pimentón ahumado, 1, cucharadita]
+          - [queso mozzarella rallado, 60, g]
+          - [aceite de oliva, 2, cucharada]
+          - [sal, null, null]
+    steps:
+      - Precalienta el horno a 190 °C. Corta la tapa de los pimientos y vacíalos.
+      - "Pocha la cebolla picada en el aceite, añade el tomate y las especias y cocina 5 minutos. Mezcla con el arroz, las alubias y el maíz y sala."
+      - "Rellena los pimientos, ponles el queso por encima y tápalos con sus tapas."
+      - "Hornea 35-40 minutos, hasta que los pimientos estén tiernos."
+
+  - name: Hamburguesas de alubias negras
+    health: [GREEN, "Hamburguesas de legumbre y avena a la plancha: fibra y proteína vegetal."]
+    nutrition: [320, 14, 42, 10]
+    photo: saludable-vegetariano/hamburguesas-de-alubias-negras.jpg
+    category: Legumbres
+    difficulty: EASY
+    prep: 20
+    cook: 15
+    servings: 4
+    notes: "Se congelan crudas, separadas con papel de horno."
+    tags: [legumbres, vegetariano]
+    ingredients:
+      - items:
+          - [alubias negras cocidas, 500, g]
+          - [copos de avena, 60, g]
+          - [huevo, 1, null]
+          - [cebolla morada, 0.5, null]
+          - [ajo, 1, diente]
+          - [comino molido, 1, cucharadita]
+          - [pimentón ahumado, 1, cucharadita]
+          - [cilantro fresco, 1, puñado]
+          - [aceite de oliva, 1, cucharada]
+          - [sal, null, null]
+    steps:
+      - Escurre y seca bien las alubias. Aplasta tres cuartas partes con un tenedor y deja el resto enteras.
+      - "Mézclalas con la avena, el huevo, la cebolla y el ajo picados, las especias, el cilantro y sal. Deja reposar 10 minutos."
+      - Forma 4 hamburguesas y cocínalas a la plancha con el aceite 4-5 minutos por lado.
+      - Sírvelas en pan integral o con ensalada.
+
+  - name: Ensalada de lentejas con feta
+    health: [GREEN, "Lentejas con verdura cruda y un poco de feta: fibra, hierro y proteína."]
+    nutrition: [380, 20, 40, 15]
+    photo: saludable-vegetariano/ensalada-de-lentejas-con-feta.jpg
+    category: Ensaladas
+    difficulty: EASY
+    prep: 15
+    cook: 0
+    servings: 4
+    tags: [ensalada, legumbres, vegetariano, sin gluten]
+    ingredients:
+      - items:
+          - [lentejas cocidas, 500, g]
+          - [tomates cherry, 200, g]
+          - [pepino, 1, null]
+          - [pimiento rojo, 1, null]
+          - [cebolla morada, 0.5, null]
+          - [queso feta, 100, g]
+          - [perejil fresco, 1, puñado]
+          - [aceite de oliva virgen extra, 3, cucharada]
+          - [vinagre de vino tinto, 1, cucharada]
+          - [orégano seco, 1, cucharadita]
+          - [sal y pimienta negra, null, null]
+    steps:
+      - Enjuaga y escurre las lentejas.
+      - Corta las verduras en dados pequeños y mézclalas con las lentejas.
+      - "Aliña con el aceite, el vinagre, el orégano, sal y pimienta, y termina con el feta desmenuzado y el perejil."
+
+  - name: Quiche sin masa de espinacas
+    health: [GREEN, "Huevo, espinacas y queso fresco sin masa: proteína y verdura con poca grasa."]
+    nutrition: [260, 20, 7, 17]
+    photo: saludable-vegetariano/quiche-sin-masa-de-espinacas.jpg
+    category: Huevos
+    difficulty: EASY
+    prep: 15
+    cook: 35
+    servings: 6
+    tags: [huevos, vegetariano, sin gluten, al horno]
+    utensils: [Horno]
+    ingredients:
+      - items:
+          - [huevos, 6, null]
+          - [espinacas frescas, 400, g]
+          - [cebolla, 1, null]
+          - [queso fresco batido, 250, g]
+          - [queso gruyère o emmental rallado, 50, g]
+          - [nuez moscada, 1, pizca]
+          - [aceite de oliva, 1, cucharada]
+          - [sal y pimienta negra, null, null]
+    steps:
+      - "Precalienta el horno a 180 °C. Pocha la cebolla picada en el aceite, añade las espinacas y cocina hasta que pierdan el agua."
+      - "Bate los huevos con el queso fresco, la mitad del queso rallado, la nuez moscada, sal y pimienta. Añade las espinacas."
+      - "Vierte en un molde engrasado, cubre con el resto del queso y hornea 30-35 minutos, hasta que esté cuajada y dorada."
+
+  - name: Calabacines rellenos de requesón
+    health: [GREEN, "Calabacín con requesón, hierbas y tomate: ligero y con proteína láctea."]
+    nutrition: [240, 14, 12, 15]
+    photo: saludable-vegetariano/calabacines-rellenos-de-requeson.jpg
+    category: Verduras
+    difficulty: EASY
+    prep: 15
+    cook: 30
+    servings: 4
+    tags: [vegetariano, al horno, sin gluten]
+    utensils: [Horno]
+    ingredients:
+      - items:
+          - [calabacines, 4, null]
+          - [requesón o ricotta, 250, g]
+          - [huevo, 1, null]
+          - [queso parmesano rallado, 30, g]
+          - [albahaca fresca, 1, puñado]
+          - [ralladura de limón, 1, cucharadita]
+          - [salsa de tomate, 250, ml]
+          - [aceite de oliva virgen extra, 1, cucharada]
+          - [sal y pimienta negra, null, null]
+    steps:
+      - Precalienta el horno a 190 °C. Parte los calabacines a lo largo y vacíalos con una cucharilla.
+      - "Mezcla el requesón con el huevo, la mitad del parmesano, la albahaca, la ralladura, la pulpa picada, sal y pimienta."
+      - "Extiende la salsa en una fuente, coloca los calabacines rellenos, espolvorea el resto del parmesano y riega con el aceite."
+      - "Hornea 25-30 minutos, hasta que estén tiernos y dorados."
+
+  - name: Coliflor gratinada con yogur
+    health: [GREEN, "Coliflor gratinada con yogur en vez de bechamel: mucho más ligera."]
+    nutrition: [210, 13, 14, 12]
+    photo: saludable-vegetariano/coliflor-gratinada-con-yogur.jpg
+    category: Verduras
+    difficulty: EASY
+    prep: 15
+    cook: 30
+    servings: 4
+    tags: [vegetariano, al horno, sin gluten]
+    utensils: [Horno]
+    ingredients:
+      - items:
+          - [coliflor, 1, null]
+          - [yogur griego natural, 250, g]
+          - [huevo, 1, null]
+          - [mostaza de Dijon, 1, cucharadita]
+          - [queso cheddar o emmental rallado, 60, g]
+          - [nuez moscada, 1, pizca]
+          - [cebollino, 1, manojo]
+          - [sal y pimienta negra, null, null]
+    steps:
+      - Precalienta el horno a 200 °C. Cuece la coliflor en ramilletes al vapor 8 minutos y colócala en una fuente.
+      - "Mezcla el yogur con el huevo, la mostaza, la mitad del queso, la nuez moscada, sal y pimienta."
+      - "Cubre la coliflor con la mezcla, espolvorea el resto del queso y gratina 20 minutos. Termina con cebollino."
+
+  - name: Cuscús con verduras asadas y halloumi
+    health: [GREEN, "Cuscús integral con verduras y un poco de halloumi: completo y equilibrado."]
+    nutrition: [480, 20, 55, 20]
+    photo: saludable-vegetariano/cuscus-con-verduras-asadas-y-halloumi.jpg
+    category: Verduras
+    difficulty: EASY
+    prep: 15
+    cook: 30
+    servings: 4
+    tags: [vegetariano, al horno]
+    utensils: [Horno]
+    ingredients:
+      - items:
+          - [cuscús integral, 200, g]
+          - [caldo de verduras caliente, 220, ml]
+          - [halloumi, 200, g]
+          - [calabacín, 1, null]
+          - [pimiento rojo, 1, null]
+          - [cebolla morada, 1, null]
+          - [tomates cherry, 200, g]
+          - [aceite de oliva virgen extra, 3, cucharada]
+          - [ras el hanout o comino, 1, cucharadita]
+          - [menta fresca, 1, puñado]
+          - [limón, 1, null]
+    steps:
+      - Asa las verduras en trozos con 2 cucharadas de aceite y las especias a 210 °C 25 minutos.
+      - "Vierte el caldo sobre el cuscús, tapa 5 minutos y suéltalo con un tenedor."
+      - Dora el halloumi en lonchas en una sartén sin aceite 1-2 minutos por lado.
+      - "Mezcla el cuscús con las verduras, el resto del aceite y el zumo de limón, y sirve con el halloumi y la menta."
+
+  - name: Huevos al horno con espinacas y tomate
+    health: [GREEN, "Huevos cuajados sobre verdura y tomate: proteína y fibra con poca grasa."]
+    nutrition: [250, 16, 12, 15]
+    photo: saludable-vegetariano/huevos-al-horno-con-espinacas-y-tomate.jpg
+    category: Huevos
+    difficulty: EASY
+    prep: 10
+    cook: 20
+    servings: 4
+    tags: [huevos, vegetariano, sin gluten]
+    utensils: [Horno]
+    ingredients:
+      - items:
+          - [huevos, 8, null]
+          - [espinacas frescas, 300, g]
+          - [tomate triturado, 400, g]
+          - [cebolla, 1, null]
+          - [ajo, 2, diente]
+          - [pimentón dulce, 1, cucharadita]
+          - [queso feta, 50, g]
+          - [aceite de oliva virgen extra, 2, cucharada]
+          - [sal y pimienta negra, null, null]
+    steps:
+      - "Precalienta el horno a 190 °C. Pocha la cebolla y el ajo en el aceite, añade el pimentón y el tomate y cuece 10 minutos. Incorpora las espinacas y sala."
+      - "Reparte en cuatro cazuelitas, haz dos huecos en cada una y casca los huevos."
+      - "Hornea 10-12 minutos, hasta que la clara esté cuajada y la yema líquida. Termina con el feta y pimienta."

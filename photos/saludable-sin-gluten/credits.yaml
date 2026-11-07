@@ -1,0 +1,53 @@
+# Origin of every photo in this folder: source page, author and licence (CC0 1.0, Public domain,
+# CC BY x.y or CC BY-SA x.y). tools/build.py refuses a recipe photo without an entry here.
+
+socca-de-garbanzo.jpg:
+  source: https://commons.wikimedia.org/wiki/File:Socca_in_Nice.jpg
+  author: "Paul Downey from Berkhamsted, UK"
+  license: CC BY 2.0
+
+risotto-de-esparragos-y-guisantes.jpg:
+  source: https://commons.wikimedia.org/wiki/File:Asparagus_Risotto_001.jpg
+  author: "Katrin Morenz"
+  license: CC BY-SA 2.0
+
+salmon-con-costra-de-almendras.jpg:
+  source: https://www.flickr.com/photos/14162867@N00/22681924639
+  author: "chaf.haddad"
+  license: CC BY 2.0
+
+pizza-con-base-de-coliflor.jpg:
+  source: https://www.flickr.com/photos/25977089@N00/11485549506
+  author: "goblinbox_(queen_of_ad_hoc_bento)"
+  license: CC BY 2.0
+
+galettes-de-trigo-sarraceno.jpg:
+  source: https://www.flickr.com/photos/9445979@N03/40362866263
+  author: "ResonantFelicity"
+  license: CC BY 2.0
+
+polenta-cremosa-con-setas.jpg:
+  source: https://commons.wikimedia.org/wiki/File:Polenta_aux_c%C3%A8pes.jpg
+  author: "Arnaud 25"
+  license: CC0 1.0
+
+lasana-de-calabacin.jpg:
+  source: https://commons.wikimedia.org/wiki/File:Lasagnes_de_courgettes_grill%C3%A9es.jpg
+  author: "Benoît Prieur"
+  license: CC0 1.0
+
+albondigas-de-pollo-en-salsa-de-almendras.jpg:
+  source: https://commons.wikimedia.org/wiki/File:Alb%C3%B3ndigas_en_salsa_con_patatas_fritas.jpg
+  author: "Juan Emilio Prades Bel"
+  license: CC BY-SA 4.0
+
+dorada-a-la-sal.jpg:
+  source: https://www.flickr.com/photos/22662305@N04/2408717440
+  author: "jlastras"
+  license: CC BY 2.0
+
+bizcocho-de-chocolate-sin-harina.jpg:
+  source: https://commons.wikimedia.org/wiki/File:Chocolate_Cake_Flourless_(1).jpg
+  author: "No machine-readable author provided. CdnStar~commonswiki assumed (based on copyright claims)."
+  license: Public domain
+

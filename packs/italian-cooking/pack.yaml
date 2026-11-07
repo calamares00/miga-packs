@@ -1,6 +1,6 @@
 id: italian-cooking
-version: 3
-updated: 2026-11-06
+version: 4
+updated: 2026-11-07
 language: en
 name: "World cuisine: Italy"
 series: World cuisine
@@ -8,7 +8,9 @@ description: >-
   The great classics of Italy's regions: carbonara, amatriciana, cacio e pepe, lasagne, pasta
   alla Norma, spaghetti with clams, risotto alla milanese, ossobuco, saltimbocca, parmigiana,
   minestrone, pasta e fagioli, pizza margherita, focaccia, arancini, vitello tonnato, caponata,
-  tiramisu and panna cotta. Made the Italian way, with no cream in the carbonara.
+  puttanesca, orecchiette with turnip tops, gnocchi alla sorrentina, chicken cacciatore,
+  ribollita, panzanella, carpaccio, calzone, tiramisu, panna cotta, cannoli and cantucci. Made
+  the Italian way, with no cream in the carbonara.
 author: Miga
 authorGithub: calamares00
 cover:
@@ -658,3 +660,309 @@ recipes:
       - Squeeze out the gelatine, dissolve it in the hot cream and pour into moulds or small glasses.
       - Let it cool and refrigerate for at least 4 hours.
       - Simmer the berries with the sugar for 5 minutes and serve the sauce cold over the panna cotta.
+
+  - name: Spaghetti alla puttanesca
+    health: [YELLOW, "Pasta with tomato, olives, capers and anchovies: tasty and Mediterranean, but quite salty."]
+    nutrition: [560, 17, 82, 17]
+    photo: cocina-italiana/espaguetis-alla-puttanesca.jpg
+    category: Pasta
+    difficulty: EASY
+    prep: 10
+    cook: 20
+    servings: 4
+    origin: Campania
+    tags: [pasta, quick]
+    ingredients:
+      - items:
+          - [spaghetti, 400, g]
+          - [tinned peeled tomatoes, 400, g]
+          - [Gaeta or kalamata black olives, 100, g]
+          - [capers, 2, tbsp]
+          - [anchovy fillets, 6, null]
+          - [garlic, 2, clove]
+          - [dried chilli, 1, null]
+          - [extra virgin olive oil, 4, tbsp]
+          - [fresh parsley, 1, handful]
+          - [salt, null, null]
+    steps:
+      - Bring plenty of salted water to the boil for the pasta.
+      - "In a large pan, heat the oil with the sliced garlic, chilli and anchovies until the anchovies melt."
+      - "Add the tomatoes crushed by hand, the olives and the rinsed capers. Simmer for 10 minutes."
+      - Cook the spaghetti 1 minute less than the packet says and transfer it to the sauce with a little cooking water.
+      - Toss for 1 minute so the sauce clings to the pasta and serve with chopped parsley.
+
+  - name: Orecchiette with turnip tops
+    health: [GREEN, "Pasta with leafy greens, garlic and olive oil: fibre, vitamins and healthy fat."]
+    nutrition: [480, 16, 74, 14]
+    photo: cocina-italiana/orecchiette-con-grelos.jpg
+    category: Pasta
+    difficulty: EASY
+    prep: 15
+    cook: 20
+    servings: 4
+    origin: Apulia
+    notes: In Apulia it is made with cime di rapa; turnip tops or tenderstem broccoli are good substitutes.
+    tags: [pasta, vegetables]
+    ingredients:
+      - items:
+          - [orecchiette, 400, g]
+          - [turnip tops or cime di rapa, 800, g]
+          - [anchovy fillets, 4, null]
+          - [garlic, 3, clove]
+          - [dried chilli, 1, null]
+          - [extra virgin olive oil, 5, tbsp]
+          - [breadcrumbs, 3, tbsp]
+          - [salt, null, null]
+    steps:
+      - "Wash the turnip tops and keep the tender leaves, buds and thin stems."
+      - Toast the breadcrumbs in a pan with 1 tablespoon of oil until golden. Set aside.
+      - "Boil the turnip tops in plenty of salted water for 5 minutes, add the orecchiette and cook them together for the time on the packet."
+      - "Meanwhile, heat the rest of the oil with the garlic, chilli and anchovies until they melt."
+      - "Drain the pasta and greens, toss them in the pan for 1 minute and serve topped with the toasted breadcrumbs."
+
+  - name: Gnocchi alla sorrentina
+    health: [YELLOW, "Potato gnocchi baked with tomato and mozzarella: comforting, with cheese and plenty of carbohydrates."]
+    nutrition: [540, 20, 78, 16]
+    photo: cocina-italiana/noquis-a-la-sorrentina.jpg
+    category: Pasta
+    difficulty: EASY
+    prep: 10
+    cook: 30
+    servings: 4
+    origin: Sorrento
+    tags: [pasta, baked, vegetarian]
+    utensils: [Oven]
+    ingredients:
+      - items:
+          - [potato gnocchi, 800, g]
+          - [tomato passata, 700, ml]
+          - [fresh mozzarella, 250, g]
+          - [grated parmesan, 50, g]
+          - [garlic, 1, clove]
+          - [fresh basil, 1, bunch]
+          - [extra virgin olive oil, 3, tbsp]
+          - [salt, null, null]
+    steps:
+      - "Fry the crushed garlic in the oil, add the passata, salt and a few basil leaves and simmer for 15 minutes. Remove the garlic."
+      - Preheat the oven to 220 °C. Dice the mozzarella and let it drain.
+      - Boil the gnocchi in salted water until they float and mix them with the sauce.
+      - "Transfer to a baking dish, scatter over the mozzarella, parmesan and more basil, and bake for 10 minutes until the cheese melts and bubbles."
+
+  - name: Chicken cacciatore
+    health: [GREEN, "Chicken braised with tomato, pepper and herbs: protein with vegetables and little fat."]
+    nutrition: [390, 38, 12, 20]
+    photo: cocina-italiana/pollo-a-la-cazadora.jpg
+    category: Meat
+    difficulty: EASY
+    prep: 20
+    cook: 50
+    servings: 4
+    tags: [chicken, stew, gluten-free]
+    ingredients:
+      - items:
+          - [chicken legs and thighs, 1.2, kg]
+          - [olive oil, 3, tbsp]
+          - [onion, 1, null]
+          - [red pepper, 1, null]
+          - [mushrooms, 200, g]
+          - [garlic, 2, clove]
+          - [red wine, 150, ml]
+          - [tinned peeled tomatoes, 400, g]
+          - [rosemary, 1, sprig]
+          - [black olives, 60, g]
+          - [salt and black pepper, null, null]
+    steps:
+      - Season the chicken and brown it well in the oil in a wide casserole. Set aside.
+      - "In the same fat, fry the onion, pepper strips and sliced mushrooms for 8 minutes. Add the garlic."
+      - Pour in the wine and let it reduce by half. Add the crushed tomatoes and rosemary.
+      - "Return the chicken, cover and simmer for 35-40 minutes. Add the olives at the end."
+
+  - name: Ribollita
+    health: [GREEN, "Thick soup of beans, cavolo nero and vegetables with bread: high in fibre and plant protein."]
+    nutrition: [380, 15, 52, 12]
+    photo: cocina-italiana/ribollita.jpg
+    category: Soups
+    difficulty: EASY
+    prep: 20
+    cook: 60
+    servings: 6
+    origin: Tuscany
+    notes: "Its name means 're-boiled': it is even better the next day, reheated."
+    tags: [soup, vegan, pulses]
+    ingredients:
+      - items:
+          - [cooked cannellini beans, 500, g]
+          - [cavolo nero, 300, g]
+          - [savoy cabbage, 0.25, null]
+          - [onion, 1, null]
+          - [carrots, 2, null]
+          - [celery, 2, stalk]
+          - [potato, 1, null]
+          - [tinned peeled tomatoes, 200, g]
+          - [vegetable stock, 1.5, l]
+          - [stale Tuscan bread, 200, g]
+          - [extra virgin olive oil, 5, tbsp]
+          - [salt and black pepper, null, null]
+    steps:
+      - "Fry the chopped onion, carrot and celery in 3 tablespoons of oil for 10 minutes."
+      - "Add the diced potato, the shredded cabbages and the tomatoes, and cook for 5 minutes."
+      - Mash half the beans with a little stock and add them to the pot with the rest of the stock. Simmer for 40 minutes.
+      - "Add the whole beans and the bread in pieces and cook for 10 minutes, until the soup is very thick. Season."
+      - Serve with a good drizzle of raw olive oil on top.
+
+  - name: Panzanella
+    health: [GREEN, "Tomato, cucumber and bread salad with olive oil: fresh and light."]
+    nutrition: [290, 6, 34, 14]
+    photo: cocina-italiana/panzanella.jpg
+    category: Salads
+    difficulty: EASY
+    prep: 20
+    cook: 0
+    servings: 4
+    origin: Tuscany
+    tags: [salad, vegan, summer]
+    ingredients:
+      - items:
+          - [stale rustic bread, 250, g]
+          - [ripe tomatoes, 600, g]
+          - [cucumber, 1, null]
+          - [red onion, 1, null]
+          - [fresh basil, 1, bunch]
+          - [extra virgin olive oil, 5, tbsp]
+          - [red wine vinegar, 2, tbsp]
+          - [salt and black pepper, null, null]
+    steps:
+      - Slice the onion thinly and leave it for 10 minutes in water with a splash of vinegar.
+      - "Cut the bread into pieces, soak it in cold water and squeeze it out with your hands, breaking it up."
+      - "Chop the tomatoes and cucumber and mix them with the bread, the drained onion and torn basil."
+      - "Dress with the oil, vinegar, salt and pepper and let it rest for 15 minutes before serving."
+
+  - name: Beef carpaccio
+    health: [GREEN, "Thin slices of raw beef with rocket and parmesan: lean protein and little fat."]
+    nutrition: [230, 24, 2, 14]
+    photo: cocina-italiana/carpaccio-de-ternera.jpg
+    category: Starters
+    difficulty: EASY
+    prep: 20
+    cook: 0
+    servings: 4
+    origin: Venice
+    notes: Use very fresh fillet from a butcher you trust. Freezing it for 30 minutes helps to slice it thinly.
+    tags: [raw, cold, gluten-free]
+    ingredients:
+      - items:
+          - [beef fillet, 300, g]
+          - [rocket, 60, g]
+          - [parmesan shavings, 40, g]
+          - [lemon juice, 2, tbsp]
+          - [extra virgin olive oil, 4, tbsp]
+          - [capers, 1, tbsp]
+          - [flaky salt and black pepper, null, null]
+    steps:
+      - Wrap the fillet in cling film and freeze it for 30 minutes so it is firm.
+      - Slice it very thinly and flatten the slices between two sheets of baking paper with a rolling pin.
+      - Cover cold plates with the slices without overlapping them.
+      - "Whisk the oil with the lemon, drizzle it over the meat and top with the rocket, parmesan and capers. Finish with flaky salt and pepper."
+
+  - name: Calzone
+    health: [RED, "Folded pizza with cured meat and cheese: very tasty but high in calories, fat and salt."]
+    nutrition: [720, 32, 80, 29]
+    photo: cocina-italiana/calzone.jpg
+    category: Breads and doughs
+    difficulty: MEDIUM
+    prep: 30
+    cook: 20
+    servings: 4
+    origin: Naples
+    notes: The dough needs about 2 hours to rise; a shop-bought pizza dough also works.
+    tags: [pizza, baked]
+    utensils: [Oven]
+    ingredients:
+      - group: Dough
+        items:
+          - [strong bread flour, 500, g]
+          - [warm water, 320, ml]
+          - [dried yeast, 5, g]
+          - [salt, 10, g]
+          - [olive oil, 1, tbsp]
+      - group: Filling
+        items:
+          - [ricotta, 250, g]
+          - [mozzarella, 200, g]
+          - [Neapolitan salami or cooked ham, 150, g]
+          - [grated parmesan, 40, g]
+          - [crushed tomatoes, 150, g]
+          - [black pepper, null, null]
+    steps:
+      - "Mix the flour with the yeast, add the water, oil and salt and knead for 10 minutes. Leave to double in size, about 2 hours."
+      - "Preheat the oven to 250 °C. Mix the ricotta with the chopped mozzarella and salami, the parmesan and pepper."
+      - "Divide the dough into 4 and stretch each piece into a 25 cm circle. Spread the filling over one half, leaving the edge free."
+      - "Fold the dough over, seal the edge by pressing with your fingers and brush the top with a little tomato. Make a small cut so the steam can escape."
+      - "Bake for 15-18 minutes, until golden. Let rest for 5 minutes before serving."
+
+  - name: Sicilian cannoli
+    health: [RED, "Fried pastry tubes filled with sweetened ricotta: an occasional treat, fried and sugary."]
+    nutrition: [380, 10, 40, 20]
+    photo: cocina-italiana/cannoli-sicilianos.jpg
+    category: Desserts
+    difficulty: HARD
+    prep: 60
+    cook: 20
+    servings: 12
+    origin: Sicily
+    notes: You need metal cannoli tubes. Fill them just before serving so they stay crisp.
+    tags: [dessert, fried]
+    ingredients:
+      - group: Pastry
+        items:
+          - [plain flour, 250, g]
+          - [sugar, 25, g]
+          - [cocoa powder, 1, tsp]
+          - [butter or lard, 30, g]
+          - [egg, 1, null]
+          - [Marsala wine, 80, ml]
+          - [salt, 1, pinch]
+          - [sunflower oil for frying, 1, l]
+      - group: Filling
+        items:
+          - [well-drained sheep's ricotta, 500, g]
+          - [icing sugar, 120, g]
+          - [chocolate chips, 60, g]
+          - [candied orange peel, 40, g]
+          - [chopped pistachios, 30, g]
+    steps:
+      - "Mix the flour, sugar, cocoa and salt; add the butter, egg and Marsala and knead into a smooth, firm dough. Wrap and rest for 1 hour."
+      - "Beat the ricotta with the icing sugar until creamy, add the chocolate and chopped orange peel and refrigerate."
+      - "Roll the dough out very thinly and cut 10 cm circles. Wrap them around greased tubes, sealing the edge with egg white."
+      - "Fry in oil at 175 °C for 2 minutes, until golden and blistered. Drain, let cool slightly and slide off the tubes."
+      - "Pipe the filling into the shells, dip the ends in chopped pistachio and dust with icing sugar."
+
+  - name: Cantucci
+    health: [YELLOW, "Twice-baked almond biscuits: with nuts but also sugar."]
+    nutrition: [120, 3, 17, 4]
+    photo: cocina-italiana/cantucci.jpg
+    category: Desserts
+    difficulty: EASY
+    prep: 15
+    cook: 40
+    servings: 30
+    origin: Prato (Tuscany)
+    notes: In Tuscany they are dipped in vin santo. They keep for weeks in an airtight tin.
+    tags: [biscuits, baked]
+    utensils: [Oven]
+    ingredients:
+      - items:
+          - [plain flour, 280, g]
+          - [sugar, 180, g]
+          - [whole raw almonds, 180, g]
+          - [eggs, 2, null]
+          - [egg yolk, 1, null]
+          - [baking powder, 1, tsp]
+          - [orange zest, 1, tsp]
+          - [salt, 1, pinch]
+    steps:
+      - "Preheat the oven to 180 °C. Mix the flour, sugar, baking powder, salt and zest."
+      - Add the eggs and yolk and knead into a sticky dough. Work in the almonds.
+      - Shape 2 logs 4 cm wide on a lined tray and bake for 25 minutes.
+      - Let them cool for 10 minutes and slice them diagonally 1.5 cm thick.
+      - "Lay the slices flat and bake for 10-12 more minutes, until dry and golden."

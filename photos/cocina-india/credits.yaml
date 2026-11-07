@@ -1,0 +1,103 @@
+# Origin of every photo in this folder: source page, author and licence (CC0 1.0, Public domain,
+# CC BY x.y or CC BY-SA x.y). tools/build.py refuses a recipe photo without an entry here.
+
+pollo-a-la-mantequilla.jpg:
+  source: https://commons.wikimedia.org/wiki/File:Chicken_makhani.jpg
+  author: "stu_spivack"
+  license: CC BY-SA 2.0
+
+pollo-tandoori.jpg:
+  source: https://commons.wikimedia.org/wiki/File:Tandoori_Chicken_1.JPG
+  author: "Miansari66"
+  license: CC0 1.0
+
+rogan-josh.jpg:
+  source: https://commons.wikimedia.org/wiki/File:Rogan_Josh.JPG
+  author: "Miansari66"
+  license: CC0 1.0
+
+korma-de-pollo.jpg:
+  source: https://commons.wikimedia.org/wiki/File:Chicken_White_Qorma_(Korma).JPG
+  author: "Miansari66"
+  license: CC0 1.0
+
+vindaloo-de-cerdo.jpg:
+  source: https://commons.wikimedia.org/wiki/File:Vindaloo.JPG
+  author: "Miansari66"
+  license: CC0 1.0
+
+palak-paneer.jpg:
+  source: https://commons.wikimedia.org/wiki/File:Palak_Paneer.JPG
+  author: "Miansari66"
+  license: CC0 1.0
+
+chana-masala.jpg:
+  source: https://commons.wikimedia.org/wiki/File:Chana_masala_(5727362126).jpg
+  author: "Johan Bichel Lindegaard from Copenhagen, Denmark"
+  license: CC BY 2.0
+
+dal-tadka.jpg:
+  source: https://commons.wikimedia.org/wiki/File:Punjabi_Dal_Tadka_-_Mohali_2016-08-07_8549.JPG
+  author: "Biswarup Ganguly"
+  license: CC BY 3.0
+
+rajma.jpg:
+  source: https://commons.wikimedia.org/wiki/File:Rajma_2.JPG
+  author: "Miansari66"
+  license: CC0 1.0
+
+aloo-gobi.jpg:
+  source: https://commons.wikimedia.org/wiki/File:Aaloo_Gobhi.JPG
+  author: "Miansari66"
+  license: CC0 1.0
+
+baingan-bharta.jpg:
+  source: https://commons.wikimedia.org/wiki/File:Baingan_Ka_Bhurta.JPG
+  author: "Miansari66"
+  license: CC0 1.0
+
+samosas-de-patata.jpg:
+  source: https://commons.wikimedia.org/wiki/File:Vegetable_Samosas_(filled_with_spiced_potato_and_peas)_(717781926).jpg
+  author: "Xin Mei from Chicago, USA"
+  license: CC BY 2.0
+
+bhajis-de-cebolla.jpg:
+  source: https://commons.wikimedia.org/wiki/File:Onion_Bhaji.JPG
+  author: "Miansari66"
+  license: CC0 1.0
+
+raita-de-pepino.jpg:
+  source: https://commons.wikimedia.org/wiki/File:Kheere_Ka_Raita.JPG
+  author: "Miansari66"
+  license: CC0 1.0
+
+chutney-de-menta-y-cilantro.jpg:
+  source: https://commons.wikimedia.org/wiki/File:Coriander_mint_chutney.JPG
+  author: "Pduaroxxx"
+  license: CC BY-SA 4.0
+
+chapatis.jpg:
+  source: https://commons.wikimedia.org/wiki/File:2012_%27Z%C3%BCrcher_Theater_Spektakel%27_-_Chapati_2012-08-25_17-46-31_(P7000).JPG
+  author: "Roland zh"
+  license: CC BY-SA 3.0
+
+aloo-paratha.jpg:
+  source: https://commons.wikimedia.org/wiki/File:Aloo_paratha_(Pokhara).jpg
+  author: "Виктор Пинчук"
+  license: CC BY 4.0
+
+kheer.jpg:
+  source: https://commons.wikimedia.org/wiki/File:Kheer_Special.JPG
+  author: "Miansari66"
+  license: Public domain
+
+lassi-de-mango.jpg:
+  source: https://commons.wikimedia.org/wiki/File:Mango_Lassi_and_Butter_Milk_-_Vel_South_Indian_Kitchen_%2B_Bar.jpg
+  author: "Andy Li"
+  license: CC0 1.0
+
+masala-chai.jpg:
+  source: https://commons.wikimedia.org/wiki/File:Masala_Chai.JPG
+  author: "Miansari66"
+  license: Public domain
+

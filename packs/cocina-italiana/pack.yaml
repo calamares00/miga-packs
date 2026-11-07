@@ -1,6 +1,6 @@
 id: cocina-italiana
-version: 3
-updated: 2026-11-06
+version: 4
+updated: 2026-11-07
 language: es
 name: "Cocina del mundo: Italia"
 series: Cocina del mundo
@@ -8,7 +8,9 @@ description: >-
   Los grandes clásicos de las regiones de Italia: carbonara, amatriciana, cacio e pepe, lasaña,
   pasta alla Norma, espaguetis con almejas, risotto a la milanesa, ossobuco, saltimbocca,
   parmigiana, minestrone, pasta e fagioli, pizza margarita, focaccia, arancini, vitello tonnato,
-  caponata, tiramisú y panna cotta. Hechos como en Italia, sin nata en la carbonara.
+  caponata, puttanesca, orecchiette con grelos, ñoquis a la sorrentina, pollo a la cazadora,
+  ribollita, panzanella, carpaccio, calzone, tiramisú, panna cotta, cannoli y cantucci. Hechos
+  como en Italia, sin nata en la carbonara.
 author: Miga
 authorGithub: calamares00
 cover:
@@ -658,3 +660,309 @@ recipes:
       - Escurre la gelatina, disuélvela en la nata caliente y reparte en moldes o vasitos.
       - Deja que se enfríe y métela en la nevera al menos 4 horas.
       - Cuece los frutos rojos con el azúcar 5 minutos y sirve la salsa fría sobre la panna cotta.
+
+  - name: Espaguetis alla puttanesca
+    health: [YELLOW, "Pasta con tomate, aceitunas, alcaparras y anchoas: sabrosa y mediterránea, pero bastante salada."]
+    nutrition: [560, 17, 82, 17]
+    photo: cocina-italiana/espaguetis-alla-puttanesca.jpg
+    category: Pastas
+    difficulty: EASY
+    prep: 10
+    cook: 20
+    servings: 4
+    origin: Campania
+    tags: [pasta, rápido]
+    ingredients:
+      - items:
+          - [espaguetis, 400, g]
+          - [tomate pelado en conserva, 400, g]
+          - [aceitunas negras de Gaeta o kalamata, 100, g]
+          - [alcaparras, 2, cucharada]
+          - [filetes de anchoa, 6, null]
+          - [ajo, 2, diente]
+          - [guindilla, 1, null]
+          - [aceite de oliva virgen extra, 4, cucharada]
+          - [perejil fresco, 1, puñado]
+          - [sal, null, null]
+    steps:
+      - Pon a hervir abundante agua con sal para la pasta.
+      - "En una sartén grande, calienta el aceite con el ajo laminado, la guindilla y las anchoas, hasta que estas se deshagan."
+      - "Añade el tomate aplastado con las manos, las aceitunas y las alcaparras enjuagadas. Cuece 10 minutos."
+      - Cuece los espaguetis 1 minuto menos de lo que indica el paquete y pásalos a la salsa con un poco de agua de cocción.
+      - Saltea 1 minuto para que la salsa se pegue a la pasta y sirve con perejil picado.
+
+  - name: Orecchiette con grelos
+    health: [GREEN, "Pasta con verdura de hoja, ajo y aceite de oliva: fibra, vitaminas y grasa saludable."]
+    nutrition: [480, 16, 74, 14]
+    photo: cocina-italiana/orecchiette-con-grelos.jpg
+    category: Pastas
+    difficulty: EASY
+    prep: 15
+    cook: 20
+    servings: 4
+    origin: Apulia
+    notes: En Apulia se hace con cime di rapa; los grelos o el brócoli de tallo largo son buenos sustitutos.
+    tags: [pasta, verdura]
+    ingredients:
+      - items:
+          - [orecchiette, 400, g]
+          - [grelos o cime di rapa, 800, g]
+          - [filetes de anchoa, 4, null]
+          - [ajo, 3, diente]
+          - [guindilla, 1, null]
+          - [aceite de oliva virgen extra, 5, cucharada]
+          - [pan rallado, 3, cucharada]
+          - [sal, null, null]
+    steps:
+      - "Lava los grelos y quédate con las hojas tiernas, los brotes y los tallos finos."
+      - Tuesta el pan rallado en una sartén con 1 cucharada de aceite hasta que esté dorado. Resérvalo.
+      - "Cuece los grelos en abundante agua con sal 5 minutos, añade las orecchiette y cuécelas juntas el tiempo que indique el paquete."
+      - "Mientras, calienta el resto del aceite con el ajo, la guindilla y las anchoas hasta que se deshagan."
+      - "Escurre la pasta y los grelos, saltéalos en la sartén 1 minuto y sirve con el pan rallado tostado por encima."
+
+  - name: Ñoquis a la sorrentina
+    health: [YELLOW, "Ñoquis de patata gratinados con tomate y mozzarella: reconfortantes, con queso y bastantes hidratos."]
+    nutrition: [540, 20, 78, 16]
+    photo: cocina-italiana/noquis-a-la-sorrentina.jpg
+    category: Pastas
+    difficulty: EASY
+    prep: 10
+    cook: 30
+    servings: 4
+    origin: Sorrento
+    tags: [pasta, al horno, vegetariano]
+    utensils: [Horno]
+    ingredients:
+      - items:
+          - [ñoquis de patata, 800, g]
+          - [tomate triturado (passata), 700, ml]
+          - [mozzarella fresca, 250, g]
+          - [parmesano rallado, 50, g]
+          - [ajo, 1, diente]
+          - [albahaca fresca, 1, manojo]
+          - [aceite de oliva virgen extra, 3, cucharada]
+          - [sal, null, null]
+    steps:
+      - "Sofríe el ajo aplastado en el aceite, añade la passata, sal y unas hojas de albahaca y cuece 15 minutos. Retira el ajo."
+      - Precalienta el horno a 220 °C. Corta la mozzarella en dados y déjala escurrir.
+      - Cuece los ñoquis en agua con sal hasta que suban a la superficie y mézclalos con la salsa.
+      - "Pásalos a una fuente, reparte la mozzarella, el parmesano y más albahaca, y gratina 10 minutos, hasta que el queso se funda y burbujee."
+
+  - name: Pollo a la cazadora
+    health: [GREEN, "Pollo guisado con tomate, pimiento y hierbas: proteína con verduras y poca grasa."]
+    nutrition: [390, 38, 12, 20]
+    photo: cocina-italiana/pollo-a-la-cazadora.jpg
+    category: Carnes
+    difficulty: EASY
+    prep: 20
+    cook: 50
+    servings: 4
+    tags: [pollo, guiso, sin gluten]
+    ingredients:
+      - items:
+          - [muslos y contramuslos de pollo, 1.2, kg]
+          - [aceite de oliva, 3, cucharada]
+          - [cebolla, 1, null]
+          - [pimiento rojo, 1, null]
+          - [champiñones, 200, g]
+          - [ajo, 2, diente]
+          - [vino tinto, 150, ml]
+          - [tomate pelado en conserva, 400, g]
+          - [romero, 1, ramita]
+          - [aceitunas negras, 60, g]
+          - [sal y pimienta negra, null, null]
+    steps:
+      - Salpimienta el pollo y dóralo bien en el aceite en una cazuela amplia. Resérvalo.
+      - "En la misma grasa, sofríe la cebolla, el pimiento en tiras y los champiñones laminados 8 minutos. Añade el ajo."
+      - Riega con el vino y deja que reduzca a la mitad. Añade el tomate aplastado y el romero.
+      - "Vuelve a poner el pollo, tapa y cuece a fuego suave 35-40 minutos. Añade las aceitunas al final."
+
+  - name: Ribollita
+    health: [GREEN, "Sopa espesa de alubias, col negra y verduras con pan: mucha fibra y proteína vegetal."]
+    nutrition: [380, 15, 52, 12]
+    photo: cocina-italiana/ribollita.jpg
+    category: Sopas y cremas
+    difficulty: EASY
+    prep: 20
+    cook: 60
+    servings: 6
+    origin: Toscana
+    notes: "Su nombre significa 'recocida': está aún más rica al día siguiente, recalentada."
+    tags: [sopa, vegano, legumbres]
+    ingredients:
+      - items:
+          - [alubias blancas cocidas (cannellini), 500, g]
+          - [col negra (cavolo nero), 300, g]
+          - [col de Saboya, 0.25, null]
+          - [cebolla, 1, null]
+          - [zanahorias, 2, null]
+          - [apio, 2, rama]
+          - [patata, 1, null]
+          - [tomate pelado en conserva, 200, g]
+          - [caldo de verduras, 1.5, l]
+          - [pan toscano duro, 200, g]
+          - [aceite de oliva virgen extra, 5, cucharada]
+          - [sal y pimienta negra, null, null]
+    steps:
+      - "Sofríe en 3 cucharadas de aceite la cebolla, la zanahoria y el apio picados 10 minutos."
+      - "Añade la patata en dados, las coles en tiras y el tomate, y cocina 5 minutos."
+      - Tritura la mitad de las alubias con un poco de caldo y añádelas a la olla con el resto del caldo. Cuece 40 minutos.
+      - "Agrega las alubias enteras y el pan en trozos y cuece 10 minutos, hasta que la sopa esté muy espesa. Salpimienta."
+      - Sirve con un buen chorro de aceite de oliva crudo por encima.
+
+  - name: Panzanella
+    health: [GREEN, "Ensalada de tomate, pepino y pan con aceite de oliva: fresca y ligera."]
+    nutrition: [290, 6, 34, 14]
+    photo: cocina-italiana/panzanella.jpg
+    category: Ensaladas
+    difficulty: EASY
+    prep: 20
+    cook: 0
+    servings: 4
+    origin: Toscana
+    tags: [ensalada, vegano, verano]
+    ingredients:
+      - items:
+          - [pan rústico duro, 250, g]
+          - [tomates maduros, 600, g]
+          - [pepino, 1, null]
+          - [cebolla morada, 1, null]
+          - [albahaca fresca, 1, manojo]
+          - [aceite de oliva virgen extra, 5, cucharada]
+          - [vinagre de vino tinto, 2, cucharada]
+          - [sal y pimienta negra, null, null]
+    steps:
+      - Corta la cebolla en juliana fina y déjala 10 minutos en agua con un chorrito de vinagre.
+      - "Corta el pan en trozos, mójalo con agua fría y escúrrelo apretando con las manos para desmigarlo."
+      - "Trocea los tomates y el pepino y mézclalos con el pan, la cebolla escurrida y la albahaca rota."
+      - "Aliña con el aceite, el vinagre, sal y pimienta y deja reposar 15 minutos antes de servir."
+
+  - name: Carpaccio de ternera
+    health: [GREEN, "Láminas de ternera cruda con rúcula y parmesano: proteína magra y poca cantidad de grasa."]
+    nutrition: [230, 24, 2, 14]
+    photo: cocina-italiana/carpaccio-de-ternera.jpg
+    category: Entrantes
+    difficulty: EASY
+    prep: 20
+    cook: 0
+    servings: 4
+    origin: Venecia
+    notes: Usa solomillo muy fresco de una carnicería de confianza. Congelarlo 30 minutos ayuda a cortarlo fino.
+    tags: [crudo, frío, sin gluten]
+    ingredients:
+      - items:
+          - [solomillo de ternera, 300, g]
+          - [rúcula, 60, g]
+          - [parmesano en lascas, 40, g]
+          - [zumo de limón, 2, cucharada]
+          - [aceite de oliva virgen extra, 4, cucharada]
+          - [alcaparras, 1, cucharada]
+          - [sal en escamas y pimienta negra, null, null]
+    steps:
+      - Envuelve el solomillo en film y congélalo 30 minutos para que esté firme.
+      - Córtalo en lonchas muy finas y aplánalas entre dos hojas de papel de horno con un rodillo.
+      - Cubre los platos fríos con las lonchas sin superponerlas.
+      - "Emulsiona el aceite con el limón, riega la carne y reparte la rúcula, el parmesano y las alcaparras. Termina con sal en escamas y pimienta."
+
+  - name: Calzone
+    health: [RED, "Pizza cerrada con embutido y queso: muy sabrosa pero calórica y con bastante grasa y sal."]
+    nutrition: [720, 32, 80, 29]
+    photo: cocina-italiana/calzone.jpg
+    category: Panes y masas
+    difficulty: MEDIUM
+    prep: 30
+    cook: 20
+    servings: 4
+    origin: Nápoles
+    notes: La masa necesita unas 2 horas de levado; también sirve una masa de pizza comprada.
+    tags: [pizza, al horno]
+    utensils: [Horno]
+    ingredients:
+      - group: Masa
+        items:
+          - [harina de fuerza, 500, g]
+          - [agua templada, 320, ml]
+          - [levadura seca de panadería, 5, g]
+          - [sal, 10, g]
+          - [aceite de oliva, 1, cucharada]
+      - group: Relleno
+        items:
+          - [ricotta, 250, g]
+          - [mozzarella, 200, g]
+          - [salami napolitano o jamón cocido, 150, g]
+          - [parmesano rallado, 40, g]
+          - [tomate triturado, 150, g]
+          - [pimienta negra, null, null]
+    steps:
+      - "Mezcla la harina con la levadura, añade el agua, el aceite y la sal y amasa 10 minutos. Deja que doble su volumen, unas 2 horas."
+      - "Precalienta el horno a 250 °C. Mezcla la ricotta con la mozzarella y el salami picados, el parmesano y pimienta."
+      - "Divide la masa en 4 y estira cada parte en un círculo de 25 cm. Reparte el relleno en una mitad, dejando el borde libre."
+      - "Dobla la masa, sella el borde presionando con los dedos y pinta la superficie con un poco de tomate. Haz un pequeño corte para que salga el vapor."
+      - "Hornea 15-18 minutos, hasta que estén dorados. Deja reposar 5 minutos antes de servir."
+
+  - name: Cannoli sicilianos
+    health: [RED, "Canutillos fritos rellenos de ricotta azucarada: un dulce de ocasión, frito y con azúcar."]
+    nutrition: [380, 10, 40, 20]
+    photo: cocina-italiana/cannoli-sicilianos.jpg
+    category: Postres
+    difficulty: HARD
+    prep: 60
+    cook: 20
+    servings: 12
+    origin: Sicilia
+    notes: Hacen falta moldes metálicos de cannoli. Rellénalos justo antes de servir para que no se ablanden.
+    tags: [postre, frito]
+    ingredients:
+      - group: Masa
+        items:
+          - [harina de trigo, 250, g]
+          - [azúcar, 25, g]
+          - [cacao en polvo, 1, cucharadita]
+          - [mantequilla o manteca, 30, g]
+          - [huevo, 1, null]
+          - [vino marsala, 80, ml]
+          - [sal, 1, pizca]
+          - [aceite de girasol para freír, 1, l]
+      - group: Relleno
+        items:
+          - [ricotta de oveja bien escurrida, 500, g]
+          - [azúcar glas, 120, g]
+          - [pepitas de chocolate, 60, g]
+          - [piel de naranja confitada, 40, g]
+          - [pistachos picados, 30, g]
+    steps:
+      - "Mezcla la harina, el azúcar, el cacao y la sal; añade la mantequilla, el huevo y el marsala y amasa hasta obtener una masa lisa y firme. Envuélvela y déjala reposar 1 hora."
+      - "Bate la ricotta con el azúcar glas hasta que quede cremosa, añade el chocolate y la naranja picada y guárdala en la nevera."
+      - "Estira la masa muy fina y corta círculos de 10 cm. Enróllalos en los moldes engrasados, sellando el borde con clara de huevo."
+      - "Fríe en aceite a 175 °C 2 minutos, hasta que estén dorados y con burbujas. Escúrrelos, déjalos templar y retira los moldes."
+      - "Rellena los canutillos con una manga, pasa los extremos por pistacho picado y espolvorea azúcar glas."
+
+  - name: Cantucci
+    health: [YELLOW, "Galletas de almendra horneadas dos veces: con frutos secos pero también azúcar."]
+    nutrition: [120, 3, 17, 4]
+    photo: cocina-italiana/cantucci.jpg
+    category: Postres
+    difficulty: EASY
+    prep: 15
+    cook: 40
+    servings: 30
+    origin: Prato (Toscana)
+    notes: En Toscana se mojan en vin santo. Se conservan semanas en una lata cerrada.
+    tags: [galletas, al horno]
+    utensils: [Horno]
+    ingredients:
+      - items:
+          - [harina de trigo, 280, g]
+          - [azúcar, 180, g]
+          - [almendras crudas con piel, 180, g]
+          - [huevos, 2, null]
+          - [yema de huevo, 1, null]
+          - [levadura química, 1, cucharadita]
+          - [ralladura de naranja, 1, cucharadita]
+          - [sal, 1, pizca]
+    steps:
+      - "Precalienta el horno a 180 °C. Mezcla la harina, el azúcar, la levadura, la sal y la ralladura."
+      - Añade los huevos y la yema y amasa hasta que se forme una masa pegajosa. Incorpora las almendras.
+      - Forma 2 rulos de 4 cm de ancho sobre una bandeja con papel y hornéalos 25 minutos.
+      - "Déjalos templar 10 minutos y córtalos en diagonal en rebanadas de 1,5 cm."
+      - "Coloca las rebanadas tumbadas y hornéalas 10-12 minutos más, hasta que estén secas y doradas."

@@ -1,0 +1,53 @@
+# Origin of every photo in this folder: source page, author and licence (CC0 1.0, Public domain,
+# CC BY x.y or CC BY-SA x.y). tools/build.py refuses a recipe photo without an entry here.
+
+bandeja-de-pollo-y-verduras-al-horno.jpg:
+  source: https://www.flickr.com/photos/188303370@N04/49859925757
+  author: "FitTasteTic"
+  license: CC BY-SA 2.0
+
+lentejas-con-verduras.jpg:
+  source: https://commons.wikimedia.org/wiki/File:Amy%27s_lentil_vegetable_soup.jpg
+  author: "Mx. Granger"
+  license: CC0 1.0
+
+espinacas-con-garbanzos.jpg:
+  source: https://commons.wikimedia.org/wiki/File:GarbanzosConEspinacas.jpg
+  author: "Tubamirum at French Wikipedia"
+  license: Public domain
+
+chili-de-pavo-con-alubias.jpg:
+  source: https://www.flickr.com/photos/48734555@N00/5299256168
+  author: "Nathan Y"
+  license: CC BY-SA 2.0
+
+albondigas-de-pavo-en-salsa-de-tomate.jpg:
+  source: https://commons.wikimedia.org/wiki/File:Penne_and_turkey_meatballs_-_Jan_2022_-_Sarah_Stierch.jpg
+  author: "Missvain"
+  license: CC BY 4.0
+
+ratatouille.jpg:
+  source: https://commons.wikimedia.org/wiki/File:Ratatouille-Dish.jpg
+  author: "Benoit5656"
+  license: Public domain
+
+ensalada-de-quinoa-con-verduras-asadas.jpg:
+  source: https://www.flickr.com/photos/58367355@N00/19846397782
+  author: "jules:stonesoup"
+  license: CC BY 2.0
+
+salmon-al-horno-con-boniato-y-brocoli.jpg:
+  source: https://www.flickr.com/photos/93178668@N00/4657917311
+  author: "NatalieMaynor"
+  license: CC BY 2.0
+
+pollo-al-curry-con-garbanzos-y-espinacas.jpg:
+  source: https://www.flickr.com/photos/22083482@N03/51426979989
+  author: "George M. Groutas"
+  license: CC BY 2.0
+
+tacos-de-boniato-asado-y-alubias-negras.jpg:
+  source: https://commons.wikimedia.org/w/index.php?curid=103533947
+  author: "Karen and Brad Emerson"
+  license: CC BY 2.0
+

@@ -1,0 +1,53 @@
+# Origin of every photo in this folder: source page, author and licence (CC0 1.0, Public domain,
+# CC BY x.y or CC BY-SA x.y). tools/build.py refuses a recipe photo without an entry here.
+
+merluza-en-papillote-con-verduras.jpg:
+  source: https://commons.wikimedia.org/wiki/File:-2015-10-04_Oven_Baked_Sea_Bass,_Trimingham.JPG
+  author: "Kolforn (Kolforn) I'd appreciate if you could mail me (Kolforn@gmail.com) if you want to use this picture out of the Wik"
+  license: CC BY-SA 4.0
+
+ensalada-nicoise.jpg:
+  source: https://commons.wikimedia.org/wiki/File:Salade_ni%C3%A7oise_001.jpg
+  author: "Arnaud 25"
+  license: CC BY-SA 4.0
+
+brochetas-de-pollo-con-salsa-de-yogur.jpg:
+  source: https://commons.wikimedia.org/wiki/File:Chicken_souvlaki_at_Hellenic_2.jpg
+  author: "Orderinchaos"
+  license: CC BY-SA 4.0
+
+sopa-de-pollo-y-verduras.jpg:
+  source: https://commons.wikimedia.org/wiki/File:Chicken_Vegetable_Soup_(8731954951).jpg
+  author: "Cajsa Lilliehook from Portland"
+  license: CC BY-SA 2.0
+
+bacalao-al-horno-con-tomate-y-pimientos.jpg:
+  source: https://www.flickr.com/photos/46614245@N00/2262396498
+  author: "methTICALman"
+  license: CC BY 2.0
+
+wok-de-gambas-y-verduras.jpg:
+  source: https://commons.wikimedia.org/wiki/File:HK_SWH_%E8%A5%BF%E7%81%A3%E6%B2%B3_Sai_Wan_Ho_SKW_%E7%AD%B2%E7%AE%95%E7%81%A3%E9%81%93_33_Shau_Kei_Wan_Road_shop_%E9%BA%97%E7%81%A3%E5%A4%A7%E5%BB%88_Lai_Wan_Building_%E6%B5%B7%E5%AF%B6%E6%BC%81%E6%B8%AF_Ocean_Treasure_Seafood_Restaurant_diner_food_%E8%A5%BF%E8%98%AD%E8%8A%B1%E5%A4%A7%E8%9D%A6%E4%BB%81_Stir-fry_broccoli_with_peeled_shrimp_March_2026_N13P_03.jpg
+  author: "TOMW maowu LOU ShaSha"
+  license: CC0 1.0
+
+pechuga-de-pavo-rellena-de-espinacas.jpg:
+  source: https://www.flickr.com/photos/10559879@N00/3133681519
+  author: "avlxyz"
+  license: CC BY-SA 2.0
+
+crema-fria-de-pepino-y-yogur.jpg:
+  source: https://commons.wikimedia.org/wiki/File:Tarator_(Bulgarian_cold_soup).jpg
+  author: "Gillgaramond"
+  license: CC BY-SA 4.0
+
+hamburguesas-de-pollo-y-calabacin.jpg:
+  source: https://commons.wikimedia.org/wiki/File:Chargrilled_Chicken_Burger_-_Leon.jpg
+  author: "Andy Li"
+  license: CC0 1.0
+
+ensalada-de-pollo-mango-y-aguacate.jpg:
+  source: https://commons.wikimedia.org/wiki/File:Mango_Avacado_Salad,_Rodeo_Restaurant,_Valdosta.jpg
+  author: "Michael Rivera"
+  license: CC BY-SA 4.0
+

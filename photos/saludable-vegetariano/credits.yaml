@@ -1,0 +1,53 @@
+# Origin of every photo in this folder: source page, author and licence (CC0 1.0, Public domain,
+# CC BY x.y or CC BY-SA x.y). tools/build.py refuses a recipe photo without an entry here.
+
+frittata-de-verduras.jpg:
+  source: https://www.flickr.com/photos/7927684@N03/5182567699
+  author: "jeffreyw"
+  license: CC BY 2.0
+
+berenjenas-rellenas-de-quinoa-y-feta.jpg:
+  source: https://www.flickr.com/photos/68147320@N02/14336348720
+  author: "T.Tseng"
+  license: CC BY 2.0
+
+pimientos-rellenos-de-arroz-integral.jpg:
+  source: https://commons.wikimedia.org/wiki/File:Stuffed_Peppers_Florentine.jpg
+  author: "Roundhere44"
+  license: CC0 1.0
+
+hamburguesas-de-alubias-negras.jpg:
+  source: https://commons.wikimedia.org/wiki/File:Black_Bean_Burger_with_the_Works_(4733182546).jpg
+  author: "Vegan Feast Catering"
+  license: CC BY 2.0
+
+ensalada-de-lentejas-con-feta.jpg:
+  source: https://commons.wikimedia.org/wiki/File:Salade_de_lentilles,_potimarron_r%C3%B4ti_et_Feta.jpg
+  author: "Benoît Prieur"
+  license: CC0 1.0
+
+quiche-sin-masa-de-espinacas.jpg:
+  source: https://www.flickr.com/photos/48889115061@N01/54344390029
+  author: "Howdy, I'm HMK"
+  license: CC BY 2.0
+
+calabacines-rellenos-de-requeson.jpg:
+  source: https://www.flickr.com/photos/24987280@N00/1150258006
+  author: "LoopZilla"
+  license: CC BY-SA 2.0
+
+huevos-al-horno-con-espinacas-y-tomate.jpg:
+  source: https://www.flickr.com/photos/92068436@N00/6942397161
+  author: "Jeffrey Tastes"
+  license: CC BY-SA 2.0
+
+coliflor-gratinada-con-yogur.jpg:
+  source: https://commons.wikimedia.org/wiki/File:Cauliflower_Au_Gratin_(4527747147).jpg
+  author: "Vegan Feast Catering"
+  license: CC BY 2.0
+
+cuscus-con-verduras-asadas-y-halloumi.jpg:
+  source: https://commons.wikimedia.org/w/index.php?curid=137593265
+  author: "Andy Li"
+  license: CC0 1.0
+

@@ -19,7 +19,7 @@ Recipe books that the Miga app installs from **Settings › Recipe packs**. See 
 - Every pack has a `series` (required by `tools/build.py`), used by the app to group packs:
   "Cocina del mundo" / "World cuisine", "Cocina de cada día" / "Everyday cooking",
   "Electrodomésticos" / "Kitchen appliances", "Especiales" / "Specials", "Cocina fusión" /
-  "Fusion cuisine". Reuse an existing series before creating a new one; both languages of a pack
+  "Fusion cuisine", "Cocina saludable" / "Healthy cooking" (mostly GREEN recipes). Reuse an existing series before creating a new one; both languages of a pack
   belong to the matching series.
 - Covers carry no recipe count. Redraw them with `node tools/render_covers.mjs`.
 - Every recipe has `health: [GREEN|YELLOW|RED, "short reason"]` (in the pack's language) and

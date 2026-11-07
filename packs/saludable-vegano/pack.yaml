@@ -1,0 +1,315 @@
+id: saludable-vegano
+version: 1
+updated: 2026-11-07
+language: es
+name: "Cocina saludable: vegano"
+series: Cocina saludable
+description: >-
+  Platos 100 % vegetales y completos, con legumbres, tofu, cereales integrales y frutos secos para
+  no quedarse corto de proteína: tofu salteado con brócoli, boloñesa de lentejas, chili sin carne,
+  bol de quinoa y garbanzos, tacos de coliflor asada, hamburguesas de lentejas, curry de verduras
+  con coco, ensalada de fideos de arroz con tofu, guiso de alubias blancas y mousse de chocolate y
+  aguacate.
+author: Miga
+authorGithub: calamares00
+cover:
+  emoji: "🌱"
+  kicker: Cocina saludable
+  title: Vegano
+  colors: ["#166534", "#4ade80"]
+defaults:
+  source: "Pack «Cocina saludable: vegano» de Miga"
+recipes:
+
+  - name: Tofu salteado con brócoli y sésamo
+    health: [GREEN, "Tofu con verdura y arroz integral: proteína vegetal completa y fibra."]
+    nutrition: [430, 22, 46, 17]
+    photo: saludable-vegano/tofu-salteado-con-brocoli-y-sesamo.jpg
+    category: Verduras
+    difficulty: EASY
+    prep: 15
+    cook: 15
+    servings: 4
+    tags: [vegano, tofu, salteado]
+    utensils: [Wok]
+    ingredients:
+      - items:
+          - [tofu firme, 400, g]
+          - [brócoli, 1, null]
+          - [pimiento rojo, 1, null]
+          - [ajo, 2, diente]
+          - [jengibre fresco rallado, 1, cucharada]
+          - [salsa de soja baja en sal, 3, cucharada]
+          - [sirope de arce, 1, cucharada]
+          - [vinagre de arroz, 1, cucharada]
+          - [maicena, 2, cucharada]
+          - [aceite de girasol, 2, cucharada]
+          - [semillas de sésamo, 1, cucharada]
+          - [arroz integral cocido, 600, g]
+    steps:
+      - "Escurre el tofu, sécalo con papel, córtalo en dados y rebózalo en la maicena."
+      - Dóralo en el wok con el aceite por todos los lados y sácalo.
+      - "Saltea el ajo y el jengibre, añade el brócoli en ramilletes y el pimiento y saltea 4 minutos con un chorrito de agua."
+      - "Añade la soja, el sirope y el vinagre, vuelve a echar el tofu y saltea 1 minuto. Sirve con arroz integral y sésamo."
+
+  - name: Boloñesa de lentejas
+    health: [GREEN, "Salsa de lentejas y verduras con pasta integral: fibra, hierro y proteína vegetal."]
+    nutrition: [520, 24, 86, 9]
+    photo: saludable-vegano/bolonesa-de-lentejas.jpg
+    category: Pastas
+    difficulty: EASY
+    prep: 15
+    cook: 40
+    servings: 4
+    tags: [vegano, pasta, legumbres]
+    ingredients:
+      - items:
+          - [lentejas rojas o pardinas, 200, g]
+          - [cebolla, 1, null]
+          - [zanahoria, 1, null]
+          - [apio, 1, rama]
+          - [ajo, 2, diente]
+          - [champiñones, 200, g]
+          - [tomate triturado, 800, g]
+          - [orégano seco, 1, cucharadita]
+          - [aceite de oliva virgen extra, 2, cucharada]
+          - [espaguetis integrales, 320, g]
+          - [levadura nutricional (opcional), 2, cucharada]
+          - [sal y pimienta negra, null, null]
+    steps:
+      - "Pica muy fina la cebolla, la zanahoria, el apio, el ajo y los champiñones y póchalos en el aceite 10 minutos."
+      - "Añade las lentejas lavadas, el tomate, el orégano y 400 ml de agua. Cuece 25-30 minutos, hasta que las lentejas estén tiernas. Salpimienta."
+      - Cuece la pasta y sírvela con la salsa y la levadura nutricional por encima.
+
+  - name: Chili sin carne
+    health: [GREEN, "Chili de legumbres y verduras: mucha fibra y proteína vegetal, casi sin grasa."]
+    nutrition: [380, 18, 60, 7]
+    photo: saludable-vegano/chili-sin-carne.jpg
+    category: Legumbres
+    difficulty: EASY
+    prep: 15
+    cook: 35
+    servings: 6
+    tags: [vegano, legumbres, sin gluten]
+    ingredients:
+      - items:
+          - [alubias rojas cocidas, 400, g]
+          - [alubias negras cocidas, 400, g]
+          - [lentejas cocidas, 250, g]
+          - [cebolla, 1, null]
+          - [pimiento rojo, 1, null]
+          - [pimiento verde, 1, null]
+          - [ajo, 3, diente]
+          - [tomate triturado, 800, g]
+          - [maíz dulce, 150, g]
+          - [comino molido, 2, cucharadita]
+          - [pimentón ahumado, 2, cucharadita]
+          - [chile en polvo, 1, cucharadita]
+          - [cacao puro en polvo, 1, cucharadita]
+          - [aceite de oliva, 2, cucharada]
+          - [sal, null, null]
+    steps:
+      - "Sofríe la cebolla, los pimientos y el ajo picados en el aceite 8 minutos. Añade las especias y el cacao y remueve 1 minuto."
+      - Añade el tomate y 200 ml de agua y cuece 10 minutos.
+      - "Incorpora las legumbres escurridas y el maíz, sala y cuece 15 minutos más. Sírvelo con arroz integral o aguacate."
+
+  - name: Bol de quinoa y garbanzos
+    health: [GREEN, "Bol de cereal integral, legumbre, verdura y tahini: equilibrado y saciante."]
+    nutrition: [540, 20, 62, 23]
+    photo: saludable-vegano/bol-de-quinoa-y-garbanzos.jpg
+    category: Ensaladas
+    difficulty: EASY
+    prep: 15
+    cook: 25
+    servings: 2
+    tags: [vegano, sin gluten, ensalada]
+    utensils: [Horno]
+    ingredients:
+      - items:
+          - [quinoa, 120, g]
+          - [garbanzos cocidos, 250, g]
+          - [pimentón ahumado, 1, cucharadita]
+          - [boniato, 1, null]
+          - [kale o espinacas, 60, g]
+          - [aguacate, 1, null]
+          - [col lombarda, 80, g]
+          - [tahini, 2, cucharada]
+          - [zumo de limón, 2, cucharada]
+          - [aceite de oliva virgen extra, 1, cucharada]
+          - [sal, null, null]
+    steps:
+      - "Asa el boniato en dados y los garbanzos con el aceite, el pimentón y sal a 210 °C 25 minutos."
+      - Cuece la quinoa en el doble de agua 12 minutos.
+      - "Mezcla el tahini con el limón, una pizca de sal y agua hasta que quede una salsa fluida."
+      - "Reparte en cuencos la quinoa, el kale, la lombarda en tiras, el boniato, los garbanzos y el aguacate, y riega con la salsa."
+
+  - name: Tacos de coliflor asada
+    health: [GREEN, "Coliflor especiada, aguacate y verdura en tortilla de maíz: ligeros y con fibra."]
+    nutrition: [360, 9, 46, 17]
+    photo: saludable-vegano/tacos-de-coliflor-asada.jpg
+    category: Verduras
+    difficulty: EASY
+    prep: 15
+    cook: 25
+    servings: 4
+    tags: [vegano, tacos, sin gluten]
+    utensils: [Horno]
+    ingredients:
+      - items:
+          - [coliflor, 1, null]
+          - [aceite de oliva, 2, cucharada]
+          - [comino molido, 1, cucharadita]
+          - [pimentón ahumado, 1, cucharadita]
+          - [chile en polvo, 0.5, cucharadita]
+          - [tortillas de maíz, 8, null]
+          - [aguacate, 1, null]
+          - [col lombarda, 100, g]
+          - [cebolla morada encurtida o fresca, 0.5, null]
+          - [lima, 1, null]
+          - [cilantro fresco, 1, puñado]
+          - [sal, null, null]
+    steps:
+      - "Corta la coliflor en ramilletes pequeños, mézclala con el aceite, las especias y sal y ásala a 220 °C 20-25 minutos."
+      - Aplasta el aguacate con zumo de lima y sal.
+      - "Calienta las tortillas y rellénalas con aguacate, coliflor, lombarda en tiras finas, cebolla y cilantro."
+
+  - name: Hamburguesas de lentejas
+    health: [GREEN, "Hamburguesas de lentejas y verdura a la plancha: fibra y proteína vegetal."]
+    nutrition: [300, 14, 40, 9]
+    photo: saludable-vegano/hamburguesas-de-lentejas.jpg
+    category: Legumbres
+    difficulty: EASY
+    prep: 20
+    cook: 15
+    servings: 4
+    tags: [vegano, legumbres]
+    ingredients:
+      - items:
+          - [lentejas cocidas, 400, g]
+          - [copos de avena, 60, g]
+          - [zanahoria rallada, 1, null]
+          - [cebolla, 0.5, null]
+          - [ajo, 1, diente]
+          - [semillas de lino molidas, 1, cucharada]
+          - [comino molido, 1, cucharadita]
+          - [perejil fresco, 1, puñado]
+          - [aceite de oliva, 1, cucharada]
+          - [sal y pimienta negra, null, null]
+    steps:
+      - Mezcla el lino con 3 cucharadas de agua y deja 5 minutos.
+      - "Aplasta las lentejas escurridas y mézclalas con la avena, la zanahoria, la cebolla y el ajo picados, el lino, el comino, el perejil, sal y pimienta."
+      - "Forma 4 hamburguesas, refrigéralas 15 minutos y cocínalas a la plancha con el aceite 4 minutos por lado."
+
+  - name: Curry de verduras y garbanzos con coco
+    health: [GREEN, "Curry de verduras y legumbre con leche de coco ligera: completo y sabroso."]
+    nutrition: [400, 13, 48, 18]
+    photo: saludable-vegano/curry-de-verduras-y-garbanzos-con-coco.jpg
+    category: Verduras
+    difficulty: EASY
+    prep: 15
+    cook: 30
+    servings: 4
+    tags: [vegano, curry, sin gluten]
+    ingredients:
+      - items:
+          - [garbanzos cocidos, 400, g]
+          - [calabaza o boniato, 400, g]
+          - [coliflor, 0.5, null]
+          - [espinacas, 100, g]
+          - [cebolla, 1, null]
+          - [ajo, 2, diente]
+          - [jengibre fresco rallado, 1, cucharada]
+          - [pasta de curry rojo o curry en polvo, 2, cucharada]
+          - [leche de coco ligera, 400, ml]
+          - [tomate triturado, 200, g]
+          - [aceite, 1, cucharada]
+          - [lima, 1, null]
+          - [sal, null, null]
+    steps:
+      - "Pocha la cebolla picada en el aceite 6 minutos, añade el ajo, el jengibre y el curry y cocina 1 minuto."
+      - "Añade la calabaza en dados, la coliflor, el tomate y la leche de coco, y cuece 20 minutos."
+      - Incorpora los garbanzos y las espinacas y cuece 5 minutos. Sala y termina con zumo de lima. Sirve con arroz integral.
+
+  - name: Ensalada de fideos de arroz con tofu
+    health: [GREEN, "Fideos con mucha verdura cruda, tofu y aliño de cacahuete: fresca y completa."]
+    nutrition: [470, 19, 58, 18]
+    photo: saludable-vegano/ensalada-de-fideos-de-arroz-con-tofu.jpg
+    category: Ensaladas
+    difficulty: EASY
+    prep: 20
+    cook: 10
+    servings: 4
+    tags: [vegano, ensalada, fideos]
+    ingredients:
+      - items:
+          - [fideos de arroz, 200, g]
+          - [tofu firme, 250, g]
+          - [zanahorias, 2, null]
+          - [pepino, 1, null]
+          - [pimiento rojo, 1, null]
+          - [col lombarda, 100, g]
+          - [menta y cilantro frescos, 1, puñado]
+          - [crema de cacahuete natural, 3, cucharada]
+          - [salsa de soja baja en sal, 2, cucharada]
+          - [zumo de lima, 2, cucharada]
+          - [sirope de arce, 1, cucharadita]
+          - [cacahuetes tostados, 30, g]
+    steps:
+      - "Remoja o cuece los fideos según el paquete, enjuágalos en agua fría y escúrrelos."
+      - Dora el tofu en dados en una sartén antiadherente.
+      - Corta las verduras en juliana fina.
+      - "Bate la crema de cacahuete con la soja, la lima, el sirope y agua hasta obtener un aliño fluido. Mézclalo todo y sirve con las hierbas y los cacahuetes picados."
+
+  - name: Guiso de alubias blancas con verduras
+    health: [GREEN, "Alubias guisadas con verduras y aceite de oliva: fibra y proteína vegetal."]
+    nutrition: [360, 17, 50, 10]
+    photo: saludable-vegano/guiso-de-alubias-blancas-con-verduras.jpg
+    category: Legumbres
+    difficulty: EASY
+    prep: 15
+    cook: 35
+    servings: 4
+    tags: [vegano, legumbres, sin gluten]
+    ingredients:
+      - items:
+          - [alubias blancas cocidas, 800, g]
+          - [cebolla, 1, null]
+          - [puerro, 1, null]
+          - [zanahorias, 2, null]
+          - [pimiento rojo, 1, null]
+          - [calabacín, 1, null]
+          - [ajo, 2, diente]
+          - [tomate triturado, 200, g]
+          - [pimentón dulce, 1, cucharadita]
+          - [caldo de verduras, 600, ml]
+          - [aceite de oliva virgen extra, 3, cucharada]
+          - [sal, null, null]
+    steps:
+      - "Pocha la cebolla, el puerro, el pimiento y el ajo picados en el aceite 10 minutos."
+      - "Añade la zanahoria en rodajas, el pimentón y el tomate y cocina 3 minutos."
+      - Agrega el caldo y cuece 10 minutos. Añade el calabacín en dados y las alubias y cuece 12 minutos más. Sala.
+
+  - name: Mousse de chocolate y aguacate
+    health: [YELLOW, "Postre de aguacate y cacao con poco azúcar: grasas saludables, pero calórico."]
+    nutrition: [260, 4, 22, 18]
+    photo: saludable-vegano/mousse-de-chocolate-y-aguacate.jpg
+    category: Postres
+    difficulty: EASY
+    prep: 10
+    cook: 0
+    servings: 4
+    tags: [postre, vegano, sin gluten, sin cocción]
+    utensils: [Batidora]
+    ingredients:
+      - items:
+          - [aguacates maduros, 2, null]
+          - [cacao puro en polvo, 4, cucharada]
+          - [sirope de arce o dátiles, 4, cucharada]
+          - [bebida vegetal, 60, ml]
+          - [vainilla, 1, cucharadita]
+          - [sal, 1, pizca]
+          - [frambuesas para servir, 100, g]
+    steps:
+      - "Tritura la pulpa de los aguacates con el cacao, el sirope, la bebida, la vainilla y la sal hasta que quede muy cremoso."
+      - Prueba y ajusta el dulzor.
+      - Reparte en vasitos y enfría 1 hora. Sirve con frambuesas.

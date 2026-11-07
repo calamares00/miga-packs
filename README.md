@@ -39,10 +39,12 @@ Cada pack está en español y en inglés; la app muestra los del idioma en que l
 | 🌭 [World cuisine: United States](packs/american-cooking/pack.yaml) | World cuisine | en | 20 | [american-cooking-v3.zip](dist/american-cooking-v3.zip) |
 | 🥙 [Cocina del mundo: Grecia](packs/cocina-griega/pack.yaml) | Cocina del mundo | es | 20 | [cocina-griega-v3.zip](dist/cocina-griega-v3.zip) |
 | 🥙 [World cuisine: Greece](packs/greek-cooking/pack.yaml) | World cuisine | en | 20 | [greek-cooking-v3.zip](dist/greek-cooking-v3.zip) |
+| 🍛 [Cocina del mundo: India](packs/cocina-india/pack.yaml) | Cocina del mundo | es | 20 | [cocina-india-v1.zip](dist/cocina-india-v1.zip) |
+| 🍛 [World cuisine: India](packs/indian-cooking/pack.yaml) | World cuisine | en | 20 | [indian-cooking-v1.zip](dist/indian-cooking-v1.zip) |
 | 🍛 [Cocina del mundo: Indonesia](packs/cocina-indonesia/pack.yaml) | Cocina del mundo | es | 20 | [cocina-indonesia-v3.zip](dist/cocina-indonesia-v3.zip) |
 | 🍛 [World cuisine: Indonesia](packs/indonesian-cooking/pack.yaml) | World cuisine | en | 20 | [indonesian-cooking-v3.zip](dist/indonesian-cooking-v3.zip) |
-| 🍝 [Cocina del mundo: Italia](packs/cocina-italiana/pack.yaml) | Cocina del mundo | es | 20 | [cocina-italiana-v3.zip](dist/cocina-italiana-v3.zip) |
-| 🍝 [World cuisine: Italy](packs/italian-cooking/pack.yaml) | World cuisine | en | 20 | [italian-cooking-v3.zip](dist/italian-cooking-v3.zip) |
+| 🍝 [Cocina del mundo: Italia](packs/cocina-italiana/pack.yaml) | Cocina del mundo | es | 30 | [cocina-italiana-v4.zip](dist/cocina-italiana-v4.zip) |
+| 🍝 [World cuisine: Italy](packs/italian-cooking/pack.yaml) | World cuisine | en | 30 | [italian-cooking-v4.zip](dist/italian-cooking-v4.zip) |
 | 🍣 [Cocina del mundo: Japón](packs/cocina-japonesa/pack.yaml) | Cocina del mundo | es | 20 | [cocina-japonesa-v3.zip](dist/cocina-japonesa-v3.zip) |
 | 🍣 [World cuisine: Japan](packs/japanese-cooking/pack.yaml) | World cuisine | en | 20 | [japanese-cooking-v3.zip](dist/japanese-cooking-v3.zip) |
 | 🌮 [Cocina del mundo: México](packs/cocina-mexicana/pack.yaml) | Cocina del mundo | es | 20 | [cocina-mexicana-v4.zip](dist/cocina-mexicana-v4.zip) |
@@ -53,6 +55,30 @@ Cada pack está en español y en inglés; la app muestra los del idioma en que l
 | 🍲 [World cuisine: Thailand](packs/thai-cooking/pack.yaml) | World cuisine | en | 20 | [thai-cooking-v3.zip](dist/thai-cooking-v3.zip) |
 | 🍜 [Cocina del mundo: Vietnam](packs/cocina-vietnamita/pack.yaml) | Cocina del mundo | es | 20 | [cocina-vietnamita-v3.zip](dist/cocina-vietnamita-v3.zip) |
 | 🍜 [World cuisine: Vietnam](packs/vietnamese-cooking/pack.yaml) | World cuisine | en | 20 | [vietnamese-cooking-v3.zip](dist/vietnamese-cooking-v3.zip) |
+| 🫖 [Cocina fusión: anglo-india](packs/fusion-anglo-india/pack.yaml) | Cocina fusión | es | 8 | [fusion-anglo-india-v1.zip](dist/fusion-anglo-india-v1.zip) |
+| 🫖 [Fusion cuisine: Anglo-Indian](packs/anglo-indian-fusion/pack.yaml) | Fusion cuisine | en | 8 | [anglo-indian-fusion-v1.zip](dist/anglo-indian-fusion-v1.zip) |
+| 🥢 [Cocina fusión: chifa](packs/fusion-chifa/pack.yaml) | Cocina fusión | es | 8 | [fusion-chifa-v1.zip](dist/fusion-chifa-v1.zip) |
+| 🥢 [Fusion cuisine: Chifa](packs/chifa-fusion/pack.yaml) | Fusion cuisine | en | 8 | [chifa-fusion-v1.zip](dist/chifa-fusion-v1.zip) |
+| 🍜 [Cocina fusión: chino-coreana](packs/fusion-chino-coreana/pack.yaml) | Cocina fusión | es | 8 | [fusion-chino-coreana-v1.zip](dist/fusion-chino-coreana-v1.zip) |
+| 🍜 [Fusion cuisine: Korean-Chinese](packs/korean-chinese-fusion/pack.yaml) | Fusion cuisine | en | 8 | [korean-chinese-fusion-v1.zip](dist/korean-chinese-fusion-v1.zip) |
+| 🥡 [Cocina fusión: chino-estadounidense](packs/fusion-chino-estadounidense/pack.yaml) | Cocina fusión | es | 8 | [fusion-chino-estadounidense-v1.zip](dist/fusion-chino-estadounidense-v1.zip) |
+| 🥡 [Fusion cuisine: Chinese-American](packs/chinese-american-fusion/pack.yaml) | Fusion cuisine | en | 8 | [chinese-american-fusion-v1.zip](dist/chinese-american-fusion-v1.zip) |
+| 🌶️ [Cocina fusión: chino-india](packs/fusion-chino-india/pack.yaml) | Cocina fusión | es | 8 | [fusion-chino-india-v1.zip](dist/fusion-chino-india-v1.zip) |
+| 🌶️ [Fusion cuisine: Indo-Chinese](packs/indo-chinese-fusion/pack.yaml) | Fusion cuisine | en | 8 | [indo-chinese-fusion-v1.zip](dist/indo-chinese-fusion-v1.zip) |
+| 🥟 [Cocina fusión: chino-japonesa](packs/fusion-chino-japonesa/pack.yaml) | Cocina fusión | es | 8 | [fusion-chino-japonesa-v1.zip](dist/fusion-chino-japonesa-v1.zip) |
+| 🥟 [Fusion cuisine: Japanese-Chinese](packs/japanese-chinese-fusion/pack.yaml) | Fusion cuisine | en | 8 | [japanese-chinese-fusion-v1.zip](dist/japanese-chinese-fusion-v1.zip) |
+| 🍲 [Cocina fusión: chino-malaya](packs/fusion-chino-malaya/pack.yaml) | Cocina fusión | es | 8 | [fusion-chino-malaya-v1.zip](dist/fusion-chino-malaya-v1.zip) |
+| 🍲 [Fusion cuisine: Malaysian Chinese](packs/malaysian-chinese-fusion/pack.yaml) | Fusion cuisine | en | 8 | [malaysian-chinese-fusion-v1.zip](dist/malaysian-chinese-fusion-v1.zip) |
+| 🦐 [Cocina fusión: criolla](packs/fusion-criolla/pack.yaml) | Cocina fusión | es | 8 | [fusion-criolla-v1.zip](dist/fusion-criolla-v1.zip) |
+| 🦐 [Fusion cuisine: Creole](packs/creole-fusion/pack.yaml) | Fusion cuisine | en | 8 | [creole-fusion-v1.zip](dist/creole-fusion-v1.zip) |
+| 🍝 [Cocina fusión: italoestadounidense](packs/fusion-italoestadounidense/pack.yaml) | Cocina fusión | es | 8 | [fusion-italoestadounidense-v1.zip](dist/fusion-italoestadounidense-v1.zip) |
+| 🍝 [Fusion cuisine: Italian-American](packs/italian-american-fusion/pack.yaml) | Fusion cuisine | en | 8 | [italian-american-fusion-v1.zip](dist/italian-american-fusion-v1.zip) |
+| 🍝 [Cocina fusión: ítalo-peruana](packs/fusion-italoperuana/pack.yaml) | Cocina fusión | es | 6 | [fusion-italoperuana-v1.zip](dist/fusion-italoperuana-v1.zip) |
+| 🍝 [Fusion cuisine: Italian-Peruvian](packs/italian-peruvian-fusion/pack.yaml) | Fusion cuisine | en | 6 | [italian-peruvian-fusion-v1.zip](dist/italian-peruvian-fusion-v1.zip) |
+| 🥥 [Cocina fusión: peranakan](packs/fusion-peranakan/pack.yaml) | Cocina fusión | es | 8 | [fusion-peranakan-v1.zip](dist/fusion-peranakan-v1.zip) |
+| 🥥 [Fusion cuisine: Peranakan](packs/peranakan-fusion/pack.yaml) | Fusion cuisine | en | 8 | [peranakan-fusion-v1.zip](dist/peranakan-fusion-v1.zip) |
+| 🌮 [Cocina fusión: Tex-Mex](packs/fusion-texmex/pack.yaml) | Cocina fusión | es | 8 | [fusion-texmex-v1.zip](dist/fusion-texmex-v1.zip) |
+| 🌮 [Fusion cuisine: Tex-Mex](packs/tex-mex-fusion/pack.yaml) | Fusion cuisine | en | 8 | [tex-mex-fusion-v1.zip](dist/tex-mex-fusion-v1.zip) |
 
 Las recetas se redactaron con ayuda de un asistente de IA. Si ves algún error,
 abre un issue o un pull request.

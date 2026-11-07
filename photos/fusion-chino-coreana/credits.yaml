@@ -1,0 +1,43 @@
+# Origin of every photo in this folder: source page, author and licence (CC0 1.0, Public domain,
+# CC BY x.y or CC BY-SA x.y). tools/build.py refuses a recipe photo without an entry here.
+
+jajangmyeon.jpg:
+  source: https://commons.wikimedia.org/wiki/File:Jajangmyeon_0.jpg
+  author: "사랑"
+  license: Public domain
+
+jjamppong.jpg:
+  source: https://commons.wikimedia.org/wiki/File:Jjamppong_(Korean_Chines_seafood_noodle_soup).jpg
+  author: "Jungyeon"
+  license: CC0 1.0
+
+tangsuyuk.jpg:
+  source: https://commons.wikimedia.org/wiki/File:Tangsuyuk.jpg
+  author: "최광모"
+  license: CC0 1.0
+
+kkanpunggi.jpg:
+  source: https://commons.wikimedia.org/wiki/File:Korean_cuisine-Kkanpunggi-01.jpg
+  author: "egg (Hong, Yun Seon)"
+  license: CC BY 2.0
+
+lajogi.jpg:
+  source: https://commons.wikimedia.org/wiki/File:La_zi_ji.jpg
+  author: "lazy fri13th"
+  license: CC BY 2.0
+
+yusanseul.jpg:
+  source: https://commons.wikimedia.org/wiki/File:Yusanseul.jpg
+  author: "최광모"
+  license: CC0 1.0
+
+gun-mandu.jpg:
+  source: https://commons.wikimedia.org/wiki/File:Large_Kimchi%26Pork_Dumpling_-_SOJU_2025-11-17.jpg
+  author: "Andy Li"
+  license: CC0 1.0
+
+goguma-mattang.jpg:
+  source: https://commons.wikimedia.org/wiki/File:%EA%B3%A0%EA%B5%AC%EB%A7%88_%EB%A7%9B%ED%83%95_20150313%EA%B3%84%EC%A0%88%EB%B0%A5%EC%83%81_%EC%9D%B8%EC%82%AC%EB%8F%99%EC%A0%9040.jpg
+  author: "최광모"
+  license: CC BY-SA 4.0
+

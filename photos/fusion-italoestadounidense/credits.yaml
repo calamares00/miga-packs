@@ -1,0 +1,43 @@
+# Origin of every photo in this folder: source page, author and licence (CC0 1.0, Public domain,
+# CC BY x.y or CC BY-SA x.y). tools/build.py refuses a recipe photo without an entry here.
+
+espaguetis-con-albondigas.jpg:
+  source: https://commons.wikimedia.org/wiki/File:Spaghetti_and_meatballs_1.jpg
+  author: "jeffreyw"
+  license: CC BY 2.0
+
+pollo-a-la-parmesana.jpg:
+  source: https://commons.wikimedia.org/wiki/File:Tony%27s_of_North_Beach_-_December_2022_-_Sarah_Stierch_05.jpg
+  author: "Missvain"
+  license: CC BY 4.0
+
+penne-alla-vodka.jpg:
+  source: https://commons.wikimedia.org/wiki/File:Penne_alla_Vodka.jpg
+  author: "Joy"
+  license: CC BY 2.0
+
+fettuccine-alfredo.jpg:
+  source: https://commons.wikimedia.org/wiki/File:2020-03-14_21_40_07_Fettuccine_Alfredo_at_the_Olive_Garden_in_Fair_Lakes,_Fairfax_County,_Virginia.jpg
+  author: "Famartin"
+  license: CC BY-SA 4.0
+
+ziti-al-horno.jpg:
+  source: https://commons.wikimedia.org/wiki/File:BakedZiti_2025-12-04.jpg
+  author: "SpencerWMartin"
+  license: CC0 1.0
+
+gambas-scampi.jpg:
+  source: https://commons.wikimedia.org/wiki/File:Shrimp_scampi_food.jpg
+  author: "Jon Sullivan"
+  license: Public domain
+
+cioppino.jpg:
+  source: https://commons.wikimedia.org/wiki/File:Cioppino_from_Della_Terra_(Los_Angeles),_July_2022_(1).jpg
+  author: "Benoît Prieur"
+  license: CC0 1.0
+
+sopa-de-boda-italiana.jpg:
+  source: https://commons.wikimedia.org/wiki/File:Wedding_soup.jpg
+  author: "GeeJo"
+  license: CC BY-SA 2.0
+

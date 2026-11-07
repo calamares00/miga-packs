@@ -1,0 +1,276 @@
+id: japanese-chinese-fusion
+version: 1
+updated: 2026-11-07
+language: en
+name: "Fusion cuisine: Japanese-Chinese"
+series: Fusion cuisine
+description: >-
+  Chūka ryōri, the Japanese-style Chinese cooking of the Chinatowns of Yokohama and Nagasaki and of
+  neighbourhood restaurants: chāhan, tenshinhan, ebi chili, ebi mayo, hiyashi chūka, Nagasaki
+  champon, shūmai and nira reba.
+author: Miga
+authorGithub: calamares00
+cover:
+  emoji: "🥟"
+  kicker: Fusion cuisine
+  title: Japanese-Chinese
+  colors: ["#9f1239", "#fb7185"]
+defaults:
+  origin: Japan
+  originCountry: JP
+  source: "Miga «Fusion cuisine: Japanese-Chinese» pack"
+recipes:
+
+  - name: Chāhan
+    health: [YELLOW, "Fried rice with egg, pork and spring onion: simple, with plenty of carbohydrates."]
+    nutrition: [480, 18, 62, 17]
+    photo: fusion-chino-japonesa/chahan.jpg
+    category: Rice
+    difficulty: EASY
+    prep: 10
+    cook: 10
+    servings: 4
+    notes: It works best with Japanese rice cooked the day before. Leftover ramen chashu is the classic addition.
+    tags: [rice, eggs, quick]
+    utensils: [Wok]
+    ingredients:
+      - items:
+          - [cold cooked Japanese rice, 700, g]
+          - [eggs, 3, null]
+          - ["chashu, cooked ham or pork belly", 150, g]
+          - [spring onions, 4, null]
+          - [soy sauce, 1, tbsp]
+          - [salt, 0.5, tsp]
+          - [white pepper, 0.5, tsp]
+          - [sunflower oil, 3, tbsp]
+    steps:
+      - Dice the pork small and thinly slice the spring onions.
+      - "Heat the oil in the wok until smoking, add the beaten eggs and immediately the rice. Stir quickly so the egg coats the grains."
+      - "Stir-fry for 3 minutes over high heat, pressing out lumps, until the rice is loose."
+      - "Add the pork and spring onion, the salt and pepper, and pour the soy sauce around the edge of the wok. Toss for 30 seconds and serve."
+
+  - name: Tenshinhan
+    health: [YELLOW, "Crab omelette over rice with a thick sauce: good protein, with plenty of carbohydrates."]
+    nutrition: [470, 20, 62, 15]
+    photo: fusion-chino-japonesa/tenshinhan.jpg
+    category: Eggs
+    difficulty: EASY
+    prep: 10
+    cook: 15
+    servings: 2
+    notes: "It is named after the Chinese city of Tianjin, although it is a Japanese invention."
+    tags: [eggs, rice]
+    ingredients:
+      - group: Omelette
+        items:
+          - [eggs, 4, null]
+          - [crab meat or surimi, 80, g]
+          - [spring onion, 1, null]
+          - [cooked Japanese rice, 350, g]
+          - [sunflower oil, 2, tbsp]
+      - group: Sauce
+        items:
+          - [chicken stock, 200, ml]
+          - [soy sauce, 1, tbsp]
+          - [rice vinegar, 1, tbsp]
+          - [sugar, 1, tbsp]
+          - [ketchup (optional), 1, tbsp]
+          - [potato starch or cornflour, 1, tbsp]
+    steps:
+      - "Put the hot rice in two deep plates, shaped into a dome."
+      - "Bring the stock to the boil with the soy sauce, vinegar, sugar and ketchup, and thicken with the starch mixed with a little water."
+      - "Beat 2 eggs with half the crab and spring onion. Set them in a hot pan with 1 tablespoon of oil, stirring at first, into a soft omelette."
+      - Slide the omelette over the rice and repeat with the rest. Pour the hot sauce over.
+
+  - name: Ebi chili
+    health: [GREEN, "Prawns in a tomato and chilli sauce: lean protein and little fat."]
+    nutrition: [230, 24, 14, 8]
+    photo: fusion-chino-japonesa/ebi-chili.jpg
+    category: Fish and seafood
+    difficulty: EASY
+    prep: 15
+    cook: 10
+    servings: 4
+    notes: "Sichuan chef Chen Kenmin made it popular in Japan, adapting the sauce with ketchup."
+    tags: [prawns, spicy, quick]
+    utensils: [Wok]
+    ingredients:
+      - items:
+          - [large peeled prawns, 500, g]
+          - [potato starch, 1, tbsp]
+          - [egg white, 1, null]
+          - [garlic, 2, clove]
+          - [grated fresh ginger, 1, tsp]
+          - [spring onion, 1, null]
+          - [doubanjiang (chilli bean paste), 1, tbsp]
+          - [ketchup, 3, tbsp]
+          - [chicken stock, 120, ml]
+          - [sugar, 1, tsp]
+          - [sake or rice wine, 1, tbsp]
+          - [potato starch for the sauce, 1, tsp]
+          - [sunflower oil, 3, tbsp]
+    steps:
+      - Mix the prawns with the egg white and starch.
+      - "Stir-fry them in the wok with 2 tablespoons of oil for 1½ minutes, until pink. Remove them."
+      - "Stir-fry the chopped garlic, ginger and half the spring onion in the remaining oil, add the doubanjiang and fry for 30 seconds."
+      - "Add the ketchup, stock, sugar and sake, simmer for 1 minute and thicken with the starch mixed with water. Return the prawns, toss and finish with the rest of the spring onion."
+
+  - name: Ebi mayo
+    health: [RED, "Fried prawns in a sweet mayonnaise sauce: high in calories from the frying and mayonnaise."]
+    nutrition: [430, 22, 18, 30]
+    photo: fusion-chino-japonesa/ebi-mayo.jpg
+    category: Fish and seafood
+    difficulty: EASY
+    prep: 15
+    cook: 10
+    servings: 4
+    tags: [prawns, fried]
+    ingredients:
+      - items:
+          - [large peeled prawns, 400, g]
+          - [egg, 1, null]
+          - [potato starch, 60, g]
+          - [sunflower oil for frying, 750, ml]
+          - [Japanese mayonnaise (Kewpie), 5, tbsp]
+          - [condensed milk, 1, tbsp]
+          - [ketchup, 1, tsp]
+          - [lemon juice, 1, tsp]
+          - [lettuce to serve, null, null]
+    steps:
+      - "Dry the prawns well, dip them in the beaten egg and then in the starch."
+      - "Fry them at 175 °C for 2 minutes, until crisp. Drain."
+      - "Mix the mayonnaise with the condensed milk, ketchup and lemon."
+      - Toss the hot prawns in the sauce and serve on lettuce.
+
+  - name: Hiyashi chūka
+    health: [GREEN, "Cold noodles with vegetables, egg and ham and a vinegar dressing: fresh and balanced."]
+    nutrition: [470, 22, 70, 11]
+    photo: fusion-chino-japonesa/hiyashi-chuka.jpg
+    category: Pasta
+    difficulty: EASY
+    prep: 25
+    cook: 10
+    servings: 4
+    notes: "It is the summer dish par excellence: many restaurants announce when they start serving it."
+    tags: [noodles, cold, summer]
+    ingredients:
+      - group: Noodles
+        items:
+          - [fresh ramen noodles, 500, g]
+          - [cucumber, 1, null]
+          - [tomato, 1, null]
+          - [cooked ham, 100, g]
+          - [eggs, 2, null]
+          - [bean sprouts, 100, g]
+          - [pickled ginger (beni shōga), 1, tbsp]
+          - [Japanese mustard, null, null]
+      - group: Dressing
+        items:
+          - [soy sauce, 4, tbsp]
+          - [rice vinegar, 4, tbsp]
+          - [sugar, 2, tbsp]
+          - [sesame oil, 1, tbsp]
+          - [water, 4, tbsp]
+    steps:
+      - Mix the dressing ingredients until the sugar dissolves and chill.
+      - Beat the eggs with a pinch of salt and make very thin omelettes; roll them up and cut into strips. Julienne the cucumber and ham and cut the tomato into wedges. Blanch the sprouts for 1 minute.
+      - "Cook the noodles, rinse them under very cold water until chilled and drain well."
+      - "Divide the noodles among plates, arrange the toppings on top in a fan, pour over the dressing and serve with pickled ginger and mustard."
+
+  - name: Nagasaki champon
+    health: [YELLOW, "Noodle soup with seafood, pork and plenty of vegetables: complete, but the broth is salty."]
+    nutrition: [560, 32, 66, 18]
+    photo: fusion-chino-japonesa/champon-de-nagasaki.jpg
+    category: Soups
+    difficulty: MEDIUM
+    prep: 20
+    cook: 20
+    servings: 4
+    origin: Nagasaki
+    notes: A Chinese cook from Fujian invented it in 1899 to feed Chinese students in Nagasaki.
+    tags: [soup, noodles, seafood]
+    utensils: [Wok]
+    ingredients:
+      - items:
+          - [thick ramen noodles, 500, g]
+          - [pork belly, 150, g]
+          - [prawns, 150, g]
+          - [squid, 150, g]
+          - [white cabbage, 200, g]
+          - [bean sprouts, 150, g]
+          - [carrot, 0.5, null]
+          - [kamaboko or surimi, 80, g]
+          - [chicken stock, 1.2, l]
+          - [milk, 200, ml]
+          - [soy sauce, 1, tbsp]
+          - [salt, 1, tsp]
+          - [white pepper, 0.5, tsp]
+          - [sunflower oil, 2, tbsp]
+    steps:
+      - "Cut the pork into strips, the squid into rings, the cabbage into pieces and the carrot and kamaboko into slices."
+      - "Stir-fry the pork in the wok with the oil for 2 minutes, add the seafood and then the vegetables and kamaboko, and stir-fry for 3 minutes over high heat."
+      - "Add the stock, milk, soy sauce, salt and pepper and bring to the boil. The broth should be milky and mild."
+      - "Cook the noodles separately, divide them among bowls and top with the broth and stir-fry."
+
+  - name: Shūmai
+    health: [GREEN, "Steamed pork dumplings: protein, without frying."]
+    nutrition: [280, 18, 22, 13]
+    photo: fusion-chino-japonesa/shumai.jpg
+    category: Starters
+    difficulty: MEDIUM
+    prep: 40
+    cook: 12
+    servings: 4
+    origin: Yokohama
+    notes: Yokohama shūmai have been sold at the station since 1928 and are eaten with mustard and soy sauce.
+    tags: [pork, steamed]
+    utensils: [Steamer]
+    ingredients:
+      - items:
+          - [wonton wrappers, 24, null]
+          - [minced pork, 300, g]
+          - [onion, 0.5, null]
+          - [soaked dried shiitake mushrooms, 3, null]
+          - [potato starch, 1, tbsp]
+          - [grated fresh ginger, 1, tsp]
+          - [soy sauce, 1, tbsp]
+          - [sesame oil, 1, tsp]
+          - [sugar, 1, tsp]
+          - [peas, 24, null]
+          - [Japanese mustard and soy sauce to serve, null, null]
+    steps:
+      - Very finely chop the onion and mix it with the starch. Chop the mushrooms.
+      - "Knead the pork with the soy sauce, sugar, ginger and sesame oil until sticky. Add the onion and mushrooms."
+      - "Put a spoonful of filling on each wrapper, close your hand into a C to form a cylinder open at the top and smooth the surface. Top each with a pea."
+      - Steam them on paper for 10-12 minutes and serve with mustard and soy sauce.
+
+  - name: Nira reba
+    health: [GREEN, "Liver stir-fried with garlic chives and sprouts: rich in iron and protein."]
+    nutrition: [300, 26, 14, 15]
+    photo: fusion-chino-japonesa/nira-reba.jpg
+    category: Meat
+    difficulty: EASY
+    prep: 20
+    cook: 10
+    servings: 4
+    tags: [offal, stir-fry, quick]
+    utensils: [Wok]
+    ingredients:
+      - items:
+          - [pork or chicken liver, 400, g]
+          - [milk, 200, ml]
+          - [potato starch, 2, tbsp]
+          - [garlic chives (nira), 1, bunch]
+          - [bean sprouts, 200, g]
+          - [garlic, 2, clove]
+          - [grated fresh ginger, 1, tsp]
+          - [soy sauce, 2, tbsp]
+          - [oyster sauce, 1, tbsp]
+          - [sake, 1, tbsp]
+          - [sugar, 1, tsp]
+          - [sunflower oil, 3, tbsp]
+    steps:
+      - "Slice the liver and leave it in milk for 15 minutes to mellow its flavour. Drain, dry and coat in the starch."
+      - Brown it in the wok with 2 tablespoons of oil for 2 minutes per side. Remove it.
+      - "Mix the soy sauce, oyster sauce, sake and sugar."
+      - "Stir-fry the garlic and ginger in the rest of the oil, add the sprouts and chives cut into 4 cm lengths and stir-fry for 1 minute. Return the liver with the sauce, toss for 30 seconds and serve with rice."

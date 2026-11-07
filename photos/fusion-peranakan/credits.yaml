@@ -1,0 +1,43 @@
+# Origin of every photo in this folder: source page, author and licence (CC0 1.0, Public domain,
+# CC BY x.y or CC BY-SA x.y). tools/build.py refuses a recipe photo without an entry here.
+
+laksa-lemak.jpg:
+  source: https://commons.wikimedia.org/wiki/File:Katong_laksa.jpg
+  author: "ProjectManhattan."
+  license: CC0 1.0
+
+asam-laksa.jpg:
+  source: https://commons.wikimedia.org/wiki/File:Asam_Laksa_(2).jpg
+  author: "brown_colour"
+  license: CC BY 2.0
+
+ayam-pongteh.jpg:
+  source: https://commons.wikimedia.org/wiki/File:Ayam_pongteh.jpg
+  author: "Shaun@KL"
+  license: CC BY-SA 2.0
+
+ayam-buah-keluak.jpg:
+  source: https://commons.wikimedia.org/wiki/File:Buahkeluak.JPG
+  author: "Chensiyuan at English Wikipedia"
+  license: CC BY-SA 3.0
+
+otak-otak.jpg:
+  source: https://commons.wikimedia.org/wiki/File:Otak-otak.JPG
+  author: "Limthiampoh"
+  license: Public domain
+
+kueh-pie-tee.jpg:
+  source: https://commons.wikimedia.org/wiki/File:Pie-Tee_-_Aunty_Nat_(4591377212).jpg
+  author: "Alpha from Melbourne, Australia"
+  license: CC BY-SA 2.0
+
+chap-chye.jpg:
+  source: https://www.flickr.com/photos/8293634@N07/40329923494
+  author: "Camemberu"
+  license: CC BY 2.0
+
+kuih-dadar.jpg:
+  source: https://commons.wikimedia.org/wiki/File:Kue_dadar_gulung.JPG
+  author: "Midori"
+  license: CC BY 3.0
+

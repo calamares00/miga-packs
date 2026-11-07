@@ -41,6 +41,19 @@
       "language": "en"
     },
     {
+      "id": "anglo-indian-fusion",
+      "name": "Fusion cuisine: Anglo-Indian",
+      "series": "Fusion cuisine",
+      "author": "Miga",
+      "authorGithub": "calamares00",
+      "description": "Dishes born where India and Britain met, from the clubs and trains of the Raj to British curry houses: kedgeree, mulligatawny soup, chicken tikka masala, coronation chicken, jalfrezi, railway mutton curry, country captain and mango chutney.",
+      "coverImageUrl": "packs/anglo-indian-fusion/cover.jpg",
+      "latestVersion": 1,
+      "recipeCount": 8,
+      "downloadUrl": "dist/anglo-indian-fusion-v1.zip",
+      "language": "en"
+    },
+    {
       "id": "argentine-cooking",
       "name": "World cuisine: Argentina",
       "series": "World cuisine",
@@ -91,6 +104,32 @@
       "recipeCount": 20,
       "downloadUrl": "dist/cenas-en-20-minutos-v3.zip",
       "language": "es"
+    },
+    {
+      "id": "chifa-fusion",
+      "name": "Fusion cuisine: Chifa",
+      "series": "Fusion cuisine",
+      "author": "Miga",
+      "authorGithub": "calamares00",
+      "description": "The cooking of Cantonese immigrants in Peru, which spread from Lima's Chinatown to the whole country with the wok, soy sauce and Peruvian produce: tallarín saltado, chi jau kay, kam lu wantán, aeropuerto, pollo enrollado, fried wontons, pork with tamarind and fuchifú soup.",
+      "coverImageUrl": "packs/chifa-fusion/cover.jpg",
+      "latestVersion": 1,
+      "recipeCount": 8,
+      "downloadUrl": "dist/chifa-fusion-v1.zip",
+      "language": "en"
+    },
+    {
+      "id": "chinese-american-fusion",
+      "name": "Fusion cuisine: Chinese-American",
+      "series": "Fusion cuisine",
+      "author": "Miga",
+      "authorGithub": "calamares00",
+      "description": "The cooking Chinese immigrants created in the United States, the food of the takeout box: General Tso's chicken, orange chicken, beef and broccoli, chop suey, egg foo young, crab rangoon, Mongolian beef and lo mein.",
+      "coverImageUrl": "packs/chinese-american-fusion/cover.jpg",
+      "latestVersion": 1,
+      "recipeCount": 8,
+      "downloadUrl": "dist/chinese-american-fusion-v1.zip",
+      "language": "en"
     },
     {
       "id": "chinese-cooking",
@@ -210,6 +249,19 @@
       "language": "es"
     },
     {
+      "id": "cocina-india",
+      "name": "Cocina del mundo: India",
+      "series": "Cocina del mundo",
+      "author": "Miga",
+      "authorGithub": "calamares00",
+      "description": "Curris, legumbres, panes y dulces de la India: pollo a la mantequilla, pollo tandoori, rogan josh, korma, vindaloo, palak paneer, chana masala, dal tadka, rajma, aloo gobi, baingan bharta, samosas, bhajis de cebolla, raita, chutney de menta, chapatis, aloo paratha, kheer, lassi de mango y masala chai.",
+      "coverImageUrl": "packs/cocina-india/cover.jpg",
+      "latestVersion": 1,
+      "recipeCount": 20,
+      "downloadUrl": "dist/cocina-india-v1.zip",
+      "language": "es"
+    },
+    {
       "id": "cocina-indonesia",
       "name": "Cocina del mundo: Indonesia",
       "series": "Cocina del mundo",
@@ -228,11 +280,11 @@
       "series": "Cocina del mundo",
       "author": "Miga",
       "authorGithub": "calamares00",
-      "description": "Los grandes clásicos de las regiones de Italia: carbonara, amatriciana, cacio e pepe, lasaña, pasta alla Norma, espaguetis con almejas, risotto a la milanesa, ossobuco, saltimbocca, parmigiana, minestrone, pasta e fagioli, pizza margarita, focaccia, arancini, vitello tonnato, caponata, tiramisú y panna cotta. Hechos como en Italia, sin nata en la carbonara.",
+      "description": "Los grandes clásicos de las regiones de Italia: carbonara, amatriciana, cacio e pepe, lasaña, pasta alla Norma, espaguetis con almejas, risotto a la milanesa, ossobuco, saltimbocca, parmigiana, minestrone, pasta e fagioli, pizza margarita, focaccia, arancini, vitello tonnato, caponata, puttanesca, orecchiette con grelos, ñoquis a la sorrentina, pollo a la cazadora, ribollita, panzanella, carpaccio, calzone, tiramisú, panna cotta, cannoli y cantucci. Hechos como en Italia, sin nata en la carbonara.",
       "coverImageUrl": "packs/cocina-italiana/cover.jpg",
-      "latestVersion": 3,
-      "recipeCount": 20,
-      "downloadUrl": "dist/cocina-italiana-v3.zip",
+      "latestVersion": 4,
+      "recipeCount": 30,
+      "downloadUrl": "dist/cocina-italiana-v4.zip",
       "language": "es"
     },
     {
@@ -327,6 +379,19 @@
       "language": "en"
     },
     {
+      "id": "creole-fusion",
+      "name": "Fusion cuisine: Creole",
+      "series": "Fusion cuisine",
+      "author": "Miga",
+      "authorGithub": "calamares00",
+      "description": "The Creole cooking of New Orleans, where France, Spain, West Africa and the Caribbean met: shrimp Creole, red beans and rice, crawfish étouffée, grillades and grits, dirty rice, muffuletta, beignets and bread pudding with whiskey sauce.",
+      "coverImageUrl": "packs/creole-fusion/cover.jpg",
+      "latestVersion": 1,
+      "recipeCount": 8,
+      "downloadUrl": "dist/creole-fusion-v1.zip",
+      "language": "en"
+    },
+    {
       "id": "especial-navidad",
       "name": "Especial Navidad",
       "series": "Especiales",
@@ -350,6 +415,162 @@
       "latestVersion": 3,
       "recipeCount": 20,
       "downloadUrl": "dist/freidora-de-aire-v3.zip",
+      "language": "es"
+    },
+    {
+      "id": "fusion-anglo-india",
+      "name": "Cocina fusión: anglo-india",
+      "series": "Cocina fusión",
+      "author": "Miga",
+      "authorGithub": "calamares00",
+      "description": "Los platos nacidos del encuentro entre la India y Gran Bretaña, de los clubes y trenes del Raj a los restaurantes de curry británicos: kedgeree, sopa mulligatawny, pollo tikka masala, pollo coronación, jalfrezi, curry de cordero del ferrocarril, country captain y chutney de mango.",
+      "coverImageUrl": "packs/fusion-anglo-india/cover.jpg",
+      "latestVersion": 1,
+      "recipeCount": 8,
+      "downloadUrl": "dist/fusion-anglo-india-v1.zip",
+      "language": "es"
+    },
+    {
+      "id": "fusion-chifa",
+      "name": "Cocina fusión: chifa",
+      "series": "Cocina fusión",
+      "author": "Miga",
+      "authorGithub": "calamares00",
+      "description": "La cocina de los inmigrantes cantoneses en Perú, que desde el barrio chino de Lima llegó a todo el país con el wok, la soja y los productos peruanos: tallarín saltado, chi jau kay, kam lu wantán, aeropuerto, pollo enrollado, wantanes fritos, chancho con tamarindo y sopa fuchifú.",
+      "coverImageUrl": "packs/fusion-chifa/cover.jpg",
+      "latestVersion": 1,
+      "recipeCount": 8,
+      "downloadUrl": "dist/fusion-chifa-v1.zip",
+      "language": "es"
+    },
+    {
+      "id": "fusion-chino-coreana",
+      "name": "Cocina fusión: chino-coreana",
+      "series": "Cocina fusión",
+      "author": "Miga",
+      "authorGithub": "calamares00",
+      "description": "Los platos de los restaurantes chinos de Corea, creados por inmigrantes de Shandong en Incheon y que se piden a domicilio en todo el país: jajangmyeon, jjamppong, tangsuyuk, kkanpunggi, lajogi, yusanseul, gun-mandu y goguma mattang.",
+      "coverImageUrl": "packs/fusion-chino-coreana/cover.jpg",
+      "latestVersion": 1,
+      "recipeCount": 8,
+      "downloadUrl": "dist/fusion-chino-coreana-v1.zip",
+      "language": "es"
+    },
+    {
+      "id": "fusion-chino-estadounidense",
+      "name": "Cocina fusión: chino-estadounidense",
+      "series": "Cocina fusión",
+      "author": "Miga",
+      "authorGithub": "calamares00",
+      "description": "La cocina que crearon los inmigrantes chinos en Estados Unidos y que llena las cajas de comida para llevar: pollo del general Tso, pollo a la naranja, ternera con brócoli, chop suey, egg foo young, crab rangoon, ternera mongola y lo mein.",
+      "coverImageUrl": "packs/fusion-chino-estadounidense/cover.jpg",
+      "latestVersion": 1,
+      "recipeCount": 8,
+      "downloadUrl": "dist/fusion-chino-estadounidense-v1.zip",
+      "language": "es"
+    },
+    {
+      "id": "fusion-chino-india",
+      "name": "Cocina fusión: chino-india",
+      "series": "Cocina fusión",
+      "author": "Miga",
+      "authorGithub": "calamares00",
+      "description": "La cocina indochina, nacida entre los chinos hakka de Calcuta y hoy en todos los puestos callejeros de la India: gobi manchurian, pollo al chile, fideos hakka, arroz frito schezwan, paneer al chile, sopa manchow, sopa de maíz dulce y patatas con miel y chile.",
+      "coverImageUrl": "packs/fusion-chino-india/cover.jpg",
+      "latestVersion": 1,
+      "recipeCount": 8,
+      "downloadUrl": "dist/fusion-chino-india-v1.zip",
+      "language": "es"
+    },
+    {
+      "id": "fusion-chino-japonesa",
+      "name": "Cocina fusión: chino-japonesa",
+      "series": "Cocina fusión",
+      "author": "Miga",
+      "authorGithub": "calamares00",
+      "description": "El chūka ryōri, la cocina china a la japonesa de los barrios chinos de Yokohama y Nagasaki y de los restaurantes de barrio: chāhan, tenshinhan, ebi chili, ebi mayo, hiyashi chūka, champon de Nagasaki, shūmai y nira reba.",
+      "coverImageUrl": "packs/fusion-chino-japonesa/cover.jpg",
+      "latestVersion": 1,
+      "recipeCount": 8,
+      "downloadUrl": "dist/fusion-chino-japonesa-v1.zip",
+      "language": "es"
+    },
+    {
+      "id": "fusion-chino-malaya",
+      "name": "Cocina fusión: chino-malaya",
+      "series": "Cocina fusión",
+      "author": "Miga",
+      "authorGithub": "calamares00",
+      "description": "La cocina de los chinos de Malasia (hokkien, cantoneses, hainaneses y hakka) en los puestos de comida de Penang y Kuala Lumpur: char kway teow, bak kut teh, hokkien mee, yong tau foo, arroz con pollo en cazuela de barro, wantan mee, chuleta de pollo hainanesa y tostadas con kaya.",
+      "coverImageUrl": "packs/fusion-chino-malaya/cover.jpg",
+      "latestVersion": 1,
+      "recipeCount": 8,
+      "downloadUrl": "dist/fusion-chino-malaya-v1.zip",
+      "language": "es"
+    },
+    {
+      "id": "fusion-criolla",
+      "name": "Cocina fusión: criolla",
+      "series": "Cocina fusión",
+      "author": "Miga",
+      "authorGithub": "calamares00",
+      "description": "La cocina criolla de Nueva Orleans, donde se mezclaron Francia, España, África occidental y el Caribe: gambas a la criolla, alubias rojas con arroz, étouffée de cangrejo de río, grillades con sémola de maíz, arroz sucio, muffuletta, beignets y pudin de pan con salsa de whisky.",
+      "coverImageUrl": "packs/fusion-criolla/cover.jpg",
+      "latestVersion": 1,
+      "recipeCount": 8,
+      "downloadUrl": "dist/fusion-criolla-v1.zip",
+      "language": "es"
+    },
+    {
+      "id": "fusion-italoestadounidense",
+      "name": "Cocina fusión: italoestadounidense",
+      "series": "Cocina fusión",
+      "author": "Miga",
+      "authorGithub": "calamares00",
+      "description": "La cocina de los inmigrantes italianos en Nueva York, Nueva Jersey y San Francisco, más generosa en carne, queso y salsa que la de Italia: espaguetis con albóndigas, pollo a la parmesana, penne alla vodka, fettuccine Alfredo, ziti al horno, gambas scampi, cioppino y sopa de boda italiana.",
+      "coverImageUrl": "packs/fusion-italoestadounidense/cover.jpg",
+      "latestVersion": 1,
+      "recipeCount": 8,
+      "downloadUrl": "dist/fusion-italoestadounidense-v1.zip",
+      "language": "es"
+    },
+    {
+      "id": "fusion-italoperuana",
+      "name": "Cocina fusión: ítalo-peruana",
+      "series": "Cocina fusión",
+      "author": "Miga",
+      "authorGithub": "calamares00",
+      "description": "Lo que dejaron en la mesa peruana los inmigrantes ligures del siglo XIX, mezclado con ajíes, papas y quesos andinos: tallarines rojos, tallarines a la huancaína con lomo saltado, menestrón, pastel de acelga, ñoquis de papa amarilla y panetón.",
+      "coverImageUrl": "packs/fusion-italoperuana/cover.jpg",
+      "latestVersion": 1,
+      "recipeCount": 6,
+      "downloadUrl": "dist/fusion-italoperuana-v1.zip",
+      "language": "es"
+    },
+    {
+      "id": "fusion-peranakan",
+      "name": "Cocina fusión: peranakan",
+      "series": "Cocina fusión",
+      "author": "Miga",
+      "authorGithub": "calamares00",
+      "description": "La cocina nyonya de los peranakan, descendientes de chinos y malayos de Malaca, Penang y Singapur, que mezcla técnicas chinas con especias, coco y tamarindo: laksa lemak, asam laksa, ayam pongteh, ayam buah keluak, otak-otak, kueh pie tee, chap chye y kuih dadar.",
+      "coverImageUrl": "packs/fusion-peranakan/cover.jpg",
+      "latestVersion": 1,
+      "recipeCount": 8,
+      "downloadUrl": "dist/fusion-peranakan-v1.zip",
+      "language": "es"
+    },
+    {
+      "id": "fusion-texmex",
+      "name": "Cocina fusión: Tex-Mex",
+      "series": "Cocina fusión",
+      "author": "Miga",
+      "authorGithub": "calamares00",
+      "description": "La cocina de los tejanos de origen mexicano, con más queso amarillo, comino y carne de ternera que la de México: nachos, chile con queso, enchiladas de queso con chili gravy, tacos crujientes de carne, tacos de desayuno, pollo King Ranch, frito pie y sopaipillas.",
+      "coverImageUrl": "packs/fusion-texmex/cover.jpg",
+      "latestVersion": 1,
+      "recipeCount": 8,
+      "downloadUrl": "dist/fusion-texmex-v1.zip",
       "language": "es"
     },
     {
@@ -379,6 +600,32 @@
       "language": "en"
     },
     {
+      "id": "indian-cooking",
+      "name": "World cuisine: India",
+      "series": "World cuisine",
+      "author": "Miga",
+      "authorGithub": "calamares00",
+      "description": "Curries, pulses, breads and sweets from India: butter chicken, tandoori chicken, rogan josh, korma, vindaloo, palak paneer, chana masala, dal tadka, rajma, aloo gobi, baingan bharta, samosas, onion bhajis, raita, mint chutney, chapatis, aloo paratha, kheer, mango lassi and masala chai.",
+      "coverImageUrl": "packs/indian-cooking/cover.jpg",
+      "latestVersion": 1,
+      "recipeCount": 20,
+      "downloadUrl": "dist/indian-cooking-v1.zip",
+      "language": "en"
+    },
+    {
+      "id": "indo-chinese-fusion",
+      "name": "Fusion cuisine: Indo-Chinese",
+      "series": "Fusion cuisine",
+      "author": "Miga",
+      "authorGithub": "calamares00",
+      "description": "Indo-Chinese cooking, born among the Hakka Chinese of Kolkata and now at every street stall in India: gobi manchurian, chilli chicken, Hakka noodles, Schezwan fried rice, chilli paneer, manchow soup, sweetcorn soup and honey chilli potatoes.",
+      "coverImageUrl": "packs/indo-chinese-fusion/cover.jpg",
+      "latestVersion": 1,
+      "recipeCount": 8,
+      "downloadUrl": "dist/indo-chinese-fusion-v1.zip",
+      "language": "en"
+    },
+    {
       "id": "indonesian-cooking",
       "name": "World cuisine: Indonesia",
       "series": "World cuisine",
@@ -392,16 +639,55 @@
       "language": "en"
     },
     {
+      "id": "italian-american-fusion",
+      "name": "Fusion cuisine: Italian-American",
+      "series": "Fusion cuisine",
+      "author": "Miga",
+      "authorGithub": "calamares00",
+      "description": "The cooking of Italian immigrants in New York, New Jersey and San Francisco, more generous with meat, cheese and sauce than Italy's: spaghetti and meatballs, chicken parmesan, penne alla vodka, fettuccine Alfredo, baked ziti, shrimp scampi, cioppino and Italian wedding soup.",
+      "coverImageUrl": "packs/italian-american-fusion/cover.jpg",
+      "latestVersion": 1,
+      "recipeCount": 8,
+      "downloadUrl": "dist/italian-american-fusion-v1.zip",
+      "language": "en"
+    },
+    {
       "id": "italian-cooking",
       "name": "World cuisine: Italy",
       "series": "World cuisine",
       "author": "Miga",
       "authorGithub": "calamares00",
-      "description": "The great classics of Italy's regions: carbonara, amatriciana, cacio e pepe, lasagne, pasta alla Norma, spaghetti with clams, risotto alla milanese, ossobuco, saltimbocca, parmigiana, minestrone, pasta e fagioli, pizza margherita, focaccia, arancini, vitello tonnato, caponata, tiramisu and panna cotta. Made the Italian way, with no cream in the carbonara.",
+      "description": "The great classics of Italy's regions: carbonara, amatriciana, cacio e pepe, lasagne, pasta alla Norma, spaghetti with clams, risotto alla milanese, ossobuco, saltimbocca, parmigiana, minestrone, pasta e fagioli, pizza margherita, focaccia, arancini, vitello tonnato, caponata, puttanesca, orecchiette with turnip tops, gnocchi alla sorrentina, chicken cacciatore, ribollita, panzanella, carpaccio, calzone, tiramisu, panna cotta, cannoli and cantucci. Made the Italian way, with no cream in the carbonara.",
       "coverImageUrl": "packs/italian-cooking/cover.jpg",
-      "latestVersion": 3,
-      "recipeCount": 20,
-      "downloadUrl": "dist/italian-cooking-v3.zip",
+      "latestVersion": 4,
+      "recipeCount": 30,
+      "downloadUrl": "dist/italian-cooking-v4.zip",
+      "language": "en"
+    },
+    {
+      "id": "italian-peruvian-fusion",
+      "name": "Fusion cuisine: Italian-Peruvian",
+      "series": "Fusion cuisine",
+      "author": "Miga",
+      "authorGithub": "calamares00",
+      "description": "What 19th-century Ligurian immigrants left on the Peruvian table, mixed with Andean chillies, potatoes and cheeses: tallarines rojos, tallarines a la huancaína with lomo saltado, menestrón, chard pie, yellow potato gnocchi and panetón.",
+      "coverImageUrl": "packs/italian-peruvian-fusion/cover.jpg",
+      "latestVersion": 1,
+      "recipeCount": 6,
+      "downloadUrl": "dist/italian-peruvian-fusion-v1.zip",
+      "language": "en"
+    },
+    {
+      "id": "japanese-chinese-fusion",
+      "name": "Fusion cuisine: Japanese-Chinese",
+      "series": "Fusion cuisine",
+      "author": "Miga",
+      "authorGithub": "calamares00",
+      "description": "Chūka ryōri, the Japanese-style Chinese cooking of the Chinatowns of Yokohama and Nagasaki and of neighbourhood restaurants: chāhan, tenshinhan, ebi chili, ebi mayo, hiyashi chūka, Nagasaki champon, shūmai and nira reba.",
+      "coverImageUrl": "packs/japanese-chinese-fusion/cover.jpg",
+      "latestVersion": 1,
+      "recipeCount": 8,
+      "downloadUrl": "dist/japanese-chinese-fusion-v1.zip",
       "language": "en"
     },
     {
@@ -415,6 +701,32 @@
       "latestVersion": 3,
       "recipeCount": 20,
       "downloadUrl": "dist/japanese-cooking-v3.zip",
+      "language": "en"
+    },
+    {
+      "id": "korean-chinese-fusion",
+      "name": "Fusion cuisine: Korean-Chinese",
+      "series": "Fusion cuisine",
+      "author": "Miga",
+      "authorGithub": "calamares00",
+      "description": "The dishes of Korea's Chinese restaurants, created by Shandong immigrants in Incheon and ordered for delivery all over the country: jajangmyeon, jjamppong, tangsuyuk, kkanpunggi, lajogi, yusanseul, gun-mandu and goguma mattang.",
+      "coverImageUrl": "packs/korean-chinese-fusion/cover.jpg",
+      "latestVersion": 1,
+      "recipeCount": 8,
+      "downloadUrl": "dist/korean-chinese-fusion-v1.zip",
+      "language": "en"
+    },
+    {
+      "id": "malaysian-chinese-fusion",
+      "name": "Fusion cuisine: Malaysian Chinese",
+      "series": "Fusion cuisine",
+      "author": "Miga",
+      "authorGithub": "calamares00",
+      "description": "The cooking of Malaysia's Chinese (Hokkien, Cantonese, Hainanese and Hakka) at the hawker stalls of Penang and Kuala Lumpur: char kway teow, bak kut teh, Hokkien mee, yong tau foo, claypot chicken rice, wantan mee, Hainanese chicken chop and kaya toast.",
+      "coverImageUrl": "packs/malaysian-chinese-fusion/cover.jpg",
+      "latestVersion": 1,
+      "recipeCount": 8,
+      "downloadUrl": "dist/malaysian-chinese-fusion-v1.zip",
       "language": "en"
     },
     {
@@ -455,6 +767,19 @@
       "recipeCount": 20,
       "downloadUrl": "dist/panaderia-v3.zip",
       "language": "es"
+    },
+    {
+      "id": "peranakan-fusion",
+      "name": "Fusion cuisine: Peranakan",
+      "series": "Fusion cuisine",
+      "author": "Miga",
+      "authorGithub": "calamares00",
+      "description": "The Nyonya cooking of the Peranakan, descendants of Chinese and Malays in Malacca, Penang and Singapore, which blends Chinese techniques with spices, coconut and tamarind: laksa lemak, asam laksa, ayam pongteh, ayam buah keluak, otak-otak, kueh pie tee, chap chye and kuih dadar.",
+      "coverImageUrl": "packs/peranakan-fusion/cover.jpg",
+      "latestVersion": 1,
+      "recipeCount": 8,
+      "downloadUrl": "dist/peranakan-fusion-v1.zip",
+      "language": "en"
     },
     {
       "id": "peruvian-cooking",
@@ -520,6 +845,19 @@
       "recipeCount": 20,
       "downloadUrl": "dist/tapas-espanolas-v4.zip",
       "language": "es"
+    },
+    {
+      "id": "tex-mex-fusion",
+      "name": "Fusion cuisine: Tex-Mex",
+      "series": "Fusion cuisine",
+      "author": "Miga",
+      "authorGithub": "calamares00",
+      "description": "The cooking of Texans of Mexican descent, with more yellow cheese, cumin and beef than Mexico's: nachos, chile con queso, cheese enchiladas with chili gravy, crispy beef tacos, breakfast tacos, King Ranch chicken, Frito pie and sopaipillas.",
+      "coverImageUrl": "packs/tex-mex-fusion/cover.jpg",
+      "latestVersion": 1,
+      "recipeCount": 8,
+      "downloadUrl": "dist/tex-mex-fusion-v1.zip",
+      "language": "en"
     },
     {
       "id": "thai-cooking",

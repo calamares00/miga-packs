@@ -1,0 +1,299 @@
+id: fusion-chifa
+version: 1
+updated: 2026-11-07
+language: es
+name: "Cocina fusión: chifa"
+series: Cocina fusión
+description: >-
+  La cocina de los inmigrantes cantoneses en Perú, que desde el barrio chino de Lima llegó a todo
+  el país con el wok, la soja y los productos peruanos: tallarín saltado, chi jau kay, kam lu
+  wantán, aeropuerto, pollo enrollado, wantanes fritos, chancho con tamarindo y sopa fuchifú.
+author: Miga
+authorGithub: calamares00
+cover:
+  emoji: "🥢"
+  kicker: Cocina fusión
+  title: Chifa
+  colors: ["#b91c1c", "#eab308"]
+defaults:
+  origin: Perú
+  originCountry: PE
+  source: "Pack «Cocina fusión: chifa» de Miga"
+recipes:
+
+  - name: Tallarín saltado
+    health: [YELLOW, "Fideos salteados con pollo y verduras: plato completo, pero con bastante sal."]
+    nutrition: [560, 32, 66, 18]
+    photo: fusion-chifa/tallarin-saltado.jpg
+    category: Pastas
+    difficulty: EASY
+    prep: 20
+    cook: 15
+    servings: 4
+    tags: [fideos, pollo, salteado]
+    utensils: [Wok]
+    ingredients:
+      - items:
+          - [tallarines o fideos de huevo, 400, g]
+          - [pechuga de pollo, 400, g]
+          - [cebolla morada, 1, null]
+          - [pimiento rojo, 1, null]
+          - [col china, 200, g]
+          - [brotes de soja, 150, g]
+          - [cebolla china (cebolleta), 4, null]
+          - [jengibre fresco rallado, 1, cucharada]
+          - [ajo, 3, diente]
+          - [sillao (salsa de soja), 4, cucharada]
+          - [salsa de ostión, 2, cucharada]
+          - [aceite de ajonjolí (sésamo), 1, cucharadita]
+          - [chuño o maicena, 1, cucharada]
+          - [caldo de pollo, 150, ml]
+          - [aceite, 4, cucharada]
+    steps:
+      - "Cuece los fideos, escúrrelos y saltéalos en el wok con 1 cucharada de aceite y 1 de sillao hasta que se doren un poco. Resérvalos."
+      - "Corta el pollo en tiras, mézclalo con 1 cucharada de sillao y la mitad del chuño, y saltéalo a fuego muy fuerte 3 minutos."
+      - "Añade el ajo, el jengibre, la cebolla en gajos, el pimiento y la col, y saltea 2 minutos."
+      - "Agrega el caldo con el resto del sillao, la salsa de ostión y el chuño; cuando espese, echa los fideos, los brotes y la cebolla china. Saltea 1 minuto y termina con el aceite de ajonjolí."
+
+  - name: Chi jau kay
+    health: [YELLOW, "Pollo frito con salsa de ostión: sabroso, pero frito y con salsa salada."]
+    nutrition: [520, 36, 22, 31]
+    photo: fusion-chifa/chi-jau-kay.jpg
+    category: Carnes
+    difficulty: MEDIUM
+    prep: 30
+    cook: 25
+    servings: 4
+    tags: [pollo, frito]
+    ingredients:
+      - group: Pollo
+        items:
+          - [contramuslos de pollo deshuesados con piel, 800, g]
+          - [sillao (salsa de soja), 2, cucharada]
+          - [jengibre fresco rallado, 1, cucharada]
+          - [ajo, 2, diente]
+          - [vino de arroz o jerez, 1, cucharada]
+          - [huevo, 1, null]
+          - [chuño o maicena, 80, g]
+          - [aceite para freír, 1, l]
+      - group: Salsa
+        items:
+          - [salsa de ostión, 4, cucharada]
+          - [sillao, 1, cucharada]
+          - [azúcar, 1, cucharadita]
+          - [caldo de pollo, 200, ml]
+          - [chuño o maicena, 1, cucharada]
+          - [aceite de ajonjolí, 1, cucharadita]
+          - [semillas de ajonjolí tostadas, 1, cucharada]
+          - [cebolla china, 2, null]
+    steps:
+      - "Marina el pollo con el sillao, el jengibre, el ajo y el vino 30 minutos."
+      - "Pásalo por el huevo batido y el chuño y fríelo a 170 °C 6-7 minutos, hasta que esté dorado y crujiente. Córtalo en tiras."
+      - "Lleva a ebullición el caldo con la salsa de ostión, el sillao y el azúcar, y espesa con el chuño disuelto en agua. Añade el aceite de ajonjolí."
+      - "Sirve el pollo cubierto con la salsa, el ajonjolí y la cebolla china, con arroz chaufa o blanco."
+
+  - name: Kam lu wantán
+    health: [RED, "Wantanes fritos con cerdo, pollo y marisco en salsa agridulce: frito y con azúcar."]
+    nutrition: [640, 34, 58, 30]
+    photo: fusion-chifa/kam-lu-wantan.jpg
+    category: Carnes
+    difficulty: HARD
+    prep: 40
+    cook: 30
+    servings: 4
+    notes: "Es el gran plato de fiesta de los chifas: wantanes crujientes bañados en una salsa con piña y carnes salteadas."
+    tags: [frito, cerdo, marisco]
+    utensils: [Wok]
+    ingredients:
+      - group: Wantanes
+        items:
+          - [masa para wantán, 20, null]
+          - [carne picada de cerdo, 150, g]
+          - [sillao, 1, cucharadita]
+          - [cebolla china picada, 1, cucharada]
+          - [aceite para freír, 1, l]
+      - group: Salteado
+        items:
+          - [chancho asado (char siu) o lomo de cerdo, 150, g]
+          - [pechuga de pollo, 150, g]
+          - [langostinos pelados, 150, g]
+          - [piña en trozos, 150, g]
+          - [pimiento rojo, 1, null]
+          - [cebolla, 1, null]
+          - [kétchup, 4, cucharada]
+          - [vinagre, 3, cucharada]
+          - [azúcar, 4, cucharada]
+          - [sillao, 1, cucharada]
+          - [jugo de la piña o agua, 250, ml]
+          - [chuño o maicena, 1, cucharada]
+          - [aceite, 3, cucharada]
+    steps:
+      - "Mezcla el cerdo picado con el sillao y la cebolla china. Pon un poco en cada masa, ciérrala en forma de bolsita y fríe los wantanes a 175 °C hasta que estén dorados."
+      - "Saltea en el wok el pollo y el cerdo en tiras 3 minutos, añade los langostinos y saltea 1 minuto más."
+      - "Agrega la cebolla y el pimiento en cuadrados y la piña, y saltea 1 minuto."
+      - "Añade el jugo, el kétchup, el vinagre, el azúcar y el sillao; cuando hierva, espesa con el chuño disuelto en agua."
+      - Pon los wantanes en una fuente y vierte el salteado por encima justo al servir.
+
+  - name: Aeropuerto
+    health: [YELLOW, "Mezcla de arroz chaufa y tallarín saltado con tortilla: muy completo y saciante, pero calórico."]
+    nutrition: [720, 32, 92, 24]
+    photo: fusion-chifa/aeropuerto.jpg
+    category: Arroces
+    difficulty: MEDIUM
+    prep: 25
+    cook: 20
+    servings: 4
+    notes: Su nombre viene de que 'aterriza todo' en el plato. Se hace con arroz cocido la víspera.
+    tags: [arroz, fideos, huevos]
+    utensils: [Wok]
+    ingredients:
+      - items:
+          - [arroz cocido y frío, 600, g]
+          - [fideos de arroz o tallarines cocidos, 200, g]
+          - [chancho asado (char siu) o jamón, 150, g]
+          - [pechuga de pollo cocida, 150, g]
+          - [huevos, 4, null]
+          - [frejolito chino (brotes de soja), 150, g]
+          - [cebolla china, 4, null]
+          - [pimiento rojo, 0.5, null]
+          - [jengibre fresco rallado, 1, cucharadita]
+          - [sillao, 4, cucharada]
+          - [salsa de ostión, 1, cucharada]
+          - [aceite de ajonjolí, 1, cucharadita]
+          - [aceite, 4, cucharada]
+    steps:
+      - Bate 2 huevos y haz una tortilla fina; córtala en tiras.
+      - "Saltea en el wok muy caliente el jengibre, el cerdo y el pollo en dados 2 minutos. Añade el pimiento picado."
+      - "Casca los otros 2 huevos en el wok, revuélvelos y añade el arroz. Saltea 3 minutos con la mitad del sillao."
+      - "Añade los fideos, los brotes, el resto del sillao y la salsa de ostión y saltea 2 minutos."
+      - "Termina con la cebolla china, el aceite de ajonjolí y la tortilla en tiras por encima."
+
+  - name: Pollo enrollado
+    health: [YELLOW, "Rollo de pollo y cerdo al vapor y frito, con verduras en salsa: buena proteína, pero frito."]
+    nutrition: [480, 34, 24, 27]
+    photo: fusion-chifa/pollo-enrollado.jpg
+    category: Carnes
+    difficulty: HARD
+    prep: 40
+    cook: 40
+    servings: 4
+    notes: "Se cuece al vapor el día antes y se fríe al servir, cortado en rodajas."
+    tags: [pollo, cerdo, al vapor]
+    utensils: [Vaporera, Wok]
+    ingredients:
+      - group: Rollo
+        items:
+          - [pechuga de pollo picada, 300, g]
+          - [carne picada de cerdo, 150, g]
+          - [castañas de agua o nabo picado, 60, g]
+          - [cebolla china, 2, null]
+          - [jengibre fresco rallado, 1, cucharadita]
+          - [sillao, 1, cucharada]
+          - [aceite de ajonjolí, 1, cucharadita]
+          - [huevos, 3, null]
+          - [chuño o maicena, 4, cucharada]
+          - [aceite para freír, 500, ml]
+      - group: Verduras en salsa
+        items:
+          - [brócoli, 150, g]
+          - [zanahoria, 1, null]
+          - [vainitas chinas (tirabeques), 100, g]
+          - [salsa de ostión, 2, cucharada]
+          - [caldo de pollo, 200, ml]
+          - [chuño para la salsa, 1, cucharada]
+    steps:
+      - "Mezcla las carnes con las castañas, la cebolla china, el jengibre, el sillao, el aceite de ajonjolí, 1 huevo y 1 cucharada de chuño."
+      - Bate los otros 2 huevos con 1 cucharadita de chuño y haz 2 tortillas muy finas.
+      - "Extiende la mezcla sobre las tortillas, enróllalas apretando y cuécelas al vapor 20 minutos. Déjalas enfriar."
+      - "Corta los rollos en rodajas, pásalas por el resto del chuño y fríelas a 175 °C hasta que estén doradas."
+      - "Saltea las verduras en trozos, añade el caldo con la salsa de ostión y espesa con el chuño. Sirve las rodajas con las verduras en salsa y arroz chaufa."
+
+  - name: Wantanes fritos
+    health: [RED, "Bocados fritos de masa rellenos de cerdo: un aperitivo frito."]
+    nutrition: [360, 14, 30, 20]
+    photo: fusion-chifa/wantanes-fritos.jpg
+    category: Entrantes
+    difficulty: MEDIUM
+    prep: 30
+    cook: 15
+    servings: 4
+    notes: En los chifas se sirven con salsa de tamarindo o agridulce.
+    tags: [frito, aperitivo, cerdo]
+    ingredients:
+      - items:
+          - [masa para wantán, 30, null]
+          - [carne picada de cerdo, 250, g]
+          - [langostinos picados, 100, g]
+          - [cebolla china, 2, null]
+          - [jengibre fresco rallado, 1, cucharadita]
+          - [sillao, 1, cucharada]
+          - [aceite de ajonjolí, 1, cucharadita]
+          - [aceite para freír, 1, l]
+          - [salsa de tamarindo o agridulce, null, null]
+    steps:
+      - "Mezcla el cerdo, los langostinos, la cebolla china picada, el jengibre, el sillao y el aceite de ajonjolí."
+      - "Pon una cucharadita de relleno en cada masa, moja el borde y ciérrala en triángulo, juntando luego las dos puntas de abajo."
+      - "Fríelos por tandas a 175 °C 2-3 minutos, hasta que estén dorados y crujientes."
+      - Escúrrelos y sírvelos con la salsa.
+
+  - name: Chancho con tamarindo
+    health: [YELLOW, "Cerdo frito en salsa agridulce de tamarindo: proteína, pero frito y con azúcar."]
+    nutrition: [540, 30, 40, 28]
+    photo: fusion-chifa/chancho-con-tamarindo.jpg
+    category: Carnes
+    difficulty: MEDIUM
+    prep: 20
+    cook: 25
+    servings: 4
+    tags: [cerdo, frito]
+    utensils: [Wok]
+    ingredients:
+      - items:
+          - [lomo o panceta de cerdo, 600, g]
+          - [sillao, 1, cucharada]
+          - [huevo, 1, null]
+          - [chuño o maicena, 70, g]
+          - [aceite para freír, 750, ml]
+          - [pulpa de tamarindo, 60, g]
+          - [azúcar rubia, 5, cucharada]
+          - [agua, 250, ml]
+          - [kétchup, 1, cucharada]
+          - [pimiento rojo y verde, 1, null]
+          - [cebolla, 1, null]
+          - [chuño para la salsa, 1, cucharada]
+    steps:
+      - Disuelve el tamarindo en el agua caliente y cuélalo.
+      - "Corta el cerdo en dados, mézclalo con el sillao y el huevo y rebózalo en el chuño. Fríelo a 175 °C 5-6 minutos, hasta que esté crujiente."
+      - "En el wok con 1 cucharada de aceite, saltea la cebolla y los pimientos en cuadrados 1 minuto."
+      - "Añade el agua de tamarindo, el azúcar y el kétchup; cuando hierva, espesa con el chuño disuelto en agua."
+      - "Echa el cerdo, saltea para cubrirlo y sirve con arroz."
+
+  - name: Sopa fuchifú
+    health: [GREEN, "Sopa espesa de pollo con huevo y setas: ligera y con proteína."]
+    nutrition: [220, 22, 12, 9]
+    photo: fusion-chifa/sopa-fuchifu.jpg
+    category: Sopas y cremas
+    difficulty: EASY
+    prep: 15
+    cook: 25
+    servings: 4
+    notes: Es la sopa que abre muchos menús de chifa; su nombre viene del cantonés.
+    tags: [sopa, pollo, huevos]
+    ingredients:
+      - items:
+          - [caldo de pollo, 1.2, l]
+          - [pechuga de pollo, 250, g]
+          - [champiñones o setas shiitake, 100, g]
+          - [jengibre fresco, 3, cm]
+          - [huevos, 2, null]
+          - [chuño o maicena, 3, cucharada]
+          - [sillao, 1, cucharada]
+          - [aceite de ajonjolí, 1, cucharadita]
+          - [pimienta blanca, 0.5, cucharadita]
+          - [cebolla china, 2, null]
+          - [sal, null, null]
+    steps:
+      - Cuece el pollo en el caldo con el jengibre en rodajas 15 minutos. Sácalo y deshiláchalo.
+      - "Vuelve a echar el pollo con los champiñones laminados, el sillao y la pimienta, y cuece 5 minutos. Sala."
+      - Espesa con el chuño disuelto en agua fría hasta que la sopa quede untuosa.
+      - Vierte los huevos batidos en hilo removiendo despacio para que formen hebras. Termina con el aceite de ajonjolí y la cebolla china.

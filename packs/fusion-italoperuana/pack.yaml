@@ -1,0 +1,239 @@
+id: fusion-italoperuana
+version: 1
+updated: 2026-11-07
+language: es
+name: "Cocina fusión: ítalo-peruana"
+series: Cocina fusión
+description: >-
+  Lo que dejaron en la mesa peruana los inmigrantes ligures del siglo XIX, mezclado con ajíes,
+  papas y quesos andinos: tallarines rojos, tallarines a la huancaína con lomo saltado, menestrón,
+  pastel de acelga, ñoquis de papa amarilla y panetón.
+author: Miga
+authorGithub: calamares00
+cover:
+  emoji: "🍝"
+  kicker: Cocina fusión
+  title: Ítalo-peruana
+  colors: ["#b91c1c", "#16a34a"]
+defaults:
+  origin: Perú
+  originCountry: PE
+  source: "Pack «Cocina fusión: ítalo-peruana» de Miga"
+recipes:
+
+  - name: Tallarines rojos
+    health: [YELLOW, "Pasta con salsa de tomate y pollo: completa, con bastantes hidratos."]
+    nutrition: [640, 34, 84, 17]
+    photo: fusion-italoperuana/tallarines-rojos.jpg
+    category: Pastas
+    difficulty: EASY
+    prep: 15
+    cook: 50
+    servings: 4
+    tags: [pasta, pollo]
+    utensils: [Batidora]
+    ingredients:
+      - items:
+          - [tallarines o espaguetis, 400, g]
+          - [presas de pollo, 4, null]
+          - [aceite, 3, cucharada]
+          - [cebolla, 1, null]
+          - [ajo, 3, diente]
+          - [zanahoria, 1, null]
+          - [tomates maduros, 6, null]
+          - [concentrado de tomate, 2, cucharada]
+          - [ají panca en pasta o pimentón, 1, cucharada]
+          - [hongos secos (opcional), 15, g]
+          - [laurel, 1, hoja]
+          - [orégano seco, 1, cucharadita]
+          - [queso parmesano rallado, 40, g]
+          - [sal y pimienta negra, null, null]
+    steps:
+      - Salpimienta el pollo y dóralo en el aceite. Resérvalo.
+      - "Escalda los tomates, pélalos y tritúralos. Remoja los hongos en agua caliente."
+      - "En la misma olla, sofríe la cebolla, el ajo y la zanahoria picados 10 minutos. Añade el ají panca, el concentrado y el tomate triturado."
+      - "Agrega los hongos picados con su agua colada, el laurel, el orégano y el pollo. Cuece tapado 35 minutos, hasta que la salsa espese."
+      - "Cuece la pasta, mézclala con la salsa y sírvela con una presa de pollo y parmesano."
+
+  - name: Tallarines a la huancaína con lomo saltado
+    health: [RED, "Pasta con salsa de queso y ají y ternera salteada: muy completa pero muy calórica."]
+    nutrition: [820, 44, 82, 34]
+    photo: fusion-italoperuana/tallarines-a-la-huancaina-con-lomo-saltado.jpg
+    category: Pastas
+    difficulty: MEDIUM
+    prep: 25
+    cook: 25
+    servings: 4
+    notes: "Un clásico de los restaurantes limeños que une la pasta italiana, la huancaína andina y el salteado chifa."
+    tags: [pasta, ternera, picante]
+    utensils: [Batidora, Wok]
+    ingredients:
+      - group: Salsa huancaína
+        items:
+          - [ají amarillo en pasta, 3, cucharada]
+          - [queso fresco, 200, g]
+          - [leche evaporada, 150, ml]
+          - [galletas de soda, 4, null]
+          - [ajo, 1, diente]
+          - [aceite, 3, cucharada]
+          - [sal, null, null]
+      - group: Lomo saltado
+        items:
+          - [lomo o solomillo de ternera, 500, g]
+          - [cebolla morada, 1, null]
+          - [tomates, 2, null]
+          - [ají amarillo fresco o chile, 1, null]
+          - [ajo, 2, diente]
+          - [salsa de soja, 3, cucharada]
+          - [vinagre de vino tinto, 1, cucharada]
+          - [cilantro fresco, 1, puñado]
+          - [aceite, 3, cucharada]
+      - group: Pasta
+        items:
+          - [fettuccine o tallarines, 400, g]
+    steps:
+      - Tritura los ingredientes de la huancaína hasta obtener una crema espesa y lisa.
+      - "Cuece la pasta, escúrrela y mézclala con la huancaína templada a fuego bajo."
+      - "Corta la carne en tiras gruesas y saltéala en el wok muy caliente con el aceite, por tandas, 1 minuto. Añade el ajo, la cebolla en gajos y el ají en tiras y saltea 1 minuto."
+      - "Añade el tomate en gajos, la soja y el vinagre, saltea 30 segundos y termina con el cilantro."
+      - Sirve la pasta con la huancaína y el lomo saltado por encima.
+
+  - name: Menestrón
+    health: [GREEN, "Sopa espesa de verduras, legumbres, pasta y carne con albahaca: muy completa y nutritiva."]
+    nutrition: [480, 28, 56, 15]
+    photo: fusion-italoperuana/menestron.jpg
+    category: Sopas y cremas
+    difficulty: MEDIUM
+    prep: 30
+    cook: 90
+    servings: 6
+    notes: "Es la versión peruana del minestrone, con choclo, yuca y un pesto de albahaca y queso fresco."
+    tags: [sopa, verdura, legumbres]
+    utensils: [Batidora]
+    ingredients:
+      - group: Sopa
+        items:
+          - [carne de ternera para guisar (osobuco o falda), 500, g]
+          - [agua, 3, l]
+          - [alubias blancas cocidas, 250, g]
+          - [choclo (mazorca de maíz), 2, null]
+          - [yuca, 300, g]
+          - [papas, 2, null]
+          - [zanahoria, 1, null]
+          - [col, 0.25, null]
+          - [judías verdes, 100, g]
+          - [calabaza, 200, g]
+          - [macarrones, 100, g]
+          - [sal, null, null]
+      - group: Pesto
+        items:
+          - [albahaca fresca, 2, manojo]
+          - [espinacas, 100, g]
+          - [queso fresco, 100, g]
+          - [ajo, 2, diente]
+          - [aceite, 4, cucharada]
+    steps:
+      - "Cuece la carne en el agua con sal 1 hora, retirando la espuma."
+      - "Añade el choclo en rodajas, la yuca, las papas, la zanahoria y la calabaza en trozos y cuece 20 minutos."
+      - "Agrega la col, las judías verdes, las alubias y los macarrones y cuece 12 minutos más."
+      - "Tritura la albahaca, las espinacas escaldadas, el queso, el ajo y el aceite, e incorpora el pesto a la sopa fuera del fuego."
+      - "Deja reposar 5 minutos: debe quedar espesa y verde. Sirve con la carne en trozos."
+
+  - name: Pastel de acelga
+    health: [YELLOW, "Pastel de acelga con huevo y queso en masa: verdura, pero con la grasa de la masa."]
+    nutrition: [420, 16, 34, 25]
+    photo: fusion-italoperuana/pastel-de-acelga.jpg
+    category: Verduras
+    difficulty: MEDIUM
+    prep: 30
+    cook: 45
+    servings: 6
+    notes: "Viene de la torta pascualina de Liguria. Se come templado o frío, a menudo en Semana Santa."
+    tags: [vegetariano, al horno]
+    utensils: [Horno]
+    ingredients:
+      - items:
+          - [láminas de masa quebrada o de hojaldre, 2, null]
+          - [acelgas, 1, kg]
+          - [cebolla, 1, null]
+          - [aceite, 2, cucharada]
+          - [huevos, 5, null]
+          - [queso fresco o parmesano rallado, 100, g]
+          - [leche evaporada, 100, ml]
+          - [nuez moscada, 1, pizca]
+          - [sal y pimienta negra, null, null]
+    steps:
+      - "Lava las acelgas, escáldalas 2 minutos, escúrrelas apretando bien y pícalas."
+      - Pocha la cebolla picada en el aceite 8 minutos y mézclala con la acelga.
+      - "Bate 3 huevos con el queso, la leche y la nuez moscada, salpimienta y mézclalo con la verdura."
+      - "Precalienta el horno a 190 °C. Forra un molde con una lámina de masa, añade el relleno, haz dos huecos y casca en ellos los otros 2 huevos. Cubre con la otra lámina y sella el borde."
+      - "Pinta con huevo, pincha la superficie y hornea 40-45 minutos, hasta que esté dorado."
+
+  - name: Ñoquis de papa amarilla
+    health: [YELLOW, "Ñoquis de papa con salsa de tomate: sencillos, con muchos hidratos."]
+    nutrition: [520, 13, 92, 10]
+    photo: fusion-italoperuana/noquis-de-papa-amarilla.jpg
+    category: Pastas
+    difficulty: MEDIUM
+    prep: 40
+    cook: 30
+    servings: 4
+    notes: "La papa amarilla peruana, harinosa, da unos ñoquis muy tiernos; si no la encuentras, usa patata harinosa vieja."
+    tags: [pasta, vegetariano]
+    ingredients:
+      - group: Ñoquis
+        items:
+          - [papa amarilla o patata harinosa, 1, kg]
+          - [harina de trigo, 250, g]
+          - [huevo, 1, null]
+          - [sal, 1, cucharadita]
+      - group: Salsa
+        items:
+          - [aceite de oliva, 3, cucharada]
+          - [cebolla, 1, null]
+          - [ajo, 2, diente]
+          - [tomate triturado, 600, g]
+          - [albahaca fresca, 1, puñado]
+          - [queso parmesano rallado, 40, g]
+          - [sal, null, null]
+    steps:
+      - "Cuece las papas con piel, pélalas en caliente y pásalas por el pasapurés."
+      - "Mézclalas tibias con el huevo, la sal y la harina justa para formar una masa suave que no se pegue."
+      - "Haz cilindros de 2 cm, córtalos en trozos y márcalos con un tenedor."
+      - "Para la salsa, pocha la cebolla y el ajo en el aceite, añade el tomate, sala y cuece 15 minutos. Agrega la albahaca."
+      - Cuece los ñoquis en agua con sal y sácalos cuando suban a la superficie. Sírvelos con la salsa y parmesano.
+
+  - name: Panetón
+    health: [RED, "Pan dulce con frutas confitadas y pasas: un dulce navideño con mucho azúcar y mantequilla."]
+    nutrition: [380, 7, 56, 14]
+    photo: fusion-italoperuana/paneton.jpg
+    category: Panes y masas
+    difficulty: HARD
+    prep: 60
+    cook: 50
+    servings: 12
+    notes: "En Perú es imprescindible en Navidad, acompañado de chocolate caliente. La masa necesita unas 12 horas entre levados."
+    tags: [navidad, dulce, al horno]
+    utensils: [Horno, Amasadora]
+    ingredients:
+      - items:
+          - [harina de fuerza, 500, g]
+          - [levadura seca de panadería, 10, g]
+          - [leche templada, 120, ml]
+          - [huevos, 3, null]
+          - [yemas de huevo, 2, null]
+          - [azúcar, 120, g]
+          - [mantequilla blanda, 120, g]
+          - [miel, 1, cucharada]
+          - [esencia de vainilla, 1, cucharadita]
+          - [agua de azahar, 1, cucharadita]
+          - [ralladura de naranja y limón, 1, cucharada]
+          - [pasas, 120, g]
+          - [fruta confitada en dados, 150, g]
+          - [sal, 1, pizca]
+    steps:
+      - "Mezcla la levadura con la leche, 100 g de harina y 1 cucharada de azúcar. Deja que fermente 30 minutos."
+      - "Amasa el fermento con el resto de la harina, los huevos, las yemas, el azúcar, la miel, los aromas y la sal 10 minutos. Añade la mantequilla poco a poco hasta obtener una masa elástica."
+      - Incorpora las pasas y la fruta confitada enharinadas. Deja levar tapada 8-10 horas en un lugar templado.
+      - "Forma una bola, ponla en un molde de papel alto y deja que suba hasta el borde, 2-3 horas."
+      - "Hornea a 170 °C 45-50 minutos (cúbrelo si se dora demasiado). Déjalo enfriar colgado boca abajo, pinchado con dos brochetas, para que no se hunda."

@@ -1,0 +1,43 @@
+# Origin of every photo in this folder: source page, author and licence (CC0 1.0, Public domain,
+# CC BY x.y or CC BY-SA x.y). tools/build.py refuses a recipe photo without an entry here.
+
+chahan.jpg:
+  source: https://commons.wikimedia.org/wiki/File:Fried_rice_of_Gyoza-no-Manshu.jpg
+  author: "毒島みるく"
+  license: CC0 1.0
+
+tenshinhan.jpg:
+  source: https://commons.wikimedia.org/wiki/File:Tenshin-han_001.jpg
+  author: "Ocdp"
+  license: CC0 1.0
+
+ebi-chili.jpg:
+  source: https://commons.wikimedia.org/wiki/File:Boiled_shripmps_with_chili_sauce_bowl_of_Sukiya.jpg
+  author: "毒島みるく"
+  license: CC0 1.0
+
+ebi-mayo.jpg:
+  source: https://commons.wikimedia.org/wiki/File:Ebi_Chili_Mayo_(3470640986).jpg
+  author: "Geoff Peters from Vancouver, BC, Canada"
+  license: CC BY 2.0
+
+hiyashi-chuka.jpg:
+  source: https://commons.wikimedia.org/wiki/File:Hiyashi_chuka_002.jpg
+  author: "Ocdp"
+  license: CC0 1.0
+
+champon-de-nagasaki.jpg:
+  source: https://commons.wikimedia.org/wiki/File:Nagasaki_Champon_of_Ringer_Hut.jpg
+  author: "毒島みるく"
+  license: CC0 1.0
+
+shumai.jpg:
+  source: https://commons.wikimedia.org/wiki/File:Shumai_20230613_095857.jpg
+  author: "Franklin Rainier"
+  license: Public domain
+
+nira-reba.jpg:
+  source: https://commons.wikimedia.org/wiki/File:Nirareba_itame_of_Gyouza_no_Ohsho.jpg
+  author: "毒島みるく"
+  license: CC0 1.0
+

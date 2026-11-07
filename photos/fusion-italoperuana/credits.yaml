@@ -1,0 +1,33 @@
+# Origin of every photo in this folder: source page, author and licence (CC0 1.0, Public domain,
+# CC BY x.y or CC BY-SA x.y). tools/build.py refuses a recipe photo without an entry here.
+
+tallarines-rojos.jpg:
+  source: https://commons.wikimedia.org/wiki/File:Tallarines_rojos_con_pollo.jpg
+  author: "Jorge Castro Ruso"
+  license: CC BY-SA 2.0
+
+tallarines-a-la-huancaina-con-lomo-saltado.jpg:
+  source: https://commons.wikimedia.org/wiki/File:Lomo_de_atun_con_tallarines_a_la_huancaina.jpeg
+  author: "User:Dtarazona"
+  license: CC BY-SA 3.0
+
+menestron.jpg:
+  source: https://commons.wikimedia.org/wiki/File:Sopa_Menestron_2010511.JPG
+  author: "Dtarazona"
+  license: CC BY-SA 4.0
+
+pastel-de-acelga.jpg:
+  source: https://commons.wikimedia.org/wiki/File:Pascualina.jpg
+  author: "kweez mcG"
+  license: CC BY 2.0
+
+noquis-de-papa-amarilla.jpg:
+  source: https://commons.wikimedia.org/wiki/File:%C3%91oquis_con_Estofado_-_Santa_Evita_(2025-03-29).jpg
+  author: "Mauricio V. Genta"
+  license: CC BY-SA 4.0
+
+paneton.jpg:
+  source: https://commons.wikimedia.org/wiki/File:Panettone_aufgeschnitten_freigestellt.jpg
+  author: "Hartung"
+  license: Public domain
+

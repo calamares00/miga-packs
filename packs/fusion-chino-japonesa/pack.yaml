@@ -1,0 +1,276 @@
+id: fusion-chino-japonesa
+version: 1
+updated: 2026-11-07
+language: es
+name: "Cocina fusión: chino-japonesa"
+series: Cocina fusión
+description: >-
+  El chūka ryōri, la cocina china a la japonesa de los barrios chinos de Yokohama y Nagasaki y de
+  los restaurantes de barrio: chāhan, tenshinhan, ebi chili, ebi mayo, hiyashi chūka, champon de
+  Nagasaki, shūmai y nira reba.
+author: Miga
+authorGithub: calamares00
+cover:
+  emoji: "🥟"
+  kicker: Cocina fusión
+  title: Chino-japonesa
+  colors: ["#9f1239", "#fb7185"]
+defaults:
+  origin: Japón
+  originCountry: JP
+  source: "Pack «Cocina fusión: chino-japonesa» de Miga"
+recipes:
+
+  - name: Chāhan
+    health: [YELLOW, "Arroz frito con huevo, cerdo y cebolleta: sencillo, con bastantes hidratos."]
+    nutrition: [480, 18, 62, 17]
+    photo: fusion-chino-japonesa/chahan.jpg
+    category: Arroces
+    difficulty: EASY
+    prep: 10
+    cook: 10
+    servings: 4
+    notes: Sale mejor con arroz japonés cocido la víspera. El chashu sobrante del ramen es el relleno clásico.
+    tags: [arroz, huevos, rápido]
+    utensils: [Wok]
+    ingredients:
+      - items:
+          - [arroz japonés cocido y frío, 700, g]
+          - [huevos, 3, null]
+          - ["chashu, jamón cocido o panceta", 150, g]
+          - [cebolletas, 4, null]
+          - [salsa de soja, 1, cucharada]
+          - [sal, 0.5, cucharadita]
+          - [pimienta blanca, 0.5, cucharadita]
+          - [aceite de girasol, 3, cucharada]
+    steps:
+      - Pica el cerdo en dados pequeños y la cebolleta en rodajas finas.
+      - "Calienta el aceite en el wok hasta que humee, añade los huevos batidos e inmediatamente el arroz. Remueve deprisa para que el huevo envuelva los granos."
+      - "Saltea 3 minutos a fuego fuerte, aplastando los grumos, hasta que el arroz esté suelto."
+      - "Añade el cerdo y la cebolleta, sala y pimienta, y vierte la soja por el borde del wok. Saltea 30 segundos y sirve."
+
+  - name: Tenshinhan
+    health: [YELLOW, "Tortilla de cangrejo sobre arroz con salsa espesa: buena proteína, con bastantes hidratos."]
+    nutrition: [470, 20, 62, 15]
+    photo: fusion-chino-japonesa/tenshinhan.jpg
+    category: Huevos
+    difficulty: EASY
+    prep: 10
+    cook: 15
+    servings: 2
+    notes: "Se llama así por la ciudad china de Tianjin, aunque es un invento japonés."
+    tags: [huevos, arroz]
+    ingredients:
+      - group: Tortilla
+        items:
+          - [huevos, 4, null]
+          - [carne de cangrejo o surimi, 80, g]
+          - [cebolleta, 1, null]
+          - [arroz japonés cocido, 350, g]
+          - [aceite de girasol, 2, cucharada]
+      - group: Salsa
+        items:
+          - [caldo de pollo, 200, ml]
+          - [salsa de soja, 1, cucharada]
+          - [vinagre de arroz, 1, cucharada]
+          - [azúcar, 1, cucharada]
+          - [kétchup (opcional), 1, cucharada]
+          - [fécula de patata o maicena, 1, cucharada]
+    steps:
+      - "Pon el arroz caliente en dos platos hondos, formando una cúpula."
+      - "Lleva a ebullición el caldo con la soja, el vinagre, el azúcar y el kétchup, y espésalo con la fécula disuelta en un poco de agua."
+      - "Bate 2 huevos con la mitad del cangrejo y la cebolleta. Cuájalos en una sartén caliente con 1 cucharada de aceite, removiendo al principio, hasta tener una tortilla jugosa."
+      - Desliza la tortilla sobre el arroz y repite con el resto. Cubre con la salsa caliente.
+
+  - name: Ebi chili
+    health: [GREEN, "Gambas en salsa de tomate y chile: proteína magra y poca grasa."]
+    nutrition: [230, 24, 14, 8]
+    photo: fusion-chino-japonesa/ebi-chili.jpg
+    category: Pescados y mariscos
+    difficulty: EASY
+    prep: 15
+    cook: 10
+    servings: 4
+    notes: "Lo popularizó en Japón el cocinero sichuanés Chen Kenmin, adaptando la salsa con kétchup."
+    tags: [gambas, picante, rápido]
+    utensils: [Wok]
+    ingredients:
+      - items:
+          - [gambas peladas grandes, 500, g]
+          - [fécula de patata, 1, cucharada]
+          - [clara de huevo, 1, null]
+          - [ajo, 2, diente]
+          - [jengibre fresco rallado, 1, cucharadita]
+          - [cebolleta, 1, null]
+          - [doubanjiang (pasta de habas y chile), 1, cucharada]
+          - [kétchup, 3, cucharada]
+          - [caldo de pollo, 120, ml]
+          - [azúcar, 1, cucharadita]
+          - [sake o vino de arroz, 1, cucharada]
+          - [fécula de patata para la salsa, 1, cucharadita]
+          - [aceite de girasol, 3, cucharada]
+    steps:
+      - Mezcla las gambas con la clara y la fécula.
+      - "Saltéalas en el wok con 2 cucharadas de aceite 1 minuto y medio, hasta que se pongan rosas. Sácalas."
+      - "Saltea el ajo, el jengibre y la mitad de la cebolleta picados con el resto del aceite, añade el doubanjiang y fríelo 30 segundos."
+      - "Añade el kétchup, el caldo, el azúcar y el sake, cuece 1 minuto y espesa con la fécula disuelta en agua. Vuelve a echar las gambas, saltea y termina con el resto de la cebolleta."
+
+  - name: Ebi mayo
+    health: [RED, "Gambas fritas en salsa de mayonesa dulce: calóricas por la fritura y la mayonesa."]
+    nutrition: [430, 22, 18, 30]
+    photo: fusion-chino-japonesa/ebi-mayo.jpg
+    category: Pescados y mariscos
+    difficulty: EASY
+    prep: 15
+    cook: 10
+    servings: 4
+    tags: [gambas, frito]
+    ingredients:
+      - items:
+          - [gambas peladas grandes, 400, g]
+          - [huevo, 1, null]
+          - [fécula de patata, 60, g]
+          - [aceite de girasol para freír, 750, ml]
+          - [mayonesa japonesa (Kewpie), 5, cucharada]
+          - [leche condensada, 1, cucharada]
+          - [kétchup, 1, cucharadita]
+          - [zumo de limón, 1, cucharadita]
+          - [lechuga para servir, null, null]
+    steps:
+      - "Seca bien las gambas, pásalas por el huevo batido y luego por la fécula."
+      - "Fríelas a 175 °C 2 minutos, hasta que estén crujientes. Escúrrelas."
+      - "Mezcla la mayonesa con la leche condensada, el kétchup y el limón."
+      - Envuelve las gambas calientes en la salsa y sírvelas sobre lechuga.
+
+  - name: Hiyashi chūka
+    health: [GREEN, "Fideos fríos con verduras, huevo y jamón y aliño de vinagre: fresco y equilibrado."]
+    nutrition: [470, 22, 70, 11]
+    photo: fusion-chino-japonesa/hiyashi-chuka.jpg
+    category: Pastas
+    difficulty: EASY
+    prep: 25
+    cook: 10
+    servings: 4
+    notes: "Es el plato de verano por excelencia: muchos restaurantes anuncian cuándo empiezan a servirlo."
+    tags: [fideos, frío, verano]
+    ingredients:
+      - group: Fideos
+        items:
+          - [fideos de ramen frescos, 500, g]
+          - [pepino, 1, null]
+          - [tomate, 1, null]
+          - [jamón cocido, 100, g]
+          - [huevos, 2, null]
+          - [brotes de soja, 100, g]
+          - [jengibre encurtido (beni shōga), 1, cucharada]
+          - [mostaza japonesa, null, null]
+      - group: Aliño
+        items:
+          - [salsa de soja, 4, cucharada]
+          - [vinagre de arroz, 4, cucharada]
+          - [azúcar, 2, cucharada]
+          - [aceite de sésamo, 1, cucharada]
+          - [agua, 4, cucharada]
+    steps:
+      - Mezcla los ingredientes del aliño hasta que se disuelva el azúcar y enfríalo.
+      - Bate los huevos con una pizca de sal y haz tortillas muy finas; enróllalas y córtalas en tiras. Corta el pepino y el jamón en juliana y el tomate en gajos. Escalda los brotes 1 minuto.
+      - "Cuece los fideos, enjuágalos con agua muy fría hasta que estén helados y escúrrelos bien."
+      - "Reparte los fideos en platos, coloca encima los ingredientes en abanico, riega con el aliño y sirve con jengibre encurtido y mostaza."
+
+  - name: Champon de Nagasaki
+    health: [YELLOW, "Sopa de fideos con marisco, cerdo y muchas verduras: completa, pero el caldo es salado."]
+    nutrition: [560, 32, 66, 18]
+    photo: fusion-chino-japonesa/champon-de-nagasaki.jpg
+    category: Sopas y cremas
+    difficulty: MEDIUM
+    prep: 20
+    cook: 20
+    servings: 4
+    origin: Nagasaki
+    notes: Lo inventó en 1899 un cocinero chino de Fujian para alimentar a los estudiantes chinos de Nagasaki.
+    tags: [sopa, fideos, marisco]
+    utensils: [Wok]
+    ingredients:
+      - items:
+          - [fideos de ramen gruesos, 500, g]
+          - [panceta de cerdo, 150, g]
+          - [gambas, 150, g]
+          - [calamar, 150, g]
+          - [col blanca, 200, g]
+          - [brotes de soja, 150, g]
+          - [zanahoria, 0.5, null]
+          - [kamaboko o surimi, 80, g]
+          - [caldo de pollo, 1.2, l]
+          - [leche, 200, ml]
+          - [salsa de soja, 1, cucharada]
+          - [sal, 1, cucharadita]
+          - [pimienta blanca, 0.5, cucharadita]
+          - [aceite de girasol, 2, cucharada]
+    steps:
+      - "Corta el cerdo en tiras, el calamar en anillas, la col en trozos y la zanahoria y el kamaboko en láminas."
+      - "Saltea el cerdo en el wok con el aceite 2 minutos, añade el marisco y luego las verduras y el kamaboko, y saltea 3 minutos a fuego fuerte."
+      - "Añade el caldo, la leche, la soja, la sal y la pimienta y lleva a ebullición. El caldo debe quedar blanquecino y suave."
+      - "Cuece los fideos aparte, repártelos en cuencos y cúbrelos con el caldo y el salteado."
+
+  - name: Shūmai
+    health: [GREEN, "Bocados de cerdo al vapor: proteína, sin fritura."]
+    nutrition: [280, 18, 22, 13]
+    photo: fusion-chino-japonesa/shumai.jpg
+    category: Entrantes
+    difficulty: MEDIUM
+    prep: 40
+    cook: 12
+    servings: 4
+    origin: Yokohama
+    notes: Los shūmai de Yokohama se venden en la estación desde 1928 y se comen con mostaza y soja.
+    tags: [cerdo, al vapor]
+    utensils: [Vaporera]
+    ingredients:
+      - items:
+          - [obleas de wantán, 24, null]
+          - [carne picada de cerdo, 300, g]
+          - [cebolla, 0.5, null]
+          - [setas shiitake secas remojadas, 3, null]
+          - [fécula de patata, 1, cucharada]
+          - [jengibre fresco rallado, 1, cucharadita]
+          - [salsa de soja, 1, cucharada]
+          - [aceite de sésamo, 1, cucharadita]
+          - [azúcar, 1, cucharadita]
+          - [guisantes, 24, null]
+          - [mostaza japonesa y soja para servir, null, null]
+    steps:
+      - Pica muy fina la cebolla y mézclala con la fécula. Pica las setas.
+      - "Amasa el cerdo con la sal, la soja, el azúcar, el jengibre y el aceite de sésamo hasta que esté pegajoso. Añade la cebolla y las setas."
+      - "Pon una cucharada de relleno sobre cada oblea, cierra la mano en forma de C para formar un cilindro abierto por arriba y alisa la superficie. Corona cada uno con un guisante."
+      - Cuécelos al vapor sobre papel 10-12 minutos y sírvelos con mostaza y soja.
+
+  - name: Nira reba
+    health: [GREEN, "Hígado salteado con cebollino chino y brotes: mucho hierro y proteína."]
+    nutrition: [300, 26, 14, 15]
+    photo: fusion-chino-japonesa/nira-reba.jpg
+    category: Carnes
+    difficulty: EASY
+    prep: 20
+    cook: 10
+    servings: 4
+    tags: [casquería, salteado, rápido]
+    utensils: [Wok]
+    ingredients:
+      - items:
+          - [hígado de cerdo o de pollo, 400, g]
+          - [leche, 200, ml]
+          - [fécula de patata, 2, cucharada]
+          - [cebollino chino (nira), 1, manojo]
+          - [brotes de soja, 200, g]
+          - [ajo, 2, diente]
+          - [jengibre fresco rallado, 1, cucharadita]
+          - [salsa de soja, 2, cucharada]
+          - [salsa de ostras, 1, cucharada]
+          - [sake, 1, cucharada]
+          - [azúcar, 1, cucharadita]
+          - [aceite de girasol, 3, cucharada]
+    steps:
+      - "Corta el hígado en láminas y déjalo 15 minutos en leche para suavizar su sabor. Escúrrelo, sécalo y rebózalo en la fécula."
+      - Dóralo en el wok con 2 cucharadas de aceite 2 minutos por lado. Sácalo.
+      - "Mezcla la soja, la salsa de ostras, el sake y el azúcar."
+      - "Saltea el ajo y el jengibre con el resto del aceite, añade los brotes y el cebollino en trozos de 4 cm y saltea 1 minuto. Vuelve a echar el hígado con la salsa, saltea 30 segundos y sirve con arroz."

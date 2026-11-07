@@ -1,0 +1,43 @@
+# Origin of every photo in this folder: source page, author and licence (CC0 1.0, Public domain,
+# CC BY x.y or CC BY-SA x.y). tools/build.py refuses a recipe photo without an entry here.
+
+gambas-a-la-criolla.jpg:
+  source: https://commons.wikimedia.org/wiki/File:Shrimp_creole_(1).jpg
+  author: "John"
+  license: CC BY-SA 2.0
+
+alubias-rojas-con-arroz.jpg:
+  source: https://commons.wikimedia.org/wiki/File:Red_Beans_and_Rice.jpg
+  author: "Arnold Gatilao from Fremont, CA, USA"
+  license: CC BY 2.0
+
+etouffee-de-cangrejo-de-rio.jpg:
+  source: https://commons.wikimedia.org/wiki/File:Crawfish_etouffee.jpg
+  author: "jeffreyw"
+  license: CC BY 2.0
+
+grillades-con-semola-de-maiz.jpg:
+  source: https://commons.wikimedia.org/wiki/File:French_Press_Grits_and_Grillades_Lafayette_Louisiana.jpg
+  author: "Infrogmation of New Orleans"
+  license: CC BY-SA 4.0
+
+arroz-sucio.jpg:
+  source: https://commons.wikimedia.org/wiki/File:Pork_chop_and_dirty_rice.jpg
+  author: "Kent Wang"
+  license: CC BY-SA 2.0
+
+muffuletta.jpg:
+  source: https://commons.wikimedia.org/wiki/File:Muffuletta_in_Quarters.jpg
+  author: "sailn1"
+  license: CC BY 2.0
+
+beignets.jpg:
+  source: https://commons.wikimedia.org/wiki/File:Beignets_and_iced_coffee_at_Cafe_Beignet_in_New_Orleans.jpg
+  author: "Denise-Marie Ordway"
+  license: CC BY 2.0
+
+pudin-de-pan-con-salsa-de-whisky.jpg:
+  source: https://commons.wikimedia.org/wiki/File:Dookys_bread_pudding.jpg
+  author: "Karen Apricot from New Orleans, USA"
+  license: CC BY-SA 2.0
+

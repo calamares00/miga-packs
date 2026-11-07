@@ -1,0 +1,285 @@
+id: fusion-chino-estadounidense
+version: 1
+updated: 2026-11-07
+language: es
+name: "Cocina fusión: chino-estadounidense"
+series: Cocina fusión
+description: >-
+  La cocina que crearon los inmigrantes chinos en Estados Unidos y que llena las cajas de comida
+  para llevar: pollo del general Tso, pollo a la naranja, ternera con brócoli, chop suey, egg foo
+  young, crab rangoon, ternera mongola y lo mein.
+author: Miga
+authorGithub: calamares00
+cover:
+  emoji: "🥡"
+  kicker: Cocina fusión
+  title: Chino-estadounidense
+  colors: ["#991b1b", "#ef4444"]
+defaults:
+  origin: Estados Unidos
+  originCountry: US
+  source: "Pack «Cocina fusión: chino-estadounidense» de Miga"
+recipes:
+
+  - name: Pollo del general Tso
+    health: [RED, "Pollo rebozado y frito en salsa dulce: muy sabroso, pero con mucha grasa y azúcar."]
+    nutrition: [620, 34, 52, 30]
+    photo: fusion-chino-estadounidense/pollo-del-general-tso.jpg
+    category: Carnes
+    difficulty: MEDIUM
+    prep: 20
+    cook: 20
+    servings: 4
+    origin: Nueva York
+    notes: "Lo creó en Taiwán el cocinero Peng Chang-kuei y se hizo famoso, más dulce, en los restaurantes de Nueva York de los años 70."
+    tags: [pollo, frito, picante]
+    utensils: [Wok]
+    ingredients:
+      - group: Pollo
+        items:
+          - [contramuslos de pollo deshuesados, 700, g]
+          - [salsa de soja, 1, cucharada]
+          - [huevo, 1, null]
+          - [maicena, 80, g]
+          - [aceite de girasol para freír, 1, l]
+      - group: Salsa
+        items:
+          - [salsa de soja, 3, cucharada]
+          - [vinagre de arroz, 2, cucharada]
+          - [azúcar, 3, cucharada]
+          - [salsa hoisin, 1, cucharada]
+          - [caldo de pollo, 120, ml]
+          - [maicena, 1, cucharada]
+          - [chiles rojos secos, 8, null]
+          - [ajo, 3, diente]
+          - [jengibre fresco rallado, 1, cucharada]
+          - [cebolletas, 2, null]
+    steps:
+      - "Corta el pollo en dados, mézclalo con la soja y el huevo y luego con la maicena hasta que quede bien cubierto."
+      - "Fríelo en aceite a 170 °C 4 minutos, sácalo, sube el aceite a 190 °C y fríelo otra vez 2 minutos para que quede crujiente."
+      - "Mezcla la soja, el vinagre, el azúcar, el hoisin, el caldo y la maicena."
+      - "En el wok con 1 cucharada de aceite, saltea los chiles, el ajo y el jengibre 30 segundos. Añade la salsa y cuece hasta que espese y brille."
+      - "Echa el pollo, saltea para cubrirlo y sirve con la cebolleta picada y arroz blanco."
+
+  - name: Pollo a la naranja
+    health: [RED, "Pollo frito con salsa de naranja azucarada: calórico, con mucha grasa y azúcar."]
+    nutrition: [600, 33, 55, 27]
+    photo: fusion-chino-estadounidense/pollo-a-la-naranja.jpg
+    category: Carnes
+    difficulty: MEDIUM
+    prep: 20
+    cook: 20
+    servings: 4
+    origin: California
+    tags: [pollo, frito]
+    utensils: [Wok]
+    ingredients:
+      - group: Pollo
+        items:
+          - [contramuslos de pollo deshuesados, 700, g]
+          - [huevo, 1, null]
+          - [maicena, 60, g]
+          - [harina de trigo, 30, g]
+          - [sal, 0.5, cucharadita]
+          - [aceite de girasol para freír, 1, l]
+      - group: Salsa
+        items:
+          - [zumo de naranja, 200, ml]
+          - [ralladura de naranja, 1, cucharada]
+          - [azúcar moreno, 3, cucharada]
+          - [salsa de soja, 2, cucharada]
+          - [vinagre de arroz, 2, cucharada]
+          - [ajo, 2, diente]
+          - [jengibre fresco rallado, 1, cucharadita]
+          - [copos de chile, 0.5, cucharadita]
+          - [maicena, 1, cucharada]
+    steps:
+      - "Corta el pollo en dados, pásalo por el huevo batido y luego por la mezcla de maicena, harina y sal."
+      - "Fríelo por tandas en aceite a 175 °C 5-6 minutos, hasta que esté dorado. Escúrrelo."
+      - "Pon en el wok el zumo, la ralladura, el azúcar, la soja, el vinagre, el ajo, el jengibre y el chile, y lleva a ebullición. Espesa con la maicena disuelta en un poco de agua."
+      - "Añade el pollo, saltea hasta que esté glaseado y sirve con arroz."
+
+  - name: Ternera con brócoli
+    health: [GREEN, "Ternera salteada con brócoli en salsa de ostras: proteína y verdura con poca grasa."]
+    nutrition: [340, 30, 16, 17]
+    photo: fusion-chino-estadounidense/ternera-con-brocoli.jpg
+    category: Carnes
+    difficulty: EASY
+    prep: 20
+    cook: 10
+    servings: 4
+    tags: [ternera, salteado, rápido]
+    utensils: [Wok]
+    ingredients:
+      - items:
+          - [filete de ternera (babilla o falda), 500, g]
+          - [brócoli, 500, g]
+          - [salsa de soja, 2, cucharada]
+          - [maicena, 2, cucharadita]
+          - [bicarbonato, 0.25, cucharadita]
+          - [salsa de ostras, 3, cucharada]
+          - [vino de Shaoxing o jerez seco, 1, cucharada]
+          - [azúcar, 1, cucharadita]
+          - [ajo, 3, diente]
+          - [jengibre fresco rallado, 1, cucharadita]
+          - [aceite de girasol, 3, cucharada]
+    steps:
+      - "Corta la ternera en tiras finas contra la fibra y mézclala con 1 cucharada de soja, la maicena, el bicarbonato y 1 cucharada de agua. Deja 15 minutos."
+      - Escalda el brócoli en ramilletes 1 minuto y escúrrelo.
+      - "Mezcla la salsa de ostras, el resto de la soja, el vino, el azúcar y 80 ml de agua."
+      - "Saltea la ternera en el wok muy caliente con 2 cucharadas de aceite 2 minutos y sácala. Saltea el ajo y el jengibre con el resto del aceite, añade el brócoli y la salsa y, cuando hierva, vuelve a echar la ternera. Sirve con arroz."
+
+  - name: Chop suey
+    health: [GREEN, "Salteado de cerdo con muchas verduras y brotes de soja: equilibrado y ligero."]
+    nutrition: [300, 24, 14, 16]
+    photo: fusion-chino-estadounidense/chop-suey.jpg
+    category: Carnes
+    difficulty: EASY
+    prep: 20
+    cook: 10
+    servings: 4
+    notes: "Fue uno de los primeros platos chinos populares en EE. UU., ya a finales del siglo XIX."
+    tags: [cerdo, salteado, verdura]
+    utensils: [Wok]
+    ingredients:
+      - items:
+          - [lomo de cerdo, 400, g]
+          - [brotes de soja, 250, g]
+          - [apio, 2, rama]
+          - [cebolla, 1, null]
+          - [champiñones, 150, g]
+          - [pak choi o col china, 200, g]
+          - [salsa de soja, 3, cucharada]
+          - [salsa de ostras, 2, cucharada]
+          - [caldo de pollo, 150, ml]
+          - [maicena, 1, cucharada]
+          - [jengibre fresco rallado, 1, cucharadita]
+          - [aceite de girasol, 3, cucharada]
+    steps:
+      - Corta el cerdo en tiras finas y mézclalo con 1 cucharada de soja y 1 cucharadita de maicena.
+      - "Corta el apio en diagonal, la cebolla en gajos, los champiñones en láminas y el pak choi en trozos."
+      - "Saltea el cerdo en el wok muy caliente 3 minutos y sácalo. Saltea el jengibre, la cebolla, el apio y los champiñones 3 minutos; añade el pak choi y los brotes y saltea 1 minuto."
+      - "Vuelve a echar el cerdo, añade el caldo con la soja, la salsa de ostras y el resto de la maicena, y cuece hasta que espese. Sirve con arroz."
+
+  - name: Egg foo young
+    health: [YELLOW, "Tortillas con verduras y gambas en salsa: buena proteína, aunque se fríen en bastante aceite."]
+    nutrition: [330, 22, 10, 22]
+    photo: fusion-chino-estadounidense/egg-foo-young.jpg
+    category: Huevos
+    difficulty: EASY
+    prep: 15
+    cook: 20
+    servings: 4
+    tags: [huevos, gambas]
+    ingredients:
+      - group: Tortillas
+        items:
+          - [huevos, 8, null]
+          - [gambas peladas o cerdo asado picado, 200, g]
+          - [brotes de soja, 150, g]
+          - [cebolletas, 3, null]
+          - [champiñones, 100, g]
+          - [salsa de soja, 1, cucharada]
+          - [aceite de girasol, 6, cucharada]
+      - group: Salsa
+        items:
+          - [caldo de pollo, 250, ml]
+          - [salsa de ostras, 1, cucharada]
+          - [salsa de soja, 1, cucharada]
+          - [maicena, 1, cucharada]
+          - [azúcar, 1, cucharadita]
+    steps:
+      - "Prepara la salsa: lleva el caldo a ebullición con la salsa de ostras, la soja y el azúcar, y espésalo con la maicena disuelta en un poco de agua."
+      - "Bate los huevos con la soja y mézclalos con las gambas troceadas, los brotes, la cebolleta y los champiñones picados."
+      - "Calienta 2 cucharadas de aceite en una sartén pequeña y vierte un cucharón de mezcla. Fríe 2 minutos por lado, hasta que esté dorada y cuajada. Repite."
+      - "Sirve las tortillas apiladas, cubiertas con la salsa caliente."
+
+  - name: Crab rangoon
+    health: [RED, "Wantanes fritos rellenos de queso crema y cangrejo: un aperitivo muy calórico."]
+    nutrition: [340, 10, 24, 23]
+    photo: fusion-chino-estadounidense/crab-rangoon.jpg
+    category: Entrantes
+    difficulty: EASY
+    prep: 25
+    cook: 10
+    servings: 6
+    origin: San Francisco
+    notes: Se creó en el restaurante tiki Trader Vic's de San Francisco a mediados del siglo XX.
+    tags: [frito, aperitivo]
+    ingredients:
+      - items:
+          - [obleas de wantán, 30, null]
+          - [queso crema, 200, g]
+          - [carne de cangrejo o surimi, 150, g]
+          - [cebolletas, 2, null]
+          - [ajo, 1, diente]
+          - [salsa Worcestershire, 1, cucharadita]
+          - [azúcar, 1, cucharadita]
+          - [aceite de girasol para freír, 1, l]
+          - [salsa agridulce para mojar, null, null]
+    steps:
+      - "Mezcla el queso crema con el cangrejo desmenuzado, la cebolleta y el ajo picados, la salsa Worcestershire y el azúcar."
+      - "Pon una cucharadita de relleno en el centro de cada oblea, moja los bordes con agua y ciérrala juntando las cuatro puntas en forma de estrella."
+      - "Fríe por tandas en aceite a 175 °C 2-3 minutos, hasta que estén dorados."
+      - Escúrrelos y sírvelos calientes con salsa agridulce.
+
+  - name: Ternera mongola
+    health: [YELLOW, "Ternera salteada en salsa de soja y azúcar moreno: mucha proteína, pero salsa dulce y salada."]
+    nutrition: [430, 30, 26, 22]
+    photo: fusion-chino-estadounidense/ternera-mongola.jpg
+    category: Carnes
+    difficulty: EASY
+    prep: 15
+    cook: 15
+    servings: 4
+    notes: "Pese al nombre, no viene de Mongolia: es un plato de restaurante taiwanés y estadounidense."
+    tags: [ternera, salteado]
+    utensils: [Wok]
+    ingredients:
+      - items:
+          - [filete de ternera (falda), 600, g]
+          - [maicena, 4, cucharada]
+          - [aceite de girasol, 5, cucharada]
+          - [salsa de soja, 4, cucharada]
+          - [azúcar moreno, 3, cucharada]
+          - [ajo, 4, diente]
+          - [jengibre fresco rallado, 1, cucharada]
+          - [copos de chile, 0.5, cucharadita]
+          - [cebolletas, 6, null]
+    steps:
+      - Corta la ternera en tiras finas contra la fibra y rebózalas en la maicena.
+      - "Fríe la ternera en el wok con 4 cucharadas de aceite muy caliente, por tandas, 2 minutos, hasta que esté crujiente. Sácala."
+      - "Saltea el ajo, el jengibre y el chile con el resto del aceite 30 segundos. Añade la soja, el azúcar y 80 ml de agua y cuece 3 minutos, hasta que espese."
+      - "Vuelve a echar la ternera y la cebolleta en trozos de 4 cm, saltea 1 minuto y sirve con arroz."
+
+  - name: Lo mein
+    health: [YELLOW, "Fideos de huevo salteados con verduras y pollo: plato completo, pero con bastantes hidratos y sal."]
+    nutrition: [520, 28, 66, 16]
+    photo: fusion-chino-estadounidense/lo-mein.jpg
+    category: Pastas
+    difficulty: EASY
+    prep: 15
+    cook: 10
+    servings: 4
+    tags: [fideos, pollo, rápido]
+    utensils: [Wok]
+    ingredients:
+      - items:
+          - [fideos de huevo, 350, g]
+          - [pechuga de pollo, 300, g]
+          - [zanahoria, 1, null]
+          - [col china, 200, g]
+          - [champiñones, 150, g]
+          - [cebolletas, 3, null]
+          - [ajo, 2, diente]
+          - [salsa de soja, 3, cucharada]
+          - [salsa de soja oscura, 1, cucharada]
+          - [salsa de ostras, 2, cucharada]
+          - [aceite de sésamo, 1, cucharadita]
+          - [azúcar, 1, cucharadita]
+          - [aceite de girasol, 3, cucharada]
+    steps:
+      - "Cuece los fideos según el paquete, escúrrelos y mézclalos con el aceite de sésamo."
+      - "Mezcla las salsas de soja, la de ostras y el azúcar."
+      - "Saltea el pollo en tiras en el wok muy caliente 4 minutos. Añade el ajo, la zanahoria en juliana, los champiñones y la col y saltea 3 minutos."
+      - "Añade los fideos y la salsa y saltea 2 minutos, levantando los fideos para que se impregnen. Termina con la cebolleta."

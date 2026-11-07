@@ -1,0 +1,239 @@
+id: italian-peruvian-fusion
+version: 1
+updated: 2026-11-07
+language: en
+name: "Fusion cuisine: Italian-Peruvian"
+series: Fusion cuisine
+description: >-
+  What 19th-century Ligurian immigrants left on the Peruvian table, mixed with Andean chillies,
+  potatoes and cheeses: tallarines rojos, tallarines a la huancaína with lomo saltado, menestrón,
+  chard pie, yellow potato gnocchi and panetón.
+author: Miga
+authorGithub: calamares00
+cover:
+  emoji: "🍝"
+  kicker: Fusion cuisine
+  title: Italian-Peruvian
+  colors: ["#b91c1c", "#16a34a"]
+defaults:
+  origin: Peru
+  originCountry: PE
+  source: "Miga «Fusion cuisine: Italian-Peruvian» pack"
+recipes:
+
+  - name: Tallarines rojos
+    health: [YELLOW, "Pasta with tomato sauce and chicken: complete, with plenty of carbohydrates."]
+    nutrition: [640, 34, 84, 17]
+    photo: fusion-italoperuana/tallarines-rojos.jpg
+    category: Pasta
+    difficulty: EASY
+    prep: 15
+    cook: 50
+    servings: 4
+    tags: [pasta, chicken]
+    utensils: [Blender]
+    ingredients:
+      - items:
+          - [tallarines or spaghetti, 400, g]
+          - [chicken pieces, 4, null]
+          - [oil, 3, tbsp]
+          - [onion, 1, null]
+          - [garlic, 3, clove]
+          - [carrot, 1, null]
+          - [ripe tomatoes, 6, null]
+          - [tomato purée, 2, tbsp]
+          - [ají panca paste or paprika, 1, tbsp]
+          - [dried mushrooms (optional), 15, g]
+          - [bay leaf, 1, leaf]
+          - [dried oregano, 1, tsp]
+          - [grated parmesan, 40, g]
+          - [salt and black pepper, null, null]
+    steps:
+      - Season the chicken and brown it in the oil. Set aside.
+      - "Blanch, peel and blend the tomatoes. Soak the mushrooms in hot water."
+      - "In the same pot, fry the chopped onion, garlic and carrot for 10 minutes. Add the ají panca, tomato purée and blended tomatoes."
+      - "Add the chopped mushrooms with their strained water, the bay leaf, oregano and chicken. Simmer covered for 35 minutes, until the sauce thickens."
+      - "Cook the pasta, toss it with the sauce and serve with a piece of chicken and parmesan."
+
+  - name: Tallarines a la huancaína with lomo saltado
+    health: [RED, "Pasta in a cheese and chilli sauce with stir-fried beef: very complete but very high in calories."]
+    nutrition: [820, 44, 82, 34]
+    photo: fusion-italoperuana/tallarines-a-la-huancaina-con-lomo-saltado.jpg
+    category: Pasta
+    difficulty: MEDIUM
+    prep: 25
+    cook: 25
+    servings: 4
+    notes: "A classic of Lima restaurants that brings together Italian pasta, Andean huancaína and the chifa stir-fry."
+    tags: [pasta, beef, spicy]
+    utensils: [Blender, Wok]
+    ingredients:
+      - group: Huancaína sauce
+        items:
+          - [ají amarillo paste, 3, tbsp]
+          - [fresh cheese, 200, g]
+          - [evaporated milk, 150, ml]
+          - [soda crackers, 4, null]
+          - [garlic, 1, clove]
+          - [oil, 3, tbsp]
+          - [salt, null, null]
+      - group: Lomo saltado
+        items:
+          - [beef sirloin or fillet, 500, g]
+          - [red onion, 1, null]
+          - [tomatoes, 2, null]
+          - [fresh ají amarillo or chilli, 1, null]
+          - [garlic, 2, clove]
+          - [soy sauce, 3, tbsp]
+          - [red wine vinegar, 1, tbsp]
+          - [fresh coriander, 1, handful]
+          - [oil, 3, tbsp]
+      - group: Pasta
+        items:
+          - [fettuccine or tallarines, 400, g]
+    steps:
+      - "Blend the huancaína ingredients into a thick, smooth cream."
+      - "Cook the pasta, drain it and toss it with the huancaína over low heat to warm through."
+      - "Cut the beef into thick strips and stir-fry in a very hot wok with the oil, in batches, for 1 minute. Add the garlic, onion wedges and chilli strips and stir-fry for 1 minute."
+      - "Add the tomato wedges, soy sauce and vinegar, toss for 30 seconds and finish with the coriander."
+      - Serve the pasta in huancaína topped with the lomo saltado.
+
+  - name: Menestrón
+    health: [GREEN, "Thick soup of vegetables, beans, pasta and beef with basil: very complete and nourishing."]
+    nutrition: [480, 28, 56, 15]
+    photo: fusion-italoperuana/menestron.jpg
+    category: Soups
+    difficulty: MEDIUM
+    prep: 30
+    cook: 90
+    servings: 6
+    notes: "It is the Peruvian version of minestrone, with corn, cassava and a pesto of basil and fresh cheese."
+    tags: [soup, vegetables, pulses]
+    utensils: [Blender]
+    ingredients:
+      - group: Soup
+        items:
+          - [stewing beef (shin or flank), 500, g]
+          - [water, 3, l]
+          - [cooked white beans, 250, g]
+          - [corn on the cob, 2, null]
+          - [cassava, 300, g]
+          - [potatoes, 2, null]
+          - [carrot, 1, null]
+          - [cabbage, 0.25, null]
+          - [green beans, 100, g]
+          - [pumpkin, 200, g]
+          - [macaroni, 100, g]
+          - [salt, null, null]
+      - group: Pesto
+        items:
+          - [fresh basil, 2, bunch]
+          - [spinach, 100, g]
+          - [fresh cheese, 100, g]
+          - [garlic, 2, clove]
+          - [oil, 4, tbsp]
+    steps:
+      - "Simmer the beef in the salted water for 1 hour, skimming off the foam."
+      - "Add the corn in slices, the cassava, potatoes, carrot and pumpkin in chunks and simmer for 20 minutes."
+      - "Add the cabbage, green beans, white beans and macaroni and cook for 12 more minutes."
+      - "Blend the basil, blanched spinach, cheese, garlic and oil, and stir the pesto into the soup off the heat."
+      - "Leave for 5 minutes: it should be thick and green. Serve with the beef in pieces."
+
+  - name: Chard pie
+    health: [YELLOW, "Chard pie with egg and cheese in pastry: vegetables, but with fat from the pastry."]
+    nutrition: [420, 16, 34, 25]
+    photo: fusion-italoperuana/pastel-de-acelga.jpg
+    category: Vegetables
+    difficulty: MEDIUM
+    prep: 30
+    cook: 45
+    servings: 6
+    notes: "It comes from Ligurian torta pasqualina. It is eaten warm or cold, often at Easter."
+    tags: [vegetarian, baked]
+    utensils: [Oven]
+    ingredients:
+      - items:
+          - [sheets of shortcrust or puff pastry, 2, null]
+          - [Swiss chard, 1, kg]
+          - [onion, 1, null]
+          - [oil, 2, tbsp]
+          - [eggs, 5, null]
+          - [fresh cheese or grated parmesan, 100, g]
+          - [evaporated milk, 100, ml]
+          - [nutmeg, 1, pinch]
+          - [salt and black pepper, null, null]
+    steps:
+      - "Wash the chard, blanch for 2 minutes, squeeze very dry and chop."
+      - Soften the chopped onion in the oil for 8 minutes and mix it with the chard.
+      - "Beat 3 eggs with the cheese, milk and nutmeg, season and mix with the greens."
+      - "Preheat the oven to 190 °C. Line a tin with one sheet of pastry, add the filling, make two hollows and crack the other 2 eggs into them. Cover with the other sheet and seal the edge."
+      - "Brush with egg, prick the top and bake for 40-45 minutes, until golden."
+
+  - name: Yellow potato gnocchi
+    health: [YELLOW, "Potato gnocchi with tomato sauce: simple, high in carbohydrates."]
+    nutrition: [520, 13, 92, 10]
+    photo: fusion-italoperuana/noquis-de-papa-amarilla.jpg
+    category: Pasta
+    difficulty: MEDIUM
+    prep: 40
+    cook: 30
+    servings: 4
+    notes: "Floury Peruvian yellow potato gives very tender gnocchi; if you can't find it, use old floury potatoes."
+    tags: [pasta, vegetarian]
+    ingredients:
+      - group: Gnocchi
+        items:
+          - [yellow or floury potatoes, 1, kg]
+          - [plain flour, 250, g]
+          - [egg, 1, null]
+          - [salt, 1, tsp]
+      - group: Sauce
+        items:
+          - [olive oil, 3, tbsp]
+          - [onion, 1, null]
+          - [garlic, 2, clove]
+          - [crushed tomatoes, 600, g]
+          - [fresh basil, 1, handful]
+          - [grated parmesan, 40, g]
+          - [salt, null, null]
+    steps:
+      - "Boil the potatoes in their skins, peel them while hot and pass them through a ricer."
+      - "Mix them while warm with the egg, salt and just enough flour to form a soft dough that doesn't stick."
+      - "Roll into 2 cm ropes, cut into pieces and mark them with a fork."
+      - "For the sauce, soften the onion and garlic in the oil, add the tomatoes, salt and simmer for 15 minutes. Add the basil."
+      - Cook the gnocchi in salted water and lift them out when they float. Serve with the sauce and parmesan.
+
+  - name: Panetón
+    health: [RED, "Sweet bread with candied fruit and raisins: a Christmas treat high in sugar and butter."]
+    nutrition: [380, 7, 56, 14]
+    photo: fusion-italoperuana/paneton.jpg
+    category: Breads and doughs
+    difficulty: HARD
+    prep: 60
+    cook: 50
+    servings: 12
+    notes: "In Peru it is a must at Christmas, served with hot chocolate. The dough needs about 12 hours of rising."
+    tags: [christmas, sweet, baked]
+    utensils: [Oven, Stand mixer]
+    ingredients:
+      - items:
+          - [strong bread flour, 500, g]
+          - [dried yeast, 10, g]
+          - [warm milk, 120, ml]
+          - [eggs, 3, null]
+          - [egg yolks, 2, null]
+          - [sugar, 120, g]
+          - [softened butter, 120, g]
+          - [honey, 1, tbsp]
+          - [vanilla extract, 1, tsp]
+          - [orange blossom water, 1, tsp]
+          - [orange and lemon zest, 1, tbsp]
+          - [raisins, 120, g]
+          - [diced candied fruit, 150, g]
+          - [salt, 1, pinch]
+    steps:
+      - "Mix the yeast with the milk, 100 g of flour and 1 tablespoon of sugar. Leave to ferment for 30 minutes."
+      - "Knead the starter with the rest of the flour, the eggs, yolks, sugar, honey, flavourings and salt for 10 minutes. Add the butter little by little until the dough is elastic."
+      - "Work in the floured raisins and candied fruit. Leave to rise, covered, for 8-10 hours in a warm place."
+      - "Shape into a ball, put it in a tall paper mould and let it rise to the rim, 2-3 hours."
+      - "Bake at 170 °C for 45-50 minutes (cover it if it browns too much). Cool it hanging upside down, skewered with two sticks, so it doesn't collapse."

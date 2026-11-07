@@ -18,8 +18,9 @@ Recipe books that the Miga app installs from **Settings › Recipe packs**. See 
   rename recipes casually: the recipe uid comes from its name.
 - Every pack has a `series` (required by `tools/build.py`), used by the app to group packs:
   "Cocina del mundo" / "World cuisine", "Cocina de cada día" / "Everyday cooking",
-  "Electrodomésticos" / "Kitchen appliances", "Especiales" / "Specials". Reuse an existing series
-  before creating a new one; both languages of a pack belong to the matching series.
+  "Electrodomésticos" / "Kitchen appliances", "Especiales" / "Specials", "Cocina fusión" /
+  "Fusion cuisine". Reuse an existing series before creating a new one; both languages of a pack
+  belong to the matching series.
 - Covers carry no recipe count. Redraw them with `node tools/render_covers.mjs`.
 - Every recipe has `health: [GREEN|YELLOW|RED, "short reason"]` (in the pack's language) and
   `nutrition: [kcal, protein g, carbs g, fat g]` per serving, the same numbers in both languages;
@@ -36,7 +37,8 @@ Recipe books that the Miga app installs from **Settings › Recipe packs**. See 
 - After merging packs, update `packs/catalog.json` in `calamares00/miga-web` right away: the app
   reads that copy, not this repo's.
 - Country packs form the "Cocina del mundo: <país>" / "World cuisine: <country>" series, with
-  `kicker` on the cover. Recipes must be real, traditional dishes (no inventions) and must not
+  `kicker` on the cover. Fusion packs do the same as "Cocina fusión: <cocina>" / "Fusion cuisine:
+  <cuisine>" (ids `fusion-<cocina>` / `<cuisine>-fusion`), with 6-8 recipes each. Recipes must be real, traditional dishes (no inventions) and must not
   repeat a dish already in another pack of the same language.
 - Quote YAML values that contain ": " (names like "Cocina del mundo: México", sources, notes).
 - Pack descriptions do not state how many recipes the pack has.

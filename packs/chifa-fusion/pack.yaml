@@ -1,0 +1,299 @@
+id: chifa-fusion
+version: 1
+updated: 2026-11-07
+language: en
+name: "Fusion cuisine: Chifa"
+series: Fusion cuisine
+description: >-
+  The cooking of Cantonese immigrants in Peru, which spread from Lima's Chinatown to the whole
+  country with the wok, soy sauce and Peruvian produce: tallarín saltado, chi jau kay, kam lu
+  wantán, aeropuerto, pollo enrollado, fried wontons, pork with tamarind and fuchifú soup.
+author: Miga
+authorGithub: calamares00
+cover:
+  emoji: "🥢"
+  kicker: Fusion cuisine
+  title: Chifa
+  colors: ["#b91c1c", "#eab308"]
+defaults:
+  origin: Peru
+  originCountry: PE
+  source: "Miga «Fusion cuisine: Chifa» pack"
+recipes:
+
+  - name: Tallarín saltado
+    health: [YELLOW, "Noodles stir-fried with chicken and vegetables: a complete dish, but fairly salty."]
+    nutrition: [560, 32, 66, 18]
+    photo: fusion-chifa/tallarin-saltado.jpg
+    category: Pasta
+    difficulty: EASY
+    prep: 20
+    cook: 15
+    servings: 4
+    tags: [noodles, chicken, stir-fry]
+    utensils: [Wok]
+    ingredients:
+      - items:
+          - [egg noodles, 400, g]
+          - [chicken breast, 400, g]
+          - [red onion, 1, null]
+          - [red pepper, 1, null]
+          - [Chinese cabbage, 200, g]
+          - [bean sprouts, 150, g]
+          - [spring onions, 4, null]
+          - [grated fresh ginger, 1, tbsp]
+          - [garlic, 3, clove]
+          - [sillao (soy sauce), 4, tbsp]
+          - [oyster sauce, 2, tbsp]
+          - [sesame oil, 1, tsp]
+          - [potato starch or cornflour, 1, tbsp]
+          - [chicken stock, 150, ml]
+          - [oil, 4, tbsp]
+    steps:
+      - "Cook the noodles, drain and stir-fry them in the wok with 1 tablespoon of oil and 1 of sillao until lightly browned. Set aside."
+      - "Cut the chicken into strips, mix with 1 tablespoon of sillao and half the starch, and stir-fry over very high heat for 3 minutes."
+      - "Add the garlic, ginger, onion wedges, pepper and cabbage, and stir-fry for 2 minutes."
+      - "Add the stock with the rest of the sillao, the oyster sauce and the starch; when it thickens, add the noodles, sprouts and spring onion. Toss for 1 minute and finish with the sesame oil."
+
+  - name: Chi jau kay
+    health: [YELLOW, "Fried chicken with oyster sauce: tasty, but fried and in a salty sauce."]
+    nutrition: [520, 36, 22, 31]
+    photo: fusion-chifa/chi-jau-kay.jpg
+    category: Meat
+    difficulty: MEDIUM
+    prep: 30
+    cook: 25
+    servings: 4
+    tags: [chicken, fried]
+    ingredients:
+      - group: Chicken
+        items:
+          - [boneless skin-on chicken thighs, 800, g]
+          - [sillao (soy sauce), 2, tbsp]
+          - [grated fresh ginger, 1, tbsp]
+          - [garlic, 2, clove]
+          - [rice wine or sherry, 1, tbsp]
+          - [egg, 1, null]
+          - [potato starch or cornflour, 80, g]
+          - [oil for frying, 1, l]
+      - group: Sauce
+        items:
+          - [oyster sauce, 4, tbsp]
+          - [sillao, 1, tbsp]
+          - [sugar, 1, tsp]
+          - [chicken stock, 200, ml]
+          - [potato starch or cornflour, 1, tbsp]
+          - [sesame oil, 1, tsp]
+          - [toasted sesame seeds, 1, tbsp]
+          - [spring onion, 2, null]
+    steps:
+      - "Marinate the chicken with the sillao, ginger, garlic and wine for 30 minutes."
+      - "Dip it in the beaten egg and the starch and fry at 170 °C for 6-7 minutes, until golden and crisp. Slice it into strips."
+      - "Bring the stock to the boil with the oyster sauce, sillao and sugar, and thicken with the starch mixed with water. Add the sesame oil."
+      - "Serve the chicken covered with the sauce, sesame seeds and spring onion, with chaufa or white rice."
+
+  - name: Kam lu wantán
+    health: [RED, "Fried wontons with pork, chicken and seafood in sweet and sour sauce: fried and sugary."]
+    nutrition: [640, 34, 58, 30]
+    photo: fusion-chifa/kam-lu-wantan.jpg
+    category: Meat
+    difficulty: HARD
+    prep: 40
+    cook: 30
+    servings: 4
+    notes: "It is the big celebration dish of chifas: crisp wontons covered in a sauce with pineapple and stir-fried meats."
+    tags: [fried, pork, seafood]
+    utensils: [Wok]
+    ingredients:
+      - group: Wontons
+        items:
+          - [wonton wrappers, 20, null]
+          - [minced pork, 150, g]
+          - [sillao, 1, tsp]
+          - [chopped spring onion, 1, tbsp]
+          - [oil for frying, 1, l]
+      - group: Stir-fry
+        items:
+          - [roast pork (char siu) or pork loin, 150, g]
+          - [chicken breast, 150, g]
+          - [peeled king prawns, 150, g]
+          - [pineapple chunks, 150, g]
+          - [red pepper, 1, null]
+          - [onion, 1, null]
+          - [ketchup, 4, tbsp]
+          - [vinegar, 3, tbsp]
+          - [sugar, 4, tbsp]
+          - [sillao, 1, tbsp]
+          - [pineapple juice or water, 250, ml]
+          - [potato starch or cornflour, 1, tbsp]
+          - [oil, 3, tbsp]
+    steps:
+      - "Mix the minced pork with the sillao and spring onion. Put a little on each wrapper, close it into a pouch and fry the wontons at 175 °C until golden."
+      - "Stir-fry the chicken and pork strips in the wok for 3 minutes, add the prawns and stir-fry for 1 more minute."
+      - "Add the onion and pepper squares and the pineapple, and stir-fry for 1 minute."
+      - "Add the juice, ketchup, vinegar, sugar and sillao; when it boils, thicken with the starch mixed with water."
+      - Arrange the wontons on a platter and pour the stir-fry over them just before serving.
+
+  - name: Aeropuerto
+    health: [YELLOW, "A mix of chaufa rice and tallarín saltado with omelette: very complete and filling, but high in calories."]
+    nutrition: [720, 32, 92, 24]
+    photo: fusion-chifa/aeropuerto.jpg
+    category: Rice
+    difficulty: MEDIUM
+    prep: 25
+    cook: 20
+    servings: 4
+    notes: Its name comes from 'everything lands' on the plate. It is made with rice cooked the day before.
+    tags: [rice, noodles, eggs]
+    utensils: [Wok]
+    ingredients:
+      - items:
+          - [cold cooked rice, 600, g]
+          - [cooked rice noodles or egg noodles, 200, g]
+          - [roast pork (char siu) or ham, 150, g]
+          - [cooked chicken breast, 150, g]
+          - [eggs, 4, null]
+          - [bean sprouts, 150, g]
+          - [spring onions, 4, null]
+          - [red pepper, 0.5, null]
+          - [grated fresh ginger, 1, tsp]
+          - [sillao, 4, tbsp]
+          - [oyster sauce, 1, tbsp]
+          - [sesame oil, 1, tsp]
+          - [oil, 4, tbsp]
+    steps:
+      - Beat 2 eggs and make a thin omelette; cut it into strips.
+      - "Stir-fry the ginger, diced pork and chicken in a very hot wok for 2 minutes. Add the chopped pepper."
+      - "Crack the other 2 eggs into the wok, scramble them and add the rice. Stir-fry for 3 minutes with half the sillao."
+      - "Add the noodles, sprouts, the rest of the sillao and the oyster sauce and stir-fry for 2 minutes."
+      - "Finish with the spring onion, sesame oil and the omelette strips on top."
+
+  - name: Pollo enrollado
+    health: [YELLOW, "Steamed then fried chicken and pork roll, with vegetables in sauce: good protein, but fried."]
+    nutrition: [480, 34, 24, 27]
+    photo: fusion-chifa/pollo-enrollado.jpg
+    category: Meat
+    difficulty: HARD
+    prep: 40
+    cook: 40
+    servings: 4
+    notes: "It is steamed the day before and fried when served, cut into slices."
+    tags: [chicken, pork, steamed]
+    utensils: [Steamer, Wok]
+    ingredients:
+      - group: Roll
+        items:
+          - [minced chicken breast, 300, g]
+          - [minced pork, 150, g]
+          - [chopped water chestnuts or turnip, 60, g]
+          - [spring onions, 2, null]
+          - [grated fresh ginger, 1, tsp]
+          - [sillao, 1, tbsp]
+          - [sesame oil, 1, tsp]
+          - [eggs, 3, null]
+          - [potato starch or cornflour, 4, tbsp]
+          - [oil for frying, 500, ml]
+      - group: Vegetables in sauce
+        items:
+          - [broccoli, 150, g]
+          - [carrot, 1, null]
+          - [mangetout, 100, g]
+          - [oyster sauce, 2, tbsp]
+          - [chicken stock, 200, ml]
+          - [starch for the sauce, 1, tbsp]
+    steps:
+      - "Mix the meats with the water chestnuts, spring onion, ginger, sillao, sesame oil, 1 egg and 1 tablespoon of starch."
+      - Beat the other 2 eggs with 1 teaspoon of starch and make 2 very thin omelettes.
+      - "Spread the mixture over the omelettes, roll them up tightly and steam for 20 minutes. Leave to cool."
+      - "Cut the rolls into slices, dust with the rest of the starch and fry at 175 °C until golden."
+      - "Stir-fry the vegetables in pieces, add the stock with the oyster sauce and thicken with the starch. Serve the slices with the vegetables in sauce and chaufa rice."
+
+  - name: Fried wontons
+    health: [RED, "Fried pastry parcels filled with pork: a fried snack."]
+    nutrition: [360, 14, 30, 20]
+    photo: fusion-chifa/wantanes-fritos.jpg
+    category: Starters
+    difficulty: MEDIUM
+    prep: 30
+    cook: 15
+    servings: 4
+    notes: In chifas they are served with tamarind or sweet and sour sauce.
+    tags: [fried, snack, pork]
+    ingredients:
+      - items:
+          - [wonton wrappers, 30, null]
+          - [minced pork, 250, g]
+          - [chopped king prawns, 100, g]
+          - [spring onions, 2, null]
+          - [grated fresh ginger, 1, tsp]
+          - [sillao, 1, tbsp]
+          - [sesame oil, 1, tsp]
+          - [oil for frying, 1, l]
+          - [tamarind or sweet and sour sauce, null, null]
+    steps:
+      - "Mix the pork, prawns, chopped spring onion, ginger, sillao and sesame oil."
+      - "Put a teaspoon of filling on each wrapper, wet the edge and fold into a triangle, then bring the two bottom corners together."
+      - "Fry in batches at 175 °C for 2-3 minutes, until golden and crisp."
+      - Drain and serve with the sauce.
+
+  - name: Pork with tamarind
+    health: [YELLOW, "Fried pork in a sweet and sour tamarind sauce: protein, but fried and sugary."]
+    nutrition: [540, 30, 40, 28]
+    photo: fusion-chifa/chancho-con-tamarindo.jpg
+    category: Meat
+    difficulty: MEDIUM
+    prep: 20
+    cook: 25
+    servings: 4
+    tags: [pork, fried]
+    utensils: [Wok]
+    ingredients:
+      - items:
+          - [pork loin or belly, 600, g]
+          - [sillao, 1, tbsp]
+          - [egg, 1, null]
+          - [potato starch or cornflour, 70, g]
+          - [oil for frying, 750, ml]
+          - [tamarind pulp, 60, g]
+          - [light brown sugar, 5, tbsp]
+          - [water, 250, ml]
+          - [ketchup, 1, tbsp]
+          - [red and green peppers, 1, null]
+          - [onion, 1, null]
+          - [starch for the sauce, 1, tbsp]
+    steps:
+      - Dissolve the tamarind in the hot water and strain it.
+      - "Cut the pork into cubes, mix with the sillao and egg and coat in the starch. Fry at 175 °C for 5-6 minutes, until crisp."
+      - "In the wok with 1 tablespoon of oil, stir-fry the onion and pepper squares for 1 minute."
+      - "Add the tamarind water, sugar and ketchup; when it boils, thicken with the starch mixed with water."
+      - "Add the pork, toss to coat and serve with rice."
+
+  - name: Fuchifú soup
+    health: [GREEN, "Thick chicken soup with egg and mushrooms: light, with protein."]
+    nutrition: [220, 22, 12, 9]
+    photo: fusion-chifa/sopa-fuchifu.jpg
+    category: Soups
+    difficulty: EASY
+    prep: 15
+    cook: 25
+    servings: 4
+    notes: It is the soup that opens many chifa menus; its name comes from Cantonese.
+    tags: [soup, chicken, eggs]
+    ingredients:
+      - items:
+          - [chicken stock, 1.2, l]
+          - [chicken breast, 250, g]
+          - [mushrooms or shiitake, 100, g]
+          - [fresh ginger, 3, cm]
+          - [eggs, 2, null]
+          - [potato starch or cornflour, 3, tbsp]
+          - [sillao, 1, tbsp]
+          - [sesame oil, 1, tsp]
+          - [white pepper, 0.5, tsp]
+          - [spring onions, 2, null]
+          - [salt, null, null]
+    steps:
+      - Poach the chicken in the stock with the sliced ginger for 15 minutes. Remove it and shred it.
+      - "Return the chicken with the sliced mushrooms, sillao and pepper, and simmer for 5 minutes. Salt."
+      - Thicken with the starch mixed with cold water until the soup is silky.
+      - "Pour in the beaten eggs in a thin stream, stirring slowly so they form ribbons. Finish with the sesame oil and spring onion."

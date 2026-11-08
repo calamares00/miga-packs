@@ -219,6 +219,10 @@ def build_pack(pack_dir: Path):
     series = pack.get("series")
     if not isinstance(series, str) or not series.strip():
         fail(f"{pack_id}: series is required (e.g. \"Cocina del mundo\" or \"World cuisine\")")
+    # The Spanish and English versions of a pack share a family: the install counter adds them up.
+    family = pack.get("family")
+    if not isinstance(family, str) or not family.strip():
+        fail(f"{pack_id}: family is required (the Spanish pack id, the same in both languages)")
     book_uid = str(uuid.uuid5(NAMESPACE, f"{pack_id}/book"))
     book_cover = pack_dir / "book-cover.jpg"
     credits = load_credits()
@@ -258,6 +262,7 @@ def build_pack(pack_dir: Path):
         "id": pack_id,
         "name": pack["name"],
         "series": series.strip(),
+        "family": family.strip(),
         "author": pack.get("author", ""),
         "authorGithub": pack.get("authorGithub"),
         "description": " ".join(pack.get("description", "").split()),
@@ -278,6 +283,12 @@ def main():
     for old in DIST.glob("*.zip"):
         if old.name not in keep:
             old.unlink()
+    families = {}
+    for e in entries:
+        key = (e["family"], e["language"])
+        if key in families:
+            fail(f"{e['id']}: family {e['family']} already has a {e['language']} pack ({families[key]})")
+        families[key] = e["id"]
     catalog = {"schemaVersion": 1, "packs": entries}
     (ROOT / "catalog.json").write_text(json.dumps(catalog, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
     print(f"catalog.json: {len(entries)} packs")

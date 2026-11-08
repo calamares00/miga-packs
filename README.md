@@ -146,6 +146,7 @@ updated: 2026-10-30
 language: es                     # "es" o "en": la app muestra los packs de su idioma
 name: "Cocina del mundo: México" # nombre del libro en la app
 series: Cocina del mundo         # serie con la que la app agrupa los packs (obligatoria)
+family: cocina-mexicana          # id del pack en español, igual en las dos versiones (obligatoria): el contador de instalaciones las suma
 description: Texto del catálogo.
 author: Miga
 authorGithub: calamares00

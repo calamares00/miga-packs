@@ -8,7 +8,8 @@ Recipe books that the Miga app installs from **Settings › Recipe packs**. See 
 - Commits, pull requests, code comments and technical docs are written in **English**. Recipes are
   written in the language of their pack.
 - Every pack exists in Spanish and English: two folders, each with its own `id` and `language`
-  (`cocina-mexicana` / `mexican-cooking`). Change both when changing one.
+  (`cocina-mexicana` / `mexican-cooking`). Change both when changing one. Both carry the same `family`
+  (the Spanish id), used to add up their install counts.
 - Spanish packs use the app's Spanish category and equipment names (Entrantes, Postres, Horno…);
   English packs use the English ones (Starters, Desserts, Oven…).
 - Units are singular (`cucharada`, `tbsp`, `diente`, `clove`): the app makes them plural. Names of

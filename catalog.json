@@ -13,6 +13,7 @@
       "latestVersion": 3,
       "recipeCount": 20,
       "downloadUrl": "dist/20-minute-dinners-v3.zip",
+      "sha256": "5442e9b6f681e34387f144b93f0f110cb6d0fd660d7e875a301a4ddec2a6e7ae",
       "language": "en"
     },
     {
@@ -27,6 +28,7 @@
       "latestVersion": 3,
       "recipeCount": 20,
       "downloadUrl": "dist/air-fryer-v3.zip",
+      "sha256": "cae813c415b1f31c0a9038cd56e115acfb43e4c149a64c611f1bc2f0d6d56a6b",
       "language": "en"
     },
     {
@@ -41,6 +43,7 @@
       "latestVersion": 3,
       "recipeCount": 20,
       "downloadUrl": "dist/american-cooking-v3.zip",
+      "sha256": "69938de3f0a1635dacb18dd61355f9d1b0a4a7f486f3eda83d647ff823e4569b",
       "language": "en"
     },
     {
@@ -55,6 +58,7 @@
       "latestVersion": 1,
       "recipeCount": 8,
       "downloadUrl": "dist/anglo-indian-fusion-v1.zip",
+      "sha256": "3860f3c96f9200a74e38fb4937f0fc7b90c6a2264d07be1b6e3dd037f2c37158",
       "language": "en"
     },
     {
@@ -69,6 +73,7 @@
       "latestVersion": 3,
       "recipeCount": 20,
       "downloadUrl": "dist/argentine-cooking-v3.zip",
+      "sha256": "436ee13bb1548ba40f635f83e6f371fddca9f8b1f49c600965ca2fce71ab900e",
       "language": "en"
     },
     {
@@ -83,6 +88,7 @@
       "latestVersion": 3,
       "recipeCount": 20,
       "downloadUrl": "dist/arroces-v3.zip",
+      "sha256": "29337e3190d046dfc35a1c12902a539616307e8875b2d585ea485373c4793c1c",
       "language": "es"
     },
     {
@@ -97,6 +103,7 @@
       "latestVersion": 3,
       "recipeCount": 20,
       "downloadUrl": "dist/bakery-v3.zip",
+      "sha256": "8e10c03cec5a11b7414b1054511d6a15356de6345d20bd486033d892a5342135",
       "language": "en"
     },
     {
@@ -111,6 +118,7 @@
       "latestVersion": 3,
       "recipeCount": 20,
       "downloadUrl": "dist/cenas-en-20-minutos-v3.zip",
+      "sha256": "79846246d9d4676aecbfe45d1c8656d70872960762eae9cee00bc95c14738fc0",
       "language": "es"
     },
     {
@@ -125,6 +133,7 @@
       "latestVersion": 1,
       "recipeCount": 8,
       "downloadUrl": "dist/chifa-fusion-v1.zip",
+      "sha256": "45067029028640da6038d0a02adc7c7bcaf0b98aac5160a30576d9b8b4742a1f",
       "language": "en"
     },
     {
@@ -139,6 +148,7 @@
       "latestVersion": 1,
       "recipeCount": 8,
       "downloadUrl": "dist/chinese-american-fusion-v1.zip",
+      "sha256": "7c07766e00c0a8ca0e28cfca2efde71872684fd37c1024218a325a398de103c7",
       "language": "en"
     },
     {
@@ -153,6 +163,7 @@
       "latestVersion": 3,
       "recipeCount": 20,
       "downloadUrl": "dist/chinese-cooking-v3.zip",
+      "sha256": "19bf20c55c6fd6bd66f123904bbc50ad8b2eb3bb0f1f389b8c6571bb4ccd7f12",
       "language": "en"
     },
     {
@@ -167,6 +178,7 @@
       "latestVersion": 3,
       "recipeCount": 22,
       "downloadUrl": "dist/christmas-special-v3.zip",
+      "sha256": "8bfae60daf179ad24c8cf29998fdc0b9c6864af465d7145ad2116adabc4bb83d",
       "language": "en"
     },
     {
@@ -181,6 +193,7 @@
       "latestVersion": 3,
       "recipeCount": 20,
       "downloadUrl": "dist/cocina-alemana-v3.zip",
+      "sha256": "12a288644bd8d1525cec73f09482260a4032087b1ab6fe608e450abf982ff0e6",
       "language": "es"
     },
     {
@@ -195,6 +208,7 @@
       "latestVersion": 3,
       "recipeCount": 20,
       "downloadUrl": "dist/cocina-argentina-v3.zip",
+      "sha256": "44d5bbb71ff54051702bd39225a651b737fd4342bb81f8d934375adda99ae28d",
       "language": "es"
     },
     {
@@ -209,6 +223,7 @@
       "latestVersion": 3,
       "recipeCount": 20,
       "downloadUrl": "dist/cocina-china-v3.zip",
+      "sha256": "a1155b78b54532bf1ca2d19bb99aff7dc81c8479da86c086802ed3d142018758",
       "language": "es"
     },
     {
@@ -223,6 +238,7 @@
       "latestVersion": 3,
       "recipeCount": 20,
       "downloadUrl": "dist/cocina-colombiana-v3.zip",
+      "sha256": "0a043d3981a604f4ca52e5acbe913fc83b4e7b489abd2f7f8e655e653cb2177d",
       "language": "es"
     },
     {
@@ -237,6 +253,7 @@
       "latestVersion": 3,
       "recipeCount": 21,
       "downloadUrl": "dist/cocina-espanola-v3.zip",
+      "sha256": "b129482e4a94a520b6b2f2c312d8d022c2a3a2638c02470e46c070bc7867a5d2",
       "language": "es"
     },
     {
@@ -251,6 +268,7 @@
       "latestVersion": 3,
       "recipeCount": 20,
       "downloadUrl": "dist/cocina-estadounidense-v3.zip",
+      "sha256": "de1b600f6f3a10844cd86a480e3d48e63a36eb3b8f37bec339bdb5600e6d7f7a",
       "language": "es"
     },
     {
@@ -265,6 +283,7 @@
       "latestVersion": 3,
       "recipeCount": 20,
       "downloadUrl": "dist/cocina-griega-v3.zip",
+      "sha256": "3f423cc717d821127aff174f786ed211c1f1a592586dfc01c6aaee0b66518f9a",
       "language": "es"
     },
     {
@@ -279,6 +298,7 @@
       "latestVersion": 1,
       "recipeCount": 20,
       "downloadUrl": "dist/cocina-india-v1.zip",
+      "sha256": "0a9f8c079ff1f6cb17087c08bd67840c671e20cd7c25854a80d95a1bd2fbb1f0",
       "language": "es"
     },
     {
@@ -293,6 +313,7 @@
       "latestVersion": 3,
       "recipeCount": 20,
       "downloadUrl": "dist/cocina-indonesia-v3.zip",
+      "sha256": "0a0c67f34940b9da3ac80948ec571b1722929b8d8c6702f8278a1215ba3a05a7",
       "language": "es"
     },
     {
@@ -307,6 +328,7 @@
       "latestVersion": 4,
       "recipeCount": 30,
       "downloadUrl": "dist/cocina-italiana-v4.zip",
+      "sha256": "76f736d406bdd85c0e3c823313c14bf08cc7801893965002912bf6c12c30ea70",
       "language": "es"
     },
     {
@@ -321,6 +343,7 @@
       "latestVersion": 3,
       "recipeCount": 20,
       "downloadUrl": "dist/cocina-japonesa-v3.zip",
+      "sha256": "5e145739c2ae9e30ce722a9791214ce02537242bf0f557c97d56b4f48060f2b3",
       "language": "es"
     },
     {
@@ -335,6 +358,7 @@
       "latestVersion": 3,
       "recipeCount": 20,
       "downloadUrl": "dist/cocina-mediterranea-v3.zip",
+      "sha256": "e45fd4c9d1e9f60fb4243228ca73d307ae3048d6b46abd173dad4d9d23f3054c",
       "language": "es"
     },
     {
@@ -349,6 +373,7 @@
       "latestVersion": 4,
       "recipeCount": 20,
       "downloadUrl": "dist/cocina-mexicana-v4.zip",
+      "sha256": "655ed1098092f616ed362d5fade36e881f0db2a7935cb0ab159f8318ff164873",
       "language": "es"
     },
     {
@@ -363,6 +388,7 @@
       "latestVersion": 3,
       "recipeCount": 20,
       "downloadUrl": "dist/cocina-peruana-v3.zip",
+      "sha256": "250eaf553f0217e167209381306da3c3723258b3dcb83369db20296f71e5fbd3",
       "language": "es"
     },
     {
@@ -377,6 +403,7 @@
       "latestVersion": 3,
       "recipeCount": 20,
       "downloadUrl": "dist/cocina-tailandesa-v3.zip",
+      "sha256": "55ee04c63bdc0a119c1bd5bafd5f3ba64f10d120d3ee6714f4617ecfd4c9a7cd",
       "language": "es"
     },
     {
@@ -391,6 +418,7 @@
       "latestVersion": 3,
       "recipeCount": 20,
       "downloadUrl": "dist/cocina-vietnamita-v3.zip",
+      "sha256": "a96c3c6d25fab2cf45fb24f133b4f49dbda043620c322aa20db0323158f62936",
       "language": "es"
     },
     {
@@ -405,6 +433,7 @@
       "latestVersion": 3,
       "recipeCount": 20,
       "downloadUrl": "dist/colombian-cooking-v3.zip",
+      "sha256": "3b8e4bae151a590b3623bd3ed6cbe725fe382407a2f0fcce4d3eaf9f194c6123",
       "language": "en"
     },
     {
@@ -419,6 +448,7 @@
       "latestVersion": 1,
       "recipeCount": 8,
       "downloadUrl": "dist/creole-fusion-v1.zip",
+      "sha256": "f20f5d05ab18515c9ff10e84429a49b9ee5c039a97bfb4f2888d47abe2dc4456",
       "language": "en"
     },
     {
@@ -433,6 +463,7 @@
       "latestVersion": 3,
       "recipeCount": 22,
       "downloadUrl": "dist/especial-navidad-v3.zip",
+      "sha256": "3390b743c0bcabcada06626a4b66850512a7a1d0d7582cc3b5b2461f836fa6c0",
       "language": "es"
     },
     {
@@ -447,6 +478,7 @@
       "latestVersion": 3,
       "recipeCount": 20,
       "downloadUrl": "dist/freidora-de-aire-v3.zip",
+      "sha256": "0e00e1c62db3ba9e91e4853701bfdbf877686eef0e08c8e8b408d64691d66d8f",
       "language": "es"
     },
     {
@@ -461,6 +493,7 @@
       "latestVersion": 1,
       "recipeCount": 8,
       "downloadUrl": "dist/fusion-anglo-india-v1.zip",
+      "sha256": "2e7ec726cc5450538c1bdc48c721d43eebd521d68656ee978d34bf0678abb0c6",
       "language": "es"
     },
     {
@@ -475,6 +508,7 @@
       "latestVersion": 1,
       "recipeCount": 8,
       "downloadUrl": "dist/fusion-chifa-v1.zip",
+      "sha256": "044ae7f7aeaa336b90c57185c9ae9902e9667a7c085660ca643d6cd555997ea4",
       "language": "es"
     },
     {
@@ -489,6 +523,7 @@
       "latestVersion": 1,
       "recipeCount": 8,
       "downloadUrl": "dist/fusion-chino-coreana-v1.zip",
+      "sha256": "209bdd8dd99ec2b7389fdd9c6718e85021fbd2fca4c31dfa4bb5dba43b0c8e16",
       "language": "es"
     },
     {
@@ -503,6 +538,7 @@
       "latestVersion": 1,
       "recipeCount": 8,
       "downloadUrl": "dist/fusion-chino-estadounidense-v1.zip",
+      "sha256": "a8e20d1b2ca89bef7d575a7c429e8e11ff15ce31162e80577013df7a093e7dd1",
       "language": "es"
     },
     {
@@ -517,6 +553,7 @@
       "latestVersion": 1,
       "recipeCount": 8,
       "downloadUrl": "dist/fusion-chino-india-v1.zip",
+      "sha256": "7eabcc0e245fc99d8baf490e74f1133155ca4953c7dc62fa2abeb7fec52515b1",
       "language": "es"
     },
     {
@@ -531,6 +568,7 @@
       "latestVersion": 1,
       "recipeCount": 8,
       "downloadUrl": "dist/fusion-chino-japonesa-v1.zip",
+      "sha256": "1251c8e9065c37544da7cbb474bcd9a2ff0eb7c62b4cd9cfb4acd133f388e948",
       "language": "es"
     },
     {
@@ -545,6 +583,7 @@
       "latestVersion": 1,
       "recipeCount": 8,
       "downloadUrl": "dist/fusion-chino-malaya-v1.zip",
+      "sha256": "9f22d9f4ded5d63a7eed6c435705ce164ff176e3ad2d9049c2f8b701422be62a",
       "language": "es"
     },
     {
@@ -559,6 +598,7 @@
       "latestVersion": 1,
       "recipeCount": 8,
       "downloadUrl": "dist/fusion-criolla-v1.zip",
+      "sha256": "3c4170219795d4d13b0aae92f20e6912ed606f9d7cb37df346f9eca5a0175407",
       "language": "es"
     },
     {
@@ -573,6 +613,7 @@
       "latestVersion": 1,
       "recipeCount": 8,
       "downloadUrl": "dist/fusion-italoestadounidense-v1.zip",
+      "sha256": "921a78fa401aaca298ed5e8a82c6372cdb093bebb428b67acf61e46ba03a1142",
       "language": "es"
     },
     {
@@ -587,6 +628,7 @@
       "latestVersion": 1,
       "recipeCount": 6,
       "downloadUrl": "dist/fusion-italoperuana-v1.zip",
+      "sha256": "d63c3dcd67e5e9936e3001f2e3500cb8e40d64b32b14c3789ec036d52c90c0ac",
       "language": "es"
     },
     {
@@ -601,6 +643,7 @@
       "latestVersion": 1,
       "recipeCount": 8,
       "downloadUrl": "dist/fusion-peranakan-v1.zip",
+      "sha256": "7764fa71f903a286ff589deaef2aedda6b2c055ed58b436d451a34d8d74b3d1e",
       "language": "es"
     },
     {
@@ -615,6 +658,7 @@
       "latestVersion": 1,
       "recipeCount": 8,
       "downloadUrl": "dist/fusion-texmex-v1.zip",
+      "sha256": "51f610dd2224de9e79204b6022ffe4a6cce0ca82caf0a891f22018fead8c4c80",
       "language": "es"
     },
     {
@@ -629,6 +673,7 @@
       "latestVersion": 3,
       "recipeCount": 20,
       "downloadUrl": "dist/german-cooking-v3.zip",
+      "sha256": "8e9908300fd3b36b983a3a20e493103b505cee39bb6ca83ef1c26bb6def2749a",
       "language": "en"
     },
     {
@@ -643,6 +688,7 @@
       "latestVersion": 3,
       "recipeCount": 20,
       "downloadUrl": "dist/greek-cooking-v3.zip",
+      "sha256": "6c7d1a8bb5f1bd94388b8e95dcaf9f5988bfb1f406780503820b52c1fa9b12e8",
       "language": "en"
     },
     {
@@ -657,6 +703,7 @@
       "latestVersion": 1,
       "recipeCount": 10,
       "downloadUrl": "dist/healthy-batch-cooking-v1.zip",
+      "sha256": "68658d9f5f06e37fdd2f61dafd984f51f457ae549204ac4b7235ad04a536a2f9",
       "language": "en"
     },
     {
@@ -671,6 +718,7 @@
       "latestVersion": 1,
       "recipeCount": 10,
       "downloadUrl": "dist/healthy-breakfasts-and-snacks-v1.zip",
+      "sha256": "98aefb7e5853653c8d93c3004f7fa7bc9ed89ac5914b92606329c5435a5ee6df",
       "language": "en"
     },
     {
@@ -685,6 +733,7 @@
       "latestVersion": 1,
       "recipeCount": 10,
       "downloadUrl": "dist/healthy-gluten-free-v1.zip",
+      "sha256": "1a2d92c029b7563387f563c7fb4fbcc61a1635afa08ed1c2db1840566d596caf",
       "language": "en"
     },
     {
@@ -699,6 +748,7 @@
       "latestVersion": 1,
       "recipeCount": 10,
       "downloadUrl": "dist/healthy-light-and-filling-v1.zip",
+      "sha256": "d345d971e3ee0ca31a794d6b43afc66a43cba7a14c4aead13bc733e3b4df9113",
       "language": "en"
     },
     {
@@ -713,6 +763,7 @@
       "latestVersion": 1,
       "recipeCount": 10,
       "downloadUrl": "dist/healthy-low-salt-v1.zip",
+      "sha256": "8492facda779be2b1f24072e6da9838b09f600be33296e2c037658a567b92e4a",
       "language": "en"
     },
     {
@@ -727,6 +778,7 @@
       "latestVersion": 1,
       "recipeCount": 10,
       "downloadUrl": "dist/healthy-vegan-v1.zip",
+      "sha256": "4c8b04c1b47927f4b06917deb6e175a73ef5555d237930cbaa81b8d6cc48ca9a",
       "language": "en"
     },
     {
@@ -741,6 +793,7 @@
       "latestVersion": 1,
       "recipeCount": 10,
       "downloadUrl": "dist/healthy-vegetarian-v1.zip",
+      "sha256": "2b20f6875cf4bdc1509465c0b7c2aa7f5e44df93cc7808d36121d0feba9cd1bd",
       "language": "en"
     },
     {
@@ -755,6 +808,7 @@
       "latestVersion": 1,
       "recipeCount": 20,
       "downloadUrl": "dist/indian-cooking-v1.zip",
+      "sha256": "72ac2d6fac092ecf6f95e33f3b1122897f7480d994f29752a1384e2cbda62d69",
       "language": "en"
     },
     {
@@ -769,6 +823,7 @@
       "latestVersion": 1,
       "recipeCount": 8,
       "downloadUrl": "dist/indo-chinese-fusion-v1.zip",
+      "sha256": "4a895523b13e0a9a0daba0e6d330c91e6ddbe126229cf9b675d68c6537dd652a",
       "language": "en"
     },
     {
@@ -783,6 +838,7 @@
       "latestVersion": 3,
       "recipeCount": 20,
       "downloadUrl": "dist/indonesian-cooking-v3.zip",
+      "sha256": "97a73a0ccca838ea647e8021dcb2e08f04cb56449756d20c8a8491fe6c1c41f1",
       "language": "en"
     },
     {
@@ -797,6 +853,7 @@
       "latestVersion": 1,
       "recipeCount": 8,
       "downloadUrl": "dist/italian-american-fusion-v1.zip",
+      "sha256": "fe8f24c7411818cc0eec12b0a816e05db1a0949ea0a59f1e08f0b731dd8a326b",
       "language": "en"
     },
     {
@@ -811,6 +868,7 @@
       "latestVersion": 4,
       "recipeCount": 30,
       "downloadUrl": "dist/italian-cooking-v4.zip",
+      "sha256": "ac1200499fdfaecabbaf3bb55c4a947b50cbd7d2ef03557743eeecb818897782",
       "language": "en"
     },
     {
@@ -825,6 +883,7 @@
       "latestVersion": 1,
       "recipeCount": 6,
       "downloadUrl": "dist/italian-peruvian-fusion-v1.zip",
+      "sha256": "898766cee747ae788fb42a17dabb8268040a408ba349ab02ae6a081592fd9186",
       "language": "en"
     },
     {
@@ -839,6 +898,7 @@
       "latestVersion": 1,
       "recipeCount": 8,
       "downloadUrl": "dist/japanese-chinese-fusion-v1.zip",
+      "sha256": "2f8b1a58ae4518ce36e847eb32b70e2e6bd84170d912846da9eeb388d2226a82",
       "language": "en"
     },
     {
@@ -853,6 +913,7 @@
       "latestVersion": 3,
       "recipeCount": 20,
       "downloadUrl": "dist/japanese-cooking-v3.zip",
+      "sha256": "5952050f18bd5a3687226e92308ae5d96a5e9eb4b9a98b114c022c5f24040f61",
       "language": "en"
     },
     {
@@ -867,6 +928,7 @@
       "latestVersion": 1,
       "recipeCount": 8,
       "downloadUrl": "dist/korean-chinese-fusion-v1.zip",
+      "sha256": "bf060821be17ccceef9377904b153d842a867c241defff06339928f73ebf3121",
       "language": "en"
     },
     {
@@ -881,6 +943,7 @@
       "latestVersion": 1,
       "recipeCount": 8,
       "downloadUrl": "dist/malaysian-chinese-fusion-v1.zip",
+      "sha256": "bcf6b573201aebb7c25b622bb44475f566ecc9adb4299f6f0ab0555895d795b4",
       "language": "en"
     },
     {
@@ -895,6 +958,7 @@
       "latestVersion": 3,
       "recipeCount": 20,
       "downloadUrl": "dist/mediterranean-cooking-v3.zip",
+      "sha256": "f9b4b7734154184f6db08d0c0b043a86063df9eaec28fbb2abfc467bef3f2c9e",
       "language": "en"
     },
     {
@@ -909,6 +973,7 @@
       "latestVersion": 4,
       "recipeCount": 20,
       "downloadUrl": "dist/mexican-cooking-v4.zip",
+      "sha256": "aa973e15b59a5eaf3187c292335f24d8f0fb656823141197ca3f2fa536b61731",
       "language": "en"
     },
     {
@@ -923,6 +988,7 @@
       "latestVersion": 3,
       "recipeCount": 20,
       "downloadUrl": "dist/panaderia-v3.zip",
+      "sha256": "7b23812a4cc6d7f91ca4f29dae20da37ddbf1ff57ee44bcae605bffd774deafd",
       "language": "es"
     },
     {
@@ -937,6 +1003,7 @@
       "latestVersion": 1,
       "recipeCount": 8,
       "downloadUrl": "dist/peranakan-fusion-v1.zip",
+      "sha256": "6cab30390fe1ad69cd43dd927dd8b9df30c22ae5514ae654d1ac094f248a6026",
       "language": "en"
     },
     {
@@ -951,6 +1018,7 @@
       "latestVersion": 3,
       "recipeCount": 20,
       "downloadUrl": "dist/peruvian-cooking-v3.zip",
+      "sha256": "a508ab3e13bc95ef206d4619cbb46a01067681088b99a3f5ccb2afd61bc6c71b",
       "language": "en"
     },
     {
@@ -965,6 +1033,7 @@
       "latestVersion": 3,
       "recipeCount": 20,
       "downloadUrl": "dist/rice-dishes-v3.zip",
+      "sha256": "4aae2505f024a86f905694335eec594aee73d341e64462352d7d4a871874dd7d",
       "language": "en"
     },
     {
@@ -979,6 +1048,7 @@
       "latestVersion": 1,
       "recipeCount": 10,
       "downloadUrl": "dist/saludable-bajo-en-sal-v1.zip",
+      "sha256": "bff1f4feddb99c3d54f0b2f91851cc89235fce16b9b1ed2486a2bea7193ad846",
       "language": "es"
     },
     {
@@ -993,6 +1063,7 @@
       "latestVersion": 1,
       "recipeCount": 10,
       "downloadUrl": "dist/saludable-batch-cooking-v1.zip",
+      "sha256": "28fc0ae7875060181624a9763799c40745676e48ab829b82415e184c413a8100",
       "language": "es"
     },
     {
@@ -1007,6 +1078,7 @@
       "latestVersion": 1,
       "recipeCount": 10,
       "downloadUrl": "dist/saludable-desayunos-y-meriendas-v1.zip",
+      "sha256": "2e82d6490445487a5a7e61c186525ef757c43810df8e4850471e3ebfb6c2bed1",
       "language": "es"
     },
     {
@@ -1021,6 +1093,7 @@
       "latestVersion": 1,
       "recipeCount": 10,
       "downloadUrl": "dist/saludable-ligero-y-saciante-v1.zip",
+      "sha256": "f45af049bb33fbf4bbf04faff1a51f0e2ecfcf4eb31b704a89fa26c1e22d96d0",
       "language": "es"
     },
     {
@@ -1035,6 +1108,7 @@
       "latestVersion": 1,
       "recipeCount": 10,
       "downloadUrl": "dist/saludable-sin-gluten-v1.zip",
+      "sha256": "14dba494441b6dae3e0b1473f1b2ba1facf15df702b2075603e7515ca321e985",
       "language": "es"
     },
     {
@@ -1049,6 +1123,7 @@
       "latestVersion": 1,
       "recipeCount": 10,
       "downloadUrl": "dist/saludable-vegano-v1.zip",
+      "sha256": "c5189024ee55ea110c1bb21506c66c11116f3e5ef3087b62ff89e0e3b4f86b23",
       "language": "es"
     },
     {
@@ -1063,6 +1138,7 @@
       "latestVersion": 1,
       "recipeCount": 10,
       "downloadUrl": "dist/saludable-vegetariano-v1.zip",
+      "sha256": "5aaa84c78c01eb9c49970c88db737a93ef67cffb8145886064c43a09b6d82bf1",
       "language": "es"
     },
     {
@@ -1077,6 +1153,7 @@
       "latestVersion": 3,
       "recipeCount": 21,
       "downloadUrl": "dist/spanish-cooking-v3.zip",
+      "sha256": "ba0c51adb71808f7bff7b6fd7fed5e369e230fafa153dc590724f1bee999836e",
       "language": "en"
     },
     {
@@ -1091,6 +1168,7 @@
       "latestVersion": 4,
       "recipeCount": 20,
       "downloadUrl": "dist/spanish-tapas-v4.zip",
+      "sha256": "51529504edc5cad60fe40d9f1ef649975b31fc6de8d39a6308a3893ea9741009",
       "language": "en"
     },
     {
@@ -1105,6 +1183,7 @@
       "latestVersion": 4,
       "recipeCount": 20,
       "downloadUrl": "dist/tapas-espanolas-v4.zip",
+      "sha256": "0f9a4c2b81188330eb89dcd6f11f6555f9652e3338493426b7bd35a92c887a75",
       "language": "es"
     },
     {
@@ -1119,6 +1198,7 @@
       "latestVersion": 1,
       "recipeCount": 8,
       "downloadUrl": "dist/tex-mex-fusion-v1.zip",
+      "sha256": "813d8391641b38ef41859b86a0b26eeb6013b0063da97e237134e5f1975fcdb5",
       "language": "en"
     },
     {
@@ -1133,6 +1213,7 @@
       "latestVersion": 3,
       "recipeCount": 20,
       "downloadUrl": "dist/thai-cooking-v3.zip",
+      "sha256": "6e2960ba32465f12b1b435ecee538e7635c0f839a188453e9125628b989a7b76",
       "language": "en"
     },
     {
@@ -1147,6 +1228,7 @@
       "latestVersion": 3,
       "recipeCount": 20,
       "downloadUrl": "dist/thermomix-cremas-y-pures-v3.zip",
+      "sha256": "8f7054c4923239156f5f11d5c0d5f2febf061477bfe7aa0ebfe11c1d1914f4a6",
       "language": "es"
     },
     {
@@ -1161,6 +1243,7 @@
       "latestVersion": 3,
       "recipeCount": 20,
       "downloadUrl": "dist/thermomix-soups-and-purees-v3.zip",
+      "sha256": "05d06c24f3129d530d713ae461e7ee5da8a23fa857387a72b08a2fd85893316c",
       "language": "en"
     },
     {
@@ -1175,6 +1258,7 @@
       "latestVersion": 3,
       "recipeCount": 20,
       "downloadUrl": "dist/vietnamese-cooking-v3.zip",
+      "sha256": "dafcc915e6b5237ea3c57b2a587a02b9f143638a4d1cdcb2031dbbe00a6d85f9",
       "language": "en"
     }
   ]

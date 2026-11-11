@@ -270,6 +270,8 @@ def build_pack(pack_dir: Path):
         "latestVersion": version,
         "recipeCount": len(recipes),
         "downloadUrl": f"dist/{zip_name}",
+        # The app refuses a download that does not match.
+        "sha256": hashlib.sha256((DIST / zip_name).read_bytes()).hexdigest(),
         "language": language,
     }
     photo_count = sum(1 for p in photos if p)

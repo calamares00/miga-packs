@@ -137,6 +137,9 @@ tools/render_covers.mjs       dibuja las portadas a partir de pack.yaml
 El CI comprueba que todos los packs son válidos y que `dist/` y `catalog.json` están al día. El
 build es reproducible: el mismo YAML da siempre el mismo ZIP.
 
+Cada pack lleva en `catalog.json` el `sha256` de su ZIP: la app (desde la 1.0.20) lo comprueba al
+descargar y rechaza el fichero si no coincide.
+
 ### Formato de `pack.yaml`
 
 ```yaml

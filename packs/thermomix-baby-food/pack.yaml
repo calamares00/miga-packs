@@ -1,6 +1,6 @@
 id: thermomix-baby-food
-version: 1
-updated: 2026-11-12
+version: 2
+updated: 2026-11-13
 language: en
 name: "Thermomix: baby food"
 series: Kitchen appliances
@@ -147,6 +147,7 @@ recipes:
   - name: Lentil and vegetable purée
     health: [GREEN, "Pulses with vegetables: iron, fibre and plant protein."]
     nutrition: [130, 7, 20, 3]
+    photo: thermomix-comida-para-bebes/pure-de-lentejas-con-verduras.jpg
     category: Legumes
     difficulty: EASY
     prep: 10
@@ -241,6 +242,7 @@ recipes:
   - name: Pear and apple compote
     health: [GREEN, "Cooked fruit with no sugar: gentle on a baby's tummy."]
     nutrition: [70, 0, 17, 0]
+    photo: thermomix-comida-para-bebes/compota-de-pera-y-manzana.jpg
     category: Desserts
     difficulty: EASY
     prep: 5
@@ -264,6 +266,7 @@ recipes:
   - name: Oat and banana porridge for babies
     health: [GREEN, "Oats with fruit: energy, fibre and iron for breakfast or a snack."]
     nutrition: [130, 4, 22, 3]
+    photo: thermomix-comida-para-bebes/papilla-de-avena-con-platano.jpg
     category: Desserts
     difficulty: EASY
     prep: 2

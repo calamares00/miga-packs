@@ -1,6 +1,6 @@
 id: thermomix-breads-and-doughs
-version: 1
-updated: 2026-11-12
+version: 2
+updated: 2026-11-13
 language: en
 name: "Thermomix: breads and doughs"
 series: Kitchen appliances
@@ -25,6 +25,7 @@ recipes:
   - name: Oat sandwich loaf
     health: [GREEN, "Homemade bread with rolled oats: more fibre than shop-bought sandwich bread and no additives."]
     nutrition: [150, 5, 26, 3]
+    photo: thermomix-masas-y-panes/pan-de-molde-de-avena.jpg
     category: Breads and doughs
     difficulty: EASY
     prep: 15
@@ -53,6 +54,7 @@ recipes:
   - name: Country loaf
     health: [GREEN, "Bread made with flour, water, salt and yeast, with no added sugar or fat."]
     nutrition: [170, 6, 34, 1]
+    photo: thermomix-masas-y-panes/hogaza-de-pan.jpg
     category: Breads and doughs
     difficulty: MEDIUM
     prep: 15
@@ -78,6 +80,7 @@ recipes:
   - name: Pizza dough
     health: [GREEN, "The base alone is light; the toppings decide how healthy the pizza is."]
     nutrition: [290, 9, 52, 5]
+    photo: thermomix-masas-y-panes/masa-de-pizza.jpg
     category: Breads and doughs
     difficulty: EASY
     prep: 10
@@ -103,6 +106,7 @@ recipes:
   - name: Braided milk bread
     health: [YELLOW, "Soft bread with butter and sugar: richer than plain bread, ideal for weekend breakfasts."]
     nutrition: [230, 6, 36, 7]
+    photo: thermomix-masas-y-panes/trenza-de-pan-de-leche.jpg
     category: Breads and doughs
     difficulty: MEDIUM
     prep: 20
@@ -132,6 +136,7 @@ recipes:
   - name: Spelt bread
     health: [GREEN, "Spelt bread with some wholemeal flour: tasty, with fibre and no sugar."]
     nutrition: [170, 6, 32, 2]
+    photo: thermomix-masas-y-panes/pan-de-espelta.jpg
     category: Breads and doughs
     difficulty: MEDIUM
     prep: 15
@@ -159,6 +164,7 @@ recipes:
   - name: Beer bread
     health: [GREEN, "Rustic bread made with beer: no added fat and a very tasty crumb."]
     nutrition: [180, 6, 35, 1]
+    photo: thermomix-masas-y-panes/pan-de-cerveza.jpg
     category: Breads and doughs
     difficulty: MEDIUM
     prep: 15
@@ -185,6 +191,7 @@ recipes:
   - name: Olive bread
     health: [GREEN, "Bread with olives and olive oil: tastier and with healthy fats."]
     nutrition: [190, 5, 30, 5]
+    photo: thermomix-masas-y-panes/pan-de-aceitunas.jpg
     category: Breads and doughs
     difficulty: EASY
     prep: 15
@@ -212,6 +219,7 @@ recipes:
   - name: Flour tortillas
     health: [GREEN, "Homemade tortillas with few ingredients and no preservatives."]
     nutrition: [150, 4, 25, 4]
+    photo: thermomix-masas-y-panes/tortillas-de-trigo.jpg
     category: Breads and doughs
     difficulty: EASY
     prep: 20
@@ -237,6 +245,7 @@ recipes:
   - name: Breadsticks
     health: [GREEN, "Crunchy breadsticks with little oil: a light snack."]
     nutrition: [130, 4, 22, 3]
+    photo: thermomix-masas-y-panes/colines.jpg
     category: Breads and doughs
     difficulty: EASY
     prep: 20
@@ -264,6 +273,7 @@ recipes:
   - name: Chicken and pepper empanada
     health: [YELLOW, "A chicken and vegetable filling, but the oil in the dough makes it rich: have it with a salad."]
     nutrition: [420, 22, 42, 18]
+    photo: thermomix-masas-y-panes/empanada-de-pollo-y-pimientos.jpg
     category: Breads and doughs
     difficulty: MEDIUM
     prep: 30
@@ -302,6 +312,7 @@ recipes:
   - name: Crêpes
     health: [GREEN, "A simple, light batter; the filling decides the rest."]
     nutrition: [160, 6, 20, 6]
+    photo: thermomix-masas-y-panes/crepes.jpg
     category: Desserts
     difficulty: EASY
     prep: 5
@@ -328,6 +339,7 @@ recipes:
   - name: Leek and bacon quiche
     health: [RED, "Butter pastry, cream, cheese and bacon: very rich, for occasions."]
     nutrition: [520, 16, 26, 39]
+    photo: thermomix-masas-y-panes/quiche-de-puerro-y-bacon.jpg
     category: Eggs
     difficulty: MEDIUM
     prep: 25
@@ -364,6 +376,7 @@ recipes:
   - name: Chocolate chip buns
     health: [YELLOW, "Soft buns with chocolate chips: better than factory pastries, but they have sugar and butter."]
     nutrition: [250, 6, 36, 9]
+    photo: thermomix-masas-y-panes/bollitos-de-chocolate.jpg
     category: Breads and doughs
     difficulty: MEDIUM
     prep: 20
@@ -393,6 +406,7 @@ recipes:
   - name: Asturian chorizo buns (bollos preñaos)
     health: [RED, "Bread stuffed with chorizo: very tasty, but fatty and salty. For parties and picnics."]
     nutrition: [330, 12, 32, 17]
+    photo: thermomix-masas-y-panes/bollos-prenaos.jpg
     category: Breads and doughs
     difficulty: MEDIUM
     prep: 25

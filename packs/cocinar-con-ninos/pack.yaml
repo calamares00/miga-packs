@@ -1,6 +1,6 @@
 id: cocinar-con-ninos
-version: 1
-updated: 2026-11-12
+version: 2
+updated: 2026-11-13
 language: es
 name: Cocinar con niños
 series: Cocina de cada día
@@ -24,6 +24,7 @@ recipes:
   - name: Galletas de avena y plátano
     health: [GREEN, "Solo avena y plátano maduro: endulzadas con la fruta, sin azúcar añadido."]
     nutrition: [70, 2, 12, 2]
+    photo: cocinar-con-ninos/galletas-de-avena-y-platano.jpg
     category: Postres
     difficulty: EASY
     prep: 10
@@ -48,6 +49,7 @@ recipes:
   - name: Bolitas de coco
     health: [RED, "Coco y leche condensada: muy dulces, para ocasiones."]
     nutrition: [90, 1, 10, 5]
+    photo: cocinar-con-ninos/bolitas-de-coco.jpg
     category: Postres
     difficulty: EASY
     prep: 20
@@ -70,6 +72,7 @@ recipes:
   - name: Polos de yogur y fresa
     health: [GREEN, "Yogur natural con fruta: un helado casero con poco azúcar."]
     nutrition: [70, 3, 11, 2]
+    photo: cocinar-con-ninos/polos-de-yogur-y-fresa.jpg
     category: Postres
     difficulty: EASY
     prep: 10
@@ -114,6 +117,7 @@ recipes:
   - name: Huevos rellenos de atún
     health: [GREEN, "Huevo y atún: mucha proteína; con poca mayonesa es un plato ligero."]
     nutrition: [210, 15, 2, 16]
+    photo: cocinar-con-ninos/huevos-rellenos-de-atun.jpg
     category: Huevos
     difficulty: EASY
     prep: 20
@@ -138,6 +142,7 @@ recipes:
   - name: Ensalada de pasta
     health: [GREEN, "Pasta con verduras, atún y huevo: un plato completo y fresco."]
     nutrition: [430, 20, 58, 13]
+    photo: cocinar-con-ninos/ensalada-de-pasta.jpg
     category: Pastas
     difficulty: EASY
     prep: 15
@@ -165,6 +170,7 @@ recipes:
   - name: Wraps de pollo y verduras
     health: [GREEN, "Pollo con verduras crudas en tortilla: completo, ligero y divertido de montar."]
     nutrition: [380, 28, 36, 13]
+    photo: cocinar-con-ninos/wraps-de-pollo-y-verduras.jpg
     category: Carnes
     difficulty: EASY
     prep: 15
@@ -192,6 +198,7 @@ recipes:
   - name: Pizzas de pan de molde
     health: [YELLOW, "Rápidas y ricas; mejor con pan integral y muchas verduras."]
     nutrition: [260, 13, 26, 11]
+    photo: cocinar-con-ninos/pizzas-de-pan-de-molde.jpg
     category: Panes y masas
     difficulty: EASY
     prep: 10
@@ -218,6 +225,7 @@ recipes:
   - name: Mini quiches de jamón y queso
     health: [YELLOW, "Huevo, leche y queso: buena proteína, pero la masa lleva grasa."]
     nutrition: [180, 8, 12, 11]
+    photo: cocinar-con-ninos/mini-quiches-de-jamon-y-queso.jpg
     category: Huevos
     difficulty: EASY
     prep: 15
@@ -244,6 +252,7 @@ recipes:
   - name: Albóndigas al horno con tomate
     health: [GREEN, "Albóndigas sin freír en salsa de tomate: mucha menos grasa que las fritas."]
     nutrition: [360, 26, 18, 20]
+    photo: cocinar-con-ninos/albondigas-al-horno-con-tomate.jpg
     category: Carnes
     difficulty: EASY
     prep: 25
@@ -297,6 +306,7 @@ recipes:
   - name: Salchichón de chocolate
     health: [RED, "Galletas, chocolate y mantequilla: muy dulce, para ocasiones."]
     nutrition: [180, 2, 20, 10]
+    photo: cocinar-con-ninos/salchichon-de-chocolate.jpg
     category: Postres
     difficulty: EASY
     prep: 20

@@ -1,0 +1,52 @@
+# Origin of every photo in this folder: source page, author and licence (CC0 1.0, Public domain,
+# CC BY x.y or CC BY-SA x.y). tools/build.py refuses a recipe photo without an entry here.
+
+galletas-de-avena-y-platano.jpg:
+  source: https://commons.wikimedia.org/wiki/File%3ABanana_and_chocolate_oatmeal_cookies_03.jpg
+  author: "Ytha67"
+  license: CC BY-SA 4.0
+
+bolitas-de-coco.jpg:
+  source: https://commons.wikimedia.org/wiki/File%3ACoconut_Balls_%28Bolitas_de_Coco%29_%2825620769593%29.jpg
+  author: "Stephanie Clifford from Arlington, VA, USA"
+  license: CC BY 2.0
+
+polos-de-yogur-y-fresa.jpg:
+  source: https://commons.wikimedia.org/wiki/File%3AStrawberry_ice_cream_%28ice_lolly%29_on_a_stick_with_white_chocolate_%28KETO%2C_LCHF%2C_Low_Carb%2C_Gluten_free%2C_FIT%29_-_52773990492.jpg
+  author: "Ewelina Podrez-Siama"
+  license: CC BY 2.0
+
+huevos-rellenos-de-atun.jpg:
+  source: https://commons.wikimedia.org/wiki/File%3AHuevos_rellenos_de_at%C3%BAn%2C_mayonesa_y_yema_de_huevo_rallada.jpg
+  author: "Juan Emilio Prades Bel"
+  license: CC BY-SA 4.0
+
+ensalada-de-pasta.jpg:
+  source: https://commons.wikimedia.org/wiki/File%3APasta_salad_closeup.JPG
+  author: "Brynn"
+  license: CC BY-SA 3.0
+
+wraps-de-pollo-y-verduras.jpg:
+  source: https://commons.wikimedia.org/wiki/File%3AChicken_roll_with_vegetables_%26_goat_cheese_%285742199145%29.jpg
+  author: "Luca Nebuloni from Milan, Italy"
+  license: CC BY 2.0
+
+pizzas-de-pan-de-molde.jpg:
+  source: https://commons.wikimedia.org/wiki/File%3APizza_toast%2C_at_Gusto.jpg
+  author: "Lombroso"
+  license: CC BY-SA 3.0
+
+mini-quiches-de-jamon-y-queso.jpg:
+  source: https://commons.wikimedia.org/wiki/File%3AMini_mushroom_and_cheddar_quiches%2C_2007.jpg
+  author: "Jessica Spengler"
+  license: CC BY 2.0
+
+albondigas-al-horno-con-tomate.jpg:
+  source: https://commons.wikimedia.org/wiki/File%3AMeatballs_with_tomato_sauce_%28Spain%29.jpg
+  author: "Juan Emilio Prades Bel"
+  license: CC BY 4.0
+
+salchichon-de-chocolate.jpg:
+  source: https://commons.wikimedia.org/wiki/File%3ASalami_de_chocolate.jpg
+  author: "El Mono Español"
+  license: CC BY-SA 4.0

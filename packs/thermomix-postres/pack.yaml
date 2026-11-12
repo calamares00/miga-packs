@@ -1,6 +1,6 @@
 id: thermomix-postres
-version: 1
-updated: 2026-11-12
+version: 2
+updated: 2026-11-13
 language: es
 name: "Thermomix: postres"
 series: Electrodomésticos
@@ -25,6 +25,7 @@ recipes:
   - name: Natillas
     health: [YELLOW, "Leche y huevo con azúcar: buen aporte de calcio, pero es un postre dulce."]
     nutrition: [220, 7, 30, 8]
+    photo: thermomix-postres/natillas.jpg
     category: Postres
     difficulty: EASY
     prep: 5
@@ -53,6 +54,7 @@ recipes:
   - name: Flan de huevo
     health: [YELLOW, "Huevo y leche con caramelo: proteína y calcio, pero bastante azúcar."]
     nutrition: [230, 8, 32, 8]
+    photo: thermomix-postres/flan-de-huevo.jpg
     category: Postres
     difficulty: EASY
     prep: 10
@@ -79,6 +81,7 @@ recipes:
   - name: Leche frita
     health: [RED, "Crema dulce rebozada y frita: muy calórica, para ocasiones especiales."]
     nutrition: [380, 8, 50, 16]
+    photo: thermomix-postres/leche-frita.jpg
     category: Postres
     difficulty: MEDIUM
     prep: 20
@@ -112,6 +115,7 @@ recipes:
   - name: Crema de limón
     health: [YELLOW, "Crema de limón con huevo y mantequilla: muy rica, pero con azúcar y grasa."]
     nutrition: [210, 3, 24, 12]
+    photo: thermomix-postres/crema-de-limon.jpg
     category: Postres
     difficulty: EASY
     prep: 5
@@ -135,6 +139,7 @@ recipes:
   - name: Mousse de chocolate
     health: [RED, "Chocolate, nata y azúcar: un capricho muy calórico."]
     nutrition: [360, 5, 24, 28]
+    photo: thermomix-postres/mousse-de-chocolate.jpg
     category: Postres
     difficulty: EASY
     prep: 15
@@ -159,6 +164,7 @@ recipes:
   - name: Sorbete de limón
     health: [YELLOW, "Refrescante y sin grasa, pero con bastante azúcar."]
     nutrition: [150, 0, 38, 0]
+    photo: thermomix-postres/sorbete-de-limon.jpg
     category: Postres
     difficulty: EASY
     prep: 10
@@ -182,6 +188,7 @@ recipes:
   - name: Helado exprés de fresa
     health: [GREEN, "Fruta congelada con yogur natural y poco azúcar: un helado ligero en minutos."]
     nutrition: [120, 3, 22, 2]
+    photo: thermomix-postres/helado-expres-de-fresa.jpg
     category: Postres
     difficulty: EASY
     prep: 5
@@ -204,6 +211,7 @@ recipes:
   - name: Bizcocho de yogur
     health: [YELLOW, "Bizcocho casero de toda la vida: mejor que la bollería industrial, pero lleva azúcar y aceite."]
     nutrition: [290, 5, 38, 13]
+    photo: thermomix-postres/bizcocho-de-yogur.jpg
     category: Postres
     difficulty: EASY
     prep: 10
@@ -232,6 +240,7 @@ recipes:
   - name: Tarta de queso cremosa
     health: [RED, "Queso crema, nata y azúcar: un postre muy calórico."]
     nutrition: [420, 8, 26, 32]
+    photo: thermomix-postres/tarta-de-queso-cremosa.jpg
     category: Postres
     difficulty: EASY
     prep: 10
@@ -258,6 +267,7 @@ recipes:
   - name: Trufas de chocolate
     health: [RED, "Chocolate con nata y mantequilla: pequeñas, pero muy calóricas."]
     nutrition: [110, 1, 8, 8]
+    photo: thermomix-postres/trufas-de-chocolate.jpg
     category: Postres
     difficulty: EASY
     prep: 20
@@ -281,6 +291,7 @@ recipes:
   - name: Mermelada de fresa
     health: [YELLOW, "Fruta con azúcar: para tomar con moderación."]
     nutrition: [40, 0, 10, 0]
+    photo: thermomix-postres/mermelada-de-fresa.jpg
     category: Postres
     difficulty: EASY
     prep: 10
@@ -303,6 +314,7 @@ recipes:
   - name: Crema pastelera
     health: [YELLOW, "Base de leche, huevo y azúcar para rellenar: dulce y con algo de grasa."]
     nutrition: [190, 5, 26, 7]
+    photo: thermomix-postres/crema-pastelera.jpg
     category: Postres
     difficulty: EASY
     prep: 5
@@ -328,6 +340,7 @@ recipes:
   - name: Galletas de mantequilla
     health: [RED, "Mantequilla, azúcar y harina: muy calóricas, mejor de una en una."]
     nutrition: [90, 1, 11, 5]
+    photo: thermomix-postres/galletas-de-mantequilla.jpg
     category: Postres
     difficulty: EASY
     prep: 20
@@ -354,6 +367,7 @@ recipes:
   - name: Brownie de nueces
     health: [RED, "Chocolate, mantequilla y azúcar: un postre muy calórico."]
     nutrition: [330, 5, 32, 21]
+    photo: thermomix-postres/brownie-de-nueces.jpg
     category: Postres
     difficulty: EASY
     prep: 10

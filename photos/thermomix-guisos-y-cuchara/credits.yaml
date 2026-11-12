@@ -1,0 +1,67 @@
+# Origin of every photo in this folder: source page, author and licence (CC0 1.0, Public domain,
+# CC BY x.y or CC BY-SA x.y). tools/build.py refuses a recipe photo without an entry here.
+
+lentejas-con-arroz.jpg:
+  source: https://commons.wikimedia.org/wiki/File%3ALentils_And_Rice_%28140491283%29.jpeg
+  author: "J Doll"
+  license: CC BY 3.0
+
+potaje-de-garbanzos-con-bacalao.jpg:
+  source: https://commons.wikimedia.org/wiki/File%3APotaje_de_vigilia.jpg
+  author: "Toniher"
+  license: CC BY-SA 4.0
+
+alubias-blancas-con-chorizo.jpg:
+  source: https://commons.wikimedia.org/wiki/File%3AFabada_wiki.jpg
+  author: "Jrfdiaz"
+  license: CC BY-SA 3.0
+
+patatas-con-costillas.jpg:
+  source: https://commons.wikimedia.org/wiki/File%3APatatas_con_costilla.jpg
+  author: "Xemenendura"
+  license: CC BY-SA 4.0
+
+ternera-guisada-con-champinones.jpg:
+  source: https://commons.wikimedia.org/wiki/File%3AGoulash_~_Savory_beef_stew_with_mushrooms_and_carrots_%2844301070064%29.jpg
+  author: "Prayitno"
+  license: CC BY 2.0
+
+pollo-en-pepitoria.jpg:
+  source: https://commons.wikimedia.org/wiki/File%3APollo_en_pepitoria-2010.JPG
+  author: "Tamorlan"
+  license: CC BY-SA 3.0
+
+pollo-al-curry.jpg:
+  source: https://commons.wikimedia.org/wiki/File%3AChicken_curry_Trivandrum.jpg
+  author: "Abhilashsnair"
+  license: CC0 1.0
+
+bacalao-con-tomate.jpg:
+  source: https://commons.wikimedia.org/wiki/File%3ABacalao_con_salsa_de_tomate_%28Espa%C3%B1a%29.jpg
+  author: "Juan Emilio Prades Bel"
+  license: CC BY 4.0
+
+estofado-de-pavo-con-verduras.jpg:
+  source: https://commons.wikimedia.org/wiki/File%3AT%C3%BCrl%C3%BC_%28without_eggplant%29.jpg
+  author: "E4024"
+  license: CC BY-SA 4.0
+
+menestra-de-verduras.jpg:
+  source: https://commons.wikimedia.org/wiki/File%3AMenestra_de_verduras_hervidas.jpg
+  author: "Juan Emilio Prades Bel"
+  license: CC BY 4.0
+
+risotto-de-gambas.jpg:
+  source: https://commons.wikimedia.org/wiki/File%3APrawnRisotto.jpg
+  author: "Alpha from Melbourne, Australia"
+  license: CC BY-SA 2.0
+
+carrillada-al-vino-tinto.jpg:
+  source: https://commons.wikimedia.org/wiki/File%3ACarrillera_en_plat.jpg
+  author: "Francesc Fort"
+  license: CC BY-SA 4.0
+
+calamares-con-patatas.jpg:
+  source: https://commons.wikimedia.org/wiki/File%3AGuiso_de_calamares_con_salsa._Gastronom%C3%ADa_valenciana.jpg
+  author: "Juan Emilio Prades Bel"
+  license: CC BY 4.0

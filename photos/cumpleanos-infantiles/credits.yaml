@@ -1,0 +1,57 @@
+# Origin of every photo in this folder: source page, author and licence (CC0 1.0, Public domain,
+# CC BY x.y or CC BY-SA x.y). tools/build.py refuses a recipe photo without an entry here.
+
+tarta-de-cumpleanos-de-chocolate.jpg:
+  source: https://commons.wikimedia.org/wiki/File%3AChocolate_birthday_cake.jpg
+  author: "Ruth Hartnup from Vancouver, Canada"
+  license: CC BY 2.0
+
+bizcocho-arcoiris.jpg:
+  source: https://commons.wikimedia.org/wiki/File%3ARainbow_Cake_Cutting.jpg
+  author: "Anish Anilkumar"
+  license: CC BY 4.0
+
+cupcakes-de-vainilla.jpg:
+  source: https://commons.wikimedia.org/wiki/File%3APerfect_Vanilla_Cupcakes_%28Unsplash%29.jpg
+  author: "Brooke Lark brookelark"
+  license: CC0 1.0
+
+galletas-decoradas.jpg:
+  source: https://commons.wikimedia.org/wiki/File%3ABiscuiteers_Polka_Dot_Heart_Product.jpg
+  author: "Merlinmerton"
+  license: CC BY-SA 3.0
+
+mini-sandwiches-de-jamon-y-queso.jpg:
+  source: https://commons.wikimedia.org/wiki/File%3ACanapes_and_finger_sandwiches._High_Tea_at_the_Savoy_Hotel.jpg
+  author: "Payton Walton"
+  license: CC BY-SA 4.0
+
+fingers-de-pollo-al-horno.jpg:
+  source: https://commons.wikimedia.org/wiki/File%3AChicken_tenders_and_french_fries_-_June_2023_-_Sarah_Stierch.jpg
+  author: "Missvain"
+  license: CC BY 4.0
+
+salchichas-en-hojaldre.jpg:
+  source: https://commons.wikimedia.org/wiki/File%3ASausage-rolls.jpg
+  author: "Scjessey"
+  license: CC BY-SA 3.0
+
+mini-hamburguesas.jpg:
+  source: https://commons.wikimedia.org/wiki/File%3AA_party_tray_of_sliders_at_a_restaurant.jpg
+  author: "Prayitno"
+  license: CC BY 2.0
+
+brochetas-de-fruta.jpg:
+  source: https://commons.wikimedia.org/wiki/File%3AFruit_skewers.jpg
+  author: "Aerous"
+  license: CC BY-SA 4.0
+
+palomitas-caseras.jpg:
+  source: https://commons.wikimedia.org/wiki/File%3AOrganic_homemade_kettle_corn_recipe_%284253371172%29.jpg
+  author: "jencu"
+  license: CC BY 2.0
+
+limonada-casera.jpg:
+  source: https://commons.wikimedia.org/wiki/File%3AMint_lemonade_%28Homemade%29.jpg
+  author: "Sadiikul"
+  license: CC BY-SA 4.0

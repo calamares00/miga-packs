@@ -1,6 +1,6 @@
 id: barbacoa
-version: 1
-updated: 2026-11-12
+version: 2
+updated: 2026-11-13
 language: es
 name: Barbacoa
 series: Especiales
@@ -24,6 +24,7 @@ recipes:
   - name: Hamburguesas de cerdo ibérico
     health: [YELLOW, "Carne jugosa y sabrosa, pero el ibérico es graso: acompáñalas con ensalada."]
     nutrition: [560, 30, 32, 34]
+    photo: barbacoa/hamburguesas-de-cerdo-iberico.jpg
     category: Carnes
     difficulty: EASY
     prep: 15
@@ -51,6 +52,7 @@ recipes:
   - name: Costillas a la barbacoa
     health: [RED, "Costilla de cerdo con salsa dulce: mucha grasa y azúcar, para ocasiones."]
     nutrition: [680, 38, 22, 48]
+    photo: barbacoa/costillas-a-la-barbacoa.jpg
     category: Carnes
     difficulty: MEDIUM
     prep: 15
@@ -78,6 +80,7 @@ recipes:
   - name: Brochetas de pollo al limón
     health: [GREEN, "Pechuga marinada con limón y hierbas: proteína magra y poca grasa."]
     nutrition: [280, 38, 4, 12]
+    photo: barbacoa/brochetas-de-pollo-al-limon.jpg
     category: Carnes
     difficulty: EASY
     prep: 20
@@ -106,6 +109,7 @@ recipes:
   - name: Brochetas de verduras
     health: [GREEN, "Verduras a la brasa con un poco de aceite: ligeras, coloridas y llenas de fibra."]
     nutrition: [120, 3, 12, 7]
+    photo: barbacoa/brochetas-de-verduras.jpg
     category: Verduras
     difficulty: EASY
     prep: 20
@@ -156,6 +160,7 @@ recipes:
   - name: Chuletas de cordero a la brasa
     health: [YELLOW, "Cordero muy sabroso con algo de grasa; bien con verduras a la brasa."]
     nutrition: [480, 30, 1, 40]
+    photo: barbacoa/chuletas-de-cordero-a-la-brasa.jpg
     category: Carnes
     difficulty: EASY
     prep: 10
@@ -179,6 +184,7 @@ recipes:
   - name: Salmón a la brasa
     health: [GREEN, "Pescado azul rico en omega 3, hecho con muy poca grasa añadida."]
     nutrition: [380, 34, 2, 26]
+    photo: barbacoa/salmon-a-la-brasa.jpg
     category: Pescados y mariscos
     difficulty: EASY
     prep: 10
@@ -204,6 +210,7 @@ recipes:
   - name: Sardinas a la brasa
     health: [GREEN, "Pescado azul barato y lleno de omega 3: de lo más sano del verano."]
     nutrition: [300, 30, 0, 20]
+    photo: barbacoa/sardinas-a-la-brasa.jpg
     category: Pescados y mariscos
     difficulty: EASY
     prep: 10
@@ -227,6 +234,7 @@ recipes:
   - name: Mazorcas de maíz asadas
     health: [YELLOW, "El maíz es integral y saciante; la mantequilla añade grasa, así que con moderación."]
     nutrition: [180, 4, 24, 9]
+    photo: barbacoa/mazorcas-de-maiz-asadas.jpg
     category: Verduras
     difficulty: EASY
     prep: 5
@@ -251,6 +259,7 @@ recipes:
   - name: Patatas en papillote a la brasa
     health: [GREEN, "Patata asada con su piel: saciante y con poca grasa si no abusas de la salsa."]
     nutrition: [220, 6, 38, 5]
+    photo: barbacoa/patatas-en-papillote-a-la-brasa.jpg
     category: Verduras
     difficulty: EASY
     prep: 10
@@ -274,6 +283,7 @@ recipes:
   - name: Parrillada de verduras
     health: [GREEN, "Verduras de temporada con aceite de oliva: ligera, sabrosa y rica en fibra."]
     nutrition: [150, 3, 14, 9]
+    photo: barbacoa/parrillada-de-verduras.jpg
     category: Verduras
     difficulty: EASY
     prep: 15
@@ -300,6 +310,7 @@ recipes:
   - name: Salsa barbacoa casera
     health: [YELLOW, "Lleva azúcar y vinagre: para acompañar, no para comer a cucharadas."]
     nutrition: [45, 0, 10, 0]
+    photo: barbacoa/salsa-barbacoa-casera.jpg
     category: Salsas
     difficulty: EASY
     prep: 5
@@ -375,6 +386,7 @@ recipes:
   - name: Plátanos asados con chocolate
     health: [YELLOW, "Fruta con chocolate: un capricho, mejor con chocolate negro."]
     nutrition: [180, 2, 30, 7]
+    photo: barbacoa/platanos-asados-con-chocolate.jpg
     category: Postres
     difficulty: EASY
     prep: 5

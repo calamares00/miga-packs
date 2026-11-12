@@ -1,6 +1,6 @@
 id: barbecue
-version: 1
-updated: 2026-11-12
+version: 2
+updated: 2026-11-13
 language: en
 name: Barbecue
 series: Specials
@@ -24,6 +24,7 @@ recipes:
   - name: Iberian pork burgers
     health: [YELLOW, "Juicy, tasty meat, but Iberian pork is fatty: serve them with salad."]
     nutrition: [560, 30, 32, 34]
+    photo: barbacoa/hamburguesas-de-cerdo-iberico.jpg
     category: Meat
     difficulty: EASY
     prep: 15
@@ -51,6 +52,7 @@ recipes:
   - name: Barbecue pork ribs
     health: [RED, "Pork ribs with a sweet sauce: lots of fat and sugar, for occasions."]
     nutrition: [680, 38, 22, 48]
+    photo: barbacoa/costillas-a-la-barbacoa.jpg
     category: Meat
     difficulty: MEDIUM
     prep: 15
@@ -78,6 +80,7 @@ recipes:
   - name: Lemon chicken skewers
     health: [GREEN, "Breast marinated in lemon and herbs: lean protein and little fat."]
     nutrition: [280, 38, 4, 12]
+    photo: barbacoa/brochetas-de-pollo-al-limon.jpg
     category: Meat
     difficulty: EASY
     prep: 20
@@ -106,6 +109,7 @@ recipes:
   - name: Vegetable skewers
     health: [GREEN, "Chargrilled vegetables with a little oil: light, colourful and full of fibre."]
     nutrition: [120, 3, 12, 7]
+    photo: barbacoa/brochetas-de-verduras.jpg
     category: Vegetables
     difficulty: EASY
     prep: 20
@@ -156,6 +160,7 @@ recipes:
   - name: Grilled lamb chops
     health: [YELLOW, "Very tasty lamb with some fat; good with grilled vegetables."]
     nutrition: [480, 30, 1, 40]
+    photo: barbacoa/chuletas-de-cordero-a-la-brasa.jpg
     category: Meat
     difficulty: EASY
     prep: 10
@@ -179,6 +184,7 @@ recipes:
   - name: Barbecued salmon
     health: [GREEN, "Oily fish rich in omega-3, cooked with very little added fat."]
     nutrition: [380, 34, 2, 26]
+    photo: barbacoa/salmon-a-la-brasa.jpg
     category: Fish and seafood
     difficulty: EASY
     prep: 10
@@ -204,6 +210,7 @@ recipes:
   - name: Grilled sardines
     health: [GREEN, "Cheap oily fish full of omega-3: one of the healthiest things of summer."]
     nutrition: [300, 30, 0, 20]
+    photo: barbacoa/sardinas-a-la-brasa.jpg
     category: Fish and seafood
     difficulty: EASY
     prep: 10
@@ -227,6 +234,7 @@ recipes:
   - name: Grilled corn on the cob
     health: [YELLOW, "Corn is wholegrain and filling; butter adds fat, so go easy."]
     nutrition: [180, 4, 24, 9]
+    photo: barbacoa/mazorcas-de-maiz-asadas.jpg
     category: Vegetables
     difficulty: EASY
     prep: 5
@@ -251,6 +259,7 @@ recipes:
   - name: Foil-baked potatoes on the barbecue
     health: [GREEN, "Potato baked in its skin: filling and low in fat if you go easy on the sauce."]
     nutrition: [220, 6, 38, 5]
+    photo: barbacoa/patatas-en-papillote-a-la-brasa.jpg
     category: Vegetables
     difficulty: EASY
     prep: 10
@@ -274,6 +283,7 @@ recipes:
   - name: Mixed grilled vegetables
     health: [GREEN, "Seasonal vegetables with olive oil: light, tasty and rich in fibre."]
     nutrition: [150, 3, 14, 9]
+    photo: barbacoa/parrillada-de-verduras.jpg
     category: Vegetables
     difficulty: EASY
     prep: 15
@@ -300,6 +310,7 @@ recipes:
   - name: Homemade barbecue sauce
     health: [YELLOW, "It has sugar and vinegar: to go with food, not to eat by the spoonful."]
     nutrition: [45, 0, 10, 0]
+    photo: barbacoa/salsa-barbacoa-casera.jpg
     category: Sauces
     difficulty: EASY
     prep: 5
@@ -375,6 +386,7 @@ recipes:
   - name: Barbecued chocolate bananas
     health: [YELLOW, "Fruit with chocolate: a treat, better with dark chocolate."]
     nutrition: [180, 2, 30, 7]
+    photo: barbacoa/platanos-asados-con-chocolate.jpg
     category: Desserts
     difficulty: EASY
     prep: 5

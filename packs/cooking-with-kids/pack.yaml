@@ -1,6 +1,6 @@
 id: cooking-with-kids
-version: 1
-updated: 2026-11-12
+version: 2
+updated: 2026-11-13
 language: en
 name: Cooking with kids
 series: Everyday cooking
@@ -24,6 +24,7 @@ recipes:
   - name: Oat and banana cookies
     health: [GREEN, "Just oats and ripe banana: sweetened by the fruit, with no added sugar."]
     nutrition: [70, 2, 12, 2]
+    photo: cocinar-con-ninos/galletas-de-avena-y-platano.jpg
     category: Desserts
     difficulty: EASY
     prep: 10
@@ -48,6 +49,7 @@ recipes:
   - name: Coconut balls
     health: [RED, "Coconut and condensed milk: very sweet, for occasions."]
     nutrition: [90, 1, 10, 5]
+    photo: cocinar-con-ninos/bolitas-de-coco.jpg
     category: Desserts
     difficulty: EASY
     prep: 20
@@ -70,6 +72,7 @@ recipes:
   - name: Strawberry yoghurt ice lollies
     health: [GREEN, "Plain yoghurt with fruit: a homemade ice lolly with little sugar."]
     nutrition: [70, 3, 11, 2]
+    photo: cocinar-con-ninos/polos-de-yogur-y-fresa.jpg
     category: Desserts
     difficulty: EASY
     prep: 10
@@ -114,6 +117,7 @@ recipes:
   - name: Tuna stuffed eggs
     health: [GREEN, "Egg and tuna: plenty of protein; with little mayonnaise it is a light dish."]
     nutrition: [210, 15, 2, 16]
+    photo: cocinar-con-ninos/huevos-rellenos-de-atun.jpg
     category: Eggs
     difficulty: EASY
     prep: 20
@@ -138,6 +142,7 @@ recipes:
   - name: Kids' pasta salad
     health: [GREEN, "Pasta with vegetables, tuna and egg: a complete, fresh dish."]
     nutrition: [430, 20, 58, 13]
+    photo: cocinar-con-ninos/ensalada-de-pasta.jpg
     category: Pasta
     difficulty: EASY
     prep: 15
@@ -165,6 +170,7 @@ recipes:
   - name: Chicken and vegetable wraps
     health: [GREEN, "Chicken with raw vegetables in a tortilla: complete, light and fun to build."]
     nutrition: [380, 28, 36, 13]
+    photo: cocinar-con-ninos/wraps-de-pollo-y-verduras.jpg
     category: Meat
     difficulty: EASY
     prep: 15
@@ -192,6 +198,7 @@ recipes:
   - name: Sandwich-bread pizzas
     health: [YELLOW, "Quick and tasty; better with wholemeal bread and lots of vegetables."]
     nutrition: [260, 13, 26, 11]
+    photo: cocinar-con-ninos/pizzas-de-pan-de-molde.jpg
     category: Breads and doughs
     difficulty: EASY
     prep: 10
@@ -218,6 +225,7 @@ recipes:
   - name: Mini ham and cheese quiches
     health: [YELLOW, "Egg, milk and cheese: good protein, but the pastry has fat."]
     nutrition: [180, 8, 12, 11]
+    photo: cocinar-con-ninos/mini-quiches-de-jamon-y-queso.jpg
     category: Eggs
     difficulty: EASY
     prep: 15
@@ -244,6 +252,7 @@ recipes:
   - name: Baked meatballs in tomato sauce
     health: [GREEN, "Meatballs that are not fried, in tomato sauce: much less fat than fried ones."]
     nutrition: [360, 26, 18, 20]
+    photo: cocinar-con-ninos/albondigas-al-horno-con-tomate.jpg
     category: Meat
     difficulty: EASY
     prep: 25
@@ -297,6 +306,7 @@ recipes:
   - name: Chocolate salami
     health: [RED, "Biscuits, chocolate and butter: very sweet, for occasions."]
     nutrition: [180, 2, 20, 10]
+    photo: cocinar-con-ninos/salchichon-de-chocolate.jpg
     category: Desserts
     difficulty: EASY
     prep: 20

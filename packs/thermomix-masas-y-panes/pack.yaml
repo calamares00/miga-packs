@@ -1,6 +1,6 @@
 id: thermomix-masas-y-panes
-version: 1
-updated: 2026-11-12
+version: 2
+updated: 2026-11-13
 language: es
 name: "Thermomix: masas y panes"
 series: Electrodomésticos
@@ -25,6 +25,7 @@ recipes:
   - name: Pan de molde de avena
     health: [GREEN, "Pan casero con copos de avena: más fibra que el de molde comercial y sin aditivos."]
     nutrition: [150, 5, 26, 3]
+    photo: thermomix-masas-y-panes/pan-de-molde-de-avena.jpg
     category: Panes y masas
     difficulty: EASY
     prep: 15
@@ -53,6 +54,7 @@ recipes:
   - name: Hogaza de pan
     health: [GREEN, "Pan de harina, agua, sal y levadura, sin azúcar ni grasa añadida."]
     nutrition: [170, 6, 34, 1]
+    photo: thermomix-masas-y-panes/hogaza-de-pan.jpg
     category: Panes y masas
     difficulty: MEDIUM
     prep: 15
@@ -78,6 +80,7 @@ recipes:
   - name: Masa de pizza
     health: [GREEN, "La base sola es ligera; lo que decide si la pizza es saludable son los ingredientes de encima."]
     nutrition: [290, 9, 52, 5]
+    photo: thermomix-masas-y-panes/masa-de-pizza.jpg
     category: Panes y masas
     difficulty: EASY
     prep: 10
@@ -103,6 +106,7 @@ recipes:
   - name: Trenza de pan de leche
     health: [YELLOW, "Pan tierno con mantequilla y azúcar: más calórico que el pan normal, ideal para desayunos de fin de semana."]
     nutrition: [230, 6, 36, 7]
+    photo: thermomix-masas-y-panes/trenza-de-pan-de-leche.jpg
     category: Panes y masas
     difficulty: MEDIUM
     prep: 20
@@ -132,6 +136,7 @@ recipes:
   - name: Pan de espelta
     health: [GREEN, "Pan de espelta con algo de integral: sabroso, con fibra y sin azúcar."]
     nutrition: [170, 6, 32, 2]
+    photo: thermomix-masas-y-panes/pan-de-espelta.jpg
     category: Panes y masas
     difficulty: MEDIUM
     prep: 15
@@ -159,6 +164,7 @@ recipes:
   - name: Pan de cerveza
     health: [GREEN, "Pan rústico con cerveza: sin grasa añadida y con una miga muy sabrosa."]
     nutrition: [180, 6, 35, 1]
+    photo: thermomix-masas-y-panes/pan-de-cerveza.jpg
     category: Panes y masas
     difficulty: MEDIUM
     prep: 15
@@ -185,6 +191,7 @@ recipes:
   - name: Pan de aceitunas
     health: [GREEN, "Pan con aceitunas y aceite de oliva: más sabroso y con grasas saludables."]
     nutrition: [190, 5, 30, 5]
+    photo: thermomix-masas-y-panes/pan-de-aceitunas.jpg
     category: Panes y masas
     difficulty: EASY
     prep: 15
@@ -212,6 +219,7 @@ recipes:
   - name: Tortillas de trigo
     health: [GREEN, "Tortillas caseras con pocos ingredientes y sin conservantes."]
     nutrition: [150, 4, 25, 4]
+    photo: thermomix-masas-y-panes/tortillas-de-trigo.jpg
     category: Panes y masas
     difficulty: EASY
     prep: 20
@@ -237,6 +245,7 @@ recipes:
   - name: Colines
     health: [GREEN, "Palitos de pan crujientes, con poco aceite: un picoteo ligero."]
     nutrition: [130, 4, 22, 3]
+    photo: thermomix-masas-y-panes/colines.jpg
     category: Panes y masas
     difficulty: EASY
     prep: 20
@@ -264,6 +273,7 @@ recipes:
   - name: Empanada de pollo y pimientos
     health: [YELLOW, "Relleno de pollo y verduras, pero la masa con aceite la hace calórica: mejor con una ensalada."]
     nutrition: [420, 22, 42, 18]
+    photo: thermomix-masas-y-panes/empanada-de-pollo-y-pimientos.jpg
     category: Panes y masas
     difficulty: MEDIUM
     prep: 30
@@ -302,6 +312,7 @@ recipes:
   - name: Crepes
     health: [GREEN, "La masa es sencilla y ligera; el relleno decide el resto."]
     nutrition: [160, 6, 20, 6]
+    photo: thermomix-masas-y-panes/crepes.jpg
     category: Postres
     difficulty: EASY
     prep: 5
@@ -328,6 +339,7 @@ recipes:
   - name: Quiche de puerro y bacon
     health: [RED, "Masa con mantequilla, nata, queso y bacon: muy calórica, para ocasiones."]
     nutrition: [520, 16, 26, 39]
+    photo: thermomix-masas-y-panes/quiche-de-puerro-y-bacon.jpg
     category: Huevos
     difficulty: MEDIUM
     prep: 25
@@ -364,6 +376,7 @@ recipes:
   - name: Bollitos de chocolate
     health: [YELLOW, "Bollos tiernos con pepitas de chocolate: mejor que la bollería industrial, pero llevan azúcar y mantequilla."]
     nutrition: [250, 6, 36, 9]
+    photo: thermomix-masas-y-panes/bollitos-de-chocolate.jpg
     category: Panes y masas
     difficulty: MEDIUM
     prep: 20
@@ -393,6 +406,7 @@ recipes:
   - name: Bollos preñaos
     health: [RED, "Pan relleno de chorizo: muy sabroso, pero graso y salado. Para fiestas y excursiones."]
     nutrition: [330, 12, 32, 17]
+    photo: thermomix-masas-y-panes/bollos-prenaos.jpg
     category: Panes y masas
     difficulty: MEDIUM
     prep: 25

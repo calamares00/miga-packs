@@ -1,6 +1,6 @@
 id: thermomix-stews-and-one-pot
-version: 1
-updated: 2026-11-12
+version: 2
+updated: 2026-11-13
 language: en
 name: "Thermomix: stews and one-pot dishes"
 series: Kitchen appliances
@@ -26,6 +26,7 @@ recipes:
   - name: Lentils with rice
     health: [GREEN, "Pulses with a grain: complete plant protein, plenty of fibre and iron, and little fat."]
     nutrition: [380, 18, 62, 7]
+    photo: thermomix-guisos-y-cuchara/lentejas-con-arroz.jpg
     category: Legumes
     difficulty: EASY
     prep: 10
@@ -60,6 +61,7 @@ recipes:
   - name: Chickpea and salt cod stew
     health: [GREEN, "Chickpeas, spinach and cod: protein, fibre and iron in a complete, low-fat dish."]
     nutrition: [420, 30, 45, 12]
+    photo: thermomix-guisos-y-cuchara/potaje-de-garbanzos-con-bacalao.jpg
     category: Legumes
     difficulty: EASY
     prep: 15
@@ -92,6 +94,7 @@ recipes:
   - name: White beans with chorizo
     health: [YELLOW, "Pulses rich in fibre and protein, but the chorizo adds quite a lot of saturated fat and salt."]
     nutrition: [520, 27, 48, 24]
+    photo: thermomix-guisos-y-cuchara/alubias-blancas-con-chorizo.jpg
     category: Legumes
     difficulty: EASY
     prep: 10
@@ -123,6 +126,7 @@ recipes:
   - name: Potatoes with pork ribs
     health: [YELLOW, "A complete, filling dish, but pork ribs are fatty: better now and then."]
     nutrition: [560, 26, 40, 32]
+    photo: thermomix-guisos-y-cuchara/patatas-con-costillas.jpg
     category: Meat
     difficulty: EASY
     prep: 15
@@ -155,6 +159,7 @@ recipes:
   - name: Beef stew with mushrooms
     health: [YELLOW, "A good source of protein and iron; the sauce has wine and some fat, so pair it with a light side."]
     nutrition: [430, 38, 12, 22]
+    photo: thermomix-guisos-y-cuchara/ternera-guisada-con-champinones.jpg
     category: Meat
     difficulty: MEDIUM
     prep: 15
@@ -189,6 +194,7 @@ recipes:
   - name: Chicken in almond sauce (pepitoria)
     health: [YELLOW, "Chicken with an almond and egg sauce: lots of protein, but the sauce is rich."]
     nutrition: [480, 40, 8, 31]
+    photo: thermomix-guisos-y-cuchara/pollo-en-pepitoria.jpg
     category: Meat
     difficulty: MEDIUM
     prep: 15
@@ -224,6 +230,7 @@ recipes:
   - name: Chicken curry
     health: [YELLOW, "Chicken with spices and vegetables; coconut milk adds saturated fat, so have it with rice and not too often."]
     nutrition: [450, 36, 14, 28]
+    photo: thermomix-guisos-y-cuchara/pollo-al-curry.jpg
     category: Meat
     difficulty: EASY
     prep: 10
@@ -254,6 +261,7 @@ recipes:
   - name: Salt cod in tomato sauce
     health: [GREEN, "White fish with a tomato sauce: lots of protein and little fat."]
     nutrition: [320, 34, 14, 14]
+    photo: thermomix-guisos-y-cuchara/bacalao-con-tomate.jpg
     category: Fish and seafood
     difficulty: EASY
     prep: 10
@@ -282,6 +290,7 @@ recipes:
   - name: Turkey and vegetable stew
     health: [GREEN, "Lean turkey with plenty of vegetables and little fat: light and complete."]
     nutrition: [340, 36, 22, 11]
+    photo: thermomix-guisos-y-cuchara/estofado-de-pavo-con-verduras.jpg
     category: Meat
     difficulty: EASY
     prep: 15
@@ -314,6 +323,7 @@ recipes:
   - name: Mixed vegetable stew (menestra)
     health: [GREEN, "Plenty of seasonal vegetables with a little ham: light, rich in fibre and vitamins."]
     nutrition: [210, 10, 22, 9]
+    photo: thermomix-guisos-y-cuchara/menestra-de-verduras.jpg
     category: Vegetables
     difficulty: EASY
     prep: 15
@@ -349,6 +359,7 @@ recipes:
   - name: Prawn risotto
     health: [YELLOW, "Rice with prawns and some cheese and butter: high in carbohydrates, best in moderate portions."]
     nutrition: [470, 24, 66, 12]
+    photo: thermomix-guisos-y-cuchara/risotto-de-gambas.jpg
     category: Rice
     difficulty: EASY
     prep: 10
@@ -415,6 +426,7 @@ recipes:
   - name: Pork cheeks in red wine
     health: [YELLOW, "Very tender, tasty meat in a reduced wine sauce: best kept for special occasions."]
     nutrition: [520, 40, 14, 30]
+    photo: thermomix-guisos-y-cuchara/carrillada-al-vino-tinto.jpg
     category: Meat
     difficulty: MEDIUM
     prep: 15
@@ -447,6 +459,7 @@ recipes:
   - name: Squid and potato stew
     health: [GREEN, "Squid and potatoes in a stew: lean protein and little fat."]
     nutrition: [380, 28, 40, 11]
+    photo: thermomix-guisos-y-cuchara/calamares-con-patatas.jpg
     category: Fish and seafood
     difficulty: EASY
     prep: 15

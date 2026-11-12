@@ -1,6 +1,6 @@
 id: thermomix-comida-para-bebes
-version: 1
-updated: 2026-11-12
+version: 2
+updated: 2026-11-13
 language: es
 name: "Thermomix: comida para bebés"
 series: Electrodomésticos
@@ -147,6 +147,7 @@ recipes:
   - name: Puré de lentejas con verduras
     health: [GREEN, "Legumbre con verduras: hierro, fibra y proteína vegetal."]
     nutrition: [130, 7, 20, 3]
+    photo: thermomix-comida-para-bebes/pure-de-lentejas-con-verduras.jpg
     category: Legumbres
     difficulty: EASY
     prep: 10
@@ -241,6 +242,7 @@ recipes:
   - name: Compota de pera y manzana
     health: [GREEN, "Fruta cocida sin azúcar: suave para el estómago del bebé."]
     nutrition: [70, 0, 17, 0]
+    photo: thermomix-comida-para-bebes/compota-de-pera-y-manzana.jpg
     category: Postres
     difficulty: EASY
     prep: 5
@@ -264,6 +266,7 @@ recipes:
   - name: Papilla de avena con plátano
     health: [GREEN, "Avena con fruta: energía, fibra y hierro para el desayuno o la merienda."]
     nutrition: [130, 4, 22, 3]
+    photo: thermomix-comida-para-bebes/papilla-de-avena-con-platano.jpg
     category: Postres
     difficulty: EASY
     prep: 2

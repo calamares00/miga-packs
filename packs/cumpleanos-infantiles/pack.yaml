@@ -1,6 +1,6 @@
 id: cumpleanos-infantiles
-version: 1
-updated: 2026-11-12
+version: 2
+updated: 2026-11-13
 language: es
 name: Cumpleaños infantiles
 series: Especiales
@@ -25,6 +25,7 @@ recipes:
   - name: Tarta de cumpleaños de chocolate
     health: [RED, "Bizcocho de chocolate con cobertura: un postre muy dulce, para el día de la fiesta."]
     nutrition: [420, 6, 52, 21]
+    photo: cumpleanos-infantiles/tarta-de-cumpleanos-de-chocolate.jpg
     category: Postres
     difficulty: MEDIUM
     prep: 30
@@ -62,6 +63,7 @@ recipes:
   - name: Bizcocho arcoíris
     health: [RED, "Bizcocho con azúcar y colorantes: solo para celebraciones."]
     nutrition: [320, 5, 44, 14]
+    photo: cumpleanos-infantiles/bizcocho-arcoiris.jpg
     category: Postres
     difficulty: MEDIUM
     prep: 30
@@ -90,6 +92,7 @@ recipes:
   - name: Cupcakes de vainilla
     health: [RED, "Magdalenas con crema de mantequilla: mucha azúcar y grasa, para la fiesta."]
     nutrition: [330, 3, 40, 18]
+    photo: cumpleanos-infantiles/cupcakes-de-vainilla.jpg
     category: Postres
     difficulty: EASY
     prep: 25
@@ -125,6 +128,7 @@ recipes:
   - name: Galletas decoradas
     health: [RED, "Galletas con glasa de azúcar: muy dulces, una por niño es suficiente."]
     nutrition: [150, 2, 24, 5]
+    photo: cumpleanos-infantiles/galletas-decoradas.jpg
     category: Postres
     difficulty: MEDIUM
     prep: 60
@@ -185,6 +189,7 @@ recipes:
   - name: Mini sándwiches de jamón y queso
     health: [YELLOW, "Sándwiches sencillos; mejor con pan integral y jamón cocido de calidad."]
     nutrition: [130, 7, 14, 5]
+    photo: cumpleanos-infantiles/mini-sandwiches-de-jamon-y-queso.jpg
     category: Entrantes
     difficulty: EASY
     prep: 20
@@ -208,6 +213,7 @@ recipes:
   - name: Fingers de pollo al horno
     health: [GREEN, "Pollo rebozado al horno en lugar de frito: crujiente y con mucha menos grasa."]
     nutrition: [260, 28, 18, 8]
+    photo: cumpleanos-infantiles/fingers-de-pollo-al-horno.jpg
     category: Carnes
     difficulty: EASY
     prep: 20
@@ -236,6 +242,7 @@ recipes:
   - name: Salchichas en hojaldre
     health: [RED, "Salchicha y hojaldre: mucha grasa y sal, solo para la fiesta."]
     nutrition: [120, 4, 8, 8]
+    photo: cumpleanos-infantiles/salchichas-en-hojaldre.jpg
     category: Entrantes
     difficulty: EASY
     prep: 15
@@ -260,6 +267,7 @@ recipes:
   - name: Mini hamburguesas
     health: [YELLOW, "Carne picada en pan: buena proteína, pero con grasa y sal."]
     nutrition: [220, 13, 18, 11]
+    photo: cumpleanos-infantiles/mini-hamburguesas.jpg
     category: Carnes
     difficulty: EASY
     prep: 20
@@ -288,6 +296,7 @@ recipes:
   - name: Brochetas de fruta
     health: [GREEN, "Fruta fresca de colores: el contrapunto sano de la merienda."]
     nutrition: [60, 1, 14, 0]
+    photo: cumpleanos-infantiles/brochetas-de-fruta.jpg
     category: Postres
     difficulty: EASY
     prep: 20
@@ -314,6 +323,7 @@ recipes:
   - name: Palomitas caseras
     health: [YELLOW, "Maíz integral con poco aceite: buen picoteo, pero cuidado con la sal y el azúcar."]
     nutrition: [130, 3, 18, 5]
+    photo: cumpleanos-infantiles/palomitas-caseras.jpg
     category: Entrantes
     difficulty: EASY
     prep: 2
@@ -337,6 +347,7 @@ recipes:
   - name: Limonada casera
     health: [YELLOW, "Mejor que los refrescos, pero lleva azúcar: ajusta la cantidad al gusto."]
     nutrition: [90, 0, 23, 0]
+    photo: cumpleanos-infantiles/limonada-casera.jpg
     category: Bebidas
     difficulty: EASY
     prep: 10

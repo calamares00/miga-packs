@@ -1,6 +1,6 @@
 id: thermomix-desserts
-version: 1
-updated: 2026-11-12
+version: 2
+updated: 2026-11-13
 language: en
 name: "Thermomix: desserts"
 series: Kitchen appliances
@@ -25,6 +25,7 @@ recipes:
   - name: Spanish custard (natillas)
     health: [YELLOW, "Milk and egg with sugar: a good source of calcium, but still a sweet dessert."]
     nutrition: [220, 7, 30, 8]
+    photo: thermomix-postres/natillas.jpg
     category: Desserts
     difficulty: EASY
     prep: 5
@@ -53,6 +54,7 @@ recipes:
   - name: Crème caramel
     health: [YELLOW, "Egg and milk with caramel: protein and calcium, but quite a lot of sugar."]
     nutrition: [230, 8, 32, 8]
+    photo: thermomix-postres/flan-de-huevo.jpg
     category: Desserts
     difficulty: EASY
     prep: 10
@@ -79,6 +81,7 @@ recipes:
   - name: Fried custard squares (leche frita)
     health: [RED, "Sweet custard coated and fried: very rich, for special occasions."]
     nutrition: [380, 8, 50, 16]
+    photo: thermomix-postres/leche-frita.jpg
     category: Desserts
     difficulty: MEDIUM
     prep: 20
@@ -112,6 +115,7 @@ recipes:
   - name: Lemon curd
     health: [YELLOW, "A lemon cream with egg and butter: delicious, but with sugar and fat."]
     nutrition: [210, 3, 24, 12]
+    photo: thermomix-postres/crema-de-limon.jpg
     category: Desserts
     difficulty: EASY
     prep: 5
@@ -135,6 +139,7 @@ recipes:
   - name: Chocolate mousse
     health: [RED, "Chocolate, cream and sugar: a very rich treat."]
     nutrition: [360, 5, 24, 28]
+    photo: thermomix-postres/mousse-de-chocolate.jpg
     category: Desserts
     difficulty: EASY
     prep: 15
@@ -159,6 +164,7 @@ recipes:
   - name: Lemon sorbet
     health: [YELLOW, "Refreshing and fat-free, but with quite a lot of sugar."]
     nutrition: [150, 0, 38, 0]
+    photo: thermomix-postres/sorbete-de-limon.jpg
     category: Desserts
     difficulty: EASY
     prep: 10
@@ -182,6 +188,7 @@ recipes:
   - name: Express strawberry ice cream
     health: [GREEN, "Frozen fruit with plain yoghurt and little sugar: a light ice cream in minutes."]
     nutrition: [120, 3, 22, 2]
+    photo: thermomix-postres/helado-expres-de-fresa.jpg
     category: Desserts
     difficulty: EASY
     prep: 5
@@ -204,6 +211,7 @@ recipes:
   - name: Yoghurt cake
     health: [YELLOW, "The classic homemade sponge: better than factory cakes, but it has sugar and oil."]
     nutrition: [290, 5, 38, 13]
+    photo: thermomix-postres/bizcocho-de-yogur.jpg
     category: Desserts
     difficulty: EASY
     prep: 10
@@ -232,6 +240,7 @@ recipes:
   - name: Creamy baked cheesecake
     health: [RED, "Cream cheese, cream and sugar: a very rich dessert."]
     nutrition: [420, 8, 26, 32]
+    photo: thermomix-postres/tarta-de-queso-cremosa.jpg
     category: Desserts
     difficulty: EASY
     prep: 10
@@ -258,6 +267,7 @@ recipes:
   - name: Chocolate truffles
     health: [RED, "Chocolate with cream and butter: small, but very rich."]
     nutrition: [110, 1, 8, 8]
+    photo: thermomix-postres/trufas-de-chocolate.jpg
     category: Desserts
     difficulty: EASY
     prep: 20
@@ -281,6 +291,7 @@ recipes:
   - name: Strawberry jam
     health: [YELLOW, "Fruit with sugar: to have in moderation."]
     nutrition: [40, 0, 10, 0]
+    photo: thermomix-postres/mermelada-de-fresa.jpg
     category: Desserts
     difficulty: EASY
     prep: 10
@@ -303,6 +314,7 @@ recipes:
   - name: Pastry cream
     health: [YELLOW, "A milk, egg and sugar filling: sweet and with some fat."]
     nutrition: [190, 5, 26, 7]
+    photo: thermomix-postres/crema-pastelera.jpg
     category: Desserts
     difficulty: EASY
     prep: 5
@@ -328,6 +340,7 @@ recipes:
   - name: Butter biscuits
     health: [RED, "Butter, sugar and flour: very rich, best one at a time."]
     nutrition: [90, 1, 11, 5]
+    photo: thermomix-postres/galletas-de-mantequilla.jpg
     category: Desserts
     difficulty: EASY
     prep: 20
@@ -354,6 +367,7 @@ recipes:
   - name: Walnut brownie
     health: [RED, "Chocolate, butter and sugar: a very rich dessert."]
     nutrition: [330, 5, 32, 21]
+    photo: thermomix-postres/brownie-de-nueces.jpg
     category: Desserts
     difficulty: EASY
     prep: 10

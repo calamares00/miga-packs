@@ -1,0 +1,72 @@
+# Origin of every photo in this folder: source page, author and licence (CC0 1.0, Public domain,
+# CC BY x.y or CC BY-SA x.y). tools/build.py refuses a recipe photo without an entry here.
+
+pan-de-molde-de-avena.jpg:
+  source: https://commons.wikimedia.org/wiki/File%3A%E4%B9%83%E3%81%8C%E7%BE%8E_%E9%A3%9F%E3%83%91%E3%83%B3_%2846743612265%29.jpg
+  author: "lazy fri13th"
+  license: CC BY 2.0
+
+hogaza-de-pan.jpg:
+  source: https://commons.wikimedia.org/wiki/File%3AHogaza_de_pan.jpg
+  author: "Juan Emilio Prades Bel"
+  license: CC BY 4.0
+
+masa-de-pizza.jpg:
+  source: https://commons.wikimedia.org/wiki/File%3AMaking_pizza_dough_in_kitchen.jpg
+  author: "Jon Sullivan"
+  license: Public domain
+
+trenza-de-pan-de-leche.jpg:
+  source: https://commons.wikimedia.org/wiki/File%3ABraided_Hokkaido_milk_bread.jpg
+  author: "Joy"
+  license: CC BY 2.0
+
+pan-de-espelta.jpg:
+  source: https://commons.wikimedia.org/wiki/File%3APain_d%27%C3%A9peautre.jpg
+  author: "adactio"
+  license: CC BY 2.0
+
+pan-de-cerveza.jpg:
+  source: https://commons.wikimedia.org/wiki/File%3ABeer_Bread_1.jpg
+  author: "Adam Ginsburg"
+  license: CC BY-SA 2.5
+
+pan-de-aceitunas.jpg:
+  source: https://commons.wikimedia.org/wiki/File%3APain_ciabatta_aux_olives_noires.jpg
+  author: "DocteurCosmos"
+  license: CC BY-SA 3.0
+
+tortillas-de-trigo.jpg:
+  source: https://commons.wikimedia.org/wiki/File%3AFlour_Tortillas_001.jpg
+  author: "Ocdp"
+  license: CC0 1.0
+
+colines.jpg:
+  source: https://commons.wikimedia.org/wiki/File%3ASoepstengels_%283871017999%29.jpg
+  author: "Sander van der Wel from Netherlands"
+  license: CC BY-SA 2.0
+
+empanada-de-pollo-y-pimientos.jpg:
+  source: https://commons.wikimedia.org/wiki/File%3AEmpanada_-_xurde.jpg
+  author: "Jorge Díaz from San Francisco, USA"
+  license: CC BY-SA 2.0
+
+crepes.jpg:
+  source: https://commons.wikimedia.org/wiki/File%3ACrepes_dsc07085.jpg
+  author: "David Monniaux"
+  license: CC BY-SA 3.0
+
+quiche-de-puerro-y-bacon.jpg:
+  source: https://commons.wikimedia.org/wiki/File%3AQuiche_with_Potatoes%2C_Leek%2C_Bacon_%26_Wine_%284876357842%29.jpg
+  author: "Katrin Gilger"
+  license: CC BY-SA 2.0
+
+bollitos-de-chocolate.jpg:
+  source: https://commons.wikimedia.org/wiki/File%3ABrioche_aux_p%C3%A9pites_de_chocolat.jpg
+  author: "Jebulon"
+  license: Public domain
+
+bollos-prenaos.jpg:
+  source: https://commons.wikimedia.org/wiki/File%3ABollus_prenaos.jpg
+  author: "martius"
+  license: CC BY 2.0

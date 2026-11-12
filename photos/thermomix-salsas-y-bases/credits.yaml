@@ -1,0 +1,72 @@
+# Origin of every photo in this folder: source page, author and licence (CC0 1.0, Public domain,
+# CC BY x.y or CC BY-SA x.y). tools/build.py refuses a recipe photo without an entry here.
+
+bechamel.jpg:
+  source: https://commons.wikimedia.org/wiki/File%3A2021_Sos_beszamelowy.jpg
+  author: "Jacek Halicki"
+  license: CC BY-SA 4.0
+
+mayonesa.jpg:
+  source: https://commons.wikimedia.org/wiki/File%3AMayonnaise_%281%29.jpg
+  author: "jules"
+  license: CC BY 2.0
+
+alioli.jpg:
+  source: https://commons.wikimedia.org/wiki/File%3AMortero_con_Allioli.jpg
+  author: "Juan Emilio Prades Bel"
+  license: CC BY-SA 4.0
+
+sofrito.jpg:
+  source: https://commons.wikimedia.org/wiki/File%3APisto%2C_sofrito_de_verduras.jpg
+  author: "Juan Emilio Prades Bel"
+  license: CC BY 4.0
+
+tomate-frito-casero.jpg:
+  source: https://commons.wikimedia.org/wiki/File%3AA_fuego_lento_con_el_tomate_previamente_pelado_y_triturado_para_as%C3%AD_hacer_una_buena_conserva_de_tomate_frito_y_abstenerse_a_comprarlo_en_ninguna_tienda_-_panoramio.jpg
+  author: "DnTrotaMundos ☮"
+  license: CC BY 3.0
+
+pesto-de-albahaca.jpg:
+  source: https://commons.wikimedia.org/wiki/File%3ABasilPesto.JPG
+  author: "Ɱ"
+  license: CC BY-SA 3.0
+
+salsa-bolonesa.jpg:
+  source: https://commons.wikimedia.org/wiki/File%3ARagu.jpg
+  author: "Erikatrioschi"
+  license: CC BY-SA 4.0
+
+salsa-brava.jpg:
+  source: https://commons.wikimedia.org/wiki/File%3APatatas_bravas.png
+  author: "Ncoolado"
+  license: CC BY-SA 4.0
+
+salsa-holandesa.jpg:
+  source: https://commons.wikimedia.org/wiki/File%3AAsparges_med_hollandaise_%287274438894%29.jpg
+  author: "cyclonebill from Copenhagen, Denmark"
+  license: CC BY-SA 2.0
+
+salsa-romesco.jpg:
+  source: https://commons.wikimedia.org/wiki/File%3ARomesco-sauce_%286917877891%29.jpg
+  author: "cyclonebill from Copenhagen, Denmark"
+  license: CC BY-SA 2.0
+
+salsa-de-yogur-con-hierbas.jpg:
+  source: https://commons.wikimedia.org/wiki/File%3ASpiced_Yogurt_Sauce_%28140491757%29.jpeg
+  author: "J Doll"
+  license: CC BY 3.0
+
+salsa-de-champinones.jpg:
+  source: https://commons.wikimedia.org/wiki/File%3AScottish_mince_pie_and_mushroom_sauce.jpg
+  author: "Iain Cameron from Ellon, Scotland"
+  license: CC BY 2.0
+
+caldo-de-verduras.jpg:
+  source: https://commons.wikimedia.org/wiki/File%3AYangroupaomo3.jpg
+  author: "Pubuhan"
+  license: CC BY-SA 3.0
+
+caldo-de-pollo.jpg:
+  source: https://commons.wikimedia.org/wiki/File%3AChicken_Stock.jpg
+  author: "TheCulinaryGeek"
+  license: CC BY 2.0

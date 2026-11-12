@@ -1,0 +1,319 @@
+id: cooking-with-kids
+version: 1
+updated: 2026-11-12
+language: en
+name: Cooking with kids
+series: Everyday cooking
+family: cocinar-con-ninos
+description: >-
+  Simple recipes to cook as a family, with jobs children can do on their own: oat and banana
+  cookies, coconut balls, yoghurt ice lollies, strawberry milkshake, tuna stuffed eggs, pasta
+  salad, chicken wraps, sandwich-bread pizzas, mini quiches, baked meatballs, salmon parcels and
+  chocolate salami. Each recipe says what the child can do; the oven, sharp knives and the hob
+  always with an adult.
+author: Miga
+authorGithub: calamares00
+cover:
+  emoji: "🧑‍🍳"
+  title: Cooking with kids
+  colors: ["#0f766e", "#facc15"]
+defaults:
+  source: Miga «Cooking with kids» pack
+recipes:
+
+  - name: Oat and banana cookies
+    health: [GREEN, "Just oats and ripe banana: sweetened by the fruit, with no added sugar."]
+    nutrition: [70, 2, 12, 2]
+    category: Desserts
+    difficulty: EASY
+    prep: 10
+    cook: 15
+    servings: 12
+    notes: "Kids can: mash the bananas with a fork, mix and shape the cookies with a spoon. Servings are cookies."
+    tags: [kids, snack, no added sugar]
+    utensils: [Oven]
+    ingredients:
+      - items:
+          - [very ripe bananas, 2, null]
+          - [rolled oats, 150, g]
+          - [chocolate chips or raisins, 40, g, optional]
+          - [ground cinnamon, 0.5, tsp]
+    steps:
+      - Preheat the oven to 180°C and line a tray with baking paper.
+      - Mash the bananas with a fork into a purée.
+      - Add the oats, cinnamon and chips and mix well.
+      - Put small mounds of mixture on the tray and flatten them a little with the spoon.
+      - Bake 12-15 minutes, until golden. Leave them to cool on the tray.
+
+  - name: Coconut balls
+    health: [RED, "Coconut and condensed milk: very sweet, for occasions."]
+    nutrition: [90, 1, 10, 5]
+    category: Desserts
+    difficulty: EASY
+    prep: 20
+    cook: 0
+    servings: 20
+    notes: "Kids can: mix with their hands, roll the balls and coat them. Servings are balls."
+    tags: [kids, dessert, no-bake, gluten-free]
+    utensils: []
+    ingredients:
+      - items:
+          - [desiccated coconut, 200, g]
+          - [condensed milk, 200, g]
+          - [desiccated coconut to coat, 40, g]
+    steps:
+      - Mix the coconut with the condensed milk in a bowl until you have a mouldable dough.
+      - Chill the dough for 30 minutes.
+      - With slightly damp hands, roll walnut-sized balls.
+      - Roll them in coconut, put them in paper cases and keep them in the fridge.
+
+  - name: Strawberry yoghurt ice lollies
+    health: [GREEN, "Plain yoghurt with fruit: a homemade ice lolly with little sugar."]
+    nutrition: [70, 3, 11, 2]
+    category: Desserts
+    difficulty: EASY
+    prep: 10
+    cook: 0
+    servings: 6
+    notes: "Kids can: hull the strawberries, put everything in the blender (with an adult) and fill the moulds."
+    tags: [kids, dessert, summer, gluten-free]
+    utensils: [Blender]
+    ingredients:
+      - items:
+          - [strawberries, 250, g]
+          - [plain yoghurt, 250, g]
+          - [honey, 1, tbsp]
+    steps:
+      - Wash and hull the strawberries.
+      - Blend the strawberries with the yoghurt and honey.
+      - Fill the lolly moulds and add the sticks.
+      - Freeze for at least 5 hours. Run the moulds under warm water to release them.
+
+  - name: Strawberry and banana milkshake
+    health: [GREEN, "Fruit with milk: a snack rich in calcium with no added sugar."]
+    nutrition: [150, 5, 26, 3]
+    category: Drinks
+    difficulty: EASY
+    prep: 5
+    cook: 0
+    servings: 2
+    notes: "Kids can: peel the banana, measure the milk and press the blender button with an adult."
+    tags: [kids, breakfast, snack, gluten-free]
+    utensils: [Blender]
+    ingredients:
+      - items:
+          - [strawberries, 150, g]
+          - [banana, 1, null]
+          - [cold milk, 300, ml]
+          - [ice cubes, 4, null, optional]
+    steps:
+      - Wash and hull the strawberries. Peel the banana and slice it.
+      - Put all the fruit in the blender with the milk and ice.
+      - Blend until frothy and serve straight away.
+
+  - name: Tuna stuffed eggs
+    health: [GREEN, "Egg and tuna: plenty of protein; with little mayonnaise it is a light dish."]
+    nutrition: [210, 15, 2, 16]
+    category: Eggs
+    difficulty: EASY
+    prep: 20
+    cook: 12
+    servings: 4
+    notes: "Kids can: peel the cold boiled eggs, scoop out the yolks with a teaspoon, mix the filling and stuff them."
+    tags: [kids, eggs, gluten-free]
+    utensils: []
+    ingredients:
+      - items:
+          - [eggs, 6, null]
+          - [drained tuna in oil, 2, can]
+          - [mayonnaise, 3, tbsp]
+          - [tomato sauce, 1, tbsp, optional]
+          - [olives, null, null, optional]
+    steps:
+      - Boil the eggs for 11 minutes and cool them in iced water (an adult does this).
+      - Peel them and halve them lengthways. Scoop out the yolks.
+      - Mix half the yolks with the tuna, mayonnaise and tomato sauce.
+      - Fill the whites with the mixture and grate the remaining yolks on top. Decorate with olives.
+
+  - name: Kids' pasta salad
+    health: [GREEN, "Pasta with vegetables, tuna and egg: a complete, fresh dish."]
+    nutrition: [430, 20, 58, 13]
+    category: Pasta
+    difficulty: EASY
+    prep: 15
+    cook: 12
+    servings: 4
+    notes: "Kids can: wash the cherry tomatoes and cut them with a table knife, drain the sweetcorn and mix everything."
+    tags: [kids, salad, pasta, summer]
+    utensils: []
+    ingredients:
+      - items:
+          - [short pasta (fusilli or farfalle), 300, g]
+          - [cherry tomatoes, 200, g]
+          - [sweetcorn, 150, g]
+          - [tinned tuna, 2, can]
+          - [hard-boiled eggs, 2, null]
+          - [pitted olives, 50, g]
+          - [extra virgin olive oil, 3, tbsp]
+          - [salt, null, null]
+    steps:
+      - Cook the pasta according to the packet, drain it and cool it under the tap.
+      - Halve the tomatoes and chop the eggs.
+      - Mix the pasta with the tomatoes, sweetcorn, tuna, egg and olives.
+      - Dress with oil and salt and keep in the fridge until serving.
+
+  - name: Chicken and vegetable wraps
+    health: [GREEN, "Chicken with raw vegetables in a tortilla: complete, light and fun to build."]
+    nutrition: [380, 28, 36, 13]
+    category: Meat
+    difficulty: EASY
+    prep: 15
+    cook: 10
+    servings: 4
+    notes: "Kids can: grate the carrot, wash the lettuce, spread the tortillas and roll the wraps."
+    tags: [kids, chicken, quick]
+    utensils: [Griddle]
+    ingredients:
+      - items:
+          - [chicken breast, 400, g]
+          - [flour tortillas, 4, null]
+          - [carrot, 1, null]
+          - [lettuce, 4, leaf]
+          - [tomato, 1, null]
+          - [cream cheese, 4, tbsp]
+          - [olive oil, 1, tbsp]
+          - [salt, null, null]
+    steps:
+      - An adult cuts the chicken into strips and cooks it on the griddle with oil and salt for 6-8 minutes.
+      - Grate the carrot and slice the tomato.
+      - Warm the tortillas a little and spread them with the cheese.
+      - Add lettuce, chicken, carrot and tomato and roll them up tightly. Cut them in half.
+
+  - name: Sandwich-bread pizzas
+    health: [YELLOW, "Quick and tasty; better with wholemeal bread and lots of vegetables."]
+    nutrition: [260, 13, 26, 11]
+    category: Breads and doughs
+    difficulty: EASY
+    prep: 10
+    cook: 10
+    servings: 4
+    notes: "Kids can: spread the tomato, scatter the cheese and decorate their pizzas with faces."
+    tags: [kids, pizza, quick]
+    utensils: [Oven]
+    ingredients:
+      - items:
+          - [sandwich bread, 8, slice]
+          - [tomato sauce, 6, tbsp]
+          - [grated mozzarella, 150, g]
+          - [cooked ham, 4, slice]
+          - [cherry tomatoes, 6, null, optional]
+          - [sweetcorn, 3, tbsp, optional]
+          - [dried oregano, null, null]
+    steps:
+      - Preheat the oven to 200°C with the grill on.
+      - Place the slices on a tray and spread them with tomato.
+      - Top with the cheese, ham and other toppings and sprinkle with oregano.
+      - An adult puts them in the oven for 6-8 minutes, until the cheese melts.
+
+  - name: Mini ham and cheese quiches
+    health: [YELLOW, "Egg, milk and cheese: good protein, but the pastry has fat."]
+    nutrition: [180, 8, 12, 11]
+    category: Eggs
+    difficulty: EASY
+    prep: 15
+    cook: 20
+    servings: 12
+    notes: "Kids can: cut the pastry circles with a glass, beat the eggs and fill the moulds. Servings are mini quiches."
+    tags: [kids, eggs, baked]
+    utensils: [Oven]
+    ingredients:
+      - items:
+          - [shortcrust pastry, 1, sheet]
+          - [eggs, 3, null]
+          - [milk, 150, ml]
+          - [diced cooked ham, 100, g]
+          - [grated cheese, 80, g]
+          - [salt, 1, pinch]
+    steps:
+      - Preheat the oven to 180°C.
+      - Cut circles of pastry with a glass and press them into a greased muffin tray.
+      - Beat the eggs with the milk and salt.
+      - Divide the ham and cheese among the moulds and cover with the egg mixture.
+      - An adult bakes them for 18-20 minutes, until set and golden.
+
+  - name: Baked meatballs in tomato sauce
+    health: [GREEN, "Meatballs that are not fried, in tomato sauce: much less fat than fried ones."]
+    nutrition: [360, 26, 18, 20]
+    category: Meat
+    difficulty: EASY
+    prep: 25
+    cook: 30
+    servings: 4
+    notes: "Kids can: mix the meat with their hands (wash them well before and after) and roll the meatballs."
+    tags: [kids, baked, beef]
+    utensils: [Oven]
+    ingredients:
+      - items:
+          - [mixed minced meat, 500, g]
+          - [egg, 1, null]
+          - [breadcrumbs, 40, g]
+          - [milk, 3, tbsp]
+          - [grated parmesan, 30, g]
+          - [chopped parsley, 1, tbsp]
+          - [salt, 1, tsp]
+          - [crushed tomato, 400, g]
+          - [dried oregano, 1, tsp]
+    steps:
+      - Preheat the oven to 200°C.
+      - Mix the meat with the egg, breadcrumbs, milk, cheese, parsley and salt.
+      - Roll walnut-sized meatballs and place them in an ovenproof dish.
+      - Bake 15 minutes. Cover them with the tomato mixed with oregano and bake 15 minutes more.
+
+  - name: Salmon parcels
+    health: [GREEN, "Oily fish steamed with vegetables: omega-3 and no added fat."]
+    nutrition: [330, 30, 8, 20]
+    category: Fish and seafood
+    difficulty: EASY
+    prep: 15
+    cook: 15
+    servings: 4
+    notes: "Kids can: cut the courgette with a table knife, build the parcels and close them. Opening them is the surprise."
+    tags: [kids, fish, baked, gluten-free]
+    utensils: [Oven]
+    ingredients:
+      - items:
+          - [boneless salmon fillets, 4, null]
+          - [courgette, 1, null]
+          - [carrot, 1, null]
+          - [lemon, 1, null]
+          - [extra virgin olive oil, 1, tbsp]
+          - [salt, null, null]
+    steps:
+      - Preheat the oven to 200°C.
+      - Slice the courgette thinly and cut the carrot into sticks.
+      - Put each fillet on a square of baking paper with the vegetables, a slice of lemon, salt and a few drops of oil.
+      - Close the parcels by folding the edges and bake 12-15 minutes.
+
+  - name: Chocolate salami
+    health: [RED, "Biscuits, chocolate and butter: very sweet, for occasions."]
+    nutrition: [180, 2, 20, 10]
+    category: Desserts
+    difficulty: EASY
+    prep: 20
+    cook: 0
+    servings: 12
+    notes: "Kids can: crush the biscuits in a bag with the rolling pin, mix and shape the salami. Servings are slices."
+    tags: [kids, dessert, no-bake, chocolate]
+    utensils: []
+    ingredients:
+      - items:
+          - [dark chocolate, 150, g]
+          - [butter, 80, g]
+          - [Maria or rich tea biscuits, 150, g]
+          - [icing sugar to coat, 2, tbsp]
+    steps:
+      - An adult melts the chocolate with the butter in a bain-marie or in the microwave in 30-second bursts.
+      - Put the biscuits in a bag and crush them into small pieces with a rolling pin.
+      - Mix the biscuits with the chocolate and leave to cool for 10 minutes.
+      - Put the mixture on cling film, shape it into a salami and wrap it well. Chill 3 hours.
+      - Roll it in icing sugar and cut into slices.

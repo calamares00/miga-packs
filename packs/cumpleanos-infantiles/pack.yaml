@@ -1,0 +1,360 @@
+id: cumpleanos-infantiles
+version: 1
+updated: 2026-11-12
+language: es
+name: Cumpleaños infantiles
+series: Especiales
+family: cumpleanos-infantiles
+description: >-
+  Todo para la fiesta de cumpleaños de los peques, fácil de preparar con antelación: tarta de
+  chocolate, bizcocho arcoíris, cupcakes de vainilla, galletas decoradas, mini pizzas, mini
+  sándwiches, fingers de pollo al horno, salchichas en hojaldre, mini hamburguesas, brochetas de
+  fruta, palomitas y limonada casera. Pregunta siempre a las familias por alergias e
+  intolerancias, y evita los frutos secos enteros y las palomitas en menores de 4 años por riesgo
+  de atragantamiento.
+author: Miga
+authorGithub: calamares00
+cover:
+  emoji: "🎂"
+  title: Cumpleaños infantiles
+  colors: ["#7e22ce", "#f472b6"]
+defaults:
+  source: Pack «Cumpleaños infantiles» de Miga
+recipes:
+
+  - name: Tarta de cumpleaños de chocolate
+    health: [RED, "Bizcocho de chocolate con cobertura: un postre muy dulce, para el día de la fiesta."]
+    nutrition: [420, 6, 52, 21]
+    category: Postres
+    difficulty: MEDIUM
+    prep: 30
+    cook: 35
+    servings: 12
+    notes: Molde redondo de 22 cm. El bizcocho se puede hacer el día antes y cubrir el mismo día de la fiesta.
+    tags: [cumpleaños, postre, chocolate]
+    utensils: [Horno]
+    ingredients:
+      - group: Para el bizcocho
+        items:
+          - [harina de trigo, 250, g]
+          - [cacao en polvo puro, 50, g]
+          - [azúcar, 250, g]
+          - [levadura química, 2, cucharadita]
+          - [bicarbonato, 1, cucharadita]
+          - [sal, 1, pizca]
+          - [huevos, 2, null]
+          - [leche, 250, ml]
+          - [aceite de girasol, 120, ml]
+          - [extracto de vainilla, 1, cucharadita]
+          - [agua caliente, 200, ml]
+      - group: Para la cobertura
+        items:
+          - [chocolate con leche, 200, g]
+          - [nata para montar, 200, ml]
+          - [virutas de colores, null, null, optional]
+    steps:
+      - Precalienta el horno a 175 °C y engrasa y enharina el molde.
+      - Mezcla en un bol la harina, el cacao, el azúcar, la levadura, el bicarbonato y la sal.
+      - Añade los huevos, la leche, el aceite y la vainilla y bate hasta que no queden grumos. Incorpora el agua caliente (la masa queda líquida).
+      - Vierte en el molde y hornea 35 minutos, hasta que un palillo salga limpio. Deja enfriar del todo.
+      - Calienta la nata sin que hierva, viértela sobre el chocolate troceado y remueve hasta que se funda. Deja que espese un poco, cubre la tarta y decora con virutas.
+
+  - name: Bizcocho arcoíris
+    health: [RED, "Bizcocho con azúcar y colorantes: solo para celebraciones."]
+    nutrition: [320, 5, 44, 14]
+    category: Postres
+    difficulty: MEDIUM
+    prep: 30
+    cook: 40
+    servings: 12
+    notes: Usa colorantes alimentarios en gel, que dan colores vivos con muy poca cantidad. Por fuera parece un bizcocho normal y la sorpresa está al cortarlo.
+    tags: [cumpleaños, postre]
+    utensils: [Horno, Batidora]
+    ingredients:
+      - items:
+          - [mantequilla blanda, 200, g]
+          - [azúcar, 200, g]
+          - [huevos, 4, null]
+          - [extracto de vainilla, 1, cucharadita]
+          - [harina de trigo, 250, g]
+          - [levadura química, 2, cucharadita]
+          - [leche, 100, ml]
+          - [colorantes alimentarios en gel, 4, null]
+    steps:
+      - Precalienta el horno a 170 °C y engrasa un molde alargado de 25 cm.
+      - Bate la mantequilla con el azúcar hasta que blanquee. Añade los huevos de uno en uno y la vainilla.
+      - Incorpora la harina con la levadura y la leche hasta tener una masa lisa.
+      - Divide la masa en cuatro cuencos y tiñe cada uno de un color.
+      - Pon cucharadas de cada color en el molde, alternándolos, y pasa un palillo para hacer remolinos. Hornea 40 minutos.
+
+  - name: Cupcakes de vainilla
+    health: [RED, "Magdalenas con crema de mantequilla: mucha azúcar y grasa, para la fiesta."]
+    nutrition: [330, 3, 40, 18]
+    category: Postres
+    difficulty: EASY
+    prep: 25
+    cook: 20
+    servings: 12
+    notes: Salen 12 cupcakes. La crema se puede teñir con una gota de colorante.
+    tags: [cumpleaños, postre]
+    utensils: [Horno, Batidora]
+    ingredients:
+      - group: Para los cupcakes
+        items:
+          - [mantequilla blanda, 120, g]
+          - [azúcar, 150, g]
+          - [huevos, 2, null]
+          - [extracto de vainilla, 1, cucharadita]
+          - [harina de trigo, 190, g]
+          - [levadura química, 1.5, cucharadita]
+          - [leche, 120, ml]
+      - group: Para la crema de mantequilla
+        items:
+          - [mantequilla blanda, 120, g]
+          - [azúcar glas, 240, g]
+          - [leche, 1, cucharada]
+          - [extracto de vainilla, 0.5, cucharadita]
+          - [virutas de colores, null, null, optional]
+    steps:
+      - Precalienta el horno a 180 °C y pon cápsulas de papel en un molde de magdalenas.
+      - Bate la mantequilla con el azúcar hasta que esté cremosa. Añade los huevos y la vainilla.
+      - Añade la harina con la levadura alternando con la leche. Llena las cápsulas hasta 2/3.
+      - Hornea 18-20 minutos y deja enfriar del todo.
+      - Bate la mantequilla con el azúcar glas, la leche y la vainilla hasta que esté esponjosa. Decora con manga pastelera y virutas.
+
+  - name: Galletas decoradas
+    health: [RED, "Galletas con glasa de azúcar: muy dulces, una por niño es suficiente."]
+    nutrition: [150, 2, 24, 5]
+    category: Postres
+    difficulty: MEDIUM
+    prep: 60
+    cook: 12
+    servings: 20
+    notes: Salen unas 20 galletas. Decorarlas puede ser una actividad más de la fiesta. Las raciones son galletas.
+    tags: [cumpleaños, postre, niños]
+    utensils: [Horno]
+    ingredients:
+      - group: Para las galletas
+        items:
+          - [mantequilla blanda, 125, g]
+          - [azúcar glas, 100, g]
+          - [huevo, 1, null]
+          - [extracto de vainilla, 1, cucharadita]
+          - [harina de trigo, 300, g]
+          - [sal, 1, pizca]
+      - group: Para la glasa
+        items:
+          - [azúcar glas, 250, g]
+          - [clara de huevo pasteurizada, 1, null]
+          - [zumo de limón, 1, cucharadita]
+          - [colorantes alimentarios, null, null]
+    steps:
+      - Bate la mantequilla con el azúcar glas, añade el huevo y la vainilla y luego la harina y la sal hasta formar una masa. Refrigérala 30 minutos.
+      - Estírala a 5 mm entre dos papeles de horno y corta formas con cortapastas.
+      - Hornea a 180 °C 10-12 minutos, sin que lleguen a dorarse. Deja enfriar.
+      - Bate el azúcar glas con la clara y el limón hasta tener una glasa espesa. Divídela y tiñe cada parte.
+      - Decora las galletas con manga pastelera o cucharillas y deja secar unas horas.
+
+  - name: Mini pizzas
+    health: [YELLOW, "Masa con tomate y queso: aceptable si no se abusa del embutido."]
+    nutrition: [180, 8, 22, 7]
+    category: Panes y masas
+    difficulty: EASY
+    prep: 25
+    cook: 12
+    servings: 16
+    notes: Salen unas 16 mini pizzas. Deja que cada niño elija sus ingredientes. Las raciones son mini pizzas.
+    tags: [cumpleaños, pizza, niños]
+    utensils: [Horno]
+    ingredients:
+      - items:
+          - [masa de pizza, 500, g]
+          - [tomate frito, 150, g]
+          - [mozzarella rallada, 200, g]
+          - [jamón cocido en dados, 100, g]
+          - [maíz dulce, 80, g, optional]
+          - [aceitunas negras en rodajas, 50, g, optional]
+          - [orégano seco, 1, cucharadita]
+    steps:
+      - Precalienta el horno a 220 °C.
+      - Estira la masa a 5 mm y corta círculos de 8 cm con un vaso o un cortapastas.
+      - Ponlos en bandejas con papel de horno y unta cada uno con tomate.
+      - Reparte la mozzarella, el jamón y el resto de ingredientes y espolvorea orégano.
+      - Hornea 10-12 minutos, hasta que el queso se funda y el borde esté dorado.
+
+  - name: Mini sándwiches de jamón y queso
+    health: [YELLOW, "Sándwiches sencillos; mejor con pan integral y jamón cocido de calidad."]
+    nutrition: [130, 7, 14, 5]
+    category: Entrantes
+    difficulty: EASY
+    prep: 20
+    cook: 0
+    servings: 16
+    notes: Corta las formas con cortapastas (estrellas, corazones…) para que sean más divertidos. Prepáralos como mucho dos horas antes y tápalos con un paño húmedo. Las raciones son mini sándwiches.
+    tags: [cumpleaños, niños, rápida]
+    utensils: []
+    ingredients:
+      - items:
+          - [pan de molde sin corteza, 16, rebanada]
+          - [jamón cocido, 8, loncha]
+          - [queso en lonchas, 8, loncha]
+          - [mantequilla o queso crema, 50, g]
+    steps:
+      - Unta ligeramente las rebanadas con mantequilla o queso crema.
+      - Monta 8 sándwiches con una loncha de jamón y otra de queso cada uno.
+      - Aplástalos un poco y corta cada uno en dos formas con un cortapastas, o en triángulos.
+      - Colócalos en una bandeja y tápalos hasta servir.
+
+  - name: Fingers de pollo al horno
+    health: [GREEN, "Pollo rebozado al horno en lugar de frito: crujiente y con mucha menos grasa."]
+    nutrition: [260, 28, 18, 8]
+    category: Carnes
+    difficulty: EASY
+    prep: 20
+    cook: 20
+    servings: 6
+    notes: Sírvelos con kétchup casero, salsa de yogur o miel y mostaza.
+    tags: [cumpleaños, pollo, niños, al horno]
+    utensils: [Horno]
+    ingredients:
+      - items:
+          - [pechugas de pollo, 600, g]
+          - [huevos, 2, null]
+          - [harina, 50, g]
+          - [copos de maíz sin azúcar o pan rallado panko, 120, g]
+          - [queso parmesano rallado, 30, g, optional]
+          - [pimentón dulce, 1, cucharadita]
+          - [aceite de oliva, 2, cucharada]
+          - [sal, 1, cucharadita]
+    steps:
+      - Precalienta el horno a 200 °C y forra una bandeja con papel de horno.
+      - Corta el pollo en tiras y sálalas.
+      - Machaca los copos de maíz y mézclalos con el parmesano y el pimentón.
+      - Pasa las tiras por harina, huevo batido y la mezcla de copos, apretando para que se pegue.
+      - Ponlas en la bandeja, píntalas con un poco de aceite y hornea 18-20 minutos, dándoles la vuelta a mitad.
+
+  - name: Salchichas en hojaldre
+    health: [RED, "Salchicha y hojaldre: mucha grasa y sal, solo para la fiesta."]
+    nutrition: [120, 4, 8, 8]
+    category: Entrantes
+    difficulty: EASY
+    prep: 15
+    cook: 15
+    servings: 24
+    notes: Salen unas 24 piezas. Las raciones son piezas.
+    tags: [cumpleaños, niños, al horno]
+    utensils: [Horno]
+    ingredients:
+      - items:
+          - [lámina de hojaldre, 1, null]
+          - [salchichas tipo Frankfurt, 8, null]
+          - [huevo batido para pintar, 1, null]
+          - [semillas de sésamo, 1, cucharada, optional]
+    steps:
+      - Precalienta el horno a 200 °C.
+      - Corta el hojaldre en 8 tiras y enrolla cada una alrededor de una salchicha.
+      - Corta cada salchicha en tres trozos y colócalos en una bandeja con papel de horno.
+      - Píntalos con huevo y espolvorea sésamo.
+      - Hornea 15 minutos, hasta que el hojaldre esté dorado e hinchado.
+
+  - name: Mini hamburguesas
+    health: [YELLOW, "Carne picada en pan: buena proteína, pero con grasa y sal."]
+    nutrition: [220, 13, 18, 11]
+    category: Carnes
+    difficulty: EASY
+    prep: 20
+    cook: 10
+    servings: 12
+    notes: Salen 12 mini hamburguesas. Comprueba que estén bien hechas por dentro. Las raciones son mini hamburguesas.
+    tags: [cumpleaños, niños]
+    utensils: [Plancha]
+    ingredients:
+      - items:
+          - [carne picada de ternera, 500, g]
+          - [huevo, 1, null]
+          - [pan rallado, 2, cucharada]
+          - [sal, 1, cucharadita]
+          - [mini panecillos de hamburguesa, 12, null]
+          - [queso en lonchas, 6, loncha]
+          - [tomates cherry, 6, null]
+          - [lechuga, null, null]
+          - [kétchup, null, null]
+    steps:
+      - Mezcla la carne con el huevo, el pan rallado y la sal y forma 12 hamburguesas pequeñas.
+      - Cocínalas en la plancha caliente 3-4 minutos por cada lado, hasta que estén hechas por dentro.
+      - Pon media loncha de queso sobre cada una al final para que se funda.
+      - Monta las hamburguesas en los panecillos con lechuga, una rodaja de tomate y kétchup, y sujétalas con un palillo.
+
+  - name: Brochetas de fruta
+    health: [GREEN, "Fruta fresca de colores: el contrapunto sano de la merienda."]
+    nutrition: [60, 1, 14, 0]
+    category: Postres
+    difficulty: EASY
+    prep: 20
+    cook: 0
+    servings: 12
+    notes: "Para niños pequeños, usa palitos sin punta o sirve la fruta en vasitos. Un toque divertido: báñalas en parte con chocolate fundido."
+    tags: [cumpleaños, fruta, sin gluten, vegana]
+    utensils: []
+    ingredients:
+      - items:
+          - [fresas, 12, null]
+          - [uvas sin pepitas, 24, null]
+          - [melón en dados, 300, g]
+          - [piña en dados, 300, g]
+          - [kiwis, 2, null]
+          - [plátanos, 2, null]
+          - [zumo de limón, 1, cucharada]
+    steps:
+      - Lava la fruta y córtala en trozos de tamaño parecido. Corta las uvas por la mitad, a lo largo, para los más pequeños.
+      - Riega el plátano con el limón para que no se oscurezca.
+      - Ensarta la fruta en los palitos alternando colores.
+      - Guárdalas en la nevera tapadas hasta servir.
+
+  - name: Palomitas caseras
+    health: [YELLOW, "Maíz integral con poco aceite: buen picoteo, pero cuidado con la sal y el azúcar."]
+    nutrition: [130, 3, 18, 5]
+    category: Entrantes
+    difficulty: EASY
+    prep: 2
+    cook: 5
+    servings: 6
+    notes: No las des a menores de 4 años por riesgo de atragantamiento.
+    tags: [cumpleaños, aperitivo, sin gluten]
+    utensils: []
+    ingredients:
+      - items:
+          - [maíz para palomitas, 100, g]
+          - [aceite de girasol, 2, cucharada]
+          - [sal fina, 0.5, cucharadita]
+          - [azúcar glas, 1, cucharada, optional]
+    steps:
+      - Calienta el aceite en una olla grande con tapa a fuego medio-alto con tres granos de maíz.
+      - Cuando salten, añade el resto del maíz, tapa y mueve la olla de vez en cuando.
+      - Cuando pasen 2-3 segundos entre estallido y estallido, retira del fuego.
+      - Añade la sal (o el azúcar glas para palomitas dulces), tapa y agita bien.
+
+  - name: Limonada casera
+    health: [YELLOW, "Mejor que los refrescos, pero lleva azúcar: ajusta la cantidad al gusto."]
+    nutrition: [90, 0, 23, 0]
+    category: Bebidas
+    difficulty: EASY
+    prep: 10
+    cook: 0
+    servings: 8
+    notes: Se puede preparar la base (zumo y azúcar) el día antes y añadir el agua y el hielo al servir.
+    tags: [cumpleaños, bebida, verano, vegana]
+    utensils: []
+    ingredients:
+      - items:
+          - [limones, 6, null]
+          - [azúcar, 150, g]
+          - [agua fría, 1500, ml]
+          - [hielo, null, null]
+          - [hojas de hierbabuena, null, null, optional]
+          - [rodajas de limón, null, null]
+    steps:
+      - Exprime los limones y cuela el zumo.
+      - Disuelve el azúcar en el zumo removiendo bien.
+      - Añade el agua fría y mezcla en una jarra.
+      - Sirve con hielo, rodajas de limón y unas hojas de hierbabuena.

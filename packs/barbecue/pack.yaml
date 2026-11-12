@@ -1,0 +1,395 @@
+id: barbecue
+version: 1
+updated: 2026-11-12
+language: en
+name: Barbecue
+series: Specials
+family: barbacoa
+description: >-
+  Recipes for a summer party around the barbecue or grill: Iberian pork burgers, ribs, chicken
+  and vegetable skewers, Iberian pork secreto, lamb chops, grilled salmon and sardines, corn on
+  the cob, foil-baked potatoes, grilled vegetables, homemade barbecue sauce, tomato and tuna
+  belly salad and, for dessert, grilled pineapple and bananas. Almost everything also works on a
+  griddle or under the oven grill.
+author: Miga
+authorGithub: calamares00
+cover:
+  emoji: "🔥"
+  title: Barbecue
+  colors: ["#7f1d1d", "#f97316"]
+defaults:
+  source: Miga «Barbecue» pack
+recipes:
+
+  - name: Iberian pork burgers
+    health: [YELLOW, "Juicy, tasty meat, but Iberian pork is fatty: serve them with salad."]
+    nutrition: [560, 30, 32, 34]
+    category: Meat
+    difficulty: EASY
+    prep: 15
+    cook: 10
+    servings: 4
+    notes: Ask the butcher to mince Iberian pork presa or secreto. Pork should be cooked through.
+    tags: [barbecue, pork, summer]
+    utensils: [Barbecue]
+    ingredients:
+      - items:
+          - [minced Iberian pork, 600, g]
+          - [garlic, 1, clove]
+          - [smoked paprika, 1, tsp]
+          - [salt, 1, tsp]
+          - [burger buns, 4, null]
+          - [goat's cheese log, 4, slice, optional]
+          - [red onion, 1, null]
+          - [rocket, null, null]
+    steps:
+      - Mix the meat with the chopped garlic, paprika and salt without overworking it. Shape 4 burgers 2 cm thick and press a dip in the centre with your thumb so they do not dome.
+      - Grill over hot coals 4-5 minutes a side, until cooked through. Put the cheese on top for the last minute.
+      - Toast the buns on the grill.
+      - Build the burgers with onion rings and rocket.
+
+  - name: Barbecue pork ribs
+    health: [RED, "Pork ribs with a sweet sauce: lots of fat and sugar, for occasions."]
+    nutrition: [680, 38, 22, 48]
+    category: Meat
+    difficulty: MEDIUM
+    prep: 15
+    cook: 150
+    servings: 4
+    notes: They are cooked first in the oven so they turn tender, then finished on the barbecue. You can bake them the day before.
+    tags: [barbecue, pork, baked]
+    utensils: [Barbecue, Oven]
+    ingredients:
+      - items:
+          - [rack of pork ribs, 1.5, kg]
+          - [sweet paprika, 1, tbsp]
+          - [garlic powder, 1, tsp]
+          - [brown sugar, 1, tbsp]
+          - [salt, 2, tsp]
+          - [black pepper, 1, tsp]
+          - [barbecue sauce, 200, ml]
+    steps:
+      - Remove the membrane from the back of the rack. Mix the spices, sugar and salt and rub them well into the meat.
+      - Wrap the rack in foil and bake at 150°C for 2 hours.
+      - Open the foil, brush the ribs with half the sauce and take them to the barbecue over medium heat.
+      - Grill 10-15 minutes, turning and brushing with more sauce, until caramelised.
+      - Cut between the bones and serve with the rest of the sauce.
+
+  - name: Lemon chicken skewers
+    health: [GREEN, "Breast marinated in lemon and herbs: lean protein and little fat."]
+    nutrition: [280, 38, 4, 12]
+    category: Meat
+    difficulty: EASY
+    prep: 20
+    cook: 12
+    servings: 4
+    notes: If you use wooden skewers, soak them for 30 minutes so they do not burn.
+    tags: [barbecue, chicken, summer]
+    utensils: [Barbecue]
+    ingredients:
+      - items:
+          - [chicken breasts, 700, g]
+          - [lemon (juice and zest), 1, null]
+          - [extra virgin olive oil, 3, tbsp]
+          - [garlic, 2, clove]
+          - [dried oregano, 1, tsp]
+          - [sweet paprika, 1, tsp]
+          - [salt, 1, tsp]
+          - [red pepper, 1, null]
+          - [onion, 1, null]
+    steps:
+      - Cut the chicken into 3 cm cubes. Mix the lemon juice and zest, oil, chopped garlic, oregano, paprika and salt.
+      - Marinate the chicken in the mixture for at least 1 hour in the fridge.
+      - Cut the pepper and onion into squares and thread them onto the skewers, alternating with the chicken.
+      - Grill over medium-high heat for 10-12 minutes, turning, until the chicken is cooked and golden.
+
+  - name: Vegetable skewers
+    health: [GREEN, "Chargrilled vegetables with a little oil: light, colourful and full of fibre."]
+    nutrition: [120, 3, 12, 7]
+    category: Vegetables
+    difficulty: EASY
+    prep: 20
+    cook: 12
+    servings: 4
+    notes: Add cubes of halloumi to turn them into a vegetarian main.
+    tags: [barbecue, vegetables, vegan, gluten-free]
+    utensils: [Barbecue]
+    ingredients:
+      - items:
+          - [courgette, 1, null]
+          - [red pepper, 1, null]
+          - [yellow pepper, 1, null]
+          - [red onion, 1, null]
+          - [mushrooms, 12, null]
+          - [cherry tomatoes, 12, null]
+          - [extra virgin olive oil, 3, tbsp]
+          - [herbes de Provence, 1, tsp]
+          - [salt, 1, tsp]
+    steps:
+      - Cut the vegetables into pieces of a similar size.
+      - Thread them onto the skewers, alternating colours.
+      - Mix the oil with the herbs and salt and brush the skewers.
+      - Grill over medium heat for 10-12 minutes, turning, until tender and marked.
+
+  - name: Grilled Iberian pork secreto
+    health: [YELLOW, "Very tasty Iberian pork, but quite fatty."]
+    nutrition: [520, 32, 0, 44]
+    category: Meat
+    difficulty: EASY
+    prep: 5
+    cook: 10
+    servings: 4
+    notes: Secreto (a well-marbled cut from behind the shoulder) cooks very quickly and needs little salt; its fat keeps it juicy.
+    tags: [barbecue, pork, gluten-free]
+    utensils: [Barbecue]
+    ingredients:
+      - items:
+          - [Iberian pork secreto, 800, g]
+          - [flaky salt, null, null]
+          - [Padrón peppers, 200, g, optional]
+    steps:
+      - Take the meat out of the fridge 20 minutes ahead.
+      - Grill it whole over hot coals for 4 minutes a side, without piercing it.
+      - Leave it to rest 3 minutes and cut it into strips.
+      - Serve with flaky salt and, if you like, Padrón peppers done on the grill.
+
+  - name: Grilled lamb chops
+    health: [YELLOW, "Very tasty lamb with some fat; good with grilled vegetables."]
+    nutrition: [480, 30, 1, 40]
+    category: Meat
+    difficulty: EASY
+    prep: 10
+    cook: 8
+    servings: 4
+    notes: Small milk-fed lamb chops cook in a moment; larger ones need a couple of minutes more.
+    tags: [barbecue, lamb, gluten-free]
+    utensils: [Barbecue]
+    ingredients:
+      - items:
+          - [lamb chops, 12, null]
+          - [extra virgin olive oil, 2, tbsp]
+          - [garlic, 2, clove]
+          - [fresh rosemary, 2, sprig]
+          - [salt, null, null]
+    steps:
+      - Crush the garlic with the rosemary and oil and brush the chops. Leave them 30 minutes.
+      - Grill over hot coals for 2-3 minutes a side.
+      - Salt them as they come off the grill and serve at once.
+
+  - name: Barbecued salmon
+    health: [GREEN, "Oily fish rich in omega-3, cooked with very little added fat."]
+    nutrition: [380, 34, 2, 26]
+    category: Fish and seafood
+    difficulty: EASY
+    prep: 10
+    cook: 10
+    servings: 4
+    notes: Cook it skin side down and do not move it, so it does not stick. A cast-iron plate on the barbecue also works.
+    tags: [barbecue, fish, gluten-free]
+    utensils: [Barbecue]
+    ingredients:
+      - items:
+          - [salmon fillets with skin, 4, null]
+          - [extra virgin olive oil, 2, tbsp]
+          - [lemon, 1, null]
+          - [fresh dill, 1, tbsp]
+          - [salt, 1, tsp]
+          - [black pepper, null, null]
+    steps:
+      - Pat the salmon dry, brush with oil and season.
+      - Place it skin side down on the clean, oiled grill over medium-high heat.
+      - Grill 6-8 minutes without moving it, turn carefully and finish 1-2 minutes more.
+      - Serve with lemon and chopped dill.
+
+  - name: Grilled sardines
+    health: [GREEN, "Cheap oily fish full of omega-3: one of the healthiest things of summer."]
+    nutrition: [300, 30, 0, 20]
+    category: Fish and seafood
+    difficulty: EASY
+    prep: 10
+    cook: 8
+    servings: 4
+    notes: Grilled whole and ungutted, as they are done on the Spanish and Portuguese coast. A hinged fish grill helps to turn them.
+    tags: [barbecue, fish, gluten-free, summer]
+    utensils: [Barbecue]
+    ingredients:
+      - items:
+          - [fresh sardines, 1, kg]
+          - [coarse salt, 2, tbsp]
+          - [extra virgin olive oil, null, null]
+          - [bread, null, null, optional]
+    steps:
+      - Rinse the sardines without scaling them and cover them with coarse salt for 15 minutes.
+      - Shake off the excess salt and put them in a hinged fish grill.
+      - Grill over hot coals for 3-4 minutes a side, until the skin is charred.
+      - Serve with a drizzle of oil and, if you like, on a slice of bread.
+
+  - name: Grilled corn on the cob
+    health: [YELLOW, "Corn is wholegrain and filling; butter adds fat, so go easy."]
+    nutrition: [180, 4, 24, 9]
+    category: Vegetables
+    difficulty: EASY
+    prep: 5
+    cook: 20
+    servings: 4
+    notes: With the husks on, the corn steams and stays juicier.
+    tags: [barbecue, vegetables, vegetarian, gluten-free]
+    utensils: [Barbecue]
+    ingredients:
+      - items:
+          - [corn cobs, 4, null]
+          - [butter, 40, g]
+          - [sweet paprika, 1, tsp]
+          - [lime, 1, null]
+          - [salt, null, null]
+    steps:
+      - If the cobs have husks, pull them back without removing them, take out the silk and close them again. Soak for 15 minutes.
+      - Grill over medium heat for 15-20 minutes, turning.
+      - Remove the husks and leave 2 minutes more over the coals to char the kernels.
+      - Spread with the butter mixed with paprika and serve with lime and salt.
+
+  - name: Foil-baked potatoes on the barbecue
+    health: [GREEN, "Potato baked in its skin: filling and low in fat if you go easy on the sauce."]
+    nutrition: [220, 6, 38, 5]
+    category: Vegetables
+    difficulty: EASY
+    prep: 10
+    cook: 50
+    servings: 4
+    notes: Put them in the coals as soon as you light the barbecue; they will be ready with the meat.
+    tags: [barbecue, vegetables, vegetarian, gluten-free]
+    utensils: [Barbecue]
+    ingredients:
+      - items:
+          - [medium potatoes, 4, null]
+          - [extra virgin olive oil, 1, tbsp]
+          - [coarse salt, null, null]
+          - [plain Greek yoghurt, 150, g]
+          - [chopped chives, 1, tbsp]
+    steps:
+      - Scrub the potatoes, prick them with a fork, rub them with oil and salt and wrap them in foil.
+      - Nestle them in the coals and bake 40-50 minutes, turning halfway, until tender.
+      - Cut a cross in the top and fill with the yoghurt mixed with chives and salt.
+
+  - name: Mixed grilled vegetables
+    health: [GREEN, "Seasonal vegetables with olive oil: light, tasty and rich in fibre."]
+    nutrition: [150, 3, 14, 9]
+    category: Vegetables
+    difficulty: EASY
+    prep: 15
+    cook: 20
+    servings: 4
+    notes: Delicious with romesco sauce.
+    tags: [barbecue, vegetables, vegan, gluten-free]
+    utensils: [Barbecue]
+    ingredients:
+      - items:
+          - [aubergine, 1, null]
+          - [courgette, 1, null]
+          - [red peppers, 2, null]
+          - [onions, 2, null]
+          - [green asparagus, 1, bunch]
+          - [extra virgin olive oil, 4, tbsp]
+          - [flaky salt, null, null]
+    steps:
+      - Slice the aubergine and courgette lengthways, cut the peppers into wide strips and the onions into thick rounds.
+      - Brush them with oil.
+      - Grill over medium heat in batches, 3-5 minutes a side, until tender and marked.
+      - Serve with flaky salt and a drizzle of oil.
+
+  - name: Homemade barbecue sauce
+    health: [YELLOW, "It has sugar and vinegar: to go with food, not to eat by the spoonful."]
+    nutrition: [45, 0, 10, 0]
+    category: Sauces
+    difficulty: EASY
+    prep: 5
+    cook: 20
+    servings: 12
+    notes: Keeps two weeks in a jar in the fridge. Servings are one tablespoon.
+    tags: [barbecue, sauce, vegan]
+    utensils: []
+    ingredients:
+      - items:
+          - [ketchup, 250, g]
+          - [brown sugar, 50, g]
+          - [cider vinegar, 50, ml]
+          - [Worcestershire sauce, 1, tbsp]
+          - [honey, 1, tbsp]
+          - [smoked paprika, 1, tsp]
+          - [garlic powder, 0.5, tsp]
+          - [mustard, 1, tsp]
+    steps:
+      - Put all the ingredients in a saucepan and mix well.
+      - Simmer over low heat for 15-20 minutes, stirring, until thick.
+      - Leave to cool and store in a jar.
+
+  - name: Tomato and tuna belly salad
+    health: [GREEN, "Seasonal tomatoes with tuna: fresh, light and with protein."]
+    nutrition: [250, 14, 8, 18]
+    category: Salads
+    difficulty: EASY
+    prep: 10
+    cook: 0
+    servings: 4
+    notes: With good seasonal tomatoes it needs nothing else.
+    tags: [salad, summer, gluten-free]
+    utensils: []
+    ingredients:
+      - items:
+          - [ripe tomatoes, 4, null]
+          - [tuna belly (ventresca) in oil, 150, g]
+          - [spring onion, 1, null]
+          - [black olives, 12, null]
+          - [extra virgin olive oil, 3, tbsp]
+          - [sherry vinegar, 1, tbsp]
+          - [flaky salt, null, null]
+          - [dried oregano, null, null]
+    steps:
+      - Cut the tomatoes into slices or wedges and arrange them on a platter.
+      - Scatter the thinly sliced spring onion, the tuna in flakes and the olives.
+      - Dress with oil, vinegar, flaky salt and oregano just before serving.
+
+  - name: Grilled pineapple with cinnamon
+    health: [GREEN, "Fruit on the grill with a touch of cinnamon: a light dessert."]
+    nutrition: [110, 1, 26, 1]
+    category: Desserts
+    difficulty: EASY
+    prep: 10
+    cook: 8
+    servings: 4
+    notes: Delicious with a scoop of vanilla ice cream or Greek yoghurt.
+    tags: [barbecue, dessert, fruit, gluten-free]
+    utensils: [Barbecue]
+    ingredients:
+      - items:
+          - [pineapple, 1, null]
+          - [brown sugar, 1, tbsp]
+          - [ground cinnamon, 1, tsp]
+          - [mint leaves, null, null, optional]
+    steps:
+      - Peel the pineapple and cut it into 2 cm slices, removing the core.
+      - Mix the sugar with the cinnamon and sprinkle over the slices.
+      - Grill over medium heat for 3-4 minutes a side, until caramelised.
+      - Serve warm with a few mint leaves.
+
+  - name: Barbecued chocolate bananas
+    health: [YELLOW, "Fruit with chocolate: a treat, better with dark chocolate."]
+    nutrition: [180, 2, 30, 7]
+    category: Desserts
+    difficulty: EASY
+    prep: 5
+    cook: 10
+    servings: 4
+    notes: A dessert children can make themselves (with an adult at the barbecue).
+    tags: [barbecue, dessert, fruit]
+    utensils: [Barbecue]
+    ingredients:
+      - items:
+          - [bananas, 4, null]
+          - [dark chocolate squares, 40, g]
+          - [marshmallows, 8, null, optional]
+    steps:
+      - Make a lengthways cut in each banana, without peeling it and without cutting through to the other side.
+      - Open the cut a little and push in the chocolate and marshmallows.
+      - Wrap each banana in foil.
+      - Cook over the coals for 8-10 minutes, until the chocolate melts. Eat with a spoon.

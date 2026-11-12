@@ -1,0 +1,309 @@
+id: thermomix-comida-para-bebes
+version: 1
+updated: 2026-11-12
+language: es
+name: "Thermomix: comida para bebés"
+series: Electrodomésticos
+family: thermomix-comida-para-bebes
+description: >-
+  Purés y papillas caseros para la alimentación complementaria, a partir de los 6 meses,
+  programados para Thermomix TM6 (funcionan igual en TM5 y TM7): verduras, pollo, ternera,
+  pescado blanco, legumbres, fruta y avena. Sin sal ni azúcar. Cada bebé tiene su ritmo: sigue
+  siempre las indicaciones de tu pediatra para introducir alimentos y texturas, y ofrece un
+  alimento nuevo cada vez para detectar alergias.
+author: Miga
+authorGithub: calamares00
+cover:
+  emoji: "🍼"
+  kicker: Thermomix
+  title: Comida para bebés
+  colors: ["#0369a1", "#7dd3fc"]
+defaults:
+  source: "Pack «Thermomix: comida para bebés» de Miga"
+recipes:
+
+  - name: Puré de calabacín y patata
+    health: [GREEN, "Verduras suaves sin sal, con un chorrito de aceite de oliva en crudo."]
+    nutrition: [90, 2, 13, 3]
+    category: Sopas y cremas
+    difficulty: EASY
+    prep: 5
+    cook: 25
+    servings: 4
+    notes: "Programado para Thermomix TM6. Desde los 6 meses. Sin sal: el aceite de oliva se añade en crudo al servir. Se congela en raciones."
+    tags: [bebés, verduras, sin gluten]
+    utensils: [Thermomix]
+    ingredients:
+      - items:
+          - [calabacín, 300, g]
+          - [patata, 200, g]
+          - [puerro (la parte blanca), 0.5, null]
+          - [agua, 300, g]
+          - [aceite de oliva virgen extra, 4, cucharadita]
+    steps:
+      - Pela la patata y lava bien el calabacín (puedes dejarle la piel). Trocéalos y ponlos en el vaso con el puerro y el agua.
+      - Programa 25 min/100 °C/vel 1.
+      - Tritura 1 min/vel 5-10 subiendo poco a poco, hasta que no quede ningún grumo. Ajusta la textura con un poco del agua de cocción.
+      - Sirve templado con una cucharadita de aceite de oliva por ración.
+
+  - name: Puré de zanahoria y boniato
+    health: [GREEN, "Dulce de forma natural, sin azúcar añadido, y rico en vitamina A."]
+    nutrition: [95, 2, 18, 2]
+    category: Sopas y cremas
+    difficulty: EASY
+    prep: 5
+    cook: 25
+    servings: 4
+    notes: Programado para Thermomix TM6. Desde los 6 meses. Cocido al vapor en el Varoma para conservar mejor las vitaminas.
+    tags: [bebés, verduras, sin gluten]
+    utensils: [Thermomix]
+    ingredients:
+      - items:
+          - [zanahorias, 2, null]
+          - [boniato, 300, g]
+          - [agua, 500, g]
+          - [aceite de oliva virgen extra, 4, cucharadita]
+    steps:
+      - Pela la zanahoria y el boniato y córtalos en dados. Ponlos en el recipiente Varoma.
+      - Pon el agua en el vaso, coloca el Varoma y programa 25 min/Varoma/vel 1.
+      - Pasa las verduras al vaso vacío con 100 g del agua de cocción y tritura 1 min/vel 5-10 subiendo poco a poco.
+      - Sirve templado con una cucharadita de aceite de oliva por ración.
+
+  - name: Puré de pollo con verduras
+    health: [GREEN, "Pollo, verduras y patata: proteína, hierro y energía en un solo plato, sin sal."]
+    nutrition: [140, 11, 14, 4]
+    category: Carnes
+    difficulty: EASY
+    prep: 10
+    cook: 25
+    servings: 4
+    notes: "Programado para Thermomix TM6. Desde los 6 meses. La carne siempre bien cocinada: si el pediatra lo ve bien, puedes ir dejándolo menos triturado a partir de los 8-9 meses."
+    tags: [bebés, pollo, sin gluten]
+    utensils: [Thermomix]
+    ingredients:
+      - items:
+          - [pechuga o contramuslo de pollo sin piel, 120, g]
+          - [patata, 150, g]
+          - [zanahoria, 1, null]
+          - [calabacín, 150, g]
+          - [agua, 350, g]
+          - [aceite de oliva virgen extra, 4, cucharadita]
+    steps:
+      - Corta el pollo en dados pequeños, sin grasa ni piel. Pela y trocea las verduras.
+      - Pon todo en el vaso con el agua y programa 25 min/100 °C/giro a la izquierda/vel cuchara.
+      - Comprueba que el pollo esté bien hecho, sin zonas rosadas.
+      - Tritura 1 min/vel 5-10 subiendo poco a poco. Sirve templado con una cucharadita de aceite por ración.
+
+  - name: Puré de ternera con verduras
+    health: [GREEN, "Ternera magra con verduras: muy buena fuente de hierro para el bebé."]
+    nutrition: [150, 12, 13, 5]
+    category: Carnes
+    difficulty: EASY
+    prep: 10
+    cook: 30
+    servings: 4
+    notes: Programado para Thermomix TM6. Desde los 6 meses. El hierro de la carne es muy importante a partir de esta edad.
+    tags: [bebés, ternera, sin gluten]
+    utensils: [Thermomix]
+    ingredients:
+      - items:
+          - [ternera magra en dados, 120, g]
+          - [patata, 150, g]
+          - [judías verdes, 100, g]
+          - [zanahoria, 1, null]
+          - [agua, 350, g]
+          - [aceite de oliva virgen extra, 4, cucharadita]
+    steps:
+      - Pon la carne y las verduras en trozos en el vaso con el agua.
+      - Programa 30 min/100 °C/giro a la izquierda/vel cuchara.
+      - Tritura 1 min 30 seg/vel 5-10 subiendo poco a poco, hasta que esté muy fino.
+      - Sirve templado con una cucharadita de aceite por ración.
+
+  - name: Puré de merluza con verduras
+    health: [GREEN, "Pescado blanco con verduras: proteína de calidad y poca grasa."]
+    nutrition: [120, 10, 12, 4]
+    category: Pescados y mariscos
+    difficulty: EASY
+    prep: 10
+    cook: 25
+    servings: 4
+    notes: "Programado para Thermomix TM6. Desde los 6 meses, si el pediatra no indica otra cosa. Revisa muy bien que no queden espinas. Evita los pescados grandes (pez espada, atún rojo, tiburón) por el mercurio."
+    tags: [bebés, pescado, sin gluten]
+    utensils: [Thermomix]
+    ingredients:
+      - items:
+          - [merluza limpia sin piel ni espinas, 120, g]
+          - [patata, 150, g]
+          - [zanahoria, 1, null]
+          - [puerro (la parte blanca), 0.5, null]
+          - [agua, 400, g]
+          - [aceite de oliva virgen extra, 4, cucharadita]
+    steps:
+      - Pon las verduras peladas y troceadas en el vaso con el agua. Pon la merluza en el recipiente Varoma.
+      - Coloca el Varoma y programa 20 min/Varoma/vel 1.
+      - Desmenuza la merluza con los dedos comprobando que no tenga espinas.
+      - Añade la merluza al vaso y tritura 1 min/vel 5-10 subiendo poco a poco. Sirve templado con una cucharadita de aceite.
+
+  - name: Puré de lentejas con verduras
+    health: [GREEN, "Legumbre con verduras: hierro, fibra y proteína vegetal."]
+    nutrition: [130, 7, 20, 3]
+    category: Legumbres
+    difficulty: EASY
+    prep: 10
+    cook: 35
+    servings: 4
+    notes: "Programado para Thermomix TM6. Desde los 6 meses. Las lentejas rojas no necesitan remojo y se deshacen muy bien. Al principio, en poca cantidad: la legumbre puede dar gases."
+    tags: [bebés, legumbres, sin gluten, vegana]
+    utensils: [Thermomix]
+    ingredients:
+      - items:
+          - [lentejas rojas, 60, g]
+          - [patata, 100, g]
+          - [zanahoria, 1, null]
+          - [calabaza, 100, g]
+          - [agua, 450, g]
+          - [aceite de oliva virgen extra, 4, cucharadita]
+    steps:
+      - Lava bien las lentejas. Pela y trocea las verduras.
+      - Pon todo en el vaso con el agua y programa 30 min/100 °C/vel 1.
+      - Tritura 1 min/vel 5-10 subiendo poco a poco y pásalo por un colador fino si quieres quitar las pieles.
+      - Sirve templado con una cucharadita de aceite por ración.
+
+  - name: Puré de garbanzos y calabaza
+    health: [GREEN, "Garbanzo y calabaza: proteína vegetal, fibra y vitamina A, sin sal."]
+    nutrition: [140, 6, 21, 4]
+    category: Legumbres
+    difficulty: EASY
+    prep: 5
+    cook: 20
+    servings: 4
+    notes: "Programado para Thermomix TM6. Desde los 6 meses. Si usas garbanzos de bote, enjuágalos muy bien para quitar la sal del líquido."
+    tags: [bebés, legumbres, sin gluten, vegana]
+    utensils: [Thermomix]
+    ingredients:
+      - items:
+          - [garbanzos cocidos sin sal, 120, g]
+          - [calabaza, 250, g]
+          - [zanahoria, 1, null]
+          - [agua, 300, g]
+          - [aceite de oliva virgen extra, 4, cucharadita]
+    steps:
+      - Pon la calabaza y la zanahoria peladas en trozos en el vaso con el agua y programa 18 min/100 °C/vel 1.
+      - Añade los garbanzos y programa 2 min/100 °C/vel 1.
+      - Tritura 1 min 30 seg/vel 5-10 subiendo poco a poco.
+      - Sirve templado con una cucharadita de aceite por ración.
+
+  - name: Puré de guisantes y patata
+    health: [GREEN, "Guisantes y patata: proteína vegetal, fibra y un color que les llama la atención."]
+    nutrition: [100, 5, 16, 2]
+    category: Sopas y cremas
+    difficulty: EASY
+    prep: 5
+    cook: 20
+    servings: 4
+    notes: Programado para Thermomix TM6. Desde los 6 meses. Pásalo por un colador para quitar las pieles de los guisantes las primeras veces.
+    tags: [bebés, verduras, sin gluten, vegana]
+    utensils: [Thermomix]
+    ingredients:
+      - items:
+          - [guisantes congelados, 200, g]
+          - [patata, 200, g]
+          - [agua, 350, g]
+          - [aceite de oliva virgen extra, 4, cucharadita]
+    steps:
+      - Pon la patata pelada en trozos y los guisantes en el vaso con el agua.
+      - Programa 20 min/100 °C/vel 1.
+      - Tritura 1 min/vel 5-10 subiendo poco a poco y pasa por un colador fino.
+      - Sirve templado con una cucharadita de aceite por ración.
+
+  - name: Papilla de frutas
+    health: [GREEN, "Fruta fresca triturada, sin azúcar ni zumos añadidos."]
+    nutrition: [80, 1, 19, 0]
+    category: Postres
+    difficulty: EASY
+    prep: 5
+    cook: 0
+    servings: 2
+    notes: "Hecha en Thermomix TM6. Desde los 6 meses. Prepárala justo antes de tomarla para que no se oxide. Evita la miel antes de los 12 meses."
+    tags: [bebés, fruta, sin gluten, vegana]
+    utensils: [Thermomix]
+    ingredients:
+      - items:
+          - [pera madura, 1, null]
+          - [manzana, 0.5, null]
+          - [plátano maduro, 0.5, null]
+          - [zumo de naranja recién exprimido, 1, cucharada, optional]
+    steps:
+      - Pela la fruta, quita las semillas y córtala en trozos.
+      - Pon la fruta en el vaso y tritura 30 seg/vel 7, bajando los restos con la espátula.
+      - Comprueba que no queden trozos y sirve enseguida.
+
+  - name: Compota de pera y manzana
+    health: [GREEN, "Fruta cocida sin azúcar: suave para el estómago del bebé."]
+    nutrition: [70, 0, 17, 0]
+    category: Postres
+    difficulty: EASY
+    prep: 5
+    cook: 15
+    servings: 4
+    notes: Programado para Thermomix TM6. Desde los 6 meses. Se conserva tres días en la nevera y se congela en raciones.
+    tags: [bebés, fruta, sin gluten, vegana]
+    utensils: [Thermomix]
+    ingredients:
+      - items:
+          - [peras, 2, null]
+          - [manzanas, 2, null]
+          - [agua, 50, g]
+          - [canela en rama, 1, trozo, optional]
+    steps:
+      - Pela la fruta, quita el corazón y córtala en trozos.
+      - Ponla en el vaso con el agua y la canela y programa 12 min/100 °C/giro a la izquierda/vel cuchara.
+      - Retira la canela y tritura 30 seg/vel 5-8.
+      - Deja templar antes de servir.
+
+  - name: Papilla de avena con plátano
+    health: [GREEN, "Avena con fruta: energía, fibra y hierro para el desayuno o la merienda."]
+    nutrition: [130, 4, 22, 3]
+    category: Postres
+    difficulty: EASY
+    prep: 2
+    cook: 6
+    servings: 2
+    notes: "Programado para Thermomix TM6. Desde los 6 meses. La avena lleva gluten: introdúcela en pequeñas cantidades, como indique tu pediatra. Usa leche materna o de fórmula; la leche de vaca como bebida, a partir de los 12 meses."
+    tags: [bebés, desayuno]
+    utensils: [Thermomix]
+    ingredients:
+      - items:
+          - [copos de avena finos, 30, g]
+          - [agua, 200, g]
+          - [plátano maduro, 0.5, null]
+          - [leche materna o de fórmula preparada, 50, g, optional]
+    steps:
+      - Pon la avena en el vaso y tritura 10 seg/vel 9.
+      - Añade el agua y programa 6 min/90 °C/vel 2.
+      - Añade el plátano y la leche y tritura 20 seg/vel 7.
+      - Deja templar y comprueba la temperatura antes de dárselo.
+
+  - name: Puré de judías verdes y patata
+    health: [GREEN, "Verduras sencillas sin sal, ideales para empezar."]
+    nutrition: [85, 2, 13, 3]
+    category: Sopas y cremas
+    difficulty: EASY
+    prep: 5
+    cook: 25
+    servings: 4
+    notes: Programado para Thermomix TM6. Desde los 6 meses. Evita las acelgas, la espinaca y la remolacha antes del año por los nitratos.
+    tags: [bebés, verduras, sin gluten, vegana]
+    utensils: [Thermomix]
+    ingredients:
+      - items:
+          - [judías verdes, 200, g]
+          - [patata, 200, g]
+          - [zanahoria, 1, null]
+          - [agua, 350, g]
+          - [aceite de oliva virgen extra, 4, cucharadita]
+    steps:
+      - Quita las puntas e hilos de las judías. Pela la patata y la zanahoria y trocea todo.
+      - Pon las verduras en el vaso con el agua y programa 25 min/100 °C/vel 1.
+      - Tritura 1 min/vel 5-10 subiendo poco a poco y pasa por un colador para quitar las hebras.
+      - Sirve templado con una cucharadita de aceite por ración.

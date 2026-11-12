@@ -1,0 +1,395 @@
+id: barbacoa
+version: 1
+updated: 2026-11-12
+language: es
+name: Barbacoa
+series: Especiales
+family: barbacoa
+description: >-
+  Recetas para una fiesta de verano alrededor de la barbacoa o la parrilla: hamburguesas de cerdo
+  ibérico, costillas, brochetas de pollo y de verduras, secreto ibérico, chuletas de cordero,
+  salmón y sardinas a la brasa, mazorcas de maíz, patatas en papillote, parrillada de verduras,
+  salsa barbacoa casera, ensalada de tomate con ventresca y, de postre, piña y plátanos asados.
+  Casi todo funciona también en una plancha o en el horno con el grill.
+author: Miga
+authorGithub: calamares00
+cover:
+  emoji: "🔥"
+  title: Barbacoa
+  colors: ["#7f1d1d", "#f97316"]
+defaults:
+  source: Pack «Barbacoa» de Miga
+recipes:
+
+  - name: Hamburguesas de cerdo ibérico
+    health: [YELLOW, "Carne jugosa y sabrosa, pero el ibérico es graso: acompáñalas con ensalada."]
+    nutrition: [560, 30, 32, 34]
+    category: Carnes
+    difficulty: EASY
+    prep: 15
+    cook: 10
+    servings: 4
+    notes: Pide en la carnicería presa o secreto picado. El cerdo se sirve bien hecho por dentro.
+    tags: [barbacoa, cerdo, verano]
+    utensils: [Barbacoa]
+    ingredients:
+      - items:
+          - [carne de cerdo ibérico picada, 600, g]
+          - [diente de ajo picado, 1, null]
+          - [pimentón de la Vera, 1, cucharadita]
+          - [sal, 1, cucharadita]
+          - [panes de hamburguesa, 4, null]
+          - [queso de cabra en rulo, 4, rodaja, optional]
+          - [cebolla morada, 1, null]
+          - [rúcula, null, null]
+    steps:
+      - Mezcla la carne con el ajo, el pimentón y la sal sin amasar demasiado. Forma 4 hamburguesas de 2 cm de grosor y hazles un hueco en el centro con el pulgar para que no se abomben.
+      - Ásalas sobre la brasa fuerte 4-5 minutos por cada lado, hasta que estén hechas por dentro. Pon el queso encima el último minuto.
+      - Tuesta los panes en la parrilla.
+      - Monta las hamburguesas con la cebolla en aros y la rúcula.
+
+  - name: Costillas a la barbacoa
+    health: [RED, "Costilla de cerdo con salsa dulce: mucha grasa y azúcar, para ocasiones."]
+    nutrition: [680, 38, 22, 48]
+    category: Carnes
+    difficulty: MEDIUM
+    prep: 15
+    cook: 150
+    servings: 4
+    notes: Se hacen primero en el horno para que queden tiernas y se terminan en la barbacoa. Puedes hornearlas el día antes.
+    tags: [barbacoa, cerdo, al horno]
+    utensils: [Barbacoa, Horno]
+    ingredients:
+      - items:
+          - [costillar de cerdo, 1.5, kg]
+          - [pimentón dulce, 1, cucharada]
+          - [ajo en polvo, 1, cucharadita]
+          - [azúcar moreno, 1, cucharada]
+          - [sal, 2, cucharadita]
+          - [pimienta negra, 1, cucharadita]
+          - [salsa barbacoa, 200, ml]
+    steps:
+      - Quita la membrana de la parte de atrás del costillar. Mezcla las especias, el azúcar y la sal y frota bien la carne.
+      - Envuelve el costillar en papel de aluminio y hornea a 150 °C 2 horas.
+      - Abre el papel, pinta las costillas con la mitad de la salsa barbacoa y llévalas a la barbacoa a fuego medio.
+      - Ásalas 10-15 minutos, dándoles la vuelta y pintándolas con más salsa, hasta que se caramelicen.
+      - Córtalas entre los huesos y sirve con el resto de salsa.
+
+  - name: Brochetas de pollo al limón
+    health: [GREEN, "Pechuga marinada con limón y hierbas: proteína magra y poca grasa."]
+    nutrition: [280, 38, 4, 12]
+    category: Carnes
+    difficulty: EASY
+    prep: 20
+    cook: 12
+    servings: 4
+    notes: Si usas palos de madera, ponlos en remojo 30 minutos para que no se quemen.
+    tags: [barbacoa, pollo, verano]
+    utensils: [Barbacoa]
+    ingredients:
+      - items:
+          - [pechugas de pollo, 700, g]
+          - [limón (zumo y ralladura), 1, null]
+          - [aceite de oliva virgen extra, 3, cucharada]
+          - [dientes de ajo, 2, null]
+          - [orégano seco, 1, cucharadita]
+          - [pimentón dulce, 1, cucharadita]
+          - [sal, 1, cucharadita]
+          - [pimiento rojo, 1, null]
+          - [cebolla, 1, null]
+    steps:
+      - Corta el pollo en dados de 3 cm. Mezcla el zumo y la ralladura de limón, el aceite, el ajo picado, el orégano, el pimentón y la sal.
+      - Marina el pollo en la mezcla al menos 1 hora en la nevera.
+      - Corta el pimiento y la cebolla en cuadrados y ensártalos en las brochetas alternando con el pollo.
+      - Ásalas a fuego medio-fuerte 10-12 minutos, girándolas, hasta que el pollo esté hecho y dorado.
+
+  - name: Brochetas de verduras
+    health: [GREEN, "Verduras a la brasa con un poco de aceite: ligeras, coloridas y llenas de fibra."]
+    nutrition: [120, 3, 12, 7]
+    category: Verduras
+    difficulty: EASY
+    prep: 20
+    cook: 12
+    servings: 4
+    notes: Añade dados de queso halloumi para convertirlas en plato principal vegetariano.
+    tags: [barbacoa, verduras, vegana, sin gluten]
+    utensils: [Barbacoa]
+    ingredients:
+      - items:
+          - [calabacín, 1, null]
+          - [pimiento rojo, 1, null]
+          - [pimiento amarillo, 1, null]
+          - [cebolla morada, 1, null]
+          - [champiñones, 12, null]
+          - [tomates cherry, 12, null]
+          - [aceite de oliva virgen extra, 3, cucharada]
+          - [hierbas provenzales, 1, cucharadita]
+          - [sal, 1, cucharadita]
+    steps:
+      - Corta las verduras en trozos de tamaño parecido.
+      - Ensártalas en las brochetas alternando colores.
+      - Mezcla el aceite con las hierbas y la sal y pinta las brochetas.
+      - Ásalas a fuego medio 10-12 minutos, girándolas, hasta que estén tiernas y con marcas de la parrilla.
+
+  - name: Secreto ibérico a la brasa
+    health: [YELLOW, "Carne de cerdo ibérico muy sabrosa, pero con bastante grasa."]
+    nutrition: [520, 32, 0, 44]
+    category: Carnes
+    difficulty: EASY
+    prep: 5
+    cook: 10
+    servings: 4
+    notes: El secreto se hace muy rápido y con poca sal; su grasa lo mantiene jugoso.
+    tags: [barbacoa, cerdo, sin gluten]
+    utensils: [Barbacoa]
+    ingredients:
+      - items:
+          - [secreto ibérico, 800, g]
+          - [sal en escamas, null, null]
+          - [pimientos de Padrón, 200, g, optional]
+    steps:
+      - Saca el secreto de la nevera 20 minutos antes.
+      - Ásalo entero sobre brasa fuerte 4 minutos por cada lado, sin pincharlo.
+      - Déjalo reposar 3 minutos y córtalo en tiras.
+      - Sirve con sal en escamas y, si quieres, pimientos de Padrón hechos en la parrilla.
+
+  - name: Chuletas de cordero a la brasa
+    health: [YELLOW, "Cordero muy sabroso con algo de grasa; bien con verduras a la brasa."]
+    nutrition: [480, 30, 1, 40]
+    category: Carnes
+    difficulty: EASY
+    prep: 10
+    cook: 8
+    servings: 4
+    notes: Las chuletillas de lechal se hacen en un momento; las de cordero más grande necesitan un par de minutos más.
+    tags: [barbacoa, cordero, sin gluten]
+    utensils: [Barbacoa]
+    ingredients:
+      - items:
+          - [chuletas de cordero, 12, null]
+          - [aceite de oliva virgen extra, 2, cucharada]
+          - [dientes de ajo, 2, null]
+          - [romero fresco, 2, ramita]
+          - [sal, null, null]
+    steps:
+      - Machaca el ajo con el romero y el aceite y pinta las chuletas. Déjalas 30 minutos.
+      - Ásalas sobre brasa fuerte 2-3 minutos por cada lado.
+      - Sálalas al sacarlas de la parrilla y sirve enseguida.
+
+  - name: Salmón a la brasa
+    health: [GREEN, "Pescado azul rico en omega 3, hecho con muy poca grasa añadida."]
+    nutrition: [380, 34, 2, 26]
+    category: Pescados y mariscos
+    difficulty: EASY
+    prep: 10
+    cook: 10
+    servings: 4
+    notes: Hazlo con la piel hacia abajo y sin moverlo para que no se pegue. Una plancha de hierro sobre la barbacoa también funciona.
+    tags: [barbacoa, pescado, sin gluten]
+    utensils: [Barbacoa]
+    ingredients:
+      - items:
+          - [lomos de salmón con piel, 4, null]
+          - [aceite de oliva virgen extra, 2, cucharada]
+          - [limón, 1, null]
+          - [eneldo fresco, 1, cucharada]
+          - [sal, 1, cucharadita]
+          - [pimienta negra, null, null]
+    steps:
+      - Seca bien el salmón, píntalo con aceite y salpimienta.
+      - Ponlo sobre la parrilla limpia y engrasada, con la piel hacia abajo, a fuego medio-fuerte.
+      - Ásalo 6-8 minutos sin moverlo, dale la vuelta con cuidado y termina 1-2 minutos más.
+      - Sirve con limón y eneldo picado.
+
+  - name: Sardinas a la brasa
+    health: [GREEN, "Pescado azul barato y lleno de omega 3: de lo más sano del verano."]
+    nutrition: [300, 30, 0, 20]
+    category: Pescados y mariscos
+    difficulty: EASY
+    prep: 10
+    cook: 8
+    servings: 4
+    notes: Se asan enteras y sin limpiar, como se hacen en la costa. Una parrilla de pinza ayuda a darles la vuelta.
+    tags: [barbacoa, pescado, sin gluten, verano]
+    utensils: [Barbacoa]
+    ingredients:
+      - items:
+          - [sardinas frescas, 1, kg]
+          - [sal gorda, 2, cucharada]
+          - [aceite de oliva virgen extra, null, null]
+          - [pan, null, null, optional]
+    steps:
+      - Lava las sardinas sin quitarles las escamas y cúbrelas con sal gorda 15 minutos.
+      - Retira el exceso de sal y ponlas en una parrilla de pinza.
+      - Ásalas sobre brasa fuerte 3-4 minutos por cada lado, hasta que la piel esté tostada.
+      - Sirve con un chorrito de aceite y, si quieres, sobre una rebanada de pan.
+
+  - name: Mazorcas de maíz asadas
+    health: [YELLOW, "El maíz es integral y saciante; la mantequilla añade grasa, así que con moderación."]
+    nutrition: [180, 4, 24, 9]
+    category: Verduras
+    difficulty: EASY
+    prep: 5
+    cook: 20
+    servings: 4
+    notes: Con las hojas puestas se asan al vapor y quedan más jugosas.
+    tags: [barbacoa, verduras, vegetariana, sin gluten]
+    utensils: [Barbacoa]
+    ingredients:
+      - items:
+          - [mazorcas de maíz, 4, null]
+          - [mantequilla, 40, g]
+          - [pimentón dulce, 1, cucharadita]
+          - [lima, 1, null]
+          - [sal, null, null]
+    steps:
+      - Si las mazorcas tienen hojas, sepáralas sin quitarlas, quita los pelos y vuelve a cerrarlas. Ponlas en remojo 15 minutos.
+      - Ásalas a fuego medio 15-20 minutos, girándolas.
+      - Retira las hojas y deja 2 minutos más sobre la brasa para que se tuesten los granos.
+      - Úntalas con la mantequilla mezclada con el pimentón y sirve con lima y sal.
+
+  - name: Patatas en papillote a la brasa
+    health: [GREEN, "Patata asada con su piel: saciante y con poca grasa si no abusas de la salsa."]
+    nutrition: [220, 6, 38, 5]
+    category: Verduras
+    difficulty: EASY
+    prep: 10
+    cook: 50
+    servings: 4
+    notes: Ponlas entre las brasas en cuanto enciendas la barbacoa; estarán listas cuando la carne.
+    tags: [barbacoa, verduras, vegetariana, sin gluten]
+    utensils: [Barbacoa]
+    ingredients:
+      - items:
+          - [patatas medianas, 4, null]
+          - [aceite de oliva virgen extra, 1, cucharada]
+          - [sal gorda, null, null]
+          - [yogur griego natural, 150, g]
+          - [cebollino picado, 1, cucharada]
+    steps:
+      - Lava bien las patatas, pínchalas con un tenedor, úntalas con aceite y sal y envuélvelas en papel de aluminio.
+      - Colócalas entre las brasas y ásalas 40-50 minutos, girándolas a mitad, hasta que estén tiernas.
+      - Ábrelas con un corte en cruz y rellénalas con el yogur mezclado con cebollino y sal.
+
+  - name: Parrillada de verduras
+    health: [GREEN, "Verduras de temporada con aceite de oliva: ligera, sabrosa y rica en fibra."]
+    nutrition: [150, 3, 14, 9]
+    category: Verduras
+    difficulty: EASY
+    prep: 15
+    cook: 20
+    servings: 4
+    notes: Muy rica con salsa romesco.
+    tags: [barbacoa, verduras, vegana, sin gluten]
+    utensils: [Barbacoa]
+    ingredients:
+      - items:
+          - [berenjena, 1, null]
+          - [calabacín, 1, null]
+          - [pimientos rojos, 2, null]
+          - [cebollas, 2, null]
+          - [espárragos verdes, 1, manojo]
+          - [aceite de oliva virgen extra, 4, cucharada]
+          - [sal en escamas, null, null]
+    steps:
+      - Corta la berenjena y el calabacín en láminas a lo largo, los pimientos en tiras anchas y las cebollas en rodajas gruesas.
+      - Píntalas con aceite.
+      - Ásalas a fuego medio por tandas, 3-5 minutos por cada lado, hasta que estén tiernas y marcadas.
+      - Sírvelas con sal en escamas y un chorrito de aceite.
+
+  - name: Salsa barbacoa casera
+    health: [YELLOW, "Lleva azúcar y vinagre: para acompañar, no para comer a cucharadas."]
+    nutrition: [45, 0, 10, 0]
+    category: Salsas
+    difficulty: EASY
+    prep: 5
+    cook: 20
+    servings: 12
+    notes: Se guarda dos semanas en un tarro en la nevera. Las raciones son de una cucharada.
+    tags: [barbacoa, salsa, vegana]
+    utensils: []
+    ingredients:
+      - items:
+          - [kétchup, 250, g]
+          - [azúcar moreno, 50, g]
+          - [vinagre de manzana, 50, ml]
+          - [salsa Worcestershire, 1, cucharada]
+          - [miel, 1, cucharada]
+          - [pimentón ahumado, 1, cucharadita]
+          - [ajo en polvo, 0.5, cucharadita]
+          - [mostaza, 1, cucharadita]
+    steps:
+      - Pon todos los ingredientes en un cazo y mezcla bien.
+      - Cuécelo a fuego bajo 15-20 minutos, removiendo, hasta que espese.
+      - Deja enfriar y guárdala en un tarro.
+
+  - name: Ensalada de tomate con ventresca
+    health: [GREEN, "Tomate de temporada con atún: fresca, ligera y con proteína."]
+    nutrition: [250, 14, 8, 18]
+    category: Ensaladas
+    difficulty: EASY
+    prep: 10
+    cook: 0
+    servings: 4
+    notes: Con buenos tomates de temporada no necesita más.
+    tags: [ensalada, verano, sin gluten]
+    utensils: []
+    ingredients:
+      - items:
+          - [tomates maduros, 4, null]
+          - [ventresca de atún en aceite, 150, g]
+          - [cebolleta, 1, null]
+          - [aceitunas negras, 12, null]
+          - [aceite de oliva virgen extra, 3, cucharada]
+          - [vinagre de Jerez, 1, cucharada]
+          - [sal en escamas, null, null]
+          - [orégano seco, null, null]
+    steps:
+      - Corta los tomates en rodajas o gajos y ponlos en una fuente.
+      - Reparte la cebolleta en juliana fina, la ventresca en lascas y las aceitunas.
+      - Aliña con aceite, vinagre, sal en escamas y orégano justo antes de servir.
+
+  - name: Piña asada con canela
+    health: [GREEN, "Fruta a la brasa con un toque de canela: un postre ligero."]
+    nutrition: [110, 1, 26, 1]
+    category: Postres
+    difficulty: EASY
+    prep: 10
+    cook: 8
+    servings: 4
+    notes: Muy rica con una bola de helado de vainilla o yogur griego.
+    tags: [barbacoa, postre, fruta, sin gluten]
+    utensils: [Barbacoa]
+    ingredients:
+      - items:
+          - [piña, 1, null]
+          - [azúcar moreno, 1, cucharada]
+          - [canela molida, 1, cucharadita]
+          - [hojas de menta, null, null, optional]
+    steps:
+      - Pela la piña y córtala en rodajas de 2 cm, quitando el centro.
+      - Mezcla el azúcar con la canela y espolvorea las rodajas.
+      - Ásalas a fuego medio 3-4 minutos por cada lado, hasta que se caramelicen.
+      - Sirve templadas con unas hojas de menta.
+
+  - name: Plátanos asados con chocolate
+    health: [YELLOW, "Fruta con chocolate: un capricho, mejor con chocolate negro."]
+    nutrition: [180, 2, 30, 7]
+    category: Postres
+    difficulty: EASY
+    prep: 5
+    cook: 10
+    servings: 4
+    notes: Un postre que los niños pueden preparar solos (con un adulto en la barbacoa).
+    tags: [barbacoa, postre, fruta]
+    utensils: [Barbacoa]
+    ingredients:
+      - items:
+          - [plátanos, 4, null]
+          - [chocolate negro en onzas, 40, g]
+          - [nubes (marshmallows), 8, null, optional]
+    steps:
+      - Haz un corte a lo largo de cada plátano, sin pelarlo y sin llegar al otro lado.
+      - Abre un poco el corte y mete las onzas de chocolate y las nubes.
+      - Envuelve cada plátano en papel de aluminio.
+      - Ásalos sobre las brasas 8-10 minutos, hasta que el chocolate se funda. Cómelos con cuchara.

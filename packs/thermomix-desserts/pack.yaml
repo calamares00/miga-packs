@@ -1,0 +1,414 @@
+id: thermomix-desserts
+version: 1
+updated: 2026-11-12
+language: en
+name: "Thermomix: desserts"
+series: Kitchen appliances
+family: thermomix-postres
+description: >-
+  Homemade desserts programmed for the Thermomix TM6, which work just the same on the TM5 and
+  TM7: Spanish custard, crème caramel, fried custard squares, lemon curd, chocolate mousse, lemon
+  sorbet, express strawberry ice cream, yoghurt cake, creamy baked cheesecake, chocolate
+  truffles, strawberry jam, pastry cream, butter biscuits, walnut brownie and Spanish biscuit
+  cake. On a TM31, use 90°C where 85°C is given and check the texture before finishing.
+author: Miga
+authorGithub: calamares00
+cover:
+  emoji: "🍮"
+  kicker: Thermomix
+  title: Desserts
+  colors: ["#9d174d", "#f472b6"]
+defaults:
+  source: "Miga «Thermomix: desserts» pack"
+recipes:
+
+  - name: Spanish custard (natillas)
+    health: [YELLOW, "Milk and egg with sugar: a good source of calcium, but still a sweet dessert."]
+    nutrition: [220, 7, 30, 8]
+    category: Desserts
+    difficulty: EASY
+    prep: 5
+    cook: 10
+    servings: 6
+    notes: Programmed for the Thermomix TM6. It thickens as it cools.
+    tags: [dessert, traditional]
+    utensils: [Thermomix]
+    ingredients:
+      - items:
+          - [whole milk, 750, g]
+          - [egg yolks, 4, null]
+          - [egg, 1, null]
+          - [sugar, 100, g]
+          - [cornflour, 25, g]
+          - [lemon peel without the pith, 1, null]
+          - [cinnamon stick, 1, null]
+          - [Maria biscuits, 6, null, optional]
+          - [ground cinnamon, null, null]
+    steps:
+      - Put the milk, lemon peel and cinnamon stick into the bowl and heat 8 min/90°C/speed 1. Remove the peel and cinnamon.
+      - Add the yolks, egg, sugar and cornflour and cook 7 min/90°C/speed 4.
+      - Pour into bowls, with a biscuit on top if you like, and chill at least 2 hours.
+      - Dust with ground cinnamon before serving.
+
+  - name: Crème caramel
+    health: [YELLOW, "Egg and milk with caramel: protein and calcium, but quite a lot of sugar."]
+    nutrition: [230, 8, 32, 8]
+    category: Desserts
+    difficulty: EASY
+    prep: 10
+    cook: 35
+    servings: 6
+    notes: Made in the Thermomix TM6 and steamed in the Varoma, in individual moulds that fit inside it.
+    tags: [dessert, traditional]
+    utensils: [Thermomix]
+    ingredients:
+      - items:
+          - [liquid caramel, 60, g]
+          - [eggs, 4, null]
+          - [whole milk, 500, g]
+          - [sugar, 100, g]
+          - [vanilla extract, 1, tsp]
+          - [water for steaming, 500, g]
+    steps:
+      - Pour the caramel into the bottom of 6 moulds.
+      - Put the eggs, milk, sugar and vanilla into the bowl and mix 15 sec/speed 4. Divide among the moulds and cover them with foil.
+      - Wash the bowl, add the water, place the moulds in the Varoma and cook 30 min/Varoma/speed 1.
+      - Check with a skewer that they are set; if not, cook 5 minutes more.
+      - Leave to cool and chill at least 3 hours. Turn out by running a knife round the edge.
+
+  - name: Fried custard squares (leche frita)
+    health: [RED, "Sweet custard coated and fried: very rich, for special occasions."]
+    nutrition: [380, 8, 50, 16]
+    category: Desserts
+    difficulty: MEDIUM
+    prep: 20
+    cook: 25
+    servings: 6
+    notes: The custard is made in the Thermomix TM6 and needs 4 hours in the fridge before frying.
+    tags: [dessert, traditional, fried]
+    utensils: [Thermomix]
+    ingredients:
+      - group: For the custard
+        items:
+          - [whole milk, 750, g]
+          - [sugar, 120, g]
+          - [cornflour, 90, g]
+          - [egg yolks, 2, null]
+          - [lemon peel without the pith, 1, null]
+          - [cinnamon stick, 1, null]
+      - group: To coat
+        items:
+          - [flour, 50, g]
+          - [eggs, 2, null]
+          - [mild olive oil for frying, null, null]
+          - [sugar and ground cinnamon, null, null]
+    steps:
+      - Put the milk with the lemon peel and cinnamon into the bowl and heat 8 min/90°C/speed 1. Remove the peel and cinnamon.
+      - Add the sugar, cornflour and yolks and cook 8 min/90°C/speed 4, until very thick.
+      - Pour into a greased rectangular dish (2 cm deep), cover with cling film touching the surface and chill at least 4 hours.
+      - Cut into squares, coat in flour and beaten egg and fry in hot oil until golden.
+      - Drain on kitchen paper and roll in cinnamon sugar.
+
+  - name: Lemon curd
+    health: [YELLOW, "A lemon cream with egg and butter: delicious, but with sugar and fat."]
+    nutrition: [210, 3, 24, 12]
+    category: Desserts
+    difficulty: EASY
+    prep: 5
+    cook: 10
+    servings: 8
+    notes: Made in the Thermomix TM6. Keeps two weeks in a closed jar in the fridge; use it in tarts, on toast or with yoghurt.
+    tags: [dessert, cream]
+    utensils: [Thermomix]
+    ingredients:
+      - items:
+          - [lemon peel without the pith, 2, null]
+          - [sugar, 150, g]
+          - [lemon juice, 120, g]
+          - [eggs, 3, null]
+          - [diced butter, 80, g]
+    steps:
+      - Put the sugar and lemon peel into the bowl and grind 15 sec/speed 10.
+      - Add the juice, eggs and butter and cook 10 min/85°C/speed 4.
+      - Pour into clean jars, leave to cool and keep in the fridge. It thickens as it cools.
+
+  - name: Chocolate mousse
+    health: [RED, "Chocolate, cream and sugar: a very rich treat."]
+    nutrition: [360, 5, 24, 28]
+    category: Desserts
+    difficulty: EASY
+    prep: 15
+    cook: 3
+    servings: 6
+    notes: Made in the Thermomix TM6. The cream and the bowl must be very cold to whip. Contains raw egg.
+    tags: [dessert, chocolate]
+    utensils: [Thermomix]
+    ingredients:
+      - items:
+          - [dark chocolate, 150, g]
+          - [milk, 50, g]
+          - [cold whipping cream (35 % fat), 300, g]
+          - [sugar, 30, g]
+          - [eggs, 2, null]
+    steps:
+      - Chop the chocolate in the bowl 10 sec/speed 8. Add the milk and melt 3 min/50°C/speed 2. Add the yolks and mix 10 sec/speed 3. Transfer to a bowl.
+      - Wash and chill the bowl. Fit the butterfly whisk, add the cream and sugar and whip on speed 3.5 without setting a time, watching until firm. Fold into the chocolate.
+      - Wash the bowl, fit the butterfly and whisk the whites to stiff peaks 3 min/speed 3.5. Fold them in gently.
+      - Divide among glasses and chill at least 3 hours.
+
+  - name: Lemon sorbet
+    health: [YELLOW, "Refreshing and fat-free, but with quite a lot of sugar."]
+    nutrition: [150, 0, 38, 0]
+    category: Desserts
+    difficulty: EASY
+    prep: 10
+    cook: 0
+    servings: 6
+    notes: Made in the Thermomix TM6. It needs the lemon ice cubes frozen the day before.
+    tags: [dessert, summer, vegan]
+    utensils: [Thermomix]
+    ingredients:
+      - items:
+          - [lemons, 3, null]
+          - [water, 400, g]
+          - [sugar, 200, g]
+          - [egg white, 1, null, optional]
+    steps:
+      - The day before, peel the lemons removing all the pith, cut them up and freeze them with the water in ice-cube trays.
+      - Put the sugar into the bowl and grind 15 sec/speed 10.
+      - Add the ice cubes and blend 1 min/speed 10, helping with the spatula through the lid opening.
+      - For a creamier texture, add the egg white and mix 20 sec/speed 4. Serve at once.
+
+  - name: Express strawberry ice cream
+    health: [GREEN, "Frozen fruit with plain yoghurt and little sugar: a light ice cream in minutes."]
+    nutrition: [120, 3, 22, 2]
+    category: Desserts
+    difficulty: EASY
+    prep: 5
+    cook: 0
+    servings: 4
+    notes: Made in the Thermomix TM6. Serve at once; if there is any left, freeze it and take it out 10 minutes before.
+    tags: [dessert, summer]
+    utensils: [Thermomix]
+    ingredients:
+      - items:
+          - [frozen strawberries, 400, g]
+          - [plain yoghurt, 125, g]
+          - [sugar, 40, g]
+          - [lemon juice, 1, tbsp]
+    steps:
+      - Put the sugar into the bowl and grind 15 sec/speed 10.
+      - Add the frozen strawberries, yoghurt and lemon and blend 30 sec/speed 10, scraping down with the spatula.
+      - Mix 20 sec/speed 4 until creamy and serve straight away.
+
+  - name: Yoghurt cake
+    health: [YELLOW, "The classic homemade sponge: better than factory cakes, but it has sugar and oil."]
+    nutrition: [290, 5, 38, 13]
+    category: Desserts
+    difficulty: EASY
+    prep: 10
+    cook: 40
+    servings: 10
+    notes: Made in the Thermomix TM6. 22 cm round tin or 25 cm loaf tin.
+    tags: [dessert, snack]
+    utensils: [Thermomix, Oven]
+    ingredients:
+      - items:
+          - [lemon peel without the pith, 1, null]
+          - [sugar, 200, g]
+          - [eggs, 3, null]
+          - [plain yoghurt, 125, g]
+          - [sunflower oil, 100, g]
+          - [plain flour, 250, g]
+          - [baking powder, 16, g]
+          - [salt, 1, pinch]
+    steps:
+      - Preheat the oven to 180°C and grease the tin.
+      - Put the sugar and lemon peel into the bowl and grind 15 sec/speed 10.
+      - Add the eggs and mix 1 min/37°C/speed 4. Mix 2 min more/speed 4 without heat.
+      - Add the yoghurt and oil and mix 10 sec/speed 3. Add the flour, baking powder and salt and mix 6 sec/speed 4, finishing with the spatula.
+      - Pour into the tin and bake 35-40 minutes, until a skewer comes out clean.
+
+  - name: Creamy baked cheesecake
+    health: [RED, "Cream cheese, cream and sugar: a very rich dessert."]
+    nutrition: [420, 8, 26, 32]
+    category: Desserts
+    difficulty: EASY
+    prep: 10
+    cook: 50
+    servings: 10
+    notes: Made in the Thermomix TM6. 22 cm springform tin lined with crumpled baking paper. The centre should wobble when it comes out; it sets as it cools.
+    tags: [dessert, baked]
+    utensils: [Thermomix, Oven]
+    ingredients:
+      - items:
+          - [cream cheese, 500, g]
+          - [sugar, 180, g]
+          - [eggs, 4, null]
+          - [whipping cream (35 % fat), 250, g]
+          - [plain flour, 15, g]
+          - [salt, 1, pinch]
+    steps:
+      - Preheat the oven to 210°C.
+      - Put the cheese and sugar into the bowl and mix 20 sec/speed 4.
+      - Add the eggs, cream, flour and salt and mix 30 sec/speed 4, scraping down with the spatula.
+      - Pour into the tin and bake 45-50 minutes, until the top is deeply browned.
+      - Leave to cool at room temperature, then at least 4 hours in the fridge.
+
+  - name: Chocolate truffles
+    health: [RED, "Chocolate with cream and butter: small, but very rich."]
+    nutrition: [110, 1, 8, 8]
+    category: Desserts
+    difficulty: EASY
+    prep: 20
+    cook: 4
+    servings: 20
+    notes: Made in the Thermomix TM6. Makes about 20 truffles. Servings are truffles.
+    tags: [dessert, chocolate, christmas]
+    utensils: [Thermomix]
+    ingredients:
+      - items:
+          - [dark chocolate, 250, g]
+          - [whipping cream, 150, g]
+          - [butter, 30, g]
+          - [cocoa powder, 30, g]
+    steps:
+      - Chop the chocolate in the bowl 10 sec/speed 8.
+      - Add the cream and butter and cook 4 min/50°C/speed 2, until smooth.
+      - Transfer to a bowl, cover and chill at least 3 hours.
+      - Shape into balls with a teaspoon and cold hands and roll them in cocoa.
+
+  - name: Strawberry jam
+    health: [YELLOW, "Fruit with sugar: to have in moderation."]
+    nutrition: [40, 0, 10, 0]
+    category: Desserts
+    difficulty: EASY
+    prep: 10
+    cook: 30
+    servings: 30
+    notes: Made in the Thermomix TM6. Makes about two 300 g jars. Servings are one tablespoon.
+    tags: [breakfast, vegan]
+    utensils: [Thermomix]
+    ingredients:
+      - items:
+          - [hulled strawberries, 600, g]
+          - [sugar, 300, g]
+          - [lemon juice, 30, g]
+    steps:
+      - Put the strawberries into the bowl and chop 3 sec/speed 4 (or blend 10 sec/speed 7 for a smooth jam).
+      - Add the sugar and lemon and cook 30 min/Varoma/speed 1, with the simmering basket on the lid instead of the measuring cup.
+      - "Test the set with a little on a cold plate: if it wrinkles when pushed, it is ready. If not, cook 5 minutes more."
+      - Pour hot into sterilised jars, close them and turn them upside down until cool.
+
+  - name: Pastry cream
+    health: [YELLOW, "A milk, egg and sugar filling: sweet and with some fat."]
+    nutrition: [190, 5, 26, 7]
+    category: Desserts
+    difficulty: EASY
+    prep: 5
+    cook: 8
+    servings: 8
+    notes: Made in the Thermomix TM6. For filling tarts, profiteroles or mille-feuille. Cover with cling film touching the surface so it does not form a skin.
+    tags: [dessert, cream]
+    utensils: [Thermomix]
+    ingredients:
+      - items:
+          - [whole milk, 500, g]
+          - [egg yolks, 4, null]
+          - [sugar, 120, g]
+          - [cornflour, 40, g]
+          - [vanilla extract, 1, tsp]
+          - [butter, 20, g]
+    steps:
+      - Put everything except the butter into the bowl and mix 10 sec/speed 4.
+      - Cook 7 min/90°C/speed 4, until thick.
+      - Add the butter and mix 10 sec/speed 4.
+      - Transfer to a bowl, cover with cling film touching the surface and leave to cool.
+
+  - name: Butter biscuits
+    health: [RED, "Butter, sugar and flour: very rich, best one at a time."]
+    nutrition: [90, 1, 11, 5]
+    category: Desserts
+    difficulty: EASY
+    prep: 20
+    cook: 12
+    servings: 30
+    notes: Made in the Thermomix TM6. Makes about 30 biscuits. Servings are biscuits.
+    tags: [dessert, snack]
+    utensils: [Thermomix, Oven]
+    ingredients:
+      - items:
+          - [sugar, 120, g]
+          - [soft diced butter, 180, g]
+          - [egg, 1, null]
+          - [vanilla extract, 1, tsp]
+          - [plain flour, 320, g]
+          - [salt, 1, pinch]
+    steps:
+      - Put the sugar into the bowl and grind 15 sec/speed 10.
+      - Add the butter, egg and vanilla and mix 20 sec/speed 4.
+      - Add the flour and salt and mix 20 sec/speed 5, until it forms a dough. Wrap in cling film and chill 30 minutes.
+      - Roll out to 5 mm between two sheets of baking paper and cut out the biscuits.
+      - Bake at 180°C for 10-12 minutes, until the edges start to colour. Cool on a rack.
+
+  - name: Walnut brownie
+    health: [RED, "Chocolate, butter and sugar: a very rich dessert."]
+    nutrition: [330, 5, 32, 21]
+    category: Desserts
+    difficulty: EASY
+    prep: 10
+    cook: 25
+    servings: 12
+    notes: Made in the Thermomix TM6. 20 cm square tin. Better slightly underdone in the middle than overbaked.
+    tags: [dessert, chocolate]
+    utensils: [Thermomix, Oven]
+    ingredients:
+      - items:
+          - [dark chocolate, 200, g]
+          - [butter, 150, g]
+          - [sugar, 180, g]
+          - [eggs, 3, null]
+          - [plain flour, 90, g]
+          - [cocoa powder, 20, g]
+          - [chopped walnuts, 100, g]
+          - [salt, 1, pinch]
+    steps:
+      - Preheat the oven to 180°C and line the tin with baking paper.
+      - Chop the chocolate in the bowl 10 sec/speed 8. Add the butter and melt 3 min/50°C/speed 2.
+      - Add the sugar and eggs and mix 20 sec/speed 4.
+      - Add the flour, cocoa and salt and mix 10 sec/speed 4. Add the walnuts and mix 10 sec/reverse/speed 3.
+      - Pour into the tin and bake 22-25 minutes. Leave to cool before cutting.
+
+  - name: Spanish biscuit cake (tarta de la abuela)
+    health: [RED, "Biscuits, custard and chocolate: very sweet and rich, for celebrations."]
+    nutrition: [400, 6, 48, 20]
+    category: Desserts
+    difficulty: EASY
+    prep: 30
+    cook: 15
+    servings: 10
+    notes: Made in the Thermomix TM6. Rectangular dish of about 20 x 25 cm. Best made the day before.
+    tags: [dessert, no-bake, traditional]
+    utensils: [Thermomix]
+    ingredients:
+      - group: For the custard
+        items:
+          - [whole milk, 600, g]
+          - [sugar, 100, g]
+          - [egg yolks, 3, null]
+          - [custard powder, 1, sachet]
+      - group: For the topping
+        items:
+          - [dark chocolate, 150, g]
+          - [single cream, 100, g]
+          - [butter, 20, g]
+      - group: To assemble
+        items:
+          - [Maria biscuits, 40, null]
+          - [milk for dipping, 250, ml]
+    steps:
+      - Put the custard ingredients into the bowl and cook 8 min/90°C/speed 4. Set aside in a bowl.
+      - Wash the bowl. Chop the chocolate 10 sec/speed 8, add the cream and butter and melt 4 min/50°C/speed 2.
+      - Dip a layer of biscuits in milk and cover the base of the dish. Spread a layer of custard.
+      - Repeat layers of biscuits and custard, finishing with biscuits.
+      - Cover with the chocolate and chill at least 4 hours.

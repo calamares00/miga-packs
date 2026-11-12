@@ -1,0 +1,414 @@
+id: thermomix-postres
+version: 1
+updated: 2026-11-12
+language: es
+name: "Thermomix: postres"
+series: Electrodomésticos
+family: thermomix-postres
+description: >-
+  Postres caseros programados para Thermomix TM6, que funcionan igual en TM5 y TM7: natillas, flan
+  de huevo, leche frita, crema de limón, mousse de chocolate, sorbete de limón, helado exprés de
+  fresa, bizcocho de yogur, tarta de queso cremosa, trufas, mermelada de fresa, crema pastelera,
+  galletas de mantequilla, brownie de nueces y tarta de la abuela. En TM31, usa 90 °C donde se
+  indique 85 °C y comprueba la textura antes de terminar.
+author: Miga
+authorGithub: calamares00
+cover:
+  emoji: "🍮"
+  kicker: Thermomix
+  title: Postres
+  colors: ["#9d174d", "#f472b6"]
+defaults:
+  source: "Pack «Thermomix: postres» de Miga"
+recipes:
+
+  - name: Natillas
+    health: [YELLOW, "Leche y huevo con azúcar: buen aporte de calcio, pero es un postre dulce."]
+    nutrition: [220, 7, 30, 8]
+    category: Postres
+    difficulty: EASY
+    prep: 5
+    cook: 10
+    servings: 6
+    notes: Programado para Thermomix TM6. Se espesan al enfriar.
+    tags: [postre, tradicional]
+    utensils: [Thermomix]
+    ingredients:
+      - items:
+          - [leche entera, 750, g]
+          - [yemas de huevo, 4, null]
+          - [huevo, 1, null]
+          - [azúcar, 100, g]
+          - [maicena, 25, g]
+          - [piel de limón sin la parte blanca, 1, null]
+          - [rama de canela, 1, null]
+          - [galletas María, 6, null, optional]
+          - [canela molida, null, null]
+    steps:
+      - Pon la leche, la piel de limón y la canela en el vaso y calienta 8 min/90 °C/vel 1. Retira la piel y la canela.
+      - Añade las yemas, el huevo, el azúcar y la maicena y programa 7 min/90 °C/vel 4.
+      - Reparte en cuencos, con una galleta encima si quieres, y deja enfriar en la nevera al menos 2 horas.
+      - Espolvorea con canela molida antes de servir.
+
+  - name: Flan de huevo
+    health: [YELLOW, "Huevo y leche con caramelo: proteína y calcio, pero bastante azúcar."]
+    nutrition: [230, 8, 32, 8]
+    category: Postres
+    difficulty: EASY
+    prep: 10
+    cook: 35
+    servings: 6
+    notes: Hecho en Thermomix TM6 y cocido al vapor en el Varoma, en flaneras individuales que quepan en él.
+    tags: [postre, tradicional]
+    utensils: [Thermomix]
+    ingredients:
+      - items:
+          - [caramelo líquido, 60, g]
+          - [huevos, 4, null]
+          - [leche entera, 500, g]
+          - [azúcar, 100, g]
+          - [extracto de vainilla, 1, cucharadita]
+          - [agua para el vapor, 500, g]
+    steps:
+      - Reparte el caramelo en el fondo de 6 flaneras.
+      - Pon en el vaso los huevos, la leche, el azúcar y la vainilla y mezcla 15 seg/vel 4. Reparte en las flaneras y tápalas con papel de aluminio.
+      - Lava el vaso, pon el agua, coloca las flaneras en el Varoma y programa 30 min/Varoma/vel 1.
+      - Comprueba con una aguja que estén cuajados; si no, programa 5 minutos más.
+      - Deja enfriar y refrigera al menos 3 horas. Desmolda pasando un cuchillo por el borde.
+
+  - name: Leche frita
+    health: [RED, "Crema dulce rebozada y frita: muy calórica, para ocasiones especiales."]
+    nutrition: [380, 8, 50, 16]
+    category: Postres
+    difficulty: MEDIUM
+    prep: 20
+    cook: 25
+    servings: 6
+    notes: La crema se hace en Thermomix TM6 y necesita 4 horas de nevera antes de freír.
+    tags: [postre, tradicional, frito]
+    utensils: [Thermomix]
+    ingredients:
+      - group: Para la crema
+        items:
+          - [leche entera, 750, g]
+          - [azúcar, 120, g]
+          - [maicena, 90, g]
+          - [yemas de huevo, 2, null]
+          - [piel de limón sin la parte blanca, 1, null]
+          - [rama de canela, 1, null]
+      - group: Para rebozar
+        items:
+          - [harina, 50, g]
+          - [huevos, 2, null]
+          - [aceite de oliva suave para freír, null, null]
+          - [azúcar y canela molida, null, null]
+    steps:
+      - Pon la leche con la piel de limón y la canela en el vaso y calienta 8 min/90 °C/vel 1. Retira la piel y la canela.
+      - Añade el azúcar, la maicena y las yemas y programa 8 min/90 °C/vel 4, hasta que espese mucho.
+      - Vierte en una fuente rectangular engrasada (2 cm de alto), tapa con film en contacto y refrigera al menos 4 horas.
+      - Corta en cuadrados, pásalos por harina y huevo batido y fríelos en aceite caliente hasta que estén dorados.
+      - Escúrrelos en papel de cocina y rebózalos en azúcar con canela.
+
+  - name: Crema de limón
+    health: [YELLOW, "Crema de limón con huevo y mantequilla: muy rica, pero con azúcar y grasa."]
+    nutrition: [210, 3, 24, 12]
+    category: Postres
+    difficulty: EASY
+    prep: 5
+    cook: 10
+    servings: 8
+    notes: Hecho en Thermomix TM6. También llamada lemon curd. Se guarda dos semanas en un frasco cerrado en la nevera; úsala para tartas, tostadas o yogur.
+    tags: [postre, crema]
+    utensils: [Thermomix]
+    ingredients:
+      - items:
+          - [piel de limón sin la parte blanca, 2, null]
+          - [azúcar, 150, g]
+          - [zumo de limón, 120, g]
+          - [huevos, 3, null]
+          - [mantequilla en dados, 80, g]
+    steps:
+      - Pon el azúcar y la piel de limón en el vaso y pulveriza 15 seg/vel 10.
+      - Añade el zumo, los huevos y la mantequilla y programa 10 min/85 °C/vel 4.
+      - Vierte en frascos limpios, deja templar y guarda en la nevera. Espesa al enfriar.
+
+  - name: Mousse de chocolate
+    health: [RED, "Chocolate, nata y azúcar: un capricho muy calórico."]
+    nutrition: [360, 5, 24, 28]
+    category: Postres
+    difficulty: EASY
+    prep: 15
+    cook: 3
+    servings: 6
+    notes: Hecho en Thermomix TM6. La nata y el vaso deben estar muy fríos para montarla.
+    tags: [postre, chocolate]
+    utensils: [Thermomix]
+    ingredients:
+      - items:
+          - [chocolate negro para postres, 150, g]
+          - [leche, 50, g]
+          - [nata para montar fría (35 % grasa), 300, g]
+          - [azúcar, 30, g]
+          - [huevos, 2, null]
+    steps:
+      - Trocea el chocolate en el vaso 10 seg/vel 8. Añade la leche y derrite 3 min/50 °C/vel 2. Añade las yemas y mezcla 10 seg/vel 3. Pásalo a un bol.
+      - Lava y enfría el vaso. Coloca la mariposa, pon la nata con el azúcar y monta a vel 3,5 sin programar tiempo, vigilando hasta que esté firme. Mezcla con el chocolate con movimientos envolventes.
+      - Lava el vaso, coloca la mariposa y monta las claras a punto de nieve 3 min/vel 3,5. Incorpóralas con cuidado.
+      - Reparte en vasitos y refrigera al menos 3 horas.
+
+  - name: Sorbete de limón
+    health: [YELLOW, "Refrescante y sin grasa, pero con bastante azúcar."]
+    nutrition: [150, 0, 38, 0]
+    category: Postres
+    difficulty: EASY
+    prep: 10
+    cook: 0
+    servings: 6
+    notes: Hecho en Thermomix TM6. Necesita los cubitos de limón congelados del día anterior.
+    tags: [postre, verano, vegano]
+    utensils: [Thermomix]
+    ingredients:
+      - items:
+          - [limones, 3, null]
+          - [agua, 400, g]
+          - [azúcar, 200, g]
+          - [clara de huevo, 1, null, optional]
+    steps:
+      - El día antes, pela los limones quitando toda la parte blanca, trocéalos y congélalos con el agua en cubiteras.
+      - Pon el azúcar en el vaso y pulveriza 15 seg/vel 10.
+      - Añade los cubitos y tritura 1 min/vel 10, ayudándote con la espátula por el bocal.
+      - Si quieres una textura más cremosa, añade la clara y mezcla 20 seg/vel 4. Sirve al momento.
+
+  - name: Helado exprés de fresa
+    health: [GREEN, "Fruta congelada con yogur natural y poco azúcar: un helado ligero en minutos."]
+    nutrition: [120, 3, 22, 2]
+    category: Postres
+    difficulty: EASY
+    prep: 5
+    cook: 0
+    servings: 4
+    notes: Hecho en Thermomix TM6. Sirve al momento; si sobra, congélalo y sácalo 10 minutos antes.
+    tags: [postre, verano]
+    utensils: [Thermomix]
+    ingredients:
+      - items:
+          - [fresas congeladas, 400, g]
+          - [yogur natural, 125, g]
+          - [azúcar, 40, g]
+          - [zumo de limón, 1, cucharada]
+    steps:
+      - Pon el azúcar en el vaso y pulveriza 15 seg/vel 10.
+      - Añade las fresas congeladas, el yogur y el limón y tritura 30 seg/vel 10, bajando los restos con la espátula.
+      - Mezcla 20 seg/vel 4 para que quede cremoso y sirve enseguida.
+
+  - name: Bizcocho de yogur
+    health: [YELLOW, "Bizcocho casero de toda la vida: mejor que la bollería industrial, pero lleva azúcar y aceite."]
+    nutrition: [290, 5, 38, 13]
+    category: Postres
+    difficulty: EASY
+    prep: 10
+    cook: 40
+    servings: 10
+    notes: Hecho en Thermomix TM6. Molde redondo de 22 cm o rectangular de 25 cm.
+    tags: [postre, merienda]
+    utensils: [Thermomix, Horno]
+    ingredients:
+      - items:
+          - [piel de limón sin la parte blanca, 1, null]
+          - [azúcar, 200, g]
+          - [huevos, 3, null]
+          - [yogur natural, 125, g]
+          - [aceite de girasol, 100, g]
+          - [harina de trigo, 250, g]
+          - [levadura química, 16, g]
+          - [sal, 1, pizca]
+    steps:
+      - Precalienta el horno a 180 °C y engrasa el molde.
+      - Pon el azúcar y la piel de limón en el vaso y pulveriza 15 seg/vel 10.
+      - Añade los huevos y mezcla 1 min/37 °C/vel 4. Mezcla 2 min más/vel 4 sin temperatura.
+      - Añade el yogur y el aceite y mezcla 10 seg/vel 3. Añade la harina, la levadura y la sal y mezcla 6 seg/vel 4, terminando con la espátula.
+      - Vierte en el molde y hornea 35-40 minutos, hasta que un palillo salga limpio.
+
+  - name: Tarta de queso cremosa
+    health: [RED, "Queso crema, nata y azúcar: un postre muy calórico."]
+    nutrition: [420, 8, 26, 32]
+    category: Postres
+    difficulty: EASY
+    prep: 10
+    cook: 50
+    servings: 10
+    notes: Hecho en Thermomix TM6. Molde desmontable de 22 cm forrado con papel de horno arrugado. El centro debe temblar al sacarla; cuaja al enfriar.
+    tags: [postre, horno]
+    utensils: [Thermomix, Horno]
+    ingredients:
+      - items:
+          - [queso crema, 500, g]
+          - [azúcar, 180, g]
+          - [huevos, 4, null]
+          - [nata para montar (35 % grasa), 250, g]
+          - [harina de trigo, 15, g]
+          - [sal, 1, pizca]
+    steps:
+      - Precalienta el horno a 210 °C.
+      - Pon el queso y el azúcar en el vaso y mezcla 20 seg/vel 4.
+      - Añade los huevos, la nata, la harina y la sal y mezcla 30 seg/vel 4, bajando los restos con la espátula.
+      - Vierte en el molde y hornea 45-50 minutos, hasta que la superficie esté muy tostada.
+      - Deja enfriar a temperatura ambiente y después al menos 4 horas en la nevera.
+
+  - name: Trufas de chocolate
+    health: [RED, "Chocolate con nata y mantequilla: pequeñas, pero muy calóricas."]
+    nutrition: [110, 1, 8, 8]
+    category: Postres
+    difficulty: EASY
+    prep: 20
+    cook: 4
+    servings: 20
+    notes: Hecho en Thermomix TM6. Salen unas 20 trufas. Las raciones son trufas.
+    tags: [postre, chocolate, navidad]
+    utensils: [Thermomix]
+    ingredients:
+      - items:
+          - [chocolate negro para postres, 250, g]
+          - [nata para montar, 150, g]
+          - [mantequilla, 30, g]
+          - [cacao en polvo puro, 30, g]
+    steps:
+      - Trocea el chocolate en el vaso 10 seg/vel 8.
+      - Añade la nata y la mantequilla y programa 4 min/50 °C/vel 2, hasta que quede una crema lisa.
+      - Pásalo a un bol, tapa y refrigera al menos 3 horas.
+      - Forma bolitas con una cucharita y las manos frías y rebózalas en cacao.
+
+  - name: Mermelada de fresa
+    health: [YELLOW, "Fruta con azúcar: para tomar con moderación."]
+    nutrition: [40, 0, 10, 0]
+    category: Postres
+    difficulty: EASY
+    prep: 10
+    cook: 30
+    servings: 30
+    notes: Hecho en Thermomix TM6. Salen unos dos tarros de 300 g. Las raciones son de una cucharada.
+    tags: [desayuno, vegano]
+    utensils: [Thermomix]
+    ingredients:
+      - items:
+          - [fresas limpias, 600, g]
+          - [azúcar, 300, g]
+          - [zumo de limón, 30, g]
+    steps:
+      - Pon las fresas en el vaso y trocea 3 seg/vel 4 (o tritura 10 seg/vel 7 si la quieres fina).
+      - Añade el azúcar y el limón y programa 30 min/Varoma/vel 1, con el cestillo sobre la tapa en lugar del cubilete.
+      - "Comprueba el punto poniendo un poco en un plato frío: si se arruga al empujarla, está lista. Si no, programa 5 minutos más."
+      - Envasa en caliente en tarros esterilizados, ciérralos y ponlos boca abajo hasta que se enfríen.
+
+  - name: Crema pastelera
+    health: [YELLOW, "Base de leche, huevo y azúcar para rellenar: dulce y con algo de grasa."]
+    nutrition: [190, 5, 26, 7]
+    category: Postres
+    difficulty: EASY
+    prep: 5
+    cook: 8
+    servings: 8
+    notes: Hecho en Thermomix TM6. Para rellenar tartas, lionesas o milhojas. Tapa con film en contacto para que no haga costra.
+    tags: [postre, crema]
+    utensils: [Thermomix]
+    ingredients:
+      - items:
+          - [leche entera, 500, g]
+          - [yemas de huevo, 4, null]
+          - [azúcar, 120, g]
+          - [maicena, 40, g]
+          - [extracto de vainilla, 1, cucharadita]
+          - [mantequilla, 20, g]
+    steps:
+      - Pon todos los ingredientes menos la mantequilla en el vaso y mezcla 10 seg/vel 4.
+      - Programa 7 min/90 °C/vel 4, hasta que espese.
+      - Añade la mantequilla y mezcla 10 seg/vel 4.
+      - Pásala a un bol, tapa con film en contacto y deja enfriar.
+
+  - name: Galletas de mantequilla
+    health: [RED, "Mantequilla, azúcar y harina: muy calóricas, mejor de una en una."]
+    nutrition: [90, 1, 11, 5]
+    category: Postres
+    difficulty: EASY
+    prep: 20
+    cook: 12
+    servings: 30
+    notes: Hecho en Thermomix TM6. Salen unas 30 galletas. Las raciones son galletas.
+    tags: [postre, merienda]
+    utensils: [Thermomix, Horno]
+    ingredients:
+      - items:
+          - [azúcar, 120, g]
+          - [mantequilla blanda en dados, 180, g]
+          - [huevo, 1, null]
+          - [extracto de vainilla, 1, cucharadita]
+          - [harina de trigo, 320, g]
+          - [sal, 1, pizca]
+    steps:
+      - Pon el azúcar en el vaso y pulveriza 15 seg/vel 10.
+      - Añade la mantequilla, el huevo y la vainilla y mezcla 20 seg/vel 4.
+      - Añade la harina y la sal y mezcla 20 seg/vel 5, hasta que se forme una masa. Envuélvela en film y refrigera 30 minutos.
+      - Estira la masa a 5 mm entre dos papeles de horno y corta las galletas con un cortapastas.
+      - Hornea a 180 °C 10-12 minutos, hasta que los bordes empiecen a dorarse. Deja enfriar sobre una rejilla.
+
+  - name: Brownie de nueces
+    health: [RED, "Chocolate, mantequilla y azúcar: un postre muy calórico."]
+    nutrition: [330, 5, 32, 21]
+    category: Postres
+    difficulty: EASY
+    prep: 10
+    cook: 25
+    servings: 12
+    notes: Hecho en Thermomix TM6. Molde cuadrado de 20 cm. Mejor un poco crudo por dentro que pasado.
+    tags: [postre, chocolate]
+    utensils: [Thermomix, Horno]
+    ingredients:
+      - items:
+          - [chocolate negro para postres, 200, g]
+          - [mantequilla, 150, g]
+          - [azúcar, 180, g]
+          - [huevos, 3, null]
+          - [harina de trigo, 90, g]
+          - [cacao en polvo puro, 20, g]
+          - [nueces troceadas, 100, g]
+          - [sal, 1, pizca]
+    steps:
+      - Precalienta el horno a 180 °C y forra el molde con papel de horno.
+      - Trocea el chocolate en el vaso 10 seg/vel 8. Añade la mantequilla y derrite 3 min/50 °C/vel 2.
+      - Añade el azúcar y los huevos y mezcla 20 seg/vel 4.
+      - Añade la harina, el cacao y la sal y mezcla 10 seg/vel 4. Añade las nueces y mezcla 10 seg/giro a la izquierda/vel 3.
+      - Vierte en el molde y hornea 22-25 minutos. Deja enfriar antes de cortar.
+
+  - name: Tarta de la abuela
+    health: [RED, "Galletas, crema y chocolate: muy dulce y calórica, para celebraciones."]
+    nutrition: [400, 6, 48, 20]
+    category: Postres
+    difficulty: EASY
+    prep: 30
+    cook: 15
+    servings: 10
+    notes: Hecho en Thermomix TM6. Molde rectangular de unos 20 x 25 cm. Mejor de un día para otro.
+    tags: [postre, sin horno, tradicional]
+    utensils: [Thermomix]
+    ingredients:
+      - group: Para la crema
+        items:
+          - [leche entera, 600, g]
+          - [azúcar, 100, g]
+          - [yemas de huevo, 3, null]
+          - [flan en polvo, 1, sobre]
+      - group: Para la cobertura
+        items:
+          - [chocolate negro para postres, 150, g]
+          - [nata para cocinar, 100, g]
+          - [mantequilla, 20, g]
+      - group: Para montar
+        items:
+          - [galletas María, 40, null]
+          - [leche para mojar, 250, ml]
+    steps:
+      - Pon los ingredientes de la crema en el vaso y programa 8 min/90 °C/vel 4. Reserva en un bol.
+      - Lava el vaso. Trocea el chocolate 10 seg/vel 8, añade la nata y la mantequilla y derrite 4 min/50 °C/vel 2.
+      - Moja una capa de galletas en leche y cubre el fondo del molde. Extiende una capa de crema.
+      - Repite capas de galletas y crema hasta terminar, acabando con galletas.
+      - Cubre con el chocolate y refrigera al menos 4 horas.

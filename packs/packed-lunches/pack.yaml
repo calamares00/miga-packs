@@ -1,0 +1,410 @@
+id: packed-lunches
+version: 1
+updated: 2026-11-12
+language: en
+name: Packed lunches for work
+series: Everyday cooking
+family: tapers-para-el-trabajo
+description: >-
+  Meals that keep well in the fridge, travel in a lunchbox and reheat without losing their
+  charm: bean and quinoa salads, chicken and rice, roast chicken thighs with potatoes, chickpeas
+  with chorizo and pumpkin, chicken with mushrooms, macaroni with chorizo, burritos, stir-fried
+  noodles, potato and spinach omelette, potato and tuna pie, bulgur with vegetables, chicken
+  pesto pasta and stuffed peppers. With notes on how to keep and reheat each one.
+author: Miga
+authorGithub: calamares00
+cover:
+  emoji: "🍱"
+  title: Packed lunches
+  colors: ["#1e3a8a", "#22c55e"]
+defaults:
+  source: Miga «Packed lunches for work» pack
+recipes:
+
+  - name: White bean and tuna salad
+    health: [GREEN, "Pulses, fish and vegetables: complete, filling and easy to carry."]
+    nutrition: [400, 26, 34, 17]
+    category: Salads
+    difficulty: EASY
+    prep: 15
+    cook: 0
+    servings: 4
+    notes: Keeps three days in the fridge. Carry the dressing separately; it is eaten cold.
+    tags: [lunchbox, pulses, salad, gluten-free]
+    utensils: []
+    ingredients:
+      - items:
+          - [cooked white beans, 600, g]
+          - [drained tuna in oil, 3, can]
+          - [red pepper, 1, null]
+          - [red onion, 0.5, null]
+          - [cherry tomatoes, 200, g]
+          - [hard-boiled eggs, 2, null]
+          - [extra virgin olive oil, 4, tbsp]
+          - [sherry vinegar, 1, tbsp]
+          - [salt, null, null]
+    steps:
+      - Rinse and drain the beans.
+      - Finely dice the pepper and onion and halve the tomatoes.
+      - Mix the beans with the vegetables, the tuna and the egg in pieces.
+      - Divide among lunchboxes. Carry the dressing of oil, vinegar and salt separately and dress when eating.
+
+  - name: Quinoa and chicken salad
+    health: [GREEN, "Quinoa, chicken and vegetables: protein, fibre and energy for the whole afternoon."]
+    nutrition: [430, 32, 40, 15]
+    category: Salads
+    difficulty: EASY
+    prep: 15
+    cook: 15
+    servings: 4
+    notes: Keeps three days in the fridge. Eat it cold or at room temperature.
+    tags: [lunchbox, salad, chicken, gluten-free]
+    utensils: []
+    ingredients:
+      - items:
+          - [quinoa, 200, g]
+          - [chicken breasts, 400, g]
+          - [cucumber, 1, null]
+          - [yellow pepper, 1, null]
+          - [cherry tomatoes, 200, g]
+          - [feta cheese, 100, g]
+          - [extra virgin olive oil, 4, tbsp]
+          - [lemon juice, 2, tbsp]
+          - [salt, null, null]
+    steps:
+      - Rinse the quinoa and cook it in twice its volume of salted water for 12-15 minutes. Drain and leave to cool.
+      - Griddle the chicken with salt and dice it.
+      - Cut up the cucumber, pepper and tomatoes.
+      - Mix everything with the crumbled feta and divide among lunchboxes. Carry the oil and lemon dressing separately.
+
+  - name: Chicken and vegetable rice
+    health: [GREEN, "A balanced one-dish meal: grain, protein and vegetables."]
+    nutrition: [480, 30, 58, 13]
+    category: Rice
+    difficulty: EASY
+    prep: 15
+    cook: 30
+    servings: 4
+    notes: Keeps three days in the fridge. Reheat in the microwave with a spoonful of water on top, covered.
+    tags: [lunchbox, rice, chicken]
+    utensils: []
+    ingredients:
+      - items:
+          - [diced chicken thighs, 500, g]
+          - [short-grain rice, 300, g]
+          - [onion, 1, null]
+          - [red pepper, 1, null]
+          - [green beans, 150, g]
+          - [crushed tomato, 100, g]
+          - [sweet paprika, 1, tsp]
+          - [chicken stock, 900, ml]
+          - [extra virgin olive oil, 3, tbsp]
+          - [salt, 1, tsp]
+    steps:
+      - Brown the salted chicken in a casserole with the oil and set aside.
+      - Sauté the chopped onion and pepper for 8 minutes and add the beans in pieces, the tomato and the paprika.
+      - Add the rice, stir for a minute and return the chicken.
+      - Add the hot stock and cook 18 minutes over medium heat. Leave to rest 5 minutes, covered.
+
+  - name: Roast chicken thighs with potatoes
+    health: [YELLOW, "Chicken with roast potatoes: complete, but the skin adds fat."]
+    nutrition: [520, 34, 36, 26]
+    category: Meat
+    difficulty: EASY
+    prep: 10
+    cook: 50
+    servings: 4
+    notes: Keeps three days in the fridge. Reheat in the microwave or, if you can, in the oven so the skin crisps up again.
+    tags: [lunchbox, chicken, baked, gluten-free]
+    utensils: [Oven]
+    ingredients:
+      - items:
+          - [chicken thighs, 8, null]
+          - [potatoes, 600, g]
+          - [onion, 1, null]
+          - [lemon, 1, null]
+          - [garlic, 4, clove]
+          - [dried rosemary, 1, tsp]
+          - [extra virgin olive oil, 3, tbsp]
+          - [white wine, 100, ml]
+          - [salt, 1.5, tsp]
+    steps:
+      - Preheat the oven to 200°C.
+      - Cut the potatoes into wedges and the onion into strips and put them in the tray with the whole garlic cloves.
+      - Lay the salted thighs on top, drizzle with the oil, wine and lemon juice and sprinkle with rosemary.
+      - Roast 45-50 minutes, turning the thighs halfway, until golden.
+
+  - name: Chickpeas with chorizo and pumpkin
+    health: [YELLOW, "Pulses with vegetables, but the chorizo adds fat and salt."]
+    nutrition: [470, 22, 46, 22]
+    category: Legumes
+    difficulty: EASY
+    prep: 15
+    cook: 25
+    servings: 4
+    notes: Keeps four days in the fridge and is even better the next day. Freezes well.
+    tags: [lunchbox, pulses, stew]
+    utensils: []
+    ingredients:
+      - items:
+          - [cooked chickpeas, 600, g]
+          - [chorizo, 100, g]
+          - [diced pumpkin, 400, g]
+          - [onion, 1, null]
+          - [garlic, 2, clove]
+          - [sweet paprika, 1, tsp]
+          - [crushed tomato, 150, g]
+          - [vegetable stock, 500, ml]
+          - [extra virgin olive oil, 2, tbsp]
+          - [salt, null, null]
+    steps:
+      - Sauté the chopped onion and garlic in the oil for 5 minutes. Add the sliced chorizo and brown for 2 minutes.
+      - Add the paprika and tomato and cook 3 minutes.
+      - Add the pumpkin and stock and cook 10 minutes.
+      - Add the drained chickpeas and cook 10 minutes more. Adjust the salt.
+
+  - name: Chicken in mushroom sauce
+    health: [YELLOW, "Chicken in a light mushroom sauce; with rice or potato it is a complete dish."]
+    nutrition: [380, 40, 8, 20]
+    category: Meat
+    difficulty: EASY
+    prep: 10
+    cook: 25
+    servings: 4
+    notes: Keeps three days in the fridge. Pack the rice or potatoes in the same box.
+    tags: [lunchbox, chicken]
+    utensils: []
+    ingredients:
+      - items:
+          - [chicken breast fillets, 600, g]
+          - [sliced mushrooms, 300, g]
+          - [onion, 1, null]
+          - [garlic, 1, clove]
+          - [white wine, 100, ml]
+          - [light cooking cream, 150, ml]
+          - [extra virgin olive oil, 2, tbsp]
+          - [salt, 1, tsp]
+          - [chopped parsley, 1, tbsp]
+    steps:
+      - Cut the chicken into strips, salt it and brown it in the oil. Set aside.
+      - In the same pan, sauté the chopped onion and garlic for 5 minutes and add the mushrooms for 5 minutes more.
+      - Add the wine and let it bubble away for 2 minutes.
+      - Add the cream and the chicken and cook 5 minutes over low heat. Sprinkle with parsley.
+
+  - name: Macaroni with tomato and chorizo
+    health: [YELLOW, "Pasta with tomato sauce; the chorizo and cheese make it richer."]
+    nutrition: [560, 22, 72, 20]
+    category: Pasta
+    difficulty: EASY
+    prep: 10
+    cook: 25
+    servings: 4
+    notes: Keeps three days in the fridge. When reheating, add a spoonful of water so it does not dry out.
+    tags: [lunchbox, pasta]
+    utensils: []
+    ingredients:
+      - items:
+          - [macaroni, 350, g]
+          - [chorizo, 100, g]
+          - [onion, 1, null]
+          - [crushed tomato, 400, g]
+          - [dried oregano, 1, tsp]
+          - [grated cheese, 60, g]
+          - [extra virgin olive oil, 1, tbsp]
+          - [salt, null, null]
+    steps:
+      - Cook the macaroni in salted water according to the packet and drain.
+      - Sauté the chopped onion in the oil for 6 minutes and add the diced chorizo for 2 minutes.
+      - Add the tomato and oregano and cook 10 minutes.
+      - Mix with the pasta and divide among lunchboxes with the grated cheese on top.
+
+  - name: Chicken burritos
+    health: [GREEN, "Chicken, beans and vegetables in a tortilla: complete and very easy to carry."]
+    nutrition: [520, 34, 56, 16]
+    category: Meat
+    difficulty: EASY
+    prep: 20
+    cook: 15
+    servings: 4
+    notes: Wrap each burrito in foil. They keep three days in the fridge and freeze well. Reheat them without the foil, wrapped in kitchen paper.
+    tags: [lunchbox, chicken, spicy]
+    utensils: []
+    ingredients:
+      - items:
+          - [chicken breasts, 400, g]
+          - [large flour tortillas, 4, null]
+          - [cooked black beans, 250, g]
+          - [cooked rice, 200, g]
+          - [red pepper, 1, null]
+          - [onion, 1, null]
+          - [ground cumin, 1, tsp]
+          - [sweet paprika, 1, tsp]
+          - [grated cheese, 80, g]
+          - [hot salsa, 4, tbsp, optional]
+          - [olive oil, 2, tbsp]
+          - [salt, 1, tsp]
+    steps:
+      - Cut the chicken into strips and stir-fry it in the oil with the onion and pepper in strips for 8 minutes. Add the cumin, paprika and salt.
+      - Add the drained beans and cook 2 minutes.
+      - Fill each tortilla with rice, the filling, cheese and salsa.
+      - Fold in the sides and roll them up tightly. If you like, toast them in the frying pan.
+
+  - name: Stir-fried noodles with pork and vegetables
+    health: [YELLOW, "Lots of vegetables and protein, but the soy sauce adds quite a lot of salt."]
+    nutrition: [490, 28, 60, 15]
+    category: Pasta
+    difficulty: EASY
+    prep: 15
+    cook: 15
+    servings: 4
+    notes: Keeps three days in the fridge. Reheat with a splash of water.
+    tags: [lunchbox, stir-fry, noodles]
+    utensils: [Wok]
+    ingredients:
+      - items:
+          - [udon or yakisoba wheat noodles, 300, g]
+          - [pork loin in strips, 400, g]
+          - [carrot, 1, null]
+          - [red pepper, 1, null]
+          - [cabbage, 200, g]
+          - [spring onions, 2, null]
+          - [low-salt soy sauce, 4, tbsp]
+          - [grated ginger, 1, tsp]
+          - [sunflower oil, 2, tbsp]
+    steps:
+      - Cook the noodles according to the packet and drain.
+      - Stir-fry the pork in a very hot wok with the oil for 3 minutes and set aside.
+      - Stir-fry the vegetables in strips with the ginger for 4 minutes, keeping them crunchy.
+      - Add the noodles, pork and soy sauce and stir-fry 2 minutes more.
+
+  - name: Baked potato and spinach omelette
+    health: [GREEN, "Egg, potato and spinach: complete and with iron; baked, it uses less oil."]
+    nutrition: [330, 14, 26, 19]
+    category: Eggs
+    difficulty: EASY
+    prep: 15
+    cook: 35
+    servings: 4
+    notes: Made in the oven, with less oil than the fried version. Keeps three days in the fridge and is eaten cold or warm.
+    tags: [lunchbox, eggs, vegetarian, gluten-free]
+    utensils: [Oven]
+    ingredients:
+      - items:
+          - [potatoes, 500, g]
+          - [onion, 1, null]
+          - [fresh spinach, 150, g]
+          - [eggs, 6, null]
+          - [extra virgin olive oil, 3, tbsp]
+          - [salt, 1, tsp]
+    steps:
+      - Preheat the oven to 200°C. Thinly slice the potatoes and cut the onion into strips, toss with the oil and salt and roast in a dish for 20 minutes.
+      - Wilt the spinach in a frying pan for 2 minutes to remove the water.
+      - Beat the eggs and mix them with the potatoes, onion and spinach.
+      - Pour into the greased dish and bake at 180°C for 15 minutes, until set.
+
+  - name: Potato and tuna pie
+    health: [GREEN, "Potato, tuna and egg: a complete, simple and cheap dish."]
+    nutrition: [380, 24, 34, 16]
+    category: Fish and seafood
+    difficulty: EASY
+    prep: 15
+    cook: 35
+    servings: 4
+    notes: Keeps three days in the fridge. Reheats very well in the microwave.
+    tags: [lunchbox, fish, baked, gluten-free]
+    utensils: [Oven]
+    ingredients:
+      - items:
+          - [potatoes, 800, g]
+          - [drained tuna in oil, 3, can]
+          - [tomato sauce, 150, g]
+          - [hard-boiled eggs, 2, null]
+          - [milk, 100, ml]
+          - [grated cheese, 60, g]
+          - [salt, 1, tsp]
+    steps:
+      - Boil the peeled potatoes in salted water for 20 minutes and mash them with the milk.
+      - Mix the tuna with the tomato sauce and the chopped egg.
+      - In an ovenproof dish, spread half the mash, cover with the filling and finish with the rest of the mash.
+      - Sprinkle with cheese and grill at 220°C for 10-12 minutes.
+
+  - name: Bulgur with roasted vegetables and feta
+    health: [GREEN, "A wholegrain with roasted vegetables: fibre, vitamins and staying power."]
+    nutrition: [420, 14, 54, 17]
+    category: Salads
+    difficulty: EASY
+    prep: 15
+    cook: 30
+    servings: 4
+    notes: Keeps four days in the fridge. Eat it cold or warm.
+    tags: [lunchbox, vegetarian, salad]
+    utensils: [Oven]
+    ingredients:
+      - items:
+          - [bulgur wheat, 250, g]
+          - [courgette, 1, null]
+          - [aubergine, 1, null]
+          - [red pepper, 1, null]
+          - [red onion, 1, null]
+          - [feta cheese, 120, g]
+          - [extra virgin olive oil, 4, tbsp]
+          - [lemon juice, 2, tbsp]
+          - [fresh mint or parsley, 1, tbsp]
+          - [salt, 1, tsp]
+    steps:
+      - Preheat the oven to 210°C. Dice the vegetables, toss them with half the oil and salt and roast 25 minutes.
+      - Put the bulgur in a bowl, cover it with 500 ml boiling salted water, cover and leave it to absorb for 15 minutes.
+      - Mix the bulgur with the vegetables, the diced feta, the herbs, lemon juice and remaining oil.
+
+  - name: Chicken pesto pasta
+    health: [YELLOW, "Pasta with chicken and vegetables; pesto brings healthy fats, but lots of calories."]
+    nutrition: [580, 34, 62, 21]
+    category: Pasta
+    difficulty: EASY
+    prep: 10
+    cook: 15
+    servings: 4
+    notes: Keeps three days in the fridge. Good both cold and hot.
+    tags: [lunchbox, pasta, chicken]
+    utensils: []
+    ingredients:
+      - items:
+          - [short pasta, 320, g]
+          - [chicken breasts, 400, g]
+          - [pesto, 120, g]
+          - [cherry tomatoes, 200, g]
+          - [baby spinach, 60, g]
+          - [olive oil, 1, tbsp]
+          - [salt, null, null]
+    steps:
+      - Cook the pasta in salted water according to the packet and drain.
+      - Griddle the chicken with the oil and salt and dice it.
+      - Mix the hot pasta with the pesto, chicken, halved tomatoes and spinach, which wilts in the heat.
+
+  - name: Meat-stuffed peppers
+    health: [YELLOW, "Pepper with meat and rice: complete, though the meat adds fat."]
+    nutrition: [430, 26, 32, 21]
+    category: Meat
+    difficulty: MEDIUM
+    prep: 25
+    cook: 45
+    servings: 4
+    notes: They keep three days in the fridge and freeze well. Reheat them covered in the microwave.
+    tags: [lunchbox, baked, beef]
+    utensils: [Oven]
+    ingredients:
+      - items:
+          - [red peppers, 4, null]
+          - [mixed minced meat, 400, g]
+          - [cooked rice, 150, g]
+          - [onion, 1, null]
+          - [garlic, 1, clove]
+          - [crushed tomato, 200, g]
+          - [grated cheese, 60, g]
+          - [extra virgin olive oil, 2, tbsp]
+          - [salt, 1, tsp]
+    steps:
+      - Preheat the oven to 190°C. Cut the tops off the peppers and remove the seeds.
+      - Sauté the chopped onion and garlic in the oil for 5 minutes, add the meat and brown it. Add the tomato and salt and cook 10 minutes.
+      - Mix with the rice and stuff the peppers.
+      - Put them in a dish, top with cheese and bake 30-35 minutes.

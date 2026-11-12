@@ -1,0 +1,401 @@
+id: thermomix-sauces-and-basics
+version: 1
+updated: 2026-11-12
+language: en
+name: "Thermomix: sauces and basics"
+series: Kitchen appliances
+family: thermomix-salsas-y-bases
+description: >-
+  The sauces and basics used most in the kitchen, programmed for the Thermomix TM6, which work
+  just the same on the TM5 and TM7: béchamel, mayonnaise, aioli, sofrito, homemade tomato sauce,
+  basil pesto, bolognese sauce, cheese sauce, brava sauce, hollandaise, romesco, herb yoghurt
+  sauce, mushroom sauce and vegetable and chicken stocks. Many of them freeze well in portions.
+author: Miga
+authorGithub: calamares00
+cover:
+  emoji: "🫙"
+  kicker: Thermomix
+  title: Sauces and basics
+  colors: ["#991b1b", "#f97316"]
+defaults:
+  source: "Miga «Thermomix: sauces and basics» pack"
+recipes:
+
+  - name: Béchamel sauce
+    health: [YELLOW, "Milk, butter and flour: it provides calcium, but also saturated fat."]
+    nutrition: [140, 4, 10, 9]
+    category: Sauces
+    difficulty: EASY
+    prep: 2
+    cook: 8
+    servings: 6
+    notes: Programmed for the Thermomix TM6. For croquettes, double the flour; for lasagne, use it as it is.
+    tags: [sauce]
+    utensils: [Thermomix]
+    ingredients:
+      - items:
+          - [whole milk, 600, g]
+          - [plain flour, 50, g]
+          - [butter, 40, g]
+          - [salt, 1, tsp]
+          - [nutmeg, 1, pinch]
+          - [white pepper, 1, pinch]
+    steps:
+      - Put all the ingredients into the bowl and mix 10 sec/speed 4.
+      - Cook 8 min/90°C/speed 4, until thick.
+      - Use straight away or cover with cling film touching the surface so it does not form a skin.
+
+  - name: Mayonnaise
+    health: [RED, "Almost all oil: very high in calories, best in small amounts."]
+    nutrition: [180, 1, 0, 20]
+    category: Sauces
+    difficulty: EASY
+    prep: 5
+    cook: 0
+    servings: 10
+    notes: Made in the Thermomix TM6. Contains raw egg; keep it in the fridge and eat it within 24 hours. Servings are a generous tablespoon.
+    tags: [sauce, gluten-free]
+    utensils: [Thermomix]
+    ingredients:
+      - items:
+          - [egg at room temperature, 1, null]
+          - [lemon juice, 1, tbsp]
+          - [salt, 0.5, tsp]
+          - [sunflower oil, 200, g]
+    steps:
+      - Put the egg, lemon juice and salt into the bowl.
+      - Set 1 min 30 sec/speed 4 and pour the oil slowly onto the lid, with the measuring cup in place, so it runs in a thin stream.
+      - When it finishes, check the texture; for a thicker mayonnaise, mix 10 sec/speed 4.
+
+  - name: Aioli
+    health: [RED, "Oil emulsified with garlic: very high in calories, to use sparingly."]
+    nutrition: [170, 1, 1, 19]
+    category: Sauces
+    difficulty: EASY
+    prep: 5
+    cook: 0
+    servings: 10
+    notes: Made in the Thermomix TM6. Contains raw egg; keep it in the fridge and eat it within 24 hours.
+    tags: [sauce, gluten-free]
+    utensils: [Thermomix]
+    ingredients:
+      - items:
+          - [garlic, 2, clove]
+          - [egg at room temperature, 1, null]
+          - [lemon juice, 1, tsp]
+          - [salt, 0.5, tsp]
+          - [mild olive oil, 180, g]
+    steps:
+      - Put the garlic into the bowl and chop 5 sec/speed 7. Scrape down the sides with the spatula.
+      - Add the egg, lemon juice and salt.
+      - Set 1 min 30 sec/speed 4 and pour the oil slowly onto the lid, with the measuring cup in place.
+
+  - name: Sofrito
+    health: [GREEN, "Onion, pepper and tomato with olive oil: the base of many dishes."]
+    nutrition: [90, 1, 7, 6]
+    category: Sauces
+    difficulty: EASY
+    prep: 10
+    cook: 35
+    servings: 8
+    notes: Programmed for the Thermomix TM6. Freeze it in portions (ice-cube trays) and you will have the base for stews and rice dishes ready.
+    tags: [sauce, vegan]
+    utensils: [Thermomix]
+    ingredients:
+      - items:
+          - [onions, 2, null]
+          - [red pepper, 1, null]
+          - [green pepper, 1, null]
+          - [garlic, 3, clove]
+          - [extra virgin olive oil, 60, g]
+          - [crushed tomato, 400, g]
+          - [sugar, 1, tsp]
+          - [salt, 1, tsp]
+    steps:
+      - Put the onions, peppers and garlic in pieces into the bowl and chop 4 sec/speed 5. Scrape down the sides with the spatula.
+      - Add the oil and sauté 15 min/120°C/speed 1, with the simmering basket on the lid instead of the measuring cup.
+      - Add the tomato, sugar and salt and cook 20 min/Varoma/speed 1, with the simmering basket on the lid.
+
+  - name: Homemade fried tomato sauce
+    health: [GREEN, "Tomato with olive oil, without the added sugar of the jarred kind."]
+    nutrition: [80, 2, 8, 5]
+    category: Sauces
+    difficulty: EASY
+    prep: 5
+    cook: 35
+    servings: 8
+    notes: Programmed for the Thermomix TM6. Ripe peeled tomatoes are best; otherwise tinned crushed tomato works.
+    tags: [sauce, vegan]
+    utensils: [Thermomix]
+    ingredients:
+      - items:
+          - [onion, 1, null]
+          - [garlic, 1, clove]
+          - [extra virgin olive oil, 40, g]
+          - [ripe peeled tomatoes, 1000, g]
+          - [sugar, 1, tsp]
+          - [salt, 1, tsp]
+    steps:
+      - Put the onion and garlic into the bowl and chop 4 sec/speed 5. Add the oil and sauté 6 min/120°C/speed 1.
+      - Add the tomatoes in pieces, the sugar and salt and cook 30 min/Varoma/speed 1, with the simmering basket on the lid instead of the measuring cup.
+      - Blend 30 sec/speed 5-10, increasing gradually. For a thicker sauce, cook 5 minutes more at Varoma.
+
+  - name: Basil pesto
+    health: [YELLOW, "Basil, pine nuts and olive oil: healthy fats, but very high in calories."]
+    nutrition: [190, 4, 1, 19]
+    category: Sauces
+    difficulty: EASY
+    prep: 5
+    cook: 0
+    servings: 6
+    notes: Made in the Thermomix TM6. Enough for pasta for 4. Cover it with a little oil so it does not darken.
+    tags: [sauce, vegetarian]
+    utensils: [Thermomix]
+    ingredients:
+      - items:
+          - [parmesan in pieces, 50, g]
+          - [pine nuts, 30, g]
+          - [garlic, 1, clove]
+          - [fresh basil leaves, 50, g]
+          - [extra virgin olive oil, 100, g]
+          - [salt, 1, pinch]
+    steps:
+      - Put the parmesan into the bowl and grate 10 sec/speed 10.
+      - Add the pine nuts and garlic and chop 5 sec/speed 7.
+      - Add the basil, oil and salt and blend 10 sec/speed 5, scraping down with the spatula. Do not over-blend or it warms up and turns bitter.
+
+  - name: Bolognese sauce
+    health: [YELLOW, "Minced meat with tomato and vegetables: protein and iron, with some fat."]
+    nutrition: [290, 20, 10, 18]
+    category: Sauces
+    difficulty: EASY
+    prep: 10
+    cook: 45
+    servings: 6
+    notes: Programmed for the Thermomix TM6. For pasta or lasagne. Freezes very well.
+    tags: [sauce, pasta, beef]
+    utensils: [Thermomix]
+    ingredients:
+      - items:
+          - [onion, 1, null]
+          - [carrot, 1, null]
+          - [celery, 1, stalk]
+          - [garlic, 1, clove]
+          - [extra virgin olive oil, 40, g]
+          - [mixed minced meat, 500, g]
+          - [red wine, 100, g]
+          - [crushed tomato, 400, g]
+          - [dried oregano, 1, tsp]
+          - [salt, 1, tsp]
+          - [black pepper, null, null]
+    steps:
+      - Put the onion, carrot, celery and garlic into the bowl and chop 5 sec/speed 5. Add the oil and sauté 8 min/120°C/speed 1.
+      - Add the meat and cook 8 min/120°C/reverse/speed soft, breaking it up with the spatula at the start.
+      - Add the wine and cook 3 min/120°C/reverse/speed soft.
+      - Add the tomato, oregano, salt and pepper and cook 25 min/100°C/reverse/speed soft, with the simmering basket on the lid instead of the measuring cup.
+
+  - name: Cheese sauce
+    health: [RED, "Cheese, milk and butter: very high in saturated fat and salt."]
+    nutrition: [220, 10, 6, 17]
+    category: Sauces
+    difficulty: EASY
+    prep: 5
+    cook: 8
+    servings: 6
+    notes: Programmed for the Thermomix TM6. For nachos, pasta, potatoes or vegetable gratins.
+    tags: [sauce, cheese]
+    utensils: [Thermomix]
+    ingredients:
+      - items:
+          - [cheddar in pieces, 150, g]
+          - [whole milk, 300, g]
+          - [butter, 20, g]
+          - [plain flour, 15, g]
+          - [mustard, 1, tsp]
+          - [salt, 1, pinch]
+    steps:
+      - Put the cheese into the bowl and grate 10 sec/speed 8.
+      - Add the remaining ingredients and mix 10 sec/speed 4.
+      - Cook 7 min/90°C/speed 3, until smooth and thick.
+
+  - name: Brava sauce
+    health: [YELLOW, "A tomato sauce with hot paprika; light as long as it does not have too much oil."]
+    nutrition: [60, 1, 6, 4]
+    category: Sauces
+    difficulty: EASY
+    prep: 5
+    cook: 15
+    servings: 6
+    notes: Programmed for the Thermomix TM6. For patatas bravas. Adjust the heat with the amount of paprika and cayenne.
+    tags: [sauce, spicy, vegan]
+    utensils: [Thermomix]
+    ingredients:
+      - items:
+          - [small onion, 1, null]
+          - [garlic, 1, clove]
+          - [extra virgin olive oil, 30, g]
+          - [plain flour, 1, tbsp]
+          - [hot paprika, 2, tsp]
+          - [sweet paprika, 1, tsp]
+          - [dried chilli, 1, null, optional]
+          - [crushed tomato, 200, g]
+          - [chicken or vegetable stock, 200, g]
+          - [sherry vinegar, 1, tsp]
+          - [salt, 0.5, tsp]
+    steps:
+      - Put the onion and garlic into the bowl and chop 4 sec/speed 5. Add the oil and sauté 5 min/120°C/speed 1.
+      - Add the flour and paprikas and cook 1 min/100°C/speed 1.
+      - Add the tomato, stock, chilli, vinegar and salt and cook 10 min/100°C/speed 1.
+      - Blend 30 sec/speed 5-10, increasing gradually.
+
+  - name: Hollandaise sauce
+    health: [RED, "Egg yolks and butter: very rich, for occasions."]
+    nutrition: [200, 2, 0, 22]
+    category: Sauces
+    difficulty: MEDIUM
+    prep: 5
+    cook: 6
+    servings: 6
+    notes: Made in the Thermomix TM6. For eggs Benedict, asparagus or fish. Serve it straight away; it does not reheat well.
+    tags: [sauce, gluten-free]
+    utensils: [Thermomix]
+    ingredients:
+      - items:
+          - [egg yolks, 3, null]
+          - [diced butter, 150, g]
+          - [lemon juice, 1, tbsp]
+          - [water, 30, g]
+          - [salt, 1, pinch]
+          - [white pepper, 1, pinch]
+    steps:
+      - Fit the butterfly whisk. Put all the ingredients into the bowl.
+      - Cook 6 min/80°C/speed 4, until the sauce is thick and glossy.
+      - If it splits, add a tablespoon of cold water and mix 10 sec/speed 4.
+
+  - name: Romesco sauce
+    health: [GREEN, "Roasted peppers, tomato, nuts and olive oil: healthy fats and lots of flavour."]
+    nutrition: [150, 3, 7, 13]
+    category: Sauces
+    difficulty: EASY
+    prep: 10
+    cook: 0
+    servings: 8
+    notes: Made in the Thermomix TM6. With grilled vegetables, calçots or fish. Use tomatoes and garlic already roasted in the oven.
+    tags: [sauce, vegan]
+    utensils: [Thermomix]
+    ingredients:
+      - items:
+          - [toasted almonds, 40, g]
+          - [toasted hazelnuts, 30, g]
+          - [roasted tomatoes, 2, null]
+          - [head of roasted garlic, 0.5, null]
+          - [ñora or choricero pepper paste, 2, tbsp]
+          - [slice of fried bread, 1, null]
+          - [sherry vinegar, 15, g]
+          - [extra virgin olive oil, 80, g]
+          - [salt, 0.5, tsp]
+    steps:
+      - Put the almonds, hazelnuts and bread into the bowl and chop 10 sec/speed 7.
+      - Add the peeled tomatoes, the peeled roasted garlic, the pepper paste, vinegar and salt and blend 20 sec/speed 7.
+      - Set 1 min/speed 4 and pour the oil slowly onto the lid. Adjust the salt and vinegar.
+
+  - name: Herb yoghurt sauce
+    health: [GREEN, "Yoghurt with herbs and lemon: light, fresh and low in fat."]
+    nutrition: [45, 3, 4, 2]
+    category: Sauces
+    difficulty: EASY
+    prep: 5
+    cook: 0
+    servings: 6
+    notes: Made in the Thermomix TM6. For kebabs, salads, roasted vegetables or potatoes.
+    tags: [sauce, vegetarian, gluten-free]
+    utensils: [Thermomix]
+    ingredients:
+      - items:
+          - [small garlic clove, 1, null]
+          - [fresh parsley, 10, g]
+          - [fresh dill or mint, 5, g]
+          - [plain Greek yoghurt, 250, g]
+          - [lemon juice, 1, tbsp]
+          - [salt, 1, pinch]
+    steps:
+      - Put the garlic and herbs into the bowl and chop 5 sec/speed 7. Scrape down the sides with the spatula.
+      - Add the yoghurt, lemon juice and salt and mix 10 sec/speed 3.
+      - Leave to rest 30 minutes in the fridge so the flavours develop.
+
+  - name: Mushroom sauce
+    health: [YELLOW, "Mushrooms with cream: tasty, but with saturated fat."]
+    nutrition: [120, 3, 5, 10]
+    category: Sauces
+    difficulty: EASY
+    prep: 5
+    cook: 15
+    servings: 6
+    notes: Programmed for the Thermomix TM6. For grilled meat, chicken or pasta.
+    tags: [sauce, vegetarian]
+    utensils: [Thermomix]
+    ingredients:
+      - items:
+          - [shallot, 1, null]
+          - [extra virgin olive oil, 20, g]
+          - [mushrooms, 250, g]
+          - [white wine, 50, g]
+          - [single cream, 200, g]
+          - [salt, 0.5, tsp]
+          - [black pepper, null, null]
+    steps:
+      - Put the shallot into the bowl and chop 4 sec/speed 5. Add the oil and sauté 4 min/120°C/speed 1.
+      - Add the mushrooms in pieces and chop 3 sec/speed 4. Cook 5 min/120°C/reverse/speed soft.
+      - Add the wine and cook 2 min/120°C/reverse/speed soft.
+      - Add the cream, salt and pepper and cook 4 min/90°C/reverse/speed soft.
+
+  - name: Vegetable stock
+    health: [GREEN, "Fat-free homemade stock, very light and without the flavour enhancers of cartons."]
+    nutrition: [20, 1, 4, 0]
+    category: Soups
+    difficulty: EASY
+    prep: 10
+    cook: 40
+    servings: 6
+    notes: Programmed for the Thermomix TM6. Makes about 1.3 litres. Freeze it in tubs or ice-cube trays.
+    tags: [soup, vegan]
+    utensils: [Thermomix]
+    ingredients:
+      - items:
+          - [leek, 1, null]
+          - [carrots, 2, null]
+          - [onion, 1, null]
+          - [celery, 1, stalk]
+          - [turnip, 1, null, optional]
+          - [parsley, 3, sprig]
+          - [water, 1500, g]
+          - [salt, 1, tsp]
+    steps:
+      - Put the vegetables in large pieces into the bowl with the water and salt.
+      - Cook 40 min/100°C/reverse/speed soft.
+      - Strain the stock and leave to cool before storing.
+
+  - name: Chicken stock
+    health: [GREEN, "Homemade stock, low in fat if you skim it when cold: light and comforting."]
+    nutrition: [40, 4, 2, 2]
+    category: Soups
+    difficulty: EASY
+    prep: 10
+    cook: 50
+    servings: 6
+    notes: Programmed for the Thermomix TM6. As it cools in the fridge, the fat rises and can be lifted off with a spoon.
+    tags: [soup, chicken]
+    utensils: [Thermomix]
+    ingredients:
+      - items:
+          - [chicken carcasses or wings, 400, g]
+          - [leek, 1, null]
+          - [carrot, 1, null]
+          - [celery, 1, stalk]
+          - [onion, 0.5, null]
+          - [water, 1500, g]
+          - [salt, 1, tsp]
+    steps:
+      - Put all the ingredients into the bowl, with the vegetables in large pieces.
+      - Cook 50 min/100°C/reverse/speed soft.
+      - Strain the stock, chill it in the fridge and lift off the fat from the surface.

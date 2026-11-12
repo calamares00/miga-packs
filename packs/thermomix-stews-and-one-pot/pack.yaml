@@ -1,0 +1,505 @@
+id: thermomix-stews-and-one-pot
+version: 1
+updated: 2026-11-12
+language: en
+name: "Thermomix: stews and one-pot dishes"
+series: Kitchen appliances
+family: thermomix-guisos-y-cuchara
+description: >-
+  Home-style stews programmed for the Thermomix TM6 (2.2 litre bowl), which work just the same on
+  the TM5 and TM7: lentils with rice, chickpea and salt cod stew, white beans with chorizo,
+  potatoes with pork ribs, beef with mushrooms, chicken in almond sauce, chicken curry, salt cod
+  in tomato, turkey stew, mixed vegetable stew, prawn risotto, Spanish broth with egg and ham,
+  pork cheeks in red wine, squid with potatoes and chicken in tomato. On a TM31 (2 litre bowl,
+  100 °C maximum), fry at Varoma temperature and scale the quantities down a little.
+author: Miga
+authorGithub: calamares00
+cover:
+  emoji: "🍲"
+  kicker: Thermomix
+  title: Stews and one-pot dishes
+  colors: ["#7c2d12", "#d97706"]
+defaults:
+  source: "Miga «Thermomix: stews and one-pot dishes» pack"
+recipes:
+
+  - name: Lentils with rice
+    health: [GREEN, "Pulses with a grain: complete plant protein, plenty of fibre and iron, and little fat."]
+    nutrition: [380, 18, 62, 7]
+    category: Legumes
+    difficulty: EASY
+    prep: 10
+    cook: 45
+    servings: 4
+    notes: Programmed for the Thermomix TM6. Small brown (pardina) lentils need no soaking.
+    tags: [pulses, stew, vegan]
+    utensils: [Thermomix]
+    ingredients:
+      - items:
+          - [onion, 1, null]
+          - [green pepper, 1, null]
+          - [garlic, 2, clove]
+          - [carrot, 1, null]
+          - [extra virgin olive oil, 30, g]
+          - [crushed tomato, 100, g]
+          - [sweet paprika, 1, tsp]
+          - [ground cumin, 0.5, tsp]
+          - [brown lentils, 250, g]
+          - [short-grain rice, 60, g]
+          - [water, 1100, g]
+          - [bay leaf, 1, null]
+          - [salt, 1.5, tsp]
+    steps:
+      - Put the onion, pepper, garlic and carrot in pieces into the bowl and chop 4 sec/speed 5. Scrape down the sides with the spatula.
+      - Add the oil and sauté 8 min/120°C/speed 1.
+      - Add the tomato, paprika and cumin and cook 3 min/120°C/speed 1.
+      - Add the rinsed lentils, water, bay leaf and salt and cook 30 min/100°C/reverse/speed soft.
+      - Add the rice and cook 15 min/100°C/reverse/speed soft, until the rice is tender.
+      - Leave to rest 5 minutes in the bowl, remove the bay leaf and adjust the salt.
+
+  - name: Chickpea and salt cod stew
+    health: [GREEN, "Chickpeas, spinach and cod: protein, fibre and iron in a complete, low-fat dish."]
+    nutrition: [420, 30, 45, 12]
+    category: Legumes
+    difficulty: EASY
+    prep: 15
+    cook: 25
+    servings: 4
+    notes: Programmed for the Thermomix TM6. Use desalted salt cod; if you desalt it yourself, start 48 hours ahead and change the water several times.
+    tags: [pulses, stew, fish]
+    utensils: [Thermomix]
+    ingredients:
+      - items:
+          - [onion, 1, null]
+          - [garlic, 2, clove]
+          - [extra virgin olive oil, 40, g]
+          - [crushed tomato, 100, g]
+          - [sweet paprika, 1, tsp]
+          - [cooked chickpeas, 600, g]
+          - [fish stock, 600, g]
+          - [fresh spinach, 150, g]
+          - [desalted salt cod in chunks, 300, g]
+          - [hard-boiled eggs, 2, null, optional]
+          - [salt, null, null]
+    steps:
+      - Put the onion and garlic into the bowl and chop 4 sec/speed 5. Scrape down the sides with the spatula.
+      - Add the oil and sauté 6 min/120°C/speed 1.
+      - Add the tomato and paprika and cook 3 min/120°C/speed 1.
+      - Add the drained chickpeas and the stock and cook 10 min/100°C/reverse/speed soft.
+      - Add the spinach and cod and cook 6 min/90°C/reverse/speed soft, until the cod flakes.
+      - Adjust the salt (the cod is already salty) and serve with chopped hard-boiled egg on top.
+
+  - name: White beans with chorizo
+    health: [YELLOW, "Pulses rich in fibre and protein, but the chorizo adds quite a lot of saturated fat and salt."]
+    nutrition: [520, 27, 48, 24]
+    category: Legumes
+    difficulty: EASY
+    prep: 10
+    cook: 30
+    servings: 4
+    notes: Programmed for the Thermomix TM6, with ready-cooked beans. For a lighter version, use half the chorizo.
+    tags: [pulses, stew, winter]
+    utensils: [Thermomix]
+    ingredients:
+      - items:
+          - [onion, 1, null]
+          - [red pepper, 0.5, null]
+          - [garlic, 2, clove]
+          - [extra virgin olive oil, 20, g]
+          - [sliced chorizo, 150, g]
+          - [smoked paprika, 1, tsp]
+          - [cooked white beans, 700, g]
+          - [potato, 1, null]
+          - [vegetable stock, 500, g]
+          - [bay leaf, 1, null]
+          - [salt, null, null]
+    steps:
+      - Put the onion, pepper and garlic in pieces into the bowl and chop 4 sec/speed 5. Scrape down the sides with the spatula.
+      - Add the oil and chorizo and sauté 7 min/120°C/reverse/speed soft.
+      - Add the paprika, the potato in small pieces, the stock and the bay leaf and cook 15 min/100°C/reverse/speed soft.
+      - Add the drained beans and cook 8 min/100°C/reverse/speed soft.
+      - Leave to rest 10 minutes so the broth thickens. Adjust the salt.
+
+  - name: Potatoes with pork ribs
+    health: [YELLOW, "A complete, filling dish, but pork ribs are fatty: better now and then."]
+    nutrition: [560, 26, 40, 32]
+    category: Meat
+    difficulty: EASY
+    prep: 15
+    cook: 45
+    servings: 4
+    notes: Programmed for the Thermomix TM6. Ask the butcher to cut the ribs into small pieces.
+    tags: [stew, pork, winter]
+    utensils: [Thermomix]
+    ingredients:
+      - items:
+          - [onion, 1, null]
+          - [green pepper, 1, null]
+          - [garlic, 2, clove]
+          - [extra virgin olive oil, 30, g]
+          - [pork ribs cut into pieces, 500, g]
+          - [crushed tomato, 100, g]
+          - [sweet paprika, 1, tsp]
+          - [white wine, 50, g]
+          - [potatoes, 700, g]
+          - [water, 600, g]
+          - [bay leaf, 1, null]
+          - [salt, 1.5, tsp]
+    steps:
+      - Put the onion, pepper and garlic in pieces into the bowl and chop 4 sec/speed 5. Scrape down the sides with the spatula.
+      - Add the oil and the seasoned ribs and sauté 10 min/120°C/reverse/speed soft.
+      - Add the tomato, paprika and wine and cook 5 min/120°C/reverse/speed soft.
+      - Add the potatoes broken into chunks (cut partway and snap, so they release starch), the water, bay leaf and salt and cook 30 min/100°C/reverse/speed soft.
+      - Leave to rest 5 minutes and serve with its broth.
+
+  - name: Beef stew with mushrooms
+    health: [YELLOW, "A good source of protein and iron; the sauce has wine and some fat, so pair it with a light side."]
+    nutrition: [430, 38, 12, 22]
+    category: Meat
+    difficulty: MEDIUM
+    prep: 15
+    cook: 75
+    servings: 4
+    notes: Programmed for the Thermomix TM6. Use stewing beef (shin, chuck or shoulder) in 3 cm cubes. If the sauce is runny, cook 5 min/Varoma/reverse/speed soft with the simmering basket instead of the measuring cup.
+    tags: [stew, beef, winter]
+    utensils: [Thermomix]
+    ingredients:
+      - items:
+          - [onion, 1, null]
+          - [carrots, 2, null]
+          - [garlic, 2, clove]
+          - [extra virgin olive oil, 40, g]
+          - [stewing beef in cubes, 700, g]
+          - [flour, 1, tbsp]
+          - [red wine, 100, g]
+          - [sliced mushrooms, 250, g]
+          - [beef stock, 250, g]
+          - [dried thyme, 0.5, tsp]
+          - [bay leaf, 1, null]
+          - [salt, 1, tsp]
+          - [black pepper, null, null]
+    steps:
+      - Put the onion, carrots and garlic in pieces into the bowl and chop 4 sec/speed 5. Scrape down the sides with the spatula.
+      - Add the oil and sauté 8 min/120°C/speed 1.
+      - Add the floured, seasoned beef and cook 8 min/120°C/reverse/speed soft.
+      - Add the wine and cook 3 min/120°C/reverse/speed soft to burn off the alcohol.
+      - Add the stock, thyme and bay leaf and cook 50 min/100°C/reverse/speed soft.
+      - Add the mushrooms and cook 15 min/100°C/reverse/speed soft. Adjust the salt and serve with rice or potatoes.
+
+  - name: Chicken in almond sauce (pepitoria)
+    health: [YELLOW, "Chicken with an almond and egg sauce: lots of protein, but the sauce is rich."]
+    nutrition: [480, 40, 8, 31]
+    category: Meat
+    difficulty: MEDIUM
+    prep: 15
+    cook: 40
+    servings: 4
+    notes: Programmed for the Thermomix TM6. Saffron can be replaced with a little turmeric for colour.
+    tags: [stew, chicken, traditional]
+    utensils: [Thermomix]
+    ingredients:
+      - group: For the paste
+        items:
+          - [blanched almonds, 40, g]
+          - [hard-boiled egg yolks, 2, null]
+          - [garlic, 2, clove]
+          - [saffron, 1, pinch]
+      - group: For the stew
+        items:
+          - [onion, 1, null]
+          - [extra virgin olive oil, 40, g]
+          - [chicken thighs in pieces, 800, g]
+          - [white wine, 100, g]
+          - [chicken stock, 300, g]
+          - [bay leaf, 1, null]
+          - [salt, 1, tsp]
+    steps:
+      - Put the almonds and garlic into the bowl and chop 10 sec/speed 8. Add the yolks and saffron, mix 5 sec/speed 5 and set the paste aside.
+      - Put the onion in pieces into the bowl and chop 4 sec/speed 5. Add the oil and sauté 7 min/120°C/speed 1.
+      - Add the seasoned chicken and cook 8 min/120°C/reverse/speed soft.
+      - Add the wine and cook 3 min/120°C/reverse/speed soft.
+      - Add the stock, bay leaf and salt and cook 20 min/100°C/reverse/speed soft.
+      - Add the paste and cook 5 min/100°C/reverse/speed soft, until the sauce thickens. Serve with the chopped egg whites on top.
+
+  - name: Chicken curry
+    health: [YELLOW, "Chicken with spices and vegetables; coconut milk adds saturated fat, so have it with rice and not too often."]
+    nutrition: [450, 36, 14, 28]
+    category: Meat
+    difficulty: EASY
+    prep: 10
+    cook: 30
+    servings: 4
+    notes: Programmed for the Thermomix TM6. Serve with basmati rice cooked in the simmering basket while the curry cooks (put the basket with the rinsed rice in at the stock step and add 300 g more water).
+    tags: [curry, chicken, spicy]
+    utensils: [Thermomix]
+    ingredients:
+      - items:
+          - [onion, 1, null]
+          - [garlic, 2, clove]
+          - [fresh ginger, 10, g]
+          - [extra virgin olive oil, 30, g]
+          - [curry powder, 2, tbsp]
+          - [diced chicken breast, 700, g]
+          - [crushed tomato, 200, g]
+          - [coconut milk, 400, ml]
+          - [salt, 1, tsp]
+          - [fresh coriander, null, null, optional]
+    steps:
+      - Put the onion, garlic and ginger into the bowl and chop 5 sec/speed 5. Scrape down the sides with the spatula.
+      - Add the oil and sauté 7 min/120°C/speed 1.
+      - Add the curry powder and cook 1 min/120°C/speed 1 to toast the spices.
+      - Add the chicken, tomato and salt and cook 10 min/100°C/reverse/speed soft.
+      - Add the coconut milk and cook 10 min/100°C/reverse/speed soft. Serve with chopped coriander.
+
+  - name: Salt cod in tomato sauce
+    health: [GREEN, "White fish with a tomato sauce: lots of protein and little fat."]
+    nutrition: [320, 34, 14, 14]
+    category: Fish and seafood
+    difficulty: EASY
+    prep: 10
+    cook: 30
+    servings: 4
+    notes: Programmed for the Thermomix TM6. Use desalted cod loins; the Varoma steams them without breaking them.
+    tags: [fish, traditional]
+    utensils: [Thermomix]
+    ingredients:
+      - items:
+          - [onions, 2, null]
+          - [green pepper, 1, null]
+          - [garlic, 2, clove]
+          - [extra virgin olive oil, 40, g]
+          - [crushed tomato, 600, g]
+          - [sugar, 1, tsp]
+          - [desalted salt cod loins, 600, g]
+          - [salt, null, null]
+    steps:
+      - Put the onions, pepper and garlic in pieces into the bowl and chop 4 sec/speed 5. Scrape down the sides with the spatula.
+      - Add the oil and sauté 10 min/120°C/speed 1.
+      - Add the tomato and sugar. Place the cod loins in the Varoma dish, set it in position and cook 20 min/Varoma/speed 1.
+      - Remove the Varoma. For a smooth sauce, blend 20 sec/speed 5. Adjust the salt.
+      - Put the cod in a serving dish, cover with the sauce and serve.
+
+  - name: Turkey and vegetable stew
+    health: [GREEN, "Lean turkey with plenty of vegetables and little fat: light and complete."]
+    nutrition: [340, 36, 22, 11]
+    category: Meat
+    difficulty: EASY
+    prep: 15
+    cook: 40
+    servings: 4
+    notes: Programmed for the Thermomix TM6.
+    tags: [stew, turkey, light]
+    utensils: [Thermomix]
+    ingredients:
+      - items:
+          - [onion, 1, null]
+          - [garlic, 2, clove]
+          - [extra virgin olive oil, 30, g]
+          - [diced turkey thigh, 600, g]
+          - [sliced carrots, 2, null]
+          - [diced potatoes, 300, g]
+          - [peas, 100, g]
+          - [white wine, 50, g]
+          - [chicken stock, 300, g]
+          - [dried rosemary, 0.5, tsp]
+          - [salt, 1, tsp]
+    steps:
+      - Put the onion and garlic into the bowl and chop 4 sec/speed 5. Scrape down the sides with the spatula.
+      - Add the oil and sauté 6 min/120°C/speed 1.
+      - Add the seasoned turkey and cook 6 min/120°C/reverse/speed soft.
+      - Add the wine and cook 2 min/120°C/reverse/speed soft.
+      - Add the carrots, potatoes, stock, rosemary and salt and cook 20 min/100°C/reverse/speed soft.
+      - Add the peas and cook 5 min/100°C/reverse/speed soft.
+
+  - name: Mixed vegetable stew (menestra)
+    health: [GREEN, "Plenty of seasonal vegetables with a little ham: light, rich in fibre and vitamins."]
+    nutrition: [210, 10, 22, 9]
+    category: Vegetables
+    difficulty: EASY
+    prep: 15
+    cook: 30
+    servings: 4
+    notes: Programmed for the Thermomix TM6. The vegetables are steamed in the Varoma and the simmering basket, so they keep their colour. Without the ham it is vegetarian.
+    tags: [vegetables, light]
+    utensils: [Thermomix]
+    ingredients:
+      - group: Steamed vegetables
+        items:
+          - [green beans in pieces, 200, g]
+          - [sliced carrots, 2, null]
+          - [cauliflower florets, 200, g]
+          - [tinned artichoke hearts, 6, null]
+          - [peas, 100, g]
+          - [water, 700, g]
+      - group: For the sauce
+        items:
+          - [onion, 1, null]
+          - [garlic, 2, clove]
+          - [extra virgin olive oil, 30, g]
+          - [diced serrano ham, 60, g, optional]
+          - [flour, 1, tbsp]
+          - [salt, null, null]
+    steps:
+      - Put the water into the bowl. Place the carrots and cauliflower in the simmering basket and the beans in the Varoma dish. Cook 20 min/Varoma/speed 1.
+      - Add the peas to the Varoma and cook 5 min/Varoma/speed 1. Set the vegetables aside, keep 200 g of the cooking water and empty the bowl.
+      - Put the onion and garlic into the bowl and chop 4 sec/speed 5. Add the oil and ham and sauté 6 min/120°C/speed 1.
+      - Add the flour and cook 1 min/120°C/speed 1. Add the reserved water and cook 3 min/100°C/speed 2.
+      - Put all the vegetables and the artichokes in a dish, pour the sauce over and mix gently. Adjust the salt.
+
+  - name: Prawn risotto
+    health: [YELLOW, "Rice with prawns and some cheese and butter: high in carbohydrates, best in moderate portions."]
+    nutrition: [470, 24, 66, 12]
+    category: Rice
+    difficulty: EASY
+    prep: 10
+    cook: 25
+    servings: 4
+    notes: Programmed for the Thermomix TM6. No butterfly whisk needed; reverse stirs the rice without breaking it.
+    tags: [rice, seafood]
+    utensils: [Thermomix]
+    ingredients:
+      - items:
+          - [shallot, 1, null]
+          - [garlic, 1, clove]
+          - [extra virgin olive oil, 30, g]
+          - [risotto rice (arborio or carnaroli), 320, g]
+          - [white wine, 80, g]
+          - [hot fish stock, 850, g]
+          - [peeled prawns, 300, g]
+          - [butter, 20, g]
+          - [grated parmesan, 40, g]
+          - [chopped parsley, 1, tbsp]
+          - [salt, null, null]
+    steps:
+      - Put the shallot and garlic into the bowl and chop 4 sec/speed 5. Scrape down the sides with the spatula.
+      - Add the oil and sauté 4 min/120°C/speed 1.
+      - Add the rice and cook 2 min/120°C/reverse/speed soft to toast it.
+      - Add the wine and cook 1 min/120°C/reverse/speed soft.
+      - Add the stock and cook 13 min/100°C/reverse/speed soft.
+      - Add the prawns and cook 3 min/100°C/reverse/speed soft.
+      - Add the butter and parmesan, mix 20 sec/reverse/speed soft and leave to rest 2 minutes. Serve with parsley.
+
+  - name: Spanish broth with egg and ham (sopa de picadillo)
+    health: [GREEN, "Homemade broth with egg, ham and noodles: comforting, light and with protein."]
+    nutrition: [240, 16, 24, 8]
+    category: Soups
+    difficulty: EASY
+    prep: 10
+    cook: 50
+    servings: 4
+    notes: Programmed for the Thermomix TM6. If you have leftover stew broth, skip the first steps and start with the noodles.
+    tags: [soup, winter]
+    utensils: [Thermomix]
+    ingredients:
+      - group: For the broth
+        items:
+          - [chicken carcass, 1, null]
+          - [ham bone, 1, null]
+          - [leek, 1, null]
+          - [carrot, 1, null]
+          - [celery, 1, stalk]
+          - [water, 1400, g]
+      - group: To finish
+        items:
+          - [thin soup noodles, 80, g]
+          - [hard-boiled eggs, 2, null]
+          - [diced serrano ham, 60, g]
+          - [fresh mint, null, null, optional]
+          - [salt, null, null]
+    steps:
+      - Put all the broth ingredients into the bowl and cook 40 min/100°C/reverse/speed soft.
+      - Strain the broth, discard the bones and vegetables and pour the broth back into the bowl. Adjust the salt.
+      - Add the noodles and cook for the time on the packet/100°C/reverse/speed soft.
+      - Serve with the chopped egg and ham and, if you like, a mint leaf.
+
+  - name: Pork cheeks in red wine
+    health: [YELLOW, "Very tender, tasty meat in a reduced wine sauce: best kept for special occasions."]
+    nutrition: [520, 40, 14, 30]
+    category: Meat
+    difficulty: MEDIUM
+    prep: 15
+    cook: 100
+    servings: 4
+    notes: Programmed for the Thermomix TM6. Pork cheeks need time; if they are not tender after 90 minutes, cook 15 minutes more.
+    tags: [stew, pork, special occasion]
+    utensils: [Thermomix]
+    ingredients:
+      - items:
+          - [onion, 1, null]
+          - [carrots, 2, null]
+          - [leek, 1, null]
+          - [garlic, 2, clove]
+          - [extra virgin olive oil, 40, g]
+          - [trimmed pork cheeks, 800, g]
+          - [flour, 1, tbsp]
+          - [red wine, 250, g]
+          - [beef stock, 200, g]
+          - [bay leaf, 1, null]
+          - [dried thyme, 0.5, tsp]
+          - [salt, 1, tsp]
+    steps:
+      - Put the onion, carrots, leek and garlic in pieces into the bowl and chop 4 sec/speed 5. Add the oil and sauté 10 min/120°C/speed 1.
+      - Add the floured, seasoned cheeks and cook 6 min/120°C/reverse/speed soft.
+      - Add the wine and cook 5 min/120°C/reverse/speed soft.
+      - Add the stock, bay leaf, thyme and salt and cook 90 min/98°C/reverse/speed soft.
+      - Take out the cheeks. Remove the bay leaf, blend the sauce 30 sec/speed 5-10, increasing gradually, and pour it over the meat. Serve with mashed potato.
+
+  - name: Squid and potato stew
+    health: [GREEN, "Squid and potatoes in a stew: lean protein and little fat."]
+    nutrition: [380, 28, 40, 11]
+    category: Fish and seafood
+    difficulty: EASY
+    prep: 15
+    cook: 40
+    servings: 4
+    notes: Programmed for the Thermomix TM6. Frozen squid works well, drained thoroughly.
+    tags: [fish, stew]
+    utensils: [Thermomix]
+    ingredients:
+      - items:
+          - [onion, 1, null]
+          - [green pepper, 1, null]
+          - [garlic, 2, clove]
+          - [extra virgin olive oil, 40, g]
+          - [cleaned squid in rings, 600, g]
+          - [crushed tomato, 100, g]
+          - [sweet paprika, 1, tsp]
+          - [white wine, 50, g]
+          - [potatoes, 600, g]
+          - [fish stock, 500, g]
+          - [peas, 80, g, optional]
+          - [salt, 1, tsp]
+    steps:
+      - Put the onion, pepper and garlic in pieces into the bowl and chop 4 sec/speed 5. Add the oil and sauté 8 min/120°C/speed 1.
+      - Add the squid and cook 5 min/120°C/reverse/speed soft.
+      - Add the tomato, paprika and wine and cook 3 min/120°C/reverse/speed soft.
+      - Add the stock and salt and cook 10 min/100°C/reverse/speed soft.
+      - Add the potatoes broken into chunks and the peas and cook 18 min/100°C/reverse/speed soft. Leave to rest 5 minutes.
+
+  - name: Chicken in tomato sauce
+    health: [GREEN, "Chicken in a homemade tomato sauce with vegetables: lots of protein and little fat."]
+    nutrition: [330, 38, 14, 13]
+    category: Meat
+    difficulty: EASY
+    prep: 10
+    cook: 35
+    servings: 4
+    notes: Programmed for the Thermomix TM6. Skinless thighs stay juicier than breast.
+    tags: [chicken, home-style]
+    utensils: [Thermomix]
+    ingredients:
+      - items:
+          - [onion, 1, null]
+          - [red pepper, 1, null]
+          - [garlic, 2, clove]
+          - [extra virgin olive oil, 30, g]
+          - [skinless chicken thighs in pieces, 800, g]
+          - [crushed tomato, 500, g]
+          - [dried oregano, 0.5, tsp]
+          - [sugar, 1, tsp]
+          - [salt, 1, tsp]
+    steps:
+      - Put the onion, pepper and garlic in pieces into the bowl and chop 4 sec/speed 5. Add the oil and sauté 8 min/120°C/speed 1.
+      - Add the seasoned chicken and cook 6 min/120°C/reverse/speed soft.
+      - Add the tomato, oregano, sugar and salt and cook 20 min/100°C/reverse/speed soft, with the simmering basket on the lid instead of the measuring cup so it thickens.
+      - Leave to rest 5 minutes and serve with white rice or potatoes.

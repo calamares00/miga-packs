@@ -1,0 +1,505 @@
+id: thermomix-guisos-y-cuchara
+version: 1
+updated: 2026-11-12
+language: es
+name: "Thermomix: guisos y cuchara"
+series: Electrodomésticos
+family: thermomix-guisos-y-cuchara
+description: >-
+  Guisos de toda la vida programados para Thermomix TM6 (vaso de 2,2 litros), que funcionan igual
+  en TM5 y TM7: lentejas con arroz, potaje de garbanzos con bacalao, alubias con chorizo, patatas
+  con costillas, ternera con champiñones, pollo en pepitoria, pollo al curry, bacalao con tomate,
+  estofado de pavo, menestra, risotto de gambas, sopa de picadillo, carrillada al vino tinto,
+  calamares con patatas y pollo con tomate. En TM31 (vaso de 2 litros y 100 °C como máximo),
+  sofríe a temperatura Varoma y reduce un poco las cantidades.
+author: Miga
+authorGithub: calamares00
+cover:
+  emoji: "🍲"
+  kicker: Thermomix
+  title: Guisos y cuchara
+  colors: ["#7c2d12", "#d97706"]
+defaults:
+  source: "Pack «Thermomix: guisos y cuchara» de Miga"
+recipes:
+
+  - name: Lentejas con arroz
+    health: [GREEN, "Legumbre con cereal: proteína vegetal completa, mucha fibra y hierro, con poca grasa."]
+    nutrition: [380, 18, 62, 7]
+    category: Legumbres
+    difficulty: EASY
+    prep: 10
+    cook: 45
+    servings: 4
+    notes: Programado para Thermomix TM6. Con lentejas pardinas no hace falta ponerlas en remojo.
+    tags: [legumbres, cuchara, vegana]
+    utensils: [Thermomix]
+    ingredients:
+      - items:
+          - [cebolla, 1, null]
+          - [pimiento verde, 1, null]
+          - [dientes de ajo, 2, null]
+          - [zanahoria, 1, null]
+          - [aceite de oliva virgen extra, 30, g]
+          - [tomate triturado, 100, g]
+          - [pimentón dulce, 1, cucharadita]
+          - [comino molido, 0.5, cucharadita]
+          - [lentejas pardinas, 250, g]
+          - [arroz redondo, 60, g]
+          - [agua, 1100, g]
+          - [hoja de laurel, 1, null]
+          - [sal, 1.5, cucharadita]
+    steps:
+      - Pon en el vaso la cebolla, el pimiento, el ajo y la zanahoria en trozos y pica 4 seg/vel 5. Baja los restos con la espátula.
+      - Añade el aceite y sofríe 8 min/120 °C/vel 1.
+      - Añade el tomate, el pimentón y el comino y programa 3 min/120 °C/vel 1.
+      - Añade las lentejas lavadas, el agua, el laurel y la sal y programa 30 min/100 °C/giro a la izquierda/vel cuchara.
+      - Añade el arroz y programa 15 min/100 °C/giro a la izquierda/vel cuchara, hasta que el arroz esté tierno.
+      - Deja reposar 5 minutos en el vaso, quita el laurel y ajusta de sal.
+
+  - name: Potaje de garbanzos con bacalao
+    health: [GREEN, "Garbanzos, espinacas y bacalao: proteína, fibra y hierro en un plato completo y poco graso."]
+    nutrition: [420, 30, 45, 12]
+    category: Legumbres
+    difficulty: EASY
+    prep: 15
+    cook: 25
+    servings: 4
+    notes: Programado para Thermomix TM6. Usa bacalao desalado; si lo desalas tú, empieza 48 horas antes cambiando el agua varias veces.
+    tags: [legumbres, cuchara, pescado]
+    utensils: [Thermomix]
+    ingredients:
+      - items:
+          - [cebolla, 1, null]
+          - [dientes de ajo, 2, null]
+          - [aceite de oliva virgen extra, 40, g]
+          - [tomate triturado, 100, g]
+          - [pimentón dulce, 1, cucharadita]
+          - [garbanzos cocidos, 600, g]
+          - [caldo de pescado, 600, g]
+          - [espinacas frescas, 150, g]
+          - [bacalao desalado en trozos, 300, g]
+          - [huevos cocidos, 2, null, optional]
+          - [sal, null, null]
+    steps:
+      - Pon la cebolla y el ajo en el vaso y pica 4 seg/vel 5. Baja los restos con la espátula.
+      - Añade el aceite y sofríe 6 min/120 °C/vel 1.
+      - Añade el tomate y el pimentón y programa 3 min/120 °C/vel 1.
+      - Añade los garbanzos escurridos y el caldo y programa 10 min/100 °C/giro a la izquierda/vel cuchara.
+      - Añade las espinacas y el bacalao y programa 6 min/90 °C/giro a la izquierda/vel cuchara, hasta que el bacalao se separe en lascas.
+      - Ajusta de sal (el bacalao ya sala) y sirve con el huevo cocido picado por encima.
+
+  - name: Alubias blancas con chorizo
+    health: [YELLOW, "Legumbre rica en fibra y proteína, pero el chorizo aporta bastante grasa saturada y sal."]
+    nutrition: [520, 27, 48, 24]
+    category: Legumbres
+    difficulty: EASY
+    prep: 10
+    cook: 30
+    servings: 4
+    notes: Programado para Thermomix TM6, con alubias ya cocidas. Para una versión más ligera, usa la mitad de chorizo.
+    tags: [legumbres, cuchara, invierno]
+    utensils: [Thermomix]
+    ingredients:
+      - items:
+          - [cebolla, 1, null]
+          - [pimiento rojo, 0.5, null]
+          - [dientes de ajo, 2, null]
+          - [aceite de oliva virgen extra, 20, g]
+          - [chorizo en rodajas, 150, g]
+          - [pimentón de la Vera, 1, cucharadita]
+          - [alubias blancas cocidas, 700, g]
+          - [patata, 1, null]
+          - [caldo de verduras, 500, g]
+          - [hoja de laurel, 1, null]
+          - [sal, null, null]
+    steps:
+      - Pon la cebolla, el pimiento y el ajo en trozos en el vaso y pica 4 seg/vel 5. Baja los restos con la espátula.
+      - Añade el aceite y el chorizo y sofríe 7 min/120 °C/giro a la izquierda/vel cuchara.
+      - Añade el pimentón, la patata en trozos pequeños, el caldo y el laurel y programa 15 min/100 °C/giro a la izquierda/vel cuchara.
+      - Añade las alubias escurridas y programa 8 min/100 °C/giro a la izquierda/vel cuchara.
+      - Deja reposar 10 minutos para que espese el caldo. Ajusta de sal.
+
+  - name: Patatas con costillas
+    health: [YELLOW, "Plato completo y saciante, pero la costilla de cerdo es grasa: mejor de vez en cuando."]
+    nutrition: [560, 26, 40, 32]
+    category: Carnes
+    difficulty: EASY
+    prep: 15
+    cook: 45
+    servings: 4
+    notes: Programado para Thermomix TM6. Pide en la carnicería que te corten la costilla en trozos pequeños.
+    tags: [cuchara, cerdo, invierno]
+    utensils: [Thermomix]
+    ingredients:
+      - items:
+          - [cebolla, 1, null]
+          - [pimiento verde, 1, null]
+          - [dientes de ajo, 2, null]
+          - [aceite de oliva virgen extra, 30, g]
+          - [costilla de cerdo troceada, 500, g]
+          - [tomate triturado, 100, g]
+          - [pimentón dulce, 1, cucharadita]
+          - [vino blanco, 50, g]
+          - [patatas, 700, g]
+          - [agua, 600, g]
+          - [hoja de laurel, 1, null]
+          - [sal, 1.5, cucharadita]
+    steps:
+      - Pon la cebolla, el pimiento y el ajo en trozos en el vaso y pica 4 seg/vel 5. Baja los restos con la espátula.
+      - Añade el aceite y la costilla salpimentada y sofríe 10 min/120 °C/giro a la izquierda/vel cuchara.
+      - Añade el tomate, el pimentón y el vino y programa 5 min/120 °C/giro a la izquierda/vel cuchara.
+      - Añade las patatas «chascadas» en trozos, el agua, el laurel y la sal y programa 30 min/100 °C/giro a la izquierda/vel cuchara.
+      - Deja reposar 5 minutos y sirve con su caldo.
+
+  - name: Ternera guisada con champiñones
+    health: [YELLOW, "Buena fuente de proteína y hierro; la salsa lleva vino y algo de grasa, así que mejor con una guarnición ligera."]
+    nutrition: [430, 38, 12, 22]
+    category: Carnes
+    difficulty: MEDIUM
+    prep: 15
+    cook: 75
+    servings: 4
+    notes: Programado para Thermomix TM6. Usa carne de guisar (morcillo, aguja o espaldilla) en dados de 3 cm. Si la salsa queda líquida, programa 5 min/Varoma/giro a la izquierda/vel cuchara con el cestillo en lugar del cubilete.
+    tags: [guiso, ternera, invierno]
+    utensils: [Thermomix]
+    ingredients:
+      - items:
+          - [cebolla, 1, null]
+          - [zanahorias, 2, null]
+          - [dientes de ajo, 2, null]
+          - [aceite de oliva virgen extra, 40, g]
+          - [ternera para guisar en dados, 700, g]
+          - [harina, 1, cucharada]
+          - [vino tinto, 100, g]
+          - [champiñones laminados, 250, g]
+          - [caldo de carne, 250, g]
+          - [tomillo seco, 0.5, cucharadita]
+          - [hoja de laurel, 1, null]
+          - [sal, 1, cucharadita]
+          - [pimienta negra, null, null]
+    steps:
+      - Pon la cebolla, las zanahorias y el ajo en trozos en el vaso y pica 4 seg/vel 5. Baja los restos con la espátula.
+      - Añade el aceite y sofríe 8 min/120 °C/vel 1.
+      - Añade la carne enharinada y salpimentada y programa 8 min/120 °C/giro a la izquierda/vel cuchara.
+      - Añade el vino y programa 3 min/120 °C/giro a la izquierda/vel cuchara para que se evapore el alcohol.
+      - Añade el caldo, el tomillo y el laurel y programa 50 min/100 °C/giro a la izquierda/vel cuchara.
+      - Añade los champiñones y programa 15 min/100 °C/giro a la izquierda/vel cuchara. Ajusta de sal y sirve con arroz o patatas.
+
+  - name: Pollo en pepitoria
+    health: [YELLOW, "Pollo con salsa de almendras y huevo: mucha proteína, pero la salsa es calórica."]
+    nutrition: [480, 40, 8, 31]
+    category: Carnes
+    difficulty: MEDIUM
+    prep: 15
+    cook: 40
+    servings: 4
+    notes: Programado para Thermomix TM6. El azafrán puede sustituirse por colorante alimentario.
+    tags: [guiso, pollo, tradicional]
+    utensils: [Thermomix]
+    ingredients:
+      - group: Para el majado
+        items:
+          - [almendras crudas peladas, 40, g]
+          - [yemas de huevo cocido, 2, null]
+          - [dientes de ajo, 2, null]
+          - [azafrán, 1, pizca]
+      - group: Para el guiso
+        items:
+          - [cebolla, 1, null]
+          - [aceite de oliva virgen extra, 40, g]
+          - [contramuslos de pollo troceados, 800, g]
+          - [vino blanco, 100, g]
+          - [caldo de pollo, 300, g]
+          - [hoja de laurel, 1, null]
+          - [sal, 1, cucharadita]
+    steps:
+      - Pon en el vaso las almendras y el ajo y pica 10 seg/vel 8. Añade las yemas y el azafrán, mezcla 5 seg/vel 5 y reserva el majado.
+      - Pon la cebolla en trozos en el vaso y pica 4 seg/vel 5. Añade el aceite y sofríe 7 min/120 °C/vel 1.
+      - Añade el pollo salpimentado y programa 8 min/120 °C/giro a la izquierda/vel cuchara.
+      - Añade el vino y programa 3 min/120 °C/giro a la izquierda/vel cuchara.
+      - Añade el caldo, el laurel y la sal y programa 20 min/100 °C/giro a la izquierda/vel cuchara.
+      - Añade el majado y programa 5 min/100 °C/giro a la izquierda/vel cuchara, hasta que la salsa espese. Sirve con la clara picada por encima.
+
+  - name: Pollo al curry
+    health: [YELLOW, "Pollo con especias y verduras; la leche de coco aporta grasa saturada, así que mejor con arroz y sin repetir."]
+    nutrition: [450, 36, 14, 28]
+    category: Carnes
+    difficulty: EASY
+    prep: 10
+    cook: 30
+    servings: 4
+    notes: Programado para Thermomix TM6. Sirve con arroz basmati cocido en el cestillo mientras se hace el curry (pon el cestillo con el arroz lavado en el paso del caldo y añade 300 g más de agua).
+    tags: [curry, pollo, picante]
+    utensils: [Thermomix]
+    ingredients:
+      - items:
+          - [cebolla, 1, null]
+          - [dientes de ajo, 2, null]
+          - [jengibre fresco, 10, g]
+          - [aceite de oliva virgen extra, 30, g]
+          - [curry en polvo, 2, cucharada]
+          - [pechugas de pollo en dados, 700, g]
+          - [tomate triturado, 200, g]
+          - [leche de coco, 400, ml]
+          - [sal, 1, cucharadita]
+          - [cilantro fresco, null, null, optional]
+    steps:
+      - Pon la cebolla, el ajo y el jengibre en el vaso y pica 5 seg/vel 5. Baja los restos con la espátula.
+      - Añade el aceite y sofríe 7 min/120 °C/vel 1.
+      - Añade el curry y programa 1 min/120 °C/vel 1 para tostar las especias.
+      - Añade el pollo, el tomate y la sal y programa 10 min/100 °C/giro a la izquierda/vel cuchara.
+      - Añade la leche de coco y programa 10 min/100 °C/giro a la izquierda/vel cuchara. Sirve con cilantro picado.
+
+  - name: Bacalao con tomate
+    health: [GREEN, "Pescado blanco con sofrito de tomate: mucha proteína y poca grasa."]
+    nutrition: [320, 34, 14, 14]
+    category: Pescados y mariscos
+    difficulty: EASY
+    prep: 10
+    cook: 30
+    servings: 4
+    notes: Programado para Thermomix TM6. Usa lomos de bacalao desalado; el Varoma los cuece al vapor sin que se rompan.
+    tags: [pescado, tradicional]
+    utensils: [Thermomix]
+    ingredients:
+      - items:
+          - [cebollas, 2, null]
+          - [pimiento verde, 1, null]
+          - [dientes de ajo, 2, null]
+          - [aceite de oliva virgen extra, 40, g]
+          - [tomate triturado, 600, g]
+          - [azúcar, 1, cucharadita]
+          - [lomos de bacalao desalado, 600, g]
+          - [sal, null, null]
+    steps:
+      - Pon las cebollas, el pimiento y el ajo en trozos en el vaso y pica 4 seg/vel 5. Baja los restos con la espátula.
+      - Añade el aceite y sofríe 10 min/120 °C/vel 1.
+      - Añade el tomate y el azúcar. Coloca los lomos de bacalao en el recipiente Varoma, ponlo en su sitio y programa 20 min/Varoma/vel 1.
+      - Retira el Varoma. Si quieres una salsa fina, tritura 20 seg/vel 5. Ajusta de sal.
+      - Pon el bacalao en una fuente, cúbrelo con la salsa y sirve.
+
+  - name: Estofado de pavo con verduras
+    health: [GREEN, "Carne magra de pavo con muchas verduras y poca grasa: ligero y completo."]
+    nutrition: [340, 36, 22, 11]
+    category: Carnes
+    difficulty: EASY
+    prep: 15
+    cook: 40
+    servings: 4
+    notes: Programado para Thermomix TM6.
+    tags: [guiso, pavo, ligero]
+    utensils: [Thermomix]
+    ingredients:
+      - items:
+          - [cebolla, 1, null]
+          - [dientes de ajo, 2, null]
+          - [aceite de oliva virgen extra, 30, g]
+          - [contramuslo de pavo en dados, 600, g]
+          - [zanahorias en rodajas, 2, null]
+          - [patatas en dados, 300, g]
+          - [guisantes, 100, g]
+          - [vino blanco, 50, g]
+          - [caldo de pollo, 300, g]
+          - [romero seco, 0.5, cucharadita]
+          - [sal, 1, cucharadita]
+    steps:
+      - Pon la cebolla y el ajo en el vaso y pica 4 seg/vel 5. Baja los restos con la espátula.
+      - Añade el aceite y sofríe 6 min/120 °C/vel 1.
+      - Añade el pavo salpimentado y programa 6 min/120 °C/giro a la izquierda/vel cuchara.
+      - Añade el vino y programa 2 min/120 °C/giro a la izquierda/vel cuchara.
+      - Añade las zanahorias, las patatas, el caldo, el romero y la sal y programa 20 min/100 °C/giro a la izquierda/vel cuchara.
+      - Añade los guisantes y programa 5 min/100 °C/giro a la izquierda/vel cuchara.
+
+  - name: Menestra de verduras
+    health: [GREEN, "Muchas verduras de temporada con un poco de jamón: ligera, rica en fibra y vitaminas."]
+    nutrition: [210, 10, 22, 9]
+    category: Verduras
+    difficulty: EASY
+    prep: 15
+    cook: 30
+    servings: 4
+    notes: Programado para Thermomix TM6. Las verduras se cuecen al vapor en el Varoma y el cestillo, así no pierden color. Sin jamón es vegetariana.
+    tags: [verduras, ligero]
+    utensils: [Thermomix]
+    ingredients:
+      - group: Verduras al vapor
+        items:
+          - [judías verdes troceadas, 200, g]
+          - [zanahorias en rodajas, 2, null]
+          - [coliflor en ramilletes, 200, g]
+          - [alcachofas en conserva, 6, null]
+          - [guisantes, 100, g]
+          - [agua, 700, g]
+      - group: Para el sofrito
+        items:
+          - [cebolla, 1, null]
+          - [dientes de ajo, 2, null]
+          - [aceite de oliva virgen extra, 30, g]
+          - [taquitos de jamón serrano, 60, g, optional]
+          - [harina, 1, cucharada]
+          - [sal, null, null]
+    steps:
+      - Pon el agua en el vaso. Coloca las zanahorias y la coliflor en el cestillo y las judías en el recipiente Varoma. Programa 20 min/Varoma/vel 1.
+      - Añade los guisantes al Varoma y programa 5 min/Varoma/vel 1. Reserva las verduras y 200 g del caldo; vacía el vaso.
+      - Pon la cebolla y el ajo en el vaso y pica 4 seg/vel 5. Añade el aceite y el jamón y sofríe 6 min/120 °C/vel 1.
+      - Añade la harina y programa 1 min/120 °C/vel 1. Añade el caldo reservado y programa 3 min/100 °C/vel 2.
+      - Pon todas las verduras y las alcachofas en una fuente, vierte la salsa por encima y mezcla con cuidado. Ajusta de sal.
+
+  - name: Risotto de gambas
+    health: [YELLOW, "Arroz con gambas y algo de queso y mantequilla: rico en hidratos, mejor en raciones moderadas."]
+    nutrition: [470, 24, 66, 12]
+    category: Arroces
+    difficulty: EASY
+    prep: 10
+    cook: 25
+    servings: 4
+    notes: "Programado para Thermomix TM6. La mariposa no hace falta: el giro a la izquierda remueve el arroz sin romperlo."
+    tags: [arroz, marisco]
+    utensils: [Thermomix]
+    ingredients:
+      - items:
+          - [chalota, 1, null]
+          - [diente de ajo, 1, null]
+          - [aceite de oliva virgen extra, 30, g]
+          - [arroz para risotto (arborio o carnaroli), 320, g]
+          - [vino blanco, 80, g]
+          - [caldo de pescado caliente, 850, g]
+          - [gambas peladas, 300, g]
+          - [mantequilla, 20, g]
+          - [parmesano rallado, 40, g]
+          - [perejil picado, 1, cucharada]
+          - [sal, null, null]
+    steps:
+      - Pon la chalota y el ajo en el vaso y pica 4 seg/vel 5. Baja los restos con la espátula.
+      - Añade el aceite y sofríe 4 min/120 °C/vel 1.
+      - Añade el arroz y programa 2 min/120 °C/giro a la izquierda/vel cuchara para nacararlo.
+      - Añade el vino y programa 1 min/120 °C/giro a la izquierda/vel cuchara.
+      - Añade el caldo y programa 13 min/100 °C/giro a la izquierda/vel cuchara.
+      - Añade las gambas y programa 3 min/100 °C/giro a la izquierda/vel cuchara.
+      - Añade la mantequilla y el parmesano, mezcla 20 seg/giro a la izquierda/vel cuchara y deja reposar 2 minutos. Sirve con perejil.
+
+  - name: Sopa de picadillo
+    health: [GREEN, "Caldo casero con huevo, jamón y fideos: reconfortante, ligero y con proteína."]
+    nutrition: [240, 16, 24, 8]
+    category: Sopas y cremas
+    difficulty: EASY
+    prep: 10
+    cook: 50
+    servings: 4
+    notes: Programado para Thermomix TM6. Si tienes caldo de cocido, sáltate los primeros pasos y empieza por los fideos.
+    tags: [sopa, cuchara, invierno]
+    utensils: [Thermomix]
+    ingredients:
+      - group: Para el caldo
+        items:
+          - [carcasa de pollo, 1, null]
+          - [hueso de jamón, 1, null]
+          - [puerro, 1, null]
+          - [zanahoria, 1, null]
+          - [rama de apio, 1, null]
+          - [agua, 1400, g]
+      - group: Para el picadillo
+        items:
+          - [fideos finos, 80, g]
+          - [huevos cocidos, 2, null]
+          - [taquitos de jamón serrano, 60, g]
+          - [hierbabuena, null, null, optional]
+          - [sal, null, null]
+    steps:
+      - Pon en el vaso todos los ingredientes del caldo y programa 40 min/100 °C/giro a la izquierda/vel cuchara.
+      - Cuela el caldo, desecha los huesos y las verduras y vuelve a poner el caldo en el vaso. Ajusta de sal.
+      - Añade los fideos y programa el tiempo que indique el paquete/100 °C/giro a la izquierda/vel cuchara.
+      - Sirve con el huevo cocido y el jamón picados y, si te gusta, una hoja de hierbabuena.
+
+  - name: Carrillada al vino tinto
+    health: [YELLOW, "Carne muy tierna y sabrosa, con una salsa de vino reducida: mejor en ocasiones especiales."]
+    nutrition: [520, 40, 14, 30]
+    category: Carnes
+    difficulty: MEDIUM
+    prep: 15
+    cook: 100
+    servings: 4
+    notes: "Programado para Thermomix TM6. La carrillada necesita tiempo: si después de 90 minutos aún no está tierna, programa 15 minutos más."
+    tags: [guiso, cerdo, ocasión especial]
+    utensils: [Thermomix]
+    ingredients:
+      - items:
+          - [cebolla, 1, null]
+          - [zanahorias, 2, null]
+          - [puerro, 1, null]
+          - [dientes de ajo, 2, null]
+          - [aceite de oliva virgen extra, 40, g]
+          - [carrilleras de cerdo limpias, 800, g]
+          - [harina, 1, cucharada]
+          - [vino tinto, 250, g]
+          - [caldo de carne, 200, g]
+          - [hoja de laurel, 1, null]
+          - [tomillo seco, 0.5, cucharadita]
+          - [sal, 1, cucharadita]
+    steps:
+      - Pon la cebolla, las zanahorias, el puerro y el ajo en trozos en el vaso y pica 4 seg/vel 5. Añade el aceite y sofríe 10 min/120 °C/vel 1.
+      - Añade las carrilleras enharinadas y salpimentadas y programa 6 min/120 °C/giro a la izquierda/vel cuchara.
+      - Añade el vino y programa 5 min/120 °C/giro a la izquierda/vel cuchara.
+      - Añade el caldo, el laurel, el tomillo y la sal y programa 90 min/98 °C/giro a la izquierda/vel cuchara.
+      - Saca las carrilleras. Quita el laurel, tritura la salsa 30 seg/vel 5-10 subiendo poco a poco y vierte sobre la carne. Sirve con puré de patatas.
+
+  - name: Calamares con patatas
+    health: [GREEN, "Calamar con patatas en un guiso de cuchara: proteína magra y poca grasa."]
+    nutrition: [380, 28, 40, 11]
+    category: Pescados y mariscos
+    difficulty: EASY
+    prep: 15
+    cook: 40
+    servings: 4
+    notes: Programado para Thermomix TM6. Vale calamar congelado, bien escurrido.
+    tags: [pescado, cuchara]
+    utensils: [Thermomix]
+    ingredients:
+      - items:
+          - [cebolla, 1, null]
+          - [pimiento verde, 1, null]
+          - [dientes de ajo, 2, null]
+          - [aceite de oliva virgen extra, 40, g]
+          - [calamares limpios en anillas, 600, g]
+          - [tomate triturado, 100, g]
+          - [pimentón dulce, 1, cucharadita]
+          - [vino blanco, 50, g]
+          - [patatas, 600, g]
+          - [caldo de pescado, 500, g]
+          - [guisantes, 80, g, optional]
+          - [sal, 1, cucharadita]
+    steps:
+      - Pon la cebolla, el pimiento y el ajo en trozos en el vaso y pica 4 seg/vel 5. Añade el aceite y sofríe 8 min/120 °C/vel 1.
+      - Añade los calamares y programa 5 min/120 °C/giro a la izquierda/vel cuchara.
+      - Añade el tomate, el pimentón y el vino y programa 3 min/120 °C/giro a la izquierda/vel cuchara.
+      - Añade el caldo y la sal y programa 10 min/100 °C/giro a la izquierda/vel cuchara.
+      - Añade las patatas «chascadas» en trozos y los guisantes y programa 18 min/100 °C/giro a la izquierda/vel cuchara. Deja reposar 5 minutos.
+
+  - name: Pollo con tomate
+    health: [GREEN, "Pollo con salsa de tomate casera y verduras: mucha proteína y poca grasa."]
+    nutrition: [330, 38, 14, 13]
+    category: Carnes
+    difficulty: EASY
+    prep: 10
+    cook: 35
+    servings: 4
+    notes: Programado para Thermomix TM6. Con muslos o contramuslos sin piel queda más jugoso que con pechuga.
+    tags: [pollo, casero]
+    utensils: [Thermomix]
+    ingredients:
+      - items:
+          - [cebolla, 1, null]
+          - [pimiento rojo, 1, null]
+          - [dientes de ajo, 2, null]
+          - [aceite de oliva virgen extra, 30, g]
+          - [contramuslos de pollo sin piel troceados, 800, g]
+          - [tomate triturado, 500, g]
+          - [orégano seco, 0.5, cucharadita]
+          - [azúcar, 1, cucharadita]
+          - [sal, 1, cucharadita]
+    steps:
+      - Pon la cebolla, el pimiento y el ajo en trozos en el vaso y pica 4 seg/vel 5. Añade el aceite y sofríe 8 min/120 °C/vel 1.
+      - Añade el pollo salpimentado y programa 6 min/120 °C/giro a la izquierda/vel cuchara.
+      - Añade el tomate, el orégano, el azúcar y la sal y programa 20 min/100 °C/giro a la izquierda/vel cuchara, con el cestillo sobre la tapa en lugar del cubilete para que espese.
+      - Deja reposar 5 minutos y sirve con arroz blanco o patatas.

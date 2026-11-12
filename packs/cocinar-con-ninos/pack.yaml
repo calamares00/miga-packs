@@ -1,0 +1,319 @@
+id: cocinar-con-ninos
+version: 1
+updated: 2026-11-12
+language: es
+name: Cocinar con niños
+series: Cocina de cada día
+family: cocinar-con-ninos
+description: >-
+  Recetas sencillas para cocinar en familia, con tareas que los niños pueden hacer solos: galletas
+  de avena y plátano, bolitas de coco, polos de yogur, batido de fresa, huevos rellenos, ensalada
+  de pasta, wraps de pollo, pizzas de pan de molde, mini quiches, albóndigas al horno, salmón en
+  papillote y salchichón de chocolate. Cada receta dice qué puede hacer el niño; el horno, los
+  cuchillos afilados y el fuego, siempre con un adulto.
+author: Miga
+authorGithub: calamares00
+cover:
+  emoji: "🧑‍🍳"
+  title: Cocinar con niños
+  colors: ["#0f766e", "#facc15"]
+defaults:
+  source: Pack «Cocinar con niños» de Miga
+recipes:
+
+  - name: Galletas de avena y plátano
+    health: [GREEN, "Solo avena y plátano maduro: endulzadas con la fruta, sin azúcar añadido."]
+    nutrition: [70, 2, 12, 2]
+    category: Postres
+    difficulty: EASY
+    prep: 10
+    cook: 15
+    servings: 12
+    notes: "Los niños pueden: aplastar los plátanos con un tenedor, mezclar y formar las galletas con una cuchara. Las raciones son galletas."
+    tags: [niños, merienda, sin azúcar añadido]
+    utensils: [Horno]
+    ingredients:
+      - items:
+          - [plátanos muy maduros, 2, null]
+          - [copos de avena, 150, g]
+          - [pepitas de chocolate o pasas, 40, g, optional]
+          - [canela molida, 0.5, cucharadita]
+    steps:
+      - Precalienta el horno a 180 °C y forra una bandeja con papel de horno.
+      - Aplasta los plátanos con un tenedor hasta hacer un puré.
+      - Añade la avena, la canela y las pepitas y mezcla bien.
+      - Pon montoncitos de masa en la bandeja y aplánalos un poco con la cuchara.
+      - Hornea 12-15 minutos, hasta que estén doradas. Deja que se enfríen en la bandeja.
+
+  - name: Bolitas de coco
+    health: [RED, "Coco y leche condensada: muy dulces, para ocasiones."]
+    nutrition: [90, 1, 10, 5]
+    category: Postres
+    difficulty: EASY
+    prep: 20
+    cook: 0
+    servings: 20
+    notes: "Los niños pueden: mezclar con las manos, hacer las bolitas y rebozarlas. Las raciones son bolitas."
+    tags: [niños, postre, sin horno, sin gluten]
+    utensils: []
+    ingredients:
+      - items:
+          - [coco rallado, 200, g]
+          - [leche condensada, 200, g]
+          - [coco rallado para rebozar, 40, g]
+    steps:
+      - Mezcla en un bol el coco rallado con la leche condensada hasta tener una masa que se pueda moldear.
+      - Refrigera la masa 30 minutos.
+      - Con las manos un poco húmedas, haz bolitas del tamaño de una nuez.
+      - Rebózalas en coco rallado, ponlas en cápsulas de papel y guárdalas en la nevera.
+
+  - name: Polos de yogur y fresa
+    health: [GREEN, "Yogur natural con fruta: un helado casero con poco azúcar."]
+    nutrition: [70, 3, 11, 2]
+    category: Postres
+    difficulty: EASY
+    prep: 10
+    cook: 0
+    servings: 6
+    notes: "Los niños pueden: quitar las hojas a las fresas, echar todo en la batidora (con un adulto) y rellenar los moldes."
+    tags: [niños, postre, verano, sin gluten]
+    utensils: [Batidora]
+    ingredients:
+      - items:
+          - [fresas, 250, g]
+          - [yogur natural, 250, g]
+          - [miel, 1, cucharada]
+    steps:
+      - Lava las fresas y quítales las hojas.
+      - Tritura las fresas con el yogur y la miel.
+      - Rellena los moldes de polos y pon los palitos.
+      - Congela al menos 5 horas. Pasa los moldes por agua templada para desmoldarlos.
+
+  - name: Batido de fresa y plátano
+    health: [GREEN, "Fruta con leche: una merienda rica en calcio y sin azúcar añadido."]
+    nutrition: [150, 5, 26, 3]
+    category: Bebidas
+    difficulty: EASY
+    prep: 5
+    cook: 0
+    servings: 2
+    notes: "Los niños pueden: pelar el plátano, medir la leche y pulsar el botón de la batidora con un adulto."
+    tags: [niños, desayuno, merienda, sin gluten]
+    utensils: [Batidora]
+    ingredients:
+      - items:
+          - [fresas, 150, g]
+          - [plátano, 1, null]
+          - [leche fría, 300, ml]
+          - [cubitos de hielo, 4, null, optional]
+    steps:
+      - Lava las fresas y quítales las hojas. Pela el plátano y córtalo en rodajas.
+      - Pon toda la fruta en la batidora con la leche y el hielo.
+      - Tritura hasta que esté espumoso y sirve enseguida.
+
+  - name: Huevos rellenos de atún
+    health: [GREEN, "Huevo y atún: mucha proteína; con poca mayonesa es un plato ligero."]
+    nutrition: [210, 15, 2, 16]
+    category: Huevos
+    difficulty: EASY
+    prep: 20
+    cook: 12
+    servings: 4
+    notes: "Los niños pueden: pelar los huevos cocidos ya fríos, sacar las yemas con una cucharita, mezclar el relleno y rellenar."
+    tags: [niños, huevos, sin gluten]
+    utensils: []
+    ingredients:
+      - items:
+          - [huevos, 6, null]
+          - [atún en aceite escurrido, 2, lata]
+          - [mayonesa, 3, cucharada]
+          - [tomate frito, 1, cucharada, optional]
+          - [aceitunas, null, null, optional]
+    steps:
+      - Cuece los huevos 11 minutos en agua hirviendo y enfríalos en agua con hielo (esto lo hace un adulto).
+      - Pélalos y córtalos por la mitad a lo largo. Saca las yemas.
+      - Mezcla la mitad de las yemas con el atún, la mayonesa y el tomate.
+      - Rellena las claras con la mezcla y ralla el resto de yemas por encima. Decora con aceitunas.
+
+  - name: Ensalada de pasta
+    health: [GREEN, "Pasta con verduras, atún y huevo: un plato completo y fresco."]
+    nutrition: [430, 20, 58, 13]
+    category: Pastas
+    difficulty: EASY
+    prep: 15
+    cook: 12
+    servings: 4
+    notes: "Los niños pueden: lavar y cortar los tomates cherry con un cuchillo de mesa, escurrir el maíz y mezclarlo todo."
+    tags: [niños, ensalada, pasta, verano]
+    utensils: []
+    ingredients:
+      - items:
+          - [pasta corta (espirales o lacitos), 300, g]
+          - [tomates cherry, 200, g]
+          - [maíz dulce, 150, g]
+          - [atún en conserva, 2, lata]
+          - [huevos cocidos, 2, null]
+          - [aceitunas sin hueso, 50, g]
+          - [aceite de oliva virgen extra, 3, cucharada]
+          - [sal, null, null]
+    steps:
+      - Cuece la pasta según el paquete, escúrrela y enfríala bajo el grifo.
+      - Corta los tomates por la mitad y los huevos en trocitos.
+      - Mezcla la pasta con los tomates, el maíz, el atún, el huevo y las aceitunas.
+      - Aliña con aceite y sal y guarda en la nevera hasta servir.
+
+  - name: Wraps de pollo y verduras
+    health: [GREEN, "Pollo con verduras crudas en tortilla: completo, ligero y divertido de montar."]
+    nutrition: [380, 28, 36, 13]
+    category: Carnes
+    difficulty: EASY
+    prep: 15
+    cook: 10
+    servings: 4
+    notes: "Los niños pueden: rallar la zanahoria, lavar la lechuga, untar las tortillas y enrollar los wraps."
+    tags: [niños, pollo, rápida]
+    utensils: [Plancha]
+    ingredients:
+      - items:
+          - [pechuga de pollo, 400, g]
+          - [tortillas de trigo, 4, null]
+          - [zanahoria, 1, null]
+          - [lechuga, 4, hoja]
+          - [tomate, 1, null]
+          - [queso fresco para untar, 4, cucharada]
+          - [aceite de oliva, 1, cucharada]
+          - [sal, null, null]
+    steps:
+      - Un adulto corta el pollo en tiras y lo hace a la plancha con aceite y sal 6-8 minutos.
+      - Ralla la zanahoria y corta el tomate en rodajas.
+      - Calienta un poco las tortillas y úntalas con el queso.
+      - Pon lechuga, pollo, zanahoria y tomate y enróllalas bien apretadas. Córtalas por la mitad.
+
+  - name: Pizzas de pan de molde
+    health: [YELLOW, "Rápidas y ricas; mejor con pan integral y muchas verduras."]
+    nutrition: [260, 13, 26, 11]
+    category: Panes y masas
+    difficulty: EASY
+    prep: 10
+    cook: 10
+    servings: 4
+    notes: "Los niños pueden: untar el tomate, repartir el queso y decorar sus pizzas con caras."
+    tags: [niños, pizza, rápida]
+    utensils: [Horno]
+    ingredients:
+      - items:
+          - [pan de molde, 8, rebanada]
+          - [tomate frito, 6, cucharada]
+          - [mozzarella rallada, 150, g]
+          - [jamón cocido, 4, loncha]
+          - [tomates cherry, 6, null, optional]
+          - [maíz dulce, 3, cucharada, optional]
+          - [orégano seco, null, null]
+    steps:
+      - Precalienta el horno a 200 °C con el grill.
+      - Pon las rebanadas en una bandeja y úntalas con tomate.
+      - Reparte el queso, el jamón y el resto de ingredientes y espolvorea orégano.
+      - Un adulto las mete en el horno 6-8 minutos, hasta que el queso se funda.
+
+  - name: Mini quiches de jamón y queso
+    health: [YELLOW, "Huevo, leche y queso: buena proteína, pero la masa lleva grasa."]
+    nutrition: [180, 8, 12, 11]
+    category: Huevos
+    difficulty: EASY
+    prep: 15
+    cook: 20
+    servings: 12
+    notes: "Los niños pueden: cortar los círculos de masa con un vaso, batir los huevos y rellenar los moldes. Las raciones son mini quiches."
+    tags: [niños, huevos, al horno]
+    utensils: [Horno]
+    ingredients:
+      - items:
+          - [lámina de masa quebrada, 1, null]
+          - [huevos, 3, null]
+          - [leche, 150, ml]
+          - [jamón cocido en dados, 100, g]
+          - [queso rallado, 80, g]
+          - [sal, 1, pizca]
+    steps:
+      - Precalienta el horno a 180 °C.
+      - Corta círculos de masa con un vaso y colócalos en un molde de magdalenas engrasado.
+      - Bate los huevos con la leche y la sal.
+      - Reparte el jamón y el queso en los moldes y cubre con la mezcla de huevo.
+      - Un adulto los hornea 18-20 minutos, hasta que estén cuajados y dorados.
+
+  - name: Albóndigas al horno con tomate
+    health: [GREEN, "Albóndigas sin freír en salsa de tomate: mucha menos grasa que las fritas."]
+    nutrition: [360, 26, 18, 20]
+    category: Carnes
+    difficulty: EASY
+    prep: 25
+    cook: 30
+    servings: 4
+    notes: "Los niños pueden: mezclar la carne con las manos (lávalas bien antes y después) y formar las albóndigas."
+    tags: [niños, al horno, ternera]
+    utensils: [Horno]
+    ingredients:
+      - items:
+          - [carne picada mixta, 500, g]
+          - [huevo, 1, null]
+          - [pan rallado, 40, g]
+          - [leche, 3, cucharada]
+          - [queso parmesano rallado, 30, g]
+          - [perejil picado, 1, cucharada]
+          - [sal, 1, cucharadita]
+          - [tomate triturado, 400, g]
+          - [orégano seco, 1, cucharadita]
+    steps:
+      - Precalienta el horno a 200 °C.
+      - Mezcla la carne con el huevo, el pan rallado, la leche, el queso, el perejil y la sal.
+      - Forma albóndigas del tamaño de una nuez y ponlas en una fuente de horno.
+      - Hornea 15 minutos. Cúbrelas con el tomate mezclado con el orégano y hornea 15 minutos más.
+
+  - name: Salmón en papillote
+    health: [GREEN, "Pescado azul al vapor con verduras: omega 3 y nada de grasa añadida."]
+    nutrition: [330, 30, 8, 20]
+    category: Pescados y mariscos
+    difficulty: EASY
+    prep: 15
+    cook: 15
+    servings: 4
+    notes: "Los niños pueden: cortar el calabacín con un cuchillo de mesa, montar los paquetes y cerrarlos. Abrirlos es la sorpresa."
+    tags: [niños, pescado, al horno, sin gluten]
+    utensils: [Horno]
+    ingredients:
+      - items:
+          - [lomos de salmón sin espinas, 4, null]
+          - [calabacín, 1, null]
+          - [zanahoria, 1, null]
+          - [limón, 1, null]
+          - [aceite de oliva virgen extra, 1, cucharada]
+          - [sal, null, null]
+    steps:
+      - Precalienta el horno a 200 °C.
+      - Corta el calabacín en rodajas finas y la zanahoria en bastones.
+      - Pon cada lomo sobre un cuadrado de papel de horno con las verduras, una rodaja de limón, sal y unas gotas de aceite.
+      - Cierra los paquetes doblando los bordes y hornea 12-15 minutos.
+
+  - name: Salchichón de chocolate
+    health: [RED, "Galletas, chocolate y mantequilla: muy dulce, para ocasiones."]
+    nutrition: [180, 2, 20, 10]
+    category: Postres
+    difficulty: EASY
+    prep: 20
+    cook: 0
+    servings: 12
+    notes: "Los niños pueden: romper las galletas en una bolsa con el rodillo, mezclar y dar forma de salchichón. Las raciones son rodajas."
+    tags: [niños, postre, sin horno, chocolate]
+    utensils: []
+    ingredients:
+      - items:
+          - [chocolate negro para postres, 150, g]
+          - [mantequilla, 80, g]
+          - [galletas María, 150, g]
+          - [azúcar glas para rebozar, 2, cucharada]
+    steps:
+      - Un adulto funde el chocolate con la mantequilla al baño maría o en el microondas a golpes de 30 segundos.
+      - Mete las galletas en una bolsa y rómpelas con un rodillo en trozos pequeños.
+      - Mezcla las galletas con el chocolate y deja templar 10 minutos.
+      - Pon la mezcla sobre papel film, dale forma de salchichón y envuélvela bien. Refrigera 3 horas.
+      - Rebózalo en azúcar glas y córtalo en rodajas.

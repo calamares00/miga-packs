@@ -1,0 +1,418 @@
+id: thermomix-masas-y-panes
+version: 1
+updated: 2026-11-12
+language: es
+name: "Thermomix: masas y panes"
+series: Electrodomésticos
+family: thermomix-masas-y-panes
+description: >-
+  Panes y masas amasados en Thermomix TM6, que funcionan igual en TM5 y TM7 (en TM31, amasa con la
+  función espiga): pan de molde de avena, hogaza, masa de pizza, trenza de pan de leche, pan de
+  espelta, pan de cerveza, pan de aceitunas, tortillas de trigo, colines, empanada de pollo,
+  crepes, quiche de puerro y bacon, bollitos de chocolate y bollos preñaos. La Thermomix amasa;
+  el horno hace el resto.
+author: Miga
+authorGithub: calamares00
+cover:
+  emoji: "🍞"
+  kicker: Thermomix
+  title: Masas y panes
+  colors: ["#92400e", "#fbbf24"]
+defaults:
+  source: "Pack «Thermomix: masas y panes» de Miga"
+recipes:
+
+  - name: Pan de molde de avena
+    health: [GREEN, "Pan casero con copos de avena: más fibra que el de molde comercial y sin aditivos."]
+    nutrition: [150, 5, 26, 3]
+    category: Panes y masas
+    difficulty: EASY
+    prep: 15
+    cook: 35
+    servings: 12
+    notes: Amasado en Thermomix TM6. Molde rectangular de unos 25 cm. Las raciones son rebanadas.
+    tags: [pan, desayuno]
+    utensils: [Thermomix, Horno]
+    ingredients:
+      - items:
+          - [leche, 200, g]
+          - [agua, 100, g]
+          - [levadura fresca de panadería, 20, g]
+          - [harina de fuerza, 400, g]
+          - [copos de avena, 80, g]
+          - [aceite de oliva suave, 30, g]
+          - [miel, 1, cucharada]
+          - [sal, 1.5, cucharadita]
+    steps:
+      - Pon la leche, el agua y la miel en el vaso y templa 2 min/37 °C/vel 1. Añade la levadura y mezcla 5 seg/vel 3.
+      - Añade la harina, la avena, el aceite y la sal y amasa 3 min/modo amasar.
+      - Forma una bola, ponla en un bol engrasado, tápala y deja que doble su volumen (1 hora, más o menos).
+      - Desgasifica la masa, enróllala en forma de cilindro y colócala en el molde engrasado. Deja que suba otros 40 minutos.
+      - Hornea a 190 °C, calor arriba y abajo, 30-35 minutos. Desmolda y deja enfriar sobre una rejilla antes de cortar.
+
+  - name: Hogaza de pan
+    health: [GREEN, "Pan de harina, agua, sal y levadura, sin azúcar ni grasa añadida."]
+    nutrition: [170, 6, 34, 1]
+    category: Panes y masas
+    difficulty: MEDIUM
+    prep: 15
+    cook: 40
+    servings: 10
+    notes: Amasado en Thermomix TM6. Con una olla de hierro con tapa precalentada queda una corteza aún más crujiente.
+    tags: [pan]
+    utensils: [Thermomix, Horno]
+    ingredients:
+      - items:
+          - [agua, 350, g]
+          - [levadura fresca de panadería, 10, g]
+          - [harina de fuerza, 500, g]
+          - [sal, 10, g]
+    steps:
+      - Pon el agua en el vaso y templa 2 min/37 °C/vel 1. Añade la levadura y mezcla 5 seg/vel 3.
+      - Añade la harina y la sal y amasa 4 min/modo amasar.
+      - Deja reposar la masa en un bol tapado 1 hora y media, hasta que doble su volumen.
+      - Pásala a la encimera enharinada, pliégala sobre sí misma para formar una bola tensa y déjala en un paño enharinado, con el cierre hacia arriba, 45 minutos.
+      - Precalienta el horno a 240 °C con una bandeja dentro. Vuelca la hogaza sobre papel de horno, hazle un corte con una cuchilla y hornea 15 minutos con un vaso de agua en la base del horno.
+      - Baja a 210 °C y hornea 25 minutos más, hasta que suene a hueco al golpear la base.
+
+  - name: Masa de pizza
+    health: [GREEN, "La base sola es ligera; lo que decide si la pizza es saludable son los ingredientes de encima."]
+    nutrition: [290, 9, 52, 5]
+    category: Panes y masas
+    difficulty: EASY
+    prep: 10
+    cook: 12
+    servings: 4
+    notes: Amasado en Thermomix TM6. Salen dos bases medianas. La masa se puede congelar en bolas después del primer levado.
+    tags: [pizza, masa]
+    utensils: [Thermomix, Horno]
+    ingredients:
+      - items:
+          - [agua, 250, g]
+          - [levadura fresca de panadería, 15, g]
+          - [harina de trigo, 400, g]
+          - [aceite de oliva virgen extra, 30, g]
+          - [sal, 1.5, cucharadita]
+    steps:
+      - Pon el agua en el vaso y templa 1 min/37 °C/vel 1. Añade la levadura y mezcla 5 seg/vel 3.
+      - Añade la harina, el aceite y la sal y amasa 2 min/modo amasar.
+      - Deja reposar la masa tapada 1 hora, hasta que doble su volumen.
+      - Divídela en dos, estira cada parte en una bandeja con papel de horno y pon los ingredientes que quieras.
+      - Hornea a 250 °C (o lo más fuerte que dé tu horno) 10-12 minutos.
+
+  - name: Trenza de pan de leche
+    health: [YELLOW, "Pan tierno con mantequilla y azúcar: más calórico que el pan normal, ideal para desayunos de fin de semana."]
+    nutrition: [230, 6, 36, 7]
+    category: Panes y masas
+    difficulty: MEDIUM
+    prep: 20
+    cook: 25
+    servings: 10
+    notes: Amasado en Thermomix TM6.
+    tags: [pan, desayuno, dulce]
+    utensils: [Thermomix, Horno]
+    ingredients:
+      - items:
+          - [leche, 220, g]
+          - [azúcar, 50, g]
+          - [levadura fresca de panadería, 20, g]
+          - [harina de fuerza, 500, g]
+          - [huevo, 1, null]
+          - [mantequilla en dados, 60, g]
+          - [sal, 1, cucharadita]
+          - [huevo batido para pintar, 1, null]
+          - [azúcar perlado, 1, cucharada, optional]
+    steps:
+      - Pon la leche y el azúcar en el vaso y templa 2 min/37 °C/vel 1. Añade la levadura y mezcla 5 seg/vel 3.
+      - Añade la harina, el huevo, la mantequilla y la sal y amasa 4 min/modo amasar.
+      - Deja levar la masa tapada 1 hora, hasta que doble su volumen.
+      - Divídela en tres partes, estíralas en cilindros largos y trénzalas. Ponla en una bandeja con papel de horno y deja que suba 45 minutos.
+      - Píntala con el huevo batido, espolvorea el azúcar perlado y hornea a 180 °C 22-25 minutos, hasta que esté dorada.
+
+  - name: Pan de espelta
+    health: [GREEN, "Pan de espelta con algo de integral: sabroso, con fibra y sin azúcar."]
+    nutrition: [170, 6, 32, 2]
+    category: Panes y masas
+    difficulty: MEDIUM
+    prep: 15
+    cook: 35
+    servings: 10
+    notes: Amasado en Thermomix TM6. La espelta tiene un gluten más débil que el trigo, así que el amasado es más corto.
+    tags: [pan]
+    utensils: [Thermomix, Horno]
+    ingredients:
+      - items:
+          - [agua, 330, g]
+          - [levadura fresca de panadería, 15, g]
+          - [harina de espelta, 350, g]
+          - [harina integral de espelta, 150, g]
+          - [miel, 1, cucharadita]
+          - [sal, 10, g]
+          - [semillas de girasol, 2, cucharada, optional]
+    steps:
+      - Pon el agua y la miel en el vaso y templa 2 min/37 °C/vel 1. Añade la levadura y mezcla 5 seg/vel 3.
+      - Añade las harinas, la sal y las semillas y amasa 2 min/modo amasar.
+      - Deja levar la masa tapada 1 hora, hasta que doble su volumen.
+      - Dale forma de barra, ponla en un molde alargado engrasado o en una bandeja y deja que suba 40 minutos.
+      - Hornea a 210 °C 35 minutos. Deja enfriar sobre una rejilla.
+
+  - name: Pan de cerveza
+    health: [GREEN, "Pan rústico con cerveza: sin grasa añadida y con una miga muy sabrosa."]
+    nutrition: [180, 6, 35, 1]
+    category: Panes y masas
+    difficulty: MEDIUM
+    prep: 15
+    cook: 35
+    servings: 10
+    notes: Amasado en Thermomix TM6. El alcohol se evapora en el horno; con cerveza sin alcohol sale igual de bien.
+    tags: [pan]
+    utensils: [Thermomix, Horno]
+    ingredients:
+      - items:
+          - [cerveza rubia a temperatura ambiente, 300, g]
+          - [levadura fresca de panadería, 15, g]
+          - [harina de fuerza, 450, g]
+          - [harina integral de trigo, 50, g]
+          - [miel, 1, cucharada]
+          - [sal, 10, g]
+    steps:
+      - Pon la cerveza y la miel en el vaso y templa 2 min/37 °C/vel 1. Añade la levadura y mezcla 5 seg/vel 3.
+      - Añade las harinas y la sal y amasa 3 min/modo amasar.
+      - Deja levar la masa tapada 1 hora y media.
+      - Forma una bola, ponla en una bandeja con papel de horno, espolvorea harina y deja que suba 45 minutos. Hazle unos cortes.
+      - Hornea a 220 °C 35 minutos, con un vaso de agua en la base del horno los primeros 10 minutos.
+
+  - name: Pan de aceitunas
+    health: [GREEN, "Pan con aceitunas y aceite de oliva: más sabroso y con grasas saludables."]
+    nutrition: [190, 5, 30, 5]
+    category: Panes y masas
+    difficulty: EASY
+    prep: 15
+    cook: 30
+    servings: 10
+    notes: Amasado en Thermomix TM6. Vale cualquier aceituna sin hueso, bien escurrida.
+    tags: [pan, aperitivo]
+    utensils: [Thermomix, Horno]
+    ingredients:
+      - items:
+          - [agua, 280, g]
+          - [levadura fresca de panadería, 15, g]
+          - [harina de fuerza, 450, g]
+          - [aceite de oliva virgen extra, 30, g]
+          - [sal, 1.5, cucharadita]
+          - [aceitunas negras y verdes sin hueso, 120, g]
+          - [romero seco, 1, cucharadita, optional]
+    steps:
+      - Pon el agua en el vaso y templa 1 min/37 °C/vel 1. Añade la levadura y mezcla 5 seg/vel 3.
+      - Añade la harina, el aceite, la sal y el romero y amasa 3 min/modo amasar.
+      - Añade las aceitunas en trozos y amasa 20 seg/modo amasar.
+      - Deja levar la masa tapada 1 hora. Dale forma de barra y deja que suba 40 minutos en la bandeja.
+      - Hornea a 210 °C 30 minutos.
+
+  - name: Tortillas de trigo
+    health: [GREEN, "Tortillas caseras con pocos ingredientes y sin conservantes."]
+    nutrition: [150, 4, 25, 4]
+    category: Panes y masas
+    difficulty: EASY
+    prep: 20
+    cook: 15
+    servings: 10
+    notes: Amasado en Thermomix TM6. Se guardan dos días en una bolsa cerrada y se pueden congelar con papel de horno entre ellas.
+    tags: [masa]
+    utensils: [Thermomix]
+    ingredients:
+      - items:
+          - [harina de trigo, 300, g]
+          - [agua templada, 170, g]
+          - [aceite de oliva suave, 40, g]
+          - [levadura química, 1, cucharadita]
+          - [sal, 1, cucharadita]
+    steps:
+      - Pon todos los ingredientes en el vaso y amasa 1 min/modo amasar.
+      - Divide la masa en 10 bolas, tápalas y déjalas reposar 15 minutos.
+      - Estira cada bola muy fina con el rodillo, en un círculo de unos 20 cm.
+      - Cocina cada tortilla en una sartén caliente sin aceite unos 30 segundos por cada lado, hasta que salgan burbujas y manchas doradas.
+      - Ve apilándolas dentro de un paño limpio para que se mantengan tiernas.
+
+  - name: Colines
+    health: [GREEN, "Palitos de pan crujientes, con poco aceite: un picoteo ligero."]
+    nutrition: [130, 4, 22, 3]
+    category: Panes y masas
+    difficulty: EASY
+    prep: 20
+    cook: 18
+    servings: 8
+    notes: Amasado en Thermomix TM6. Se conservan crujientes varios días en una lata.
+    tags: [pan, aperitivo]
+    utensils: [Thermomix, Horno]
+    ingredients:
+      - items:
+          - [agua, 150, g]
+          - [levadura fresca de panadería, 10, g]
+          - [harina de trigo, 300, g]
+          - [aceite de oliva virgen extra, 30, g]
+          - [sal, 1, cucharadita]
+          - [semillas de sésamo, 2, cucharada, optional]
+          - [romero seco, 1, cucharadita, optional]
+    steps:
+      - Pon el agua en el vaso y templa 1 min/37 °C/vel 1. Añade la levadura y mezcla 5 seg/vel 3.
+      - Añade la harina, el aceite, la sal y el romero y amasa 2 min/modo amasar.
+      - Deja reposar la masa tapada 30 minutos.
+      - Divide la masa en trozos de 15 g y enróllalos en palitos muy finos. Si quieres, pásalos por el sésamo.
+      - Ponlos en una bandeja con papel de horno y hornea a 200 °C 15-18 minutos, hasta que estén dorados y crujientes.
+
+  - name: Empanada de pollo y pimientos
+    health: [YELLOW, "Relleno de pollo y verduras, pero la masa con aceite la hace calórica: mejor con una ensalada."]
+    nutrition: [420, 22, 42, 18]
+    category: Panes y masas
+    difficulty: MEDIUM
+    prep: 30
+    cook: 40
+    servings: 8
+    notes: Amasado en Thermomix TM6. Está aún más rica al día siguiente.
+    tags: [masa, pollo]
+    utensils: [Thermomix, Horno]
+    ingredients:
+      - group: Para el relleno
+        items:
+          - [cebollas, 2, null]
+          - [pimiento rojo, 1, null]
+          - [pimiento verde, 1, null]
+          - [aceite de oliva virgen extra, 50, g]
+          - [pechuga de pollo en dados pequeños, 400, g]
+          - [tomate triturado, 100, g]
+          - [pimentón dulce, 1, cucharadita]
+          - [sal, 1, cucharadita]
+      - group: Para la masa
+        items:
+          - [agua, 130, g]
+          - [vino blanco, 50, g]
+          - [aceite del sofrito, 50, g]
+          - [levadura fresca de panadería, 10, g]
+          - [harina de trigo, 450, g]
+          - [sal, 1, cucharadita]
+          - [huevo batido para pintar, 1, null]
+    steps:
+      - Pon las cebollas y los pimientos en trozos en el vaso y trocea 4 seg/vel 4. Añade el aceite y sofríe 15 min/120 °C/vel 1.
+      - Añade el pollo, el tomate, el pimentón y la sal y programa 10 min/100 °C/giro a la izquierda/vel cuchara. Escurre el relleno en un colador, guardando 50 g del aceite para la masa, y deja enfriar.
+      - Pon en el vaso el agua, el vino y el aceite reservado y templa 1 min/37 °C/vel 1. Añade la levadura, la harina y la sal y amasa 2 min/modo amasar. Deja reposar 30 minutos.
+      - Divide la masa en dos partes. Estira una sobre la bandeja con papel de horno, reparte el relleno y cubre con la otra, sellando bien los bordes.
+      - Haz un agujero en el centro, pinta con huevo y hornea a 190 °C 35-40 minutos, hasta que esté dorada.
+
+  - name: Crepes
+    health: [GREEN, "La masa es sencilla y ligera; el relleno decide el resto."]
+    nutrition: [160, 6, 20, 6]
+    category: Postres
+    difficulty: EASY
+    prep: 5
+    cook: 20
+    servings: 6
+    notes: Hecho en Thermomix TM6. Salen unas 12 crepes. Sin el azúcar, sirven para rellenos salados.
+    tags: [desayuno, postre]
+    utensils: [Thermomix]
+    ingredients:
+      - items:
+          - [leche, 500, g]
+          - [huevos, 3, null]
+          - [harina de trigo, 250, g]
+          - [mantequilla derretida, 30, g]
+          - [azúcar, 1, cucharada, optional]
+          - [sal, 1, pizca]
+    steps:
+      - Pon todos los ingredientes en el vaso y mezcla 20 seg/vel 5. Baja los restos con la espátula y mezcla 5 seg más.
+      - Deja reposar la masa 30 minutos en la nevera.
+      - Calienta una sartén antiadherente engrasada con un poco de mantequilla y vierte un cazo pequeño de masa, moviendo la sartén para que cubra el fondo.
+      - Dale la vuelta cuando los bordes se despeguen (unos 40 segundos) y cocina 20 segundos más.
+      - "Rellénalas al gusto: chocolate, fruta, jamón y queso…"
+
+  - name: Quiche de puerro y bacon
+    health: [RED, "Masa con mantequilla, nata, queso y bacon: muy calórica, para ocasiones."]
+    nutrition: [520, 16, 26, 39]
+    category: Huevos
+    difficulty: MEDIUM
+    prep: 25
+    cook: 40
+    servings: 6
+    notes: Hecho en Thermomix TM6. Molde de 24 cm. La masa quebrada se puede preparar el día antes.
+    tags: [huevos, horno]
+    utensils: [Thermomix, Horno]
+    ingredients:
+      - group: Para la masa quebrada
+        items:
+          - [harina de trigo, 200, g]
+          - [mantequilla fría en dados, 100, g]
+          - [huevo, 1, null]
+          - [agua fría, 20, g]
+          - [sal, 1, pizca]
+      - group: Para el relleno
+        items:
+          - [puerros, 2, null]
+          - [bacon en tiras, 120, g]
+          - [huevos, 3, null]
+          - [nata para cocinar, 200, g]
+          - [leche, 100, g]
+          - [queso emmental rallado, 80, g]
+          - [nuez moscada, 1, pizca]
+          - [sal, null, null]
+    steps:
+      - Pon los ingredientes de la masa en el vaso y mezcla 15 seg/vel 6, hasta que se forme una bola. Envuélvela en film y refrigera 30 minutos.
+      - Pon el puerro en trozos en el vaso y trocea 4 seg/vel 4. Añade el bacon y sofríe 8 min/120 °C/giro a la izquierda/vel cuchara. Reserva.
+      - Estira la masa, forra el molde, pínchala con un tenedor y hornéala 10 minutos a 190 °C con peso encima (garbanzos sobre papel de horno).
+      - Pon en el vaso los huevos, la nata, la leche, el queso, la nuez moscada y la sal y mezcla 10 seg/vel 4.
+      - Reparte el puerro y el bacon sobre la masa, vierte la mezcla y hornea a 180 °C 30 minutos, hasta que cuaje.
+
+  - name: Bollitos de chocolate
+    health: [YELLOW, "Bollos tiernos con pepitas de chocolate: mejor que la bollería industrial, pero llevan azúcar y mantequilla."]
+    nutrition: [250, 6, 36, 9]
+    category: Panes y masas
+    difficulty: MEDIUM
+    prep: 20
+    cook: 18
+    servings: 12
+    notes: Amasado en Thermomix TM6. Se congelan muy bien ya horneados.
+    tags: [dulce, desayuno, merienda]
+    utensils: [Thermomix, Horno]
+    ingredients:
+      - items:
+          - [leche, 200, g]
+          - [azúcar, 60, g]
+          - [levadura fresca de panadería, 20, g]
+          - [harina de fuerza, 450, g]
+          - [huevo, 1, null]
+          - [mantequilla en dados, 60, g]
+          - [sal, 1, cucharadita]
+          - [pepitas de chocolate, 100, g]
+          - [huevo batido para pintar, 1, null]
+    steps:
+      - Pon la leche y el azúcar en el vaso y templa 2 min/37 °C/vel 1. Añade la levadura y mezcla 5 seg/vel 3.
+      - Añade la harina, el huevo, la mantequilla y la sal y amasa 4 min/modo amasar. Añade las pepitas y amasa 20 seg/modo amasar.
+      - Deja levar la masa tapada 1 hora.
+      - Divide en 12 bollitos alargados, ponlos en una bandeja con papel de horno y deja que suban 45 minutos.
+      - Píntalos con huevo y hornea a 180 °C 15-18 minutos.
+
+  - name: Bollos preñaos
+    health: [RED, "Pan relleno de chorizo: muy sabroso, pero graso y salado. Para fiestas y excursiones."]
+    nutrition: [330, 12, 32, 17]
+    category: Panes y masas
+    difficulty: MEDIUM
+    prep: 25
+    cook: 25
+    servings: 10
+    notes: Amasado en Thermomix TM6. Los típicos de las romerías asturianas. Se congelan muy bien ya horneados.
+    tags: [pan, tradicional, merienda]
+    utensils: [Thermomix, Horno]
+    ingredients:
+      - items:
+          - [agua, 270, g]
+          - [levadura fresca de panadería, 20, g]
+          - [harina de fuerza, 500, g]
+          - [aceite de oliva virgen extra, 30, g]
+          - [sal, 10, g]
+          - [chorizos asturianos o curados, 5, null]
+          - [huevo batido para pintar, 1, null]
+    steps:
+      - Pon el agua en el vaso y templa 2 min/37 °C/vel 1. Añade la levadura y mezcla 5 seg/vel 3.
+      - Añade la harina, el aceite y la sal y amasa 3 min/modo amasar. Deja levar tapada 1 hora.
+      - Corta cada chorizo por la mitad. Divide la masa en 10 bolas, aplástalas y envuelve en cada una medio chorizo, cerrando bien.
+      - Ponlos en una bandeja con el cierre hacia abajo y deja que suban 40 minutos.
+      - Píntalos con huevo y hornea a 200 °C 22-25 minutos, hasta que estén dorados.

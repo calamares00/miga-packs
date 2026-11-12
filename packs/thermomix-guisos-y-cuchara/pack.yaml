@@ -1,6 +1,6 @@
 id: thermomix-guisos-y-cuchara
-version: 1
-updated: 2026-11-12
+version: 2
+updated: 2026-11-13
 language: es
 name: "Thermomix: guisos y cuchara"
 series: Electrodomésticos
@@ -26,6 +26,7 @@ recipes:
   - name: Lentejas con arroz
     health: [GREEN, "Legumbre con cereal: proteína vegetal completa, mucha fibra y hierro, con poca grasa."]
     nutrition: [380, 18, 62, 7]
+    photo: thermomix-guisos-y-cuchara/lentejas-con-arroz.jpg
     category: Legumbres
     difficulty: EASY
     prep: 10
@@ -60,6 +61,7 @@ recipes:
   - name: Potaje de garbanzos con bacalao
     health: [GREEN, "Garbanzos, espinacas y bacalao: proteína, fibra y hierro en un plato completo y poco graso."]
     nutrition: [420, 30, 45, 12]
+    photo: thermomix-guisos-y-cuchara/potaje-de-garbanzos-con-bacalao.jpg
     category: Legumbres
     difficulty: EASY
     prep: 15
@@ -92,6 +94,7 @@ recipes:
   - name: Alubias blancas con chorizo
     health: [YELLOW, "Legumbre rica en fibra y proteína, pero el chorizo aporta bastante grasa saturada y sal."]
     nutrition: [520, 27, 48, 24]
+    photo: thermomix-guisos-y-cuchara/alubias-blancas-con-chorizo.jpg
     category: Legumbres
     difficulty: EASY
     prep: 10
@@ -123,6 +126,7 @@ recipes:
   - name: Patatas con costillas
     health: [YELLOW, "Plato completo y saciante, pero la costilla de cerdo es grasa: mejor de vez en cuando."]
     nutrition: [560, 26, 40, 32]
+    photo: thermomix-guisos-y-cuchara/patatas-con-costillas.jpg
     category: Carnes
     difficulty: EASY
     prep: 15
@@ -155,6 +159,7 @@ recipes:
   - name: Ternera guisada con champiñones
     health: [YELLOW, "Buena fuente de proteína y hierro; la salsa lleva vino y algo de grasa, así que mejor con una guarnición ligera."]
     nutrition: [430, 38, 12, 22]
+    photo: thermomix-guisos-y-cuchara/ternera-guisada-con-champinones.jpg
     category: Carnes
     difficulty: MEDIUM
     prep: 15
@@ -189,6 +194,7 @@ recipes:
   - name: Pollo en pepitoria
     health: [YELLOW, "Pollo con salsa de almendras y huevo: mucha proteína, pero la salsa es calórica."]
     nutrition: [480, 40, 8, 31]
+    photo: thermomix-guisos-y-cuchara/pollo-en-pepitoria.jpg
     category: Carnes
     difficulty: MEDIUM
     prep: 15
@@ -224,6 +230,7 @@ recipes:
   - name: Pollo al curry
     health: [YELLOW, "Pollo con especias y verduras; la leche de coco aporta grasa saturada, así que mejor con arroz y sin repetir."]
     nutrition: [450, 36, 14, 28]
+    photo: thermomix-guisos-y-cuchara/pollo-al-curry.jpg
     category: Carnes
     difficulty: EASY
     prep: 10
@@ -254,6 +261,7 @@ recipes:
   - name: Bacalao con tomate
     health: [GREEN, "Pescado blanco con sofrito de tomate: mucha proteína y poca grasa."]
     nutrition: [320, 34, 14, 14]
+    photo: thermomix-guisos-y-cuchara/bacalao-con-tomate.jpg
     category: Pescados y mariscos
     difficulty: EASY
     prep: 10
@@ -282,6 +290,7 @@ recipes:
   - name: Estofado de pavo con verduras
     health: [GREEN, "Carne magra de pavo con muchas verduras y poca grasa: ligero y completo."]
     nutrition: [340, 36, 22, 11]
+    photo: thermomix-guisos-y-cuchara/estofado-de-pavo-con-verduras.jpg
     category: Carnes
     difficulty: EASY
     prep: 15
@@ -314,6 +323,7 @@ recipes:
   - name: Menestra de verduras
     health: [GREEN, "Muchas verduras de temporada con un poco de jamón: ligera, rica en fibra y vitaminas."]
     nutrition: [210, 10, 22, 9]
+    photo: thermomix-guisos-y-cuchara/menestra-de-verduras.jpg
     category: Verduras
     difficulty: EASY
     prep: 15
@@ -349,6 +359,7 @@ recipes:
   - name: Risotto de gambas
     health: [YELLOW, "Arroz con gambas y algo de queso y mantequilla: rico en hidratos, mejor en raciones moderadas."]
     nutrition: [470, 24, 66, 12]
+    photo: thermomix-guisos-y-cuchara/risotto-de-gambas.jpg
     category: Arroces
     difficulty: EASY
     prep: 10
@@ -415,6 +426,7 @@ recipes:
   - name: Carrillada al vino tinto
     health: [YELLOW, "Carne muy tierna y sabrosa, con una salsa de vino reducida: mejor en ocasiones especiales."]
     nutrition: [520, 40, 14, 30]
+    photo: thermomix-guisos-y-cuchara/carrillada-al-vino-tinto.jpg
     category: Carnes
     difficulty: MEDIUM
     prep: 15
@@ -447,6 +459,7 @@ recipes:
   - name: Calamares con patatas
     health: [GREEN, "Calamar con patatas en un guiso de cuchara: proteína magra y poca grasa."]
     nutrition: [380, 28, 40, 11]
+    photo: thermomix-guisos-y-cuchara/calamares-con-patatas.jpg
     category: Pescados y mariscos
     difficulty: EASY
     prep: 15

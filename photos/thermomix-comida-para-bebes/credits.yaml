@@ -1,0 +1,17 @@
+# Origin of every photo in this folder: source page, author and licence (CC0 1.0, Public domain,
+# CC BY x.y or CC BY-SA x.y). tools/build.py refuses a recipe photo without an entry here.
+
+pure-de-lentejas-con-verduras.jpg:
+  source: https://commons.wikimedia.org/wiki/File%3AMercimek_%C3%A7orbasi.jpg
+  author: "E4024"
+  license: CC BY-SA 4.0
+
+compota-de-pera-y-manzana.jpg:
+  source: https://commons.wikimedia.org/wiki/File%3AApple-sauce-544676.jpg
+  author: "Taken"
+  license: CC0 1.0
+
+papilla-de-avena-con-platano.jpg:
+  source: https://commons.wikimedia.org/wiki/File%3ABanana_oatmeal.jpg
+  author: "Shisma"
+  license: CC BY 4.0

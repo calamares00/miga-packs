@@ -1,6 +1,6 @@
 id: tapers-para-el-trabajo
-version: 1
-updated: 2026-11-12
+version: 2
+updated: 2026-11-13
 language: es
 name: Tápers para el trabajo
 series: Cocina de cada día
@@ -25,6 +25,7 @@ recipes:
   - name: Ensalada de alubias con atún
     health: [GREEN, "Legumbre, pescado y verduras: completa, saciante y fácil de llevar."]
     nutrition: [400, 26, 34, 17]
+    photo: tapers-para-el-trabajo/ensalada-de-alubias-con-atun.jpg
     category: Ensaladas
     difficulty: EASY
     prep: 15
@@ -53,6 +54,7 @@ recipes:
   - name: Ensalada de quinoa con pollo
     health: [GREEN, "Quinoa, pollo y verduras: proteína, fibra y energía para toda la tarde."]
     nutrition: [430, 32, 40, 15]
+    photo: tapers-para-el-trabajo/ensalada-de-quinoa-con-pollo.jpg
     category: Ensaladas
     difficulty: EASY
     prep: 15
@@ -81,6 +83,7 @@ recipes:
   - name: Arroz con pollo y verduras
     health: [GREEN, "Plato único equilibrado: cereal, proteína y verduras."]
     nutrition: [480, 30, 58, 13]
+    photo: tapers-para-el-trabajo/arroz-con-pollo-y-verduras.jpg
     category: Arroces
     difficulty: EASY
     prep: 15
@@ -138,6 +141,7 @@ recipes:
   - name: Garbanzos con chorizo y calabaza
     health: [YELLOW, "Legumbre con verduras, pero el chorizo añade grasa y sal."]
     nutrition: [470, 22, 46, 22]
+    photo: tapers-para-el-trabajo/garbanzos-con-chorizo-y-calabaza.jpg
     category: Legumbres
     difficulty: EASY
     prep: 15
@@ -195,6 +199,7 @@ recipes:
   - name: Macarrones con tomate y chorizo
     health: [YELLOW, "Pasta con salsa de tomate; el chorizo y el queso la hacen más grasa."]
     nutrition: [560, 22, 72, 20]
+    photo: tapers-para-el-trabajo/macarrones-con-tomate-y-chorizo.jpg
     category: Pastas
     difficulty: EASY
     prep: 10
@@ -222,6 +227,7 @@ recipes:
   - name: Burritos de pollo
     health: [GREEN, "Pollo, alubias y verduras en tortilla: completo y muy práctico de llevar."]
     nutrition: [520, 34, 56, 16]
+    photo: tapers-para-el-trabajo/burritos-de-pollo.jpg
     category: Carnes
     difficulty: EASY
     prep: 20
@@ -253,6 +259,7 @@ recipes:
   - name: Fideos salteados con cerdo y verduras
     health: [YELLOW, "Muchas verduras y proteína, pero la salsa de soja aporta bastante sal."]
     nutrition: [490, 28, 60, 15]
+    photo: tapers-para-el-trabajo/fideos-salteados-con-cerdo-y-verduras.jpg
     category: Pastas
     difficulty: EASY
     prep: 15
@@ -281,6 +288,7 @@ recipes:
   - name: Tortilla de patatas y espinacas
     health: [GREEN, "Huevo, patata y espinacas: completa y con hierro; al horno lleva menos aceite."]
     nutrition: [330, 14, 26, 19]
+    photo: tapers-para-el-trabajo/tortilla-de-patatas-y-espinacas.jpg
     category: Huevos
     difficulty: EASY
     prep: 15
@@ -332,6 +340,7 @@ recipes:
   - name: Bulgur con verduras y feta
     health: [GREEN, "Cereal integral con verduras asadas: fibra, vitaminas y saciedad."]
     nutrition: [420, 14, 54, 17]
+    photo: tapers-para-el-trabajo/bulgur-con-verduras-y-feta.jpg
     category: Ensaladas
     difficulty: EASY
     prep: 15
@@ -360,6 +369,7 @@ recipes:
   - name: Pasta con pollo y pesto
     health: [YELLOW, "Pasta con pollo y verduras; el pesto aporta grasas saludables, pero muchas calorías."]
     nutrition: [580, 34, 62, 21]
+    photo: tapers-para-el-trabajo/pasta-con-pollo-y-pesto.jpg
     category: Pastas
     difficulty: EASY
     prep: 10
@@ -385,6 +395,7 @@ recipes:
   - name: Pimientos rellenos de carne
     health: [YELLOW, "Pimiento con carne y arroz: completo, aunque la carne aporta grasa."]
     nutrition: [430, 26, 32, 21]
+    photo: tapers-para-el-trabajo/pimientos-rellenos-de-carne.jpg
     category: Carnes
     difficulty: MEDIUM
     prep: 25

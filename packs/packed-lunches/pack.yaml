@@ -1,6 +1,6 @@
 id: packed-lunches
-version: 1
-updated: 2026-11-12
+version: 2
+updated: 2026-11-13
 language: en
 name: Packed lunches for work
 series: Everyday cooking
@@ -24,6 +24,7 @@ recipes:
   - name: White bean and tuna salad
     health: [GREEN, "Pulses, fish and vegetables: complete, filling and easy to carry."]
     nutrition: [400, 26, 34, 17]
+    photo: tapers-para-el-trabajo/ensalada-de-alubias-con-atun.jpg
     category: Salads
     difficulty: EASY
     prep: 15
@@ -52,6 +53,7 @@ recipes:
   - name: Quinoa and chicken salad
     health: [GREEN, "Quinoa, chicken and vegetables: protein, fibre and energy for the whole afternoon."]
     nutrition: [430, 32, 40, 15]
+    photo: tapers-para-el-trabajo/ensalada-de-quinoa-con-pollo.jpg
     category: Salads
     difficulty: EASY
     prep: 15
@@ -80,6 +82,7 @@ recipes:
   - name: Chicken and vegetable rice
     health: [GREEN, "A balanced one-dish meal: grain, protein and vegetables."]
     nutrition: [480, 30, 58, 13]
+    photo: tapers-para-el-trabajo/arroz-con-pollo-y-verduras.jpg
     category: Rice
     difficulty: EASY
     prep: 15
@@ -137,6 +140,7 @@ recipes:
   - name: Chickpeas with chorizo and pumpkin
     health: [YELLOW, "Pulses with vegetables, but the chorizo adds fat and salt."]
     nutrition: [470, 22, 46, 22]
+    photo: tapers-para-el-trabajo/garbanzos-con-chorizo-y-calabaza.jpg
     category: Legumes
     difficulty: EASY
     prep: 15
@@ -194,6 +198,7 @@ recipes:
   - name: Macaroni with tomato and chorizo
     health: [YELLOW, "Pasta with tomato sauce; the chorizo and cheese make it richer."]
     nutrition: [560, 22, 72, 20]
+    photo: tapers-para-el-trabajo/macarrones-con-tomate-y-chorizo.jpg
     category: Pasta
     difficulty: EASY
     prep: 10
@@ -221,6 +226,7 @@ recipes:
   - name: Chicken burritos
     health: [GREEN, "Chicken, beans and vegetables in a tortilla: complete and very easy to carry."]
     nutrition: [520, 34, 56, 16]
+    photo: tapers-para-el-trabajo/burritos-de-pollo.jpg
     category: Meat
     difficulty: EASY
     prep: 20
@@ -252,6 +258,7 @@ recipes:
   - name: Stir-fried noodles with pork and vegetables
     health: [YELLOW, "Lots of vegetables and protein, but the soy sauce adds quite a lot of salt."]
     nutrition: [490, 28, 60, 15]
+    photo: tapers-para-el-trabajo/fideos-salteados-con-cerdo-y-verduras.jpg
     category: Pasta
     difficulty: EASY
     prep: 15
@@ -280,6 +287,7 @@ recipes:
   - name: Baked potato and spinach omelette
     health: [GREEN, "Egg, potato and spinach: complete and with iron; baked, it uses less oil."]
     nutrition: [330, 14, 26, 19]
+    photo: tapers-para-el-trabajo/tortilla-de-patatas-y-espinacas.jpg
     category: Eggs
     difficulty: EASY
     prep: 15
@@ -331,6 +339,7 @@ recipes:
   - name: Bulgur with roasted vegetables and feta
     health: [GREEN, "A wholegrain with roasted vegetables: fibre, vitamins and staying power."]
     nutrition: [420, 14, 54, 17]
+    photo: tapers-para-el-trabajo/bulgur-con-verduras-y-feta.jpg
     category: Salads
     difficulty: EASY
     prep: 15
@@ -359,6 +368,7 @@ recipes:
   - name: Chicken pesto pasta
     health: [YELLOW, "Pasta with chicken and vegetables; pesto brings healthy fats, but lots of calories."]
     nutrition: [580, 34, 62, 21]
+    photo: tapers-para-el-trabajo/pasta-con-pollo-y-pesto.jpg
     category: Pasta
     difficulty: EASY
     prep: 10
@@ -384,6 +394,7 @@ recipes:
   - name: Meat-stuffed peppers
     health: [YELLOW, "Pepper with meat and rice: complete, though the meat adds fat."]
     nutrition: [430, 26, 32, 21]
+    photo: tapers-para-el-trabajo/pimientos-rellenos-de-carne.jpg
     category: Meat
     difficulty: MEDIUM
     prep: 25

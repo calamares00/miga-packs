@@ -1,0 +1,72 @@
+# Origin of every photo in this folder: source page, author and licence (CC0 1.0, Public domain,
+# CC BY x.y or CC BY-SA x.y). tools/build.py refuses a recipe photo without an entry here.
+
+natillas.jpg:
+  source: https://commons.wikimedia.org/wiki/File%3ANatilla%2C_postre_popular_de_la_gastronomia_espa%C3%B1ola.jpg
+  author: "Juan Emilio Prades Bel"
+  license: CC BY-SA 4.0
+
+flan-de-huevo.jpg:
+  source: https://commons.wikimedia.org/wiki/File%3AItalian_Creme_Caramel.JPG
+  author: "BokuAlec"
+  license: CC BY-SA 3.0
+
+leche-frita.jpg:
+  source: https://commons.wikimedia.org/wiki/File%3ALeche_frita_-_Feira_Franca.jpg
+  author: "juantiagues"
+  license: CC BY-SA 2.0
+
+crema-de-limon.jpg:
+  source: https://commons.wikimedia.org/wiki/File%3ALemon_curd-2.jpg
+  author: "jules"
+  license: CC BY 2.0
+
+mousse-de-chocolate.jpg:
+  source: https://commons.wikimedia.org/wiki/File%3AChocolate_mousse_-_stonesoup.jpg
+  author: "jules / stonesoup"
+  license: CC BY 2.0
+
+sorbete-de-limon.jpg:
+  source: https://commons.wikimedia.org/wiki/File%3ALemon_sorbet_%284173840081%29.jpg
+  author: "Rex Roof from Ann Arbor, MI, USA"
+  license: CC BY 2.0
+
+helado-expres-de-fresa.jpg:
+  source: https://commons.wikimedia.org/wiki/File%3AJoe%27s_Ice_Cream_Strawberry_Ice_Cream_%2816288721675%29.jpg
+  author: "Willis Lam"
+  license: CC BY-SA 2.0
+
+bizcocho-de-yogur.jpg:
+  source: https://commons.wikimedia.org/wiki/File%3AVanilla_Yogurt_Pound_Cake_%28140490155%29.jpeg
+  author: "J Doll"
+  license: CC BY 3.0
+
+tarta-de-queso-cremosa.jpg:
+  source: https://commons.wikimedia.org/wiki/File%3ABasque-style_cheesecake_in_Pepito%2C_Tokyo.jpg
+  author: "さえぼー"
+  license: CC BY-SA 4.0
+
+trufas-de-chocolate.jpg:
+  source: https://commons.wikimedia.org/wiki/File%3AChocolate_truffle_-_Godiva_01.jpg
+  author: "M0tty"
+  license: CC BY-SA 3.0
+
+mermelada-de-fresa.jpg:
+  source: https://commons.wikimedia.org/wiki/File%3AStrawberry_jam_on_a_dish.JPG
+  author: "PatríciaR"
+  license: CC BY-SA 3.0
+
+crema-pastelera.jpg:
+  source: https://commons.wikimedia.org/wiki/File%3APastry_cream.jpg
+  author: "SKopp"
+  license: CC BY-SA 3.0
+
+galletas-de-mantequilla.jpg:
+  source: https://commons.wikimedia.org/wiki/File%3AButter_Biscuits_of_Salem.jpg
+  author: "Thamizhpparithi Maari"
+  license: CC BY-SA 4.0
+
+brownie-de-nueces.jpg:
+  source: https://commons.wikimedia.org/wiki/File%3AUltimate_Vegan_Brownies_with_walnuts%2C_mjune_2010.jpg
+  author: "Veganbaking.net"
+  license: CC BY-SA 2.0

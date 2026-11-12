@@ -11,24 +11,24 @@ Cada pack está en español y en inglés; la app muestra los del idioma en que l
 | :--- | :--- | :---: | :---: | :--- |
 | 🍳 [Cenas en 20 minutos](packs/cenas-en-20-minutos/pack.yaml) | Cocina de cada día | es | 20 | [cenas-en-20-minutos-v3.zip](dist/cenas-en-20-minutos-v3.zip) |
 | 🍳 [20-minute dinners](packs/20-minute-dinners/pack.yaml) | Everyday cooking | en | 20 | [20-minute-dinners-v3.zip](dist/20-minute-dinners-v3.zip) |
-| 🧑‍🍳 [Cocinar con niños](packs/cocinar-con-ninos/pack.yaml) | Cocina de cada día | es | 12 | [cocinar-con-ninos-v1.zip](dist/cocinar-con-ninos-v1.zip) |
-| 🧑‍🍳 [Cooking with kids](packs/cooking-with-kids/pack.yaml) | Everyday cooking | en | 12 | [cooking-with-kids-v1.zip](dist/cooking-with-kids-v1.zip) |
-| 🍱 [Tápers para el trabajo](packs/tapers-para-el-trabajo/pack.yaml) | Cocina de cada día | es | 14 | [tapers-para-el-trabajo-v1.zip](dist/tapers-para-el-trabajo-v1.zip) |
-| 🍱 [Packed lunches for work](packs/packed-lunches/pack.yaml) | Everyday cooking | en | 14 | [packed-lunches-v1.zip](dist/packed-lunches-v1.zip) |
+| 🧑‍🍳 [Cocinar con niños](packs/cocinar-con-ninos/pack.yaml) | Cocina de cada día | es | 12 | [cocinar-con-ninos-v2.zip](dist/cocinar-con-ninos-v2.zip) |
+| 🧑‍🍳 [Cooking with kids](packs/cooking-with-kids/pack.yaml) | Everyday cooking | en | 12 | [cooking-with-kids-v2.zip](dist/cooking-with-kids-v2.zip) |
+| 🍱 [Tápers para el trabajo](packs/tapers-para-el-trabajo/pack.yaml) | Cocina de cada día | es | 14 | [tapers-para-el-trabajo-v2.zip](dist/tapers-para-el-trabajo-v2.zip) |
+| 🍱 [Packed lunches for work](packs/packed-lunches/pack.yaml) | Everyday cooking | en | 14 | [packed-lunches-v2.zip](dist/packed-lunches-v2.zip) |
 | 🍟 [Freidora de aire](packs/freidora-de-aire/pack.yaml) | Electrodomésticos | es | 20 | [freidora-de-aire-v3.zip](dist/freidora-de-aire-v3.zip) |
 | 🍟 [Air fryer](packs/air-fryer/pack.yaml) | Kitchen appliances | en | 20 | [air-fryer-v3.zip](dist/air-fryer-v3.zip) |
 | 🥣 [Thermomix: cremas y purés](packs/thermomix-cremas-y-pures/pack.yaml) | Electrodomésticos | es | 20 | [thermomix-cremas-y-pures-v3.zip](dist/thermomix-cremas-y-pures-v3.zip) |
 | 🥣 [Thermomix: soups and purées](packs/thermomix-soups-and-purees/pack.yaml) | Kitchen appliances | en | 20 | [thermomix-soups-and-purees-v3.zip](dist/thermomix-soups-and-purees-v3.zip) |
-| 🍲 [Thermomix: guisos y cuchara](packs/thermomix-guisos-y-cuchara/pack.yaml) | Electrodomésticos | es | 15 | [thermomix-guisos-y-cuchara-v1.zip](dist/thermomix-guisos-y-cuchara-v1.zip) |
-| 🍲 [Thermomix: stews and one-pot dishes](packs/thermomix-stews-and-one-pot/pack.yaml) | Kitchen appliances | en | 15 | [thermomix-stews-and-one-pot-v1.zip](dist/thermomix-stews-and-one-pot-v1.zip) |
-| 🍞 [Thermomix: masas y panes](packs/thermomix-masas-y-panes/pack.yaml) | Electrodomésticos | es | 14 | [thermomix-masas-y-panes-v1.zip](dist/thermomix-masas-y-panes-v1.zip) |
-| 🍞 [Thermomix: breads and doughs](packs/thermomix-breads-and-doughs/pack.yaml) | Kitchen appliances | en | 14 | [thermomix-breads-and-doughs-v1.zip](dist/thermomix-breads-and-doughs-v1.zip) |
-| 🍮 [Thermomix: postres](packs/thermomix-postres/pack.yaml) | Electrodomésticos | es | 15 | [thermomix-postres-v1.zip](dist/thermomix-postres-v1.zip) |
-| 🍮 [Thermomix: desserts](packs/thermomix-desserts/pack.yaml) | Kitchen appliances | en | 15 | [thermomix-desserts-v1.zip](dist/thermomix-desserts-v1.zip) |
-| 🫙 [Thermomix: salsas y bases](packs/thermomix-salsas-y-bases/pack.yaml) | Electrodomésticos | es | 15 | [thermomix-salsas-y-bases-v1.zip](dist/thermomix-salsas-y-bases-v1.zip) |
-| 🫙 [Thermomix: sauces and basics](packs/thermomix-sauces-and-basics/pack.yaml) | Kitchen appliances | en | 15 | [thermomix-sauces-and-basics-v1.zip](dist/thermomix-sauces-and-basics-v1.zip) |
-| 🍼 [Thermomix: comida para bebés](packs/thermomix-comida-para-bebes/pack.yaml) | Electrodomésticos | es | 12 | [thermomix-comida-para-bebes-v1.zip](dist/thermomix-comida-para-bebes-v1.zip) |
-| 🍼 [Thermomix: baby food](packs/thermomix-baby-food/pack.yaml) | Kitchen appliances | en | 12 | [thermomix-baby-food-v1.zip](dist/thermomix-baby-food-v1.zip) |
+| 🍲 [Thermomix: guisos y cuchara](packs/thermomix-guisos-y-cuchara/pack.yaml) | Electrodomésticos | es | 15 | [thermomix-guisos-y-cuchara-v2.zip](dist/thermomix-guisos-y-cuchara-v2.zip) |
+| 🍲 [Thermomix: stews and one-pot dishes](packs/thermomix-stews-and-one-pot/pack.yaml) | Kitchen appliances | en | 15 | [thermomix-stews-and-one-pot-v2.zip](dist/thermomix-stews-and-one-pot-v2.zip) |
+| 🍞 [Thermomix: masas y panes](packs/thermomix-masas-y-panes/pack.yaml) | Electrodomésticos | es | 14 | [thermomix-masas-y-panes-v2.zip](dist/thermomix-masas-y-panes-v2.zip) |
+| 🍞 [Thermomix: breads and doughs](packs/thermomix-breads-and-doughs/pack.yaml) | Kitchen appliances | en | 14 | [thermomix-breads-and-doughs-v2.zip](dist/thermomix-breads-and-doughs-v2.zip) |
+| 🍮 [Thermomix: postres](packs/thermomix-postres/pack.yaml) | Electrodomésticos | es | 15 | [thermomix-postres-v2.zip](dist/thermomix-postres-v2.zip) |
+| 🍮 [Thermomix: desserts](packs/thermomix-desserts/pack.yaml) | Kitchen appliances | en | 15 | [thermomix-desserts-v2.zip](dist/thermomix-desserts-v2.zip) |
+| 🫙 [Thermomix: salsas y bases](packs/thermomix-salsas-y-bases/pack.yaml) | Electrodomésticos | es | 15 | [thermomix-salsas-y-bases-v2.zip](dist/thermomix-salsas-y-bases-v2.zip) |
+| 🫙 [Thermomix: sauces and basics](packs/thermomix-sauces-and-basics/pack.yaml) | Kitchen appliances | en | 15 | [thermomix-sauces-and-basics-v2.zip](dist/thermomix-sauces-and-basics-v2.zip) |
+| 🍼 [Thermomix: comida para bebés](packs/thermomix-comida-para-bebes/pack.yaml) | Electrodomésticos | es | 12 | [thermomix-comida-para-bebes-v2.zip](dist/thermomix-comida-para-bebes-v2.zip) |
+| 🍼 [Thermomix: baby food](packs/thermomix-baby-food/pack.yaml) | Kitchen appliances | en | 12 | [thermomix-baby-food-v2.zip](dist/thermomix-baby-food-v2.zip) |
 | 🍚 [Arroces](packs/arroces/pack.yaml) | Cocina de cada día | es | 20 | [arroces-v3.zip](dist/arroces-v3.zip) |
 | 🍚 [Rice dishes](packs/rice-dishes/pack.yaml) | Everyday cooking | en | 20 | [rice-dishes-v3.zip](dist/rice-dishes-v3.zip) |
 | 🥖 [Panadería](packs/panaderia/pack.yaml) | Cocina de cada día | es | 20 | [panaderia-v3.zip](dist/panaderia-v3.zip) |
@@ -39,10 +39,10 @@ Cada pack está en español y en inglés; la app muestra los del idioma en que l
 | 🫒 [Mediterranean cooking](packs/mediterranean-cooking/pack.yaml) | World cuisine | en | 20 | [mediterranean-cooking-v3.zip](dist/mediterranean-cooking-v3.zip) |
 | 🎄 [Especial Navidad](packs/especial-navidad/pack.yaml) | Especiales | es | 22 | [especial-navidad-v3.zip](dist/especial-navidad-v3.zip) |
 | 🎄 [Christmas special](packs/christmas-special/pack.yaml) | Specials | en | 22 | [christmas-special-v3.zip](dist/christmas-special-v3.zip) |
-| 🎂 [Cumpleaños infantiles](packs/cumpleanos-infantiles/pack.yaml) | Especiales | es | 12 | [cumpleanos-infantiles-v1.zip](dist/cumpleanos-infantiles-v1.zip) |
-| 🎂 [Kids' birthday party](packs/kids-birthday-party/pack.yaml) | Specials | en | 12 | [kids-birthday-party-v1.zip](dist/kids-birthday-party-v1.zip) |
-| 🔥 [Barbacoa](packs/barbacoa/pack.yaml) | Especiales | es | 15 | [barbacoa-v1.zip](dist/barbacoa-v1.zip) |
-| 🔥 [Barbecue](packs/barbecue/pack.yaml) | Specials | en | 15 | [barbecue-v1.zip](dist/barbecue-v1.zip) |
+| 🎂 [Cumpleaños infantiles](packs/cumpleanos-infantiles/pack.yaml) | Especiales | es | 12 | [cumpleanos-infantiles-v2.zip](dist/cumpleanos-infantiles-v2.zip) |
+| 🎂 [Kids' birthday party](packs/kids-birthday-party/pack.yaml) | Specials | en | 12 | [kids-birthday-party-v2.zip](dist/kids-birthday-party-v2.zip) |
+| 🔥 [Barbacoa](packs/barbacoa/pack.yaml) | Especiales | es | 15 | [barbacoa-v2.zip](dist/barbacoa-v2.zip) |
+| 🔥 [Barbecue](packs/barbecue/pack.yaml) | Specials | en | 15 | [barbecue-v2.zip](dist/barbecue-v2.zip) |
 | 🥨 [Cocina del mundo: Alemania](packs/cocina-alemana/pack.yaml) | Cocina del mundo | es | 20 | [cocina-alemana-v3.zip](dist/cocina-alemana-v3.zip) |
 | 🥨 [World cuisine: Germany](packs/german-cooking/pack.yaml) | World cuisine | en | 20 | [german-cooking-v3.zip](dist/german-cooking-v3.zip) |
 | 🥩 [Cocina del mundo: Argentina](packs/cocina-argentina/pack.yaml) | Cocina del mundo | es | 20 | [cocina-argentina-v3.zip](dist/cocina-argentina-v3.zip) |

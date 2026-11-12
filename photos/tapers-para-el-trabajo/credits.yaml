@@ -1,0 +1,57 @@
+# Origin of every photo in this folder: source page, author and licence (CC0 1.0, Public domain,
+# CC BY x.y or CC BY-SA x.y). tools/build.py refuses a recipe photo without an entry here.
+
+ensalada-de-alubias-con-atun.jpg:
+  source: https://commons.wikimedia.org/wiki/File%3ABakla_salatas%C4%B1.jpg
+  author: "E4024"
+  license: CC BY-SA 4.0
+
+ensalada-de-quinoa-con-pollo.jpg:
+  source: https://commons.wikimedia.org/wiki/File%3AQuinoa_Salad_%285045982815%29.jpg
+  author: "Geoff Peters from Vancouver, BC, Canada"
+  license: CC BY 2.0
+
+arroz-con-pollo-y-verduras.jpg:
+  source: https://commons.wikimedia.org/wiki/File%3AFried_chicken_with_vegetables_and_rice.jpg
+  author: "Wilfredor"
+  license: CC0 1.0
+
+garbanzos-con-chorizo-y-calabaza.jpg:
+  source: https://commons.wikimedia.org/wiki/File%3APlato_de_garbanzos_con_chorizo_%28gourmet%29.jpg
+  author: "Horacio Cambeiro"
+  license: CC BY-SA 3.0
+
+macarrones-con-tomate-y-chorizo.jpg:
+  source: https://commons.wikimedia.org/wiki/File%3AMacarrones_con_carne.jpg
+  author: "Juan Emilio Prades Bel"
+  license: CC BY-SA 4.0
+
+burritos-de-pollo.jpg:
+  source: https://commons.wikimedia.org/wiki/File%3AGrilled_Chicken_Burrito.jpg
+  author: "BOSTON66"
+  license: CC BY-SA 4.0
+
+fideos-salteados-con-cerdo-y-verduras.jpg:
+  source: https://commons.wikimedia.org/wiki/File%3AYaki-udon.jpg
+  author: "Flickr.com user \"Blue Lotus\""
+  license: CC BY 2.0
+
+tortilla-de-patatas-y-espinacas.jpg:
+  source: https://commons.wikimedia.org/wiki/File%3AFrittata2.jpg
+  author: "Dedda 71"
+  license: CC BY 3.0
+
+bulgur-con-verduras-y-feta.jpg:
+  source: https://commons.wikimedia.org/wiki/File%3ABulgur_wheat_salad.jpg
+  author: "Jerry Pank"
+  license: CC BY 2.0
+
+pasta-con-pollo-y-pesto.jpg:
+  source: https://commons.wikimedia.org/wiki/File%3AChicken_Pesto_Pasta.jpg
+  author: "Kunokuno"
+  license: CC BY-SA 4.0
+
+pimientos-rellenos-de-carne.jpg:
+  source: https://commons.wikimedia.org/wiki/File%3AFill_stuffed_peppers_%282%29.JPG
+  author: "Benreis"
+  license: CC BY-SA 4.0

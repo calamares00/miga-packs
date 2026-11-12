@@ -1,0 +1,62 @@
+# Origin of every photo in this folder: source page, author and licence (CC0 1.0, Public domain,
+# CC BY x.y or CC BY-SA x.y). tools/build.py refuses a recipe photo without an entry here.
+
+hamburguesas-de-cerdo-iberico.jpg:
+  source: https://commons.wikimedia.org/wiki/File%3AHamburguesa_Paty_grande.jpg
+  author: "Horacio Cambeiro"
+  license: CC BY-SA 4.0
+
+costillas-a-la-barbacoa.jpg:
+  source: https://commons.wikimedia.org/wiki/File%3APork_ribs_on_a_smoker_grill.jpg
+  author: "Gatorfan252525"
+  license: CC BY-SA 4.0
+
+brochetas-de-pollo-al-limon.jpg:
+  source: https://commons.wikimedia.org/wiki/File%3ACHICKEN_KABOBS_%2827235865905%29.jpg
+  author: "Prayitno"
+  license: CC BY 2.0
+
+brochetas-de-verduras.jpg:
+  source: https://commons.wikimedia.org/wiki/File%3AVegetable_skewers.jpg
+  author: "Tiia Monto"
+  license: CC BY-SA 4.0
+
+chuletas-de-cordero-a-la-brasa.jpg:
+  source: https://commons.wikimedia.org/wiki/File%3AFreshippo_grilled_lamb_chops.jpg
+  author: "Fumikas Sagisavas"
+  license: CC0 1.0
+
+salmon-a-la-brasa.jpg:
+  source: https://commons.wikimedia.org/wiki/File%3ASalmon_on_grill.jpg
+  author: "Jon Sullivan"
+  license: Public domain
+
+sardinas-a-la-brasa.jpg:
+  source: https://commons.wikimedia.org/wiki/File%3ASardinhas_assadas.jpg
+  author: "Duarte Briz"
+  license: CC BY-SA 4.0
+
+mazorcas-de-maiz-asadas.jpg:
+  source: https://commons.wikimedia.org/wiki/File%3ACorn_on_the_Cob-_Kolkata_-_West_Bengal_-_DSC_0009.jpg
+  author: "TAPAS KUMAR HALDER"
+  license: CC BY-SA 4.0
+
+patatas-en-papillote-a-la-brasa.jpg:
+  source: https://commons.wikimedia.org/wiki/File%3APatata_-_Horno.JPG
+  author: "Tamorlan"
+  license: CC BY-SA 3.0
+
+parrillada-de-verduras.jpg:
+  source: https://commons.wikimedia.org/wiki/File%3AReady_Grilled_vegetables.jpg
+  author: "Meriemou"
+  license: CC BY-SA 4.0
+
+salsa-barbacoa-casera.jpg:
+  source: https://commons.wikimedia.org/wiki/File%3AHomemade_barbecue_sauce.jpg
+  author: "uosɐɾ ɹnɥʇɹɐɔɯ from Portland, OR"
+  license: CC BY 2.0
+
+platanos-asados-con-chocolate.jpg:
+  source: https://commons.wikimedia.org/wiki/File%3ABanana_boat.jpg
+  author: "Andrew Malone"
+  license: CC BY 2.0

@@ -1,0 +1,411 @@
+id: tapers-para-el-trabajo
+version: 1
+updated: 2026-11-12
+language: es
+name: Tápers para el trabajo
+series: Cocina de cada día
+family: tapers-para-el-trabajo
+description: >-
+  Comidas que aguantan bien en la nevera, viajan en táper y se recalientan sin perder gracia:
+  ensaladas de alubias y de quinoa, arroz con pollo, muslos al horno con patatas,
+  garbanzos con chorizo y calabaza, pollo con champiñones, macarrones con chorizo, burritos,
+  fideos salteados, tortilla de patatas y espinacas, pastel de patata y atún, bulgur con
+  verduras, pasta con pollo y pesto y pimientos rellenos. Con notas de conservación y de cómo
+  recalentar cada una.
+author: Miga
+authorGithub: calamares00
+cover:
+  emoji: "🍱"
+  title: Tápers para el trabajo
+  colors: ["#1e3a8a", "#22c55e"]
+defaults:
+  source: Pack «Tápers para el trabajo» de Miga
+recipes:
+
+  - name: Ensalada de alubias con atún
+    health: [GREEN, "Legumbre, pescado y verduras: completa, saciante y fácil de llevar."]
+    nutrition: [400, 26, 34, 17]
+    category: Ensaladas
+    difficulty: EASY
+    prep: 15
+    cook: 0
+    servings: 4
+    notes: Aguanta tres días en la nevera. Lleva el aliño aparte y se come fría.
+    tags: [táper, legumbres, ensalada, sin gluten]
+    utensils: []
+    ingredients:
+      - items:
+          - [alubias blancas cocidas, 600, g]
+          - [atún en aceite escurrido, 3, lata]
+          - [pimiento rojo, 1, null]
+          - [cebolla morada, 0.5, null]
+          - [tomates cherry, 200, g]
+          - [huevos cocidos, 2, null]
+          - [aceite de oliva virgen extra, 4, cucharada]
+          - [vinagre de Jerez, 1, cucharada]
+          - [sal, null, null]
+    steps:
+      - Enjuaga y escurre las alubias.
+      - Pica el pimiento y la cebolla en dados pequeños y corta los tomates por la mitad.
+      - Mezcla las alubias con las verduras, el atún y el huevo en trozos.
+      - Reparte en táperes. Lleva aparte el aliño de aceite, vinagre y sal y aliña al comer.
+
+  - name: Ensalada de quinoa con pollo
+    health: [GREEN, "Quinoa, pollo y verduras: proteína, fibra y energía para toda la tarde."]
+    nutrition: [430, 32, 40, 15]
+    category: Ensaladas
+    difficulty: EASY
+    prep: 15
+    cook: 15
+    servings: 4
+    notes: Aguanta tres días en la nevera. Se come fría o a temperatura ambiente.
+    tags: [táper, ensalada, pollo, sin gluten]
+    utensils: []
+    ingredients:
+      - items:
+          - [quinoa, 200, g]
+          - [pechugas de pollo, 400, g]
+          - [pepino, 1, null]
+          - [pimiento amarillo, 1, null]
+          - [tomates cherry, 200, g]
+          - [queso feta, 100, g]
+          - [aceite de oliva virgen extra, 4, cucharada]
+          - [zumo de limón, 2, cucharada]
+          - [sal, null, null]
+    steps:
+      - Lava la quinoa y cuécela en el doble de agua con sal 12-15 minutos. Escúrrela y deja enfriar.
+      - Haz el pollo a la plancha con sal y córtalo en dados.
+      - Corta el pepino, el pimiento y los tomates.
+      - Mezcla todo con el feta desmenuzado y reparte en táperes. Lleva el aliño de aceite y limón aparte.
+
+  - name: Arroz con pollo y verduras
+    health: [GREEN, "Plato único equilibrado: cereal, proteína y verduras."]
+    nutrition: [480, 30, 58, 13]
+    category: Arroces
+    difficulty: EASY
+    prep: 15
+    cook: 30
+    servings: 4
+    notes: Aguanta tres días en la nevera. Recaliéntalo en el microondas con una cucharada de agua por encima y tapado.
+    tags: [táper, arroz, pollo]
+    utensils: []
+    ingredients:
+      - items:
+          - [contramuslos de pollo en dados, 500, g]
+          - [arroz redondo, 300, g]
+          - [cebolla, 1, null]
+          - [pimiento rojo, 1, null]
+          - [judías verdes, 150, g]
+          - [tomate triturado, 100, g]
+          - [pimentón dulce, 1, cucharadita]
+          - [caldo de pollo, 900, ml]
+          - [aceite de oliva virgen extra, 3, cucharada]
+          - [sal, 1, cucharadita]
+    steps:
+      - Dora el pollo salado en una cazuela con el aceite y resérvalo.
+      - Sofríe la cebolla y el pimiento picados 8 minutos y añade las judías troceadas, el tomate y el pimentón.
+      - Añade el arroz, remueve un minuto y vuelve a poner el pollo.
+      - Añade el caldo caliente y cuece 18 minutos a fuego medio. Deja reposar 5 minutos tapado.
+
+  - name: Muslos de pollo al horno con patatas
+    health: [YELLOW, "Pollo con patata asada: completo, pero la piel aporta grasa."]
+    nutrition: [520, 34, 36, 26]
+    category: Carnes
+    difficulty: EASY
+    prep: 10
+    cook: 50
+    servings: 4
+    notes: Aguanta tres días en la nevera. Recaliéntalo en el microondas o, si tienes, en el horno para que la piel vuelva a estar crujiente.
+    tags: [táper, pollo, al horno, sin gluten]
+    utensils: [Horno]
+    ingredients:
+      - items:
+          - [muslos de pollo, 8, null]
+          - [patatas, 600, g]
+          - [cebolla, 1, null]
+          - [limón, 1, null]
+          - [dientes de ajo, 4, null]
+          - [romero seco, 1, cucharadita]
+          - [aceite de oliva virgen extra, 3, cucharada]
+          - [vino blanco, 100, ml]
+          - [sal, 1.5, cucharadita]
+    steps:
+      - Precalienta el horno a 200 °C.
+      - Corta las patatas en gajos y la cebolla en tiras y ponlas en la bandeja con los ajos enteros.
+      - Coloca encima los muslos salados, riega con el aceite, el vino y el zumo de limón y espolvorea romero.
+      - Hornea 45-50 minutos, dando la vuelta a los muslos a mitad, hasta que estén dorados.
+
+  - name: Garbanzos con chorizo y calabaza
+    health: [YELLOW, "Legumbre con verduras, pero el chorizo añade grasa y sal."]
+    nutrition: [470, 22, 46, 22]
+    category: Legumbres
+    difficulty: EASY
+    prep: 15
+    cook: 25
+    servings: 4
+    notes: Aguanta cuatro días en la nevera y está aún mejor al día siguiente. Se congela bien.
+    tags: [táper, legumbres, cuchara]
+    utensils: []
+    ingredients:
+      - items:
+          - [garbanzos cocidos, 600, g]
+          - [chorizo, 100, g]
+          - [calabaza en dados, 400, g]
+          - [cebolla, 1, null]
+          - [dientes de ajo, 2, null]
+          - [pimentón dulce, 1, cucharadita]
+          - [tomate triturado, 150, g]
+          - [caldo de verduras, 500, ml]
+          - [aceite de oliva virgen extra, 2, cucharada]
+          - [sal, null, null]
+    steps:
+      - Sofríe la cebolla y el ajo picados en el aceite 5 minutos. Añade el chorizo en rodajas y dóralo 2 minutos.
+      - Añade el pimentón y el tomate y cocina 3 minutos.
+      - Añade la calabaza y el caldo y cuece 10 minutos.
+      - Añade los garbanzos escurridos y cuece 10 minutos más. Ajusta de sal.
+
+  - name: Pollo en salsa de champiñones
+    health: [YELLOW, "Pollo con salsa ligera de champiñones; con arroz o patata es un plato completo."]
+    nutrition: [380, 40, 8, 20]
+    category: Carnes
+    difficulty: EASY
+    prep: 10
+    cook: 25
+    servings: 4
+    notes: Aguanta tres días en la nevera. Lleva el arroz o la patata en el mismo táper.
+    tags: [táper, pollo]
+    utensils: []
+    ingredients:
+      - items:
+          - [pechugas de pollo en filetes, 600, g]
+          - [champiñones laminados, 300, g]
+          - [cebolla, 1, null]
+          - [diente de ajo, 1, null]
+          - [vino blanco, 100, ml]
+          - [nata para cocinar ligera, 150, ml]
+          - [aceite de oliva virgen extra, 2, cucharada]
+          - [sal, 1, cucharadita]
+          - [perejil picado, 1, cucharada]
+    steps:
+      - Corta el pollo en tiras, sálalo y dóralo en el aceite. Resérvalo.
+      - En la misma sartén, sofríe la cebolla y el ajo picados 5 minutos y añade los champiñones 5 minutos más.
+      - Añade el vino y deja que se evapore 2 minutos.
+      - Añade la nata y el pollo y cocina 5 minutos a fuego bajo. Espolvorea perejil.
+
+  - name: Macarrones con tomate y chorizo
+    health: [YELLOW, "Pasta con salsa de tomate; el chorizo y el queso la hacen más grasa."]
+    nutrition: [560, 22, 72, 20]
+    category: Pastas
+    difficulty: EASY
+    prep: 10
+    cook: 25
+    servings: 4
+    notes: Aguanta tres días en la nevera. Al recalentar, añade una cucharada de agua para que no se sequen.
+    tags: [táper, pasta]
+    utensils: []
+    ingredients:
+      - items:
+          - [macarrones, 350, g]
+          - [chorizo, 100, g]
+          - [cebolla, 1, null]
+          - [tomate triturado, 400, g]
+          - [orégano seco, 1, cucharadita]
+          - [queso rallado, 60, g]
+          - [aceite de oliva virgen extra, 1, cucharada]
+          - [sal, null, null]
+    steps:
+      - Cuece los macarrones en agua con sal según el paquete y escúrrelos.
+      - Sofríe la cebolla picada en el aceite 6 minutos y añade el chorizo en dados 2 minutos.
+      - Añade el tomate y el orégano y cocina 10 minutos.
+      - Mezcla con la pasta y reparte en táperes con el queso rallado por encima.
+
+  - name: Burritos de pollo
+    health: [GREEN, "Pollo, alubias y verduras en tortilla: completo y muy práctico de llevar."]
+    nutrition: [520, 34, 56, 16]
+    category: Carnes
+    difficulty: EASY
+    prep: 20
+    cook: 15
+    servings: 4
+    notes: Envuelve cada burrito en papel de aluminio. Aguantan tres días en la nevera y se congelan. Recaliéntalos sin el aluminio, envueltos en papel de cocina.
+    tags: [táper, pollo, picante]
+    utensils: []
+    ingredients:
+      - items:
+          - [pechugas de pollo, 400, g]
+          - [tortillas de trigo grandes, 4, null]
+          - [alubias negras cocidas, 250, g]
+          - [arroz cocido, 200, g]
+          - [pimiento rojo, 1, null]
+          - [cebolla, 1, null]
+          - [comino molido, 1, cucharadita]
+          - [pimentón dulce, 1, cucharadita]
+          - [queso rallado, 80, g]
+          - [salsa de tomate picante, 4, cucharada, optional]
+          - [aceite de oliva, 2, cucharada]
+          - [sal, 1, cucharadita]
+    steps:
+      - Corta el pollo en tiras y saltéalo en el aceite con la cebolla y el pimiento en tiras 8 minutos. Añade el comino, el pimentón y la sal.
+      - Añade las alubias escurridas y cocina 2 minutos.
+      - Reparte en cada tortilla arroz, el relleno, queso y salsa.
+      - Dobla los lados y enróllalas bien apretadas. Si quieres, tuéstalas en la sartén por fuera.
+
+  - name: Fideos salteados con cerdo y verduras
+    health: [YELLOW, "Muchas verduras y proteína, pero la salsa de soja aporta bastante sal."]
+    nutrition: [490, 28, 60, 15]
+    category: Pastas
+    difficulty: EASY
+    prep: 15
+    cook: 15
+    servings: 4
+    notes: Aguanta tres días en la nevera. Recaliéntalo con un chorrito de agua.
+    tags: [táper, salteado, fideos]
+    utensils: [Wok]
+    ingredients:
+      - items:
+          - [fideos de trigo tipo udon o yakisoba, 300, g]
+          - [lomo de cerdo en tiras, 400, g]
+          - [zanahoria, 1, null]
+          - [pimiento rojo, 1, null]
+          - [col, 200, g]
+          - [cebolleta, 2, null]
+          - [salsa de soja baja en sal, 4, cucharada]
+          - [jengibre rallado, 1, cucharadita]
+          - [aceite de girasol, 2, cucharada]
+    steps:
+      - Cuece los fideos según el paquete y escúrrelos.
+      - Saltea el cerdo en el wok muy caliente con el aceite 3 minutos y resérvalo.
+      - Saltea las verduras en tiras con el jengibre 4 minutos, que queden crujientes.
+      - Añade los fideos, el cerdo y la soja y saltea 2 minutos más.
+
+  - name: Tortilla de patatas y espinacas
+    health: [GREEN, "Huevo, patata y espinacas: completa y con hierro; al horno lleva menos aceite."]
+    nutrition: [330, 14, 26, 19]
+    category: Huevos
+    difficulty: EASY
+    prep: 15
+    cook: 35
+    servings: 4
+    notes: Se hace al horno, con menos aceite que la frita. Aguanta tres días en la nevera y se come fría o templada.
+    tags: [táper, huevos, vegetariana, sin gluten]
+    utensils: [Horno]
+    ingredients:
+      - items:
+          - [patatas, 500, g]
+          - [cebolla, 1, null]
+          - [espinacas frescas, 150, g]
+          - [huevos, 6, null]
+          - [aceite de oliva virgen extra, 3, cucharada]
+          - [sal, 1, cucharadita]
+    steps:
+      - Precalienta el horno a 200 °C. Corta las patatas en láminas finas y la cebolla en tiras, mézclalas con el aceite y la sal y hornéalas en una fuente 20 minutos.
+      - Saltea las espinacas en una sartén 2 minutos para que pierdan agua.
+      - Bate los huevos y mézclalos con las patatas, la cebolla y las espinacas.
+      - Vierte en la fuente engrasada y hornea a 180 °C 15 minutos, hasta que cuaje.
+
+  - name: Pastel de patata y atún
+    health: [GREEN, "Patata, atún y huevo: un plato completo, sencillo y barato."]
+    nutrition: [380, 24, 34, 16]
+    category: Pescados y mariscos
+    difficulty: EASY
+    prep: 15
+    cook: 35
+    servings: 4
+    notes: Aguanta tres días en la nevera. Se recalienta muy bien en el microondas.
+    tags: [táper, pescado, al horno, sin gluten]
+    utensils: [Horno]
+    ingredients:
+      - items:
+          - [patatas, 800, g]
+          - [atún en aceite escurrido, 3, lata]
+          - [tomate frito, 150, g]
+          - [huevos cocidos, 2, null]
+          - [leche, 100, ml]
+          - [queso rallado, 60, g]
+          - [sal, 1, cucharadita]
+    steps:
+      - Cuece las patatas peladas en agua con sal 20 minutos y aplástalas con la leche hasta tener un puré.
+      - Mezcla el atún con el tomate frito y el huevo picado.
+      - En una fuente de horno pon la mitad del puré, cubre con el relleno y termina con el resto del puré.
+      - Espolvorea el queso y gratina a 220 °C 10-12 minutos.
+
+  - name: Bulgur con verduras y feta
+    health: [GREEN, "Cereal integral con verduras asadas: fibra, vitaminas y saciedad."]
+    nutrition: [420, 14, 54, 17]
+    category: Ensaladas
+    difficulty: EASY
+    prep: 15
+    cook: 30
+    servings: 4
+    notes: Aguanta cuatro días en la nevera. Se come fría o templada.
+    tags: [táper, vegetariana, ensalada]
+    utensils: [Horno]
+    ingredients:
+      - items:
+          - [bulgur, 250, g]
+          - [calabacín, 1, null]
+          - [berenjena, 1, null]
+          - [pimiento rojo, 1, null]
+          - [cebolla morada, 1, null]
+          - [queso feta, 120, g]
+          - [aceite de oliva virgen extra, 4, cucharada]
+          - [zumo de limón, 2, cucharada]
+          - [menta o perejil fresco, 1, cucharada]
+          - [sal, 1, cucharadita]
+    steps:
+      - Precalienta el horno a 210 °C. Corta las verduras en dados, mézclalas con la mitad del aceite y sal y ásalas 25 minutos.
+      - Pon el bulgur en un bol, cúbrelo con 500 ml de agua hirviendo con sal, tápalo y deja que la absorba 15 minutos.
+      - Mezcla el bulgur con las verduras, el feta en dados, las hierbas, el limón y el resto del aceite.
+
+  - name: Pasta con pollo y pesto
+    health: [YELLOW, "Pasta con pollo y verduras; el pesto aporta grasas saludables, pero muchas calorías."]
+    nutrition: [580, 34, 62, 21]
+    category: Pastas
+    difficulty: EASY
+    prep: 10
+    cook: 15
+    servings: 4
+    notes: Aguanta tres días en la nevera. Está rica tanto fría como caliente.
+    tags: [táper, pasta, pollo]
+    utensils: []
+    ingredients:
+      - items:
+          - [pasta corta, 320, g]
+          - [pechugas de pollo, 400, g]
+          - [pesto, 120, g]
+          - [tomates cherry, 200, g]
+          - [espinacas baby, 60, g]
+          - [aceite de oliva, 1, cucharada]
+          - [sal, null, null]
+    steps:
+      - Cuece la pasta en agua con sal según el paquete y escúrrela.
+      - Haz el pollo a la plancha con el aceite y sal y córtalo en dados.
+      - Mezcla la pasta caliente con el pesto, el pollo, los tomates por la mitad y las espinacas, que se ablandan con el calor.
+
+  - name: Pimientos rellenos de carne
+    health: [YELLOW, "Pimiento con carne y arroz: completo, aunque la carne aporta grasa."]
+    nutrition: [430, 26, 32, 21]
+    category: Carnes
+    difficulty: MEDIUM
+    prep: 25
+    cook: 45
+    servings: 4
+    notes: Aguantan tres días en la nevera y se congelan bien. Recaliéntalos tapados en el microondas.
+    tags: [táper, al horno, ternera]
+    utensils: [Horno]
+    ingredients:
+      - items:
+          - [pimientos rojos, 4, null]
+          - [carne picada mixta, 400, g]
+          - [arroz cocido, 150, g]
+          - [cebolla, 1, null]
+          - [diente de ajo, 1, null]
+          - [tomate triturado, 200, g]
+          - [queso rallado, 60, g]
+          - [aceite de oliva virgen extra, 2, cucharada]
+          - [sal, 1, cucharadita]
+    steps:
+      - Precalienta el horno a 190 °C. Corta la parte de arriba de los pimientos y quítales las semillas.
+      - Sofríe la cebolla y el ajo picados en el aceite 5 minutos, añade la carne y dórala. Añade el tomate y la sal y cocina 10 minutos.
+      - Mezcla con el arroz y rellena los pimientos.
+      - Ponlos en una fuente, cubre con el queso y hornea 30-35 minutos.

@@ -1,0 +1,418 @@
+id: thermomix-breads-and-doughs
+version: 1
+updated: 2026-11-12
+language: en
+name: "Thermomix: breads and doughs"
+series: Kitchen appliances
+family: thermomix-masas-y-panes
+description: >-
+  Breads and doughs kneaded in the Thermomix TM6, which work just the same on the TM5 and TM7 (on
+  a TM31, knead with the dough function): oat sandwich loaf, country loaf, pizza dough, braided
+  milk bread, spelt bread, beer bread, olive bread, flour tortillas, breadsticks, chicken and
+  pepper empanada, crêpes, leek and bacon quiche, chocolate chip buns and Asturian chorizo buns.
+  The Thermomix kneads; the oven does the rest.
+author: Miga
+authorGithub: calamares00
+cover:
+  emoji: "🍞"
+  kicker: Thermomix
+  title: Breads and doughs
+  colors: ["#92400e", "#fbbf24"]
+defaults:
+  source: "Miga «Thermomix: breads and doughs» pack"
+recipes:
+
+  - name: Oat sandwich loaf
+    health: [GREEN, "Homemade bread with rolled oats: more fibre than shop-bought sandwich bread and no additives."]
+    nutrition: [150, 5, 26, 3]
+    category: Breads and doughs
+    difficulty: EASY
+    prep: 15
+    cook: 35
+    servings: 12
+    notes: Kneaded in the Thermomix TM6. Rectangular tin of about 25 cm. Servings are slices.
+    tags: [bread, breakfast]
+    utensils: [Thermomix, Oven]
+    ingredients:
+      - items:
+          - [milk, 200, g]
+          - [water, 100, g]
+          - [fresh yeast, 20, g]
+          - [strong bread flour, 400, g]
+          - [rolled oats, 80, g]
+          - [mild olive oil, 30, g]
+          - [honey, 1, tbsp]
+          - [salt, 1.5, tsp]
+    steps:
+      - Put the milk, water and honey into the bowl and warm 2 min/37°C/speed 1. Add the yeast and mix 5 sec/speed 3.
+      - Add the flour, oats, oil and salt and knead 3 min/dough mode.
+      - Shape into a ball, put it in an oiled bowl, cover and leave until doubled in size (about 1 hour).
+      - Knock back the dough, roll it into a log and place it in the greased tin. Leave to rise another 40 minutes.
+      - Bake at 190°C, top and bottom heat, for 30-35 minutes. Turn out and cool on a rack before slicing.
+
+  - name: Country loaf
+    health: [GREEN, "Bread made with flour, water, salt and yeast, with no added sugar or fat."]
+    nutrition: [170, 6, 34, 1]
+    category: Breads and doughs
+    difficulty: MEDIUM
+    prep: 15
+    cook: 40
+    servings: 10
+    notes: Kneaded in the Thermomix TM6. In a preheated cast-iron pot with a lid the crust is even crunchier.
+    tags: [bread]
+    utensils: [Thermomix, Oven]
+    ingredients:
+      - items:
+          - [water, 350, g]
+          - [fresh yeast, 10, g]
+          - [strong bread flour, 500, g]
+          - [salt, 10, g]
+    steps:
+      - Put the water into the bowl and warm 2 min/37°C/speed 1. Add the yeast and mix 5 sec/speed 3.
+      - Add the flour and salt and knead 4 min/dough mode.
+      - Leave the dough to rest in a covered bowl for 1.5 hours, until doubled.
+      - Turn it out onto a floured worktop, fold it over itself into a tight ball and leave it on a floured cloth, seam side up, for 45 minutes.
+      - Preheat the oven to 240°C with a tray inside. Tip the loaf onto baking paper, slash it with a blade and bake 15 minutes with a glass of water on the oven floor.
+      - Lower to 210°C and bake 25 minutes more, until it sounds hollow when tapped underneath.
+
+  - name: Pizza dough
+    health: [GREEN, "The base alone is light; the toppings decide how healthy the pizza is."]
+    nutrition: [290, 9, 52, 5]
+    category: Breads and doughs
+    difficulty: EASY
+    prep: 10
+    cook: 12
+    servings: 4
+    notes: Kneaded in the Thermomix TM6. Makes two medium bases. The dough can be frozen in balls after the first rise.
+    tags: [pizza, dough]
+    utensils: [Thermomix, Oven]
+    ingredients:
+      - items:
+          - [water, 250, g]
+          - [fresh yeast, 15, g]
+          - [plain flour, 400, g]
+          - [extra virgin olive oil, 30, g]
+          - [salt, 1.5, tsp]
+    steps:
+      - Put the water into the bowl and warm 1 min/37°C/speed 1. Add the yeast and mix 5 sec/speed 3.
+      - Add the flour, oil and salt and knead 2 min/dough mode.
+      - Leave the dough to rest, covered, for 1 hour, until doubled.
+      - Divide it in two, stretch each half on a tray lined with baking paper and add the toppings you like.
+      - Bake at 250°C (or as hot as your oven goes) for 10-12 minutes.
+
+  - name: Braided milk bread
+    health: [YELLOW, "Soft bread with butter and sugar: richer than plain bread, ideal for weekend breakfasts."]
+    nutrition: [230, 6, 36, 7]
+    category: Breads and doughs
+    difficulty: MEDIUM
+    prep: 20
+    cook: 25
+    servings: 10
+    notes: Kneaded in the Thermomix TM6.
+    tags: [bread, breakfast, sweet]
+    utensils: [Thermomix, Oven]
+    ingredients:
+      - items:
+          - [milk, 220, g]
+          - [sugar, 50, g]
+          - [fresh yeast, 20, g]
+          - [strong bread flour, 500, g]
+          - [egg, 1, null]
+          - [diced butter, 60, g]
+          - [salt, 1, tsp]
+          - [beaten egg to glaze, 1, null]
+          - [pearl sugar, 1, tbsp, optional]
+    steps:
+      - Put the milk and sugar into the bowl and warm 2 min/37°C/speed 1. Add the yeast and mix 5 sec/speed 3.
+      - Add the flour, egg, butter and salt and knead 4 min/dough mode.
+      - Leave to rise, covered, for 1 hour, until doubled.
+      - Divide into three, roll into long ropes and braid them. Place on a lined tray and leave to rise 45 minutes.
+      - Brush with beaten egg, sprinkle with pearl sugar and bake at 180°C for 22-25 minutes, until golden.
+
+  - name: Spelt bread
+    health: [GREEN, "Spelt bread with some wholemeal flour: tasty, with fibre and no sugar."]
+    nutrition: [170, 6, 32, 2]
+    category: Breads and doughs
+    difficulty: MEDIUM
+    prep: 15
+    cook: 35
+    servings: 10
+    notes: Kneaded in the Thermomix TM6. Spelt gluten is weaker than wheat's, so the kneading is shorter.
+    tags: [bread]
+    utensils: [Thermomix, Oven]
+    ingredients:
+      - items:
+          - [water, 330, g]
+          - [fresh yeast, 15, g]
+          - [white spelt flour, 350, g]
+          - [wholemeal spelt flour, 150, g]
+          - [honey, 1, tsp]
+          - [salt, 10, g]
+          - [sunflower seeds, 2, tbsp, optional]
+    steps:
+      - Put the water and honey into the bowl and warm 2 min/37°C/speed 1. Add the yeast and mix 5 sec/speed 3.
+      - Add the flours, salt and seeds and knead 2 min/dough mode.
+      - Leave to rise, covered, for 1 hour, until doubled.
+      - Shape into a loaf, put it in a greased loaf tin or on a tray and leave to rise 40 minutes.
+      - Bake at 210°C for 35 minutes. Cool on a rack.
+
+  - name: Beer bread
+    health: [GREEN, "Rustic bread made with beer: no added fat and a very tasty crumb."]
+    nutrition: [180, 6, 35, 1]
+    category: Breads and doughs
+    difficulty: MEDIUM
+    prep: 15
+    cook: 35
+    servings: 10
+    notes: Kneaded in the Thermomix TM6. The alcohol evaporates in the oven; alcohol-free beer works just as well.
+    tags: [bread]
+    utensils: [Thermomix, Oven]
+    ingredients:
+      - items:
+          - [lager at room temperature, 300, g]
+          - [fresh yeast, 15, g]
+          - [strong bread flour, 450, g]
+          - [wholemeal wheat flour, 50, g]
+          - [honey, 1, tbsp]
+          - [salt, 10, g]
+    steps:
+      - Put the beer and honey into the bowl and warm 2 min/37°C/speed 1. Add the yeast and mix 5 sec/speed 3.
+      - Add the flours and salt and knead 3 min/dough mode.
+      - Leave to rise, covered, for 1.5 hours.
+      - Shape into a ball, place on a lined tray, dust with flour and leave to rise 45 minutes. Slash the top.
+      - Bake at 220°C for 35 minutes, with a glass of water on the oven floor for the first 10 minutes.
+
+  - name: Olive bread
+    health: [GREEN, "Bread with olives and olive oil: tastier and with healthy fats."]
+    nutrition: [190, 5, 30, 5]
+    category: Breads and doughs
+    difficulty: EASY
+    prep: 15
+    cook: 30
+    servings: 10
+    notes: Kneaded in the Thermomix TM6. Any pitted olives will do, well drained.
+    tags: [bread, snack]
+    utensils: [Thermomix, Oven]
+    ingredients:
+      - items:
+          - [water, 280, g]
+          - [fresh yeast, 15, g]
+          - [strong bread flour, 450, g]
+          - [extra virgin olive oil, 30, g]
+          - [salt, 1.5, tsp]
+          - [pitted black and green olives, 120, g]
+          - [dried rosemary, 1, tsp, optional]
+    steps:
+      - Put the water into the bowl and warm 1 min/37°C/speed 1. Add the yeast and mix 5 sec/speed 3.
+      - Add the flour, oil, salt and rosemary and knead 3 min/dough mode.
+      - Add the olives in pieces and knead 20 sec/dough mode.
+      - Leave to rise, covered, for 1 hour. Shape into a loaf and leave to rise 40 minutes on the tray.
+      - Bake at 210°C for 30 minutes.
+
+  - name: Flour tortillas
+    health: [GREEN, "Homemade tortillas with few ingredients and no preservatives."]
+    nutrition: [150, 4, 25, 4]
+    category: Breads and doughs
+    difficulty: EASY
+    prep: 20
+    cook: 15
+    servings: 10
+    notes: Kneaded in the Thermomix TM6. They keep two days in a closed bag and can be frozen with baking paper between them.
+    tags: [dough]
+    utensils: [Thermomix]
+    ingredients:
+      - items:
+          - [plain flour, 300, g]
+          - [warm water, 170, g]
+          - [mild olive oil, 40, g]
+          - [baking powder, 1, tsp]
+          - [salt, 1, tsp]
+    steps:
+      - Put all the ingredients into the bowl and knead 1 min/dough mode.
+      - Divide the dough into 10 balls, cover and leave to rest 15 minutes.
+      - Roll each ball out very thin into a circle of about 20 cm.
+      - Cook each tortilla in a hot dry frying pan for about 30 seconds a side, until bubbles and golden spots appear.
+      - Stack them inside a clean tea towel to keep them soft.
+
+  - name: Breadsticks
+    health: [GREEN, "Crunchy breadsticks with little oil: a light snack."]
+    nutrition: [130, 4, 22, 3]
+    category: Breads and doughs
+    difficulty: EASY
+    prep: 20
+    cook: 18
+    servings: 8
+    notes: Kneaded in the Thermomix TM6. They stay crunchy for several days in a tin.
+    tags: [bread, snack]
+    utensils: [Thermomix, Oven]
+    ingredients:
+      - items:
+          - [water, 150, g]
+          - [fresh yeast, 10, g]
+          - [plain flour, 300, g]
+          - [extra virgin olive oil, 30, g]
+          - [salt, 1, tsp]
+          - [sesame seeds, 2, tbsp, optional]
+          - [dried rosemary, 1, tsp, optional]
+    steps:
+      - Put the water into the bowl and warm 1 min/37°C/speed 1. Add the yeast and mix 5 sec/speed 3.
+      - Add the flour, oil, salt and rosemary and knead 2 min/dough mode.
+      - Leave the dough to rest, covered, for 30 minutes.
+      - Divide into 15 g pieces and roll them into very thin sticks. Roll them in sesame if you like.
+      - Place on a lined tray and bake at 200°C for 15-18 minutes, until golden and crisp.
+
+  - name: Chicken and pepper empanada
+    health: [YELLOW, "A chicken and vegetable filling, but the oil in the dough makes it rich: have it with a salad."]
+    nutrition: [420, 22, 42, 18]
+    category: Breads and doughs
+    difficulty: MEDIUM
+    prep: 30
+    cook: 40
+    servings: 8
+    notes: Kneaded in the Thermomix TM6. Even better the next day.
+    tags: [dough, chicken]
+    utensils: [Thermomix, Oven]
+    ingredients:
+      - group: For the filling
+        items:
+          - [onions, 2, null]
+          - [red pepper, 1, null]
+          - [green pepper, 1, null]
+          - [extra virgin olive oil, 50, g]
+          - [chicken breast in small cubes, 400, g]
+          - [crushed tomato, 100, g]
+          - [sweet paprika, 1, tsp]
+          - [salt, 1, tsp]
+      - group: For the dough
+        items:
+          - [water, 130, g]
+          - [white wine, 50, g]
+          - [oil from the filling, 50, g]
+          - [fresh yeast, 10, g]
+          - [plain flour, 450, g]
+          - [salt, 1, tsp]
+          - [beaten egg to glaze, 1, null]
+    steps:
+      - Put the onions and peppers in pieces into the bowl and chop 4 sec/speed 4. Add the oil and sauté 15 min/120°C/speed 1.
+      - Add the chicken, tomato, paprika and salt and cook 10 min/100°C/reverse/speed soft. Drain the filling in a sieve, keeping 50 g of the oil for the dough, and leave to cool.
+      - Put the water, wine and reserved oil into the bowl and warm 1 min/37°C/speed 1. Add the yeast, flour and salt and knead 2 min/dough mode. Leave to rest 30 minutes.
+      - Divide the dough in two. Roll one half out on a lined tray, spread the filling and cover with the other half, sealing the edges well.
+      - Make a hole in the centre, brush with egg and bake at 190°C for 35-40 minutes, until golden.
+
+  - name: Crêpes
+    health: [GREEN, "A simple, light batter; the filling decides the rest."]
+    nutrition: [160, 6, 20, 6]
+    category: Desserts
+    difficulty: EASY
+    prep: 5
+    cook: 20
+    servings: 6
+    notes: Made in the Thermomix TM6. Makes about 12 crêpes. Leave out the sugar for savoury fillings.
+    tags: [breakfast, dessert]
+    utensils: [Thermomix]
+    ingredients:
+      - items:
+          - [milk, 500, g]
+          - [eggs, 3, null]
+          - [plain flour, 250, g]
+          - [melted butter, 30, g]
+          - [sugar, 1, tbsp, optional]
+          - [salt, 1, pinch]
+    steps:
+      - Put all the ingredients into the bowl and mix 20 sec/speed 5. Scrape down the sides and mix 5 sec more.
+      - Leave the batter to rest 30 minutes in the fridge.
+      - Heat a non-stick frying pan greased with a little butter and pour in a small ladle of batter, tilting the pan to cover the base.
+      - Flip when the edges come away (about 40 seconds) and cook 20 seconds more.
+      - "Fill as you like: chocolate, fruit, ham and cheese…"
+
+  - name: Leek and bacon quiche
+    health: [RED, "Butter pastry, cream, cheese and bacon: very rich, for occasions."]
+    nutrition: [520, 16, 26, 39]
+    category: Eggs
+    difficulty: MEDIUM
+    prep: 25
+    cook: 40
+    servings: 6
+    notes: Made in the Thermomix TM6. 24 cm tin. The shortcrust can be made the day before.
+    tags: [eggs, baked]
+    utensils: [Thermomix, Oven]
+    ingredients:
+      - group: For the shortcrust pastry
+        items:
+          - [plain flour, 200, g]
+          - [cold diced butter, 100, g]
+          - [egg, 1, null]
+          - [cold water, 20, g]
+          - [salt, 1, pinch]
+      - group: For the filling
+        items:
+          - [leeks, 2, null]
+          - [bacon strips, 120, g]
+          - [eggs, 3, null]
+          - [single cream, 200, g]
+          - [milk, 100, g]
+          - [grated emmental, 80, g]
+          - [nutmeg, 1, pinch]
+          - [salt, null, null]
+    steps:
+      - Put the pastry ingredients into the bowl and mix 15 sec/speed 6, until it forms a ball. Wrap in cling film and chill 30 minutes.
+      - Put the leek in pieces into the bowl and chop 4 sec/speed 4. Add the bacon and sauté 8 min/120°C/reverse/speed soft. Set aside.
+      - Roll out the pastry, line the tin, prick it with a fork and blind bake it 10 minutes at 190°C (with chickpeas on baking paper as weights).
+      - Put the eggs, cream, milk, cheese, nutmeg and salt into the bowl and mix 10 sec/speed 4.
+      - Spread the leek and bacon over the pastry, pour in the mixture and bake at 180°C for 30 minutes, until set.
+
+  - name: Chocolate chip buns
+    health: [YELLOW, "Soft buns with chocolate chips: better than factory pastries, but they have sugar and butter."]
+    nutrition: [250, 6, 36, 9]
+    category: Breads and doughs
+    difficulty: MEDIUM
+    prep: 20
+    cook: 18
+    servings: 12
+    notes: Kneaded in the Thermomix TM6. They freeze very well once baked.
+    tags: [sweet, breakfast, snack]
+    utensils: [Thermomix, Oven]
+    ingredients:
+      - items:
+          - [milk, 200, g]
+          - [sugar, 60, g]
+          - [fresh yeast, 20, g]
+          - [strong bread flour, 450, g]
+          - [egg, 1, null]
+          - [diced butter, 60, g]
+          - [salt, 1, tsp]
+          - [chocolate chips, 100, g]
+          - [beaten egg to glaze, 1, null]
+    steps:
+      - Put the milk and sugar into the bowl and warm 2 min/37°C/speed 1. Add the yeast and mix 5 sec/speed 3.
+      - Add the flour, egg, butter and salt and knead 4 min/dough mode. Add the chocolate chips and knead 20 sec/dough mode.
+      - Leave to rise, covered, for 1 hour.
+      - Divide into 12 oval buns, place on a lined tray and leave to rise 45 minutes.
+      - Brush with egg and bake at 180°C for 15-18 minutes.
+
+  - name: Asturian chorizo buns (bollos preñaos)
+    health: [RED, "Bread stuffed with chorizo: very tasty, but fatty and salty. For parties and picnics."]
+    nutrition: [330, 12, 32, 17]
+    category: Breads and doughs
+    difficulty: MEDIUM
+    prep: 25
+    cook: 25
+    servings: 10
+    notes: Kneaded in the Thermomix TM6. The classic of Asturian village fiestas. They freeze very well once baked.
+    tags: [bread, traditional, snack]
+    utensils: [Thermomix, Oven]
+    ingredients:
+      - items:
+          - [water, 270, g]
+          - [fresh yeast, 20, g]
+          - [strong bread flour, 500, g]
+          - [extra virgin olive oil, 30, g]
+          - [salt, 10, g]
+          - [cured chorizo sausages, 5, null]
+          - [beaten egg to glaze, 1, null]
+    steps:
+      - Put the water into the bowl and warm 2 min/37°C/speed 1. Add the yeast and mix 5 sec/speed 3.
+      - Add the flour, oil and salt and knead 3 min/dough mode. Leave to rise, covered, for 1 hour.
+      - Cut each chorizo in half. Divide the dough into 10 balls, flatten them and wrap each around half a chorizo, sealing well.
+      - Place them seam side down on a tray and leave to rise 40 minutes.
+      - Brush with egg and bake at 200°C for 22-25 minutes, until golden.

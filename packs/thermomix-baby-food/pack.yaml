@@ -1,0 +1,309 @@
+id: thermomix-baby-food
+version: 1
+updated: 2026-11-12
+language: en
+name: "Thermomix: baby food"
+series: Kitchen appliances
+family: thermomix-comida-para-bebes
+description: >-
+  Homemade purées and porridges for starting solids, from 6 months, programmed for the Thermomix
+  TM6 (they work just the same on the TM5 and TM7): vegetables, chicken, beef, white fish,
+  pulses, fruit and oats. No salt or sugar. Every baby goes at their own pace: always follow your
+  paediatrician's advice on introducing foods and textures, and offer one new food at a time to
+  spot allergies.
+author: Miga
+authorGithub: calamares00
+cover:
+  emoji: "🍼"
+  kicker: Thermomix
+  title: Baby food
+  colors: ["#0369a1", "#7dd3fc"]
+defaults:
+  source: "Miga «Thermomix: baby food» pack"
+recipes:
+
+  - name: Courgette and potato purée
+    health: [GREEN, "Mild vegetables with no salt, with a drizzle of raw olive oil."]
+    nutrition: [90, 2, 13, 3]
+    category: Soups
+    difficulty: EASY
+    prep: 5
+    cook: 25
+    servings: 4
+    notes: "Programmed for the Thermomix TM6. From 6 months. No salt: the olive oil is added raw when serving. Freezes in portions."
+    tags: [baby, vegetables, gluten-free]
+    utensils: [Thermomix]
+    ingredients:
+      - items:
+          - [courgette, 300, g]
+          - [potato, 200, g]
+          - [leek (white part), 0.5, null]
+          - [water, 300, g]
+          - [extra virgin olive oil, 4, tsp]
+    steps:
+      - Peel the potato and wash the courgette well (you can leave the skin on). Cut them up and put them in the bowl with the leek and water.
+      - Cook 25 min/100°C/speed 1.
+      - Blend 1 min/speed 5-10, increasing gradually, until completely smooth. Adjust the texture with a little of the cooking water.
+      - Serve lukewarm with a teaspoon of olive oil per serving.
+
+  - name: Carrot and sweet potato purée
+    health: [GREEN, "Naturally sweet with no added sugar, and rich in vitamin A."]
+    nutrition: [95, 2, 18, 2]
+    category: Soups
+    difficulty: EASY
+    prep: 5
+    cook: 25
+    servings: 4
+    notes: Programmed for the Thermomix TM6. From 6 months. Steamed in the Varoma to keep more of the vitamins.
+    tags: [baby, vegetables, gluten-free]
+    utensils: [Thermomix]
+    ingredients:
+      - items:
+          - [carrots, 2, null]
+          - [sweet potato, 300, g]
+          - [water, 500, g]
+          - [extra virgin olive oil, 4, tsp]
+    steps:
+      - Peel the carrot and sweet potato and dice them. Put them in the Varoma dish.
+      - Put the water into the bowl, set the Varoma in place and cook 25 min/Varoma/speed 1.
+      - Put the vegetables in the empty bowl with 100 g of the cooking water and blend 1 min/speed 5-10, increasing gradually.
+      - Serve lukewarm with a teaspoon of olive oil per serving.
+
+  - name: Chicken and vegetable purée
+    health: [GREEN, "Chicken, vegetables and potato: protein, iron and energy in one dish, with no salt."]
+    nutrition: [140, 11, 14, 4]
+    category: Meat
+    difficulty: EASY
+    prep: 10
+    cook: 25
+    servings: 4
+    notes: "Programmed for the Thermomix TM6. From 6 months. Meat always well cooked: if your paediatrician agrees, you can gradually leave it less smooth from 8-9 months."
+    tags: [baby, chicken, gluten-free]
+    utensils: [Thermomix]
+    ingredients:
+      - items:
+          - [skinless chicken breast or thigh, 120, g]
+          - [potato, 150, g]
+          - [carrot, 1, null]
+          - [courgette, 150, g]
+          - [water, 350, g]
+          - [extra virgin olive oil, 4, tsp]
+    steps:
+      - Cut the chicken into small cubes, with no fat or skin. Peel and cut up the vegetables.
+      - Put everything in the bowl with the water and cook 25 min/100°C/reverse/speed soft.
+      - Check the chicken is fully cooked, with no pink parts.
+      - Blend 1 min/speed 5-10, increasing gradually. Serve lukewarm with a teaspoon of oil per serving.
+
+  - name: Beef and vegetable purée
+    health: [GREEN, "Lean beef with vegetables: a very good source of iron for babies."]
+    nutrition: [150, 12, 13, 5]
+    category: Meat
+    difficulty: EASY
+    prep: 10
+    cook: 30
+    servings: 4
+    notes: Programmed for the Thermomix TM6. From 6 months. Iron from meat is very important from this age.
+    tags: [baby, beef, gluten-free]
+    utensils: [Thermomix]
+    ingredients:
+      - items:
+          - [lean beef in cubes, 120, g]
+          - [potato, 150, g]
+          - [green beans, 100, g]
+          - [carrot, 1, null]
+          - [water, 350, g]
+          - [extra virgin olive oil, 4, tsp]
+    steps:
+      - Put the meat and the vegetables in pieces into the bowl with the water.
+      - Cook 30 min/100°C/reverse/speed soft.
+      - Blend 1 min 30 sec/speed 5-10, increasing gradually, until very smooth.
+      - Serve lukewarm with a teaspoon of oil per serving.
+
+  - name: Hake and vegetable purée
+    health: [GREEN, "White fish with vegetables: good-quality protein and little fat."]
+    nutrition: [120, 10, 12, 4]
+    category: Fish and seafood
+    difficulty: EASY
+    prep: 10
+    cook: 25
+    servings: 4
+    notes: "Programmed for the Thermomix TM6. From 6 months, unless your paediatrician says otherwise. Check very carefully for bones. Avoid large fish (swordfish, bluefin tuna, shark) because of mercury. Cod or haddock work too."
+    tags: [baby, fish, gluten-free]
+    utensils: [Thermomix]
+    ingredients:
+      - items:
+          - [hake fillet without skin or bones, 120, g]
+          - [potato, 150, g]
+          - [carrot, 1, null]
+          - [leek (white part), 0.5, null]
+          - [water, 400, g]
+          - [extra virgin olive oil, 4, tsp]
+    steps:
+      - Put the peeled, chopped vegetables into the bowl with the water. Put the hake in the Varoma dish.
+      - Set the Varoma in place and cook 20 min/Varoma/speed 1.
+      - Flake the hake with your fingers, checking there are no bones.
+      - Add the hake to the bowl and blend 1 min/speed 5-10, increasing gradually. Serve lukewarm with a teaspoon of oil.
+
+  - name: Lentil and vegetable purée
+    health: [GREEN, "Pulses with vegetables: iron, fibre and plant protein."]
+    nutrition: [130, 7, 20, 3]
+    category: Legumes
+    difficulty: EASY
+    prep: 10
+    cook: 35
+    servings: 4
+    notes: "Programmed for the Thermomix TM6. From 6 months. Red lentils need no soaking and break down very well. Start with small amounts: pulses can cause wind."
+    tags: [baby, pulses, gluten-free, vegan]
+    utensils: [Thermomix]
+    ingredients:
+      - items:
+          - [red lentils, 60, g]
+          - [potato, 100, g]
+          - [carrot, 1, null]
+          - [pumpkin, 100, g]
+          - [water, 450, g]
+          - [extra virgin olive oil, 4, tsp]
+    steps:
+      - Rinse the lentils well. Peel and cut up the vegetables.
+      - Put everything in the bowl with the water and cook 30 min/100°C/speed 1.
+      - Blend 1 min/speed 5-10, increasing gradually, and pass through a fine sieve if you want to remove the skins.
+      - Serve lukewarm with a teaspoon of oil per serving.
+
+  - name: Chickpea and pumpkin purée
+    health: [GREEN, "Chickpeas and pumpkin: plant protein, fibre and vitamin A, with no salt."]
+    nutrition: [140, 6, 21, 4]
+    category: Legumes
+    difficulty: EASY
+    prep: 5
+    cook: 20
+    servings: 4
+    notes: "Programmed for the Thermomix TM6. From 6 months. If you use tinned chickpeas, rinse them very well to wash off the salty liquid."
+    tags: [baby, pulses, gluten-free, vegan]
+    utensils: [Thermomix]
+    ingredients:
+      - items:
+          - [unsalted cooked chickpeas, 120, g]
+          - [pumpkin, 250, g]
+          - [carrot, 1, null]
+          - [water, 300, g]
+          - [extra virgin olive oil, 4, tsp]
+    steps:
+      - Put the peeled pumpkin and carrot in pieces into the bowl with the water and cook 18 min/100°C/speed 1.
+      - Add the chickpeas and cook 2 min/100°C/speed 1.
+      - Blend 1 min 30 sec/speed 5-10, increasing gradually.
+      - Serve lukewarm with a teaspoon of oil per serving.
+
+  - name: Pea and potato purée
+    health: [GREEN, "Peas and potato: plant protein, fibre and a colour that catches their eye."]
+    nutrition: [100, 5, 16, 2]
+    category: Soups
+    difficulty: EASY
+    prep: 5
+    cook: 20
+    servings: 4
+    notes: Programmed for the Thermomix TM6. From 6 months. Pass it through a sieve the first few times to remove the pea skins.
+    tags: [baby, vegetables, gluten-free, vegan]
+    utensils: [Thermomix]
+    ingredients:
+      - items:
+          - [frozen peas, 200, g]
+          - [potato, 200, g]
+          - [water, 350, g]
+          - [extra virgin olive oil, 4, tsp]
+    steps:
+      - Put the peeled potato in pieces and the peas into the bowl with the water.
+      - Cook 20 min/100°C/speed 1.
+      - Blend 1 min/speed 5-10, increasing gradually, and pass through a fine sieve.
+      - Serve lukewarm with a teaspoon of oil per serving.
+
+  - name: Fruit purée for babies
+    health: [GREEN, "Blended fresh fruit, with no added sugar or juices."]
+    nutrition: [80, 1, 19, 0]
+    category: Desserts
+    difficulty: EASY
+    prep: 5
+    cook: 0
+    servings: 2
+    notes: "Made in the Thermomix TM6. From 6 months. Make it just before eating so it does not go brown. Avoid honey before 12 months."
+    tags: [baby, fruit, gluten-free, vegan]
+    utensils: [Thermomix]
+    ingredients:
+      - items:
+          - [ripe pear, 1, null]
+          - [apple, 0.5, null]
+          - [ripe banana, 0.5, null]
+          - [freshly squeezed orange juice, 1, tbsp, optional]
+    steps:
+      - Peel the fruit, remove the seeds and cut it into pieces.
+      - Put the fruit into the bowl and blend 30 sec/speed 7, scraping down with the spatula.
+      - Check there are no lumps and serve straight away.
+
+  - name: Pear and apple compote
+    health: [GREEN, "Cooked fruit with no sugar: gentle on a baby's tummy."]
+    nutrition: [70, 0, 17, 0]
+    category: Desserts
+    difficulty: EASY
+    prep: 5
+    cook: 15
+    servings: 4
+    notes: Programmed for the Thermomix TM6. From 6 months. Keeps three days in the fridge and freezes in portions.
+    tags: [baby, fruit, gluten-free, vegan]
+    utensils: [Thermomix]
+    ingredients:
+      - items:
+          - [pears, 2, null]
+          - [apples, 2, null]
+          - [water, 50, g]
+          - [cinnamon stick, 1, piece, optional]
+    steps:
+      - Peel and core the fruit and cut it into pieces.
+      - Put it in the bowl with the water and cinnamon and cook 12 min/100°C/reverse/speed soft.
+      - Remove the cinnamon and blend 30 sec/speed 5-8.
+      - Leave to cool to lukewarm before serving.
+
+  - name: Oat and banana porridge for babies
+    health: [GREEN, "Oats with fruit: energy, fibre and iron for breakfast or a snack."]
+    nutrition: [130, 4, 22, 3]
+    category: Desserts
+    difficulty: EASY
+    prep: 2
+    cook: 6
+    servings: 2
+    notes: "Programmed for the Thermomix TM6. From 6 months. Oats contain gluten: introduce them in small amounts, as your paediatrician advises. Use breast milk or formula; cow's milk as a drink only from 12 months."
+    tags: [baby, breakfast]
+    utensils: [Thermomix]
+    ingredients:
+      - items:
+          - [fine rolled oats, 30, g]
+          - [water, 200, g]
+          - [ripe banana, 0.5, null]
+          - [prepared breast milk or formula, 50, g, optional]
+    steps:
+      - Put the oats into the bowl and grind 10 sec/speed 9.
+      - Add the water and cook 6 min/90°C/speed 2.
+      - Add the banana and milk and blend 20 sec/speed 7.
+      - Leave to cool and check the temperature before feeding.
+
+  - name: Green bean and potato purée
+    health: [GREEN, "Simple vegetables with no salt, ideal for getting started."]
+    nutrition: [85, 2, 13, 3]
+    category: Soups
+    difficulty: EASY
+    prep: 5
+    cook: 25
+    servings: 4
+    notes: Programmed for the Thermomix TM6. From 6 months. Avoid chard, spinach and beetroot before 12 months because of nitrates.
+    tags: [baby, vegetables, gluten-free, vegan]
+    utensils: [Thermomix]
+    ingredients:
+      - items:
+          - [green beans, 200, g]
+          - [potato, 200, g]
+          - [carrot, 1, null]
+          - [water, 350, g]
+          - [extra virgin olive oil, 4, tsp]
+    steps:
+      - Top and tail the beans and remove any strings. Peel the potato and carrot and cut everything up.
+      - Put the vegetables into the bowl with the water and cook 25 min/100°C/speed 1.
+      - Blend 1 min/speed 5-10, increasing gradually, and pass through a sieve to remove the fibres.
+      - Serve lukewarm with a teaspoon of oil per serving.

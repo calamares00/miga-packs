@@ -1,0 +1,359 @@
+id: kids-birthday-party
+version: 1
+updated: 2026-11-12
+language: en
+name: Kids' birthday party
+series: Specials
+family: cumpleanos-infantiles
+description: >-
+  Everything for a children's birthday party, easy to make ahead: chocolate cake, rainbow cake,
+  vanilla cupcakes, decorated biscuits, mini pizzas, mini sandwiches, baked chicken fingers,
+  sausage rolls, mini burgers, fruit skewers, popcorn and homemade lemonade. Always ask families
+  about allergies and intolerances, and avoid whole nuts and popcorn for under-fours because of
+  the choking risk.
+author: Miga
+authorGithub: calamares00
+cover:
+  emoji: "🎂"
+  title: Kids' birthday party
+  colors: ["#7e22ce", "#f472b6"]
+defaults:
+  source: Miga «Kids' birthday party» pack
+recipes:
+
+  - name: Chocolate birthday cake
+    health: [RED, "Chocolate sponge with a chocolate topping: a very sweet dessert, for party day."]
+    nutrition: [420, 6, 52, 21]
+    category: Desserts
+    difficulty: MEDIUM
+    prep: 30
+    cook: 35
+    servings: 12
+    notes: 22 cm round tin. The sponge can be baked the day before and topped on the day of the party.
+    tags: [birthday, dessert, chocolate]
+    utensils: [Oven]
+    ingredients:
+      - group: For the sponge
+        items:
+          - [plain flour, 250, g]
+          - [cocoa powder, 50, g]
+          - [sugar, 250, g]
+          - [baking powder, 2, tsp]
+          - [bicarbonate of soda, 1, tsp]
+          - [salt, 1, pinch]
+          - [eggs, 2, null]
+          - [milk, 250, ml]
+          - [sunflower oil, 120, ml]
+          - [vanilla extract, 1, tsp]
+          - [hot water, 200, ml]
+      - group: For the topping
+        items:
+          - [milk chocolate, 200, g]
+          - [whipping cream, 200, ml]
+          - [sprinkles, null, null, optional]
+    steps:
+      - Preheat the oven to 175°C and grease and flour the tin.
+      - Mix the flour, cocoa, sugar, baking powder, bicarbonate and salt in a bowl.
+      - Add the eggs, milk, oil and vanilla and beat until smooth. Stir in the hot water (the batter will be runny).
+      - Pour into the tin and bake 35 minutes, until a skewer comes out clean. Leave to cool completely.
+      - Heat the cream without boiling, pour it over the chopped chocolate and stir until melted. Let it thicken a little, spread over the cake and decorate with sprinkles.
+
+  - name: Rainbow cake
+    health: [RED, "Sponge cake with sugar and food colouring: just for celebrations."]
+    nutrition: [320, 5, 44, 14]
+    category: Desserts
+    difficulty: MEDIUM
+    prep: 30
+    cook: 40
+    servings: 12
+    notes: Use gel food colourings, which give bright colours with very little. From the outside it looks like a normal cake; the surprise comes when you cut it.
+    tags: [birthday, dessert]
+    utensils: [Oven, Blender]
+    ingredients:
+      - items:
+          - [soft butter, 200, g]
+          - [sugar, 200, g]
+          - [eggs, 4, null]
+          - [vanilla extract, 1, tsp]
+          - [plain flour, 250, g]
+          - [baking powder, 2, tsp]
+          - [milk, 100, ml]
+          - [gel food colourings, 4, null]
+    steps:
+      - Preheat the oven to 170°C and grease a 25 cm loaf tin.
+      - Beat the butter with the sugar until pale. Add the eggs one at a time and the vanilla.
+      - Fold in the flour with the baking powder and the milk to a smooth batter.
+      - Divide the batter among four bowls and colour each one.
+      - Spoon the colours into the tin, alternating them, and swirl with a skewer. Bake 40 minutes.
+
+  - name: Vanilla cupcakes
+    health: [RED, "Cupcakes with buttercream: lots of sugar and fat, for the party."]
+    nutrition: [330, 3, 40, 18]
+    category: Desserts
+    difficulty: EASY
+    prep: 25
+    cook: 20
+    servings: 12
+    notes: Makes 12 cupcakes. The buttercream can be tinted with a drop of food colouring.
+    tags: [birthday, dessert]
+    utensils: [Oven, Blender]
+    ingredients:
+      - group: For the cupcakes
+        items:
+          - [soft butter, 120, g]
+          - [sugar, 150, g]
+          - [eggs, 2, null]
+          - [vanilla extract, 1, tsp]
+          - [plain flour, 190, g]
+          - [baking powder, 1.5, tsp]
+          - [milk, 120, ml]
+      - group: For the buttercream
+        items:
+          - [soft butter, 120, g]
+          - [icing sugar, 240, g]
+          - [milk, 1, tbsp]
+          - [vanilla extract, 0.5, tsp]
+          - [sprinkles, null, null, optional]
+    steps:
+      - Preheat the oven to 180°C and put paper cases in a muffin tray.
+      - Beat the butter with the sugar until creamy. Add the eggs and vanilla.
+      - Add the flour with the baking powder, alternating with the milk. Fill the cases two-thirds full.
+      - Bake 18-20 minutes and leave to cool completely.
+      - Beat the butter with the icing sugar, milk and vanilla until fluffy. Pipe on top and decorate with sprinkles.
+
+  - name: Decorated biscuits
+    health: [RED, "Biscuits with sugar icing: very sweet, one per child is plenty."]
+    nutrition: [150, 2, 24, 5]
+    category: Desserts
+    difficulty: MEDIUM
+    prep: 60
+    cook: 12
+    servings: 20
+    notes: Makes about 20 biscuits. Decorating them can be one of the party activities. Servings are biscuits.
+    tags: [birthday, dessert, kids]
+    utensils: [Oven]
+    ingredients:
+      - group: For the biscuits
+        items:
+          - [soft butter, 125, g]
+          - [icing sugar, 100, g]
+          - [egg, 1, null]
+          - [vanilla extract, 1, tsp]
+          - [plain flour, 300, g]
+          - [salt, 1, pinch]
+      - group: For the icing
+        items:
+          - [icing sugar, 250, g]
+          - [pasteurised egg white, 1, null]
+          - [lemon juice, 1, tsp]
+          - [food colourings, null, null]
+    steps:
+      - Beat the butter with the icing sugar, add the egg and vanilla and then the flour and salt to form a dough. Chill 30 minutes.
+      - Roll out to 5 mm between two sheets of baking paper and cut shapes with cutters.
+      - Bake at 180°C for 10-12 minutes, without letting them brown. Leave to cool.
+      - Beat the icing sugar with the egg white and lemon juice to a thick icing. Divide it and colour each part.
+      - Decorate the biscuits with a piping bag or teaspoons and leave to dry for a few hours.
+
+  - name: Mini pizzas
+    health: [YELLOW, "Dough with tomato and cheese: fine as long as the cured meats are kept in check."]
+    nutrition: [180, 8, 22, 7]
+    category: Breads and doughs
+    difficulty: EASY
+    prep: 25
+    cook: 12
+    servings: 16
+    notes: Makes about 16 mini pizzas. Let each child choose their toppings. Servings are mini pizzas.
+    tags: [birthday, pizza, kids]
+    utensils: [Oven]
+    ingredients:
+      - items:
+          - [pizza dough, 500, g]
+          - [tomato sauce, 150, g]
+          - [grated mozzarella, 200, g]
+          - [diced cooked ham, 100, g]
+          - [sweetcorn, 80, g, optional]
+          - [sliced black olives, 50, g, optional]
+          - [dried oregano, 1, tsp]
+    steps:
+      - Preheat the oven to 220°C.
+      - Roll the dough out to 5 mm and cut 8 cm circles with a glass or cutter.
+      - Place them on lined trays and spread each with tomato.
+      - Top with mozzarella, ham and the other toppings and sprinkle with oregano.
+      - Bake 10-12 minutes, until the cheese melts and the edges are golden.
+
+  - name: Mini ham and cheese sandwiches
+    health: [YELLOW, "Simple sandwiches; better with wholemeal bread and good-quality cooked ham."]
+    nutrition: [130, 7, 14, 5]
+    category: Starters
+    difficulty: EASY
+    prep: 20
+    cook: 0
+    servings: 16
+    notes: Cut shapes with cutters (stars, hearts…) to make them more fun. Make them no more than two hours ahead and cover them with a damp cloth. Servings are mini sandwiches.
+    tags: [birthday, kids, quick]
+    utensils: []
+    ingredients:
+      - items:
+          - [crustless sandwich bread, 16, slice]
+          - [cooked ham, 8, slice]
+          - [cheese, 8, slice]
+          - [butter or cream cheese, 50, g]
+    steps:
+      - Spread the slices lightly with butter or cream cheese.
+      - Make 8 sandwiches with a slice of ham and one of cheese each.
+      - Press them down a little and cut each into two shapes with a cutter, or into triangles.
+      - Arrange them on a tray and keep them covered until serving.
+
+  - name: Baked chicken fingers
+    health: [GREEN, "Breaded chicken baked instead of fried: crunchy and with much less fat."]
+    nutrition: [260, 28, 18, 8]
+    category: Meat
+    difficulty: EASY
+    prep: 20
+    cook: 20
+    servings: 6
+    notes: Serve with homemade ketchup, yoghurt sauce or honey mustard.
+    tags: [birthday, chicken, kids, baked]
+    utensils: [Oven]
+    ingredients:
+      - items:
+          - [chicken breasts, 600, g]
+          - [eggs, 2, null]
+          - [flour, 50, g]
+          - [unsweetened cornflakes or panko breadcrumbs, 120, g]
+          - [grated parmesan, 30, g, optional]
+          - [sweet paprika, 1, tsp]
+          - [olive oil, 2, tbsp]
+          - [salt, 1, tsp]
+    steps:
+      - Preheat the oven to 200°C and line a tray with baking paper.
+      - Cut the chicken into strips and salt them.
+      - Crush the cornflakes and mix them with the parmesan and paprika.
+      - Coat the strips in flour, beaten egg and the cornflake mixture, pressing so it sticks.
+      - Place them on the tray, brush with a little oil and bake 18-20 minutes, turning halfway.
+
+  - name: Mini sausage rolls
+    health: [RED, "Sausage and puff pastry: lots of fat and salt, just for the party."]
+    nutrition: [120, 4, 8, 8]
+    category: Starters
+    difficulty: EASY
+    prep: 15
+    cook: 15
+    servings: 24
+    notes: Makes about 24 pieces. Servings are pieces.
+    tags: [birthday, kids, baked]
+    utensils: [Oven]
+    ingredients:
+      - items:
+          - [puff pastry, 1, sheet]
+          - [frankfurter sausages, 8, null]
+          - [beaten egg to glaze, 1, null]
+          - [sesame seeds, 1, tbsp, optional]
+    steps:
+      - Preheat the oven to 200°C.
+      - Cut the pastry into 8 strips and wrap each one around a sausage.
+      - Cut each sausage into three pieces and place them on a lined tray.
+      - Brush with egg and sprinkle with sesame.
+      - Bake 15 minutes, until the pastry is golden and puffed.
+
+  - name: Mini burgers
+    health: [YELLOW, "Minced meat in a bun: good protein, but with fat and salt."]
+    nutrition: [220, 13, 18, 11]
+    category: Meat
+    difficulty: EASY
+    prep: 20
+    cook: 10
+    servings: 12
+    notes: Makes 12 mini burgers. Check they are cooked through. Servings are mini burgers.
+    tags: [birthday, kids]
+    utensils: [Griddle]
+    ingredients:
+      - items:
+          - [minced beef, 500, g]
+          - [egg, 1, null]
+          - [breadcrumbs, 2, tbsp]
+          - [salt, 1, tsp]
+          - [mini burger buns, 12, null]
+          - [cheese, 6, slice]
+          - [cherry tomatoes, 6, null]
+          - [lettuce, null, null]
+          - [ketchup, null, null]
+    steps:
+      - Mix the meat with the egg, breadcrumbs and salt and shape 12 small burgers.
+      - Cook them on a hot griddle for 3-4 minutes a side, until cooked through.
+      - Put half a slice of cheese on each at the end so it melts.
+      - Build the burgers in the buns with lettuce, a slice of tomato and ketchup, and hold them with a cocktail stick.
+
+  - name: Fruit skewers
+    health: [GREEN, "Colourful fresh fruit: the healthy counterpoint of the party table."]
+    nutrition: [60, 1, 14, 0]
+    category: Desserts
+    difficulty: EASY
+    prep: 20
+    cook: 0
+    servings: 12
+    notes: "For little ones, use blunt sticks or serve the fruit in cups. A fun touch: dip them partly in melted chocolate."
+    tags: [birthday, fruit, gluten-free, vegan]
+    utensils: []
+    ingredients:
+      - items:
+          - [strawberries, 12, null]
+          - [seedless grapes, 24, null]
+          - [diced melon, 300, g]
+          - [diced pineapple, 300, g]
+          - [kiwis, 2, null]
+          - [bananas, 2, null]
+          - [lemon juice, 1, tbsp]
+    steps:
+      - Wash the fruit and cut it into pieces of a similar size. Cut the grapes in half lengthways for the youngest.
+      - Sprinkle the banana with lemon juice so it does not go brown.
+      - Thread the fruit onto the sticks, alternating colours.
+      - Keep them covered in the fridge until serving.
+
+  - name: Homemade popcorn
+    health: [YELLOW, "Wholegrain corn with little oil: a good snack, but watch the salt and sugar."]
+    nutrition: [130, 3, 18, 5]
+    category: Starters
+    difficulty: EASY
+    prep: 2
+    cook: 5
+    servings: 6
+    notes: Do not give it to under-fours because of the choking risk.
+    tags: [birthday, snack, gluten-free]
+    utensils: []
+    ingredients:
+      - items:
+          - [popcorn kernels, 100, g]
+          - [sunflower oil, 2, tbsp]
+          - [fine salt, 0.5, tsp]
+          - [icing sugar, 1, tbsp, optional]
+    steps:
+      - Heat the oil in a large pan with a lid over medium-high heat with three kernels.
+      - When they pop, add the rest of the kernels, cover and shake the pan now and then.
+      - When there are 2-3 seconds between pops, take it off the heat.
+      - Add the salt (or the icing sugar for sweet popcorn), cover and shake well.
+
+  - name: Homemade lemonade
+    health: [YELLOW, "Better than fizzy drinks, but it has sugar: adjust it to taste."]
+    nutrition: [90, 0, 23, 0]
+    category: Drinks
+    difficulty: EASY
+    prep: 10
+    cook: 0
+    servings: 8
+    notes: You can make the base (juice and sugar) the day before and add the water and ice when serving.
+    tags: [birthday, drink, summer, vegan]
+    utensils: []
+    ingredients:
+      - items:
+          - [lemons, 6, null]
+          - [sugar, 150, g]
+          - [cold water, 1500, ml]
+          - [ice, null, null]
+          - [mint leaves, null, null, optional]
+          - [lemon slices, null, null]
+    steps:
+      - Squeeze the lemons and strain the juice.
+      - Dissolve the sugar in the juice, stirring well.
+      - Add the cold water and mix in a jug.
+      - Serve with ice, lemon slices and a few mint leaves.

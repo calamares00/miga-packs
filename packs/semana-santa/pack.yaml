@@ -1,0 +1,400 @@
+id: semana-santa
+version: 1
+updated: 2026-11-13
+language: es
+name: Semana Santa
+series: Especiales
+family: semana-santa
+description: >-
+  Las recetas de la Cuaresma y la Semana Santa en España: dulces de sartén como pestiños,
+  buñuelos de viento, flores fritas y bartolillos, la mona de Pascua y el hornazo, y los platos de
+  vigilia con bacalao (a la vizcaína, soldaditos de Pavía, buñuelos, tortilla, patatas con bacalao
+  y empanada de bacalao con pasas). Las torrijas y el potaje de vigilia ya están en otros packs.
+author: Miga
+authorGithub: calamares00
+cover:
+  emoji: "🕯️"
+  title: Semana Santa
+  colors: ["#581c87", "#c084fc"]
+defaults:
+  source: Pack «Semana Santa» de Miga
+  origin: España
+  originCountry: ES
+recipes:
+
+  - name: Pestiños
+    health: [RED, "Masa frita bañada en miel: muy calórica, un dulce de fiesta."]
+    nutrition: [150, 2, 18, 8]
+    photo: semana-santa/pestinos.jpg
+    category: Postres
+    difficulty: MEDIUM
+    prep: 40
+    cook: 20
+    servings: 25
+    notes: Típicos de Andalucía. Salen unos 25. Se conservan una semana en una lata. Las raciones son pestiños.
+    tags: [semana santa, postre, frito, tradicional]
+    origin: Andalucía
+    utensils: []
+    ingredients:
+      - items:
+          - [aceite de oliva virgen extra, 100, ml]
+          - [piel de naranja, 1, trozo]
+          - [semillas de anís (matalahúva), 1, cucharada]
+          - [ajonjolí (sésamo), 1, cucharada]
+          - [vino blanco, 100, ml]
+          - [harina de trigo, 300, g]
+          - [sal, 1, pizca]
+          - [aceite de oliva suave para freír, null, null]
+          - [miel, 200, g]
+          - [agua, 50, ml]
+    steps:
+      - Calienta el aceite con la piel de naranja hasta que se dore. Retira la piel, apaga el fuego y añade el anís y el sésamo. Deja templar.
+      - Mezcla el aceite con el vino, la harina y la sal y amasa hasta tener una masa lisa. Deja reposar 30 minutos.
+      - Estira la masa muy fina, corta cuadrados de 8 cm y une dos puntas opuestas en el centro, pegándolas con un poco de agua.
+      - Fríelos en aceite abundante hasta que estén dorados y escúrrelos.
+      - Calienta la miel con el agua, baña los pestiños y déjalos escurrir sobre una rejilla.
+
+  - name: Buñuelos de viento
+    health: [RED, "Masa frita rellena de crema y rebozada en azúcar: muy dulce."]
+    nutrition: [110, 2, 12, 6]
+    photo: semana-santa/bunuelos-de-viento.jpg
+    category: Postres
+    difficulty: MEDIUM
+    prep: 20
+    cook: 25
+    servings: 30
+    notes: Típicos de Cuaresma y del día de Todos los Santos. Salen unos 30. Las raciones son buñuelos.
+    tags: [semana santa, postre, frito, tradicional]
+    utensils: []
+    ingredients:
+      - group: Para la masa
+        items:
+          - [agua, 250, ml]
+          - [mantequilla, 60, g]
+          - [sal, 1, pizca]
+          - [harina de trigo, 150, g]
+          - [huevos, 4, null]
+          - [piel de limón rallada, 1, null]
+          - [aceite de oliva suave para freír, null, null]
+      - group: Para rellenar
+        items:
+          - [crema pastelera, 400, g, optional]
+          - [azúcar, 100, g]
+    steps:
+      - Lleva a ebullición el agua con la mantequilla, la sal y la ralladura. Echa la harina de golpe y remueve hasta que la masa se despegue del cazo.
+      - Deja templar y añade los huevos de uno en uno, batiendo bien después de cada uno.
+      - "Fríe cucharaditas de masa en aceite no muy caliente: se hinchan y se dan la vuelta solas. Escúrrelos."
+      - Rellénalos de crema con una manga, si quieres, y rebózalos en azúcar.
+
+  - name: Flores fritas
+    health: [RED, "Masa frita con azúcar: crujiente y muy dulce, para ocasiones."]
+    nutrition: [90, 2, 10, 5]
+    photo: semana-santa/flores-fritas.jpg
+    category: Postres
+    difficulty: MEDIUM
+    prep: 20
+    cook: 30
+    servings: 25
+    notes: Hace falta un molde de flores de hierro. Salen unas 25. Las raciones son flores.
+    tags: [semana santa, postre, frito, tradicional]
+    origin: La Mancha
+    utensils: []
+    ingredients:
+      - items:
+          - [huevos, 2, null]
+          - [leche, 250, ml]
+          - [harina de trigo, 200, g]
+          - [azúcar, 1, cucharada]
+          - [piel de limón rallada, 1, null]
+          - [sal, 1, pizca]
+          - [aceite de oliva suave para freír, null, null]
+          - [azúcar y canela para espolvorear, null, null]
+    steps:
+      - Bate los huevos con la leche, el azúcar, la ralladura y la sal. Añade la harina poco a poco hasta tener una masa como la de las crepes. Deja reposar 30 minutos.
+      - Calienta el aceite con el molde dentro.
+      - Escurre el molde, mójalo en la masa sin que cubra la parte de arriba y mételo en el aceite. Cuando la flor se suelte, dale la vuelta y fríela hasta que esté dorada.
+      - Escúrrelas y espolvorea con azúcar y canela.
+
+  - name: Bartolillos
+    health: [RED, "Empanadillas dulces fritas con crema: muy calóricas, para fiesta."]
+    nutrition: [180, 3, 20, 10]
+    photo: semana-santa/bartolillos.jpg
+    category: Postres
+    difficulty: HARD
+    prep: 45
+    cook: 25
+    servings: 16
+    notes: Dulce típico de Madrid en Cuaresma. Salen unos 16. Las raciones son bartolillos.
+    tags: [semana santa, postre, frito, tradicional]
+    origin: Madrid
+    utensils: []
+    ingredients:
+      - group: Para la masa
+        items:
+          - [harina de trigo, 250, g]
+          - [mantequilla blanda, 40, g]
+          - [vino blanco, 80, ml]
+          - [huevo, 1, null]
+          - [sal, 1, pizca]
+      - group: Para el relleno y freír
+        items:
+          - [crema pastelera espesa y fría, 400, g]
+          - [aceite de oliva suave para freír, null, null]
+          - [azúcar glas, null, null]
+    steps:
+      - Mezcla la harina, la mantequilla, el vino, el huevo y la sal y amasa hasta tener una masa fina. Deja reposar 30 minutos tapada.
+      - Estírala muy fina y corta rectángulos de 8 x 12 cm.
+      - Pon una cucharada de crema en cada uno, dóblalo formando un triángulo y sella bien los bordes con un tenedor.
+      - Fríelos en aceite caliente hasta que estén dorados, escúrrelos y espolvorea con azúcar glas.
+
+  - name: Mona de Pascua
+    health: [RED, "Bizcocho con crema y chocolate: el dulce de fiesta del Lunes de Pascua."]
+    nutrition: [420, 6, 50, 22]
+    photo: semana-santa/mona-de-pascua.jpg
+    category: Postres
+    difficulty: MEDIUM
+    prep: 40
+    cook: 30
+    servings: 10
+    notes: "La tradición catalana y valenciana: el padrino la regala al ahijado el Lunes de Pascua. Se decora con huevos de chocolate y plumas de colores. Molde de 22 cm."
+    tags: [semana santa, postre, al horno]
+    origin: Cataluña
+    utensils: [Horno, Batidora]
+    ingredients:
+      - group: Para el bizcocho
+        items:
+          - [huevos, 4, null]
+          - [azúcar, 125, g]
+          - [harina de trigo, 125, g]
+          - [mantequilla derretida, 30, g]
+      - group: Para el almíbar y el relleno
+        items:
+          - [agua, 100, ml]
+          - [azúcar, 50, g]
+          - [licor de naranja, 1, cucharada, optional]
+          - [crema pastelera o trufa, 400, g]
+      - group: Para decorar
+        items:
+          - [almendra laminada tostada, 80, g]
+          - [yema tostada o mermelada de albaricoque, 150, g]
+          - [huevos de chocolate, null, null]
+    steps:
+      - Precalienta el horno a 180 °C. Bate los huevos con el azúcar hasta que tripliquen su volumen. Incorpora la harina tamizada con movimientos envolventes y luego la mantequilla.
+      - Hornea en el molde engrasado 25-30 minutos y deja enfriar. Córtalo en dos discos.
+      - Hierve el agua con el azúcar 2 minutos, añade el licor y emborracha los discos.
+      - Rellena con la crema o la trufa, cubre el bizcocho con la yema tostada y pega la almendra en el borde.
+      - Decora con los huevos de chocolate y figuras.
+
+  - name: Hornazo
+    health: [RED, "Pan relleno de embutidos y carne: muy completo, pero graso y salado."]
+    nutrition: [480, 20, 40, 26]
+    photo: semana-santa/hornazo.jpg
+    category: Panes y masas
+    difficulty: MEDIUM
+    prep: 30
+    cook: 40
+    servings: 10
+    notes: El de Salamanca se come el Lunes de Aguas, después de Semana Santa. Se toma frío, en el campo.
+    tags: [semana santa, pan, tradicional]
+    origin: Salamanca
+    utensils: [Horno]
+    ingredients:
+      - group: Para la masa
+        items:
+          - [harina de trigo, 500, g]
+          - [levadura fresca de panadería, 20, g]
+          - [agua templada, 150, ml]
+          - [vino blanco, 50, ml]
+          - [aceite de oliva, 80, ml]
+          - [huevos, 2, null]
+          - [pimentón dulce, 1, cucharadita]
+          - [sal, 1, cucharadita]
+      - group: Para el relleno
+        items:
+          - [lomo adobado en filetes finos, 300, g]
+          - [chorizo en rodajas, 150, g]
+          - [jamón serrano en lonchas, 100, g]
+          - [huevos cocidos, 2, null]
+          - [huevo batido para pintar, 1, null]
+    steps:
+      - Disuelve la levadura en el agua. Mézclala con la harina, el vino, el aceite, los huevos, el pimentón y la sal y amasa 10 minutos. Deja que doble su volumen.
+      - Fríe ligeramente los filetes de lomo.
+      - Divide la masa en dos y estira una parte en una bandeja. Reparte el lomo, el chorizo, el jamón y los huevos cocidos en rodajas.
+      - Cubre con la otra parte, sella los bordes y decora con tiras de masa en forma de rejilla. Deja reposar 30 minutos.
+      - Píntalo con huevo y hornea a 180 °C 35-40 minutos.
+
+  - name: Bacalao a la vizcaína
+    health: [GREEN, "Bacalao con salsa de pimiento choricero y cebolla: mucha proteína y poca grasa."]
+    nutrition: [350, 34, 14, 16]
+    photo: semana-santa/bacalao-a-la-vizcaina.jpg
+    category: Pescados y mariscos
+    difficulty: MEDIUM
+    prep: 20
+    cook: 45
+    servings: 4
+    notes: Necesita bacalao desalado (48 horas en agua, cambiándola varias veces). La salsa de pimiento choricero es la base de la cocina vasca.
+    tags: [semana santa, pescado, tradicional, sin gluten]
+    origin: País Vasco
+    utensils: [Batidora]
+    ingredients:
+      - items:
+          - [lomos de bacalao desalado, 4, null]
+          - [pimientos choriceros secos, 6, null]
+          - [cebollas rojas, 3, null]
+          - [dientes de ajo, 2, null]
+          - [tomate maduro, 1, null]
+          - [aceite de oliva virgen extra, 6, cucharada]
+          - [agua, 200, ml]
+    steps:
+      - Hidrata los pimientos choriceros en agua caliente 30 minutos y raspa la carne con una cuchara.
+      - Pocha la cebolla y el ajo picados en el aceite a fuego muy suave 30 minutos, sin que tomen color. Añade el tomate y la carne de los pimientos y cocina 10 minutos.
+      - Tritura la salsa con un poco del agua de los pimientos hasta que esté fina.
+      - Pon la salsa en una cazuela, coloca el bacalao encima con la piel hacia arriba y cuece a fuego suave 8-10 minutos.
+
+  - name: Soldaditos de Pavía
+    health: [YELLOW, "Bacalao rebozado y frito: tapa clásica, pero con bastante aceite."]
+    nutrition: [320, 24, 18, 17]
+    photo: semana-santa/soldaditos-de-pavia.jpg
+    category: Entrantes
+    difficulty: MEDIUM
+    prep: 20
+    cook: 15
+    servings: 4
+    notes: Tapa madrileña de Cuaresma. El bacalao tiene que estar bien desalado y seco.
+    tags: [semana santa, pescado, frito, tapa]
+    origin: Madrid
+    utensils: []
+    ingredients:
+      - items:
+          - [bacalao desalado en tiras, 500, g]
+          - [harina, 125, g]
+          - [levadura química, 1, cucharadita]
+          - [agua con gas muy fría, 150, ml]
+          - [azafrán o colorante, 1, pizca]
+          - [pimientos rojos asados en tiras, 2, null]
+          - [aceite de oliva suave para freír, null, null]
+    steps:
+      - Seca muy bien las tiras de bacalao con papel de cocina.
+      - Mezcla la harina, la levadura y el azafrán con el agua con gas hasta tener una masa espesa.
+      - Envuelve cada tira de bacalao con una tira de pimiento, pásala por la masa y fríela en aceite caliente hasta que esté dorada.
+      - Escúrrelos sobre papel de cocina y sirve enseguida.
+
+  - name: Buñuelos de bacalao
+    health: [YELLOW, "Bacalao con masa frita: sabroso, pero frito."]
+    nutrition: [60, 4, 4, 3]
+    photo: semana-santa/bunuelos-de-bacalao.jpg
+    category: Entrantes
+    difficulty: MEDIUM
+    prep: 25
+    cook: 15
+    servings: 30
+    notes: Salen unos 30. Las raciones son buñuelos.
+    tags: [semana santa, pescado, frito, tapa]
+    utensils: []
+    ingredients:
+      - items:
+          - [bacalao desalado, 300, g]
+          - [harina, 150, g]
+          - [levadura química, 1, cucharadita]
+          - [huevos, 2, null]
+          - [leche, 150, ml]
+          - [dientes de ajo, 2, null]
+          - [perejil picado, 2, cucharada]
+          - [aceite de oliva suave para freír, null, null]
+    steps:
+      - Cuece el bacalao 3 minutos en agua, escúrrelo y desmígalo sin piel ni espinas.
+      - Mezcla la harina, la levadura, los huevos y la leche hasta tener una masa espesa. Añade el bacalao, el ajo y el perejil picados. Deja reposar 30 minutos.
+      - Fríe cucharadas de masa en aceite caliente hasta que estén doradas e hinchadas.
+      - Escúrrelos sobre papel de cocina y sirve calientes.
+
+  - name: Tortilla de bacalao
+    health: [GREEN, "Huevo y bacalao con cebolla y pimiento: mucha proteína."]
+    nutrition: [320, 28, 6, 20]
+    photo: semana-santa/tortilla-de-bacalao.jpg
+    category: Huevos
+    difficulty: EASY
+    prep: 15
+    cook: 25
+    servings: 4
+    notes: La de las sidrerías vascas. Jugosa por dentro.
+    tags: [semana santa, huevos, pescado, sin gluten]
+    origin: País Vasco
+    utensils: []
+    ingredients:
+      - items:
+          - [bacalao desalado desmigado, 250, g]
+          - [huevos, 6, null]
+          - [cebolla, 1, null]
+          - [pimiento verde, 1, null]
+          - [aceite de oliva virgen extra, 4, cucharada]
+          - [perejil picado, 1, cucharada]
+    steps:
+      - Pocha la cebolla y el pimiento en tiras finas en el aceite 15 minutos, a fuego suave.
+      - Añade el bacalao y rehoga 3 minutos.
+      - Bate los huevos con el perejil, añade el sofrito escurrido y mezcla.
+      - Cuaja la tortilla en una sartén con un poco del aceite, dándole la vuelta con un plato, que quede jugosa.
+
+  - name: Patatas con bacalao
+    health: [GREEN, "Guiso de patata y bacalao: completo, sencillo y con poca grasa."]
+    nutrition: [380, 28, 42, 10]
+    category: Pescados y mariscos
+    difficulty: EASY
+    prep: 15
+    cook: 35
+    servings: 4
+    notes: Guiso de vigilia de toda la vida, con bacalao desalado en migas.
+    tags: [semana santa, pescado, guiso, sin gluten]
+    utensils: []
+    ingredients:
+      - items:
+          - [bacalao desalado en migas, 300, g]
+          - [patatas, 800, g]
+          - [cebolla, 1, null]
+          - [pimiento verde, 1, null]
+          - [dientes de ajo, 2, null]
+          - [tomate triturado, 100, g]
+          - [pimentón dulce, 1, cucharadita]
+          - [hoja de laurel, 1, null]
+          - [aceite de oliva virgen extra, 3, cucharada]
+          - [agua, 1, l]
+    steps:
+      - Sofríe la cebolla, el pimiento y el ajo picados en el aceite 10 minutos. Añade el tomate y el pimentón y cocina 3 minutos.
+      - Añade las patatas chascadas en trozos, el laurel y el agua y cuece 20 minutos.
+      - "Añade el bacalao y cuece 5 minutos más a fuego suave. Prueba antes de salar: el bacalao ya da sal."
+      - Deja reposar 5 minutos y sirve.
+
+  - name: Empanada de bacalao con pasas
+    health: [YELLOW, "Bacalao con verduras en masa: completo, pero la masa es calórica."]
+    nutrition: [440, 22, 50, 17]
+    photo: semana-santa/empanada-de-bacalao-con-pasas.jpg
+    category: Panes y masas
+    difficulty: MEDIUM
+    prep: 40
+    cook: 40
+    servings: 8
+    notes: La empanada gallega de vigilia, con el contraste dulce de las pasas.
+    tags: [semana santa, pescado, al horno, tradicional]
+    origin: Galicia
+    utensils: [Horno]
+    ingredients:
+      - group: Para la masa
+        items:
+          - [harina de trigo, 500, g]
+          - [levadura fresca de panadería, 15, g]
+          - [agua templada, 200, ml]
+          - [aceite del sofrito, 60, ml]
+          - [sal, 1, cucharadita]
+      - group: Para el relleno
+        items:
+          - [bacalao desalado desmigado, 400, g]
+          - [cebollas, 3, null]
+          - [pimiento rojo, 1, null]
+          - [pasas, 60, g]
+          - [pimentón dulce, 1, cucharadita]
+          - [aceite de oliva virgen extra, 100, ml]
+          - [huevo batido para pintar, 1, null]
+    steps:
+      - Pocha las cebollas y el pimiento en tiras en el aceite 25 minutos. Añade el pimentón, el bacalao y las pasas y cocina 3 minutos. Escurre, guardando 60 ml del aceite, y deja enfriar.
+      - Disuelve la levadura en el agua, mezcla con la harina, el aceite reservado y la sal y amasa hasta que esté lisa. Deja reposar 30 minutos.
+      - Divide la masa en dos, estira una parte en la bandeja, reparte el relleno y cubre con la otra, sellando los bordes.
+      - Haz un agujero en el centro, pinta con huevo y hornea a 190 °C 35-40 minutos.

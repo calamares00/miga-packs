@@ -1,0 +1,355 @@
+id: cocina-economica
+version: 1
+updated: 2026-11-13
+language: es
+name: Cocina económica
+series: Cocina de cada día
+family: cocina-economica
+description: >-
+  Platos completos con ingredientes baratos y de temporada, de los de toda la vida: judías verdes
+  con patatas, patatas a la importancia, arroz con verduras, espaguetis con atún, pollo guisado
+  con patatas, huevos a la flamenca, empanadillas de atún, caballa al horno, hígado encebollado,
+  sopa de cebolla, coliflor al ajoarriero y pasta con brócoli. Con trucos para abaratar en las
+  notas.
+author: Miga
+authorGithub: calamares00
+cover:
+  emoji: "🪙"
+  title: Cocina económica
+  colors: ["#854d0e", "#facc15"]
+defaults:
+  source: Pack «Cocina económica» de Miga
+recipes:
+
+  - name: Judías verdes con patatas
+    health: [GREEN, "Verdura y patata con un sofrito de ajo y pimentón: ligera y con fibra."]
+    nutrition: [220, 6, 30, 9]
+    photo: cocina-economica/judias-verdes-con-patatas.jpg
+    category: Verduras
+    difficulty: EASY
+    prep: 15
+    cook: 25
+    servings: 4
+    notes: Con judías congeladas sale igual de bien y más barato fuera de temporada.
+    tags: [económica, verduras, vegana, sin gluten]
+    utensils: []
+    ingredients:
+      - items:
+          - [judías verdes, 500, g]
+          - [patatas, 500, g]
+          - [dientes de ajo, 3, null]
+          - [pimentón dulce, 1, cucharadita]
+          - [aceite de oliva virgen extra, 3, cucharada]
+          - [sal, null, null]
+    steps:
+      - Quita las puntas a las judías y córtalas en trozos. Pela las patatas y córtalas en trozos medianos.
+      - Cuécelas en agua con sal 20 minutos, hasta que estén tiernas. Escúrrelas.
+      - Dora el ajo laminado en el aceite, aparta del fuego y añade el pimentón.
+      - Riega las verduras con el refrito y mezcla.
+
+  - name: Patatas a la importancia
+    health: [YELLOW, "Patatas rebozadas en salsa: un plato barato y saciante, pero frito."]
+    nutrition: [380, 9, 42, 19]
+    photo: cocina-economica/patatas-a-la-importancia.jpg
+    category: Verduras
+    difficulty: MEDIUM
+    prep: 20
+    cook: 35
+    servings: 4
+    notes: Un clásico de la cocina humilde castellana que convierte unas patatas en plato principal.
+    tags: [económica, tradicional, frito]
+    utensils: []
+    ingredients:
+      - items:
+          - [patatas grandes, 3, null]
+          - [harina, 60, g]
+          - [huevos, 2, null]
+          - [cebolla, 1, null]
+          - [dientes de ajo, 2, null]
+          - [vino blanco, 100, ml]
+          - [caldo de verduras o agua, 500, ml]
+          - [perejil picado, 1, cucharada]
+          - [azafrán o colorante, 1, pizca]
+          - [aceite de oliva para freír, null, null]
+          - [sal, null, null]
+    steps:
+      - Pela las patatas y córtalas en rodajas de 1 cm. Sálalas, pásalas por harina y huevo batido y fríelas hasta que estén doradas. Escúrrelas.
+      - En una cazuela con 3 cucharadas de aceite, sofríe la cebolla y el ajo picados 8 minutos. Añade una cucharada de harina y rehoga 1 minuto.
+      - Añade el vino, deja que se evapore y añade el caldo, el azafrán y el perejil.
+      - Pon las patatas en la salsa y cuece a fuego suave 20 minutos, moviendo la cazuela para que no se peguen.
+
+  - name: Arroz con verduras
+    health: [GREEN, "Arroz con muchas verduras y aceite de oliva: completo y ligero."]
+    nutrition: [400, 8, 72, 9]
+    photo: cocina-economica/arroz-con-verduras.jpg
+    category: Arroces
+    difficulty: EASY
+    prep: 15
+    cook: 25
+    servings: 4
+    notes: Usa las verduras de temporada más baratas. Con un huevo frito encima es un plato completo.
+    tags: [económica, arroz, vegana]
+    utensils: []
+    ingredients:
+      - items:
+          - [arroz redondo, 300, g]
+          - [cebolla, 1, null]
+          - [pimiento rojo, 1, null]
+          - [calabacín, 1, null]
+          - [zanahoria, 1, null]
+          - [guisantes congelados, 100, g]
+          - [tomate triturado, 100, g]
+          - [pimentón dulce, 1, cucharadita]
+          - [caldo de verduras, 900, ml]
+          - [aceite de oliva virgen extra, 3, cucharada]
+          - [sal, null, null]
+    steps:
+      - Sofríe la cebolla, el pimiento, el calabacín y la zanahoria picados en el aceite 10 minutos.
+      - Añade el tomate y el pimentón y cocina 3 minutos.
+      - Añade el arroz, rehoga 1 minuto y vierte el caldo caliente. Sala.
+      - Cuece 12 minutos a fuego medio, añade los guisantes y cuece 6 minutos más. Deja reposar 5 minutos.
+
+  - name: Espaguetis con atún y tomate
+    health: [GREEN, "Pasta con atún y tomate: completa, barata y con buena proteína."]
+    nutrition: [490, 26, 72, 11]
+    photo: cocina-economica/espaguetis-con-atun-y-tomate.jpg
+    category: Pastas
+    difficulty: EASY
+    prep: 5
+    cook: 20
+    servings: 4
+    notes: El atún al natural es más barato y ligero que el de aceite.
+    tags: [económica, pasta, rápida]
+    utensils: []
+    ingredients:
+      - items:
+          - [espaguetis, 350, g]
+          - [atún en conserva escurrido, 3, lata]
+          - [tomate triturado, 400, g]
+          - [cebolla, 1, null]
+          - [orégano seco, 1, cucharadita]
+          - [aceite de oliva virgen extra, 2, cucharada]
+          - [sal, null, null]
+    steps:
+      - Sofríe la cebolla picada en el aceite 6 minutos. Añade el tomate, el orégano y la sal y cocina 12 minutos.
+      - Mientras, cuece la pasta según el paquete y escúrrela.
+      - Añade el atún a la salsa y mezcla con la pasta.
+
+  - name: Pollo guisado con patatas
+    health: [GREEN, "Pollo con patatas y verduras en guiso: completo y sin fritos."]
+    nutrition: [450, 32, 34, 20]
+    photo: cocina-economica/pollo-guisado-con-patatas.jpg
+    category: Carnes
+    difficulty: EASY
+    prep: 15
+    cook: 45
+    servings: 4
+    notes: Muslos y contramuslos son más baratos y jugosos que la pechuga. Si compras el pollo entero y lo troceas, sale aún mejor de precio.
+    tags: [económica, pollo, guiso, sin gluten]
+    utensils: []
+    ingredients:
+      - items:
+          - [muslos y contramuslos de pollo, 1, kg]
+          - [patatas, 600, g]
+          - [cebolla, 1, null]
+          - [zanahorias, 2, null]
+          - [dientes de ajo, 2, null]
+          - [vino blanco, 100, ml]
+          - [hoja de laurel, 1, null]
+          - [agua, 400, ml]
+          - [aceite de oliva virgen extra, 3, cucharada]
+          - [sal, null, null]
+    steps:
+      - Salpimienta el pollo y dóralo en una cazuela con el aceite. Resérvalo.
+      - En la misma grasa, sofríe la cebolla, el ajo y la zanahoria picados 8 minutos.
+      - Añade el vino y deja que se evapore. Vuelve a poner el pollo, el laurel y el agua y cuece tapado 20 minutos.
+      - Añade las patatas chascadas en trozos y cuece 20 minutos más, hasta que estén tiernas.
+
+  - name: Huevos a la flamenca
+    health: [YELLOW, "Huevos con verduras y tomate; el chorizo y el jamón añaden grasa y sal."]
+    nutrition: [360, 18, 22, 22]
+    photo: cocina-economica/huevos-a-la-flamenca.jpg
+    category: Huevos
+    difficulty: EASY
+    prep: 15
+    cook: 25
+    servings: 4
+    notes: Se hacen en cazuelitas de barro individuales o en una fuente grande. Sin embutido es vegetariano.
+    tags: [económica, huevos, tradicional, al horno]
+    utensils: [Horno]
+    ingredients:
+      - items:
+          - [huevos, 8, null]
+          - [cebolla, 1, null]
+          - [pimiento verde, 1, null]
+          - [tomate triturado, 400, g]
+          - [patata cocida en dados, 200, g]
+          - [guisantes, 100, g]
+          - [chorizo en rodajas, 60, g, optional]
+          - [jamón serrano en taquitos, 50, g, optional]
+          - [aceite de oliva virgen extra, 2, cucharada]
+          - [sal, null, null]
+    steps:
+      - Precalienta el horno a 200 °C.
+      - Sofríe la cebolla y el pimiento picados en el aceite 10 minutos. Añade el tomate y cocina 10 minutos. Añade los guisantes y la patata y sala.
+      - Reparte el sofrito en cazuelitas, casca dos huevos en cada una y añade el chorizo y el jamón.
+      - Hornea 8-10 minutos, hasta que las claras cuajen y las yemas sigan blandas.
+
+  - name: Empanadillas de atún
+    health: [YELLOW, "Atún, huevo y tomate en masa: al horno son ligeras; fritas, mucho más calóricas."]
+    nutrition: [320, 16, 30, 15]
+    photo: cocina-economica/empanadillas-de-atun.jpg
+    category: Entrantes
+    difficulty: EASY
+    prep: 20
+    cook: 20
+    servings: 4
+    notes: Salen 16 empanadillas. Un clásico barato para cenas y meriendas.
+    tags: [económica, pescado, al horno]
+    utensils: [Horno]
+    ingredients:
+      - items:
+          - [atún en conserva escurrido, 2, lata]
+          - [huevos cocidos, 2, null]
+          - [tomate frito, 5, cucharada]
+          - [cebolla, 0.5, null]
+          - [obleas para empanadillas, 16, null]
+          - [huevo batido para pintar, 1, null]
+          - [aceite de oliva virgen extra, 1, cucharada]
+    steps:
+      - Precalienta el horno a 190 °C.
+      - Pocha la cebolla picada en el aceite y mézclala con el atún, el huevo picado y el tomate.
+      - Rellena las obleas, ciérralas con un tenedor y ponlas en una bandeja con papel de horno.
+      - Píntalas con huevo y hornea 15-20 minutos.
+
+  - name: Caballa al horno con limón
+    health: [GREEN, "Pescado azul barato y muy rico en omega 3."]
+    nutrition: [340, 26, 18, 18]
+    photo: cocina-economica/caballa-al-horno-con-limon.jpg
+    category: Pescados y mariscos
+    difficulty: EASY
+    prep: 10
+    cook: 25
+    servings: 4
+    notes: La caballa es de los pescados más baratos y nutritivos. Pide en la pescadería que te la limpien.
+    tags: [económica, pescado, al horno, sin gluten]
+    utensils: [Horno]
+    ingredients:
+      - items:
+          - [caballas limpias, 4, null]
+          - [patatas, 400, g]
+          - [cebolla, 1, null]
+          - [limón, 1, null]
+          - [dientes de ajo, 2, null]
+          - [perejil picado, 1, cucharada]
+          - [aceite de oliva virgen extra, 3, cucharada]
+          - [sal, null, null]
+    steps:
+      - Precalienta el horno a 200 °C. Corta las patatas y la cebolla en rodajas finas, sálalas, riégalas con aceite y hornéalas 15 minutos en una fuente.
+      - Haz unos cortes en la piel de las caballas, sálalas y ponlas sobre las patatas con unas rodajas de limón dentro.
+      - Riega con el ajo y el perejil picados mezclados con el resto del aceite.
+      - Hornea 12-15 minutos, hasta que el pescado esté hecho.
+
+  - name: Hígado encebollado
+    health: [YELLOW, "Muy rico en hierro y vitaminas, pero también en colesterol: de vez en cuando."]
+    nutrition: [300, 28, 14, 14]
+    photo: cocina-economica/higado-encebollado.jpg
+    category: Carnes
+    difficulty: EASY
+    prep: 10
+    cook: 25
+    servings: 4
+    notes: El hígado de ternera es de las carnes más baratas y nutritivas. No lo hagas de más o queda duro.
+    tags: [económica, tradicional, sin gluten]
+    utensils: []
+    ingredients:
+      - items:
+          - [hígado de ternera en filetes, 600, g]
+          - [cebollas, 3, null]
+          - [vino blanco, 80, ml]
+          - [aceite de oliva virgen extra, 3, cucharada]
+          - [perejil picado, 1, cucharada]
+          - [sal, null, null]
+    steps:
+      - Corta las cebollas en juliana y pochalas en el aceite a fuego suave 20 minutos, hasta que estén doradas.
+      - Corta el hígado en tiras, sálalo y añádelo a la sartén con el fuego fuerte. Saltea 2-3 minutos.
+      - Añade el vino y deja que se evapore 1 minuto. Sirve con perejil.
+
+  - name: Sopa de cebolla
+    health: [YELLOW, "Cebolla y caldo, ligera; el pan y el queso gratinados la hacen más calórica."]
+    nutrition: [340, 13, 38, 15]
+    category: Sopas y cremas
+    difficulty: EASY
+    prep: 10
+    cook: 50
+    servings: 4
+    notes: El secreto es caramelizar la cebolla despacio. Una forma de aprovechar el pan duro.
+    tags: [económica, sopa, invierno]
+    utensils: [Horno]
+    ingredients:
+      - items:
+          - [cebollas, 1, kg]
+          - [mantequilla, 30, g]
+          - [aceite de oliva virgen extra, 1, cucharada]
+          - [harina, 1, cucharada]
+          - [vino blanco, 100, ml]
+          - [caldo de carne o de verduras, 1.2, l]
+          - [pan del día anterior, 4, rebanada]
+          - [queso rallado, 100, g]
+          - [sal, null, null]
+    steps:
+      - Corta las cebollas en juliana fina y cocínalas con la mantequilla y el aceite a fuego bajo 30-35 minutos, removiendo, hasta que estén caramelizadas.
+      - Añade la harina y rehoga 1 minuto. Añade el vino y deja que se evapore.
+      - Añade el caldo, sala y cuece 15 minutos.
+      - Reparte la sopa en cuencos que vayan al horno, pon encima el pan y el queso y gratina hasta que el queso se dore.
+
+  - name: Coliflor al ajoarriero
+    health: [GREEN, "Coliflor con un refrito de ajo, pimentón y vinagre: ligera y sabrosa."]
+    nutrition: [150, 5, 10, 10]
+    category: Verduras
+    difficulty: EASY
+    prep: 10
+    cook: 20
+    servings: 4
+    notes: Una forma muy barata de que la coliflor guste a todos.
+    tags: [económica, verduras, vegana, sin gluten]
+    utensils: []
+    ingredients:
+      - items:
+          - [coliflor, 1, null]
+          - [dientes de ajo, 4, null]
+          - [pimentón dulce, 1, cucharadita]
+          - [vinagre de vino, 1, cucharada]
+          - [aceite de oliva virgen extra, 4, cucharada]
+          - [sal, null, null]
+    steps:
+      - Corta la coliflor en ramilletes y cuécela en agua con sal 10-12 minutos, hasta que esté tierna. Escúrrela.
+      - Dora el ajo laminado en el aceite.
+      - Aparta del fuego, añade el pimentón y el vinagre con cuidado y vierte sobre la coliflor.
+
+  - name: Pasta con brócoli y ajo
+    health: [GREEN, "Pasta con verdura y aceite de oliva: completa y ligera."]
+    nutrition: [450, 16, 70, 12]
+    photo: cocina-economica/pasta-con-brocoli-y-ajo.jpg
+    category: Pastas
+    difficulty: EASY
+    prep: 10
+    cook: 15
+    servings: 4
+    notes: El brócoli se cuece en la misma agua que la pasta. Aprovecha también el tronco pelado y en dados.
+    tags: [económica, pasta, vegetariana, rápida]
+    utensils: []
+    ingredients:
+      - items:
+          - [pasta corta (orecchiette o macarrones), 350, g]
+          - [brócoli, 1, null]
+          - [dientes de ajo, 3, null]
+          - [guindilla, 1, null, optional]
+          - [queso rallado, 40, g]
+          - [aceite de oliva virgen extra, 4, cucharada]
+          - [sal, null, null]
+    steps:
+      - Corta el brócoli en ramilletes pequeños y el tronco pelado en dados.
+      - Cuece la pasta en agua con sal y añade el brócoli 5 minutos antes de que termine.
+      - Mientras, dora el ajo laminado y la guindilla en el aceite.
+      - Escurre la pasta y el brócoli guardando un poco de agua, mézclalos con el aceite de ajo y un chorrito de agua y sirve con el queso.

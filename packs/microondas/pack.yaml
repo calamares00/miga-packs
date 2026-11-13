@@ -1,0 +1,327 @@
+id: microondas
+version: 1
+updated: 2026-11-13
+language: es
+name: Microondas
+series: Electrodomésticos
+family: microondas
+description: >-
+  El microondas sirve para mucho más que calentar: bizcocho en taza, huevos al plato, salmón y
+  bacalao con verduras, flan de queso, risotto, brócoli con almendras, pollo al limón,
+  berenjenas rellenas, mermelada exprés, natillas de chocolate y almendras garrapiñadas. Tiempos
+  para un microondas de 800 W: con más potencia, acórtalos; con menos, alárgalos. Usa recipientes
+  aptos y tapa con una tapa de microondas o film perforado.
+author: Miga
+authorGithub: calamares00
+cover:
+  emoji: "⚡"
+  title: Microondas
+  colors: ["#1e40af", "#38bdf8"]
+defaults:
+  source: Pack «Microondas» de Miga
+recipes:
+
+  - name: Bizcocho en taza
+    health: [RED, "Bizcocho de chocolate individual: un capricho dulce."]
+    nutrition: [420, 8, 50, 21]
+    photo: microondas/bizcocho-en-taza.jpg
+    category: Postres
+    difficulty: EASY
+    prep: 5
+    cook: 2
+    servings: 1
+    notes: Microondas de 800 W. Usa una taza grande (300 ml) porque sube mucho.
+    tags: [microondas, postre, rápida, chocolate]
+    utensils: [Microondas]
+    ingredients:
+      - items:
+          - [harina, 4, cucharada]
+          - [cacao en polvo puro, 2, cucharada]
+          - [azúcar, 3, cucharada]
+          - [levadura química, 0.25, cucharadita]
+          - [huevo, 1, null]
+          - [leche, 3, cucharada]
+          - [aceite de girasol, 2, cucharada]
+          - [pepitas de chocolate, 1, cucharada, optional]
+    steps:
+      - Mezcla en la taza la harina, el cacao, el azúcar y la levadura.
+      - Añade el huevo, la leche y el aceite y bate con un tenedor hasta que no queden grumos. Añade las pepitas.
+      - Cocina 1 minuto 30 segundos a máxima potencia. Si el centro sigue líquido, 15 segundos más.
+      - Deja reposar 1 minuto antes de comerlo.
+
+  - name: Huevos al plato con jamón
+    health: [YELLOW, "Huevo con tomate y jamón: proteína, con algo de sal."]
+    nutrition: [280, 18, 8, 19]
+    photo: microondas/huevos-al-plato-con-jamon.jpg
+    category: Huevos
+    difficulty: EASY
+    prep: 5
+    cook: 4
+    servings: 2
+    notes: Microondas de 800 W. Pincha las yemas con un palillo para que no exploten.
+    tags: [microondas, huevos, rápida, sin gluten]
+    utensils: [Microondas]
+    ingredients:
+      - items:
+          - [huevos, 4, null]
+          - [tomate frito, 6, cucharada]
+          - [jamón serrano en taquitos, 50, g]
+          - [guisantes cocidos, 3, cucharada, optional]
+          - [sal, null, null]
+    steps:
+      - Reparte el tomate en dos platos hondos aptos para microondas y añade el jamón y los guisantes.
+      - Casca dos huevos en cada plato, sala y pincha las yemas con un palillo.
+      - Tapa y cocina cada plato 1 minuto 30 segundos a 800 W. Si las claras no han cuajado, añade tandas de 15 segundos.
+
+  - name: Salmón con verduras al microondas
+    health: [GREEN, "Pescado azul al vapor con verduras: omega 3 y muy poca grasa añadida."]
+    nutrition: [340, 30, 10, 20]
+    photo: microondas/salmon-con-verduras-al-microondas.jpg
+    category: Pescados y mariscos
+    difficulty: EASY
+    prep: 10
+    cook: 7
+    servings: 2
+    notes: Microondas de 800 W. El salmón se hace en su propio vapor.
+    tags: [microondas, pescado, sin gluten]
+    utensils: [Microondas]
+    ingredients:
+      - items:
+          - [lomos de salmón, 2, null]
+          - [calabacín, 1, null]
+          - [zanahoria, 1, null]
+          - [limón, 0.5, null]
+          - [eneldo o perejil, 1, cucharada]
+          - [aceite de oliva virgen extra, 1, cucharada]
+          - [sal, null, null]
+    steps:
+      - Corta el calabacín y la zanahoria en tiras finas y ponlas en una fuente apta para microondas con el aceite y sal. Tapa y cocina 3 minutos.
+      - Coloca el salmón salado encima con rodajas de limón.
+      - Tapa y cocina 3-4 minutos más, hasta que el salmón esté opaco.
+      - Deja reposar 1 minuto y sirve con las hierbas.
+
+  - name: Bacalao con pimientos al microondas
+    health: [GREEN, "Bacalao con pimientos y ajo: proteína magra y poca grasa."]
+    nutrition: [290, 30, 10, 14]
+    photo: microondas/bacalao-con-pimientos-al-microondas.jpg
+    category: Pescados y mariscos
+    difficulty: EASY
+    prep: 10
+    cook: 10
+    servings: 2
+    notes: Microondas de 800 W. Con bacalao desalado o con lomos frescos.
+    tags: [microondas, pescado, sin gluten]
+    utensils: [Microondas]
+    ingredients:
+      - items:
+          - [lomos de bacalao desalado, 2, null]
+          - [pimiento rojo, 1, null]
+          - [pimiento verde, 1, null]
+          - [cebolla, 0.5, null]
+          - [dientes de ajo, 2, null]
+          - [aceite de oliva virgen extra, 2, cucharada]
+    steps:
+      - Corta los pimientos y la cebolla en tiras y lamina el ajo. Ponlos en una fuente con el aceite, tapa y cocina 5 minutos, removiendo a mitad.
+      - Coloca el bacalao encima con la piel hacia arriba.
+      - Tapa y cocina 3-4 minutos, hasta que se separe en lascas.
+      - Deja reposar 2 minutos tapado y sirve con el jugo.
+
+  - name: Flan de queso al microondas
+    health: [RED, "Queso crema, leche condensada y huevo: postre muy calórico."]
+    nutrition: [330, 9, 34, 18]
+    photo: microondas/flan-de-queso-al-microondas.jpg
+    category: Postres
+    difficulty: EASY
+    prep: 5
+    cook: 8
+    servings: 6
+    notes: Microondas de 800 W. Molde de silicona o de cristal de unos 18 cm. Necesita 4 horas de nevera.
+    tags: [microondas, postre]
+    utensils: [Microondas, Batidora]
+    ingredients:
+      - items:
+          - [caramelo líquido, 3, cucharada]
+          - [queso crema, 200, g]
+          - [leche condensada, 200, g]
+          - [leche, 250, ml]
+          - [huevos, 3, null]
+    steps:
+      - Cubre el fondo del molde con el caramelo.
+      - Tritura el queso, las dos leches y los huevos y viértelo en el molde.
+      - Cocina 4 minutos a 800 W, deja reposar 1 minuto y cocina 3-4 minutos más, hasta que esté casi cuajado (el centro tiembla un poco).
+      - Deja enfriar y refrigera 4 horas. Desmolda pasando un cuchillo por el borde.
+
+  - name: Risotto de calabacín al microondas
+    health: [YELLOW, "Arroz con calabacín y queso: rico en hidratos, con algo de grasa."]
+    nutrition: [430, 12, 64, 13]
+    photo: microondas/risotto-de-calabacin-al-microondas.jpg
+    category: Arroces
+    difficulty: EASY
+    prep: 10
+    cook: 20
+    servings: 2
+    notes: Microondas de 800 W. Usa un recipiente grande y profundo apto para microondas.
+    tags: [microondas, arroz, vegetariana]
+    utensils: [Microondas]
+    ingredients:
+      - items:
+          - [arroz para risotto, 160, g]
+          - [calabacín, 1, null]
+          - [chalota, 1, null]
+          - [caldo de verduras caliente, 500, ml]
+          - [mantequilla, 15, g]
+          - [parmesano rallado, 30, g]
+          - [aceite de oliva virgen extra, 1, cucharada]
+          - [sal, null, null]
+    steps:
+      - Pon la chalota picada con el aceite en el recipiente y cocina 2 minutos sin tapar.
+      - Añade el arroz, remueve y cocina 1 minuto. Añade 250 ml de caldo y cocina 6 minutos sin tapar.
+      - Remueve, añade el calabacín en dados y el resto del caldo y cocina 6-8 minutos más, removiendo a mitad, hasta que el arroz esté al dente.
+      - Añade la mantequilla y el parmesano, remueve, sala y deja reposar 2 minutos tapado.
+
+  - name: Brócoli con ajo y almendras
+    health: [GREEN, "Verdura al vapor con ajo y frutos secos: fibra, vitaminas y grasas buenas."]
+    nutrition: [150, 6, 9, 11]
+    photo: microondas/brocoli-con-ajo-y-almendras.jpg
+    category: Verduras
+    difficulty: EASY
+    prep: 5
+    cook: 6
+    servings: 2
+    notes: Microondas de 800 W. Al vapor del propio brócoli conserva el color y las vitaminas.
+    tags: [microondas, verduras, vegana, sin gluten]
+    utensils: [Microondas]
+    ingredients:
+      - items:
+          - [brócoli en ramilletes, 400, g]
+          - [agua, 2, cucharada]
+          - [diente de ajo, 1, null]
+          - [almendras laminadas, 20, g]
+          - [aceite de oliva virgen extra, 1, cucharada]
+          - [sal, null, null]
+    steps:
+      - Pon el brócoli con el agua en un recipiente, tapa y cocina 4 minutos.
+      - En un cuenco pequeño, pon el aceite con el ajo laminado y las almendras y cocina 1 minuto, hasta que se doren un poco.
+      - Escurre el brócoli, sala y riégalo con el aceite de ajo y almendras.
+
+  - name: Pechuga de pollo al limón al microondas
+    health: [GREEN, "Pollo magro con limón y hierbas: mucha proteína y poca grasa."]
+    nutrition: [240, 40, 2, 8]
+    photo: microondas/pechuga-de-pollo-al-limon-al-microondas.jpg
+    category: Carnes
+    difficulty: EASY
+    prep: 5
+    cook: 8
+    servings: 2
+    notes: Microondas de 800 W. Filetes de grosor parecido para que se hagan igual.
+    tags: [microondas, pollo, sin gluten]
+    utensils: [Microondas]
+    ingredients:
+      - items:
+          - [filetes de pechuga de pollo, 2, null]
+          - [limón (zumo y ralladura), 1, null]
+          - [diente de ajo, 1, null]
+          - [orégano o tomillo seco, 0.5, cucharadita]
+          - [aceite de oliva virgen extra, 1, cucharada]
+          - [sal, null, null]
+    steps:
+      - Pon el pollo en una fuente y cúbrelo con el zumo y la ralladura de limón, el ajo picado, las hierbas, el aceite y la sal.
+      - Tapa y cocina 3 minutos, dale la vuelta y cocina 2-3 minutos más, hasta que no quede rosado por dentro.
+      - Deja reposar 2 minutos tapado y sirve con su jugo.
+
+  - name: Berenjenas rellenas al microondas
+    health: [YELLOW, "Berenjena con carne y tomate; el queso gratinado añade grasa."]
+    nutrition: [360, 22, 16, 23]
+    photo: microondas/berenjenas-rellenas-al-microondas.jpg
+    category: Verduras
+    difficulty: EASY
+    prep: 15
+    cook: 15
+    servings: 2
+    notes: Microondas de 800 W. Si tu microondas tiene grill, gratínalas 3 minutos al final.
+    tags: [microondas, verduras]
+    utensils: [Microondas]
+    ingredients:
+      - items:
+          - [berenjenas medianas, 2, null]
+          - [carne picada, 200, g]
+          - [cebolla, 0.5, null]
+          - [tomate frito, 4, cucharada]
+          - [queso rallado, 50, g]
+          - [aceite de oliva virgen extra, 1, cucharada]
+          - [sal, null, null]
+    steps:
+      - Parte las berenjenas por la mitad a lo largo, haz cortes en la pulpa, sálalas y cocínalas tapadas 6 minutos.
+      - Vacía la pulpa con una cuchara dejando 1 cm.
+      - Mezcla la pulpa picada con la carne, la cebolla picada, el aceite y el tomate y cocina 4 minutos, removiendo a mitad.
+      - Rellena las berenjenas, cubre con el queso y cocina 3 minutos más, hasta que se funda.
+
+  - name: Mermelada exprés de frutos rojos
+    health: [YELLOW, "Fruta con poco azúcar: más ligera que la comprada, pero dulce."]
+    nutrition: [35, 0, 9, 0]
+    category: Postres
+    difficulty: EASY
+    prep: 2
+    cook: 10
+    servings: 12
+    notes: Microondas de 800 W. Usa un cuenco grande porque hierve mucho. Dura una semana en la nevera. Las raciones son de una cucharada.
+    tags: [microondas, desayuno, vegana]
+    utensils: [Microondas]
+    ingredients:
+      - items:
+          - [frutos rojos frescos o congelados, 300, g]
+          - [azúcar, 60, g]
+          - [zumo de limón, 1, cucharada]
+    steps:
+      - Pon los frutos rojos, el azúcar y el limón en un cuenco grande.
+      - Cocina 4 minutos sin tapar, remueve y cocina 4-6 minutos más, removiendo cada 2 minutos, hasta que espese.
+      - Aplasta la fruta con un tenedor si la quieres fina. Espesa al enfriar.
+
+  - name: Natillas de chocolate al microondas
+    health: [YELLOW, "Leche, huevo y chocolate: aporta calcio, pero es un postre dulce."]
+    nutrition: [230, 7, 30, 9]
+    photo: microondas/natillas-de-chocolate-al-microondas.jpg
+    category: Postres
+    difficulty: EASY
+    prep: 5
+    cook: 8
+    servings: 4
+    notes: Microondas de 800 W. Remover en cada tanda es la clave para que queden lisas.
+    tags: [microondas, postre, chocolate]
+    utensils: [Microondas]
+    ingredients:
+      - items:
+          - [leche entera, 500, ml]
+          - [azúcar, 70, g]
+          - [maicena, 25, g]
+          - [cacao en polvo puro, 2, cucharada]
+          - [yemas de huevo, 2, null]
+          - [chocolate negro, 40, g]
+    steps:
+      - Bate en un cuenco grande la leche, el azúcar, la maicena, el cacao y las yemas.
+      - Cocina 2 minutos, remueve con unas varillas y repite en tandas de 1 minuto, removiendo siempre, hasta que espese (unos 6-7 minutos en total).
+      - Añade el chocolate troceado y remueve hasta que se funda.
+      - Reparte en cuencos y refrigera al menos 2 horas.
+
+  - name: Almendras garrapiñadas
+    health: [RED, "Almendras caramelizadas: el fruto seco es sano, el azúcar no tanto."]
+    nutrition: [180, 4, 16, 11]
+    photo: microondas/almendras-garrapinadas.jpg
+    category: Postres
+    difficulty: EASY
+    prep: 2
+    cook: 6
+    servings: 8
+    notes: "Microondas de 800 W. El azúcar quema: déjalas enfriar del todo antes de tocarlas. Las raciones son de 30 g."
+    tags: [microondas, postre, sin gluten]
+    utensils: [Microondas]
+    ingredients:
+      - items:
+          - [almendras crudas con piel, 150, g]
+          - [azúcar, 100, g]
+          - [agua, 50, ml]
+          - [canela molida, 0.5, cucharadita, optional]
+    steps:
+      - Mezcla en un cuenco de cristal el azúcar, el agua y la canela y añade las almendras.
+      - Cocina 2 minutos, remueve y cocina en tandas de 1 minuto, removiendo siempre, hasta que el azúcar cristalice y luego empiece a caramelizar (unos 5-6 minutos en total).
+      - Extiéndelas enseguida sobre papel de horno, sepáralas y deja que se enfríen.

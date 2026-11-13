@@ -1,0 +1,649 @@
+id: cocina-turca
+version: 1
+updated: 2026-11-14
+language: es
+name: "Cocina del mundo: Turquía"
+series: Cocina del mundo
+family: cocina-turca
+description: >-
+  La cocina de Turquía, de Estambul a Anatolia: desayunos de menemen y çılbır, lahmacun, pide,
+  börek, simit, mantı, kebabs de İskender y Adana, tavuk şiş, berenjenas karnıyarık e imam
+  bayıldı, pilaf de bulgur, kısır, mercimek köftesi, ezme, ensalada del pastor y dulces como el
+  künefe y el revani, con un ayran para beber.
+author: Miga
+authorGithub: calamares00
+cover:
+  emoji: "🧆"
+  kicker: Cocina del mundo
+  title: Turquía
+  colors: ["#dc2626", "#7f1d1d"]
+defaults:
+  origin: Turquía
+  originCountry: TR
+  source: "Pack «Cocina del mundo: Turquía» de Miga"
+recipes:
+
+  - name: Menemen
+    health: [GREEN, "Huevos revueltos con tomate y pimiento: proteína y verdura, poca grasa."]
+    nutrition: [240, 13, 10, 16]
+    photo: cocina-turca/menemen.jpg
+    category: Huevos
+    difficulty: EASY
+    prep: 10
+    cook: 15
+    servings: 3
+    notes: El desayuno turco por excelencia. Se sirve en la misma sartén, con pan para mojar.
+    tags: [huevos, desayuno, vegetariana, sin gluten, rápida]
+    utensils: []
+    ingredients:
+      - items:
+          - [huevos, 4, null]
+          - [tomates maduros, 4, null]
+          - [pimientos verdes alargados, 2, null]
+          - [cebolla pequeña, 1, null, optional]
+          - [mantequilla o aceite de oliva, 2, cucharada]
+          - [copos de pimiento rojo (pul biber), 1, cucharadita]
+          - [sal, null, null]
+    steps:
+      - Pocha los pimientos y la cebolla picados en la mantequilla 5 minutos.
+      - Añade los tomates pelados y troceados y cuece 5-8 minutos, hasta que suelten el agua y se espese.
+      - Añade los huevos batidos con sal y remueve suavemente lo justo para que cuajen jugosos.
+      - Espolvorea el pul biber y sirve enseguida.
+
+  - name: Huevos çılbır
+    health: [YELLOW, "Huevos escalfados sobre yogur con mantequilla especiada: proteína y algo de grasa."]
+    nutrition: [320, 18, 8, 24]
+    photo: cocina-turca/huevos-clbr.jpg
+    category: Huevos
+    difficulty: MEDIUM
+    prep: 10
+    cook: 10
+    servings: 2
+    notes: Plato de los sultanes otomanos. El yogur debe estar a temperatura ambiente.
+    tags: [huevos, desayuno, vegetariana, sin gluten]
+    utensils: []
+    ingredients:
+      - items:
+          - [huevos, 4, null]
+          - [yogur griego, 250, g]
+          - [diente de ajo, 1, null]
+          - [mantequilla, 30, g]
+          - [copos de pimiento rojo (pul biber), 1, cucharadita]
+          - [eneldo o menta, 1, cucharada]
+          - [vinagre, 1, cucharada]
+          - [sal, null, null]
+    steps:
+      - Mezcla el yogur con el ajo machacado y una pizca de sal y repártelo en dos platos.
+      - Escalfa los huevos 3 minutos en agua a punto de hervir con el vinagre y colócalos sobre el yogur.
+      - Funde la mantequilla con el pul biber hasta que se ponga roja y riega los huevos.
+      - Espolvorea las hierbas y sirve con pan.
+
+  - name: Lahmacun
+    health: [YELLOW, "Masa fina con carne picada y verduras: equilibrada, algo calórica."]
+    nutrition: [420, 22, 54, 13]
+    photo: cocina-turca/lahmacun.jpg
+    category: Panes y masas
+    difficulty: MEDIUM
+    prep: 40
+    cook: 15
+    servings: 6
+    notes: Se sirve con perejil, cebolla y limón por encima y se enrolla para comer.
+    tags: [masa, carne picada, horno]
+    utensils: [Horno, Robot de cocina]
+    ingredients:
+      - group: Para la masa
+        items:
+          - [harina de trigo, 400, g]
+          - [levadura seca de panadería, 5, g]
+          - [agua templada, 240, ml]
+          - [aceite de oliva, 1, cucharada]
+          - [sal, 1, cucharadita]
+      - group: Para la cobertura
+        items:
+          - [carne picada de cordero o ternera, 300, g]
+          - [cebolla, 1, null]
+          - [pimiento rojo, 1, null]
+          - [tomate, 1, null]
+          - [dientes de ajo, 2, null]
+          - [pasta de pimiento rojo o concentrado de tomate, 1, cucharada]
+          - [perejil picado, 3, cucharada]
+          - [comino molido, 1, cucharadita]
+          - [copos de pimiento rojo (pul biber), 1, cucharadita]
+          - [sal, null, null]
+      - group: Para servir
+        items:
+          - [cebolla roja en juliana, 1, null]
+          - [perejil, null, null]
+          - [limones, 2, null]
+    steps:
+      - Amasa los ingredientes de la masa 10 minutos y déjala levar tapada 1 hora.
+      - Pica muy fino la cebolla, el pimiento, el tomate y el ajo en el robot y mézclalo con la carne, la pasta de pimiento, el perejil y las especias.
+      - Precalienta el horno a 250 °C con la bandeja dentro. Divide la masa en 6 bolas y estíralas en óvalos muy finos.
+      - Extiende una capa fina de carne hasta el borde y hornea cada lahmacun 6-8 minutos, hasta que el borde esté crujiente.
+      - Sirve con cebolla, perejil y limón y enróllalo.
+
+  - name: Pide de carne
+    health: [YELLOW, "Pan en forma de barca con carne y verduras: completo y calórico."]
+    nutrition: [520, 26, 60, 19]
+    photo: cocina-turca/pide-de-carne.jpg
+    category: Panes y masas
+    difficulty: MEDIUM
+    prep: 40
+    cook: 15
+    servings: 4
+    notes: La pizza turca, en forma de barca. Se puede rellenar también de queso o de huevo.
+    tags: [masa, carne picada, horno]
+    origin: Mar Negro
+    utensils: [Horno]
+    ingredients:
+      - group: Para la masa
+        items:
+          - [harina de trigo, 400, g]
+          - [levadura seca de panadería, 7, g]
+          - [agua templada, 220, ml]
+          - [yogur natural, 2, cucharada]
+          - [aceite de oliva, 2, cucharada]
+          - [azúcar, 1, cucharadita]
+          - [sal, 1, cucharadita]
+      - group: Para el relleno
+        items:
+          - [carne picada de ternera, 400, g]
+          - [cebolla, 1, null]
+          - [pimiento verde, 1, null]
+          - [tomates, 2, null]
+          - [perejil picado, 2, cucharada]
+          - [copos de pimiento rojo (pul biber), 1, cucharadita]
+          - [mantequilla derretida, 30, g]
+          - [sal, null, null]
+    steps:
+      - Amasa los ingredientes de la masa y déjala levar 1 hora.
+      - Saltea la carne con la cebolla, el pimiento y el tomate picados 10 minutos, hasta que se seque. Añade el perejil, las especias y la sal.
+      - Precalienta el horno a 240 °C. Divide la masa en 4, estírala en óvalos alargados, reparte el relleno y dobla los bordes hacia dentro, pellizcando las puntas para formar barcas.
+      - Hornea 12-15 minutos y pinta los bordes con mantequilla al salir.
+
+  - name: Börek de espinacas y queso
+    health: [YELLOW, "Láminas de masa con espinacas y queso: verdura con bastante grasa."]
+    nutrition: [420, 15, 32, 26]
+    photo: cocina-turca/borek-de-espinacas-y-queso.jpg
+    category: Panes y masas
+    difficulty: MEDIUM
+    prep: 30
+    cook: 40
+    servings: 6
+    notes: Se hace con yufka; la pasta filo es la alternativa más fácil de encontrar.
+    tags: [horno, verduras, vegetariana]
+    utensils: [Horno]
+    ingredients:
+      - items:
+          - [láminas de pasta filo o yufka, 12, null]
+          - [espinacas frescas, 500, g]
+          - [cebolla, 1, null]
+          - [queso feta o beyaz peynir, 200, g]
+          - [huevos, 2, null]
+          - [leche, 150, ml]
+          - [yogur natural, 100, g]
+          - [aceite de oliva, 80, ml]
+          - [semillas de sésamo o de comino negro, 1, cucharada]
+          - [sal, null, null]
+    steps:
+      - Pocha la cebolla en un poco de aceite, añade las espinacas picadas y cocina hasta que pierdan el agua. Escurre bien y mezcla con el queso desmenuzado.
+      - Bate los huevos con la leche, el yogur, el resto del aceite y una pizca de sal.
+      - Precalienta el horno a 190 °C. En una fuente engrasada pon capas de 2 láminas pintadas con la mezcla de huevo y, cada 4 láminas, una capa de relleno.
+      - Termina con láminas, pinta con el resto de la mezcla y espolvorea las semillas.
+      - Hornea 35-40 minutos, hasta que esté dorado. Deja reposar 10 minutos antes de cortar.
+
+  - name: Simit
+    health: [YELLOW, "Rosca de pan con melaza y sésamo: hidratos, algo de azúcar."]
+    nutrition: [310, 9, 52, 7]
+    photo: cocina-turca/simit.jpg
+    category: Panes y masas
+    difficulty: MEDIUM
+    prep: 30
+    cook: 20
+    servings: 8
+    notes: La rosca de sésamo de los puestos callejeros de Estambul. La melaza de uva (pekmez) le da el color.
+    tags: [pan, desayuno, vegana]
+    origin: Estambul
+    utensils: [Horno, Amasadora]
+    ingredients:
+      - items:
+          - [harina de trigo, 500, g]
+          - [levadura seca de panadería, 7, g]
+          - [agua templada, 300, ml]
+          - [aceite de oliva, 2, cucharada]
+          - [azúcar, 1, cucharadita]
+          - [sal, 1.5, cucharadita]
+          - [melaza de uva o miel de caña, 100, ml]
+          - [agua para la melaza, 150, ml]
+          - [semillas de sésamo, 200, g]
+    steps:
+      - Amasa la harina, la levadura, el agua, el aceite, el azúcar y la sal 10 minutos y deja levar 1 hora.
+      - Divide la masa en 8 porciones, forma con cada una dos cordones de 50 cm, retuércelos juntos y cierra en forma de rosca.
+      - Mezcla la melaza con el agua, pasa por ella las roscas y rebózalas en el sésamo tostado.
+      - Deja reposar 15 minutos y hornea a 220 °C 15-20 minutos, hasta que estén muy doradas.
+
+  - name: Mantı
+    health: [YELLOW, "Pasta rellena de carne con yogur y mantequilla: completa y calórica."]
+    nutrition: [560, 28, 58, 23]
+    photo: cocina-turca/mant.jpg
+    category: Pastas
+    difficulty: HARD
+    prep: 90
+    cook: 15
+    servings: 4
+    notes: Los raviolis turcos de Kayseri; cuanto más pequeños, más habilidad tiene quien los hace. Se pueden congelar crudos.
+    tags: [pasta, carne picada]
+    origin: Kayseri
+    utensils: []
+    ingredients:
+      - group: Para la masa
+        items:
+          - [harina de trigo, 300, g]
+          - [huevo, 1, null]
+          - [agua, 100, ml]
+          - [sal, 1, cucharadita]
+      - group: Para el relleno
+        items:
+          - [carne picada de ternera o cordero, 250, g]
+          - [cebolla pequeña rallada, 1, null]
+          - [perejil picado, 2, cucharada]
+          - [sal y pimienta, null, null]
+      - group: Para servir
+        items:
+          - [yogur natural, 400, g]
+          - [dientes de ajo, 2, null]
+          - [mantequilla, 50, g]
+          - [concentrado de tomate, 1, cucharada]
+          - [copos de pimiento rojo (pul biber), 1, cucharadita]
+          - [menta seca, 1, cucharadita]
+    steps:
+      - Amasa la harina con el huevo, el agua y la sal hasta tener una masa firme y lisa. Deja reposar 30 minutos.
+      - Mezcla los ingredientes del relleno.
+      - Estira la masa muy fina y córtala en cuadrados de 3 cm. Pon una bolita de relleno en cada uno y une las cuatro puntas en un saquito.
+      - Cuece los mantı en agua con sal 8-10 minutos.
+      - Sirve con el yogur mezclado con el ajo y riega con la mantequilla fundida con el tomate, el pul biber y la menta.
+
+  - name: İskender kebab
+    health: [RED, "Carne con pan, salsa de tomate, mantequilla y yogur: muy calórico."]
+    nutrition: [720, 42, 46, 40]
+    photo: cocina-turca/iskender-kebab.jpg
+    category: Carnes
+    difficulty: MEDIUM
+    prep: 20
+    cook: 25
+    servings: 4
+    notes: Creado en Bursa. En casa se hace con filetes muy finos de ternera en lugar de carne de döner.
+    tags: [kebab, ternera]
+    origin: Bursa
+    utensils: []
+    ingredients:
+      - items:
+          - [filetes muy finos de ternera o cordero, 600, g]
+          - [pan de pide o de pita, 2, null]
+          - [tomate triturado, 400, g]
+          - [concentrado de tomate, 1, cucharada]
+          - [mantequilla, 80, g]
+          - [yogur natural espeso, 400, g]
+          - [aceite de oliva, 2, cucharada]
+          - [comino molido, 1, cucharadita]
+          - [sal, null, null]
+    steps:
+      - Corta la carne en tiras finas, aliña con el comino, la sal y el aceite y saltéala a fuego muy fuerte por tandas.
+      - Cuece el tomate con el concentrado, una cucharada de mantequilla y sal 10 minutos.
+      - Corta el pan en dados, tuéstalo y repártelo en los platos. Riégalo con un poco de salsa de tomate.
+      - Pon la carne encima, cubre con más salsa y, al servir, riega con la mantequilla restante fundida y muy caliente. Acompaña con el yogur.
+
+  - name: Adana kebab
+    health: [YELLOW, "Carne picada de cordero a la brasa: mucha proteína y bastante grasa."]
+    nutrition: [460, 30, 6, 35]
+    photo: cocina-turca/adana-kebab.jpg
+    category: Carnes
+    difficulty: MEDIUM
+    prep: 25
+    cook: 10
+    servings: 4
+    notes: El kebab picante de Adana, con la carne picada a cuchillo. Necesita broquetas planas y anchas.
+    tags: [kebab, barbacoa, cordero, sin gluten]
+    origin: Adana
+    utensils: [Barbacoa]
+    ingredients:
+      - items:
+          - [carne picada de cordero con algo de grasa, 600, g]
+          - [pimiento rojo, 1, null]
+          - [copos de pimiento rojo (pul biber), 2, cucharadita]
+          - [pimentón dulce, 1, cucharadita]
+          - [comino molido, 0.5, cucharadita]
+          - [sal, 1, cucharadita]
+          - [cebolla roja en juliana con zumaque, 1, null]
+    steps:
+      - Pica muy fino el pimiento, escúrrelo y amásalo con la carne, las especias y la sal 5 minutos, hasta que quede pegajosa. Refrigera 1 hora.
+      - Con las manos mojadas, moldea la carne alrededor de las broquetas aplastándola con los dedos.
+      - Asa en la barbacoa a fuego fuerte 8-10 minutos, girando.
+      - Sirve con pan, la cebolla con zumaque y pimientos y tomates asados.
+
+  - name: Brochetas de pollo a la turca
+    health: [GREEN, "Pechuga adobada en yogur a la brasa: mucha proteína y poca grasa."]
+    nutrition: [290, 38, 6, 12]
+    photo: cocina-turca/brochetas-de-pollo-a-la-turca.jpg
+    category: Carnes
+    difficulty: EASY
+    prep: 15
+    cook: 15
+    servings: 4
+    notes: "El tavuk şiş. El yogur ablanda la carne: déjalo marinar al menos 2 horas."
+    tags: [pollo, barbacoa, sin gluten]
+    utensils: [Barbacoa]
+    ingredients:
+      - items:
+          - [pechugas de pollo en dados, 700, g]
+          - [yogur natural, 150, g]
+          - [pasta de pimiento rojo o concentrado de tomate, 1, cucharada]
+          - [aceite de oliva, 2, cucharada]
+          - [dientes de ajo, 2, null]
+          - [pimentón dulce, 1, cucharadita]
+          - [orégano seco, 1, cucharadita]
+          - [zumo de limón, 1, cucharada]
+          - [sal, null, null]
+    steps:
+      - Mezcla todos los ingredientes menos el pollo y marina los dados en la nevera 2 horas o toda la noche.
+      - Ensarta el pollo en broquetas.
+      - Ásalas en la barbacoa o la plancha 12-15 minutos, dándoles la vuelta, hasta que estén doradas.
+
+  - name: Berenjenas rellenas karnıyarık
+    health: [YELLOW, "Berenjena frita rellena de carne: verdura y proteína, pero absorbe aceite."]
+    nutrition: [440, 20, 18, 33]
+    photo: cocina-turca/berenjenas-rellenas-karnyark.jpg
+    category: Verduras
+    difficulty: MEDIUM
+    prep: 25
+    cook: 45
+    servings: 4
+    notes: Karnıyarık significa «vientre abierto». Para que absorban menos aceite, puedes asar las berenjenas en el horno.
+    tags: [berenjena, carne picada, horno, sin gluten]
+    utensils: [Horno]
+    ingredients:
+      - items:
+          - [berenjenas medianas, 4, null]
+          - [carne picada de ternera, 300, g]
+          - [cebolla, 1, null]
+          - [pimientos verdes alargados, 2, null]
+          - [tomates, 2, null]
+          - [dientes de ajo, 2, null]
+          - [concentrado de tomate, 1, cucharada]
+          - [perejil picado, 2, cucharada]
+          - [aceite de oliva para freír, null, null]
+          - [sal, null, null]
+    steps:
+      - Pela las berenjenas a rayas, déjalas en agua con sal 20 minutos, sécalas y fríelas enteras hasta que estén blandas.
+      - Sofríe la cebolla y el ajo, añade la carne y luego un tomate picado, sal y el perejil. Cocina 10 minutos.
+      - Precalienta el horno a 180 °C. Abre las berenjenas a lo largo, ponlas en una fuente y rellénalas con la carne. Coloca encima una rodaja de tomate y medio pimiento.
+      - Diluye el concentrado en un vaso de agua caliente, viértelo en la fuente y hornea 25 minutos.
+
+  - name: İmam bayıldı
+    health: [YELLOW, "Berenjena con cebolla y tomate en aceite de oliva: vegetal, pero con mucho aceite."]
+    nutrition: [290, 4, 20, 22]
+    photo: cocina-turca/imam-bayld.jpg
+    category: Verduras
+    difficulty: MEDIUM
+    prep: 25
+    cook: 60
+    servings: 4
+    notes: «El imán se desmayó», de lo rico que estaba. Es un plato de aceite de oliva y se toma a temperatura ambiente.
+    tags: [berenjena, vegana, sin gluten]
+    utensils: [Horno]
+    ingredients:
+      - items:
+          - [berenjenas medianas, 4, null]
+          - [cebollas, 3, null]
+          - [dientes de ajo, 5, null]
+          - [tomates maduros, 3, null]
+          - [pimiento verde, 1, null]
+          - [perejil picado, 4, cucharada]
+          - [azúcar, 1, cucharadita]
+          - [aceite de oliva virgen extra, 120, ml]
+          - [zumo de limón, 1, cucharada]
+          - [sal, null, null]
+    steps:
+      - Pela las berenjenas a rayas, déjalas en agua con sal 20 minutos, sécalas y dóralas enteras en parte del aceite. Ábrelas a lo largo.
+      - Pocha la cebolla en juliana y el ajo en láminas en el resto del aceite 15 minutos. Añade el pimiento, la mitad del tomate picado, el azúcar y la sal y cocina 5 minutos más. Añade el perejil.
+      - Precalienta el horno a 180 °C. Rellena las berenjenas, pon una rodaja de tomate encima y vierte medio vaso de agua con el limón en la fuente.
+      - Hornea tapado 30 minutos y destapado 10 más. Deja enfriar antes de servir.
+
+  - name: Pilaf de bulgur
+    health: [GREEN, "Trigo bulgur con verduras: cereal integral con fibra."]
+    nutrition: [290, 8, 50, 8]
+    category: Pastas
+    difficulty: EASY
+    prep: 10
+    cook: 25
+    servings: 4
+    notes: El bulgur pilavı acompaña carnes y kebabs, o se toma solo con yogur.
+    tags: [cereal, guarnición, vegana]
+    utensils: []
+    ingredients:
+      - items:
+          - [bulgur grueso, 250, g]
+          - [cebolla, 1, null]
+          - [pimiento verde, 1, null]
+          - [tomate, 1, null]
+          - [concentrado de tomate, 1, cucharada]
+          - [aceite de oliva o mantequilla, 2, cucharada]
+          - [caldo de verduras caliente, 500, ml]
+          - [copos de pimiento rojo (pul biber), 0.5, cucharadita]
+          - [sal, null, null]
+    steps:
+      - Pocha la cebolla y el pimiento picados en el aceite 5 minutos. Añade el tomate rallado y el concentrado y cocina 3 minutos.
+      - Añade el bulgur lavado y remueve 2 minutos.
+      - Vierte el caldo, sala, tapa y cuece a fuego mínimo 15 minutos, hasta que absorba el líquido.
+      - Apaga, pon un paño bajo la tapa y deja reposar 10 minutos.
+
+  - name: Kısır
+    health: [GREEN, "Ensalada de bulgur con hierbas y verduras: fibra y grasas buenas."]
+    nutrition: [260, 6, 40, 9]
+    photo: cocina-turca/ksr.jpg
+    category: Ensaladas
+    difficulty: EASY
+    prep: 20
+    cook: 0
+    servings: 6
+    notes: La prima turca del tabulé, con más bulgur y pasta de pimiento. Se come en hojas de lechuga.
+    tags: [ensalada, vegana]
+    origin: Sudeste de Anatolia
+    utensils: []
+    ingredients:
+      - items:
+          - [bulgur fino, 250, g]
+          - [agua hirviendo, 300, ml]
+          - [pasta de pimiento rojo o concentrado de tomate, 2, cucharada]
+          - [cebolletas, 4, null]
+          - [tomates, 2, null]
+          - [pepino, 1, null]
+          - [manojo de perejil, 1, null]
+          - [menta fresca, 2, cucharada]
+          - [melaza de granada, 2, cucharada]
+          - [zumo de limón, 2, cucharada]
+          - [aceite de oliva virgen extra, 4, cucharada]
+          - [comino molido, 1, cucharadita]
+          - [sal, null, null]
+    steps:
+      - Vierte el agua hirviendo sobre el bulgur, tapa y deja 15 minutos.
+      - Mezcla el bulgur con la pasta de pimiento, el aceite y el comino amasando con las manos.
+      - Añade las verduras y las hierbas muy picadas, la melaza de granada, el limón y la sal y mezcla.
+      - Sirve frío con hojas de lechuga.
+
+  - name: Mercimek köftesi
+    health: [GREEN, "Croquetas de lentejas rojas y bulgur sin freír: mucha fibra y proteína vegetal."]
+    nutrition: [280, 12, 46, 6]
+    photo: cocina-turca/mercimek-koftesi.jpg
+    category: Legumbres
+    difficulty: EASY
+    prep: 25
+    cook: 20
+    servings: 6
+    notes: No se fríen. Se moldean apretando con la mano y se comen en hojas de lechuga con limón.
+    tags: [legumbres, vegana, aperitivo]
+    utensils: []
+    ingredients:
+      - items:
+          - [lentejas rojas, 200, g]
+          - [bulgur fino, 150, g]
+          - [cebolla, 1, null]
+          - [pasta de pimiento rojo o concentrado de tomate, 2, cucharada]
+          - [aceite de oliva, 3, cucharada]
+          - [comino molido, 1, cucharadita]
+          - [copos de pimiento rojo (pul biber), 1, cucharadita]
+          - [cebolletas, 4, null]
+          - [perejil picado, 4, cucharada]
+          - [zumo de limón, 1, cucharada]
+          - [sal, null, null]
+    steps:
+      - Cuece las lentejas en 600 ml de agua 15 minutos, hasta que se deshagan. Apaga, añade el bulgur, tapa y deja 20 minutos.
+      - Pocha la cebolla picada en el aceite y añade la pasta de pimiento y las especias.
+      - Mezcla las lentejas con el sofrito, las cebolletas, el perejil, el limón y la sal y amasa bien.
+      - Toma porciones y apriétalas en la mano para darles forma alargada con la marca de los dedos.
+
+  - name: Ezme
+    health: [GREEN, "Tomate, pimiento y hierbas picados: muy ligera y fresca."]
+    nutrition: [80, 1, 8, 5]
+    photo: cocina-turca/ezme.jpg
+    category: Salsas
+    difficulty: EASY
+    prep: 15
+    cook: 0
+    servings: 6
+    notes: La salsa picante de los restaurantes de kebab. Se pica todo a cuchillo, muy fino.
+    tags: [salsa, vegana, sin gluten, aperitivo]
+    utensils: []
+    ingredients:
+      - items:
+          - [tomates firmes, 3, null]
+          - [pimientos verdes alargados, 2, null]
+          - [cebolla pequeña, 1, null]
+          - [diente de ajo, 1, null]
+          - [manojo de perejil, 0.5, null]
+          - [melaza de granada, 1, cucharada]
+          - [aceite de oliva virgen extra, 2, cucharada]
+          - [copos de pimiento rojo (pul biber), 1, cucharadita]
+          - [zumaque, 1, cucharadita]
+          - [sal, null, null]
+    steps:
+      - Pica los tomates sin semillas, los pimientos, la cebolla, el ajo y el perejil muy finos, casi hasta hacerlos pasta.
+      - Mézclalos con la melaza, el aceite, las especias y la sal.
+      - Deja reposar 15 minutos en la nevera y sirve con pan o con carne a la brasa.
+
+  - name: Ensalada del pastor
+    health: [GREEN, "Tomate, pepino y pimiento con aceite y limón: fresca y ligera."]
+    nutrition: [100, 2, 8, 7]
+    photo: cocina-turca/ensalada-del-pastor.jpg
+    category: Ensaladas
+    difficulty: EASY
+    prep: 15
+    cook: 0
+    servings: 4
+    notes: La çoban salatası acompaña casi cualquier comida turca.
+    tags: [ensalada, vegana, sin gluten, rápida]
+    utensils: []
+    ingredients:
+      - items:
+          - [tomates, 3, null]
+          - [pepinos, 2, null]
+          - [pimientos verdes alargados, 2, null]
+          - [cebolla roja, 1, null]
+          - [perejil picado, 3, cucharada]
+          - [zumo de limón, 2, cucharada]
+          - [aceite de oliva virgen extra, 3, cucharada]
+          - [zumaque, 1, cucharadita, optional]
+          - [sal, null, null]
+    steps:
+      - Corta el tomate, el pepino, el pimiento y la cebolla en dados pequeños.
+      - Mezcla con el perejil.
+      - Aliña con el limón, el aceite, la sal y el zumaque y sirve enseguida.
+
+  - name: Künefe
+    health: [RED, "Masa kadaif con queso, mantequilla y almíbar: muy dulce y calórico."]
+    nutrition: [520, 13, 58, 27]
+    photo: cocina-turca/kunefe.jpg
+    category: Postres
+    difficulty: MEDIUM
+    prep: 20
+    cook: 25
+    servings: 4
+    notes: El dulce de Hatay se come recién hecho, con el queso fundido. Se usa un queso sin sal que se estire.
+    tags: [postre, queso]
+    origin: Hatay
+    utensils: [Horno]
+    ingredients:
+      - group: Para el almíbar
+        items:
+          - [azúcar, 200, g]
+          - [agua, 150, ml]
+          - [zumo de limón, 1, cucharadita]
+      - group: Para el künefe
+        items:
+          - [masa kadaif, 250, g]
+          - [mantequilla derretida, 100, g]
+          - [queso que funda sin sal (mozzarella fresca escurrida), 200, g]
+          - [pistachos picados, 2, cucharada]
+    steps:
+      - Hierve el azúcar con el agua 10 minutos, añade el limón y deja enfriar.
+      - Desmenuza la masa kadaif con los dedos y mézclala con la mantequilla.
+      - Precalienta el horno a 200 °C. En un molde de 22 cm, aprieta la mitad de la masa, cubre con el queso y luego con el resto de la masa apretando.
+      - Hornea 20-25 minutos, hasta que esté dorado. Dale la vuelta en un plato, riega con el almíbar frío y espolvorea los pistachos. Sírvelo caliente.
+
+  - name: Revani
+    health: [RED, "Bizcocho de sémola empapado en almíbar: muy dulce."]
+    nutrition: [360, 6, 58, 12]
+    photo: cocina-turca/revani.jpg
+    category: Postres
+    difficulty: EASY
+    prep: 15
+    cook: 35
+    servings: 12
+    notes: Bizcocho de sémola de la cocina otomana. El almíbar frío se vierte sobre el bizcocho caliente para que lo absorba bien.
+    tags: [postre, bizcocho]
+    utensils: [Horno, Batidora]
+    ingredients:
+      - group: Para el almíbar
+        items:
+          - [azúcar, 300, g]
+          - [agua, 500, ml]
+          - [zumo de limón, 1, cucharada]
+      - group: Para el bizcocho
+        items:
+          - [huevos, 4, null]
+          - [azúcar para el bizcocho, 150, g]
+          - [yogur natural, 125, g]
+          - [aceite de girasol, 100, ml]
+          - [sémola fina de trigo, 200, g]
+          - [harina de trigo, 100, g]
+          - [levadura química, 1, sobre]
+          - [ralladura de limón, 1, null]
+          - [coco rallado o pistachos picados, 2, cucharada]
+    steps:
+      - Hierve el azúcar con el agua 10 minutos, añade el limón y deja enfriar.
+      - Precalienta el horno a 180 °C. Bate los huevos con el azúcar hasta que blanqueen, añade el yogur, el aceite y la ralladura y luego la sémola, la harina y la levadura.
+      - Vierte en una fuente de 20 x 30 cm engrasada y hornea 30-35 minutos.
+      - Corta en rombos en la fuente y vierte el almíbar frío sobre el bizcocho caliente. Deja que lo absorba 1 hora y decora con coco o pistachos.
+
+  - name: Ayran
+    health: [GREEN, "Yogur con agua y sal: refrescante, con proteína y calcio."]
+    nutrition: [70, 4, 5, 4]
+    photo: cocina-turca/ayran.jpg
+    category: Bebidas
+    difficulty: EASY
+    prep: 5
+    cook: 0
+    servings: 4
+    notes: La bebida que acompaña los kebabs. Se bate hasta que tenga espuma.
+    tags: [bebida, vegetariana, sin gluten, rápida]
+    utensils: [Batidora]
+    ingredients:
+      - items:
+          - [yogur natural, 400, g]
+          - [agua fría, 400, ml]
+          - [sal, 0.5, cucharadita]
+          - [cubitos de hielo, null, null]
+          - [menta seca, 1, pizca, optional]
+    steps:
+      - Bate el yogur con el agua y la sal 1 minuto, hasta que haga espuma.
+      - Sirve muy frío con hielo y, si quieres, una pizca de menta.

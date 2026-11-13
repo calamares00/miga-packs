@@ -1,0 +1,649 @@
+id: turkish-cooking
+version: 1
+updated: 2026-11-14
+language: en
+name: "World cuisine: Turkey"
+series: World cuisine
+family: cocina-turca
+description: >-
+  The cooking of Turkey, from Istanbul to Anatolia: breakfasts of menemen and çılbır, lahmacun,
+  pide, börek, simit, mantı, İskender and Adana kebabs, chicken şiş, karnıyarık and imam bayıldı
+  aubergines, bulgur pilaf, kısır, mercimek köftesi, ezme, shepherd's salad and sweets such as
+  künefe and revani, with ayran to drink.
+author: Miga
+authorGithub: calamares00
+cover:
+  emoji: "🧆"
+  kicker: World cuisine
+  title: Turkey
+  colors: ["#dc2626", "#7f1d1d"]
+defaults:
+  origin: Turkey
+  originCountry: TR
+  source: "Miga «World cuisine: Turkey» pack"
+recipes:
+
+  - name: Menemen
+    health: [GREEN, "Eggs scrambled with tomato and pepper: protein and vegetables, little fat."]
+    nutrition: [240, 13, 10, 16]
+    photo: cocina-turca/menemen.jpg
+    category: Eggs
+    difficulty: EASY
+    prep: 10
+    cook: 15
+    servings: 3
+    notes: The quintessential Turkish breakfast. Served in the pan, with bread for dipping.
+    tags: [eggs, breakfast, vegetarian, gluten-free, quick]
+    utensils: []
+    ingredients:
+      - items:
+          - [eggs, 4, null]
+          - [ripe tomatoes, 4, null]
+          - [long green peppers, 2, null]
+          - [small onion, 1, null, optional]
+          - [butter or olive oil, 2, tbsp]
+          - [red pepper flakes (pul biber), 1, tsp]
+          - [salt, null, null]
+    steps:
+      - Soften the chopped peppers and onion in the butter for 5 minutes.
+      - Add the peeled, chopped tomatoes and cook for 5-8 minutes, until they release their juice and thicken.
+      - Add the eggs beaten with salt and stir gently just until softly set.
+      - Sprinkle with pul biber and serve at once.
+
+  - name: Turkish eggs (çılbır)
+    health: [YELLOW, "Poached eggs on yoghurt with spiced butter: protein and some fat."]
+    nutrition: [320, 18, 8, 24]
+    photo: cocina-turca/huevos-clbr.jpg
+    category: Eggs
+    difficulty: MEDIUM
+    prep: 10
+    cook: 10
+    servings: 2
+    notes: A dish of the Ottoman sultans. The yoghurt should be at room temperature.
+    tags: [eggs, breakfast, vegetarian, gluten-free]
+    utensils: []
+    ingredients:
+      - items:
+          - [eggs, 4, null]
+          - [Greek yoghurt, 250, g]
+          - [garlic clove, 1, null]
+          - [butter, 30, g]
+          - [red pepper flakes (pul biber), 1, tsp]
+          - [dill or mint, 1, tbsp]
+          - [vinegar, 1, tbsp]
+          - [salt, null, null]
+    steps:
+      - Mix the yoghurt with the crushed garlic and a pinch of salt and spread it on two plates.
+      - Poach the eggs for 3 minutes in barely simmering water with the vinegar and place them on the yoghurt.
+      - Melt the butter with the pul biber until it turns red and pour over the eggs.
+      - Sprinkle with the herbs and serve with bread.
+
+  - name: Lahmacun
+    health: [YELLOW, "Thin dough with minced meat and vegetables: balanced, fairly high in calories."]
+    nutrition: [420, 22, 54, 13]
+    photo: cocina-turca/lahmacun.jpg
+    category: Breads and doughs
+    difficulty: MEDIUM
+    prep: 40
+    cook: 15
+    servings: 6
+    notes: Served topped with parsley, onion and lemon and rolled up to eat.
+    tags: [dough, minced meat, oven]
+    utensils: [Oven, Food processor]
+    ingredients:
+      - group: For the dough
+        items:
+          - [plain flour, 400, g]
+          - [dried yeast, 5, g]
+          - [warm water, 240, ml]
+          - [olive oil, 1, tbsp]
+          - [salt, 1, tsp]
+      - group: For the topping
+        items:
+          - [minced lamb or beef, 300, g]
+          - [onion, 1, null]
+          - [red pepper, 1, null]
+          - [tomato, 1, null]
+          - [garlic cloves, 2, null]
+          - [red pepper paste or tomato paste, 1, tbsp]
+          - [chopped parsley, 3, tbsp]
+          - [ground cumin, 1, tsp]
+          - [red pepper flakes (pul biber), 1, tsp]
+          - [salt, null, null]
+      - group: To serve
+        items:
+          - [sliced red onion, 1, null]
+          - [parsley, null, null]
+          - [lemons, 2, null]
+    steps:
+      - Knead the dough ingredients for 10 minutes and leave to rise, covered, for 1 hour.
+      - Finely chop the onion, pepper, tomato and garlic in the food processor and mix with the meat, pepper paste, parsley and spices.
+      - Heat the oven to 250 °C with the tray inside. Divide the dough into 6 balls and roll into very thin ovals.
+      - Spread a thin layer of meat to the edge and bake each lahmacun for 6-8 minutes, until the edge is crisp.
+      - Serve with onion, parsley and lemon and roll up.
+
+  - name: Meat pide
+    health: [YELLOW, "Boat-shaped bread with meat and vegetables: complete and high in calories."]
+    nutrition: [520, 26, 60, 19]
+    photo: cocina-turca/pide-de-carne.jpg
+    category: Breads and doughs
+    difficulty: MEDIUM
+    prep: 40
+    cook: 15
+    servings: 4
+    notes: The Turkish pizza, shaped like a boat. It can also be filled with cheese or egg.
+    tags: [dough, minced meat, oven]
+    origin: Black Sea
+    utensils: [Oven]
+    ingredients:
+      - group: For the dough
+        items:
+          - [plain flour, 400, g]
+          - [dried yeast, 7, g]
+          - [warm water, 220, ml]
+          - [plain yoghurt, 2, tbsp]
+          - [olive oil, 2, tbsp]
+          - [sugar, 1, tsp]
+          - [salt, 1, tsp]
+      - group: For the filling
+        items:
+          - [minced beef, 400, g]
+          - [onion, 1, null]
+          - [green pepper, 1, null]
+          - [tomatoes, 2, null]
+          - [chopped parsley, 2, tbsp]
+          - [red pepper flakes (pul biber), 1, tsp]
+          - [melted butter, 30, g]
+          - [salt, null, null]
+    steps:
+      - Knead the dough ingredients and leave to rise for 1 hour.
+      - Fry the beef with the chopped onion, pepper and tomato for 10 minutes, until dry. Add the parsley, spices and salt.
+      - Heat the oven to 240 °C. Divide the dough into 4, roll into long ovals, spread the filling and fold the edges in, pinching the ends to make boats.
+      - Bake for 12-15 minutes and brush the edges with butter when they come out.
+
+  - name: Spinach and cheese börek
+    health: [YELLOW, "Layers of pastry with spinach and cheese: vegetables with quite a lot of fat."]
+    nutrition: [420, 15, 32, 26]
+    photo: cocina-turca/borek-de-espinacas-y-queso.jpg
+    category: Breads and doughs
+    difficulty: MEDIUM
+    prep: 30
+    cook: 40
+    servings: 6
+    notes: Made with yufka; filo pastry is the easiest alternative to find.
+    tags: [oven, vegetables, vegetarian]
+    utensils: [Oven]
+    ingredients:
+      - items:
+          - [filo or yufka sheets, 12, null]
+          - [fresh spinach, 500, g]
+          - [onion, 1, null]
+          - [feta or beyaz peynir, 200, g]
+          - [eggs, 2, null]
+          - [milk, 150, ml]
+          - [plain yoghurt, 100, g]
+          - [olive oil, 80, ml]
+          - [sesame or nigella seeds, 1, tbsp]
+          - [salt, null, null]
+    steps:
+      - Soften the onion in a little oil, add the chopped spinach and cook until the water evaporates. Drain well and mix with the crumbled cheese.
+      - Whisk the eggs with the milk, yoghurt, remaining oil and a pinch of salt.
+      - Heat the oven to 190 °C. In an oiled dish, layer 2 sheets brushed with the egg mixture at a time and, every 4 sheets, a layer of filling.
+      - Finish with sheets, brush with the rest of the mixture and sprinkle with the seeds.
+      - Bake for 35-40 minutes, until golden. Rest for 10 minutes before cutting.
+
+  - name: Simit
+    health: [YELLOW, "Bread ring with molasses and sesame: carbohydrates, some sugar."]
+    nutrition: [310, 9, 52, 7]
+    photo: cocina-turca/simit.jpg
+    category: Breads and doughs
+    difficulty: MEDIUM
+    prep: 30
+    cook: 20
+    servings: 8
+    notes: The sesame ring sold from Istanbul street carts. Grape molasses (pekmez) gives it its colour.
+    tags: [bread, breakfast, vegan]
+    origin: Istanbul
+    utensils: [Oven, Stand mixer]
+    ingredients:
+      - items:
+          - [plain flour, 500, g]
+          - [dried yeast, 7, g]
+          - [warm water, 300, ml]
+          - [olive oil, 2, tbsp]
+          - [sugar, 1, tsp]
+          - [salt, 1.5, tsp]
+          - [grape molasses or treacle, 100, ml]
+          - [water for the molasses, 150, ml]
+          - [sesame seeds, 200, g]
+    steps:
+      - Knead the flour, yeast, water, oil, sugar and salt for 10 minutes and leave to rise for 1 hour.
+      - Divide into 8 pieces, roll each into two 50 cm ropes, twist them together and join into a ring.
+      - Mix the molasses with the water, dip the rings in it and coat them in toasted sesame.
+      - Rest for 15 minutes and bake at 220 °C for 15-20 minutes, until deep golden.
+
+  - name: Mantı
+    health: [YELLOW, "Meat dumplings with yoghurt and butter: complete and high in calories."]
+    nutrition: [560, 28, 58, 23]
+    photo: cocina-turca/mant.jpg
+    category: Pasta
+    difficulty: HARD
+    prep: 90
+    cook: 15
+    servings: 4
+    notes: The Turkish dumplings of Kayseri; the smaller they are, the more skilled the cook. They freeze well raw.
+    tags: [pasta, minced meat]
+    origin: Kayseri
+    utensils: []
+    ingredients:
+      - group: For the dough
+        items:
+          - [plain flour, 300, g]
+          - [egg, 1, null]
+          - [water, 100, ml]
+          - [salt, 1, tsp]
+      - group: For the filling
+        items:
+          - [minced beef or lamb, 250, g]
+          - [small grated onion, 1, null]
+          - [chopped parsley, 2, tbsp]
+          - [salt and pepper, null, null]
+      - group: To serve
+        items:
+          - [plain yoghurt, 400, g]
+          - [garlic cloves, 2, null]
+          - [butter, 50, g]
+          - [tomato paste, 1, tbsp]
+          - [red pepper flakes (pul biber), 1, tsp]
+          - [dried mint, 1, tsp]
+    steps:
+      - Knead the flour with the egg, water and salt into a firm, smooth dough. Rest for 30 minutes.
+      - Mix the filling ingredients.
+      - Roll the dough very thinly and cut into 3 cm squares. Put a little ball of filling on each and bring the four corners together into a pouch.
+      - Boil the mantı in salted water for 8-10 minutes.
+      - Serve with the yoghurt mixed with garlic and pour over the butter melted with the tomato paste, pul biber and mint.
+
+  - name: İskender kebab
+    health: [RED, "Meat with bread, tomato sauce, butter and yoghurt: very high in calories."]
+    nutrition: [720, 42, 46, 40]
+    photo: cocina-turca/iskender-kebab.jpg
+    category: Meat
+    difficulty: MEDIUM
+    prep: 20
+    cook: 25
+    servings: 4
+    notes: Created in Bursa. At home it is made with very thin slices of beef instead of döner meat.
+    tags: [kebab, beef]
+    origin: Bursa
+    utensils: []
+    ingredients:
+      - items:
+          - [very thin beef or lamb steaks, 600, g]
+          - [pide or pitta bread, 2, null]
+          - [crushed tomatoes, 400, g]
+          - [tomato paste, 1, tbsp]
+          - [butter, 80, g]
+          - [thick plain yoghurt, 400, g]
+          - [olive oil, 2, tbsp]
+          - [ground cumin, 1, tsp]
+          - [salt, null, null]
+    steps:
+      - Cut the meat into thin strips, season with cumin, salt and oil and stir-fry over very high heat in batches.
+      - Simmer the tomato with the paste, a spoonful of butter and salt for 10 minutes.
+      - Cut the bread into cubes, toast it and divide among the plates. Spoon over a little tomato sauce.
+      - Top with the meat, cover with more sauce and, at the table, pour over the remaining butter melted and sizzling hot. Serve with the yoghurt.
+
+  - name: Adana kebab
+    health: [YELLOW, "Grilled minced lamb: lots of protein and quite a lot of fat."]
+    nutrition: [460, 30, 6, 35]
+    photo: cocina-turca/adana-kebab.jpg
+    category: Meat
+    difficulty: MEDIUM
+    prep: 25
+    cook: 10
+    servings: 4
+    notes: The spicy kebab of Adana, with hand-chopped meat. You need wide, flat skewers.
+    tags: [kebab, barbecue, lamb, gluten-free]
+    origin: Adana
+    utensils: [Barbecue]
+    ingredients:
+      - items:
+          - [minced lamb with some fat, 600, g]
+          - [red pepper, 1, null]
+          - [red pepper flakes (pul biber), 2, tsp]
+          - [sweet paprika, 1, tsp]
+          - [ground cumin, 0.5, tsp]
+          - [salt, 1, tsp]
+          - [sliced red onion with sumac, 1, null]
+    steps:
+      - Chop the pepper very finely, drain it and knead with the meat, spices and salt for 5 minutes, until sticky. Chill for 1 hour.
+      - With wet hands, mould the meat around the skewers, pressing with your fingers.
+      - Grill over high heat for 8-10 minutes, turning.
+      - Serve with bread, the onion with sumac and grilled peppers and tomatoes.
+
+  - name: Turkish chicken skewers
+    health: [GREEN, "Yoghurt-marinated grilled chicken breast: lots of protein, little fat."]
+    nutrition: [290, 38, 6, 12]
+    photo: cocina-turca/brochetas-de-pollo-a-la-turca.jpg
+    category: Meat
+    difficulty: EASY
+    prep: 15
+    cook: 15
+    servings: 4
+    notes: Tavuk şiş. The yoghurt tenderises the meat; marinate for at least 2 hours.
+    tags: [chicken, barbecue, gluten-free]
+    utensils: [Barbecue]
+    ingredients:
+      - items:
+          - [chicken breasts in cubes, 700, g]
+          - [plain yoghurt, 150, g]
+          - [red pepper paste or tomato paste, 1, tbsp]
+          - [olive oil, 2, tbsp]
+          - [garlic cloves, 2, null]
+          - [sweet paprika, 1, tsp]
+          - [dried oregano, 1, tsp]
+          - [lemon juice, 1, tbsp]
+          - [salt, null, null]
+    steps:
+      - Mix everything except the chicken and marinate the cubes in the fridge for 2 hours or overnight.
+      - Thread the chicken onto skewers.
+      - Grill on the barbecue or griddle for 12-15 minutes, turning, until golden.
+
+  - name: Karnıyarık stuffed aubergines
+    health: [YELLOW, "Fried aubergine stuffed with meat: vegetables and protein, but it soaks up oil."]
+    nutrition: [440, 20, 18, 33]
+    photo: cocina-turca/berenjenas-rellenas-karnyark.jpg
+    category: Vegetables
+    difficulty: MEDIUM
+    prep: 25
+    cook: 45
+    servings: 4
+    notes: Karnıyarık means "split belly". To use less oil, roast the aubergines in the oven instead.
+    tags: [aubergine, minced meat, oven, gluten-free]
+    utensils: [Oven]
+    ingredients:
+      - items:
+          - [medium aubergines, 4, null]
+          - [minced beef, 300, g]
+          - [onion, 1, null]
+          - [long green peppers, 2, null]
+          - [tomatoes, 2, null]
+          - [garlic cloves, 2, null]
+          - [tomato paste, 1, tbsp]
+          - [chopped parsley, 2, tbsp]
+          - [olive oil for frying, null, null]
+          - [salt, null, null]
+    steps:
+      - Peel the aubergines in stripes, soak them in salted water for 20 minutes, dry them and fry them whole until soft.
+      - Fry the onion and garlic, add the beef, then one chopped tomato, salt and the parsley. Cook for 10 minutes.
+      - Heat the oven to 180 °C. Split the aubergines lengthways, place in a dish and fill with the meat. Top with a slice of tomato and half a pepper.
+      - Dilute the tomato paste in a glass of hot water, pour into the dish and bake for 25 minutes.
+
+  - name: İmam bayıldı
+    health: [YELLOW, "Aubergine with onion and tomato in olive oil: plant-based, but oily."]
+    nutrition: [290, 4, 20, 22]
+    photo: cocina-turca/imam-bayld.jpg
+    category: Vegetables
+    difficulty: MEDIUM
+    prep: 25
+    cook: 60
+    servings: 4
+    notes: '"The imam fainted", so good was it. An olive oil dish, eaten at room temperature.'
+    tags: [aubergine, vegan, gluten-free]
+    utensils: [Oven]
+    ingredients:
+      - items:
+          - [medium aubergines, 4, null]
+          - [onions, 3, null]
+          - [garlic cloves, 5, null]
+          - [ripe tomatoes, 3, null]
+          - [green pepper, 1, null]
+          - [chopped parsley, 4, tbsp]
+          - [sugar, 1, tsp]
+          - [extra virgin olive oil, 120, ml]
+          - [lemon juice, 1, tbsp]
+          - [salt, null, null]
+    steps:
+      - Peel the aubergines in stripes, soak them in salted water for 20 minutes, dry them and brown them whole in some of the oil. Split them lengthways.
+      - Soften the sliced onion and garlic in the rest of the oil for 15 minutes. Add the pepper, half the chopped tomato, sugar and salt and cook 5 minutes more. Stir in the parsley.
+      - Heat the oven to 180 °C. Fill the aubergines, top with a slice of tomato and pour half a glass of water with the lemon into the dish.
+      - Bake covered for 30 minutes and uncovered for 10 more. Leave to cool before serving.
+
+  - name: Bulgur pilaf
+    health: [GREEN, "Bulgur wheat with vegetables: wholegrain with fibre."]
+    nutrition: [290, 8, 50, 8]
+    category: Pasta
+    difficulty: EASY
+    prep: 10
+    cook: 25
+    servings: 4
+    notes: Bulgur pilavı goes with meat and kebabs, or on its own with yoghurt.
+    tags: [grain, side, vegan]
+    utensils: []
+    ingredients:
+      - items:
+          - [coarse bulgur, 250, g]
+          - [onion, 1, null]
+          - [green pepper, 1, null]
+          - [tomato, 1, null]
+          - [tomato paste, 1, tbsp]
+          - [olive oil or butter, 2, tbsp]
+          - [hot vegetable stock, 500, ml]
+          - [red pepper flakes (pul biber), 0.5, tsp]
+          - [salt, null, null]
+    steps:
+      - Soften the chopped onion and pepper in the oil for 5 minutes. Add the grated tomato and paste and cook for 3 minutes.
+      - Add the rinsed bulgur and stir for 2 minutes.
+      - Pour in the stock, season, cover and cook over the lowest heat for 15 minutes, until absorbed.
+      - Turn off the heat, put a tea towel under the lid and rest for 10 minutes.
+
+  - name: Kısır
+    health: [GREEN, "Bulgur salad with herbs and vegetables: fibre and good fats."]
+    nutrition: [260, 6, 40, 9]
+    photo: cocina-turca/ksr.jpg
+    category: Salads
+    difficulty: EASY
+    prep: 20
+    cook: 0
+    servings: 6
+    notes: The Turkish cousin of tabbouleh, with more bulgur and pepper paste. Eaten in lettuce leaves.
+    tags: [salad, vegan]
+    origin: Southeastern Anatolia
+    utensils: []
+    ingredients:
+      - items:
+          - [fine bulgur, 250, g]
+          - [boiling water, 300, ml]
+          - [red pepper paste or tomato paste, 2, tbsp]
+          - [spring onions, 4, null]
+          - [tomatoes, 2, null]
+          - [cucumber, 1, null]
+          - [bunch of parsley, 1, null]
+          - [fresh mint, 2, tbsp]
+          - [pomegranate molasses, 2, tbsp]
+          - [lemon juice, 2, tbsp]
+          - [extra virgin olive oil, 4, tbsp]
+          - [ground cumin, 1, tsp]
+          - [salt, null, null]
+    steps:
+      - Pour the boiling water over the bulgur, cover and leave for 15 minutes.
+      - Work the pepper paste, oil and cumin into the bulgur with your hands.
+      - Add the finely chopped vegetables and herbs, the pomegranate molasses, lemon and salt and mix.
+      - Serve cold with lettuce leaves.
+
+  - name: Mercimek köftesi
+    health: [GREEN, "Unfried red lentil and bulgur patties: lots of fibre and plant protein."]
+    nutrition: [280, 12, 46, 6]
+    photo: cocina-turca/mercimek-koftesi.jpg
+    category: Legumes
+    difficulty: EASY
+    prep: 25
+    cook: 20
+    servings: 6
+    notes: They are not fried. Shape them by squeezing in your hand and eat them in lettuce leaves with lemon.
+    tags: [legumes, vegan, appetizer]
+    utensils: []
+    ingredients:
+      - items:
+          - [red lentils, 200, g]
+          - [fine bulgur, 150, g]
+          - [onion, 1, null]
+          - [red pepper paste or tomato paste, 2, tbsp]
+          - [olive oil, 3, tbsp]
+          - [ground cumin, 1, tsp]
+          - [red pepper flakes (pul biber), 1, tsp]
+          - [spring onions, 4, null]
+          - [chopped parsley, 4, tbsp]
+          - [lemon juice, 1, tbsp]
+          - [salt, null, null]
+    steps:
+      - Simmer the lentils in 600 ml of water for 15 minutes, until they fall apart. Turn off the heat, add the bulgur, cover and leave for 20 minutes.
+      - Soften the chopped onion in the oil and add the pepper paste and spices.
+      - Mix the lentils with the onion, spring onions, parsley, lemon and salt and knead well.
+      - Take portions and squeeze them in your hand into elongated shapes with finger marks.
+
+  - name: Ezme
+    health: [GREEN, "Chopped tomato, pepper and herbs: very light and fresh."]
+    nutrition: [80, 1, 8, 5]
+    photo: cocina-turca/ezme.jpg
+    category: Sauces
+    difficulty: EASY
+    prep: 15
+    cook: 0
+    servings: 6
+    notes: The spicy relish of kebab restaurants. Everything is chopped by hand, very finely.
+    tags: [sauce, vegan, gluten-free, appetizer]
+    utensils: []
+    ingredients:
+      - items:
+          - [firm tomatoes, 3, null]
+          - [long green peppers, 2, null]
+          - [small onion, 1, null]
+          - [garlic clove, 1, null]
+          - [bunch of parsley, 0.5, null]
+          - [pomegranate molasses, 1, tbsp]
+          - [extra virgin olive oil, 2, tbsp]
+          - [red pepper flakes (pul biber), 1, tsp]
+          - [sumac, 1, tsp]
+          - [salt, null, null]
+    steps:
+      - Chop the deseeded tomatoes, peppers, onion, garlic and parsley very finely, almost to a paste.
+      - Mix with the molasses, oil, spices and salt.
+      - Rest for 15 minutes in the fridge and serve with bread or grilled meat.
+
+  - name: Shepherd's salad
+    health: [GREEN, "Tomato, cucumber and pepper with oil and lemon: fresh and light."]
+    nutrition: [100, 2, 8, 7]
+    photo: cocina-turca/ensalada-del-pastor.jpg
+    category: Salads
+    difficulty: EASY
+    prep: 15
+    cook: 0
+    servings: 4
+    notes: Çoban salatası goes with almost any Turkish meal.
+    tags: [salad, vegan, gluten-free, quick]
+    utensils: []
+    ingredients:
+      - items:
+          - [tomatoes, 3, null]
+          - [cucumbers, 2, null]
+          - [long green peppers, 2, null]
+          - [red onion, 1, null]
+          - [chopped parsley, 3, tbsp]
+          - [lemon juice, 2, tbsp]
+          - [extra virgin olive oil, 3, tbsp]
+          - [sumac, 1, tsp, optional]
+          - [salt, null, null]
+    steps:
+      - Cut the tomato, cucumber, pepper and onion into small dice.
+      - Mix with the parsley.
+      - Dress with the lemon, oil, salt and sumac and serve at once.
+
+  - name: Künefe
+    health: [RED, "Kadaif pastry with cheese, butter and syrup: very sweet and rich."]
+    nutrition: [520, 13, 58, 27]
+    photo: cocina-turca/kunefe.jpg
+    category: Desserts
+    difficulty: MEDIUM
+    prep: 20
+    cook: 25
+    servings: 4
+    notes: The sweet of Hatay, eaten straight from the oven with the cheese melted. Use an unsalted cheese that stretches.
+    tags: [dessert, cheese]
+    origin: Hatay
+    utensils: [Oven]
+    ingredients:
+      - group: For the syrup
+        items:
+          - [sugar, 200, g]
+          - [water, 150, ml]
+          - [lemon juice, 1, tsp]
+      - group: For the künefe
+        items:
+          - [kadaif pastry, 250, g]
+          - [melted butter, 100, g]
+          - [unsalted melting cheese (drained fresh mozzarella), 200, g]
+          - [chopped pistachios, 2, tbsp]
+    steps:
+      - Boil the sugar with the water for 10 minutes, add the lemon and leave to cool.
+      - Pull the kadaif apart with your fingers and mix it with the butter.
+      - Heat the oven to 200 °C. Press half the pastry into a 22 cm tin, cover with the cheese, then the rest of the pastry, pressing down.
+      - Bake for 20-25 minutes, until golden. Turn out onto a plate, pour over the cold syrup and sprinkle with pistachios. Serve hot.
+
+  - name: Revani
+    health: [RED, "Semolina sponge soaked in syrup: very sweet."]
+    nutrition: [360, 6, 58, 12]
+    photo: cocina-turca/revani.jpg
+    category: Desserts
+    difficulty: EASY
+    prep: 15
+    cook: 35
+    servings: 12
+    notes: An Ottoman semolina cake. The cold syrup goes over the hot cake so it soaks it up well.
+    tags: [dessert, cake]
+    utensils: [Oven, Blender]
+    ingredients:
+      - group: For the syrup
+        items:
+          - [sugar, 300, g]
+          - [water, 500, ml]
+          - [lemon juice, 1, tbsp]
+      - group: For the cake
+        items:
+          - [eggs, 4, null]
+          - [sugar for the cake, 150, g]
+          - [plain yoghurt, 125, g]
+          - [sunflower oil, 100, ml]
+          - [fine semolina, 200, g]
+          - [plain flour, 100, g]
+          - [baking powder, 1, sachet]
+          - [lemon zest, 1, null]
+          - [desiccated coconut or chopped pistachios, 2, tbsp]
+    steps:
+      - Boil the sugar with the water for 10 minutes, add the lemon and leave to cool.
+      - Heat the oven to 180 °C. Whisk the eggs with the sugar until pale, add the yoghurt, oil and zest, then the semolina, flour and baking powder.
+      - Pour into an oiled 20 x 30 cm dish and bake for 30-35 minutes.
+      - Cut into diamonds in the dish and pour the cold syrup over the hot cake. Leave to soak for 1 hour and decorate with coconut or pistachios.
+
+  - name: Ayran
+    health: [GREEN, "Yoghurt with water and salt: refreshing, with protein and calcium."]
+    nutrition: [70, 4, 5, 4]
+    photo: cocina-turca/ayran.jpg
+    category: Drinks
+    difficulty: EASY
+    prep: 5
+    cook: 0
+    servings: 4
+    notes: The drink that goes with kebabs. Whisk it until frothy.
+    tags: [drink, vegetarian, gluten-free, quick]
+    utensils: [Blender]
+    ingredients:
+      - items:
+          - [plain yoghurt, 400, g]
+          - [cold water, 400, ml]
+          - [salt, 0.5, tsp]
+          - [ice cubes, null, null]
+          - [dried mint, 1, pinch, optional]
+    steps:
+      - Whisk the yoghurt with the water and salt for 1 minute, until frothy.
+      - Serve very cold with ice and, if you like, a pinch of mint.

@@ -1,0 +1,626 @@
+id: cocina-francesa
+version: 1
+updated: 2026-11-14
+language: es
+name: "Cocina del mundo: Francia"
+series: Cocina del mundo
+family: cocina-francesa
+description: >-
+  Los clásicos de la cocina francesa, de bistró y de casa: ternera a la borgoñona, pollo al vino,
+  quiche lorraine, croque monsieur, gratin dauphinois, bullabesa, cassoulet, blanquette de
+  ternera, mejillones a la marinera, magret con naranja, hachis parmentier, soufflé de queso,
+  ensalada lionesa, pissaladière, tapenade y, de postre, tarta Tatin, crème brûlée,
+  profiteroles, clafoutis de cerezas y madeleines. Con mantequilla, vino y hierbas.
+author: Miga
+authorGithub: calamares00
+cover:
+  emoji: "🥐"
+  kicker: Cocina del mundo
+  title: Francia
+  colors: ["#1e3a8a", "#ef4444"]
+defaults:
+  origin: Francia
+  originCountry: FR
+  source: "Pack «Cocina del mundo: Francia» de Miga"
+recipes:
+
+  - name: Ternera a la borgoñona
+    health: [YELLOW, "Guiso de ternera con vino y verduras: mucha proteína y hierro, con algo de grasa."]
+    nutrition: [520, 42, 12, 28]
+    photo: cocina-francesa/ternera-a-la-borgonona.jpg
+    category: Carnes
+    difficulty: MEDIUM
+    prep: 30
+    cook: 180
+    servings: 6
+    notes: El bœuf bourguignon. Mejor de un día para otro. Usa un vino tinto que te beberías, no uno de cocinar.
+    tags: [guiso, ternera, invierno]
+    origin: Borgoña
+    utensils: [Horno]
+    ingredients:
+      - items:
+          - [ternera para guisar (morcillo o aguja) en dados grandes, 1.2, kg]
+          - [panceta en tiras, 150, g]
+          - [cebollitas francesas o chalotas, 12, null]
+          - [zanahorias, 2, null]
+          - [dientes de ajo, 3, null]
+          - [harina, 2, cucharada]
+          - [concentrado de tomate, 1, cucharada]
+          - [vino tinto de Borgoña, 750, ml]
+          - [caldo de carne, 300, ml]
+          - ["ramillete de hierbas (tomillo, laurel, perejil)", 1, null]
+          - [champiñones, 250, g]
+          - [mantequilla, 30, g]
+          - [aceite de oliva, 2, cucharada]
+          - [sal, null, null]
+    steps:
+      - Precalienta el horno a 160 °C. Dora la panceta en una cazuela que vaya al horno y resérvala.
+      - Seca bien la carne, salpimiéntala y dórala por tandas en la grasa de la panceta con el aceite. Resérvala.
+      - Rehoga las zanahorias en rodajas y el ajo 5 minutos. Vuelve a poner la carne, espolvorea la harina y remueve 2 minutos.
+      - Añade el tomate, el vino, el caldo, el ramillete y la panceta. Lleva a ebullición, tapa y hornea 2 horas y media, hasta que la carne esté muy tierna.
+      - Dora las cebollitas y los champiñones en la mantequilla y añádelos al guiso los últimos 20 minutos.
+
+  - name: Pollo al vino
+    health: [YELLOW, "Pollo guisado en vino tinto con setas: completo, con la grasa de la panceta."]
+    nutrition: [480, 40, 10, 26]
+    photo: cocina-francesa/pollo-al-vino.jpg
+    category: Carnes
+    difficulty: MEDIUM
+    prep: 25
+    cook: 90
+    servings: 4
+    notes: El coq au vin. Tradicionalmente con gallo; con muslos de pollo queda muy jugoso.
+    tags: [guiso, pollo]
+    utensils: []
+    ingredients:
+      - items:
+          - [muslos y contramuslos de pollo, 1.2, kg]
+          - [panceta en tiras, 120, g]
+          - [chalotas, 10, null]
+          - [champiñones, 250, g]
+          - [dientes de ajo, 2, null]
+          - [harina, 2, cucharada]
+          - [vino tinto, 600, ml]
+          - [coñac, 30, ml, optional]
+          - [tomillo, 2, ramita]
+          - [hoja de laurel, 1, null]
+          - [mantequilla, 30, g]
+          - [sal, null, null]
+    steps:
+      - Dora la panceta en una cazuela y resérvala. Dora el pollo salpimentado en su grasa.
+      - Si usas coñac, viértelo y flambea con cuidado.
+      - Espolvorea la harina, remueve, añade el vino, el ajo, el tomillo y el laurel y cuece tapado a fuego suave 60 minutos.
+      - Dora las chalotas y los champiñones en la mantequilla y añádelos con la panceta los últimos 20 minutos.
+
+  - name: Quiche lorraine
+    health: [RED, "Masa quebrada con nata, huevo y bacon: muy calórica."]
+    nutrition: [540, 16, 24, 42]
+    photo: cocina-francesa/quiche-lorraine.jpg
+    category: Huevos
+    difficulty: MEDIUM
+    prep: 25
+    cook: 45
+    servings: 6
+    notes: La original de Lorena lleva solo bacon, huevo y nata, sin queso. Molde de 24 cm.
+    tags: [huevos, horno]
+    origin: Lorena
+    utensils: [Horno]
+    ingredients:
+      - group: Para la masa quebrada
+        items:
+          - [harina de trigo, 200, g]
+          - [mantequilla fría en dados, 100, g]
+          - [yema de huevo, 1, null]
+          - [agua fría, 3, cucharada]
+          - [sal, 1, pizca]
+      - group: Para el relleno
+        items:
+          - [bacon ahumado en tiras, 200, g]
+          - [huevos, 3, null]
+          - [nata para cocinar, 300, ml]
+          - [nuez moscada, 1, pizca]
+          - [pimienta negra, null, null]
+    steps:
+      - Mezcla la harina, la sal y la mantequilla con los dedos hasta tener una arena. Añade la yema y el agua, forma una bola y refrigera 30 minutos.
+      - Precalienta el horno a 190 °C. Estira la masa, forra el molde, pínchala y hornéala 12 minutos con peso encima.
+      - Dora el bacon en una sartén sin aceite y repártelo sobre la masa.
+      - Bate los huevos con la nata, la nuez moscada y la pimienta y viértelo encima.
+      - Hornea a 180 °C 25-30 minutos, hasta que esté cuajada y dorada.
+
+  - name: Croque monsieur
+    health: [RED, "Pan con jamón, queso y bechamel gratinados: muy calórico."]
+    nutrition: [560, 28, 36, 34]
+    photo: cocina-francesa/croque-monsieur.jpg
+    category: Panes y masas
+    difficulty: EASY
+    prep: 10
+    cook: 15
+    servings: 4
+    notes: Con un huevo frito encima se convierte en croque madame.
+    tags: [sándwich, queso, rápida]
+    utensils: [Horno]
+    ingredients:
+      - items:
+          - [pan de molde grueso, 8, rebanada]
+          - [jamón cocido, 4, loncha]
+          - [queso gruyer o emmental rallado, 150, g]
+          - [bechamel espesa, 200, ml]
+          - [mostaza de Dijon, 1, cucharada]
+          - [mantequilla, 30, g]
+    steps:
+      - Precalienta el horno a 200 °C con el grill.
+      - Unta cuatro rebanadas con mostaza y monta los sándwiches con el jamón y un poco de queso.
+      - Unta el exterior con mantequilla y dóralos en una sartén por los dos lados.
+      - Ponlos en una bandeja, cúbrelos con la bechamel y el resto del queso y gratina 5-6 minutos.
+
+  - name: Gratin dauphinois
+    health: [RED, "Patata con nata y leche gratinada: muy calórica, como guarnición."]
+    nutrition: [380, 7, 30, 26]
+    photo: cocina-francesa/gratin-dauphinois.jpg
+    category: Verduras
+    difficulty: EASY
+    prep: 20
+    cook: 75
+    servings: 6
+    notes: El auténtico del Delfinado no lleva queso. Corta las patatas muy finas, con mandolina si tienes.
+    tags: [patata, horno, vegetariana, sin gluten]
+    origin: Delfinado
+    utensils: [Horno]
+    ingredients:
+      - items:
+          - [patatas, 1.2, kg]
+          - [leche entera, 500, ml]
+          - [nata para cocinar, 250, ml]
+          - [dientes de ajo, 2, null]
+          - [mantequilla, 20, g]
+          - [nuez moscada, 1, pizca]
+          - [sal, 1.5, cucharadita]
+    steps:
+      - Precalienta el horno a 160 °C. Frota una fuente con un ajo partido y úntala con mantequilla.
+      - Pela las patatas, córtalas en láminas de 3 mm y cuécelas 10 minutos en la leche con la nata, el ajo, la nuez moscada y la sal, removiendo con cuidado.
+      - Pásalo todo a la fuente.
+      - Hornea 60-70 minutos, hasta que las patatas estén tiernas y la superficie dorada.
+
+  - name: Bullabesa
+    health: [GREEN, "Sopa de varios pescados y mariscos: mucha proteína y poca grasa."]
+    nutrition: [380, 40, 16, 16]
+    photo: cocina-francesa/bullabesa.jpg
+    category: Pescados y mariscos
+    difficulty: HARD
+    prep: 40
+    cook: 50
+    servings: 6
+    notes: La bouillabaisse de Marsella. Se sirve el caldo con pan tostado untado de rouille y el pescado aparte.
+    tags: [pescado, marisco, sopa]
+    origin: Marsella
+    utensils: []
+    ingredients:
+      - group: Para la sopa
+        items:
+          - ["pescados variados de roca y blancos (rape, cabracho, congrio, merluza)", 1.5, kg]
+          - [mejillones, 500, g]
+          - [cebolla, 1, null]
+          - [puerro, 1, null]
+          - [bulbo de hinojo, 1, null]
+          - [dientes de ajo, 4, null]
+          - [tomates maduros, 3, null]
+          - [piel de naranja, 1, trozo]
+          - [azafrán, 1, pizca]
+          - [caldo de pescado, 1.5, l]
+          - [aceite de oliva virgen extra, 5, cucharada]
+          - [sal, null, null]
+      - group: Para la rouille y el pan
+        items:
+          - [mayonesa, 150, g]
+          - [diente de ajo, 1, null]
+          - [pimentón picante o cayena, 1, pizca]
+          - [pan del día anterior, 12, rebanada]
+    steps:
+      - Sofríe la cebolla, el puerro, el hinojo y el ajo picados en el aceite 10 minutos. Añade los tomates pelados y troceados y cocina 5 minutos.
+      - Añade el caldo, la piel de naranja y el azafrán y hierve 20 minutos.
+      - Añade primero los pescados más firmes en trozos, 5 minutos después los más delicados y los mejillones, y cuece 5-8 minutos más. Sala.
+      - Mezcla la mayonesa con el ajo machacado y el pimentón para la rouille. Tuesta el pan.
+      - Sirve el caldo con el pan untado de rouille y el pescado en una fuente aparte.
+
+  - name: Cassoulet
+    health: [RED, "Alubias con pato, salchicha y cerdo: muy saciante, pero con mucha grasa."]
+    nutrition: [720, 44, 46, 40]
+    photo: cocina-francesa/cassoulet.jpg
+    category: Legumbres
+    difficulty: HARD
+    prep: 30
+    cook: 180
+    servings: 6
+    notes: Pon las alubias a remojo la noche antes. Con muslos de pato confitado comprados se simplifica mucho.
+    tags: [legumbres, guiso, invierno]
+    origin: Languedoc
+    utensils: [Horno]
+    ingredients:
+      - items:
+          - [alubias blancas secas, 500, g]
+          - [muslos de pato confitado, 4, null]
+          - [salchichas de Toulouse o frescas, 4, null]
+          - [panceta o costilla de cerdo, 300, g]
+          - [cebolla, 1, null]
+          - [zanahoria, 1, null]
+          - [dientes de ajo, 4, null]
+          - [tomate triturado, 200, g]
+          - [ramillete de hierbas, 1, null]
+          - [pan rallado, 4, cucharada]
+          - [sal, null, null]
+    steps:
+      - Cuece las alubias escurridas con la cebolla, la zanahoria, el ajo y el ramillete en agua sin sal 1 hora. Sala al final.
+      - Dora la panceta en trozos y las salchichas en la grasa del pato.
+      - En una cazuela de barro alterna alubias, carnes y pato, añade el tomate y cubre con el caldo de las alubias.
+      - Espolvorea el pan rallado y hornea a 160 °C 2 horas. Rompe la costra que se forma 2 o 3 veces y deja que se forme otra.
+
+  - name: Blanquette de ternera
+    health: [YELLOW, "Ternera en salsa blanca con nata y yema: suave, pero con grasa."]
+    nutrition: [470, 38, 14, 28]
+    photo: cocina-francesa/blanquette-de-ternera.jpg
+    category: Carnes
+    difficulty: MEDIUM
+    prep: 20
+    cook: 120
+    servings: 6
+    notes: Un guiso blanco, sin dorar la carne. Se sirve con arroz blanco.
+    tags: [guiso, ternera]
+    utensils: []
+    ingredients:
+      - items:
+          - [ternera para guisar en dados, 1.2, kg]
+          - [zanahorias, 2, null]
+          - [cebolla con un clavo pinchado, 1, null]
+          - [puerro, 1, null]
+          - [ramillete de hierbas, 1, null]
+          - [champiñones, 250, g]
+          - [mantequilla, 40, g]
+          - [harina, 40, g]
+          - [nata para cocinar, 150, ml]
+          - [yema de huevo, 1, null]
+          - [zumo de limón, 1, cucharada]
+          - [sal, null, null]
+    steps:
+      - Cubre la carne con agua fría, llévala a ebullición, escúrrela y enjuágala.
+      - Ponla de nuevo con agua que la cubra, las verduras, el ramillete y sal y cuece a fuego suave 1 hora y media.
+      - Escurre la carne guardando el caldo. Saltea los champiñones en un poco de mantequilla.
+      - Haz un roux con la mantequilla y la harina, añade 800 ml de caldo y cuece 10 minutos. Fuera del fuego, añade la nata batida con la yema y el limón.
+      - Vuelve a poner la carne y los champiñones en la salsa y calienta sin que hierva.
+
+  - name: Mejillones a la marinera
+    health: [GREEN, "Mejillones al vapor con vino: mucha proteína, hierro y poca grasa."]
+    nutrition: [320, 28, 10, 16]
+    photo: cocina-francesa/mejillones-a-la-marinera.jpg
+    category: Pescados y mariscos
+    difficulty: EASY
+    prep: 15
+    cook: 10
+    servings: 4
+    notes: Las moules marinières. En Bélgica y el norte de Francia se sirven con patatas fritas.
+    tags: [marisco, rápida, sin gluten]
+    utensils: []
+    ingredients:
+      - items:
+          - [mejillones limpios, 2, kg]
+          - [chalotas, 2, null]
+          - [dientes de ajo, 2, null]
+          - [vino blanco seco, 200, ml]
+          - [mantequilla, 40, g]
+          - [perejil picado, 3, cucharada]
+          - [nata para cocinar, 100, ml, optional]
+    steps:
+      - Pocha las chalotas y el ajo picados en la mantequilla en una olla grande 3 minutos.
+      - Añade el vino y lleva a ebullición.
+      - Añade los mejillones, tapa y cuece 5-6 minutos, moviendo la olla, hasta que se abran. Desecha los que sigan cerrados.
+      - Añade la nata si quieres y el perejil, mezcla y sirve con el caldo.
+
+  - name: Magret de pato con salsa de naranja
+    health: [YELLOW, "Pato rico en proteína; la piel es grasa, aunque gran parte se queda en la sartén."]
+    nutrition: [480, 34, 14, 32]
+    photo: cocina-francesa/magret-de-pato-con-salsa-de-naranja.jpg
+    category: Carnes
+    difficulty: MEDIUM
+    prep: 10
+    cook: 25
+    servings: 4
+    notes: El magret se sirve rosado por dentro. Guarda la grasa que suelta para unas patatas.
+    tags: [pato, ocasión especial, sin gluten]
+    origin: Gascuña
+    utensils: []
+    ingredients:
+      - items:
+          - [magrets de pato, 2, null]
+          - [naranjas (zumo y ralladura), 2, null]
+          - [miel, 1, cucharada]
+          - [vinagre de vino, 1, cucharada]
+          - [caldo de ave, 100, ml]
+          - [mantequilla fría, 20, g]
+          - [sal, null, null]
+    steps:
+      - Haz cortes en rombo en la piel del magret sin llegar a la carne. Salpimienta.
+      - Ponlos con la piel hacia abajo en una sartén fría y cocina a fuego medio 10-12 minutos, retirando la grasa. Dales la vuelta y cocina 4 minutos más.
+      - Deja reposar 5 minutos. En la misma sartén sin grasa, carameliza la miel con el vinagre, añade el zumo, la ralladura y el caldo y reduce a la mitad.
+      - Fuera del fuego, añade la mantequilla y remueve. Corta el magret en lonchas y sirve con la salsa.
+
+  - name: Hachis parmentier
+    health: [YELLOW, "Carne con puré gratinado: completo y saciante, con algo de grasa."]
+    nutrition: [490, 30, 36, 24]
+    photo: cocina-francesa/hachis-parmentier.jpg
+    category: Carnes
+    difficulty: EASY
+    prep: 25
+    cook: 30
+    servings: 6
+    notes: El pastel de carne y puré de patata de las casas francesas, a menudo con la carne del cocido.
+    tags: [horno, ternera]
+    utensils: [Horno]
+    ingredients:
+      - items:
+          - [carne picada de ternera, 600, g]
+          - [cebolla, 1, null]
+          - [dientes de ajo, 2, null]
+          - [tomate triturado, 100, g]
+          - [patatas harinosas, 1, kg]
+          - [leche, 150, ml]
+          - [mantequilla, 50, g]
+          - [queso rallado, 60, g]
+          - [nuez moscada, 1, pizca]
+          - [sal, null, null]
+    steps:
+      - Cuece las patatas peladas en agua con sal 20 minutos y hazlas puré con la leche caliente, la mantequilla y la nuez moscada.
+      - Sofríe la cebolla y el ajo picados, añade la carne y dórala. Añade el tomate, sala y cocina 10 minutos.
+      - Pon la carne en una fuente, cubre con el puré y espolvorea el queso.
+      - Gratina a 200 °C 20 minutos, hasta que esté dorado.
+
+  - name: Soufflé de queso
+    health: [YELLOW, "Huevo, leche y queso: proteína y calcio, con bastante grasa."]
+    nutrition: [320, 16, 10, 24]
+    photo: cocina-francesa/souffle-de-queso.jpg
+    category: Huevos
+    difficulty: HARD
+    prep: 20
+    cook: 30
+    servings: 4
+    notes: No abras el horno mientras se hace. Sírvelo enseguida, antes de que baje.
+    tags: [huevos, queso, horno, vegetariana]
+    utensils: [Horno, Batidora]
+    ingredients:
+      - items:
+          - [mantequilla, 40, g]
+          - [harina, 40, g]
+          - [leche, 300, ml]
+          - [huevos, 4, null]
+          - [queso comté o gruyer rallado, 100, g]
+          - [nuez moscada, 1, pizca]
+          - [sal, null, null]
+    steps:
+      - Precalienta el horno a 190 °C. Unta un molde de soufflé de 18 cm con mantequilla y espolvoréalo con queso.
+      - Haz una bechamel con la mantequilla, la harina y la leche. Fuera del fuego, añade las yemas, el queso, la nuez moscada y la sal.
+      - Monta las claras a punto de nieve firme e incorpóralas con movimientos envolventes.
+      - Vierte en el molde, pasa un dedo por el borde y hornea 25-30 minutos, hasta que esté inflado y dorado.
+
+  - name: Ensalada lionesa
+    health: [YELLOW, "Ensalada con huevo poché y panceta: completa, con la grasa del tocino."]
+    nutrition: [360, 16, 14, 26]
+    photo: cocina-francesa/ensalada-lionesa.jpg
+    category: Ensaladas
+    difficulty: MEDIUM
+    prep: 15
+    cook: 15
+    servings: 4
+    notes: La salade lyonnaise se hace con escarola rizada, que aguanta el aliño caliente.
+    tags: [ensalada, huevos]
+    origin: Lyon
+    utensils: []
+    ingredients:
+      - items:
+          - [escarola rizada, 1, null]
+          - [panceta en dados, 150, g]
+          - [pan del día anterior en dados, 2, rebanada]
+          - [huevos, 4, null]
+          - [vinagre de vino tinto, 2, cucharada]
+          - [mostaza de Dijon, 1, cucharadita]
+          - [aceite de oliva, 3, cucharada]
+          - [sal, null, null]
+    steps:
+      - Lava la escarola y ponla en una fuente grande.
+      - Dora la panceta en una sartén y resérvala. Dora los dados de pan en su grasa.
+      - Escalfa los huevos 3 minutos en agua con un chorrito de vinagre a punto de hervir.
+      - Mezcla el aceite, la mostaza, el vinagre y la sal, aliña la escarola y reparte la panceta, el pan y un huevo por ración.
+
+  - name: Pissaladière
+    health: [YELLOW, "Masa con cebolla pochada, anchoas y aceitunas: sabrosa, pero salada."]
+    nutrition: [360, 9, 46, 15]
+    photo: cocina-francesa/pissaladiere.jpg
+    category: Panes y masas
+    difficulty: MEDIUM
+    prep: 20
+    cook: 75
+    servings: 6
+    notes: La pizza de cebolla de Niza. La cebolla se pocha muy despacio, sin que se dore.
+    tags: [masa, aperitivo]
+    origin: Niza
+    utensils: [Horno]
+    ingredients:
+      - items:
+          - [masa de pan o de pizza, 400, g]
+          - [cebollas, 1.2, kg]
+          - [aceite de oliva virgen extra, 5, cucharada]
+          - [dientes de ajo, 2, null]
+          - [tomillo, 2, ramita]
+          - [filetes de anchoa, 16, null]
+          - [aceitunas negras de Niza, 20, null]
+          - [sal, null, null]
+    steps:
+      - Pocha las cebollas en juliana con el aceite, el ajo y el tomillo a fuego muy suave 45 minutos, hasta que estén muy blandas. Sala con cuidado.
+      - Precalienta el horno a 220 °C y estira la masa en una bandeja engrasada.
+      - Reparte la cebolla, dibuja una rejilla con las anchoas y pon una aceituna en cada hueco.
+      - Hornea 20-25 minutos, hasta que el borde esté dorado. Se toma templada o fría.
+
+  - name: Tapenade
+    health: [YELLOW, "Aceitunas con alcaparras y aceite: grasas buenas, pero mucha sal."]
+    nutrition: [130, 1, 2, 13]
+    photo: cocina-francesa/tapenade.jpg
+    category: Entrantes
+    difficulty: EASY
+    prep: 10
+    cook: 0
+    servings: 6
+    notes: Crema provenzal para untar en pan tostado o acompañar verduras.
+    tags: [aperitivo, vegetariana, sin gluten]
+    origin: Provenza
+    utensils: [Batidora]
+    ingredients:
+      - items:
+          - [aceitunas negras deshuesadas, 200, g]
+          - [alcaparras, 2, cucharada]
+          - [filetes de anchoa, 4, null, optional]
+          - [diente de ajo, 1, null]
+          - [zumo de limón, 1, cucharada]
+          - [tomillo seco, 0.5, cucharadita]
+          - [aceite de oliva virgen extra, 60, ml]
+    steps:
+      - Pon todos los ingredientes menos el aceite en la picadora.
+      - Tritura a impulsos mientras añades el aceite poco a poco, hasta tener una pasta con algo de textura.
+      - Sirve con pan tostado. Se guarda una semana en la nevera cubierta de aceite.
+
+  - name: Tarta Tatin
+    health: [RED, "Manzana caramelizada con mantequilla y masa: muy dulce."]
+    nutrition: [380, 3, 52, 18]
+    photo: cocina-francesa/tarta-tatin.jpg
+    category: Postres
+    difficulty: MEDIUM
+    prep: 20
+    cook: 45
+    servings: 8
+    notes: La tarta de manzana al revés. Hace falta una sartén o molde que vaya al horno, de 24 cm.
+    tags: [postre, fruta, horno]
+    utensils: [Horno]
+    ingredients:
+      - items:
+          - [manzanas reineta o golden, 7, null]
+          - [azúcar, 150, g]
+          - [mantequilla, 80, g]
+          - [lámina de masa quebrada u hojaldre, 1, null]
+    steps:
+      - Precalienta el horno a 190 °C. Pela las manzanas y córtalas en cuartos.
+      - Funde el azúcar en la sartén hasta tener un caramelo dorado, añade la mantequilla y remueve.
+      - Coloca los cuartos de manzana de pie y muy apretados sobre el caramelo y cuécelos 15 minutos a fuego medio.
+      - Cubre con la masa, mete los bordes hacia dentro y hornea 25-30 minutos.
+      - Deja reposar 5 minutos y dale la vuelta sobre una fuente con cuidado.
+
+  - name: Crème brûlée
+    health: [RED, "Nata, yemas y azúcar: un postre muy calórico."]
+    nutrition: [420, 5, 26, 33]
+    photo: cocina-francesa/creme-brulee.jpg
+    category: Postres
+    difficulty: MEDIUM
+    prep: 15
+    cook: 45
+    servings: 6
+    notes: Hace falta un soplete para caramelizar el azúcar. Necesita al menos 4 horas de nevera.
+    tags: [postre, sin gluten]
+    utensils: [Horno]
+    ingredients:
+      - items:
+          - [nata para montar, 500, ml]
+          - [vaina de vainilla, 1, null]
+          - [yemas de huevo, 6, null]
+          - [azúcar, 80, g]
+          - [azúcar moreno para caramelizar, 6, cucharada]
+    steps:
+      - Precalienta el horno a 150 °C. Calienta la nata con la vainilla abierta y deja infusionar 15 minutos.
+      - Bate las yemas con el azúcar, añade la nata colada poco a poco y quita la espuma.
+      - Reparte en cazuelitas y hornéalas al baño maría 35-40 minutos, hasta que estén cuajadas pero tiemblen en el centro.
+      - Enfría y refrigera 4 horas. Antes de servir, espolvorea el azúcar moreno y caramelízalo con el soplete.
+
+  - name: Profiteroles con chocolate
+    health: [RED, "Pasta choux con nata o helado y chocolate: muy dulce."]
+    nutrition: [430, 7, 34, 30]
+    photo: cocina-francesa/profiteroles-con-chocolate.jpg
+    category: Postres
+    difficulty: HARD
+    prep: 40
+    cook: 25
+    servings: 8
+    notes: Salen unas 24 bolitas. Rellénalas justo antes de servir para que no se ablanden.
+    tags: [postre, chocolate]
+    utensils: [Horno, Batidora]
+    ingredients:
+      - group: Para la pasta choux
+        items:
+          - [agua, 125, ml]
+          - [leche, 125, ml]
+          - [mantequilla, 100, g]
+          - [sal, 1, pizca]
+          - [harina de trigo, 150, g]
+          - [huevos, 4, null]
+      - group: Para el relleno y la salsa
+        items:
+          - [nata para montar, 400, ml]
+          - [azúcar glas, 40, g]
+          - [chocolate negro, 150, g]
+          - [nata para cocinar, 150, ml]
+    steps:
+      - Precalienta el horno a 200 °C. Lleva a ebullición el agua, la leche, la mantequilla y la sal, añade la harina de golpe y remueve hasta que la masa se despegue.
+      - Deja templar y añade los huevos uno a uno, batiendo bien.
+      - Forma bolitas con una manga en una bandeja con papel de horno y hornea 20-25 minutos sin abrir el horno. Deja enfriar.
+      - Monta la nata con el azúcar glas y rellena los profiteroles por debajo con una manga.
+      - Funde el chocolate con la nata caliente y sirve los profiteroles bañados con la salsa.
+
+  - name: Clafoutis de cerezas
+    health: [YELLOW, "Fruta con una masa de huevo y leche: un postre casero no muy pesado."]
+    nutrition: [240, 6, 34, 9]
+    photo: cocina-francesa/clafoutis-de-cerezas.jpg
+    category: Postres
+    difficulty: EASY
+    prep: 15
+    cook: 40
+    servings: 6
+    notes: En el Lemosín las cerezas se ponen con hueso, que da sabor. Avisa a quien lo coma.
+    tags: [postre, fruta, horno]
+    origin: Lemosín
+    utensils: [Horno, Batidora]
+    ingredients:
+      - items:
+          - [cerezas, 500, g]
+          - [huevos, 3, null]
+          - [azúcar, 80, g]
+          - [harina, 60, g]
+          - [leche, 250, ml]
+          - [mantequilla derretida, 30, g]
+          - [extracto de vainilla, 1, cucharadita]
+          - [azúcar glas, null, null]
+    steps:
+      - Precalienta el horno a 180 °C y engrasa una fuente de horno.
+      - Reparte las cerezas lavadas en la fuente.
+      - Bate los huevos con el azúcar, añade la harina, la leche, la mantequilla y la vainilla hasta tener una masa como la de crepes.
+      - Vierte sobre las cerezas y hornea 35-40 minutos. Espolvorea azúcar glas y sirve templado.
+
+  - name: Madeleines
+    health: [RED, "Bizcochitos de mantequilla: pequeños, pero dulces y grasos."]
+    nutrition: [110, 2, 12, 6]
+    photo: cocina-francesa/madeleines.jpg
+    category: Postres
+    difficulty: EASY
+    prep: 15
+    cook: 10
+    servings: 20
+    notes: Hace falta un molde de madeleines. El reposo en la nevera es lo que les da la joroba. Las raciones son madeleines.
+    tags: [postre, merienda]
+    origin: Lorena
+    utensils: [Horno]
+    ingredients:
+      - items:
+          - [huevos, 2, null]
+          - [azúcar, 100, g]
+          - [miel, 1, cucharada]
+          - [ralladura de limón, 1, null]
+          - [harina de trigo, 110, g]
+          - [levadura química, 1, cucharadita]
+          - [mantequilla derretida, 110, g]
+    steps:
+      - Bate los huevos con el azúcar, la miel y la ralladura hasta que blanqueen.
+      - Añade la harina con la levadura y luego la mantequilla templada.
+      - Tapa la masa y refrigera al menos 1 hora.
+      - Precalienta el horno a 220 °C. Llena los moldes engrasados hasta 3/4 y hornea 5 minutos; baja a 180 °C y hornea 4-5 minutos más.

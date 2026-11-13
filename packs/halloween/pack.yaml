@@ -1,0 +1,344 @@
+id: halloween
+version: 1
+updated: 2026-11-14
+language: es
+name: Halloween
+series: Especiales
+family: halloween
+description: >-
+  Recetas para una fiesta de Halloween, con calabaza y mucho juego para hacer con los peques:
+  sopa de calabaza y boniato, momias de salchicha, pizza telaraña, huevos endiablados con arañas,
+  dedos de bruja, fantasmas de plátano, mandarinas calabaza, brownie cementerio, manzanas de
+  caramelo, pan de calabaza, galletas de calabaza con especias y ponche de bruja. Pregunta por
+  alergias, y cuidado con el caramelo caliente y las aceitunas enteras con los más pequeños.
+author: Miga
+authorGithub: calamares00
+cover:
+  emoji: "🎃"
+  title: Halloween
+  colors: ["#ea580c", "#1c1917"]
+defaults:
+  source: Pack «Halloween» de Miga
+recipes:
+
+  - name: Sopa de calabaza y boniato
+    health: [GREEN, "Crema de verduras con fibra y vitamina A, con poca grasa."]
+    nutrition: [190, 4, 30, 6]
+    photo: halloween/sopa-de-calabaza-y-boniato.jpg
+    category: Sopas y cremas
+    difficulty: EASY
+    prep: 15
+    cook: 30
+    servings: 6
+    notes: Sírvela en una calabaza vaciada o dibuja una telaraña con un hilo de nata o yogur y un palillo.
+    tags: [crema, calabaza, otoño, vegetariana, sin gluten]
+    utensils: [Batidora]
+    ingredients:
+      - items:
+          - [calabaza pelada, 800, g]
+          - [boniato, 1, null]
+          - [cebolla, 1, null]
+          - [zanahoria, 1, null]
+          - [caldo de verduras, 1, l]
+          - [aceite de oliva, 2, cucharada]
+          - [nuez moscada, 1, pizca]
+          - [nata o yogur para decorar, 4, cucharada]
+          - [pipas de calabaza, 2, cucharada]
+          - [sal, null, null]
+    steps:
+      - Pocha la cebolla en el aceite 5 minutos.
+      - Añade la calabaza, el boniato y la zanahoria troceados y el caldo y cuece 25 minutos.
+      - Tritura hasta tener una crema fina, sazona con la nuez moscada y la sal.
+      - Sirve con espirales de nata o yogur dibujadas con un palillo y las pipas tostadas.
+
+  - name: Momias de salchicha
+    health: [RED, "Salchichas envueltas en hojaldre: ultraprocesado y graso."]
+    nutrition: [320, 9, 20, 23]
+    category: Entrantes
+    difficulty: EASY
+    prep: 15
+    cook: 20
+    servings: 8
+    notes: Los ojos se ponen al salir del horno con dos puntitos de mostaza o ketchup.
+    tags: [fiesta, niños, horno]
+    utensils: [Horno]
+    ingredients:
+      - items:
+          - [salchichas tipo Frankfurt, 8, null]
+          - [lámina de hojaldre, 1, null]
+          - [huevo batido, 1, null]
+          - [mostaza o ketchup, 1, cucharada]
+    steps:
+      - Precalienta el horno a 200 °C. Corta el hojaldre en tiras de 1 cm.
+      - Envuelve cada salchicha con 2 o 3 tiras cruzadas, dejando libre una franja para la cara.
+      - Pinta con huevo y hornea 15-20 minutos, hasta que estén dorados.
+      - Pon los ojos con mostaza o ketchup.
+
+  - name: Pizza telaraña
+    health: [YELLOW, "Pizza casera de tomate y queso: calórica, pero sencilla."]
+    nutrition: [420, 18, 50, 16]
+    category: Panes y masas
+    difficulty: EASY
+    prep: 20
+    cook: 15
+    servings: 4
+    notes: La telaraña se hace con mozzarella fresca en tiras, y la araña con media aceituna negra.
+    tags: [fiesta, niños, horno, vegetariana]
+    utensils: [Horno]
+    ingredients:
+      - items:
+          - [masa de pizza, 1, null]
+          - [tomate triturado, 150, g]
+          - [orégano seco, 1, cucharadita]
+          - [queso mozzarella rallado, 100, g]
+          - [mozzarella fresca, 1, null]
+          - [aceitunas negras sin hueso, 4, null]
+          - [aceite de oliva, 1, cucharada]
+    steps:
+      - Precalienta el horno a 230 °C. Extiende la masa, cubre con el tomate, el orégano y la mozzarella rallada.
+      - Corta la mozzarella fresca en tiras finas y colócalas formando círculos concéntricos y radios, como una telaraña.
+      - Hornea 12-15 minutos.
+      - Haz arañas con media aceituna como cuerpo y tiras finas de aceituna como patas y colócalas encima.
+
+  - name: Huevos endiablados con arañas
+    health: [YELLOW, "Huevos rellenos con mayonesa: proteína, con grasa de la mayonesa."]
+    nutrition: [190, 10, 2, 16]
+    photo: halloween/huevos-endiablados-con-aranas.jpg
+    category: Huevos
+    difficulty: EASY
+    prep: 20
+    cook: 12
+    servings: 6
+    notes: Para niños pequeños, corta bien las aceitunas.
+    tags: [fiesta, aperitivo, sin gluten, vegetariana]
+    utensils: []
+    ingredients:
+      - items:
+          - [huevos, 6, null]
+          - [mayonesa, 3, cucharada]
+          - [mostaza, 1, cucharadita]
+          - [pimentón dulce, 1, pizca]
+          - [aceitunas negras sin hueso, 6, null]
+          - [sal, null, null]
+    steps:
+      - Cuece los huevos 11 minutos, enfríalos en agua fría, pélalos y pártelos por la mitad.
+      - Machaca las yemas con la mayonesa, la mostaza y la sal y rellena las claras.
+      - Corta las aceitunas por la mitad a lo largo; una mitad es el cuerpo de la araña y la otra, cortada en tiras finas, las patas.
+      - Coloca una araña sobre cada huevo y espolvorea un poco de pimentón.
+
+  - name: Dedos de bruja
+    health: [RED, "Galletas de mantequilla y azúcar: dulces."]
+    nutrition: [110, 2, 14, 5]
+    photo: halloween/dedos-de-bruja.jpg
+    category: Postres
+    difficulty: EASY
+    prep: 30
+    cook: 15
+    servings: 24
+    notes: La uña es una almendra pegada con mermelada roja. Las raciones son galletas.
+    tags: [fiesta, niños, galletas]
+    utensils: [Horno]
+    ingredients:
+      - items:
+          - [mantequilla blanda, 125, g]
+          - [azúcar glas, 80, g]
+          - [huevo, 1, null]
+          - [extracto de vainilla, 1, cucharadita]
+          - [harina de trigo, 250, g]
+          - [levadura química, 0.5, cucharadita]
+          - [almendras crudas peladas, 24, null]
+          - [mermelada de fresa, 2, cucharada]
+    steps:
+      - Bate la mantequilla con el azúcar, añade el huevo y la vainilla y luego la harina con la levadura. Refrigera la masa 30 minutos.
+      - Precalienta el horno a 170 °C. Forma dedos de 8 cm con porciones pequeñas de masa, estrechándolos en los nudillos.
+      - Marca los nudillos con un cuchillo y aprieta una almendra en la punta como uña.
+      - Hornea 12-15 minutos, sin que se doren mucho. Ya fríos, levanta las almendras y pégalas con mermelada para que parezca sangre.
+
+  - name: Fantasmas de plátano
+    health: [GREEN, "Fruta con unos toques de chocolate: un tentempié ligero."]
+    nutrition: [100, 1, 24, 1]
+    category: Postres
+    difficulty: EASY
+    prep: 10
+    cook: 0
+    servings: 6
+    notes: "Se oscurecen pronto: prepáralos justo antes de servir o pinta el plátano con zumo de limón."
+    tags: [fiesta, niños, fruta, vegana, sin gluten, rápida]
+    utensils: []
+    ingredients:
+      - items:
+          - [plátanos, 3, null]
+          - [pepitas de chocolate, 18, null]
+          - [zumo de limón, 1, cucharadita]
+    steps:
+      - Pela los plátanos y córtalos por la mitad a lo ancho.
+      - Ponlos de pie sobre el lado del corte y píntalos con el limón.
+      - Clava dos pepitas de chocolate para los ojos y una para la boca.
+
+  - name: Mandarinas calabaza
+    health: [GREEN, "Solo fruta: vitamina C y fibra."]
+    nutrition: [50, 1, 12, 0]
+    category: Postres
+    difficulty: EASY
+    prep: 10
+    cook: 0
+    servings: 6
+    notes: Una alternativa sana en la mesa de la fiesta. El tallo es un trocito de apio o una hoja de menta.
+    tags: [fiesta, niños, fruta, vegana, sin gluten, rápida]
+    utensils: []
+    ingredients:
+      - items:
+          - [mandarinas, 6, null]
+          - [rama de apio, 1, null]
+    steps:
+      - Pela las mandarinas enteras con cuidado de que no se separen los gajos.
+      - Corta el apio en bastoncitos de 1,5 cm.
+      - Clava un bastoncito en el centro de cada mandarina como tallo.
+
+  - name: Brownie cementerio
+    health: [RED, "Brownie con galleta y chocolate: muy dulce."]
+    nutrition: [420, 5, 50, 23]
+    photo: halloween/brownie-cementerio.jpg
+    category: Postres
+    difficulty: EASY
+    prep: 25
+    cook: 25
+    servings: 12
+    notes: Las lápidas son galletas alargadas con «RIP» escrito con chocolate fundido; la tierra, galletas de cacao trituradas.
+    tags: [fiesta, niños, chocolate, horno]
+    utensils: [Horno]
+    ingredients:
+      - group: Para el brownie
+        items:
+          - [chocolate negro, 200, g]
+          - [mantequilla, 150, g]
+          - [azúcar, 200, g]
+          - [huevos, 3, null]
+          - [harina de trigo, 100, g]
+          - [cacao en polvo, 2, cucharada]
+      - group: Para decorar
+        items:
+          - [galletas de cacao rellenas, 8, null]
+          - [galletas alargadas tipo soletilla o barquillo, 12, null]
+          - [chocolate blanco o negro para escribir, 30, g]
+          - [gominolas de gusano, 12, null, optional]
+    steps:
+      - Precalienta el horno a 180 °C. Funde el chocolate con la mantequilla.
+      - Bate los huevos con el azúcar, añade el chocolate y luego la harina y el cacao. Vierte en un molde de 20 x 30 cm forrado con papel.
+      - Hornea 22-25 minutos, hasta que el centro esté apenas hecho. Deja enfriar.
+      - Tritura las galletas de cacao y espárcelas como tierra. Escribe RIP en las galletas alargadas, clávalas como lápidas y añade los gusanos.
+
+  - name: Manzanas de caramelo
+    health: [RED, "Fruta cubierta de caramelo: mucho azúcar."]
+    nutrition: [260, 0, 66, 0]
+    photo: halloween/manzanas-de-caramelo.jpg
+    category: Postres
+    difficulty: MEDIUM
+    prep: 10
+    cook: 20
+    servings: 6
+    notes: "El caramelo quema mucho: que los niños miren de lejos. Hace falta un termómetro de cocina para clavar el punto."
+    tags: [fiesta, fruta, sin gluten]
+    utensils: []
+    ingredients:
+      - items:
+          - [manzanas rojas pequeñas, 6, null]
+          - [azúcar, 300, g]
+          - [agua, 100, ml]
+          - [jarabe de glucosa o miel, 2, cucharada]
+          - [colorante alimentario rojo, 0.5, cucharadita, optional]
+          - [palitos de madera, 6, null]
+    steps:
+      - Lava las manzanas con agua caliente para quitar la cera, sécalas bien y clávales un palito.
+      - Calienta el azúcar, el agua y la glucosa sin remover hasta 150 °C (punto de caramelo duro). Añade el colorante.
+      - Inclina el cazo y baña cada manzana girándola. Escurre el exceso.
+      - Déjalas sobre papel de horno engrasado hasta que el caramelo se endurezca.
+
+  - name: Pan de calabaza
+    health: [YELLOW, "Bizcocho de calabaza con especias: lleva verdura, pero es dulce."]
+    nutrition: [290, 5, 42, 12]
+    photo: halloween/pan-de-calabaza.jpg
+    category: Postres
+    difficulty: EASY
+    prep: 15
+    cook: 60
+    servings: 10
+    notes: El pumpkin bread estadounidense. Para el puré, asa la calabaza y tritúrala, o usa puré en lata.
+    tags: [bizcocho, calabaza, otoño, horno]
+    origin: Estados Unidos
+    originCountry: US
+    utensils: [Horno]
+    ingredients:
+      - items:
+          - [puré de calabaza, 400, g]
+          - [huevos, 2, null]
+          - [azúcar moreno, 180, g]
+          - [aceite de girasol, 100, ml]
+          - [harina de trigo, 250, g]
+          - [bicarbonato sódico, 1, cucharadita]
+          - [levadura química, 1, cucharadita]
+          - [canela molida, 2, cucharadita]
+          - [jengibre molido, 1, cucharadita]
+          - [nuez moscada, 0.5, cucharadita]
+          - [sal, 1, pizca]
+          - [nueces picadas, 60, g, optional]
+    steps:
+      - Precalienta el horno a 175 °C y forra un molde de plum cake.
+      - Bate el puré con los huevos, el azúcar y el aceite.
+      - Añade la harina con el bicarbonato, la levadura, las especias y la sal, y las nueces si las usas.
+      - Hornea 55-60 minutos, hasta que un palillo salga limpio. Deja enfriar en una rejilla.
+
+  - name: Galletas de calabaza con especias
+    health: [RED, "Galletas con azúcar y mantequilla: dulces, aunque llevan calabaza."]
+    nutrition: [120, 2, 17, 5]
+    photo: halloween/galletas-de-calabaza-con-especias.jpg
+    category: Postres
+    difficulty: EASY
+    prep: 20
+    cook: 12
+    servings: 24
+    notes: Galletas blandas de otoño. Las raciones son galletas.
+    tags: [galletas, calabaza, otoño, horno]
+    utensils: [Horno]
+    ingredients:
+      - items:
+          - [puré de calabaza, 200, g]
+          - [mantequilla blanda, 100, g]
+          - [azúcar moreno, 150, g]
+          - [huevo, 1, null]
+          - [harina de trigo, 280, g]
+          - [levadura química, 1, cucharadita]
+          - [canela molida, 2, cucharadita]
+          - [jengibre molido, 0.5, cucharadita]
+          - [clavo molido, 1, pizca]
+          - [pepitas de chocolate, 100, g, optional]
+    steps:
+      - Precalienta el horno a 180 °C. Bate la mantequilla con el azúcar, añade el huevo y el puré.
+      - Añade la harina con la levadura y las especias, y las pepitas si las usas.
+      - Pon cucharadas de masa separadas en una bandeja con papel.
+      - Hornea 10-12 minutos. Deja enfriar en la bandeja 5 minutos antes de moverlas.
+
+  - name: Ponche de bruja
+    health: [YELLOW, "Zumos de fruta con gaseosa: sin alcohol, pero con azúcar."]
+    nutrition: [110, 0, 27, 0]
+    photo: halloween/ponche-de-bruja.jpg
+    category: Bebidas
+    difficulty: EASY
+    prep: 15
+    cook: 0
+    servings: 8
+    notes: Sin alcohol. Congela agua en un guante de látex sin polvo (bien lavado) para hacer una mano de hielo flotante.
+    tags: [fiesta, niños, bebida, vegana, sin gluten]
+    utensils: []
+    ingredients:
+      - items:
+          - [zumo de uva negra, 1, l]
+          - [zumo de naranja, 500, ml]
+          - [gaseosa o agua con gas, 500, ml]
+          - [naranjas en rodajas, 2, null]
+          - [uvas negras, 200, g]
+          - [hielo, null, null]
+    steps:
+      - Prepara la mano de hielo la noche antes, o cubitos con uvas dentro.
+      - Mezcla los zumos en una ponchera grande con las rodajas de naranja y las uvas.
+      - Justo antes de servir, añade la gaseosa y el hielo.

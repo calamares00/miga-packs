@@ -15,6 +15,16 @@ Cada pack está en español y en inglés; la app muestra los del idioma en que l
 | 🧑‍🍳 [Cooking with kids](packs/cooking-with-kids/pack.yaml) | Everyday cooking | en | 12 | [cooking-with-kids-v2.zip](dist/cooking-with-kids-v2.zip) |
 | 🍱 [Tápers para el trabajo](packs/tapers-para-el-trabajo/pack.yaml) | Cocina de cada día | es | 14 | [tapers-para-el-trabajo-v2.zip](dist/tapers-para-el-trabajo-v2.zip) |
 | 🍱 [Packed lunches for work](packs/packed-lunches/pack.yaml) | Everyday cooking | en | 14 | [packed-lunches-v2.zip](dist/packed-lunches-v2.zip) |
+| ♻️ [Cocina de aprovechamiento](packs/cocina-de-aprovechamiento/pack.yaml) | Cocina de cada día | es | 12 | [cocina-de-aprovechamiento-v1.zip](dist/cocina-de-aprovechamiento-v1.zip) |
+| ♻️ [Use-it-up cooking](packs/leftovers-cooking/pack.yaml) | Everyday cooking | en | 12 | [leftovers-cooking-v1.zip](dist/leftovers-cooking-v1.zip) |
+| 🖐️ [Recetas con 5 ingredientes](packs/recetas-con-5-ingredientes/pack.yaml) | Cocina de cada día | es | 12 | [recetas-con-5-ingredientes-v1.zip](dist/recetas-con-5-ingredientes-v1.zip) |
+| 🖐️ [Five-ingredient recipes](packs/five-ingredient-recipes/pack.yaml) | Everyday cooking | en | 12 | [five-ingredient-recipes-v1.zip](dist/five-ingredient-recipes-v1.zip) |
+| 🪙 [Cocina económica](packs/cocina-economica/pack.yaml) | Cocina de cada día | es | 12 | [cocina-economica-v1.zip](dist/cocina-economica-v1.zip) |
+| 🪙 [Budget cooking](packs/budget-cooking/pack.yaml) | Everyday cooking | en | 12 | [budget-cooking-v1.zip](dist/budget-cooking-v1.zip) |
+| 🍰 [Repostería sin horno](packs/reposteria-sin-horno/pack.yaml) | Cocina de cada día | es | 12 | [reposteria-sin-horno-v1.zip](dist/reposteria-sin-horno-v1.zip) |
+| 🍰 [No-bake desserts](packs/no-bake-desserts/pack.yaml) | Everyday cooking | en | 12 | [no-bake-desserts-v1.zip](dist/no-bake-desserts-v1.zip) |
+| 🍪 [Galletas y bizcochos](packs/galletas-y-bizcochos/pack.yaml) | Cocina de cada día | es | 12 | [galletas-y-bizcochos-v1.zip](dist/galletas-y-bizcochos-v1.zip) |
+| 🍪 [Biscuits and cakes](packs/biscuits-and-cakes/pack.yaml) | Everyday cooking | en | 12 | [biscuits-and-cakes-v1.zip](dist/biscuits-and-cakes-v1.zip) |
 | 🍟 [Freidora de aire](packs/freidora-de-aire/pack.yaml) | Electrodomésticos | es | 20 | [freidora-de-aire-v3.zip](dist/freidora-de-aire-v3.zip) |
 | 🍟 [Air fryer](packs/air-fryer/pack.yaml) | Kitchen appliances | en | 20 | [air-fryer-v3.zip](dist/air-fryer-v3.zip) |
 | 🥣 [Thermomix: cremas y purés](packs/thermomix-cremas-y-pures/pack.yaml) | Electrodomésticos | es | 20 | [thermomix-cremas-y-pures-v3.zip](dist/thermomix-cremas-y-pures-v3.zip) |
@@ -29,6 +39,12 @@ Cada pack está en español y en inglés; la app muestra los del idioma en que l
 | 🫙 [Thermomix: sauces and basics](packs/thermomix-sauces-and-basics/pack.yaml) | Kitchen appliances | en | 15 | [thermomix-sauces-and-basics-v2.zip](dist/thermomix-sauces-and-basics-v2.zip) |
 | 🍼 [Thermomix: comida para bebés](packs/thermomix-comida-para-bebes/pack.yaml) | Electrodomésticos | es | 12 | [thermomix-comida-para-bebes-v2.zip](dist/thermomix-comida-para-bebes-v2.zip) |
 | 🍼 [Thermomix: baby food](packs/thermomix-baby-food/pack.yaml) | Kitchen appliances | en | 12 | [thermomix-baby-food-v2.zip](dist/thermomix-baby-food-v2.zip) |
+| ⏲️ [Olla exprés](packs/olla-expres/pack.yaml) | Electrodomésticos | es | 12 | [olla-expres-v1.zip](dist/olla-expres-v1.zip) |
+| ⏲️ [Pressure cooker](packs/pressure-cooker/pack.yaml) | Kitchen appliances | en | 12 | [pressure-cooker-v1.zip](dist/pressure-cooker-v1.zip) |
+| ⚡ [Microondas](packs/microondas/pack.yaml) | Electrodomésticos | es | 12 | [microondas-v1.zip](dist/microondas-v1.zip) |
+| ⚡ [Microwave](packs/microwave/pack.yaml) | Kitchen appliances | en | 12 | [microwave-v1.zip](dist/microwave-v1.zip) |
+| 🍗 [Horno: todo en una bandeja](packs/horno-en-una-bandeja/pack.yaml) | Electrodomésticos | es | 12 | [horno-en-una-bandeja-v1.zip](dist/horno-en-una-bandeja-v1.zip) |
+| 🍗 [Oven: sheet-pan dinners](packs/sheet-pan-dinners/pack.yaml) | Kitchen appliances | en | 12 | [sheet-pan-dinners-v1.zip](dist/sheet-pan-dinners-v1.zip) |
 | 🍚 [Arroces](packs/arroces/pack.yaml) | Cocina de cada día | es | 20 | [arroces-v3.zip](dist/arroces-v3.zip) |
 | 🍚 [Rice dishes](packs/rice-dishes/pack.yaml) | Everyday cooking | en | 20 | [rice-dishes-v3.zip](dist/rice-dishes-v3.zip) |
 | 🥖 [Panadería](packs/panaderia/pack.yaml) | Cocina de cada día | es | 20 | [panaderia-v3.zip](dist/panaderia-v3.zip) |
@@ -43,6 +59,8 @@ Cada pack está en español y en inglés; la app muestra los del idioma en que l
 | 🎂 [Kids' birthday party](packs/kids-birthday-party/pack.yaml) | Specials | en | 12 | [kids-birthday-party-v2.zip](dist/kids-birthday-party-v2.zip) |
 | 🔥 [Barbacoa](packs/barbacoa/pack.yaml) | Especiales | es | 15 | [barbacoa-v2.zip](dist/barbacoa-v2.zip) |
 | 🔥 [Barbecue](packs/barbecue/pack.yaml) | Specials | en | 15 | [barbecue-v2.zip](dist/barbecue-v2.zip) |
+| 🕯️ [Semana Santa](packs/semana-santa/pack.yaml) | Especiales | es | 12 | [semana-santa-v1.zip](dist/semana-santa-v1.zip) |
+| 🕯️ [Holy Week in Spain](packs/spanish-holy-week/pack.yaml) | Specials | en | 12 | [spanish-holy-week-v1.zip](dist/spanish-holy-week-v1.zip) |
 | 🥨 [Cocina del mundo: Alemania](packs/cocina-alemana/pack.yaml) | Cocina del mundo | es | 20 | [cocina-alemana-v3.zip](dist/cocina-alemana-v3.zip) |
 | 🥨 [World cuisine: Germany](packs/german-cooking/pack.yaml) | World cuisine | en | 20 | [german-cooking-v3.zip](dist/german-cooking-v3.zip) |
 | 🥩 [Cocina del mundo: Argentina](packs/cocina-argentina/pack.yaml) | Cocina del mundo | es | 20 | [cocina-argentina-v3.zip](dist/cocina-argentina-v3.zip) |

@@ -1,0 +1,387 @@
+id: olla-expres
+version: 1
+updated: 2026-11-13
+language: es
+name: Olla exprés
+series: Electrodomésticos
+family: olla-expres
+description: >-
+  Guisos largos en la mitad o un tercio del tiempo con la olla a presión: callos a la madrileña,
+  estofado de ternera, codillo, lengua en salsa, manitas de cerdo, pollo a la cerveza, carne
+  mechada, fabes con almejas, alubias pintas con chorizo, patatas con sepia, arroz caldoso con
+  pollo y conejo al ajillo. Los tiempos son desde que la olla alcanza la presión (segundo anillo
+  o presión alta). No llenes la olla más de dos tercios, y con legumbres, no más de la mitad.
+author: Miga
+authorGithub: calamares00
+cover:
+  emoji: "⏲️"
+  title: Olla exprés
+  colors: ["#334155", "#f97316"]
+defaults:
+  source: Pack «Olla exprés» de Miga
+recipes:
+
+  - name: Callos a la madrileña
+    health: [RED, "Callos con chorizo y morcilla: muy sabrosos, pero grasos y salados."]
+    nutrition: [520, 34, 10, 38]
+    photo: olla-expres/callos-a-la-madrilena.jpg
+    category: Carnes
+    difficulty: MEDIUM
+    prep: 30
+    cook: 70
+    servings: 6
+    notes: En olla normal son 4 horas. Compra los callos ya limpios. Están mejor de un día para otro.
+    tags: [olla exprés, guiso, tradicional, invierno]
+    origin: Madrid
+    originCountry: ES
+    utensils: [Olla exprés]
+    ingredients:
+      - items:
+          - [callos de ternera limpios, 1, kg]
+          - [morro de ternera, 300, g, optional]
+          - [pata de ternera partida, 1, null, optional]
+          - [chorizo, 150, g]
+          - [morcilla de cebolla, 150, g]
+          - [cebolla, 1, null]
+          - [cabeza de ajos, 1, null]
+          - [hoja de laurel, 2, null]
+          - [pimentón dulce, 1, cucharada]
+          - [pimentón picante, 1, cucharadita]
+          - [harina, 1, cucharada]
+          - [aceite de oliva virgen extra, 3, cucharada]
+          - [sal, null, null]
+    steps:
+      - Escalda los callos, el morro y la pata 5 minutos en agua hirviendo y tira el agua.
+      - Ponlos en la olla con la cebolla, la cabeza de ajos, el laurel y agua que los cubra. Cierra y cuece 45 minutos desde que suba la presión.
+      - Deja que baje la presión, retira la cebolla, el ajo y los huesos y corta la carne en trozos.
+      - En una sartén, haz un sofrito con el aceite, la harina y los pimentones y añádelo a la olla con el chorizo y la morcilla en rodajas.
+      - Cuece sin tapa 20 minutos a fuego suave, hasta que la salsa espese. Rectifica de sal.
+
+  - name: Estofado de ternera con patatas
+    health: [YELLOW, "Ternera con verduras y patatas: completa y con hierro; la salsa lleva algo de grasa."]
+    nutrition: [480, 36, 32, 22]
+    photo: olla-expres/estofado-de-ternera-con-patatas.jpg
+    category: Carnes
+    difficulty: EASY
+    prep: 20
+    cook: 35
+    servings: 4
+    notes: En olla normal, unas 2 horas. Morcillo o aguja quedan muy tiernos.
+    tags: [olla exprés, guiso, ternera]
+    utensils: [Olla exprés]
+    ingredients:
+      - items:
+          - [ternera para guisar en dados, 800, g]
+          - [patatas, 600, g]
+          - [cebolla, 1, null]
+          - [zanahorias, 2, null]
+          - [dientes de ajo, 2, null]
+          - [tomate triturado, 100, g]
+          - [vino tinto, 150, ml]
+          - [caldo de carne o agua, 300, ml]
+          - [hoja de laurel, 1, null]
+          - [aceite de oliva virgen extra, 3, cucharada]
+          - [sal, null, null]
+    steps:
+      - Salpimienta la carne y dórala en la olla abierta con el aceite. Resérvala.
+      - Sofríe la cebolla, la zanahoria y el ajo picados 8 minutos. Añade el tomate y cocina 3 minutos.
+      - Vuelve a poner la carne, añade el vino y deja que hierva 2 minutos. Añade el caldo y el laurel.
+      - Cierra la olla y cuece 20 minutos desde que suba la presión. Deja que baje la presión.
+      - Añade las patatas chascadas, cierra y cuece 5 minutos más con presión.
+
+  - name: Codillo de cerdo con patatas
+    health: [RED, "Codillo con su piel: muy sabroso y tierno, pero con mucha grasa."]
+    nutrition: [720, 46, 28, 46]
+    photo: olla-expres/codillo-de-cerdo-con-patatas.jpg
+    category: Carnes
+    difficulty: EASY
+    prep: 15
+    cook: 70
+    servings: 4
+    notes: En la olla se cuece hasta que está tierno y luego se dora en el horno para que la piel quede crujiente.
+    tags: [olla exprés, cerdo, al horno]
+    utensils: [Olla exprés, Horno]
+    ingredients:
+      - items:
+          - [codillos de cerdo, 2, null]
+          - [cebolla, 1, null]
+          - [zanahoria, 1, null]
+          - [hoja de laurel, 2, null]
+          - [granos de pimienta, 6, null]
+          - [cerveza, 330, ml]
+          - [patatas, 600, g]
+          - [sal, null, null]
+    steps:
+      - Pon los codillos en la olla con la cebolla, la zanahoria, el laurel, la pimienta, sal, la cerveza y agua hasta cubrirlos sin pasar de dos tercios.
+      - Cierra y cuece 45 minutos desde que suba la presión.
+      - Precalienta el horno a 220 °C. Pon los codillos escurridos en una fuente con las patatas en gajos y un poco del caldo.
+      - Hornea 25 minutos, regando de vez en cuando, hasta que la piel esté dorada y crujiente.
+
+  - name: Lengua de ternera en salsa
+    health: [YELLOW, "Carne muy tierna en salsa de tomate y vino: proteína, con algo de grasa."]
+    nutrition: [420, 30, 10, 28]
+    photo: olla-expres/lengua-de-ternera-en-salsa.jpg
+    category: Carnes
+    difficulty: MEDIUM
+    prep: 25
+    cook: 60
+    servings: 6
+    notes: Pelar la lengua es fácil en caliente, recién sacada de la olla.
+    tags: [olla exprés, ternera, tradicional]
+    utensils: [Olla exprés, Batidora]
+    ingredients:
+      - items:
+          - [lengua de ternera, 1, null]
+          - [cebolla, 2, null]
+          - [zanahorias, 2, null]
+          - [dientes de ajo, 3, null]
+          - [tomate triturado, 200, g]
+          - [vino blanco, 150, ml]
+          - [hoja de laurel, 1, null]
+          - [harina, 1, cucharada]
+          - [aceite de oliva virgen extra, 3, cucharada]
+          - [sal, null, null]
+    steps:
+      - Lava la lengua y cuécela en la olla con agua, sal, media cebolla y el laurel 40 minutos desde que suba la presión.
+      - Pélala en caliente y córtala en filetes. Guarda 400 ml del caldo.
+      - Sofríe la cebolla, la zanahoria y el ajo picados en el aceite 10 minutos. Añade la harina, el tomate y el vino y cocina 5 minutos. Añade el caldo y tritura.
+      - Pon la lengua en la salsa y cuece 15 minutos a fuego suave.
+
+  - name: Manitas de cerdo en salsa
+    health: [RED, "Gelatinosas y sabrosas, pero grasas: para ocasiones."]
+    nutrition: [450, 30, 10, 32]
+    photo: olla-expres/manitas-de-cerdo-en-salsa.jpg
+    category: Carnes
+    difficulty: MEDIUM
+    prep: 20
+    cook: 60
+    servings: 4
+    notes: En olla normal tardan unas 3 horas. Pide que te las corten en mitades.
+    tags: [olla exprés, cerdo, tradicional]
+    utensils: [Olla exprés]
+    ingredients:
+      - items:
+          - [manitas de cerdo partidas, 4, null]
+          - [cebolla, 1, null]
+          - [pimiento choricero (la carne), 2, cucharada]
+          - [dientes de ajo, 3, null]
+          - [tomate triturado, 200, g]
+          - [jamón serrano en taquitos, 60, g]
+          - [guindilla, 1, null, optional]
+          - [harina, 1, cucharada]
+          - [hoja de laurel, 1, null]
+          - [aceite de oliva virgen extra, 3, cucharada]
+          - [sal, null, null]
+    steps:
+      - Limpia las manitas, cúbrelas de agua con sal, media cebolla y el laurel y cuécelas en la olla 45 minutos desde que suba la presión. Guarda 400 ml del caldo.
+      - Sofríe la otra media cebolla y el ajo picados con el jamón y la guindilla 8 minutos. Añade la harina, el tomate y la carne de pimiento y cocina 5 minutos.
+      - Añade el caldo y las manitas y cuece sin tapa 15 minutos, moviendo la cazuela, hasta que la salsa espese.
+
+  - name: Pollo a la cerveza
+    health: [GREEN, "Pollo guisado con verduras: completo y con poca grasa si quitas la piel."]
+    nutrition: [410, 38, 14, 20]
+    photo: olla-expres/pollo-a-la-cerveza.jpg
+    category: Carnes
+    difficulty: EASY
+    prep: 15
+    cook: 20
+    servings: 4
+    notes: El alcohol se evapora al cocinar; con cerveza sin alcohol queda igual de rico.
+    tags: [olla exprés, pollo, guiso]
+    utensils: [Olla exprés]
+    ingredients:
+      - items:
+          - [pollo troceado, 1.2, kg]
+          - [cebollas, 2, null]
+          - [zanahorias, 2, null]
+          - [dientes de ajo, 2, null]
+          - [cerveza rubia, 330, ml]
+          - [champiñones, 200, g]
+          - [hoja de laurel, 1, null]
+          - [aceite de oliva virgen extra, 3, cucharada]
+          - [sal, null, null]
+    steps:
+      - Salpimienta el pollo y dóralo en la olla abierta con el aceite. Resérvalo.
+      - Sofríe la cebolla, la zanahoria y el ajo picados 8 minutos. Añade los champiñones y rehoga 3 minutos.
+      - Vuelve a poner el pollo, añade la cerveza y el laurel y cierra la olla.
+      - Cuece 12 minutos desde que suba la presión. Si la salsa queda líquida, redúcela unos minutos sin tapa.
+
+  - name: Carne mechada
+    health: [YELLOW, "Carne de ternera rellena en salsa: mucha proteína; el tocino añade grasa."]
+    nutrition: [430, 40, 8, 26]
+    photo: olla-expres/carne-mechada.jpg
+    category: Carnes
+    difficulty: MEDIUM
+    prep: 30
+    cook: 50
+    servings: 6
+    notes: La carne se mecha con un cuchillo largo o un mechador. Fría se corta en lonchas perfectas.
+    tags: [olla exprés, ternera, tradicional]
+    utensils: [Olla exprés, Batidora]
+    ingredients:
+      - items:
+          - [redondo o contra de ternera, 1.2, kg]
+          - [tiras de tocino o panceta, 80, g]
+          - [jamón serrano en tiras, 60, g]
+          - [zanahoria, 1, null]
+          - [cebolla, 2, null]
+          - [dientes de ajo, 3, null]
+          - [vino blanco, 200, ml]
+          - [caldo de carne, 200, ml]
+          - [aceite de oliva virgen extra, 3, cucharada]
+          - [sal, null, null]
+    steps:
+      - Haz agujeros a lo largo de la carne con un cuchillo fino y mete las tiras de tocino, jamón y zanahoria. Átala y salpimiéntala.
+      - Dórala por todos lados en la olla con el aceite. Añade la cebolla y el ajo en trozos y rehoga 5 minutos.
+      - Añade el vino y el caldo, cierra la olla y cuece 35 minutos desde que suba la presión.
+      - Saca la carne, tritura la salsa y corta la carne en rodajas. Sirve con la salsa caliente.
+
+  - name: Fabes con almejas
+    health: [GREEN, "Alubias con almejas: proteína, hierro y fibra con poca grasa."]
+    nutrition: [400, 26, 52, 9]
+    photo: olla-expres/fabes-con-almejas.jpg
+    category: Legumbres
+    difficulty: MEDIUM
+    prep: 20
+    cook: 40
+    servings: 4
+    notes: Pon las fabes a remojo la noche antes. No las remuevas con cuchara, mueve la olla para que no se rompan.
+    tags: [olla exprés, legumbres, marisco]
+    origin: Asturias
+    originCountry: ES
+    utensils: [Olla exprés]
+    ingredients:
+      - items:
+          - [fabes asturianas, 400, g]
+          - [almejas, 500, g]
+          - [cebolla, 1, null]
+          - [dientes de ajo, 3, null]
+          - [pimiento verde, 0.5, null]
+          - [hoja de laurel, 1, null]
+          - [azafrán, 1, pizca]
+          - [vino blanco, 100, ml]
+          - [perejil picado, 2, cucharada]
+          - [aceite de oliva virgen extra, 4, cucharada]
+          - [sal, null, null]
+    steps:
+      - Pon las fabes escurridas en la olla con la cebolla y el pimiento enteros, un ajo, el laurel, 2 cucharadas de aceite y agua fría que las cubra dos dedos. Cierra y cuece 25 minutos desde que suba la presión.
+      - Deja que baje la presión sola. Retira las verduras y añade el azafrán y sal.
+      - En una sartén, dora el resto del ajo picado en el aceite, añade las almejas y el vino y tapa hasta que se abran.
+      - Añade las almejas con su jugo y el perejil a las fabes y cuece 5 minutos a fuego suave, moviendo la olla.
+
+  - name: Alubias pintas con chorizo
+    health: [YELLOW, "Legumbre con mucha fibra y hierro; el chorizo añade grasa y sal."]
+    nutrition: [520, 26, 56, 22]
+    category: Legumbres
+    difficulty: EASY
+    prep: 15
+    cook: 40
+    servings: 4
+    notes: Pon las alubias a remojo la noche antes. En olla normal, unas 2 horas y media.
+    tags: [olla exprés, legumbres, invierno]
+    utensils: [Olla exprés]
+    ingredients:
+      - items:
+          - [alubias pintas, 400, g]
+          - [chorizo, 150, g]
+          - [cebolla, 1, null]
+          - [pimiento verde, 1, null]
+          - [dientes de ajo, 2, null]
+          - [hoja de laurel, 1, null]
+          - [pimentón dulce, 1, cucharadita]
+          - [aceite de oliva virgen extra, 3, cucharada]
+          - [sal, null, null]
+    steps:
+      - Pon las alubias escurridas en la olla con el chorizo entero, la cebolla, el pimiento, el ajo, el laurel, el aceite y agua fría que las cubra dos dedos.
+      - Cierra y cuece 30 minutos desde que suba la presión. Deja que baje la presión sola.
+      - Saca las verduras, tritúralas con un poco de caldo y devuélvelas a la olla. Añade el pimentón y sal.
+      - Corta el chorizo en rodajas, devuélvelo a la olla y cuece sin tapa 10 minutos para que espese.
+
+  - name: Patatas con sepia
+    health: [GREEN, "Sepia con patatas y guisantes: proteína magra y poca grasa."]
+    nutrition: [360, 26, 42, 9]
+    photo: olla-expres/patatas-con-sepia.jpg
+    category: Pescados y mariscos
+    difficulty: EASY
+    prep: 20
+    cook: 25
+    servings: 4
+    notes: La sepia queda tierna en pocos minutos de presión.
+    tags: [olla exprés, pescado, guiso]
+    utensils: [Olla exprés]
+    ingredients:
+      - items:
+          - [sepia limpia en trozos, 600, g]
+          - [patatas, 700, g]
+          - [cebolla, 1, null]
+          - [dientes de ajo, 2, null]
+          - [tomate triturado, 150, g]
+          - [vino blanco, 100, ml]
+          - [guisantes, 150, g]
+          - [caldo de pescado, 600, ml]
+          - [aceite de oliva virgen extra, 3, cucharada]
+          - [sal, null, null]
+    steps:
+      - Sofríe la cebolla y el ajo picados en la olla con el aceite 8 minutos. Añade la sepia y rehoga 5 minutos.
+      - Añade el tomate y el vino y cocina 3 minutos.
+      - Añade el caldo, cierra la olla y cuece 10 minutos desde que suba la presión.
+      - Deja que baje la presión, añade las patatas chascadas y los guisantes, cierra y cuece 6 minutos más.
+
+  - name: Arroz caldoso con pollo
+    health: [GREEN, "Arroz con pollo y verduras en caldo: completo y reconfortante."]
+    nutrition: [470, 30, 58, 13]
+    photo: olla-expres/arroz-caldoso-con-pollo.jpg
+    category: Arroces
+    difficulty: EASY
+    prep: 15
+    cook: 20
+    servings: 4
+    notes: El arroz solo necesita 6-7 minutos de presión. Sírvelo enseguida, que sigue absorbiendo caldo.
+    tags: [olla exprés, arroz, pollo]
+    utensils: [Olla exprés]
+    ingredients:
+      - items:
+          - [contramuslos de pollo en trozos, 500, g]
+          - [arroz redondo, 300, g]
+          - [cebolla, 1, null]
+          - [pimiento rojo, 1, null]
+          - [tomate triturado, 100, g]
+          - [judías verdes, 150, g]
+          - [pimentón dulce, 1, cucharadita]
+          - [azafrán o colorante, 1, pizca]
+          - [caldo de pollo, 1.4, l]
+          - [aceite de oliva virgen extra, 3, cucharada]
+          - [sal, null, null]
+    steps:
+      - Dora el pollo salado en la olla abierta con el aceite. Añade la cebolla, el pimiento y las judías picadas y rehoga 8 minutos.
+      - Añade el tomate y el pimentón y cocina 3 minutos. Añade el arroz y rehoga 1 minuto.
+      - Añade el caldo caliente y el azafrán, cierra la olla y cuece 7 minutos desde que suba la presión.
+      - Libera la presión con cuidado y sirve enseguida.
+
+  - name: Conejo al ajillo
+    health: [GREEN, "Carne de conejo muy magra con ajo y vino: mucha proteína y poca grasa."]
+    nutrition: [380, 40, 4, 20]
+    photo: olla-expres/conejo-al-ajillo.jpg
+    category: Carnes
+    difficulty: EASY
+    prep: 15
+    cook: 20
+    servings: 4
+    notes: El conejo queda tierno en la olla y no se seca.
+    tags: [olla exprés, tradicional, sin gluten]
+    utensils: [Olla exprés]
+    ingredients:
+      - items:
+          - [conejo troceado, 1.2, kg]
+          - [dientes de ajo, 10, null]
+          - [vino blanco, 150, ml]
+          - [hoja de laurel, 1, null]
+          - [tomillo seco, 1, cucharadita]
+          - [guindilla, 1, null, optional]
+          - [aceite de oliva virgen extra, 5, cucharada]
+          - [sal, null, null]
+    steps:
+      - Sala el conejo y dóralo en la olla abierta con el aceite y los ajos sin pelar, ligeramente aplastados.
+      - Añade el vino, el laurel, el tomillo, la guindilla y 100 ml de agua.
+      - Cierra y cuece 12 minutos desde que suba la presión.
+      - Deja que baje la presión y reduce la salsa sin tapa 5 minutos.

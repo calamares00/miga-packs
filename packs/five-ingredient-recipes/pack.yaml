@@ -1,0 +1,322 @@
+id: five-ingredient-recipes
+version: 1
+updated: 2026-11-13
+language: en
+name: Five-ingredient recipes
+series: Everyday cooking
+family: recetas-con-5-ingredientes
+description: >-
+  Dishes with five ingredients or fewer (not counting salt, pepper, oil or water), for when the
+  fridge is nearly empty or you can't be bothered: poor man's potatoes with egg, baked salmon with
+  lemon, beetroot hummus, baked prawns, ham and cheese stuffed chicken, spaghetti al pomodoro,
+  scrambled eggs with prawns and green garlic, Galician-style hake, Brazilian cheese bread and,
+  for dessert, banana and cocoa ice cream, peanut butter cookies and strawberries and cream.
+author: Miga
+authorGithub: calamares00
+cover:
+  emoji: "🖐️"
+  title: Five-ingredient recipes
+  colors: ["#0e7490", "#fbbf24"]
+defaults:
+  source: Miga «Five-ingredient recipes» pack
+recipes:
+
+  - name: Poor man's potatoes with egg
+    health: [YELLOW, "Potato with onion, pepper and egg: filling, but quite a lot of oil."]
+    nutrition: [430, 12, 38, 26]
+    photo: recetas-con-5-ingredientes/patatas-a-lo-pobre-con-huevo.jpg
+    category: Eggs
+    difficulty: EASY
+    prep: 10
+    cook: 30
+    servings: 4
+    notes: Five ingredients, not counting oil and salt. The potatoes are gently confited, not fried.
+    tags: [five ingredients, eggs, vegetarian, gluten-free]
+    utensils: []
+    ingredients:
+      - items:
+          - [potatoes, 800, g]
+          - [onion, 1, null]
+          - [green pepper, 1, null]
+          - [garlic, 2, clove]
+          - [eggs, 4, null]
+          - [extra virgin olive oil, 100, ml]
+          - [salt, null, null]
+    steps:
+      - Peel the potatoes and slice them thinly. Cut the onion and pepper into strips and slice the garlic.
+      - Put everything in a large frying pan with the oil and salt and cook over medium-low heat for 25 minutes, covered and stirring now and then, until the potatoes are tender.
+      - Uncover, raise the heat and let them brown for 5 minutes.
+      - Fry the eggs and serve them on top of the potatoes.
+
+  - name: Baked salmon with lemon and dill
+    health: [GREEN, "Oily fish with omega-3, cooked with hardly any added fat."]
+    nutrition: [360, 34, 2, 24]
+    photo: recetas-con-5-ingredientes/salmon-al-horno-con-limon-y-eneldo.jpg
+    category: Fish and seafood
+    difficulty: EASY
+    prep: 5
+    cook: 15
+    servings: 4
+    notes: Four ingredients, not counting oil and salt.
+    tags: [five ingredients, fish, baked, gluten-free]
+    utensils: [Oven]
+    ingredients:
+      - items:
+          - [salmon fillets, 4, null]
+          - [lemon, 1, null]
+          - [fresh dill, 1, tbsp]
+          - [garlic, 1, clove]
+          - [extra virgin olive oil, 1, tbsp]
+          - [salt, null, null]
+    steps:
+      - Preheat the oven to 200°C.
+      - Put the salmon in a dish, salt it and drizzle with the oil mixed with the chopped garlic and lemon zest.
+      - Lay lemon slices on top and bake 12-15 minutes.
+      - Serve with the chopped dill and a squeeze of lemon juice.
+
+  - name: Beetroot hummus
+    health: [GREEN, "Chickpeas and beetroot: fibre, plant protein and a stunning colour."]
+    nutrition: [180, 6, 18, 9]
+    photo: recetas-con-5-ingredientes/hummus-de-remolacha.jpg
+    category: Starters
+    difficulty: EASY
+    prep: 10
+    cook: 0
+    servings: 6
+    notes: Five ingredients, not counting oil, salt and water. With ready-cooked beetroot it takes five minutes.
+    tags: [five ingredients, snack, vegan, gluten-free]
+    utensils: [Blender]
+    ingredients:
+      - items:
+          - [cooked chickpeas, 400, g]
+          - [cooked beetroot, 150, g]
+          - [tahini, 2, tbsp]
+          - [lemon (the juice), 1, null]
+          - [garlic, 1, clove]
+          - [extra virgin olive oil, 3, tbsp]
+          - [salt, null, null]
+    steps:
+      - Drain and rinse the chickpeas.
+      - Blend them with the beetroot, tahini, lemon juice, garlic, oil and salt until very creamy. Add a little water if too thick.
+      - Serve with a drizzle of oil, with pitta bread or vegetable sticks.
+
+  - name: Baked prawns with garlic and parsley
+    health: [GREEN, "Seafood with garlic and olive oil: lots of protein and little fat."]
+    nutrition: [220, 30, 2, 10]
+    category: Fish and seafood
+    difficulty: EASY
+    prep: 10
+    cook: 10
+    servings: 4
+    notes: Four ingredients, not counting oil and salt.
+    tags: [five ingredients, seafood, baked, gluten-free]
+    utensils: [Oven]
+    ingredients:
+      - items:
+          - [raw king prawns, 800, g]
+          - [garlic, 4, clove]
+          - [fresh parsley, 1, bunch]
+          - [lemon, 1, null]
+          - [extra virgin olive oil, 3, tbsp]
+          - [coarse salt, null, null]
+    steps:
+      - Preheat the oven to 220°C with the grill on.
+      - Lay the prawns in a single layer in an ovenproof dish.
+      - Mix the finely chopped garlic and parsley with the oil and spread over. Sprinkle with coarse salt.
+      - Bake 6-8 minutes, until they change colour. Serve with lemon.
+
+  - name: Ham and cheese stuffed chicken
+    health: [YELLOW, "Lots of protein; ham and cheese add salt and fat."]
+    nutrition: [380, 46, 2, 20]
+    photo: recetas-con-5-ingredientes/pollo-relleno-de-jamon-y-queso.jpg
+    category: Meat
+    difficulty: EASY
+    prep: 15
+    cook: 25
+    servings: 4
+    notes: Four ingredients, not counting oil, salt and pepper.
+    tags: [five ingredients, chicken, baked, gluten-free]
+    utensils: [Oven]
+    ingredients:
+      - items:
+          - [chicken breasts, 4, null]
+          - [serrano ham, 4, slice]
+          - [cheese, 4, slice]
+          - [cherry tomatoes, 200, g]
+          - [extra virgin olive oil, 2, tbsp]
+          - [salt, null, null]
+          - [black pepper, null, null]
+    steps:
+      - Preheat the oven to 200°C.
+      - Butterfly each breast with a lengthways cut, without cutting through. Season.
+      - Fill each one with a slice of ham and one of cheese, close it and secure with a cocktail stick.
+      - Put them in a dish with the tomatoes, drizzle with the oil and bake 20-25 minutes.
+
+  - name: Spaghetti al pomodoro
+    health: [GREEN, "Pasta with tomato, garlic and basil: simple and light."]
+    nutrition: [430, 14, 74, 9]
+    photo: recetas-con-5-ingredientes/espaguetis-al-pomodoro.jpg
+    category: Pasta
+    difficulty: EASY
+    prep: 5
+    cook: 20
+    servings: 4
+    notes: Five ingredients, not counting oil, salt and water. With good tinned tomatoes it is just as good.
+    tags: [five ingredients, pasta, vegetarian]
+    utensils: []
+    ingredients:
+      - items:
+          - [spaghetti, 350, g]
+          - [good-quality crushed tomato, 400, g]
+          - [garlic, 2, clove]
+          - [fresh basil, 1, bunch]
+          - [grated parmesan, 40, g]
+          - [extra virgin olive oil, 3, tbsp]
+          - [salt, null, null]
+    steps:
+      - Lightly brown the sliced garlic in the oil. Add the tomato and salt and simmer 15 minutes.
+      - Meanwhile, cook the spaghetti in salted water as the packet says.
+      - Drain it, keeping a little of the water, and toss with the sauce and a few basil leaves, adding pasta water if needed.
+      - Serve with parmesan and more basil.
+
+  - name: Scrambled eggs with prawns and green garlic
+    health: [GREEN, "Egg and seafood with green garlic: good-quality protein and little fat."]
+    nutrition: [240, 22, 3, 16]
+    photo: recetas-con-5-ingredientes/revuelto-de-gambas-y-ajetes.jpg
+    category: Eggs
+    difficulty: EASY
+    prep: 10
+    cook: 10
+    servings: 4
+    notes: Three ingredients, not counting oil and salt. If you can't find green garlic, use spring onion.
+    tags: [five ingredients, eggs, seafood, gluten-free]
+    utensils: []
+    ingredients:
+      - items:
+          - [green garlic, 1, bunch]
+          - [peeled prawns, 250, g]
+          - [eggs, 6, null]
+          - [extra virgin olive oil, 2, tbsp]
+          - [salt, null, null]
+    steps:
+      - Cut the green garlic into pieces and fry in the oil for 5 minutes over medium heat.
+      - Add the salted prawns and fry 1 minute.
+      - Lower the heat, add the eggs beaten with salt and stir gently until set but still moist.
+
+  - name: Galician-style hake
+    health: [GREEN, "White fish with boiled potato: light and complete."]
+    nutrition: [330, 30, 30, 10]
+    photo: recetas-con-5-ingredientes/merluza-a-la-gallega.jpg
+    category: Fish and seafood
+    difficulty: EASY
+    prep: 10
+    cook: 25
+    servings: 4
+    notes: Four ingredients, not counting oil, salt and water.
+    tags: [five ingredients, fish, traditional, gluten-free]
+    utensils: []
+    ingredients:
+      - items:
+          - [hake steaks, 4, null]
+          - [potatoes, 600, g]
+          - [garlic, 3, clove]
+          - [sweet paprika, 1, tsp]
+          - [extra virgin olive oil, 4, tbsp]
+          - [salt, null, null]
+    steps:
+      - Boil the peeled potatoes in thick slices in salted water for 15 minutes.
+      - Add the hake on top of the potatoes and simmer 5-6 minutes more.
+      - Meanwhile, brown the sliced garlic in the oil, take off the heat and add the paprika.
+      - Drain the fish and potatoes, put them on a dish and pour over the garlic and paprika oil.
+
+  - name: Brazilian cheese bread
+    health: [YELLOW, "Tapioca and cheese balls, gluten-free: delicious, but with fat."]
+    nutrition: [110, 3, 12, 6]
+    photo: recetas-con-5-ingredientes/pan-de-queso.jpg
+    category: Breads and doughs
+    difficulty: EASY
+    prep: 15
+    cook: 25
+    servings: 20
+    notes: Brazil's pão de queijo. Five ingredients, not counting salt. Makes about 20 balls. Servings are balls.
+    tags: [five ingredients, bread, gluten-free]
+    utensils: [Oven]
+    ingredients:
+      - items:
+          - [tapioca starch, 250, g]
+          - [milk, 125, ml]
+          - [sunflower oil, 60, ml]
+          - [egg, 1, null]
+          - [grated mature cheese, 120, g]
+          - [salt, 1, tsp]
+    steps:
+      - Preheat the oven to 190°C.
+      - Bring the milk with the oil and salt to the boil and pour it over the starch. Mix with a spoon into a sticky dough and leave to cool a little.
+      - Add the egg and cheese and knead until smooth.
+      - With oiled hands, roll 3 cm balls and place them on a lined tray.
+      - Bake 20-25 minutes, until puffed and golden.
+
+  - name: Banana and cocoa ice cream
+    health: [GREEN, "Just frozen banana and cocoa: a creamy ice cream with no added sugar."]
+    nutrition: [130, 2, 30, 1]
+    category: Desserts
+    difficulty: EASY
+    prep: 5
+    cook: 0
+    servings: 2
+    notes: Three ingredients. Slice and freeze ripe bananas ahead (at least 4 hours).
+    tags: [five ingredients, dessert, vegan, gluten-free]
+    utensils: [Blender]
+    ingredients:
+      - items:
+          - [ripe bananas sliced and frozen, 3, null]
+          - [cocoa powder, 1, tbsp]
+          - [milk or plant milk, 2, tbsp]
+    steps:
+      - Put the frozen banana in a powerful chopper or food processor with the cocoa.
+      - Blend, stopping to scrape down, until it has the texture of creamy ice cream. Add the milk if it struggles.
+      - Serve straight away or freeze 30 minutes for a firmer texture.
+
+  - name: Peanut butter cookies
+    health: [YELLOW, "Peanut butter with sugar: protein and good fats, but very rich."]
+    nutrition: [110, 3, 9, 7]
+    photo: recetas-con-5-ingredientes/galletas-de-crema-de-cacahuete.jpg
+    category: Desserts
+    difficulty: EASY
+    prep: 10
+    cook: 10
+    servings: 18
+    notes: Three ingredients and no flour. Makes about 18 cookies. Servings are cookies.
+    tags: [five ingredients, dessert, gluten-free]
+    utensils: [Oven]
+    ingredients:
+      - items:
+          - [peanut butter, 250, g]
+          - [brown sugar, 150, g]
+          - [egg, 1, null]
+    steps:
+      - Preheat the oven to 180°C and line a tray with baking paper.
+      - Mix the peanut butter with the sugar and egg into a smooth dough.
+      - Roll into balls, put them on the tray and flatten them with a fork in a criss-cross pattern.
+      - "Bake 8-10 minutes. Leave them to cool on the tray: they are soft at first."
+
+  - name: Strawberries and cream
+    health: [YELLOW, "Fruit with whipped cream: the strawberries are light, the cream less so."]
+    nutrition: [230, 2, 18, 17]
+    category: Desserts
+    difficulty: EASY
+    prep: 10
+    cook: 0
+    servings: 4
+    notes: Three ingredients. The cream and bowl must be very cold to whip.
+    tags: [five ingredients, dessert, gluten-free]
+    utensils: [Blender]
+    ingredients:
+      - items:
+          - [strawberries, 500, g]
+          - [cold whipping cream, 200, ml]
+          - [icing sugar, 2, tbsp]
+    steps:
+      - Wash and hull the strawberries and halve them.
+      - Whip the cream with the icing sugar to firm peaks.
+      - Serve the strawberries in glasses with the cream on top.

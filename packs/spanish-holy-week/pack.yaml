@@ -1,0 +1,400 @@
+id: spanish-holy-week
+version: 1
+updated: 2026-11-13
+language: en
+name: Holy Week in Spain
+series: Specials
+family: semana-santa
+description: >-
+  The recipes of Lent and Holy Week in Spain: fried sweets such as pestiños, cream puffs, rosette
+  fritters and bartolillos, the Easter mona cake and the hornazo, and the Lenten salt cod dishes
+  (Biscay-style, soldaditos de Pavía, fritters, omelette, potatoes with cod and cod and raisin
+  empanada). Torrijas and the Lenten chickpea stew are already in other packs.
+author: Miga
+authorGithub: calamares00
+cover:
+  emoji: "🕯️"
+  title: Holy Week in Spain
+  colors: ["#581c87", "#c084fc"]
+defaults:
+  source: Miga «Holy Week in Spain» pack
+  origin: Spain
+  originCountry: ES
+recipes:
+
+  - name: Pestiños
+    health: [RED, "Fried dough dipped in honey: very rich, a festive sweet."]
+    nutrition: [150, 2, 18, 8]
+    photo: semana-santa/pestinos.jpg
+    category: Desserts
+    difficulty: MEDIUM
+    prep: 40
+    cook: 20
+    servings: 25
+    notes: Typical of Andalusia. Makes about 25. They keep a week in a tin. Servings are pestiños.
+    tags: [holy week, dessert, fried, traditional]
+    origin: Andalusia
+    utensils: []
+    ingredients:
+      - items:
+          - [extra virgin olive oil, 100, ml]
+          - [orange peel, 1, piece]
+          - [aniseed, 1, tbsp]
+          - [sesame seeds, 1, tbsp]
+          - [white wine, 100, ml]
+          - [plain flour, 300, g]
+          - [salt, 1, pinch]
+          - [mild olive oil for frying, null, null]
+          - [honey, 200, g]
+          - [water, 50, ml]
+    steps:
+      - Heat the oil with the orange peel until it browns. Remove the peel, turn off the heat and add the aniseed and sesame. Leave to cool a little.
+      - Mix the oil with the wine, flour and salt and knead to a smooth dough. Leave to rest 30 minutes.
+      - Roll the dough very thin, cut 8 cm squares and bring two opposite corners to the centre, sticking them with a little water.
+      - Fry them in plenty of oil until golden and drain.
+      - Heat the honey with the water, dip the pestiños and leave them to drain on a rack.
+
+  - name: Spanish cream puffs (buñuelos de viento)
+    health: [RED, "Fried choux filled with custard and rolled in sugar: very sweet."]
+    nutrition: [110, 2, 12, 6]
+    photo: semana-santa/bunuelos-de-viento.jpg
+    category: Desserts
+    difficulty: MEDIUM
+    prep: 20
+    cook: 25
+    servings: 30
+    notes: Typical of Lent and All Saints' Day. Makes about 30. Servings are puffs.
+    tags: [holy week, dessert, fried, traditional]
+    utensils: []
+    ingredients:
+      - group: For the dough
+        items:
+          - [water, 250, ml]
+          - [butter, 60, g]
+          - [salt, 1, pinch]
+          - [plain flour, 150, g]
+          - [eggs, 4, null]
+          - [grated lemon zest, 1, null]
+          - [mild olive oil for frying, null, null]
+      - group: To fill
+        items:
+          - [pastry cream, 400, g, optional]
+          - [sugar, 100, g]
+    steps:
+      - Bring the water with the butter, salt and zest to the boil. Add the flour all at once and stir until the dough comes away from the pan.
+      - Leave to cool a little and add the eggs one at a time, beating well after each.
+      - "Fry teaspoons of dough in oil that is not too hot: they puff up and turn over by themselves. Drain."
+      - Fill them with pastry cream using a piping bag if you like, and roll them in sugar.
+
+  - name: Rosette fritters (flores fritas)
+    health: [RED, "Fried batter with sugar: crunchy and very sweet, for occasions."]
+    nutrition: [90, 2, 10, 5]
+    photo: semana-santa/flores-fritas.jpg
+    category: Desserts
+    difficulty: MEDIUM
+    prep: 20
+    cook: 30
+    servings: 25
+    notes: You need an iron rosette mould. Makes about 25. Servings are fritters.
+    tags: [holy week, dessert, fried, traditional]
+    origin: La Mancha
+    utensils: []
+    ingredients:
+      - items:
+          - [eggs, 2, null]
+          - [milk, 250, ml]
+          - [plain flour, 200, g]
+          - [sugar, 1, tbsp]
+          - [grated lemon zest, 1, null]
+          - [salt, 1, pinch]
+          - [mild olive oil for frying, null, null]
+          - [sugar and cinnamon to dust, null, null]
+    steps:
+      - Beat the eggs with the milk, sugar, zest and salt. Add the flour gradually to a batter like crêpe batter. Leave to rest 30 minutes.
+      - Heat the oil with the mould in it.
+      - Drain the mould, dip it in the batter without covering the top and put it in the oil. When the flower comes off, turn it over and fry until golden.
+      - Drain and dust with sugar and cinnamon.
+
+  - name: Bartolillos
+    health: [RED, "Fried sweet pasties filled with custard: very rich, for festivities."]
+    nutrition: [180, 3, 20, 10]
+    photo: semana-santa/bartolillos.jpg
+    category: Desserts
+    difficulty: HARD
+    prep: 45
+    cook: 25
+    servings: 16
+    notes: A Madrid Lenten sweet. Makes about 16. Servings are bartolillos.
+    tags: [holy week, dessert, fried, traditional]
+    origin: Madrid
+    utensils: []
+    ingredients:
+      - group: For the dough
+        items:
+          - [plain flour, 250, g]
+          - [soft butter, 40, g]
+          - [white wine, 80, ml]
+          - [egg, 1, null]
+          - [salt, 1, pinch]
+      - group: For the filling and frying
+        items:
+          - [thick cold pastry cream, 400, g]
+          - [mild olive oil for frying, null, null]
+          - [icing sugar, null, null]
+    steps:
+      - Mix the flour, butter, wine, egg and salt and knead to a smooth dough. Leave to rest 30 minutes, covered.
+      - Roll it very thin and cut 8 x 12 cm rectangles.
+      - Put a spoonful of cream on each, fold into a triangle and seal the edges well with a fork.
+      - Fry them in hot oil until golden, drain and dust with icing sugar.
+
+  - name: Easter mona cake
+    health: [RED, "Sponge with custard and chocolate: the festive sweet of Easter Monday."]
+    nutrition: [420, 6, 50, 22]
+    photo: semana-santa/mona-de-pascua.jpg
+    category: Desserts
+    difficulty: MEDIUM
+    prep: 40
+    cook: 30
+    servings: 10
+    notes: "The Catalan and Valencian tradition: godparents give it to their godchildren on Easter Monday. It is decorated with chocolate eggs and coloured feathers. 22 cm tin."
+    tags: [holy week, dessert, baked]
+    origin: Catalonia
+    utensils: [Oven, Blender]
+    ingredients:
+      - group: For the sponge
+        items:
+          - [eggs, 4, null]
+          - [sugar, 125, g]
+          - [plain flour, 125, g]
+          - [melted butter, 30, g]
+      - group: For the syrup and filling
+        items:
+          - [water, 100, ml]
+          - [sugar, 50, g]
+          - [orange liqueur, 1, tbsp, optional]
+          - [pastry cream or chocolate truffle, 400, g]
+      - group: To decorate
+        items:
+          - [toasted flaked almonds, 80, g]
+          - [toasted yolk cream or apricot jam, 150, g]
+          - [chocolate eggs, null, null]
+    steps:
+      - Preheat the oven to 180°C. Whisk the eggs with the sugar until tripled in volume. Fold in the sifted flour, then the butter.
+      - Bake in the greased tin for 25-30 minutes and leave to cool. Cut it into two discs.
+      - Boil the water with the sugar for 2 minutes, add the liqueur and soak the discs.
+      - Fill with the cream or truffle, cover the cake with the yolk cream and press the almonds onto the side.
+      - Decorate with the chocolate eggs and figures.
+
+  - name: Hornazo
+    health: [RED, "Bread filled with cured meats and pork: very filling, but fatty and salty."]
+    nutrition: [480, 20, 40, 26]
+    photo: semana-santa/hornazo.jpg
+    category: Breads and doughs
+    difficulty: MEDIUM
+    prep: 30
+    cook: 40
+    servings: 10
+    notes: Salamanca's is eaten on Lunes de Aguas, after Holy Week. It is eaten cold, out in the country.
+    tags: [holy week, bread, traditional]
+    origin: Salamanca
+    utensils: [Oven]
+    ingredients:
+      - group: For the dough
+        items:
+          - [plain flour, 500, g]
+          - [fresh yeast, 20, g]
+          - [warm water, 150, ml]
+          - [white wine, 50, ml]
+          - [olive oil, 80, ml]
+          - [eggs, 2, null]
+          - [sweet paprika, 1, tsp]
+          - [salt, 1, tsp]
+      - group: For the filling
+        items:
+          - [marinated pork loin in thin slices, 300, g]
+          - [sliced chorizo, 150, g]
+          - [serrano ham slices, 100, g]
+          - [hard-boiled eggs, 2, null]
+          - [beaten egg to glaze, 1, null]
+    steps:
+      - Dissolve the yeast in the water. Mix it with the flour, wine, oil, eggs, paprika and salt and knead for 10 minutes. Leave until doubled.
+      - Lightly fry the pork loin slices.
+      - Divide the dough in two and roll one half out on a tray. Layer the pork, chorizo, ham and sliced boiled eggs.
+      - Cover with the other half, seal the edges and decorate with strips of dough in a lattice. Leave to rest 30 minutes.
+      - Brush with egg and bake at 180°C for 35-40 minutes.
+
+  - name: Biscay-style salt cod (bacalao a la vizcaína)
+    health: [GREEN, "Salt cod with a choricero pepper and onion sauce: lots of protein and little fat."]
+    nutrition: [350, 34, 14, 16]
+    photo: semana-santa/bacalao-a-la-vizcaina.jpg
+    category: Fish and seafood
+    difficulty: MEDIUM
+    prep: 20
+    cook: 45
+    servings: 4
+    notes: It needs desalted cod (48 hours in water, changing it several times). The choricero pepper sauce is a cornerstone of Basque cooking.
+    tags: [holy week, fish, traditional, gluten-free]
+    origin: Basque Country
+    utensils: [Blender]
+    ingredients:
+      - items:
+          - [desalted salt cod loins, 4, null]
+          - [dried choricero peppers, 6, null]
+          - [red onions, 3, null]
+          - [garlic, 2, clove]
+          - [ripe tomato, 1, null]
+          - [extra virgin olive oil, 6, tbsp]
+          - [water, 200, ml]
+    steps:
+      - Soak the choricero peppers in hot water for 30 minutes and scrape out the flesh with a spoon.
+      - Cook the chopped onion and garlic in the oil over very low heat for 30 minutes, without colouring. Add the tomato and pepper flesh and cook 10 minutes.
+      - Blend the sauce with a little of the pepper water until smooth.
+      - Put the sauce in a casserole, lay the cod on top skin side up and simmer gently 8-10 minutes.
+
+  - name: Soldaditos de Pavía (battered salt cod strips)
+    health: [YELLOW, "Battered, fried salt cod: a classic tapa, but with quite a lot of oil."]
+    nutrition: [320, 24, 18, 17]
+    photo: semana-santa/soldaditos-de-pavia.jpg
+    category: Starters
+    difficulty: MEDIUM
+    prep: 20
+    cook: 15
+    servings: 4
+    notes: A Madrid Lenten tapa. The cod must be well desalted and dry.
+    tags: [holy week, fish, fried, tapas]
+    origin: Madrid
+    utensils: []
+    ingredients:
+      - items:
+          - [desalted salt cod in strips, 500, g]
+          - [plain flour, 125, g]
+          - [baking powder, 1, tsp]
+          - [very cold sparkling water, 150, ml]
+          - [saffron or food colouring, 1, pinch]
+          - [roasted red peppers in strips, 2, null]
+          - [mild olive oil for frying, null, null]
+    steps:
+      - Pat the cod strips very dry with kitchen paper.
+      - Mix the flour, baking powder and saffron with the sparkling water into a thick batter.
+      - Wrap each strip of cod in a strip of pepper, dip it in the batter and fry it in hot oil until golden.
+      - Drain on kitchen paper and serve straight away.
+
+  - name: Salt cod fritters
+    health: [YELLOW, "Cod with batter, fried: tasty, but fried."]
+    nutrition: [60, 4, 4, 3]
+    photo: semana-santa/bunuelos-de-bacalao.jpg
+    category: Starters
+    difficulty: MEDIUM
+    prep: 25
+    cook: 15
+    servings: 30
+    notes: Makes about 30. Servings are fritters.
+    tags: [holy week, fish, fried, tapas]
+    utensils: []
+    ingredients:
+      - items:
+          - [desalted salt cod, 300, g]
+          - [plain flour, 150, g]
+          - [baking powder, 1, tsp]
+          - [eggs, 2, null]
+          - [milk, 150, ml]
+          - [garlic, 2, clove]
+          - [chopped parsley, 2, tbsp]
+          - [mild olive oil for frying, null, null]
+    steps:
+      - Simmer the cod in water for 3 minutes, drain it and flake it without skin or bones.
+      - Mix the flour, baking powder, eggs and milk into a thick batter. Add the cod and the chopped garlic and parsley. Leave to rest 30 minutes.
+      - Fry spoonfuls of batter in hot oil until golden and puffed.
+      - Drain on kitchen paper and serve hot.
+
+  - name: Salt cod omelette
+    health: [GREEN, "Egg and salt cod with onion and pepper: lots of protein."]
+    nutrition: [320, 28, 6, 20]
+    photo: semana-santa/tortilla-de-bacalao.jpg
+    category: Eggs
+    difficulty: EASY
+    prep: 15
+    cook: 25
+    servings: 4
+    notes: The one served in Basque cider houses. Soft inside.
+    tags: [holy week, eggs, fish, gluten-free]
+    origin: Basque Country
+    utensils: []
+    ingredients:
+      - items:
+          - [flaked desalted salt cod, 250, g]
+          - [eggs, 6, null]
+          - [onion, 1, null]
+          - [green pepper, 1, null]
+          - [extra virgin olive oil, 4, tbsp]
+          - [chopped parsley, 1, tbsp]
+    steps:
+      - Cook the onion and pepper in thin strips in the oil for 15 minutes over low heat.
+      - Add the cod and cook 3 minutes.
+      - Beat the eggs with the parsley, add the drained vegetables and mix.
+      - Set the omelette in a frying pan with a little of the oil, turning it with a plate, so it stays soft.
+
+  - name: Potatoes with salt cod
+    health: [GREEN, "Potato and salt cod stew: complete, simple and low in fat."]
+    nutrition: [380, 28, 42, 10]
+    category: Fish and seafood
+    difficulty: EASY
+    prep: 15
+    cook: 35
+    servings: 4
+    notes: A Lenten stew of a lifetime, with desalted flaked cod.
+    tags: [holy week, fish, stew, gluten-free]
+    utensils: []
+    ingredients:
+      - items:
+          - [desalted flaked salt cod, 300, g]
+          - [potatoes, 800, g]
+          - [onion, 1, null]
+          - [green pepper, 1, null]
+          - [garlic, 2, clove]
+          - [crushed tomato, 100, g]
+          - [sweet paprika, 1, tsp]
+          - [bay leaf, 1, null]
+          - [extra virgin olive oil, 3, tbsp]
+          - [water, 1, l]
+    steps:
+      - Fry the chopped onion, pepper and garlic in the oil for 10 minutes. Add the tomato and paprika and cook 3 minutes.
+      - Add the potatoes broken into chunks, the bay leaf and the water and simmer 20 minutes.
+      - "Add the cod and simmer 5 minutes more over low heat. Taste before salting: the cod is salty."
+      - Leave to rest 5 minutes and serve.
+
+  - name: Salt cod and raisin empanada
+    health: [YELLOW, "Cod with vegetables in pastry: complete, but the dough is rich."]
+    nutrition: [440, 22, 50, 17]
+    photo: semana-santa/empanada-de-bacalao-con-pasas.jpg
+    category: Breads and doughs
+    difficulty: MEDIUM
+    prep: 40
+    cook: 40
+    servings: 8
+    notes: The Galician Lenten empanada, with the sweet contrast of the raisins.
+    tags: [holy week, fish, baked, traditional]
+    origin: Galicia
+    utensils: [Oven]
+    ingredients:
+      - group: For the dough
+        items:
+          - [plain flour, 500, g]
+          - [fresh yeast, 15, g]
+          - [warm water, 200, ml]
+          - [oil from the filling, 60, ml]
+          - [salt, 1, tsp]
+      - group: For the filling
+        items:
+          - [flaked desalted salt cod, 400, g]
+          - [onions, 3, null]
+          - [red pepper, 1, null]
+          - [raisins, 60, g]
+          - [sweet paprika, 1, tsp]
+          - [extra virgin olive oil, 100, ml]
+          - [beaten egg to glaze, 1, null]
+    steps:
+      - Cook the onions and pepper in strips in the oil for 25 minutes. Add the paprika, cod and raisins and cook 3 minutes. Drain, keeping 60 ml of the oil, and leave to cool.
+      - Dissolve the yeast in the water, mix with the flour, the reserved oil and the salt and knead until smooth. Leave to rest 30 minutes.
+      - Divide the dough in two, roll one half out on the tray, spread the filling and cover with the other half, sealing the edges.
+      - Make a hole in the centre, brush with egg and bake at 190°C for 35-40 minutes.

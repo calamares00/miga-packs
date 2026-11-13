@@ -1,0 +1,57 @@
+# Origin of every photo in this folder: source page, author and licence (CC0 1.0, Public domain,
+# CC BY x.y or CC BY-SA x.y). tools/build.py refuses a recipe photo without an entry here.
+
+pestinos.jpg:
+  source: https://commons.wikimedia.org/wiki/File%3AReinosa_008_Pesti%C3%B1os.jpg
+  author: "Valdavia"
+  license: CC BY-SA 3.0
+
+bunuelos-de-viento.jpg:
+  source: https://commons.wikimedia.org/wiki/File%3ABu%C3%B1uelos_de_viento_-_Madrid.JPG
+  author: "Tamorlan"
+  license: CC BY-SA 3.0
+
+flores-fritas.jpg:
+  source: https://commons.wikimedia.org/wiki/File%3ARosettes.JPG
+  author: "Jonathunder"
+  license: CC BY-SA 3.0
+
+bartolillos.jpg:
+  source: https://commons.wikimedia.org/wiki/File%3ABartolillos_de_crema_%28La_Mallorquina%29.jpg
+  author: "Tamorlan"
+  license: CC BY 3.0
+
+mona-de-pascua.jpg:
+  source: https://commons.wikimedia.org/wiki/File%3AMona_de_Pascua-Mad.jpg
+  author: "Tamorlan"
+  license: CC BY-SA 3.0
+
+hornazo.jpg:
+  source: https://commons.wikimedia.org/wiki/File%3AHornazo_-_2012.JPG
+  author: "Tamorlan"
+  license: CC BY-SA 3.0
+
+bacalao-a-la-vizcaina.jpg:
+  source: https://commons.wikimedia.org/wiki/File%3ABacalao_Vizcaina_%28Marug%C3%A1n%29.jpg
+  author: "Tamorlan"
+  license: CC BY-SA 3.0
+
+soldaditos-de-pavia.jpg:
+  source: https://commons.wikimedia.org/wiki/File%3ASoldaditos_de_Pavia-Bacalao.jpg
+  author: "Tamorlan"
+  license: CC BY 3.0
+
+bunuelos-de-bacalao.jpg:
+  source: https://commons.wikimedia.org/wiki/File%3ABu%C3%B1uelos_de_bacalao-2009.jpg
+  author: "Tamorlan"
+  license: CC BY 3.0
+
+tortilla-de-bacalao.jpg:
+  source: https://commons.wikimedia.org/wiki/File%3ACider_menu_-_Codfish_omelette_001.jpg
+  author: "Valdavia"
+  license: CC BY-SA 3.0
+
+empanada-de-bacalao-con-pasas.jpg:
+  source: https://commons.wikimedia.org/wiki/File%3AEmpanada_-_xurde.jpg
+  author: "Jorge Díaz from San Francisco, USA"
+  license: CC BY-SA 2.0

@@ -1,0 +1,57 @@
+# Origin of every photo in this folder: source page, author and licence (CC0 1.0, Public domain,
+# CC BY x.y or CC BY-SA x.y). tools/build.py refuses a recipe photo without an entry here.
+
+bizcocho-en-taza.jpg:
+  source: https://commons.wikimedia.org/wiki/File%3AChocolate_Mug_Cake_%28KETO%2C_LCHF%2C_Low_Carb%2C_Gluten_free%2C_FIT%29.jpg
+  author: "Ewelina Podrez-Siama"
+  license: CC BY 2.0
+
+huevos-al-plato-con-jamon.jpg:
+  source: https://commons.wikimedia.org/wiki/File%3AHuevos_flamenquina_o_huevo_al_plato.jpg
+  author: "Gini10"
+  license: CC BY-SA 4.0
+
+salmon-con-verduras-al-microondas.jpg:
+  source: https://commons.wikimedia.org/wiki/File%3AFox%27s_salmon_steak%2C_same_mushroom_sauce%2C_roasted_carrots_and_steamed_broccoli._-mycookingadventures_%2850103299871%29.jpg
+  author: "transcendancing"
+  license: CC BY-SA 2.0
+
+bacalao-con-pimientos-al-microondas.jpg:
+  source: https://commons.wikimedia.org/wiki/File%3ASalt_cod_with_peppers_at_Casa_do_Alentejo_%284141486635%29.jpg
+  author: "Heather Cowper from Bristol, UK"
+  license: CC BY 2.0
+
+flan-de-queso-al-microondas.jpg:
+  source: https://commons.wikimedia.org/wiki/File%3AHomemade_Flan.jpg
+  author: "Cary Bass"
+  license: CC BY-SA 2.5
+
+risotto-de-calabacin-al-microondas.jpg:
+  source: https://commons.wikimedia.org/wiki/File%3ARisotto_ai_gamberetti_e_zucchine.jpg
+  author: "Number55"
+  license: CC BY-SA 3.0
+
+brocoli-con-ajo-y-almendras.jpg:
+  source: https://commons.wikimedia.org/wiki/File%3AYellow-fin_tuna_and_broccoli%2C_roasted_with_garlic_olive_oil%2C_salt%2C_and_black_pepper_-_Massachusetts.jpg
+  author: "Daderot"
+  license: CC0 1.0
+
+pechuga-de-pollo-al-limon-al-microondas.jpg:
+  source: https://commons.wikimedia.org/wiki/File%3AChicken_breast_with_lemon_sauce_%2817238222455%29.jpg
+  author: "Luca Nebuloni from Milan, Italy"
+  license: CC BY 2.0
+
+berenjenas-rellenas-al-microondas.jpg:
+  source: https://commons.wikimedia.org/wiki/File%3AStuffed_eggplant_%28Punjeni_patlid%C5%BEan%29.JPG
+  author: "BiHVolim"
+  license: CC BY-SA 4.0
+
+natillas-de-chocolate-al-microondas.jpg:
+  source: https://commons.wikimedia.org/wiki/File%3AChocolate_pudding_with_a_butterfly.jpg
+  author: "E4024"
+  license: CC BY-SA 4.0
+
+almendras-garrapinadas.jpg:
+  source: https://commons.wikimedia.org/wiki/File%3AVegan_Cherry_Candied_Almonds_%284106810857%29.jpg
+  author: "Veganbaking.net from USA"
+  license: CC BY-SA 2.0

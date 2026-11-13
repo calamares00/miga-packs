@@ -1,0 +1,37 @@
+# Origin of every photo in this folder: source page, author and licence (CC0 1.0, Public domain,
+# CC BY x.y or CC BY-SA x.y). tools/build.py refuses a recipe photo without an entry here.
+
+ropa-vieja.jpg:
+  source: https://commons.wikimedia.org/wiki/File%3ARopa_vieja_plato_cubano_por_excelencia_2.jpg
+  author: "El Mono Español"
+  license: CC BY-SA 4.0
+
+croquetas-de-cocido.jpg:
+  source: https://commons.wikimedia.org/wiki/File%3ACroquetas_caseras_de_carne_de_cocido_con_allioli.jpg
+  author: "Juan Emilio Prades Bel"
+  license: CC BY-SA 4.0
+
+empanadillas-de-pollo-asado.jpg:
+  source: https://commons.wikimedia.org/wiki/File%3AEmpanadillas.jpg
+  author: "Fernand0"
+  license: CC BY-SA 2.0
+
+pastel-de-pure-y-carne-asada.jpg:
+  source: https://commons.wikimedia.org/wiki/File%3AShepherds_pie_-_The_Kew_Greenhouse_Cafe_2025-05-14.jpg
+  author: "Andy Li"
+  license: CC0 1.0
+
+mermelada-de-frutas-maduras.jpg:
+  source: https://commons.wikimedia.org/wiki/File%3A-2020-11-14_Homemade_Apricot_Jam%2C_Trimingham.JPG
+  author: "Kolforn"
+  license: CC BY-SA 4.0
+
+caldo-de-pieles-y-tallos-de-verduras.jpg:
+  source: https://commons.wikimedia.org/wiki/File%3AYangroupaomo3.jpg
+  author: "Pubuhan"
+  license: CC BY-SA 3.0
+
+picatostes-de-pan-duro.jpg:
+  source: https://commons.wikimedia.org/wiki/File%3A13-09-01-kochtreffen-wien-Bi-frie-004.jpg
+  author: "Bi-frie (talk)"
+  license: CC BY 3.0

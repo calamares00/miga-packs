@@ -1,0 +1,47 @@
+# Origin of every photo in this folder: source page, author and licence (CC0 1.0, Public domain,
+# CC BY x.y or CC BY-SA x.y). tools/build.py refuses a recipe photo without an entry here.
+
+patatas-a-lo-pobre-con-huevo.jpg:
+  source: https://commons.wikimedia.org/wiki/File%3APatatas_a_lo_pobre.jpg
+  author: "Eduardo Milla"
+  license: CC BY-SA 4.0
+
+salmon-al-horno-con-limon-y-eneldo.jpg:
+  source: https://commons.wikimedia.org/wiki/File%3ABaked_salmon_with_dill_and_lemon.jpg
+  author: "MOs810"
+  license: CC BY-SA 3.0
+
+hummus-de-remolacha.jpg:
+  source: https://commons.wikimedia.org/wiki/File%3AHummus_with_beetroot_and_paprika_%28Poznan%29.jpg
+  author: "MOs810"
+  license: CC BY-SA 4.0
+
+pollo-relleno-de-jamon-y-queso.jpg:
+  source: https://commons.wikimedia.org/wiki/File%3ACordon_Bleu_Mit_Kroketten.jpg
+  author: "bjacobdawson"
+  license: CC BY-SA 2.0
+
+espaguetis-al-pomodoro.jpg:
+  source: https://commons.wikimedia.org/wiki/File%3ASpaghetti_al_pomodoro_4.jpg
+  author: "10Rosso"
+  license: CC BY 2.0
+
+revuelto-de-gambas-y-ajetes.jpg:
+  source: https://commons.wikimedia.org/wiki/File%3ABaby_shrimp_with_scrambled_egg.jpg
+  author: "Ser Amantio di Nicolao"
+  license: CC0 1.0
+
+merluza-a-la-gallega.jpg:
+  source: https://commons.wikimedia.org/wiki/File%3APlato_de_merluza.jpg
+  author: "sporras from Madrid, Spain"
+  license: CC BY-SA 2.0
+
+pan-de-queso.jpg:
+  source: https://commons.wikimedia.org/wiki/File%3ACheesebread.jpg
+  author: "Murilo manzini"
+  license: CC BY-SA 4.0
+
+galletas-de-crema-de-cacahuete.jpg:
+  source: https://commons.wikimedia.org/wiki/File%3APeanut_butter_cookies_%285044666692%29.jpg
+  author: "Aimee Plesa from Springboro OH, USA"
+  license: CC BY 2.0

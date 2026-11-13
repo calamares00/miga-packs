@@ -1,0 +1,52 @@
+# Origin of every photo in this folder: source page, author and licence (CC0 1.0, Public domain,
+# CC BY x.y or CC BY-SA x.y). tools/build.py refuses a recipe photo without an entry here.
+
+bizcocho-de-naranja.jpg:
+  source: https://commons.wikimedia.org/wiki/File%3AOrange_Cake_-_Olea_2025-08-17.jpg
+  author: "Andy Li"
+  license: CC0 1.0
+
+bizcocho-marmolado.jpg:
+  source: https://commons.wikimedia.org/wiki/File%3ACoffee-flavored_marble_loaf_cake.png
+  author: "WhatamIdoing"
+  license: CC BY 4.0
+
+bizcocho-de-zanahoria.jpg:
+  source: https://commons.wikimedia.org/wiki/File%3ACarrot_cake_-_Milfey_Patisserie_2026-09-07.jpg
+  author: "Andy Li"
+  license: CC0 1.0
+
+bizcocho-de-limon-y-amapola.jpg:
+  source: https://commons.wikimedia.org/wiki/File%3AZitronen-Mohn-Kuchen_%286041916750%29.jpg
+  author: "Katrin Gilger"
+  license: CC BY-SA 2.0
+
+bizcocho-de-manzana.jpg:
+  source: https://commons.wikimedia.org/wiki/File%3ACanadian_Apple_Cake%2C_Ehrenbach.jpg
+  author: "Gerda Arendt"
+  license: CC BY-SA 4.0
+
+bizcocho-de-cacao-y-cafe.jpg:
+  source: https://commons.wikimedia.org/wiki/File%3ACappuccino_Cake_-_Caff%C3%A8_Nero_2025-10-12.jpg
+  author: "Andy Li"
+  license: CC0 1.0
+
+galletas-de-avena-y-pasas.jpg:
+  source: https://commons.wikimedia.org/wiki/File%3AOatmeal_Cookies_with_orange_zest%2C_golden_raisins%2C_and_chocolate_chips.jpg
+  author: "Paul Martin"
+  license: CC BY 2.0
+
+galletas-de-limon.jpg:
+  source: https://commons.wikimedia.org/wiki/File%3ALemon_Pepper_Cookies_%2811668001%29.jpg
+  author: "Charles Haynes"
+  license: CC BY-SA 2.0
+
+lenguas-de-gato.jpg:
+  source: https://commons.wikimedia.org/wiki/File%3AVegan_Langue_de_chat_%284708495681%29.jpg
+  author: "Vegan Feast Catering"
+  license: CC BY 2.0
+
+galletas-de-canela.jpg:
+  source: https://commons.wikimedia.org/wiki/File%3APile_of_snickerdoodles.jpg
+  author: "jim Winstead from los angeles, usa"
+  license: CC BY 2.0

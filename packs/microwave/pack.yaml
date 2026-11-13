@@ -1,0 +1,327 @@
+id: microwave
+version: 1
+updated: 2026-11-13
+language: en
+name: Microwave
+series: Kitchen appliances
+family: microondas
+description: >-
+  The microwave is good for much more than reheating: mug cake, baked eggs with ham, salmon and
+  cod with vegetables, cheese flan, risotto, broccoli with almonds, lemon chicken, stuffed
+  aubergines, express berry jam, chocolate custard and candied almonds. Times for an 800 W
+  microwave: shorten them with more power, lengthen them with less. Use microwave-safe dishes and
+  cover with a microwave lid or vented cling film.
+author: Miga
+authorGithub: calamares00
+cover:
+  emoji: "⚡"
+  title: Microwave
+  colors: ["#1e40af", "#38bdf8"]
+defaults:
+  source: Miga «Microwave» pack
+recipes:
+
+  - name: Chocolate mug cake
+    health: [RED, "An individual chocolate cake: a sweet treat."]
+    nutrition: [420, 8, 50, 21]
+    photo: microondas/bizcocho-en-taza.jpg
+    category: Desserts
+    difficulty: EASY
+    prep: 5
+    cook: 2
+    servings: 1
+    notes: 800 W microwave. Use a large mug (300 ml) because it rises a lot.
+    tags: [microwave, dessert, quick, chocolate]
+    utensils: [Microwave]
+    ingredients:
+      - items:
+          - [plain flour, 4, tbsp]
+          - [cocoa powder, 2, tbsp]
+          - [sugar, 3, tbsp]
+          - [baking powder, 0.25, tsp]
+          - [egg, 1, null]
+          - [milk, 3, tbsp]
+          - [sunflower oil, 2, tbsp]
+          - [chocolate chips, 1, tbsp, optional]
+    steps:
+      - Mix the flour, cocoa, sugar and baking powder in the mug.
+      - Add the egg, milk and oil and beat with a fork until smooth. Add the chips.
+      - Cook 1 minute 30 seconds on full power. If the centre is still liquid, 15 seconds more.
+      - Leave to rest 1 minute before eating.
+
+  - name: Microwave baked eggs with ham
+    health: [YELLOW, "Egg with tomato and ham: protein, with some salt."]
+    nutrition: [280, 18, 8, 19]
+    photo: microondas/huevos-al-plato-con-jamon.jpg
+    category: Eggs
+    difficulty: EASY
+    prep: 5
+    cook: 4
+    servings: 2
+    notes: 800 W microwave. Prick the yolks with a cocktail stick so they don't burst.
+    tags: [microwave, eggs, quick, gluten-free]
+    utensils: [Microwave]
+    ingredients:
+      - items:
+          - [eggs, 4, null]
+          - [tomato sauce, 6, tbsp]
+          - [diced serrano ham, 50, g]
+          - [cooked peas, 3, tbsp, optional]
+          - [salt, null, null]
+    steps:
+      - Divide the tomato sauce between two microwave-safe soup plates and add the ham and peas.
+      - Crack two eggs into each plate, salt and prick the yolks with a cocktail stick.
+      - Cover and cook each plate 1 minute 30 seconds at 800 W. If the whites are not set, add 15-second bursts.
+
+  - name: Microwave salmon with vegetables
+    health: [GREEN, "Steamed oily fish with vegetables: omega-3 and very little added fat."]
+    nutrition: [340, 30, 10, 20]
+    photo: microondas/salmon-con-verduras-al-microondas.jpg
+    category: Fish and seafood
+    difficulty: EASY
+    prep: 10
+    cook: 7
+    servings: 2
+    notes: 800 W microwave. The salmon cooks in its own steam.
+    tags: [microwave, fish, gluten-free]
+    utensils: [Microwave]
+    ingredients:
+      - items:
+          - [salmon fillets, 2, null]
+          - [courgette, 1, null]
+          - [carrot, 1, null]
+          - [lemon, 0.5, null]
+          - [dill or parsley, 1, tbsp]
+          - [extra virgin olive oil, 1, tbsp]
+          - [salt, null, null]
+    steps:
+      - Cut the courgette and carrot into thin strips and put them in a microwave-safe dish with the oil and salt. Cover and cook 3 minutes.
+      - Lay the salted salmon on top with lemon slices.
+      - Cover and cook 3-4 minutes more, until the salmon is opaque.
+      - Leave to rest 1 minute and serve with the herbs.
+
+  - name: Microwave cod with peppers
+    health: [GREEN, "Cod with peppers and garlic: lean protein and little fat."]
+    nutrition: [290, 30, 10, 14]
+    photo: microondas/bacalao-con-pimientos-al-microondas.jpg
+    category: Fish and seafood
+    difficulty: EASY
+    prep: 10
+    cook: 10
+    servings: 2
+    notes: 800 W microwave. With desalted salt cod or fresh cod fillets.
+    tags: [microwave, fish, gluten-free]
+    utensils: [Microwave]
+    ingredients:
+      - items:
+          - [desalted salt cod fillets, 2, null]
+          - [red pepper, 1, null]
+          - [green pepper, 1, null]
+          - [onion, 0.5, null]
+          - [garlic, 2, clove]
+          - [extra virgin olive oil, 2, tbsp]
+    steps:
+      - Cut the peppers and onion into strips and slice the garlic. Put them in a dish with the oil, cover and cook 5 minutes, stirring halfway.
+      - Lay the cod on top, skin side up.
+      - Cover and cook 3-4 minutes, until it flakes.
+      - Leave to rest 2 minutes covered and serve with the juices.
+
+  - name: Microwave cheese flan
+    health: [RED, "Cream cheese, condensed milk and egg: a very rich dessert."]
+    nutrition: [330, 9, 34, 18]
+    photo: microondas/flan-de-queso-al-microondas.jpg
+    category: Desserts
+    difficulty: EASY
+    prep: 5
+    cook: 8
+    servings: 6
+    notes: 800 W microwave. Silicone or glass mould of about 18 cm. It needs 4 hours in the fridge.
+    tags: [microwave, dessert]
+    utensils: [Microwave, Blender]
+    ingredients:
+      - items:
+          - [liquid caramel, 3, tbsp]
+          - [cream cheese, 200, g]
+          - [condensed milk, 200, g]
+          - [milk, 250, ml]
+          - [eggs, 3, null]
+    steps:
+      - Cover the base of the mould with the caramel.
+      - Blend the cheese, both milks and the eggs and pour into the mould.
+      - Cook 4 minutes at 800 W, rest 1 minute and cook 3-4 minutes more, until almost set (the centre still wobbles a little).
+      - Leave to cool and chill 4 hours. Turn out by running a knife round the edge.
+
+  - name: Microwave courgette risotto
+    health: [YELLOW, "Rice with courgette and cheese: high in carbohydrates, with some fat."]
+    nutrition: [430, 12, 64, 13]
+    photo: microondas/risotto-de-calabacin-al-microondas.jpg
+    category: Rice
+    difficulty: EASY
+    prep: 10
+    cook: 20
+    servings: 2
+    notes: 800 W microwave. Use a large, deep microwave-safe bowl.
+    tags: [microwave, rice, vegetarian]
+    utensils: [Microwave]
+    ingredients:
+      - items:
+          - [risotto rice, 160, g]
+          - [courgette, 1, null]
+          - [shallot, 1, null]
+          - [hot vegetable stock, 500, ml]
+          - [butter, 15, g]
+          - [grated parmesan, 30, g]
+          - [extra virgin olive oil, 1, tbsp]
+          - [salt, null, null]
+    steps:
+      - Put the chopped shallot with the oil in the bowl and cook 2 minutes uncovered.
+      - Add the rice, stir and cook 1 minute. Add 250 ml of stock and cook 6 minutes uncovered.
+      - Stir, add the diced courgette and the rest of the stock and cook 6-8 minutes more, stirring halfway, until the rice is al dente.
+      - Add the butter and parmesan, stir, salt and leave to rest 2 minutes covered.
+
+  - name: Broccoli with garlic and almonds
+    health: [GREEN, "Steamed vegetables with garlic and nuts: fibre, vitamins and good fats."]
+    nutrition: [150, 6, 9, 11]
+    photo: microondas/brocoli-con-ajo-y-almendras.jpg
+    category: Vegetables
+    difficulty: EASY
+    prep: 5
+    cook: 6
+    servings: 2
+    notes: 800 W microwave. Steamed in its own moisture, it keeps its colour and vitamins.
+    tags: [microwave, vegetables, vegan, gluten-free]
+    utensils: [Microwave]
+    ingredients:
+      - items:
+          - [broccoli florets, 400, g]
+          - [water, 2, tbsp]
+          - [garlic, 1, clove]
+          - [flaked almonds, 20, g]
+          - [extra virgin olive oil, 1, tbsp]
+          - [salt, null, null]
+    steps:
+      - Put the broccoli with the water in a dish, cover and cook 4 minutes.
+      - In a small bowl, put the oil with the sliced garlic and almonds and cook 1 minute, until lightly golden.
+      - Drain the broccoli, salt it and pour the garlic and almond oil over.
+
+  - name: Microwave lemon chicken breast
+    health: [GREEN, "Lean chicken with lemon and herbs: lots of protein and little fat."]
+    nutrition: [240, 40, 2, 8]
+    photo: microondas/pechuga-de-pollo-al-limon-al-microondas.jpg
+    category: Meat
+    difficulty: EASY
+    prep: 5
+    cook: 8
+    servings: 2
+    notes: 800 W microwave. Use fillets of similar thickness so they cook evenly.
+    tags: [microwave, chicken, gluten-free]
+    utensils: [Microwave]
+    ingredients:
+      - items:
+          - [chicken breast fillets, 2, null]
+          - [lemon (juice and zest), 1, null]
+          - [garlic, 1, clove]
+          - [dried oregano or thyme, 0.5, tsp]
+          - [extra virgin olive oil, 1, tbsp]
+          - [salt, null, null]
+    steps:
+      - Put the chicken in a dish and cover with the lemon juice and zest, chopped garlic, herbs, oil and salt.
+      - Cover and cook 3 minutes, turn over and cook 2-3 minutes more, until no longer pink inside.
+      - Leave to rest 2 minutes covered and serve with its juices.
+
+  - name: Microwave stuffed aubergines
+    health: [YELLOW, "Aubergine with meat and tomato; the melted cheese adds fat."]
+    nutrition: [360, 22, 16, 23]
+    photo: microondas/berenjenas-rellenas-al-microondas.jpg
+    category: Vegetables
+    difficulty: EASY
+    prep: 15
+    cook: 15
+    servings: 2
+    notes: 800 W microwave. If your microwave has a grill, brown them for 3 minutes at the end.
+    tags: [microwave, vegetables]
+    utensils: [Microwave]
+    ingredients:
+      - items:
+          - [medium aubergines, 2, null]
+          - [minced meat, 200, g]
+          - [onion, 0.5, null]
+          - [tomato sauce, 4, tbsp]
+          - [grated cheese, 50, g]
+          - [extra virgin olive oil, 1, tbsp]
+          - [salt, null, null]
+    steps:
+      - Halve the aubergines lengthways, score the flesh, salt them and cook covered for 6 minutes.
+      - Scoop out the flesh with a spoon, leaving 1 cm.
+      - Mix the chopped flesh with the meat, chopped onion, oil and tomato sauce and cook 4 minutes, stirring halfway.
+      - Fill the aubergines, top with the cheese and cook 3 minutes more, until melted.
+
+  - name: Express berry jam
+    health: [YELLOW, "Fruit with little sugar: lighter than shop-bought, but sweet."]
+    nutrition: [35, 0, 9, 0]
+    category: Desserts
+    difficulty: EASY
+    prep: 2
+    cook: 10
+    servings: 12
+    notes: 800 W microwave. Use a large bowl because it boils up a lot. It keeps a week in the fridge. Servings are one tablespoon.
+    tags: [microwave, breakfast, vegan]
+    utensils: [Microwave]
+    ingredients:
+      - items:
+          - [fresh or frozen berries, 300, g]
+          - [sugar, 60, g]
+          - [lemon juice, 1, tbsp]
+    steps:
+      - Put the berries, sugar and lemon in a large bowl.
+      - Cook 4 minutes uncovered, stir and cook 4-6 minutes more, stirring every 2 minutes, until thick.
+      - Mash the fruit with a fork if you want it smooth. It thickens as it cools.
+
+  - name: Microwave chocolate custard
+    health: [YELLOW, "Milk, egg and chocolate: provides calcium, but it is a sweet dessert."]
+    nutrition: [230, 7, 30, 9]
+    photo: microondas/natillas-de-chocolate-al-microondas.jpg
+    category: Desserts
+    difficulty: EASY
+    prep: 5
+    cook: 8
+    servings: 4
+    notes: 800 W microwave. Whisking after each burst is the key to a smooth custard.
+    tags: [microwave, dessert, chocolate]
+    utensils: [Microwave]
+    ingredients:
+      - items:
+          - [whole milk, 500, ml]
+          - [sugar, 70, g]
+          - [cornflour, 25, g]
+          - [cocoa powder, 2, tbsp]
+          - [egg yolks, 2, null]
+          - [dark chocolate, 40, g]
+    steps:
+      - Whisk the milk, sugar, cornflour, cocoa and yolks in a large bowl.
+      - Cook 2 minutes, whisk and repeat in 1-minute bursts, always whisking, until thick (about 6-7 minutes in all).
+      - Add the chopped chocolate and stir until melted.
+      - Divide among bowls and chill at least 2 hours.
+
+  - name: Candied almonds (garrapiñadas)
+    health: [RED, "Caramelised almonds: the nut is healthy, the sugar less so."]
+    nutrition: [180, 4, 16, 11]
+    photo: microondas/almendras-garrapinadas.jpg
+    category: Desserts
+    difficulty: EASY
+    prep: 2
+    cook: 6
+    servings: 8
+    notes: "800 W microwave. The sugar is very hot: let them cool completely before touching them. Servings are 30 g."
+    tags: [microwave, dessert, gluten-free]
+    utensils: [Microwave]
+    ingredients:
+      - items:
+          - [raw almonds with skin, 150, g]
+          - [sugar, 100, g]
+          - [water, 50, ml]
+          - [ground cinnamon, 0.5, tsp, optional]
+    steps:
+      - Mix the sugar, water and cinnamon in a glass bowl and add the almonds.
+      - Cook 2 minutes, stir and cook in 1-minute bursts, always stirring, until the sugar crystallises and then starts to caramelise (about 5-6 minutes in all).
+      - Spread them straight away on baking paper, separate them and leave to cool.

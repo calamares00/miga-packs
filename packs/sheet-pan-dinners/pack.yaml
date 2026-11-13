@@ -1,0 +1,357 @@
+id: sheet-pan-dinners
+version: 1
+updated: 2026-11-13
+language: en
+name: "Oven: sheet-pan dinners"
+series: Kitchen appliances
+family: horno-en-una-bandeja
+description: >-
+  Complete dinners made on a single oven tray: prepare, put it in and forget it, with only one
+  thing to wash up. Mustard chicken with vegetables, salmon with potatoes and asparagus, sausages
+  with vegetables, chicken fajitas, gnocchi with cherry tomatoes, pork chops with potatoes,
+  turkey with sweet potato, whole roast cauliflower, hake with boulangère potatoes, tray pizza,
+  vegetables with halloumi and chicken with chorizo and chickpeas.
+author: Miga
+authorGithub: calamares00
+cover:
+  emoji: "🍗"
+  kicker: Oven
+  title: Sheet-pan dinners
+  colors: ["#9a3412", "#fb923c"]
+defaults:
+  source: "Miga «Oven: sheet-pan dinners» pack"
+recipes:
+
+  - name: Mustard chicken with roast vegetables
+    health: [GREEN, "Chicken with plenty of roast vegetables: complete and with little added fat."]
+    nutrition: [430, 36, 30, 18]
+    category: Meat
+    difficulty: EASY
+    prep: 15
+    cook: 40
+    servings: 4
+    notes: Top and bottom heat. A large tray, so the vegetables roast without crowding.
+    tags: [sheet pan, chicken, baked, gluten-free]
+    utensils: [Oven]
+    ingredients:
+      - items:
+          - [chicken thighs, 8, null]
+          - [small potatoes, 500, g]
+          - [carrots, 3, null]
+          - [red onion, 1, null]
+          - [Dijon mustard, 2, tbsp]
+          - [honey, 1, tbsp]
+          - [dried thyme, 1, tsp]
+          - [extra virgin olive oil, 3, tbsp]
+          - [salt, null, null]
+    steps:
+      - Preheat the oven to 210°C.
+      - Halve the potatoes, cut the carrots into sticks and the onion into wedges. Toss them on the tray with half the oil and salt.
+      - Mix the mustard, honey, thyme and the rest of the oil and spread over the salted chicken.
+      - Put the chicken on top of the vegetables and roast 35-40 minutes, until golden and the potatoes tender.
+
+  - name: Salmon with potatoes and asparagus
+    health: [GREEN, "Oily fish with vegetables and potato: omega-3 in a complete dinner."]
+    nutrition: [460, 32, 30, 23]
+    photo: horno-en-una-bandeja/salmon-con-patatas-y-esparragos.jpg
+    category: Fish and seafood
+    difficulty: EASY
+    prep: 10
+    cook: 35
+    servings: 4
+    notes: The potatoes go in first because they take longer; the salmon and asparagus go in at the end.
+    tags: [sheet pan, fish, baked, gluten-free]
+    utensils: [Oven]
+    ingredients:
+      - items:
+          - [salmon fillets, 4, null]
+          - [small potatoes, 600, g]
+          - [green asparagus, 1, bunch]
+          - [lemon, 1, null]
+          - [garlic, 2, clove]
+          - [extra virgin olive oil, 3, tbsp]
+          - [salt, null, null]
+    steps:
+      - Preheat the oven to 210°C. Halve the potatoes, toss with half the oil and salt and roast 20 minutes.
+      - Push the potatoes to the sides and put the asparagus and salted salmon in the middle.
+      - Drizzle with the rest of the oil mixed with the chopped garlic and lay lemon slices on top.
+      - Roast 12-15 minutes more.
+
+  - name: Sausages with roast vegetables
+    health: [YELLOW, "Lots of vegetables, but sausages have fat and salt: choose chicken or good-quality ones."]
+    nutrition: [480, 18, 34, 30]
+    photo: horno-en-una-bandeja/salchichas-con-verduras-asadas.jpg
+    category: Meat
+    difficulty: EASY
+    prep: 10
+    cook: 35
+    servings: 4
+    notes: Prick them with a fork so they don't burst.
+    tags: [sheet pan, baked, quick]
+    utensils: [Oven]
+    ingredients:
+      - items:
+          - [fresh sausages, 8, null]
+          - [potatoes, 500, g]
+          - [red pepper, 1, null]
+          - [courgette, 1, null]
+          - [red onion, 1, null]
+          - [dried rosemary, 1, tsp]
+          - [extra virgin olive oil, 2, tbsp]
+          - [salt, null, null]
+    steps:
+      - Preheat the oven to 200°C.
+      - Cut the potatoes and vegetables into large pieces and toss them on the tray with the oil, rosemary and salt.
+      - Put the sausages on top and roast 30-35 minutes, turning them halfway.
+
+  - name: Sheet-pan chicken fajitas
+    health: [GREEN, "Chicken and peppers roasted with spices: light and complete with the tortillas."]
+    nutrition: [450, 34, 46, 14]
+    photo: horno-en-una-bandeja/fajitas-de-pollo-al-horno.jpg
+    category: Meat
+    difficulty: EASY
+    prep: 15
+    cook: 25
+    servings: 4
+    notes: Serve the warm tortillas with guacamole, yoghurt or salsa.
+    tags: [sheet pan, chicken, baked, spicy]
+    utensils: [Oven]
+    ingredients:
+      - items:
+          - [chicken breasts in strips, 600, g]
+          - [mixed peppers, 3, null]
+          - [onion, 1, null]
+          - [ground cumin, 1, tsp]
+          - [smoked paprika, 1, tsp]
+          - [chilli powder, 0.5, tsp]
+          - [lime, 1, null]
+          - [extra virgin olive oil, 2, tbsp]
+          - [flour tortillas, 8, null]
+          - [salt, null, null]
+    steps:
+      - Preheat the oven to 220°C.
+      - Toss the chicken, peppers and onion in strips on the tray with the spices, oil and salt.
+      - Roast 20-25 minutes, stirring halfway, until the chicken is cooked and the peppers charred.
+      - Squeeze over the lime and serve with the warm tortillas.
+
+  - name: Sheet-pan gnocchi with cherry tomatoes
+    health: [YELLOW, "Gnocchi with tomato and mozzarella: simple and tasty, with some fat."]
+    nutrition: [480, 16, 66, 17]
+    photo: horno-en-una-bandeja/noquis-al-horno-con-tomates-cherry.jpg
+    category: Pasta
+    difficulty: EASY
+    prep: 5
+    cook: 25
+    servings: 4
+    notes: Fresh packet gnocchi roast without boiling first and turn crisp outside.
+    tags: [sheet pan, pasta, vegetarian, baked]
+    utensils: [Oven]
+    ingredients:
+      - items:
+          - [fresh gnocchi, 800, g]
+          - [cherry tomatoes, 500, g]
+          - [garlic, 3, clove]
+          - [mozzarella, 125, g]
+          - [fresh basil, null, null]
+          - [extra virgin olive oil, 3, tbsp]
+          - [salt, null, null]
+    steps:
+      - Preheat the oven to 220°C.
+      - Toss the gnocchi, tomatoes, sliced garlic, oil and salt on the tray.
+      - Roast 20 minutes, stirring halfway, until the tomatoes burst and the gnocchi brown.
+      - Tear the mozzarella over, roast 5 minutes more and serve with basil.
+
+  - name: Pork chops with potatoes and peppers
+    health: [YELLOW, "Pork with potatoes and vegetables: complete; the chops have some fat."]
+    nutrition: [520, 34, 32, 28]
+    category: Meat
+    difficulty: EASY
+    prep: 10
+    cook: 40
+    servings: 4
+    notes: The potatoes go in first; the chops halfway through so they don't dry out.
+    tags: [sheet pan, pork, baked, gluten-free]
+    utensils: [Oven]
+    ingredients:
+      - items:
+          - [pork chops, 4, null]
+          - [potatoes, 600, g]
+          - [Italian green peppers, 2, null]
+          - [onion, 1, null]
+          - [garlic, 3, clove]
+          - [dried oregano, 1, tsp]
+          - [white wine, 80, ml]
+          - [extra virgin olive oil, 3, tbsp]
+          - [salt, null, null]
+    steps:
+      - Preheat the oven to 200°C. Slice the potatoes, cut the onion and peppers into strips, toss with the oil and salt and roast 20 minutes.
+      - Season the chops and rub them with the chopped garlic and oregano.
+      - Put them on top of the vegetables, pour over the wine and roast 15-20 minutes, turning halfway.
+
+  - name: Turkey with sweet potato and red onion
+    health: [GREEN, "Lean turkey with roast sweet potato: protein and fibre with little fat."]
+    nutrition: [400, 36, 38, 11]
+    photo: horno-en-una-bandeja/pavo-con-boniato-y-cebolla-roja.jpg
+    category: Meat
+    difficulty: EASY
+    prep: 10
+    cook: 30
+    servings: 4
+    notes: Very good with a spoonful of herb yoghurt on top.
+    tags: [sheet pan, turkey, baked, gluten-free]
+    utensils: [Oven]
+    ingredients:
+      - items:
+          - [diced turkey breast, 600, g]
+          - [sweet potatoes, 2, null]
+          - [red onions, 2, null]
+          - [smoked paprika, 1, tsp]
+          - [ground cumin, 0.5, tsp]
+          - [extra virgin olive oil, 3, tbsp]
+          - [salt, null, null]
+    steps:
+      - Preheat the oven to 210°C.
+      - Peel and dice the sweet potato. Cut the onions into wedges. Toss with half the oil, the spices and salt and roast 15 minutes.
+      - Toss the turkey with the rest of the oil and salt, add it to the tray and roast 15 minutes more.
+
+  - name: Whole roast cauliflower
+    health: [GREEN, "Cauliflower roasted with spices and yoghurt: light, tasty and full of fibre."]
+    nutrition: [180, 8, 14, 11]
+    photo: horno-en-una-bandeja/coliflor-asada-entera.jpg
+    category: Vegetables
+    difficulty: EASY
+    prep: 10
+    cook: 55
+    servings: 4
+    notes: It is parboiled first so it cooks through. As a main course, serve it with chickpeas or rice.
+    tags: [sheet pan, vegetables, vegetarian, baked, gluten-free]
+    utensils: [Oven]
+    ingredients:
+      - items:
+          - [whole cauliflower, 1, null]
+          - [plain Greek yoghurt, 150, g]
+          - [smoked paprika, 1, tsp]
+          - [ground cumin, 1, tsp]
+          - [turmeric, 0.5, tsp]
+          - [garlic, 1, clove]
+          - [extra virgin olive oil, 2, tbsp]
+          - [parsley or coriander, null, null]
+          - [salt, null, null]
+    steps:
+      - Preheat the oven to 200°C. Remove the leaves and boil the cauliflower whole in salted water for 8 minutes. Drain well.
+      - Mix half the yoghurt with the spices, grated garlic, oil and salt and spread it all over the cauliflower.
+      - Roast it on the tray for 40-45 minutes, until golden and tender when pierced.
+      - Serve with the rest of the yoghurt and the chopped herbs.
+
+  - name: Hake with boulangère potatoes
+    health: [GREEN, "White fish with oven-baked potato and onion: complete and light."]
+    nutrition: [400, 30, 36, 15]
+    photo: horno-en-una-bandeja/merluza-con-patatas-panaderas.jpg
+    category: Fish and seafood
+    difficulty: EASY
+    prep: 15
+    cook: 40
+    servings: 4
+    notes: The potatoes roast with the onion and pepper until tender; the fish cooks on top in a few minutes.
+    tags: [sheet pan, fish, baked, gluten-free]
+    utensils: [Oven]
+    ingredients:
+      - items:
+          - [hake fillets, 4, null]
+          - [potatoes, 700, g]
+          - [onion, 1, null]
+          - [green pepper, 1, null]
+          - [white wine, 100, ml]
+          - [garlic, 2, clove]
+          - [chopped parsley, 2, tbsp]
+          - [extra virgin olive oil, 4, tbsp]
+          - [salt, null, null]
+    steps:
+      - Preheat the oven to 190°C. Slice the potatoes thinly and cut the onion and pepper into strips. Toss with 3 tablespoons of oil and salt and roast 25 minutes.
+      - Lay the salted hake on top and pour over the wine.
+      - Mix the chopped garlic and parsley with the rest of the oil and spread over the fish.
+      - Roast 10-12 minutes, until the hake is cooked.
+
+  - name: Tray pizza
+    health: [YELLOW, "Homemade pizza: better than shop-bought, but with cheese and cured meat."]
+    nutrition: [520, 22, 62, 20]
+    photo: horno-en-una-bandeja/pizza-de-bandeja.jpg
+    category: Breads and doughs
+    difficulty: EASY
+    prep: 20
+    cook: 20
+    servings: 4
+    notes: The dough is stretched straight onto the greased oven tray. Shop-bought dough is fine.
+    tags: [sheet pan, pizza, baked]
+    utensils: [Oven]
+    ingredients:
+      - items:
+          - [pizza dough, 500, g]
+          - [crushed tomato, 200, g]
+          - [dried oregano, 1, tsp]
+          - [grated mozzarella, 250, g]
+          - [cooked ham or mushrooms, 150, g]
+          - [red pepper in strips, 0.5, null]
+          - [extra virgin olive oil, 2, tbsp]
+          - [salt, null, null]
+    steps:
+      - Preheat the oven to 230°C.
+      - Grease the tray with 1 tablespoon of oil and stretch the dough with your fingers to cover it.
+      - Top with the tomato mixed with oregano and salt, the mozzarella, ham and pepper.
+      - Drizzle with the rest of the oil and bake 15-20 minutes, until the edge is golden.
+
+  - name: Roast vegetables with halloumi
+    health: [GREEN, "Colourful vegetables with grilled cheese: vegetarian and filling."]
+    nutrition: [380, 18, 22, 25]
+    photo: horno-en-una-bandeja/verduras-asadas-con-halloumi.jpg
+    category: Vegetables
+    difficulty: EASY
+    prep: 15
+    cook: 35
+    servings: 4
+    notes: Halloumi holds its shape in the oven and turns golden outside.
+    tags: [sheet pan, vegetables, vegetarian, baked, gluten-free]
+    utensils: [Oven]
+    ingredients:
+      - items:
+          - [halloumi, 250, g]
+          - [courgette, 1, null]
+          - [aubergine, 1, null]
+          - [mixed peppers, 2, null]
+          - [red onion, 1, null]
+          - [cherry tomatoes, 200, g]
+          - [dried oregano, 1, tsp]
+          - [extra virgin olive oil, 3, tbsp]
+          - [salt, null, null]
+    steps:
+      - Preheat the oven to 210°C.
+      - Cut the vegetables into pieces and toss them on the tray with the oil, oregano and salt. Roast 25 minutes.
+      - Cut the halloumi into thick slices, lay them on the vegetables with the tomatoes and roast 10 minutes more, until golden.
+
+  - name: Sheet-pan chicken with chorizo and chickpeas
+    health: [YELLOW, "Chicken with chickpeas and vegetables: complete; the chorizo adds fat and salt."]
+    nutrition: [560, 42, 32, 28]
+    category: Meat
+    difficulty: EASY
+    prep: 10
+    cook: 40
+    servings: 4
+    notes: Tinned chickpeas toast in the chorizo fat and turn crunchy.
+    tags: [sheet pan, chicken, baked, gluten-free]
+    utensils: [Oven]
+    ingredients:
+      - items:
+          - [chicken thighs, 8, null]
+          - [cooked chickpeas, 400, g]
+          - [sliced chorizo, 100, g]
+          - [red peppers, 2, null]
+          - [red onion, 1, null]
+          - [cherry tomatoes, 200, g]
+          - [smoked paprika, 1, tsp]
+          - [extra virgin olive oil, 2, tbsp]
+          - [salt, null, null]
+    steps:
+      - Preheat the oven to 210°C.
+      - Toss the drained chickpeas, chorizo, peppers and onion in pieces and the tomatoes on the tray with the oil and half the paprika.
+      - Lay the chicken, salted and sprinkled with the rest of the paprika, on top, skin side up.
+      - Roast 35-40 minutes, until the chicken is golden and cooked.

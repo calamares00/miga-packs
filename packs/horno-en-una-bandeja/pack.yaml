@@ -1,0 +1,357 @@
+id: horno-en-una-bandeja
+version: 1
+updated: 2026-11-13
+language: es
+name: "Horno: todo en una bandeja"
+series: Electrodomésticos
+family: horno-en-una-bandeja
+description: >-
+  Cenas completas hechas en una sola bandeja de horno: preparas, metes y te olvidas, y solo hay
+  que fregar una cosa. Pollo a la mostaza con verduras, salmón con patatas y espárragos,
+  salchichas con verduras, fajitas de pollo, ñoquis con tomates cherry, chuletas de cerdo con
+  patatas, pavo con boniato, coliflor asada entera, merluza con patatas panaderas, pizza de
+  bandeja, verduras con halloumi y pollo con chorizo y garbanzos.
+author: Miga
+authorGithub: calamares00
+cover:
+  emoji: "🍗"
+  kicker: Horno
+  title: Todo en una bandeja
+  colors: ["#9a3412", "#fb923c"]
+defaults:
+  source: "Pack «Horno: todo en una bandeja» de Miga"
+recipes:
+
+  - name: Pollo con verduras a la mostaza
+    health: [GREEN, "Pollo con muchas verduras asadas: completo y con poca grasa añadida."]
+    nutrition: [430, 36, 30, 18]
+    category: Carnes
+    difficulty: EASY
+    prep: 15
+    cook: 40
+    servings: 4
+    notes: Horno con calor arriba y abajo. Una bandeja grande, para que las verduras se asen sin amontonarse.
+    tags: [una bandeja, pollo, al horno, sin gluten]
+    utensils: [Horno]
+    ingredients:
+      - items:
+          - [contramuslos de pollo, 8, null]
+          - [patatas pequeñas, 500, g]
+          - [zanahorias, 3, null]
+          - [cebolla roja, 1, null]
+          - [mostaza de Dijon, 2, cucharada]
+          - [miel, 1, cucharada]
+          - [tomillo seco, 1, cucharadita]
+          - [aceite de oliva virgen extra, 3, cucharada]
+          - [sal, null, null]
+    steps:
+      - Precalienta el horno a 210 °C.
+      - Corta las patatas por la mitad, la zanahoria en bastones y la cebolla en gajos. Mézclalas en la bandeja con la mitad del aceite y sal.
+      - Mezcla la mostaza, la miel, el tomillo y el resto del aceite y unta el pollo salado.
+      - Coloca el pollo sobre las verduras y hornea 35-40 minutos, hasta que esté dorado y las patatas tiernas.
+
+  - name: Salmón con patatas y espárragos
+    health: [GREEN, "Pescado azul con verdura y patata: omega 3 en una cena completa."]
+    nutrition: [460, 32, 30, 23]
+    photo: horno-en-una-bandeja/salmon-con-patatas-y-esparragos.jpg
+    category: Pescados y mariscos
+    difficulty: EASY
+    prep: 10
+    cook: 35
+    servings: 4
+    notes: Las patatas van primero porque tardan más; el salmón y los espárragos entran al final.
+    tags: [una bandeja, pescado, al horno, sin gluten]
+    utensils: [Horno]
+    ingredients:
+      - items:
+          - [lomos de salmón, 4, null]
+          - [patatas pequeñas, 600, g]
+          - [espárragos verdes, 1, manojo]
+          - [limón, 1, null]
+          - [dientes de ajo, 2, null]
+          - [aceite de oliva virgen extra, 3, cucharada]
+          - [sal, null, null]
+    steps:
+      - Precalienta el horno a 210 °C. Corta las patatas por la mitad, mézclalas con la mitad del aceite y sal y ásalas 20 minutos.
+      - Aparta las patatas a los lados y coloca los espárragos y el salmón salado en el centro.
+      - Riega con el resto del aceite mezclado con el ajo picado y pon rodajas de limón encima.
+      - Hornea 12-15 minutos más.
+
+  - name: Salchichas con verduras asadas
+    health: [YELLOW, "Muchas verduras, pero las salchichas tienen grasa y sal: mejor de pollo o de buena calidad."]
+    nutrition: [480, 18, 34, 30]
+    photo: horno-en-una-bandeja/salchichas-con-verduras-asadas.jpg
+    category: Carnes
+    difficulty: EASY
+    prep: 10
+    cook: 35
+    servings: 4
+    notes: Pínchalas con un tenedor para que no revienten.
+    tags: [una bandeja, al horno, rápida]
+    utensils: [Horno]
+    ingredients:
+      - items:
+          - [salchichas frescas, 8, null]
+          - [patatas, 500, g]
+          - [pimiento rojo, 1, null]
+          - [calabacín, 1, null]
+          - [cebolla roja, 1, null]
+          - [romero seco, 1, cucharadita]
+          - [aceite de oliva virgen extra, 2, cucharada]
+          - [sal, null, null]
+    steps:
+      - Precalienta el horno a 200 °C.
+      - Corta las patatas y las verduras en trozos grandes y mézclalas en la bandeja con el aceite, el romero y la sal.
+      - Coloca las salchichas encima y hornea 30-35 minutos, dándoles la vuelta a mitad.
+
+  - name: Fajitas de pollo al horno
+    health: [GREEN, "Pollo y pimientos asados con especias: ligeras y completas con las tortillas."]
+    nutrition: [450, 34, 46, 14]
+    photo: horno-en-una-bandeja/fajitas-de-pollo-al-horno.jpg
+    category: Carnes
+    difficulty: EASY
+    prep: 15
+    cook: 25
+    servings: 4
+    notes: Sirve las tortillas calientes con guacamole, yogur o salsa.
+    tags: [una bandeja, pollo, al horno, picante]
+    utensils: [Horno]
+    ingredients:
+      - items:
+          - [pechugas de pollo en tiras, 600, g]
+          - [pimientos de colores, 3, null]
+          - [cebolla, 1, null]
+          - [comino molido, 1, cucharadita]
+          - [pimentón ahumado, 1, cucharadita]
+          - [chile en polvo, 0.5, cucharadita]
+          - [lima, 1, null]
+          - [aceite de oliva virgen extra, 2, cucharada]
+          - [tortillas de trigo, 8, null]
+          - [sal, null, null]
+    steps:
+      - Precalienta el horno a 220 °C.
+      - Mezcla en la bandeja el pollo, los pimientos y la cebolla en tiras con las especias, el aceite y la sal.
+      - Hornea 20-25 minutos, removiendo a mitad, hasta que el pollo esté hecho y los pimientos tostados.
+      - Riega con zumo de lima y sirve con las tortillas calientes.
+
+  - name: Ñoquis al horno con tomates cherry
+    health: [YELLOW, "Ñoquis con tomate y mozzarella: sencillo y rico, con algo de grasa."]
+    nutrition: [480, 16, 66, 17]
+    photo: horno-en-una-bandeja/noquis-al-horno-con-tomates-cherry.jpg
+    category: Pastas
+    difficulty: EASY
+    prep: 5
+    cook: 25
+    servings: 4
+    notes: Los ñoquis frescos de paquete se asan sin cocerlos antes y quedan crujientes por fuera.
+    tags: [una bandeja, pasta, vegetariana, al horno]
+    utensils: [Horno]
+    ingredients:
+      - items:
+          - [ñoquis frescos, 800, g]
+          - [tomates cherry, 500, g]
+          - [dientes de ajo, 3, null]
+          - [mozzarella, 125, g]
+          - [albahaca fresca, null, null]
+          - [aceite de oliva virgen extra, 3, cucharada]
+          - [sal, null, null]
+    steps:
+      - Precalienta el horno a 220 °C.
+      - Mezcla en la bandeja los ñoquis, los tomates, el ajo laminado, el aceite y la sal.
+      - Hornea 20 minutos, removiendo a mitad, hasta que los tomates revienten y los ñoquis se doren.
+      - Reparte la mozzarella en trozos, hornea 5 minutos más y sirve con albahaca.
+
+  - name: Chuletas de cerdo con patatas y pimientos
+    health: [YELLOW, "Cerdo con patatas y verduras: completo; las chuletas tienen algo de grasa."]
+    nutrition: [520, 34, 32, 28]
+    category: Carnes
+    difficulty: EASY
+    prep: 10
+    cook: 40
+    servings: 4
+    notes: Las patatas van primero; las chuletas entran a mitad para que no se sequen.
+    tags: [una bandeja, cerdo, al horno, sin gluten]
+    utensils: [Horno]
+    ingredients:
+      - items:
+          - [chuletas de cerdo, 4, null]
+          - [patatas, 600, g]
+          - [pimientos verdes italianos, 2, null]
+          - [cebolla, 1, null]
+          - [dientes de ajo, 3, null]
+          - [orégano seco, 1, cucharadita]
+          - [vino blanco, 80, ml]
+          - [aceite de oliva virgen extra, 3, cucharada]
+          - [sal, null, null]
+    steps:
+      - Precalienta el horno a 200 °C. Corta las patatas en rodajas, la cebolla y los pimientos en tiras, mézclalos con el aceite y sal y hornea 20 minutos.
+      - Salpimienta las chuletas y frótalas con el ajo picado y el orégano.
+      - Colócalas sobre las verduras, riega con el vino y hornea 15-20 minutos, dándoles la vuelta a mitad.
+
+  - name: Pavo con boniato y cebolla roja
+    health: [GREEN, "Pavo magro con boniato asado: proteína y fibra, con poca grasa."]
+    nutrition: [400, 36, 38, 11]
+    photo: horno-en-una-bandeja/pavo-con-boniato-y-cebolla-roja.jpg
+    category: Carnes
+    difficulty: EASY
+    prep: 10
+    cook: 30
+    servings: 4
+    notes: Muy rico con una cucharada de yogur con hierbas por encima.
+    tags: [una bandeja, pavo, al horno, sin gluten]
+    utensils: [Horno]
+    ingredients:
+      - items:
+          - [pechuga de pavo en dados, 600, g]
+          - [boniatos, 2, null]
+          - [cebollas rojas, 2, null]
+          - [pimentón ahumado, 1, cucharadita]
+          - [comino molido, 0.5, cucharadita]
+          - [aceite de oliva virgen extra, 3, cucharada]
+          - [sal, null, null]
+    steps:
+      - Precalienta el horno a 210 °C.
+      - Pela el boniato y córtalo en dados. Corta las cebollas en gajos. Mézclalos con la mitad del aceite, las especias y sal y hornea 15 minutos.
+      - Mezcla el pavo con el resto del aceite y sal, añádelo a la bandeja y hornea 15 minutos más.
+
+  - name: Coliflor asada entera
+    health: [GREEN, "Coliflor asada con especias y yogur: ligera, sabrosa y llena de fibra."]
+    nutrition: [180, 8, 14, 11]
+    photo: horno-en-una-bandeja/coliflor-asada-entera.jpg
+    category: Verduras
+    difficulty: EASY
+    prep: 10
+    cook: 55
+    servings: 4
+    notes: Primero se cuece un poco para que se haga por dentro. Como plato principal, sírvela con garbanzos o arroz.
+    tags: [una bandeja, verduras, vegetariana, al horno, sin gluten]
+    utensils: [Horno]
+    ingredients:
+      - items:
+          - [coliflor entera, 1, null]
+          - [yogur griego natural, 150, g]
+          - [pimentón ahumado, 1, cucharadita]
+          - [comino molido, 1, cucharadita]
+          - [cúrcuma, 0.5, cucharadita]
+          - [diente de ajo, 1, null]
+          - [aceite de oliva virgen extra, 2, cucharada]
+          - [perejil o cilantro, null, null]
+          - [sal, null, null]
+    steps:
+      - Precalienta el horno a 200 °C. Quita las hojas a la coliflor y cuécela entera en agua con sal 8 minutos. Escúrrela bien.
+      - Mezcla la mitad del yogur con las especias, el ajo rallado, el aceite y sal y unta toda la coliflor.
+      - Ásala en la bandeja 40-45 minutos, hasta que esté dorada y tierna al pincharla.
+      - Sirve con el resto del yogur y las hierbas picadas.
+
+  - name: Merluza con patatas panaderas
+    health: [GREEN, "Pescado blanco con patata y cebolla al horno: completo y ligero."]
+    nutrition: [400, 30, 36, 15]
+    photo: horno-en-una-bandeja/merluza-con-patatas-panaderas.jpg
+    category: Pescados y mariscos
+    difficulty: EASY
+    prep: 15
+    cook: 40
+    servings: 4
+    notes: Las patatas panaderas se asan con la cebolla y el pimiento hasta que están tiernas; el pescado se hace encima en pocos minutos.
+    tags: [una bandeja, pescado, al horno, sin gluten]
+    utensils: [Horno]
+    ingredients:
+      - items:
+          - [lomos de merluza, 4, null]
+          - [patatas, 700, g]
+          - [cebolla, 1, null]
+          - [pimiento verde, 1, null]
+          - [vino blanco, 100, ml]
+          - [dientes de ajo, 2, null]
+          - [perejil picado, 2, cucharada]
+          - [aceite de oliva virgen extra, 4, cucharada]
+          - [sal, null, null]
+    steps:
+      - Precalienta el horno a 190 °C. Corta las patatas en rodajas finas y la cebolla y el pimiento en tiras. Mézclalos con 3 cucharadas de aceite y sal y hornea 25 minutos.
+      - Coloca la merluza salada encima y riega con el vino.
+      - Mezcla el ajo y el perejil picados con el resto del aceite y repártelo sobre el pescado.
+      - Hornea 10-12 minutos, hasta que la merluza esté hecha.
+
+  - name: Pizza de bandeja
+    health: [YELLOW, "Pizza casera: mejor que la comprada, pero con queso y embutido."]
+    nutrition: [520, 22, 62, 20]
+    photo: horno-en-una-bandeja/pizza-de-bandeja.jpg
+    category: Panes y masas
+    difficulty: EASY
+    prep: 20
+    cook: 20
+    servings: 4
+    notes: La masa se estira directamente en la bandeja del horno engrasada. Vale masa comprada.
+    tags: [una bandeja, pizza, al horno]
+    utensils: [Horno]
+    ingredients:
+      - items:
+          - [masa de pizza, 500, g]
+          - [tomate triturado, 200, g]
+          - [orégano seco, 1, cucharadita]
+          - [mozzarella rallada, 250, g]
+          - [jamón cocido o champiñones, 150, g]
+          - [pimiento rojo en tiras, 0.5, null]
+          - [aceite de oliva virgen extra, 2, cucharada]
+          - [sal, null, null]
+    steps:
+      - Precalienta el horno a 230 °C.
+      - Engrasa la bandeja con 1 cucharada de aceite y estira la masa con los dedos hasta cubrirla.
+      - Cubre con el tomate mezclado con el orégano y la sal, la mozzarella, el jamón y el pimiento.
+      - Riega con el resto del aceite y hornea 15-20 minutos, hasta que el borde esté dorado.
+
+  - name: Verduras asadas con halloumi
+    health: [GREEN, "Verduras de colores con queso a la plancha: vegetariano y saciante."]
+    nutrition: [380, 18, 22, 25]
+    photo: horno-en-una-bandeja/verduras-asadas-con-halloumi.jpg
+    category: Verduras
+    difficulty: EASY
+    prep: 15
+    cook: 35
+    servings: 4
+    notes: El halloumi aguanta el horno sin derretirse y queda dorado por fuera.
+    tags: [una bandeja, verduras, vegetariana, al horno, sin gluten]
+    utensils: [Horno]
+    ingredients:
+      - items:
+          - [halloumi, 250, g]
+          - [calabacín, 1, null]
+          - [berenjena, 1, null]
+          - [pimientos de colores, 2, null]
+          - [cebolla roja, 1, null]
+          - [tomates cherry, 200, g]
+          - [orégano seco, 1, cucharadita]
+          - [aceite de oliva virgen extra, 3, cucharada]
+          - [sal, null, null]
+    steps:
+      - Precalienta el horno a 210 °C.
+      - Corta las verduras en trozos y mézclalas en la bandeja con el aceite, el orégano y la sal. Hornea 25 minutos.
+      - Corta el halloumi en lonchas gruesas, colócalas sobre las verduras con los tomates y hornea 10 minutos más, hasta que se dore.
+
+  - name: Pollo con chorizo y garbanzos en bandeja
+    health: [YELLOW, "Pollo con garbanzos y verduras: completo; el chorizo añade grasa y sal."]
+    nutrition: [560, 42, 32, 28]
+    category: Carnes
+    difficulty: EASY
+    prep: 10
+    cook: 40
+    servings: 4
+    notes: Los garbanzos de bote se tuestan con la grasa del chorizo y quedan crujientes.
+    tags: [una bandeja, pollo, al horno, sin gluten]
+    utensils: [Horno]
+    ingredients:
+      - items:
+          - [contramuslos de pollo, 8, null]
+          - [garbanzos cocidos, 400, g]
+          - [chorizo en rodajas, 100, g]
+          - [pimientos rojos, 2, null]
+          - [cebolla roja, 1, null]
+          - [tomates cherry, 200, g]
+          - [pimentón ahumado, 1, cucharadita]
+          - [aceite de oliva virgen extra, 2, cucharada]
+          - [sal, null, null]
+    steps:
+      - Precalienta el horno a 210 °C.
+      - Mezcla en la bandeja los garbanzos escurridos, el chorizo, los pimientos y la cebolla en trozos y los tomates con el aceite y la mitad del pimentón.
+      - Coloca el pollo salado y espolvoreado con el resto del pimentón encima, con la piel hacia arriba.
+      - Hornea 35-40 minutos, hasta que el pollo esté dorado y hecho.

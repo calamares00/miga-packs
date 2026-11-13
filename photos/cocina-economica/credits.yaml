@@ -1,0 +1,52 @@
+# Origin of every photo in this folder: source page, author and licence (CC0 1.0, Public domain,
+# CC BY x.y or CC BY-SA x.y). tools/build.py refuses a recipe photo without an entry here.
+
+judias-verdes-con-patatas.jpg:
+  source: https://commons.wikimedia.org/wiki/File%3APot_roast%2C_green_beans%2C_and_mashed_potatoes_-_Massachusetts.jpg
+  author: "Daderot"
+  license: CC0 1.0
+
+patatas-a-la-importancia.jpg:
+  source: https://commons.wikimedia.org/wiki/File%3ACocinaPalentina-Patatas_a_la_importancia_001.JPG
+  author: "Valdavia"
+  license: CC BY-SA 3.0
+
+arroz-con-verduras.jpg:
+  source: https://commons.wikimedia.org/wiki/File%3AVegetable_rice_image.jpg
+  author: "safaritravelplus"
+  license: CC0 1.0
+
+espaguetis-con-atun-y-tomate.jpg:
+  source: https://commons.wikimedia.org/wiki/File%3ASpaghetti_with_bacon%2C_broccoli%2C_tuna_and_tomato_sauce_%288840689522%29.jpg
+  author: "pelican from Tokyo, Japan"
+  license: CC BY-SA 2.0
+
+pollo-guisado-con-patatas.jpg:
+  source: https://commons.wikimedia.org/wiki/File%3A9639Rabbit_stew_with_sweet_potatoes%2C_yardlong_bean%2C_sponge_gourd_and_cream_of_chicken_soup_03.jpg
+  author: "JFVelasquez Floro"
+  license: CC0 1.0
+
+huevos-a-la-flamenca.jpg:
+  source: https://commons.wikimedia.org/wiki/File%3AShakshuka_by_Calliopejen1.jpg
+  author: "Calliopejen1"
+  license: CC BY-SA 3.0
+
+empanadillas-de-atun.jpg:
+  source: https://commons.wikimedia.org/wiki/File%3ABarrica%2C_Fitzrovia%2C_London_%284094169570%29.jpg
+  author: "Ewan Munro from London, UK"
+  license: CC BY-SA 2.0
+
+caballa-al-horno-con-limon.jpg:
+  source: https://commons.wikimedia.org/wiki/File%3AHomemade_fish_smoking_-_Smoked_mackerel_presentation_01.jpg
+  author: "Natalka Ukraine"
+  license: CC BY-SA 4.0
+
+higado-encebollado.jpg:
+  source: https://commons.wikimedia.org/wiki/File%3AChicken_Livers.jpg
+  author: "Joe Foodie"
+  license: CC BY 2.0
+
+pasta-con-brocoli-y-ajo.jpg:
+  source: https://commons.wikimedia.org/wiki/File%3APasta%2Bbroccoli.jpg
+  author: "Yknott"
+  license: CC BY-SA 3.0

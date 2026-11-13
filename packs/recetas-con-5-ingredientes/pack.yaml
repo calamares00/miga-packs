@@ -1,0 +1,322 @@
+id: recetas-con-5-ingredientes
+version: 1
+updated: 2026-11-13
+language: es
+name: Recetas con 5 ingredientes
+series: Cocina de cada día
+family: recetas-con-5-ingredientes
+description: >-
+  Platos con cinco ingredientes o menos (sin contar sal, pimienta, aceite ni agua), para cuando la
+  nevera está casi vacía o no hay ganas de complicarse: patatas a lo pobre con huevo, salmón al
+  horno con limón, hummus de remolacha, langostinos al horno, pollo relleno de jamón y queso,
+  espaguetis al pomodoro, revuelto de gambas y ajetes, merluza a la gallega, pan de queso y, de
+  postre, helado de plátano y cacao, galletas de crema de cacahuete y fresas con nata.
+author: Miga
+authorGithub: calamares00
+cover:
+  emoji: "🖐️"
+  title: Recetas con 5 ingredientes
+  colors: ["#0e7490", "#fbbf24"]
+defaults:
+  source: Pack «Recetas con 5 ingredientes» de Miga
+recipes:
+
+  - name: Patatas a lo pobre con huevo
+    health: [YELLOW, "Patata con cebolla, pimiento y huevo: saciante, pero con bastante aceite."]
+    nutrition: [430, 12, 38, 26]
+    photo: recetas-con-5-ingredientes/patatas-a-lo-pobre-con-huevo.jpg
+    category: Huevos
+    difficulty: EASY
+    prep: 10
+    cook: 30
+    servings: 4
+    notes: Cinco ingredientes, sin contar aceite y sal. Las patatas se confitan a fuego suave, no se fríen.
+    tags: [5 ingredientes, huevos, vegetariana, sin gluten]
+    utensils: []
+    ingredients:
+      - items:
+          - [patatas, 800, g]
+          - [cebolla, 1, null]
+          - [pimiento verde, 1, null]
+          - [dientes de ajo, 2, null]
+          - [huevos, 4, null]
+          - [aceite de oliva virgen extra, 100, ml]
+          - [sal, null, null]
+    steps:
+      - Pela las patatas y córtalas en rodajas finas. Corta la cebolla y el pimiento en tiras y lamina el ajo.
+      - Ponlo todo en una sartén grande con el aceite y la sal y cocina a fuego medio-bajo 25 minutos, tapado y removiendo de vez en cuando, hasta que las patatas estén tiernas.
+      - Destapa, sube el fuego y deja que se doren 5 minutos.
+      - Haz los huevos fritos o a la plancha y sírvelos encima de las patatas.
+
+  - name: Salmón al horno con limón y eneldo
+    health: [GREEN, "Pescado azul con omega 3, hecho sin apenas grasa añadida."]
+    nutrition: [360, 34, 2, 24]
+    photo: recetas-con-5-ingredientes/salmon-al-horno-con-limon-y-eneldo.jpg
+    category: Pescados y mariscos
+    difficulty: EASY
+    prep: 5
+    cook: 15
+    servings: 4
+    notes: Cuatro ingredientes, sin contar aceite y sal.
+    tags: [5 ingredientes, pescado, al horno, sin gluten]
+    utensils: [Horno]
+    ingredients:
+      - items:
+          - [lomos de salmón, 4, null]
+          - [limón, 1, null]
+          - [eneldo fresco, 1, cucharada]
+          - [diente de ajo, 1, null]
+          - [aceite de oliva virgen extra, 1, cucharada]
+          - [sal, null, null]
+    steps:
+      - Precalienta el horno a 200 °C.
+      - Pon el salmón en una fuente, sálalo y riégalo con el aceite mezclado con el ajo picado y la ralladura de limón.
+      - Pon encima unas rodajas de limón y hornea 12-15 minutos.
+      - Sirve con el eneldo picado y un chorrito de zumo de limón.
+
+  - name: Hummus de remolacha
+    health: [GREEN, "Garbanzo y remolacha: fibra, proteína vegetal y un color espectacular."]
+    nutrition: [180, 6, 18, 9]
+    photo: recetas-con-5-ingredientes/hummus-de-remolacha.jpg
+    category: Entrantes
+    difficulty: EASY
+    prep: 10
+    cook: 0
+    servings: 6
+    notes: Cinco ingredientes, sin contar aceite, sal y agua. Con remolacha ya cocida, se hace en cinco minutos.
+    tags: [5 ingredientes, aperitivo, vegana, sin gluten]
+    utensils: [Batidora]
+    ingredients:
+      - items:
+          - [garbanzos cocidos, 400, g]
+          - [remolacha cocida, 150, g]
+          - [tahini, 2, cucharada]
+          - [limón (el zumo), 1, null]
+          - [diente de ajo, 1, null]
+          - [aceite de oliva virgen extra, 3, cucharada]
+          - [sal, null, null]
+    steps:
+      - Escurre y enjuaga los garbanzos.
+      - Tritúralos con la remolacha, el tahini, el zumo de limón, el ajo, el aceite y la sal hasta que esté muy cremoso. Añade un poco de agua si está demasiado espeso.
+      - Sirve con un chorrito de aceite, con pan de pita o bastones de verdura.
+
+  - name: Langostinos al horno con ajo y perejil
+    health: [GREEN, "Marisco con ajo y aceite de oliva: mucha proteína y poca grasa."]
+    nutrition: [220, 30, 2, 10]
+    category: Pescados y mariscos
+    difficulty: EASY
+    prep: 10
+    cook: 10
+    servings: 4
+    notes: Cuatro ingredientes, sin contar aceite y sal.
+    tags: [5 ingredientes, marisco, al horno, sin gluten]
+    utensils: [Horno]
+    ingredients:
+      - items:
+          - [langostinos crudos, 800, g]
+          - [dientes de ajo, 4, null]
+          - [perejil fresco, 1, manojo]
+          - [limón, 1, null]
+          - [aceite de oliva virgen extra, 3, cucharada]
+          - [sal gorda, null, null]
+    steps:
+      - Precalienta el horno a 220 °C con el grill.
+      - Coloca los langostinos en una fuente de horno en una sola capa.
+      - Mezcla el ajo y el perejil muy picados con el aceite y repártelo por encima. Espolvorea sal gorda.
+      - Hornea 6-8 minutos, hasta que cambien de color. Sirve con limón.
+
+  - name: Pollo relleno de jamón y queso
+    health: [YELLOW, "Mucha proteína; el jamón y el queso añaden sal y grasa."]
+    nutrition: [380, 46, 2, 20]
+    photo: recetas-con-5-ingredientes/pollo-relleno-de-jamon-y-queso.jpg
+    category: Carnes
+    difficulty: EASY
+    prep: 15
+    cook: 25
+    servings: 4
+    notes: Cuatro ingredientes, sin contar aceite, sal y pimienta.
+    tags: [5 ingredientes, pollo, al horno, sin gluten]
+    utensils: [Horno]
+    ingredients:
+      - items:
+          - [pechugas de pollo, 4, null]
+          - [jamón serrano, 4, loncha]
+          - [queso en lonchas, 4, loncha]
+          - [tomates cherry, 200, g]
+          - [aceite de oliva virgen extra, 2, cucharada]
+          - [sal, null, null]
+          - [pimienta negra, null, null]
+    steps:
+      - Precalienta el horno a 200 °C.
+      - Abre cada pechuga en libro con un corte a lo largo, sin separarla del todo. Salpimienta.
+      - Rellena cada una con una loncha de jamón y otra de queso, ciérrala y sujétala con un palillo.
+      - Ponlas en una fuente con los tomates, riega con el aceite y hornea 20-25 minutos.
+
+  - name: Espaguetis al pomodoro
+    health: [GREEN, "Pasta con tomate, ajo y albahaca: sencilla y ligera."]
+    nutrition: [430, 14, 74, 9]
+    photo: recetas-con-5-ingredientes/espaguetis-al-pomodoro.jpg
+    category: Pastas
+    difficulty: EASY
+    prep: 5
+    cook: 20
+    servings: 4
+    notes: Cinco ingredientes, sin contar aceite, sal y agua. Con buen tomate en conserva sale igual de rico.
+    tags: [5 ingredientes, pasta, vegetariana]
+    utensils: []
+    ingredients:
+      - items:
+          - [espaguetis, 350, g]
+          - [tomate triturado de calidad, 400, g]
+          - [dientes de ajo, 2, null]
+          - [albahaca fresca, 1, manojo]
+          - [queso parmesano rallado, 40, g]
+          - [aceite de oliva virgen extra, 3, cucharada]
+          - [sal, null, null]
+    steps:
+      - Dora ligeramente el ajo laminado en el aceite. Añade el tomate y la sal y cocina 15 minutos a fuego suave.
+      - Mientras, cuece los espaguetis en agua con sal según el paquete.
+      - Escúrrelos guardando un poco del agua y mézclalos con la salsa y unas hojas de albahaca, añadiendo agua de la pasta si hace falta.
+      - Sirve con parmesano y más albahaca.
+
+  - name: Revuelto de gambas y ajetes
+    health: [GREEN, "Huevo y marisco con ajetes: proteína de calidad y poca grasa."]
+    nutrition: [240, 22, 3, 16]
+    photo: recetas-con-5-ingredientes/revuelto-de-gambas-y-ajetes.jpg
+    category: Huevos
+    difficulty: EASY
+    prep: 10
+    cook: 10
+    servings: 4
+    notes: Tres ingredientes, sin contar aceite y sal. Si no encuentras ajetes, usa cebolleta.
+    tags: [5 ingredientes, huevos, marisco, sin gluten]
+    utensils: []
+    ingredients:
+      - items:
+          - [ajetes, 1, manojo]
+          - [gambas peladas, 250, g]
+          - [huevos, 6, null]
+          - [aceite de oliva virgen extra, 2, cucharada]
+          - [sal, null, null]
+    steps:
+      - Corta los ajetes en trozos y sofríelos en el aceite 5 minutos a fuego medio.
+      - Añade las gambas saladas y saltea 1 minuto.
+      - Baja el fuego, añade los huevos batidos con sal y remueve suavemente hasta que cuajen pero sigan jugosos.
+
+  - name: Merluza a la gallega
+    health: [GREEN, "Pescado blanco con patata cocida: ligero y completo."]
+    nutrition: [330, 30, 30, 10]
+    photo: recetas-con-5-ingredientes/merluza-a-la-gallega.jpg
+    category: Pescados y mariscos
+    difficulty: EASY
+    prep: 10
+    cook: 25
+    servings: 4
+    notes: Cuatro ingredientes, sin contar aceite, sal y agua.
+    tags: [5 ingredientes, pescado, tradicional, sin gluten]
+    utensils: []
+    ingredients:
+      - items:
+          - [rodajas de merluza, 4, null]
+          - [patatas, 600, g]
+          - [dientes de ajo, 3, null]
+          - [pimentón dulce, 1, cucharadita]
+          - [aceite de oliva virgen extra, 4, cucharada]
+          - [sal, null, null]
+    steps:
+      - Cuece las patatas peladas en rodajas gruesas en agua con sal 15 minutos.
+      - Añade la merluza sobre las patatas y cuece 5-6 minutos más, a fuego suave.
+      - Mientras, dora el ajo laminado en el aceite, aparta del fuego y añade el pimentón.
+      - Escurre el pescado y las patatas, ponlos en una fuente y riégalos con el aceite de ajo y pimentón.
+
+  - name: Pan de queso
+    health: [YELLOW, "Bolitas de tapioca y queso, sin gluten: deliciosas, pero con grasa."]
+    nutrition: [110, 3, 12, 6]
+    photo: recetas-con-5-ingredientes/pan-de-queso.jpg
+    category: Panes y masas
+    difficulty: EASY
+    prep: 15
+    cook: 25
+    servings: 20
+    notes: El pão de queijo de Brasil. Cinco ingredientes, sin contar sal. Salen unas 20 bolitas. Las raciones son bolitas.
+    tags: [5 ingredientes, pan, sin gluten]
+    utensils: [Horno]
+    ingredients:
+      - items:
+          - [almidón de mandioca (tapioca), 250, g]
+          - [leche, 125, ml]
+          - [aceite de girasol, 60, ml]
+          - [huevo, 1, null]
+          - [queso curado rallado, 120, g]
+          - [sal, 1, cucharadita]
+    steps:
+      - Precalienta el horno a 190 °C.
+      - Calienta la leche con el aceite y la sal hasta que hierva y viértela sobre el almidón. Mezcla con una cuchara hasta tener una masa pegajosa y deja templar.
+      - Añade el huevo y el queso y amasa hasta que esté lisa.
+      - Con las manos untadas de aceite, forma bolitas de 3 cm y ponlas en una bandeja con papel de horno.
+      - Hornea 20-25 minutos, hasta que estén infladas y doradas.
+
+  - name: Helado de plátano y cacao
+    health: [GREEN, "Solo plátano congelado y cacao: un helado cremoso sin azúcar añadido."]
+    nutrition: [130, 2, 30, 1]
+    category: Postres
+    difficulty: EASY
+    prep: 5
+    cook: 0
+    servings: 2
+    notes: Tres ingredientes. Corta y congela los plátanos maduros con antelación (al menos 4 horas).
+    tags: [5 ingredientes, postre, vegana, sin gluten]
+    utensils: [Batidora]
+    ingredients:
+      - items:
+          - [plátanos maduros congelados en rodajas, 3, null]
+          - [cacao en polvo puro, 1, cucharada]
+          - [leche o bebida vegetal, 2, cucharada]
+    steps:
+      - Pon el plátano congelado en una picadora potente o un robot con el cacao.
+      - Tritura, parando para bajar los restos, hasta que tenga textura de helado cremoso. Añade la leche si cuesta triturarlo.
+      - Sirve enseguida o congela 30 minutos para que esté más firme.
+
+  - name: Galletas de crema de cacahuete
+    health: [YELLOW, "Crema de cacahuete con azúcar: proteína y grasas buenas, pero muy calóricas."]
+    nutrition: [110, 3, 9, 7]
+    photo: recetas-con-5-ingredientes/galletas-de-crema-de-cacahuete.jpg
+    category: Postres
+    difficulty: EASY
+    prep: 10
+    cook: 10
+    servings: 18
+    notes: Tres ingredientes y sin harina. Salen unas 18 galletas. Las raciones son galletas.
+    tags: [5 ingredientes, postre, sin gluten]
+    utensils: [Horno]
+    ingredients:
+      - items:
+          - [crema de cacahuete, 250, g]
+          - [azúcar moreno, 150, g]
+          - [huevo, 1, null]
+    steps:
+      - Precalienta el horno a 180 °C y forra una bandeja con papel de horno.
+      - Mezcla la crema de cacahuete con el azúcar y el huevo hasta tener una masa homogénea.
+      - Forma bolitas, ponlas en la bandeja y aplástalas con un tenedor haciendo una cuadrícula.
+      - "Hornea 8-10 minutos. Deja que se enfríen en la bandeja: al principio están blandas."
+
+  - name: Fresas con nata
+    health: [YELLOW, "Fruta con nata montada: la fresa es ligera, la nata no tanto."]
+    nutrition: [230, 2, 18, 17]
+    category: Postres
+    difficulty: EASY
+    prep: 10
+    cook: 0
+    servings: 4
+    notes: Tres ingredientes. La nata y el bol, muy fríos para montarla.
+    tags: [5 ingredientes, postre, sin gluten]
+    utensils: [Batidora]
+    ingredients:
+      - items:
+          - [fresas, 500, g]
+          - [nata para montar fría, 200, ml]
+          - [azúcar glas, 2, cucharada]
+    steps:
+      - Lava las fresas, quítales las hojas y córtalas por la mitad.
+      - Monta la nata con el azúcar glas hasta que forme picos firmes.
+      - Sirve las fresas en copas con la nata por encima.

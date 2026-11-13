@@ -1,0 +1,372 @@
+id: galletas-y-bizcochos
+version: 1
+updated: 2026-11-13
+language: es
+name: Galletas y bizcochos
+series: Cocina de cada día
+family: galletas-y-bizcochos
+description: >-
+  Bizcochos para el desayuno y galletas para la merienda, de los de casa: bizcocho de naranja,
+  marmolado, de zanahoria, de limón y amapola, de manzana y de cacao y café, y galletas de avena y
+  pasas, de jengibre, de limón y de canela, pastas de té y lenguas de gato. Con notas para
+  conservarlos y congelarlos.
+author: Miga
+authorGithub: calamares00
+cover:
+  emoji: "🍪"
+  title: Galletas y bizcochos
+  colors: ["#78350f", "#fcd34d"]
+defaults:
+  source: Pack «Galletas y bizcochos» de Miga
+recipes:
+
+  - name: Bizcocho de naranja
+    health: [YELLOW, "Bizcocho casero con naranja entera: mejor que la bollería, pero con azúcar y aceite."]
+    nutrition: [300, 5, 40, 14]
+    photo: galletas-y-bizcochos/bizcocho-de-naranja.jpg
+    category: Postres
+    difficulty: EASY
+    prep: 15
+    cook: 45
+    servings: 10
+    notes: Se tritura la naranja entera, con piel, y queda muy jugoso. Molde de 22 cm.
+    tags: [bizcocho, desayuno, merienda]
+    utensils: [Horno, Batidora]
+    ingredients:
+      - items:
+          - [naranja con piel, 1, null]
+          - [huevos, 3, null]
+          - [azúcar, 200, g]
+          - [aceite de girasol, 120, ml]
+          - [harina de trigo, 250, g]
+          - [levadura química, 16, g]
+          - [sal, 1, pizca]
+    steps:
+      - Precalienta el horno a 180 °C y engrasa el molde.
+      - Lava la naranja, córtala en trozos quitando las pepitas y tritúrala con los huevos, el azúcar y el aceite hasta que esté fina.
+      - Añade la harina, la levadura y la sal y mezcla lo justo.
+      - Vierte en el molde y hornea 40-45 minutos, hasta que un palillo salga limpio.
+
+  - name: Bizcocho marmolado
+    health: [YELLOW, "Bizcocho con mantequilla y cacao: rico para el desayuno, pero calórico."]
+    nutrition: [320, 5, 40, 16]
+    photo: galletas-y-bizcochos/bizcocho-marmolado.jpg
+    category: Postres
+    difficulty: EASY
+    prep: 20
+    cook: 50
+    servings: 10
+    notes: Molde alargado de 25 cm. Pasa un cuchillo en zigzag para hacer las vetas.
+    tags: [bizcocho, desayuno, chocolate]
+    utensils: [Horno, Batidora]
+    ingredients:
+      - items:
+          - [mantequilla blanda, 150, g]
+          - [azúcar, 180, g]
+          - [huevos, 3, null]
+          - [leche, 120, ml]
+          - [extracto de vainilla, 1, cucharadita]
+          - [harina de trigo, 250, g]
+          - [levadura química, 12, g]
+          - [cacao en polvo puro, 2, cucharada]
+    steps:
+      - Precalienta el horno a 175 °C y engrasa el molde.
+      - Bate la mantequilla con el azúcar hasta que blanquee. Añade los huevos de uno en uno, la leche y la vainilla.
+      - Añade la harina con la levadura y mezcla. Separa un tercio de la masa y mézclalo con el cacao.
+      - Alterna en el molde cucharadas de las dos masas y pasa un cuchillo en zigzag.
+      - Hornea 45-50 minutos.
+
+  - name: Bizcocho de zanahoria
+    health: [YELLOW, "Con zanahoria y nueces, pero la cobertura de queso y azúcar lo hace calórico."]
+    nutrition: [410, 6, 44, 24]
+    photo: galletas-y-bizcochos/bizcocho-de-zanahoria.jpg
+    category: Postres
+    difficulty: MEDIUM
+    prep: 25
+    cook: 45
+    servings: 12
+    notes: El carrot cake. Molde de 22 cm. Sin la cobertura es mucho más ligero.
+    tags: [bizcocho, merienda]
+    utensils: [Horno, Batidora]
+    ingredients:
+      - group: Para el bizcocho
+        items:
+          - [zanahorias ralladas, 300, g]
+          - [huevos, 3, null]
+          - [azúcar moreno, 180, g]
+          - [aceite de girasol, 150, ml]
+          - [harina de trigo, 250, g]
+          - [levadura química, 10, g]
+          - [bicarbonato, 0.5, cucharadita]
+          - [canela molida, 2, cucharadita]
+          - [nueces picadas, 80, g]
+      - group: Para la cobertura
+        items:
+          - [queso crema frío, 200, g]
+          - [mantequilla blanda, 50, g]
+          - [azúcar glas, 100, g]
+    steps:
+      - Precalienta el horno a 175 °C y engrasa el molde.
+      - Bate los huevos con el azúcar y el aceite. Añade la harina, la levadura, el bicarbonato y la canela y mezcla.
+      - Añade la zanahoria y las nueces. Vierte en el molde y hornea 40-45 minutos. Deja enfriar del todo.
+      - Bate el queso con la mantequilla y el azúcar glas y cubre el bizcocho.
+
+  - name: Bizcocho de limón y amapola
+    health: [YELLOW, "Bizcocho con yogur y limón: esponjoso, pero dulce."]
+    nutrition: [290, 5, 40, 12]
+    photo: galletas-y-bizcochos/bizcocho-de-limon-y-amapola.jpg
+    category: Postres
+    difficulty: EASY
+    prep: 15
+    cook: 45
+    servings: 10
+    notes: Molde alargado de 25 cm. El almíbar de limón por encima lo deja muy jugoso.
+    tags: [bizcocho, desayuno]
+    utensils: [Horno, Batidora]
+    ingredients:
+      - group: Para el bizcocho
+        items:
+          - [huevos, 3, null]
+          - [azúcar, 180, g]
+          - [yogur natural, 125, g]
+          - [aceite de girasol, 100, ml]
+          - [ralladura de limón, 2, null]
+          - [harina de trigo, 230, g]
+          - [levadura química, 12, g]
+          - [semillas de amapola, 2, cucharada]
+      - group: Para el almíbar
+        items:
+          - [zumo de limón, 60, ml]
+          - [azúcar glas, 60, g]
+    steps:
+      - Precalienta el horno a 175 °C y engrasa el molde.
+      - Bate los huevos con el azúcar, añade el yogur, el aceite y la ralladura.
+      - Añade la harina, la levadura y las semillas y mezcla lo justo. Hornea 40-45 minutos.
+      - Mezcla el zumo con el azúcar glas, pincha el bizcocho caliente y báñalo con el almíbar.
+
+  - name: Bizcocho de manzana
+    health: [YELLOW, "Mucha manzana y poca grasa para ser un bizcocho, pero lleva azúcar."]
+    nutrition: [260, 4, 40, 9]
+    photo: galletas-y-bizcochos/bizcocho-de-manzana.jpg
+    category: Postres
+    difficulty: EASY
+    prep: 20
+    cook: 45
+    servings: 10
+    notes: Con manzanas tipo reineta o golden. Molde de 22 cm.
+    tags: [bizcocho, merienda, fruta]
+    utensils: [Horno, Batidora]
+    ingredients:
+      - items:
+          - [manzanas, 3, null]
+          - [huevos, 3, null]
+          - [azúcar, 150, g]
+          - [aceite de girasol, 80, ml]
+          - [leche, 80, ml]
+          - [harina de trigo, 200, g]
+          - [levadura química, 12, g]
+          - [canela molida, 1, cucharadita]
+          - [azúcar para espolvorear, 1, cucharada]
+    steps:
+      - Precalienta el horno a 180 °C y engrasa el molde.
+      - "Pela las manzanas: corta dos en dados y la tercera en láminas finas."
+      - Bate los huevos con el azúcar, añade el aceite y la leche, luego la harina, la levadura y la canela. Añade los dados de manzana.
+      - Vierte en el molde, cubre con las láminas de manzana, espolvorea azúcar y hornea 40-45 minutos.
+
+  - name: Bizcocho de cacao y café
+    health: [YELLOW, "Bizcocho de chocolate con café: para el desayuno de fin de semana."]
+    nutrition: [310, 5, 42, 14]
+    photo: galletas-y-bizcochos/bizcocho-de-cacao-y-cafe.jpg
+    category: Postres
+    difficulty: EASY
+    prep: 15
+    cook: 40
+    servings: 10
+    notes: El café intensifica el sabor del cacao. Molde de 22 cm.
+    tags: [bizcocho, desayuno, chocolate]
+    utensils: [Horno, Batidora]
+    ingredients:
+      - items:
+          - [huevos, 3, null]
+          - [azúcar, 200, g]
+          - [aceite de girasol, 120, ml]
+          - [café fuerte frío, 150, ml]
+          - [harina de trigo, 200, g]
+          - [cacao en polvo puro, 40, g]
+          - [levadura química, 12, g]
+          - [sal, 1, pizca]
+    steps:
+      - Precalienta el horno a 175 °C y engrasa el molde.
+      - Bate los huevos con el azúcar, añade el aceite y el café.
+      - Añade la harina, el cacao, la levadura y la sal tamizados y mezcla lo justo.
+      - Hornea 35-40 minutos, hasta que un palillo salga limpio.
+
+  - name: Galletas de avena y pasas
+    health: [YELLOW, "Con avena y pasas, pero también mantequilla y azúcar: de una en una."]
+    nutrition: [120, 2, 17, 5]
+    photo: galletas-y-bizcochos/galletas-de-avena-y-pasas.jpg
+    category: Postres
+    difficulty: EASY
+    prep: 15
+    cook: 12
+    servings: 24
+    notes: Salen unas 24 galletas. Quedan blanditas por dentro. Las raciones son galletas.
+    tags: [galletas, merienda]
+    utensils: [Horno]
+    ingredients:
+      - items:
+          - [mantequilla blanda, 120, g]
+          - [azúcar moreno, 120, g]
+          - [huevo, 1, null]
+          - [harina de trigo, 120, g]
+          - [copos de avena, 150, g]
+          - [bicarbonato, 0.5, cucharadita]
+          - [canela molida, 1, cucharadita]
+          - [pasas, 100, g]
+    steps:
+      - Precalienta el horno a 180 °C y forra dos bandejas con papel de horno.
+      - Bate la mantequilla con el azúcar y añade el huevo.
+      - Añade la harina, la avena, el bicarbonato y la canela y luego las pasas.
+      - Pon cucharadas de masa separadas en las bandejas y hornea 10-12 minutos, hasta que los bordes se doren.
+
+  - name: Galletas de jengibre
+    health: [YELLOW, "Galletas especiadas con miel: dulces, pero con poca mantequilla."]
+    nutrition: [100, 1, 16, 3]
+    category: Postres
+    difficulty: MEDIUM
+    prep: 30
+    cook: 10
+    servings: 24
+    notes: Las clásicas de Navidad con forma de muñeco. La masa necesita 1 hora de nevera. Las raciones son galletas.
+    tags: [galletas, navidad]
+    utensils: [Horno]
+    ingredients:
+      - items:
+          - [mantequilla blanda, 80, g]
+          - [azúcar moreno, 80, g]
+          - [miel, 100, g]
+          - [huevo, 1, null]
+          - [harina de trigo, 320, g]
+          - [bicarbonato, 1, cucharadita]
+          - [jengibre molido, 2, cucharadita]
+          - [canela molida, 1, cucharadita]
+          - [clavo molido, 0.25, cucharadita]
+    steps:
+      - Bate la mantequilla con el azúcar y la miel. Añade el huevo.
+      - Añade la harina, el bicarbonato y las especias y amasa hasta tener una masa lisa. Envuélvela y refrigera 1 hora.
+      - Precalienta el horno a 180 °C. Estira la masa a 5 mm entre dos papeles y corta las galletas.
+      - Hornea 8-10 minutos. Deja enfriar y decora si quieres.
+
+  - name: Pastas de té
+    health: [RED, "Mantequilla y azúcar: pequeñas, pero muy calóricas."]
+    nutrition: [80, 1, 9, 5]
+    category: Postres
+    difficulty: MEDIUM
+    prep: 30
+    cook: 12
+    servings: 40
+    notes: Salen unas 40 pastas. Con una manga con boquilla rizada quedan como las de pastelería. Las raciones son pastas.
+    tags: [galletas, merienda]
+    utensils: [Horno, Batidora]
+    ingredients:
+      - items:
+          - [mantequilla blanda, 200, g]
+          - [azúcar glas, 100, g]
+          - [huevo, 1, null]
+          - [extracto de vainilla, 1, cucharadita]
+          - [harina de trigo, 280, g]
+          - [cerezas confitadas o chocolate, null, null, optional]
+    steps:
+      - Precalienta el horno a 180 °C y forra dos bandejas con papel de horno.
+      - Bate la mantequilla con el azúcar glas hasta que esté muy cremosa. Añade el huevo y la vainilla.
+      - Añade la harina y mezcla lo justo para tener una masa suave.
+      - Con una manga con boquilla rizada, forma pastas pequeñas en las bandejas y decora con media cereza.
+      - Hornea 10-12 minutos, hasta que los bordes se doren. Si quieres, baña la mitad en chocolate fundido.
+
+  - name: Galletas de limón
+    health: [YELLOW, "Galletas con limón y glaseado: dulces, de una en una."]
+    nutrition: [100, 1, 14, 4]
+    photo: galletas-y-bizcochos/galletas-de-limon.jpg
+    category: Postres
+    difficulty: EASY
+    prep: 20
+    cook: 12
+    servings: 24
+    notes: Salen unas 24 galletas. Las raciones son galletas.
+    tags: [galletas, merienda]
+    utensils: [Horno]
+    ingredients:
+      - group: Para las galletas
+        items:
+          - [mantequilla blanda, 100, g]
+          - [azúcar, 120, g]
+          - [huevo, 1, null]
+          - [ralladura de limón, 2, null]
+          - [zumo de limón, 1, cucharada]
+          - [harina de trigo, 250, g]
+          - [levadura química, 1, cucharadita]
+      - group: Para el glaseado
+        items:
+          - [azúcar glas, 100, g]
+          - [zumo de limón, 1.5, cucharada]
+    steps:
+      - Precalienta el horno a 180 °C y forra dos bandejas con papel de horno.
+      - Bate la mantequilla con el azúcar, añade el huevo, la ralladura y el zumo y después la harina con la levadura.
+      - Forma bolitas, ponlas en las bandejas y aplástalas un poco. Hornea 10-12 minutos y deja enfriar.
+      - Mezcla el azúcar glas con el zumo y glasea las galletas.
+
+  - name: Lenguas de gato
+    health: [RED, "Galletas finas de mantequilla y azúcar: ligeras de tamaño, no de calorías."]
+    nutrition: [45, 1, 6, 2]
+    photo: galletas-y-bizcochos/lenguas-de-gato.jpg
+    category: Postres
+    difficulty: MEDIUM
+    prep: 15
+    cook: 8
+    servings: 40
+    notes: Salen unas 40. Se hacen con manga pastelera y se doran solo por el borde. Las raciones son galletas.
+    tags: [galletas, merienda]
+    utensils: [Horno, Batidora]
+    ingredients:
+      - items:
+          - [mantequilla blanda, 100, g]
+          - [azúcar glas, 100, g]
+          - [claras de huevo, 3, null]
+          - [extracto de vainilla, 1, cucharadita]
+          - [harina de trigo, 100, g]
+    steps:
+      - Precalienta el horno a 200 °C y forra dos bandejas con papel de horno.
+      - Bate la mantequilla con el azúcar glas, añade las claras de una en una y la vainilla, y luego la harina tamizada.
+      - Con una manga con boquilla lisa de 1 cm, forma bastones de 6 cm separados.
+      - Hornea 6-8 minutos, hasta que los bordes estén dorados. Despégalas en caliente.
+
+  - name: Galletas de canela
+    health: [YELLOW, "Galletas de mantequilla rebozadas en azúcar y canela: dulces."]
+    nutrition: [110, 1, 15, 5]
+    photo: galletas-y-bizcochos/galletas-de-canela.jpg
+    category: Postres
+    difficulty: EASY
+    prep: 15
+    cook: 10
+    servings: 24
+    notes: Las snickerdoodles. Quedan blandas por dentro y crujientes por fuera. Las raciones son galletas.
+    tags: [galletas, merienda]
+    utensils: [Horno]
+    ingredients:
+      - group: Para la masa
+        items:
+          - [mantequilla blanda, 120, g]
+          - [azúcar, 150, g]
+          - [huevo, 1, null]
+          - [harina de trigo, 230, g]
+          - [bicarbonato, 0.5, cucharadita]
+          - [sal, 1, pizca]
+      - group: Para rebozar
+        items:
+          - [azúcar, 3, cucharada]
+          - [canela molida, 2, cucharadita]
+    steps:
+      - Precalienta el horno a 190 °C y forra dos bandejas con papel de horno.
+      - Bate la mantequilla con el azúcar, añade el huevo y luego la harina, el bicarbonato y la sal.
+      - Forma bolitas y rebózalas en el azúcar mezclado con canela.
+      - Ponlas separadas en las bandejas y hornea 9-10 minutos. Deja que se enfríen en la bandeja.

@@ -1,0 +1,47 @@
+# Origin of every photo in this folder: source page, author and licence (CC0 1.0, Public domain,
+# CC BY x.y or CC BY-SA x.y). tools/build.py refuses a recipe photo without an entry here.
+
+salmon-con-patatas-y-esparragos.jpg:
+  source: https://commons.wikimedia.org/wiki/File%3ASalmon_Steak_with_boiled_new_potatoes%2C_asparagus%2C_hollandaise_%26_dill_sauces_%2815980836317%29.jpg
+  author: "CharmaineZoe's Marvelous Melange from England"
+  license: CC BY 2.0
+
+salchichas-con-verduras-asadas.jpg:
+  source: https://commons.wikimedia.org/wiki/File%3ASalchich%C3%B3n_sausage%2C_roasted_Roma_tomato%2C_boiled_yellow_potatoes%2C_sauerkraut_with_mixed_vegetables%2C_Boston_brown_bread_with_cheddar_cheese%2C_and_cornichons%2C_with_salt%2C_pepper%2C_two_mustards%2C_and_chili_powder_-_Massachusetts.jpg
+  author: "Daderot"
+  license: CC0 1.0
+
+fajitas-de-pollo-al-horno.jpg:
+  source: https://commons.wikimedia.org/wiki/File%3AChicken_fajitas_-_La_Hacienda_-_Sarah_Stierch.jpg
+  author: "Missvain"
+  license: CC BY 4.0
+
+noquis-al-horno-con-tomates-cherry.jpg:
+  source: https://commons.wikimedia.org/wiki/File%3AGnocchi_alla_sorrentina.jpg
+  author: "Davide Zambelli"
+  license: CC BY 3.0
+
+pavo-con-boniato-y-cebolla-roja.jpg:
+  source: https://commons.wikimedia.org/wiki/File%3AKuzu_f%C4%B1r%C4%B1n_%28incik%29.jpg
+  author: "E4024"
+  license: CC BY-SA 4.0
+
+coliflor-asada-entera.jpg:
+  source: https://commons.wikimedia.org/wiki/File%3ALiat_Portal_for_Foodie_Disorder_%E2%80%93_Whole_roasted_cauliflower.jpg
+  author: "HaJunkiyada"
+  license: CC BY-SA 4.0
+
+merluza-con-patatas-panaderas.jpg:
+  source: https://commons.wikimedia.org/wiki/File%3AMerluzaConBechamel-P1090667.JPG
+  author: "El Pantera"
+  license: CC BY-SA 4.0
+
+pizza-de-bandeja.jpg:
+  source: https://commons.wikimedia.org/wiki/File%3APizza_al_taglio_at_Messukeskus.jpg
+  author: "JIP"
+  license: CC BY-SA 4.0
+
+verduras-asadas-con-halloumi.jpg:
+  source: https://commons.wikimedia.org/wiki/File%3AGrilled_halloumi%2C_%CE%A0%CE%BB%CE%AC%CE%BA%CE%B1%2C_31st_Ave.jpg
+  author: "Elyaqim Mosheh Adam אליקים משה אדם"
+  license: CC BY-SA 4.0

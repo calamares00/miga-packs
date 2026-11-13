@@ -1,0 +1,387 @@
+id: pressure-cooker
+version: 1
+updated: 2026-11-13
+language: en
+name: Pressure cooker
+series: Kitchen appliances
+family: olla-expres
+description: >-
+  Long stews in half or a third of the time with the pressure cooker: Madrid-style tripe, beef
+  and potato stew, pork knuckle, ox tongue in sauce, pig's trotters, chicken in beer, larded beef,
+  Asturian beans with clams, pinto beans with chorizo, cuttlefish with potatoes, soupy chicken
+  rice and garlic rabbit. Times are counted from when the cooker reaches pressure (second ring or
+  high pressure). Never fill it more than two-thirds full, or half full with pulses.
+author: Miga
+authorGithub: calamares00
+cover:
+  emoji: "⏲️"
+  title: Pressure cooker
+  colors: ["#334155", "#f97316"]
+defaults:
+  source: Miga «Pressure cooker» pack
+recipes:
+
+  - name: Madrid-style tripe (callos a la madrileña)
+    health: [RED, "Tripe with chorizo and black pudding: very tasty, but fatty and salty."]
+    nutrition: [520, 34, 10, 38]
+    photo: olla-expres/callos-a-la-madrilena.jpg
+    category: Meat
+    difficulty: MEDIUM
+    prep: 30
+    cook: 70
+    servings: 6
+    notes: In an ordinary pot it takes 4 hours. Buy the tripe already cleaned. Better the next day.
+    tags: [pressure cooker, stew, traditional, winter]
+    origin: Madrid
+    originCountry: ES
+    utensils: [Pressure cooker]
+    ingredients:
+      - items:
+          - [cleaned beef tripe, 1, kg]
+          - [beef snout, 300, g, optional]
+          - [split calf's foot, 1, null, optional]
+          - [chorizo, 150, g]
+          - [onion black pudding, 150, g]
+          - [onion, 1, null]
+          - [head of garlic, 1, null]
+          - [bay leaf, 2, null]
+          - [sweet paprika, 1, tbsp]
+          - [hot paprika, 1, tsp]
+          - [plain flour, 1, tbsp]
+          - [extra virgin olive oil, 3, tbsp]
+          - [salt, null, null]
+    steps:
+      - Blanch the tripe, snout and foot for 5 minutes in boiling water and discard the water.
+      - Put them in the cooker with the onion, head of garlic, bay leaves and water to cover. Close and cook 45 minutes from when it reaches pressure.
+      - Let the pressure drop, remove the onion, garlic and bones and cut the meat into pieces.
+      - In a frying pan, make a roux with the oil, flour and paprikas and add it to the pot with the sliced chorizo and black pudding.
+      - Simmer uncovered for 20 minutes, until the sauce thickens. Adjust the salt.
+
+  - name: Beef and potato stew
+    health: [YELLOW, "Beef with vegetables and potatoes: complete and with iron; the sauce has some fat."]
+    nutrition: [480, 36, 32, 22]
+    photo: olla-expres/estofado-de-ternera-con-patatas.jpg
+    category: Meat
+    difficulty: EASY
+    prep: 20
+    cook: 35
+    servings: 4
+    notes: In an ordinary pot, about 2 hours. Shin or chuck turn very tender.
+    tags: [pressure cooker, stew, beef]
+    utensils: [Pressure cooker]
+    ingredients:
+      - items:
+          - [stewing beef in cubes, 800, g]
+          - [potatoes, 600, g]
+          - [onion, 1, null]
+          - [carrots, 2, null]
+          - [garlic, 2, clove]
+          - [crushed tomato, 100, g]
+          - [red wine, 150, ml]
+          - [beef stock or water, 300, ml]
+          - [bay leaf, 1, null]
+          - [extra virgin olive oil, 3, tbsp]
+          - [salt, null, null]
+    steps:
+      - Season the meat and brown it in the open cooker with the oil. Set aside.
+      - Fry the chopped onion, carrot and garlic for 8 minutes. Add the tomato and cook 3 minutes.
+      - Return the meat, add the wine and let it boil 2 minutes. Add the stock and bay leaf.
+      - Close the cooker and cook 20 minutes from when it reaches pressure. Let the pressure drop.
+      - Add the potatoes broken into chunks, close and cook 5 minutes more under pressure.
+
+  - name: Pork knuckle with potatoes
+    health: [RED, "Knuckle with its skin: very tasty and tender, but very fatty."]
+    nutrition: [720, 46, 28, 46]
+    photo: olla-expres/codillo-de-cerdo-con-patatas.jpg
+    category: Meat
+    difficulty: EASY
+    prep: 15
+    cook: 70
+    servings: 4
+    notes: It is cooked in the pressure cooker until tender and then browned in the oven so the skin crackles.
+    tags: [pressure cooker, pork, baked]
+    utensils: [Pressure cooker, Oven]
+    ingredients:
+      - items:
+          - [pork knuckles, 2, null]
+          - [onion, 1, null]
+          - [carrot, 1, null]
+          - [bay leaf, 2, null]
+          - [peppercorns, 6, null]
+          - [beer, 330, ml]
+          - [potatoes, 600, g]
+          - [salt, null, null]
+    steps:
+      - Put the knuckles in the cooker with the onion, carrot, bay leaves, peppercorns, salt, beer and water to cover without going over two-thirds full.
+      - Close and cook 45 minutes from when it reaches pressure.
+      - Preheat the oven to 220°C. Put the drained knuckles in a dish with the potatoes in wedges and a little of the stock.
+      - Roast 25 minutes, basting now and then, until the skin is golden and crisp.
+
+  - name: Ox tongue in sauce
+    health: [YELLOW, "Very tender meat in a tomato and wine sauce: protein, with some fat."]
+    nutrition: [420, 30, 10, 28]
+    photo: olla-expres/lengua-de-ternera-en-salsa.jpg
+    category: Meat
+    difficulty: MEDIUM
+    prep: 25
+    cook: 60
+    servings: 6
+    notes: Peeling the tongue is easy while hot, straight out of the cooker.
+    tags: [pressure cooker, beef, traditional]
+    utensils: [Pressure cooker, Blender]
+    ingredients:
+      - items:
+          - [ox tongue, 1, null]
+          - [onions, 2, null]
+          - [carrots, 2, null]
+          - [garlic, 3, clove]
+          - [crushed tomato, 200, g]
+          - [white wine, 150, ml]
+          - [bay leaf, 1, null]
+          - [plain flour, 1, tbsp]
+          - [extra virgin olive oil, 3, tbsp]
+          - [salt, null, null]
+    steps:
+      - Wash the tongue and cook it in the cooker with water, salt, half an onion and the bay leaf for 40 minutes from when it reaches pressure.
+      - Peel it while hot and slice it. Keep 400 ml of the stock.
+      - Fry the chopped onion, carrot and garlic in the oil for 10 minutes. Add the flour, tomato and wine and cook 5 minutes. Add the stock and blend.
+      - Put the tongue in the sauce and simmer 15 minutes.
+
+  - name: Pig's trotters in sauce
+    health: [RED, "Gelatinous and tasty, but fatty: for occasions."]
+    nutrition: [450, 30, 10, 32]
+    photo: olla-expres/manitas-de-cerdo-en-salsa.jpg
+    category: Meat
+    difficulty: MEDIUM
+    prep: 20
+    cook: 60
+    servings: 4
+    notes: In an ordinary pot they take about 3 hours. Ask for them to be split in half.
+    tags: [pressure cooker, pork, traditional]
+    utensils: [Pressure cooker]
+    ingredients:
+      - items:
+          - [split pig's trotters, 4, null]
+          - [onion, 1, null]
+          - [choricero pepper paste, 2, tbsp]
+          - [garlic, 3, clove]
+          - [crushed tomato, 200, g]
+          - [diced serrano ham, 60, g]
+          - [dried chilli, 1, null, optional]
+          - [plain flour, 1, tbsp]
+          - [bay leaf, 1, null]
+          - [extra virgin olive oil, 3, tbsp]
+          - [salt, null, null]
+    steps:
+      - Clean the trotters, cover them with salted water, half the onion and the bay leaf and cook in the cooker for 45 minutes from when it reaches pressure. Keep 400 ml of the stock.
+      - Fry the other half of the onion and the garlic, chopped, with the ham and chilli for 8 minutes. Add the flour, tomato and pepper paste and cook 5 minutes.
+      - Add the stock and trotters and simmer uncovered for 15 minutes, shaking the pan, until the sauce thickens.
+
+  - name: Chicken in beer
+    health: [GREEN, "Chicken stewed with vegetables: complete and low in fat if you remove the skin."]
+    nutrition: [410, 38, 14, 20]
+    photo: olla-expres/pollo-a-la-cerveza.jpg
+    category: Meat
+    difficulty: EASY
+    prep: 15
+    cook: 20
+    servings: 4
+    notes: The alcohol cooks off; with alcohol-free beer it is just as good.
+    tags: [pressure cooker, chicken, stew]
+    utensils: [Pressure cooker]
+    ingredients:
+      - items:
+          - [chicken pieces, 1.2, kg]
+          - [onions, 2, null]
+          - [carrots, 2, null]
+          - [garlic, 2, clove]
+          - [lager, 330, ml]
+          - [mushrooms, 200, g]
+          - [bay leaf, 1, null]
+          - [extra virgin olive oil, 3, tbsp]
+          - [salt, null, null]
+    steps:
+      - Season the chicken and brown it in the open cooker with the oil. Set aside.
+      - Fry the chopped onion, carrot and garlic for 8 minutes. Add the mushrooms and cook 3 minutes.
+      - Return the chicken, add the beer and bay leaf and close the cooker.
+      - Cook 12 minutes from when it reaches pressure. If the sauce is thin, reduce it a few minutes uncovered.
+
+  - name: Larded beef (carne mechada)
+    health: [YELLOW, "Stuffed beef in sauce: lots of protein; the pork fat adds fat."]
+    nutrition: [430, 40, 8, 26]
+    photo: olla-expres/carne-mechada.jpg
+    category: Meat
+    difficulty: MEDIUM
+    prep: 30
+    cook: 50
+    servings: 6
+    notes: The meat is larded with a long knife or a larding needle. Cold, it slices perfectly.
+    tags: [pressure cooker, beef, traditional]
+    utensils: [Pressure cooker, Blender]
+    ingredients:
+      - items:
+          - [beef silverside or topside, 1.2, kg]
+          - [strips of pork fat or pancetta, 80, g]
+          - [serrano ham in strips, 60, g]
+          - [carrot, 1, null]
+          - [onions, 2, null]
+          - [garlic, 3, clove]
+          - [white wine, 200, ml]
+          - [beef stock, 200, ml]
+          - [extra virgin olive oil, 3, tbsp]
+          - [salt, null, null]
+    steps:
+      - Make holes along the meat with a thin knife and push in the strips of pork fat, ham and carrot. Tie it and season.
+      - Brown it all over in the cooker with the oil. Add the onion and garlic in pieces and fry 5 minutes.
+      - Add the wine and stock, close the cooker and cook 35 minutes from when it reaches pressure.
+      - Take out the meat, blend the sauce and slice the meat. Serve with the hot sauce.
+
+  - name: Asturian beans with clams (fabes con almejas)
+    health: [GREEN, "Beans with clams: protein, iron and fibre with little fat."]
+    nutrition: [400, 26, 52, 9]
+    photo: olla-expres/fabes-con-almejas.jpg
+    category: Legumes
+    difficulty: MEDIUM
+    prep: 20
+    cook: 40
+    servings: 4
+    notes: Soak the beans the night before. Don't stir them with a spoon; shake the pot so they don't break.
+    tags: [pressure cooker, pulses, seafood]
+    origin: Asturias
+    originCountry: ES
+    utensils: [Pressure cooker]
+    ingredients:
+      - items:
+          - [Asturian fabes beans, 400, g]
+          - [clams, 500, g]
+          - [onion, 1, null]
+          - [garlic, 3, clove]
+          - [green pepper, 0.5, null]
+          - [bay leaf, 1, null]
+          - [saffron, 1, pinch]
+          - [white wine, 100, ml]
+          - [chopped parsley, 2, tbsp]
+          - [extra virgin olive oil, 4, tbsp]
+          - [salt, null, null]
+    steps:
+      - Put the drained beans in the cooker with the whole onion and pepper, one garlic clove, the bay leaf, 2 tablespoons of oil and cold water to cover by two fingers. Close and cook 25 minutes from when it reaches pressure.
+      - Let the pressure drop on its own. Remove the vegetables and add the saffron and salt.
+      - In a frying pan, brown the rest of the garlic, chopped, in the oil, add the clams and wine and cover until they open.
+      - Add the clams with their juice and the parsley to the beans and simmer 5 minutes, shaking the pot.
+
+  - name: Pinto beans with chorizo
+    health: [YELLOW, "Pulses rich in fibre and iron; the chorizo adds fat and salt."]
+    nutrition: [520, 26, 56, 22]
+    category: Legumes
+    difficulty: EASY
+    prep: 15
+    cook: 40
+    servings: 4
+    notes: Soak the beans the night before. In an ordinary pot, about 2 and a half hours.
+    tags: [pressure cooker, pulses, winter]
+    utensils: [Pressure cooker]
+    ingredients:
+      - items:
+          - [pinto beans, 400, g]
+          - [chorizo, 150, g]
+          - [onion, 1, null]
+          - [green pepper, 1, null]
+          - [garlic, 2, clove]
+          - [bay leaf, 1, null]
+          - [sweet paprika, 1, tsp]
+          - [extra virgin olive oil, 3, tbsp]
+          - [salt, null, null]
+    steps:
+      - Put the drained beans in the cooker with the whole chorizo, onion, pepper, garlic, bay leaf, oil and cold water to cover by two fingers.
+      - Close and cook 30 minutes from when it reaches pressure. Let the pressure drop on its own.
+      - Take out the vegetables, blend them with a little stock and return them to the pot. Add the paprika and salt.
+      - Slice the chorizo, return it to the pot and simmer uncovered 10 minutes to thicken.
+
+  - name: Cuttlefish with potatoes
+    health: [GREEN, "Cuttlefish with potatoes and peas: lean protein and little fat."]
+    nutrition: [360, 26, 42, 9]
+    photo: olla-expres/patatas-con-sepia.jpg
+    category: Fish and seafood
+    difficulty: EASY
+    prep: 20
+    cook: 25
+    servings: 4
+    notes: Cuttlefish turns tender in a few minutes under pressure.
+    tags: [pressure cooker, fish, stew]
+    utensils: [Pressure cooker]
+    ingredients:
+      - items:
+          - [cleaned cuttlefish in pieces, 600, g]
+          - [potatoes, 700, g]
+          - [onion, 1, null]
+          - [garlic, 2, clove]
+          - [crushed tomato, 150, g]
+          - [white wine, 100, ml]
+          - [peas, 150, g]
+          - [fish stock, 600, ml]
+          - [extra virgin olive oil, 3, tbsp]
+          - [salt, null, null]
+    steps:
+      - Fry the chopped onion and garlic in the cooker with the oil for 8 minutes. Add the cuttlefish and cook 5 minutes.
+      - Add the tomato and wine and cook 3 minutes.
+      - Add the stock, close the cooker and cook 10 minutes from when it reaches pressure.
+      - Let the pressure drop, add the potatoes broken into chunks and the peas, close and cook 6 minutes more.
+
+  - name: Soupy chicken rice
+    health: [GREEN, "Rice with chicken and vegetables in broth: complete and comforting."]
+    nutrition: [470, 30, 58, 13]
+    photo: olla-expres/arroz-caldoso-con-pollo.jpg
+    category: Rice
+    difficulty: EASY
+    prep: 15
+    cook: 20
+    servings: 4
+    notes: The rice only needs 6-7 minutes under pressure. Serve straight away, as it keeps soaking up broth.
+    tags: [pressure cooker, rice, chicken]
+    utensils: [Pressure cooker]
+    ingredients:
+      - items:
+          - [chicken thighs in pieces, 500, g]
+          - [short-grain rice, 300, g]
+          - [onion, 1, null]
+          - [red pepper, 1, null]
+          - [crushed tomato, 100, g]
+          - [green beans, 150, g]
+          - [sweet paprika, 1, tsp]
+          - [saffron or food colouring, 1, pinch]
+          - [chicken stock, 1.4, l]
+          - [extra virgin olive oil, 3, tbsp]
+          - [salt, null, null]
+    steps:
+      - Brown the salted chicken in the open cooker with the oil. Add the onion, pepper and chopped beans and fry 8 minutes.
+      - Add the tomato and paprika and cook 3 minutes. Add the rice and stir 1 minute.
+      - Add the hot stock and saffron, close the cooker and cook 7 minutes from when it reaches pressure.
+      - Release the pressure carefully and serve straight away.
+
+  - name: Garlic rabbit (conejo al ajillo)
+    health: [GREEN, "Very lean rabbit with garlic and wine: lots of protein and little fat."]
+    nutrition: [380, 40, 4, 20]
+    photo: olla-expres/conejo-al-ajillo.jpg
+    category: Meat
+    difficulty: EASY
+    prep: 15
+    cook: 20
+    servings: 4
+    notes: Rabbit turns tender in the cooker and doesn't dry out.
+    tags: [pressure cooker, traditional, gluten-free]
+    utensils: [Pressure cooker]
+    ingredients:
+      - items:
+          - [rabbit pieces, 1.2, kg]
+          - [garlic, 10, clove]
+          - [white wine, 150, ml]
+          - [bay leaf, 1, null]
+          - [dried thyme, 1, tsp]
+          - [dried chilli, 1, null, optional]
+          - [extra virgin olive oil, 5, tbsp]
+          - [salt, null, null]
+    steps:
+      - Salt the rabbit and brown it in the open cooker with the oil and the unpeeled, lightly crushed garlic.
+      - Add the wine, bay leaf, thyme, chilli and 100 ml of water.
+      - Close and cook 12 minutes from when it reaches pressure.
+      - Let the pressure drop and reduce the sauce uncovered for 5 minutes.

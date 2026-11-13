@@ -1,0 +1,348 @@
+id: cocina-de-aprovechamiento
+version: 1
+updated: 2026-11-13
+language: es
+name: Cocina de aprovechamiento
+series: Cocina de cada día
+family: cocina-de-aprovechamiento
+description: >-
+  Recetas para no tirar nada: lo que sobra del cocido, el pollo asado de ayer, el pan duro, el
+  pescado de la cena, las verduras que se ablandan y la fruta demasiado madura. Ropa vieja,
+  croquetas de cocido, lasaña de pollo asado, canelones de carne asada, empanadillas, pastel de
+  puré y carne, huevos al horno con verduras, pastel de pescado, batido y mermelada de fruta
+  madura, caldo de pieles de verdura y picatostes.
+author: Miga
+authorGithub: calamares00
+cover:
+  emoji: "♻️"
+  title: Cocina de aprovechamiento
+  colors: ["#166534", "#a3e635"]
+defaults:
+  source: Pack «Cocina de aprovechamiento» de Miga
+recipes:
+
+  - name: Ropa vieja
+    health: [YELLOW, "Carne y garbanzos del cocido con verduras: completo, aunque la carne de cocido tiene grasa."]
+    nutrition: [430, 28, 30, 22]
+    photo: cocina-de-aprovechamiento/ropa-vieja.jpg
+    category: Carnes
+    difficulty: EASY
+    prep: 10
+    cook: 20
+    servings: 4
+    notes: Con lo que sobra del cocido (carne, pollo, chorizo y garbanzos). Si no tienes tantos garbanzos, añade patata cocida en dados.
+    tags: [aprovechamiento, cocido]
+    utensils: []
+    ingredients:
+      - items:
+          - ["carne de cocido deshilachada (ternera, pollo, chorizo)", 400, g]
+          - [garbanzos cocidos, 300, g]
+          - [cebolla, 1, null]
+          - [pimiento rojo, 1, null]
+          - [dientes de ajo, 2, null]
+          - [tomate triturado, 150, g]
+          - [pimentón dulce, 1, cucharadita]
+          - [aceite de oliva virgen extra, 3, cucharada]
+          - [sal, null, null]
+    steps:
+      - Pica la cebolla, el pimiento y el ajo y sofríelos en el aceite 10 minutos a fuego medio.
+      - Añade el tomate y el pimentón y cocina 5 minutos.
+      - Añade la carne deshilachada y los garbanzos y saltea 5 minutos, removiendo, hasta que todo esté caliente y un poco dorado.
+      - Ajusta de sal (la carne del cocido ya suele estar salada) y sirve.
+
+  - name: Croquetas de cocido
+    health: [RED, "Bechamel y carne fritas: muy calóricas, pero aprovechan bien las sobras."]
+    nutrition: [90, 4, 7, 5]
+    photo: cocina-de-aprovechamiento/croquetas-de-cocido.jpg
+    category: Entrantes
+    difficulty: MEDIUM
+    prep: 40
+    cook: 20
+    servings: 30
+    notes: Salen unas 30 croquetas. La masa tiene que reposar en la nevera al menos 4 horas. Se congelan crudas, rebozadas. Las raciones son croquetas.
+    tags: [aprovechamiento, cocido, frito]
+    utensils: []
+    ingredients:
+      - group: Para la masa
+        items:
+          - [carne de cocido picada muy fina, 250, g]
+          - [mantequilla, 60, g]
+          - [aceite de oliva, 2, cucharada]
+          - [cebolla pequeña, 0.5, null]
+          - [harina, 90, g]
+          - [leche entera, 500, ml]
+          - [caldo del cocido, 250, ml]
+          - [nuez moscada, 1, pizca]
+          - [sal, null, null]
+      - group: Para rebozar y freír
+        items:
+          - [huevos, 2, null]
+          - [pan rallado, 150, g]
+          - [aceite de oliva suave para freír, null, null]
+    steps:
+      - Sofríe la cebolla muy picada en la mantequilla con el aceite 5 minutos. Añade la carne y rehoga 2 minutos.
+      - Añade la harina y cocina 2 minutos, removiendo.
+      - Añade poco a poco la leche y el caldo calientes, sin dejar de remover, y cocina 10 minutos hasta tener una masa espesa que se despegue de la sartén. Sazona con nuez moscada y sal.
+      - Pásala a una fuente, tápala con film en contacto y refrigérala al menos 4 horas.
+      - Forma las croquetas, pásalas por huevo y pan rallado y fríelas en aceite caliente hasta que estén doradas.
+
+  - name: Lasaña de pollo asado
+    health: [YELLOW, "Pollo y verduras con bechamel y queso: completa, pero calórica."]
+    nutrition: [520, 34, 40, 24]
+    category: Pastas
+    difficulty: MEDIUM
+    prep: 25
+    cook: 35
+    servings: 6
+    notes: Con lo que sobre de un pollo asado. Vale cualquier verdura que tengas.
+    tags: [aprovechamiento, pollo, al horno]
+    utensils: [Horno]
+    ingredients:
+      - items:
+          - [pollo asado desmenuzado, 400, g]
+          - [placas de lasaña precocida, 12, null]
+          - [cebolla, 1, null]
+          - [champiñones, 200, g]
+          - [espinacas, 150, g]
+          - [tomate frito, 250, g]
+          - [bechamel, 500, ml]
+          - [queso rallado, 100, g]
+          - [aceite de oliva virgen extra, 2, cucharada]
+          - [sal, null, null]
+    steps:
+      - Precalienta el horno a 190 °C. Hidrata las placas de lasaña según el paquete.
+      - Sofríe la cebolla picada y los champiñones en el aceite 8 minutos. Añade las espinacas, deja que se ablanden y mezcla con el pollo y el tomate. Sala.
+      - En una fuente, alterna capas de placas y relleno, terminando con placas.
+      - Cubre con la bechamel y el queso y hornea 25-30 minutos, hasta que esté gratinada.
+
+  - name: Canelones de carne asada
+    health: [YELLOW, "Carne asada con bechamel y queso: tradicional y sabroso, pero calórico."]
+    nutrition: [540, 30, 38, 30]
+    category: Pastas
+    difficulty: MEDIUM
+    prep: 40
+    cook: 25
+    servings: 6
+    notes: Los canelones de Sant Esteve, con la carne del asado o el rustido del día anterior. Si te falta carne, completa con hígado de pollo o carne picada.
+    tags: [aprovechamiento, al horno, tradicional]
+    utensils: [Horno, Robot de cocina]
+    ingredients:
+      - items:
+          - ["carne asada sin huesos (pollo, cerdo o ternera)", 500, g]
+          - [cebolla, 1, null]
+          - [tomate maduro, 1, null]
+          - [pan del día anterior empapado en leche, 1, rebanada]
+          - [placas de canelones, 24, null]
+          - [bechamel, 600, ml]
+          - [queso rallado, 80, g]
+          - [mantequilla, 20, g]
+          - [aceite de oliva virgen extra, 2, cucharada]
+          - [sal, null, null]
+    steps:
+      - Sofríe la cebolla picada en el aceite 10 minutos, añade el tomate rallado y cocina 5 minutos más.
+      - Pica la carne en el robot con el sofrito y el pan escurrido hasta tener una pasta. Sala si hace falta.
+      - Cuece las placas según el paquete y escúrrelas sobre un paño.
+      - Pon una cucharada de relleno en cada placa, enróllala y colócala en una fuente engrasada.
+      - Cubre con la bechamel, el queso y unos trocitos de mantequilla y gratina a 200 °C 20-25 minutos.
+
+  - name: Empanadillas de pollo asado
+    health: [YELLOW, "Pollo con verduras en masa: bien al horno; fritas, mucho más calóricas."]
+    nutrition: [310, 16, 30, 14]
+    photo: cocina-de-aprovechamiento/empanadillas-de-pollo-asado.jpg
+    category: Entrantes
+    difficulty: EASY
+    prep: 25
+    cook: 20
+    servings: 4
+    notes: Salen 16 empanadillas. Al horno quedan más ligeras; si las prefieres fritas, fríelas en aceite caliente sin pintarlas con huevo.
+    tags: [aprovechamiento, pollo, al horno]
+    utensils: [Horno]
+    ingredients:
+      - items:
+          - [pollo asado desmenuzado, 250, g]
+          - [cebolla, 1, null]
+          - [pimiento rojo, 0.5, null]
+          - [tomate frito, 4, cucharada]
+          - [huevo cocido, 1, null]
+          - [obleas para empanadillas, 16, null]
+          - [huevo batido para pintar, 1, null]
+          - [aceite de oliva virgen extra, 2, cucharada]
+    steps:
+      - Precalienta el horno a 190 °C.
+      - Sofríe la cebolla y el pimiento picados en el aceite 10 minutos. Añade el pollo y el tomate y mezcla. Deja templar y añade el huevo picado.
+      - Pon una cucharada de relleno en cada oblea, dóblala y cierra los bordes con un tenedor.
+      - Colócalas en una bandeja con papel de horno, píntalas con huevo y hornea 15-20 minutos, hasta que estén doradas.
+
+  - name: Pastel de puré y carne asada
+    health: [YELLOW, "Carne con puré de patata gratinado: completo y saciante, con algo de grasa."]
+    nutrition: [480, 28, 38, 22]
+    photo: cocina-de-aprovechamiento/pastel-de-pure-y-carne-asada.jpg
+    category: Carnes
+    difficulty: EASY
+    prep: 20
+    cook: 25
+    servings: 4
+    notes: Con carne asada, guisada o de cocido que haya sobrado, y también con puré del día anterior.
+    tags: [aprovechamiento, al horno]
+    utensils: [Horno]
+    ingredients:
+      - items:
+          - [carne asada o guisada picada, 400, g]
+          - [cebolla, 1, null]
+          - [zanahoria, 1, null]
+          - [guisantes, 100, g]
+          - [tomate frito, 150, g]
+          - [puré de patata, 600, g]
+          - [queso rallado, 60, g]
+          - [aceite de oliva virgen extra, 2, cucharada]
+          - [sal, null, null]
+    steps:
+      - Precalienta el horno a 200 °C.
+      - Sofríe la cebolla y la zanahoria picadas en el aceite 10 minutos. Añade la carne, los guisantes y el tomate y cocina 5 minutos. Sala.
+      - Pon la carne en una fuente de horno y cúbrela con el puré.
+      - Marca la superficie con un tenedor, espolvorea el queso y hornea 20-25 minutos, hasta que esté dorado.
+
+  - name: Huevos al horno con verduras sobrantes
+    health: [GREEN, "Huevo con verduras y tomate: proteína y fibra con poca grasa."]
+    nutrition: [260, 15, 14, 16]
+    category: Huevos
+    difficulty: EASY
+    prep: 10
+    cook: 20
+    servings: 4
+    notes: Vale cualquier verdura cocinada que haya sobrado (asada, salteada, pisto, menestra…).
+    tags: [aprovechamiento, huevos, vegetariana, sin gluten]
+    utensils: [Horno]
+    ingredients:
+      - items:
+          - [verduras cocinadas que hayan sobrado, 500, g]
+          - [tomate triturado, 200, g]
+          - [huevos, 4, null]
+          - [queso feta o fresco, 60, g, optional]
+          - [comino molido, 0.5, cucharadita]
+          - [aceite de oliva virgen extra, 1, cucharada]
+          - [sal, null, null]
+    steps:
+      - Precalienta el horno a 190 °C.
+      - Mezcla las verduras troceadas con el tomate, el comino, el aceite y la sal y repártelas en una fuente de horno.
+      - Hornea 10 minutos, haz cuatro huecos y casca un huevo en cada uno.
+      - Reparte el queso desmenuzado y hornea 8-10 minutos más, hasta que las claras cuajen y las yemas sigan blandas.
+
+  - name: Pastel de pescado sobrante
+    health: [GREEN, "Pescado con huevo y tomate: proteína de calidad y poca grasa."]
+    nutrition: [280, 22, 8, 17]
+    category: Pescados y mariscos
+    difficulty: EASY
+    prep: 15
+    cook: 40
+    servings: 6
+    notes: Con pescado cocido, al horno o a la plancha que haya sobrado, sin piel ni espinas. Molde alargado de 25 cm. Se sirve frío con mayonesa o salsa rosa.
+    tags: [aprovechamiento, pescado, sin gluten]
+    utensils: [Horno, Batidora]
+    ingredients:
+      - items:
+          - [pescado cocinado sin piel ni espinas, 400, g]
+          - [huevos, 4, null]
+          - [tomate frito, 150, g]
+          - [nata para cocinar, 150, ml]
+          - [sal, null, null]
+          - [pimienta blanca, null, null]
+    steps:
+      - Precalienta el horno a 180 °C y engrasa el molde.
+      - Tritura el pescado con los huevos, el tomate y la nata. Salpimienta.
+      - Vierte en el molde y cuécelo al baño maría en el horno 40 minutos, hasta que un palillo salga limpio.
+      - Deja enfriar, refrigera al menos 2 horas y desmolda.
+
+  - name: Batido de frutas maduras
+    health: [GREEN, "Fruta muy madura con yogur: dulce sin azúcar añadido."]
+    nutrition: [170, 6, 32, 3]
+    category: Bebidas
+    difficulty: EASY
+    prep: 5
+    cook: 0
+    servings: 2
+    notes: El plátano con motas negras, las peras blandas o las fresas a punto de estropearse son perfectos. Congela la fruta madura en trozos y tendrás batidos helados.
+    tags: [aprovechamiento, desayuno, sin gluten]
+    utensils: [Batidora]
+    ingredients:
+      - items:
+          - ["fruta muy madura troceada (plátano, pera, melocotón, fresas…)", 300, g]
+          - [yogur natural, 125, g]
+          - [leche, 200, ml]
+          - [canela molida, 1, pizca, optional]
+    steps:
+      - Pela la fruta, quita las partes estropeadas y córtala en trozos.
+      - Tritúrala con el yogur, la leche y la canela hasta que esté espumoso.
+      - Sirve enseguida.
+
+  - name: Mermelada de frutas maduras
+    health: [YELLOW, "Fruta con azúcar: para tomar con moderación."]
+    nutrition: [45, 0, 11, 0]
+    photo: cocina-de-aprovechamiento/mermelada-de-frutas-maduras.jpg
+    category: Postres
+    difficulty: EASY
+    prep: 15
+    cook: 35
+    servings: 25
+    notes: Con la fruta que está demasiado madura para comerla tal cual. Las raciones son de una cucharada.
+    tags: [aprovechamiento, desayuno, vegana]
+    utensils: []
+    ingredients:
+      - items:
+          - [fruta muy madura limpia y troceada, 800, g]
+          - [azúcar, 300, g]
+          - [limón (el zumo), 1, null]
+    steps:
+      - Quita las partes estropeadas de la fruta y córtala en trozos.
+      - Ponla en una cazuela con el azúcar y el zumo de limón y deja que suelte jugo 30 minutos.
+      - Cuece a fuego medio 30-35 minutos, removiendo de vez en cuando, hasta que espese. Si la quieres fina, tritúrala.
+      - Envasa en caliente en tarros limpios, ciérralos y ponlos boca abajo hasta que se enfríen.
+
+  - name: Caldo de pieles y tallos de verduras
+    health: [GREEN, "Caldo sin grasa hecho con lo que normalmente va a la basura."]
+    nutrition: [20, 1, 4, 0]
+    photo: cocina-de-aprovechamiento/caldo-de-pieles-y-tallos-de-verduras.jpg
+    category: Sopas y cremas
+    difficulty: EASY
+    prep: 5
+    cook: 45
+    servings: 6
+    notes: Ve guardando en una bolsa en el congelador las pieles, puntas y tallos de verduras limpias (cebolla, zanahoria, puerro, apio, calabacín, setas, perejil). Evita las coles, que dan mal sabor.
+    tags: [aprovechamiento, sopa, vegana, sin gluten]
+    utensils: []
+    ingredients:
+      - items:
+          - ["pieles, tallos y puntas de verduras limpias", 500, g]
+          - [hoja de laurel, 1, null]
+          - [granos de pimienta, 5, null]
+          - [agua, 2, l]
+          - [sal, 1, cucharadita]
+    steps:
+      - Pon todo en una olla y llévalo a ebullición.
+      - Cuece a fuego suave 45 minutos, sin tapar del todo.
+      - Cuela el caldo y guárdalo en la nevera (4 días) o congélalo en porciones.
+
+  - name: Picatostes de pan duro
+    health: [YELLOW, "Pan con aceite: crujientes para sopas y ensaladas, pero con grasa."]
+    nutrition: [120, 3, 16, 5]
+    photo: cocina-de-aprovechamiento/picatostes-de-pan-duro.jpg
+    category: Panes y masas
+    difficulty: EASY
+    prep: 5
+    cook: 12
+    servings: 6
+    notes: Al horno quedan crujientes con mucho menos aceite que fritos. Se guardan una semana en un bote cerrado.
+    tags: [aprovechamiento, pan, vegana]
+    utensils: [Horno]
+    ingredients:
+      - items:
+          - [pan del día anterior, 200, g]
+          - [aceite de oliva virgen extra, 2, cucharada]
+          - [diente de ajo, 1, null, optional]
+          - [orégano o pimentón, 1, cucharadita, optional]
+          - [sal, 1, pizca]
+    steps:
+      - Precalienta el horno a 190 °C.
+      - Corta el pan en dados de 1,5 cm.
+      - Mézclalos con el aceite, el ajo machacado, las especias y la sal.
+      - Extiéndelos en una bandeja y hornea 10-12 minutos, removiendo a mitad, hasta que estén dorados.

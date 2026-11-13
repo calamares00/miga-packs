@@ -1,0 +1,348 @@
+id: leftovers-cooking
+version: 1
+updated: 2026-11-13
+language: en
+name: Use-it-up cooking
+series: Everyday cooking
+family: cocina-de-aprovechamiento
+description: >-
+  Recipes so nothing goes to waste: what is left of a Spanish stew, yesterday's roast chicken,
+  stale bread, fish from dinner, vegetables going soft and fruit that is too ripe. Ropa vieja,
+  stew croquettes, roast chicken lasagne, roast meat cannelloni, empanadillas, mash and roast
+  meat pie, baked eggs with leftover vegetables, fish loaf, ripe fruit smoothie and jam,
+  vegetable peel stock and croutons.
+author: Miga
+authorGithub: calamares00
+cover:
+  emoji: "♻️"
+  title: Use-it-up cooking
+  colors: ["#166534", "#a3e635"]
+defaults:
+  source: Miga «Use-it-up cooking» pack
+recipes:
+
+  - name: Ropa vieja (leftover stew meat with chickpeas)
+    health: [YELLOW, "Stew meat and chickpeas with vegetables: complete, though stew meat has some fat."]
+    nutrition: [430, 28, 30, 22]
+    photo: cocina-de-aprovechamiento/ropa-vieja.jpg
+    category: Meat
+    difficulty: EASY
+    prep: 10
+    cook: 20
+    servings: 4
+    notes: With what is left of a cocido (meat, chicken, chorizo and chickpeas). If you are short of chickpeas, add diced boiled potato.
+    tags: [leftovers, stew]
+    utensils: []
+    ingredients:
+      - items:
+          - ["shredded stew meat (beef, chicken, chorizo)", 400, g]
+          - [cooked chickpeas, 300, g]
+          - [onion, 1, null]
+          - [red pepper, 1, null]
+          - [garlic, 2, clove]
+          - [crushed tomato, 150, g]
+          - [sweet paprika, 1, tsp]
+          - [extra virgin olive oil, 3, tbsp]
+          - [salt, null, null]
+    steps:
+      - Chop the onion, pepper and garlic and fry them in the oil for 10 minutes over medium heat.
+      - Add the tomato and paprika and cook 5 minutes.
+      - Add the shredded meat and chickpeas and fry 5 minutes, stirring, until hot and lightly browned.
+      - Adjust the salt (stew meat is usually salty already) and serve.
+
+  - name: Stew croquettes (croquetas de cocido)
+    health: [RED, "Fried béchamel and meat: very rich, but a great use of leftovers."]
+    nutrition: [90, 4, 7, 5]
+    photo: cocina-de-aprovechamiento/croquetas-de-cocido.jpg
+    category: Starters
+    difficulty: MEDIUM
+    prep: 40
+    cook: 20
+    servings: 30
+    notes: Makes about 30 croquettes. The mixture needs at least 4 hours in the fridge. They freeze raw, coated. Servings are croquettes.
+    tags: [leftovers, stew, fried]
+    utensils: []
+    ingredients:
+      - group: For the mixture
+        items:
+          - [very finely chopped stew meat, 250, g]
+          - [butter, 60, g]
+          - [olive oil, 2, tbsp]
+          - [small onion, 0.5, null]
+          - [plain flour, 90, g]
+          - [whole milk, 500, ml]
+          - [stew broth, 250, ml]
+          - [nutmeg, 1, pinch]
+          - [salt, null, null]
+      - group: To coat and fry
+        items:
+          - [eggs, 2, null]
+          - [breadcrumbs, 150, g]
+          - [mild olive oil for frying, null, null]
+    steps:
+      - Fry the very finely chopped onion in the butter and oil for 5 minutes. Add the meat and cook 2 minutes.
+      - Add the flour and cook 2 minutes, stirring.
+      - Gradually add the hot milk and broth, stirring constantly, and cook 10 minutes until you have a thick mixture that comes away from the pan. Season with nutmeg and salt.
+      - Spread it in a dish, cover with cling film touching the surface and chill at least 4 hours.
+      - Shape the croquettes, coat them in egg and breadcrumbs and fry in hot oil until golden.
+
+  - name: Roast chicken lasagne
+    health: [YELLOW, "Chicken and vegetables with béchamel and cheese: complete, but rich."]
+    nutrition: [520, 34, 40, 24]
+    category: Pasta
+    difficulty: MEDIUM
+    prep: 25
+    cook: 35
+    servings: 6
+    notes: With what is left of a roast chicken. Any vegetables you have will do.
+    tags: [leftovers, chicken, baked]
+    utensils: [Oven]
+    ingredients:
+      - items:
+          - [shredded roast chicken, 400, g]
+          - [no-boil lasagne sheets, 12, null]
+          - [onion, 1, null]
+          - [mushrooms, 200, g]
+          - [spinach, 150, g]
+          - [tomato sauce, 250, g]
+          - [béchamel sauce, 500, ml]
+          - [grated cheese, 100, g]
+          - [extra virgin olive oil, 2, tbsp]
+          - [salt, null, null]
+    steps:
+      - Preheat the oven to 190°C. Soak the lasagne sheets as the packet says.
+      - Fry the chopped onion and mushrooms in the oil for 8 minutes. Add the spinach, let it wilt and mix with the chicken and tomato sauce. Salt.
+      - In a dish, alternate layers of sheets and filling, finishing with sheets.
+      - Cover with the béchamel and cheese and bake 25-30 minutes, until golden.
+
+  - name: Roast meat cannelloni
+    health: [YELLOW, "Roast meat with béchamel and cheese: traditional and tasty, but rich."]
+    nutrition: [540, 30, 38, 30]
+    category: Pasta
+    difficulty: MEDIUM
+    prep: 40
+    cook: 25
+    servings: 6
+    notes: The Catalan cannelloni of Boxing Day, made with the meat from the previous day's roast. If you are short of meat, add chicken livers or minced meat.
+    tags: [leftovers, baked, traditional]
+    utensils: [Oven, Food processor]
+    ingredients:
+      - items:
+          - ["boneless roast meat (chicken, pork or beef)", 500, g]
+          - [onion, 1, null]
+          - [ripe tomato, 1, null]
+          - [stale bread soaked in milk, 1, slice]
+          - [cannelloni sheets, 24, null]
+          - [béchamel sauce, 600, ml]
+          - [grated cheese, 80, g]
+          - [butter, 20, g]
+          - [extra virgin olive oil, 2, tbsp]
+          - [salt, null, null]
+    steps:
+      - Fry the chopped onion in the oil for 10 minutes, add the grated tomato and cook 5 minutes more.
+      - Mince the meat in the food processor with the sofrito and the squeezed bread until you have a paste. Salt if needed.
+      - Cook the sheets as the packet says and drain them on a cloth.
+      - Put a spoonful of filling on each sheet, roll it up and place it in a greased dish.
+      - Cover with the béchamel, the cheese and a few pieces of butter and grill at 200°C for 20-25 minutes.
+
+  - name: Roast chicken empanadillas
+    health: [YELLOW, "Chicken and vegetables in pastry: fine baked; fried, much richer."]
+    nutrition: [310, 16, 30, 14]
+    photo: cocina-de-aprovechamiento/empanadillas-de-pollo-asado.jpg
+    category: Starters
+    difficulty: EASY
+    prep: 25
+    cook: 20
+    servings: 4
+    notes: Makes 16 small pasties. Baked they are lighter; if you prefer them fried, fry them in hot oil without the egg wash.
+    tags: [leftovers, chicken, baked]
+    utensils: [Oven]
+    ingredients:
+      - items:
+          - [shredded roast chicken, 250, g]
+          - [onion, 1, null]
+          - [red pepper, 0.5, null]
+          - [tomato sauce, 4, tbsp]
+          - [hard-boiled egg, 1, null]
+          - [empanadilla wrappers, 16, null]
+          - [beaten egg to glaze, 1, null]
+          - [extra virgin olive oil, 2, tbsp]
+    steps:
+      - Preheat the oven to 190°C.
+      - Fry the chopped onion and pepper in the oil for 10 minutes. Add the chicken and tomato sauce and mix. Leave to cool a little and add the chopped egg.
+      - Put a spoonful of filling on each wrapper, fold it and seal the edges with a fork.
+      - Place them on a lined tray, brush with egg and bake 15-20 minutes, until golden.
+
+  - name: Mash and roast meat pie
+    health: [YELLOW, "Meat with grilled mashed potato: complete and filling, with some fat."]
+    nutrition: [480, 28, 38, 22]
+    photo: cocina-de-aprovechamiento/pastel-de-pure-y-carne-asada.jpg
+    category: Meat
+    difficulty: EASY
+    prep: 20
+    cook: 25
+    servings: 4
+    notes: With leftover roast, stewed or boiled meat, and leftover mash too.
+    tags: [leftovers, baked]
+    utensils: [Oven]
+    ingredients:
+      - items:
+          - [chopped roast or stewed meat, 400, g]
+          - [onion, 1, null]
+          - [carrot, 1, null]
+          - [peas, 100, g]
+          - [tomato sauce, 150, g]
+          - [mashed potato, 600, g]
+          - [grated cheese, 60, g]
+          - [extra virgin olive oil, 2, tbsp]
+          - [salt, null, null]
+    steps:
+      - Preheat the oven to 200°C.
+      - Fry the chopped onion and carrot in the oil for 10 minutes. Add the meat, peas and tomato sauce and cook 5 minutes. Salt.
+      - Put the meat in an ovenproof dish and cover with the mash.
+      - Mark the top with a fork, sprinkle with cheese and bake 20-25 minutes, until golden.
+
+  - name: Baked eggs with leftover vegetables
+    health: [GREEN, "Egg with vegetables and tomato: protein and fibre with little fat."]
+    nutrition: [260, 15, 14, 16]
+    category: Eggs
+    difficulty: EASY
+    prep: 10
+    cook: 20
+    servings: 4
+    notes: Any cooked vegetables left over will do (roasted, sautéed, ratatouille…).
+    tags: [leftovers, eggs, vegetarian, gluten-free]
+    utensils: [Oven]
+    ingredients:
+      - items:
+          - [leftover cooked vegetables, 500, g]
+          - [crushed tomato, 200, g]
+          - [eggs, 4, null]
+          - [feta or fresh cheese, 60, g, optional]
+          - [ground cumin, 0.5, tsp]
+          - [extra virgin olive oil, 1, tbsp]
+          - [salt, null, null]
+    steps:
+      - Preheat the oven to 190°C.
+      - Mix the chopped vegetables with the tomato, cumin, oil and salt and spread them in an ovenproof dish.
+      - Bake 10 minutes, make four hollows and crack an egg into each.
+      - Crumble the cheese over and bake 8-10 minutes more, until the whites are set and the yolks still soft.
+
+  - name: Leftover fish loaf
+    health: [GREEN, "Fish with egg and tomato: good-quality protein and little fat."]
+    nutrition: [280, 22, 8, 17]
+    category: Fish and seafood
+    difficulty: EASY
+    prep: 15
+    cook: 40
+    servings: 6
+    notes: With leftover poached, baked or grilled fish, skinned and boned. 25 cm loaf tin. Serve cold with mayonnaise or Marie Rose sauce.
+    tags: [leftovers, fish, gluten-free]
+    utensils: [Oven, Blender]
+    ingredients:
+      - items:
+          - [cooked fish without skin or bones, 400, g]
+          - [eggs, 4, null]
+          - [tomato sauce, 150, g]
+          - [single cream, 150, ml]
+          - [salt, null, null]
+          - [white pepper, null, null]
+    steps:
+      - Preheat the oven to 180°C and grease the tin.
+      - Blend the fish with the eggs, tomato sauce and cream. Season.
+      - Pour into the tin and bake in a bain-marie in the oven for 40 minutes, until a skewer comes out clean.
+      - Leave to cool, chill at least 2 hours and turn out.
+
+  - name: Overripe fruit smoothie
+    health: [GREEN, "Very ripe fruit with yoghurt: sweet with no added sugar."]
+    nutrition: [170, 6, 32, 3]
+    category: Drinks
+    difficulty: EASY
+    prep: 5
+    cook: 0
+    servings: 2
+    notes: Speckled bananas, soft pears or strawberries about to go off are perfect. Freeze ripe fruit in pieces for frozen smoothies.
+    tags: [leftovers, breakfast, gluten-free]
+    utensils: [Blender]
+    ingredients:
+      - items:
+          - ["very ripe fruit in pieces (banana, pear, peach, strawberries…)", 300, g]
+          - [plain yoghurt, 125, g]
+          - [milk, 200, ml]
+          - [ground cinnamon, 1, pinch, optional]
+    steps:
+      - Peel the fruit, cut off any bad bits and cut it into pieces.
+      - Blend it with the yoghurt, milk and cinnamon until frothy.
+      - Serve straight away.
+
+  - name: Overripe fruit jam
+    health: [YELLOW, "Fruit with sugar: to have in moderation."]
+    nutrition: [45, 0, 11, 0]
+    photo: cocina-de-aprovechamiento/mermelada-de-frutas-maduras.jpg
+    category: Desserts
+    difficulty: EASY
+    prep: 15
+    cook: 35
+    servings: 25
+    notes: With fruit too ripe to eat as it is. Servings are one tablespoon.
+    tags: [leftovers, breakfast, vegan]
+    utensils: []
+    ingredients:
+      - items:
+          - [very ripe fruit cleaned and cut up, 800, g]
+          - [sugar, 300, g]
+          - [lemon (the juice), 1, null]
+    steps:
+      - Cut off any bad bits of the fruit and cut it into pieces.
+      - Put it in a pan with the sugar and lemon juice and leave it to release its juice for 30 minutes.
+      - Cook over medium heat for 30-35 minutes, stirring now and then, until thick. Blend it if you want it smooth.
+      - Pour hot into clean jars, close them and turn them upside down until cool.
+
+  - name: Vegetable peel and stalk stock
+    health: [GREEN, "A fat-free stock made from what usually goes in the bin."]
+    nutrition: [20, 1, 4, 0]
+    photo: cocina-de-aprovechamiento/caldo-de-pieles-y-tallos-de-verduras.jpg
+    category: Soups
+    difficulty: EASY
+    prep: 5
+    cook: 45
+    servings: 6
+    notes: Keep the peels, ends and stalks of clean vegetables in a bag in the freezer (onion, carrot, leek, celery, courgette, mushrooms, parsley). Avoid cabbages, which give a bad taste.
+    tags: [leftovers, soup, vegan, gluten-free]
+    utensils: []
+    ingredients:
+      - items:
+          - ["peels, stalks and ends of clean vegetables", 500, g]
+          - [bay leaf, 1, null]
+          - [peppercorns, 5, null]
+          - [water, 2, l]
+          - [salt, 1, tsp]
+    steps:
+      - Put everything in a pot and bring to the boil.
+      - Simmer gently for 45 minutes, partly covered.
+      - Strain the stock and keep it in the fridge (4 days) or freeze it in portions.
+
+  - name: Stale bread croutons
+    health: [YELLOW, "Bread with oil: crunchy for soups and salads, but with fat."]
+    nutrition: [120, 3, 16, 5]
+    photo: cocina-de-aprovechamiento/picatostes-de-pan-duro.jpg
+    category: Breads and doughs
+    difficulty: EASY
+    prep: 5
+    cook: 12
+    servings: 6
+    notes: Baked they turn crunchy with much less oil than fried. They keep a week in a closed jar.
+    tags: [leftovers, bread, vegan]
+    utensils: [Oven]
+    ingredients:
+      - items:
+          - [day-old bread, 200, g]
+          - [extra virgin olive oil, 2, tbsp]
+          - [garlic, 1, clove, optional]
+          - [oregano or paprika, 1, tsp, optional]
+          - [salt, 1, pinch]
+    steps:
+      - Preheat the oven to 190°C.
+      - Cut the bread into 1.5 cm cubes.
+      - Toss them with the oil, crushed garlic, spices and salt.
+      - Spread them on a tray and bake 10-12 minutes, stirring halfway, until golden.

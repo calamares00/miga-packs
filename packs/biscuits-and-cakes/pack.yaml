@@ -1,0 +1,372 @@
+id: biscuits-and-cakes
+version: 1
+updated: 2026-11-13
+language: en
+name: Biscuits and cakes
+series: Everyday cooking
+family: galletas-y-bizcochos
+description: >-
+  Cakes for breakfast and biscuits for the afternoon, homemade: orange cake, marble cake, carrot
+  cake, lemon and poppy seed cake, apple cake and coffee cocoa cake, and oat and raisin, ginger,
+  lemon and cinnamon biscuits, butter tea biscuits and langues de chat. With notes on keeping and
+  freezing them.
+author: Miga
+authorGithub: calamares00
+cover:
+  emoji: "🍪"
+  title: Biscuits and cakes
+  colors: ["#78350f", "#fcd34d"]
+defaults:
+  source: Miga «Biscuits and cakes» pack
+recipes:
+
+  - name: Whole orange cake
+    health: [YELLOW, "Homemade cake with a whole orange: better than shop pastries, but with sugar and oil."]
+    nutrition: [300, 5, 40, 14]
+    photo: galletas-y-bizcochos/bizcocho-de-naranja.jpg
+    category: Desserts
+    difficulty: EASY
+    prep: 15
+    cook: 45
+    servings: 10
+    notes: The whole orange, skin and all, is blended in, so it is very moist. 22 cm tin.
+    tags: [cake, breakfast, snack]
+    utensils: [Oven, Blender]
+    ingredients:
+      - items:
+          - [orange with skin, 1, null]
+          - [eggs, 3, null]
+          - [sugar, 200, g]
+          - [sunflower oil, 120, ml]
+          - [plain flour, 250, g]
+          - [baking powder, 16, g]
+          - [salt, 1, pinch]
+    steps:
+      - Preheat the oven to 180°C and grease the tin.
+      - Wash the orange, cut it into pieces removing the pips and blend it with the eggs, sugar and oil until smooth.
+      - Add the flour, baking powder and salt and mix just enough.
+      - Pour into the tin and bake 40-45 minutes, until a skewer comes out clean.
+
+  - name: Marble cake
+    health: [YELLOW, "Cake with butter and cocoa: lovely for breakfast, but rich."]
+    nutrition: [320, 5, 40, 16]
+    photo: galletas-y-bizcochos/bizcocho-marmolado.jpg
+    category: Desserts
+    difficulty: EASY
+    prep: 20
+    cook: 50
+    servings: 10
+    notes: 25 cm loaf tin. Drag a knife in a zigzag to make the swirls.
+    tags: [cake, breakfast, chocolate]
+    utensils: [Oven, Blender]
+    ingredients:
+      - items:
+          - [soft butter, 150, g]
+          - [sugar, 180, g]
+          - [eggs, 3, null]
+          - [milk, 120, ml]
+          - [vanilla extract, 1, tsp]
+          - [plain flour, 250, g]
+          - [baking powder, 12, g]
+          - [cocoa powder, 2, tbsp]
+    steps:
+      - Preheat the oven to 175°C and grease the tin.
+      - Beat the butter with the sugar until pale. Add the eggs one at a time, the milk and the vanilla.
+      - Add the flour with the baking powder and mix. Take a third of the batter and mix it with the cocoa.
+      - Alternate spoonfuls of both batters in the tin and drag a knife through in a zigzag.
+      - Bake 45-50 minutes.
+
+  - name: Carrot cake
+    health: [YELLOW, "With carrot and walnuts, but the cream cheese icing makes it rich."]
+    nutrition: [410, 6, 44, 24]
+    photo: galletas-y-bizcochos/bizcocho-de-zanahoria.jpg
+    category: Desserts
+    difficulty: MEDIUM
+    prep: 25
+    cook: 45
+    servings: 12
+    notes: 22 cm tin. Without the icing it is much lighter.
+    tags: [cake, snack]
+    utensils: [Oven, Blender]
+    ingredients:
+      - group: For the cake
+        items:
+          - [grated carrots, 300, g]
+          - [eggs, 3, null]
+          - [brown sugar, 180, g]
+          - [sunflower oil, 150, ml]
+          - [plain flour, 250, g]
+          - [baking powder, 10, g]
+          - [bicarbonate of soda, 0.5, tsp]
+          - [ground cinnamon, 2, tsp]
+          - [chopped walnuts, 80, g]
+      - group: For the icing
+        items:
+          - [cold cream cheese, 200, g]
+          - [soft butter, 50, g]
+          - [icing sugar, 100, g]
+    steps:
+      - Preheat the oven to 175°C and grease the tin.
+      - Beat the eggs with the sugar and oil. Add the flour, baking powder, bicarbonate and cinnamon and mix.
+      - Add the carrot and walnuts. Pour into the tin and bake 40-45 minutes. Leave to cool completely.
+      - Beat the cheese with the butter and icing sugar and spread over the cake.
+
+  - name: Lemon and poppy seed cake
+    health: [YELLOW, "Yoghurt and lemon cake: light and fluffy, but sweet."]
+    nutrition: [290, 5, 40, 12]
+    photo: galletas-y-bizcochos/bizcocho-de-limon-y-amapola.jpg
+    category: Desserts
+    difficulty: EASY
+    prep: 15
+    cook: 45
+    servings: 10
+    notes: 25 cm loaf tin. The lemon drizzle makes it very moist.
+    tags: [cake, breakfast]
+    utensils: [Oven, Blender]
+    ingredients:
+      - group: For the cake
+        items:
+          - [eggs, 3, null]
+          - [sugar, 180, g]
+          - [plain yoghurt, 125, g]
+          - [sunflower oil, 100, ml]
+          - [lemon zest, 2, null]
+          - [plain flour, 230, g]
+          - [baking powder, 12, g]
+          - [poppy seeds, 2, tbsp]
+      - group: For the drizzle
+        items:
+          - [lemon juice, 60, ml]
+          - [icing sugar, 60, g]
+    steps:
+      - Preheat the oven to 175°C and grease the tin.
+      - Beat the eggs with the sugar, add the yoghurt, oil and zest.
+      - Add the flour, baking powder and seeds and mix just enough. Bake 40-45 minutes.
+      - Mix the juice with the icing sugar, prick the hot cake and pour the drizzle over.
+
+  - name: Apple cake
+    health: [YELLOW, "Lots of apple and little fat for a cake, but it has sugar."]
+    nutrition: [260, 4, 40, 9]
+    photo: galletas-y-bizcochos/bizcocho-de-manzana.jpg
+    category: Desserts
+    difficulty: EASY
+    prep: 20
+    cook: 45
+    servings: 10
+    notes: With reinette or golden apples. 22 cm tin.
+    tags: [cake, snack, fruit]
+    utensils: [Oven, Blender]
+    ingredients:
+      - items:
+          - [apples, 3, null]
+          - [eggs, 3, null]
+          - [sugar, 150, g]
+          - [sunflower oil, 80, ml]
+          - [milk, 80, ml]
+          - [plain flour, 200, g]
+          - [baking powder, 12, g]
+          - [ground cinnamon, 1, tsp]
+          - [sugar to sprinkle, 1, tbsp]
+    steps:
+      - Preheat the oven to 180°C and grease the tin.
+      - "Peel the apples: dice two and slice the third thinly."
+      - Beat the eggs with the sugar, add the oil and milk, then the flour, baking powder and cinnamon. Add the diced apple.
+      - Pour into the tin, cover with the apple slices, sprinkle with sugar and bake 40-45 minutes.
+
+  - name: Coffee cocoa cake
+    health: [YELLOW, "Chocolate cake with coffee: for a weekend breakfast."]
+    nutrition: [310, 5, 42, 14]
+    photo: galletas-y-bizcochos/bizcocho-de-cacao-y-cafe.jpg
+    category: Desserts
+    difficulty: EASY
+    prep: 15
+    cook: 40
+    servings: 10
+    notes: Coffee deepens the flavour of the cocoa. 22 cm tin.
+    tags: [cake, breakfast, chocolate]
+    utensils: [Oven, Blender]
+    ingredients:
+      - items:
+          - [eggs, 3, null]
+          - [sugar, 200, g]
+          - [sunflower oil, 120, ml]
+          - [cold strong coffee, 150, ml]
+          - [plain flour, 200, g]
+          - [cocoa powder, 40, g]
+          - [baking powder, 12, g]
+          - [salt, 1, pinch]
+    steps:
+      - Preheat the oven to 175°C and grease the tin.
+      - Beat the eggs with the sugar, add the oil and coffee.
+      - Add the sifted flour, cocoa, baking powder and salt and mix just enough.
+      - Bake 35-40 minutes, until a skewer comes out clean.
+
+  - name: Oat and raisin cookies
+    health: [YELLOW, "With oats and raisins, but also butter and sugar: one at a time."]
+    nutrition: [120, 2, 17, 5]
+    photo: galletas-y-bizcochos/galletas-de-avena-y-pasas.jpg
+    category: Desserts
+    difficulty: EASY
+    prep: 15
+    cook: 12
+    servings: 24
+    notes: Makes about 24 cookies. They stay soft inside. Servings are cookies.
+    tags: [biscuits, snack]
+    utensils: [Oven]
+    ingredients:
+      - items:
+          - [soft butter, 120, g]
+          - [brown sugar, 120, g]
+          - [egg, 1, null]
+          - [plain flour, 120, g]
+          - [rolled oats, 150, g]
+          - [bicarbonate of soda, 0.5, tsp]
+          - [ground cinnamon, 1, tsp]
+          - [raisins, 100, g]
+    steps:
+      - Preheat the oven to 180°C and line two trays with baking paper.
+      - Beat the butter with the sugar and add the egg.
+      - Add the flour, oats, bicarbonate and cinnamon and then the raisins.
+      - Put spaced spoonfuls of dough on the trays and bake 10-12 minutes, until the edges brown.
+
+  - name: Gingerbread biscuits
+    health: [YELLOW, "Spiced biscuits with honey: sweet, but with little butter."]
+    nutrition: [100, 1, 16, 3]
+    category: Desserts
+    difficulty: MEDIUM
+    prep: 30
+    cook: 10
+    servings: 24
+    notes: The classic Christmas gingerbread people. The dough needs 1 hour in the fridge. Servings are biscuits.
+    tags: [biscuits, christmas]
+    utensils: [Oven]
+    ingredients:
+      - items:
+          - [soft butter, 80, g]
+          - [brown sugar, 80, g]
+          - [honey, 100, g]
+          - [egg, 1, null]
+          - [plain flour, 320, g]
+          - [bicarbonate of soda, 1, tsp]
+          - [ground ginger, 2, tsp]
+          - [ground cinnamon, 1, tsp]
+          - [ground cloves, 0.25, tsp]
+    steps:
+      - Beat the butter with the sugar and honey. Add the egg.
+      - Add the flour, bicarbonate and spices and knead to a smooth dough. Wrap and chill 1 hour.
+      - Preheat the oven to 180°C. Roll the dough to 5 mm between two sheets of paper and cut out the biscuits.
+      - Bake 8-10 minutes. Leave to cool and decorate if you like.
+
+  - name: Butter tea biscuits (pastas de té)
+    health: [RED, "Butter and sugar: small, but very rich."]
+    nutrition: [80, 1, 9, 5]
+    category: Desserts
+    difficulty: MEDIUM
+    prep: 30
+    cook: 12
+    servings: 40
+    notes: Makes about 40. With a piping bag and star nozzle they look like the bakery ones. Servings are biscuits.
+    tags: [biscuits, snack]
+    utensils: [Oven, Blender]
+    ingredients:
+      - items:
+          - [soft butter, 200, g]
+          - [icing sugar, 100, g]
+          - [egg, 1, null]
+          - [vanilla extract, 1, tsp]
+          - [plain flour, 280, g]
+          - [glacé cherries or chocolate, null, null, optional]
+    steps:
+      - Preheat the oven to 180°C and line two trays with baking paper.
+      - Beat the butter with the icing sugar until very creamy. Add the egg and vanilla.
+      - Add the flour and mix just enough for a soft dough.
+      - With a piping bag and star nozzle, pipe small biscuits onto the trays and top with half a cherry.
+      - Bake 10-12 minutes, until the edges brown. If you like, dip half of each in melted chocolate.
+
+  - name: Lemon biscuits
+    health: [YELLOW, "Lemon biscuits with icing: sweet, one at a time."]
+    nutrition: [100, 1, 14, 4]
+    photo: galletas-y-bizcochos/galletas-de-limon.jpg
+    category: Desserts
+    difficulty: EASY
+    prep: 20
+    cook: 12
+    servings: 24
+    notes: Makes about 24 biscuits. Servings are biscuits.
+    tags: [biscuits, snack]
+    utensils: [Oven]
+    ingredients:
+      - group: For the biscuits
+        items:
+          - [soft butter, 100, g]
+          - [sugar, 120, g]
+          - [egg, 1, null]
+          - [lemon zest, 2, null]
+          - [lemon juice, 1, tbsp]
+          - [plain flour, 250, g]
+          - [baking powder, 1, tsp]
+      - group: For the icing
+        items:
+          - [icing sugar, 100, g]
+          - [lemon juice, 1.5, tbsp]
+    steps:
+      - Preheat the oven to 180°C and line two trays with baking paper.
+      - Beat the butter with the sugar, add the egg, zest and juice and then the flour with the baking powder.
+      - Roll into balls, put them on the trays and flatten them a little. Bake 10-12 minutes and leave to cool.
+      - Mix the icing sugar with the juice and ice the biscuits.
+
+  - name: Langues de chat
+    health: [RED, "Thin butter and sugar biscuits: light in size, not in calories."]
+    nutrition: [45, 1, 6, 2]
+    photo: galletas-y-bizcochos/lenguas-de-gato.jpg
+    category: Desserts
+    difficulty: MEDIUM
+    prep: 15
+    cook: 8
+    servings: 40
+    notes: Makes about 40. They are piped and only brown at the edges. Servings are biscuits.
+    tags: [biscuits, snack]
+    utensils: [Oven, Blender]
+    ingredients:
+      - items:
+          - [soft butter, 100, g]
+          - [icing sugar, 100, g]
+          - [egg whites, 3, null]
+          - [vanilla extract, 1, tsp]
+          - [plain flour, 100, g]
+    steps:
+      - Preheat the oven to 200°C and line two trays with baking paper.
+      - Beat the butter with the icing sugar, add the whites one at a time and the vanilla, then the sifted flour.
+      - With a piping bag and 1 cm plain nozzle, pipe 6 cm fingers well spaced.
+      - Bake 6-8 minutes, until the edges are golden. Lift them off while hot.
+
+  - name: Cinnamon sugar cookies
+    health: [YELLOW, "Butter cookies rolled in cinnamon sugar: sweet."]
+    nutrition: [110, 1, 15, 5]
+    photo: galletas-y-bizcochos/galletas-de-canela.jpg
+    category: Desserts
+    difficulty: EASY
+    prep: 15
+    cook: 10
+    servings: 24
+    notes: Snickerdoodles. Soft inside and crisp outside. Servings are cookies.
+    tags: [biscuits, snack]
+    utensils: [Oven]
+    ingredients:
+      - group: For the dough
+        items:
+          - [soft butter, 120, g]
+          - [sugar, 150, g]
+          - [egg, 1, null]
+          - [plain flour, 230, g]
+          - [bicarbonate of soda, 0.5, tsp]
+          - [salt, 1, pinch]
+      - group: To coat
+        items:
+          - [sugar, 3, tbsp]
+          - [ground cinnamon, 2, tsp]
+    steps:
+      - Preheat the oven to 190°C and line two trays with baking paper.
+      - Beat the butter with the sugar, add the egg and then the flour, bicarbonate and salt.
+      - Roll into balls and coat them in the sugar mixed with cinnamon.
+      - Put them spaced on the trays and bake 9-10 minutes. Leave them to cool on the tray.

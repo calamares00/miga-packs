@@ -1,0 +1,52 @@
+# Origin of every photo in this folder: source page, author and licence (CC0 1.0, Public domain,
+# CC BY x.y or CC BY-SA x.y). tools/build.py refuses a recipe photo without an entry here.
+
+tarta-de-queso-fria.jpg:
+  source: https://commons.wikimedia.org/wiki/File%3ABaked_cheesecake_with_raspberries_and_blueberries.jpg
+  author: "zingyyellow"
+  license: CC BY 2.0
+
+tarta-de-tres-chocolates.jpg:
+  source: https://commons.wikimedia.org/wiki/File%3AWalmart_Triple_Chocolate_Cake_%282%29.jpg
+  author: "Mr. Satterly"
+  license: CC0 1.0
+
+tarta-de-limon-fria.jpg:
+  source: https://commons.wikimedia.org/wiki/File%3ALemon_Icebox_Pie.jpg
+  author: "Capvideo"
+  license: CC BY 4.0
+
+tocino-de-cielo.jpg:
+  source: https://commons.wikimedia.org/wiki/File%3ATocino_de_cielo.jpg
+  author: "juantiagues"
+  license: CC BY-SA 2.0
+
+copa-de-yogur-con-frutos-rojos.jpg:
+  source: https://commons.wikimedia.org/wiki/File%3AYogurt_parfait_with_granola_and_blueberries_in_shot_glasses_with_silverware_spoons_%2817098581522%29.jpg
+  author: "Personal Creations"
+  license: CC BY 2.0
+
+bolitas-de-datiles-y-cacao.jpg:
+  source: https://commons.wikimedia.org/wiki/File%3AOatmeal_balls_02.jpg
+  author: "Douglas Perkins"
+  license: CC BY 4.0
+
+barritas-de-cereales-con-chocolate.jpg:
+  source: https://commons.wikimedia.org/wiki/File%3AGranola_bars.jpg
+  author: "LironOmri12"
+  license: CC0 1.0
+
+crema-de-cacao-y-avellanas.jpg:
+  source: https://commons.wikimedia.org/wiki/File%3ASchockelasbotterschmir.jpg
+  author: "Cornischong at Luxembourgish Wikipedia"
+  license: CC BY-SA 3.0
+
+tarta-de-fresas-fria.jpg:
+  source: https://commons.wikimedia.org/wiki/File%3AStrawberry_layer_cake.jpg
+  author: "Dennis Sylvester Hurd"
+  license: CC0 1.0
+
+peras-al-vino.jpg:
+  source: https://commons.wikimedia.org/wiki/File%3APeras_al_vino.jpg
+  author: "Juan Emilio Prades Bel"
+  license: CC BY-SA 4.0

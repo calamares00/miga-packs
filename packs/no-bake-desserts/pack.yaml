@@ -1,0 +1,343 @@
+id: no-bake-desserts
+version: 1
+updated: 2026-11-13
+language: en
+name: No-bake desserts
+series: Everyday cooking
+family: reposteria-sin-horno
+description: >-
+  Desserts made in the fridge or a saucepan, without turning on the oven: no-bake cheesecake,
+  triple chocolate cake, lemon icebox pie, lemon mousse, tocino de cielo, yoghurt and berry pots,
+  date and cocoa balls, cereal bars, chocolate hazelnut spread, strawberry fridge cake, mango and
+  yoghurt pots and pears in red wine. Most are made the day before.
+author: Miga
+authorGithub: calamares00
+cover:
+  emoji: "🍰"
+  title: No-bake desserts
+  colors: ["#be185d", "#fda4af"]
+defaults:
+  source: Miga «No-bake desserts» pack
+recipes:
+
+  - name: No-bake cheesecake
+    health: [RED, "Cream cheese, cream and biscuit: very rich, for occasions."]
+    nutrition: [420, 6, 34, 29]
+    photo: reposteria-sin-horno/tarta-de-queso-fria.jpg
+    category: Desserts
+    difficulty: EASY
+    prep: 25
+    cook: 5
+    servings: 10
+    notes: 22 cm springform tin. It needs at least 6 hours in the fridge. Very good with berry jam on top.
+    tags: [no-bake, dessert]
+    utensils: [Blender]
+    ingredients:
+      - group: For the base
+        items:
+          - [digestive biscuits, 200, g]
+          - [melted butter, 80, g]
+      - group: For the filling
+        items:
+          - [cream cheese, 500, g]
+          - [whipping cream, 300, ml]
+          - [sugar, 120, g]
+          - [gelatine leaves, 6, null]
+          - [lemon juice, 1, tbsp]
+          - [berry jam, 150, g, optional]
+    steps:
+      - Crush the biscuits, mix them with the butter and press into the base of the tin. Chill.
+      - Soak the gelatine in cold water for 5 minutes. Warm 100 ml of the cream and dissolve the squeezed gelatine in it.
+      - Beat the cheese with the sugar, lemon and the rest of the cream, and add the cream with the gelatine.
+      - Pour over the base and chill at least 6 hours. Spread with the jam before serving.
+
+  - name: Triple chocolate cake
+    health: [RED, "Chocolate, cream and milk: a very rich dessert."]
+    nutrition: [450, 7, 34, 32]
+    photo: reposteria-sin-horno/tarta-de-tres-chocolates.jpg
+    category: Desserts
+    difficulty: MEDIUM
+    prep: 40
+    cook: 15
+    servings: 12
+    notes: 22 cm springform tin. Each layer should start to set before adding the next. Best made the day before.
+    tags: [no-bake, dessert, chocolate]
+    utensils: []
+    ingredients:
+      - group: For the base
+        items:
+          - [Maria biscuits, 150, g]
+          - [melted butter, 60, g]
+      - group: For the three layers
+        items:
+          - [dark chocolate, 150, g]
+          - [milk chocolate, 150, g]
+          - [white chocolate, 150, g]
+          - [whipping cream, 750, ml]
+          - [milk, 750, ml]
+          - [junket or custard powder, 3, sachet]
+          - [sugar, 60, g]
+    steps:
+      - Crush the biscuits, mix them with the butter and line the base of the tin.
+      - Heat 250 ml of cream and 250 ml of milk with 20 g of sugar and the dark chocolate. Dissolve one sachet in a little cold milk, add it and simmer 2 minutes, stirring. Pour over the base.
+      - When it is cool and starting to set (about 20 minutes), do the same with the milk chocolate and pour it gently over the first layer, over the back of a spoon.
+      - Repeat with the white chocolate. Chill at least 6 hours before unmoulding.
+
+  - name: Lemon icebox pie
+    health: [RED, "Condensed milk, cream and biscuit: refreshing, but very sweet."]
+    nutrition: [410, 7, 44, 23]
+    photo: reposteria-sin-horno/tarta-de-limon-fria.jpg
+    category: Desserts
+    difficulty: EASY
+    prep: 20
+    cook: 0
+    servings: 10
+    notes: The lemon juice thickens the condensed milk, no gelatine needed. 22 cm tin. It needs 4 hours in the fridge.
+    tags: [no-bake, dessert]
+    utensils: [Blender]
+    ingredients:
+      - group: For the base
+        items:
+          - [Maria biscuits, 200, g]
+          - [melted butter, 80, g]
+      - group: For the filling
+        items:
+          - [condensed milk, 370, g]
+          - [whipping cream, 200, ml]
+          - [lemon juice, 150, ml]
+          - [lemon zest, 1, null]
+    steps:
+      - Crush the biscuits, mix them with the butter and press into the base of the tin.
+      - "Beat the condensed milk with the cream and zest. Add the lemon juice gradually, beating constantly: it will thicken."
+      - Pour over the base and chill at least 4 hours.
+
+  - name: Lemon mousse
+    health: [YELLOW, "Light and refreshing, but with condensed milk."]
+    nutrition: [280, 6, 34, 13]
+    category: Desserts
+    difficulty: EASY
+    prep: 15
+    cook: 0
+    servings: 6
+    notes: Contains raw egg white; use pasteurised or very fresh eggs. It needs 3 hours in the fridge.
+    tags: [no-bake, dessert, gluten-free]
+    utensils: [Blender]
+    ingredients:
+      - items:
+          - [condensed milk, 370, g]
+          - [plain Greek yoghurt, 250, g]
+          - [lemon juice, 120, ml]
+          - [lemon zest, 1, null]
+          - [pasteurised egg whites, 2, null]
+    steps:
+      - Beat the condensed milk with the yoghurt, zest and lemon juice.
+      - Whisk the whites to stiff peaks and fold them in gently.
+      - Divide among glasses and chill at least 3 hours.
+
+  - name: Tocino de cielo (egg yolk custard)
+    health: [RED, "Almost only yolk and sugar: a very rich sweet, in small portions."]
+    nutrition: [230, 4, 34, 9]
+    photo: reposteria-sin-horno/tocino-de-cielo.jpg
+    category: Desserts
+    difficulty: MEDIUM
+    prep: 15
+    cook: 30
+    servings: 8
+    notes: Set in a covered bain-marie on the hob, no oven. 18 cm flan mould.
+    tags: [no-bake, dessert, traditional, gluten-free]
+    origin: Jerez de la Frontera
+    originCountry: ES
+    utensils: []
+    ingredients:
+      - items:
+          - [sugar, 250, g]
+          - [water, 125, ml]
+          - [egg yolks, 10, null]
+          - [egg, 1, null]
+          - [liquid caramel, 3, tbsp]
+    steps:
+      - Make a syrup by boiling the sugar with the water for 5 minutes, until it forms a thin thread. Leave to cool a little.
+      - Beat the yolks with the egg without making them frothy and pour in the syrup in a thin stream, stirring. Strain.
+      - Cover the base of the mould with the caramel, pour in the mixture and cover with foil.
+      - Cook it in a covered pan as a bain-marie over low heat for 25-30 minutes, until set. Leave to cool and turn out.
+
+  - name: Yoghurt and berry pots
+    health: [GREEN, "Yoghurt with fruit and a little granola: a light dessert."]
+    nutrition: [210, 9, 26, 8]
+    photo: reposteria-sin-horno/copa-de-yogur-con-frutos-rojos.jpg
+    category: Desserts
+    difficulty: EASY
+    prep: 10
+    cook: 0
+    servings: 4
+    notes: Ready in a moment. Add the granola just before serving so it stays crunchy.
+    tags: [no-bake, dessert, quick]
+    utensils: []
+    ingredients:
+      - items:
+          - [plain Greek yoghurt, 500, g]
+          - [honey, 2, tbsp]
+          - [fresh or frozen berries, 300, g]
+          - [granola, 60, g]
+          - [mint leaves, null, null, optional]
+    steps:
+      - Mix the yoghurt with the honey.
+      - In glasses or jars, alternate layers of yoghurt and berries.
+      - Finish with the granola and a few mint leaves.
+
+  - name: Date and cocoa balls
+    health: [GREEN, "Dates, nuts and cocoa: sweet with no added sugar and with fibre."]
+    nutrition: [90, 2, 12, 4]
+    photo: reposteria-sin-horno/bolitas-de-datiles-y-cacao.jpg
+    category: Desserts
+    difficulty: EASY
+    prep: 15
+    cook: 0
+    servings: 16
+    notes: Makes about 16 balls. They keep a week in the fridge. Servings are balls.
+    tags: [no-bake, dessert, vegan, gluten-free]
+    utensils: [Food processor]
+    ingredients:
+      - items:
+          - [pitted dates, 200, g]
+          - [almonds or walnuts, 100, g]
+          - [cocoa powder, 2, tbsp]
+          - [desiccated coconut, 30, g]
+          - [salt, 1, pinch]
+    steps:
+      - If the dates are hard, soak them in hot water for 10 minutes and drain.
+      - Blitz the nuts, add the dates, cocoa and salt and blitz until the mixture sticks together.
+      - Roll into balls and coat them in coconut. Chill 30 minutes.
+
+  - name: Chocolate cereal bars
+    health: [YELLOW, "Oats and nuts with honey and chocolate: energising, but sweet."]
+    nutrition: [190, 4, 24, 9]
+    photo: reposteria-sin-horno/barritas-de-cereales-con-chocolate.jpg
+    category: Desserts
+    difficulty: EASY
+    prep: 15
+    cook: 5
+    servings: 12
+    notes: 20 cm square tin lined with baking paper. Makes 12 bars.
+    tags: [no-bake, dessert, snack]
+    utensils: []
+    ingredients:
+      - items:
+          - [rolled oats, 200, g]
+          - [chopped nuts, 80, g]
+          - [puffed rice, 40, g]
+          - [honey, 100, g]
+          - [peanut butter, 80, g]
+          - [dark chocolate, 80, g]
+    steps:
+      - Toast the oats in a dry frying pan for 3 minutes, stirring.
+      - Warm the honey with the peanut butter until they combine.
+      - Mix with the oats, nuts and puffed rice and press firmly into the tin.
+      - Cover with the melted chocolate, chill 2 hours and cut into bars.
+
+  - name: Chocolate hazelnut spread
+    health: [YELLOW, "Homemade has more hazelnut and less sugar than shop-bought, but it is still rich."]
+    nutrition: [100, 2, 7, 7]
+    photo: reposteria-sin-horno/crema-de-cacao-y-avellanas.jpg
+    category: Desserts
+    difficulty: EASY
+    prep: 15
+    cook: 10
+    servings: 20
+    notes: You need a powerful food processor. It keeps two weeks in a jar at room temperature. Servings are one tablespoon.
+    tags: [no-bake, breakfast, gluten-free]
+    utensils: [Food processor]
+    ingredients:
+      - items:
+          - [blanched hazelnuts, 200, g]
+          - [milk chocolate, 100, g]
+          - [cocoa powder, 2, tbsp]
+          - [icing sugar, 40, g]
+          - [sunflower oil, 2, tbsp]
+          - [salt, 1, pinch]
+    steps:
+      - Toast the hazelnuts in a dry frying pan for 8 minutes, stirring, until fragrant.
+      - Blitz them in the processor for 5-8 minutes, stopping to scrape down, until they release their oil and turn into a runny paste.
+      - Add the melted chocolate, cocoa, sugar, oil and salt and blitz 1 minute more.
+      - "Keep it in a jar: it thickens as it cools."
+
+  - name: Strawberry fridge cake
+    health: [RED, "Strawberries with cream and biscuit: delicious, but rich."]
+    nutrition: [360, 5, 32, 24]
+    photo: reposteria-sin-horno/tarta-de-fresas-fria.jpg
+    category: Desserts
+    difficulty: MEDIUM
+    prep: 30
+    cook: 5
+    servings: 10
+    notes: 22 cm springform tin. It needs 6 hours in the fridge.
+    tags: [no-bake, dessert]
+    utensils: [Blender]
+    ingredients:
+      - group: For the base
+        items:
+          - [digestive biscuits, 200, g]
+          - [melted butter, 80, g]
+      - group: For the filling
+        items:
+          - [strawberries, 500, g]
+          - [sugar, 100, g]
+          - [whipping cream, 300, ml]
+          - [plain yoghurt, 125, g]
+          - [gelatine leaves, 6, null]
+          - [strawberries to decorate, 150, g]
+    steps:
+      - Crush the biscuits, mix them with the butter and press into the base of the tin.
+      - Blend the strawberries with the sugar. Soak the gelatine in cold water and dissolve it in a little of the warmed purée. Mix with the rest of the purée and the yoghurt.
+      - Whip the cream and fold it in.
+      - Pour over the base, chill 6 hours and decorate with strawberries.
+
+  - name: Mango and yoghurt pots
+    health: [GREEN, "Fruit with yoghurt and a little biscuit: a light, fresh dessert."]
+    nutrition: [220, 7, 32, 7]
+    category: Desserts
+    difficulty: EASY
+    prep: 15
+    cook: 0
+    servings: 4
+    notes: With ripe mango there is no need for sugar.
+    tags: [no-bake, dessert, quick]
+    utensils: [Blender]
+    ingredients:
+      - items:
+          - [ripe mangoes, 2, null]
+          - [plain Greek yoghurt, 400, g]
+          - [honey, 1, tbsp]
+          - [digestive biscuits, 6, null]
+          - [lime (zest), 1, null, optional]
+    steps:
+      - Peel one mango and blend it. Dice the other.
+      - Mix the yoghurt with the honey and lime zest.
+      - In glasses, layer crumbled biscuit, yoghurt, mango purée and diced mango, and repeat.
+      - Chill 30 minutes before serving.
+
+  - name: Pears in red wine
+    health: [YELLOW, "Fruit poached in wine with sugar: the alcohol cooks off, but it has sugar."]
+    nutrition: [210, 1, 44, 0]
+    photo: reposteria-sin-horno/peras-al-vino.jpg
+    category: Desserts
+    difficulty: EASY
+    prep: 10
+    cook: 35
+    servings: 4
+    notes: Cooked in a saucepan. Very good with a scoop of vanilla ice cream or cream.
+    tags: [no-bake, dessert, fruit, vegan, gluten-free]
+    utensils: []
+    ingredients:
+      - items:
+          - [firm pears, 4, null]
+          - [red wine, 500, ml]
+          - [sugar, 100, g]
+          - [cinnamon stick, 1, null]
+          - [orange peel, 1, piece]
+          - [cloves, 2, null]
+    steps:
+      - Peel the pears leaving the stalk and cut off the base so they stand up.
+      - Heat the wine with the sugar, cinnamon, orange peel and cloves.
+      - Stand the pears in the pan, cover and simmer 25-30 minutes, turning them now and then, until tender.
+      - Take out the pears and reduce the wine for 10 minutes until syrupy. Serve the pears with the syrup.

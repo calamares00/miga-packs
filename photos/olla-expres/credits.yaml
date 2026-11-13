@@ -1,0 +1,57 @@
+# Origin of every photo in this folder: source page, author and licence (CC0 1.0, Public domain,
+# CC BY x.y or CC BY-SA x.y). tools/build.py refuses a recipe photo without an entry here.
+
+callos-a-la-madrilena.jpg:
+  source: https://commons.wikimedia.org/wiki/File%3ACallos_a_la_madrile%C3%B1a_con_garbanzos.jpg
+  author: "Juan Emilio Prades Bel"
+  license: CC BY 4.0
+
+estofado-de-ternera-con-patatas.jpg:
+  source: https://commons.wikimedia.org/wiki/File%3ABeef_stew_with_potatoes_and_carrots_-_Massachusetts.jpg
+  author: "Daderot"
+  license: CC0 1.0
+
+codillo-de-cerdo-con-patatas.jpg:
+  source: https://commons.wikimedia.org/wiki/File%3ASchweinshaxe_Chiang_Mai.JPG
+  author: "Takeaway"
+  license: CC BY-SA 3.0
+
+lengua-de-ternera-en-salsa.jpg:
+  source: https://commons.wikimedia.org/wiki/File%3AOx_tongue_rice_with_tomato_sauce_and.jpg
+  author: "Peachyeung316"
+  license: CC BY-SA 4.0
+
+manitas-de-cerdo-en-salsa.jpg:
+  source: https://commons.wikimedia.org/wiki/File%3AManitas_de_cerdo_%28en_salsa_de_tomate%29.jpg
+  author: "Tamorlan"
+  license: CC BY 3.0
+
+pollo-a-la-cerveza.jpg:
+  source: https://commons.wikimedia.org/wiki/File%3ABeer_can_chicken.jpg
+  author: "Paul J. Dauenhauer"
+  license: Public domain
+
+carne-mechada.jpg:
+  source: https://commons.wikimedia.org/wiki/File%3AMechada_carne.jpg
+  author: "E4024"
+  license: CC BY-SA 4.0
+
+fabes-con-almejas.jpg:
+  source: https://commons.wikimedia.org/wiki/File%3AFabes_con_almejas.jpg
+  author: "daniel julià lundgren"
+  license: CC BY-SA 2.0
+
+patatas-con-sepia.jpg:
+  source: https://commons.wikimedia.org/wiki/File%3APapas_con_chocos.jpg
+  author: "Xemenendura"
+  license: CC BY-SA 4.0
+
+arroz-caldoso-con-pollo.jpg:
+  source: https://commons.wikimedia.org/wiki/File%3AArroz_caldoso_con_costilla_de_cerdo%2C_pollo%2C_alcachofas_y_borrachitos_%28habas_tiernas_con_piel%29.jpg
+  author: "Juan Emilio Prades Bel"
+  license: CC BY 4.0
+
+conejo-al-ajillo.jpg:
+  source: https://commons.wikimedia.org/wiki/File%3AConejo_al_ajillo_%28Espa%C3%B1a%29.jpg
+  author: "Juan Emilio Prades Bel"
+  license: CC BY 4.0

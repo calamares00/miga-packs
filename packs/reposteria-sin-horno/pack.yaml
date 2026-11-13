@@ -1,0 +1,343 @@
+id: reposteria-sin-horno
+version: 1
+updated: 2026-11-13
+language: es
+name: Repostería sin horno
+series: Cocina de cada día
+family: reposteria-sin-horno
+description: >-
+  Postres que se hacen en la nevera o en un cazo, sin encender el horno: tarta de queso fría,
+  tarta de tres chocolates, tarta de limón, mousse de limón, tocino de cielo, copas de yogur con
+  frutos rojos, bolitas de dátiles y cacao, barritas de cereales, crema de cacao y avellanas,
+  tarta de fresas, vasitos de mango y yogur y peras al vino. Casi todos se preparan el día antes.
+author: Miga
+authorGithub: calamares00
+cover:
+  emoji: "🍰"
+  title: Repostería sin horno
+  colors: ["#be185d", "#fda4af"]
+defaults:
+  source: Pack «Repostería sin horno» de Miga
+recipes:
+
+  - name: Tarta de queso fría
+    health: [RED, "Queso crema, nata y galleta: muy calórica, para ocasiones."]
+    nutrition: [420, 6, 34, 29]
+    photo: reposteria-sin-horno/tarta-de-queso-fria.jpg
+    category: Postres
+    difficulty: EASY
+    prep: 25
+    cook: 5
+    servings: 10
+    notes: Molde desmontable de 22 cm. Necesita al menos 6 horas de nevera. Muy rica con mermelada de frutos rojos por encima.
+    tags: [sin horno, postre]
+    utensils: [Batidora]
+    ingredients:
+      - group: Para la base
+        items:
+          - [galletas tipo digestive, 200, g]
+          - [mantequilla derretida, 80, g]
+      - group: Para la crema
+        items:
+          - [queso crema, 500, g]
+          - [nata para montar, 300, ml]
+          - [azúcar, 120, g]
+          - [gelatina neutra en hojas, 6, null]
+          - [zumo de limón, 1, cucharada]
+          - [mermelada de frutos rojos, 150, g, optional]
+    steps:
+      - Tritura las galletas, mézclalas con la mantequilla y presiona la mezcla en el fondo del molde. Refrigera.
+      - Hidrata la gelatina en agua fría 5 minutos. Calienta 100 ml de la nata y disuelve en ella la gelatina escurrida.
+      - Bate el queso con el azúcar, el limón y el resto de la nata, y añade la nata con la gelatina.
+      - Vierte sobre la base y refrigera al menos 6 horas. Cubre con la mermelada antes de servir.
+
+  - name: Tarta de tres chocolates
+    health: [RED, "Chocolate, nata y leche: un postre muy calórico."]
+    nutrition: [450, 7, 34, 32]
+    photo: reposteria-sin-horno/tarta-de-tres-chocolates.jpg
+    category: Postres
+    difficulty: MEDIUM
+    prep: 40
+    cook: 15
+    servings: 12
+    notes: Molde desmontable de 22 cm. Cada capa debe cuajar un poco antes de añadir la siguiente. Mejor de un día para otro.
+    tags: [sin horno, postre, chocolate]
+    utensils: []
+    ingredients:
+      - group: Para la base
+        items:
+          - [galletas tipo María, 150, g]
+          - [mantequilla derretida, 60, g]
+      - group: Para las tres capas
+        items:
+          - [chocolate negro, 150, g]
+          - [chocolate con leche, 150, g]
+          - [chocolate blanco, 150, g]
+          - [nata para montar, 750, ml]
+          - [leche, 750, ml]
+          - [cuajada en polvo, 3, sobre]
+          - [azúcar, 60, g]
+    steps:
+      - Tritura las galletas, mézclalas con la mantequilla y forra el fondo del molde.
+      - Calienta 250 ml de nata y 250 ml de leche con 20 g de azúcar y el chocolate negro. Disuelve un sobre de cuajada en un poco de leche fría, añádelo y cuece 2 minutos removiendo. Viértelo sobre la base.
+      - Cuando esté templada y empiece a cuajar (unos 20 minutos), haz lo mismo con el chocolate con leche y viértela con cuidado sobre la primera capa, ayudándote de una cuchara.
+      - Repite con el chocolate blanco. Refrigera al menos 6 horas antes de desmoldar.
+
+  - name: Tarta de limón fría
+    health: [RED, "Leche condensada, nata y galleta: refrescante, pero muy dulce."]
+    nutrition: [410, 7, 44, 23]
+    photo: reposteria-sin-horno/tarta-de-limon-fria.jpg
+    category: Postres
+    difficulty: EASY
+    prep: 20
+    cook: 0
+    servings: 10
+    notes: El zumo de limón espesa la leche condensada, sin gelatina. Molde de 22 cm. Necesita 4 horas de nevera.
+    tags: [sin horno, postre]
+    utensils: [Batidora]
+    ingredients:
+      - group: Para la base
+        items:
+          - [galletas tipo María, 200, g]
+          - [mantequilla derretida, 80, g]
+      - group: Para la crema
+        items:
+          - [leche condensada, 370, g]
+          - [nata para montar, 200, ml]
+          - [zumo de limón, 150, ml]
+          - [ralladura de limón, 1, null]
+    steps:
+      - Tritura las galletas, mézclalas con la mantequilla y presiona en el fondo del molde.
+      - "Bate la leche condensada con la nata y la ralladura. Añade el zumo de limón poco a poco, sin dejar de batir: la crema espesará."
+      - Viértela sobre la base y refrigera al menos 4 horas.
+
+  - name: Mousse de limón
+    health: [YELLOW, "Ligera y refrescante, pero con leche condensada."]
+    nutrition: [280, 6, 34, 13]
+    category: Postres
+    difficulty: EASY
+    prep: 15
+    cook: 0
+    servings: 6
+    notes: Lleva clara de huevo cruda; usa huevos pasteurizados o muy frescos. Necesita 3 horas de nevera.
+    tags: [sin horno, postre, sin gluten]
+    utensils: [Batidora]
+    ingredients:
+      - items:
+          - [leche condensada, 370, g]
+          - [yogur griego natural, 250, g]
+          - [zumo de limón, 120, ml]
+          - [ralladura de limón, 1, null]
+          - [claras de huevo pasteurizadas, 2, null]
+    steps:
+      - Bate la leche condensada con el yogur, la ralladura y el zumo de limón.
+      - Monta las claras a punto de nieve y añádelas con movimientos envolventes.
+      - Reparte en copas y refrigera al menos 3 horas.
+
+  - name: Tocino de cielo
+    health: [RED, "Casi solo yema y azúcar: un dulce muy calórico, en porciones pequeñas."]
+    nutrition: [230, 4, 34, 9]
+    photo: reposteria-sin-horno/tocino-de-cielo.jpg
+    category: Postres
+    difficulty: MEDIUM
+    prep: 15
+    cook: 30
+    servings: 8
+    notes: Se cuaja al baño maría en el fuego, tapado, sin horno. Molde de flan de 18 cm.
+    tags: [sin horno, postre, tradicional, sin gluten]
+    origin: Jerez de la Frontera
+    originCountry: ES
+    utensils: []
+    ingredients:
+      - items:
+          - [azúcar, 250, g]
+          - [agua, 125, ml]
+          - [yemas de huevo, 10, null]
+          - [huevo, 1, null]
+          - [caramelo líquido, 3, cucharada]
+    steps:
+      - Haz un almíbar hirviendo el azúcar con el agua 5 minutos, hasta que forme un hilo fino. Deja templar.
+      - Bate las yemas con el huevo sin que espumen y añade el almíbar en hilo, removiendo. Cuélalo.
+      - Cubre el fondo del molde con el caramelo, vierte la mezcla y tápalo con papel de aluminio.
+      - Cuécelo en una cazuela al baño maría, tapada, a fuego suave 25-30 minutos, hasta que cuaje. Deja enfriar y desmolda.
+
+  - name: Copa de yogur con frutos rojos
+    health: [GREEN, "Yogur con fruta y un poco de granola: un postre ligero."]
+    nutrition: [210, 9, 26, 8]
+    photo: reposteria-sin-horno/copa-de-yogur-con-frutos-rojos.jpg
+    category: Postres
+    difficulty: EASY
+    prep: 10
+    cook: 0
+    servings: 4
+    notes: Se monta en un momento. Pon la granola justo antes de servir para que no se ablande.
+    tags: [sin horno, postre, rápida]
+    utensils: []
+    ingredients:
+      - items:
+          - [yogur griego natural, 500, g]
+          - [miel, 2, cucharada]
+          - [frutos rojos frescos o congelados, 300, g]
+          - [granola, 60, g]
+          - [hojas de menta, null, null, optional]
+    steps:
+      - Mezcla el yogur con la miel.
+      - En copas o vasos, alterna capas de yogur y frutos rojos.
+      - Termina con la granola y unas hojas de menta.
+
+  - name: Bolitas de dátiles y cacao
+    health: [GREEN, "Dátiles, frutos secos y cacao: dulces sin azúcar añadido y con fibra."]
+    nutrition: [90, 2, 12, 4]
+    photo: reposteria-sin-horno/bolitas-de-datiles-y-cacao.jpg
+    category: Postres
+    difficulty: EASY
+    prep: 15
+    cook: 0
+    servings: 16
+    notes: Salen unas 16 bolitas. Se guardan una semana en la nevera. Las raciones son bolitas.
+    tags: [sin horno, postre, vegana, sin gluten]
+    utensils: [Robot de cocina]
+    ingredients:
+      - items:
+          - [dátiles sin hueso, 200, g]
+          - [almendras o nueces, 100, g]
+          - [cacao en polvo puro, 2, cucharada]
+          - [coco rallado, 30, g]
+          - [sal, 1, pizca]
+    steps:
+      - Si los dátiles están duros, remójalos 10 minutos en agua caliente y escúrrelos.
+      - Tritura los frutos secos, añade los dátiles, el cacao y la sal y tritura hasta que la masa se pegue.
+      - Forma bolitas y rebózalas en coco rallado. Refrigera 30 minutos.
+
+  - name: Barritas de cereales con chocolate
+    health: [YELLOW, "Avena y frutos secos con miel y chocolate: energéticas, pero dulces."]
+    nutrition: [190, 4, 24, 9]
+    photo: reposteria-sin-horno/barritas-de-cereales-con-chocolate.jpg
+    category: Postres
+    difficulty: EASY
+    prep: 15
+    cook: 5
+    servings: 12
+    notes: Molde cuadrado de 20 cm forrado con papel de horno. Salen 12 barritas.
+    tags: [sin horno, postre, merienda]
+    utensils: []
+    ingredients:
+      - items:
+          - [copos de avena, 200, g]
+          - [frutos secos picados, 80, g]
+          - [arroz inflado, 40, g]
+          - [miel, 100, g]
+          - [crema de cacahuete, 80, g]
+          - [chocolate negro, 80, g]
+    steps:
+      - Tuesta la avena en una sartén sin aceite 3 minutos, removiendo.
+      - Calienta la miel con la crema de cacahuete hasta que se mezclen.
+      - Mezcla con la avena, los frutos secos y el arroz inflado y presiona bien en el molde.
+      - Cubre con el chocolate fundido, refrigera 2 horas y corta en barritas.
+
+  - name: Crema de cacao y avellanas
+    health: [YELLOW, "Casera tiene más avellana y menos azúcar que la comprada, pero sigue siendo calórica."]
+    nutrition: [100, 2, 7, 7]
+    photo: reposteria-sin-horno/crema-de-cacao-y-avellanas.jpg
+    category: Postres
+    difficulty: EASY
+    prep: 15
+    cook: 10
+    servings: 20
+    notes: Hace falta una picadora potente. Se guarda dos semanas en un tarro a temperatura ambiente. Las raciones son de una cucharada.
+    tags: [sin horno, desayuno, sin gluten]
+    utensils: [Robot de cocina]
+    ingredients:
+      - items:
+          - [avellanas peladas, 200, g]
+          - [chocolate con leche, 100, g]
+          - [cacao en polvo puro, 2, cucharada]
+          - [azúcar glas, 40, g]
+          - [aceite de girasol, 2, cucharada]
+          - [sal, 1, pizca]
+    steps:
+      - Tuesta las avellanas en una sartén sin aceite 8 minutos, removiendo, hasta que huelan.
+      - Tritúralas en el robot 5-8 minutos, parando para bajar los restos, hasta que suelten su aceite y quede una pasta líquida.
+      - Añade el chocolate fundido, el cacao, el azúcar, el aceite y la sal y tritura 1 minuto más.
+      - "Guárdala en un tarro: espesa al enfriar."
+
+  - name: Tarta de fresas fría
+    health: [RED, "Fresas con nata y galleta: muy rica, pero calórica."]
+    nutrition: [360, 5, 32, 24]
+    photo: reposteria-sin-horno/tarta-de-fresas-fria.jpg
+    category: Postres
+    difficulty: MEDIUM
+    prep: 30
+    cook: 5
+    servings: 10
+    notes: Molde desmontable de 22 cm. Necesita 6 horas de nevera.
+    tags: [sin horno, postre]
+    utensils: [Batidora]
+    ingredients:
+      - group: Para la base
+        items:
+          - [galletas tipo digestive, 200, g]
+          - [mantequilla derretida, 80, g]
+      - group: Para la crema
+        items:
+          - [fresas, 500, g]
+          - [azúcar, 100, g]
+          - [nata para montar, 300, ml]
+          - [yogur natural, 125, g]
+          - [gelatina neutra en hojas, 6, null]
+          - [fresas para decorar, 150, g]
+    steps:
+      - Tritura las galletas, mézclalas con la mantequilla y presiona en el fondo del molde.
+      - Tritura las fresas con el azúcar. Hidrata la gelatina en agua fría y disuélvela en un poco del puré caliente. Mezcla con el resto del puré y el yogur.
+      - Monta la nata y añádela con movimientos envolventes.
+      - Vierte sobre la base, refrigera 6 horas y decora con fresas.
+
+  - name: Vasitos de mango y yogur
+    health: [GREEN, "Fruta con yogur y un poco de galleta: un postre ligero y fresco."]
+    nutrition: [220, 7, 32, 7]
+    category: Postres
+    difficulty: EASY
+    prep: 15
+    cook: 0
+    servings: 4
+    notes: Con mango maduro no hace falta azúcar.
+    tags: [sin horno, postre, rápida]
+    utensils: [Batidora]
+    ingredients:
+      - items:
+          - [mangos maduros, 2, null]
+          - [yogur griego natural, 400, g]
+          - [miel, 1, cucharada]
+          - [galletas tipo digestive, 6, null]
+          - [lima (ralladura), 1, null, optional]
+    steps:
+      - Pela un mango y tritúralo. Corta el otro en dados.
+      - Mezcla el yogur con la miel y la ralladura de lima.
+      - En vasos, pon galleta desmenuzada, yogur, puré de mango y dados de mango, y repite.
+      - Refrigera 30 minutos antes de servir.
+
+  - name: Peras al vino
+    health: [YELLOW, "Fruta cocida en vino con azúcar: el alcohol se evapora, pero lleva azúcar."]
+    nutrition: [210, 1, 44, 0]
+    photo: reposteria-sin-horno/peras-al-vino.jpg
+    category: Postres
+    difficulty: EASY
+    prep: 10
+    cook: 35
+    servings: 4
+    notes: Se cuecen en un cazo. Muy ricas con una bola de helado de vainilla o nata.
+    tags: [sin horno, postre, fruta, vegana, sin gluten]
+    utensils: []
+    ingredients:
+      - items:
+          - [peras firmes, 4, null]
+          - [vino tinto, 500, ml]
+          - [azúcar, 100, g]
+          - [rama de canela, 1, null]
+          - [piel de naranja, 1, trozo]
+          - [clavos de olor, 2, null]
+    steps:
+      - Pela las peras dejando el rabo y corta la base para que se sostengan de pie.
+      - Calienta el vino con el azúcar, la canela, la piel de naranja y los clavos.
+      - Pon las peras de pie en el cazo, tapa y cuece a fuego suave 25-30 minutos, dándoles la vuelta de vez en cuando, hasta que estén tiernas.
+      - Retira las peras y reduce el vino 10 minutos hasta que tenga textura de almíbar. Sirve las peras con el almíbar.

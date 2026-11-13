@@ -1,0 +1,355 @@
+id: budget-cooking
+version: 1
+updated: 2026-11-13
+language: en
+name: Budget cooking
+series: Everyday cooking
+family: cocina-economica
+description: >-
+  Complete dishes with cheap, seasonal ingredients, the home cooking of a lifetime: green beans
+  with potatoes, battered potatoes in sauce, vegetable rice, tuna and tomato spaghetti, chicken
+  and potato stew, Flamenco eggs, tuna empanadillas, baked mackerel, liver and onions, French
+  onion soup, cauliflower with garlic and paprika and broccoli pasta. With money-saving tips in
+  the notes.
+author: Miga
+authorGithub: calamares00
+cover:
+  emoji: "🪙"
+  title: Budget cooking
+  colors: ["#854d0e", "#facc15"]
+defaults:
+  source: Miga «Budget cooking» pack
+recipes:
+
+  - name: Green beans with potatoes
+    health: [GREEN, "Vegetables and potato with a garlic and paprika dressing: light and with fibre."]
+    nutrition: [220, 6, 30, 9]
+    photo: cocina-economica/judias-verdes-con-patatas.jpg
+    category: Vegetables
+    difficulty: EASY
+    prep: 15
+    cook: 25
+    servings: 4
+    notes: Frozen beans work just as well and are cheaper out of season.
+    tags: [budget, vegetables, vegan, gluten-free]
+    utensils: []
+    ingredients:
+      - items:
+          - [green beans, 500, g]
+          - [potatoes, 500, g]
+          - [garlic, 3, clove]
+          - [sweet paprika, 1, tsp]
+          - [extra virgin olive oil, 3, tbsp]
+          - [salt, null, null]
+    steps:
+      - Top and tail the beans and cut them into pieces. Peel the potatoes and cut them into medium chunks.
+      - Boil them in salted water for 20 minutes, until tender. Drain.
+      - Brown the sliced garlic in the oil, take off the heat and add the paprika.
+      - Pour the garlic oil over the vegetables and mix.
+
+  - name: Battered potatoes in sauce (patatas a la importancia)
+    health: [YELLOW, "Battered potatoes in sauce: cheap and filling, but fried."]
+    nutrition: [380, 9, 42, 19]
+    photo: cocina-economica/patatas-a-la-importancia.jpg
+    category: Vegetables
+    difficulty: MEDIUM
+    prep: 20
+    cook: 35
+    servings: 4
+    notes: A classic of humble Castilian cooking that turns a few potatoes into a main course.
+    tags: [budget, traditional, fried]
+    utensils: []
+    ingredients:
+      - items:
+          - [large potatoes, 3, null]
+          - [plain flour, 60, g]
+          - [eggs, 2, null]
+          - [onion, 1, null]
+          - [garlic, 2, clove]
+          - [white wine, 100, ml]
+          - [vegetable stock or water, 500, ml]
+          - [chopped parsley, 1, tbsp]
+          - [saffron or food colouring, 1, pinch]
+          - [olive oil for frying, null, null]
+          - [salt, null, null]
+    steps:
+      - Peel the potatoes and cut them into 1 cm slices. Salt them, coat in flour and beaten egg and fry until golden. Drain.
+      - In a casserole with 3 tablespoons of oil, fry the chopped onion and garlic for 8 minutes. Add a tablespoon of flour and cook 1 minute.
+      - Add the wine, let it bubble away and add the stock, saffron and parsley.
+      - Put the potatoes in the sauce and simmer 20 minutes, shaking the pan so they don't stick.
+
+  - name: Vegetable rice
+    health: [GREEN, "Rice with plenty of vegetables and olive oil: complete and light."]
+    nutrition: [400, 8, 72, 9]
+    photo: cocina-economica/arroz-con-verduras.jpg
+    category: Rice
+    difficulty: EASY
+    prep: 15
+    cook: 25
+    servings: 4
+    notes: Use the cheapest seasonal vegetables. With a fried egg on top it is a complete meal.
+    tags: [budget, rice, vegan]
+    utensils: []
+    ingredients:
+      - items:
+          - [short-grain rice, 300, g]
+          - [onion, 1, null]
+          - [red pepper, 1, null]
+          - [courgette, 1, null]
+          - [carrot, 1, null]
+          - [frozen peas, 100, g]
+          - [crushed tomato, 100, g]
+          - [sweet paprika, 1, tsp]
+          - [vegetable stock, 900, ml]
+          - [extra virgin olive oil, 3, tbsp]
+          - [salt, null, null]
+    steps:
+      - Fry the chopped onion, pepper, courgette and carrot in the oil for 10 minutes.
+      - Add the tomato and paprika and cook 3 minutes.
+      - Add the rice, stir for 1 minute and pour in the hot stock. Salt.
+      - Simmer 12 minutes over medium heat, add the peas and cook 6 minutes more. Leave to rest 5 minutes.
+
+  - name: Tuna and tomato spaghetti
+    health: [GREEN, "Pasta with tuna and tomato: complete, cheap and with good protein."]
+    nutrition: [490, 26, 72, 11]
+    photo: cocina-economica/espaguetis-con-atun-y-tomate.jpg
+    category: Pasta
+    difficulty: EASY
+    prep: 5
+    cook: 20
+    servings: 4
+    notes: Tuna in brine is cheaper and lighter than tuna in oil.
+    tags: [budget, pasta, quick]
+    utensils: []
+    ingredients:
+      - items:
+          - [spaghetti, 350, g]
+          - [drained tinned tuna, 3, can]
+          - [crushed tomato, 400, g]
+          - [onion, 1, null]
+          - [dried oregano, 1, tsp]
+          - [extra virgin olive oil, 2, tbsp]
+          - [salt, null, null]
+    steps:
+      - Fry the chopped onion in the oil for 6 minutes. Add the tomato, oregano and salt and cook 12 minutes.
+      - Meanwhile, cook the pasta as the packet says and drain.
+      - Add the tuna to the sauce and toss with the pasta.
+
+  - name: Chicken and potato stew
+    health: [GREEN, "Chicken with potatoes and vegetables in a stew: complete and nothing fried."]
+    nutrition: [450, 32, 34, 20]
+    photo: cocina-economica/pollo-guisado-con-patatas.jpg
+    category: Meat
+    difficulty: EASY
+    prep: 15
+    cook: 45
+    servings: 4
+    notes: Thighs and drumsticks are cheaper and juicier than breast. Buying a whole chicken and jointing it is cheaper still.
+    tags: [budget, chicken, stew, gluten-free]
+    utensils: []
+    ingredients:
+      - items:
+          - [chicken thighs and drumsticks, 1, kg]
+          - [potatoes, 600, g]
+          - [onion, 1, null]
+          - [carrots, 2, null]
+          - [garlic, 2, clove]
+          - [white wine, 100, ml]
+          - [bay leaf, 1, null]
+          - [water, 400, ml]
+          - [extra virgin olive oil, 3, tbsp]
+          - [salt, null, null]
+    steps:
+      - Season the chicken and brown it in a casserole with the oil. Set aside.
+      - In the same fat, fry the chopped onion, garlic and carrot for 8 minutes.
+      - Add the wine and let it bubble away. Return the chicken, add the bay leaf and water and simmer covered for 20 minutes.
+      - Add the potatoes broken into chunks and cook 20 minutes more, until tender.
+
+  - name: Flamenco eggs (huevos a la flamenca)
+    health: [YELLOW, "Eggs with vegetables and tomato; the chorizo and ham add fat and salt."]
+    nutrition: [360, 18, 22, 22]
+    photo: cocina-economica/huevos-a-la-flamenca.jpg
+    category: Eggs
+    difficulty: EASY
+    prep: 15
+    cook: 25
+    servings: 4
+    notes: Made in individual clay dishes or one large dish. Without the cured meats it is vegetarian.
+    tags: [budget, eggs, traditional, baked]
+    utensils: [Oven]
+    ingredients:
+      - items:
+          - [eggs, 8, null]
+          - [onion, 1, null]
+          - [green pepper, 1, null]
+          - [crushed tomato, 400, g]
+          - [diced boiled potato, 200, g]
+          - [peas, 100, g]
+          - [sliced chorizo, 60, g, optional]
+          - [diced serrano ham, 50, g, optional]
+          - [extra virgin olive oil, 2, tbsp]
+          - [salt, null, null]
+    steps:
+      - Preheat the oven to 200°C.
+      - Fry the chopped onion and pepper in the oil for 10 minutes. Add the tomato and cook 10 minutes. Add the peas and potato and salt.
+      - Divide the sauce among the dishes, crack two eggs into each and add the chorizo and ham.
+      - Bake 8-10 minutes, until the whites are set and the yolks still soft.
+
+  - name: Tuna empanadillas
+    health: [YELLOW, "Tuna, egg and tomato in pastry: light when baked; fried, much richer."]
+    nutrition: [320, 16, 30, 15]
+    photo: cocina-economica/empanadillas-de-atun.jpg
+    category: Starters
+    difficulty: EASY
+    prep: 20
+    cook: 20
+    servings: 4
+    notes: Makes 16 small pasties. A cheap classic for suppers and snacks.
+    tags: [budget, fish, baked]
+    utensils: [Oven]
+    ingredients:
+      - items:
+          - [drained tinned tuna, 2, can]
+          - [hard-boiled eggs, 2, null]
+          - [tomato sauce, 5, tbsp]
+          - [onion, 0.5, null]
+          - [empanadilla wrappers, 16, null]
+          - [beaten egg to glaze, 1, null]
+          - [extra virgin olive oil, 1, tbsp]
+    steps:
+      - Preheat the oven to 190°C.
+      - Soften the chopped onion in the oil and mix it with the tuna, chopped egg and tomato sauce.
+      - Fill the wrappers, seal them with a fork and place them on a lined tray.
+      - Brush with egg and bake 15-20 minutes.
+
+  - name: Baked mackerel with lemon
+    health: [GREEN, "Cheap oily fish, very rich in omega-3."]
+    nutrition: [340, 26, 18, 18]
+    photo: cocina-economica/caballa-al-horno-con-limon.jpg
+    category: Fish and seafood
+    difficulty: EASY
+    prep: 10
+    cook: 25
+    servings: 4
+    notes: Mackerel is one of the cheapest and most nutritious fish. Ask the fishmonger to clean it.
+    tags: [budget, fish, baked, gluten-free]
+    utensils: [Oven]
+    ingredients:
+      - items:
+          - [cleaned mackerel, 4, null]
+          - [potatoes, 400, g]
+          - [onion, 1, null]
+          - [lemon, 1, null]
+          - [garlic, 2, clove]
+          - [chopped parsley, 1, tbsp]
+          - [extra virgin olive oil, 3, tbsp]
+          - [salt, null, null]
+    steps:
+      - Preheat the oven to 200°C. Slice the potatoes and onion thinly, salt them, drizzle with oil and bake 15 minutes in a dish.
+      - Score the skin of the mackerel, salt them and lay them on the potatoes with lemon slices inside.
+      - Drizzle with the chopped garlic and parsley mixed with the rest of the oil.
+      - Bake 12-15 minutes, until the fish is cooked.
+
+  - name: Liver and onions
+    health: [YELLOW, "Very rich in iron and vitamins, but also in cholesterol: now and then."]
+    nutrition: [300, 28, 14, 14]
+    photo: cocina-economica/higado-encebollado.jpg
+    category: Meat
+    difficulty: EASY
+    prep: 10
+    cook: 25
+    servings: 4
+    notes: Calf's liver is one of the cheapest and most nutritious meats. Don't overcook it or it turns tough.
+    tags: [budget, traditional, gluten-free]
+    utensils: []
+    ingredients:
+      - items:
+          - [calf's liver in slices, 600, g]
+          - [onions, 3, null]
+          - [white wine, 80, ml]
+          - [extra virgin olive oil, 3, tbsp]
+          - [chopped parsley, 1, tbsp]
+          - [salt, null, null]
+    steps:
+      - Slice the onions thinly and cook them gently in the oil for 20 minutes, until golden.
+      - Cut the liver into strips, salt it and add it to the pan over high heat. Fry 2-3 minutes.
+      - Add the wine and let it bubble for 1 minute. Serve with parsley.
+
+  - name: French onion soup
+    health: [YELLOW, "Onion and stock, light; the grilled bread and cheese make it richer."]
+    nutrition: [340, 13, 38, 15]
+    category: Soups
+    difficulty: EASY
+    prep: 10
+    cook: 50
+    servings: 4
+    notes: The secret is caramelising the onion slowly. A way to use up stale bread.
+    tags: [budget, soup, winter]
+    utensils: [Oven]
+    ingredients:
+      - items:
+          - [onions, 1, kg]
+          - [butter, 30, g]
+          - [extra virgin olive oil, 1, tbsp]
+          - [plain flour, 1, tbsp]
+          - [white wine, 100, ml]
+          - [beef or vegetable stock, 1.2, l]
+          - [day-old bread, 4, slice]
+          - [grated cheese, 100, g]
+          - [salt, null, null]
+    steps:
+      - Slice the onions thinly and cook them with the butter and oil over low heat for 30-35 minutes, stirring, until caramelised.
+      - Add the flour and cook 1 minute. Add the wine and let it bubble away.
+      - Add the stock, salt and simmer 15 minutes.
+      - Ladle the soup into ovenproof bowls, top with the bread and cheese and grill until golden.
+
+  - name: Cauliflower with garlic and paprika
+    health: [GREEN, "Cauliflower with a garlic, paprika and vinegar dressing: light and tasty."]
+    nutrition: [150, 5, 10, 10]
+    category: Vegetables
+    difficulty: EASY
+    prep: 10
+    cook: 20
+    servings: 4
+    notes: A very cheap way to make everyone like cauliflower (coliflor al ajoarriero).
+    tags: [budget, vegetables, vegan, gluten-free]
+    utensils: []
+    ingredients:
+      - items:
+          - [cauliflower, 1, null]
+          - [garlic, 4, clove]
+          - [sweet paprika, 1, tsp]
+          - [wine vinegar, 1, tbsp]
+          - [extra virgin olive oil, 4, tbsp]
+          - [salt, null, null]
+    steps:
+      - Cut the cauliflower into florets and boil in salted water for 10-12 minutes, until tender. Drain.
+      - Brown the sliced garlic in the oil.
+      - Take off the heat, carefully add the paprika and vinegar and pour over the cauliflower.
+
+  - name: Broccoli and garlic pasta
+    health: [GREEN, "Pasta with vegetables and olive oil: complete and light."]
+    nutrition: [450, 16, 70, 12]
+    photo: cocina-economica/pasta-con-brocoli-y-ajo.jpg
+    category: Pasta
+    difficulty: EASY
+    prep: 10
+    cook: 15
+    servings: 4
+    notes: The broccoli cooks in the same water as the pasta. Use the peeled, diced stalk too.
+    tags: [budget, pasta, vegetarian, quick]
+    utensils: []
+    ingredients:
+      - items:
+          - [short pasta (orecchiette or macaroni), 350, g]
+          - [broccoli, 1, null]
+          - [garlic, 3, clove]
+          - [dried chilli, 1, null, optional]
+          - [grated cheese, 40, g]
+          - [extra virgin olive oil, 4, tbsp]
+          - [salt, null, null]
+    steps:
+      - Cut the broccoli into small florets and the peeled stalk into cubes.
+      - Cook the pasta in salted water and add the broccoli 5 minutes before the end.
+      - Meanwhile, brown the sliced garlic and chilli in the oil.
+      - Drain the pasta and broccoli keeping a little water, toss with the garlic oil and a splash of water and serve with the cheese.

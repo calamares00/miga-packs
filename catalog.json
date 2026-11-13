@@ -144,11 +144,11 @@
       "author": "Miga",
       "authorGithub": "calamares00",
       "description": "Cakes for breakfast and biscuits for the afternoon, homemade: orange cake, marble cake, carrot cake, lemon and poppy seed cake, apple cake and coffee cocoa cake, and oat and raisin, ginger, lemon and cinnamon biscuits, butter tea biscuits and langues de chat. With notes on keeping and freezing them.",
-      "coverImageUrl": null,
+      "coverImageUrl": "packs/biscuits-and-cakes/cover.jpg",
       "latestVersion": 1,
       "recipeCount": 12,
       "downloadUrl": "dist/biscuits-and-cakes-v1.zip",
-      "sha256": "6e1a52376e7ebee83984e6e007b75347e3733c2f8007e7b68a5830e22620ab7e",
+      "sha256": "b6e24c398ede8c9c408d07b5d8dbc9c163cfd76022c0fd9093a6e7e724fccd8c",
       "language": "en"
     },
     {
@@ -159,11 +159,11 @@
       "author": "Miga",
       "authorGithub": "calamares00",
       "description": "Complete dishes with cheap, seasonal ingredients, the home cooking of a lifetime: green beans with potatoes, battered potatoes in sauce, vegetable rice, tuna and tomato spaghetti, chicken and potato stew, Flamenco eggs, tuna empanadillas, baked mackerel, liver and onions, French onion soup, cauliflower with garlic and paprika and broccoli pasta. With money-saving tips in the notes.",
-      "coverImageUrl": null,
+      "coverImageUrl": "packs/budget-cooking/cover.jpg",
       "latestVersion": 1,
       "recipeCount": 12,
       "downloadUrl": "dist/budget-cooking-v1.zip",
-      "sha256": "3bff0842009ef4657a39c8865bea3f56a5b29e458acdf10e65ea4f56bd73ea9d",
+      "sha256": "b14bffc065f80281adab186bfaf404309dc4370efc5ce841bd26dc4da406619a",
       "language": "en"
     },
     {
@@ -309,11 +309,11 @@
       "author": "Miga",
       "authorGithub": "calamares00",
       "description": "Recetas para no tirar nada: lo que sobra del cocido, el pollo asado de ayer, el pan duro, el pescado de la cena, las verduras que se ablandan y la fruta demasiado madura. Ropa vieja, croquetas de cocido, lasaña de pollo asado, canelones de carne asada, empanadillas, pastel de puré y carne, huevos al horno con verduras, pastel de pescado, batido y mermelada de fruta madura, caldo de pieles de verdura y picatostes.",
-      "coverImageUrl": null,
+      "coverImageUrl": "packs/cocina-de-aprovechamiento/cover.jpg",
       "latestVersion": 1,
       "recipeCount": 12,
       "downloadUrl": "dist/cocina-de-aprovechamiento-v1.zip",
-      "sha256": "810a23d9cd4cd0e3082400f12b18d6be9e143d633ba79a4bfa628c577c699820",
+      "sha256": "270cb0f3abe81e8310440c56d8f665df309477da0f95533e3beb806b8510b6d8",
       "language": "es"
     },
     {
@@ -324,11 +324,11 @@
       "author": "Miga",
       "authorGithub": "calamares00",
       "description": "Platos completos con ingredientes baratos y de temporada, de los de toda la vida: judías verdes con patatas, patatas a la importancia, arroz con verduras, espaguetis con atún, pollo guisado con patatas, huevos a la flamenca, empanadillas de atún, caballa al horno, hígado encebollado, sopa de cebolla, coliflor al ajoarriero y pasta con brócoli. Con trucos para abaratar en las notas.",
-      "coverImageUrl": null,
+      "coverImageUrl": "packs/cocina-economica/cover.jpg",
       "latestVersion": 1,
       "recipeCount": 12,
       "downloadUrl": "dist/cocina-economica-v1.zip",
-      "sha256": "bfa104caadf75319e2ccf0e8f468ccd8658477101738bdaa9bcb57d21930a293",
+      "sha256": "768ae62245107155648d63a4855a8356c292581afddfee3b11897ae35df31515",
       "language": "es"
     },
     {
@@ -609,11 +609,11 @@
       "author": "Miga",
       "authorGithub": "calamares00",
       "description": "Dishes with five ingredients or fewer (not counting salt, pepper, oil or water), for when the fridge is nearly empty or you can't be bothered: poor man's potatoes with egg, baked salmon with lemon, beetroot hummus, baked prawns, ham and cheese stuffed chicken, spaghetti al pomodoro, scrambled eggs with prawns and green garlic, Galician-style hake, Brazilian cheese bread and, for dessert, banana and cocoa ice cream, peanut butter cookies and strawberries and cream.",
-      "coverImageUrl": null,
+      "coverImageUrl": "packs/five-ingredient-recipes/cover.jpg",
       "latestVersion": 1,
       "recipeCount": 12,
       "downloadUrl": "dist/five-ingredient-recipes-v1.zip",
-      "sha256": "afe29e6924ffdda6b0e8535eadee0fa49e2bd3e66635d9960848892a04023368",
+      "sha256": "3d3f8611a9bd2f03089bad5414579e10b49d61e6af58adeb8888d1bb3cdabee9",
       "language": "en"
     },
     {
@@ -819,11 +819,11 @@
       "author": "Miga",
       "authorGithub": "calamares00",
       "description": "Bizcochos para el desayuno y galletas para la merienda, de los de casa: bizcocho de naranja, marmolado, de zanahoria, de limón y amapola, de manzana y de cacao y café, y galletas de avena y pasas, de jengibre, de limón y de canela, pastas de té y lenguas de gato. Con notas para conservarlos y congelarlos.",
-      "coverImageUrl": null,
+      "coverImageUrl": "packs/galletas-y-bizcochos/cover.jpg",
       "latestVersion": 1,
       "recipeCount": 12,
       "downloadUrl": "dist/galletas-y-bizcochos-v1.zip",
-      "sha256": "160bdfe075e8524103273089155bde39098e18fea869e7e1094629206dfdaaa6",
+      "sha256": "968128b60710465b210d4470866076621bf756ab23df9c40d1f9c5470c8c0e9c",
       "language": "es"
     },
     {
@@ -969,11 +969,11 @@
       "author": "Miga",
       "authorGithub": "calamares00",
       "description": "Cenas completas hechas en una sola bandeja de horno: preparas, metes y te olvidas, y solo hay que fregar una cosa. Pollo a la mostaza con verduras, salmón con patatas y espárragos, salchichas con verduras, fajitas de pollo, ñoquis con tomates cherry, chuletas de cerdo con patatas, pavo con boniato, coliflor asada entera, merluza con patatas panaderas, pizza de bandeja, verduras con halloumi y pollo con chorizo y garbanzos.",
-      "coverImageUrl": null,
+      "coverImageUrl": "packs/horno-en-una-bandeja/cover.jpg",
       "latestVersion": 1,
       "recipeCount": 12,
       "downloadUrl": "dist/horno-en-una-bandeja-v1.zip",
-      "sha256": "fb5aa2c65c57f844dd7b64bae55f22c8b2b59712cc961b63481ecca72cd82d46",
+      "sha256": "92c7610fd8f13e1ce6d04146d1144d547fb881c4aa70eb66038f4de8ebb1379c",
       "language": "es"
     },
     {
@@ -1134,11 +1134,11 @@
       "author": "Miga",
       "authorGithub": "calamares00",
       "description": "Recipes so nothing goes to waste: what is left of a Spanish stew, yesterday's roast chicken, stale bread, fish from dinner, vegetables going soft and fruit that is too ripe. Ropa vieja, stew croquettes, roast chicken lasagne, roast meat cannelloni, empanadillas, mash and roast meat pie, baked eggs with leftover vegetables, fish loaf, ripe fruit smoothie and jam, vegetable peel stock and croutons.",
-      "coverImageUrl": null,
+      "coverImageUrl": "packs/leftovers-cooking/cover.jpg",
       "latestVersion": 1,
       "recipeCount": 12,
       "downloadUrl": "dist/leftovers-cooking-v1.zip",
-      "sha256": "1c75fe93efc70960e4ce3e4e971b48501f0803d13962aa284c612d89f0cc0d1c",
+      "sha256": "7b68244c375b82d3501c1543d20ce5cd997a3a17f1a177554929b198bf1d7e28",
       "language": "en"
     },
     {
@@ -1194,11 +1194,11 @@
       "author": "Miga",
       "authorGithub": "calamares00",
       "description": "El microondas sirve para mucho más que calentar: bizcocho en taza, huevos al plato, salmón y bacalao con verduras, flan de queso, risotto, brócoli con almendras, pollo al limón, berenjenas rellenas, mermelada exprés, natillas de chocolate y almendras garrapiñadas. Tiempos para un microondas de 800 W: con más potencia, acórtalos; con menos, alárgalos. Usa recipientes aptos y tapa con una tapa de microondas o film perforado.",
-      "coverImageUrl": null,
+      "coverImageUrl": "packs/microondas/cover.jpg",
       "latestVersion": 1,
       "recipeCount": 12,
       "downloadUrl": "dist/microondas-v1.zip",
-      "sha256": "59516e9f0ca079795d0cb4e7b5cbfc4929278311d5f09f966075a769f796cb3d",
+      "sha256": "fe4fcc1911fcfc4695b1ed3bddd0290720709c26c0d701cab5995c9f9f4a11c0",
       "language": "es"
     },
     {
@@ -1209,11 +1209,11 @@
       "author": "Miga",
       "authorGithub": "calamares00",
       "description": "The microwave is good for much more than reheating: mug cake, baked eggs with ham, salmon and cod with vegetables, cheese flan, risotto, broccoli with almonds, lemon chicken, stuffed aubergines, express berry jam, chocolate custard and candied almonds. Times for an 800 W microwave: shorten them with more power, lengthen them with less. Use microwave-safe dishes and cover with a microwave lid or vented cling film.",
-      "coverImageUrl": null,
+      "coverImageUrl": "packs/microwave/cover.jpg",
       "latestVersion": 1,
       "recipeCount": 12,
       "downloadUrl": "dist/microwave-v1.zip",
-      "sha256": "cdab80118de37c88a669687e30f94167f9df6b01028ccb944f49d2bb87991118",
+      "sha256": "e96db6f46284e68aff7510bac1d3330e35f63b1893284d6fc4ae0859cc18121f",
       "language": "en"
     },
     {
@@ -1224,11 +1224,11 @@
       "author": "Miga",
       "authorGithub": "calamares00",
       "description": "Desserts made in the fridge or a saucepan, without turning on the oven: no-bake cheesecake, triple chocolate cake, lemon icebox pie, lemon mousse, tocino de cielo, yoghurt and berry pots, date and cocoa balls, cereal bars, chocolate hazelnut spread, strawberry fridge cake, mango and yoghurt pots and pears in red wine. Most are made the day before.",
-      "coverImageUrl": null,
+      "coverImageUrl": "packs/no-bake-desserts/cover.jpg",
       "latestVersion": 1,
       "recipeCount": 12,
       "downloadUrl": "dist/no-bake-desserts-v1.zip",
-      "sha256": "59dfba87303307ac4d0f646fa57185f2f7f687a267cb453648ee259fb06a0204",
+      "sha256": "4c2843ee8f4f4e04bf09ca316b8679873c8c18adc39fcb3058f2583de7b08b14",
       "language": "en"
     },
     {
@@ -1239,11 +1239,11 @@
       "author": "Miga",
       "authorGithub": "calamares00",
       "description": "Guisos largos en la mitad o un tercio del tiempo con la olla a presión: callos a la madrileña, estofado de ternera, codillo, lengua en salsa, manitas de cerdo, pollo a la cerveza, carne mechada, fabes con almejas, alubias pintas con chorizo, patatas con sepia, arroz caldoso con pollo y conejo al ajillo. Los tiempos son desde que la olla alcanza la presión (segundo anillo o presión alta). No llenes la olla más de dos tercios, y con legumbres, no más de la mitad.",
-      "coverImageUrl": null,
+      "coverImageUrl": "packs/olla-expres/cover.jpg",
       "latestVersion": 1,
       "recipeCount": 12,
       "downloadUrl": "dist/olla-expres-v1.zip",
-      "sha256": "9c5e38ba19828a800825e4df3a621c9c1985bf6fb309ef848e559d5003413b34",
+      "sha256": "9dd7cf609984bb623fa2a2cec448a3d0b02d54101364d65f0569ab96db124f09",
       "language": "es"
     },
     {
@@ -1314,11 +1314,11 @@
       "author": "Miga",
       "authorGithub": "calamares00",
       "description": "Long stews in half or a third of the time with the pressure cooker: Madrid-style tripe, beef and potato stew, pork knuckle, ox tongue in sauce, pig's trotters, chicken in beer, larded beef, Asturian beans with clams, pinto beans with chorizo, cuttlefish with potatoes, soupy chicken rice and garlic rabbit. Times are counted from when the cooker reaches pressure (second ring or high pressure). Never fill it more than two-thirds full, or half full with pulses.",
-      "coverImageUrl": null,
+      "coverImageUrl": "packs/pressure-cooker/cover.jpg",
       "latestVersion": 1,
       "recipeCount": 12,
       "downloadUrl": "dist/pressure-cooker-v1.zip",
-      "sha256": "642b3c75590f23c76bdf41ce57c8cc03bd36b6618351f4ccb1979bd538875578",
+      "sha256": "0992719b81f92a80484740f6adba46f993937244dfcc38d0d057ce5191297ada",
       "language": "en"
     },
     {
@@ -1329,11 +1329,11 @@
       "author": "Miga",
       "authorGithub": "calamares00",
       "description": "Platos con cinco ingredientes o menos (sin contar sal, pimienta, aceite ni agua), para cuando la nevera está casi vacía o no hay ganas de complicarse: patatas a lo pobre con huevo, salmón al horno con limón, hummus de remolacha, langostinos al horno, pollo relleno de jamón y queso, espaguetis al pomodoro, revuelto de gambas y ajetes, merluza a la gallega, pan de queso y, de postre, helado de plátano y cacao, galletas de crema de cacahuete y fresas con nata.",
-      "coverImageUrl": null,
+      "coverImageUrl": "packs/recetas-con-5-ingredientes/cover.jpg",
       "latestVersion": 1,
       "recipeCount": 12,
       "downloadUrl": "dist/recetas-con-5-ingredientes-v1.zip",
-      "sha256": "28c08324e972619d4134b29449a52d8cb6b95814afcad46688a95dc30a803218",
+      "sha256": "1fab741b6c5414d78a2b82788dc7f8ab09a01974e5232ff3750ffdf9c5836eb8",
       "language": "es"
     },
     {
@@ -1344,11 +1344,11 @@
       "author": "Miga",
       "authorGithub": "calamares00",
       "description": "Postres que se hacen en la nevera o en un cazo, sin encender el horno: tarta de queso fría, tarta de tres chocolates, tarta de limón, mousse de limón, tocino de cielo, copas de yogur con frutos rojos, bolitas de dátiles y cacao, barritas de cereales, crema de cacao y avellanas, tarta de fresas, vasitos de mango y yogur y peras al vino. Casi todos se preparan el día antes.",
-      "coverImageUrl": null,
+      "coverImageUrl": "packs/reposteria-sin-horno/cover.jpg",
       "latestVersion": 1,
       "recipeCount": 12,
       "downloadUrl": "dist/reposteria-sin-horno-v1.zip",
-      "sha256": "536845870a24fce21a4a273ade114e6ac0b36fb6068bc06b424e775ca5d56940",
+      "sha256": "c9742f1025dc802657450b15f9f95889f6934caee0e1166afcf95d446287b820",
       "language": "es"
     },
     {
@@ -1479,11 +1479,11 @@
       "author": "Miga",
       "authorGithub": "calamares00",
       "description": "Las recetas de la Cuaresma y la Semana Santa en España: dulces de sartén como pestiños, buñuelos de viento, flores fritas y bartolillos, la mona de Pascua y el hornazo, y los platos de vigilia con bacalao (a la vizcaína, soldaditos de Pavía, buñuelos, tortilla, patatas con bacalao y empanada de bacalao con pasas). Las torrijas y el potaje de vigilia ya están en otros packs.",
-      "coverImageUrl": null,
+      "coverImageUrl": "packs/semana-santa/cover.jpg",
       "latestVersion": 1,
       "recipeCount": 12,
       "downloadUrl": "dist/semana-santa-v1.zip",
-      "sha256": "bf23655e1ada939555ea2114a7ff21790f983399193790e546ee8ff133cf4e29",
+      "sha256": "fb42877d37b122cff217da4c1a70312990d6766fb17379717ae37e8750b12394",
       "language": "es"
     },
     {
@@ -1494,11 +1494,11 @@
       "author": "Miga",
       "authorGithub": "calamares00",
       "description": "Complete dinners made on a single oven tray: prepare, put it in and forget it, with only one thing to wash up. Mustard chicken with vegetables, salmon with potatoes and asparagus, sausages with vegetables, chicken fajitas, gnocchi with cherry tomatoes, pork chops with potatoes, turkey with sweet potato, whole roast cauliflower, hake with boulangère potatoes, tray pizza, vegetables with halloumi and chicken with chorizo and chickpeas.",
-      "coverImageUrl": null,
+      "coverImageUrl": "packs/sheet-pan-dinners/cover.jpg",
       "latestVersion": 1,
       "recipeCount": 12,
       "downloadUrl": "dist/sheet-pan-dinners-v1.zip",
-      "sha256": "c61fb560dc3bac6d4d0968c2f51f16a3fdb555afcef8675d08241b096bd77722",
+      "sha256": "ab416e16565d21cab8cbe3e3c956684b1c172839909518664a545ba6fbff7cd8",
       "language": "en"
     },
     {
@@ -1524,11 +1524,11 @@
       "author": "Miga",
       "authorGithub": "calamares00",
       "description": "The recipes of Lent and Holy Week in Spain: fried sweets such as pestiños, cream puffs, rosette fritters and bartolillos, the Easter mona cake and the hornazo, and the Lenten salt cod dishes (Biscay-style, soldaditos de Pavía, fritters, omelette, potatoes with cod and cod and raisin empanada). Torrijas and the Lenten chickpea stew are already in other packs.",
-      "coverImageUrl": null,
+      "coverImageUrl": "packs/spanish-holy-week/cover.jpg",
       "latestVersion": 1,
       "recipeCount": 12,
       "downloadUrl": "dist/spanish-holy-week-v1.zip",
-      "sha256": "ea6fcb7ade223b510eb71f152c61f4500bb1096142fbb370ee335e5c9e1f9af7",
+      "sha256": "c340f6dcd995f930a0c906ce43bef7d6c0a5aca512cb02e40e2176dc1eddbe94",
       "language": "en"
     },
     {

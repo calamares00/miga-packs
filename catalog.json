@@ -302,6 +302,21 @@
       "language": "es"
     },
     {
+      "id": "cocina-coreana",
+      "name": "Cocina del mundo: Corea",
+      "series": "Cocina del mundo",
+      "family": "cocina-coreana",
+      "author": "Miga",
+      "authorGithub": "calamares00",
+      "description": "La cocina de Corea, picante, fermentada y para compartir: bibimbap, bulgogi, kimchi casero, japchae, kimbap, tteokbokki, guisos de kimchi y de tofu sedoso, samgyetang, pajeon de marisco, arroz frito con kimchi, dakgalbi, pollo frito coreano, galbi jjim, bossam, guarniciones (banchan) como la tortilla enrollada, los brotes de soja y el pepino aliñados y, de postre, hotteok y patbingsu. El gochujang y el gochugaru se encuentran en tiendas asiáticas.",
+      "coverImageUrl": "packs/cocina-coreana/cover.jpg",
+      "latestVersion": 1,
+      "recipeCount": 20,
+      "downloadUrl": "dist/cocina-coreana-v1.zip",
+      "sha256": "410fdf804c45fd248f59d77197c4b5d8811545ca18051594954ee6bfc5ce2659",
+      "language": "es"
+    },
+    {
       "id": "cocina-de-aprovechamiento",
       "name": "Cocina de aprovechamiento",
       "series": "Cocina de cada día",
@@ -1214,6 +1229,21 @@
       "recipeCount": 8,
       "downloadUrl": "dist/korean-chinese-fusion-v1.zip",
       "sha256": "bf060821be17ccceef9377904b153d842a867c241defff06339928f73ebf3121",
+      "language": "en"
+    },
+    {
+      "id": "korean-cooking",
+      "name": "World cuisine: Korea",
+      "series": "World cuisine",
+      "family": "cocina-coreana",
+      "author": "Miga",
+      "authorGithub": "calamares00",
+      "description": "The cooking of Korea, spicy, fermented and made for sharing: bibimbap, bulgogi, homemade kimchi, japchae, kimbap, tteokbokki, kimchi and soft tofu stews, samgyetang, seafood pajeon, kimchi fried rice, dakgalbi, Korean fried chicken, galbi jjim, bossam, side dishes (banchan) such as rolled omelette, seasoned bean sprouts and cucumber salad and, for dessert, hotteok and patbingsu. Gochujang and gochugaru are sold in Asian shops.",
+      "coverImageUrl": "packs/korean-cooking/cover.jpg",
+      "latestVersion": 1,
+      "recipeCount": 20,
+      "downloadUrl": "dist/korean-cooking-v1.zip",
+      "sha256": "d1207c1c93f32334c586872d76693655ff4c28dd70d03f6c475668ce08ad33cb",
       "language": "en"
     },
     {

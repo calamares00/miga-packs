@@ -99,6 +99,8 @@ Cada pack está en español y en inglés; la app muestra los del idioma en que l
 | 🫖 [World cuisine: Morocco](packs/moroccan-cooking/pack.yaml) | World cuisine | en | 20 | [moroccan-cooking-v1.zip](dist/moroccan-cooking-v1.zip) |
 | 🧆 [Cocina del mundo: Turquía](packs/cocina-turca/pack.yaml) | Cocina del mundo | es | 20 | [cocina-turca-v1.zip](dist/cocina-turca-v1.zip) |
 | 🧆 [World cuisine: Turkey](packs/turkish-cooking/pack.yaml) | World cuisine | en | 20 | [turkish-cooking-v1.zip](dist/turkish-cooking-v1.zip) |
+| 🥬 [Cocina del mundo: Corea](packs/cocina-coreana/pack.yaml) | Cocina del mundo | es | 20 | [cocina-coreana-v1.zip](dist/cocina-coreana-v1.zip) |
+| 🥬 [World cuisine: Korea](packs/korean-cooking/pack.yaml) | World cuisine | en | 20 | [korean-cooking-v1.zip](dist/korean-cooking-v1.zip) |
 | 🫖 [Cocina fusión: anglo-india](packs/fusion-anglo-india/pack.yaml) | Cocina fusión | es | 8 | [fusion-anglo-india-v1.zip](dist/fusion-anglo-india-v1.zip) |
 | 🫖 [Fusion cuisine: Anglo-Indian](packs/anglo-indian-fusion/pack.yaml) | Fusion cuisine | en | 8 | [anglo-indian-fusion-v1.zip](dist/anglo-indian-fusion-v1.zip) |
 | 🥢 [Cocina fusión: chifa](packs/fusion-chifa/pack.yaml) | Cocina fusión | es | 8 | [fusion-chifa-v1.zip](dist/fusion-chifa-v1.zip) |

@@ -1,0 +1,656 @@
+id: korean-cooking
+version: 1
+updated: 2026-11-14
+language: en
+name: "World cuisine: Korea"
+series: World cuisine
+family: cocina-coreana
+description: >-
+  The cooking of Korea, spicy, fermented and made for sharing: bibimbap, bulgogi, homemade kimchi,
+  japchae, kimbap, tteokbokki, kimchi and soft tofu stews, samgyetang, seafood pajeon, kimchi fried
+  rice, dakgalbi, Korean fried chicken, galbi jjim, bossam, side dishes (banchan) such as rolled
+  omelette, seasoned bean sprouts and cucumber salad and, for dessert, hotteok and patbingsu.
+  Gochujang and gochugaru are sold in Asian shops.
+author: Miga
+authorGithub: calamares00
+cover:
+  emoji: "🥬"
+  kicker: World cuisine
+  title: Korea
+  colors: ["#be123c", "#1e3a8a"]
+defaults:
+  origin: South Korea
+  originCountry: KR
+  source: "Miga «World cuisine: Korea» pack"
+recipes:
+
+  - name: Bibimbap
+    health: [GREEN, "Rice with lots of vegetables, meat and egg: a complete, balanced dish."]
+    nutrition: [580, 28, 76, 18]
+    photo: cocina-coreana/bibimbap.jpg
+    category: Rice
+    difficulty: MEDIUM
+    prep: 30
+    cook: 25
+    servings: 4
+    notes: '"Mixed rice". Each vegetable is prepared separately and everything is mixed at the table with the sauce. In a hot stone bowl (dolsot) the rice forms a crust.'
+    tags: [rice, vegetables, one-pot]
+    utensils: []
+    ingredients:
+      - group: For the base
+        items:
+          - [short-grain rice, 400, g]
+          - [minced or thinly sliced beef, 250, g]
+          - [soy sauce, 2, tbsp]
+          - [spinach, 200, g]
+          - [bean sprouts, 200, g]
+          - [carrots, 2, null]
+          - [courgette, 1, null]
+          - [shiitake mushrooms, 150, g]
+          - [eggs, 4, null]
+          - [sesame oil, 3, tbsp]
+          - [garlic cloves, 2, null]
+          - [sesame seeds, 1, tbsp]
+          - [salt, null, null]
+      - group: For the sauce
+        items:
+          - [gochujang (Korean chilli paste), 3, tbsp]
+          - [sesame oil for the sauce, 1, tbsp]
+          - [sugar, 1, tbsp]
+          - [rice vinegar, 1, tbsp]
+          - [water, 1, tbsp]
+    steps:
+      - Cook the rice. Marinate the beef with the soy sauce, a chopped garlic clove and a little sesame oil.
+      - Blanch the spinach and bean sprouts separately for 1 minute, drain and dress with sesame oil, garlic and salt.
+      - Stir-fry the carrot and courgette strips and the sliced mushrooms separately with a pinch of salt. Stir-fry the beef.
+      - Mix the sauce ingredients. Fry the eggs with runny yolks.
+      - Serve the rice in bowls with the vegetables and beef in little heaps on top, the egg in the centre and the sesame, with the sauce on the side. Mix everything before eating.
+
+  - name: Bulgogi
+    health: [YELLOW, "Marinated griddled beef: lots of protein, slightly sweet marinade."]
+    nutrition: [380, 32, 14, 21]
+    photo: cocina-coreana/bulgogi.jpg
+    category: Meat
+    difficulty: EASY
+    prep: 15
+    cook: 10
+    servings: 4
+    notes: The grated pear tenderises the meat. Ask the butcher to slice it very thinly, or freeze it for 30 minutes and slice it yourself.
+    tags: [beef, barbecue]
+    utensils: [Griddle]
+    ingredients:
+      - items:
+          - [very thinly sliced sirloin or chuck, 600, g]
+          - [pear, 0.5, null]
+          - [onion, 1, null]
+          - [spring onions, 3, null]
+          - [garlic cloves, 4, null]
+          - [soy sauce, 5, tbsp]
+          - [brown sugar, 2, tbsp]
+          - [sesame oil, 2, tbsp]
+          - [sesame seeds, 1, tbsp]
+          - [black pepper, 0.5, tsp]
+    steps:
+      - Grate the pear, half the onion and the garlic and mix with the soy sauce, sugar, sesame oil and pepper.
+      - Marinate the beef in the mixture with the rest of the onion, sliced, for at least 1 hour.
+      - Cook on a very hot griddle or frying pan in batches for 3-4 minutes, until browned.
+      - Serve with chopped spring onions and sesame, with rice and lettuce leaves for wrapping.
+
+  - name: Kimchi
+    health: [GREEN, "Fermented spiced cabbage: fibre and probiotics, but quite salty."]
+    nutrition: [35, 2, 6, 0]
+    photo: cocina-coreana/kimchi.jpg
+    category: Vegetables
+    difficulty: MEDIUM
+    prep: 60
+    cook: 0
+    servings: 20
+    notes: Baechu kimchi, the side dish at every meal. It ferments for 1-2 days at room temperature and then keeps in the fridge for weeks, getting sourer over time. Wear gloves to mix.
+    tags: [fermented, preserves, gluten-free]
+    utensils: []
+    ingredients:
+      - items:
+          - [napa cabbage, 1.5, kg]
+          - [coarse salt, 100, g]
+          - [gochugaru (Korean chilli flakes), 50, g]
+          - [fish sauce, 3, tbsp]
+          - [garlic cloves, 6, null]
+          - [fresh ginger, 1, piece]
+          - [sugar, 1, tbsp]
+          - [glutinous rice flour, 1, tbsp]
+          - [water, 150, ml]
+          - [white radish (daikon), 200, g]
+          - [spring onions, 4, null]
+    steps:
+      - Quarter the cabbage lengthways, salt well between the leaves and leave for 2 hours, turning halfway. Rinse 3 times and drain well.
+      - Cook the rice flour with the water for 2 minutes until thick and leave to cool.
+      - Mix the paste with the gochugaru, fish sauce, grated garlic and ginger, sugar, radish strips and spring onion pieces.
+      - Spread the paste over each cabbage leaf, fold the quarters and press them into a glass jar with no air pockets, leaving 3 cm at the top.
+      - Leave to ferment for 1-2 days at room temperature, pressing down daily, then keep in the fridge.
+
+  - name: Japchae
+    health: [YELLOW, "Sweet potato noodles with vegetables and beef: complete, a little oily from the sesame."]
+    nutrition: [420, 16, 62, 13]
+    photo: cocina-coreana/japchae.jpg
+    category: Pasta
+    difficulty: MEDIUM
+    prep: 30
+    cook: 20
+    servings: 4
+    notes: Sweet potato starch noodles (dangmyeon) turn clear and springy. Eaten warm or cold, it is a party dish.
+    tags: [noodles, vegetables, celebration, gluten-free]
+    utensils: [Wok]
+    ingredients:
+      - items:
+          - [sweet potato noodles (dangmyeon), 250, g]
+          - [thin beef steaks, 200, g]
+          - [spinach, 200, g]
+          - [carrot, 1, null]
+          - [onion, 1, null]
+          - [red pepper, 1, null]
+          - [shiitake mushrooms, 150, g]
+          - [garlic cloves, 3, null]
+          - [gluten-free soy sauce, 5, tbsp]
+          - [sugar, 2, tbsp]
+          - [sesame oil, 3, tbsp]
+          - [sunflower oil, 2, tbsp]
+          - [sesame seeds, 1, tbsp]
+    steps:
+      - Boil the noodles for 6 minutes, drain, cut into long pieces with scissors and dress with 1 tbsp soy sauce and 1 of sesame oil.
+      - Blanch the spinach for 30 seconds, drain and dress with salt and sesame oil.
+      - Cut the beef, vegetables and mushrooms into strips and stir-fry them separately in the wok with a little oil.
+      - Toss the noodles with everything, the chopped garlic, the rest of the soy sauce, the sugar and sesame oil and stir-fry for 2 minutes. Sprinkle with sesame.
+
+  - name: Kimbap
+    health: [GREEN, "Rice rolls with vegetables, egg and seaweed: balanced and light."]
+    nutrition: [430, 15, 70, 10]
+    photo: cocina-coreana/kimbap.jpg
+    category: Rice
+    difficulty: MEDIUM
+    prep: 40
+    cook: 25
+    servings: 4
+    notes: The picnic rice rolls. Unlike sushi, the rice is seasoned with sesame and salt, not vinegar. You need a bamboo mat.
+    tags: [rice, picnic]
+    utensils: []
+    ingredients:
+      - items:
+          - [short-grain rice, 400, g]
+          - [nori sheets, 5, null]
+          - [eggs, 3, null]
+          - [carrot, 1, null]
+          - [spinach, 200, g]
+          - [yellow pickled radish (danmuji), 5, strip]
+          - [crab sticks or ham strips, 5, null]
+          - [sesame oil, 3, tbsp]
+          - [sesame seeds, 1, tbsp]
+          - [salt, null, null]
+    steps:
+      - Cook the rice and season it while warm with 2 tbsp sesame oil and 1 tsp salt.
+      - Make a thin omelette with the eggs and cut it into strips. Stir-fry the carrot in fine strips. Blanch the spinach and dress it with salt and sesame.
+      - Lay a nori sheet on the mat, spread a thin layer of rice leaving 3 cm free at the top and line up the fillings.
+      - Roll up tightly with the mat and seal with a few grains of rice.
+      - Brush the rolls with sesame oil, sprinkle with sesame and slice with a wet knife.
+
+  - name: Tteokbokki
+    health: [YELLOW, "Rice cakes in spicy sauce: lots of carbohydrates and sugar."]
+    nutrition: [420, 12, 82, 5]
+    photo: cocina-coreana/tteokbokki.jpg
+    category: Pasta
+    difficulty: EASY
+    prep: 10
+    cook: 20
+    servings: 4
+    notes: Korea's favourite street food. Rice cakes (tteok) are sold fresh or frozen in Asian shops.
+    tags: [spicy, street food]
+    utensils: []
+    ingredients:
+      - items:
+          - [cylinder rice cakes (garae-tteok), 500, g]
+          - [fish cake sheets (eomuk), 2, null, optional]
+          - [anchovy stock or water, 500, ml]
+          - [gochujang, 3, tbsp]
+          - [gochugaru, 1, tbsp]
+          - [soy sauce, 1, tbsp]
+          - [sugar, 2, tbsp]
+          - [garlic cloves, 2, null]
+          - [spring onions, 3, null]
+          - [hard-boiled eggs, 2, null]
+    steps:
+      - If the rice cakes are hard, soak them in warm water for 20 minutes.
+      - Bring the stock to the boil with the gochujang, gochugaru, soy sauce, sugar and chopped garlic.
+      - Add the rice cakes and the fish cake in triangles and simmer over medium heat for 10-12 minutes, stirring, until the sauce is thick and glossy.
+      - Add the spring onions in pieces and the halved eggs and serve at once.
+
+  - name: Kimchi jjigae
+    health: [GREEN, "Kimchi stew with tofu and pork: protein and probiotics, a little salty."]
+    nutrition: [340, 24, 14, 21]
+    photo: cocina-coreana/kimchi-jjigae.jpg
+    category: Soups
+    difficulty: EASY
+    prep: 10
+    cook: 30
+    servings: 4
+    notes: Best with well-fermented, sour kimchi. Served bubbling hot, with white rice.
+    tags: [soup, spicy, fermented, gluten-free]
+    utensils: []
+    ingredients:
+      - items:
+          - [ripe kimchi, 400, g]
+          - [kimchi juice, 100, ml]
+          - [sliced pork belly, 200, g]
+          - [firm tofu, 300, g]
+          - [onion, 1, null]
+          - [gochugaru, 1, tbsp]
+          - [garlic cloves, 2, null]
+          - [anchovy stock or water, 600, ml]
+          - [spring onions, 2, null]
+          - [sesame oil, 1, tbsp]
+    steps:
+      - Stir-fry the pork in pieces with the sesame oil for 3 minutes. Add the chopped kimchi and stir-fry 5 minutes more.
+      - Add the sliced onion, garlic, gochugaru, kimchi juice and stock and simmer for 15 minutes.
+      - Add the cubed tofu and simmer 5 minutes more. Finish with chopped spring onion.
+
+  - name: Sundubu jjigae
+    health: [GREEN, "Silken tofu stew with seafood: lots of protein and little fat."]
+    nutrition: [260, 22, 10, 14]
+    photo: cocina-coreana/sundubu-jjigae.jpg
+    category: Soups
+    difficulty: EASY
+    prep: 10
+    cook: 20
+    servings: 2
+    notes: The silken tofu (sundubu) is broken into the broth by the spoonful. The raw egg goes in at the end and sets in the heat of the stew.
+    tags: [soup, spicy, tofu, seafood]
+    utensils: []
+    ingredients:
+      - items:
+          - [silken tofu, 350, g]
+          - [clams or prawns, 150, g]
+          - [small onion, 1, null]
+          - [small courgette, 0.5, null]
+          - [gochugaru, 1.5, tbsp]
+          - [garlic cloves, 2, null]
+          - [soy sauce, 1, tbsp]
+          - [sesame oil, 1, tbsp]
+          - [anchovy stock or water, 400, ml]
+          - [eggs, 2, null]
+          - [spring onion, 1, null]
+    steps:
+      - Fry the gochugaru with the garlic and sesame oil over low heat for 1 minute, until the oil turns red.
+      - Add the diced onion and courgette and the stock and simmer for 5 minutes.
+      - Add the seafood and the tofu in large spoonfuls and simmer for 5 minutes. Season with the soy sauce.
+      - Crack the eggs on top, add the spring onion and serve bubbling.
+
+  - name: Samgyetang
+    health: [GREEN, "Chicken broth with rice, garlic and ginseng: protein and little fat."]
+    nutrition: [520, 48, 40, 18]
+    photo: cocina-coreana/samgyetang.jpg
+    category: Soups
+    difficulty: MEDIUM
+    prep: 20
+    cook: 75
+    servings: 2
+    notes: Eaten on the hottest summer days to restore strength. Made with poussins, one per person; the ginseng is optional.
+    tags: [soup, chicken, gluten-free]
+    utensils: [Pressure cooker]
+    ingredients:
+      - items:
+          - [poussins (500 g chickens), 2, null]
+          - [glutinous rice soaked for 1 hour, 80, g]
+          - [garlic cloves, 10, null]
+          - [dried jujubes (Chinese dates), 4, null]
+          - [fresh ginseng roots, 2, null, optional]
+          - [fresh ginger, 1, piece]
+          - [spring onions, 2, null]
+          - [salt and pepper to serve, null, null]
+    steps:
+      - Rinse the poussins inside and stuff each with rice, 3 garlic cloves and 1 jujube. Cross the legs and tie them.
+      - Place in a pot with the remaining garlic and jujubes, the ginseng, the ginger and water to cover.
+      - Simmer gently for 1 hour (20 minutes in a pressure cooker), skimming, until the meat comes off the bone.
+      - Serve each poussin in a bowl with its broth, chopped spring onion and salt and pepper for everyone to season.
+
+  - name: Seafood pajeon
+    health: [YELLOW, "Fried spring onion and seafood pancake: protein, but fried in oil."]
+    nutrition: [380, 18, 44, 14]
+    photo: cocina-coreana/pajeon-de-marisco.jpg
+    category: Starters
+    difficulty: EASY
+    prep: 15
+    cook: 20
+    servings: 4
+    notes: Haemul pajeon is the rainy-day dish, with makgeolli. The dipping sauce is soy sauce with vinegar.
+    tags: [seafood, appetizer]
+    utensils: []
+    ingredients:
+      - group: For the pancake
+        items:
+          - [plain flour, 150, g]
+          - [rice flour or potato starch, 2, tbsp]
+          - [ice-cold water, 250, ml]
+          - [egg, 1, null]
+          - [bunch of spring onions, 1, null]
+          - ["mixed seafood (prawns, squid, mussels)", 250, g]
+          - [red chilli, 1, null, optional]
+          - [sunflower oil for frying, 6, tbsp]
+          - [salt, 0.5, tsp]
+      - group: For the sauce
+        items:
+          - [soy sauce, 3, tbsp]
+          - [rice vinegar, 1, tbsp]
+          - [gochugaru for the sauce, 1, tsp]
+          - [sesame seeds, 1, tsp]
+    steps:
+      - Mix the flours, salt, water and egg into a light, smooth batter.
+      - Heat 3 tbsp oil in a large frying pan and lay half the whole spring onions side by side.
+      - Scatter half the chopped seafood and the chilli and cover with half the batter.
+      - Fry for 4-5 minutes per side, pressing down, until crisp. Repeat with the rest.
+      - Mix the sauce ingredients and serve the pancake cut into squares.
+
+  - name: Kimchi fried rice
+    health: [YELLOW, "Rice stir-fried with kimchi and egg: complete, with some fat."]
+    nutrition: [480, 16, 64, 17]
+    photo: cocina-coreana/arroz-frito-con-kimchi.jpg
+    category: Rice
+    difficulty: EASY
+    prep: 10
+    cook: 15
+    servings: 2
+    notes: Kimchi bokkeumbap uses up yesterday's rice and kimchi that has turned too sour.
+    tags: [rice, fermented, quick, leftovers]
+    utensils: [Wok]
+    ingredients:
+      - items:
+          - [day-old cooked rice, 400, g]
+          - [chopped ripe kimchi, 200, g]
+          - [kimchi juice, 3, tbsp]
+          - [diced pork belly or ham, 80, g]
+          - [gochujang, 1, tbsp]
+          - [butter or oil, 1, tbsp]
+          - [sesame oil, 1, tbsp]
+          - [eggs, 2, null]
+          - [nori in strips, 1, null]
+          - [spring onion, 1, null]
+    steps:
+      - Stir-fry the pork in the wok for 2 minutes. Add the kimchi and stir-fry for 3 minutes.
+      - Add the rice, kimchi juice, gochujang and butter and stir-fry over high heat for 5 minutes.
+      - Drizzle with the sesame oil. Fry the eggs separately.
+      - Serve the rice topped with an egg, the spring onion and the nori.
+
+  - name: Dakgalbi
+    health: [YELLOW, "Chicken stir-fried with vegetables in spicy sauce: protein, with a sweet sauce."]
+    nutrition: [440, 36, 34, 17]
+    photo: cocina-coreana/dakgalbi.jpg
+    category: Meat
+    difficulty: EASY
+    prep: 20
+    cook: 20
+    servings: 4
+    notes: From Chuncheon, cooked at the table on a large griddle. At the end, rice is stir-fried in the leftover sauce.
+    tags: [chicken, spicy]
+    origin: Chuncheon
+    utensils: [Wok]
+    ingredients:
+      - items:
+          - [boneless chicken thighs, 700, g]
+          - [cabbage, 300, g]
+          - [sweet potato, 1, null]
+          - [onion, 1, null]
+          - [rice cakes (tteok), 150, g, optional]
+          - [perilla leaves or spring onions, 4, null]
+          - [gochujang, 3, tbsp]
+          - [gochugaru, 1, tbsp]
+          - [soy sauce, 2, tbsp]
+          - [sugar, 1, tbsp]
+          - [garlic cloves, 3, null]
+          - [grated ginger, 1, tsp]
+          - [sunflower oil, 2, tbsp]
+    steps:
+      - Mix the gochujang, gochugaru, soy sauce, sugar, garlic and ginger and marinate the chicken pieces for 30 minutes.
+      - Heat the oil in the wok and add the sweet potato sticks and the cabbage and onion in large pieces.
+      - Add the chicken with its marinade and the rice cakes and stir-fry over medium heat for 12-15 minutes, until the chicken is cooked and the sweet potato tender.
+      - Add the perilla leaves or spring onions at the end.
+
+  - name: Korean fried chicken
+    health: [RED, "Twice-fried chicken glazed in a sweet sauce: very high in calories."]
+    nutrition: [620, 36, 46, 32]
+    photo: cocina-coreana/pollo-frito-coreano.jpg
+    category: Meat
+    difficulty: MEDIUM
+    prep: 20
+    cook: 30
+    servings: 4
+    notes: Yangnyeom chikin. Double frying keeps it crisp even with the sauce. Served with pickled radish.
+    tags: [chicken, fried]
+    utensils: []
+    ingredients:
+      - group: For the chicken
+        items:
+          - [chicken wings and drumsticks, 1.2, kg]
+          - [potato starch or cornflour, 100, g]
+          - [plain flour, 30, g]
+          - [baking powder, 1, tsp]
+          - [garlic powder, 1, tsp]
+          - [salt, 1, tsp]
+          - [oil for frying, null, null]
+      - group: For the sauce
+        items:
+          - [gochujang, 3, tbsp]
+          - [ketchup, 2, tbsp]
+          - [honey or rice syrup, 3, tbsp]
+          - [soy sauce, 1, tbsp]
+          - [garlic cloves, 3, null]
+          - [sesame seeds, 1, tbsp]
+    steps:
+      - Dry the chicken well and salt it. Mix the starch, flour, baking powder and garlic powder and coat the chicken.
+      - Fry at 160 °C for 10-12 minutes and rest for 5 minutes on a rack.
+      - Fry again at 180 °C for 3-4 minutes, until very crisp.
+      - Heat the sauce ingredients until bubbling, toss with the chicken and sprinkle with sesame.
+
+  - name: Galbi jjim
+    health: [YELLOW, "Braised beef short ribs: lots of protein, with fat and some sugar."]
+    nutrition: [620, 40, 26, 38]
+    photo: cocina-coreana/galbi-jjim.jpg
+    category: Meat
+    difficulty: MEDIUM
+    prep: 30
+    cook: 120
+    servings: 4
+    notes: The short rib braise of the Chuseok and New Year feasts. Skim the fat off the sauce before serving.
+    tags: [beef, stew, celebration]
+    utensils: [Pressure cooker]
+    ingredients:
+      - items:
+          - [beef short ribs in pieces, 1.5, kg]
+          - [white radish (daikon), 300, g]
+          - [carrots, 2, null]
+          - [dried jujubes, 6, null, optional]
+          - [peeled chestnuts, 8, null, optional]
+          - [pear, 0.5, null]
+          - [onion, 1, null]
+          - [garlic cloves, 6, null]
+          - [soy sauce, 100, ml]
+          - [brown sugar, 2, tbsp]
+          - [sesame oil, 1, tbsp]
+          - [water, 600, ml]
+    steps:
+      - Soak the ribs in cold water for 30 minutes, blanch for 5 minutes and rinse.
+      - Blend the pear, onion and garlic with the soy sauce, sugar, sesame oil and water.
+      - Simmer the ribs in the sauce, covered, over low heat for 1 hour (25 minutes in a pressure cooker).
+      - Add the radish and carrot in large chunks, the jujubes and chestnuts and cook 30 minutes more, until the sauce reduces and glazes the meat.
+
+  - name: Bossam
+    health: [YELLOW, "Boiled pork belly in leaf wraps: protein and vegetables, with lots of fat."]
+    nutrition: [560, 28, 8, 46]
+    photo: cocina-coreana/bossam.jpg
+    category: Meat
+    difficulty: EASY
+    prep: 15
+    cook: 70
+    servings: 4
+    notes: The pork belly is boiled, sliced and eaten wrapped in lettuce or cabbage leaves with kimchi and ssamjang.
+    tags: [pork, sharing]
+    utensils: []
+    ingredients:
+      - group: For the pork
+        items:
+          - [piece of pork belly, 1, kg]
+          - [onion, 1, null]
+          - [garlic cloves, 6, null]
+          - [fresh ginger, 1, piece]
+          - [fermented soybean paste (doenjang), 2, tbsp]
+          - [coffee beans or a teaspoon of instant coffee, 1, tbsp]
+          - [bay leaf, 2, null]
+      - group: To serve
+        items:
+          - [lettuce and blanched cabbage leaves, null, null]
+          - [kimchi, 200, g]
+          - [ssamjang (wrap sauce), 4, tbsp]
+          - [sliced garlic cloves, 4, null]
+          - [green chillies, 2, null]
+    steps:
+      - Put the pork in a pot with all the cooking ingredients and water to cover.
+      - Simmer, covered, for 60-70 minutes, until easily pierced.
+      - Take it out, rest for 10 minutes and slice 1 cm thick.
+      - Serve with the leaves, kimchi, ssamjang, garlic and chilli so everyone makes their own wraps.
+
+  - name: Korean rolled omelette
+    health: [GREEN, "Egg with vegetables: protein with little fat."]
+    nutrition: [170, 12, 3, 12]
+    photo: cocina-coreana/tortilla-enrollada-coreana.jpg
+    category: Eggs
+    difficulty: MEDIUM
+    prep: 10
+    cook: 10
+    servings: 4
+    notes: Gyeran-mari, a regular in Korean lunch boxes. It is rolled in the pan in several thin layers.
+    tags: [eggs, side, vegetarian, gluten-free]
+    utensils: []
+    ingredients:
+      - items:
+          - [eggs, 5, null]
+          - [carrot, 0.5, null]
+          - [spring onions, 2, null]
+          - [milk or water, 2, tbsp]
+          - [salt, 0.5, tsp]
+          - [oil, 1, tbsp]
+    steps:
+      - Beat the eggs with the milk, salt and finely chopped carrot and spring onion.
+      - Heat a rectangular or small frying pan with oil over low heat and pour in a third of the egg.
+      - When almost set, roll it up from one end. Push it to the edge, add another third of egg, lifting the roll so it joins, and roll again.
+      - Repeat with the rest, rest for 5 minutes and slice.
+
+  - name: Seasoned bean sprouts
+    health: [GREEN, "Bean sprouts with sesame: very light, with fibre."]
+    nutrition: [60, 4, 4, 4]
+    photo: cocina-coreana/brotes-de-soja-alinados.jpg
+    category: Vegetables
+    difficulty: EASY
+    prep: 5
+    cook: 5
+    servings: 4
+    notes: Kongnamul muchim, one of the most common banchan. Keep the lid on while they cook so they don't taste raw.
+    tags: [banchan, vegan, gluten-free, quick]
+    utensils: []
+    ingredients:
+      - items:
+          - [soybean sprouts, 300, g]
+          - [garlic clove, 1, null]
+          - [spring onion, 1, null]
+          - [sesame oil, 1, tbsp]
+          - [sesame seeds, 1, tsp]
+          - [gochugaru, 0.5, tsp, optional]
+          - [salt, 0.5, tsp]
+    steps:
+      - Cook the sprouts in a covered pot with half a glass of water and salt for 5 minutes.
+      - Drain and let them cool slightly.
+      - Mix with the crushed garlic, chopped spring onion, oil, sesame and gochugaru.
+
+  - name: Korean cucumber salad
+    health: [GREEN, "Cucumber dressed with vinegar and chilli: very light."]
+    nutrition: [45, 1, 6, 2]
+    photo: cocina-coreana/ensalada-de-pepino-coreana.jpg
+    category: Salads
+    difficulty: EASY
+    prep: 15
+    cook: 0
+    servings: 4
+    notes: Oi muchim, a fresh, spicy banchan eaten freshly made.
+    tags: [banchan, salad, vegan, gluten-free, quick]
+    utensils: []
+    ingredients:
+      - items:
+          - [cucumbers, 2, null]
+          - [small red onion, 0.5, null]
+          - [garlic clove, 1, null]
+          - [gochugaru, 1, tsp]
+          - [rice vinegar, 1, tbsp]
+          - [sugar, 1, tsp]
+          - [sesame oil, 1, tsp]
+          - [sesame seeds, 1, tsp]
+          - [salt, 0.5, tsp]
+    steps:
+      - Slice the cucumbers thinly, salt them and leave for 10 minutes. Pour off the liquid.
+      - Mix with the sliced onion and the rest of the ingredients.
+      - Serve at once.
+
+  - name: Hotteok
+    health: [RED, "Fried pancakes filled with brown sugar: very sweet."]
+    nutrition: [320, 6, 54, 9]
+    photo: cocina-coreana/hotteok.jpg
+    category: Desserts
+    difficulty: MEDIUM
+    prep: 20
+    cook: 20
+    servings: 8
+    notes: The sweet pancakes of winter street stalls. The filling comes out very hot; bite carefully.
+    tags: [dessert, street food, vegetarian]
+    utensils: []
+    ingredients:
+      - group: For the dough
+        items:
+          - [plain flour, 300, g]
+          - [glutinous rice flour, 50, g]
+          - [dried yeast, 5, g]
+          - [sugar, 1, tbsp]
+          - [salt, 0.5, tsp]
+          - [warm milk, 250, ml]
+          - [sunflower oil, 1, tbsp]
+      - group: For the filling and frying
+        items:
+          - [brown sugar, 100, g]
+          - [ground cinnamon, 1, tsp]
+          - [chopped nuts (walnuts or peanuts), 40, g]
+          - [sunflower oil for the pan, 4, tbsp]
+    steps:
+      - Mix the dough ingredients into a soft, sticky dough. Cover and leave to rise for 1 hour.
+      - Mix the sugar, cinnamon and nuts.
+      - With oiled hands, take a piece of dough, flatten it, add a spoonful of filling and close it into a ball.
+      - Place in the oiled pan over medium heat, turn after a minute and press with a spatula into a disc.
+      - Fry 2-3 minutes more per side, until golden and the sugar has melted inside.
+
+  - name: Patbingsu
+    health: [YELLOW, "Shaved ice with sweet red beans and condensed milk: sweet, with some fibre."]
+    nutrition: [320, 7, 64, 4]
+    photo: cocina-coreana/patbingsu.jpg
+    category: Desserts
+    difficulty: EASY
+    prep: 15
+    cook: 0
+    servings: 4
+    notes: Korea's summer dessert. Without a shaved ice machine, freeze the milk in a tray and scrape it with a fork.
+    tags: [dessert, summer, gluten-free, vegetarian]
+    utensils: []
+    ingredients:
+      - items:
+          - [milk, 500, ml]
+          - [condensed milk, 100, g]
+          - [sweet red bean paste (pat), 250, g]
+          - [small tteok or mochi in cubes, 100, g, optional]
+          - ["fresh fruit (strawberries, mango)", 200, g]
+          - [roasted soybean powder (injeolmi garu), 2, tbsp, optional]
+    steps:
+      - Mix the milk with half the condensed milk and freeze in a flat tray for at least 4 hours.
+      - Scrape with a fork or put through the ice machine into fine snow.
+      - Divide the ice among chilled bowls and top with the red beans, mochi and fruit.
+      - Drizzle with the remaining condensed milk, sprinkle with soybean powder and serve at once.

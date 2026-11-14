@@ -1,0 +1,42 @@
+# Origin of every photo in this folder: source page, author and licence (CC0 1.0, Public domain,
+# CC BY x.y or CC BY-SA x.y). tools/build.py refuses a recipe photo without an entry here.
+
+sopa-de-calabaza-y-boniato.jpg:
+  source: https://commons.wikimedia.org/wiki/File%3APumpkin_soup_preparation.jpg
+  author: "MOs810"
+  license: CC BY-SA 4.0
+
+huevos-endiablados-con-aranas.jpg:
+  source: https://commons.wikimedia.org/wiki/File%3ADeviled_Eggs_-_3-23-08.jpg
+  author: "Marshall Astor from San Pedro, United States"
+  license: CC BY-SA 2.0
+
+dedos-de-bruja.jpg:
+  source: https://commons.wikimedia.org/wiki/File%3AZombie_Fingers_Halloween.jpg
+  author: "Infrogmation of New Orleans"
+  license: CC BY 2.0
+
+brownie-cementerio.jpg:
+  source: https://commons.wikimedia.org/wiki/File%3AGraveyard_Cake_Halloween.jpg
+  author: "Infrogmation of New Orleans"
+  license: CC BY 2.0
+
+manzanas-de-caramelo.jpg:
+  source: https://commons.wikimedia.org/wiki/File%3ACandy_apples_in_a_row.jpg
+  author: "Constantin Barbu"
+  license: CC BY 2.0
+
+pan-de-calabaza.jpg:
+  source: https://commons.wikimedia.org/wiki/File%3AFairall%27s_Farm_pumpkin_chocolate_chip_bread_-_December_2023_-_Sarah_Stierch_01.jpg
+  author: "Missvain"
+  license: CC BY 4.0
+
+galletas-de-calabaza-con-especias.jpg:
+  source: https://commons.wikimedia.org/wiki/File%3APumpkin_chocolate_chip_cookies_on_wire_rack%2C_November_2009.jpg
+  author: "Keith McDuffee"
+  license: CC BY 2.0
+
+ponche-de-bruja.jpg:
+  source: https://commons.wikimedia.org/wiki/File%3AEyeball_Punch.jpg
+  author: "Bart Everson"
+  license: CC BY 2.0

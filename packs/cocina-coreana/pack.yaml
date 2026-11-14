@@ -1,0 +1,656 @@
+id: cocina-coreana
+version: 1
+updated: 2026-11-14
+language: es
+name: "Cocina del mundo: Corea"
+series: Cocina del mundo
+family: cocina-coreana
+description: >-
+  La cocina de Corea, picante, fermentada y para compartir: bibimbap, bulgogi, kimchi casero,
+  japchae, kimbap, tteokbokki, guisos de kimchi y de tofu sedoso, samgyetang, pajeon de marisco,
+  arroz frito con kimchi, dakgalbi, pollo frito coreano, galbi jjim, bossam, guarniciones (banchan)
+  como la tortilla enrollada, los brotes de soja y el pepino aliñados y, de postre, hotteok y
+  patbingsu. El gochujang y el gochugaru se encuentran en tiendas asiáticas.
+author: Miga
+authorGithub: calamares00
+cover:
+  emoji: "🥬"
+  kicker: Cocina del mundo
+  title: Corea
+  colors: ["#be123c", "#1e3a8a"]
+defaults:
+  origin: Corea del Sur
+  originCountry: KR
+  source: "Pack «Cocina del mundo: Corea» de Miga"
+recipes:
+
+  - name: Bibimbap
+    health: [GREEN, "Arroz con muchas verduras, carne y huevo: un plato completo y equilibrado."]
+    nutrition: [580, 28, 76, 18]
+    photo: cocina-coreana/bibimbap.jpg
+    category: Arroces
+    difficulty: MEDIUM
+    prep: 30
+    cook: 25
+    servings: 4
+    notes: «Arroz mezclado». Cada verdura se prepara por separado y se mezcla todo en la mesa con la salsa. En cuenco de piedra caliente (dolsot) el arroz hace costra.
+    tags: [arroz, verduras, plato único]
+    utensils: []
+    ingredients:
+      - group: Para la base
+        items:
+          - [arroz de grano corto, 400, g]
+          - [carne picada o filetes finos de ternera, 250, g]
+          - [salsa de soja, 2, cucharada]
+          - [espinacas, 200, g]
+          - [brotes de soja, 200, g]
+          - [zanahorias, 2, null]
+          - [calabacín, 1, null]
+          - [setas shiitake, 150, g]
+          - [huevos, 4, null]
+          - [aceite de sésamo, 3, cucharada]
+          - [dientes de ajo, 2, null]
+          - [semillas de sésamo, 1, cucharada]
+          - [sal, null, null]
+      - group: Para la salsa
+        items:
+          - [gochujang (pasta de guindilla coreana), 3, cucharada]
+          - [aceite de sésamo para la salsa, 1, cucharada]
+          - [azúcar, 1, cucharada]
+          - [vinagre de arroz, 1, cucharada]
+          - [agua, 1, cucharada]
+    steps:
+      - Cuece el arroz. Marina la carne con la soja, un ajo picado y un poco de aceite de sésamo.
+      - Escalda las espinacas y los brotes de soja por separado 1 minuto, escúrrelos y alíñalos con aceite de sésamo, ajo y sal.
+      - Saltea por separado la zanahoria y el calabacín en tiras y las setas en láminas, con una pizca de sal. Saltea la carne.
+      - Mezcla los ingredientes de la salsa. Fríe los huevos con la yema líquida.
+      - Sirve el arroz en cuencos, coloca encima las verduras y la carne por montoncitos, el huevo en el centro y el sésamo, con la salsa al lado. Se mezcla todo antes de comer.
+
+  - name: Bulgogi
+    health: [YELLOW, "Ternera marinada a la plancha: mucha proteína, marinada algo dulce."]
+    nutrition: [380, 32, 14, 21]
+    photo: cocina-coreana/bulgogi.jpg
+    category: Carnes
+    difficulty: EASY
+    prep: 15
+    cook: 10
+    servings: 4
+    notes: La pera rallada ablanda la carne. Pide en la carnicería la carne cortada muy fina, o congélala 30 minutos para cortarla tú.
+    tags: [ternera, barbacoa]
+    utensils: [Plancha]
+    ingredients:
+      - items:
+          - [lomo bajo o aguja de ternera en lonchas muy finas, 600, g]
+          - [pera, 0.5, null]
+          - [cebolla, 1, null]
+          - [cebolletas, 3, null]
+          - [dientes de ajo, 4, null]
+          - [salsa de soja, 5, cucharada]
+          - [azúcar moreno, 2, cucharada]
+          - [aceite de sésamo, 2, cucharada]
+          - [semillas de sésamo, 1, cucharada]
+          - [pimienta negra, 0.5, cucharadita]
+    steps:
+      - Ralla la pera, la mitad de la cebolla y el ajo y mézclalos con la soja, el azúcar, el aceite de sésamo y la pimienta.
+      - Marina la carne con la mezcla y el resto de la cebolla en juliana al menos 1 hora.
+      - Cocínala en la plancha o la sartén muy caliente por tandas, 3-4 minutos, hasta que se dore.
+      - Sirve con las cebolletas picadas y el sésamo, con arroz y hojas de lechuga para envolver.
+
+  - name: Kimchi
+    health: [GREEN, "Col fermentada con especias: fibra y probióticos, pero con bastante sal."]
+    nutrition: [35, 2, 6, 0]
+    photo: cocina-coreana/kimchi.jpg
+    category: Verduras
+    difficulty: MEDIUM
+    prep: 60
+    cook: 0
+    servings: 20
+    notes: El baechu kimchi, la guarnición de todas las comidas. Fermenta 1-2 días a temperatura ambiente y luego se guarda en la nevera; dura semanas y cada vez sabe más ácido. Usa guantes para mezclar.
+    tags: [fermentados, conserva, sin gluten]
+    utensils: []
+    ingredients:
+      - items:
+          - [col china, 1.5, kg]
+          - [sal gruesa, 100, g]
+          - [gochugaru (copos de guindilla coreana), 50, g]
+          - [salsa de pescado, 3, cucharada]
+          - [dientes de ajo, 6, null]
+          - [jengibre fresco, 1, trozo]
+          - [azúcar, 1, cucharada]
+          - [harina de arroz glutinoso, 1, cucharada]
+          - [agua, 150, ml]
+          - [rábano blanco (daikon), 200, g]
+          - [cebolletas, 4, null]
+    steps:
+      - Corta la col en cuartos a lo largo, sala bien entre las hojas y deja 2 horas, dándole la vuelta a mitad. Aclárala 3 veces y escúrrela bien.
+      - Cuece la harina de arroz con el agua 2 minutos hasta que espese y deja enfriar.
+      - Mezcla la papilla con el gochugaru, la salsa de pescado, el ajo y el jengibre rallados, el azúcar, el rábano en tiras y las cebolletas en trozos.
+      - Unta cada hoja de la col con la pasta, dobla los cuartos y apriétalos en un tarro de cristal sin dejar aire, dejando 3 cm libres arriba.
+      - Deja fermentar 1-2 días a temperatura ambiente, apretando cada día, y guárdalo en la nevera.
+
+  - name: Japchae
+    health: [YELLOW, "Fideos de boniato con verduras y carne: completo, algo graso por el sésamo."]
+    nutrition: [420, 16, 62, 13]
+    photo: cocina-coreana/japchae.jpg
+    category: Pastas
+    difficulty: MEDIUM
+    prep: 30
+    cook: 20
+    servings: 4
+    notes: Los fideos de fécula de boniato (dangmyeon) quedan transparentes y elásticos. Se toma templado o frío, y es plato de fiesta.
+    tags: [fideos, verduras, fiesta, sin gluten]
+    utensils: [Wok]
+    ingredients:
+      - items:
+          - [fideos de boniato (dangmyeon), 250, g]
+          - [filetes finos de ternera, 200, g]
+          - [espinacas, 200, g]
+          - [zanahoria, 1, null]
+          - [cebolla, 1, null]
+          - [pimiento rojo, 1, null]
+          - [setas shiitake, 150, g]
+          - [dientes de ajo, 3, null]
+          - [salsa de soja sin gluten, 5, cucharada]
+          - [azúcar, 2, cucharada]
+          - [aceite de sésamo, 3, cucharada]
+          - [aceite de girasol, 2, cucharada]
+          - [semillas de sésamo, 1, cucharada]
+    steps:
+      - Cuece los fideos 6 minutos, escúrrelos, córtalos con tijera en trozos largos y alíñalos con 1 cucharada de soja y 1 de aceite de sésamo.
+      - Escalda las espinacas 30 segundos, escúrrelas y alíñalas con sal y aceite de sésamo.
+      - Corta la carne, las verduras y las setas en tiras y saltéalas por separado en el wok con un poco de aceite.
+      - Mezcla los fideos con todo, el ajo picado, el resto de la soja, el azúcar y el aceite de sésamo y saltea 2 minutos. Espolvorea el sésamo.
+
+  - name: Kimbap
+    health: [GREEN, "Rollos de arroz con verduras, huevo y alga: equilibrados y ligeros."]
+    nutrition: [430, 15, 70, 10]
+    photo: cocina-coreana/kimbap.jpg
+    category: Arroces
+    difficulty: MEDIUM
+    prep: 40
+    cook: 25
+    servings: 4
+    notes: Los rollos de arroz de las excursiones. A diferencia del sushi, el arroz se aliña con sésamo y sal, no con vinagre. Hace falta una esterilla de bambú.
+    tags: [arroz, picnic]
+    utensils: []
+    ingredients:
+      - items:
+          - [arroz de grano corto, 400, g]
+          - [hojas de alga nori, 5, null]
+          - [huevos, 3, null]
+          - [zanahoria, 1, null]
+          - [espinacas, 200, g]
+          - [rábano encurtido amarillo (danmuji), 5, tira]
+          - [palitos de cangrejo o jamón cocido en tiras, 5, null]
+          - [aceite de sésamo, 3, cucharada]
+          - [semillas de sésamo, 1, cucharada]
+          - [sal, null, null]
+    steps:
+      - Cuece el arroz y alíñalo templado con 2 cucharadas de aceite de sésamo y 1 cucharadita de sal.
+      - Haz una tortilla fina con los huevos y córtala en tiras. Saltea la zanahoria en tiras finas. Escalda las espinacas y alíñalas con sal y sésamo.
+      - Pon una hoja de nori sobre la esterilla, extiende una capa fina de arroz dejando 3 cm libres arriba y coloca los rellenos en fila.
+      - Enrolla apretando con la esterilla y sella con unos granos de arroz.
+      - Pinta los rollos con aceite de sésamo, espolvorea el sésamo y córtalos en rodajas con un cuchillo mojado.
+
+  - name: Tteokbokki
+    health: [YELLOW, "Pasteles de arroz en salsa picante: muchos hidratos y azúcar."]
+    nutrition: [420, 12, 82, 5]
+    photo: cocina-coreana/tteokbokki.jpg
+    category: Pastas
+    difficulty: EASY
+    prep: 10
+    cook: 20
+    servings: 4
+    notes: La comida callejera más popular de Corea. Los pasteles de arroz (tteok) se venden frescos o congelados en tiendas asiáticas.
+    tags: [picante, comida callejera]
+    utensils: []
+    ingredients:
+      - items:
+          - [pasteles de arroz alargados (garae-tteok), 500, g]
+          - [placas de pastel de pescado (eomuk), 2, null, optional]
+          - [caldo de anchoas o agua, 500, ml]
+          - [gochujang, 3, cucharada]
+          - [gochugaru, 1, cucharada]
+          - [salsa de soja, 1, cucharada]
+          - [azúcar, 2, cucharada]
+          - [dientes de ajo, 2, null]
+          - [cebolletas, 3, null]
+          - [huevos cocidos, 2, null]
+    steps:
+      - Si los pasteles de arroz están duros, remójalos 20 minutos en agua templada.
+      - Lleva el caldo a ebullición con el gochujang, el gochugaru, la soja, el azúcar y el ajo picado.
+      - Añade los pasteles de arroz y el pastel de pescado en triángulos y cuece a fuego medio 10-12 minutos, removiendo, hasta que la salsa espese y brille.
+      - Añade las cebolletas en trozos y los huevos cocidos partidos y sirve enseguida.
+
+  - name: Kimchi jjigae
+    health: [GREEN, "Guiso de kimchi con tofu y cerdo: proteína y probióticos, algo salado."]
+    nutrition: [340, 24, 14, 21]
+    photo: cocina-coreana/kimchi-jjigae.jpg
+    category: Sopas y cremas
+    difficulty: EASY
+    prep: 10
+    cook: 30
+    servings: 4
+    notes: Sale mejor con kimchi bien fermentado y ácido. Se sirve hirviendo, con arroz blanco.
+    tags: [sopa, picante, fermentados, sin gluten]
+    utensils: []
+    ingredients:
+      - items:
+          - [kimchi maduro, 400, g]
+          - [jugo del kimchi, 100, ml]
+          - [panceta de cerdo en lonchas, 200, g]
+          - [tofu firme, 300, g]
+          - [cebolla, 1, null]
+          - [gochugaru, 1, cucharada]
+          - [dientes de ajo, 2, null]
+          - [caldo de anchoas o agua, 600, ml]
+          - [cebolletas, 2, null]
+          - [aceite de sésamo, 1, cucharada]
+    steps:
+      - Saltea la panceta en trozos con el aceite de sésamo 3 minutos. Añade el kimchi cortado y saltea 5 minutos más.
+      - Añade la cebolla en juliana, el ajo, el gochugaru, el jugo del kimchi y el caldo y cuece 15 minutos.
+      - Añade el tofu en dados y cuece 5 minutos más. Termina con la cebolleta picada.
+
+  - name: Sundubu jjigae
+    health: [GREEN, "Guiso de tofu sedoso con marisco: mucha proteína y poca grasa."]
+    nutrition: [260, 22, 10, 14]
+    photo: cocina-coreana/sundubu-jjigae.jpg
+    category: Sopas y cremas
+    difficulty: EASY
+    prep: 10
+    cook: 20
+    servings: 2
+    notes: El tofu sedoso (sundubu) se rompe a cucharadas en el caldo. El huevo se casca al final, crudo, y se cuaja con el calor del guiso.
+    tags: [sopa, picante, tofu, marisco]
+    utensils: []
+    ingredients:
+      - items:
+          - [tofu sedoso, 350, g]
+          - [almejas o gambas, 150, g]
+          - [cebolla pequeña, 1, null]
+          - [calabacín pequeño, 0.5, null]
+          - [gochugaru, 1.5, cucharada]
+          - [dientes de ajo, 2, null]
+          - [salsa de soja, 1, cucharada]
+          - [aceite de sésamo, 1, cucharada]
+          - [caldo de anchoas o agua, 400, ml]
+          - [huevos, 2, null]
+          - [cebolleta, 1, null]
+    steps:
+      - Sofríe el gochugaru con el ajo y el aceite de sésamo a fuego suave 1 minuto, hasta que el aceite se ponga rojo.
+      - Añade la cebolla y el calabacín en dados y el caldo y cuece 5 minutos.
+      - Añade el marisco y el tofu a cucharadas grandes y cuece 5 minutos. Sazona con la soja.
+      - Casca los huevos encima, añade la cebolleta y sirve hirviendo.
+
+  - name: Samgyetang
+    health: [GREEN, "Caldo de pollo con arroz, ajo y ginseng: proteína y poca grasa."]
+    nutrition: [520, 48, 40, 18]
+    photo: cocina-coreana/samgyetang.jpg
+    category: Sopas y cremas
+    difficulty: MEDIUM
+    prep: 20
+    cook: 75
+    servings: 2
+    notes: Se toma en los días más calurosos del verano para recuperar fuerzas. Se hace con pollitos (picantones), uno por persona; el ginseng es opcional.
+    tags: [sopa, pollo, sin gluten]
+    utensils: [Olla exprés]
+    ingredients:
+      - items:
+          - [picantones (pollitos de 500 g), 2, null]
+          - [arroz glutinoso remojado 1 hora, 80, g]
+          - [dientes de ajo, 10, null]
+          - [azufaifas secas (dátiles chinos), 4, null]
+          - [raíz de ginseng fresco, 2, null, optional]
+          - [jengibre fresco, 1, trozo]
+          - [cebolletas, 2, null]
+          - [sal y pimienta para servir, null, null]
+    steps:
+      - Lava los picantones por dentro y rellénalos con el arroz, 3 ajos y 1 azufaifa cada uno. Cruza las patas y átalas.
+      - Ponlos en una olla con el resto de los ajos y las azufaifas, el ginseng, el jengibre y agua que los cubra.
+      - Cuece a fuego suave 1 hora (20 minutos en olla exprés), quitando la espuma, hasta que la carne se separe del hueso.
+      - Sirve cada pollito en un cuenco con su caldo, la cebolleta picada y sal y pimienta para que cada uno sazone.
+
+  - name: Pajeon de marisco
+    health: [YELLOW, "Tortita frita de cebolleta y marisco: proteína, pero frita en aceite."]
+    nutrition: [380, 18, 44, 14]
+    photo: cocina-coreana/pajeon-de-marisco.jpg
+    category: Entrantes
+    difficulty: EASY
+    prep: 15
+    cook: 20
+    servings: 4
+    notes: El haemul pajeon es el plato de los días de lluvia, con makgeolli. La salsa es de soja con vinagre.
+    tags: [marisco, aperitivo]
+    utensils: []
+    ingredients:
+      - group: Para la tortita
+        items:
+          - [harina de trigo, 150, g]
+          - [harina de arroz o fécula de patata, 2, cucharada]
+          - [agua muy fría, 250, ml]
+          - [huevo, 1, null]
+          - [manojo de cebolletas, 1, null]
+          - ["marisco variado (gambas, calamar, mejillones)", 250, g]
+          - [guindilla roja, 1, null, optional]
+          - [aceite de girasol para freír, 6, cucharada]
+          - [sal, 0.5, cucharadita]
+      - group: Para la salsa
+        items:
+          - [salsa de soja, 3, cucharada]
+          - [vinagre de arroz, 1, cucharada]
+          - [gochugaru para la salsa, 1, cucharadita]
+          - [semillas de sésamo, 1, cucharadita]
+    steps:
+      - Mezcla las harinas, la sal, el agua y el huevo hasta tener una masa ligera y sin grumos.
+      - Calienta 3 cucharadas de aceite en una sartén grande y coloca la mitad de las cebolletas enteras en paralelo.
+      - Reparte la mitad del marisco troceado y la guindilla y cubre con la mitad de la masa.
+      - Fríe 4-5 minutos por cada lado, aplastando, hasta que esté crujiente. Repite con el resto.
+      - Mezcla los ingredientes de la salsa y sirve la tortita cortada en cuadrados.
+
+  - name: Arroz frito con kimchi
+    health: [YELLOW, "Arroz salteado con kimchi y huevo: completo, con algo de grasa."]
+    nutrition: [480, 16, 64, 17]
+    photo: cocina-coreana/arroz-frito-con-kimchi.jpg
+    category: Arroces
+    difficulty: EASY
+    prep: 10
+    cook: 15
+    servings: 2
+    notes: El kimchi bokkeumbap aprovecha el arroz del día anterior y el kimchi que se ha pasado de ácido.
+    tags: [arroz, fermentados, rápida, aprovechamiento]
+    utensils: [Wok]
+    ingredients:
+      - items:
+          - [arroz cocido del día anterior, 400, g]
+          - [kimchi maduro picado, 200, g]
+          - [jugo del kimchi, 3, cucharada]
+          - [panceta o jamón en dados, 80, g]
+          - [gochujang, 1, cucharada]
+          - [mantequilla o aceite, 1, cucharada]
+          - [aceite de sésamo, 1, cucharada]
+          - [huevos, 2, null]
+          - [alga nori en tiras, 1, null]
+          - [cebolleta, 1, null]
+    steps:
+      - Saltea la panceta en el wok 2 minutos. Añade el kimchi y saltea 3 minutos.
+      - Añade el arroz, el jugo del kimchi, el gochujang y la mantequilla y saltea a fuego fuerte 5 minutos.
+      - Riega con el aceite de sésamo. Fríe los huevos aparte.
+      - Sirve el arroz con un huevo encima, la cebolleta y el alga.
+
+  - name: Dakgalbi
+    health: [YELLOW, "Pollo salteado con verduras y salsa picante: proteína, con salsa dulce."]
+    nutrition: [440, 36, 34, 17]
+    photo: cocina-coreana/dakgalbi.jpg
+    category: Carnes
+    difficulty: EASY
+    prep: 20
+    cook: 20
+    servings: 4
+    notes: Plato de Chuncheon, que se cocina en la mesa en una gran plancha. Al final se saltea arroz en la salsa que queda.
+    tags: [pollo, picante]
+    origin: Chuncheon
+    utensils: [Wok]
+    ingredients:
+      - items:
+          - [muslos de pollo deshuesados, 700, g]
+          - [col, 300, g]
+          - [boniato, 1, null]
+          - [cebolla, 1, null]
+          - [pasteles de arroz (tteok), 150, g, optional]
+          - [hojas de perilla o cebolletas, 4, null]
+          - [gochujang, 3, cucharada]
+          - [gochugaru, 1, cucharada]
+          - [salsa de soja, 2, cucharada]
+          - [azúcar, 1, cucharada]
+          - [dientes de ajo, 3, null]
+          - [jengibre rallado, 1, cucharadita]
+          - [aceite de girasol, 2, cucharada]
+    steps:
+      - Mezcla el gochujang, el gochugaru, la soja, el azúcar, el ajo y el jengibre y marina el pollo en trozos 30 minutos.
+      - Calienta el aceite en el wok y pon el boniato en bastones y la col y la cebolla en trozos grandes.
+      - Añade el pollo con su marinada y los pasteles de arroz y saltea a fuego medio 12-15 minutos, hasta que el pollo esté hecho y el boniato tierno.
+      - Añade las hojas de perilla o las cebolletas al final.
+
+  - name: Pollo frito coreano
+    health: [RED, "Pollo frito dos veces y glaseado con salsa dulce: muy calórico."]
+    nutrition: [620, 36, 46, 32]
+    photo: cocina-coreana/pollo-frito-coreano.jpg
+    category: Carnes
+    difficulty: MEDIUM
+    prep: 20
+    cook: 30
+    servings: 4
+    notes: El yangnyeom chikin. La doble fritura es lo que lo deja crujiente aunque lleve salsa. Se acompaña de rábano encurtido.
+    tags: [pollo, fritos]
+    utensils: []
+    ingredients:
+      - group: Para el pollo
+        items:
+          - [alitas y muslitos de pollo, 1.2, kg]
+          - [fécula de patata o maicena, 100, g]
+          - [harina de trigo, 30, g]
+          - [levadura química, 1, cucharadita]
+          - [ajo en polvo, 1, cucharadita]
+          - [sal, 1, cucharadita]
+          - [aceite para freír, null, null]
+      - group: Para la salsa
+        items:
+          - [gochujang, 3, cucharada]
+          - [kétchup, 2, cucharada]
+          - [miel o sirope de arroz, 3, cucharada]
+          - [salsa de soja, 1, cucharada]
+          - [dientes de ajo, 3, null]
+          - [semillas de sésamo, 1, cucharada]
+    steps:
+      - Seca bien el pollo y sálalo. Mezcla la fécula, la harina, la levadura y el ajo en polvo y reboza el pollo.
+      - Fríe en aceite a 160 °C 10-12 minutos y deja reposar 5 minutos sobre una rejilla.
+      - Fríe de nuevo a 180 °C 3-4 minutos, hasta que esté muy crujiente.
+      - Calienta los ingredientes de la salsa hasta que burbujee, mezcla con el pollo y espolvorea el sésamo.
+
+  - name: Galbi jjim
+    health: [YELLOW, "Costillas de ternera estofadas: mucha proteína, con grasa y algo de azúcar."]
+    nutrition: [620, 40, 26, 38]
+    photo: cocina-coreana/galbi-jjim.jpg
+    category: Carnes
+    difficulty: MEDIUM
+    prep: 30
+    cook: 120
+    servings: 4
+    notes: El estofado de costillas de las fiestas de Chuseok y Año Nuevo. Desgrasa el caldo antes de servir.
+    tags: [ternera, guiso, fiesta]
+    utensils: [Olla exprés]
+    ingredients:
+      - items:
+          - [costillas de ternera en trozos, 1.5, kg]
+          - [rábano blanco (daikon), 300, g]
+          - [zanahorias, 2, null]
+          - [azufaifas secas, 6, null, optional]
+          - [castañas peladas, 8, null, optional]
+          - [pera, 0.5, null]
+          - [cebolla, 1, null]
+          - [dientes de ajo, 6, null]
+          - [salsa de soja, 100, ml]
+          - [azúcar moreno, 2, cucharada]
+          - [aceite de sésamo, 1, cucharada]
+          - [agua, 600, ml]
+    steps:
+      - Remoja las costillas en agua fría 30 minutos, escáldalas 5 minutos y aclara.
+      - Tritura la pera, la cebolla y el ajo con la soja, el azúcar, el aceite de sésamo y el agua.
+      - Cuece las costillas con la salsa tapadas a fuego suave 1 hora (25 minutos en olla exprés).
+      - Añade el rábano y la zanahoria en trozos grandes, las azufaifas y las castañas y cuece 30 minutos más, hasta que la salsa reduzca y glasee la carne.
+
+  - name: Bossam
+    health: [YELLOW, "Panceta cocida envuelta en hojas: proteína y verdura, con mucha grasa."]
+    nutrition: [560, 28, 8, 46]
+    photo: cocina-coreana/bossam.jpg
+    category: Carnes
+    difficulty: EASY
+    prep: 15
+    cook: 70
+    servings: 4
+    notes: La panceta se cuece, se corta en lonchas y se come envuelta en hojas de lechuga o col con kimchi y ssamjang.
+    tags: [cerdo, para compartir]
+    utensils: []
+    ingredients:
+      - group: Para la panceta
+        items:
+          - [panceta de cerdo en una pieza, 1, kg]
+          - [cebolla, 1, null]
+          - [dientes de ajo, 6, null]
+          - [jengibre fresco, 1, trozo]
+          - [pasta de soja fermentada (doenjang), 2, cucharada]
+          - [granos de café o una cucharadita de café soluble, 1, cucharada]
+          - [hoja de laurel, 2, null]
+      - group: Para servir
+        items:
+          - [hojas de lechuga y de col escaldada, null, null]
+          - [kimchi, 200, g]
+          - [ssamjang (salsa para envolver), 4, cucharada]
+          - [dientes de ajo en láminas, 4, null]
+          - [guindillas verdes, 2, null]
+    steps:
+      - Pon la panceta en una olla con todos los ingredientes de la cocción y agua que la cubra.
+      - Cuece tapado a fuego suave 60-70 minutos, hasta que se pinche fácil.
+      - Sácala, deja reposar 10 minutos y córtala en lonchas de 1 cm.
+      - Sirve con las hojas, el kimchi, el ssamjang, el ajo y la guindilla para que cada uno haga sus envoltorios.
+
+  - name: Tortilla enrollada coreana
+    health: [GREEN, "Huevo con verduras: proteína con poca grasa."]
+    nutrition: [170, 12, 3, 12]
+    photo: cocina-coreana/tortilla-enrollada-coreana.jpg
+    category: Huevos
+    difficulty: MEDIUM
+    prep: 10
+    cook: 10
+    servings: 4
+    notes: El gyeran-mari, guarnición habitual de las fiambreras coreanas. Se enrolla en la sartén en varias capas finas.
+    tags: [huevos, guarnición, vegetariana, sin gluten]
+    utensils: []
+    ingredients:
+      - items:
+          - [huevos, 5, null]
+          - [zanahoria, 0.5, null]
+          - [cebolletas, 2, null]
+          - [leche o agua, 2, cucharada]
+          - [sal, 0.5, cucharadita]
+          - [aceite, 1, cucharada]
+    steps:
+      - Bate los huevos con la leche, la sal y la zanahoria y la cebolleta muy picadas.
+      - Calienta una sartén rectangular o pequeña con aceite a fuego suave y vierte un tercio del huevo.
+      - Cuando esté casi cuajado, enróllalo desde un extremo. Empújalo al borde, añade otro tercio de huevo levantando el rollo para que se una y vuelve a enrollar.
+      - Repite con el resto, deja reposar 5 minutos y corta en rodajas.
+
+  - name: Brotes de soja aliñados
+    health: [GREEN, "Brotes de soja con sésamo: muy ligeros, con fibra."]
+    nutrition: [60, 4, 4, 4]
+    photo: cocina-coreana/brotes-de-soja-alinados.jpg
+    category: Verduras
+    difficulty: EASY
+    prep: 5
+    cook: 5
+    servings: 4
+    notes: El kongnamul muchim, uno de los banchan más comunes. Tapa la olla mientras cuecen para que no cojan sabor a crudo.
+    tags: [banchan, vegana, sin gluten, rápida]
+    utensils: []
+    ingredients:
+      - items:
+          - [brotes de soja, 300, g]
+          - [diente de ajo, 1, null]
+          - [cebolleta, 1, null]
+          - [aceite de sésamo, 1, cucharada]
+          - [semillas de sésamo, 1, cucharadita]
+          - [gochugaru, 0.5, cucharadita, optional]
+          - [sal, 0.5, cucharadita]
+    steps:
+      - Cuece los brotes en una olla tapada con medio vaso de agua y sal 5 minutos.
+      - Escúrrelos y deja que se templen.
+      - Mézclalos con el ajo machacado, la cebolleta picada, el aceite, el sésamo y el gochugaru.
+
+  - name: Ensalada de pepino coreana
+    health: [GREEN, "Pepino aliñado con vinagre y guindilla: muy ligero."]
+    nutrition: [45, 1, 6, 2]
+    photo: cocina-coreana/ensalada-de-pepino-coreana.jpg
+    category: Ensaladas
+    difficulty: EASY
+    prep: 15
+    cook: 0
+    servings: 4
+    notes: El oi muchim, un banchan fresco y picante que se toma recién hecho.
+    tags: [banchan, ensalada, vegana, sin gluten, rápida]
+    utensils: []
+    ingredients:
+      - items:
+          - [pepinos, 2, null]
+          - [cebolla roja pequeña, 0.5, null]
+          - [diente de ajo, 1, null]
+          - [gochugaru, 1, cucharadita]
+          - [vinagre de arroz, 1, cucharada]
+          - [azúcar, 1, cucharadita]
+          - [aceite de sésamo, 1, cucharadita]
+          - [semillas de sésamo, 1, cucharadita]
+          - [sal, 0.5, cucharadita]
+    steps:
+      - Corta los pepinos en rodajas finas, sálalos y deja 10 minutos. Escurre el agua que suelten.
+      - Mézclalos con la cebolla en juliana y el resto de los ingredientes.
+      - Sirve enseguida.
+
+  - name: Hotteok
+    health: [RED, "Tortitas fritas rellenas de azúcar moreno: muy dulces."]
+    nutrition: [320, 6, 54, 9]
+    photo: cocina-coreana/hotteok.jpg
+    category: Postres
+    difficulty: MEDIUM
+    prep: 20
+    cook: 20
+    servings: 8
+    notes: "Las tortitas dulces de los puestos de invierno. El relleno sale muy caliente: cuidado al morder."
+    tags: [postre, comida callejera, vegetariana]
+    utensils: []
+    ingredients:
+      - group: Para la masa
+        items:
+          - [harina de trigo, 300, g]
+          - [harina de arroz glutinoso, 50, g]
+          - [levadura seca de panadería, 5, g]
+          - [azúcar, 1, cucharada]
+          - [sal, 0.5, cucharadita]
+          - [leche templada, 250, ml]
+          - [aceite de girasol, 1, cucharada]
+      - group: Para el relleno y la fritura
+        items:
+          - [azúcar moreno, 100, g]
+          - [canela molida, 1, cucharadita]
+          - [frutos secos picados (nueces o cacahuetes), 40, g]
+          - [aceite de girasol para la sartén, 4, cucharada]
+    steps:
+      - Mezcla los ingredientes de la masa hasta tener una masa blanda y pegajosa. Tapa y deja levar 1 hora.
+      - Mezcla el azúcar, la canela y los frutos secos.
+      - Con las manos aceitadas, toma una porción de masa, aplánala, pon una cucharada de relleno y ciérrala en bola.
+      - Ponla en la sartén con aceite a fuego medio, dale la vuelta al minuto y aplástala con una espátula hasta tener un disco.
+      - Fríe 2-3 minutos más por cada lado, hasta que esté dorada y el azúcar se haya fundido dentro.
+
+  - name: Patbingsu
+    health: [YELLOW, "Hielo raspado con judía roja dulce y leche condensada: dulce, con algo de fibra."]
+    nutrition: [320, 7, 64, 4]
+    photo: cocina-coreana/patbingsu.jpg
+    category: Postres
+    difficulty: EASY
+    prep: 15
+    cook: 0
+    servings: 4
+    notes: El postre de verano coreano. Si no tienes máquina de hielo raspado, congela la leche en una bandeja y ráspala con un tenedor.
+    tags: [postre, verano, sin gluten, vegetariana]
+    utensils: []
+    ingredients:
+      - items:
+          - [leche, 500, ml]
+          - [leche condensada, 100, g]
+          - [pasta de judía roja dulce (pat), 250, g]
+          - [tteok pequeños o mochi en dados, 100, g, optional]
+          - ["fruta fresca (fresas, mango)", 200, g]
+          - [polvo de soja tostada (injeolmi garu), 2, cucharada, optional]
+    steps:
+      - Mezcla la leche con la mitad de la leche condensada y congélala en una bandeja plana al menos 4 horas.
+      - Ráspala con un tenedor o pásala por la máquina de hielo hasta tener una nieve fina.
+      - Reparte el hielo en cuencos fríos, pon encima la judía roja, los mochi y la fruta.
+      - Riega con el resto de la leche condensada, espolvorea el polvo de soja y sirve enseguida.

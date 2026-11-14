@@ -1,0 +1,344 @@
+id: halloween-party
+version: 1
+updated: 2026-11-14
+language: en
+name: Halloween
+series: Specials
+family: halloween
+description: >-
+  Recipes for a Halloween party, with pumpkin and plenty of fun to make with the kids: pumpkin and
+  sweet potato soup, sausage mummies, spiderweb pizza, spider deviled eggs, witch fingers, banana
+  ghosts, clementine pumpkins, graveyard brownies, candy apples, pumpkin bread, spiced pumpkin
+  cookies and witch's brew punch. Ask about allergies, and take care with hot caramel and whole
+  olives around little ones.
+author: Miga
+authorGithub: calamares00
+cover:
+  emoji: "🎃"
+  title: Halloween
+  colors: ["#ea580c", "#1c1917"]
+defaults:
+  source: Miga «Halloween» pack
+recipes:
+
+  - name: Pumpkin and sweet potato soup
+    health: [GREEN, "Vegetable soup with fibre and vitamin A, low in fat."]
+    nutrition: [190, 4, 30, 6]
+    photo: halloween/sopa-de-calabaza-y-boniato.jpg
+    category: Soups
+    difficulty: EASY
+    prep: 15
+    cook: 30
+    servings: 6
+    notes: Serve it in a hollowed-out pumpkin or draw a spiderweb with a thread of cream or yoghurt and a cocktail stick.
+    tags: [soup, pumpkin, autumn, vegetarian, gluten-free]
+    utensils: [Blender]
+    ingredients:
+      - items:
+          - [peeled pumpkin, 800, g]
+          - [sweet potato, 1, null]
+          - [onion, 1, null]
+          - [carrot, 1, null]
+          - [vegetable stock, 1, l]
+          - [olive oil, 2, tbsp]
+          - [nutmeg, 1, pinch]
+          - [cream or yoghurt to decorate, 4, tbsp]
+          - [pumpkin seeds, 2, tbsp]
+          - [salt, null, null]
+    steps:
+      - Soften the onion in the oil for 5 minutes.
+      - Add the chopped pumpkin, sweet potato and carrot and the stock and simmer for 25 minutes.
+      - Blend until smooth and season with nutmeg and salt.
+      - Serve with spirals of cream or yoghurt drawn with a cocktail stick and toasted pumpkin seeds.
+
+  - name: Sausage mummies
+    health: [RED, "Sausages wrapped in puff pastry: ultra-processed and fatty."]
+    nutrition: [320, 9, 20, 23]
+    category: Starters
+    difficulty: EASY
+    prep: 15
+    cook: 20
+    servings: 8
+    notes: Add the eyes after baking with two dots of mustard or ketchup.
+    tags: [party, kids, oven]
+    utensils: [Oven]
+    ingredients:
+      - items:
+          - [frankfurters, 8, null]
+          - [sheet of puff pastry, 1, null]
+          - [beaten egg, 1, null]
+          - [mustard or ketchup, 1, tbsp]
+    steps:
+      - Heat the oven to 200 °C. Cut the pastry into 1 cm strips.
+      - Wrap each sausage with 2 or 3 crossing strips, leaving a gap for the face.
+      - Brush with egg and bake for 15-20 minutes, until golden.
+      - Add the eyes with mustard or ketchup.
+
+  - name: Spiderweb pizza
+    health: [YELLOW, "Homemade tomato and cheese pizza: high in calories, but simple."]
+    nutrition: [420, 18, 50, 16]
+    category: Breads and doughs
+    difficulty: EASY
+    prep: 20
+    cook: 15
+    servings: 4
+    notes: The web is made with strips of fresh mozzarella, and the spider with half a black olive.
+    tags: [party, kids, oven, vegetarian]
+    utensils: [Oven]
+    ingredients:
+      - items:
+          - [pizza dough, 1, null]
+          - [crushed tomatoes, 150, g]
+          - [dried oregano, 1, tsp]
+          - [grated mozzarella, 100, g]
+          - [ball of fresh mozzarella, 1, null]
+          - [pitted black olives, 4, null]
+          - [olive oil, 1, tbsp]
+    steps:
+      - Heat the oven to 230 °C. Stretch the dough and top with the tomato, oregano and grated mozzarella.
+      - Cut the fresh mozzarella into thin strips and lay them in concentric circles and spokes, like a web.
+      - Bake for 12-15 minutes.
+      - Make spiders with half an olive as the body and thin strips of olive as legs and place them on top.
+
+  - name: Spider deviled eggs
+    health: [YELLOW, "Stuffed eggs with mayonnaise: protein, with fat from the mayonnaise."]
+    nutrition: [190, 10, 2, 16]
+    photo: halloween/huevos-endiablados-con-aranas.jpg
+    category: Eggs
+    difficulty: EASY
+    prep: 20
+    cook: 12
+    servings: 6
+    notes: For small children, cut the olives well.
+    tags: [party, appetizer, gluten-free, vegetarian]
+    utensils: []
+    ingredients:
+      - items:
+          - [eggs, 6, null]
+          - [mayonnaise, 3, tbsp]
+          - [mustard, 1, tsp]
+          - [sweet paprika, 1, pinch]
+          - [pitted black olives, 6, null]
+          - [salt, null, null]
+    steps:
+      - Boil the eggs for 11 minutes, cool in cold water, peel and halve.
+      - Mash the yolks with the mayonnaise, mustard and salt and fill the whites.
+      - Halve the olives lengthways; one half is the spider's body and the other, cut into thin strips, the legs.
+      - Place a spider on each egg and dust with a little paprika.
+
+  - name: Witch fingers
+    health: [RED, "Butter and sugar biscuits: sweet."]
+    nutrition: [110, 2, 14, 5]
+    photo: halloween/dedos-de-bruja.jpg
+    category: Desserts
+    difficulty: EASY
+    prep: 30
+    cook: 15
+    servings: 24
+    notes: The nail is an almond stuck on with red jam. Servings are biscuits.
+    tags: [party, kids, biscuits]
+    utensils: [Oven]
+    ingredients:
+      - items:
+          - [soft butter, 125, g]
+          - [icing sugar, 80, g]
+          - [egg, 1, null]
+          - [vanilla extract, 1, tsp]
+          - [plain flour, 250, g]
+          - [baking powder, 0.5, tsp]
+          - [blanched almonds, 24, null]
+          - [strawberry jam, 2, tbsp]
+    steps:
+      - Beat the butter with the sugar, add the egg and vanilla, then the flour with the baking powder. Chill the dough for 30 minutes.
+      - Heat the oven to 170 °C. Shape 8 cm fingers from small pieces of dough, narrowing them at the knuckles.
+      - Mark the knuckles with a knife and press an almond into the tip as a nail.
+      - Bake for 12-15 minutes without browning too much. Once cool, lift the almonds and stick them back with jam so it looks like blood.
+
+  - name: Banana ghosts
+    health: [GREEN, "Fruit with a few touches of chocolate: a light snack."]
+    nutrition: [100, 1, 24, 1]
+    category: Desserts
+    difficulty: EASY
+    prep: 10
+    cook: 0
+    servings: 6
+    notes: They brown quickly; make them just before serving or brush the banana with lemon juice.
+    tags: [party, kids, fruit, vegan, gluten-free, quick]
+    utensils: []
+    ingredients:
+      - items:
+          - [bananas, 3, null]
+          - [chocolate chips, 18, null]
+          - [lemon juice, 1, tsp]
+    steps:
+      - Peel the bananas and cut them in half crossways.
+      - Stand them on the cut side and brush with lemon.
+      - Press in two chocolate chips for eyes and one for the mouth.
+
+  - name: Clementine pumpkins
+    health: [GREEN, "Just fruit: vitamin C and fibre."]
+    nutrition: [50, 1, 12, 0]
+    category: Desserts
+    difficulty: EASY
+    prep: 10
+    cook: 0
+    servings: 6
+    notes: A healthy option on the party table. The stalk is a little piece of celery or a mint leaf.
+    tags: [party, kids, fruit, vegan, gluten-free, quick]
+    utensils: []
+    ingredients:
+      - items:
+          - [clementines, 6, null]
+          - [celery stick, 1, null]
+    steps:
+      - Peel the clementines whole, taking care not to separate the segments.
+      - Cut the celery into 1.5 cm sticks.
+      - Push a stick into the centre of each clementine as a stalk.
+
+  - name: Graveyard brownies
+    health: [RED, "Brownie with biscuits and chocolate: very sweet."]
+    nutrition: [420, 5, 50, 23]
+    photo: halloween/brownie-cementerio.jpg
+    category: Desserts
+    difficulty: EASY
+    prep: 25
+    cook: 25
+    servings: 12
+    notes: The headstones are long biscuits with "RIP" written in melted chocolate; the soil, crushed chocolate biscuits.
+    tags: [party, kids, chocolate, oven]
+    utensils: [Oven]
+    ingredients:
+      - group: For the brownie
+        items:
+          - [dark chocolate, 200, g]
+          - [butter, 150, g]
+          - [sugar, 200, g]
+          - [eggs, 3, null]
+          - [plain flour, 100, g]
+          - [cocoa powder, 2, tbsp]
+      - group: To decorate
+        items:
+          - [chocolate sandwich biscuits, 8, null]
+          - [long biscuits such as ladyfingers or wafers, 12, null]
+          - [white or dark chocolate for writing, 30, g]
+          - [gummy worms, 12, null, optional]
+    steps:
+      - Heat the oven to 180 °C. Melt the chocolate with the butter.
+      - Whisk the eggs with the sugar, add the chocolate, then the flour and cocoa. Pour into a lined 20 x 30 cm tin.
+      - Bake for 22-25 minutes, until the centre is barely set. Leave to cool.
+      - Crush the chocolate biscuits and scatter them as soil. Write RIP on the long biscuits, stand them up as headstones and add the worms.
+
+  - name: Candy apples
+    health: [RED, "Fruit coated in hard caramel: lots of sugar."]
+    nutrition: [260, 0, 66, 0]
+    photo: halloween/manzanas-de-caramelo.jpg
+    category: Desserts
+    difficulty: MEDIUM
+    prep: 10
+    cook: 20
+    servings: 6
+    notes: The caramel is extremely hot; keep children at a distance. You need a sugar thermometer to hit the right stage.
+    tags: [party, fruit, gluten-free]
+    utensils: []
+    ingredients:
+      - items:
+          - [small red apples, 6, null]
+          - [sugar, 300, g]
+          - [water, 100, ml]
+          - [glucose syrup or honey, 2, tbsp]
+          - [red food colouring, 0.5, tsp, optional]
+          - [wooden sticks, 6, null]
+    steps:
+      - Wash the apples in hot water to remove the wax, dry them well and push in a stick.
+      - Heat the sugar, water and glucose without stirring to 150 °C (hard crack). Add the colouring.
+      - Tilt the pan and dip each apple, turning it. Let the excess drip off.
+      - Leave on greased baking paper until the caramel hardens.
+
+  - name: Pumpkin bread
+    health: [YELLOW, "Spiced pumpkin loaf: it has vegetables, but it is sweet."]
+    nutrition: [290, 5, 42, 12]
+    photo: halloween/pan-de-calabaza.jpg
+    category: Desserts
+    difficulty: EASY
+    prep: 15
+    cook: 60
+    servings: 10
+    notes: The American classic. For the purée, roast the pumpkin and blend it, or use canned.
+    tags: [cake, pumpkin, autumn, oven]
+    origin: United States
+    originCountry: US
+    utensils: [Oven]
+    ingredients:
+      - items:
+          - [pumpkin purée, 400, g]
+          - [eggs, 2, null]
+          - [brown sugar, 180, g]
+          - [sunflower oil, 100, ml]
+          - [plain flour, 250, g]
+          - [bicarbonate of soda, 1, tsp]
+          - [baking powder, 1, tsp]
+          - [ground cinnamon, 2, tsp]
+          - [ground ginger, 1, tsp]
+          - [nutmeg, 0.5, tsp]
+          - [salt, 1, pinch]
+          - [chopped walnuts, 60, g, optional]
+    steps:
+      - Heat the oven to 175 °C and line a loaf tin.
+      - Whisk the purée with the eggs, sugar and oil.
+      - Add the flour with the bicarbonate, baking powder, spices and salt, and the walnuts if using.
+      - Bake for 55-60 minutes, until a skewer comes out clean. Cool on a rack.
+
+  - name: Spiced pumpkin cookies
+    health: [RED, "Cookies with sugar and butter: sweet, though they contain pumpkin."]
+    nutrition: [120, 2, 17, 5]
+    photo: halloween/galletas-de-calabaza-con-especias.jpg
+    category: Desserts
+    difficulty: EASY
+    prep: 20
+    cook: 12
+    servings: 24
+    notes: Soft autumn cookies. Servings are cookies.
+    tags: [biscuits, pumpkin, autumn, oven]
+    utensils: [Oven]
+    ingredients:
+      - items:
+          - [pumpkin purée, 200, g]
+          - [soft butter, 100, g]
+          - [brown sugar, 150, g]
+          - [egg, 1, null]
+          - [plain flour, 280, g]
+          - [baking powder, 1, tsp]
+          - [ground cinnamon, 2, tsp]
+          - [ground ginger, 0.5, tsp]
+          - [ground cloves, 1, pinch]
+          - [chocolate chips, 100, g, optional]
+    steps:
+      - Heat the oven to 180 °C. Beat the butter with the sugar, add the egg and the purée.
+      - Add the flour with the baking powder and spices, and the chips if using.
+      - Drop spoonfuls of dough well apart on a lined tray.
+      - Bake for 10-12 minutes. Leave on the tray for 5 minutes before moving.
+
+  - name: Witch's brew punch
+    health: [YELLOW, "Fruit juices with lemonade: alcohol-free, but sugary."]
+    nutrition: [110, 0, 27, 0]
+    photo: halloween/ponche-de-bruja.jpg
+    category: Drinks
+    difficulty: EASY
+    prep: 15
+    cook: 0
+    servings: 8
+    notes: Alcohol-free. Freeze water in a powder-free latex glove (well washed) for a floating ice hand.
+    tags: [party, kids, drink, vegan, gluten-free]
+    utensils: []
+    ingredients:
+      - items:
+          - [red grape juice, 1, l]
+          - [orange juice, 500, ml]
+          - [lemonade or sparkling water, 500, ml]
+          - [sliced oranges, 2, null]
+          - [black grapes, 200, g]
+          - [ice, null, null]
+    steps:
+      - Make the ice hand the night before, or ice cubes with grapes inside.
+      - Mix the juices in a large punch bowl with the orange slices and grapes.
+      - Just before serving, add the lemonade and ice.

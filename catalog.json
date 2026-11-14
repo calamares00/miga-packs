@@ -302,6 +302,21 @@
       "language": "es"
     },
     {
+      "id": "cocina-coreana",
+      "name": "Cocina del mundo: Corea",
+      "series": "Cocina del mundo",
+      "family": "cocina-coreana",
+      "author": "Miga",
+      "authorGithub": "calamares00",
+      "description": "La cocina de Corea, picante, fermentada y para compartir: bibimbap, bulgogi, kimchi casero, japchae, kimbap, tteokbokki, guisos de kimchi y de tofu sedoso, samgyetang, pajeon de marisco, arroz frito con kimchi, dakgalbi, pollo frito coreano, galbi jjim, bossam, guarniciones (banchan) como la tortilla enrollada, los brotes de soja y el pepino aliñados y, de postre, hotteok y patbingsu. El gochujang y el gochugaru se encuentran en tiendas asiáticas.",
+      "coverImageUrl": "packs/cocina-coreana/cover.jpg",
+      "latestVersion": 1,
+      "recipeCount": 20,
+      "downloadUrl": "dist/cocina-coreana-v1.zip",
+      "sha256": "410fdf804c45fd248f59d77197c4b5d8811545ca18051594954ee6bfc5ce2659",
+      "language": "es"
+    },
+    {
       "id": "cocina-de-aprovechamiento",
       "name": "Cocina de aprovechamiento",
       "series": "Cocina de cada día",
@@ -359,6 +374,21 @@
       "recipeCount": 20,
       "downloadUrl": "dist/cocina-estadounidense-v3.zip",
       "sha256": "de1b600f6f3a10844cd86a480e3d48e63a36eb3b8f37bec339bdb5600e6d7f7a",
+      "language": "es"
+    },
+    {
+      "id": "cocina-francesa",
+      "name": "Cocina del mundo: Francia",
+      "series": "Cocina del mundo",
+      "family": "cocina-francesa",
+      "author": "Miga",
+      "authorGithub": "calamares00",
+      "description": "Los clásicos de la cocina francesa, de bistró y de casa: ternera a la borgoñona, pollo al vino, quiche lorraine, croque monsieur, gratin dauphinois, bullabesa, cassoulet, blanquette de ternera, mejillones a la marinera, magret con naranja, hachis parmentier, soufflé de queso, ensalada lionesa, pissaladière, tapenade y, de postre, tarta Tatin, crème brûlée, profiteroles, clafoutis de cerezas y madeleines. Con mantequilla, vino y hierbas.",
+      "coverImageUrl": "packs/cocina-francesa/cover.jpg",
+      "latestVersion": 1,
+      "recipeCount": 20,
+      "downloadUrl": "dist/cocina-francesa-v1.zip",
+      "sha256": "bb799f75852120bb60e76e9aaed08119db33c8f9e1291a1d0db66e914673d499",
       "language": "es"
     },
     {
@@ -437,6 +467,21 @@
       "language": "es"
     },
     {
+      "id": "cocina-marroqui",
+      "name": "Cocina del mundo: Marruecos",
+      "series": "Cocina del mundo",
+      "family": "cocina-marroqui",
+      "author": "Miga",
+      "authorGithub": "calamares00",
+      "description": "La cocina de Marruecos, de especias suaves y cocciones lentas: cuscús con siete verduras, harira, pastela de pollo, tajines de cordero con ciruelas, de kefta con huevos y de pescado, zaalouk, ensaladas, bissara, briouats, rfissa, mechui y pinchos de kefta, panes como el msemen, el khobz y el baghrir, dulces de miel y almendra y el té con hierbabuena.",
+      "coverImageUrl": "packs/cocina-marroqui/cover.jpg",
+      "latestVersion": 1,
+      "recipeCount": 20,
+      "downloadUrl": "dist/cocina-marroqui-v1.zip",
+      "sha256": "251729f271f2d43175b1a238df726c38b03db998dc727a7d25fc91314274c77d",
+      "language": "es"
+    },
+    {
       "id": "cocina-mediterranea",
       "name": "Cocina mediterránea",
       "series": "Cocina del mundo",
@@ -494,6 +539,21 @@
       "recipeCount": 20,
       "downloadUrl": "dist/cocina-tailandesa-v3.zip",
       "sha256": "55ee04c63bdc0a119c1bd5bafd5f3ba64f10d120d3ee6714f4617ecfd4c9a7cd",
+      "language": "es"
+    },
+    {
+      "id": "cocina-turca",
+      "name": "Cocina del mundo: Turquía",
+      "series": "Cocina del mundo",
+      "family": "cocina-turca",
+      "author": "Miga",
+      "authorGithub": "calamares00",
+      "description": "La cocina de Turquía, de Estambul a Anatolia: desayunos de menemen y çılbır, lahmacun, pide, börek, simit, mantı, kebabs de İskender y Adana, tavuk şiş, berenjenas karnıyarık e imam bayıldı, pilaf de bulgur, kısır, mercimek köftesi, ezme, ensalada del pastor y dulces como el künefe y el revani, con un ayran para beber.",
+      "coverImageUrl": "packs/cocina-turca/cover.jpg",
+      "latestVersion": 1,
+      "recipeCount": 20,
+      "downloadUrl": "dist/cocina-turca-v1.zip",
+      "sha256": "fbca7981e490d266964af9fa64e383a2efd071be69ca3235b3ed9177e29441ea",
       "language": "es"
     },
     {
@@ -630,6 +690,21 @@
       "downloadUrl": "dist/freidora-de-aire-v3.zip",
       "sha256": "0e00e1c62db3ba9e91e4853701bfdbf877686eef0e08c8e8b408d64691d66d8f",
       "language": "es"
+    },
+    {
+      "id": "french-cooking",
+      "name": "World cuisine: France",
+      "series": "World cuisine",
+      "family": "cocina-francesa",
+      "author": "Miga",
+      "authorGithub": "calamares00",
+      "description": "The classics of French bistro and home cooking: beef bourguignon, coq au vin, quiche Lorraine, croque monsieur, gratin dauphinois, bouillabaisse, cassoulet, blanquette de veau, moules marinières, duck breast with orange, hachis parmentier, cheese soufflé, Lyonnaise salad, pissaladière, tapenade and, for dessert, tarte Tatin, crème brûlée, profiteroles, cherry clafoutis and madeleines. With butter, wine and herbs.",
+      "coverImageUrl": "packs/french-cooking/cover.jpg",
+      "latestVersion": 1,
+      "recipeCount": 20,
+      "downloadUrl": "dist/french-cooking-v1.zip",
+      "sha256": "e54c8c84da2c2e2359ea93a5af36da93b99a8ad8750532507330e035a914527b",
+      "language": "en"
     },
     {
       "id": "fusion-anglo-india",
@@ -854,6 +929,36 @@
       "recipeCount": 20,
       "downloadUrl": "dist/greek-cooking-v3.zip",
       "sha256": "6c7d1a8bb5f1bd94388b8e95dcaf9f5988bfb1f406780503820b52c1fa9b12e8",
+      "language": "en"
+    },
+    {
+      "id": "halloween",
+      "name": "Halloween",
+      "series": "Especiales",
+      "family": "halloween",
+      "author": "Miga",
+      "authorGithub": "calamares00",
+      "description": "Recetas para una fiesta de Halloween, con calabaza y mucho juego para hacer con los peques: sopa de calabaza y boniato, momias de salchicha, pizza telaraña, huevos endiablados con arañas, dedos de bruja, fantasmas de plátano, mandarinas calabaza, brownie cementerio, manzanas de caramelo, pan de calabaza, galletas de calabaza con especias y ponche de bruja. Pregunta por alergias, y cuidado con el caramelo caliente y las aceitunas enteras con los más pequeños.",
+      "coverImageUrl": "packs/halloween/cover.jpg",
+      "latestVersion": 1,
+      "recipeCount": 12,
+      "downloadUrl": "dist/halloween-v1.zip",
+      "sha256": "3bcf685af6948eaed8894f32192b50e4a488c331360d25db004bff1fdc129cb2",
+      "language": "es"
+    },
+    {
+      "id": "halloween-party",
+      "name": "Halloween",
+      "series": "Specials",
+      "family": "halloween",
+      "author": "Miga",
+      "authorGithub": "calamares00",
+      "description": "Recipes for a Halloween party, with pumpkin and plenty of fun to make with the kids: pumpkin and sweet potato soup, sausage mummies, spiderweb pizza, spider deviled eggs, witch fingers, banana ghosts, clementine pumpkins, graveyard brownies, candy apples, pumpkin bread, spiced pumpkin cookies and witch's brew punch. Ask about allergies, and take care with hot caramel and whole olives around little ones.",
+      "coverImageUrl": "packs/halloween-party/cover.jpg",
+      "latestVersion": 1,
+      "recipeCount": 12,
+      "downloadUrl": "dist/halloween-party-v1.zip",
+      "sha256": "ac2a1ab5a8b8f11fd46d4a54b28db86a490dc08b58527012acd4fd7eda7a08ef",
       "language": "en"
     },
     {
@@ -1127,6 +1232,21 @@
       "language": "en"
     },
     {
+      "id": "korean-cooking",
+      "name": "World cuisine: Korea",
+      "series": "World cuisine",
+      "family": "cocina-coreana",
+      "author": "Miga",
+      "authorGithub": "calamares00",
+      "description": "The cooking of Korea, spicy, fermented and made for sharing: bibimbap, bulgogi, homemade kimchi, japchae, kimbap, tteokbokki, kimchi and soft tofu stews, samgyetang, seafood pajeon, kimchi fried rice, dakgalbi, Korean fried chicken, galbi jjim, bossam, side dishes (banchan) such as rolled omelette, seasoned bean sprouts and cucumber salad and, for dessert, hotteok and patbingsu. Gochujang and gochugaru are sold in Asian shops.",
+      "coverImageUrl": "packs/korean-cooking/cover.jpg",
+      "latestVersion": 1,
+      "recipeCount": 20,
+      "downloadUrl": "dist/korean-cooking-v1.zip",
+      "sha256": "d1207c1c93f32334c586872d76693655ff4c28dd70d03f6c475668ce08ad33cb",
+      "language": "en"
+    },
+    {
       "id": "leftovers-cooking",
       "name": "Use-it-up cooking",
       "series": "Everyday cooking",
@@ -1214,6 +1334,21 @@
       "recipeCount": 12,
       "downloadUrl": "dist/microwave-v1.zip",
       "sha256": "e96db6f46284e68aff7510bac1d3330e35f63b1893284d6fc4ae0859cc18121f",
+      "language": "en"
+    },
+    {
+      "id": "moroccan-cooking",
+      "name": "World cuisine: Morocco",
+      "series": "World cuisine",
+      "family": "cocina-marroqui",
+      "author": "Miga",
+      "authorGithub": "calamares00",
+      "description": "The cooking of Morocco, with gentle spices and slow simmering: seven-vegetable couscous, harira, chicken pastilla, tagines of lamb with prunes, kefta with eggs and fish, zaalouk, salads, bissara, briouats, rfissa, mechoui and kefta skewers, breads such as msemen, khobz and baghrir, honey and almond sweets and mint tea.",
+      "coverImageUrl": "packs/moroccan-cooking/cover.jpg",
+      "latestVersion": 1,
+      "recipeCount": 20,
+      "downloadUrl": "dist/moroccan-cooking-v1.zip",
+      "sha256": "0af36cbbd4bfc9955bd016da8e486ac14fe29b75c4921dc0976210390edffc5f",
       "language": "en"
     },
     {
@@ -1784,6 +1919,21 @@
       "recipeCount": 15,
       "downloadUrl": "dist/thermomix-stews-and-one-pot-v2.zip",
       "sha256": "9aaebca3d50a1d713da792b97d0ce1fa736bcb4f53065fb380b07722ad8b45a4",
+      "language": "en"
+    },
+    {
+      "id": "turkish-cooking",
+      "name": "World cuisine: Turkey",
+      "series": "World cuisine",
+      "family": "cocina-turca",
+      "author": "Miga",
+      "authorGithub": "calamares00",
+      "description": "The cooking of Turkey, from Istanbul to Anatolia: breakfasts of menemen and çılbır, lahmacun, pide, börek, simit, mantı, İskender and Adana kebabs, chicken şiş, karnıyarık and imam bayıldı aubergines, bulgur pilaf, kısır, mercimek köftesi, ezme, shepherd's salad and sweets such as künefe and revani, with ayran to drink.",
+      "coverImageUrl": "packs/turkish-cooking/cover.jpg",
+      "latestVersion": 1,
+      "recipeCount": 20,
+      "downloadUrl": "dist/turkish-cooking-v1.zip",
+      "sha256": "d22109436e477f417f9edbde6134e754114b23253efa108471d0ba1fa5a73671",
       "language": "en"
     },
     {

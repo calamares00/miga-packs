@@ -57,6 +57,8 @@ Cada pack está en español y en inglés; la app muestra los del idioma en que l
 | 🎄 [Christmas special](packs/christmas-special/pack.yaml) | Specials | en | 22 | [christmas-special-v3.zip](dist/christmas-special-v3.zip) |
 | 🎂 [Cumpleaños infantiles](packs/cumpleanos-infantiles/pack.yaml) | Especiales | es | 12 | [cumpleanos-infantiles-v2.zip](dist/cumpleanos-infantiles-v2.zip) |
 | 🎂 [Kids' birthday party](packs/kids-birthday-party/pack.yaml) | Specials | en | 12 | [kids-birthday-party-v2.zip](dist/kids-birthday-party-v2.zip) |
+| 🎃 [Halloween](packs/halloween/pack.yaml) | Especiales | es | 12 | [halloween-v1.zip](dist/halloween-v1.zip) |
+| 🎃 [Halloween](packs/halloween-party/pack.yaml) | Specials | en | 12 | [halloween-party-v1.zip](dist/halloween-party-v1.zip) |
 | 🔥 [Barbacoa](packs/barbacoa/pack.yaml) | Especiales | es | 15 | [barbacoa-v2.zip](dist/barbacoa-v2.zip) |
 | 🔥 [Barbecue](packs/barbecue/pack.yaml) | Specials | en | 15 | [barbecue-v2.zip](dist/barbecue-v2.zip) |
 | 🕯️ [Semana Santa](packs/semana-santa/pack.yaml) | Especiales | es | 12 | [semana-santa-v1.zip](dist/semana-santa-v1.zip) |
@@ -91,6 +93,14 @@ Cada pack está en español y en inglés; la app muestra los del idioma en que l
 | 🍲 [World cuisine: Thailand](packs/thai-cooking/pack.yaml) | World cuisine | en | 20 | [thai-cooking-v3.zip](dist/thai-cooking-v3.zip) |
 | 🍜 [Cocina del mundo: Vietnam](packs/cocina-vietnamita/pack.yaml) | Cocina del mundo | es | 20 | [cocina-vietnamita-v3.zip](dist/cocina-vietnamita-v3.zip) |
 | 🍜 [World cuisine: Vietnam](packs/vietnamese-cooking/pack.yaml) | World cuisine | en | 20 | [vietnamese-cooking-v3.zip](dist/vietnamese-cooking-v3.zip) |
+| 🥐 [Cocina del mundo: Francia](packs/cocina-francesa/pack.yaml) | Cocina del mundo | es | 20 | [cocina-francesa-v1.zip](dist/cocina-francesa-v1.zip) |
+| 🥐 [World cuisine: France](packs/french-cooking/pack.yaml) | World cuisine | en | 20 | [french-cooking-v1.zip](dist/french-cooking-v1.zip) |
+| 🫖 [Cocina del mundo: Marruecos](packs/cocina-marroqui/pack.yaml) | Cocina del mundo | es | 20 | [cocina-marroqui-v1.zip](dist/cocina-marroqui-v1.zip) |
+| 🫖 [World cuisine: Morocco](packs/moroccan-cooking/pack.yaml) | World cuisine | en | 20 | [moroccan-cooking-v1.zip](dist/moroccan-cooking-v1.zip) |
+| 🧆 [Cocina del mundo: Turquía](packs/cocina-turca/pack.yaml) | Cocina del mundo | es | 20 | [cocina-turca-v1.zip](dist/cocina-turca-v1.zip) |
+| 🧆 [World cuisine: Turkey](packs/turkish-cooking/pack.yaml) | World cuisine | en | 20 | [turkish-cooking-v1.zip](dist/turkish-cooking-v1.zip) |
+| 🥬 [Cocina del mundo: Corea](packs/cocina-coreana/pack.yaml) | Cocina del mundo | es | 20 | [cocina-coreana-v1.zip](dist/cocina-coreana-v1.zip) |
+| 🥬 [World cuisine: Korea](packs/korean-cooking/pack.yaml) | World cuisine | en | 20 | [korean-cooking-v1.zip](dist/korean-cooking-v1.zip) |
 | 🫖 [Cocina fusión: anglo-india](packs/fusion-anglo-india/pack.yaml) | Cocina fusión | es | 8 | [fusion-anglo-india-v1.zip](dist/fusion-anglo-india-v1.zip) |
 | 🫖 [Fusion cuisine: Anglo-Indian](packs/anglo-indian-fusion/pack.yaml) | Fusion cuisine | en | 8 | [anglo-indian-fusion-v1.zip](dist/anglo-indian-fusion-v1.zip) |
 | 🥢 [Cocina fusión: chifa](packs/fusion-chifa/pack.yaml) | Cocina fusión | es | 8 | [fusion-chifa-v1.zip](dist/fusion-chifa-v1.zip) |

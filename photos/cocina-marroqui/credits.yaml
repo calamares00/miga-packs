@@ -1,0 +1,87 @@
+# Origin of every photo in this folder: source page, author and licence (CC0 1.0, Public domain,
+# CC BY x.y or CC BY-SA x.y). tools/build.py refuses a recipe photo without an entry here.
+
+cuscus-con-siete-verduras.jpg:
+  source: https://commons.wikimedia.org/wiki/File%3A%D9%83%D8%B3%D9%83%D8%B3_Couscous%3B_Cusc%C3%BAs_%28Las_Siete_Orillas_project%29.jpg
+  author: "El Mono Español"
+  license: CC BY-SA 4.0
+
+harira.jpg:
+  source: https://commons.wikimedia.org/wiki/File%3A%D8%AD%D8%B1%D9%8A%D8%B1%D8%A9.jpg
+  author: "إيان"
+  license: CC BY-SA 4.0
+
+pastela-de-pollo.jpg:
+  source: https://commons.wikimedia.org/wiki/File%3AFish_pastilla%2C_Beni_Mellal%2C_Morocco.jpg
+  author: "Vassia Atanassova - Spiritia"
+  license: CC BY-SA 4.0
+
+tajin-de-cordero-con-ciruelas.jpg:
+  source: https://commons.wikimedia.org/wiki/File%3AIB_tajine_03.jpg
+  author: "Iron Bishop"
+  license: CC BY-SA 3.0
+
+tajin-de-pescado.jpg:
+  source: https://commons.wikimedia.org/wiki/File%3ACulture_sp%C3%A9cial_marocaine.jpg
+  author: "MBA ABESS"
+  license: CC BY-SA 4.0
+
+zaalouk.jpg:
+  source: https://commons.wikimedia.org/wiki/File%3AZaalouk-01.JPG
+  author: "Tamorlan"
+  license: CC BY-SA 3.0
+
+bissara.jpg:
+  source: https://commons.wikimedia.org/wiki/File%3ABissara_%28Moroccan_Dip%29.JPG
+  author: "Miansari66"
+  license: CC0 1.0
+
+briouats-de-queso.jpg:
+  source: https://commons.wikimedia.org/wiki/File%3ABriouat_%28cropped%29.jpg
+  author: "Christian Muise"
+  license: CC BY-SA 2.0
+
+rfissa.jpg:
+  source: https://commons.wikimedia.org/wiki/File%3AERrfisa.jpg
+  author: "مصطفى ملو"
+  license: CC BY-SA 4.0
+
+mechui-de-cordero.jpg:
+  source: https://commons.wikimedia.org/wiki/File%3AMechwi_noices.JPG
+  author: "Lucyin"
+  license: CC BY-SA 4.0
+
+pinchos-de-kefta.jpg:
+  source: https://commons.wikimedia.org/wiki/File%3APlat_brochette_Kefta.jpg
+  author: "Samira hiba"
+  license: CC BY 4.0
+
+msemen.jpg:
+  source: https://commons.wikimedia.org/wiki/File%3ASmen_msemmen.jpg
+  author: "Lucyin"
+  license: CC BY-SA 3.0
+
+khobz.jpg:
+  source: https://commons.wikimedia.org/wiki/File%3AMatlou3.jpg
+  author: "Heeculemdd"
+  license: CC BY-SA 4.0
+
+baghrir.jpg:
+  source: https://commons.wikimedia.org/wiki/File%3ABaghrir_2.jpg
+  author: "Sabah HAANA"
+  license: CC BY-SA 4.0
+
+chebakia.jpg:
+  source: https://commons.wikimedia.org/wiki/File%3AChebbakiyya_of_Morocco.jpg
+  author: "مصطفى ملو"
+  license: CC BY-SA 4.0
+
+cuernos-de-gacela.jpg:
+  source: https://commons.wikimedia.org/wiki/File%3ACornes_de_gazelle_tataouine.jpg
+  author: "Dar El Mahchi"
+  license: CC BY-SA 4.0
+
+te-moruno-con-hierbabuena.jpg:
+  source: https://commons.wikimedia.org/wiki/File%3AMoroccan_mint_tea_with_sweets.jpg
+  author: "مصطفى ملو"
+  license: CC BY-SA 4.0

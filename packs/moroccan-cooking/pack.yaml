@@ -1,0 +1,646 @@
+id: moroccan-cooking
+version: 1
+updated: 2026-11-14
+language: en
+name: "World cuisine: Morocco"
+series: World cuisine
+family: cocina-marroqui
+description: >-
+  The cooking of Morocco, with gentle spices and slow simmering: seven-vegetable couscous, harira,
+  chicken pastilla, tagines of lamb with prunes, kefta with eggs and fish, zaalouk, salads,
+  bissara, briouats, rfissa, mechoui and kefta skewers, breads such as msemen, khobz and baghrir,
+  honey and almond sweets and mint tea.
+author: Miga
+authorGithub: calamares00
+cover:
+  emoji: "🫖"
+  kicker: World cuisine
+  title: Morocco
+  colors: ["#b91c1c", "#15803d"]
+defaults:
+  origin: Morocco
+  originCountry: MA
+  source: "Miga «World cuisine: Morocco» pack"
+recipes:
+
+  - name: Seven-vegetable couscous
+    health: [GREEN, "Semolina with lots of vegetables and chickpeas: complete and high in fibre."]
+    nutrition: [560, 28, 78, 15]
+    photo: cocina-marroqui/cuscus-con-siete-verduras.jpg
+    category: Pasta
+    difficulty: MEDIUM
+    prep: 30
+    cook: 75
+    servings: 6
+    notes: The Friday couscous. The semolina is steamed over the stew in a couscoussier; with instant couscous, just soak it in the broth.
+    tags: [couscous, vegetables, one-pot]
+    utensils: [Steamer]
+    ingredients:
+      - items:
+          - [lamb or beef in pieces, 600, g]
+          - [medium-grain couscous, 500, g]
+          - [cooked chickpeas, 400, g]
+          - [onions, 2, null]
+          - [tomatoes, 2, null]
+          - [carrots, 3, null]
+          - [turnips, 2, null]
+          - [courgettes, 2, null]
+          - [piece of pumpkin, 400, g]
+          - [small cabbage, 0.5, null]
+          - [ground ginger, 1, tsp]
+          - [turmeric, 1, tsp]
+          - [black pepper, 1, tsp]
+          - [saffron threads, 1, pinch]
+          - [bunch of coriander and parsley, 1, null]
+          - [olive oil, 4, tbsp]
+          - [butter, 40, g]
+          - [salt, null, null]
+    steps:
+      - In the bottom of the couscoussier, sauté the meat with the onion, tomato, spices, oil and tied herbs for 10 minutes. Cover with 2 litres of water and simmer for 40 minutes.
+      - Add the carrots, turnips and cabbage and cook for 15 minutes; then the courgette, pumpkin and chickpeas, 15 minutes more.
+      - Meanwhile, moisten the couscous with a glass of salted water, rub it apart with your fingers and steam it in the top part for 15 minutes. Repeat twice more, moistening and fluffing between steamings.
+      - Toss the couscous with the butter, mound it on a platter with the meat in the centre and the vegetables around, and spoon over broth.
+
+  - name: Harira
+    health: [GREEN, "Soup of pulses, tomato and meat: lots of fibre and protein."]
+    nutrition: [340, 20, 46, 9]
+    photo: cocina-marroqui/harira.jpg
+    category: Soups
+    difficulty: MEDIUM
+    prep: 20
+    cook: 75
+    servings: 6
+    notes: The soup that breaks the fast in Ramadan, with dates and chebakia. Soak the dried chickpeas the night before.
+    tags: [soup, legumes, ramadan]
+    utensils: [Pressure cooker]
+    ingredients:
+      - items:
+          - [lamb or beef in small cubes, 250, g]
+          - [soaked dried chickpeas, 150, g]
+          - [lentils, 100, g]
+          - [onion, 1, null]
+          - [celery sticks, 2, null]
+          - [crushed ripe tomatoes, 500, g]
+          - [tomato paste, 2, tbsp]
+          - [bunch of coriander and parsley chopped, 1, null]
+          - [ground ginger, 1, tsp]
+          - [turmeric, 1, tsp]
+          - [ground cinnamon, 0.5, tsp]
+          - [vermicelli, 50, g]
+          - [flour, 3, tbsp]
+          - [olive oil, 2, tbsp]
+          - [lemons to serve, 2, null]
+          - [salt, null, null]
+    steps:
+      - Sauté the meat with the chopped onion and celery, the spices, half the herbs and the oil for 5 minutes.
+      - Add the chickpeas and 2 litres of water and simmer for 40 minutes (15 in a pressure cooker).
+      - Add the lentils, tomato and tomato paste and simmer 30 minutes more.
+      - Mix the flour with a glass of cold water and pour it in slowly while stirring to thicken. Add the vermicelli and the remaining herbs and cook for 5 minutes. Season.
+      - Serve with lemon to squeeze over.
+
+  - name: Chicken pastilla
+    health: [RED, "Crisp pastry with chicken, almonds and sugar: very high in calories."]
+    nutrition: [640, 32, 52, 34]
+    photo: cocina-marroqui/pastela-de-pollo.jpg
+    category: Breads and doughs
+    difficulty: HARD
+    prep: 45
+    cook: 90
+    servings: 8
+    notes: Bastilla, the festive dish of Fez, sweet and savoury at once. Traditionally made with pigeon.
+    tags: [celebration, oven, chicken]
+    origin: Fez
+    utensils: [Oven]
+    ingredients:
+      - group: For the filling
+        items:
+          - [chicken thighs, 1.2, kg]
+          - [onions, 3, null]
+          - [bunch of parsley and coriander chopped, 1, null]
+          - [ground ginger, 1, tsp]
+          - [ground cinnamon, 1, tsp]
+          - [ras el hanout, 1, tsp]
+          - [saffron threads, 1, pinch]
+          - [eggs, 6, null]
+          - [butter, 50, g]
+          - [salt, null, null]
+      - group: For the almonds and assembly
+        items:
+          - [blanched almonds, 250, g]
+          - [icing sugar, 60, g]
+          - [ground cinnamon for the almonds, 1, tsp]
+          - [orange blossom water, 1, tbsp]
+          - [warqa or brick pastry sheets, 12, null]
+          - [melted butter for brushing, 80, g]
+          - [icing sugar and cinnamon to decorate, null, null]
+    steps:
+      - Cook the chicken with the grated onion, spices, herbs, butter and a glass of water, covered, for 1 hour. Take out the chicken and shred it without skin or bones.
+      - Reduce the sauce by half, add the beaten eggs and stir over low heat until they set in curds. Drain.
+      - Fry or toast the almonds, chop them coarsely and mix with the sugar, cinnamon and orange blossom water.
+      - Heat the oven to 180 °C. Line a round tin with 8 buttered pastry sheets, overlapping and hanging over the edge.
+      - Layer egg, chicken and almonds, fold the overhanging sheets over, top with 4 more buttered sheets and tuck the edges underneath.
+      - Bake for 30 minutes, until golden. Decorate with icing sugar and lines of cinnamon.
+
+  - name: Lamb tagine with prunes
+    health: [YELLOW, "Lamb with dried fruit and honey: protein and iron, but sweet and with fat."]
+    nutrition: [620, 38, 46, 32]
+    photo: cocina-marroqui/tajin-de-cordero-con-ciruelas.jpg
+    category: Meat
+    difficulty: MEDIUM
+    prep: 20
+    cook: 120
+    servings: 6
+    notes: The festive tagine, topped with fried almonds and sesame. A heavy-based casserole works too.
+    tags: [tagine, lamb, celebration]
+    utensils: []
+    ingredients:
+      - items:
+          - [lamb shoulder or neck in pieces, 1.5, kg]
+          - [onions, 2, null]
+          - [prunes, 250, g]
+          - [honey, 3, tbsp]
+          - [cinnamon stick, 1, null]
+          - [ground cinnamon, 1, tsp]
+          - [ground ginger, 1, tsp]
+          - [saffron threads, 1, pinch]
+          - [butter, 30, g]
+          - [olive oil, 3, tbsp]
+          - [blanched almonds, 80, g]
+          - [toasted sesame seeds, 1, tbsp]
+          - [salt, null, null]
+    steps:
+      - Put the lamb in the tagine or casserole with the grated onion, spices, oil, butter, salt and a glass of water. Cover and simmer gently for 1½ hours, until tender.
+      - Soak the prunes in warm water for 15 minutes and cook them separately with the honey, cinnamon stick and a little of the stew liquid until glazed.
+      - Fry the almonds in a little oil until golden.
+      - Reduce the lamb sauce if very thin and serve topped with the prunes, almonds and sesame.
+
+  - name: Kefta tagine with eggs
+    health: [YELLOW, "Meatballs in tomato sauce with egg: lots of protein, some fat."]
+    nutrition: [480, 34, 12, 33]
+    category: Meat
+    difficulty: EASY
+    prep: 20
+    cook: 35
+    servings: 4
+    notes: Eaten straight from the tagine, scooping with khobz bread.
+    tags: [tagine, meatballs, eggs]
+    utensils: []
+    ingredients:
+      - group: For the kefta
+        items:
+          - [minced beef and lamb, 500, g]
+          - [small grated onion, 1, null]
+          - [chopped parsley and coriander, 3, tbsp]
+          - [ground cumin, 1, tsp]
+          - [sweet paprika, 1, tsp]
+          - [salt, null, null]
+      - group: For the sauce
+        items:
+          - [grated ripe tomatoes, 800, g]
+          - [garlic cloves, 3, null]
+          - [ground cumin for the sauce, 1, tsp]
+          - [sweet paprika for the sauce, 1, tsp]
+          - [chilli, 1, pinch, optional]
+          - [olive oil, 3, tbsp]
+          - [eggs, 4, null]
+    steps:
+      - Mix the kefta ingredients and shape into walnut-sized meatballs.
+      - In the tagine or a deep frying pan, simmer the tomato with the chopped garlic, spices, oil and salt for 15 minutes.
+      - Add the meatballs and cook, covered, for 15 minutes.
+      - Crack the eggs on top, cover and leave for 5 minutes, until the whites set. Sprinkle with parsley.
+
+  - name: Fish tagine
+    health: [GREEN, "White fish with vegetables and chermoula: lots of protein and little fat."]
+    nutrition: [380, 34, 28, 14]
+    photo: cocina-marroqui/tajin-de-pescado.jpg
+    category: Fish and seafood
+    difficulty: MEDIUM
+    prep: 30
+    cook: 40
+    servings: 4
+    notes: Chermoula is the herb and spice marinade of the Moroccan coast. Marinate the fish for at least 1 hour.
+    tags: [tagine, fish, gluten-free]
+    utensils: []
+    ingredients:
+      - group: For the chermoula
+        items:
+          - [bunch of coriander and parsley, 1, null]
+          - [garlic cloves, 4, null]
+          - [ground cumin, 1, tsp]
+          - [sweet paprika, 2, tsp]
+          - [lemon juice, 1, null]
+          - [olive oil, 5, tbsp]
+          - [salt, null, null]
+      - group: For the tagine
+        items:
+          - ["white fish steaks (hake, meagre or sea bream)", 1, kg]
+          - [potatoes, 3, null]
+          - [tomatoes, 3, null]
+          - [green pepper, 1, null]
+          - [carrot, 1, null]
+          - [green olives, 80, g]
+          - [preserved lemon, 1, null]
+    steps:
+      - Blend the chermoula ingredients and marinate the fish in half of it for at least 1 hour.
+      - Layer thin slices of potato and carrot in the base of the tagine, then the tomato and pepper strips, and pour over the rest of the chermoula and half a glass of water.
+      - Cover and cook gently for 20 minutes.
+      - Lay the fish on top with the olives and strips of preserved lemon, cover and cook 15 minutes more.
+
+  - name: Zaalouk
+    health: [GREEN, "Aubergine and tomato with spices and olive oil: light and with fibre."]
+    nutrition: [150, 3, 14, 10]
+    photo: cocina-marroqui/zaalouk.jpg
+    category: Vegetables
+    difficulty: EASY
+    prep: 15
+    cook: 35
+    servings: 4
+    notes: A cooked salad eaten warm or cold, with bread. Charring the aubergine over a flame gives a smoky flavour.
+    tags: [aubergine, vegan, gluten-free]
+    utensils: []
+    ingredients:
+      - items:
+          - [aubergines, 2, null]
+          - [ripe tomatoes, 4, null]
+          - [garlic cloves, 3, null]
+          - [ground cumin, 1, tsp]
+          - [sweet paprika, 1, tsp]
+          - [chopped coriander and parsley, 3, tbsp]
+          - [extra virgin olive oil, 4, tbsp]
+          - [lemon juice, 1, tbsp]
+          - [salt, null, null]
+    steps:
+      - Roast the whole aubergines in the oven or over a flame until soft. Peel and chop them.
+      - Peel and grate the tomatoes and cook them with the chopped garlic, spices and oil for 10 minutes.
+      - Add the aubergine and cook, mashing with a fork, for 15 minutes, until you have a textured purée.
+      - Add the herbs and lemon, season and serve warm or cold.
+
+  - name: Moroccan salad
+    health: [GREEN, "Tomato, cucumber and onion with herbs: fresh and light."]
+    nutrition: [90, 2, 9, 6]
+    category: Salads
+    difficulty: EASY
+    prep: 15
+    cook: 0
+    servings: 4
+    notes: Everything is cut into very small dice. Goes with tagines and skewers.
+    tags: [salad, vegan, gluten-free, quick]
+    utensils: []
+    ingredients:
+      - items:
+          - [firm tomatoes, 4, null]
+          - [cucumber, 1, null]
+          - [green pepper, 1, null]
+          - [small red onion, 1, null]
+          - [chopped parsley and coriander, 3, tbsp]
+          - [ground cumin, 0.5, tsp]
+          - [lemon juice, 1, tbsp]
+          - [extra virgin olive oil, 2, tbsp]
+          - [salt, null, null]
+    steps:
+      - Cut the tomatoes, cucumber, pepper and onion into very small dice.
+      - Mix with the herbs.
+      - Dress with the oil, lemon, cumin and salt just before serving.
+
+  - name: Carrot salad with cumin
+    health: [GREEN, "Cooked carrots with spices: fibre and vitamin A with very little fat."]
+    nutrition: [110, 1, 13, 6]
+    category: Salads
+    difficulty: EASY
+    prep: 10
+    cook: 10
+    servings: 4
+    notes: One of the cooked salads that open any Moroccan meal.
+    tags: [salad, vegan, gluten-free]
+    utensils: []
+    ingredients:
+      - items:
+          - [carrots, 600, g]
+          - [garlic cloves, 2, null]
+          - [ground cumin, 1, tsp]
+          - [sweet paprika, 0.5, tsp]
+          - [ground cinnamon, 1, pinch]
+          - [lemon juice, 1, tbsp]
+          - [extra virgin olive oil, 2, tbsp]
+          - [chopped parsley, 2, tbsp]
+          - [salt, null, null]
+    steps:
+      - Peel and slice the carrots and boil them with the garlic in salted water for 8-10 minutes, until tender but firm.
+      - Drain and crush the garlic.
+      - Dress with the remaining ingredients and leave to cool.
+
+  - name: Bissara
+    health: [GREEN, "Dried broad bean purée with oil: lots of plant protein and fibre."]
+    nutrition: [320, 18, 40, 10]
+    photo: cocina-marroqui/bissara.jpg
+    category: Legumes
+    difficulty: EASY
+    prep: 10
+    cook: 60
+    servings: 4
+    notes: The winter breakfast of northern Morocco. Served with a good drizzle of oil, cumin and paprika.
+    tags: [legumes, vegan, gluten-free, winter]
+    utensils: [Blender, Pressure cooker]
+    ingredients:
+      - items:
+          - [split dried broad beans, 300, g]
+          - [garlic cloves, 4, null]
+          - [ground cumin, 2, tsp]
+          - [sweet paprika, 1, tsp]
+          - [extra virgin olive oil, 5, tbsp]
+          - [lemon juice, 1, tbsp]
+          - [salt, null, null]
+    steps:
+      - Rinse the beans and simmer them with the garlic in 1.5 litres of water for 50-60 minutes (20 in a pressure cooker), until they fall apart.
+      - Blend with half the cumin, the salt and half the oil into a thick soup; add water if needed.
+      - Serve in bowls with the rest of the oil, cumin, paprika and a few drops of lemon.
+
+  - name: Cheese briouats
+    health: [RED, "Fried triangles of brick pastry: very high in calories."]
+    nutrition: [290, 9, 18, 20]
+    photo: cocina-marroqui/briouats-de-queso.jpg
+    category: Starters
+    difficulty: MEDIUM
+    prep: 30
+    cook: 15
+    servings: 6
+    notes: Makes about 24. They can also be baked at 200 °C, brushed with butter.
+    tags: [appetizer, fried, vegetarian]
+    utensils: []
+    ingredients:
+      - items:
+          - [fresh cheese or feta, 200, g]
+          - [grated mozzarella, 100, g]
+          - [egg, 1, null]
+          - [chopped parsley and coriander, 3, tbsp]
+          - [ground cumin, 0.5, tsp]
+          - [warqa or brick pastry sheets, 8, null]
+          - [oil for frying, null, null]
+    steps:
+      - Crumble the cheeses and mix with the egg, herbs and cumin.
+      - Cut the pastry sheets into 6 cm wide strips.
+      - Put a teaspoon of filling at one end and fold into triangles to the end of the strip. Seal with a little egg.
+      - Fry in hot oil until golden and drain on paper.
+
+  - name: Rfissa
+    health: [YELLOW, "Chicken with lentils over msemen: complete, but heavy."]
+    nutrition: [690, 42, 62, 30]
+    photo: cocina-marroqui/rfissa.jpg
+    category: Meat
+    difficulty: HARD
+    prep: 30
+    cook: 90
+    servings: 6
+    notes: A celebration dish made after a birth. Use day-old msemen. Fenugreek is the spice that gives its aroma.
+    tags: [chicken, legumes, celebration]
+    utensils: []
+    ingredients:
+      - items:
+          - [free-range chicken in pieces, 1.5, kg]
+          - [day-old msemen or trid, 8, null]
+          - [lentils, 150, g]
+          - [soaked fenugreek seeds, 2, tbsp]
+          - [onions, 3, null]
+          - [ras el hanout, 2, tsp]
+          - [ground ginger, 1, tsp]
+          - [saffron threads, 1, pinch]
+          - [bunch of coriander and parsley, 1, null]
+          - [butter, 30, g]
+          - [olive oil, 4, tbsp]
+          - [salt, null, null]
+    steps:
+      - Sauté the chicken with the sliced onion, spices, oil, butter and tied herbs for 10 minutes.
+      - Add the fenugreek, lentils and 1.5 litres of water and simmer, covered, for 1 hour, until the chicken is tender.
+      - Tear the msemen into strips and warm them over steam for 10 minutes.
+      - Arrange the msemen on a platter, pour over plenty of broth and top with the chicken and lentils.
+
+  - name: Lamb mechoui
+    health: [YELLOW, "Lamb roasted with butter and spices: lots of protein and fat."]
+    nutrition: [620, 46, 1, 48]
+    photo: cocina-marroqui/mechui-de-cordero.jpg
+    category: Meat
+    difficulty: MEDIUM
+    prep: 15
+    cook: 240
+    servings: 6
+    notes: The roast lamb of celebrations. Served with cumin and salt for dipping, and eaten with your hands.
+    tags: [lamb, oven, celebration, gluten-free]
+    utensils: [Oven]
+    ingredients:
+      - items:
+          - [lamb shoulders, 2, null]
+          - [soft butter, 80, g]
+          - [garlic cloves, 4, null]
+          - [ground cumin, 2, tsp]
+          - [sweet paprika, 2, tsp]
+          - [saffron threads, 1, pinch]
+          - [salt, null, null]
+          - [cumin and salt to serve, null, null]
+    steps:
+      - Mix the butter with the crushed garlic, spices and salt.
+      - Make a few cuts in the meat and rub it well with the butter. Leave for 1 hour.
+      - Roast at 160 °C in a dish with a glass of water, covered with foil, for 3 hours, basting now and then.
+      - Uncover, raise to 220 °C and roast 30 minutes more, until the skin is crisp and the meat comes off the bone.
+
+  - name: Kefta skewers
+    health: [YELLOW, "Grilled minced meat: lots of protein, with the fat of the meat."]
+    nutrition: [380, 28, 4, 28]
+    photo: cocina-marroqui/pinchos-de-kefta.jpg
+    category: Meat
+    difficulty: EASY
+    prep: 20
+    cook: 10
+    servings: 4
+    notes: The street-stall skewers. Stuff them into khobz with Moroccan salad.
+    tags: [barbecue, minced meat, gluten-free]
+    utensils: [Barbecue]
+    ingredients:
+      - items:
+          - [minced beef and lamb, 600, g]
+          - [small onion grated and squeezed, 1, null]
+          - [chopped parsley and coriander, 4, tbsp]
+          - [ground cumin, 1, tsp]
+          - [sweet paprika, 1, tsp]
+          - [ground cinnamon, 1, pinch]
+          - [salt, 1, tsp]
+    steps:
+      - Mix and knead all the ingredients well. Rest in the fridge for 30 minutes.
+      - Mould the meat around flat skewers into long sausages.
+      - Grill on a very hot barbecue or griddle for 8-10 minutes, turning.
+
+  - name: Msemen
+    health: [YELLOW, "Flaky semolina and flour flatbread with butter: high in calories."]
+    nutrition: [280, 6, 40, 11]
+    photo: cocina-marroqui/msemen.jpg
+    category: Breads and doughs
+    difficulty: MEDIUM
+    prep: 40
+    cook: 20
+    servings: 8
+    notes: The square breakfast flatbreads, with honey and butter or with fresh cheese.
+    tags: [bread, breakfast, vegetarian]
+    utensils: [Griddle]
+    ingredients:
+      - items:
+          - [plain flour, 300, g]
+          - [fine semolina, 100, g]
+          - [salt, 1, tsp]
+          - [sugar, 1, tsp]
+          - [warm water, 250, ml]
+          - [oil, 60, ml]
+          - [soft butter, 50, g]
+          - [fine semolina for sprinkling, 3, tbsp]
+    steps:
+      - Knead the flour, semolina, salt, sugar and water for 10 minutes, until very elastic. Divide into 8 balls, oil them and rest for 15 minutes.
+      - With oiled hands, stretch each ball until very thin and translucent. Spread with butter and sprinkle with semolina.
+      - Fold the sides into the centre in thirds, then top to bottom, into a square. Flatten with your hand.
+      - Cook on the griddle over medium heat for 3-4 minutes per side, until golden and flaky.
+
+  - name: Khobz
+    health: [GREEN, "Flour and semolina bread: simple carbohydrates, hardly any fat."]
+    nutrition: [210, 7, 42, 2]
+    photo: cocina-marroqui/khobz.jpg
+    category: Breads and doughs
+    difficulty: EASY
+    prep: 20
+    cook: 25
+    servings: 8
+    notes: The round, flat everyday bread, for scooping up tagines and salads.
+    tags: [bread, vegan]
+    utensils: [Oven, Stand mixer]
+    ingredients:
+      - items:
+          - [plain flour, 400, g]
+          - [fine semolina, 100, g]
+          - [dried yeast, 7, g]
+          - [salt, 1.5, tsp]
+          - [sugar, 1, tsp]
+          - [warm water, 320, ml]
+          - [olive oil, 1, tbsp]
+          - [anise or sesame seeds, 1, tbsp, optional]
+    steps:
+      - Knead all the ingredients for 10 minutes, until smooth.
+      - Divide into 2 balls, flatten into 2 cm thick discs on a tray dusted with semolina, cover and leave to rise for 1 hour.
+      - Heat the oven to 220 °C. Prick the loaves with a fork.
+      - Bake for 20-25 minutes, until golden and hollow-sounding underneath.
+
+  - name: Baghrir
+    health: [YELLOW, "Semolina pancakes with honey and butter: sweet."]
+    nutrition: [290, 6, 48, 9]
+    photo: cocina-marroqui/baghrir.jpg
+    category: Breads and doughs
+    difficulty: MEDIUM
+    prep: 15
+    cook: 30
+    servings: 6
+    notes: The thousand-hole pancakes. Cooked on one side only, without flipping, in a non-stick pan.
+    tags: [breakfast, snack, vegetarian]
+    utensils: [Blender]
+    ingredients:
+      - items:
+          - [fine semolina, 250, g]
+          - [plain flour, 50, g]
+          - [dried yeast, 7, g]
+          - [baking powder, 1, tsp]
+          - [sugar, 1, tbsp]
+          - [salt, 1, pinch]
+          - [warm water, 550, ml]
+          - [honey, 4, tbsp]
+          - [butter, 40, g]
+    steps:
+      - Blend everything except the honey and butter for 2 minutes into a smooth, runny batter. Rest for 30 minutes, until bubbly.
+      - Heat a non-stick pan over medium heat without fat and pour in a ladle of batter.
+      - Cook on one side only for 2 minutes, until the surface is full of holes and dry.
+      - Melt the honey with the butter and pour over the pancakes to serve.
+
+  - name: Chebakia
+    health: [RED, "Fried sesame biscuits soaked in honey: very sweet."]
+    nutrition: [150, 3, 18, 8]
+    photo: cocina-marroqui/chebakia.jpg
+    category: Desserts
+    difficulty: HARD
+    prep: 60
+    cook: 30
+    servings: 30
+    notes: The Ramadan sweet, shaped like a flower. Servings are pieces. Keeps for weeks in a tin.
+    tags: [dessert, fried, ramadan]
+    utensils: []
+    ingredients:
+      - items:
+          - [plain flour, 500, g]
+          - [toasted ground sesame seeds, 150, g]
+          - [sesame seeds to decorate, 50, g]
+          - [ground anise, 1, tsp]
+          - [ground cinnamon, 1, tsp]
+          - [saffron threads, 1, pinch]
+          - [egg, 1, null]
+          - [melted butter, 60, g]
+          - [vinegar, 2, tbsp]
+          - [orange blossom water, 60, ml]
+          - [dried yeast, 1, tsp]
+          - [honey, 1, kg]
+          - [oil for frying, null, null]
+    steps:
+      - Mix the flour with the ground sesame, spices, egg, butter, vinegar, orange blossom water and yeast and knead into a firm dough. Rest for 30 minutes.
+      - Roll thinly and cut 8 x 6 cm rectangles. Make 4 parallel cuts inside each rectangle without reaching the edges.
+      - Thread alternate strips over a finger, pinch the corners together and turn inside out to form the flower.
+      - Fry over medium heat until golden and transfer straight into the hot honey for 5 minutes.
+      - Drain and sprinkle with sesame.
+
+  - name: Gazelle horns
+    health: [RED, "Pastries filled with almond and sugar: sweet and rich."]
+    nutrition: [130, 3, 15, 7]
+    photo: cocina-marroqui/cuernos-de-gacela.jpg
+    category: Desserts
+    difficulty: HARD
+    prep: 60
+    cook: 15
+    servings: 30
+    notes: Kaab el ghzal, the fine pastry served with tea for guests. Servings are pieces.
+    tags: [dessert, almond]
+    utensils: [Oven, Food processor]
+    ingredients:
+      - group: For the almond paste
+        items:
+          - [ground almonds, 400, g]
+          - [icing sugar, 200, g]
+          - [melted butter, 40, g]
+          - [orange blossom water, 4, tbsp]
+          - [ground cinnamon, 0.5, tsp]
+      - group: For the dough
+        items:
+          - [plain flour, 250, g]
+          - [melted butter for the dough, 50, g]
+          - [egg, 1, null]
+          - [orange blossom water for the dough, 3, tbsp]
+          - [water, 60, ml]
+          - [salt, 1, pinch]
+    steps:
+      - Mix the almond paste ingredients into a mouldable paste. Shape into 6 cm logs with tapered ends.
+      - Knead the dough ingredients until very elastic and rest for 20 minutes.
+      - Roll very thinly, place a log of almond paste at the edge, wrap it, trim with a pastry wheel and bend into a crescent.
+      - "Prick with a needle and bake at 180 °C for 12-15 minutes without browning: they should stay pale."
+
+  - name: Moroccan mint tea
+    health: [YELLOW, "Green tea with mint: no fat, but traditionally very sweet."]
+    nutrition: [60, 0, 15, 0]
+    photo: cocina-marroqui/te-moruno-con-hierbabuena.jpg
+    category: Drinks
+    difficulty: EASY
+    prep: 5
+    cook: 10
+    servings: 6
+    notes: Atay is poured from a height to make it froth. Adjust the sugar to taste.
+    tags: [drink, tea]
+    utensils: []
+    ingredients:
+      - items:
+          - [gunpowder green tea, 2, tbsp]
+          - [bunch of fresh spearmint, 1, null]
+          - [sugar, 80, g]
+          - [water, 1, l]
+    steps:
+      - Put the tea in the teapot, add a glass of boiling water, swirl and pour the water away to rinse it.
+      - Add the rest of the boiling water and steep for 2 minutes.
+      - Add the mint and sugar and steep 3 minutes more.
+      - Pour a glass and return it to the pot two or three times to mix. Pour from a height into small glasses.

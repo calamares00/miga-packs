@@ -1,0 +1,102 @@
+# Origin of every photo in this folder: source page, author and licence (CC0 1.0, Public domain,
+# CC BY x.y or CC BY-SA x.y). tools/build.py refuses a recipe photo without an entry here.
+
+bibimbap.jpg:
+  source: https://commons.wikimedia.org/wiki/File%3AKorean.food-Bibimbap-02.jpg
+  author: "abex"
+  license: CC BY-SA 2.0
+
+bulgogi.jpg:
+  source: https://commons.wikimedia.org/wiki/File%3AKorean.cuisine-Bulgogi-01.jpg
+  author: "ayustety"
+  license: CC BY-SA 2.0
+
+kimchi.jpg:
+  source: https://commons.wikimedia.org/wiki/File%3AKorean_Kimchi_%282%29.jpg
+  author: "François Nguyen"
+  license: CC BY 2.0
+
+japchae.jpg:
+  source: https://commons.wikimedia.org/wiki/File%3AKorean_cuisine_japchae_2.jpg
+  author: "Appleby"
+  license: CC BY-SA 2.0
+
+kimbap.jpg:
+  source: https://commons.wikimedia.org/wiki/File%3AGimbap.jpg
+  author: "ProjectManhattan"
+  license: CC0 1.0
+
+tteokbokki.jpg:
+  source: https://commons.wikimedia.org/wiki/File%3ATteokbokki_making_process_step_5.jpg
+  author: "Teemeah"
+  license: CC BY-SA 4.0
+
+kimchi-jjigae.jpg:
+  source: https://commons.wikimedia.org/wiki/File%3AKimchi_jjigae_-_San_Francisco%2C_CA.jpg
+  author: "Daderot"
+  license: CC0 1.0
+
+sundubu-jjigae.jpg:
+  source: https://commons.wikimedia.org/wiki/File%3AKorean_stew-Sundubu_jjigae-07.jpg
+  author: "ayustety"
+  license: CC BY-SA 2.0
+
+samgyetang.jpg:
+  source: https://commons.wikimedia.org/wiki/File%3ASamgye-tang_2.jpg
+  author: "wizdata"
+  license: CC0 1.0
+
+pajeon-de-marisco.jpg:
+  source: https://commons.wikimedia.org/wiki/File%3AKorean_pan_cake-Dongnae_pajeon-01.jpg
+  author: "Jinho Jung from South Korea"
+  license: CC BY-SA 3.0
+
+arroz-frito-con-kimchi.jpg:
+  source: https://commons.wikimedia.org/wiki/File%3AKimchi_fried_rice.jpg
+  author: "Sharon Ang"
+  license: CC0 1.0
+
+dakgalbi.jpg:
+  source: https://commons.wikimedia.org/wiki/File%3AMuldakgalbi.jpg
+  author: "Kjoonlee"
+  license: CC BY 4.0
+
+pollo-frito-coreano.jpg:
+  source: https://commons.wikimedia.org/wiki/File%3AKorean_Fried_Chicken_-_Chikin.jpg
+  author: "Francesc Fort"
+  license: CC BY-SA 4.0
+
+galbi-jjim.jpg:
+  source: https://commons.wikimedia.org/wiki/File%3AGalbi-jjim_2.jpg
+  author: "Chun Yip So"
+  license: CC BY 2.0
+
+bossam.jpg:
+  source: https://commons.wikimedia.org/wiki/File%3A2015%EB%85%84_11%EC%9B%94_%EA%B0%95%EC%9B%90%EB%8F%84_%EB%8F%99%ED%95%B4%EC%8B%9C_%EB%A7%88%EB%8B%B9%EC%87%A0%EB%B3%B4%EC%8C%88_20151108_DSC04851.JPG
+  author: "Kwangmo"
+  license: CC0 1.0
+
+tortilla-enrollada-coreana.jpg:
+  source: https://commons.wikimedia.org/wiki/File%3AGyeran-mari_3.jpg
+  author: "Asadal"
+  license: CC BY 4.0
+
+brotes-de-soja-alinados.jpg:
+  source: https://commons.wikimedia.org/wiki/File%3ASukjunamul-muchim.jpg
+  author: "Eugene Kim"
+  license: CC BY 2.0
+
+ensalada-de-pepino-coreana.jpg:
+  source: https://commons.wikimedia.org/wiki/File%3ACucumbers_in_sesame_oil%2C_Chiang_Mai%2C_2018-07-27.jpg
+  author: "Bitterschoko"
+  license: CC0 1.0
+
+hotteok.jpg:
+  source: https://commons.wikimedia.org/wiki/File%3A%ED%95%9C%EA%B5%AD%EC%8B%9D_%ED%98%B8%EB%96%A1_20150313%EA%B3%84%EC%A0%88%EB%B0%A5%EC%83%81_%EC%9D%B8%EC%82%AC%EB%8F%99%EC%A0%9039.jpg
+  author: "최광모"
+  license: CC BY-SA 4.0
+
+patbingsu.jpg:
+  source: https://commons.wikimedia.org/wiki/File%3APatbingsu_3.jpg
+  author: "tookapic"
+  license: CC0 1.0

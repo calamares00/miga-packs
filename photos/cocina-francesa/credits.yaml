@@ -1,0 +1,102 @@
+# Origin of every photo in this folder: source page, author and licence (CC0 1.0, Public domain,
+# CC BY x.y or CC BY-SA x.y). tools/build.py refuses a recipe photo without an entry here.
+
+ternera-a-la-borgonona.jpg:
+  source: https://commons.wikimedia.org/wiki/File%3AB%C5%93uf_bourguignon_06.JPG
+  author: "Arnaud 25"
+  license: CC BY-SA 4.0
+
+pollo-al-vino.jpg:
+  source: https://commons.wikimedia.org/wiki/File%3AGourmet_coq_au_vin.jpg
+  author: "Beck from East Midlands, United Kingdon"
+  license: CC BY 2.0
+
+quiche-lorraine.jpg:
+  source: https://commons.wikimedia.org/wiki/File%3AQuiche_lorraine_04.jpg
+  author: "Arnaud 25"
+  license: CC0 1.0
+
+croque-monsieur.jpg:
+  source: https://commons.wikimedia.org/wiki/File%3ACambodian_Croque_Monsieur.jpg
+  author: "Photogoddle"
+  license: CC BY-SA 4.0
+
+gratin-dauphinois.jpg:
+  source: https://commons.wikimedia.org/wiki/File%3AGratin_dauphinois.jpg
+  author: "Ludovic Péron"
+  license: CC BY-SA 3.0
+
+bullabesa.jpg:
+  source: https://commons.wikimedia.org/wiki/File%3A20250903_Bouillabaisse_in_Khimki_%2890108%29.jpg
+  author: "Sergey A. Demidov"
+  license: CC BY 4.0
+
+cassoulet.jpg:
+  source: https://commons.wikimedia.org/wiki/File%3ABowl_of_cassoulet.JPG
+  author: "BrokenSphere"
+  license: CC BY-SA 3.0
+
+blanquette-de-ternera.jpg:
+  source: https://commons.wikimedia.org/wiki/File%3ABlanquette_de_veau_%C3%A0_l%27ancienne_04.jpg
+  author: "Arnaud 25"
+  license: CC BY-SA 4.0
+
+mejillones-a-la-marinera.jpg:
+  source: https://commons.wikimedia.org/wiki/File%3AMoules_marini%C3%A8res_02.jpg
+  author: "Arnaud 25"
+  license: CC BY-SA 4.0
+
+magret-de-pato-con-salsa-de-naranja.jpg:
+  source: https://commons.wikimedia.org/wiki/File%3ADuck_breast_and_mashed_potatoes_with_an_orange_and_honey_sauce_-_Massachusetts.jpg
+  author: "Daderot"
+  license: CC0 1.0
+
+hachis-parmentier.jpg:
+  source: https://commons.wikimedia.org/wiki/File%3AHachis_parmentier_01.jpg
+  author: "Bycro"
+  license: CC BY-SA 4.0
+
+souffle-de-queso.jpg:
+  source: https://commons.wikimedia.org/wiki/File%3ASouffl%C3%A9.JPG
+  author: "Pierre-alain dorange"
+  license: CC BY-SA 3.0
+
+ensalada-lionesa.jpg:
+  source: https://commons.wikimedia.org/wiki/File%3ASalade_lyonnaise_Bistrot_Bonnel_%28Lyon%29_en_f%C3%A9vrier_2023.jpg
+  author: "Benoît Prieur"
+  license: CC0 1.0
+
+pissaladiere.jpg:
+  source: https://commons.wikimedia.org/wiki/File%3APissaladi%C3%A8re_01.jpg
+  author: "Arnaud 25"
+  license: CC BY-SA 4.0
+
+tapenade.jpg:
+  source: https://commons.wikimedia.org/wiki/File%3ATapenade_01.jpg
+  author: "Arnaud 25"
+  license: CC BY-SA 4.0
+
+tarta-tatin.jpg:
+  source: https://commons.wikimedia.org/wiki/File%3ATarte_tatin_appletart.jpg
+  author: "Loslazos"
+  license: CC BY-SA 4.0
+
+creme-brulee.jpg:
+  source: https://commons.wikimedia.org/wiki/File%3ACr%C3%A8me_br%C3%BBl%C3%A9e_at_restaurant_in_Zushi.jpg
+  author: "Syced"
+  license: CC0 1.0
+
+profiteroles-con-chocolate.jpg:
+  source: https://commons.wikimedia.org/wiki/File%3AProfiteroles_with_chocolate_sauce%2C_February_2010.jpg
+  author: "Dainee Ranaweera"
+  license: CC BY-SA 2.0
+
+clafoutis-de-cerezas.jpg:
+  source: https://commons.wikimedia.org/wiki/File%3AClafouti%2C_August_2008.jpg
+  author: "Larry & Teddy (nee Schlueter) Page"
+  license: CC BY 2.0
+
+madeleines.jpg:
+  source: https://commons.wikimedia.org/wiki/File%3ASmastad_Coffee_Roasters_-_September_2024_-_Sarah_Stierch_13.jpg
+  author: "Missvain"
+  license: CC0 1.0

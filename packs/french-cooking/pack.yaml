@@ -1,0 +1,626 @@
+id: french-cooking
+version: 1
+updated: 2026-11-14
+language: en
+name: "World cuisine: France"
+series: World cuisine
+family: cocina-francesa
+description: >-
+  The classics of French bistro and home cooking: beef bourguignon, coq au vin, quiche Lorraine,
+  croque monsieur, gratin dauphinois, bouillabaisse, cassoulet, blanquette de veau, moules
+  marinières, duck breast with orange, hachis parmentier, cheese soufflé, Lyonnaise salad,
+  pissaladière, tapenade and, for dessert, tarte Tatin, crème brûlée, profiteroles, cherry
+  clafoutis and madeleines. With butter, wine and herbs.
+author: Miga
+authorGithub: calamares00
+cover:
+  emoji: "🥐"
+  kicker: World cuisine
+  title: France
+  colors: ["#1e3a8a", "#ef4444"]
+defaults:
+  origin: France
+  originCountry: FR
+  source: "Miga «World cuisine: France» pack"
+recipes:
+
+  - name: Beef bourguignon
+    health: [YELLOW, "Beef stewed in wine with vegetables: lots of protein and iron, with some fat."]
+    nutrition: [520, 42, 12, 28]
+    photo: cocina-francesa/ternera-a-la-borgonona.jpg
+    category: Meat
+    difficulty: MEDIUM
+    prep: 30
+    cook: 180
+    servings: 6
+    notes: Better the next day. Use a red wine you would drink, not a cooking wine.
+    tags: [stew, beef, winter]
+    origin: Burgundy
+    utensils: [Oven]
+    ingredients:
+      - items:
+          - [stewing beef (shin or chuck) in large cubes, 1.2, kg]
+          - [pancetta strips, 150, g]
+          - [pearl onions or shallots, 12, null]
+          - [carrots, 2, null]
+          - [garlic cloves, 3, null]
+          - [flour, 2, tbsp]
+          - [tomato paste, 1, tbsp]
+          - [red Burgundy wine, 750, ml]
+          - [beef stock, 300, ml]
+          - ["bouquet garni (thyme, bay leaf, parsley)", 1, null]
+          - [mushrooms, 250, g]
+          - [butter, 30, g]
+          - [olive oil, 2, tbsp]
+          - [salt, null, null]
+    steps:
+      - Heat the oven to 160 °C. Brown the pancetta in an ovenproof casserole and set aside.
+      - Pat the beef dry, season it and brown it in batches in the pancetta fat and the oil. Set aside.
+      - Sauté the sliced carrots and the garlic for 5 minutes. Return the meat, sprinkle with the flour and stir for 2 minutes.
+      - Add the tomato paste, wine, stock, bouquet garni and pancetta. Bring to the boil, cover and bake for 2½ hours, until the beef is very tender.
+      - Brown the onions and mushrooms in the butter and add them to the stew for the last 20 minutes.
+
+  - name: Coq au vin
+    health: [YELLOW, "Chicken braised in red wine with mushrooms: complete, with the fat from the pancetta."]
+    nutrition: [480, 40, 10, 26]
+    photo: cocina-francesa/pollo-al-vino.jpg
+    category: Meat
+    difficulty: MEDIUM
+    prep: 25
+    cook: 90
+    servings: 4
+    notes: Traditionally made with a rooster; chicken thighs stay very juicy.
+    tags: [stew, chicken]
+    utensils: []
+    ingredients:
+      - items:
+          - [chicken thighs and drumsticks, 1.2, kg]
+          - [pancetta strips, 120, g]
+          - [shallots, 10, null]
+          - [mushrooms, 250, g]
+          - [garlic cloves, 2, null]
+          - [flour, 2, tbsp]
+          - [red wine, 600, ml]
+          - [brandy, 30, ml, optional]
+          - [thyme, 2, sprig]
+          - [bay leaf, 1, null]
+          - [butter, 30, g]
+          - [salt, null, null]
+    steps:
+      - Brown the pancetta in a casserole and set aside. Brown the seasoned chicken in its fat.
+      - If using brandy, pour it in and flambé carefully.
+      - Sprinkle with the flour, stir, add the wine, garlic, thyme and bay leaf and simmer, covered, over low heat for 60 minutes.
+      - Brown the shallots and mushrooms in the butter and add them with the pancetta for the last 20 minutes.
+
+  - name: Quiche Lorraine
+    health: [RED, "Shortcrust with cream, egg and bacon: very high in calories."]
+    nutrition: [540, 16, 24, 42]
+    photo: cocina-francesa/quiche-lorraine.jpg
+    category: Eggs
+    difficulty: MEDIUM
+    prep: 25
+    cook: 45
+    servings: 6
+    notes: The original from Lorraine has only bacon, eggs and cream, no cheese. 24 cm tin.
+    tags: [eggs, oven]
+    origin: Lorraine
+    utensils: [Oven]
+    ingredients:
+      - group: For the shortcrust pastry
+        items:
+          - [plain flour, 200, g]
+          - [cold butter in cubes, 100, g]
+          - [egg yolk, 1, null]
+          - [cold water, 3, tbsp]
+          - [salt, 1, pinch]
+      - group: For the filling
+        items:
+          - [smoked bacon strips, 200, g]
+          - [eggs, 3, null]
+          - [single cream, 300, ml]
+          - [nutmeg, 1, pinch]
+          - [black pepper, null, null]
+    steps:
+      - Rub the flour, salt and butter together with your fingertips until sandy. Add the yolk and water, form a ball and chill for 30 minutes.
+      - Heat the oven to 190 °C. Roll out the pastry, line the tin, prick it and blind-bake for 12 minutes with weights.
+      - Fry the bacon in a dry pan and spread it over the pastry.
+      - Beat the eggs with the cream, nutmeg and pepper and pour over.
+      - Bake at 180 °C for 25-30 minutes, until set and golden.
+
+  - name: Croque monsieur
+    health: [RED, "Bread with ham, cheese and béchamel, grilled: very high in calories."]
+    nutrition: [560, 28, 36, 34]
+    photo: cocina-francesa/croque-monsieur.jpg
+    category: Breads and doughs
+    difficulty: EASY
+    prep: 10
+    cook: 15
+    servings: 4
+    notes: Top it with a fried egg and it becomes a croque madame.
+    tags: [sandwich, cheese, quick]
+    utensils: [Oven]
+    ingredients:
+      - items:
+          - [thick sliced bread, 8, slice]
+          - [cooked ham, 4, slice]
+          - [grated Gruyère or Emmental, 150, g]
+          - [thick béchamel sauce, 200, ml]
+          - [Dijon mustard, 1, tbsp]
+          - [butter, 30, g]
+    steps:
+      - Heat the oven to 200 °C with the grill on.
+      - Spread four slices with mustard and make the sandwiches with the ham and a little cheese.
+      - Butter the outsides and toast them in a frying pan on both sides.
+      - Place on a tray, cover with the béchamel and the rest of the cheese and grill for 5-6 minutes.
+
+  - name: Gratin dauphinois
+    health: [RED, "Potatoes baked in cream and milk: very high in calories, as a side."]
+    nutrition: [380, 7, 30, 26]
+    photo: cocina-francesa/gratin-dauphinois.jpg
+    category: Vegetables
+    difficulty: EASY
+    prep: 20
+    cook: 75
+    servings: 6
+    notes: The real one from the Dauphiné has no cheese. Slice the potatoes very thinly, with a mandoline if you have one.
+    tags: [potato, oven, vegetarian, gluten-free]
+    origin: Dauphiné
+    utensils: [Oven]
+    ingredients:
+      - items:
+          - [potatoes, 1.2, kg]
+          - [whole milk, 500, ml]
+          - [single cream, 250, ml]
+          - [garlic cloves, 2, null]
+          - [butter, 20, g]
+          - [nutmeg, 1, pinch]
+          - [salt, 1.5, tsp]
+    steps:
+      - Heat the oven to 160 °C. Rub a baking dish with a cut garlic clove and butter it.
+      - Peel the potatoes, slice them 3 mm thick and simmer them for 10 minutes in the milk with the cream, garlic, nutmeg and salt, stirring gently.
+      - Tip everything into the dish.
+      - Bake for 60-70 minutes, until the potatoes are tender and the top is golden.
+
+  - name: Bouillabaisse
+    health: [GREEN, "Soup of several fish and shellfish: lots of protein and little fat."]
+    nutrition: [380, 40, 16, 16]
+    photo: cocina-francesa/bullabesa.jpg
+    category: Fish and seafood
+    difficulty: HARD
+    prep: 40
+    cook: 50
+    servings: 6
+    notes: From Marseille. The broth is served with toast spread with rouille and the fish on a separate platter.
+    tags: [fish, seafood, soup]
+    origin: Marseille
+    utensils: []
+    ingredients:
+      - group: For the soup
+        items:
+          - ["mixed rockfish and white fish (monkfish, scorpion fish, conger, hake)", 1.5, kg]
+          - [mussels, 500, g]
+          - [onion, 1, null]
+          - [leek, 1, null]
+          - [fennel bulb, 1, null]
+          - [garlic cloves, 4, null]
+          - [ripe tomatoes, 3, null]
+          - [orange peel, 1, piece]
+          - [saffron, 1, pinch]
+          - [fish stock, 1.5, l]
+          - [extra virgin olive oil, 5, tbsp]
+          - [salt, null, null]
+      - group: For the rouille and bread
+        items:
+          - [mayonnaise, 150, g]
+          - [garlic clove, 1, null]
+          - [hot paprika or cayenne, 1, pinch]
+          - [day-old bread, 12, slice]
+    steps:
+      - Fry the chopped onion, leek, fennel and garlic in the oil for 10 minutes. Add the peeled, chopped tomatoes and cook for 5 minutes.
+      - Add the stock, orange peel and saffron and boil for 20 minutes.
+      - Add the firmer fish in pieces first, 5 minutes later the more delicate ones and the mussels, and cook 5-8 minutes more. Season.
+      - Mix the mayonnaise with the crushed garlic and paprika for the rouille. Toast the bread.
+      - Serve the broth with the rouille toasts and the fish on a separate platter.
+
+  - name: Cassoulet
+    health: [RED, "Beans with duck, sausage and pork: very filling, but high in fat."]
+    nutrition: [720, 44, 46, 40]
+    photo: cocina-francesa/cassoulet.jpg
+    category: Legumes
+    difficulty: HARD
+    prep: 30
+    cook: 180
+    servings: 6
+    notes: Soak the beans the night before. Shop-bought duck confit legs make it much simpler.
+    tags: [legumes, stew, winter]
+    origin: Languedoc
+    utensils: [Oven]
+    ingredients:
+      - items:
+          - [dried white beans, 500, g]
+          - [duck confit legs, 4, null]
+          - [Toulouse or fresh pork sausages, 4, null]
+          - [pork belly or ribs, 300, g]
+          - [onion, 1, null]
+          - [carrot, 1, null]
+          - [garlic cloves, 4, null]
+          - [crushed tomatoes, 200, g]
+          - [bouquet garni, 1, null]
+          - [breadcrumbs, 4, tbsp]
+          - [salt, null, null]
+    steps:
+      - Cook the drained beans with the onion, carrot, garlic and bouquet garni in unsalted water for 1 hour. Salt at the end.
+      - Brown the pork in pieces and the sausages in the duck fat.
+      - In an earthenware dish, layer beans, meats and duck, add the tomato and cover with the bean cooking liquid.
+      - Sprinkle with breadcrumbs and bake at 160 °C for 2 hours. Break the crust that forms 2 or 3 times and let a new one form.
+
+  - name: Blanquette de veau
+    health: [YELLOW, "Veal in a white sauce with cream and egg yolk: mild, but with fat."]
+    nutrition: [470, 38, 14, 28]
+    photo: cocina-francesa/blanquette-de-ternera.jpg
+    category: Meat
+    difficulty: MEDIUM
+    prep: 20
+    cook: 120
+    servings: 6
+    notes: A white stew, the meat is not browned. Served with white rice.
+    tags: [stew, veal]
+    utensils: []
+    ingredients:
+      - items:
+          - [stewing veal in cubes, 1.2, kg]
+          - [carrots, 2, null]
+          - [onion studded with a clove, 1, null]
+          - [leek, 1, null]
+          - [bouquet garni, 1, null]
+          - [mushrooms, 250, g]
+          - [butter, 40, g]
+          - [flour, 40, g]
+          - [single cream, 150, ml]
+          - [egg yolk, 1, null]
+          - [lemon juice, 1, tbsp]
+          - [salt, null, null]
+    steps:
+      - Cover the meat with cold water, bring to the boil, drain and rinse.
+      - Cover again with water, add the vegetables, bouquet garni and salt and simmer gently for 1½ hours.
+      - Drain the meat, keeping the stock. Sauté the mushrooms in a little butter.
+      - Make a roux with the butter and flour, add 800 ml of stock and simmer for 10 minutes. Off the heat, stir in the cream beaten with the yolk and lemon.
+      - Return the meat and mushrooms to the sauce and heat without boiling.
+
+  - name: Moules marinières
+    health: [GREEN, "Mussels steamed in wine: lots of protein, iron and little fat."]
+    nutrition: [320, 28, 10, 16]
+    photo: cocina-francesa/mejillones-a-la-marinera.jpg
+    category: Fish and seafood
+    difficulty: EASY
+    prep: 15
+    cook: 10
+    servings: 4
+    notes: In Belgium and northern France they are served with chips.
+    tags: [seafood, quick, gluten-free]
+    utensils: []
+    ingredients:
+      - items:
+          - [cleaned mussels, 2, kg]
+          - [shallots, 2, null]
+          - [garlic cloves, 2, null]
+          - [dry white wine, 200, ml]
+          - [butter, 40, g]
+          - [chopped parsley, 3, tbsp]
+          - [single cream, 100, ml, optional]
+    steps:
+      - Soften the chopped shallots and garlic in the butter in a large pot for 3 minutes.
+      - Add the wine and bring to the boil.
+      - Add the mussels, cover and cook for 5-6 minutes, shaking the pot, until they open. Discard any that stay closed.
+      - Stir in the cream if using and the parsley and serve with the broth.
+
+  - name: Duck breast with orange sauce
+    health: [YELLOW, "Duck is high in protein; the skin is fatty, though much of it stays in the pan."]
+    nutrition: [480, 34, 14, 32]
+    photo: cocina-francesa/magret-de-pato-con-salsa-de-naranja.jpg
+    category: Meat
+    difficulty: MEDIUM
+    prep: 10
+    cook: 25
+    servings: 4
+    notes: Magret is served pink inside. Keep the fat it releases for potatoes.
+    tags: [duck, special occasion, gluten-free]
+    origin: Gascony
+    utensils: []
+    ingredients:
+      - items:
+          - [duck breasts (magret), 2, null]
+          - [oranges (juice and zest), 2, null]
+          - [honey, 1, tbsp]
+          - [wine vinegar, 1, tbsp]
+          - [chicken stock, 100, ml]
+          - [cold butter, 20, g]
+          - [salt, null, null]
+    steps:
+      - Score the skin in a diamond pattern without cutting the meat. Season.
+      - Place skin side down in a cold frying pan and cook over medium heat for 10-12 minutes, pouring off the fat. Turn and cook 4 minutes more.
+      - Rest for 5 minutes. In the same pan without the fat, caramelise the honey with the vinegar, add the juice, zest and stock and reduce by half.
+      - Off the heat, stir in the butter. Slice the duck and serve with the sauce.
+
+  - name: Hachis parmentier
+    health: [YELLOW, "Mince topped with mashed potato: complete and filling, with some fat."]
+    nutrition: [490, 30, 36, 24]
+    photo: cocina-francesa/hachis-parmentier.jpg
+    category: Meat
+    difficulty: EASY
+    prep: 25
+    cook: 30
+    servings: 6
+    notes: The French home cousin of cottage pie, often made with leftover stewed beef.
+    tags: [oven, beef]
+    utensils: [Oven]
+    ingredients:
+      - items:
+          - [minced beef, 600, g]
+          - [onion, 1, null]
+          - [garlic cloves, 2, null]
+          - [crushed tomatoes, 100, g]
+          - [floury potatoes, 1, kg]
+          - [milk, 150, ml]
+          - [butter, 50, g]
+          - [grated cheese, 60, g]
+          - [nutmeg, 1, pinch]
+          - [salt, null, null]
+    steps:
+      - Boil the peeled potatoes in salted water for 20 minutes and mash them with the hot milk, butter and nutmeg.
+      - Fry the chopped onion and garlic, add the beef and brown it. Add the tomato, season and cook for 10 minutes.
+      - Spread the meat in a dish, cover with the mash and sprinkle with cheese.
+      - Bake at 200 °C for 20 minutes, until golden.
+
+  - name: Cheese soufflé
+    health: [YELLOW, "Egg, milk and cheese: protein and calcium, with quite a lot of fat."]
+    nutrition: [320, 16, 10, 24]
+    photo: cocina-francesa/souffle-de-queso.jpg
+    category: Eggs
+    difficulty: HARD
+    prep: 20
+    cook: 30
+    servings: 4
+    notes: Don't open the oven while it bakes. Serve at once, before it sinks.
+    tags: [eggs, cheese, oven, vegetarian]
+    utensils: [Oven, Blender]
+    ingredients:
+      - items:
+          - [butter, 40, g]
+          - [flour, 40, g]
+          - [milk, 300, ml]
+          - [eggs, 4, null]
+          - [grated Comté or Gruyère, 100, g]
+          - [nutmeg, 1, pinch]
+          - [salt, null, null]
+    steps:
+      - Heat the oven to 190 °C. Butter an 18 cm soufflé dish and dust it with cheese.
+      - Make a béchamel with the butter, flour and milk. Off the heat, stir in the yolks, cheese, nutmeg and salt.
+      - Whisk the whites to stiff peaks and fold them in gently.
+      - Pour into the dish, run a finger round the edge and bake for 25-30 minutes, until risen and golden.
+
+  - name: Lyonnaise salad
+    health: [YELLOW, "Salad with a poached egg and bacon: complete, with the bacon fat."]
+    nutrition: [360, 16, 14, 26]
+    photo: cocina-francesa/ensalada-lionesa.jpg
+    category: Salads
+    difficulty: MEDIUM
+    prep: 15
+    cook: 15
+    servings: 4
+    notes: Salade lyonnaise is made with frisée, which holds up to the warm dressing.
+    tags: [salad, eggs]
+    origin: Lyon
+    utensils: []
+    ingredients:
+      - items:
+          - [frisée lettuce, 1, null]
+          - [diced pancetta, 150, g]
+          - [day-old bread in cubes, 2, slice]
+          - [eggs, 4, null]
+          - [red wine vinegar, 2, tbsp]
+          - [Dijon mustard, 1, tsp]
+          - [olive oil, 3, tbsp]
+          - [salt, null, null]
+    steps:
+      - Wash the frisée and put it in a large bowl.
+      - Brown the pancetta in a frying pan and set aside. Fry the bread cubes in its fat.
+      - Poach the eggs for 3 minutes in barely simmering water with a dash of vinegar.
+      - Whisk the oil, mustard, vinegar and salt, dress the frisée and top each portion with pancetta, croutons and an egg.
+
+  - name: Pissaladière
+    health: [YELLOW, "Dough with slow-cooked onions, anchovies and olives: tasty, but salty."]
+    nutrition: [360, 9, 46, 15]
+    photo: cocina-francesa/pissaladiere.jpg
+    category: Breads and doughs
+    difficulty: MEDIUM
+    prep: 20
+    cook: 75
+    servings: 6
+    notes: The onion tart of Nice. The onions are cooked very slowly, without browning.
+    tags: [dough, appetizer]
+    origin: Nice
+    utensils: [Oven]
+    ingredients:
+      - items:
+          - [bread or pizza dough, 400, g]
+          - [onions, 1.2, kg]
+          - [extra virgin olive oil, 5, tbsp]
+          - [garlic cloves, 2, null]
+          - [thyme, 2, sprig]
+          - [anchovy fillets, 16, null]
+          - [black Niçoise olives, 20, null]
+          - [salt, null, null]
+    steps:
+      - Cook the sliced onions with the oil, garlic and thyme over very low heat for 45 minutes, until very soft. Salt carefully.
+      - Heat the oven to 220 °C and stretch the dough on an oiled tray.
+      - Spread the onions, lay the anchovies in a lattice and put an olive in each gap.
+      - Bake for 20-25 minutes, until the edge is golden. Eat warm or cold.
+
+  - name: Tapenade
+    health: [YELLOW, "Olives with capers and oil: good fats, but very salty."]
+    nutrition: [130, 1, 2, 13]
+    photo: cocina-francesa/tapenade.jpg
+    category: Starters
+    difficulty: EASY
+    prep: 10
+    cook: 0
+    servings: 6
+    notes: Provençal spread for toast or raw vegetables.
+    tags: [appetizer, vegetarian, gluten-free]
+    origin: Provence
+    utensils: [Blender]
+    ingredients:
+      - items:
+          - [pitted black olives, 200, g]
+          - [capers, 2, tbsp]
+          - [anchovy fillets, 4, null, optional]
+          - [garlic clove, 1, null]
+          - [lemon juice, 1, tbsp]
+          - [dried thyme, 0.5, tsp]
+          - [extra virgin olive oil, 60, ml]
+    steps:
+      - Put everything except the oil in a food processor.
+      - Pulse while adding the oil little by little, until you have a paste with some texture.
+      - Serve with toast. Keeps a week in the fridge covered with oil.
+
+  - name: Tarte Tatin
+    health: [RED, "Caramelised apples with butter and pastry: very sweet."]
+    nutrition: [380, 3, 52, 18]
+    photo: cocina-francesa/tarta-tatin.jpg
+    category: Desserts
+    difficulty: MEDIUM
+    prep: 20
+    cook: 45
+    servings: 8
+    notes: The upside-down apple tart. You need a 24 cm ovenproof pan or tin.
+    tags: [dessert, fruit, oven]
+    utensils: [Oven]
+    ingredients:
+      - items:
+          - [russet or golden apples, 7, null]
+          - [sugar, 150, g]
+          - [butter, 80, g]
+          - [sheet of shortcrust or puff pastry, 1, null]
+    steps:
+      - Heat the oven to 190 °C. Peel the apples and quarter them.
+      - Melt the sugar in the pan into a golden caramel, add the butter and stir.
+      - Stand the apple quarters upright and tightly packed on the caramel and cook for 15 minutes over medium heat.
+      - Cover with the pastry, tuck the edges in and bake for 25-30 minutes.
+      - Rest for 5 minutes and carefully turn out onto a plate.
+
+  - name: Crème brûlée
+    health: [RED, "Cream, yolks and sugar: a very rich dessert."]
+    nutrition: [420, 5, 26, 33]
+    photo: cocina-francesa/creme-brulee.jpg
+    category: Desserts
+    difficulty: MEDIUM
+    prep: 15
+    cook: 45
+    servings: 6
+    notes: You need a blowtorch to caramelise the sugar. It needs at least 4 hours in the fridge.
+    tags: [dessert, gluten-free]
+    utensils: [Oven]
+    ingredients:
+      - items:
+          - [double cream, 500, ml]
+          - [vanilla pod, 1, null]
+          - [egg yolks, 6, null]
+          - [sugar, 80, g]
+          - [brown sugar for the topping, 6, tbsp]
+    steps:
+      - Heat the oven to 150 °C. Warm the cream with the split vanilla pod and leave to infuse for 15 minutes.
+      - Whisk the yolks with the sugar, gradually add the strained cream and skim off the foam.
+      - Pour into ramekins and bake in a water bath for 35-40 minutes, until set but still wobbly in the centre.
+      - Cool and chill for 4 hours. Before serving, sprinkle with brown sugar and caramelise it with the blowtorch.
+
+  - name: Chocolate profiteroles
+    health: [RED, "Choux pastry with cream and chocolate: very sweet."]
+    nutrition: [430, 7, 34, 30]
+    photo: cocina-francesa/profiteroles-con-chocolate.jpg
+    category: Desserts
+    difficulty: HARD
+    prep: 40
+    cook: 25
+    servings: 8
+    notes: Makes about 24. Fill them just before serving so they stay crisp.
+    tags: [dessert, chocolate]
+    utensils: [Oven, Blender]
+    ingredients:
+      - group: For the choux pastry
+        items:
+          - [water, 125, ml]
+          - [milk, 125, ml]
+          - [butter, 100, g]
+          - [salt, 1, pinch]
+          - [plain flour, 150, g]
+          - [eggs, 4, null]
+      - group: For the filling and sauce
+        items:
+          - [whipping cream, 400, ml]
+          - [icing sugar, 40, g]
+          - [dark chocolate, 150, g]
+          - [single cream, 150, ml]
+    steps:
+      - Heat the oven to 200 °C. Bring the water, milk, butter and salt to the boil, add the flour all at once and stir until the dough comes away from the pan.
+      - Let it cool slightly and beat in the eggs one at a time.
+      - Pipe small balls onto a lined tray and bake for 20-25 minutes without opening the oven. Leave to cool.
+      - Whip the cream with the icing sugar and pipe it into the profiteroles from underneath.
+      - Melt the chocolate in the hot cream and serve the profiteroles covered in the sauce.
+
+  - name: Cherry clafoutis
+    health: [YELLOW, "Fruit in an egg and milk batter: a homely, not too heavy dessert."]
+    nutrition: [240, 6, 34, 9]
+    photo: cocina-francesa/clafoutis-de-cerezas.jpg
+    category: Desserts
+    difficulty: EASY
+    prep: 15
+    cook: 40
+    servings: 6
+    notes: In the Limousin the cherries keep their stones for flavour. Warn whoever eats it.
+    tags: [dessert, fruit, oven]
+    origin: Limousin
+    utensils: [Oven, Blender]
+    ingredients:
+      - items:
+          - [cherries, 500, g]
+          - [eggs, 3, null]
+          - [sugar, 80, g]
+          - [flour, 60, g]
+          - [milk, 250, ml]
+          - [melted butter, 30, g]
+          - [vanilla extract, 1, tsp]
+          - [icing sugar, null, null]
+    steps:
+      - Heat the oven to 180 °C and butter a baking dish.
+      - Spread the washed cherries in the dish.
+      - Whisk the eggs with the sugar, then add the flour, milk, butter and vanilla to make a batter like crêpe batter.
+      - Pour over the cherries and bake for 35-40 minutes. Dust with icing sugar and serve warm.
+
+  - name: Madeleines
+    health: [RED, "Small butter sponge cakes: tiny, but sweet and rich."]
+    nutrition: [110, 2, 12, 6]
+    photo: cocina-francesa/madeleines.jpg
+    category: Desserts
+    difficulty: EASY
+    prep: 15
+    cook: 10
+    servings: 20
+    notes: You need a madeleine tin. Resting in the fridge is what gives them the hump. Servings are madeleines.
+    tags: [dessert, snack]
+    origin: Lorraine
+    utensils: [Oven]
+    ingredients:
+      - items:
+          - [eggs, 2, null]
+          - [sugar, 100, g]
+          - [honey, 1, tbsp]
+          - [lemon zest, 1, null]
+          - [plain flour, 110, g]
+          - [baking powder, 1, tsp]
+          - [melted butter, 110, g]
+    steps:
+      - Whisk the eggs with the sugar, honey and zest until pale.
+      - Fold in the flour with the baking powder, then the warm butter.
+      - Cover the batter and chill for at least 1 hour.
+      - Heat the oven to 220 °C. Fill the buttered moulds three-quarters full and bake for 5 minutes; lower to 180 °C and bake 4-5 minutes more.

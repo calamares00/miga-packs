@@ -1,0 +1,97 @@
+# Origin of every photo in this folder: source page, author and licence (CC0 1.0, Public domain,
+# CC BY x.y or CC BY-SA x.y). tools/build.py refuses a recipe photo without an entry here.
+
+menemen.jpg:
+  source: https://commons.wikimedia.org/wiki/File%3AMenemen_and_ayran.jpg
+  author: "E4024"
+  license: CC BY-SA 4.0
+
+huevos-clbr.jpg:
+  source: https://commons.wikimedia.org/wiki/File%3ATurkish_Egg_with_hung_card.jpg
+  author: "Sayantan Sarkar"
+  license: CC BY-SA 4.0
+
+lahmacun.jpg:
+  source: https://commons.wikimedia.org/wiki/File%3ALahmacun.jpg
+  author: "Rainer Zenz"
+  license: CC BY-SA 3.0
+
+pide-de-carne.jpg:
+  source: https://commons.wikimedia.org/wiki/File%3ABurek_oslo.jpeg
+  author: "Kjetil Ree"
+  license: CC BY-SA 3.0
+
+borek-de-espinacas-y-queso.jpg:
+  source: https://commons.wikimedia.org/wiki/File%3A%D0%91%D1%83%D1%80%D0%B5%D0%BA.jpg
+  author: "Чакаровска"
+  license: CC BY-SA 4.0
+
+simit.jpg:
+  source: https://commons.wikimedia.org/wiki/File%3ASimit_%28rectangular%29.jpg
+  author: "E4024"
+  license: CC BY-SA 4.0
+
+mant.jpg:
+  source: https://commons.wikimedia.org/wiki/File%3AMant%C4%B1.jpg
+  author: "Nérostrateur"
+  license: CC BY 2.5
+
+iskender-kebab.jpg:
+  source: https://commons.wikimedia.org/wiki/File%3A%C4%B0skender_kebap.JPG
+  author: "Adriao"
+  license: CC BY 3.0
+
+adana-kebab.jpg:
+  source: https://commons.wikimedia.org/wiki/File%3AAdana_kebab_in_Ankara.jpg
+  author: "E4024"
+  license: CC BY-SA 4.0
+
+brochetas-de-pollo-a-la-turca.jpg:
+  source: https://commons.wikimedia.org/wiki/File%3ATavuk_shish.jpg
+  author: "E4024"
+  license: CC BY-SA 4.0
+
+berenjenas-rellenas-karnyark.jpg:
+  source: https://commons.wikimedia.org/wiki/File%3AKARNIYARIK_in_Ankara.jpg
+  author: "E4024"
+  license: CC BY-SA 4.0
+
+imam-bayld.jpg:
+  source: https://commons.wikimedia.org/wiki/File%3AImam_bay%C4%B1ld%C4%B1.jpg
+  author: "E4024"
+  license: CC BY-SA 4.0
+
+ksr.jpg:
+  source: https://commons.wikimedia.org/wiki/File%3AK%C4%B1s%C4%B1r_in_Ankara.jpg
+  author: "E4024"
+  license: CC BY-SA 4.0
+
+mercimek-koftesi.jpg:
+  source: https://commons.wikimedia.org/wiki/File%3AMercimekkoftesi.jpg
+  author: "Ahzaryamed"
+  license: CC BY-SA 4.0
+
+ezme.jpg:
+  source: https://commons.wikimedia.org/wiki/File%3AEzme_Lido_Restaurant_Adalar.JPG
+  author: "Benreis"
+  license: CC BY 3.0
+
+ensalada-del-pastor.jpg:
+  source: https://commons.wikimedia.org/wiki/File%3A%C3%87oban_salata.jpg
+  author: "E4024"
+  license: CC BY-SA 4.0
+
+kunefe.jpg:
+  source: https://commons.wikimedia.org/wiki/File%3AK%C3%BCnefe_20230904.jpg
+  author: "Basak"
+  license: CC BY-SA 4.0
+
+revani.jpg:
+  source: https://commons.wikimedia.org/wiki/File%3ARevani_with_lemon_zest.jpg
+  author: "E4024"
+  license: CC BY-SA 4.0
+
+ayran.jpg:
+  source: https://commons.wikimedia.org/wiki/File%3AAyran_in_a_beer_glass.jpg
+  author: "E4024"
+  license: CC BY-SA 4.0

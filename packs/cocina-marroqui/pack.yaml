@@ -1,0 +1,646 @@
+id: cocina-marroqui
+version: 1
+updated: 2026-11-14
+language: es
+name: "Cocina del mundo: Marruecos"
+series: Cocina del mundo
+family: cocina-marroqui
+description: >-
+  La cocina de Marruecos, de especias suaves y cocciones lentas: cuscús con siete verduras, harira,
+  pastela de pollo, tajines de cordero con ciruelas, de kefta con huevos y de pescado, zaalouk,
+  ensaladas, bissara, briouats, rfissa, mechui y pinchos de kefta, panes como el msemen, el khobz
+  y el baghrir, dulces de miel y almendra y el té con hierbabuena.
+author: Miga
+authorGithub: calamares00
+cover:
+  emoji: "🫖"
+  kicker: Cocina del mundo
+  title: Marruecos
+  colors: ["#b91c1c", "#15803d"]
+defaults:
+  origin: Marruecos
+  originCountry: MA
+  source: "Pack «Cocina del mundo: Marruecos» de Miga"
+recipes:
+
+  - name: Cuscús con siete verduras
+    health: [GREEN, "Sémola con muchas verduras y garbanzos: completo y con mucha fibra."]
+    nutrition: [560, 28, 78, 15]
+    photo: cocina-marroqui/cuscus-con-siete-verduras.jpg
+    category: Pastas
+    difficulty: MEDIUM
+    prep: 30
+    cook: 75
+    servings: 6
+    notes: El cuscús de los viernes. La sémola se cuece al vapor sobre el guiso en una cuscusera; con sémola precocida basta hidratarla con el caldo.
+    tags: [cuscús, verduras, plato único]
+    utensils: [Vaporera]
+    ingredients:
+      - items:
+          - [carne de cordero o ternera en trozos, 600, g]
+          - [cuscús de grano medio, 500, g]
+          - [garbanzos cocidos, 400, g]
+          - [cebollas, 2, null]
+          - [tomates, 2, null]
+          - [zanahorias, 3, null]
+          - [nabos, 2, null]
+          - [calabacines, 2, null]
+          - [trozo de calabaza, 400, g]
+          - [col pequeña, 0.5, null]
+          - [jengibre molido, 1, cucharadita]
+          - [cúrcuma, 1, cucharadita]
+          - [pimienta negra, 1, cucharadita]
+          - [hebras de azafrán, 1, pizca]
+          - [manojo de cilantro y perejil, 1, null]
+          - [aceite de oliva, 4, cucharada]
+          - [mantequilla, 40, g]
+          - [sal, null, null]
+    steps:
+      - En la parte baja de la cuscusera, rehoga la carne con la cebolla, el tomate, las especias, el aceite y las hierbas atadas 10 minutos. Cubre con 2 litros de agua y cuece 40 minutos.
+      - Añade las zanahorias, los nabos y la col y cuece 15 minutos; luego el calabacín, la calabaza y los garbanzos, 15 minutos más.
+      - Mientras, moja el cuscús con un vaso de agua con sal, sepáralo con los dedos y cuécelo al vapor en la parte de arriba 15 minutos. Repítelo dos veces más, mojando y separando entre vapores.
+      - Mezcla el cuscús con la mantequilla, ponlo en una fuente en forma de montaña con la carne en el centro y las verduras alrededor y riégalo con caldo.
+
+  - name: Harira
+    health: [GREEN, "Sopa de legumbres, tomate y carne: mucha fibra y proteína."]
+    nutrition: [340, 20, 46, 9]
+    photo: cocina-marroqui/harira.jpg
+    category: Sopas y cremas
+    difficulty: MEDIUM
+    prep: 20
+    cook: 75
+    servings: 6
+    notes: La sopa con la que se rompe el ayuno en Ramadán, acompañada de dátiles y chebakia. Pon los garbanzos secos a remojo la noche antes.
+    tags: [sopa, legumbres, ramadán]
+    utensils: [Olla exprés]
+    ingredients:
+      - items:
+          - [carne de cordero o ternera en dados pequeños, 250, g]
+          - [garbanzos secos remojados, 150, g]
+          - [lentejas, 100, g]
+          - [cebolla, 1, null]
+          - [ramas de apio, 2, null]
+          - [tomates maduros triturados, 500, g]
+          - [concentrado de tomate, 2, cucharada]
+          - [manojo de cilantro y perejil picados, 1, null]
+          - [jengibre molido, 1, cucharadita]
+          - [cúrcuma, 1, cucharadita]
+          - [canela molida, 0.5, cucharadita]
+          - [fideos finos, 50, g]
+          - [harina, 3, cucharada]
+          - [aceite de oliva, 2, cucharada]
+          - [limones para servir, 2, null]
+          - [sal, null, null]
+    steps:
+      - Rehoga la carne con la cebolla y el apio picados, las especias, la mitad de las hierbas y el aceite 5 minutos.
+      - Añade los garbanzos y 2 litros de agua y cuece 40 minutos (15 en olla exprés).
+      - Añade las lentejas, el tomate y el concentrado y cuece 30 minutos más.
+      - Disuelve la harina en un vaso de agua fría y viértela poco a poco removiendo para espesar. Añade los fideos y el resto de las hierbas y cuece 5 minutos. Sala.
+      - Sirve con limón para exprimir.
+
+  - name: Pastela de pollo
+    health: [RED, "Hojaldre de pasta brick con pollo, almendra y azúcar: muy calórica."]
+    nutrition: [640, 32, 52, 34]
+    photo: cocina-marroqui/pastela-de-pollo.jpg
+    category: Panes y masas
+    difficulty: HARD
+    prep: 45
+    cook: 90
+    servings: 8
+    notes: La bastela, el plato de fiesta de Fez, dulce y salada a la vez. Se hace tradicionalmente con pichón.
+    tags: [fiesta, horno, pollo]
+    origin: Fez
+    utensils: [Horno]
+    ingredients:
+      - group: Para el relleno
+        items:
+          - [muslos de pollo, 1.2, kg]
+          - [cebollas, 3, null]
+          - [manojo de perejil y cilantro picados, 1, null]
+          - [jengibre molido, 1, cucharadita]
+          - [canela molida, 1, cucharadita]
+          - [ras el hanout, 1, cucharadita]
+          - [hebras de azafrán, 1, pizca]
+          - [huevos, 6, null]
+          - [mantequilla, 50, g]
+          - [sal, null, null]
+      - group: Para la almendra y el montaje
+        items:
+          - [almendras crudas peladas, 250, g]
+          - [azúcar glas, 60, g]
+          - [canela molida para la almendra, 1, cucharadita]
+          - [agua de azahar, 1, cucharada]
+          - [hojas de pasta brick, 12, null]
+          - [mantequilla derretida para pintar, 80, g]
+          - [azúcar glas y canela para decorar, null, null]
+    steps:
+      - Cuece el pollo con la cebolla rallada, las especias, las hierbas, la mantequilla y un vaso de agua tapado 1 hora. Saca el pollo, deshílalo sin piel ni huesos.
+      - Reduce la salsa a la mitad, añade los huevos batidos y remueve a fuego bajo hasta que cuajen en grumos. Escurre.
+      - Fríe o tuesta las almendras, pícalas gruesas y mézclalas con el azúcar, la canela y el azahar.
+      - Precalienta el horno a 180 °C. Forra un molde redondo con 8 hojas de brick pintadas con mantequilla, solapadas y colgando por fuera.
+      - Pon capas de huevo, pollo y almendra, cubre con las hojas que cuelgan y 4 más pintadas y mete los bordes por debajo.
+      - Hornea 30 minutos, hasta que esté dorada. Decora con azúcar glas y líneas de canela.
+
+  - name: Tajín de cordero con ciruelas
+    health: [YELLOW, "Cordero con fruta seca y miel: proteína y hierro, pero dulce y con grasa."]
+    nutrition: [620, 38, 46, 32]
+    photo: cocina-marroqui/tajin-de-cordero-con-ciruelas.jpg
+    category: Carnes
+    difficulty: MEDIUM
+    prep: 20
+    cook: 120
+    servings: 6
+    notes: El tajín de fiesta, con almendras fritas y sésamo por encima. Se puede hacer en una cazuela de fondo grueso.
+    tags: [tajín, cordero, fiesta]
+    utensils: []
+    ingredients:
+      - items:
+          - [paletilla o cuello de cordero en trozos, 1.5, kg]
+          - [cebollas, 2, null]
+          - [ciruelas pasas, 250, g]
+          - [miel, 3, cucharada]
+          - [canela en rama, 1, null]
+          - [canela molida, 1, cucharadita]
+          - [jengibre molido, 1, cucharadita]
+          - [hebras de azafrán, 1, pizca]
+          - [mantequilla, 30, g]
+          - [aceite de oliva, 3, cucharada]
+          - [almendras peladas, 80, g]
+          - [semillas de sésamo tostado, 1, cucharada]
+          - [sal, null, null]
+    steps:
+      - Pon en el tajín o la cazuela el cordero con la cebolla rallada, las especias, el aceite, la mantequilla, sal y un vaso de agua. Tapa y cuece a fuego suave 1 hora y media, hasta que la carne esté tierna.
+      - Hidrata las ciruelas en agua templada 15 minutos y cuécelas aparte con la miel, la canela en rama y un poco de caldo del guiso hasta que estén glaseadas.
+      - Fríe las almendras en un poco de aceite hasta que estén doradas.
+      - Reduce la salsa del cordero si está muy líquida y sírvelo con las ciruelas por encima, las almendras y el sésamo.
+
+  - name: Tajín de kefta con huevos
+    health: [YELLOW, "Albóndigas en salsa de tomate con huevo: mucha proteína, algo de grasa."]
+    nutrition: [480, 34, 12, 33]
+    category: Carnes
+    difficulty: EASY
+    prep: 20
+    cook: 35
+    servings: 4
+    notes: Se come directamente del tajín mojando pan khobz.
+    tags: [tajín, albóndigas, huevos]
+    utensils: []
+    ingredients:
+      - group: Para la kefta
+        items:
+          - [carne picada de ternera y cordero, 500, g]
+          - [cebolla pequeña rallada, 1, null]
+          - [perejil y cilantro picados, 3, cucharada]
+          - [comino molido, 1, cucharadita]
+          - [pimentón dulce, 1, cucharadita]
+          - [sal, null, null]
+      - group: Para la salsa
+        items:
+          - [tomates maduros rallados, 800, g]
+          - [dientes de ajo, 3, null]
+          - [comino molido para la salsa, 1, cucharadita]
+          - [pimentón dulce para la salsa, 1, cucharadita]
+          - [guindilla, 1, pizca, optional]
+          - [aceite de oliva, 3, cucharada]
+          - [huevos, 4, null]
+    steps:
+      - Mezcla los ingredientes de la kefta y forma albóndigas pequeñas del tamaño de una nuez.
+      - En el tajín o una sartén honda, cuece el tomate con el ajo picado, las especias, el aceite y sal 15 minutos.
+      - Añade las albóndigas y cuece tapado 15 minutos.
+      - Casca los huevos encima, tapa y deja 5 minutos, hasta que la clara cuaje. Espolvorea perejil.
+
+  - name: Tajín de pescado
+    health: [GREEN, "Pescado blanco con verduras y chermoula: mucha proteína y poca grasa."]
+    nutrition: [380, 34, 28, 14]
+    photo: cocina-marroqui/tajin-de-pescado.jpg
+    category: Pescados y mariscos
+    difficulty: MEDIUM
+    prep: 30
+    cook: 40
+    servings: 4
+    notes: La chermoula es el adobo de hierbas y especias de la costa marroquí. Deja marinar el pescado al menos 1 hora.
+    tags: [tajín, pescado, sin gluten]
+    utensils: []
+    ingredients:
+      - group: Para la chermoula
+        items:
+          - [manojo de cilantro y perejil, 1, null]
+          - [dientes de ajo, 4, null]
+          - [comino molido, 1, cucharadita]
+          - [pimentón dulce, 2, cucharadita]
+          - [zumo de limón, 1, null]
+          - [aceite de oliva, 5, cucharada]
+          - [sal, null, null]
+      - group: Para el tajín
+        items:
+          - ["pescado blanco en rodajas (merluza, corvina o dorada)", 1, kg]
+          - [patatas, 3, null]
+          - [tomates, 3, null]
+          - [pimiento verde, 1, null]
+          - [zanahoria, 1, null]
+          - [aceitunas verdes, 80, g]
+          - [limón en conserva, 1, null]
+    steps:
+      - Tritura los ingredientes de la chermoula y marina el pescado con la mitad al menos 1 hora.
+      - Pon en el fondo del tajín las patatas y la zanahoria en rodajas finas, encima el tomate y el pimiento en tiras, y riega con el resto de la chermoula y medio vaso de agua.
+      - Tapa y cuece a fuego suave 20 minutos.
+      - Coloca el pescado encima con las aceitunas y el limón en conserva en tiras, tapa y cuece 15 minutos más.
+
+  - name: Zaalouk
+    health: [GREEN, "Berenjena y tomate con especias y aceite de oliva: ligero y con fibra."]
+    nutrition: [150, 3, 14, 10]
+    photo: cocina-marroqui/zaalouk.jpg
+    category: Verduras
+    difficulty: EASY
+    prep: 15
+    cook: 35
+    servings: 4
+    notes: Ensalada cocinada que se toma templada o fría, con pan. Asar la berenjena al fuego le da un sabor ahumado.
+    tags: [berenjena, vegana, sin gluten]
+    utensils: []
+    ingredients:
+      - items:
+          - [berenjenas, 2, null]
+          - [tomates maduros, 4, null]
+          - [dientes de ajo, 3, null]
+          - [comino molido, 1, cucharadita]
+          - [pimentón dulce, 1, cucharadita]
+          - [cilantro y perejil picados, 3, cucharada]
+          - [aceite de oliva virgen extra, 4, cucharada]
+          - [zumo de limón, 1, cucharada]
+          - [sal, null, null]
+    steps:
+      - Asa las berenjenas enteras en el horno o al fuego hasta que estén blandas. Pélalas y pícalas.
+      - Pela y ralla los tomates y cuécelos con el ajo picado, las especias y el aceite 10 minutos.
+      - Añade la berenjena y cocina aplastando con un tenedor 15 minutos, hasta que quede un puré con textura.
+      - Añade las hierbas y el limón, sala y sirve templado o frío.
+
+  - name: Ensalada marroquí
+    health: [GREEN, "Tomate, pepino y cebolla con hierbas: fresca y ligera."]
+    nutrition: [90, 2, 9, 6]
+    category: Ensaladas
+    difficulty: EASY
+    prep: 15
+    cook: 0
+    servings: 4
+    notes: Se corta todo en daditos muy pequeños. Acompaña tajines y pinchos.
+    tags: [ensalada, vegana, sin gluten, rápida]
+    utensils: []
+    ingredients:
+      - items:
+          - [tomates firmes, 4, null]
+          - [pepino, 1, null]
+          - [pimiento verde, 1, null]
+          - [cebolla roja pequeña, 1, null]
+          - [perejil y cilantro picados, 3, cucharada]
+          - [comino molido, 0.5, cucharadita]
+          - [zumo de limón, 1, cucharada]
+          - [aceite de oliva virgen extra, 2, cucharada]
+          - [sal, null, null]
+    steps:
+      - Corta los tomates, el pepino, el pimiento y la cebolla en dados muy pequeños.
+      - Mézclalos con las hierbas.
+      - Aliña con el aceite, el limón, el comino y la sal justo antes de servir.
+
+  - name: Ensalada de zanahoria con comino
+    health: [GREEN, "Zanahoria cocida con especias: fibra y vitamina A con muy poca grasa."]
+    nutrition: [110, 1, 13, 6]
+    category: Ensaladas
+    difficulty: EASY
+    prep: 10
+    cook: 10
+    servings: 4
+    notes: Una de las ensaladas cocinadas que abren cualquier comida marroquí.
+    tags: [ensalada, vegana, sin gluten]
+    utensils: []
+    ingredients:
+      - items:
+          - [zanahorias, 600, g]
+          - [dientes de ajo, 2, null]
+          - [comino molido, 1, cucharadita]
+          - [pimentón dulce, 0.5, cucharadita]
+          - [canela molida, 1, pizca]
+          - [zumo de limón, 1, cucharada]
+          - [aceite de oliva virgen extra, 2, cucharada]
+          - [perejil picado, 2, cucharada]
+          - [sal, null, null]
+    steps:
+      - Pela las zanahorias, córtalas en rodajas y cuécelas con los ajos en agua con sal 8-10 minutos, hasta que estén tiernas pero firmes.
+      - Escúrrelas y aplasta los ajos.
+      - Aliña con el resto de los ingredientes y deja enfriar.
+
+  - name: Bissara
+    health: [GREEN, "Puré de habas secas con aceite: mucha proteína vegetal y fibra."]
+    nutrition: [320, 18, 40, 10]
+    photo: cocina-marroqui/bissara.jpg
+    category: Legumbres
+    difficulty: EASY
+    prep: 10
+    cook: 60
+    servings: 4
+    notes: El desayuno de invierno en el norte de Marruecos. Se sirve con un buen chorro de aceite, comino y pimentón.
+    tags: [legumbres, vegana, sin gluten, invierno]
+    utensils: [Batidora, Olla exprés]
+    ingredients:
+      - items:
+          - [habas secas peladas, 300, g]
+          - [dientes de ajo, 4, null]
+          - [comino molido, 2, cucharadita]
+          - [pimentón dulce, 1, cucharadita]
+          - [aceite de oliva virgen extra, 5, cucharada]
+          - [zumo de limón, 1, cucharada]
+          - [sal, null, null]
+    steps:
+      - Lava las habas y cuécelas con los ajos en 1,5 litros de agua 50-60 minutos (20 en olla exprés), hasta que se deshagan.
+      - Tritura con la mitad del comino, la sal y la mitad del aceite hasta tener una sopa espesa; añade agua si hace falta.
+      - Sirve en cuencos con el resto del aceite, comino, pimentón y unas gotas de limón.
+
+  - name: Briouats de queso
+    health: [RED, "Triángulos de pasta brick fritos: muy calóricos."]
+    nutrition: [290, 9, 18, 20]
+    photo: cocina-marroqui/briouats-de-queso.jpg
+    category: Entrantes
+    difficulty: MEDIUM
+    prep: 30
+    cook: 15
+    servings: 6
+    notes: Salen unos 24. También pueden hornearse a 200 °C, pintados con mantequilla.
+    tags: [aperitivo, fritos, vegetariana]
+    utensils: []
+    ingredients:
+      - items:
+          - [queso fresco o feta, 200, g]
+          - [queso mozzarella rallado, 100, g]
+          - [huevo, 1, null]
+          - [perejil y cilantro picados, 3, cucharada]
+          - [comino molido, 0.5, cucharadita]
+          - [hojas de pasta brick, 8, null]
+          - [aceite para freír, null, null]
+    steps:
+      - Desmenuza los quesos y mézclalos con el huevo, las hierbas y el comino.
+      - Corta las hojas de brick en tiras de 6 cm de ancho.
+      - Pon una cucharadita de relleno en un extremo y dobla en triángulos hasta el final de la tira. Sella con un poco de huevo.
+      - Fríe en aceite caliente hasta que estén dorados y escurre en papel.
+
+  - name: Rfissa
+    health: [YELLOW, "Pollo con lentejas sobre masa de msemen: completo, pero contundente."]
+    nutrition: [690, 42, 62, 30]
+    photo: cocina-marroqui/rfissa.jpg
+    category: Carnes
+    difficulty: HARD
+    prep: 30
+    cook: 90
+    servings: 6
+    notes: Plato de celebración que se hace tras un nacimiento. Usa msemen del día anterior. La fenogreco es la especia que le da su aroma.
+    tags: [pollo, legumbres, fiesta]
+    utensils: []
+    ingredients:
+      - items:
+          - [pollo de corral en trozos, 1.5, kg]
+          - [msemen o trid del día anterior, 8, null]
+          - [lentejas, 150, g]
+          - [semillas de fenogreco remojadas, 2, cucharada]
+          - [cebollas, 3, null]
+          - [ras el hanout, 2, cucharadita]
+          - [jengibre molido, 1, cucharadita]
+          - [hebras de azafrán, 1, pizca]
+          - [manojo de cilantro y perejil, 1, null]
+          - [mantequilla, 30, g]
+          - [aceite de oliva, 4, cucharada]
+          - [sal, null, null]
+    steps:
+      - Rehoga el pollo con la cebolla en juliana, las especias, el aceite, la mantequilla y las hierbas atadas 10 minutos.
+      - Añade el fenogreco, las lentejas y 1,5 litros de agua y cuece tapado 1 hora, hasta que el pollo esté tierno.
+      - Desmenuza el msemen en tiras y caliéntalo al vapor 10 minutos.
+      - Pon el msemen en una fuente, riégalo con buena parte del caldo y coloca encima el pollo y las lentejas.
+
+  - name: Mechui de cordero
+    health: [YELLOW, "Cordero asado con mantequilla y especias: mucha proteína y grasa."]
+    nutrition: [620, 46, 1, 48]
+    photo: cocina-marroqui/mechui-de-cordero.jpg
+    category: Carnes
+    difficulty: MEDIUM
+    prep: 15
+    cook: 240
+    servings: 6
+    notes: El cordero asado de las fiestas. Se sirve con comino y sal para mojar, y se come con las manos.
+    tags: [cordero, horno, fiesta, sin gluten]
+    utensils: [Horno]
+    ingredients:
+      - items:
+          - [paletilla de cordero, 2, null]
+          - [mantequilla blanda, 80, g]
+          - [dientes de ajo, 4, null]
+          - [comino molido, 2, cucharadita]
+          - [pimentón dulce, 2, cucharadita]
+          - [hebras de azafrán, 1, pizca]
+          - [sal, null, null]
+          - [comino y sal para servir, null, null]
+    steps:
+      - Mezcla la mantequilla con el ajo machacado, las especias y la sal.
+      - Haz unos cortes en la carne y úntala bien con la mantequilla. Déjala reposar 1 hora.
+      - Asa en el horno a 160 °C, en una fuente con un vaso de agua, tapada con papel de aluminio 3 horas, regando de vez en cuando.
+      - Destapa, sube a 220 °C y asa 30 minutos más, hasta que la piel esté crujiente y la carne se separe del hueso.
+
+  - name: Pinchos de kefta
+    health: [YELLOW, "Carne picada a la brasa: mucha proteína, con la grasa de la carne."]
+    nutrition: [380, 28, 4, 28]
+    photo: cocina-marroqui/pinchos-de-kefta.jpg
+    category: Carnes
+    difficulty: EASY
+    prep: 20
+    cook: 10
+    servings: 4
+    notes: Los pinchos de los puestos callejeros. Mételos en pan khobz con ensalada marroquí.
+    tags: [barbacoa, carne picada, sin gluten]
+    utensils: [Barbacoa]
+    ingredients:
+      - items:
+          - [carne picada de ternera y cordero, 600, g]
+          - [cebolla pequeña rallada y escurrida, 1, null]
+          - [perejil y cilantro picados, 4, cucharada]
+          - [comino molido, 1, cucharadita]
+          - [pimentón dulce, 1, cucharadita]
+          - [canela molida, 1, pizca]
+          - [sal, 1, cucharadita]
+    steps:
+      - Mezcla y amasa bien todos los ingredientes. Déjalos reposar 30 minutos en la nevera.
+      - Moldea la carne alrededor de broquetas planas formando salchichas alargadas.
+      - Ásalas en la barbacoa o la plancha bien caliente 8-10 minutos, dándoles la vuelta.
+
+  - name: Msemen
+    health: [YELLOW, "Torta hojaldrada de sémola y harina con mantequilla: calórica."]
+    nutrition: [280, 6, 40, 11]
+    photo: cocina-marroqui/msemen.jpg
+    category: Panes y masas
+    difficulty: MEDIUM
+    prep: 40
+    cook: 20
+    servings: 8
+    notes: Las tortas cuadradas del desayuno, con miel y mantequilla o con queso fresco.
+    tags: [pan, desayuno, vegetariana]
+    utensils: [Plancha]
+    ingredients:
+      - items:
+          - [harina de trigo, 300, g]
+          - [sémola fina de trigo, 100, g]
+          - [sal, 1, cucharadita]
+          - [azúcar, 1, cucharadita]
+          - [agua templada, 250, ml]
+          - [aceite, 60, ml]
+          - [mantequilla blanda, 50, g]
+          - [sémola fina para espolvorear, 3, cucharada]
+    steps:
+      - Amasa la harina, la sémola, la sal, el azúcar y el agua 10 minutos, hasta tener una masa muy elástica. Divídela en 8 bolas, úntalas de aceite y deja reposar 15 minutos.
+      - Con las manos aceitadas, estira cada bola hasta que quede muy fina y transparente. Úntala con mantequilla y espolvorea sémola.
+      - Dobla los lados hacia el centro en tercios y luego de arriba abajo, formando un cuadrado. Aplánalo con la mano.
+      - Cocina en la plancha a fuego medio 3-4 minutos por lado, hasta que esté dorado y hojaldrado.
+
+  - name: Khobz
+    health: [GREEN, "Pan de harina y sémola: hidratos sencillos, sin apenas grasa."]
+    nutrition: [210, 7, 42, 2]
+    photo: cocina-marroqui/khobz.jpg
+    category: Panes y masas
+    difficulty: EASY
+    prep: 20
+    cook: 25
+    servings: 8
+    notes: El pan redondo y plano de cada día, para mojar en tajines y ensaladas.
+    tags: [pan, vegana]
+    utensils: [Horno, Amasadora]
+    ingredients:
+      - items:
+          - [harina de trigo, 400, g]
+          - [sémola fina de trigo, 100, g]
+          - [levadura seca de panadería, 7, g]
+          - [sal, 1.5, cucharadita]
+          - [azúcar, 1, cucharadita]
+          - [agua templada, 320, ml]
+          - [aceite de oliva, 1, cucharada]
+          - [semillas de anís o sésamo, 1, cucharada, optional]
+    steps:
+      - Amasa todos los ingredientes 10 minutos, hasta tener una masa lisa.
+      - Divídela en 2 bolas, aplánalas en discos de 2 cm de grosor sobre una bandeja enharinada con sémola, tapa y deja levar 1 hora.
+      - Precalienta el horno a 220 °C. Pincha los panes con un tenedor.
+      - Hornea 20-25 minutos, hasta que estén dorados y suenen huecos por debajo.
+
+  - name: Baghrir
+    health: [YELLOW, "Tortitas de sémola con miel y mantequilla: dulces."]
+    nutrition: [290, 6, 48, 9]
+    photo: cocina-marroqui/baghrir.jpg
+    category: Panes y masas
+    difficulty: MEDIUM
+    prep: 15
+    cook: 30
+    servings: 6
+    notes: Las tortitas de los mil agujeros. Solo se hacen por un lado, sin darles la vuelta, y en una sartén antiadherente.
+    tags: [desayuno, merienda, vegetariana]
+    utensils: [Batidora]
+    ingredients:
+      - items:
+          - [sémola fina de trigo, 250, g]
+          - [harina de trigo, 50, g]
+          - [levadura seca de panadería, 7, g]
+          - [levadura química, 1, cucharadita]
+          - [azúcar, 1, cucharada]
+          - [sal, 1, pizca]
+          - [agua templada, 550, ml]
+          - [miel, 4, cucharada]
+          - [mantequilla, 40, g]
+    steps:
+      - Tritura todos los ingredientes menos la miel y la mantequilla con la batidora 2 minutos, hasta tener una masa líquida y lisa. Deja reposar 30 minutos, hasta que tenga burbujas.
+      - Calienta una sartén antiadherente a fuego medio sin grasa y vierte un cucharón de masa.
+      - Cocina solo por un lado 2 minutos, hasta que la superficie se llene de agujeros y quede seca.
+      - Funde la miel con la mantequilla y riega las tortitas al servir.
+
+  - name: Chebakia
+    health: [RED, "Galletas de sésamo fritas y bañadas en miel: muy dulces."]
+    nutrition: [150, 3, 18, 8]
+    photo: cocina-marroqui/chebakia.jpg
+    category: Postres
+    difficulty: HARD
+    prep: 60
+    cook: 30
+    servings: 30
+    notes: El dulce de Ramadán, en forma de flor. Las raciones son piezas. Se guarda semanas en una lata.
+    tags: [postre, fritos, ramadán]
+    utensils: []
+    ingredients:
+      - items:
+          - [harina de trigo, 500, g]
+          - [semillas de sésamo tostado y molido, 150, g]
+          - [semillas de sésamo para decorar, 50, g]
+          - [anís molido, 1, cucharadita]
+          - [canela molida, 1, cucharadita]
+          - [hebras de azafrán, 1, pizca]
+          - [huevo, 1, null]
+          - [mantequilla derretida, 60, g]
+          - [vinagre, 2, cucharada]
+          - [agua de azahar, 60, ml]
+          - [levadura seca de panadería, 1, cucharadita]
+          - [miel, 1, kg]
+          - [aceite para freír, null, null]
+    steps:
+      - Mezcla la harina con el sésamo molido, las especias, el huevo, la mantequilla, el vinagre, el azahar y la levadura y amasa hasta tener una masa firme. Deja reposar 30 minutos.
+      - Estira fina y corta rectángulos de 8 x 6 cm. Haz 4 cortes paralelos dentro de cada rectángulo sin llegar a los bordes.
+      - Pasa las tiras alternas por un dedo, junta las esquinas y da la vuelta para formar la flor.
+      - Fríelas en aceite a fuego medio hasta que estén doradas y pásalas enseguida a la miel caliente 5 minutos.
+      - Escúrrelas y espolvorea con sésamo.
+
+  - name: Cuernos de gacela
+    health: [RED, "Pastas rellenas de almendra y azúcar: dulces y calóricas."]
+    nutrition: [130, 3, 15, 7]
+    photo: cocina-marroqui/cuernos-de-gacela.jpg
+    category: Postres
+    difficulty: HARD
+    prep: 60
+    cook: 15
+    servings: 30
+    notes: Kaab el ghzal, el dulce fino del té de las visitas. Las raciones son piezas.
+    tags: [postre, almendra]
+    utensils: [Horno, Robot de cocina]
+    ingredients:
+      - group: Para la pasta de almendra
+        items:
+          - [almendra molida, 400, g]
+          - [azúcar glas, 200, g]
+          - [mantequilla derretida, 40, g]
+          - [agua de azahar, 4, cucharada]
+          - [canela molida, 0.5, cucharadita]
+      - group: Para la masa
+        items:
+          - [harina de trigo, 250, g]
+          - [mantequilla derretida para la masa, 50, g]
+          - [huevo, 1, null]
+          - [agua de azahar para la masa, 3, cucharada]
+          - [agua, 60, ml]
+          - [sal, 1, pizca]
+    steps:
+      - Mezcla los ingredientes de la pasta de almendra hasta tener una pasta moldeable. Forma cilindros de 6 cm afinados en las puntas.
+      - Amasa los ingredientes de la masa hasta que esté muy elástica y déjala reposar 20 minutos.
+      - Estírala muy fina, pon un cilindro de almendra en el borde, envuélvelo, recorta con un cortapastas de rueda y dale forma de media luna.
+      - "Pincha con una aguja y hornea a 180 °C 12-15 minutos, sin que se doren: deben quedar pálidos."
+
+  - name: Té moruno con hierbabuena
+    health: [YELLOW, "Té verde con hierbabuena: sin grasa, pero tradicionalmente muy azucarado."]
+    nutrition: [60, 0, 15, 0]
+    photo: cocina-marroqui/te-moruno-con-hierbabuena.jpg
+    category: Bebidas
+    difficulty: EASY
+    prep: 5
+    cook: 10
+    servings: 6
+    notes: El atay se sirve desde lo alto para que haga espuma. Ajusta el azúcar a tu gusto.
+    tags: [bebida, té]
+    utensils: []
+    ingredients:
+      - items:
+          - [té verde gunpowder, 2, cucharada]
+          - [manojo de hierbabuena fresca, 1, null]
+          - [azúcar, 80, g]
+          - [agua, 1, l]
+    steps:
+      - Pon el té en la tetera, añade un vaso de agua hirviendo, remueve y tira el agua para lavarlo.
+      - Añade el resto del agua hirviendo y deja reposar 2 minutos.
+      - Añade la hierbabuena y el azúcar y deja reposar 3 minutos más.
+      - Sirve un vaso y devuélvelo a la tetera dos o tres veces para mezclar. Sirve desde lo alto en vasos pequeños.

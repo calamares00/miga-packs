@@ -1,6 +1,6 @@
 id: cocina-mexicana
-version: 4
-updated: 2026-11-06
+version: 5
+updated: 2026-11-15
 language: es
 name: "Cocina del mundo: México"
 series: Cocina del mundo
@@ -642,3 +642,210 @@ recipes:
       - Vierte la mezcla en el molde, tapa con aluminio y hornea al baño maría a 170 °C unos 60 minutos, hasta que cuaje.
       - Deja enfriar y refrigera al menos 4 horas.
       - Pasa un cuchillo por el borde y desmolda sobre un plato con algo de fondo.
+
+  - name: Mole poblano
+    health: [YELLOW, "Pollo en salsa de chiles, chocolate y frutos secos: completo, pero calórico."]
+    nutrition: [620, 42, 34, 36]
+    photo: cocina-mexicana/mole-poblano.jpg
+    category: Carnes
+    difficulty: HARD
+    prep: 60
+    cook: 90
+    servings: 8
+    notes: "El plato de fiesta de Puebla. Lleva muchos ingredientes, pero el proceso es sencillo: tostar, freír, triturar y cocer despacio. Mejor de un día para otro."
+    tags: [pollo, fiesta, picante]
+    origin: Puebla
+    ingredients:
+      - group: Para el pollo
+        items:
+          - [pollo troceado, 2, kg]
+          - [cebolla, 0.5, null]
+          - [dientes de ajo, 2, null]
+          - [sal, null, null]
+      - group: Para el mole
+        items:
+          - [chiles mulatos, 4, null]
+          - [chiles anchos, 4, null]
+          - [chiles pasilla, 3, null]
+          - [almendras, 50, g]
+          - [cacahuetes, 50, g]
+          - [semillas de sésamo, 60, g]
+          - [pasas, 40, g]
+          - [tortilla de maíz del día anterior, 1, null]
+          - [tomate, 1, null]
+          - [cebolla para el mole, 0.5, null]
+          - [dientes de ajo para el mole, 3, null]
+          - [canela, 1, rama]
+          - [clavos, 3, null]
+          - [granos de pimienta negra, 6, null]
+          - [chocolate de mesa mexicano, 60, g]
+          - [manteca o aceite, 5, cucharada]
+          - [azúcar, 1, cucharada]
+    steps:
+      - Cuece el pollo con la cebolla, el ajo y sal en agua 40 minutos y reserva el caldo.
+      - Quita semillas y venas a los chiles, tuéstalos unos segundos en una sartén seca y remójalos en caldo caliente 20 minutos.
+      - Fríe por separado en la manteca las almendras, los cacahuetes, la mitad del sésamo, las pasas, la tortilla, el tomate, la cebolla, el ajo y las especias. Tritúralo todo con los chiles y caldo hasta tener una pasta fina.
+      - Fríe la pasta en manteca 10 minutos removiendo, añade el chocolate, el azúcar y caldo hasta que tenga textura de salsa y cuece 30 minutos. Añade el pollo y sirve con el resto del sésamo tostado.
+
+  - name: Tacos de pescado estilo Baja
+    health: [YELLOW, "Pescado rebozado frito en tortilla: proteína, con la grasa de la fritura."]
+    nutrition: [480, 26, 46, 21]
+    photo: cocina-mexicana/tacos-de-pescado-estilo-baja.jpg
+    category: Pescados y mariscos
+    difficulty: MEDIUM
+    prep: 25
+    cook: 15
+    servings: 4
+    notes: "De Ensenada, en Baja California: pescado rebozado en cerveza con col, crema y salsa."
+    tags: [tacos, pescado, fritos]
+    origin: Baja California
+    ingredients:
+      - items:
+          - [pescado blanco firme en tiras, 500, g]
+          - [harina, 120, g]
+          - [cerveza fría, 180, ml]
+          - [mostaza, 1, cucharadita]
+          - [orégano seco, 0.5, cucharadita]
+          - [tortillas de maíz, 12, null]
+          - [col en tiras finas, 200, g]
+          - [crema agria o mayonesa con limón, 100, ml]
+          - [pico de gallo, 150, g]
+          - [limas, 2, null]
+          - [aceite para freír, null, null]
+          - [sal, null, null]
+    steps:
+      - Mezcla la harina, la cerveza, la mostaza, el orégano y sal hasta tener una masa como de tortitas.
+      - Seca el pescado, sálalo, báñalo en la masa y fríelo en aceite a 180 °C 3-4 minutos, hasta que esté dorado.
+      - Calienta las tortillas en una sartén seca.
+      - Monta los tacos con el pescado, la col, la crema, el pico de gallo y un chorrito de lima.
+
+  - name: Sopes
+    health: [YELLOW, "Tortitas gruesas de maíz con frijoles y carne: completas, algo grasas."]
+    nutrition: [420, 18, 46, 18]
+    photo: cocina-mexicana/sopes.jpg
+    category: Panes y masas
+    difficulty: MEDIUM
+    prep: 30
+    cook: 25
+    servings: 6
+    notes: Bases gruesas de masa de maíz con un borde pellizcado para que no se caiga lo de encima. Salen 12.
+    tags: [maíz, antojitos]
+    ingredients:
+      - items:
+          - [harina de maíz nixtamalizado (masa harina), 300, g]
+          - [agua templada, 380, ml]
+          - [sal, 1, cucharadita]
+          - [frijoles refritos, 300, g]
+          - [carne deshebrada o tinga, 300, g]
+          - [lechuga en tiras, 100, g]
+          - [queso fresco desmenuzado, 100, g]
+          - [crema agria, 100, ml]
+          - [salsa verde o roja, 100, ml]
+          - [aceite, 3, cucharada]
+    steps:
+      - Amasa la harina con el agua y la sal hasta tener una masa suave. Forma 12 bolas y aplánalas en discos de 1 cm.
+      - Cuécelos en una plancha seca 2 minutos por lado. Todavía calientes, pellizca el borde para formar un reborde.
+      - Fríelos ligeramente en el aceite por la parte de abajo.
+      - Unta frijoles, pon la carne, la lechuga, el queso, la crema y la salsa.
+
+  - name: Birria de res
+    health: [YELLOW, "Ternera guisada en adobo de chiles: mucha proteína, con grasa."]
+    nutrition: [520, 46, 12, 32]
+    photo: cocina-mexicana/birria-de-res.jpg
+    category: Carnes
+    difficulty: MEDIUM
+    prep: 30
+    cook: 210
+    servings: 8
+    notes: De Jalisco. Se sirve en cuencos con su consomé, cebolla, cilantro y lima, o en tacos mojados en el caldo.
+    tags: [guiso, ternera, picante]
+    origin: Jalisco
+    ingredients:
+      - items:
+          - [carne de res para guisar (morcillo y costilla), 1.5, kg]
+          - [chiles guajillo, 6, null]
+          - [chiles anchos, 2, null]
+          - [tomates, 2, null]
+          - [cebolla, 1, null]
+          - [dientes de ajo, 5, null]
+          - [vinagre de manzana, 3, cucharada]
+          - [comino, 1, cucharadita]
+          - [orégano seco, 1, cucharadita]
+          - [clavos, 3, null]
+          - [canela, 1, rama]
+          - [hojas de laurel, 2, null]
+          - [sal, null, null]
+          - ["cebolla picada, cilantro y limas para servir", null, null]
+    steps:
+      - Quita las semillas a los chiles, tuéstalos y remójalos en agua caliente 20 minutos.
+      - Tritúralos con los tomates, la cebolla, el ajo, el vinagre y las especias hasta tener un adobo fino.
+      - Unta la carne con el adobo y ponla en una olla con el laurel, sal y 1,5 litros de agua. Cuece tapado a fuego suave 3 horas, hasta que se deshaga.
+      - Deshebra la carne y sírvela con su consomé, cebolla, cilantro y lima.
+
+  - name: Caldo tlalpeño
+    health: [GREEN, "Caldo de pollo con verduras y garbanzos: ligero y nutritivo."]
+    nutrition: [320, 28, 26, 11]
+    photo: cocina-mexicana/caldo-tlalpeno.jpg
+    category: Sopas y cremas
+    difficulty: EASY
+    prep: 15
+    cook: 45
+    servings: 6
+    notes: Caldo de pollo de Tlalpan con chipotle, garbanzos y aguacate. El chipotle en adobo le da el toque ahumado.
+    tags: [sopa, pollo, sin gluten]
+    origin: Ciudad de México
+    ingredients:
+      - items:
+          - [pechugas o muslos de pollo, 700, g]
+          - [garbanzos cocidos, 250, g]
+          - [zanahorias, 2, null]
+          - [calabacín, 1, null]
+          - [tomates, 2, null]
+          - [cebolla, 1, null]
+          - [dientes de ajo, 2, null]
+          - [chiles chipotles en adobo, 2, null]
+          - [caldo de pollo, 1.5, l]
+          - [aguacate, 1, null]
+          - [queso fresco, 100, g]
+          - [limas, 2, null]
+          - [sal, null, null]
+    steps:
+      - Cuece el pollo en el caldo 25 minutos. Sácalo y desmenúzalo.
+      - Tritura los tomates con la cebolla, el ajo y los chipotles y fríe la mezcla 5 minutos.
+      - Añádela al caldo con la zanahoria y el calabacín en dados y los garbanzos y cuece 15 minutos. Vuelve a poner el pollo y sala.
+      - Sirve con aguacate en dados, queso fresco y lima.
+
+  - name: Pastel tres leches
+    health: [RED, "Bizcocho empapado en tres leches y cubierto de nata: muy dulce."]
+    nutrition: [430, 9, 54, 20]
+    photo: cocina-mexicana/pastel-tres-leches.jpg
+    category: Postres
+    difficulty: MEDIUM
+    prep: 25
+    cook: 30
+    servings: 12
+    notes: El bizcocho empapado en leche evaporada, condensada y nata, muy popular en México y toda Latinoamérica. Necesita una noche en la nevera.
+    tags: [postre, bizcocho, horno]
+    utensils: [Horno, Batidora]
+    ingredients:
+      - group: Para el bizcocho
+        items:
+          - [huevos, 5, null]
+          - [azúcar, 180, g]
+          - [harina, 160, g]
+          - [levadura química, 1, cucharadita]
+          - [leche, 60, ml]
+          - [extracto de vainilla, 1, cucharadita]
+      - group: Para las tres leches y la cobertura
+        items:
+          - [leche evaporada, 350, ml]
+          - [leche condensada, 400, g]
+          - [nata para cocinar, 200, ml]
+          - [nata para montar, 300, ml]
+          - [azúcar glas, 30, g]
+          - [canela molida, null, null]
+    steps:
+      - Precalienta el horno a 180 °C. Bate los huevos con el azúcar hasta que tripliquen su volumen, añade la leche y la vainilla y luego la harina con la levadura, con movimientos envolventes.
+      - Hornea en una fuente de 22 x 30 cm 25-30 minutos. Deja templar y pincha toda la superficie con un tenedor.
+      - Mezcla las tres leches y viértelas poco a poco sobre el bizcocho hasta que las absorba. Refrigera toda la noche.
+      - Monta la nata con el azúcar glas, cubre el pastel y espolvorea canela.

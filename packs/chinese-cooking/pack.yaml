@@ -1,6 +1,6 @@
 id: chinese-cooking
-version: 3
-updated: 2026-11-06
+version: 4
+updated: 2026-11-15
 language: en
 name: "World cuisine: China"
 series: World cuisine
@@ -673,3 +673,185 @@ recipes:
       - Fry them in the oil over a medium-high heat for 6-8 minutes, moving them around, until the skins wrinkle and have golden spots. Lift them out.
       - In the remaining oil, stir-fry the pork until crisp. Add the chillies, Sichuan pepper and chopped garlic and ginger and stir-fry for 30 seconds.
       - Return the beans with the soy sauce, sugar and salt and stir-fry for 1 minute.
+
+  - name: Yangzhou fried rice
+    health: [YELLOW, "Rice stir-fried with egg, prawns and vegetables: complete, with some fat."]
+    nutrition: [480, 20, 64, 15]
+    photo: cocina-china/arroz-frito-de-yangzhou.jpg
+    category: Rice
+    difficulty: EASY
+    prep: 15
+    cook: 10
+    servings: 4
+    notes: The classic fried rice from the city of Yangzhou. Best with rice cooked the day before.
+    tags: [rice, wok, quick]
+    origin: Yangzhou
+    utensils: [Wok]
+    ingredients:
+      - items:
+          - [cold cooked rice, 600, g]
+          - [eggs, 3, null]
+          - [peeled prawns, 150, g]
+          - [diced cooked ham or char siu, 100, g]
+          - [peas, 80, g]
+          - [spring onions, 3, null]
+          - [light soy sauce, 2, tbsp]
+          - [sunflower oil, 3, tbsp]
+          - [salt, null, null]
+    steps:
+      - Beat the eggs and scramble them loosely in the wok with a tablespoon of oil. Set aside.
+      - Stir-fry the prawns for 1 minute and set aside.
+      - Heat the rest of the oil over high heat and stir-fry the rice, breaking up the grains, for 3 minutes. Add the ham and peas.
+      - Return the egg and prawns, add the soy sauce and spring onion, season and stir-fry 1 minute more.
+
+  - name: Pork baozi
+    health: [YELLOW, "Steamed buns filled with pork: balanced, with carbohydrates and pork fat."]
+    nutrition: [310, 14, 40, 10]
+    photo: cocina-china/baozi-de-cerdo.jpg
+    category: Breads and doughs
+    difficulty: HARD
+    prep: 60
+    cook: 15
+    servings: 12
+    notes: The steamed buns of a Chinese breakfast. Makes 12. They freeze well once cooked and reheat in the steamer.
+    tags: [dough, steamed, pork]
+    utensils: [Steamer]
+    ingredients:
+      - group: For the dough
+        items:
+          - [plain flour, 400, g]
+          - [dried yeast, 6, g]
+          - [sugar, 30, g]
+          - [warm water, 220, ml]
+          - [sunflower oil, 1, tbsp]
+      - group: For the filling
+        items:
+          - [minced pork, 400, g]
+          - [spring onions, 3, null]
+          - [grated ginger, 1, tbsp]
+          - [soy sauce, 2, tbsp]
+          - [oyster sauce, 1, tbsp]
+          - [sesame oil, 1, tbsp]
+          - [sugar for the filling, 1, tsp]
+          - [cold water, 3, tbsp]
+    steps:
+      - Knead the dough ingredients for 10 minutes, until smooth, and leave to rise for 1 hour.
+      - Mix the pork with the rest of the filling ingredients, adding the water gradually until juicy.
+      - Divide the dough into 12 balls, roll them into discs thicker in the middle, add a spoonful of filling and close by pleating the edges upwards.
+      - Set them on squares of paper in the steamer, leave to rise for 20 minutes and steam for 15 minutes. Wait 3 minutes before uncovering.
+
+  - name: Yu xiang aubergine
+    health: [YELLOW, "Aubergine stir-fried in a sweet, sour and spicy sauce: a vegetable, but it soaks up oil."]
+    nutrition: [240, 4, 20, 16]
+    photo: cocina-china/berenjenas-yu-xiang.jpg
+    category: Vegetables
+    difficulty: MEDIUM
+    prep: 15
+    cook: 15
+    servings: 4
+    notes: A Sichuan dish in "fish-fragrant" sauce, which contains no fish. Chilli bean paste (doubanjiang) is sold in Asian shops.
+    tags: [aubergine, spicy, wok, vegan]
+    origin: Sichuan
+    utensils: [Wok]
+    ingredients:
+      - items:
+          - [long aubergines, 3, null]
+          - [chilli bean paste (doubanjiang), 1, tbsp]
+          - [garlic cloves, 3, null]
+          - [fresh ginger, 1, piece]
+          - [spring onions, 2, null]
+          - [soy sauce, 1, tbsp]
+          - [Chinese black vinegar, 2, tbsp]
+          - [sugar, 1, tbsp]
+          - [cornflour, 1, tsp]
+          - [water, 100, ml]
+          - [sunflower oil, 4, tbsp]
+    steps:
+      - Cut the aubergines into batons, salt them for 15 minutes and pat dry.
+      - Mix the soy sauce, vinegar, sugar, cornflour and water.
+      - Stir-fry the aubergines in the oil over high heat until golden and tender. Set aside.
+      - Fry the bean paste with the chopped garlic and ginger for 30 seconds, add the sauce and aubergines and cook until thickened. Finish with spring onion.
+
+  - name: Tea eggs
+    health: [GREEN, "Boiled eggs marinated in tea and spices: protein with little fat."]
+    nutrition: [80, 7, 1, 5]
+    photo: cocina-china/huevos-al-te.jpg
+    category: Eggs
+    difficulty: EASY
+    prep: 10
+    cook: 30
+    servings: 8
+    notes: The marbled eggs of street stalls. The longer in the marinade, the more flavour and the sharper the pattern.
+    tags: [eggs, appetizer, gluten-free]
+    ingredients:
+      - items:
+          - [eggs, 8, null]
+          - [black tea, 2, tbsp]
+          - [soy sauce, 4, tbsp]
+          - [star anise, 2, null]
+          - [cinnamon stick, 1, null]
+          - [Sichuan peppercorns, 1, tsp]
+          - [sugar, 1, tbsp]
+          - [water, 1, l]
+    steps:
+      - Boil the eggs for 8 minutes and cool them in cold water.
+      - Tap the shells all over with a spoon to crack them without peeling.
+      - Boil the water with the tea, soy, spices and sugar, add the eggs and simmer for 20 minutes.
+      - Leave the eggs in the liquid in the fridge for at least 12 hours. Peel to serve.
+
+  - name: White cut chicken
+    health: [GREEN, "Poached chicken with ginger sauce: lots of protein and little fat without the skin."]
+    nutrition: [420, 40, 2, 27]
+    photo: cocina-china/pollo-bai-qie-ji.jpg
+    category: Meat
+    difficulty: MEDIUM
+    prep: 15
+    cook: 50
+    servings: 4
+    notes: "Cantonese bai qie ji: poached without boiling so it stays very juicy. Served cold or warm."
+    tags: [chicken, gluten-free]
+    origin: Canton
+    ingredients:
+      - items:
+          - [whole chicken, 1.5, kg]
+          - [fresh ginger, 1, piece]
+          - [spring onions, 6, null]
+          - [coarse salt, 2, tbsp]
+          - [sunflower oil, 4, tbsp]
+          - [grated fresh ginger, 3, tbsp]
+          - [fine salt, 1, tsp]
+    steps:
+      - Bring a large pot of water to the boil with the coarse salt, sliced ginger and 2 spring onions. Lower in the chicken, return to the boil, cover and turn off the heat.
+      - Leave it in the water, covered, for 45 minutes, until the thigh juices run clear, then move it to iced water for 10 minutes.
+      - Chop the remaining spring onions and mix with the grated ginger and fine salt. Pour very hot oil over them.
+      - Chop the chicken into pieces with a heavy knife and serve with the ginger sauce.
+
+  - name: Beef ho fun (gan chao niu he)
+    health: [YELLOW, "Stir-fried rice noodles with beef: complete, with quite a lot of oil."]
+    nutrition: [520, 26, 66, 17]
+    photo: cocina-china/fideos-de-arroz-con-ternera.jpg
+    category: Pasta
+    difficulty: MEDIUM
+    prep: 20
+    cook: 10
+    servings: 4
+    notes: A Cantonese classic for a very hot wok. Fresh wide rice noodles (ho fun) are sold in Asian shops; soaked dried ones work too.
+    tags: [noodles, wok, beef]
+    origin: Canton
+    utensils: [Wok]
+    ingredients:
+      - items:
+          - [fresh wide rice noodles, 500, g]
+          - [beef steak in thin strips, 300, g]
+          - [bean sprouts, 200, g]
+          - [spring onions, 4, null]
+          - [light soy sauce, 2, tbsp]
+          - [dark soy sauce, 1, tbsp]
+          - [oyster sauce, 1, tbsp]
+          - [cornflour, 1, tsp]
+          - [sunflower oil, 4, tbsp]
+    steps:
+      - Marinate the beef with a tablespoon of light soy and the cornflour for 15 minutes. Separate the noodles by hand.
+      - Stir-fry the beef in a very hot wok with a tablespoon of oil for 1 minute and set aside.
+      - Add the rest of the oil and the noodles, spread them out and let them char a little before stirring. Add the sauces.
+      - Return the beef, add the bean sprouts and spring onion pieces and stir-fry 1 minute over full heat.

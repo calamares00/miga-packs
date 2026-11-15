@@ -1,6 +1,6 @@
 id: greek-cooking
-version: 3
-updated: 2026-11-06
+version: 4
+updated: 2026-11-15
 language: en
 name: "World cuisine: Greece"
 series: World cuisine
@@ -641,3 +641,94 @@ recipes:
       - Alternate layers of nuts with 2-3 buttered sheets of filo, finishing with 8 buttered sheets.
       - Cut into diamonds with a sharp knife right to the bottom and bake for 45-50 minutes, until golden.
       - Pour the cold syrup over the baklava straight from the oven and leave it to soak for several hours before serving.
+
+  - name: Kolokithokeftedes
+    health: [YELLOW, "Fried courgette and feta fritters: vegetables, with the frying oil."]
+    nutrition: [260, 10, 18, 17]
+    photo: cocina-griega/kolokithokeftedes.jpg
+    category: Starters
+    difficulty: EASY
+    prep: 25
+    cook: 15
+    servings: 4
+    notes: The courgette, feta and mint fritters of Greek tavernas. Served with tzatziki.
+    tags: [appetizer, vegetables, vegetarian]
+    ingredients:
+      - items:
+          - [courgettes, 3, null]
+          - [feta cheese, 150, g]
+          - [spring onions, 3, null]
+          - [fresh mint, 2, tbsp]
+          - [fresh dill, 2, tbsp]
+          - [egg, 1, null]
+          - [breadcrumbs, 60, g]
+          - [flour, 3, tbsp]
+          - [olive oil for frying, null, null]
+          - [salt and pepper, null, null]
+    steps:
+      - Grate the courgettes, salt them and leave in a colander for 20 minutes. Squeeze them very dry in a tea towel.
+      - Mix with the crumbled feta, chopped spring onion and herbs, the egg, breadcrumbs and pepper.
+      - Shape into flattened balls and dust with flour.
+      - Fry in oil over medium heat for 2-3 minutes per side, until golden, and drain.
+
+  - name: Galaktoboureko
+    health: [RED, "Semolina custard in filo with syrup: very sweet."]
+    nutrition: [420, 8, 58, 17]
+    photo: cocina-griega/galaktoboureko.jpg
+    category: Desserts
+    difficulty: MEDIUM
+    prep: 30
+    cook: 50
+    servings: 12
+    notes: The semolina custard pie of Greek pastry shops. The cold syrup goes over the pie straight from the oven.
+    tags: [dessert, oven]
+    utensils: [Oven]
+    ingredients:
+      - group: For the custard
+        items:
+          - [whole milk, 1, l]
+          - [fine semolina, 150, g]
+          - [sugar, 150, g]
+          - [eggs, 4, null]
+          - [butter, 40, g]
+          - [vanilla extract, 1, tsp]
+      - group: For assembly and syrup
+        items:
+          - [filo sheets, 12, null]
+          - [melted butter, 120, g]
+          - [sugar for the syrup, 300, g]
+          - [water, 250, ml]
+          - [lemon peel, 1, piece]
+          - [cinnamon stick, 1, null]
+    steps:
+      - Boil the syrup sugar with the water, lemon peel and cinnamon for 5 minutes and leave to cool.
+      - Heat the milk, add the semolina and half the sugar and cook, stirring, until thick. Off the heat, stir in the butter, vanilla and the eggs beaten with the rest of the sugar.
+      - Heat the oven to 180 °C. Line a dish with 6 buttered filo sheets, pour in the custard and cover with the other 6, buttering them too.
+      - Score the portions, bake for 45 minutes until golden and pour the cold syrup over at once. Let it soak in before slicing.
+
+  - name: Tiropita
+    health: [RED, "Filo pie with cheese and butter: very high in calories."]
+    nutrition: [430, 15, 24, 31]
+    photo: cocina-griega/tiropita.jpg
+    category: Breads and doughs
+    difficulty: EASY
+    prep: 20
+    cook: 40
+    servings: 8
+    notes: The cheese pie eaten in Greece at any time of day, in slices or little triangles.
+    tags: [oven, cheese, vegetarian]
+    utensils: [Oven]
+    ingredients:
+      - items:
+          - [filo sheets, 10, null]
+          - [feta cheese, 300, g]
+          - [ricotta, 200, g]
+          - [eggs, 3, null]
+          - [Greek yoghurt, 150, g]
+          - [melted butter or olive oil, 100, g]
+          - [black pepper, null, null]
+    steps:
+      - Heat the oven to 180 °C. Mix the crumbled feta with the ricotta, eggs, yoghurt and pepper.
+      - Grease a dish and lay in 5 filo sheets, brushing each with butter.
+      - Spread the filling and cover with the other 5 sheets, brushing them too. Score the portions.
+      - Bake for 35-40 minutes, until deep golden. Leave to cool slightly before slicing.

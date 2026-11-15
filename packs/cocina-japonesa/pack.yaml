@@ -1,6 +1,6 @@
 id: cocina-japonesa
-version: 3
-updated: 2026-11-06
+version: 4
+updated: 2026-11-15
 language: es
 name: "Cocina del mundo: Japón"
 series: Cocina del mundo
@@ -628,3 +628,146 @@ recipes:
       - Añade la harina tamizada con la levadura y mezcla. Deja que la masa repose 15 minutos y añade el agua.
       - Engrasa una sartén con papel de cocina y aceite y caliéntala a fuego medio-bajo. Vierte un cucharón pequeño de masa y cuece hasta que salgan burbujas; dale la vuelta y cuece 30 segundos más.
       - Une las tortitas de dos en dos con una capa de anko en medio y envuélvelas en film para que se mantengan tiernas.
+
+  - name: Katsudon
+    health: [YELLOW, "Cerdo empanado con huevo sobre arroz: completo, pero calórico por la fritura."]
+    nutrition: [720, 36, 88, 24]
+    photo: cocina-japonesa/katsudon.jpg
+    category: Arroces
+    difficulty: MEDIUM
+    prep: 15
+    cook: 20
+    servings: 2
+    notes: El tonkatsu cocido con cebolla y huevo en caldo dulce sobre arroz. Plato de estudiantes antes de los exámenes, porque «katsu» suena a «ganar».
+    tags: [arroz, cerdo, huevos]
+    ingredients:
+      - items:
+          - [tonkatsu (filetes de cerdo empanados y fritos), 2, null]
+          - [arroz japonés cocido, 400, g]
+          - [cebolla, 1, null]
+          - [huevos, 3, null]
+          - [caldo dashi, 160, ml]
+          - [salsa de soja, 2, cucharada]
+          - [mirin, 2, cucharada]
+          - [azúcar, 1, cucharadita]
+          - [cebolleta, 1, null]
+    steps:
+      - Corta el tonkatsu en tiras y la cebolla en juliana.
+      - Cuece la cebolla en el dashi con la soja, el mirin y el azúcar en una sartén pequeña 3 minutos.
+      - Pon encima la mitad del tonkatsu, vierte alrededor la mitad de los huevos batidos ligeramente, tapa y cocina 1 minuto, hasta que el huevo esté casi cuajado.
+      - Desliza sobre un bol de arroz caliente con la cebolleta. Repite para la segunda ración.
+
+  - name: Chawanmushi
+    health: [GREEN, "Flan salado de huevo y dashi al vapor: proteína ligera y poca grasa."]
+    nutrition: [130, 13, 4, 6]
+    photo: cocina-japonesa/chawanmushi.jpg
+    category: Huevos
+    difficulty: MEDIUM
+    prep: 15
+    cook: 15
+    servings: 4
+    notes: "El flan de huevo salado y tembloroso que se sirve como entrante. El truco es el fuego suave: si hierve, se llena de agujeros."
+    tags: [huevos, vapor, entrante]
+    utensils: [Vaporera]
+    ingredients:
+      - items:
+          - [huevos, 3, null]
+          - [caldo dashi frío, 400, ml]
+          - [salsa de soja clara, 1, cucharadita]
+          - [mirin, 1, cucharadita]
+          - [sal, 1, pizca]
+          - [gambas peladas, 4, null]
+          - [setas shiitake, 2, null]
+          - [pechuga de pollo en dados, 50, g]
+          - [hojas de perejil japonés o cebollino, null, null]
+    steps:
+      - Bate los huevos sin hacer espuma, mezcla con el dashi, la soja, el mirin y la sal y cuela.
+      - Reparte las gambas, las setas en láminas y el pollo en 4 tazas resistentes al calor.
+      - Vierte la mezcla de huevo, retira las burbujas y tapa cada taza con papel de aluminio.
+      - Cuece al vapor a fuego suave 12-15 minutos, hasta que estén cuajados pero tiemblen. Decora con las hierbas.
+
+  - name: Kitsune udon
+    health: [GREEN, "Sopa de fideos udon con tofu frito: ligera y reconfortante."]
+    nutrition: [420, 16, 70, 9]
+    photo: cocina-japonesa/kitsune-udon.jpg
+    category: Sopas y cremas
+    difficulty: EASY
+    prep: 10
+    cook: 15
+    servings: 2
+    notes: «Udon del zorro», por el tofu frito dulce (aburaage) que, según la tradición, es la comida favorita de los zorros.
+    tags: [sopa, fideos]
+    ingredients:
+      - items:
+          - [fideos udon, 400, g]
+          - [aburaage (tofu frito en láminas), 2, null]
+          - [caldo dashi, 800, ml]
+          - [salsa de soja, 3, cucharada]
+          - [mirin, 2, cucharada]
+          - [azúcar, 2, cucharada]
+          - [cebolletas, 2, null]
+          - [shichimi togarashi, 1, pizca, optional]
+    steps:
+      - Escalda el aburaage 1 minuto en agua hirviendo para quitarle el aceite y córtalo en triángulos.
+      - Cuécelo 10 minutos en 100 ml de dashi con una cucharada de soja, el azúcar y una de mirin, hasta que absorba casi todo.
+      - Calienta el resto del dashi con la soja y el mirin. Cuece los udon según el paquete y escúrrelos.
+      - Sirve los udon en el caldo con el tofu, la cebolleta y el shichimi.
+
+  - name: Cerdo al jengibre (shogayaki)
+    health: [YELLOW, "Cerdo salteado con salsa de jengibre: proteína, con algo de azúcar en la salsa."]
+    nutrition: [420, 30, 12, 27]
+    photo: cocina-japonesa/cerdo-al-jengibre.jpg
+    category: Carnes
+    difficulty: EASY
+    prep: 15
+    cook: 10
+    servings: 4
+    notes: Un clásico de los menús caseros y las fiambreras japonesas, con col en tiras finas y arroz.
+    tags: [cerdo, rápida]
+    ingredients:
+      - items:
+          - [lomo o aguja de cerdo en lonchas finas, 500, g]
+          - [jengibre fresco rallado, 2, cucharada]
+          - [salsa de soja, 3, cucharada]
+          - [mirin, 2, cucharada]
+          - [sake, 2, cucharada]
+          - [azúcar, 1, cucharadita]
+          - [cebolla, 1, null]
+          - [aceite de girasol, 1, cucharada]
+          - [col en tiras muy finas, 200, g]
+    steps:
+      - Mezcla el jengibre, la soja, el mirin, el sake y el azúcar y marina el cerdo 15 minutos.
+      - Saltea la cebolla en juliana en el aceite 2 minutos.
+      - Añade el cerdo escurrido y saltéalo a fuego fuerte 2-3 minutos.
+      - Añade la marinada y deja que reduzca y glasee la carne. Sirve con la col cruda y arroz.
+
+  - name: Sukiyaki
+    health: [YELLOW, "Ternera y verduras cocidas en salsa dulce: completo, con azúcar en la salsa."]
+    nutrition: [560, 36, 36, 28]
+    photo: cocina-japonesa/sukiyaki.jpg
+    category: Carnes
+    difficulty: MEDIUM
+    prep: 20
+    cook: 20
+    servings: 4
+    notes: Se cocina en la mesa en una cazuela de hierro y cada uno moja la carne en huevo crudo batido. Si no te gusta, sírvelo sin el huevo.
+    tags: [ternera, para compartir]
+    ingredients:
+      - items:
+          - [ternera en lonchas muy finas, 500, g]
+          - [tofu firme, 300, g]
+          - [setas shiitake, 8, null]
+          - [cebolletas japonesas o puerros, 2, null]
+          - [col china, 300, g]
+          - [fideos de konjac (shirataki), 200, g]
+          - [salsa de soja, 100, ml]
+          - [mirin, 100, ml]
+          - [sake, 50, ml]
+          - [azúcar, 3, cucharada]
+          - [agua, 100, ml]
+          - [huevos muy frescos, 4, null, optional]
+    steps:
+      - Mezcla la soja, el mirin, el sake, el azúcar y el agua y calienta hasta disolver el azúcar.
+      - Corta el tofu en dados, el puerro en diagonal, la col en trozos y escurre los shirataki.
+      - Dora unas lonchas de carne en una cazuela ancha con un poco de grasa, añade parte de la salsa y coloca las verduras, el tofu y los fideos en montoncitos.
+      - Cuece 5-8 minutos y ve comiendo y añadiendo más carne y salsa. Si se usa, cada uno moja en su huevo batido.

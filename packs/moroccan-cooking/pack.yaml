@@ -1,6 +1,6 @@
 id: moroccan-cooking
-version: 1
-updated: 2026-11-14
+version: 2
+updated: 2026-11-15
 language: en
 name: "World cuisine: Morocco"
 series: World cuisine
@@ -644,3 +644,114 @@ recipes:
       - Add the rest of the boiling water and steep for 2 minutes.
       - Add the mint and sugar and steep 3 minutes more.
       - Pour a glass and return it to the pot two or three times to mix. Pour from a height into small glasses.
+
+  - name: Tanjia marrakchia
+    health: [YELLOW, "Beef cooked very slowly with lemon and spices: lots of protein, with fat."]
+    nutrition: [520, 44, 4, 36]
+    category: Meat
+    difficulty: EASY
+    prep: 15
+    cook: 300
+    servings: 4
+    notes: "The bachelors' dish of Marrakech: the clay urn was left overnight in the embers of the hammam. At home, in the oven at 140 °C."
+    tags: [beef, oven, gluten-free]
+    origin: Marrakech
+    utensils: [Oven]
+    ingredients:
+      - items:
+          - [beef shin in pieces, 1.2, kg]
+          - [preserved lemon, 1, null]
+          - [garlic cloves, 6, null]
+          - [ground cumin, 1, tsp]
+          - [saffron threads, 1, pinch]
+          - [ras el hanout, 1, tsp]
+          - [smen (preserved butter) or butter, 40, g]
+          - [olive oil, 3, tbsp]
+          - [water, 150, ml]
+          - [salt, null, null]
+    steps:
+      - Mix the meat with the crushed garlic, spices, oil, butter, salt and the chopped preserved lemon.
+      - Put it in a clay pot or other ovenproof pot, add the water and seal well with foil and the lid.
+      - Bake at 140 °C for 5 hours without opening.
+      - The meat should fall apart with a fork. Serve with bread to mop up the sauce.
+
+  - name: Chermoula-stuffed sardines
+    health: [GREEN, "Sardines with herbs and spices: omega-3 and protein."]
+    nutrition: [380, 30, 8, 25]
+    photo: cocina-marroqui/sardinas-rellenas-de-chermoula.jpg
+    category: Fish and seafood
+    difficulty: MEDIUM
+    prep: 30
+    cook: 10
+    servings: 4
+    notes: "Street food from Essaouira and the Atlantic coast: two butterflied sardines sandwiched with chermoula, floured and fried."
+    tags: [fish, fried]
+    origin: Atlantic coast
+    ingredients:
+      - items:
+          - [butterflied boneless sardines, 16, null]
+          - [bunch of coriander and parsley, 1, null]
+          - [garlic cloves, 3, null]
+          - [ground cumin, 1, tsp]
+          - [sweet paprika, 1, tsp]
+          - [lemon juice, 1, null]
+          - [olive oil, 2, tbsp]
+          - [flour, 4, tbsp]
+          - [oil for frying, null, null]
+          - [salt, null, null]
+    steps:
+      - Finely chop the herbs and garlic and mix with the spices, lemon, oil and salt.
+      - Spread the flesh of one sardine with chermoula and cover with another, skin side out, like a sandwich.
+      - Dust them with flour.
+      - Fry in hot oil for 2 minutes per side and drain. Serve with lemon.
+
+  - name: Vermicelli seffa
+    health: [YELLOW, "Steamed vermicelli with butter, sugar and almonds: sweet and rich."]
+    nutrition: [480, 11, 70, 18]
+    photo: cocina-marroqui/seffa-de-fideos.jpg
+    category: Pasta
+    difficulty: MEDIUM
+    prep: 15
+    cook: 40
+    servings: 6
+    notes: A sweet festive dish served in a mound with cinnamon and almonds. Sometimes a chicken is hidden inside.
+    tags: [celebration, pasta, sweet]
+    utensils: [Steamer]
+    ingredients:
+      - items:
+          - [fine angel hair vermicelli, 500, g]
+          - [butter, 60, g]
+          - [oil, 2, tbsp]
+          - [chopped fried almonds, 100, g]
+          - [icing sugar, 60, g]
+          - [ground cinnamon, 2, tsp]
+          - [orange blossom water, 1, tbsp]
+          - [salt, 1, pinch]
+    steps:
+      - Toss the raw vermicelli with the oil and steam for 10 minutes.
+      - Tip into a bowl, sprinkle with a glass of water with the salt and orange blossom, separate with your fingers and steam again for 15 minutes.
+      - Repeat once more and toss the hot vermicelli with the butter.
+      - Serve in a mound decorated with lines of icing sugar, cinnamon and almonds.
+
+  - name: Orange salad with cinnamon
+    health: [GREEN, "Orange with cinnamon and a little sugar: fresh fruit and vitamin C."]
+    nutrition: [110, 2, 24, 1]
+    category: Desserts
+    difficulty: EASY
+    prep: 10
+    cook: 0
+    servings: 4
+    notes: The most common dessert after a tagine. A few drops of orange blossom water perfume it.
+    tags: [dessert, fruit, vegan, gluten-free, quick]
+    ingredients:
+      - items:
+          - [oranges, 4, null]
+          - [ground cinnamon, 1, tsp]
+          - [icing sugar, 1, tbsp]
+          - [orange blossom water, 1, tsp]
+          - [mint leaves, 8, null]
+    steps:
+      - Peel the oranges with a knife, removing all the white pith.
+      - Slice them thinly and arrange on a platter.
+      - Sprinkle with the orange blossom water, icing sugar and cinnamon.
+      - Garnish with mint and serve chilled.

@@ -1,6 +1,6 @@
 id: cocina-coreana
-version: 1
-updated: 2026-11-14
+version: 2
+updated: 2026-11-15
 language: es
 name: "Cocina del mundo: Corea"
 series: Cocina del mundo
@@ -654,3 +654,136 @@ recipes:
       - Ráspala con un tenedor o pásala por la máquina de hielo hasta tener una nieve fina.
       - Reparte el hielo en cuencos fríos, pon encima la judía roja, los mochi y la fruta.
       - Riega con el resto de la leche condensada, espolvorea el polvo de soja y sirve enseguida.
+
+  - name: Doenjang jjigae
+    health: [GREEN, "Guiso de pasta de soja con tofu y verduras: proteína vegetal, algo salado."]
+    nutrition: [220, 16, 16, 10]
+    photo: cocina-coreana/doenjang-jjigae.jpg
+    category: Sopas y cremas
+    difficulty: EASY
+    prep: 15
+    cook: 20
+    servings: 4
+    notes: El guiso diario de las casas coreanas, con la pasta de soja fermentada (doenjang). Se sirve hirviendo con arroz.
+    tags: [sopa, tofu, fermentados]
+    ingredients:
+      - items:
+          - [doenjang (pasta de soja fermentada), 3, cucharada]
+          - [gochujang, 1, cucharadita, optional]
+          - [tofu firme, 300, g]
+          - [calabacín, 1, null]
+          - [patata, 1, null]
+          - [cebolla, 1, null]
+          - [setas, 100, g]
+          - [dientes de ajo, 2, null]
+          - [guindilla verde, 1, null]
+          - [caldo de anchoas o agua, 700, ml]
+    steps:
+      - Disuelve el doenjang y el gochujang en el caldo y llévalo a ebullición.
+      - Añade la patata y la cebolla en dados y el ajo picado y cuece 8 minutos.
+      - Añade el calabacín y las setas y cuece 5 minutos más.
+      - Añade el tofu en dados y la guindilla en rodajas y cuece 3 minutos.
+
+  - name: Gyeran-jjim
+    health: [GREEN, "Huevo al vapor con caldo: proteína ligera y poca grasa."]
+    nutrition: [120, 10, 2, 8]
+    photo: cocina-coreana/gyeran-jjim.jpg
+    category: Huevos
+    difficulty: EASY
+    prep: 5
+    cook: 12
+    servings: 2
+    notes: Huevos al vapor esponjosos que se sirven en su cazuelita de barro, como acompañamiento.
+    tags: [huevos, banchan, sin gluten]
+    ingredients:
+      - items:
+          - [huevos, 3, null]
+          - [caldo de anchoas o agua, 200, ml]
+          - [cebolleta, 1, null]
+          - [salsa de pescado o sal, 1, cucharadita]
+          - [aceite de sésamo, 1, cucharadita]
+          - [semillas de sésamo, 1, pizca]
+    steps:
+      - Bate los huevos con la salsa de pescado y cuélalos.
+      - Calienta el caldo en una cazuelita de barro pequeña hasta que hierva y baja el fuego al mínimo.
+      - Vierte los huevos removiendo con unos palillos 1 minuto, hasta que empiecen a cuajar. Añade la cebolleta picada.
+      - Tapa y cuece a fuego mínimo 8-10 minutos, hasta que suba y esté cuajado. Termina con el aceite y el sésamo.
+
+  - name: Espinacas aliñadas (sigeumchi namul)
+    health: [GREEN, "Espinacas con sésamo y ajo: verdura con muy poca grasa."]
+    nutrition: [70, 4, 5, 4]
+    photo: cocina-coreana/espinacas-alinadas.jpg
+    category: Verduras
+    difficulty: EASY
+    prep: 10
+    cook: 2
+    servings: 4
+    notes: Uno de los banchan más habituales y también un ingrediente del bibimbap.
+    tags: [banchan, vegana, sin gluten, rápida]
+    ingredients:
+      - items:
+          - [espinacas frescas, 400, g]
+          - [diente de ajo, 1, null]
+          - [cebolleta, 1, null]
+          - [aceite de sésamo, 1, cucharada]
+          - [semillas de sésamo tostado, 1, cucharada]
+          - [sal, 0.5, cucharadita]
+    steps:
+      - Escalda las espinacas 30 segundos en agua hirviendo con sal y pásalas a agua fría.
+      - Escúrrelas apretando con las manos para quitar toda el agua y córtalas en trozos.
+      - Mézclalas con el ajo machacado, la cebolleta picada, el aceite, el sésamo y la sal.
+
+  - name: Hobak jeon
+    health: [YELLOW, "Calabacín rebozado en harina y huevo: verdura, con el aceite de la fritura."]
+    nutrition: [180, 6, 14, 11]
+    photo: cocina-coreana/hobak-jeon.jpg
+    category: Entrantes
+    difficulty: EASY
+    prep: 10
+    cook: 15
+    servings: 4
+    notes: Rodajas de calabacín rebozadas, típicas de las fiestas de Chuseok. Se mojan en salsa de soja con vinagre.
+    tags: [aperitivo, vegetariana, fiesta]
+    ingredients:
+      - items:
+          - [calabacines, 2, null]
+          - [harina, 4, cucharada]
+          - [huevos, 2, null]
+          - [aceite de girasol, 4, cucharada]
+          - [sal, null, null]
+          - [salsa de soja, 2, cucharada]
+          - [vinagre de arroz, 1, cucharada]
+    steps:
+      - Corta el calabacín en rodajas de 5 mm, sálalas y deja 10 minutos. Sécalas.
+      - Pásalas por harina, sacude el exceso y báñalas en el huevo batido.
+      - Fríelas en una sartén con aceite a fuego medio 2 minutos por lado, hasta que estén doradas.
+      - Mezcla la soja con el vinagre y sirve como salsa.
+
+  - name: Bibim guksu
+    health: [YELLOW, "Fideos fríos con salsa picante dulce y verduras: ligeros, con azúcar en la salsa."]
+    nutrition: [430, 13, 82, 6]
+    photo: cocina-coreana/bibim-guksu.jpg
+    category: Pastas
+    difficulty: EASY
+    prep: 15
+    cook: 5
+    servings: 2
+    notes: Fideos fríos picantes para el verano. Se hacen con somyeon, fideos finos de trigo; sirven también fideos somen japoneses.
+    tags: [fideos, picante, verano]
+    ingredients:
+      - items:
+          - [fideos somyeon o somen, 200, g]
+          - [gochujang, 2, cucharada]
+          - [vinagre de arroz, 2, cucharada]
+          - [azúcar, 1, cucharada]
+          - [salsa de soja, 1, cucharada]
+          - [aceite de sésamo, 1, cucharada]
+          - [pepino, 0.5, null]
+          - [kimchi picado, 80, g]
+          - [huevo cocido, 1, null]
+          - [semillas de sésamo, 1, cucharadita]
+    steps:
+      - Mezcla el gochujang, el vinagre, el azúcar, la soja y el aceite de sésamo.
+      - Cuece los fideos según el paquete, escúrrelos y lávalos bien con agua fría frotándolos.
+      - Mezcla los fideos con la salsa y el kimchi.
+      - Sirve con el pepino en tiras, medio huevo cocido y el sésamo.

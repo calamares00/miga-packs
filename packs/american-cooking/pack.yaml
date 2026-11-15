@@ -1,6 +1,6 @@
 id: american-cooking
-version: 3
-updated: 2026-11-06
+version: 4
+updated: 2026-11-15
 language: en
 name: "World cuisine: United States"
 series: World cuisine
@@ -677,3 +677,116 @@ recipes:
       - Whisk the yolks with the zest, add the condensed milk and then the lime juice.
       - Pour the filling over the base and bake for 15 minutes, until set but still wobbly in the middle.
       - Let it cool and chill for at least 4 hours. Serve with whipped cream.
+
+  - name: Buffalo wings
+    health: [RED, "Fried or baked wings in a spicy butter sauce: lots of fat and salt."]
+    nutrition: [520, 34, 2, 42]
+    photo: cocina-estadounidense/alitas-bufalo.jpg
+    category: Meat
+    difficulty: EASY
+    prep: 10
+    cook: 45
+    servings: 4
+    notes: Born in Buffalo, New York, in the 1960s. Served with celery sticks and blue cheese dip. Baking powder makes them crisp in the oven.
+    tags: [chicken, spicy, oven]
+    origin: Buffalo (New York)
+    utensils: [Oven]
+    ingredients:
+      - items:
+          - [chicken wings, 1.2, kg]
+          - [baking powder, 1, tbsp]
+          - [salt, 1, tsp]
+          - [cayenne pepper sauce such as Frank's, 120, ml]
+          - [butter, 60, g]
+          - [celery sticks, 3, null]
+          - [blue cheese dip, 150, ml]
+    steps:
+      - Pat the wings dry and toss with the baking powder and salt. Arrange on a rack over a tray.
+      - Bake at 220 °C for 40-45 minutes, turning halfway, until very crisp.
+      - Melt the butter with the hot sauce.
+      - Toss the hot wings in the sauce and serve with the celery and blue cheese dip.
+
+  - name: Pumpkin pie
+    health: [RED, "Shortcrust tart with pumpkin, condensed milk and spices: sweet."]
+    nutrition: [330, 7, 44, 14]
+    photo: cocina-estadounidense/tarta-de-calabaza.jpg
+    category: Desserts
+    difficulty: MEDIUM
+    prep: 20
+    cook: 60
+    servings: 8
+    notes: The Thanksgiving pie. Served chilled, with whipped cream.
+    tags: [dessert, pumpkin, autumn, oven]
+    utensils: [Oven]
+    ingredients:
+      - items:
+          - [shortcrust pastry, 1, sheet]
+          - [pumpkin purée, 425, g]
+          - [condensed milk, 400, g]
+          - [eggs, 2, null]
+          - [ground cinnamon, 1, tsp]
+          - [ground ginger, 0.5, tsp]
+          - [nutmeg, 0.25, tsp]
+          - [ground cloves, 1, pinch]
+          - [salt, 1, pinch]
+    steps:
+      - Heat the oven to 220 °C and line a 23 cm tin with the pastry.
+      - Whisk the purée with the condensed milk, eggs, spices and salt.
+      - Pour into the case and bake for 15 minutes. Lower to 180 °C and bake 35-40 minutes more, until a knife comes out clean.
+      - Leave to cool completely and chill before slicing.
+
+  - name: Homemade biscuits
+    health: [YELLOW, "Butter biscuits: carbohydrates and fat, without sugar."]
+    nutrition: [220, 4, 25, 11]
+    photo: cocina-estadounidense/biscuits-caseros.jpg
+    category: Breads and doughs
+    difficulty: EASY
+    prep: 15
+    cook: 15
+    servings: 10
+    notes: The Southern US bread rolls, not cookies. Eaten with butter and honey or with gravy. Makes 10.
+    tags: [bread, breakfast, oven]
+    origin: Southern United States
+    utensils: [Oven]
+    ingredients:
+      - items:
+          - [plain flour, 300, g]
+          - [baking powder, 1, tbsp]
+          - [bicarbonate of soda, 0.5, tsp]
+          - [salt, 1, tsp]
+          - [very cold butter, 100, g]
+          - [buttermilk, 220, ml]
+    steps:
+      - Heat the oven to 220 °C. Mix the flour, baking powder, bicarbonate and salt.
+      - Grate the cold butter over the flour and rub it in with your fingers to coarse crumbs.
+      - Add the buttermilk and mix just enough. Pat the dough out, fold in three, repeat once and pat out to 2 cm thick.
+      - Cut rounds with a cutter without twisting, place them touching on a tray and bake for 12-15 minutes, until golden.
+
+  - name: Waldorf salad
+    health: [YELLOW, "Apple, celery and walnuts with mayonnaise: fruit and good fats, but rich."]
+    nutrition: [300, 4, 18, 25]
+    photo: cocina-estadounidense/ensalada-waldorf.jpg
+    category: Salads
+    difficulty: EASY
+    prep: 15
+    cook: 0
+    servings: 4
+    notes: Created at the Waldorf hotel in New York in 1893. Half yoghurt, half mayonnaise makes it lighter.
+    tags: [salad, quick, vegetarian, gluten-free]
+    origin: New York
+    ingredients:
+      - items:
+          - [red apples, 2, null]
+          - [celery sticks, 3, null]
+          - [grapes, 150, g]
+          - [walnuts, 60, g]
+          - [mayonnaise, 4, tbsp]
+          - [plain yoghurt, 4, tbsp]
+          - [lemon juice, 1, tbsp]
+          - [lettuce leaves, 8, null]
+          - [salt, null, null]
+    steps:
+      - Dice the apples and toss them straight away with the lemon.
+      - Add the thinly sliced celery, halved grapes and chopped walnuts.
+      - Mix with the mayonnaise, yoghurt and a pinch of salt.
+      - Serve on the lettuce leaves.

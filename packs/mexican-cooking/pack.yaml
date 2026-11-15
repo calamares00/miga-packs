@@ -1,6 +1,6 @@
 id: mexican-cooking
-version: 4
-updated: 2026-11-06
+version: 5
+updated: 2026-11-15
 language: en
 name: "World cuisine: Mexico"
 series: World cuisine
@@ -641,3 +641,210 @@ recipes:
       - Pour into the mould, cover with foil and bake in a water bath at 170 °C for about 60 minutes, until set.
       - Let it cool and chill for at least 4 hours.
       - Run a knife around the edge and turn out onto a plate with a rim.
+
+  - name: Mole poblano
+    health: [YELLOW, "Chicken in a sauce of chillies, chocolate and nuts: complete, but rich."]
+    nutrition: [620, 42, 34, 36]
+    photo: cocina-mexicana/mole-poblano.jpg
+    category: Meat
+    difficulty: HARD
+    prep: 60
+    cook: 90
+    servings: 8
+    notes: "The festive dish of Puebla. It has many ingredients, but the method is simple: toast, fry, blend and simmer slowly. Better the next day."
+    tags: [chicken, celebration, spicy]
+    origin: Puebla
+    ingredients:
+      - group: For the chicken
+        items:
+          - [chicken pieces, 2, kg]
+          - [onion, 0.5, null]
+          - [garlic cloves, 2, null]
+          - [salt, null, null]
+      - group: For the mole
+        items:
+          - [mulato chillies, 4, null]
+          - [ancho chillies, 4, null]
+          - [pasilla chillies, 3, null]
+          - [almonds, 50, g]
+          - [peanuts, 50, g]
+          - [sesame seeds, 60, g]
+          - [raisins, 40, g]
+          - [day-old corn tortilla, 1, null]
+          - [tomato, 1, null]
+          - [onion for the mole, 0.5, null]
+          - [garlic cloves for the mole, 3, null]
+          - [cinnamon, 1, stick]
+          - [cloves, 3, null]
+          - [black peppercorns, 6, null]
+          - [Mexican table chocolate, 60, g]
+          - [lard or oil, 5, tbsp]
+          - [sugar, 1, tbsp]
+    steps:
+      - Simmer the chicken with the onion, garlic and salt in water for 40 minutes and keep the stock.
+      - Seed and devein the chillies, toast them for a few seconds in a dry pan and soak in hot stock for 20 minutes.
+      - Separately fry the almonds, peanuts, half the sesame, raisins, tortilla, tomato, onion, garlic and spices in the lard. Blend everything with the chillies and stock into a smooth paste.
+      - Fry the paste in lard for 10 minutes, stirring, add the chocolate, sugar and enough stock for a sauce and simmer for 30 minutes. Add the chicken and serve with the rest of the sesame, toasted.
+
+  - name: Baja-style fish tacos
+    health: [YELLOW, "Battered fried fish in tortillas: protein, with the frying fat."]
+    nutrition: [480, 26, 46, 21]
+    photo: cocina-mexicana/tacos-de-pescado-estilo-baja.jpg
+    category: Fish and seafood
+    difficulty: MEDIUM
+    prep: 25
+    cook: 15
+    servings: 4
+    notes: "From Ensenada in Baja California: beer-battered fish with cabbage, cream and salsa."
+    tags: [tacos, fish, fried]
+    origin: Baja California
+    ingredients:
+      - items:
+          - [firm white fish in strips, 500, g]
+          - [flour, 120, g]
+          - [cold beer, 180, ml]
+          - [mustard, 1, tsp]
+          - [dried oregano, 0.5, tsp]
+          - [corn tortillas, 12, null]
+          - [finely shredded cabbage, 200, g]
+          - [sour cream or mayonnaise with lime, 100, ml]
+          - [pico de gallo, 150, g]
+          - [limes, 2, null]
+          - [oil for frying, null, null]
+          - [salt, null, null]
+    steps:
+      - Mix the flour, beer, mustard, oregano and salt into a pancake-like batter.
+      - Pat the fish dry, season, dip in the batter and fry at 180 °C for 3-4 minutes, until golden.
+      - Warm the tortillas in a dry pan.
+      - Build the tacos with the fish, cabbage, cream, pico de gallo and a squeeze of lime.
+
+  - name: Sopes
+    health: [YELLOW, "Thick corn bases with beans and meat: complete, somewhat fatty."]
+    nutrition: [420, 18, 46, 18]
+    photo: cocina-mexicana/sopes.jpg
+    category: Breads and doughs
+    difficulty: MEDIUM
+    prep: 30
+    cook: 25
+    servings: 6
+    notes: Thick corn masa bases with a pinched rim so the toppings stay put. Makes 12.
+    tags: [corn, street food]
+    ingredients:
+      - items:
+          - [nixtamalised corn flour (masa harina), 300, g]
+          - [warm water, 380, ml]
+          - [salt, 1, tsp]
+          - [refried beans, 300, g]
+          - [shredded beef or tinga, 300, g]
+          - [shredded lettuce, 100, g]
+          - [crumbled fresh cheese, 100, g]
+          - [sour cream, 100, ml]
+          - [green or red salsa, 100, ml]
+          - [oil, 3, tbsp]
+    steps:
+      - Knead the flour with the water and salt into a soft dough. Shape 12 balls and flatten into 1 cm discs.
+      - Cook them on a dry griddle for 2 minutes per side. While still hot, pinch the edge into a rim.
+      - Fry them lightly underneath in the oil.
+      - Spread with beans and top with the meat, lettuce, cheese, cream and salsa.
+
+  - name: Beef birria
+    health: [YELLOW, "Beef stewed in chilli adobo: lots of protein, with fat."]
+    nutrition: [520, 46, 12, 32]
+    photo: cocina-mexicana/birria-de-res.jpg
+    category: Meat
+    difficulty: MEDIUM
+    prep: 30
+    cook: 210
+    servings: 8
+    notes: From Jalisco. Served in bowls with its consommé, onion, coriander and lime, or in tacos dipped in the broth.
+    tags: [stew, beef, spicy]
+    origin: Jalisco
+    ingredients:
+      - items:
+          - [stewing beef (shin and short rib), 1.5, kg]
+          - [guajillo chillies, 6, null]
+          - [ancho chillies, 2, null]
+          - [tomatoes, 2, null]
+          - [onion, 1, null]
+          - [garlic cloves, 5, null]
+          - [cider vinegar, 3, tbsp]
+          - [cumin, 1, tsp]
+          - [dried oregano, 1, tsp]
+          - [cloves, 3, null]
+          - [cinnamon, 1, stick]
+          - [bay leaves, 2, null]
+          - [salt, null, null]
+          - ["chopped onion, coriander and limes to serve", null, null]
+    steps:
+      - Seed the chillies, toast them and soak in hot water for 20 minutes.
+      - Blend with the tomatoes, onion, garlic, vinegar and spices into a smooth adobo.
+      - Coat the meat with the adobo and put it in a pot with the bay leaves, salt and 1.5 litres of water. Simmer, covered, for 3 hours, until it falls apart.
+      - Shred the meat and serve with its consommé, onion, coriander and lime.
+
+  - name: Caldo tlalpeño
+    health: [GREEN, "Chicken broth with vegetables and chickpeas: light and nourishing."]
+    nutrition: [320, 28, 26, 11]
+    photo: cocina-mexicana/caldo-tlalpeno.jpg
+    category: Soups
+    difficulty: EASY
+    prep: 15
+    cook: 45
+    servings: 6
+    notes: Chicken broth from Tlalpan with chipotle, chickpeas and avocado. Chipotles in adobo give the smoky note.
+    tags: [soup, chicken, gluten-free]
+    origin: Mexico City
+    ingredients:
+      - items:
+          - [chicken breasts or thighs, 700, g]
+          - [cooked chickpeas, 250, g]
+          - [carrots, 2, null]
+          - [courgette, 1, null]
+          - [tomatoes, 2, null]
+          - [onion, 1, null]
+          - [garlic cloves, 2, null]
+          - [chipotle chillies in adobo, 2, null]
+          - [chicken stock, 1.5, l]
+          - [avocado, 1, null]
+          - [fresh cheese, 100, g]
+          - [limes, 2, null]
+          - [salt, null, null]
+    steps:
+      - Simmer the chicken in the stock for 25 minutes. Lift out and shred.
+      - Blend the tomatoes with the onion, garlic and chipotles and fry the mixture for 5 minutes.
+      - Add it to the stock with the diced carrot and courgette and the chickpeas and simmer for 15 minutes. Return the chicken and season.
+      - Serve with diced avocado, fresh cheese and lime.
+
+  - name: Tres leches cake
+    health: [RED, "Sponge soaked in three milks and topped with cream: very sweet."]
+    nutrition: [430, 9, 54, 20]
+    photo: cocina-mexicana/pastel-tres-leches.jpg
+    category: Desserts
+    difficulty: MEDIUM
+    prep: 25
+    cook: 30
+    servings: 12
+    notes: The sponge soaked in evaporated milk, condensed milk and cream, loved in Mexico and across Latin America. It needs a night in the fridge.
+    tags: [dessert, cake, oven]
+    utensils: [Oven, Blender]
+    ingredients:
+      - group: For the sponge
+        items:
+          - [eggs, 5, null]
+          - [sugar, 180, g]
+          - [flour, 160, g]
+          - [baking powder, 1, tsp]
+          - [milk, 60, ml]
+          - [vanilla extract, 1, tsp]
+      - group: For the three milks and topping
+        items:
+          - [evaporated milk, 350, ml]
+          - [condensed milk, 400, g]
+          - [single cream, 200, ml]
+          - [whipping cream, 300, ml]
+          - [icing sugar, 30, g]
+          - [ground cinnamon, null, null]
+    steps:
+      - Heat the oven to 180 °C. Whisk the eggs with the sugar until tripled in volume, add the milk and vanilla, then fold in the flour with the baking powder.
+      - Bake in a 22 x 30 cm dish for 25-30 minutes. Let it cool slightly and prick all over with a fork.
+      - Mix the three milks and pour them slowly over the sponge until absorbed. Chill overnight.
+      - Whip the cream with the icing sugar, spread over the cake and dust with cinnamon.

@@ -1,6 +1,6 @@
 id: korean-cooking
-version: 1
-updated: 2026-11-14
+version: 2
+updated: 2026-11-15
 language: en
 name: "World cuisine: Korea"
 series: World cuisine
@@ -654,3 +654,136 @@ recipes:
       - Scrape with a fork or put through the ice machine into fine snow.
       - Divide the ice among chilled bowls and top with the red beans, mochi and fruit.
       - Drizzle with the remaining condensed milk, sprinkle with soybean powder and serve at once.
+
+  - name: Doenjang jjigae
+    health: [GREEN, "Soybean paste stew with tofu and vegetables: plant protein, a little salty."]
+    nutrition: [220, 16, 16, 10]
+    photo: cocina-coreana/doenjang-jjigae.jpg
+    category: Soups
+    difficulty: EASY
+    prep: 15
+    cook: 20
+    servings: 4
+    notes: The everyday stew of Korean homes, made with fermented soybean paste (doenjang). Served bubbling with rice.
+    tags: [soup, tofu, fermented]
+    ingredients:
+      - items:
+          - [doenjang (fermented soybean paste), 3, tbsp]
+          - [gochujang, 1, tsp, optional]
+          - [firm tofu, 300, g]
+          - [courgette, 1, null]
+          - [potato, 1, null]
+          - [onion, 1, null]
+          - [mushrooms, 100, g]
+          - [garlic cloves, 2, null]
+          - [green chilli, 1, null]
+          - [anchovy stock or water, 700, ml]
+    steps:
+      - Dissolve the doenjang and gochujang in the stock and bring to the boil.
+      - Add the diced potato and onion and the chopped garlic and simmer for 8 minutes.
+      - Add the courgette and mushrooms and simmer 5 minutes more.
+      - Add the cubed tofu and sliced chilli and simmer for 3 minutes.
+
+  - name: Gyeran-jjim
+    health: [GREEN, "Steamed egg with stock: light protein and little fat."]
+    nutrition: [120, 10, 2, 8]
+    photo: cocina-coreana/gyeran-jjim.jpg
+    category: Eggs
+    difficulty: EASY
+    prep: 5
+    cook: 12
+    servings: 2
+    notes: Fluffy steamed eggs served in their little earthenware pot as a side dish.
+    tags: [eggs, banchan, gluten-free]
+    ingredients:
+      - items:
+          - [eggs, 3, null]
+          - [anchovy stock or water, 200, ml]
+          - [spring onion, 1, null]
+          - [fish sauce or salt, 1, tsp]
+          - [sesame oil, 1, tsp]
+          - [sesame seeds, 1, pinch]
+    steps:
+      - Beat the eggs with the fish sauce and strain them.
+      - Bring the stock to the boil in a small earthenware pot and turn the heat to the lowest setting.
+      - Pour in the eggs, stirring with chopsticks for 1 minute, until they start to set. Add the chopped spring onion.
+      - Cover and cook on the lowest heat for 8-10 minutes, until risen and set. Finish with the oil and sesame.
+
+  - name: Seasoned spinach (sigeumchi namul)
+    health: [GREEN, "Spinach with sesame and garlic: vegetables with very little fat."]
+    nutrition: [70, 4, 5, 4]
+    photo: cocina-coreana/espinacas-alinadas.jpg
+    category: Vegetables
+    difficulty: EASY
+    prep: 10
+    cook: 2
+    servings: 4
+    notes: One of the most common banchan, and an ingredient of bibimbap too.
+    tags: [banchan, vegan, gluten-free, quick]
+    ingredients:
+      - items:
+          - [fresh spinach, 400, g]
+          - [garlic clove, 1, null]
+          - [spring onion, 1, null]
+          - [sesame oil, 1, tbsp]
+          - [toasted sesame seeds, 1, tbsp]
+          - [salt, 0.5, tsp]
+    steps:
+      - Blanch the spinach for 30 seconds in salted boiling water and plunge into cold water.
+      - Squeeze out all the water with your hands and cut into pieces.
+      - Mix with the crushed garlic, chopped spring onion, oil, sesame and salt.
+
+  - name: Hobak jeon
+    health: [YELLOW, "Courgette coated in flour and egg: a vegetable, with the frying oil."]
+    nutrition: [180, 6, 14, 11]
+    photo: cocina-coreana/hobak-jeon.jpg
+    category: Starters
+    difficulty: EASY
+    prep: 10
+    cook: 15
+    servings: 4
+    notes: Coated courgette slices, typical of Chuseok feasts. Dipped in soy sauce with vinegar.
+    tags: [appetizer, vegetarian, celebration]
+    ingredients:
+      - items:
+          - [courgettes, 2, null]
+          - [flour, 4, tbsp]
+          - [eggs, 2, null]
+          - [sunflower oil, 4, tbsp]
+          - [salt, null, null]
+          - [soy sauce, 2, tbsp]
+          - [rice vinegar, 1, tbsp]
+    steps:
+      - Slice the courgette 5 mm thick, salt the slices and leave for 10 minutes. Pat dry.
+      - Dust them in flour, shake off the excess and dip in the beaten egg.
+      - Fry in a pan with oil over medium heat for 2 minutes per side, until golden.
+      - Mix the soy sauce with the vinegar and serve as a dip.
+
+  - name: Bibim guksu
+    health: [YELLOW, "Cold noodles with a sweet-spicy sauce and vegetables: light, with sugar in the sauce."]
+    nutrition: [430, 13, 82, 6]
+    photo: cocina-coreana/bibim-guksu.jpg
+    category: Pasta
+    difficulty: EASY
+    prep: 15
+    cook: 5
+    servings: 2
+    notes: Spicy cold noodles for summer. Made with somyeon, thin wheat noodles; Japanese somen work too.
+    tags: [noodles, spicy, summer]
+    ingredients:
+      - items:
+          - [somyeon or somen noodles, 200, g]
+          - [gochujang, 2, tbsp]
+          - [rice vinegar, 2, tbsp]
+          - [sugar, 1, tbsp]
+          - [soy sauce, 1, tbsp]
+          - [sesame oil, 1, tbsp]
+          - [cucumber, 0.5, null]
+          - [chopped kimchi, 80, g]
+          - [hard-boiled egg, 1, null]
+          - [sesame seeds, 1, tsp]
+    steps:
+      - Mix the gochujang, vinegar, sugar, soy sauce and sesame oil.
+      - Cook the noodles as the packet says, drain and rinse them well in cold water, rubbing them.
+      - Toss the noodles with the sauce and kimchi.
+      - Serve with the cucumber in strips, half an egg and the sesame.

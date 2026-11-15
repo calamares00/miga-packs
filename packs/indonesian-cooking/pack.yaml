@@ -1,6 +1,6 @@
 id: indonesian-cooking
-version: 3
-updated: 2026-11-06
+version: 4
+updated: 2026-11-15
 language: en
 name: "World cuisine: Indonesia"
 series: World cuisine
@@ -677,3 +677,64 @@ recipes:
       - Scoop the avocado into cubes with a spoon and cut the jackfruit into strips.
       - Divide the avocado, jackfruit and coconut between glasses.
       - Add the crushed ice and pour over the coconut milk, condensed milk and syrup. Serve straight away.
+
+  - name: Ayam bakar
+    health: [YELLOW, "Grilled chicken with sweet soy sauce: protein, with sugar in the glaze."]
+    nutrition: [420, 36, 16, 23]
+    photo: cocina-indonesia/ayam-bakar.jpg
+    category: Meat
+    difficulty: MEDIUM
+    prep: 20
+    cook: 50
+    servings: 4
+    notes: "Javanese grilled chicken: first simmered in spice paste, then grilled with sweet soy sauce (kecap manis)."
+    tags: [chicken, barbecue]
+    origin: Java
+    utensils: [Barbecue]
+    ingredients:
+      - items:
+          - [chicken thighs and drumsticks, 1.2, kg]
+          - [shallots, 6, null]
+          - [garlic cloves, 4, null]
+          - [fresh ginger, 1, piece]
+          - [turmeric, 1, tsp]
+          - [ground coriander, 1, tsp]
+          - [kecap manis (sweet soy sauce), 5, tbsp]
+          - [tamarind paste, 1, tbsp]
+          - [water, 300, ml]
+          - [oil, 2, tbsp]
+          - [salt, null, null]
+    steps:
+      - Blend the shallots, garlic and ginger with the spices and fry the paste in the oil for 5 minutes.
+      - Add the chicken, water, tamarind, 2 tbsp of kecap manis and salt and simmer, covered, for 30 minutes.
+      - Uncover and reduce the sauce until thick.
+      - Brush the chicken with the reduced sauce and the remaining kecap manis and grill or griddle for 5 minutes per side, until caramelised.
+
+  - name: Bubur ayam
+    health: [GREEN, "Rice porridge with chicken: light and easy to digest."]
+    nutrition: [360, 24, 46, 8]
+    photo: cocina-indonesia/bubur-ayam.jpg
+    category: Rice
+    difficulty: EASY
+    prep: 15
+    cook: 70
+    servings: 4
+    notes: The chicken rice porridge of an Indonesian breakfast, with plenty of toppings to add at the table.
+    tags: [rice, breakfast, chicken, gluten-free]
+    ingredients:
+      - items:
+          - [rice, 200, g]
+          - [chicken breasts, 2, null]
+          - [chicken stock, 2, l]
+          - [fresh ginger, 1, piece]
+          - [bay leaf, 1, null]
+          - [fried shallots, 4, tbsp]
+          - [spring onions, 2, null]
+          - [hard-boiled eggs, 2, null]
+          - [kecap manis or soy sauce, 2, tbsp]
+          - [salt, null, null]
+    steps:
+      - Simmer the chicken breasts in the stock with the ginger and bay leaf for 20 minutes. Lift out and shred.
+      - Add the rice to the stock and simmer gently for 45-50 minutes, stirring, until it breaks down into a thick porridge. Season.
+      - Ladle into bowls and top with the chicken, halved egg, spring onion and fried shallots.
+      - Drizzle with a little kecap manis to serve.

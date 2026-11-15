@@ -1,6 +1,6 @@
 id: cocina-peruana
-version: 3
-updated: 2026-11-06
+version: 4
+updated: 2026-11-15
 language: es
 name: "Cocina del mundo: Perú"
 series: Cocina del mundo
@@ -700,3 +700,122 @@ recipes:
       - Cuece 45 minutos a fuego suave, hasta que el líquido esté morado oscuro. Cuela y deja que se enfríe.
       - Añade el azúcar y el zumo de lima y remueve hasta que se disuelva.
       - Sirve muy fría, con daditos de manzana.
+
+  - name: Sudado de pescado
+    health: [GREEN, "Pescado cocido en caldo de tomate y cebolla: proteína magra y poca grasa."]
+    nutrition: [320, 34, 14, 12]
+    photo: cocina-peruana/sudado-de-pescado.jpg
+    category: Pescados y mariscos
+    difficulty: EASY
+    prep: 15
+    cook: 25
+    servings: 4
+    notes: Pescado «sudado» en su jugo con tomate, cebolla y ají amarillo, típico de la costa norte. Se acompaña de arroz y yuca.
+    tags: [pescado, sin gluten]
+    origin: Costa norte
+    ingredients:
+      - items:
+          - [filetes de pescado blanco (corvina o mero), 800, g]
+          - [cebollas rojas, 2, null]
+          - [tomates, 3, null]
+          - [pasta de ají amarillo, 2, cucharada]
+          - [dientes de ajo, 3, null]
+          - [chicha de jora o vino blanco, 100, ml]
+          - [caldo de pescado, 200, ml]
+          - [cilantro picado, 3, cucharada]
+          - [limón, 1, null]
+          - [aceite, 2, cucharada]
+          - [sal, null, null]
+    steps:
+      - Sofríe el ajo y el ají amarillo en el aceite 2 minutos.
+      - Añade la cebolla en gajos y el tomate en rodajas, el vino y el caldo y cuece 5 minutos.
+      - Coloca el pescado salado encima, tapa y cuece a fuego suave 8-10 minutos, hasta que esté hecho.
+      - Termina con el cilantro y el zumo de limón.
+
+  - name: Carapulcra
+    health: [YELLOW, "Guiso de papa seca con cerdo y cacahuete: muy saciante, con bastante grasa."]
+    nutrition: [560, 30, 52, 26]
+    category: Carnes
+    difficulty: MEDIUM
+    prep: 20
+    cook: 90
+    servings: 6
+    notes: Uno de los guisos más antiguos de Perú, con papa seca (patata deshidratada) tostada. Típico de Chincha, se sirve con sopa seca.
+    tags: [guiso, cerdo, sin gluten]
+    origin: Chincha
+    ingredients:
+      - items:
+          - [papa seca, 250, g]
+          - [carne de cerdo para guisar, 600, g]
+          - [cebolla roja, 1, null]
+          - [dientes de ajo, 4, null]
+          - [pasta de ají panca, 3, cucharada]
+          - [cacahuetes tostados, 50, g]
+          - [comino molido, 1, cucharadita]
+          - [chocolate negro, 15, g]
+          - [caldo, 1.2, l]
+          - [aceite, 3, cucharada]
+          - [sal, null, null]
+    steps:
+      - Tuesta la papa seca en una sartén seca hasta que huela y remójala en agua 30 minutos. Escúrrela.
+      - Dora el cerdo en dados en el aceite, añade la cebolla, el ajo, el ají panca y el comino y sofríe 10 minutos.
+      - Añade la papa seca y el caldo y cuece a fuego suave 1 hora, removiendo a menudo para que no se pegue.
+      - Añade los cacahuetes molidos y el chocolate, sala y cuece hasta que esté espeso.
+
+  - name: Solterito arequipeño
+    health: [GREEN, "Ensalada de habas, queso fresco y verduras: fresca y con proteína."]
+    nutrition: [230, 12, 18, 13]
+    photo: cocina-peruana/solterito-arequipeno.jpg
+    category: Ensaladas
+    difficulty: EASY
+    prep: 20
+    cook: 10
+    servings: 4
+    notes: La ensalada fresca de Arequipa, con habas, queso fresco, rocoto y aceitunas de botija.
+    tags: [ensalada, vegetariana, sin gluten]
+    origin: Arequipa
+    ingredients:
+      - items:
+          - [habas peladas, 300, g]
+          - [queso fresco, 150, g]
+          - [tomates, 2, null]
+          - [cebolla roja, 1, null]
+          - [rocoto o pimiento picante, 1, null]
+          - [maíz cocido (choclo), 150, g]
+          - [aceitunas negras, 12, null]
+          - [vinagre de vino, 2, cucharada]
+          - [aceite de oliva, 3, cucharada]
+          - [perejil picado, 2, cucharada]
+          - [sal, null, null]
+    steps:
+      - Cuece las habas 5 minutos y enfríalas.
+      - Corta el queso, el tomate, la cebolla y el rocoto sin semillas en dados.
+      - Mézclalo todo con el maíz, las aceitunas y el perejil.
+      - Aliña con el vinagre, el aceite y la sal.
+
+  - name: Tacu tacu
+    health: [YELLOW, "Arroz con frijoles dorado en la sartén: completo y saciante, algo graso."]
+    nutrition: [480, 16, 70, 15]
+    photo: cocina-peruana/tacu-tacu.jpg
+    category: Legumbres
+    difficulty: MEDIUM
+    prep: 10
+    cook: 20
+    servings: 4
+    notes: Plato criollo afroperuano para aprovechar arroz y frijoles del día anterior. Se dora como una tortilla y se sirve con bistec, huevo frito o salsa criolla.
+    tags: [aprovechamiento, legumbres]
+    ingredients:
+      - items:
+          - [frijoles canarios cocidos, 400, g]
+          - [arroz cocido, 400, g]
+          - [cebolla roja, 1, null]
+          - [dientes de ajo, 2, null]
+          - [pasta de ají amarillo, 1, cucharada]
+          - [orégano seco, 0.5, cucharadita]
+          - [aceite, 4, cucharada]
+          - [sal, null, null]
+    steps:
+      - Sofríe la cebolla y el ajo picados con el ají amarillo en una cucharada de aceite.
+      - Añade los frijoles un poco aplastados y el arroz, el orégano y sal y mezcla bien.
+      - Calienta el resto del aceite en una sartén y dora la mezcla dándole forma alargada, moviendo la sartén, 5 minutos.
+      - Dale la vuelta como a una tortilla y dora el otro lado.

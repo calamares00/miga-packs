@@ -96,3 +96,22 @@ crema-catalana.jpg:
   author: "Juan Emilio Prades Bel"
   license: CC BY 4.0
 
+fattoush.jpg:
+  source: https://commons.wikimedia.org/wiki/File:Fattoush.JPG
+  author: "Unknown"
+  license: Public domain
+
+baba-ganoush.jpg:
+  source: https://commons.wikimedia.org/wiki/File:Baba_ganoush_and_pita.jpg
+  author: "takaokun"
+  license: CC BY 2.0
+
+tumbet-mallorquin.jpg:
+  source: https://commons.wikimedia.org/wiki/File:Tombet.jpg
+  author: "Paucabot"
+  license: CC BY-SA 3.0
+
+mujaddara.jpg:
+  source: https://commons.wikimedia.org/wiki/File:Mujaddara.jpg
+  author: "Bazel"
+  license: CC BY-SA 3.0

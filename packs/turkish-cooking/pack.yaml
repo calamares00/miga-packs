@@ -1,6 +1,6 @@
 id: turkish-cooking
-version: 1
-updated: 2026-11-14
+version: 2
+updated: 2026-11-15
 language: en
 name: "World cuisine: Turkey"
 series: World cuisine
@@ -647,3 +647,156 @@ recipes:
     steps:
       - Whisk the yoghurt with the water and salt for 1 minute, until frothy.
       - Serve very cold with ice and, if you like, a pinch of mint.
+
+  - name: Hünkar beğendi
+    health: [YELLOW, "Lamb stew on aubergine and cheese purée: lots of protein and fat."]
+    nutrition: [580, 38, 22, 38]
+    photo: cocina-turca/hunkar-begendi.jpg
+    category: Meat
+    difficulty: MEDIUM
+    prep: 30
+    cook: 90
+    servings: 4
+    notes: '"The sultan was delighted", from the Ottoman palace kitchen: lamb stew on a roasted aubergine purée with béchamel and cheese.'
+    tags: [lamb, aubergine, stew]
+    origin: Istanbul
+    ingredients:
+      - group: For the stew
+        items:
+          - [diced lamb or beef, 700, g]
+          - [onion, 1, null]
+          - [green pepper, 1, null]
+          - [tomatoes, 2, null]
+          - [tomato paste, 1, tbsp]
+          - [butter, 20, g]
+          - [salt and pepper, null, null]
+      - group: For the aubergine purée
+        items:
+          - [aubergines, 4, null]
+          - [butter for the purée, 40, g]
+          - [flour, 2, tbsp]
+          - [milk, 300, ml]
+          - [grated kaşar or parmesan, 60, g]
+          - [lemon juice, 1, tbsp]
+    steps:
+      - Brown the meat in the butter, add the chopped onion and pepper, the tomato and paste, cover with water, season and simmer, covered, for 1¼ hours.
+      - Char the aubergines over a flame or in the oven until very soft, peel, sprinkle with lemon and chop.
+      - Make a béchamel with the butter, flour and milk, add the aubergine and cook for 5 minutes. Off the heat, stir in the cheese.
+      - Spread the purée on plates with the meat stew in the centre.
+
+  - name: İzmir köfte
+    health: [YELLOW, "Baked meatballs with potatoes and tomato sauce: complete and filling."]
+    nutrition: [520, 30, 36, 28]
+    photo: cocina-turca/izmir-kofte.jpg
+    category: Meat
+    difficulty: EASY
+    prep: 25
+    cook: 50
+    servings: 4
+    notes: Long meatballs from Izmir baked with potato, pepper and tomato in a single tray.
+    tags: [meatballs, oven]
+    origin: Izmir
+    utensils: [Oven]
+    ingredients:
+      - items:
+          - [minced beef, 500, g]
+          - [grated onion, 1, null]
+          - [breadcrumbs, 40, g]
+          - [egg, 1, null]
+          - [ground cumin, 1, tsp]
+          - [chopped parsley, 2, tbsp]
+          - [potatoes, 3, null]
+          - [green peppers, 3, null]
+          - [tomatoes, 2, null]
+          - [tomato paste, 2, tbsp]
+          - [hot water, 300, ml]
+          - [olive oil, 4, tbsp]
+          - [salt and pepper, null, null]
+    steps:
+      - Knead the beef with the onion, breadcrumbs, egg, cumin, parsley, salt and pepper and shape 16 long meatballs. Brown them briefly in a pan.
+      - Cut the potatoes into wedges, fry or roast them for 10 minutes and arrange in a dish, alternating with the meatballs, pepper and sliced tomato.
+      - Dissolve the tomato paste in the hot water with the oil and salt and pour over.
+      - Bake at 190 °C for 35-40 minutes, until the potatoes are tender.
+
+  - name: Yayla çorbası
+    health: [GREEN, "Yoghurt soup with rice and mint: light and comforting."]
+    nutrition: [210, 9, 26, 7]
+    photo: cocina-turca/yayla-corbas.jpg
+    category: Soups
+    difficulty: EASY
+    prep: 10
+    cook: 25
+    servings: 4
+    notes: '"Highland soup": rice and yoghurt with mint butter. Temper the yoghurt first so it doesn''t split.'
+    tags: [soup, vegetarian]
+    ingredients:
+      - items:
+          - [rice, 80, g]
+          - [plain yoghurt, 500, g]
+          - [egg yolk, 1, null]
+          - [flour, 1, tbsp]
+          - [chicken or vegetable stock, 1, l]
+          - [butter, 30, g]
+          - [dried mint, 2, tsp]
+          - [salt, null, null]
+    steps:
+      - Simmer the rice in the stock for 15 minutes.
+      - Whisk the yoghurt with the yolk and flour until smooth. Gradually whisk in a ladle of the hot stock.
+      - Pour the mixture into the pot, stirring, and heat gently for 5 minutes without boiling. Season.
+      - Melt the butter with the mint until it sizzles and pour over the soup to serve.
+
+  - name: Sütlaç
+    health: [YELLOW, "Baked rice pudding: a dessert with sugar, but with calcium."]
+    nutrition: [280, 8, 48, 6]
+    photo: cocina-turca/sutlac.jpg
+    category: Desserts
+    difficulty: EASY
+    prep: 10
+    cook: 50
+    servings: 6
+    notes: Turkish rice pudding is browned in the oven until a toasted skin forms. Served cold.
+    tags: [dessert, oven, gluten-free]
+    utensils: [Oven]
+    ingredients:
+      - items:
+          - [short-grain rice, 100, g]
+          - [water, 300, ml]
+          - [whole milk, 1, l]
+          - [sugar, 140, g]
+          - [rice flour or cornflour, 2, tbsp]
+          - [vanilla extract, 1, tsp]
+          - [ground cinnamon, null, null]
+    steps:
+      - Simmer the rice in the water for 15 minutes, until absorbed.
+      - Add the milk and simmer for 20 minutes, stirring. Add the sugar and the starch mixed with a little cold milk and cook for 5 minutes until thick.
+      - Divide between clay dishes and set them in a tray with a little water.
+      - Grill at 220 °C until the tops are browned. Cool and serve with cinnamon.
+
+  - name: Gözleme
+    health: [YELLOW, "Thin flatbread filled with spinach and cheese: balanced, somewhat fatty."]
+    nutrition: [410, 15, 48, 17]
+    photo: cocina-turca/gozleme.jpg
+    category: Breads and doughs
+    difficulty: MEDIUM
+    prep: 40
+    cook: 20
+    servings: 4
+    notes: The flatbread of Anatolian villages, rolled very thin and cooked on a griddle (sac). Filled with cheese, spinach, potato or meat.
+    tags: [dough, vegetarian]
+    utensils: [Griddle]
+    ingredients:
+      - items:
+          - [plain flour, 400, g]
+          - [plain yoghurt, 100, g]
+          - [warm water, 160, ml]
+          - [salt, 1, tsp]
+          - [spinach, 300, g]
+          - [feta or beyaz peynir, 200, g]
+          - [onion, 1, null]
+          - [melted butter, 40, g]
+          - [red pepper flakes (pul biber), 1, tsp]
+    steps:
+      - Knead the flour with the yoghurt, water and salt into a soft dough. Divide into 4 and rest for 30 minutes.
+      - Sauté the onion and chopped spinach until the water evaporates and mix with the cheese and pul biber.
+      - Roll each ball very thin into a rectangle, spread the filling on half and fold over, sealing the edges.
+      - Cook on a dry griddle for 3-4 minutes per side, brushing with butter, until spotted golden.

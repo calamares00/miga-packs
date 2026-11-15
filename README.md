@@ -51,8 +51,8 @@ Cada pack está en español y en inglés; la app muestra los del idioma en que l
 | 🥖 [Bakery](packs/bakery/pack.yaml) | Everyday cooking | en | 20 | [bakery-v3.zip](dist/bakery-v3.zip) |
 | 🍤 [Tapas españolas](packs/tapas-espanolas/pack.yaml) | Especiales | es | 20 | [tapas-espanolas-v4.zip](dist/tapas-espanolas-v4.zip) |
 | 🍤 [Spanish tapas](packs/spanish-tapas/pack.yaml) | Specials | en | 20 | [spanish-tapas-v4.zip](dist/spanish-tapas-v4.zip) |
-| 🫒 [Cocina mediterránea](packs/cocina-mediterranea/pack.yaml) | Cocina del mundo | es | 20 | [cocina-mediterranea-v3.zip](dist/cocina-mediterranea-v3.zip) |
-| 🫒 [Mediterranean cooking](packs/mediterranean-cooking/pack.yaml) | World cuisine | en | 20 | [mediterranean-cooking-v3.zip](dist/mediterranean-cooking-v3.zip) |
+| 🫒 [Cocina mediterránea](packs/cocina-mediterranea/pack.yaml) | Cocina del mundo | es | 25 | [cocina-mediterranea-v4.zip](dist/cocina-mediterranea-v4.zip) |
+| 🫒 [Mediterranean cooking](packs/mediterranean-cooking/pack.yaml) | World cuisine | en | 25 | [mediterranean-cooking-v4.zip](dist/mediterranean-cooking-v4.zip) |
 | 🎄 [Especial Navidad](packs/especial-navidad/pack.yaml) | Especiales | es | 22 | [especial-navidad-v3.zip](dist/especial-navidad-v3.zip) |
 | 🎄 [Christmas special](packs/christmas-special/pack.yaml) | Specials | en | 22 | [christmas-special-v3.zip](dist/christmas-special-v3.zip) |
 | 🎂 [Cumpleaños infantiles](packs/cumpleanos-infantiles/pack.yaml) | Especiales | es | 12 | [cumpleanos-infantiles-v2.zip](dist/cumpleanos-infantiles-v2.zip) |
@@ -63,44 +63,44 @@ Cada pack está en español y en inglés; la app muestra los del idioma en que l
 | 🔥 [Barbecue](packs/barbecue/pack.yaml) | Specials | en | 15 | [barbecue-v2.zip](dist/barbecue-v2.zip) |
 | 🕯️ [Semana Santa](packs/semana-santa/pack.yaml) | Especiales | es | 12 | [semana-santa-v1.zip](dist/semana-santa-v1.zip) |
 | 🕯️ [Holy Week in Spain](packs/spanish-holy-week/pack.yaml) | Specials | en | 12 | [spanish-holy-week-v1.zip](dist/spanish-holy-week-v1.zip) |
-| 🥨 [Cocina del mundo: Alemania](packs/cocina-alemana/pack.yaml) | Cocina del mundo | es | 20 | [cocina-alemana-v3.zip](dist/cocina-alemana-v3.zip) |
-| 🥨 [World cuisine: Germany](packs/german-cooking/pack.yaml) | World cuisine | en | 20 | [german-cooking-v3.zip](dist/german-cooking-v3.zip) |
-| 🥩 [Cocina del mundo: Argentina](packs/cocina-argentina/pack.yaml) | Cocina del mundo | es | 20 | [cocina-argentina-v3.zip](dist/cocina-argentina-v3.zip) |
-| 🥩 [World cuisine: Argentina](packs/argentine-cooking/pack.yaml) | World cuisine | en | 20 | [argentine-cooking-v3.zip](dist/argentine-cooking-v3.zip) |
-| 🥟 [Cocina del mundo: China](packs/cocina-china/pack.yaml) | Cocina del mundo | es | 20 | [cocina-china-v3.zip](dist/cocina-china-v3.zip) |
-| 🥟 [World cuisine: China](packs/chinese-cooking/pack.yaml) | World cuisine | en | 20 | [chinese-cooking-v3.zip](dist/chinese-cooking-v3.zip) |
-| 🫓 [Cocina del mundo: Colombia](packs/cocina-colombiana/pack.yaml) | Cocina del mundo | es | 20 | [cocina-colombiana-v3.zip](dist/cocina-colombiana-v3.zip) |
-| 🫓 [World cuisine: Colombia](packs/colombian-cooking/pack.yaml) | World cuisine | en | 20 | [colombian-cooking-v3.zip](dist/colombian-cooking-v3.zip) |
+| 🥨 [Cocina del mundo: Alemania](packs/cocina-alemana/pack.yaml) | Cocina del mundo | es | 24 | [cocina-alemana-v4.zip](dist/cocina-alemana-v4.zip) |
+| 🥨 [World cuisine: Germany](packs/german-cooking/pack.yaml) | World cuisine | en | 24 | [german-cooking-v4.zip](dist/german-cooking-v4.zip) |
+| 🥩 [Cocina del mundo: Argentina](packs/cocina-argentina/pack.yaml) | Cocina del mundo | es | 23 | [cocina-argentina-v4.zip](dist/cocina-argentina-v4.zip) |
+| 🥩 [World cuisine: Argentina](packs/argentine-cooking/pack.yaml) | World cuisine | en | 23 | [argentine-cooking-v4.zip](dist/argentine-cooking-v4.zip) |
+| 🥟 [Cocina del mundo: China](packs/cocina-china/pack.yaml) | Cocina del mundo | es | 26 | [cocina-china-v4.zip](dist/cocina-china-v4.zip) |
+| 🥟 [World cuisine: China](packs/chinese-cooking/pack.yaml) | World cuisine | en | 26 | [chinese-cooking-v4.zip](dist/chinese-cooking-v4.zip) |
+| 🫓 [Cocina del mundo: Colombia](packs/cocina-colombiana/pack.yaml) | Cocina del mundo | es | 22 | [cocina-colombiana-v4.zip](dist/cocina-colombiana-v4.zip) |
+| 🫓 [World cuisine: Colombia](packs/colombian-cooking/pack.yaml) | World cuisine | en | 22 | [colombian-cooking-v4.zip](dist/colombian-cooking-v4.zip) |
 | 🥘 [Cocina del mundo: España](packs/cocina-espanola/pack.yaml) | Cocina del mundo | es | 21 | [cocina-espanola-v3.zip](dist/cocina-espanola-v3.zip) |
 | 🥘 [World cuisine: Spain](packs/spanish-cooking/pack.yaml) | World cuisine | en | 21 | [spanish-cooking-v3.zip](dist/spanish-cooking-v3.zip) |
-| 🌭 [Cocina del mundo: Estados Unidos](packs/cocina-estadounidense/pack.yaml) | Cocina del mundo | es | 20 | [cocina-estadounidense-v3.zip](dist/cocina-estadounidense-v3.zip) |
-| 🌭 [World cuisine: United States](packs/american-cooking/pack.yaml) | World cuisine | en | 20 | [american-cooking-v3.zip](dist/american-cooking-v3.zip) |
-| 🥙 [Cocina del mundo: Grecia](packs/cocina-griega/pack.yaml) | Cocina del mundo | es | 20 | [cocina-griega-v3.zip](dist/cocina-griega-v3.zip) |
-| 🥙 [World cuisine: Greece](packs/greek-cooking/pack.yaml) | World cuisine | en | 20 | [greek-cooking-v3.zip](dist/greek-cooking-v3.zip) |
-| 🍛 [Cocina del mundo: India](packs/cocina-india/pack.yaml) | Cocina del mundo | es | 20 | [cocina-india-v1.zip](dist/cocina-india-v1.zip) |
-| 🍛 [World cuisine: India](packs/indian-cooking/pack.yaml) | World cuisine | en | 20 | [indian-cooking-v1.zip](dist/indian-cooking-v1.zip) |
-| 🍛 [Cocina del mundo: Indonesia](packs/cocina-indonesia/pack.yaml) | Cocina del mundo | es | 20 | [cocina-indonesia-v3.zip](dist/cocina-indonesia-v3.zip) |
-| 🍛 [World cuisine: Indonesia](packs/indonesian-cooking/pack.yaml) | World cuisine | en | 20 | [indonesian-cooking-v3.zip](dist/indonesian-cooking-v3.zip) |
+| 🌭 [Cocina del mundo: Estados Unidos](packs/cocina-estadounidense/pack.yaml) | Cocina del mundo | es | 24 | [cocina-estadounidense-v4.zip](dist/cocina-estadounidense-v4.zip) |
+| 🌭 [World cuisine: United States](packs/american-cooking/pack.yaml) | World cuisine | en | 24 | [american-cooking-v4.zip](dist/american-cooking-v4.zip) |
+| 🥙 [Cocina del mundo: Grecia](packs/cocina-griega/pack.yaml) | Cocina del mundo | es | 23 | [cocina-griega-v4.zip](dist/cocina-griega-v4.zip) |
+| 🥙 [World cuisine: Greece](packs/greek-cooking/pack.yaml) | World cuisine | en | 23 | [greek-cooking-v4.zip](dist/greek-cooking-v4.zip) |
+| 🍛 [Cocina del mundo: India](packs/cocina-india/pack.yaml) | Cocina del mundo | es | 26 | [cocina-india-v2.zip](dist/cocina-india-v2.zip) |
+| 🍛 [World cuisine: India](packs/indian-cooking/pack.yaml) | World cuisine | en | 26 | [indian-cooking-v2.zip](dist/indian-cooking-v2.zip) |
+| 🍛 [Cocina del mundo: Indonesia](packs/cocina-indonesia/pack.yaml) | Cocina del mundo | es | 22 | [cocina-indonesia-v4.zip](dist/cocina-indonesia-v4.zip) |
+| 🍛 [World cuisine: Indonesia](packs/indonesian-cooking/pack.yaml) | World cuisine | en | 22 | [indonesian-cooking-v4.zip](dist/indonesian-cooking-v4.zip) |
 | 🍝 [Cocina del mundo: Italia](packs/cocina-italiana/pack.yaml) | Cocina del mundo | es | 30 | [cocina-italiana-v4.zip](dist/cocina-italiana-v4.zip) |
 | 🍝 [World cuisine: Italy](packs/italian-cooking/pack.yaml) | World cuisine | en | 30 | [italian-cooking-v4.zip](dist/italian-cooking-v4.zip) |
-| 🍣 [Cocina del mundo: Japón](packs/cocina-japonesa/pack.yaml) | Cocina del mundo | es | 20 | [cocina-japonesa-v3.zip](dist/cocina-japonesa-v3.zip) |
-| 🍣 [World cuisine: Japan](packs/japanese-cooking/pack.yaml) | World cuisine | en | 20 | [japanese-cooking-v3.zip](dist/japanese-cooking-v3.zip) |
-| 🌮 [Cocina del mundo: México](packs/cocina-mexicana/pack.yaml) | Cocina del mundo | es | 20 | [cocina-mexicana-v4.zip](dist/cocina-mexicana-v4.zip) |
-| 🌮 [World cuisine: Mexico](packs/mexican-cooking/pack.yaml) | World cuisine | en | 20 | [mexican-cooking-v4.zip](dist/mexican-cooking-v4.zip) |
-| 🌶️ [Cocina del mundo: Perú](packs/cocina-peruana/pack.yaml) | Cocina del mundo | es | 20 | [cocina-peruana-v3.zip](dist/cocina-peruana-v3.zip) |
-| 🌶️ [World cuisine: Peru](packs/peruvian-cooking/pack.yaml) | World cuisine | en | 20 | [peruvian-cooking-v3.zip](dist/peruvian-cooking-v3.zip) |
-| 🍲 [Cocina del mundo: Tailandia](packs/cocina-tailandesa/pack.yaml) | Cocina del mundo | es | 20 | [cocina-tailandesa-v3.zip](dist/cocina-tailandesa-v3.zip) |
-| 🍲 [World cuisine: Thailand](packs/thai-cooking/pack.yaml) | World cuisine | en | 20 | [thai-cooking-v3.zip](dist/thai-cooking-v3.zip) |
-| 🍜 [Cocina del mundo: Vietnam](packs/cocina-vietnamita/pack.yaml) | Cocina del mundo | es | 20 | [cocina-vietnamita-v3.zip](dist/cocina-vietnamita-v3.zip) |
-| 🍜 [World cuisine: Vietnam](packs/vietnamese-cooking/pack.yaml) | World cuisine | en | 20 | [vietnamese-cooking-v3.zip](dist/vietnamese-cooking-v3.zip) |
-| 🥐 [Cocina del mundo: Francia](packs/cocina-francesa/pack.yaml) | Cocina del mundo | es | 20 | [cocina-francesa-v1.zip](dist/cocina-francesa-v1.zip) |
-| 🥐 [World cuisine: France](packs/french-cooking/pack.yaml) | World cuisine | en | 20 | [french-cooking-v1.zip](dist/french-cooking-v1.zip) |
-| 🫖 [Cocina del mundo: Marruecos](packs/cocina-marroqui/pack.yaml) | Cocina del mundo | es | 20 | [cocina-marroqui-v1.zip](dist/cocina-marroqui-v1.zip) |
-| 🫖 [World cuisine: Morocco](packs/moroccan-cooking/pack.yaml) | World cuisine | en | 20 | [moroccan-cooking-v1.zip](dist/moroccan-cooking-v1.zip) |
-| 🧆 [Cocina del mundo: Turquía](packs/cocina-turca/pack.yaml) | Cocina del mundo | es | 20 | [cocina-turca-v1.zip](dist/cocina-turca-v1.zip) |
-| 🧆 [World cuisine: Turkey](packs/turkish-cooking/pack.yaml) | World cuisine | en | 20 | [turkish-cooking-v1.zip](dist/turkish-cooking-v1.zip) |
-| 🥬 [Cocina del mundo: Corea](packs/cocina-coreana/pack.yaml) | Cocina del mundo | es | 20 | [cocina-coreana-v1.zip](dist/cocina-coreana-v1.zip) |
-| 🥬 [World cuisine: Korea](packs/korean-cooking/pack.yaml) | World cuisine | en | 20 | [korean-cooking-v1.zip](dist/korean-cooking-v1.zip) |
+| 🍣 [Cocina del mundo: Japón](packs/cocina-japonesa/pack.yaml) | Cocina del mundo | es | 25 | [cocina-japonesa-v4.zip](dist/cocina-japonesa-v4.zip) |
+| 🍣 [World cuisine: Japan](packs/japanese-cooking/pack.yaml) | World cuisine | en | 25 | [japanese-cooking-v4.zip](dist/japanese-cooking-v4.zip) |
+| 🌮 [Cocina del mundo: México](packs/cocina-mexicana/pack.yaml) | Cocina del mundo | es | 26 | [cocina-mexicana-v5.zip](dist/cocina-mexicana-v5.zip) |
+| 🌮 [World cuisine: Mexico](packs/mexican-cooking/pack.yaml) | World cuisine | en | 26 | [mexican-cooking-v5.zip](dist/mexican-cooking-v5.zip) |
+| 🌶️ [Cocina del mundo: Perú](packs/cocina-peruana/pack.yaml) | Cocina del mundo | es | 24 | [cocina-peruana-v4.zip](dist/cocina-peruana-v4.zip) |
+| 🌶️ [World cuisine: Peru](packs/peruvian-cooking/pack.yaml) | World cuisine | en | 24 | [peruvian-cooking-v4.zip](dist/peruvian-cooking-v4.zip) |
+| 🍲 [Cocina del mundo: Tailandia](packs/cocina-tailandesa/pack.yaml) | Cocina del mundo | es | 24 | [cocina-tailandesa-v4.zip](dist/cocina-tailandesa-v4.zip) |
+| 🍲 [World cuisine: Thailand](packs/thai-cooking/pack.yaml) | World cuisine | en | 24 | [thai-cooking-v4.zip](dist/thai-cooking-v4.zip) |
+| 🍜 [Cocina del mundo: Vietnam](packs/cocina-vietnamita/pack.yaml) | Cocina del mundo | es | 23 | [cocina-vietnamita-v4.zip](dist/cocina-vietnamita-v4.zip) |
+| 🍜 [World cuisine: Vietnam](packs/vietnamese-cooking/pack.yaml) | World cuisine | en | 23 | [vietnamese-cooking-v4.zip](dist/vietnamese-cooking-v4.zip) |
+| 🥐 [Cocina del mundo: Francia](packs/cocina-francesa/pack.yaml) | Cocina del mundo | es | 25 | [cocina-francesa-v2.zip](dist/cocina-francesa-v2.zip) |
+| 🥐 [World cuisine: France](packs/french-cooking/pack.yaml) | World cuisine | en | 25 | [french-cooking-v2.zip](dist/french-cooking-v2.zip) |
+| 🫖 [Cocina del mundo: Marruecos](packs/cocina-marroqui/pack.yaml) | Cocina del mundo | es | 24 | [cocina-marroqui-v2.zip](dist/cocina-marroqui-v2.zip) |
+| 🫖 [World cuisine: Morocco](packs/moroccan-cooking/pack.yaml) | World cuisine | en | 24 | [moroccan-cooking-v2.zip](dist/moroccan-cooking-v2.zip) |
+| 🧆 [Cocina del mundo: Turquía](packs/cocina-turca/pack.yaml) | Cocina del mundo | es | 25 | [cocina-turca-v2.zip](dist/cocina-turca-v2.zip) |
+| 🧆 [World cuisine: Turkey](packs/turkish-cooking/pack.yaml) | World cuisine | en | 25 | [turkish-cooking-v2.zip](dist/turkish-cooking-v2.zip) |
+| 🥬 [Cocina del mundo: Corea](packs/cocina-coreana/pack.yaml) | Cocina del mundo | es | 25 | [cocina-coreana-v2.zip](dist/cocina-coreana-v2.zip) |
+| 🥬 [World cuisine: Korea](packs/korean-cooking/pack.yaml) | World cuisine | en | 25 | [korean-cooking-v2.zip](dist/korean-cooking-v2.zip) |
 | 🫖 [Cocina fusión: anglo-india](packs/fusion-anglo-india/pack.yaml) | Cocina fusión | es | 8 | [fusion-anglo-india-v1.zip](dist/fusion-anglo-india-v1.zip) |
 | 🫖 [Fusion cuisine: Anglo-Indian](packs/anglo-indian-fusion/pack.yaml) | Fusion cuisine | en | 8 | [anglo-indian-fusion-v1.zip](dist/anglo-indian-fusion-v1.zip) |
 | 🥢 [Cocina fusión: chifa](packs/fusion-chifa/pack.yaml) | Cocina fusión | es | 8 | [fusion-chifa-v1.zip](dist/fusion-chifa-v1.zip) |

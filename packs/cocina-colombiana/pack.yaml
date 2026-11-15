@@ -1,6 +1,6 @@
 id: cocina-colombiana
-version: 3
-updated: 2026-11-06
+version: 4
+updated: 2026-11-15
 language: es
 name: "Cocina del mundo: Colombia"
 series: Cocina del mundo
@@ -592,3 +592,54 @@ recipes:
       - Exprime las limas y reserva el zumo.
       - Pon en el vaso de la batidora el zumo, la crema y la leche de coco, el azúcar y el hielo.
       - Tritura hasta que el hielo esté picado y la mezcla espumosa. Sirve enseguida.
+
+  - name: Arepa de huevo
+    health: [RED, "Arepa frita rellena de huevo: calórica y con mucho aceite."]
+    nutrition: [410, 12, 38, 23]
+    photo: cocina-colombiana/arepa-de-huevo.jpg
+    category: Panes y masas
+    difficulty: HARD
+    prep: 30
+    cook: 20
+    servings: 6
+    notes: "La arepa de la costa caribe colombiana, típica de Luruaco. Se fríe dos veces: la segunda, ya con el huevo dentro."
+    tags: [fritos, huevos, desayuno]
+    origin: Costa caribe
+    ingredients:
+      - items:
+          - [harina de maíz precocida amarilla, 300, g]
+          - [agua templada, 400, ml]
+          - [sal, 1, cucharadita]
+          - [huevos, 6, null]
+          - [aceite para freír, null, null]
+    steps:
+      - Amasa la harina con el agua y la sal hasta tener una masa suave y deja reposar 10 minutos.
+      - Forma 6 discos de 12 cm y 5 mm de grosor y fríelos en aceite a 170 °C hasta que se inflen y estén dorados.
+      - Haz un corte en el borde de cada arepa para abrir un bolsillo y casca un huevo dentro con cuidado.
+      - Sella la abertura con un poco de masa cruda y vuelve a freír 2-3 minutos, hasta que el huevo cuaje.
+
+  - name: Calentado paisa
+    health: [YELLOW, "Arroz con fríjoles y huevo: completo y saciante, algo graso."]
+    nutrition: [560, 24, 70, 20]
+    category: Legumbres
+    difficulty: EASY
+    prep: 10
+    cook: 15
+    servings: 4
+    notes: El desayuno antioqueño para aprovechar el arroz y los fríjoles del día anterior. Se acompaña de arepa y chocolate.
+    tags: [aprovechamiento, desayuno, legumbres]
+    origin: Antioquia
+    ingredients:
+      - items:
+          - [fríjoles cocidos con su caldo, 400, g]
+          - [arroz blanco cocido, 400, g]
+          - [hogao, 4, cucharada]
+          - [chorizo, 1, null, optional]
+          - [huevos, 4, null]
+          - [aceite de girasol, 2, cucharada]
+          - [sal, null, null]
+    steps:
+      - Dora el chorizo en rodajas en el aceite si lo usas.
+      - Añade los fríjoles con un poco de su caldo y el hogao y calienta aplastando unos pocos fríjoles.
+      - Incorpora el arroz y mezcla a fuego medio hasta que esté bien caliente y algo tostado. Sala.
+      - Fríe los huevos y sirve el calentado con un huevo encima.

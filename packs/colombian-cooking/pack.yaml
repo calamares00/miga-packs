@@ -1,6 +1,6 @@
 id: colombian-cooking
-version: 3
-updated: 2026-11-06
+version: 4
+updated: 2026-11-15
 language: en
 name: "World cuisine: Colombia"
 series: World cuisine
@@ -591,3 +591,54 @@ recipes:
       - Squeeze the limes and keep the juice.
       - Put the juice, cream of coconut, coconut milk, sugar and ice in the blender.
       - Blend until the ice is crushed and the mixture is frothy. Serve straight away.
+
+  - name: Arepa de huevo
+    health: [RED, "Fried arepa filled with egg: high in calories and oil."]
+    nutrition: [410, 12, 38, 23]
+    photo: cocina-colombiana/arepa-de-huevo.jpg
+    category: Breads and doughs
+    difficulty: HARD
+    prep: 30
+    cook: 20
+    servings: 6
+    notes: "The arepa of Colombia's Caribbean coast, typical of Luruaco. Fried twice: the second time with the egg inside."
+    tags: [fried, eggs, breakfast]
+    origin: Caribbean coast
+    ingredients:
+      - items:
+          - [yellow precooked maize flour, 300, g]
+          - [warm water, 400, ml]
+          - [salt, 1, tsp]
+          - [eggs, 6, null]
+          - [oil for frying, null, null]
+    steps:
+      - Knead the flour with the water and salt into a soft dough and rest for 10 minutes.
+      - Shape 6 discs of 12 cm, 5 mm thick, and fry in oil at 170 °C until puffed and golden.
+      - Cut into the edge of each arepa to open a pocket and carefully crack an egg inside.
+      - Seal the opening with a little raw dough and fry again for 2-3 minutes, until the egg sets.
+
+  - name: Calentado paisa
+    health: [YELLOW, "Rice with beans and egg: complete and filling, somewhat fatty."]
+    nutrition: [560, 24, 70, 20]
+    category: Legumes
+    difficulty: EASY
+    prep: 10
+    cook: 15
+    servings: 4
+    notes: The Antioquian breakfast that uses up yesterday's rice and beans. Served with an arepa and hot chocolate.
+    tags: [leftovers, breakfast, legumes]
+    origin: Antioquia
+    ingredients:
+      - items:
+          - [cooked beans with their liquid, 400, g]
+          - [cooked white rice, 400, g]
+          - [hogao, 4, tbsp]
+          - [chorizo, 1, null, optional]
+          - [eggs, 4, null]
+          - [sunflower oil, 2, tbsp]
+          - [salt, null, null]
+    steps:
+      - Brown the sliced chorizo in the oil, if using.
+      - Add the beans with a little of their liquid and the hogao and heat, mashing a few beans.
+      - Stir in the rice and cook over medium heat until piping hot and a little toasted. Season.
+      - Fry the eggs and serve the calentado topped with an egg.

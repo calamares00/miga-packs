@@ -1,6 +1,6 @@
 id: argentine-cooking
-version: 3
-updated: 2026-11-06
+version: 4
+updated: 2026-11-15
 language: en
 name: "World cuisine: Argentina"
 series: World cuisine
@@ -623,3 +623,88 @@ recipes:
       - Mix the starch with the salt and butter. Add the eggs, cheese and milk little by little and knead into a soft dough that doesn't stick.
       - Shape 3 cm balls and put them on a tray lined with baking paper.
       - Bake for 18-20 minutes, until barely golden.
+
+  - name: Vitel toné
+    health: [YELLOW, "Cold veal with tuna and mayonnaise sauce: lots of protein, with quite a lot of fat."]
+    nutrition: [420, 36, 3, 29]
+    photo: cocina-argentina/vitel-tone.jpg
+    category: Meat
+    difficulty: MEDIUM
+    prep: 30
+    cook: 90
+    servings: 8
+    notes: Piedmontese in origin, in Argentina it's the cold dish of Christmas Eve. Made the day before and served cold.
+    tags: [christmas, beef, cold dish]
+    ingredients:
+      - group: For the meat
+        items:
+          - [beef eye of round, 1.2, kg]
+          - [onion, 1, null]
+          - [carrot, 1, null]
+          - [celery stick, 1, null]
+          - [bay leaf, 1, null]
+          - [white wine, 200, ml]
+          - [salt, null, null]
+      - group: For the sauce
+        items:
+          - [drained tuna in oil, 160, g]
+          - [anchovy fillets, 4, null]
+          - [mayonnaise, 250, g]
+          - [capers, 2, tbsp]
+          - [cooking stock, 100, ml]
+    steps:
+      - Cover the meat with water, the wine, vegetables, bay leaf and salt and simmer gently for 1½ hours. Leave to cool in the stock.
+      - Blend the tuna with the anchovies, half the capers, the mayonnaise and the stock into a smooth sauce.
+      - Slice the cold meat thinly and arrange it on a platter.
+      - Cover with the sauce, scatter with the remaining capers and chill for at least 4 hours.
+
+  - name: Fainá
+    health: [GREEN, "Chickpea flour flatbread: plant protein and fibre, gluten-free."]
+    nutrition: [230, 8, 26, 10]
+    photo: cocina-argentina/faina.jpg
+    category: Breads and doughs
+    difficulty: EASY
+    prep: 10
+    cook: 20
+    servings: 6
+    notes: Brought to the River Plate by Genoese immigrants. In Buenos Aires pizzerias it goes on top of a slice of pizza ("a caballo").
+    tags: [vegan, gluten-free, oven]
+    origin: Buenos Aires
+    utensils: [Oven]
+    ingredients:
+      - items:
+          - [chickpea flour, 250, g]
+          - [water, 750, ml]
+          - [olive oil, 5, tbsp]
+          - [salt, 1, tsp]
+          - [black pepper, null, null]
+    steps:
+      - Whisk the flour with the water and salt until smooth and leave to rest for at least 2 hours. Skim off the foam.
+      - Heat the oven to 250 °C with a large round tray and the oil inside.
+      - "Pour the batter into the hot tray: it should be thin, under 1 cm."
+      - Bake for 15-20 minutes, until golden on top. Serve hot with pepper.
+
+  - name: Quince pastelitos
+    health: [RED, "Fried puff pastry with quince paste and syrup: very high in calories."]
+    nutrition: [280, 3, 38, 13]
+    photo: cocina-argentina/pastelitos-de-membrillo.jpg
+    category: Desserts
+    difficulty: MEDIUM
+    prep: 30
+    cook: 20
+    servings: 12
+    notes: The creole pastries of 25 May and 9 July. Two squares of puff pastry set at an angle make a star.
+    tags: [dessert, fried, celebration]
+    ingredients:
+      - items:
+          - [sheets of puff pastry, 2, null]
+          - [quince paste, 250, g]
+          - [oil for frying, null, null]
+          - [sugar, 200, g]
+          - [water, 200, ml]
+          - [coloured sprinkles, 2, tbsp, optional]
+    steps:
+      - Cut the pastry into 24 squares of about 8 cm. Put a cube of quince paste in the centre of half of them.
+      - Cover each with another square turned 45 degrees, wet the edges and press round the filling. Cut from each corner towards the centre.
+      - Fry in oil at 170 °C until golden and opened into layers.
+      - Boil the sugar with the water for 5 minutes to make a syrup, dip the pastries and decorate with sprinkles.

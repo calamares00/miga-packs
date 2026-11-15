@@ -40,10 +40,10 @@
       "authorGithub": "calamares00",
       "description": "American home cooking, from the South to New England: mac and cheese, pulled pork, fried chicken, clam chowder, chili, cornbread, pancakes, meatloaf, jambalaya, gumbo, coleslaw, apple pie, chocolate chip cookies, New York cheesecake, cheesesteak, Cobb salad and key lime pie. With measurements in grams.",
       "coverImageUrl": "packs/american-cooking/cover.jpg",
-      "latestVersion": 3,
-      "recipeCount": 20,
-      "downloadUrl": "dist/american-cooking-v3.zip",
-      "sha256": "69938de3f0a1635dacb18dd61355f9d1b0a4a7f486f3eda83d647ff823e4569b",
+      "latestVersion": 4,
+      "recipeCount": 24,
+      "downloadUrl": "dist/american-cooking-v4.zip",
+      "sha256": "2562ecf39c035239df739aea7858ed0b808f51204df7ba1fde7296a900b72d86",
       "language": "en"
     },
     {
@@ -70,10 +70,10 @@
       "authorGithub": "calamares00",
       "description": "From the asado to afternoon tea: beef short ribs, chimichurri, salsa criolla, choripán, provoleta, criolla empanadas, milanesa a la napolitana, locro, matambre, humita, carbonada, gnocchi with tuco, pastel de papa, revuelto gramajo, dulce de leche, alfajores, pastafrola, medialunas, tortas fritas and chipá.",
       "coverImageUrl": "packs/argentine-cooking/cover.jpg",
-      "latestVersion": 3,
-      "recipeCount": 20,
-      "downloadUrl": "dist/argentine-cooking-v3.zip",
-      "sha256": "436ee13bb1548ba40f635f83e6f371fddca9f8b1f49c600965ca2fce71ab900e",
+      "latestVersion": 4,
+      "recipeCount": 23,
+      "downloadUrl": "dist/argentine-cooking-v4.zip",
+      "sha256": "621b4ce19ebc82ba1191873adc4042792b6dc8b96c57f886758523ec81ceea09",
       "language": "en"
     },
     {
@@ -220,10 +220,10 @@
       "authorGithub": "calamares00",
       "description": "Classics from Sichuan, Cantonese and northern Chinese cooking: kung pao chicken, mapo tofu, jiaozi, sweet and sour pork, hot and sour soup, wontons, chow mein, hong shao rou, dan dan noodles, char siu, steamed fish, spring rolls and congee. With the basic sauces and spices of the Chinese pantry.",
       "coverImageUrl": "packs/chinese-cooking/cover.jpg",
-      "latestVersion": 3,
-      "recipeCount": 20,
-      "downloadUrl": "dist/chinese-cooking-v3.zip",
-      "sha256": "19bf20c55c6fd6bd66f123904bbc50ad8b2eb3bb0f1f389b8c6571bb4ccd7f12",
+      "latestVersion": 4,
+      "recipeCount": 26,
+      "downloadUrl": "dist/chinese-cooking-v4.zip",
+      "sha256": "c55c122800d97315b2f85e80b5f6d1559bcbf551f799ab5b8b951ba36824ffcc",
       "language": "en"
     },
     {
@@ -250,10 +250,10 @@
       "authorGithub": "calamares00",
       "description": "Los clásicos de la cocina alemana de norte a sur: schnitzel, rouladen, sauerbraten, ensalada de patata suaba, bratkartoffeln, kartoffelpuffer, käsespätzle, königsberger klopse, currywurst, frikadellen, potajes de lentejas y de guisantes, sopa de patata, flammkuchen, brezeln, maultaschen, obatzda y postres como el pastel de manzana, la tarta Selva Negra y la rote grütze.",
       "coverImageUrl": "packs/cocina-alemana/cover.jpg",
-      "latestVersion": 3,
-      "recipeCount": 20,
-      "downloadUrl": "dist/cocina-alemana-v3.zip",
-      "sha256": "12a288644bd8d1525cec73f09482260a4032087b1ab6fe608e450abf982ff0e6",
+      "latestVersion": 4,
+      "recipeCount": 24,
+      "downloadUrl": "dist/cocina-alemana-v4.zip",
+      "sha256": "94b025198a0644e93dc0013ceb01f8e81c5de03bc7c4c9b968eb5496264ff4df",
       "language": "es"
     },
     {
@@ -265,10 +265,10 @@
       "authorGithub": "calamares00",
       "description": "Del asado a la merienda: tira de asado, chimichurri, salsa criolla, choripán, provoleta, empanadas criollas, milanesa a la napolitana, locro, matambre arrollado, humita, carbonada, ñoquis con tuco, pastel de papa, revuelto gramajo, dulce de leche, alfajores de maicena, pastafrola, medialunas, tortas fritas y chipá.",
       "coverImageUrl": "packs/cocina-argentina/cover.jpg",
-      "latestVersion": 3,
-      "recipeCount": 20,
-      "downloadUrl": "dist/cocina-argentina-v3.zip",
-      "sha256": "44d5bbb71ff54051702bd39225a651b737fd4342bb81f8d934375adda99ae28d",
+      "latestVersion": 4,
+      "recipeCount": 23,
+      "downloadUrl": "dist/cocina-argentina-v4.zip",
+      "sha256": "c735fbc81981e65620bbd92ecb7be4b122a2460a95a1b3ae0eda9c0b6db3bc1b",
       "language": "es"
     },
     {
@@ -280,10 +280,10 @@
       "authorGithub": "calamares00",
       "description": "Clásicos de las cocinas de Sichuan, Cantón y el norte de China: pollo kung pao, mapo tofu, jiaozi, cerdo agridulce, sopa agripicante, wonton, chow mein, hong shao rou, dan dan mian, char siu, pescado al vapor, rollitos de primavera y congee. Con las salsas y especias básicas de la despensa china.",
       "coverImageUrl": "packs/cocina-china/cover.jpg",
-      "latestVersion": 3,
-      "recipeCount": 20,
-      "downloadUrl": "dist/cocina-china-v3.zip",
-      "sha256": "a1155b78b54532bf1ca2d19bb99aff7dc81c8479da86c086802ed3d142018758",
+      "latestVersion": 4,
+      "recipeCount": 26,
+      "downloadUrl": "dist/cocina-china-v4.zip",
+      "sha256": "858e6128899d1ec0b45743eb5c3b58be80bc2defa39d358368d51a07708ce558",
       "language": "es"
     },
     {
@@ -295,10 +295,10 @@
       "authorGithub": "calamares00",
       "description": "La cocina de las regiones de Colombia: bandeja paisa, frijoles antioqueños, ajiaco santafereño, sancocho, arepas, empanadas, patacones, hogao, ají, arroz con pollo, changua, pandebono, buñuelos, natilla, posta negra cartagenera, mote de queso, arroz con coco, cazuela de mariscos, sobrebarriga y limonada de coco. Con equivalencias para los ingredientes menos habituales fuera de Colombia.",
       "coverImageUrl": "packs/cocina-colombiana/cover.jpg",
-      "latestVersion": 3,
-      "recipeCount": 20,
-      "downloadUrl": "dist/cocina-colombiana-v3.zip",
-      "sha256": "0a043d3981a604f4ca52e5acbe913fc83b4e7b489abd2f7f8e655e653cb2177d",
+      "latestVersion": 4,
+      "recipeCount": 22,
+      "downloadUrl": "dist/cocina-colombiana-v4.zip",
+      "sha256": "8f9e2b716d4feea45be3e3c3e2a1b1af38cd6b0284289329430ecb26848a55bc",
       "language": "es"
     },
     {
@@ -310,10 +310,10 @@
       "authorGithub": "calamares00",
       "description": "La cocina de Corea, picante, fermentada y para compartir: bibimbap, bulgogi, kimchi casero, japchae, kimbap, tteokbokki, guisos de kimchi y de tofu sedoso, samgyetang, pajeon de marisco, arroz frito con kimchi, dakgalbi, pollo frito coreano, galbi jjim, bossam, guarniciones (banchan) como la tortilla enrollada, los brotes de soja y el pepino aliñados y, de postre, hotteok y patbingsu. El gochujang y el gochugaru se encuentran en tiendas asiáticas.",
       "coverImageUrl": "packs/cocina-coreana/cover.jpg",
-      "latestVersion": 1,
-      "recipeCount": 20,
-      "downloadUrl": "dist/cocina-coreana-v1.zip",
-      "sha256": "410fdf804c45fd248f59d77197c4b5d8811545ca18051594954ee6bfc5ce2659",
+      "latestVersion": 2,
+      "recipeCount": 25,
+      "downloadUrl": "dist/cocina-coreana-v2.zip",
+      "sha256": "bc22df07a211101584706a41e8b9a3143413b3de6349b1e60a37e0da192c5532",
       "language": "es"
     },
     {
@@ -370,10 +370,10 @@
       "authorGithub": "calamares00",
       "description": "La cocina casera de Estados Unidos, del sur a Nueva Inglaterra: macarrones con queso, cerdo desmenuzado, pollo frito, sopa de almejas, chili, pan de maíz, tortitas, pastel de carne, jambalaya, gumbo, ensalada de col, tarta de manzana, galletas con pepitas de chocolate, tarta de queso de Nueva York, cheesesteak, ensalada Cobb y tarta de lima. Con medidas en gramos.",
       "coverImageUrl": "packs/cocina-estadounidense/cover.jpg",
-      "latestVersion": 3,
-      "recipeCount": 20,
-      "downloadUrl": "dist/cocina-estadounidense-v3.zip",
-      "sha256": "de1b600f6f3a10844cd86a480e3d48e63a36eb3b8f37bec339bdb5600e6d7f7a",
+      "latestVersion": 4,
+      "recipeCount": 24,
+      "downloadUrl": "dist/cocina-estadounidense-v4.zip",
+      "sha256": "a7027d3d61584d3d6a592468bf88e16f4f6e6dd4e7ba92b1db3187c553063ee5",
       "language": "es"
     },
     {
@@ -385,10 +385,10 @@
       "authorGithub": "calamares00",
       "description": "Los clásicos de la cocina francesa, de bistró y de casa: ternera a la borgoñona, pollo al vino, quiche lorraine, croque monsieur, gratin dauphinois, bullabesa, cassoulet, blanquette de ternera, mejillones a la marinera, magret con naranja, hachis parmentier, soufflé de queso, ensalada lionesa, pissaladière, tapenade y, de postre, tarta Tatin, crème brûlée, profiteroles, clafoutis de cerezas y madeleines. Con mantequilla, vino y hierbas.",
       "coverImageUrl": "packs/cocina-francesa/cover.jpg",
-      "latestVersion": 1,
-      "recipeCount": 20,
-      "downloadUrl": "dist/cocina-francesa-v1.zip",
-      "sha256": "bb799f75852120bb60e76e9aaed08119db33c8f9e1291a1d0db66e914673d499",
+      "latestVersion": 2,
+      "recipeCount": 25,
+      "downloadUrl": "dist/cocina-francesa-v2.zip",
+      "sha256": "5c540b614a33c9a6759f0b3046dd84d0f808290ab9bbd9eef907cc0dc36b3690",
       "language": "es"
     },
     {
@@ -400,10 +400,10 @@
       "authorGithub": "calamares00",
       "description": "La cocina griega más allá de la ensalada y el tzatziki: souvlaki, spanakopita, pastitsio, gemista, fasolada, avgolemono, dolmades, keftedes, briam, fava, kleftiko, stifado, queso saganaki, gambas con feta, gigantes, taramosalata, melitzanosalata, spanakorizo, loukoumades y baklava. Con aceite de oliva, limón, orégano y eneldo.",
       "coverImageUrl": "packs/cocina-griega/cover.jpg",
-      "latestVersion": 3,
-      "recipeCount": 20,
-      "downloadUrl": "dist/cocina-griega-v3.zip",
-      "sha256": "3f423cc717d821127aff174f786ed211c1f1a592586dfc01c6aaee0b66518f9a",
+      "latestVersion": 4,
+      "recipeCount": 23,
+      "downloadUrl": "dist/cocina-griega-v4.zip",
+      "sha256": "af53dc5d21e1a30951a2f8dd336559fd87ae59605e6080232f80ac925f8ea3bd",
       "language": "es"
     },
     {
@@ -415,10 +415,10 @@
       "authorGithub": "calamares00",
       "description": "Curris, legumbres, panes y dulces de la India: pollo a la mantequilla, pollo tandoori, rogan josh, korma, vindaloo, palak paneer, chana masala, dal tadka, rajma, aloo gobi, baingan bharta, samosas, bhajis de cebolla, raita, chutney de menta, chapatis, aloo paratha, kheer, lassi de mango y masala chai.",
       "coverImageUrl": "packs/cocina-india/cover.jpg",
-      "latestVersion": 1,
-      "recipeCount": 20,
-      "downloadUrl": "dist/cocina-india-v1.zip",
-      "sha256": "0a9f8c079ff1f6cb17087c08bd67840c671e20cd7c25854a80d95a1bd2fbb1f0",
+      "latestVersion": 2,
+      "recipeCount": 26,
+      "downloadUrl": "dist/cocina-india-v2.zip",
+      "sha256": "24fa2c3ef7b9d5b74774d3dc6a37dfbd4f0914580eaa7d603884f58ac174bbf4",
       "language": "es"
     },
     {
@@ -430,10 +430,10 @@
       "authorGithub": "calamares00",
       "description": "Los platos de diario y de fiesta de Indonesia: nasi goreng, mie goreng, satay de pollo con salsa de cacahuete, gado-gado, rendang, soto ayam, opor ayam, bakso, sayur lodeh, sambal y postres como el pisang goreng, el martabak o los klepon. Con equivalencias para los ingredientes menos habituales.",
       "coverImageUrl": "packs/cocina-indonesia/cover.jpg",
-      "latestVersion": 3,
-      "recipeCount": 20,
-      "downloadUrl": "dist/cocina-indonesia-v3.zip",
-      "sha256": "0a0c67f34940b9da3ac80948ec571b1722929b8d8c6702f8278a1215ba3a05a7",
+      "latestVersion": 4,
+      "recipeCount": 22,
+      "downloadUrl": "dist/cocina-indonesia-v4.zip",
+      "sha256": "5fca28dfd779f6f92f85e15627b488c9e017f31e40443cb10cdb1bc730af291f",
       "language": "es"
     },
     {
@@ -460,10 +460,10 @@
       "authorGithub": "calamares00",
       "description": "La cocina casera de Japón: sopa de miso, pollo teriyaki, gyoza, ramen, tonkatsu, oyakodon, onigiri, tamagoyaki, okonomiyaki, yakitori, tempura, makis, karaage, nikujaga, yakisoba, gyudon, curry japonés y dorayaki. Con el dashi y las salsas de base explicados paso a paso.",
       "coverImageUrl": "packs/cocina-japonesa/cover.jpg",
-      "latestVersion": 3,
-      "recipeCount": 20,
-      "downloadUrl": "dist/cocina-japonesa-v3.zip",
-      "sha256": "5e145739c2ae9e30ce722a9791214ce02537242bf0f557c97d56b4f48060f2b3",
+      "latestVersion": 4,
+      "recipeCount": 25,
+      "downloadUrl": "dist/cocina-japonesa-v4.zip",
+      "sha256": "a38b50fc47fa504d5208f28f8ed221632b688c8582432bc5f3caa6750bba450d",
       "language": "es"
     },
     {
@@ -475,10 +475,10 @@
       "authorGithub": "calamares00",
       "description": "La cocina de Marruecos, de especias suaves y cocciones lentas: cuscús con siete verduras, harira, pastela de pollo, tajines de cordero con ciruelas, de kefta con huevos y de pescado, zaalouk, ensaladas, bissara, briouats, rfissa, mechui y pinchos de kefta, panes como el msemen, el khobz y el baghrir, dulces de miel y almendra y el té con hierbabuena.",
       "coverImageUrl": "packs/cocina-marroqui/cover.jpg",
-      "latestVersion": 1,
-      "recipeCount": 20,
-      "downloadUrl": "dist/cocina-marroqui-v1.zip",
-      "sha256": "251729f271f2d43175b1a238df726c38b03db998dc727a7d25fc91314274c77d",
+      "latestVersion": 2,
+      "recipeCount": 24,
+      "downloadUrl": "dist/cocina-marroqui-v2.zip",
+      "sha256": "e65c7c10e72b587b312eb59c6676a96e386f381fab9b51c8628816e5f8fe8e9b",
       "language": "es"
     },
     {
@@ -490,10 +490,10 @@
       "authorGithub": "calamares00",
       "description": "Recetas de las orillas del Mediterráneo: España, Italia, Grecia, Líbano, Marruecos y Túnez. Gazpacho, paella, tortilla, musaka, hummus, falafel, shakshuka, risotto, tajín y más, con aceite de oliva, verduras de temporada y legumbres.",
       "coverImageUrl": "packs/cocina-mediterranea/cover.jpg",
-      "latestVersion": 3,
-      "recipeCount": 20,
-      "downloadUrl": "dist/cocina-mediterranea-v3.zip",
-      "sha256": "e45fd4c9d1e9f60fb4243228ca73d307ae3048d6b46abd173dad4d9d23f3054c",
+      "latestVersion": 4,
+      "recipeCount": 25,
+      "downloadUrl": "dist/cocina-mediterranea-v4.zip",
+      "sha256": "b8a42346682a263e64c4021565a2b35f2910188a401652c303d17a04876ac452",
       "language": "es"
     },
     {
@@ -505,10 +505,10 @@
       "authorGithub": "calamares00",
       "description": "Clásicos de México para cocinar en casa: tacos al pastor, cochinita pibil, pozole, chilaquiles, enchiladas, salsas, guacamole, aguas frescas y flan. Con ingredientes fáciles de encontrar y alternativas cuando hace falta.",
       "coverImageUrl": "packs/cocina-mexicana/cover.jpg",
-      "latestVersion": 4,
-      "recipeCount": 20,
-      "downloadUrl": "dist/cocina-mexicana-v4.zip",
-      "sha256": "655ed1098092f616ed362d5fade36e881f0db2a7935cb0ab159f8318ff164873",
+      "latestVersion": 5,
+      "recipeCount": 26,
+      "downloadUrl": "dist/cocina-mexicana-v5.zip",
+      "sha256": "3efaacc6ef2dba348313020b0ff3fb1edecd4a7628659f6c0b9dd4f3fad6aa70",
       "language": "es"
     },
     {
@@ -520,10 +520,10 @@
       "authorGithub": "calamares00",
       "description": "La cocina peruana de la costa, la sierra y la herencia chifa: ceviche, tiradito, lomo saltado, ají de gallina, causa limeña, papa a la huancaína, ocopa, arroz chaufa, anticuchos, pollo a la brasa, rocoto relleno, seco de res, arroz con pollo, chupe de camarones, papa rellena, tallarines verdes, suspiro limeño, picarones, mazamorra morada y chicha morada. Con equivalencias para los ajíes peruanos.",
       "coverImageUrl": "packs/cocina-peruana/cover.jpg",
-      "latestVersion": 3,
-      "recipeCount": 20,
-      "downloadUrl": "dist/cocina-peruana-v3.zip",
-      "sha256": "250eaf553f0217e167209381306da3c3723258b3dcb83369db20296f71e5fbd3",
+      "latestVersion": 4,
+      "recipeCount": 24,
+      "downloadUrl": "dist/cocina-peruana-v4.zip",
+      "sha256": "46aa2b416b1afb69a14ede8a3f301d35f937f581b7fe57bdf1841fc8f6d2f68f",
       "language": "es"
     },
     {
@@ -535,10 +535,10 @@
       "authorGithub": "calamares00",
       "description": "El equilibrio tailandés entre picante, ácido, dulce y salado: pad thai, tom yum, tom kha gai, curris verde, massaman y panang, som tam, larb, arroz frito, pad kra pao, pad see ew, pollo con anacardos, ensalada de ternera, tortitas de pescado, tortilla tailandesa, khao man gai, gai yang, salsa jaew, mango con arroz glutinoso y té tailandés. Con equivalencias para los ingredientes menos habituales.",
       "coverImageUrl": "packs/cocina-tailandesa/cover.jpg",
-      "latestVersion": 3,
-      "recipeCount": 20,
-      "downloadUrl": "dist/cocina-tailandesa-v3.zip",
-      "sha256": "55ee04c63bdc0a119c1bd5bafd5f3ba64f10d120d3ee6714f4617ecfd4c9a7cd",
+      "latestVersion": 4,
+      "recipeCount": 24,
+      "downloadUrl": "dist/cocina-tailandesa-v4.zip",
+      "sha256": "d2192b3af7b938b153fcb3032e95913662912f1b2ea277cc7a6b6fd6d7376132",
       "language": "es"
     },
     {
@@ -550,10 +550,10 @@
       "authorGithub": "calamares00",
       "description": "La cocina de Turquía, de Estambul a Anatolia: desayunos de menemen y çılbır, lahmacun, pide, börek, simit, mantı, kebabs de İskender y Adana, tavuk şiş, berenjenas karnıyarık e imam bayıldı, pilaf de bulgur, kısır, mercimek köftesi, ezme, ensalada del pastor y dulces como el künefe y el revani, con un ayran para beber.",
       "coverImageUrl": "packs/cocina-turca/cover.jpg",
-      "latestVersion": 1,
-      "recipeCount": 20,
-      "downloadUrl": "dist/cocina-turca-v1.zip",
-      "sha256": "fbca7981e490d266964af9fa64e383a2efd071be69ca3235b3ed9177e29441ea",
+      "latestVersion": 2,
+      "recipeCount": 25,
+      "downloadUrl": "dist/cocina-turca-v2.zip",
+      "sha256": "db8bc42aa855049f8c7b3fdf899581b244bc67047ee36ee43e54b569cdc5279b",
       "language": "es"
     },
     {
@@ -565,10 +565,10 @@
       "authorGithub": "calamares00",
       "description": "La cocina fresca y aromática de Vietnam, de Hanói a Saigón: phở, bún chả, bánh mì, rollitos frescos y fritos, bún bò Huế, cơm tấm, pescado y cerdo caramelizados, sopa agria, bò lúc lắc, pollo con citronela, bánh xèo, ensalada de pollo, bún thịt nướng, nước chấm, tofu con tomate y, de postre, plátano con coco, café con leche condensada y batido de aguacate.",
       "coverImageUrl": "packs/cocina-vietnamita/cover.jpg",
-      "latestVersion": 3,
-      "recipeCount": 20,
-      "downloadUrl": "dist/cocina-vietnamita-v3.zip",
-      "sha256": "a96c3c6d25fab2cf45fb24f133b4f49dbda043620c322aa20db0323158f62936",
+      "latestVersion": 4,
+      "recipeCount": 23,
+      "downloadUrl": "dist/cocina-vietnamita-v4.zip",
+      "sha256": "36f83071aab3623c79522557d5bb579801f86757fda0d8bfaaea66a22fe5d88b",
       "language": "es"
     },
     {
@@ -595,10 +595,10 @@
       "authorGithub": "calamares00",
       "description": "Cooking from Colombia's regions: bandeja paisa, Antioquian beans, ajiaco, sancocho, arepas, empanadas, patacones, hogao, ají, arroz con pollo, changua, pandebono, buñuelos, natilla, posta negra, mote de queso, coconut rice, seafood casserole, sobrebarriga and coconut lemonade. With substitutes for the ingredients that are harder to find outside Colombia.",
       "coverImageUrl": "packs/colombian-cooking/cover.jpg",
-      "latestVersion": 3,
-      "recipeCount": 20,
-      "downloadUrl": "dist/colombian-cooking-v3.zip",
-      "sha256": "3b8e4bae151a590b3623bd3ed6cbe725fe382407a2f0fcce4d3eaf9f194c6123",
+      "latestVersion": 4,
+      "recipeCount": 22,
+      "downloadUrl": "dist/colombian-cooking-v4.zip",
+      "sha256": "c28653b33486f26797144af8e75f6d7ce93f0950bc894fa1112a3056d9b8fb78",
       "language": "en"
     },
     {
@@ -700,10 +700,10 @@
       "authorGithub": "calamares00",
       "description": "The classics of French bistro and home cooking: beef bourguignon, coq au vin, quiche Lorraine, croque monsieur, gratin dauphinois, bouillabaisse, cassoulet, blanquette de veau, moules marinières, duck breast with orange, hachis parmentier, cheese soufflé, Lyonnaise salad, pissaladière, tapenade and, for dessert, tarte Tatin, crème brûlée, profiteroles, cherry clafoutis and madeleines. With butter, wine and herbs.",
       "coverImageUrl": "packs/french-cooking/cover.jpg",
-      "latestVersion": 1,
-      "recipeCount": 20,
-      "downloadUrl": "dist/french-cooking-v1.zip",
-      "sha256": "e54c8c84da2c2e2359ea93a5af36da93b99a8ad8750532507330e035a914527b",
+      "latestVersion": 2,
+      "recipeCount": 25,
+      "downloadUrl": "dist/french-cooking-v2.zip",
+      "sha256": "ad58522aba7f4bc03b02ad11b4887cea8628ffd4296539bf9b8abb91ccb74794",
       "language": "en"
     },
     {
@@ -910,10 +910,10 @@
       "authorGithub": "calamares00",
       "description": "German classics from north to south: schnitzel, rouladen, sauerbraten, Swabian potato salad, Bratkartoffeln, Kartoffelpuffer, Käsespätzle, Königsberger Klopse, currywurst, Frikadellen, lentil and split pea stews, potato soup, Flammkuchen, pretzels, Maultaschen, Obatzda and sweets such as apple cake, Black Forest gateau and rote Grütze.",
       "coverImageUrl": "packs/german-cooking/cover.jpg",
-      "latestVersion": 3,
-      "recipeCount": 20,
-      "downloadUrl": "dist/german-cooking-v3.zip",
-      "sha256": "8e9908300fd3b36b983a3a20e493103b505cee39bb6ca83ef1c26bb6def2749a",
+      "latestVersion": 4,
+      "recipeCount": 24,
+      "downloadUrl": "dist/german-cooking-v4.zip",
+      "sha256": "751ce07bfc64123bc93cbc58e624803b058964407b2a9713493e5ca2d27d64d0",
       "language": "en"
     },
     {
@@ -925,10 +925,10 @@
       "authorGithub": "calamares00",
       "description": "Greek cooking beyond the salad and tzatziki: souvlaki, spanakopita, pastitsio, gemista, fasolada, avgolemono, dolmades, keftedes, briam, fava, kleftiko, stifado, saganaki cheese, prawns with feta, gigantes, taramasalata, melitzanosalata, spanakorizo, loukoumades and baklava. With olive oil, lemon, oregano and dill.",
       "coverImageUrl": "packs/greek-cooking/cover.jpg",
-      "latestVersion": 3,
-      "recipeCount": 20,
-      "downloadUrl": "dist/greek-cooking-v3.zip",
-      "sha256": "6c7d1a8bb5f1bd94388b8e95dcaf9f5988bfb1f406780503820b52c1fa9b12e8",
+      "latestVersion": 4,
+      "recipeCount": 23,
+      "downloadUrl": "dist/greek-cooking-v4.zip",
+      "sha256": "bd3b3bf98e103acffef4c1abc2a1975b0b40d7b42b63494a0af9951c6b1147b9",
       "language": "en"
     },
     {
@@ -1090,10 +1090,10 @@
       "authorGithub": "calamares00",
       "description": "Curries, pulses, breads and sweets from India: butter chicken, tandoori chicken, rogan josh, korma, vindaloo, palak paneer, chana masala, dal tadka, rajma, aloo gobi, baingan bharta, samosas, onion bhajis, raita, mint chutney, chapatis, aloo paratha, kheer, mango lassi and masala chai.",
       "coverImageUrl": "packs/indian-cooking/cover.jpg",
-      "latestVersion": 1,
-      "recipeCount": 20,
-      "downloadUrl": "dist/indian-cooking-v1.zip",
-      "sha256": "72ac2d6fac092ecf6f95e33f3b1122897f7480d994f29752a1384e2cbda62d69",
+      "latestVersion": 2,
+      "recipeCount": 26,
+      "downloadUrl": "dist/indian-cooking-v2.zip",
+      "sha256": "6d7293fb321e373a187172dafa961387edab5da43824cced960dfaae0d02e77f",
       "language": "en"
     },
     {
@@ -1120,10 +1120,10 @@
       "authorGithub": "calamares00",
       "description": "Everyday and festive dishes from Indonesia: nasi goreng, mie goreng, chicken satay with peanut sauce, gado-gado, rendang, soto ayam, opor ayam, bakso, sayur lodeh, sambal and sweets such as pisang goreng, martabak and klepon. With substitutes for the less common ingredients.",
       "coverImageUrl": "packs/indonesian-cooking/cover.jpg",
-      "latestVersion": 3,
-      "recipeCount": 20,
-      "downloadUrl": "dist/indonesian-cooking-v3.zip",
-      "sha256": "97a73a0ccca838ea647e8021dcb2e08f04cb56449756d20c8a8491fe6c1c41f1",
+      "latestVersion": 4,
+      "recipeCount": 22,
+      "downloadUrl": "dist/indonesian-cooking-v4.zip",
+      "sha256": "f45979f1e2abc20643493e4937904be73c5b2612fad146e3750f0ccfd4797e7a",
       "language": "en"
     },
     {
@@ -1195,10 +1195,10 @@
       "authorGithub": "calamares00",
       "description": "Japanese home cooking: miso soup, chicken teriyaki, gyoza, ramen, tonkatsu, oyakodon, onigiri, tamagoyaki, okonomiyaki, yakitori, tempura, maki rolls, karaage, nikujaga, yakisoba, gyudon, Japanese curry and dorayaki. With dashi and the basic sauces explained step by step.",
       "coverImageUrl": "packs/japanese-cooking/cover.jpg",
-      "latestVersion": 3,
-      "recipeCount": 20,
-      "downloadUrl": "dist/japanese-cooking-v3.zip",
-      "sha256": "5952050f18bd5a3687226e92308ae5d96a5e9eb4b9a98b114c022c5f24040f61",
+      "latestVersion": 4,
+      "recipeCount": 25,
+      "downloadUrl": "dist/japanese-cooking-v4.zip",
+      "sha256": "f83a717366421bd556d1a971831a124bb2dd906e503efb6aabdbfbe32835995d",
       "language": "en"
     },
     {
@@ -1240,10 +1240,10 @@
       "authorGithub": "calamares00",
       "description": "The cooking of Korea, spicy, fermented and made for sharing: bibimbap, bulgogi, homemade kimchi, japchae, kimbap, tteokbokki, kimchi and soft tofu stews, samgyetang, seafood pajeon, kimchi fried rice, dakgalbi, Korean fried chicken, galbi jjim, bossam, side dishes (banchan) such as rolled omelette, seasoned bean sprouts and cucumber salad and, for dessert, hotteok and patbingsu. Gochujang and gochugaru are sold in Asian shops.",
       "coverImageUrl": "packs/korean-cooking/cover.jpg",
-      "latestVersion": 1,
-      "recipeCount": 20,
-      "downloadUrl": "dist/korean-cooking-v1.zip",
-      "sha256": "d1207c1c93f32334c586872d76693655ff4c28dd70d03f6c475668ce08ad33cb",
+      "latestVersion": 2,
+      "recipeCount": 25,
+      "downloadUrl": "dist/korean-cooking-v2.zip",
+      "sha256": "ba1c21e310d1cb0f4207a9cac070ea73f514b68c04bf49ea8071fb8007a6b97e",
       "language": "en"
     },
     {
@@ -1285,10 +1285,10 @@
       "authorGithub": "calamares00",
       "description": "Recipes from around the Mediterranean: Spain, Italy, Greece, Lebanon, Morocco and Tunisia. Gazpacho, paella, Spanish omelette, moussaka, hummus, falafel, shakshuka, risotto, tagine and more, with olive oil, seasonal vegetables and pulses.",
       "coverImageUrl": "packs/mediterranean-cooking/cover.jpg",
-      "latestVersion": 3,
-      "recipeCount": 20,
-      "downloadUrl": "dist/mediterranean-cooking-v3.zip",
-      "sha256": "f9b4b7734154184f6db08d0c0b043a86063df9eaec28fbb2abfc467bef3f2c9e",
+      "latestVersion": 4,
+      "recipeCount": 25,
+      "downloadUrl": "dist/mediterranean-cooking-v4.zip",
+      "sha256": "cd6e610a87876f3e7746147f95b5b4ac9dd7974d5d7864117db0f734205a876f",
       "language": "en"
     },
     {
@@ -1300,10 +1300,10 @@
       "authorGithub": "calamares00",
       "description": "Mexican classics to cook at home: tacos al pastor, cochinita pibil, pozole, chilaquiles, enchiladas, salsas, guacamole, aguas frescas and flan. With easy-to-find ingredients and alternatives where needed.",
       "coverImageUrl": "packs/mexican-cooking/cover.jpg",
-      "latestVersion": 4,
-      "recipeCount": 20,
-      "downloadUrl": "dist/mexican-cooking-v4.zip",
-      "sha256": "aa973e15b59a5eaf3187c292335f24d8f0fb656823141197ca3f2fa536b61731",
+      "latestVersion": 5,
+      "recipeCount": 26,
+      "downloadUrl": "dist/mexican-cooking-v5.zip",
+      "sha256": "83b7922ca70b0fbbec100b686c27ede4743990cf7576c1491c4c41ff7c700f9c",
       "language": "en"
     },
     {
@@ -1345,10 +1345,10 @@
       "authorGithub": "calamares00",
       "description": "The cooking of Morocco, with gentle spices and slow simmering: seven-vegetable couscous, harira, chicken pastilla, tagines of lamb with prunes, kefta with eggs and fish, zaalouk, salads, bissara, briouats, rfissa, mechoui and kefta skewers, breads such as msemen, khobz and baghrir, honey and almond sweets and mint tea.",
       "coverImageUrl": "packs/moroccan-cooking/cover.jpg",
-      "latestVersion": 1,
-      "recipeCount": 20,
-      "downloadUrl": "dist/moroccan-cooking-v1.zip",
-      "sha256": "0af36cbbd4bfc9955bd016da8e486ac14fe29b75c4921dc0976210390edffc5f",
+      "latestVersion": 2,
+      "recipeCount": 24,
+      "downloadUrl": "dist/moroccan-cooking-v2.zip",
+      "sha256": "12d406037e54336f729ad785d10e87c672f383d7fa6672bf532aef2e9723081c",
       "language": "en"
     },
     {
@@ -1435,10 +1435,10 @@
       "authorGithub": "calamares00",
       "description": "Peruvian cooking from the coast, the Andes and the chifa tradition: ceviche, tiradito, lomo saltado, ají de gallina, causa limeña, papa a la huancaína, ocopa, arroz chaufa, anticuchos, pollo a la brasa, rocoto relleno, seco de res, arroz con pollo, chupe de camarones, papa rellena, tallarines verdes, suspiro limeño, picarones, mazamorra morada and chicha morada. With substitutes for Peruvian chillies.",
       "coverImageUrl": "packs/peruvian-cooking/cover.jpg",
-      "latestVersion": 3,
-      "recipeCount": 20,
-      "downloadUrl": "dist/peruvian-cooking-v3.zip",
-      "sha256": "a508ab3e13bc95ef206d4619cbb46a01067681088b99a3f5ccb2afd61bc6c71b",
+      "latestVersion": 4,
+      "recipeCount": 24,
+      "downloadUrl": "dist/peruvian-cooking-v4.zip",
+      "sha256": "e19d5279556a78a9728c5da8992b1b81a0c3663ea1197614934a951c122c0274",
       "language": "en"
     },
     {
@@ -1735,10 +1735,10 @@
       "authorGithub": "calamares00",
       "description": "Thailand's balance of hot, sour, sweet and salty: pad thai, tom yum, tom kha gai, green, massaman and panang curries, som tam, larb, fried rice, pad kra pao, pad see ew, cashew chicken, beef salad, fish cakes, Thai omelette, khao man gai, gai yang, jaew dipping sauce, mango sticky rice and Thai iced tea. With substitutes for the less common ingredients.",
       "coverImageUrl": "packs/thai-cooking/cover.jpg",
-      "latestVersion": 3,
-      "recipeCount": 20,
-      "downloadUrl": "dist/thai-cooking-v3.zip",
-      "sha256": "6e2960ba32465f12b1b435ecee538e7635c0f839a188453e9125628b989a7b76",
+      "latestVersion": 4,
+      "recipeCount": 24,
+      "downloadUrl": "dist/thai-cooking-v4.zip",
+      "sha256": "e3c0c656db1a46cc19ca9e3a8b18885738e992223ab71ca4e9a311f9930568d9",
       "language": "en"
     },
     {
@@ -1930,10 +1930,10 @@
       "authorGithub": "calamares00",
       "description": "The cooking of Turkey, from Istanbul to Anatolia: breakfasts of menemen and çılbır, lahmacun, pide, börek, simit, mantı, İskender and Adana kebabs, chicken şiş, karnıyarık and imam bayıldı aubergines, bulgur pilaf, kısır, mercimek köftesi, ezme, shepherd's salad and sweets such as künefe and revani, with ayran to drink.",
       "coverImageUrl": "packs/turkish-cooking/cover.jpg",
-      "latestVersion": 1,
-      "recipeCount": 20,
-      "downloadUrl": "dist/turkish-cooking-v1.zip",
-      "sha256": "d22109436e477f417f9edbde6134e754114b23253efa108471d0ba1fa5a73671",
+      "latestVersion": 2,
+      "recipeCount": 25,
+      "downloadUrl": "dist/turkish-cooking-v2.zip",
+      "sha256": "1e6bc446e9635c48f3053a480bded4a83bc14da66dd4f35fe069d63f374054a8",
       "language": "en"
     },
     {
@@ -1945,10 +1945,10 @@
       "authorGithub": "calamares00",
       "description": "Vietnam's fresh, fragrant cooking, from Hanoi to Saigon: phở, bún chả, bánh mì, fresh and fried spring rolls, bún bò Huế, cơm tấm, caramelised fish and pork, sour soup, shaking beef, lemongrass chilli chicken, bánh xèo, chicken salad, bún thịt nướng, nước chấm, tofu in tomato sauce and, for dessert, banana in coconut milk, iced coffee with condensed milk and avocado smoothie.",
       "coverImageUrl": "packs/vietnamese-cooking/cover.jpg",
-      "latestVersion": 3,
-      "recipeCount": 20,
-      "downloadUrl": "dist/vietnamese-cooking-v3.zip",
-      "sha256": "dafcc915e6b5237ea3c57b2a587a02b9f143638a4d1cdcb2031dbbe00a6d85f9",
+      "latestVersion": 4,
+      "recipeCount": 23,
+      "downloadUrl": "dist/vietnamese-cooking-v4.zip",
+      "sha256": "27356961f207deb9bde55a16951a48047ec72a2287d64d8c1aa22326260f5330",
       "language": "en"
     }
   ]

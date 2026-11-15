@@ -1,6 +1,6 @@
 id: french-cooking
-version: 1
-updated: 2026-11-14
+version: 2
+updated: 2026-11-15
 language: en
 name: "World cuisine: France"
 series: World cuisine
@@ -624,3 +624,146 @@ recipes:
       - Fold in the flour with the baking powder, then the warm butter.
       - Cover the batter and chill for at least 1 hour.
       - Heat the oven to 220 °C. Fill the buttered moulds three-quarters full and bake for 5 minutes; lower to 180 °C and bake 4-5 minutes more.
+
+  - name: Pot-au-feu
+    health: [GREEN, "Beef and vegetable stew: lots of protein and vegetables, little fat once skimmed."]
+    nutrition: [480, 42, 26, 22]
+    photo: cocina-francesa/pot-au-feu.jpg
+    category: Meat
+    difficulty: EASY
+    prep: 20
+    cook: 210
+    servings: 6
+    notes: The French boiled dinner. The broth comes first, then the meat and vegetables with mustard, gherkins and coarse salt.
+    tags: [boiled dinner, beef, winter]
+    ingredients:
+      - items:
+          - [beef shin, 800, g]
+          - [beef short ribs, 600, g]
+          - [marrow bones, 2, null]
+          - [carrots, 4, null]
+          - [leeks, 2, null]
+          - [turnips, 2, null]
+          - [onion studded with 2 cloves, 1, null]
+          - [bouquet garni, 1, null]
+          - [potatoes, 6, null]
+          - [coarse salt, null, null]
+          - [Dijon mustard and gherkins to serve, null, null]
+    steps:
+      - Put the meat in cold water to cover, bring to the boil and skim off the foam during the first 15 minutes.
+      - Add the onion, bouquet garni and salt and simmer very gently for 2½ hours.
+      - Add the carrots, tied leeks and turnips, and 30 minutes later the marrow bones. Cook the potatoes separately in some of the broth.
+      - Serve the skimmed broth first, then the sliced meat with the vegetables, mustard, gherkins and coarse salt.
+
+  - name: Béarnaise sauce
+    health: [RED, "Butter and egg yolk emulsion: very rich, to use sparingly."]
+    nutrition: [290, 2, 1, 31]
+    photo: cocina-francesa/salsa-bearnesa.jpg
+    category: Sauces
+    difficulty: HARD
+    prep: 15
+    cook: 15
+    servings: 6
+    notes: "The sauce for steak frites. Keep the heat very gentle: if the yolks get too hot, they split."
+    tags: [sauce, gluten-free, vegetarian]
+    ingredients:
+      - items:
+          - [shallot, 1, null]
+          - [white wine vinegar, 60, ml]
+          - [white wine, 60, ml]
+          - [fresh tarragon, 3, tbsp]
+          - [crushed peppercorns, 0.5, tsp]
+          - [egg yolks, 3, null]
+          - [warm clarified butter, 200, g]
+          - [salt, null, null]
+    steps:
+      - Reduce the chopped shallot with the vinegar, wine, pepper and half the tarragon to a tablespoon of liquid. Strain and leave to cool slightly.
+      - Whisk the yolks with the reduction and a tablespoon of water over a gentle bain-marie until thick and foamy.
+      - Off the heat, pour in the butter in a thin stream, whisking constantly, until thick.
+      - Season and add the rest of the tarragon, chopped. Keep it warm, never hot.
+
+  - name: Sole meunière
+    health: [YELLOW, "White fish in butter: lean protein, with the fat of the butter."]
+    nutrition: [330, 30, 6, 21]
+    photo: cocina-francesa/lenguado-a-la-meuniere.jpg
+    category: Fish and seafood
+    difficulty: MEDIUM
+    prep: 10
+    cook: 10
+    servings: 2
+    notes: '"Miller''s wife style": floured and browned in butter. The dish that, Julia Child said, made her fall in love with French cooking.'
+    tags: [fish, quick]
+    ingredients:
+      - items:
+          - [skinned whole soles, 2, null]
+          - [flour, 3, tbsp]
+          - [butter, 60, g]
+          - [sunflower oil, 1, tbsp]
+          - [lemon juice, 1, null]
+          - [chopped parsley, 2, tbsp]
+          - [salt and pepper, null, null]
+    steps:
+      - Pat the soles dry, season and dust with flour, shaking off the excess.
+      - Brown them in a pan with the oil and half the butter for 3-4 minutes per side. Move to plates.
+      - Add the rest of the butter to the pan and let it turn nut-brown.
+      - Take off the heat, add the lemon and parsley and pour over the fish.
+
+  - name: Normandy chicken
+    health: [YELLOW, "Chicken with apple, cider and cream: protein, with fat from the cream."]
+    nutrition: [560, 42, 18, 33]
+    photo: cocina-francesa/pollo-a-la-normanda.jpg
+    category: Meat
+    difficulty: MEDIUM
+    prep: 20
+    cook: 50
+    servings: 4
+    notes: "Made with Normandy's produce: apples, cider, calvados and cream. Leave out the calvados if you don't have it."
+    tags: [chicken, stew]
+    origin: Normandy
+    ingredients:
+      - items:
+          - [chicken thighs and drumsticks, 1.2, kg]
+          - [apples, 3, null]
+          - [shallots, 3, null]
+          - [mushrooms, 200, g]
+          - [butter, 40, g]
+          - [calvados, 40, ml, optional]
+          - [dry cider, 300, ml]
+          - [single cream, 200, ml]
+          - [thyme, 2, sprig]
+          - [salt and pepper, null, null]
+    steps:
+      - Brown the seasoned chicken in half the butter and pour over the calvados if using, flambéing carefully.
+      - Add the chopped shallots, mushrooms, thyme and cider and simmer, covered, for 30 minutes.
+      - Brown the apple wedges in the rest of the butter.
+      - Lift out the chicken, reduce the liquid by half, add the cream and simmer for 5 minutes. Serve the chicken with the sauce and apples.
+
+  - name: Gougères
+    health: [YELLOW, "Cheese choux puffs: small, but with butter and cheese."]
+    nutrition: [120, 5, 6, 9]
+    photo: cocina-francesa/gougeres.jpg
+    category: Starters
+    difficulty: MEDIUM
+    prep: 20
+    cook: 25
+    servings: 24
+    notes: The Burgundian cheese puffs served with wine. Servings are pieces. They freeze raw and bake from frozen.
+    tags: [appetizer, cheese, oven, vegetarian]
+    origin: Burgundy
+    utensils: [Oven]
+    ingredients:
+      - items:
+          - [water, 125, ml]
+          - [milk, 125, ml]
+          - [butter, 100, g]
+          - [salt, 1, tsp]
+          - [plain flour, 150, g]
+          - [eggs, 4, null]
+          - [grated Gruyère or Comté, 120, g]
+          - [nutmeg, 1, pinch]
+          - [black pepper, null, null]
+    steps:
+      - Heat the oven to 200 °C. Bring the water, milk, butter and salt to the boil, add the flour all at once and stir until the dough comes away from the pan.
+      - Off the heat, beat in the eggs one at a time, then 100 g of the cheese, the nutmeg and pepper.
+      - Pipe or spoon small balls onto baking paper and sprinkle with the rest of the cheese.
+      - Bake for 20-25 minutes, until puffed and golden, without opening the oven.

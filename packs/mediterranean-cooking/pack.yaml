@@ -1,6 +1,6 @@
 id: mediterranean-cooking
-version: 3
-updated: 2026-11-06
+version: 4
+updated: 2026-11-15
 language: en
 name: Mediterranean cooking
 series: World cuisine
@@ -641,3 +641,147 @@ recipes:
       - Strain the milk onto the yolks, mix and return to a low heat, stirring constantly until thick, without boiling.
       - Pour into ramekins, cool and chill for at least 3 hours.
       - Before serving, sprinkle with sugar and caramelise with a blowtorch.
+
+  - name: Fattoush
+    health: [GREEN, "Vegetable salad with toasted bread and sumac: fresh and high in fibre."]
+    nutrition: [240, 5, 26, 13]
+    photo: cocina-mediterranea/fattoush.jpg
+    category: Salads
+    difficulty: EASY
+    prep: 20
+    cook: 10
+    servings: 4
+    notes: The Lebanese salad that uses up yesterday's pitta. Sumac gives its sharp note.
+    tags: [salad, vegan, leftovers]
+    origin: Lebanon
+    originCountry: LB
+    ingredients:
+      - items:
+          - [pitta breads, 2, null]
+          - [romaine lettuce, 1, null]
+          - [tomatoes, 3, null]
+          - [cucumber, 1, null]
+          - [radishes, 6, null]
+          - [spring onions, 3, null]
+          - [chopped parsley and mint, 4, tbsp]
+          - [sumac, 2, tsp]
+          - [lemon juice, 2, tbsp]
+          - [pomegranate molasses, 1, tbsp, optional]
+          - [extra virgin olive oil, 5, tbsp]
+          - [salt, null, null]
+    steps:
+      - Tear the pittas into pieces, drizzle with a tablespoon of oil and toast in the oven or a pan until crisp.
+      - Tear the lettuce and dice the tomato, cucumber, radishes and spring onion.
+      - Whisk the rest of the oil with the lemon, molasses, a little sumac and salt.
+      - Combine the vegetables, herbs and bread, dress and sprinkle with the remaining sumac.
+
+  - name: Baba ganoush
+    health: [GREEN, "Roasted aubergine dip with tahini: plant-based, with good fats."]
+    nutrition: [150, 3, 10, 11]
+    photo: cocina-mediterranea/baba-ganoush.jpg
+    category: Starters
+    difficulty: EASY
+    prep: 15
+    cook: 40
+    servings: 6
+    notes: The Levantine smoky aubergine dip. Charring the aubergine directly over a flame gives the smoky flavour.
+    tags: [appetizer, aubergine, vegan, gluten-free]
+    origin: Levant
+    originCountry: LB
+    ingredients:
+      - items:
+          - [aubergines, 2, null]
+          - [tahini, 3, tbsp]
+          - [garlic clove, 1, null]
+          - [lemon juice, 2, tbsp]
+          - [extra virgin olive oil, 2, tbsp]
+          - [paprika or cumin, 1, pinch]
+          - [chopped parsley, 1, tbsp]
+          - [salt, null, null]
+    steps:
+      - Char the whole aubergines over a flame or roast them at 220 °C, turning, until the skin is blackened and they're soft.
+      - Drain them in a colander for 10 minutes, peel and mash the flesh with a fork.
+      - Mix with the tahini, crushed garlic, lemon and salt.
+      - Serve with a drizzle of oil, the paprika and parsley.
+
+  - name: Mallorcan tumbet
+    health: [YELLOW, "Layers of fried vegetables with tomato: plant-based, but it soaks up oil."]
+    nutrition: [320, 5, 30, 20]
+    photo: cocina-mediterranea/tumbet-mallorquin.jpg
+    category: Vegetables
+    difficulty: MEDIUM
+    prep: 30
+    cook: 50
+    servings: 6
+    notes: "Majorca's summer dish: layers of fried potato, aubergine and pepper under a tomato sauce. Best warm or the next day."
+    tags: [vegetables, oven, vegan, gluten-free]
+    origin: Majorca
+    originCountry: ES
+    utensils: [Oven]
+    ingredients:
+      - items:
+          - [potatoes, 3, null]
+          - [aubergines, 2, null]
+          - [red peppers, 2, null]
+          - [ripe tomatoes, 1, kg]
+          - [garlic cloves, 3, null]
+          - [olive oil, 200, ml]
+          - [sugar, 1, tsp]
+          - [salt, null, null]
+    steps:
+      - Make a sauce with the grated tomato, garlic and a little oil over low heat for 25 minutes, with the sugar and salt.
+      - Separately fry the sliced potatoes and aubergines and the pepper strips, season and drain.
+      - In an earthenware dish layer the potato, then aubergine, then pepper, with a little sauce between layers.
+      - Cover with the rest of the sauce and bake at 180 °C for 15 minutes.
+
+  - name: Mujaddara
+    health: [GREEN, "Lentils with rice and fried onion: complete plant protein and fibre."]
+    nutrition: [430, 15, 64, 13]
+    photo: cocina-mediterranea/mujaddara.jpg
+    category: Legumes
+    difficulty: EASY
+    prep: 15
+    cook: 50
+    servings: 4
+    notes: One of the oldest dishes of the Middle East. Deeply browned onion is what gives it flavour. Served with yoghurt or salad.
+    tags: [legumes, vegan, gluten-free]
+    origin: Levant
+    originCountry: LB
+    ingredients:
+      - items:
+          - [brown lentils, 200, g]
+          - [long-grain rice, 150, g]
+          - [onions, 3, null]
+          - [olive oil, 6, tbsp]
+          - [ground cumin, 1, tsp]
+          - [ground cinnamon, 1, pinch]
+          - [salt, null, null]
+    steps:
+      - Boil the lentils in unsalted water for 15 minutes and drain, keeping the water.
+      - Fry the sliced onions in the oil over medium heat for 25 minutes, until deep golden. Set half aside.
+      - Add the rice, cumin and cinnamon to the pan, stir, add the lentils and 450 ml of the cooking water and season.
+      - Cover and cook gently for 18 minutes. Rest for 5 minutes and serve topped with the reserved onion.
+
+  - name: Labneh with za'atar
+    health: [GREEN, "Strained yoghurt with oil and herbs: protein and good fats."]
+    nutrition: [190, 8, 6, 15]
+    category: Starters
+    difficulty: EASY
+    prep: 10
+    cook: 0
+    servings: 6
+    notes: The Middle Eastern yoghurt cheese. It drains for a whole day in the fridge and is served with pitta bread.
+    tags: [appetizer, vegetarian, gluten-free]
+    origin: Levant
+    originCountry: LB
+    ingredients:
+      - items:
+          - [whole plain or Greek yoghurt, 1, kg]
+          - [salt, 1, tsp]
+          - [extra virgin olive oil, 4, tbsp]
+          - [za'atar, 2, tbsp]
+    steps:
+      - Mix the yoghurt with the salt.
+      - Put it in a sieve lined with muslin or a thin cloth over a bowl and leave to drain in the fridge for 24 hours.
+      - Spread the labneh on a plate, making swirls with a spoon.
+      - Drizzle with the oil and sprinkle with the za'atar.

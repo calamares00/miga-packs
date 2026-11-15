@@ -1,6 +1,6 @@
 id: japanese-cooking
-version: 3
-updated: 2026-11-06
+version: 4
+updated: 2026-11-15
 language: en
 name: "World cuisine: Japan"
 series: World cuisine
@@ -628,3 +628,146 @@ recipes:
       - Add the flour sifted with the baking powder and mix. Let the batter rest for 15 minutes and stir in the water.
       - Grease a frying pan with kitchen paper and oil and heat it over a medium-low heat. Pour in a small ladle of batter and cook until bubbles appear; flip and cook for 30 seconds more.
       - Sandwich the pancakes in pairs with a layer of anko and wrap them in cling film so they stay soft.
+
+  - name: Katsudon
+    health: [YELLOW, "Breaded pork with egg over rice: complete, but rich from the frying."]
+    nutrition: [720, 36, 88, 24]
+    photo: cocina-japonesa/katsudon.jpg
+    category: Rice
+    difficulty: MEDIUM
+    prep: 15
+    cook: 20
+    servings: 2
+    notes: Tonkatsu simmered with onion and egg in sweet stock over rice. Students eat it before exams, because "katsu" sounds like "to win".
+    tags: [rice, pork, eggs]
+    ingredients:
+      - items:
+          - [tonkatsu (breaded fried pork cutlets), 2, null]
+          - [cooked Japanese rice, 400, g]
+          - [onion, 1, null]
+          - [eggs, 3, null]
+          - [dashi stock, 160, ml]
+          - [soy sauce, 2, tbsp]
+          - [mirin, 2, tbsp]
+          - [sugar, 1, tsp]
+          - [spring onion, 1, null]
+    steps:
+      - Slice the tonkatsu into strips and the onion thinly.
+      - Simmer the onion in the dashi with the soy sauce, mirin and sugar in a small pan for 3 minutes.
+      - Lay half the tonkatsu on top, pour half the lightly beaten egg around it, cover and cook for 1 minute, until the egg is almost set.
+      - Slide onto a bowl of hot rice with the spring onion. Repeat for the second portion.
+
+  - name: Chawanmushi
+    health: [GREEN, "Savoury steamed egg and dashi custard: light protein and little fat."]
+    nutrition: [130, 13, 4, 6]
+    photo: cocina-japonesa/chawanmushi.jpg
+    category: Eggs
+    difficulty: MEDIUM
+    prep: 15
+    cook: 15
+    servings: 4
+    notes: "The wobbly savoury egg custard served as a starter. The secret is gentle heat: if it boils, it fills with holes."
+    tags: [eggs, steamed, starter]
+    utensils: [Steamer]
+    ingredients:
+      - items:
+          - [eggs, 3, null]
+          - [cold dashi stock, 400, ml]
+          - [light soy sauce, 1, tsp]
+          - [mirin, 1, tsp]
+          - [salt, 1, pinch]
+          - [peeled prawns, 4, null]
+          - [shiitake mushrooms, 2, null]
+          - [diced chicken breast, 50, g]
+          - [mitsuba leaves or chives, null, null]
+    steps:
+      - Beat the eggs without making foam, mix with the dashi, soy, mirin and salt and strain.
+      - Divide the prawns, sliced mushrooms and chicken between 4 heatproof cups.
+      - Pour in the egg mixture, remove any bubbles and cover each cup with foil.
+      - Steam over gentle heat for 12-15 minutes, until set but still wobbly. Garnish with the herbs.
+
+  - name: Kitsune udon
+    health: [GREEN, "Udon noodle soup with fried tofu: light and comforting."]
+    nutrition: [420, 16, 70, 9]
+    photo: cocina-japonesa/kitsune-udon.jpg
+    category: Soups
+    difficulty: EASY
+    prep: 10
+    cook: 15
+    servings: 2
+    notes: '"Fox udon", for the sweet fried tofu (aburaage) that, by tradition, is the fox''s favourite food.'
+    tags: [soup, noodles]
+    ingredients:
+      - items:
+          - [udon noodles, 400, g]
+          - [aburaage (fried tofu pouches), 2, null]
+          - [dashi stock, 800, ml]
+          - [soy sauce, 3, tbsp]
+          - [mirin, 2, tbsp]
+          - [sugar, 2, tbsp]
+          - [spring onions, 2, null]
+          - [shichimi togarashi, 1, pinch, optional]
+    steps:
+      - Blanch the aburaage in boiling water for 1 minute to remove the oil and cut into triangles.
+      - Simmer it for 10 minutes in 100 ml of the dashi with a tablespoon of soy, the sugar and a tablespoon of mirin, until almost all is absorbed.
+      - Heat the rest of the dashi with the remaining soy and mirin. Cook the udon as the packet says and drain.
+      - Serve the udon in the broth with the tofu, spring onion and shichimi.
+
+  - name: Ginger pork (shogayaki)
+    health: [YELLOW, "Pork stir-fried in ginger sauce: protein, with a little sugar in the sauce."]
+    nutrition: [420, 30, 12, 27]
+    photo: cocina-japonesa/cerdo-al-jengibre.jpg
+    category: Meat
+    difficulty: EASY
+    prep: 15
+    cook: 10
+    servings: 4
+    notes: A classic of Japanese home cooking and lunch boxes, with finely shredded cabbage and rice.
+    tags: [pork, quick]
+    ingredients:
+      - items:
+          - [thinly sliced pork loin or shoulder, 500, g]
+          - [grated fresh ginger, 2, tbsp]
+          - [soy sauce, 3, tbsp]
+          - [mirin, 2, tbsp]
+          - [sake, 2, tbsp]
+          - [sugar, 1, tsp]
+          - [onion, 1, null]
+          - [sunflower oil, 1, tbsp]
+          - [finely shredded cabbage, 200, g]
+    steps:
+      - Mix the ginger, soy, mirin, sake and sugar and marinate the pork for 15 minutes.
+      - Stir-fry the sliced onion in the oil for 2 minutes.
+      - Add the drained pork and stir-fry over high heat for 2-3 minutes.
+      - Add the marinade and let it reduce and glaze the meat. Serve with the raw cabbage and rice.
+
+  - name: Sukiyaki
+    health: [YELLOW, "Beef and vegetables simmered in a sweet sauce: complete, with sugar in the sauce."]
+    nutrition: [560, 36, 36, 28]
+    photo: cocina-japonesa/sukiyaki.jpg
+    category: Meat
+    difficulty: MEDIUM
+    prep: 20
+    cook: 20
+    servings: 4
+    notes: Cooked at the table in an iron pot, with each person dipping the meat in beaten raw egg. Skip the egg if you prefer.
+    tags: [beef, sharing]
+    ingredients:
+      - items:
+          - [very thinly sliced beef, 500, g]
+          - [firm tofu, 300, g]
+          - [shiitake mushrooms, 8, null]
+          - [Japanese spring onions or leeks, 2, null]
+          - [napa cabbage, 300, g]
+          - [konjac noodles (shirataki), 200, g]
+          - [soy sauce, 100, ml]
+          - [mirin, 100, ml]
+          - [sake, 50, ml]
+          - [sugar, 3, tbsp]
+          - [water, 100, ml]
+          - [very fresh eggs, 4, null, optional]
+    steps:
+      - Mix the soy, mirin, sake, sugar and water and heat until the sugar dissolves.
+      - Cube the tofu, slice the leek diagonally, cut the cabbage into pieces and drain the shirataki.
+      - Brown a few slices of beef in a wide pot with a little fat, add some of the sauce and arrange the vegetables, tofu and noodles in piles.
+      - Simmer for 5-8 minutes and eat as you go, adding more beef and sauce. If using, everyone dips into their own beaten egg.

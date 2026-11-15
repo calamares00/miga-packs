@@ -1,6 +1,6 @@
 id: cocina-marroqui
-version: 1
-updated: 2026-11-14
+version: 2
+updated: 2026-11-15
 language: es
 name: "Cocina del mundo: Marruecos"
 series: Cocina del mundo
@@ -644,3 +644,114 @@ recipes:
       - Añade el resto del agua hirviendo y deja reposar 2 minutos.
       - Añade la hierbabuena y el azúcar y deja reposar 3 minutos más.
       - Sirve un vaso y devuélvelo a la tetera dos o tres veces para mezclar. Sirve desde lo alto en vasos pequeños.
+
+  - name: Tanjia marrakchia
+    health: [YELLOW, "Ternera cocinada muy despacio con limón y especias: mucha proteína, con grasa."]
+    nutrition: [520, 44, 4, 36]
+    category: Carnes
+    difficulty: EASY
+    prep: 15
+    cook: 300
+    servings: 4
+    notes: "El plato de los solteros de Marrakech: se metía la jarra de barro en las brasas del hammam toda la noche. En casa, en el horno a 140 °C."
+    tags: [ternera, horno, sin gluten]
+    origin: Marrakech
+    utensils: [Horno]
+    ingredients:
+      - items:
+          - [jarrete o morcillo de ternera en trozos, 1.2, kg]
+          - [limón en conserva, 1, null]
+          - [dientes de ajo, 6, null]
+          - [comino molido, 1, cucharadita]
+          - [hebras de azafrán, 1, pizca]
+          - [ras el hanout, 1, cucharadita]
+          - [mantequilla clarificada (smen) o mantequilla, 40, g]
+          - [aceite de oliva, 3, cucharada]
+          - [agua, 150, ml]
+          - [sal, null, null]
+    steps:
+      - Mezcla la carne con el ajo machacado, las especias, el aceite, la mantequilla, sal y el limón en conserva troceado.
+      - Ponlo en una olla de barro u otra que vaya al horno, añade el agua y tapa bien con papel de aluminio y la tapa.
+      - Hornea a 140 °C 5 horas, sin abrir.
+      - La carne debe deshacerse con un tenedor. Sirve con pan para mojar la salsa.
+
+  - name: Sardinas rellenas de chermoula
+    health: [GREEN, "Sardinas con hierbas y especias: omega-3 y proteína."]
+    nutrition: [380, 30, 8, 25]
+    photo: cocina-marroqui/sardinas-rellenas-de-chermoula.jpg
+    category: Pescados y mariscos
+    difficulty: MEDIUM
+    prep: 30
+    cook: 10
+    servings: 4
+    notes: "Un plato callejero de Essaouira y la costa atlántica: dos sardinas abiertas con chermoula entre medias, enharinadas y fritas."
+    tags: [pescado, fritos]
+    origin: Costa atlántica
+    ingredients:
+      - items:
+          - [sardinas abiertas sin espina, 16, null]
+          - [manojo de cilantro y perejil, 1, null]
+          - [dientes de ajo, 3, null]
+          - [comino molido, 1, cucharadita]
+          - [pimentón dulce, 1, cucharadita]
+          - [zumo de limón, 1, null]
+          - [aceite de oliva, 2, cucharada]
+          - [harina, 4, cucharada]
+          - [aceite para freír, null, null]
+          - [sal, null, null]
+    steps:
+      - Pica muy finas las hierbas y el ajo y mézclalos con las especias, el limón, el aceite y sal.
+      - Unta la carne de una sardina con la chermoula y cubre con otra, piel hacia fuera, como un sándwich.
+      - Pásalas por harina.
+      - Fríelas en aceite caliente 2 minutos por lado y escúrrelas. Sirve con limón.
+
+  - name: Seffa de fideos
+    health: [YELLOW, "Fideos al vapor con mantequilla, azúcar y almendras: dulce y calórico."]
+    nutrition: [480, 11, 70, 18]
+    photo: cocina-marroqui/seffa-de-fideos.jpg
+    category: Pastas
+    difficulty: MEDIUM
+    prep: 15
+    cook: 40
+    servings: 6
+    notes: Plato dulce de fiesta que se sirve en montaña con canela y almendras. A veces esconde un pollo en su interior.
+    tags: [fiesta, pasta, dulce]
+    utensils: [Vaporera]
+    ingredients:
+      - items:
+          - [fideos finos de cabello de ángel, 500, g]
+          - [mantequilla, 60, g]
+          - [aceite, 2, cucharada]
+          - [almendras fritas picadas, 100, g]
+          - [azúcar glas, 60, g]
+          - [canela molida, 2, cucharadita]
+          - [agua de azahar, 1, cucharada]
+          - [sal, 1, pizca]
+    steps:
+      - Mezcla los fideos crudos con el aceite y cuécelos al vapor 10 minutos.
+      - Pásalos a un bol, rocíalos con un vaso de agua con la sal y el azahar, sepáralos con los dedos y vuelve a cocerlos al vapor 15 minutos.
+      - Repite una vez más y mezcla los fideos calientes con la mantequilla.
+      - Sirve en montaña y decora con líneas de azúcar glas, canela y almendras.
+
+  - name: Ensalada de naranja con canela
+    health: [GREEN, "Naranja con canela y un toque de azúcar: fruta fresca y vitamina C."]
+    nutrition: [110, 2, 24, 1]
+    category: Postres
+    difficulty: EASY
+    prep: 10
+    cook: 0
+    servings: 4
+    notes: El postre más habitual tras un tajín. Unas gotas de agua de azahar la perfuman.
+    tags: [postre, fruta, vegana, sin gluten, rápida]
+    ingredients:
+      - items:
+          - [naranjas, 4, null]
+          - [canela molida, 1, cucharadita]
+          - [azúcar glas, 1, cucharada]
+          - [agua de azahar, 1, cucharadita]
+          - [hojas de hierbabuena, 8, null]
+    steps:
+      - Pela las naranjas al vivo, quitando toda la parte blanca.
+      - Córtalas en rodajas finas y colócalas en una fuente.
+      - Rocía con el agua de azahar y espolvorea el azúcar y la canela.
+      - Decora con la hierbabuena y sirve fría.

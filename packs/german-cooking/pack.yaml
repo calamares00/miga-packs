@@ -1,6 +1,6 @@
 id: german-cooking
-version: 3
-updated: 2026-11-06
+version: 4
+updated: 2026-11-15
 language: en
 name: "World cuisine: Germany"
 series: World cuisine
@@ -685,3 +685,118 @@ recipes:
       - Mash the Camembert with a fork, rind and all.
       - Mix with the butter, cream cheese, half the onion very finely chopped, the paprika, caraway and beer. Season.
       - Serve with the rest of the onion in thin rings, chives and a little paprika on top.
+
+  - name: Eggs in mustard sauce
+    health: [YELLOW, "Eggs in a butter and cream sauce: protein, with quite a lot of fat."]
+    nutrition: [430, 18, 30, 26]
+    photo: cocina-alemana/huevos-en-salsa-de-mostaza.jpg
+    category: Eggs
+    difficulty: EASY
+    prep: 10
+    cook: 25
+    servings: 4
+    notes: Senfeier, a Friday home-cooking classic in Germany. Served with boiled potatoes or mash.
+    tags: [eggs, vegetarian]
+    ingredients:
+      - items:
+          - [eggs, 8, null]
+          - [potatoes, 800, g]
+          - [butter, 40, g]
+          - [flour, 30, g]
+          - [vegetable stock, 400, ml]
+          - [single cream, 100, ml]
+          - [wholegrain mustard, 2, tbsp]
+          - [mild mustard, 2, tbsp]
+          - [chopped chives, 2, tbsp]
+          - [salt, null, null]
+    steps:
+      - Boil the peeled potatoes in salted water for 20 minutes.
+      - Boil the eggs for 9 minutes, cool them in cold water and peel.
+      - Melt the butter, add the flour and stir for 1 minute. Gradually whisk in the stock and simmer for 5 minutes.
+      - Add the cream and both mustards, season and warm the halved eggs in the sauce. Serve with the potatoes and chives.
+
+  - name: Himmel und Erde
+    health: [YELLOW, "Potato and apple mash with black pudding: filling, with the fat of the sausage."]
+    nutrition: [560, 18, 58, 28]
+    photo: cocina-alemana/himmel-und-erde.jpg
+    category: Meat
+    difficulty: EASY
+    prep: 15
+    cook: 30
+    servings: 4
+    notes: '"Heaven and earth", from the Rhineland: the apples are heaven and the potatoes earth. Served with fried black pudding and onions.'
+    tags: [potato, winter]
+    origin: Rhineland
+    ingredients:
+      - items:
+          - [floury potatoes, 1, kg]
+          - [tart apples, 3, null]
+          - [sugar, 1, tbsp]
+          - [butter, 40, g]
+          - [black pudding, 400, g]
+          - [onions, 2, null]
+          - [sunflower oil, 2, tbsp]
+          - [nutmeg, 1, pinch]
+          - [salt, null, null]
+    steps:
+      - Boil the peeled, chopped potatoes in salted water for 20 minutes.
+      - Peel and chop the apples and cook them with the sugar and a splash of water for 10 minutes, until they fall apart.
+      - Drain the potatoes, mash them with the butter and fold in the apple. Season with nutmeg and salt.
+      - Fry the onion rings until golden and the sliced black pudding on a griddle. Serve the mash topped with the pudding and onions.
+
+  - name: Kartoffelknödel
+    health: [YELLOW, "Potato and starch dumplings: simple carbohydrates, low in fat."]
+    nutrition: [280, 6, 52, 6]
+    photo: cocina-alemana/kartoffelknodel.jpg
+    category: Vegetables
+    difficulty: MEDIUM
+    prep: 30
+    cook: 40
+    servings: 4
+    notes: The Bavarian potato dumplings served with roasts and meat in gravy. They have toasted bread cubes in the middle.
+    tags: [potato, side, vegetarian]
+    origin: Bavaria
+    ingredients:
+      - items:
+          - [floury potatoes, 1, kg]
+          - [potato starch, 100, g]
+          - [egg yolk, 1, null]
+          - [slice of day-old bread, 1, null]
+          - [butter, 20, g]
+          - [nutmeg, 1, pinch]
+          - [salt, 1, tsp]
+    steps:
+      - Boil half the potatoes in their skins, peel and rice them while hot. Grate the rest raw and squeeze them very dry in a tea towel.
+      - Mix both potatoes with the starch, yolk, salt and nutmeg into a dough that doesn't stick.
+      - Fry the bread cubes in the butter. With wet hands shape 8 balls, pressing a few cubes of bread into the centre.
+      - Cook them in salted water just below the boil, without bubbling, for 20 minutes, until they float.
+
+  - name: Berliner
+    health: [RED, "Fried buns filled with jam and rolled in sugar: very sweet."]
+    nutrition: [290, 6, 42, 11]
+    photo: cocina-alemana/berliner.jpg
+    category: Desserts
+    difficulty: HARD
+    prep: 40
+    cook: 20
+    servings: 12
+    notes: The doughnuts of carnival and New Year's Eve. Makes 12. The dough needs about 2 hours' rising in all.
+    tags: [dessert, fried, dough]
+    ingredients:
+      - items:
+          - [strong bread flour, 500, g]
+          - [fresh yeast, 20, g]
+          - [warm milk, 200, ml]
+          - [sugar, 60, g]
+          - [eggs, 2, null]
+          - [soft butter, 60, g]
+          - [lemon zest, 1, null]
+          - [salt, 1, pinch]
+          - [raspberry or strawberry jam, 250, g]
+          - [oil for frying, null, null]
+          - [sugar for coating, 100, g]
+    steps:
+      - Dissolve the yeast in the milk and knead with the flour, sugar, eggs, zest and salt for 10 minutes. Add the butter and knead until smooth. Leave to rise for 1 hour.
+      - Divide into 12 balls, place on floured paper and leave to rise, covered, for 45 minutes more.
+      - Fry at 170 °C for 2-3 minutes per side, until golden with a pale band round the middle. Drain.
+      - Roll them in sugar while still warm and fill with jam through the side using a piping bag with a thin nozzle.

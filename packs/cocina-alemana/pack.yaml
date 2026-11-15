@@ -1,6 +1,6 @@
 id: cocina-alemana
-version: 3
-updated: 2026-11-06
+version: 4
+updated: 2026-11-15
 language: es
 name: "Cocina del mundo: Alemania"
 series: Cocina del mundo
@@ -685,3 +685,118 @@ recipes:
       - Aplasta el camembert con un tenedor, con su corteza.
       - Mézclalo con la mantequilla, el queso crema, la mitad de la cebolla muy picada, el pimentón, la alcaravea y la cerveza. Salpimienta.
       - Sirve con el resto de la cebolla en aros finos, cebollino y un poco de pimentón por encima.
+
+  - name: Huevos en salsa de mostaza
+    health: [YELLOW, "Huevos con una salsa de mantequilla y nata: proteína, con bastante grasa."]
+    nutrition: [430, 18, 30, 26]
+    photo: cocina-alemana/huevos-en-salsa-de-mostaza.jpg
+    category: Huevos
+    difficulty: EASY
+    prep: 10
+    cook: 25
+    servings: 4
+    notes: Los Senfeier, comida casera de los viernes en Alemania. Se sirven con patatas cocidas o puré.
+    tags: [huevos, vegetariana]
+    ingredients:
+      - items:
+          - [huevos, 8, null]
+          - [patatas, 800, g]
+          - [mantequilla, 40, g]
+          - [harina, 30, g]
+          - [caldo de verduras, 400, ml]
+          - [nata para cocinar, 100, ml]
+          - [mostaza de grano, 2, cucharada]
+          - [mostaza suave, 2, cucharada]
+          - [cebollino picado, 2, cucharada]
+          - [sal, null, null]
+    steps:
+      - Cuece las patatas peladas en agua con sal 20 minutos.
+      - Cuece los huevos 9 minutos, enfríalos en agua fría y pélalos.
+      - Funde la mantequilla, añade la harina y remueve 1 minuto. Incorpora el caldo poco a poco sin dejar de remover y cuece 5 minutos.
+      - Añade la nata y las dos mostazas, sala y calienta los huevos partidos por la mitad en la salsa. Sirve con las patatas y el cebollino.
+
+  - name: Himmel und Erde
+    health: [YELLOW, "Puré de patata y manzana con morcilla: saciante, con la grasa de la morcilla."]
+    nutrition: [560, 18, 58, 28]
+    photo: cocina-alemana/himmel-und-erde.jpg
+    category: Carnes
+    difficulty: EASY
+    prep: 15
+    cook: 30
+    servings: 4
+    notes: "«Cielo y tierra», de Renania: las manzanas son el cielo y las patatas la tierra. Se sirve con morcilla a la plancha y cebolla frita."
+    tags: [patata, invierno]
+    origin: Renania
+    ingredients:
+      - items:
+          - [patatas harinosas, 1, kg]
+          - [manzanas ácidas, 3, null]
+          - [azúcar, 1, cucharada]
+          - [mantequilla, 40, g]
+          - [morcilla, 400, g]
+          - [cebollas, 2, null]
+          - [aceite de girasol, 2, cucharada]
+          - [nuez moscada, 1, pizca]
+          - [sal, null, null]
+    steps:
+      - Cuece las patatas peladas y troceadas en agua con sal 20 minutos.
+      - Pela las manzanas, trocéalas y cuécelas con el azúcar y un chorrito de agua 10 minutos, hasta que se deshagan.
+      - Escurre las patatas, aplástalas con la mantequilla y mézclalas con la compota de manzana. Sazona con nuez moscada y sal.
+      - Fríe la cebolla en aros hasta que esté dorada y la morcilla en rodajas a la plancha. Sirve el puré con la morcilla y la cebolla por encima.
+
+  - name: Kartoffelknödel
+    health: [YELLOW, "Bolas de patata y almidón: hidratos sencillos, con poca grasa."]
+    nutrition: [280, 6, 52, 6]
+    photo: cocina-alemana/kartoffelknodel.jpg
+    category: Verduras
+    difficulty: MEDIUM
+    prep: 30
+    cook: 40
+    servings: 4
+    notes: Las bolas de patata bávaras que acompañan asados y carnes en salsa. Llevan dados de pan tostado en el centro.
+    tags: [patata, guarnición, vegetariana]
+    origin: Baviera
+    ingredients:
+      - items:
+          - [patatas harinosas, 1, kg]
+          - [fécula de patata, 100, g]
+          - [yema de huevo, 1, null]
+          - [rebanada de pan del día anterior, 1, null]
+          - [mantequilla, 20, g]
+          - [nuez moscada, 1, pizca]
+          - [sal, 1, cucharadita]
+    steps:
+      - Cuece la mitad de las patatas con piel, pélalas y pásalas por el pasapurés en caliente. Ralla el resto en crudo y escúrrelas muy bien en un paño.
+      - Mezcla las dos patatas con la fécula, la yema, la sal y la nuez moscada hasta tener una masa que no se pegue.
+      - Dora el pan en dados en la mantequilla. Forma 8 bolas con las manos mojadas, metiendo unos dados de pan en el centro.
+      - Cuécelas en agua con sal a punto de hervir, sin que borbotee, 20 minutos, hasta que suban a la superficie.
+
+  - name: Berliner
+    health: [RED, "Bollos fritos rellenos de mermelada y rebozados en azúcar: muy dulces."]
+    nutrition: [290, 6, 42, 11]
+    photo: cocina-alemana/berliner.jpg
+    category: Postres
+    difficulty: HARD
+    prep: 40
+    cook: 20
+    servings: 12
+    notes: Los bollos de carnaval y Nochevieja. Salen 12. La masa necesita unas 2 horas de levado en total.
+    tags: [postre, fritos, masa]
+    ingredients:
+      - items:
+          - [harina de fuerza, 500, g]
+          - [levadura fresca, 20, g]
+          - [leche templada, 200, ml]
+          - [azúcar, 60, g]
+          - [huevos, 2, null]
+          - [mantequilla blanda, 60, g]
+          - [ralladura de limón, 1, null]
+          - [sal, 1, pizca]
+          - [mermelada de frambuesa o fresa, 250, g]
+          - [aceite para freír, null, null]
+          - [azúcar para rebozar, 100, g]
+    steps:
+      - Disuelve la levadura en la leche y amasa con la harina, el azúcar, los huevos, la ralladura y la sal 10 minutos. Añade la mantequilla y amasa hasta tener una masa lisa. Deja levar 1 hora.
+      - Divide en 12 bolas, colócalas sobre papel enharinado y deja levar tapadas 45 minutos más.
+      - Fríelas en aceite a 170 °C 2-3 minutos por lado, hasta que estén doradas, con una franja clara en el centro. Escúrrelas.
+      - Rebózalas en azúcar todavía calientes y rellénalas de mermelada con una manga con boquilla fina por un costado.

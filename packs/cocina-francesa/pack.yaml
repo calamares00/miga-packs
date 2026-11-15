@@ -1,6 +1,6 @@
 id: cocina-francesa
-version: 1
-updated: 2026-11-14
+version: 2
+updated: 2026-11-15
 language: es
 name: "Cocina del mundo: Francia"
 series: Cocina del mundo
@@ -624,3 +624,146 @@ recipes:
       - Añade la harina con la levadura y luego la mantequilla templada.
       - Tapa la masa y refrigera al menos 1 hora.
       - Precalienta el horno a 220 °C. Llena los moldes engrasados hasta 3/4 y hornea 5 minutos; baja a 180 °C y hornea 4-5 minutos más.
+
+  - name: Pot-au-feu
+    health: [GREEN, "Cocido de ternera con verduras: mucha proteína y verdura, poca grasa si se desgrasa."]
+    nutrition: [480, 42, 26, 22]
+    photo: cocina-francesa/pot-au-feu.jpg
+    category: Carnes
+    difficulty: EASY
+    prep: 20
+    cook: 210
+    servings: 6
+    notes: El cocido francés. Primero se toma el caldo y después la carne y las verduras, con mostaza, pepinillos y sal gorda.
+    tags: [cocido, ternera, invierno]
+    ingredients:
+      - items:
+          - [morcillo de ternera, 800, g]
+          - [costilla de ternera, 600, g]
+          - [hueso de caña con tuétano, 2, null]
+          - [zanahorias, 4, null]
+          - [puerros, 2, null]
+          - [nabos, 2, null]
+          - [cebolla con 2 clavos pinchados, 1, null]
+          - [ramillete de hierbas, 1, null]
+          - [patatas, 6, null]
+          - [sal gruesa, null, null]
+          - [mostaza de Dijon y pepinillos para servir, null, null]
+    steps:
+      - Pon las carnes en agua fría que las cubra, lleva a ebullición y retira la espuma durante los primeros 15 minutos.
+      - Añade la cebolla, el ramillete y sal y cuece a fuego muy suave 2 horas y media.
+      - Añade las zanahorias, los puerros atados y los nabos, y 30 minutos después los huesos de tuétano. Cuece las patatas aparte en un poco del caldo.
+      - Sirve el caldo desgrasado como primero y después la carne en lonchas con las verduras, mostaza, pepinillos y sal gruesa.
+
+  - name: Salsa bearnesa
+    health: [RED, "Emulsión de mantequilla y yemas: muy grasa, para usar con moderación."]
+    nutrition: [290, 2, 1, 31]
+    photo: cocina-francesa/salsa-bearnesa.jpg
+    category: Salsas
+    difficulty: HARD
+    prep: 15
+    cook: 15
+    servings: 6
+    notes: "La salsa del entrecot con patatas fritas. El fuego debe ser muy suave: si las yemas se calientan de más, se cortan."
+    tags: [salsa, sin gluten, vegetariana]
+    ingredients:
+      - items:
+          - [chalota, 1, null]
+          - [vinagre de vino blanco, 60, ml]
+          - [vino blanco, 60, ml]
+          - [estragón fresco, 3, cucharada]
+          - [granos de pimienta machacados, 0.5, cucharadita]
+          - [yemas de huevo, 3, null]
+          - [mantequilla clarificada templada, 200, g]
+          - [sal, null, null]
+    steps:
+      - Reduce la chalota picada con el vinagre, el vino, la pimienta y la mitad del estragón hasta que quede una cucharada de líquido. Cuela y deja templar.
+      - Bate las yemas con la reducción y una cucharada de agua al baño maría suave hasta que espesen y hagan espuma.
+      - Fuera del fuego, añade la mantequilla en hilo sin dejar de batir, hasta tener una salsa espesa.
+      - Sala y añade el resto del estragón picado. Mantenla templada, nunca caliente.
+
+  - name: Lenguado a la meunière
+    health: [YELLOW, "Pescado blanco a la mantequilla: proteína magra, con la grasa de la mantequilla."]
+    nutrition: [330, 30, 6, 21]
+    photo: cocina-francesa/lenguado-a-la-meuniere.jpg
+    category: Pescados y mariscos
+    difficulty: MEDIUM
+    prep: 10
+    cook: 10
+    servings: 2
+    notes: «A la molinera», enharinado y dorado en mantequilla. El plato que, según Julia Child, le hizo enamorarse de la cocina francesa.
+    tags: [pescado, rápida]
+    ingredients:
+      - items:
+          - [lenguados limpios sin piel, 2, null]
+          - [harina, 3, cucharada]
+          - [mantequilla, 60, g]
+          - [aceite de girasol, 1, cucharada]
+          - [zumo de limón, 1, null]
+          - [perejil picado, 2, cucharada]
+          - [sal y pimienta, null, null]
+    steps:
+      - Seca los lenguados, salpimiéntalos y pásalos por harina sacudiendo el exceso.
+      - Dóralos en una sartén con el aceite y la mitad de la mantequilla 3-4 minutos por lado. Pásalos a los platos.
+      - Añade el resto de la mantequilla a la sartén y deja que tome color avellana.
+      - Retira del fuego, añade el limón y el perejil y vierte sobre el pescado.
+
+  - name: Pollo a la normanda
+    health: [YELLOW, "Pollo con manzana, sidra y nata: proteína, con grasa de la nata."]
+    nutrition: [560, 42, 18, 33]
+    photo: cocina-francesa/pollo-a-la-normanda.jpg
+    category: Carnes
+    difficulty: MEDIUM
+    prep: 20
+    cook: 50
+    servings: 4
+    notes: "Con los productos de Normandía: manzana, sidra, calvados y nata. Si no tienes calvados, se puede omitir."
+    tags: [pollo, guiso]
+    origin: Normandía
+    ingredients:
+      - items:
+          - [muslos y contramuslos de pollo, 1.2, kg]
+          - [manzanas, 3, null]
+          - [chalotas, 3, null]
+          - [champiñones, 200, g]
+          - [mantequilla, 40, g]
+          - [calvados, 40, ml, optional]
+          - [sidra seca, 300, ml]
+          - [nata para cocinar, 200, ml]
+          - [tomillo, 2, ramita]
+          - [sal y pimienta, null, null]
+    steps:
+      - Dora el pollo salpimentado en la mitad de la mantequilla y riégalo con el calvados si lo usas, flambeando con cuidado.
+      - Añade las chalotas picadas, los champiñones, el tomillo y la sidra y cuece tapado a fuego suave 30 minutos.
+      - Dora las manzanas en gajos en el resto de la mantequilla.
+      - Saca el pollo, reduce el líquido a la mitad, añade la nata y cuece 5 minutos. Sirve el pollo con la salsa y las manzanas.
+
+  - name: Gougères
+    health: [YELLOW, "Bocaditos de pasta choux con queso: pequeños, pero con mantequilla y queso."]
+    nutrition: [120, 5, 6, 9]
+    photo: cocina-francesa/gougeres.jpg
+    category: Entrantes
+    difficulty: MEDIUM
+    prep: 20
+    cook: 25
+    servings: 24
+    notes: Los bocaditos de queso de Borgoña que se sirven con el vino. Las raciones son piezas. Se congelan crudos y se hornean sin descongelar.
+    tags: [aperitivo, queso, horno, vegetariana]
+    origin: Borgoña
+    utensils: [Horno]
+    ingredients:
+      - items:
+          - [agua, 125, ml]
+          - [leche, 125, ml]
+          - [mantequilla, 100, g]
+          - [sal, 1, cucharadita]
+          - [harina de trigo, 150, g]
+          - [huevos, 4, null]
+          - [queso gruyer o comté rallado, 120, g]
+          - [nuez moscada, 1, pizca]
+          - [pimienta negra, null, null]
+    steps:
+      - Precalienta el horno a 200 °C. Lleva a ebullición el agua, la leche, la mantequilla y la sal, añade la harina de golpe y remueve hasta que la masa se despegue.
+      - Fuera del fuego, añade los huevos uno a uno batiendo bien, y luego 100 g de queso, la nuez moscada y la pimienta.
+      - Forma bolitas con dos cucharas o una manga sobre papel de horno y espolvorea el resto del queso.
+      - Hornea 20-25 minutos, hasta que estén infladas y doradas, sin abrir el horno.

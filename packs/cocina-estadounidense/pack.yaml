@@ -1,6 +1,6 @@
 id: cocina-estadounidense
-version: 3
-updated: 2026-11-06
+version: 4
+updated: 2026-11-15
 language: es
 name: "Cocina del mundo: Estados Unidos"
 series: Cocina del mundo
@@ -677,3 +677,116 @@ recipes:
       - Bate las yemas con la ralladura, añade la leche condensada y después el zumo de lima.
       - Vierte el relleno sobre la base y hornea 15 minutos, hasta que cuaje pero aún tiemble en el centro.
       - Deja que se enfríe y refrigera al menos 4 horas. Sírvela con nata montada.
+
+  - name: Alitas búfalo
+    health: [RED, "Alitas fritas o al horno con salsa de mantequilla picante: mucha grasa y sal."]
+    nutrition: [520, 34, 2, 42]
+    photo: cocina-estadounidense/alitas-bufalo.jpg
+    category: Carnes
+    difficulty: EASY
+    prep: 10
+    cook: 45
+    servings: 4
+    notes: Nacieron en Búfalo (Nueva York) en los años 60. Se sirven con bastones de apio y salsa de queso azul. Al horno quedan crujientes con la levadura química.
+    tags: [pollo, picante, horno]
+    origin: Búfalo (Nueva York)
+    utensils: [Horno]
+    ingredients:
+      - items:
+          - [alitas de pollo, 1.2, kg]
+          - [levadura química, 1, cucharada]
+          - [sal, 1, cucharadita]
+          - [salsa picante de cayena tipo Frank's, 120, ml]
+          - [mantequilla, 60, g]
+          - [ramas de apio, 3, null]
+          - [salsa de queso azul, 150, ml]
+    steps:
+      - Seca bien las alitas y mézclalas con la levadura y la sal. Colócalas sobre una rejilla en una bandeja.
+      - Hornea a 220 °C 40-45 minutos, dándoles la vuelta a mitad, hasta que estén muy crujientes.
+      - Funde la mantequilla con la salsa picante.
+      - Mezcla las alitas calientes con la salsa y sírvelas con el apio y la salsa de queso azul.
+
+  - name: Tarta de calabaza
+    health: [RED, "Tarta de masa quebrada con calabaza, leche condensada y especias: dulce."]
+    nutrition: [330, 7, 44, 14]
+    photo: cocina-estadounidense/tarta-de-calabaza.jpg
+    category: Postres
+    difficulty: MEDIUM
+    prep: 20
+    cook: 60
+    servings: 8
+    notes: El pumpkin pie de Acción de Gracias. Se sirve frío, con nata montada.
+    tags: [postre, calabaza, otoño, horno]
+    utensils: [Horno]
+    ingredients:
+      - items:
+          - [masa quebrada, 1, lámina]
+          - [puré de calabaza, 425, g]
+          - [leche condensada, 400, g]
+          - [huevos, 2, null]
+          - [canela molida, 1, cucharadita]
+          - [jengibre molido, 0.5, cucharadita]
+          - [nuez moscada, 0.25, cucharadita]
+          - [clavo molido, 1, pizca]
+          - [sal, 1, pizca]
+    steps:
+      - Precalienta el horno a 220 °C y forra un molde de 23 cm con la masa.
+      - Bate el puré con la leche condensada, los huevos, las especias y la sal.
+      - Vierte en el molde y hornea 15 minutos. Baja a 180 °C y hornea 35-40 minutos más, hasta que un cuchillo salga limpio.
+      - Deja enfriar del todo y refrigera antes de cortar.
+
+  - name: Biscuits caseros
+    health: [YELLOW, "Panecillos de mantequilla: hidratos y grasa, sin azúcar."]
+    nutrition: [220, 4, 25, 11]
+    photo: cocina-estadounidense/biscuits-caseros.jpg
+    category: Panes y masas
+    difficulty: EASY
+    prep: 15
+    cook: 15
+    servings: 10
+    notes: Los panecillos del sur de Estados Unidos, que no son galletas. Se toman con mantequilla y miel o con salsa gravy. Salen 10.
+    tags: [pan, desayuno, horno]
+    origin: Sur de Estados Unidos
+    utensils: [Horno]
+    ingredients:
+      - items:
+          - [harina de trigo, 300, g]
+          - [levadura química, 1, cucharada]
+          - [bicarbonato sódico, 0.5, cucharadita]
+          - [sal, 1, cucharadita]
+          - [mantequilla muy fría, 100, g]
+          - [suero de leche (buttermilk), 220, ml]
+    steps:
+      - Precalienta el horno a 220 °C. Mezcla la harina, la levadura, el bicarbonato y la sal.
+      - Ralla la mantequilla fría sobre la harina y mezcla con los dedos hasta tener una arena gruesa.
+      - Añade el suero y mezcla lo justo. Estira la masa, dóblala en tres, repite una vez y estírala a 2 cm de grosor.
+      - Corta círculos con un cortapastas sin girarlo, colócalos juntos en una bandeja y hornea 12-15 minutos, hasta que estén dorados.
+
+  - name: Ensalada Waldorf
+    health: [YELLOW, "Manzana, apio y nueces con mayonesa: fruta y grasas buenas, pero calórica."]
+    nutrition: [300, 4, 18, 25]
+    photo: cocina-estadounidense/ensalada-waldorf.jpg
+    category: Ensaladas
+    difficulty: EASY
+    prep: 15
+    cook: 0
+    servings: 4
+    notes: Creada en el hotel Waldorf de Nueva York en 1893. Mitad yogur y mitad mayonesa la aligera.
+    tags: [ensalada, rápida, vegetariana, sin gluten]
+    origin: Nueva York
+    ingredients:
+      - items:
+          - [manzanas rojas, 2, null]
+          - [ramas de apio, 3, null]
+          - [uvas, 150, g]
+          - [nueces, 60, g]
+          - [mayonesa, 4, cucharada]
+          - [yogur natural, 4, cucharada]
+          - [zumo de limón, 1, cucharada]
+          - [hojas de lechuga, 8, null]
+          - [sal, null, null]
+    steps:
+      - Corta las manzanas en dados y mézclalas enseguida con el limón.
+      - Añade el apio en rodajas finas, las uvas partidas y las nueces troceadas.
+      - Mezcla con la mayonesa, el yogur y una pizca de sal.
+      - Sirve sobre las hojas de lechuga.

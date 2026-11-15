@@ -1,6 +1,6 @@
 id: peruvian-cooking
-version: 3
-updated: 2026-11-06
+version: 4
+updated: 2026-11-15
 language: en
 name: "World cuisine: Peru"
 series: World cuisine
@@ -700,3 +700,122 @@ recipes:
       - Simmer for 45 minutes, until the liquid is deep purple. Strain and let it cool.
       - Add the sugar and lime juice and stir until dissolved.
       - Serve ice-cold with diced apple.
+
+  - name: Sudado de pescado
+    health: [GREEN, "Fish steamed in a tomato and onion broth: lean protein and little fat."]
+    nutrition: [320, 34, 14, 12]
+    photo: cocina-peruana/sudado-de-pescado.jpg
+    category: Fish and seafood
+    difficulty: EASY
+    prep: 15
+    cook: 25
+    servings: 4
+    notes: Fish "sweated" in its juices with tomato, onion and ají amarillo, typical of the north coast. Served with rice and cassava.
+    tags: [fish, gluten-free]
+    origin: North coast
+    ingredients:
+      - items:
+          - [white fish fillets (corvina or grouper), 800, g]
+          - [red onions, 2, null]
+          - [tomatoes, 3, null]
+          - [ají amarillo paste, 2, tbsp]
+          - [garlic cloves, 3, null]
+          - [chicha de jora or white wine, 100, ml]
+          - [fish stock, 200, ml]
+          - [chopped coriander, 3, tbsp]
+          - [lime, 1, null]
+          - [oil, 2, tbsp]
+          - [salt, null, null]
+    steps:
+      - Fry the garlic and ají amarillo in the oil for 2 minutes.
+      - Add the onion wedges, sliced tomato, wine and stock and simmer for 5 minutes.
+      - Lay the seasoned fish on top, cover and simmer gently for 8-10 minutes, until cooked.
+      - Finish with the coriander and lime juice.
+
+  - name: Carapulcra
+    health: [YELLOW, "Dried potato stew with pork and peanut: very filling, with quite a lot of fat."]
+    nutrition: [560, 30, 52, 26]
+    category: Meat
+    difficulty: MEDIUM
+    prep: 20
+    cook: 90
+    servings: 6
+    notes: One of Peru's oldest stews, made with toasted papa seca (dried potato). Typical of Chincha, served with sopa seca.
+    tags: [stew, pork, gluten-free]
+    origin: Chincha
+    ingredients:
+      - items:
+          - [papa seca (dried potato), 250, g]
+          - [stewing pork, 600, g]
+          - [red onion, 1, null]
+          - [garlic cloves, 4, null]
+          - [ají panca paste, 3, tbsp]
+          - [roasted peanuts, 50, g]
+          - [ground cumin, 1, tsp]
+          - [dark chocolate, 15, g]
+          - [stock, 1.2, l]
+          - [oil, 3, tbsp]
+          - [salt, null, null]
+    steps:
+      - Toast the papa seca in a dry pan until fragrant and soak in water for 30 minutes. Drain.
+      - Brown the diced pork in the oil, add the onion, garlic, ají panca and cumin and fry for 10 minutes.
+      - Add the papa seca and stock and simmer for 1 hour, stirring often so it doesn't stick.
+      - Add the ground peanuts and chocolate, season and cook until thick.
+
+  - name: Solterito arequipeño
+    health: [GREEN, "Broad bean, fresh cheese and vegetable salad: fresh, with protein."]
+    nutrition: [230, 12, 18, 13]
+    photo: cocina-peruana/solterito-arequipeno.jpg
+    category: Salads
+    difficulty: EASY
+    prep: 20
+    cook: 10
+    servings: 4
+    notes: The fresh salad of Arequipa, with broad beans, fresh cheese, rocoto and botija olives.
+    tags: [salad, vegetarian, gluten-free]
+    origin: Arequipa
+    ingredients:
+      - items:
+          - [shelled broad beans, 300, g]
+          - [fresh cheese, 150, g]
+          - [tomatoes, 2, null]
+          - [red onion, 1, null]
+          - [rocoto or hot pepper, 1, null]
+          - [cooked corn kernels (choclo), 150, g]
+          - [black olives, 12, null]
+          - [wine vinegar, 2, tbsp]
+          - [olive oil, 3, tbsp]
+          - [chopped parsley, 2, tbsp]
+          - [salt, null, null]
+    steps:
+      - Boil the broad beans for 5 minutes and cool.
+      - Dice the cheese, tomato, onion and seeded rocoto.
+      - Mix everything with the corn, olives and parsley.
+      - Dress with the vinegar, oil and salt.
+
+  - name: Tacu tacu
+    health: [YELLOW, "Rice and beans browned in the pan: complete and filling, somewhat fatty."]
+    nutrition: [480, 16, 70, 15]
+    photo: cocina-peruana/tacu-tacu.jpg
+    category: Legumes
+    difficulty: MEDIUM
+    prep: 10
+    cook: 20
+    servings: 4
+    notes: An Afro-Peruvian creole dish that uses up yesterday's rice and beans. Browned like an omelette and served with steak, a fried egg or salsa criolla.
+    tags: [leftovers, legumes]
+    ingredients:
+      - items:
+          - [cooked canary beans, 400, g]
+          - [cooked rice, 400, g]
+          - [red onion, 1, null]
+          - [garlic cloves, 2, null]
+          - [ají amarillo paste, 1, tbsp]
+          - [dried oregano, 0.5, tsp]
+          - [oil, 4, tbsp]
+          - [salt, null, null]
+    steps:
+      - Fry the chopped onion and garlic with the ají amarillo in a tablespoon of oil.
+      - Add the lightly mashed beans and the rice, oregano and salt and mix well.
+      - Heat the rest of the oil in a pan and brown the mixture into an oval shape, shaking the pan, for 5 minutes.
+      - Flip it like an omelette and brown the other side.

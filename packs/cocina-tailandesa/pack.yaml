@@ -1,6 +1,6 @@
 id: cocina-tailandesa
-version: 3
-updated: 2026-11-06
+version: 4
+updated: 2026-11-15
 language: es
 name: "Cocina del mundo: Tailandia"
 series: Cocina del mundo
@@ -666,3 +666,124 @@ recipes:
       - Lleva el agua a ebullición, añade el té y deja que infusione 5 minutos. Cuela.
       - Añade el azúcar y la leche condensada al té caliente y remueve. Deja que se enfríe.
       - Llena los vasos de hielo, vierte el té y termina con la leche evaporada por encima.
+
+  - name: Khao soi
+    health: [YELLOW, "Sopa de curry con fideos y pollo: completa, con la grasa de la leche de coco."]
+    nutrition: [620, 34, 56, 29]
+    photo: cocina-tailandesa/khao-soi.jpg
+    category: Sopas y cremas
+    difficulty: MEDIUM
+    prep: 20
+    cook: 40
+    servings: 4
+    notes: La sopa de curry con fideos de Chiang Mai, con fideos cocidos dentro y fideos fritos crujientes por encima.
+    tags: [sopa, curry, fideos]
+    origin: Chiang Mai
+    ingredients:
+      - items:
+          - [muslos de pollo, 600, g]
+          - [pasta de curry rojo o khao soi, 3, cucharada]
+          - [curry en polvo, 1, cucharadita]
+          - [leche de coco, 800, ml]
+          - [caldo de pollo, 500, ml]
+          - [salsa de pescado, 2, cucharada]
+          - [azúcar de palma o moreno, 1, cucharada]
+          - [fideos de huevo, 400, g]
+          - [chalotas, 3, null]
+          - [mostaza encurtida o pepinillo, 4, cucharada]
+          - [limas, 2, null]
+          - [aceite para freír, null, null]
+    steps:
+      - Fríe un puñado de fideos crudos en aceite caliente hasta que estén crujientes y resérvalos.
+      - Fríe la pasta de curry y el curry en polvo con 200 ml de leche de coco hasta que suelte el aceite. Añade el pollo y dóralo.
+      - Añade el resto de la leche de coco, el caldo, la salsa de pescado y el azúcar y cuece 30 minutos.
+      - Cuece el resto de los fideos, repártelos en cuencos, vierte la sopa con el pollo y corona con los fideos fritos, las chalotas, la mostaza encurtida y la lima.
+
+  - name: Curry rojo de gambas y calabaza
+    health: [YELLOW, "Gambas y calabaza en curry de coco: proteína y verdura, con grasa del coco."]
+    nutrition: [380, 22, 20, 24]
+    photo: cocina-tailandesa/curry-rojo-de-gambas-y-calabaza.jpg
+    category: Pescados y mariscos
+    difficulty: EASY
+    prep: 15
+    cook: 20
+    servings: 4
+    notes: Un curry rojo suave y algo dulce. La calabaza puede ser de cualquier tipo, también boniato.
+    tags: [curry, marisco, sin gluten]
+    ingredients:
+      - items:
+          - [gambas peladas, 500, g]
+          - [calabaza en dados, 400, g]
+          - [pasta de curry rojo, 2, cucharada]
+          - [leche de coco, 400, ml]
+          - [salsa de pescado, 1, cucharada]
+          - [azúcar de palma o moreno, 1, cucharadita]
+          - [hojas de lima kaffir, 3, null]
+          - [albahaca tailandesa, 1, puñado]
+          - [aceite, 1, cucharada]
+    steps:
+      - Fríe la pasta de curry en el aceite con unas cucharadas de leche de coco 2 minutos.
+      - Añade el resto de la leche de coco, la calabaza y las hojas de lima y cuece 12 minutos, hasta que esté tierna.
+      - Añade las gambas, la salsa de pescado y el azúcar y cuece 3 minutos.
+      - Termina con la albahaca y sirve con arroz jazmín.
+
+  - name: Pla rad prik
+    health: [YELLOW, "Pescado frito con salsa de chile dulce y ácida: proteína, con aceite y azúcar."]
+    nutrition: [420, 32, 22, 22]
+    photo: cocina-tailandesa/pla-rad-prik.jpg
+    category: Pescados y mariscos
+    difficulty: MEDIUM
+    prep: 20
+    cook: 20
+    servings: 4
+    notes: Pescado entero frito cubierto de una salsa de chile, ajo y tamarindo. Funciona con lubina, dorada o tilapia.
+    tags: [pescado, fritos, picante]
+    ingredients:
+      - items:
+          - [pescados enteros (lubina o dorada) limpios, 2, null]
+          - [maicena, 4, cucharada]
+          - [chiles rojos, 4, null]
+          - [dientes de ajo, 5, null]
+          - [chalotas, 3, null]
+          - [pasta de tamarindo, 2, cucharada]
+          - [salsa de pescado, 2, cucharada]
+          - [azúcar de palma o moreno, 3, cucharada]
+          - [agua, 60, ml]
+          - [albahaca tailandesa, 1, puñado]
+          - [aceite para freír, null, null]
+    steps:
+      - Haz cortes en diagonal en los pescados, sécalos y pásalos por maicena.
+      - Fríelos en abundante aceite caliente 6-8 minutos por lado, hasta que estén muy crujientes. Escúrrelos.
+      - Machaca los chiles, el ajo y las chalotas y fríelos en una cucharada de aceite 2 minutos. Añade el tamarindo, la salsa de pescado, el azúcar y el agua y reduce hasta que espese.
+      - Vierte la salsa sobre el pescado y decora con la albahaca frita o fresca.
+
+  - name: Yam woon sen
+    health: [GREEN, "Ensalada de fideos de cristal con gambas y cerdo: ligera y con proteína."]
+    nutrition: [310, 20, 38, 8]
+    photo: cocina-tailandesa/yam-woon-sen.jpg
+    category: Ensaladas
+    difficulty: EASY
+    prep: 20
+    cook: 10
+    servings: 4
+    notes: Ensalada templada de fideos de judía mungo, ácida y picante, con gambas y carne picada.
+    tags: [ensalada, picante, sin gluten]
+    ingredients:
+      - items:
+          - [fideos de cristal (de judía mungo), 120, g]
+          - [gambas peladas, 200, g]
+          - [carne picada de cerdo, 150, g]
+          - [chalotas, 3, null]
+          - [tomates cherry, 10, null]
+          - [apio chino o apio, 2, rama]
+          - [chiles, 2, null]
+          - [zumo de lima, 4, cucharada]
+          - [salsa de pescado, 3, cucharada]
+          - [azúcar, 1, cucharada]
+          - [cilantro, 1, puñado]
+          - [cacahuetes tostados, 2, cucharada]
+    steps:
+      - Remoja los fideos en agua caliente 8 minutos, escúrrelos y córtalos con tijera.
+      - Cuece la carne picada en un poco de agua hasta que esté hecha y añade las gambas 2 minutos. Escurre.
+      - Mezcla la lima, la salsa de pescado, el azúcar y los chiles picados.
+      - Junta los fideos templados con la carne, las gambas, las chalotas en láminas, los tomates, el apio y el cilantro, aliña y espolvorea los cacahuetes.

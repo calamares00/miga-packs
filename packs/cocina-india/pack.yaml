@@ -1,6 +1,6 @@
 id: cocina-india
-version: 1
-updated: 2026-11-07
+version: 2
+updated: 2026-11-15
 language: es
 name: "Cocina del mundo: India"
 series: Cocina del mundo
@@ -656,3 +656,196 @@ recipes:
       - Hierve el agua con las especias y la canela 5 minutos.
       - "Añade el té y el azúcar y hierve 2 minutos. Agrega la leche y deja que suba el hervor dos veces, bajando el fuego entre medias."
       - Cuélalo y sírvelo muy caliente.
+
+  - name: Masala dosa
+    health: [GREEN, "Crepe fermentada de arroz y lenteja con patata especiada: vegetal y saciante."]
+    nutrition: [380, 10, 64, 9]
+    photo: cocina-india/masala-dosa.jpg
+    category: Panes y masas
+    difficulty: HARD
+    prep: 30
+    cook: 30
+    servings: 6
+    notes: El desayuno del sur de la India. La masa se remoja 6 horas y fermenta una noche; luego se hace en minutos. Se sirve con sambar y chutney de coco.
+    tags: [vegana, sin gluten, desayuno]
+    origin: Sur de la India
+    ingredients:
+      - group: Para la masa
+        items:
+          - [arroz de grano largo, 300, g]
+          - [urad dal (lenteja negra pelada), 100, g]
+          - [semillas de fenogreco, 0.5, cucharadita]
+          - [sal, 1, cucharadita]
+          - [aceite, 3, cucharada]
+      - group: Para el relleno
+        items:
+          - [patatas cocidas, 4, null]
+          - [cebolla, 1, null]
+          - [semillas de mostaza, 1, cucharadita]
+          - [cúrcuma, 0.5, cucharadita]
+          - [guindilla verde, 1, null]
+          - [hojas de curry, 8, null, optional]
+          - [aceite para el relleno, 2, cucharada]
+    steps:
+      - Remoja el arroz y la lenteja con el fenogreco 6 horas. Tritúralos con agua hasta tener una masa fina, añade la sal y deja fermentar tapada en un sitio templado 8-12 horas.
+      - Fríe la mostaza en el aceite hasta que salte, añade la cebolla, la guindilla y las hojas de curry, luego la cúrcuma y las patatas aplastadas, y sala.
+      - Calienta una sartén grande, vierte un cucharón de masa y extiéndela en espiral muy fina. Riega el borde con aceite y cocina hasta que esté dorada y crujiente.
+      - Pon relleno en el centro, dobla la dosa y sirve enseguida.
+
+  - name: Dal makhani
+    health: [YELLOW, "Lenteja negra y alubia guisadas con mantequilla y nata: mucha fibra, pero graso."]
+    nutrition: [420, 16, 44, 20]
+    photo: cocina-india/dal-makhani.jpg
+    category: Legumbres
+    difficulty: MEDIUM
+    prep: 15
+    cook: 120
+    servings: 6
+    notes: El dal cremoso del Punyab. Las legumbres se ponen en remojo la noche antes y se cuecen a fuego lento mucho tiempo.
+    tags: [legumbres, vegetariana, sin gluten]
+    origin: Punyab
+    utensils: [Olla exprés]
+    ingredients:
+      - items:
+          - [lenteja negra entera (urad dal), 200, g]
+          - [alubias rojas, 50, g]
+          - [mantequilla, 50, g]
+          - [cebolla, 1, null]
+          - [dientes de ajo, 4, null]
+          - [jengibre rallado, 1, cucharada]
+          - [tomate triturado, 300, g]
+          - [garam masala, 1, cucharadita]
+          - [chile en polvo suave, 1, cucharadita]
+          - [nata para cocinar, 100, ml]
+          - [sal, null, null]
+    steps:
+      - Cuece las legumbres remojadas en agua con sal 1 hora (25 minutos en olla exprés), hasta que estén muy tiernas.
+      - Fríe la cebolla picada en la mantequilla, añade el ajo, el jengibre y el chile y luego el tomate. Cocina 10 minutos.
+      - Añade las legumbres con su caldo y cuece a fuego muy suave 45 minutos, removiendo y aplastando algunas para que espese.
+      - Añade el garam masala y la nata y sirve con arroz o pan.
+
+  - name: Sambar
+    health: [GREEN, "Guiso de lentejas con verduras y tamarindo: mucha fibra y proteína vegetal."]
+    nutrition: [230, 11, 34, 6]
+    photo: cocina-india/sambar.jpg
+    category: Legumbres
+    difficulty: MEDIUM
+    prep: 20
+    cook: 40
+    servings: 6
+    notes: El guiso de lentejas y verduras del sur de la India que acompaña dosas, idlis y arroz. La mezcla de especias sambar podi se vende hecha.
+    tags: [legumbres, vegana, sin gluten]
+    origin: Sur de la India
+    ingredients:
+      - items:
+          - [toor dal (lenteja amarilla), 150, g]
+          - ["verduras variadas (berenjena, zanahoria, calabaza, judías)", 400, g]
+          - [cebolla, 1, null]
+          - [tomates, 2, null]
+          - [pasta de tamarindo, 1, cucharada]
+          - [sambar podi (mezcla de especias), 2, cucharada]
+          - [cúrcuma, 0.5, cucharadita]
+          - [semillas de mostaza, 1, cucharadita]
+          - [hojas de curry, 8, null, optional]
+          - [aceite, 2, cucharada]
+          - [sal, null, null]
+    steps:
+      - Cuece la lenteja con la cúrcuma en 600 ml de agua 25 minutos, hasta que se deshaga, y aplástala.
+      - Cuece las verduras troceadas con la cebolla y el tomate en un poco de agua 10 minutos.
+      - Añade la lenteja, el tamarindo, el sambar podi y sal y cuece 10 minutos más.
+      - Fríe la mostaza y las hojas de curry en el aceite hasta que salten y añádelo al guiso.
+
+  - name: Malai kofta
+    health: [RED, "Albóndigas fritas de paneer y patata en salsa de nata: muy calóricas."]
+    nutrition: [560, 15, 34, 41]
+    photo: cocina-india/malai-kofta.jpg
+    category: Verduras
+    difficulty: HARD
+    prep: 40
+    cook: 40
+    servings: 4
+    notes: Plato vegetariano de fiesta del norte de la India. Las koftas se añaden a la salsa justo al servir para que no se deshagan.
+    tags: [vegetariana, fiesta]
+    ingredients:
+      - group: Para las koftas
+        items:
+          - [paneer rallado, 200, g]
+          - [patatas cocidas, 2, null]
+          - [maicena, 2, cucharada]
+          - [anacardos picados, 2, cucharada]
+          - [sal, 0.5, cucharadita]
+          - [aceite para freír, null, null]
+      - group: Para la salsa
+        items:
+          - [cebolla, 1, null]
+          - [tomates, 3, null]
+          - [anacardos, 50, g]
+          - [jengibre y ajo machacados, 1, cucharada]
+          - [garam masala, 1, cucharadita]
+          - [chile en polvo suave, 1, cucharadita]
+          - [nata para cocinar, 100, ml]
+          - [mantequilla, 30, g]
+          - [azúcar, 1, cucharadita]
+          - [sal, null, null]
+    steps:
+      - Mezcla el paneer, la patata aplastada, la maicena, los anacardos y la sal y forma 12 bolas. Fríelas en aceite caliente hasta que estén doradas.
+      - Rehoga la cebolla, el tomate y los anacardos con el jengibre y el ajo 10 minutos y tritúralo todo con un poco de agua hasta tener una crema fina.
+      - Cuece la crema con la mantequilla, las especias, el azúcar y la sal 10 minutos y añade la nata.
+      - Pon las koftas en los platos y vierte la salsa caliente por encima justo al servir.
+
+  - name: Arroz jeera
+    health: [GREEN, "Arroz basmati con comino: guarnición sencilla, con poca grasa."]
+    nutrition: [260, 5, 52, 4]
+    category: Arroces
+    difficulty: EASY
+    prep: 5
+    cook: 20
+    servings: 4
+    notes: El arroz con comino que acompaña dales y currys en el norte de la India.
+    tags: [arroz, guarnición, vegana, sin gluten]
+    ingredients:
+      - items:
+          - [arroz basmati, 300, g]
+          - [semillas de comino, 2, cucharadita]
+          - [ghee o aceite, 1, cucharada]
+          - [hoja de laurel, 1, null]
+          - [agua, 500, ml]
+          - [sal, 1, cucharadita]
+          - [cilantro picado, 1, cucharada]
+    steps:
+      - Lava el arroz hasta que el agua salga clara y déjalo en remojo 20 minutos. Escúrrelo.
+      - Fríe el comino y el laurel en el ghee hasta que el comino chisporrotee.
+      - Añade el arroz, remueve 1 minuto, vierte el agua con la sal y lleva a ebullición.
+      - Tapa y cuece a fuego mínimo 12 minutos. Deja reposar 5 minutos, suelta con un tenedor y espolvorea el cilantro.
+
+  - name: Gulab jamun
+    health: [RED, "Bolitas fritas en almíbar: muy dulces."]
+    nutrition: [260, 4, 44, 9]
+    photo: cocina-india/gulab-jamun.jpg
+    category: Postres
+    difficulty: MEDIUM
+    prep: 20
+    cook: 25
+    servings: 8
+    notes: El dulce de las bodas y del Diwali. Se fríen a fuego bajo para que se hagan por dentro y se dejan empapar en el almíbar.
+    tags: [postre, fritos, fiesta]
+    ingredients:
+      - group: Para las bolitas
+        items:
+          - [leche en polvo, 120, g]
+          - [harina de trigo, 40, g]
+          - [levadura química, 0.25, cucharadita]
+          - [ghee o mantequilla derretida, 1, cucharada]
+          - [leche, 60, ml]
+          - [aceite para freír, null, null]
+      - group: Para el almíbar
+        items:
+          - [azúcar, 300, g]
+          - [agua, 350, ml]
+          - [vainas de cardamomo, 4, null]
+          - [agua de rosas, 1, cucharadita]
+    steps:
+      - Hierve el azúcar con el agua y el cardamomo machacado 5 minutos y añade el agua de rosas. Mantén el almíbar templado.
+      - Mezcla la leche en polvo, la harina y la levadura, añade el ghee y la leche y forma una masa blanda sin amasar de más. Haz 24 bolitas lisas, sin grietas.
+      - Fríelas en aceite a fuego bajo, moviéndolas, 6-8 minutos, hasta que estén de color marrón oscuro por igual.
+      - Pásalas al almíbar templado y déjalas al menos 1 hora, hasta que se hinchen. Sirve templadas.

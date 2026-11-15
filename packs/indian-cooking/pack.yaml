@@ -1,6 +1,6 @@
 id: indian-cooking
-version: 1
-updated: 2026-11-07
+version: 2
+updated: 2026-11-15
 language: en
 name: "World cuisine: India"
 series: World cuisine
@@ -656,3 +656,196 @@ recipes:
       - Boil the water with the spices and cinnamon for 5 minutes.
       - "Add the tea and sugar and boil for 2 minutes. Add the milk and let it come up to the boil twice, lowering the heat in between."
       - Strain and serve very hot.
+
+  - name: Masala dosa
+    health: [GREEN, "Fermented rice and lentil crêpe with spiced potato: plant-based and filling."]
+    nutrition: [380, 10, 64, 9]
+    photo: cocina-india/masala-dosa.jpg
+    category: Breads and doughs
+    difficulty: HARD
+    prep: 30
+    cook: 30
+    servings: 6
+    notes: The South Indian breakfast. The batter soaks for 6 hours and ferments overnight; then it cooks in minutes. Served with sambar and coconut chutney.
+    tags: [vegan, gluten-free, breakfast]
+    origin: South India
+    ingredients:
+      - group: For the batter
+        items:
+          - [long-grain rice, 300, g]
+          - [urad dal (split black gram), 100, g]
+          - [fenugreek seeds, 0.5, tsp]
+          - [salt, 1, tsp]
+          - [oil, 3, tbsp]
+      - group: For the filling
+        items:
+          - [boiled potatoes, 4, null]
+          - [onion, 1, null]
+          - [mustard seeds, 1, tsp]
+          - [turmeric, 0.5, tsp]
+          - [green chilli, 1, null]
+          - [curry leaves, 8, null, optional]
+          - [oil for the filling, 2, tbsp]
+    steps:
+      - Soak the rice and lentils with the fenugreek for 6 hours. Blend with water into a smooth batter, add the salt and leave covered somewhere warm to ferment for 8-12 hours.
+      - Fry the mustard seeds in the oil until they pop, add the onion, chilli and curry leaves, then the turmeric and crushed potatoes, and season.
+      - Heat a large pan, pour in a ladle of batter and spread it in a thin spiral. Drizzle oil round the edge and cook until golden and crisp.
+      - Put filling in the centre, fold the dosa and serve at once.
+
+  - name: Dal makhani
+    health: [YELLOW, "Black lentils and kidney beans with butter and cream: high in fibre, but rich."]
+    nutrition: [420, 16, 44, 20]
+    photo: cocina-india/dal-makhani.jpg
+    category: Legumes
+    difficulty: MEDIUM
+    prep: 15
+    cook: 120
+    servings: 6
+    notes: The creamy dal of Punjab. Soak the pulses overnight and simmer them slowly for a long time.
+    tags: [legumes, vegetarian, gluten-free]
+    origin: Punjab
+    utensils: [Pressure cooker]
+    ingredients:
+      - items:
+          - [whole black lentils (urad dal), 200, g]
+          - [red kidney beans, 50, g]
+          - [butter, 50, g]
+          - [onion, 1, null]
+          - [garlic cloves, 4, null]
+          - [grated ginger, 1, tbsp]
+          - [crushed tomatoes, 300, g]
+          - [garam masala, 1, tsp]
+          - [mild chilli powder, 1, tsp]
+          - [single cream, 100, ml]
+          - [salt, null, null]
+    steps:
+      - Boil the soaked pulses in salted water for 1 hour (25 minutes in a pressure cooker), until very tender.
+      - Fry the chopped onion in the butter, add the garlic, ginger and chilli, then the tomato. Cook for 10 minutes.
+      - Add the pulses with their liquid and simmer very gently for 45 minutes, stirring and crushing some to thicken.
+      - Stir in the garam masala and cream and serve with rice or bread.
+
+  - name: Sambar
+    health: [GREEN, "Lentil and vegetable stew with tamarind: lots of fibre and plant protein."]
+    nutrition: [230, 11, 34, 6]
+    photo: cocina-india/sambar.jpg
+    category: Legumes
+    difficulty: MEDIUM
+    prep: 20
+    cook: 40
+    servings: 6
+    notes: The South Indian lentil and vegetable stew served with dosas, idlis and rice. Sambar podi spice mix is sold ready-made.
+    tags: [legumes, vegan, gluten-free]
+    origin: South India
+    ingredients:
+      - items:
+          - [toor dal (yellow pigeon peas), 150, g]
+          - ["mixed vegetables (aubergine, carrot, pumpkin, beans)", 400, g]
+          - [onion, 1, null]
+          - [tomatoes, 2, null]
+          - [tamarind paste, 1, tbsp]
+          - [sambar podi (spice mix), 2, tbsp]
+          - [turmeric, 0.5, tsp]
+          - [mustard seeds, 1, tsp]
+          - [curry leaves, 8, null, optional]
+          - [oil, 2, tbsp]
+          - [salt, null, null]
+    steps:
+      - Boil the dal with the turmeric in 600 ml water for 25 minutes, until it falls apart, and mash it.
+      - Cook the chopped vegetables with the onion and tomato in a little water for 10 minutes.
+      - Add the dal, tamarind, sambar podi and salt and simmer 10 minutes more.
+      - Fry the mustard seeds and curry leaves in the oil until they pop and stir into the stew.
+
+  - name: Malai kofta
+    health: [RED, "Fried paneer and potato balls in cream sauce: very rich."]
+    nutrition: [560, 15, 34, 41]
+    photo: cocina-india/malai-kofta.jpg
+    category: Vegetables
+    difficulty: HARD
+    prep: 40
+    cook: 40
+    servings: 4
+    notes: A festive vegetarian dish from North India. Add the koftas to the sauce just before serving so they don't fall apart.
+    tags: [vegetarian, celebration]
+    ingredients:
+      - group: For the koftas
+        items:
+          - [grated paneer, 200, g]
+          - [boiled potatoes, 2, null]
+          - [cornflour, 2, tbsp]
+          - [chopped cashews, 2, tbsp]
+          - [salt, 0.5, tsp]
+          - [oil for frying, null, null]
+      - group: For the sauce
+        items:
+          - [onion, 1, null]
+          - [tomatoes, 3, null]
+          - [cashews, 50, g]
+          - [crushed ginger and garlic, 1, tbsp]
+          - [garam masala, 1, tsp]
+          - [mild chilli powder, 1, tsp]
+          - [single cream, 100, ml]
+          - [butter, 30, g]
+          - [sugar, 1, tsp]
+          - [salt, null, null]
+    steps:
+      - Mix the paneer, mashed potato, cornflour, cashews and salt and shape 12 balls. Fry them in hot oil until golden.
+      - Cook the onion, tomato and cashews with the ginger and garlic for 10 minutes and blend with a little water until very smooth.
+      - Simmer the sauce with the butter, spices, sugar and salt for 10 minutes and stir in the cream.
+      - Put the koftas on plates and pour the hot sauce over just before serving.
+
+  - name: Jeera rice
+    health: [GREEN, "Basmati rice with cumin: a simple side with little fat."]
+    nutrition: [260, 5, 52, 4]
+    category: Rice
+    difficulty: EASY
+    prep: 5
+    cook: 20
+    servings: 4
+    notes: The cumin rice served with dals and curries in North India.
+    tags: [rice, side, vegan, gluten-free]
+    ingredients:
+      - items:
+          - [basmati rice, 300, g]
+          - [cumin seeds, 2, tsp]
+          - [ghee or oil, 1, tbsp]
+          - [bay leaf, 1, null]
+          - [water, 500, ml]
+          - [salt, 1, tsp]
+          - [chopped coriander, 1, tbsp]
+    steps:
+      - Rinse the rice until the water runs clear and soak for 20 minutes. Drain.
+      - Fry the cumin and bay leaf in the ghee until the cumin sizzles.
+      - Add the rice, stir for 1 minute, pour in the salted water and bring to the boil.
+      - Cover and cook on the lowest heat for 12 minutes. Rest 5 minutes, fluff with a fork and sprinkle with coriander.
+
+  - name: Gulab jamun
+    health: [RED, "Fried balls in syrup: very sweet."]
+    nutrition: [260, 4, 44, 9]
+    photo: cocina-india/gulab-jamun.jpg
+    category: Desserts
+    difficulty: MEDIUM
+    prep: 20
+    cook: 25
+    servings: 8
+    notes: The sweet of weddings and Diwali. Fry over low heat so they cook through, then let them soak in the syrup.
+    tags: [dessert, fried, celebration]
+    ingredients:
+      - group: For the balls
+        items:
+          - [milk powder, 120, g]
+          - [plain flour, 40, g]
+          - [baking powder, 0.25, tsp]
+          - [ghee or melted butter, 1, tbsp]
+          - [milk, 60, ml]
+          - [oil for frying, null, null]
+      - group: For the syrup
+        items:
+          - [sugar, 300, g]
+          - [water, 350, ml]
+          - [cardamom pods, 4, null]
+          - [rose water, 1, tsp]
+    steps:
+      - Boil the sugar with the water and crushed cardamom for 5 minutes and add the rose water. Keep the syrup warm.
+      - Mix the milk powder, flour and baking powder, add the ghee and milk and form a soft dough without overworking. Roll 24 smooth balls with no cracks.
+      - Fry over low heat, moving them, for 6-8 minutes, until evenly dark brown.
+      - Transfer to the warm syrup and leave for at least 1 hour, until swollen. Serve warm.

@@ -1,6 +1,6 @@
 id: cocina-vietnamita
-version: 3
-updated: 2026-11-06
+version: 4
+updated: 2026-11-15
 language: es
 name: "Cocina del mundo: Vietnam"
 series: Cocina del mundo
@@ -697,3 +697,90 @@ recipes:
     steps:
       - Pon la pulpa del aguacate, la leche condensada, la leche y el hielo en el vaso de la batidora.
       - Tritura hasta que esté cremoso y sirve enseguida.
+
+  - name: Bò kho
+    health: [YELLOW, "Guiso de ternera con citronela y anís estrellado: mucha proteína, algo graso."]
+    nutrition: [460, 40, 16, 26]
+    photo: cocina-vietnamita/bo-kho.jpg
+    category: Carnes
+    difficulty: MEDIUM
+    prep: 20
+    cook: 150
+    servings: 6
+    notes: El guiso de ternera especiado del sur de Vietnam. Se toma con baguette para mojar o con fideos de arroz.
+    tags: [guiso, ternera]
+    origin: Sur de Vietnam
+    ingredients:
+      - items:
+          - [morcillo de ternera en dados, 1.2, kg]
+          - [tallos de citronela, 3, null]
+          - [zanahorias, 3, null]
+          - [chalotas, 4, null]
+          - [dientes de ajo, 4, null]
+          - [jengibre fresco, 1, trozo]
+          - [anís estrellado, 3, null]
+          - [rama de canela, 1, null]
+          - [concentrado de tomate, 2, cucharada]
+          - [salsa de pescado, 3, cucharada]
+          - [polvo de cinco especias, 1, cucharadita]
+          - [agua de coco o caldo, 1, l]
+          - [aceite, 2, cucharada]
+    steps:
+      - Marina la carne con la salsa de pescado, las cinco especias, el ajo y el jengibre rallados 1 hora.
+      - Dórala en el aceite, añade las chalotas, la citronela machacada y el concentrado y sofríe 3 minutos.
+      - Añade el agua de coco, el anís y la canela y cuece tapado a fuego suave 2 horas.
+      - Añade las zanahorias en trozos y cuece 30 minutos más, hasta que la carne esté muy tierna.
+
+  - name: Cháo gà
+    health: [GREEN, "Gachas de arroz con pollo y jengibre: ligeras y fáciles de digerir."]
+    nutrition: [340, 26, 40, 8]
+    photo: cocina-vietnamita/chao-ga.jpg
+    category: Arroces
+    difficulty: EASY
+    prep: 15
+    cook: 60
+    servings: 4
+    notes: El congee vietnamita, la comida de cuando se está enfermo. Tostar el arroz antes le da más sabor.
+    tags: [arroz, pollo, sin gluten]
+    ingredients:
+      - items:
+          - [arroz jazmín, 150, g]
+          - [muslos de pollo, 600, g]
+          - [jengibre fresco, 1, trozo]
+          - [chalotas, 2, null]
+          - [salsa de pescado, 2, cucharada]
+          - [agua, 2, l]
+          - [cebolletas, 2, null]
+          - [cilantro, 1, puñado]
+          - [pimienta negra, null, null]
+    steps:
+      - Cuece el pollo en el agua con el jengibre y las chalotas 30 minutos. Sácalo y desmenúzalo.
+      - Tuesta el arroz en una sartén seca 3 minutos y añádelo al caldo.
+      - Cuece a fuego suave 30 minutos, removiendo, hasta que el arroz se deshaga. Sazona con la salsa de pescado.
+      - Sirve con el pollo, la cebolleta, el cilantro y mucha pimienta.
+
+  - name: Chè ba màu
+    health: [RED, "Postre de judías dulces, gelatina y leche de coco: muy dulce."]
+    nutrition: [320, 6, 54, 9]
+    category: Postres
+    difficulty: MEDIUM
+    prep: 30
+    cook: 40
+    servings: 6
+    notes: El postre de «tres colores» con judía mungo, judía roja y gelatina verde de pandan, con hielo picado y leche de coco.
+    tags: [postre, sin gluten, vegana]
+    ingredients:
+      - items:
+          - [judía mungo pelada, 100, g]
+          - [judías rojas cocidas, 250, g]
+          - [azúcar, 150, g]
+          - [agar-agar en polvo, 2, g]
+          - [extracto o hojas de pandan, 1, cucharadita]
+          - [leche de coco, 400, ml]
+          - [sal, 1, pizca]
+          - [hielo picado, null, null]
+    steps:
+      - Cuece la judía mungo en agua 25 minutos, hasta que se deshaga, y tritúrala con 50 g de azúcar.
+      - Cuece las judías rojas 10 minutos con 50 g de azúcar y un poco de agua.
+      - Hierve 400 ml de agua con el agar, el pandan y 30 g de azúcar 2 minutos, cuaja en un molde y córtalo en tiras.
+      - Calienta la leche de coco con el resto del azúcar y la sal. En vasos altos, pon capas de judía roja, mungo y gelatina, cubre con hielo y la leche de coco.

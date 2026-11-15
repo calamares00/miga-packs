@@ -1,6 +1,6 @@
 id: cocina-indonesia
-version: 3
-updated: 2026-11-06
+version: 4
+updated: 2026-11-15
 language: es
 name: "Cocina del mundo: Indonesia"
 series: Cocina del mundo
@@ -678,3 +678,64 @@ recipes:
       - Corta el aguacate en dados con una cuchara y la jaca en tiras.
       - Reparte en vasos el aguacate, la jaca y el coco.
       - Añade el hielo picado y riega con la leche de coco, la leche condensada y el sirope. Sirve enseguida.
+
+  - name: Ayam bakar
+    health: [YELLOW, "Pollo a la brasa con salsa de soja dulce: proteína, con azúcar en el glaseado."]
+    nutrition: [420, 36, 16, 23]
+    photo: cocina-indonesia/ayam-bakar.jpg
+    category: Carnes
+    difficulty: MEDIUM
+    prep: 20
+    cook: 50
+    servings: 4
+    notes: "El pollo a la brasa de Java: primero se cuece en la pasta de especias y luego se asa con salsa de soja dulce (kecap manis)."
+    tags: [pollo, barbacoa]
+    origin: Java
+    utensils: [Barbacoa]
+    ingredients:
+      - items:
+          - [muslos y contramuslos de pollo, 1.2, kg]
+          - [chalotas, 6, null]
+          - [dientes de ajo, 4, null]
+          - [jengibre fresco, 1, trozo]
+          - [cúrcuma, 1, cucharadita]
+          - [cilantro molido, 1, cucharadita]
+          - [kecap manis (salsa de soja dulce), 5, cucharada]
+          - [pasta de tamarindo, 1, cucharada]
+          - [agua, 300, ml]
+          - [aceite, 2, cucharada]
+          - [sal, null, null]
+    steps:
+      - Tritura las chalotas, el ajo y el jengibre con las especias y fríe la pasta en el aceite 5 minutos.
+      - Añade el pollo, el agua, el tamarindo, 2 cucharadas de kecap manis y sal y cuece tapado 30 minutos.
+      - Destapa y reduce la salsa hasta que esté espesa.
+      - Pinta el pollo con la salsa reducida y el resto del kecap manis y ásalo a la brasa o la plancha 5 minutos por lado, hasta que esté caramelizado.
+
+  - name: Bubur ayam
+    health: [GREEN, "Gachas de arroz con pollo: ligeras y fáciles de digerir."]
+    nutrition: [360, 24, 46, 8]
+    photo: cocina-indonesia/bubur-ayam.jpg
+    category: Arroces
+    difficulty: EASY
+    prep: 15
+    cook: 70
+    servings: 4
+    notes: Las gachas de arroz con pollo del desayuno indonesio, con muchos acompañamientos para añadir en la mesa.
+    tags: [arroz, desayuno, pollo, sin gluten]
+    ingredients:
+      - items:
+          - [arroz, 200, g]
+          - [pechugas de pollo, 2, null]
+          - [caldo de pollo, 2, l]
+          - [jengibre fresco, 1, trozo]
+          - [hoja de laurel, 1, null]
+          - [chalotas fritas, 4, cucharada]
+          - [cebolletas, 2, null]
+          - [huevos cocidos, 2, null]
+          - [kecap manis o salsa de soja, 2, cucharada]
+          - [sal, null, null]
+    steps:
+      - Cuece las pechugas en el caldo con el jengibre y el laurel 20 minutos. Sácalas y desmenúzalas.
+      - Añade el arroz al caldo y cuece a fuego suave 45-50 minutos, removiendo, hasta que se deshaga en unas gachas espesas. Sala.
+      - Reparte las gachas en cuencos y pon encima el pollo, el huevo partido, la cebolleta y las chalotas fritas.
+      - Riega con un poco de kecap manis al servir.

@@ -1,6 +1,6 @@
 id: vietnamese-cooking
-version: 3
-updated: 2026-11-06
+version: 4
+updated: 2026-11-15
 language: en
 name: "World cuisine: Vietnam"
 series: World cuisine
@@ -698,3 +698,90 @@ recipes:
     steps:
       - Put the avocado flesh, condensed milk, milk and ice in the blender.
       - Blend until creamy and serve straight away.
+
+  - name: Bò kho
+    health: [YELLOW, "Beef stew with lemongrass and star anise: lots of protein, a little fatty."]
+    nutrition: [460, 40, 16, 26]
+    photo: cocina-vietnamita/bo-kho.jpg
+    category: Meat
+    difficulty: MEDIUM
+    prep: 20
+    cook: 150
+    servings: 6
+    notes: The spiced beef stew of southern Vietnam. Eaten with a baguette for dipping or with rice noodles.
+    tags: [stew, beef]
+    origin: Southern Vietnam
+    ingredients:
+      - items:
+          - [beef shin in cubes, 1.2, kg]
+          - [lemongrass stalks, 3, null]
+          - [carrots, 3, null]
+          - [shallots, 4, null]
+          - [garlic cloves, 4, null]
+          - [fresh ginger, 1, piece]
+          - [star anise, 3, null]
+          - [cinnamon stick, 1, null]
+          - [tomato paste, 2, tbsp]
+          - [fish sauce, 3, tbsp]
+          - [five-spice powder, 1, tsp]
+          - [coconut water or stock, 1, l]
+          - [oil, 2, tbsp]
+    steps:
+      - Marinate the beef with the fish sauce, five-spice and grated garlic and ginger for 1 hour.
+      - Brown it in the oil, add the shallots, bruised lemongrass and tomato paste and fry for 3 minutes.
+      - Add the coconut water, star anise and cinnamon and simmer, covered, for 2 hours.
+      - Add the carrots in chunks and simmer 30 minutes more, until the beef is very tender.
+
+  - name: Cháo gà
+    health: [GREEN, "Rice porridge with chicken and ginger: light and easy to digest."]
+    nutrition: [340, 26, 40, 8]
+    photo: cocina-vietnamita/chao-ga.jpg
+    category: Rice
+    difficulty: EASY
+    prep: 15
+    cook: 60
+    servings: 4
+    notes: Vietnamese congee, the food for when you're unwell. Toasting the rice first gives more flavour.
+    tags: [rice, chicken, gluten-free]
+    ingredients:
+      - items:
+          - [jasmine rice, 150, g]
+          - [chicken thighs, 600, g]
+          - [fresh ginger, 1, piece]
+          - [shallots, 2, null]
+          - [fish sauce, 2, tbsp]
+          - [water, 2, l]
+          - [spring onions, 2, null]
+          - [coriander, 1, handful]
+          - [black pepper, null, null]
+    steps:
+      - Simmer the chicken in the water with the ginger and shallots for 30 minutes. Lift out and shred.
+      - Toast the rice in a dry pan for 3 minutes and add it to the broth.
+      - Simmer gently for 30 minutes, stirring, until the rice breaks down. Season with the fish sauce.
+      - Serve with the chicken, spring onion, coriander and plenty of pepper.
+
+  - name: Chè ba màu
+    health: [RED, "Sweet bean, jelly and coconut milk dessert: very sweet."]
+    nutrition: [320, 6, 54, 9]
+    category: Desserts
+    difficulty: MEDIUM
+    prep: 30
+    cook: 40
+    servings: 6
+    notes: The "three-colour" dessert of mung bean, red bean and green pandan jelly, with crushed ice and coconut milk.
+    tags: [dessert, gluten-free, vegan]
+    ingredients:
+      - items:
+          - [split mung beans, 100, g]
+          - [cooked red beans, 250, g]
+          - [sugar, 150, g]
+          - [agar-agar powder, 2, g]
+          - [pandan extract or leaves, 1, tsp]
+          - [coconut milk, 400, ml]
+          - [salt, 1, pinch]
+          - [crushed ice, null, null]
+    steps:
+      - Simmer the mung beans in water for 25 minutes, until they fall apart, and blend with 50 g of the sugar.
+      - Cook the red beans for 10 minutes with 50 g of sugar and a little water.
+      - Boil 400 ml water with the agar, pandan and 30 g of sugar for 2 minutes, set in a mould and cut into strips.
+      - Warm the coconut milk with the rest of the sugar and the salt. In tall glasses layer red beans, mung beans and jelly, top with ice and coconut milk.

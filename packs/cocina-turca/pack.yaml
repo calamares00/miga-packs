@@ -1,6 +1,6 @@
 id: cocina-turca
-version: 1
-updated: 2026-11-14
+version: 2
+updated: 2026-11-15
 language: es
 name: "Cocina del mundo: Turquía"
 series: Cocina del mundo
@@ -647,3 +647,156 @@ recipes:
     steps:
       - Bate el yogur con el agua y la sal 1 minuto, hasta que haga espuma.
       - Sirve muy frío con hielo y, si quieres, una pizca de menta.
+
+  - name: Hünkar beğendi
+    health: [YELLOW, "Guiso de cordero sobre crema de berenjena con queso: mucha proteína y grasa."]
+    nutrition: [580, 38, 22, 38]
+    photo: cocina-turca/hunkar-begendi.jpg
+    category: Carnes
+    difficulty: MEDIUM
+    prep: 30
+    cook: 90
+    servings: 4
+    notes: "«El sultán quedó encantado», plato de la cocina palaciega otomana: guiso de cordero sobre un puré de berenjena asada con bechamel y queso."
+    tags: [cordero, berenjena, guiso]
+    origin: Estambul
+    ingredients:
+      - group: Para el guiso
+        items:
+          - [cordero o ternera en dados, 700, g]
+          - [cebolla, 1, null]
+          - [pimiento verde, 1, null]
+          - [tomates, 2, null]
+          - [concentrado de tomate, 1, cucharada]
+          - [mantequilla, 20, g]
+          - [sal y pimienta, null, null]
+      - group: Para el puré de berenjena
+        items:
+          - [berenjenas, 4, null]
+          - [mantequilla para el puré, 40, g]
+          - [harina, 2, cucharada]
+          - [leche, 300, ml]
+          - [queso kaşar o parmesano rallado, 60, g]
+          - [zumo de limón, 1, cucharada]
+    steps:
+      - Dora la carne en la mantequilla, añade la cebolla y el pimiento picados, el tomate y el concentrado, cubre con agua, sala y cuece tapado 1 hora y cuarto.
+      - Asa las berenjenas al fuego o al horno hasta que estén muy blandas, pélalas, rocíalas con el limón y pícalas.
+      - Haz una bechamel con la mantequilla, la harina y la leche, añade la berenjena y cuece 5 minutos. Fuera del fuego, añade el queso.
+      - Sirve el puré en los platos con el guiso de carne en el centro.
+
+  - name: İzmir köfte
+    health: [YELLOW, "Albóndigas al horno con patatas y salsa de tomate: completo y saciante."]
+    nutrition: [520, 30, 36, 28]
+    photo: cocina-turca/izmir-kofte.jpg
+    category: Carnes
+    difficulty: EASY
+    prep: 25
+    cook: 50
+    servings: 4
+    notes: Albóndigas alargadas de Esmirna horneadas con patata, pimiento y tomate en una sola bandeja.
+    tags: [albóndigas, horno]
+    origin: Esmirna
+    utensils: [Horno]
+    ingredients:
+      - items:
+          - [carne picada de ternera, 500, g]
+          - [cebolla rallada, 1, null]
+          - [pan rallado, 40, g]
+          - [huevo, 1, null]
+          - [comino molido, 1, cucharadita]
+          - [perejil picado, 2, cucharada]
+          - [patatas, 3, null]
+          - [pimientos verdes, 3, null]
+          - [tomates, 2, null]
+          - [concentrado de tomate, 2, cucharada]
+          - [agua caliente, 300, ml]
+          - [aceite de oliva, 4, cucharada]
+          - [sal y pimienta, null, null]
+    steps:
+      - Amasa la carne con la cebolla, el pan rallado, el huevo, el comino, el perejil, sal y pimienta y forma 16 albóndigas alargadas. Dóralas un momento en la sartén.
+      - Corta las patatas en gajos, fríelas o ásalas 10 minutos y colócalas en una fuente alternando con las albóndigas, el pimiento y el tomate en rodajas.
+      - Disuelve el concentrado en el agua caliente con el aceite y sal y viértelo por encima.
+      - Hornea a 190 °C 35-40 minutos, hasta que las patatas estén tiernas.
+
+  - name: Yayla çorbası
+    health: [GREEN, "Sopa de yogur con arroz y menta: ligera y reconfortante."]
+    nutrition: [210, 9, 26, 7]
+    photo: cocina-turca/yayla-corbas.jpg
+    category: Sopas y cremas
+    difficulty: EASY
+    prep: 10
+    cook: 25
+    servings: 4
+    notes: "La «sopa de las tierras altas»: arroz y yogur con mantequilla y menta. El yogur se templa antes para que no se corte."
+    tags: [sopa, vegetariana]
+    ingredients:
+      - items:
+          - [arroz, 80, g]
+          - [yogur natural, 500, g]
+          - [yema de huevo, 1, null]
+          - [harina, 1, cucharada]
+          - [caldo de pollo o verduras, 1, l]
+          - [mantequilla, 30, g]
+          - [menta seca, 2, cucharadita]
+          - [sal, null, null]
+    steps:
+      - Cuece el arroz en el caldo 15 minutos.
+      - Bate el yogur con la yema y la harina hasta que esté liso. Añade poco a poco un cucharón de caldo caliente, sin dejar de batir.
+      - Vierte la mezcla en la olla removiendo y calienta a fuego suave 5 minutos, sin que hierva. Sala.
+      - Funde la mantequilla con la menta hasta que chisporrotee y viértela sobre la sopa al servir.
+
+  - name: Sütlaç
+    health: [YELLOW, "Arroz con leche gratinado: postre con azúcar, pero con calcio."]
+    nutrition: [280, 8, 48, 6]
+    photo: cocina-turca/sutlac.jpg
+    category: Postres
+    difficulty: EASY
+    prep: 10
+    cook: 50
+    servings: 6
+    notes: El arroz con leche turco se dora en el horno hasta que se forma una capa tostada. Se toma frío.
+    tags: [postre, horno, sin gluten]
+    utensils: [Horno]
+    ingredients:
+      - items:
+          - [arroz redondo, 100, g]
+          - [agua, 300, ml]
+          - [leche entera, 1, l]
+          - [azúcar, 140, g]
+          - [almidón de arroz o maicena, 2, cucharada]
+          - [extracto de vainilla, 1, cucharadita]
+          - [canela molida, null, null]
+    steps:
+      - Cuece el arroz en el agua 15 minutos, hasta que la absorba.
+      - Añade la leche y cuece 20 minutos removiendo. Añade el azúcar y el almidón disuelto en un poco de leche fría y cuece 5 minutos hasta que espese.
+      - Reparte en cazuelitas de barro y colócalas en una bandeja con un dedo de agua.
+      - Gratina en el horno con el grill a 220 °C hasta que la superficie esté dorada. Enfría y sirve con canela.
+
+  - name: Gözleme
+    health: [YELLOW, "Torta fina rellena de espinacas y queso: equilibrada, algo grasa."]
+    nutrition: [410, 15, 48, 17]
+    photo: cocina-turca/gozleme.jpg
+    category: Panes y masas
+    difficulty: MEDIUM
+    prep: 40
+    cook: 20
+    servings: 4
+    notes: La torta de los pueblos de Anatolia, estirada muy fina y hecha en la plancha (sac). Se rellena de queso, espinacas, patata o carne.
+    tags: [masa, vegetariana]
+    utensils: [Plancha]
+    ingredients:
+      - items:
+          - [harina de trigo, 400, g]
+          - [yogur natural, 100, g]
+          - [agua templada, 160, ml]
+          - [sal, 1, cucharadita]
+          - [espinacas, 300, g]
+          - [queso feta o beyaz peynir, 200, g]
+          - [cebolla, 1, null]
+          - [mantequilla derretida, 40, g]
+          - [copos de pimiento rojo (pul biber), 1, cucharadita]
+    steps:
+      - Amasa la harina con el yogur, el agua y la sal hasta tener una masa blanda. Divide en 4 y deja reposar 30 minutos.
+      - Saltea la cebolla y las espinacas picadas hasta que pierdan el agua y mézclalas con el queso y el pul biber.
+      - Estira cada bola muy fina en un rectángulo, reparte el relleno en la mitad y dobla cerrando los bordes.
+      - Cocina en la plancha seca 3-4 minutos por lado, pintando con mantequilla, hasta que tenga manchas doradas.

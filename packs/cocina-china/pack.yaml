@@ -1,6 +1,6 @@
 id: cocina-china
-version: 3
-updated: 2026-11-06
+version: 4
+updated: 2026-11-15
 language: es
 name: "Cocina del mundo: China"
 series: Cocina del mundo
@@ -673,3 +673,185 @@ recipes:
       - Fríelas en el aceite a fuego medio-alto 6-8 minutos, moviéndolas, hasta que la piel se arrugue y tenga puntos dorados. Sácalas.
       - En el aceite que queda, saltea la carne hasta que esté crujiente. Añade los chiles, la pimienta de Sichuan, el ajo y el jengibre picados y saltea 30 segundos.
       - Devuelve las judías con la soja, el azúcar y la sal y saltea 1 minuto.
+
+  - name: Arroz frito de Yangzhou
+    health: [YELLOW, "Arroz salteado con huevo, gambas y verduras: completo, con algo de grasa."]
+    nutrition: [480, 20, 64, 15]
+    photo: cocina-china/arroz-frito-de-yangzhou.jpg
+    category: Arroces
+    difficulty: EASY
+    prep: 15
+    cook: 10
+    servings: 4
+    notes: El arroz frito clásico de la ciudad de Yangzhou, del que viene el «tres delicias». Sale mejor con arroz cocido del día anterior.
+    tags: [arroz, wok, rápida]
+    origin: Yangzhou
+    utensils: [Wok]
+    ingredients:
+      - items:
+          - [arroz cocido frío, 600, g]
+          - [huevos, 3, null]
+          - [gambas peladas, 150, g]
+          - [jamón cocido o char siu en dados, 100, g]
+          - [guisantes, 80, g]
+          - [cebolletas, 3, null]
+          - [salsa de soja clara, 2, cucharada]
+          - [aceite de girasol, 3, cucharada]
+          - [sal, null, null]
+    steps:
+      - Bate los huevos y cuájalos en el wok con una cucharada de aceite en un revuelto suelto. Resérvalos.
+      - Saltea las gambas 1 minuto y resérvalas.
+      - Calienta el resto del aceite a fuego fuerte y saltea el arroz separando los granos 3 minutos. Añade el jamón y los guisantes.
+      - Vuelve a poner el huevo y las gambas, añade la soja y la cebolleta, sala y saltea 1 minuto más.
+
+  - name: Baozi de cerdo
+    health: [YELLOW, "Panecillos al vapor rellenos de cerdo: equilibrados, con hidratos y grasa del cerdo."]
+    nutrition: [310, 14, 40, 10]
+    photo: cocina-china/baozi-de-cerdo.jpg
+    category: Panes y masas
+    difficulty: HARD
+    prep: 60
+    cook: 15
+    servings: 12
+    notes: Los bollitos al vapor del desayuno chino. Salen 12. Se congelan bien ya cocidos y se recalientan al vapor.
+    tags: [masa, vapor, cerdo]
+    utensils: [Vaporera]
+    ingredients:
+      - group: Para la masa
+        items:
+          - [harina de trigo, 400, g]
+          - [levadura seca de panadería, 6, g]
+          - [azúcar, 30, g]
+          - [agua templada, 220, ml]
+          - [aceite de girasol, 1, cucharada]
+      - group: Para el relleno
+        items:
+          - [carne picada de cerdo, 400, g]
+          - [cebolletas, 3, null]
+          - [jengibre rallado, 1, cucharada]
+          - [salsa de soja, 2, cucharada]
+          - [salsa de ostras, 1, cucharada]
+          - [aceite de sésamo, 1, cucharada]
+          - [azúcar para el relleno, 1, cucharadita]
+          - [agua fría, 3, cucharada]
+    steps:
+      - Amasa los ingredientes de la masa 10 minutos, hasta que esté lisa, y deja levar 1 hora.
+      - Mezcla la carne con el resto de ingredientes del relleno, añadiendo el agua poco a poco hasta que quede jugosa.
+      - Divide la masa en 12 bolas, estíralas en discos con el centro más grueso, pon una cucharada de relleno y cierra plegando los bordes hacia arriba.
+      - Ponlos sobre cuadrados de papel en la vaporera, deja levar 20 minutos y cuécelos al vapor 15 minutos. Deja 3 minutos antes de destapar.
+
+  - name: Berenjenas yu xiang
+    health: [YELLOW, "Berenjena salteada en salsa agridulce y picante: verdura, pero absorbe aceite."]
+    nutrition: [240, 4, 20, 16]
+    photo: cocina-china/berenjenas-yu-xiang.jpg
+    category: Verduras
+    difficulty: MEDIUM
+    prep: 15
+    cook: 15
+    servings: 4
+    notes: Plato de Sichuan con la salsa «sabor a pescado», que no lleva pescado. La pasta de habas picante (doubanjiang) se vende en tiendas asiáticas.
+    tags: [berenjena, picante, wok, vegana]
+    origin: Sichuan
+    utensils: [Wok]
+    ingredients:
+      - items:
+          - [berenjenas alargadas, 3, null]
+          - [pasta de habas picante (doubanjiang), 1, cucharada]
+          - [dientes de ajo, 3, null]
+          - [jengibre fresco, 1, trozo]
+          - [cebolletas, 2, null]
+          - [salsa de soja, 1, cucharada]
+          - [vinagre negro chino, 2, cucharada]
+          - [azúcar, 1, cucharada]
+          - [maicena, 1, cucharadita]
+          - [agua, 100, ml]
+          - [aceite de girasol, 4, cucharada]
+    steps:
+      - Corta las berenjenas en bastones, sálalas 15 minutos y sécalas.
+      - Mezcla la soja, el vinagre, el azúcar, la maicena y el agua.
+      - Saltea las berenjenas en el aceite a fuego fuerte hasta que estén doradas y tiernas. Resérvalas.
+      - Saltea la pasta de habas con el ajo y el jengibre picados 30 segundos, añade la salsa y las berenjenas y cuece hasta que espese. Termina con la cebolleta.
+
+  - name: Huevos al té
+    health: [GREEN, "Huevos cocidos marinados en té y especias: proteína con poca grasa."]
+    nutrition: [80, 7, 1, 5]
+    photo: cocina-china/huevos-al-te.jpg
+    category: Huevos
+    difficulty: EASY
+    prep: 10
+    cook: 30
+    servings: 8
+    notes: Los huevos jaspeados de los puestos callejeros. Cuanto más tiempo en la marinada, más sabor y más marcado el dibujo.
+    tags: [huevos, aperitivo, sin gluten]
+    ingredients:
+      - items:
+          - [huevos, 8, null]
+          - [té negro, 2, cucharada]
+          - [salsa de soja, 4, cucharada]
+          - [anís estrellado, 2, null]
+          - [rama de canela, 1, null]
+          - [granos de pimienta de Sichuan, 1, cucharadita]
+          - [azúcar, 1, cucharada]
+          - [agua, 1, l]
+    steps:
+      - Cuece los huevos 8 minutos y enfríalos en agua fría.
+      - Golpea la cáscara por todas partes con una cuchara para agrietarla sin pelarla.
+      - Hierve el agua con el té, la soja, las especias y el azúcar, añade los huevos y cuece a fuego suave 20 minutos.
+      - Deja los huevos en el líquido en la nevera al menos 12 horas. Pélalos al servir.
+
+  - name: Pollo bai qie ji
+    health: [GREEN, "Pollo escalfado con salsa de jengibre: mucha proteína y poca grasa si se quita la piel."]
+    nutrition: [420, 40, 2, 27]
+    photo: cocina-china/pollo-bai-qie-ji.jpg
+    category: Carnes
+    difficulty: MEDIUM
+    prep: 15
+    cook: 50
+    servings: 4
+    notes: "El pollo «cortado en blanco» cantonés: se escalfa sin hervir para que quede muy jugoso. Se sirve frío o templado."
+    tags: [pollo, sin gluten]
+    origin: Cantón
+    ingredients:
+      - items:
+          - [pollo entero, 1.5, kg]
+          - [jengibre fresco, 1, trozo]
+          - [cebolletas, 6, null]
+          - [sal gruesa, 2, cucharada]
+          - [aceite de girasol, 4, cucharada]
+          - [jengibre fresco rallado, 3, cucharada]
+          - [sal fina, 1, cucharadita]
+    steps:
+      - Lleva a ebullición una olla grande de agua con la sal gruesa, el jengibre en rodajas y 2 cebolletas. Mete el pollo, espera a que vuelva a hervir, tapa y apaga el fuego.
+      - Déjalo en el agua tapado 45 minutos, hasta que el jugo del muslo salga claro, y pásalo a un bol con agua y hielo 10 minutos.
+      - Pica el resto de cebolletas y mézclalas con el jengibre rallado y la sal fina. Vierte encima el aceite muy caliente.
+      - Corta el pollo en trozos con un cuchillo grande y sírvelo con la salsa de jengibre.
+
+  - name: Fideos de arroz con ternera (gan chao niu he)
+    health: [YELLOW, "Fideos de arroz salteados con ternera: completo, con bastante aceite."]
+    nutrition: [520, 26, 66, 17]
+    photo: cocina-china/fideos-de-arroz-con-ternera.jpg
+    category: Pastas
+    difficulty: MEDIUM
+    prep: 20
+    cook: 10
+    servings: 4
+    notes: Un clásico cantonés de wok muy caliente. Los fideos anchos y frescos de arroz (ho fun) se venden en tiendas asiáticas; sirven los secos remojados.
+    tags: [fideos, wok, ternera]
+    origin: Cantón
+    utensils: [Wok]
+    ingredients:
+      - items:
+          - [fideos anchos de arroz frescos, 500, g]
+          - [filete de ternera en tiras finas, 300, g]
+          - [brotes de soja, 200, g]
+          - [cebolletas, 4, null]
+          - [salsa de soja clara, 2, cucharada]
+          - [salsa de soja oscura, 1, cucharada]
+          - [salsa de ostras, 1, cucharada]
+          - [maicena, 1, cucharadita]
+          - [aceite de girasol, 4, cucharada]
+    steps:
+      - Marina la ternera con una cucharada de soja clara y la maicena 15 minutos. Separa los fideos con las manos.
+      - Saltea la ternera en el wok muy caliente con una cucharada de aceite 1 minuto y resérvala.
+      - Añade el resto del aceite y los fideos, extiéndelos y deja que se tuesten un poco antes de removerlos. Añade las salsas.
+      - Vuelve a poner la ternera, los brotes de soja y la cebolleta en trozos y saltea 1 minuto a fuego máximo.

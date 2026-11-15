@@ -1,6 +1,6 @@
 id: cocina-argentina
-version: 3
-updated: 2026-11-06
+version: 4
+updated: 2026-11-15
 language: es
 name: "Cocina del mundo: Argentina"
 series: Cocina del mundo
@@ -623,3 +623,88 @@ recipes:
       - Mezcla el almidón con la sal y la manteca. Añade los huevos, el queso y la leche poco a poco y amasa hasta tener una masa suave que no se pegue.
       - Forma bolitas de 3 cm y colócalas en una bandeja con papel de horno.
       - Hornea 18-20 minutos, hasta que estén apenas doradas.
+
+  - name: Vitel toné
+    health: [YELLOW, "Ternera fría con salsa de atún y mayonesa: mucha proteína, con bastante grasa."]
+    nutrition: [420, 36, 3, 29]
+    photo: cocina-argentina/vitel-tone.jpg
+    category: Carnes
+    difficulty: MEDIUM
+    prep: 30
+    cook: 90
+    servings: 8
+    notes: De origen piamontés, en Argentina es el plato frío de Nochebuena. Se prepara el día antes y se sirve frío.
+    tags: [navidad, ternera, plato frío]
+    ingredients:
+      - group: Para la carne
+        items:
+          - [peceto o redondo de ternera, 1.2, kg]
+          - [cebolla, 1, null]
+          - [zanahoria, 1, null]
+          - [rama de apio, 1, null]
+          - [hoja de laurel, 1, null]
+          - [vino blanco, 200, ml]
+          - [sal, null, null]
+      - group: Para la salsa
+        items:
+          - [atún en aceite escurrido, 160, g]
+          - [filetes de anchoa, 4, null]
+          - [mayonesa, 250, g]
+          - [alcaparras, 2, cucharada]
+          - [caldo de la cocción, 100, ml]
+    steps:
+      - Cubre la carne con agua, el vino, las verduras, el laurel y sal y cuécela a fuego suave 1 hora y media. Déjala enfriar en el caldo.
+      - Tritura el atún con las anchoas, la mitad de las alcaparras, la mayonesa y el caldo hasta tener una salsa lisa.
+      - Corta la carne fría en lonchas finas y colócalas en una fuente.
+      - Cúbrelas con la salsa, decora con el resto de alcaparras y refrigera al menos 4 horas.
+
+  - name: Fainá
+    health: [GREEN, "Torta de harina de garbanzo: proteína vegetal y fibra, sin gluten."]
+    nutrition: [230, 8, 26, 10]
+    photo: cocina-argentina/faina.jpg
+    category: Panes y masas
+    difficulty: EASY
+    prep: 10
+    cook: 20
+    servings: 6
+    notes: Llegó con los genoveses al Río de la Plata. En las pizzerías de Buenos Aires se pone encima de la porción de pizza («a caballo»).
+    tags: [vegana, sin gluten, horno]
+    origin: Buenos Aires
+    utensils: [Horno]
+    ingredients:
+      - items:
+          - [harina de garbanzo, 250, g]
+          - [agua, 750, ml]
+          - [aceite de oliva, 5, cucharada]
+          - [sal, 1, cucharadita]
+          - [pimienta negra, null, null]
+    steps:
+      - Bate la harina con el agua y la sal hasta que no queden grumos y deja reposar al menos 2 horas. Retira la espuma.
+      - Precalienta el horno a 250 °C con una bandeja redonda grande dentro y el aceite en ella.
+      - "Vierte la mezcla en la bandeja caliente: debe quedar fina, de menos de 1 cm."
+      - Hornea 15-20 minutos, hasta que esté dorada por encima. Sirve caliente con pimienta.
+
+  - name: Pastelitos de membrillo
+    health: [RED, "Hojaldre frito con dulce de membrillo y almíbar: muy calórico."]
+    nutrition: [280, 3, 38, 13]
+    photo: cocina-argentina/pastelitos-de-membrillo.jpg
+    category: Postres
+    difficulty: MEDIUM
+    prep: 30
+    cook: 20
+    servings: 12
+    notes: Los pastelitos criollos del 25 de mayo y del 9 de julio. Con dos cuadrados de hojaldre girados forman una estrella.
+    tags: [postre, fritos, fiesta]
+    ingredients:
+      - items:
+          - [láminas de hojaldre, 2, null]
+          - [dulce de membrillo, 250, g]
+          - [aceite para freír, null, null]
+          - [azúcar, 200, g]
+          - [agua, 200, ml]
+          - [grageas de colores, 2, cucharada, optional]
+    steps:
+      - Corta el hojaldre en 24 cuadrados de unos 8 cm. Pon un dado de membrillo en el centro de la mitad de ellos.
+      - Cubre cada uno con otro cuadrado girado 45 grados, moja los bordes y aprieta alrededor del relleno. Haz un corte desde cada punta hacia el centro.
+      - Fríelos en aceite a 170 °C hasta que estén dorados y se abran en capas.
+      - Hierve el azúcar con el agua 5 minutos para hacer el almíbar, baña los pastelitos y decora con las grageas.

@@ -1,6 +1,6 @@
 id: cocina-mediterranea
-version: 3
-updated: 2026-11-06
+version: 4
+updated: 2026-11-15
 language: es
 name: Cocina mediterránea
 series: Cocina del mundo
@@ -641,3 +641,147 @@ recipes:
       - Cuela la leche sobre las yemas, mezcla y devuelve al fuego suave, removiendo sin parar hasta que espese, sin que hierva.
       - Reparte en cazuelitas, enfría y refrigera al menos 3 horas.
       - Antes de servir, espolvorea azúcar y quémalo con soplete hasta caramelizar.
+
+  - name: Fattoush
+    health: [GREEN, "Ensalada de verduras con pan tostado y zumaque: fresca y con fibra."]
+    nutrition: [240, 5, 26, 13]
+    photo: cocina-mediterranea/fattoush.jpg
+    category: Ensaladas
+    difficulty: EASY
+    prep: 20
+    cook: 10
+    servings: 4
+    notes: La ensalada libanesa para aprovechar el pan de pita del día anterior. El zumaque le da su toque ácido.
+    tags: [ensalada, vegana, aprovechamiento]
+    origin: Líbano
+    originCountry: LB
+    ingredients:
+      - items:
+          - [panes de pita, 2, null]
+          - [lechuga romana, 1, null]
+          - [tomates, 3, null]
+          - [pepino, 1, null]
+          - [rábanos, 6, null]
+          - [cebolletas, 3, null]
+          - [perejil y hierbabuena picados, 4, cucharada]
+          - [zumaque, 2, cucharadita]
+          - [zumo de limón, 2, cucharada]
+          - [melaza de granada, 1, cucharada, optional]
+          - [aceite de oliva virgen extra, 5, cucharada]
+          - [sal, null, null]
+    steps:
+      - Trocea las pitas, rocíalas con una cucharada de aceite y tuéstalas en el horno o la sartén hasta que estén crujientes.
+      - Trocea la lechuga y corta en dados el tomate, el pepino, los rábanos y la cebolleta.
+      - Mezcla el resto del aceite con el limón, la melaza, un poco de zumaque y sal.
+      - Junta las verduras, las hierbas y el pan, aliña y espolvorea el resto del zumaque.
+
+  - name: Baba ganoush
+    health: [GREEN, "Crema de berenjena asada con tahina: vegetal y con grasas buenas."]
+    nutrition: [150, 3, 10, 11]
+    photo: cocina-mediterranea/baba-ganoush.jpg
+    category: Entrantes
+    difficulty: EASY
+    prep: 15
+    cook: 40
+    servings: 6
+    notes: La crema levantina de berenjena ahumada. Asar la berenjena directamente sobre la llama le da el sabor a humo.
+    tags: [aperitivo, berenjena, vegana, sin gluten]
+    origin: Levante mediterráneo
+    originCountry: LB
+    ingredients:
+      - items:
+          - [berenjenas, 2, null]
+          - [tahina, 3, cucharada]
+          - [diente de ajo, 1, null]
+          - [zumo de limón, 2, cucharada]
+          - [aceite de oliva virgen extra, 2, cucharada]
+          - [pimentón o comino, 1, pizca]
+          - [perejil picado, 1, cucharada]
+          - [sal, null, null]
+    steps:
+      - Asa las berenjenas enteras sobre la llama o en el horno a 220 °C, dándoles la vuelta, hasta que la piel se queme y estén blandas.
+      - Déjalas escurrir en un colador 10 minutos, pélalas y aplasta la pulpa con un tenedor.
+      - Mézclala con la tahina, el ajo machacado, el limón y la sal.
+      - Sirve con un chorro de aceite, el pimentón y el perejil.
+
+  - name: Tumbet mallorquín
+    health: [YELLOW, "Capas de verduras fritas con tomate: vegetal, pero absorbe aceite."]
+    nutrition: [320, 5, 30, 20]
+    photo: cocina-mediterranea/tumbet-mallorquin.jpg
+    category: Verduras
+    difficulty: MEDIUM
+    prep: 30
+    cook: 50
+    servings: 6
+    notes: El plato de verano de Mallorca, con capas de patata, berenjena y pimiento fritos bajo una salsa de tomate. Mejor templado o al día siguiente.
+    tags: [verduras, horno, vegana, sin gluten]
+    origin: Mallorca
+    originCountry: ES
+    utensils: [Horno]
+    ingredients:
+      - items:
+          - [patatas, 3, null]
+          - [berenjenas, 2, null]
+          - [pimientos rojos, 2, null]
+          - [tomates maduros, 1, kg]
+          - [dientes de ajo, 3, null]
+          - [aceite de oliva, 200, ml]
+          - [azúcar, 1, cucharadita]
+          - [sal, null, null]
+    steps:
+      - Haz una salsa con el tomate rallado, el ajo y un poco de aceite, a fuego suave 25 minutos, con el azúcar y sal.
+      - Fríe por separado las patatas y las berenjenas en rodajas y los pimientos en tiras, sálalos y escúrrelos.
+      - Coloca en una fuente de barro una capa de patata, otra de berenjena y otra de pimiento, con un poco de salsa entre capas.
+      - Cubre con el resto de la salsa y hornea a 180 °C 15 minutos.
+
+  - name: Mujaddara
+    health: [GREEN, "Lentejas con arroz y cebolla frita: proteína vegetal completa y fibra."]
+    nutrition: [430, 15, 64, 13]
+    photo: cocina-mediterranea/mujaddara.jpg
+    category: Legumbres
+    difficulty: EASY
+    prep: 15
+    cook: 50
+    servings: 4
+    notes: Uno de los platos más antiguos de Oriente Próximo. La cebolla muy dorada es lo que le da el sabor. Se sirve con yogur o ensalada.
+    tags: [legumbres, vegana, sin gluten]
+    origin: Levante mediterráneo
+    originCountry: LB
+    ingredients:
+      - items:
+          - [lentejas pardinas, 200, g]
+          - [arroz de grano largo, 150, g]
+          - [cebollas, 3, null]
+          - [aceite de oliva, 6, cucharada]
+          - [comino molido, 1, cucharadita]
+          - [canela molida, 1, pizca]
+          - [sal, null, null]
+    steps:
+      - Cuece las lentejas en agua sin sal 15 minutos y escúrrelas guardando el agua.
+      - Fríe las cebollas en juliana en el aceite a fuego medio 25 minutos, hasta que estén muy doradas. Reserva la mitad.
+      - Añade a la cazuela el arroz, el comino y la canela, remueve, añade las lentejas y 450 ml del agua de cocción y sala.
+      - Tapa y cuece a fuego suave 18 minutos. Deja reposar 5 minutos y sirve con la cebolla reservada por encima.
+
+  - name: Labneh con za'atar
+    health: [GREEN, "Yogur escurrido con aceite y hierbas: proteína y grasas buenas."]
+    nutrition: [190, 8, 6, 15]
+    category: Entrantes
+    difficulty: EASY
+    prep: 10
+    cook: 0
+    servings: 6
+    notes: El queso de yogur de Oriente Próximo. Se escurre un día entero en la nevera y se sirve con pan de pita.
+    tags: [aperitivo, vegetariana, sin gluten]
+    origin: Levante mediterráneo
+    originCountry: LB
+    ingredients:
+      - items:
+          - [yogur natural entero o griego, 1, kg]
+          - [sal, 1, cucharadita]
+          - [aceite de oliva virgen extra, 4, cucharada]
+          - [za'atar, 2, cucharada]
+    steps:
+      - Mezcla el yogur con la sal.
+      - Ponlo en un colador forrado con una gasa o un paño fino sobre un bol y déjalo escurrir en la nevera 24 horas.
+      - Extiende el labneh en un plato haciendo surcos con una cuchara.
+      - Riega con el aceite y espolvorea el za'atar.

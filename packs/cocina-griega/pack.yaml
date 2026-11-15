@@ -1,6 +1,6 @@
 id: cocina-griega
-version: 3
-updated: 2026-11-06
+version: 4
+updated: 2026-11-15
 language: es
 name: "Cocina del mundo: Grecia"
 series: Cocina del mundo
@@ -641,3 +641,94 @@ recipes:
       - Alterna capas de nueces con 2-3 hojas de filo pintadas, y termina con 8 hojas pintadas.
       - Corta en rombos con un cuchillo afilado hasta el fondo y hornea 45-50 minutos, hasta que esté dorado.
       - Vierte el almíbar frío sobre el baklava recién sacado del horno y deja que lo absorba varias horas antes de servir.
+
+  - name: Kolokithokeftedes
+    health: [YELLOW, "Buñuelos de calabacín y feta fritos: verdura, con el aceite de la fritura."]
+    nutrition: [260, 10, 18, 17]
+    photo: cocina-griega/kolokithokeftedes.jpg
+    category: Entrantes
+    difficulty: EASY
+    prep: 25
+    cook: 15
+    servings: 4
+    notes: Las croquetas de calabacín con feta y menta de las tabernas griegas. Se sirven con tzatziki.
+    tags: [aperitivo, verduras, vegetariana]
+    ingredients:
+      - items:
+          - [calabacines, 3, null]
+          - [queso feta, 150, g]
+          - [cebolletas, 3, null]
+          - [menta fresca, 2, cucharada]
+          - [eneldo fresco, 2, cucharada]
+          - [huevo, 1, null]
+          - [pan rallado, 60, g]
+          - [harina, 3, cucharada]
+          - [aceite de oliva para freír, null, null]
+          - [sal y pimienta, null, null]
+    steps:
+      - Ralla los calabacines, sálalos y déjalos 20 minutos en un colador. Escúrrelos muy bien apretándolos en un paño.
+      - Mézclalos con el feta desmenuzado, la cebolleta y las hierbas picadas, el huevo, el pan rallado y pimienta.
+      - Forma bolitas aplanadas y pásalas por harina.
+      - Fríelas en aceite a fuego medio 2-3 minutos por lado, hasta que estén doradas, y escúrrelas.
+
+  - name: Galaktoboureko
+    health: [RED, "Crema de sémola en pasta filo con almíbar: muy dulce."]
+    nutrition: [420, 8, 58, 17]
+    photo: cocina-griega/galaktoboureko.jpg
+    category: Postres
+    difficulty: MEDIUM
+    prep: 30
+    cook: 50
+    servings: 12
+    notes: El pastel de crema de sémola de las pastelerías griegas. El almíbar frío se echa sobre el pastel recién salido del horno.
+    tags: [postre, horno]
+    utensils: [Horno]
+    ingredients:
+      - group: Para la crema
+        items:
+          - [leche entera, 1, l]
+          - [sémola fina de trigo, 150, g]
+          - [azúcar, 150, g]
+          - [huevos, 4, null]
+          - [mantequilla, 40, g]
+          - [extracto de vainilla, 1, cucharadita]
+      - group: Para el montaje y el almíbar
+        items:
+          - [láminas de pasta filo, 12, null]
+          - [mantequilla derretida, 120, g]
+          - [azúcar para el almíbar, 300, g]
+          - [agua, 250, ml]
+          - [piel de limón, 1, trozo]
+          - [rama de canela, 1, null]
+    steps:
+      - Hierve el azúcar del almíbar con el agua, la piel de limón y la canela 5 minutos y deja enfriar.
+      - Calienta la leche, añade la sémola y la mitad del azúcar y cuece removiendo hasta que espese. Fuera del fuego, añade la mantequilla, la vainilla y los huevos batidos con el resto del azúcar.
+      - Precalienta el horno a 180 °C. Forra una fuente con 6 láminas de filo pintadas con mantequilla, vierte la crema y cubre con las otras 6, pintándolas también.
+      - Marca las raciones con un cuchillo, hornea 45 minutos hasta que esté dorado y riega enseguida con el almíbar frío. Deja que lo absorba antes de cortar.
+
+  - name: Tiropita
+    health: [RED, "Pastel de filo con queso y mantequilla: muy calórico."]
+    nutrition: [430, 15, 24, 31]
+    photo: cocina-griega/tiropita.jpg
+    category: Panes y masas
+    difficulty: EASY
+    prep: 20
+    cook: 40
+    servings: 8
+    notes: El pastel de queso que se toma en Grecia a cualquier hora, en porciones o en triangulitos.
+    tags: [horno, queso, vegetariana]
+    utensils: [Horno]
+    ingredients:
+      - items:
+          - [láminas de pasta filo, 10, null]
+          - [queso feta, 300, g]
+          - [requesón o ricotta, 200, g]
+          - [huevos, 3, null]
+          - [yogur griego, 150, g]
+          - [mantequilla derretida o aceite de oliva, 100, g]
+          - [pimienta negra, null, null]
+    steps:
+      - Precalienta el horno a 180 °C. Mezcla el feta desmenuzado con el requesón, los huevos, el yogur y pimienta.
+      - Pinta una fuente y coloca 5 láminas de filo pintando cada una con mantequilla.
+      - Extiende el relleno y cubre con las otras 5 láminas, pintándolas también. Marca las porciones.
+      - Hornea 35-40 minutos, hasta que esté muy dorado. Deja templar antes de cortar.

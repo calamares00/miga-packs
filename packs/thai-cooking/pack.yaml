@@ -1,6 +1,6 @@
 id: thai-cooking
-version: 3
-updated: 2026-11-06
+version: 4
+updated: 2026-11-15
 language: en
 name: "World cuisine: Thailand"
 series: World cuisine
@@ -665,3 +665,124 @@ recipes:
       - Bring the water to the boil, add the tea and steep for 5 minutes. Strain.
       - Stir the sugar and condensed milk into the hot tea. Let it cool.
       - Fill glasses with ice, pour in the tea and top with the evaporated milk.
+
+  - name: Khao soi
+    health: [YELLOW, "Curry noodle soup with chicken: complete, with coconut milk fat."]
+    nutrition: [620, 34, 56, 29]
+    photo: cocina-tailandesa/khao-soi.jpg
+    category: Soups
+    difficulty: MEDIUM
+    prep: 20
+    cook: 40
+    servings: 4
+    notes: Chiang Mai's curry noodle soup, with boiled noodles in the broth and crispy fried noodles on top.
+    tags: [soup, curry, noodles]
+    origin: Chiang Mai
+    ingredients:
+      - items:
+          - [chicken thighs, 600, g]
+          - [red curry or khao soi paste, 3, tbsp]
+          - [curry powder, 1, tsp]
+          - [coconut milk, 800, ml]
+          - [chicken stock, 500, ml]
+          - [fish sauce, 2, tbsp]
+          - [palm or brown sugar, 1, tbsp]
+          - [egg noodles, 400, g]
+          - [shallots, 3, null]
+          - [pickled mustard greens or gherkin, 4, tbsp]
+          - [limes, 2, null]
+          - [oil for frying, null, null]
+    steps:
+      - Fry a handful of raw noodles in hot oil until crisp and set aside.
+      - Fry the curry paste and powder with 200 ml of the coconut milk until the oil separates. Add the chicken and brown it.
+      - Add the rest of the coconut milk, the stock, fish sauce and sugar and simmer for 30 minutes.
+      - Boil the rest of the noodles, divide between bowls, ladle over the soup with the chicken and top with the crispy noodles, shallots, pickled mustard greens and lime.
+
+  - name: Red curry with prawns and pumpkin
+    health: [YELLOW, "Prawns and pumpkin in coconut curry: protein and vegetables, with coconut fat."]
+    nutrition: [380, 22, 20, 24]
+    photo: cocina-tailandesa/curry-rojo-de-gambas-y-calabaza.jpg
+    category: Fish and seafood
+    difficulty: EASY
+    prep: 15
+    cook: 20
+    servings: 4
+    notes: A mild, slightly sweet red curry. Any squash works, or sweet potato.
+    tags: [curry, seafood, gluten-free]
+    ingredients:
+      - items:
+          - [peeled prawns, 500, g]
+          - [diced pumpkin, 400, g]
+          - [red curry paste, 2, tbsp]
+          - [coconut milk, 400, ml]
+          - [fish sauce, 1, tbsp]
+          - [palm or brown sugar, 1, tsp]
+          - [kaffir lime leaves, 3, null]
+          - [Thai basil, 1, handful]
+          - [oil, 1, tbsp]
+    steps:
+      - Fry the curry paste in the oil with a few spoonfuls of coconut milk for 2 minutes.
+      - Add the rest of the coconut milk, the pumpkin and lime leaves and simmer for 12 minutes, until tender.
+      - Add the prawns, fish sauce and sugar and simmer for 3 minutes.
+      - Finish with the basil and serve with jasmine rice.
+
+  - name: Pla rad prik
+    health: [YELLOW, "Fried fish with sweet and sour chilli sauce: protein, with oil and sugar."]
+    nutrition: [420, 32, 22, 22]
+    photo: cocina-tailandesa/pla-rad-prik.jpg
+    category: Fish and seafood
+    difficulty: MEDIUM
+    prep: 20
+    cook: 20
+    servings: 4
+    notes: Whole fried fish smothered in a chilli, garlic and tamarind sauce. Works with sea bass, bream or tilapia.
+    tags: [fish, fried, spicy]
+    ingredients:
+      - items:
+          - [whole cleaned fish (sea bass or bream), 2, null]
+          - [cornflour, 4, tbsp]
+          - [red chillies, 4, null]
+          - [garlic cloves, 5, null]
+          - [shallots, 3, null]
+          - [tamarind paste, 2, tbsp]
+          - [fish sauce, 2, tbsp]
+          - [palm or brown sugar, 3, tbsp]
+          - [water, 60, ml]
+          - [Thai basil, 1, handful]
+          - [oil for frying, null, null]
+    steps:
+      - Score the fish diagonally, pat dry and dust with cornflour.
+      - Fry in plenty of hot oil for 6-8 minutes per side, until very crisp. Drain.
+      - Pound the chillies, garlic and shallots and fry them in a tablespoon of oil for 2 minutes. Add the tamarind, fish sauce, sugar and water and reduce until thick.
+      - Pour the sauce over the fish and garnish with fried or fresh basil.
+
+  - name: Yam woon sen
+    health: [GREEN, "Glass noodle salad with prawns and pork: light, with protein."]
+    nutrition: [310, 20, 38, 8]
+    photo: cocina-tailandesa/yam-woon-sen.jpg
+    category: Salads
+    difficulty: EASY
+    prep: 20
+    cook: 10
+    servings: 4
+    notes: A warm mung bean noodle salad, sour and spicy, with prawns and minced pork.
+    tags: [salad, spicy, gluten-free]
+    ingredients:
+      - items:
+          - [glass noodles (mung bean), 120, g]
+          - [peeled prawns, 200, g]
+          - [minced pork, 150, g]
+          - [shallots, 3, null]
+          - [cherry tomatoes, 10, null]
+          - [Chinese celery or celery, 2, stick]
+          - [chillies, 2, null]
+          - [lime juice, 4, tbsp]
+          - [fish sauce, 3, tbsp]
+          - [sugar, 1, tbsp]
+          - [coriander, 1, handful]
+          - [roasted peanuts, 2, tbsp]
+    steps:
+      - Soak the noodles in hot water for 8 minutes, drain and snip with scissors.
+      - Cook the pork in a little water until done and add the prawns for 2 minutes. Drain.
+      - Mix the lime, fish sauce, sugar and chopped chillies.
+      - Toss the warm noodles with the pork, prawns, sliced shallots, tomatoes, celery and coriander, dress and sprinkle with the peanuts.

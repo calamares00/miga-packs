@@ -1015,10 +1015,10 @@
       "authorGithub": "calamares00",
       "description": "Dishes under 450 kcal per serving that really fill you up, with lean protein, vegetables and fibre: hake en papillote, niçoise salad, chicken skewers with yoghurt, chicken and vegetable soup, baked cod with tomato, prawn stir-fry, turkey stuffed with spinach, chilled cucumber soup, chicken and courgette burgers and chicken, mango and avocado salad.",
       "coverImageUrl": "packs/healthy-light-and-filling/cover.jpg",
-      "latestVersion": 1,
+      "latestVersion": 2,
       "recipeCount": 10,
-      "downloadUrl": "dist/healthy-light-and-filling-v1.zip",
-      "sha256": "d345d971e3ee0ca31a794d6b43afc66a43cba7a14c4aead13bc733e3b4df9113",
+      "downloadUrl": "dist/healthy-light-and-filling-v2.zip",
+      "sha256": "e3460dca98690ccd9bb1e6960f890c7a242094ff97c1ea8e9e988d86bba1fe23",
       "language": "en"
     },
     {
@@ -1030,10 +1030,10 @@
       "authorGithub": "calamares00",
       "description": "Recipes with no added salt or very little, that get their flavour from herbs, spices, garlic, citrus and vinegars, and without very salty ingredients such as cured meats, aged cheeses or soy sauce: lemon-marinated chicken, sea bass with fennel and orange, pork tenderloin with apple, leek and apple soup, brown rice salad, spiced roast vegetables, courgette omelette, salt-free seeded bread, homemade tomato sauce and baked pears.",
       "coverImageUrl": "packs/healthy-low-salt/cover.jpg",
-      "latestVersion": 1,
+      "latestVersion": 2,
       "recipeCount": 10,
-      "downloadUrl": "dist/healthy-low-salt-v1.zip",
-      "sha256": "8492facda779be2b1f24072e6da9838b09f600be33296e2c037658a567b92e4a",
+      "downloadUrl": "dist/healthy-low-salt-v2.zip",
+      "sha256": "357d670f069245762109686a1f7f5f731fd4a76bd086e955938096ffc77739c4",
       "language": "en"
     },
     {
@@ -1510,10 +1510,10 @@
       "authorGithub": "calamares00",
       "description": "Recetas sin sal añadida o con muy poca, que ganan sabor con hierbas, especias, ajo, cítricos y vinagres, y sin ingredientes muy salados como embutidos, quesos curados o salsas de soja: pollo marinado al limón, lubina con hinojo y naranja, solomillo con manzana, crema de puerros y manzana, ensalada de arroz integral, verduras asadas especiadas, tortilla de calabacín, pan sin sal con semillas, salsa de tomate casera y peras asadas.",
       "coverImageUrl": "packs/saludable-bajo-en-sal/cover.jpg",
-      "latestVersion": 1,
+      "latestVersion": 2,
       "recipeCount": 10,
-      "downloadUrl": "dist/saludable-bajo-en-sal-v1.zip",
-      "sha256": "bff1f4feddb99c3d54f0b2f91851cc89235fce16b9b1ed2486a2bea7193ad846",
+      "downloadUrl": "dist/saludable-bajo-en-sal-v2.zip",
+      "sha256": "f130967b112ee13791ae5996524c20a1ff5b86df7f4ca35e9515d486f3bc9973",
       "language": "es"
     },
     {
@@ -1555,10 +1555,10 @@
       "authorGithub": "calamares00",
       "description": "Platos de menos de 450 kcal por ración que llenan de verdad, con proteína magra, verdura y fibra: merluza en papillote, ensalada niçoise, brochetas de pollo con yogur, sopa de pollo y verduras, bacalao al horno con tomate, wok de gambas, pavo relleno de espinacas, crema fría de pepino, hamburguesas de pollo y calabacín y ensalada de pollo, mango y aguacate.",
       "coverImageUrl": "packs/saludable-ligero-y-saciante/cover.jpg",
-      "latestVersion": 1,
+      "latestVersion": 2,
       "recipeCount": 10,
-      "downloadUrl": "dist/saludable-ligero-y-saciante-v1.zip",
-      "sha256": "f45af049bb33fbf4bbf04faff1a51f0e2ecfcf4eb31b704a89fa26c1e22d96d0",
+      "downloadUrl": "dist/saludable-ligero-y-saciante-v2.zip",
+      "sha256": "f67727025f97ca66ee8774aaeb15651d74ef9a291a1518f105a4e5757eb9b12e",
       "language": "es"
     },
     {
@@ -1795,10 +1795,10 @@
       "authorGithub": "calamares00",
       "description": "Cremas y purés programados para Thermomix TM6 (vaso de 2,2 litros), que funcionan igual en TM5 y TM7. Calabaza, verduras, vichyssoise, champiñones, zanahoria con jengibre, brócoli, espárragos, guisantes con menta, tomate, lentejas rojas, coliflor, espinacas, boniato, alcachofas, pimientos asados, castañas, apio nabo, alubias, remolacha y puré de patatas. En TM31 (vaso de 2 litros y 100 °C como máximo), sofríe a temperatura Varoma.",
       "coverImageUrl": "packs/thermomix-cremas-y-pures/cover.jpg",
-      "latestVersion": 4,
+      "latestVersion": 5,
       "recipeCount": 20,
-      "downloadUrl": "dist/thermomix-cremas-y-pures-v4.zip",
-      "sha256": "08d8ee2f0f95f26a01e61a6029d53caddb9753d3adcdc8695b3fccfb5791ac4b",
+      "downloadUrl": "dist/thermomix-cremas-y-pures-v5.zip",
+      "sha256": "2737e9049112d6f439ebe1dc684b5f94821b22dd32be4581c2802715357bce44",
       "language": "es"
     },
     {
@@ -1900,10 +1900,10 @@
       "authorGithub": "calamares00",
       "description": "Smooth soups and purées programmed for the Thermomix TM6 (2.2 litre bowl), which work just the same on the TM5 and TM7. Pumpkin, mixed vegetable, vichyssoise, mushroom, carrot and ginger, broccoli, asparagus, pea and mint, tomato, red lentil, cauliflower, spinach, sweet potato, artichoke, roasted pepper, chestnut, celeriac, white bean, beetroot and mashed potato. On a TM31 (2 litre bowl, 100 °C maximum), fry at Varoma temperature.",
       "coverImageUrl": "packs/thermomix-soups-and-purees/cover.jpg",
-      "latestVersion": 4,
+      "latestVersion": 5,
       "recipeCount": 20,
-      "downloadUrl": "dist/thermomix-soups-and-purees-v4.zip",
-      "sha256": "07697c8a93f5a02d6437f93db6c658328ef0bad35e19746a74f36f940ac03e9a",
+      "downloadUrl": "dist/thermomix-soups-and-purees-v5.zip",
+      "sha256": "6616233314cb5945c834d33efdb15150d90a0dd450610c2207a53d6d0a2a4de5",
       "language": "en"
     },
     {

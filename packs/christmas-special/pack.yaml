@@ -1,6 +1,6 @@
 id: christmas-special
-version: 3
-updated: 2026-11-06
+version: 4
+updated: 2026-11-25
 language: en
 name: Christmas special
 series: Specials
@@ -57,7 +57,7 @@ recipes:
     health: [YELLOW, "Béchamel with butter and whole milk, with ham, breaded and fried: fat and salt. Best in small numbers."]
     nutrition: [460, 15, 42, 25]
     photo: especial-navidad/croquetas-de-jamon.jpg
-    category: Starters
+    category: Appetizers and tapas
     difficulty: MEDIUM
     prep: 30
     cook: 25
@@ -407,7 +407,7 @@ recipes:
     health: [RED, "A sweet bread with sugar and butter, often filled with cream: a lot of sugar. For the occasion."]
     nutrition: [360, 9, 58, 10]
     photo: especial-navidad/roscon-de-reyes.jpg
-    category: Desserts
+    category: Baking
     difficulty: HARD
     prep: 60
     cook: 25
@@ -453,7 +453,7 @@ recipes:
   - name: Crunchy chocolate turrón
     health: [RED, "Chocolate with butter and puffed rice: very high in sugar and fat. A sweet for small portions."]
     nutrition: [210, 3, 21, 13]
-    category: Desserts
+    category: Baking
     difficulty: EASY
     prep: 15
     cook: 5
@@ -479,7 +479,7 @@ recipes:
     health: [RED, "A sweet made of lard, flour and sugar: very high in calories and fat. One now and then."]
     nutrition: [150, 2, 17, 8]
     photo: especial-navidad/polvorones.jpg
-    category: Desserts
+    category: Baking
     difficulty: MEDIUM
     prep: 30
     cook: 30
@@ -652,7 +652,7 @@ recipes:
     health: [YELLOW, "Almond with honey and sugar: healthy fats and protein, but very sweet. In small portions."]
     nutrition: [290, 8, 26, 18]
     photo: especial-navidad/turron-blando-de-jijona.jpg
-    category: Desserts
+    category: Baking
     difficulty: MEDIUM
     prep: 20
     cook: 15

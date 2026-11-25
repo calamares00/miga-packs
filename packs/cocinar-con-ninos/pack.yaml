@@ -1,6 +1,6 @@
 id: cocinar-con-ninos
-version: 2
-updated: 2026-11-13
+version: 3
+updated: 2026-11-25
 language: es
 name: Cocinar con niños
 series: Cocina de cada día
@@ -25,7 +25,7 @@ recipes:
     health: [GREEN, "Solo avena y plátano maduro: endulzadas con la fruta, sin azúcar añadido."]
     nutrition: [70, 2, 12, 2]
     photo: cocinar-con-ninos/galletas-de-avena-y-platano.jpg
-    category: Postres
+    category: Repostería
     difficulty: EASY
     prep: 10
     cook: 15
@@ -73,7 +73,7 @@ recipes:
     health: [GREEN, "Yogur natural con fruta: un helado casero con poco azúcar."]
     nutrition: [70, 3, 11, 2]
     photo: cocinar-con-ninos/polos-de-yogur-y-fresa.jpg
-    category: Postres
+    category: Helados y sorbetes
     difficulty: EASY
     prep: 10
     cook: 0
@@ -95,7 +95,7 @@ recipes:
   - name: Batido de fresa y plátano
     health: [GREEN, "Fruta con leche: una merienda rica en calcio y sin azúcar añadido."]
     nutrition: [150, 5, 26, 3]
-    category: Bebidas
+    category: Batidos y zumos
     difficulty: EASY
     prep: 5
     cook: 0

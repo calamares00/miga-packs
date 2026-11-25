@@ -1,6 +1,6 @@
 id: thermomix-comida-para-bebes
-version: 2
-updated: 2026-11-13
+version: 3
+updated: 2026-11-25
 language: es
 name: "Thermomix: comida para bebés"
 series: Electrodomésticos
@@ -267,7 +267,7 @@ recipes:
     health: [GREEN, "Avena con fruta: energía, fibra y hierro para el desayuno o la merienda."]
     nutrition: [130, 4, 22, 3]
     photo: thermomix-comida-para-bebes/papilla-de-avena-con-platano.jpg
-    category: Postres
+    category: Desayunos y meriendas
     difficulty: EASY
     prep: 2
     cook: 6

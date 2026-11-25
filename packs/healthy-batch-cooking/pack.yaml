@@ -1,6 +1,6 @@
 id: healthy-batch-cooking
-version: 1
-updated: 2026-11-07
+version: 2
+updated: 2026-11-25
 language: en
 name: "Healthy cooking: batch cooking"
 series: Healthy cooking
@@ -117,7 +117,7 @@ recipes:
     health: [GREEN, "Chili with lean turkey, beans and vegetables: high in protein and fibre with little fat."]
     nutrition: [410, 36, 38, 11]
     photo: saludable-batch-cooking/chili-de-pavo-con-alubias.jpg
-    category: Meat
+    category: Stews
     difficulty: EASY
     prep: 15
     cook: 40

@@ -1,6 +1,6 @@
 id: budget-cooking
-version: 1
-updated: 2026-11-13
+version: 2
+updated: 2026-11-25
 language: en
 name: Budget cooking
 series: Everyday cooking
@@ -139,7 +139,7 @@ recipes:
     health: [GREEN, "Chicken with potatoes and vegetables in a stew: complete and nothing fried."]
     nutrition: [450, 32, 34, 20]
     photo: cocina-economica/pollo-guisado-con-patatas.jpg
-    category: Meat
+    category: Stews
     difficulty: EASY
     prep: 15
     cook: 45
@@ -199,7 +199,7 @@ recipes:
     health: [YELLOW, "Tuna, egg and tomato in pastry: light when baked; fried, much richer."]
     nutrition: [320, 16, 30, 15]
     photo: cocina-economica/empanadillas-de-atun.jpg
-    category: Starters
+    category: Appetizers and tapas
     difficulty: EASY
     prep: 20
     cook: 20

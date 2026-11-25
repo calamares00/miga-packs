@@ -1,6 +1,6 @@
 id: malaysian-chinese-fusion
-version: 1
-updated: 2026-11-07
+version: 2
+updated: 2026-11-25
 language: en
 name: "Fusion cuisine: Malaysian Chinese"
 series: Fusion cuisine
@@ -269,7 +269,7 @@ recipes:
     health: [RED, "Toast with butter and coconut egg jam: a very sweet and fatty breakfast."]
     nutrition: [380, 7, 42, 20]
     photo: fusion-chino-malaya/tostadas-con-kaya.jpg
-    category: Desserts
+    category: Breakfast and brunch
     difficulty: MEDIUM
     prep: 10
     cook: 40

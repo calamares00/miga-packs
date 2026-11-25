@@ -1,6 +1,6 @@
 id: cocina-china
-version: 4
-updated: 2026-11-15
+version: 5
+updated: 2026-11-25
 language: es
 name: "Cocina del mundo: China"
 series: Cocina del mundo
@@ -560,7 +560,7 @@ recipes:
     health: [YELLOW, "Rollitos con cerdo y verduras, pero fritos en aceite. Mejor pocos y bien escurridos."]
     nutrition: [380, 13, 30, 23]
     photo: cocina-china/rollitos-de-primavera.jpg
-    category: Entrantes
+    category: Aperitivos y tapas
     difficulty: MEDIUM
     prep: 40
     cook: 15

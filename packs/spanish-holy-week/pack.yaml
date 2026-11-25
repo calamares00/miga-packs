@@ -1,6 +1,6 @@
 id: spanish-holy-week
-version: 1
-updated: 2026-11-13
+version: 2
+updated: 2026-11-25
 language: en
 name: Holy Week in Spain
 series: Specials
@@ -26,7 +26,7 @@ recipes:
     health: [RED, "Fried dough dipped in honey: very rich, a festive sweet."]
     nutrition: [150, 2, 18, 8]
     photo: semana-santa/pestinos.jpg
-    category: Desserts
+    category: Baking
     difficulty: MEDIUM
     prep: 40
     cook: 20
@@ -58,7 +58,7 @@ recipes:
     health: [RED, "Fried choux filled with custard and rolled in sugar: very sweet."]
     nutrition: [110, 2, 12, 6]
     photo: semana-santa/bunuelos-de-viento.jpg
-    category: Desserts
+    category: Baking
     difficulty: MEDIUM
     prep: 20
     cook: 25
@@ -151,7 +151,7 @@ recipes:
     health: [RED, "Sponge with custard and chocolate: the festive sweet of Easter Monday."]
     nutrition: [420, 6, 50, 22]
     photo: semana-santa/mona-de-pascua.jpg
-    category: Desserts
+    category: Baking
     difficulty: MEDIUM
     prep: 40
     cook: 30
@@ -283,7 +283,7 @@ recipes:
     health: [YELLOW, "Cod with batter, fried: tasty, but fried."]
     nutrition: [60, 4, 4, 3]
     photo: semana-santa/bunuelos-de-bacalao.jpg
-    category: Starters
+    category: Appetizers and tapas
     difficulty: MEDIUM
     prep: 25
     cook: 15

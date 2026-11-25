@@ -1,6 +1,6 @@
 id: fusion-peranakan
-version: 1
-updated: 2026-11-07
+version: 2
+updated: 2026-11-25
 language: es
 name: "Cocina fusión: peranakan"
 series: Cocina fusión
@@ -215,7 +215,7 @@ recipes:
     health: [YELLOW, "Cestitas fritas rellenas de verduras y gambas: el relleno es ligero, pero la cesta es frita."]
     nutrition: [280, 10, 30, 13]
     photo: fusion-peranakan/kueh-pie-tee.jpg
-    category: Entrantes
+    category: Aperitivos y tapas
     difficulty: HARD
     prep: 40
     cook: 40

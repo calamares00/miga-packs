@@ -1,6 +1,6 @@
 id: tapas-espanolas
-version: 4
-updated: 2026-11-06
+version: 5
+updated: 2026-11-25
 language: es
 name: Tapas españolas
 series: Especiales
@@ -26,7 +26,7 @@ recipes:
     health: [YELLOW, "Las patatas fritas en abundante aceite aportan bastante grasa y calorías. La salsa es ligera, con pimentón y poco aceite; mejor como tapa ocasional."]
     nutrition: [420, 5, 48, 23]
     photo: tapas/patatas-bravas.jpg
-    category: Entrantes
+    category: Aperitivos y tapas
     difficulty: EASY
     prep: 10
     cook: 25
@@ -196,7 +196,7 @@ recipes:
     health: [GREEN, "Pescado azul crudo marinado, rico en proteína y grasas saludables omega 3. Es un plato salado: moderar si se cuida la sal."]
     nutrition: [250, 20, 1, 18]
     photo: tapas/boquerones-en-vinagre.jpg
-    category: Pescados y mariscos
+    category: Aperitivos y tapas
     difficulty: EASY
     prep: 20
     cook: 0
@@ -326,7 +326,7 @@ recipes:
     health: [YELLOW, "Bechamel con mantequilla y leche entera, empanada y frita: bastante grasa y calorías. Las setas aportan sabor y algo de fibra."]
     nutrition: [450, 12, 45, 25]
     photo: tapas/croquetas.jpg
-    category: Entrantes
+    category: Aperitivos y tapas
     difficulty: MEDIUM
     prep: 40
     cook: 25
@@ -508,7 +508,7 @@ recipes:
     health: [YELLOW, "Pocas calorías, pero anchoas, aceitunas y guindillas en vinagre son muy saladas. Mejor como aperitivo puntual."]
     nutrition: [80, 3, 1, 7]
     photo: tapas/gildas.jpg
-    category: Entrantes
+    category: Aperitivos y tapas
     difficulty: EASY
     prep: 10
     cook: 0
@@ -554,7 +554,7 @@ recipes:
     health: [YELLOW, "Lomo de cerdo magro con pimientos fritos sobre pan. Equilibrado, aunque el pan y el aceite suben las calorías."]
     nutrition: [450, 30, 35, 19]
     photo: tapas/montaditos-de-lomo-con-pimiento.jpg
-    category: Panes y masas
+    category: Aperitivos y tapas
     difficulty: EASY
     prep: 10
     cook: 15

@@ -1,6 +1,6 @@
 id: cocina-mediterranea
-version: 4
-updated: 2026-11-15
+version: 5
+updated: 2026-11-25
 language: es
 name: Cocina mediterránea
 series: Cocina del mundo
@@ -278,7 +278,7 @@ recipes:
     health: [GREEN, "Garbanzos, tahini y limón: proteína vegetal, fibra y grasas saludables."]
     nutrition: [190, 7, 15, 12]
     photo: cocina-mediterranea/hummus.jpg
-    category: Legumbres
+    category: Aperitivos y tapas
     difficulty: EASY
     prep: 10
     cook: 0
@@ -400,7 +400,7 @@ recipes:
     health: [GREEN, "Cuscús con muchas verduras y garbanzos: fibra, proteína vegetal y poca grasa."]
     nutrition: [560, 18, 94, 13]
     photo: cocina-mediterranea/cuscus-de-verduras.jpg
-    category: Verduras
+    category: Guarniciones
     difficulty: MEDIUM
     prep: 20
     cook: 40

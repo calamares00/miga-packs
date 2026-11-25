@@ -1,6 +1,6 @@
 id: saludable-sin-gluten
-version: 1
-updated: 2026-11-07
+version: 2
+updated: 2026-11-25
 language: es
 name: "Cocina saludable: sin gluten"
 series: Cocina saludable
@@ -285,7 +285,7 @@ recipes:
     health: [RED, "Tarta de chocolate, huevo y mantequilla: un capricho sin gluten, pero muy calórico."]
     nutrition: [340, 6, 26, 24]
     photo: saludable-sin-gluten/bizcocho-de-chocolate-sin-harina.jpg
-    category: Postres
+    category: Repostería
     difficulty: EASY
     prep: 15
     cook: 30

@@ -1,6 +1,6 @@
 id: french-cooking
-version: 2
-updated: 2026-11-15
+version: 3
+updated: 2026-11-25
 language: en
 name: "World cuisine: France"
 series: World cuisine
@@ -488,7 +488,7 @@ recipes:
     health: [RED, "Caramelised apples with butter and pastry: very sweet."]
     nutrition: [380, 3, 52, 18]
     photo: cocina-francesa/tarta-tatin.jpg
-    category: Desserts
+    category: Baking
     difficulty: MEDIUM
     prep: 20
     cook: 45
@@ -538,7 +538,7 @@ recipes:
     health: [RED, "Choux pastry with cream and chocolate: very sweet."]
     nutrition: [430, 7, 34, 30]
     photo: cocina-francesa/profiteroles-con-chocolate.jpg
-    category: Desserts
+    category: Baking
     difficulty: HARD
     prep: 40
     cook: 25

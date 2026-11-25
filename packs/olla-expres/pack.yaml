@@ -1,6 +1,6 @@
 id: olla-expres
-version: 1
-updated: 2026-11-13
+version: 2
+updated: 2026-11-25
 language: es
 name: Olla exprés
 series: Electrodomésticos
@@ -61,7 +61,7 @@ recipes:
     health: [YELLOW, "Ternera con verduras y patatas: completa y con hierro; la salsa lleva algo de grasa."]
     nutrition: [480, 36, 32, 22]
     photo: olla-expres/estofado-de-ternera-con-patatas.jpg
-    category: Carnes
+    category: Guisos y potajes
     difficulty: EASY
     prep: 20
     cook: 35

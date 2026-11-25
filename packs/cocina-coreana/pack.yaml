@@ -1,6 +1,6 @@
 id: cocina-coreana
-version: 2
-updated: 2026-11-15
+version: 3
+updated: 2026-11-25
 language: es
 name: "Cocina del mundo: Corea"
 series: Cocina del mundo
@@ -100,7 +100,7 @@ recipes:
     health: [GREEN, "Col fermentada con especias: fibra y probióticos, pero con bastante sal."]
     nutrition: [35, 2, 6, 0]
     photo: cocina-coreana/kimchi.jpg
-    category: Verduras
+    category: Conservas y mermeladas
     difficulty: MEDIUM
     prep: 60
     cook: 0

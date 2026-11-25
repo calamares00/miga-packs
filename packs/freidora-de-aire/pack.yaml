@@ -1,6 +1,6 @@
 id: freidora-de-aire
-version: 3
-updated: 2026-11-06
+version: 4
+updated: 2026-11-25
 language: es
 name: Freidora de aire
 series: Electrodomésticos
@@ -24,7 +24,7 @@ recipes:
     health: [GREEN, "Patatas hechas con muy poco aceite: mucha menos grasa que fritas. Un acompañamiento sencillo y razonable."]
     nutrition: [250, 5, 48, 7]
     photo: freidora-de-aire/patatas-fritas-en-freidora-de-aire.jpg
-    category: Verduras
+    category: Guarniciones
     difficulty: EASY
     prep: 10
     cook: 20
@@ -501,7 +501,7 @@ recipes:
     health: [RED, "Postre con chocolate, mantequilla y azúcar: muy calórico. Para ocasiones especiales y en porciones pequeñas."]
     nutrition: [360, 5, 32, 24]
     photo: freidora-de-aire/brownie-en-freidora-de-aire.jpg
-    category: Postres
+    category: Repostería
     difficulty: EASY
     prep: 10
     cook: 18

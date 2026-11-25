@@ -1,6 +1,6 @@
 id: korean-cooking
-version: 2
-updated: 2026-11-15
+version: 3
+updated: 2026-11-25
 language: en
 name: "World cuisine: Korea"
 series: World cuisine
@@ -100,7 +100,7 @@ recipes:
     health: [GREEN, "Fermented spiced cabbage: fibre and probiotics, but quite salty."]
     nutrition: [35, 2, 6, 0]
     photo: cocina-coreana/kimchi.jpg
-    category: Vegetables
+    category: Preserves and jams
     difficulty: MEDIUM
     prep: 60
     cook: 0

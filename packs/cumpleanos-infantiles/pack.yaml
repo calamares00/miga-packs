@@ -1,6 +1,6 @@
 id: cumpleanos-infantiles
-version: 2
-updated: 2026-11-13
+version: 3
+updated: 2026-11-25
 language: es
 name: Cumpleaños infantiles
 series: Especiales
@@ -26,7 +26,7 @@ recipes:
     health: [RED, "Bizcocho de chocolate con cobertura: un postre muy dulce, para el día de la fiesta."]
     nutrition: [420, 6, 52, 21]
     photo: cumpleanos-infantiles/tarta-de-cumpleanos-de-chocolate.jpg
-    category: Postres
+    category: Repostería
     difficulty: MEDIUM
     prep: 30
     cook: 35
@@ -64,7 +64,7 @@ recipes:
     health: [RED, "Bizcocho con azúcar y colorantes: solo para celebraciones."]
     nutrition: [320, 5, 44, 14]
     photo: cumpleanos-infantiles/bizcocho-arcoiris.jpg
-    category: Postres
+    category: Repostería
     difficulty: MEDIUM
     prep: 30
     cook: 40
@@ -93,7 +93,7 @@ recipes:
     health: [RED, "Magdalenas con crema de mantequilla: mucha azúcar y grasa, para la fiesta."]
     nutrition: [330, 3, 40, 18]
     photo: cumpleanos-infantiles/cupcakes-de-vainilla.jpg
-    category: Postres
+    category: Repostería
     difficulty: EASY
     prep: 25
     cook: 20
@@ -129,7 +129,7 @@ recipes:
     health: [RED, "Galletas con glasa de azúcar: muy dulces, una por niño es suficiente."]
     nutrition: [150, 2, 24, 5]
     photo: cumpleanos-infantiles/galletas-decoradas.jpg
-    category: Postres
+    category: Repostería
     difficulty: MEDIUM
     prep: 60
     cook: 12
@@ -243,7 +243,7 @@ recipes:
     health: [RED, "Salchicha y hojaldre: mucha grasa y sal, solo para la fiesta."]
     nutrition: [120, 4, 8, 8]
     photo: cumpleanos-infantiles/salchichas-en-hojaldre.jpg
-    category: Entrantes
+    category: Aperitivos y tapas
     difficulty: EASY
     prep: 15
     cook: 15
@@ -324,7 +324,7 @@ recipes:
     health: [YELLOW, "Maíz integral con poco aceite: buen picoteo, pero cuidado con la sal y el azúcar."]
     nutrition: [130, 3, 18, 5]
     photo: cumpleanos-infantiles/palomitas-caseras.jpg
-    category: Entrantes
+    category: Aperitivos y tapas
     difficulty: EASY
     prep: 2
     cook: 5

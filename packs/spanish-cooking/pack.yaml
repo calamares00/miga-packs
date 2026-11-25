@@ -1,6 +1,6 @@
 id: spanish-cooking
-version: 3
-updated: 2026-11-06
+version: 4
+updated: 2026-11-25
 language: en
 name: "World cuisine: Spain"
 series: World cuisine
@@ -129,7 +129,7 @@ recipes:
     health: [GREEN, "Albacore, an oily fish with omega-3, stewed with potato and vegetables. A very complete dish."]
     nutrition: [540, 40, 48, 19]
     photo: cocina-espanola/marmitako.jpg
-    category: Fish and seafood
+    category: Stews
     difficulty: EASY
     prep: 20
     cook: 35
@@ -657,7 +657,7 @@ recipes:
     health: [YELLOW, "An almond and egg cake with no flour: healthy fats, but a lot of sugar."]
     nutrition: [420, 12, 36, 26]
     photo: cocina-espanola/tarta-de-santiago.jpg
-    category: Desserts
+    category: Baking
     difficulty: EASY
     prep: 15
     cook: 40

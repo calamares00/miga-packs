@@ -1,6 +1,6 @@
 id: air-fryer
-version: 3
-updated: 2026-11-06
+version: 4
+updated: 2026-11-25
 language: en
 name: Air fryer
 series: Kitchen appliances
@@ -23,7 +23,7 @@ recipes:
     health: [GREEN, "Chips made with very little oil: much less fat than deep-fried. A simple, reasonable side."]
     nutrition: [250, 5, 48, 7]
     photo: freidora-de-aire/patatas-fritas-en-freidora-de-aire.jpg
-    category: Vegetables
+    category: Sides
     difficulty: EASY
     prep: 10
     cook: 20
@@ -500,7 +500,7 @@ recipes:
     health: [RED, "A dessert with chocolate, butter and sugar: very high in calories. For special occasions and small portions."]
     nutrition: [360, 5, 32, 24]
     photo: freidora-de-aire/brownie-en-freidora-de-aire.jpg
-    category: Desserts
+    category: Baking
     difficulty: EASY
     prep: 10
     cook: 18

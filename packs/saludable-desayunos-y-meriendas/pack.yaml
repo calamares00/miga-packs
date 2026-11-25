@@ -1,6 +1,6 @@
 id: saludable-desayunos-y-meriendas
-version: 1
-updated: 2026-11-07
+version: 2
+updated: 2026-11-25
 language: es
 name: "Cocina saludable: desayunos y meriendas"
 series: Cocina saludable
@@ -25,7 +25,7 @@ recipes:
     health: [GREEN, "Avena con fruta y frutos secos: fibra y energía de absorción lenta."]
     nutrition: [340, 11, 50, 11]
     photo: saludable-desayunos-y-meriendas/porridge-de-avena-con-manzana-y-canela.jpg
-    category: Postres
+    category: Desayunos y meriendas
     difficulty: EASY
     prep: 5
     cook: 10
@@ -49,7 +49,7 @@ recipes:
     health: [GREEN, "Avena con yogur, semillas y fruta, sin cocinar: fibra, proteína y poco azúcar."]
     nutrition: [330, 14, 44, 11]
     photo: saludable-desayunos-y-meriendas/avena-remojada-con-frutos-rojos.jpg
-    category: Postres
+    category: Desayunos y meriendas
     difficulty: EASY
     prep: 5
     cook: 0
@@ -73,7 +73,7 @@ recipes:
     health: [YELLOW, "Avena, frutos secos y semillas con poca miel: nutritiva, pero calórica; ración pequeña."]
     nutrition: [210, 6, 22, 11]
     photo: saludable-desayunos-y-meriendas/granola-casera.jpg
-    category: Postres
+    category: Desayunos y meriendas
     difficulty: EASY
     prep: 10
     cook: 25
@@ -125,7 +125,7 @@ recipes:
     health: [GREEN, "Tortitas sin harina refinada ni azúcar, endulzadas con plátano."]
     nutrition: [290, 12, 42, 8]
     photo: saludable-desayunos-y-meriendas/tortitas-de-avena-y-platano.jpg
-    category: Postres
+    category: Desayunos y meriendas
     difficulty: EASY
     prep: 5
     cook: 15
@@ -150,7 +150,7 @@ recipes:
     health: [GREEN, "Magdalenas de avena y plátano con muy poco azúcar añadido."]
     nutrition: [170, 5, 24, 6]
     photo: saludable-desayunos-y-meriendas/muffins-de-platano-y-avena.jpg
-    category: Postres
+    category: Repostería
     difficulty: EASY
     prep: 15
     cook: 22
@@ -179,7 +179,7 @@ recipes:
     health: [YELLOW, "Avena, dátiles y frutos secos sin azúcar añadido: saciantes pero densas en calorías."]
     nutrition: [190, 5, 24, 9]
     photo: saludable-desayunos-y-meriendas/barritas-de-avena-y-datiles.jpg
-    category: Postres
+    category: Desayunos y meriendas
     difficulty: EASY
     prep: 15
     cook: 0
@@ -204,7 +204,7 @@ recipes:
     health: [GREEN, "Fruta y hoja verde batidas: vitaminas, fibra y nada de azúcar añadido."]
     nutrition: [180, 5, 34, 3]
     photo: saludable-desayunos-y-meriendas/batido-verde.jpg
-    category: Bebidas
+    category: Batidos y zumos
     difficulty: EASY
     prep: 5
     cook: 0
@@ -230,7 +230,7 @@ recipes:
     health: [GREEN, "Pan integral con queso fresco y fruta: proteína, fibra y poco azúcar."]
     nutrition: [260, 13, 34, 8]
     photo: saludable-desayunos-y-meriendas/tostada-integral-con-requeson-y-fresas.jpg
-    category: Panes y masas
+    category: Desayunos y meriendas
     difficulty: EASY
     prep: 5
     cook: 3

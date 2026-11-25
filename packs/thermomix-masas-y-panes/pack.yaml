@@ -1,6 +1,6 @@
 id: thermomix-masas-y-panes
-version: 2
-updated: 2026-11-13
+version: 3
+updated: 2026-11-25
 language: es
 name: "Thermomix: masas y panes"
 series: Electrodomésticos
@@ -313,7 +313,7 @@ recipes:
     health: [GREEN, "La masa es sencilla y ligera; el relleno decide el resto."]
     nutrition: [160, 6, 20, 6]
     photo: thermomix-masas-y-panes/crepes.jpg
-    category: Postres
+    category: Desayunos y meriendas
     difficulty: EASY
     prep: 5
     cook: 20

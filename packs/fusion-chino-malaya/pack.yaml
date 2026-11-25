@@ -1,6 +1,6 @@
 id: fusion-chino-malaya
-version: 1
-updated: 2026-11-07
+version: 2
+updated: 2026-11-25
 language: es
 name: "Cocina fusión: chino-malaya"
 series: Cocina fusión
@@ -269,7 +269,7 @@ recipes:
     health: [RED, "Pan tostado con mantequilla y crema de coco y huevo: un desayuno muy dulce y graso."]
     nutrition: [380, 7, 42, 20]
     photo: fusion-chino-malaya/tostadas-con-kaya.jpg
-    category: Postres
+    category: Desayunos y meriendas
     difficulty: MEDIUM
     prep: 10
     cook: 40

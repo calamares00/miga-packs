@@ -1,6 +1,6 @@
 id: cocina-griega
-version: 4
-updated: 2026-11-15
+version: 5
+updated: 2026-11-25
 language: es
 name: "Cocina del mundo: Grecia"
 series: Cocina del mundo
@@ -611,7 +611,7 @@ recipes:
     health: [RED, "Masa filo con nueces, mantequilla y almíbar: muy dulce y calórica. En porciones pequeñas."]
     nutrition: [450, 6, 50, 26]
     photo: cocina-griega/baklava.jpg
-    category: Postres
+    category: Repostería
     difficulty: MEDIUM
     prep: 40
     cook: 50

@@ -1,6 +1,6 @@
 id: halloween
-version: 1
-updated: 2026-11-14
+version: 2
+updated: 2026-11-25
 language: es
 name: Halloween
 series: Especiales
@@ -199,7 +199,7 @@ recipes:
     health: [RED, "Brownie con galleta y chocolate: muy dulce."]
     nutrition: [420, 5, 50, 23]
     photo: halloween/brownie-cementerio.jpg
-    category: Postres
+    category: Repostería
     difficulty: EASY
     prep: 25
     cook: 25
@@ -292,7 +292,7 @@ recipes:
     health: [RED, "Galletas con azúcar y mantequilla: dulces, aunque llevan calabaza."]
     nutrition: [120, 2, 17, 5]
     photo: halloween/galletas-de-calabaza-con-especias.jpg
-    category: Postres
+    category: Repostería
     difficulty: EASY
     prep: 20
     cook: 12

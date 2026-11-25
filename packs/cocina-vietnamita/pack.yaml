@@ -1,6 +1,6 @@
 id: cocina-vietnamita
-version: 4
-updated: 2026-11-15
+version: 5
+updated: 2026-11-25
 language: es
 name: "Cocina del mundo: Vietnam"
 series: Cocina del mundo
@@ -156,7 +156,7 @@ recipes:
     health: [GREEN, "Rollitos de papel de arroz con langostinos, verdura y hierbas, sin freír: ligeros y equilibrados."]
     nutrition: [320, 20, 32, 12]
     photo: cocina-vietnamita/rollitos-frescos-goi-cuon.jpg
-    category: Entrantes
+    category: Aperitivos y tapas
     difficulty: MEDIUM
     prep: 40
     cook: 15
@@ -190,7 +190,7 @@ recipes:
     health: [YELLOW, "Rollitos de cerdo y langostino fritos en aceite: sabrosos pero grasos."]
     nutrition: [380, 18, 30, 21]
     photo: cocina-vietnamita/rollitos-fritos-cha-gio.jpg
-    category: Entrantes
+    category: Aperitivos y tapas
     difficulty: MEDIUM
     prep: 45
     cook: 20
@@ -680,7 +680,7 @@ recipes:
     health: [YELLOW, "Aguacate con leche y leche condensada: grasas saludables, pero con azúcar añadido."]
     nutrition: [330, 7, 32, 20]
     photo: cocina-vietnamita/batido-de-aguacate-sinh-to-bo.jpg
-    category: Bebidas
+    category: Batidos y zumos
     difficulty: EASY
     prep: 5
     cook: 0

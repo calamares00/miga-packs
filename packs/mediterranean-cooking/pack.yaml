@@ -1,6 +1,6 @@
 id: mediterranean-cooking
-version: 4
-updated: 2026-11-15
+version: 5
+updated: 2026-11-25
 language: en
 name: Mediterranean cooking
 series: World cuisine
@@ -278,7 +278,7 @@ recipes:
     health: [GREEN, "Chickpeas, tahini and lemon: plant protein, fibre and healthy fats."]
     nutrition: [190, 7, 15, 12]
     photo: cocina-mediterranea/hummus.jpg
-    category: Legumes
+    category: Appetizers and tapas
     difficulty: EASY
     prep: 10
     cook: 0
@@ -400,7 +400,7 @@ recipes:
     health: [GREEN, "Couscous with plenty of vegetables and chickpeas: fibre, plant protein and little fat."]
     nutrition: [560, 18, 94, 13]
     photo: cocina-mediterranea/cuscus-de-verduras.jpg
-    category: Vegetables
+    category: Sides
     difficulty: MEDIUM
     prep: 20
     cook: 40

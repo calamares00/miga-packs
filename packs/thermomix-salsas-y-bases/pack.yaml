@@ -1,6 +1,6 @@
 id: thermomix-salsas-y-bases
-version: 2
-updated: 2026-11-13
+version: 3
+updated: 2026-11-25
 language: es
 name: "Thermomix: salsas y bases"
 series: Electrodomésticos
@@ -97,7 +97,7 @@ recipes:
     health: [GREEN, "Cebolla, pimiento y tomate con aceite de oliva: la base de muchos platos."]
     nutrition: [90, 1, 7, 6]
     photo: thermomix-salsas-y-bases/sofrito.jpg
-    category: Salsas
+    category: Bases y caldos
     difficulty: EASY
     prep: 10
     cook: 35
@@ -365,7 +365,7 @@ recipes:
     health: [GREEN, "Caldo casero sin grasa, muy ligero y sin los potenciadores de sabor de los de brick."]
     nutrition: [20, 1, 4, 0]
     photo: thermomix-salsas-y-bases/caldo-de-verduras.jpg
-    category: Sopas y cremas
+    category: Bases y caldos
     difficulty: EASY
     prep: 10
     cook: 40
@@ -392,7 +392,7 @@ recipes:
     health: [GREEN, "Caldo casero con poca grasa si lo desgrasas en frío: ligero y reconfortante."]
     nutrition: [40, 4, 2, 2]
     photo: thermomix-salsas-y-bases/caldo-de-pollo.jpg
-    category: Sopas y cremas
+    category: Bases y caldos
     difficulty: EASY
     prep: 10
     cook: 50

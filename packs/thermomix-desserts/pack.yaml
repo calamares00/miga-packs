@@ -1,6 +1,6 @@
 id: thermomix-desserts
-version: 2
-updated: 2026-11-13
+version: 3
+updated: 2026-11-25
 language: en
 name: "Thermomix: desserts"
 series: Kitchen appliances
@@ -165,7 +165,7 @@ recipes:
     health: [YELLOW, "Refreshing and fat-free, but with quite a lot of sugar."]
     nutrition: [150, 0, 38, 0]
     photo: thermomix-postres/sorbete-de-limon.jpg
-    category: Desserts
+    category: Ice cream and sorbets
     difficulty: EASY
     prep: 10
     cook: 0
@@ -189,7 +189,7 @@ recipes:
     health: [GREEN, "Frozen fruit with plain yoghurt and little sugar: a light ice cream in minutes."]
     nutrition: [120, 3, 22, 2]
     photo: thermomix-postres/helado-expres-de-fresa.jpg
-    category: Desserts
+    category: Ice cream and sorbets
     difficulty: EASY
     prep: 5
     cook: 0
@@ -212,7 +212,7 @@ recipes:
     health: [YELLOW, "The classic homemade sponge: better than factory cakes, but it has sugar and oil."]
     nutrition: [290, 5, 38, 13]
     photo: thermomix-postres/bizcocho-de-yogur.jpg
-    category: Desserts
+    category: Baking
     difficulty: EASY
     prep: 10
     cook: 40
@@ -241,7 +241,7 @@ recipes:
     health: [RED, "Cream cheese, cream and sugar: a very rich dessert."]
     nutrition: [420, 8, 26, 32]
     photo: thermomix-postres/tarta-de-queso-cremosa.jpg
-    category: Desserts
+    category: Baking
     difficulty: EASY
     prep: 10
     cook: 50
@@ -292,7 +292,7 @@ recipes:
     health: [YELLOW, "Fruit with sugar: to have in moderation."]
     nutrition: [40, 0, 10, 0]
     photo: thermomix-postres/mermelada-de-fresa.jpg
-    category: Desserts
+    category: Preserves and jams
     difficulty: EASY
     prep: 10
     cook: 30
@@ -341,7 +341,7 @@ recipes:
     health: [RED, "Butter, sugar and flour: very rich, best one at a time."]
     nutrition: [90, 1, 11, 5]
     photo: thermomix-postres/galletas-de-mantequilla.jpg
-    category: Desserts
+    category: Baking
     difficulty: EASY
     prep: 20
     cook: 12
@@ -368,7 +368,7 @@ recipes:
     health: [RED, "Chocolate, butter and sugar: a very rich dessert."]
     nutrition: [330, 5, 32, 21]
     photo: thermomix-postres/brownie-de-nueces.jpg
-    category: Desserts
+    category: Baking
     difficulty: EASY
     prep: 10
     cook: 25
@@ -396,7 +396,7 @@ recipes:
   - name: Spanish biscuit cake (tarta de la abuela)
     health: [RED, "Biscuits, custard and chocolate: very sweet and rich, for celebrations."]
     nutrition: [400, 6, 48, 20]
-    category: Desserts
+    category: Baking
     difficulty: EASY
     prep: 30
     cook: 15

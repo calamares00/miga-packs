@@ -1,6 +1,6 @@
 id: tex-mex-fusion
-version: 1
-updated: 2026-11-07
+version: 2
+updated: 2026-11-25
 language: en
 name: "Fusion cuisine: Tex-Mex"
 series: Fusion cuisine
@@ -26,7 +26,7 @@ recipes:
     health: [RED, "Tortilla chips with melted cheese, beans and meat: a very high-calorie, salty snack."]
     nutrition: [620, 26, 52, 35]
     photo: fusion-texmex/nachos.jpg
-    category: Starters
+    category: Appetizers and tapas
     difficulty: EASY
     prep: 15
     cook: 10

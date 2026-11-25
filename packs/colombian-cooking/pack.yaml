@@ -1,6 +1,6 @@
 id: colombian-cooking
-version: 4
-updated: 2026-11-15
+version: 5
+updated: 2026-11-25
 language: en
 name: "World cuisine: Colombia"
 series: World cuisine
@@ -366,7 +366,7 @@ recipes:
     health: [YELLOW, "Fried cheese and starch balls: fat and salt. A Christmas classic to enjoy in moderation."]
     nutrition: [280, 9, 20, 18]
     photo: cocina-colombiana/bunuelos-colombianos.jpg
-    category: Desserts
+    category: Baking
     difficulty: MEDIUM
     prep: 20
     cook: 20

@@ -1,6 +1,6 @@
 id: especial-navidad
-version: 3
-updated: 2026-11-06
+version: 4
+updated: 2026-11-25
 language: es
 name: Especial Navidad
 series: Especiales
@@ -55,7 +55,7 @@ recipes:
     health: [YELLOW, "Bechamel con mantequilla y leche entera, con jamón, empanada y frita: grasa y sal. Mejor pocas."]
     nutrition: [460, 15, 42, 25]
     photo: especial-navidad/croquetas-de-jamon.jpg
-    category: Entrantes
+    category: Aperitivos y tapas
     difficulty: MEDIUM
     prep: 30
     cook: 25
@@ -395,7 +395,7 @@ recipes:
     health: [RED, "Bollo dulce con azúcar y mantequilla, a menudo relleno de nata: mucho azúcar. Para la ocasión."]
     nutrition: [360, 9, 58, 10]
     photo: especial-navidad/roscon-de-reyes.jpg
-    category: Postres
+    category: Repostería
     difficulty: HARD
     prep: 60
     cook: 25
@@ -440,7 +440,7 @@ recipes:
   - name: Turrón de chocolate crujiente
     health: [RED, "Chocolate con mantequilla y arroz inflado: muy rico en azúcar y grasa. Dulce para porciones pequeñas."]
     nutrition: [210, 3, 21, 13]
-    category: Postres
+    category: Repostería
     difficulty: EASY
     prep: 15
     cook: 5
@@ -465,7 +465,7 @@ recipes:
     health: [RED, "Dulce de manteca de cerdo, harina y azúcar: muy calórico y graso. Uno de vez en cuando."]
     nutrition: [150, 2, 17, 8]
     photo: especial-navidad/polvorones.jpg
-    category: Postres
+    category: Repostería
     difficulty: MEDIUM
     prep: 30
     cook: 30
@@ -637,7 +637,7 @@ recipes:
     health: [YELLOW, "Almendra con miel y azúcar: grasas saludables y proteína, pero muy dulce. En porciones pequeñas."]
     nutrition: [290, 8, 26, 18]
     photo: especial-navidad/turron-blando-de-jijona.jpg
-    category: Postres
+    category: Repostería
     difficulty: MEDIUM
     prep: 20
     cook: 15

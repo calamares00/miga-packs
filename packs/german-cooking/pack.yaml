@@ -1,6 +1,6 @@
 id: german-cooking
-version: 4
-updated: 2026-11-15
+version: 5
+updated: 2026-11-25
 language: en
 name: "World cuisine: Germany"
 series: World cuisine
@@ -559,7 +559,7 @@ recipes:
     health: [YELLOW, "A sponge with apple: there is fruit, but also butter and sugar. A moderate dessert."]
     nutrition: [300, 5, 40, 13]
     photo: cocina-alemana/pastel-de-manzana-aleman.jpg
-    category: Desserts
+    category: Baking
     difficulty: EASY
     prep: 20
     cook: 45
@@ -590,7 +590,7 @@ recipes:
     health: [RED, "A chocolate cake with whipped cream, cherries and kirsch: a lot of sugar and fat."]
     nutrition: [430, 6, 42, 26]
     photo: cocina-alemana/tarta-selva-negra.jpg
-    category: Desserts
+    category: Baking
     difficulty: HARD
     prep: 60
     cook: 35

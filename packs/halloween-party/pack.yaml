@@ -1,6 +1,6 @@
 id: halloween-party
-version: 1
-updated: 2026-11-14
+version: 2
+updated: 2026-11-25
 language: en
 name: Halloween
 series: Specials
@@ -199,7 +199,7 @@ recipes:
     health: [RED, "Brownie with biscuits and chocolate: very sweet."]
     nutrition: [420, 5, 50, 23]
     photo: halloween/brownie-cementerio.jpg
-    category: Desserts
+    category: Baking
     difficulty: EASY
     prep: 25
     cook: 25
@@ -292,7 +292,7 @@ recipes:
     health: [RED, "Cookies with sugar and butter: sweet, though they contain pumpkin."]
     nutrition: [120, 2, 17, 5]
     photo: halloween/galletas-de-calabaza-con-especias.jpg
-    category: Desserts
+    category: Baking
     difficulty: EASY
     prep: 20
     cook: 12

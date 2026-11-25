@@ -1,6 +1,6 @@
 id: healthy-gluten-free
-version: 1
-updated: 2026-11-07
+version: 2
+updated: 2026-11-25
 language: en
 name: "Healthy cooking: gluten-free"
 series: Healthy cooking
@@ -284,7 +284,7 @@ recipes:
     health: [RED, "Chocolate, egg and butter cake: a gluten-free treat, but very high in calories."]
     nutrition: [340, 6, 26, 24]
     photo: saludable-sin-gluten/bizcocho-de-chocolate-sin-harina.jpg
-    category: Desserts
+    category: Baking
     difficulty: EASY
     prep: 15
     cook: 30

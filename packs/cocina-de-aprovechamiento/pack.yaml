@@ -1,6 +1,6 @@
 id: cocina-de-aprovechamiento
-version: 1
-updated: 2026-11-13
+version: 2
+updated: 2026-11-25
 language: es
 name: Cocina de aprovechamiento
 series: Cocina de cada día
@@ -54,7 +54,7 @@ recipes:
     health: [RED, "Bechamel y carne fritas: muy calóricas, pero aprovechan bien las sobras."]
     nutrition: [90, 4, 7, 5]
     photo: cocina-de-aprovechamiento/croquetas-de-cocido.jpg
-    category: Entrantes
+    category: Aperitivos y tapas
     difficulty: MEDIUM
     prep: 40
     cook: 20
@@ -149,7 +149,7 @@ recipes:
     health: [YELLOW, "Pollo con verduras en masa: bien al horno; fritas, mucho más calóricas."]
     nutrition: [310, 16, 30, 14]
     photo: cocina-de-aprovechamiento/empanadillas-de-pollo-asado.jpg
-    category: Entrantes
+    category: Aperitivos y tapas
     difficulty: EASY
     prep: 25
     cook: 20
@@ -256,7 +256,7 @@ recipes:
   - name: Batido de frutas maduras
     health: [GREEN, "Fruta muy madura con yogur: dulce sin azúcar añadido."]
     nutrition: [170, 6, 32, 3]
-    category: Bebidas
+    category: Batidos y zumos
     difficulty: EASY
     prep: 5
     cook: 0
@@ -279,7 +279,7 @@ recipes:
     health: [YELLOW, "Fruta con azúcar: para tomar con moderación."]
     nutrition: [45, 0, 11, 0]
     photo: cocina-de-aprovechamiento/mermelada-de-frutas-maduras.jpg
-    category: Postres
+    category: Conservas y mermeladas
     difficulty: EASY
     prep: 15
     cook: 35
@@ -302,7 +302,7 @@ recipes:
     health: [GREEN, "Caldo sin grasa hecho con lo que normalmente va a la basura."]
     nutrition: [20, 1, 4, 0]
     photo: cocina-de-aprovechamiento/caldo-de-pieles-y-tallos-de-verduras.jpg
-    category: Sopas y cremas
+    category: Bases y caldos
     difficulty: EASY
     prep: 5
     cook: 45

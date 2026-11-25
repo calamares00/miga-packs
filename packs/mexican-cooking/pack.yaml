@@ -1,6 +1,6 @@
 id: mexican-cooking
-version: 5
-updated: 2026-11-15
+version: 6
+updated: 2026-11-25
 language: en
 name: "World cuisine: Mexico"
 series: World cuisine
@@ -69,7 +69,7 @@ recipes:
     health: [GREEN, "Avocado with tomato, onion and lime: healthy fats, fibre and vitamins."]
     nutrition: [190, 3, 11, 16]
     photo: cocina-mexicana/guacamole.jpg
-    category: Sauces
+    category: Appetizers and tapas
     difficulty: EASY
     prep: 10
     cook: 0
@@ -818,7 +818,7 @@ recipes:
     health: [RED, "Sponge soaked in three milks and topped with cream: very sweet."]
     nutrition: [430, 9, 54, 20]
     photo: cocina-mexicana/pastel-tres-leches.jpg
-    category: Desserts
+    category: Baking
     difficulty: MEDIUM
     prep: 25
     cook: 30

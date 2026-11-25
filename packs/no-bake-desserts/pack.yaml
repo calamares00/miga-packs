@@ -1,6 +1,6 @@
 id: no-bake-desserts
-version: 1
-updated: 2026-11-13
+version: 2
+updated: 2026-11-25
 language: en
 name: No-bake desserts
 series: Everyday cooking
@@ -24,7 +24,7 @@ recipes:
     health: [RED, "Cream cheese, cream and biscuit: very rich, for occasions."]
     nutrition: [420, 6, 34, 29]
     photo: reposteria-sin-horno/tarta-de-queso-fria.jpg
-    category: Desserts
+    category: Baking
     difficulty: EASY
     prep: 25
     cook: 5
@@ -55,7 +55,7 @@ recipes:
     health: [RED, "Chocolate, cream and milk: a very rich dessert."]
     nutrition: [450, 7, 34, 32]
     photo: reposteria-sin-horno/tarta-de-tres-chocolates.jpg
-    category: Desserts
+    category: Baking
     difficulty: MEDIUM
     prep: 40
     cook: 15
@@ -87,7 +87,7 @@ recipes:
     health: [RED, "Condensed milk, cream and biscuit: refreshing, but very sweet."]
     nutrition: [410, 7, 44, 23]
     photo: reposteria-sin-horno/tarta-de-limon-fria.jpg
-    category: Desserts
+    category: Baking
     difficulty: EASY
     prep: 20
     cook: 0
@@ -265,7 +265,7 @@ recipes:
     health: [RED, "Strawberries with cream and biscuit: delicious, but rich."]
     nutrition: [360, 5, 32, 24]
     photo: reposteria-sin-horno/tarta-de-fresas-fria.jpg
-    category: Desserts
+    category: Baking
     difficulty: MEDIUM
     prep: 30
     cook: 5

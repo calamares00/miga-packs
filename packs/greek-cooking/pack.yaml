@@ -1,6 +1,6 @@
 id: greek-cooking
-version: 4
-updated: 2026-11-15
+version: 5
+updated: 2026-11-25
 language: en
 name: "World cuisine: Greece"
 series: World cuisine
@@ -611,7 +611,7 @@ recipes:
     health: [RED, "Filo with walnuts, butter and syrup: very sweet and high in calories. In small portions."]
     nutrition: [450, 6, 50, 26]
     photo: cocina-griega/baklava.jpg
-    category: Desserts
+    category: Baking
     difficulty: MEDIUM
     prep: 40
     cook: 50

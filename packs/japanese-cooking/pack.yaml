@@ -1,6 +1,6 @@
 id: japanese-cooking
-version: 4
-updated: 2026-11-15
+version: 5
+updated: 2026-11-25
 language: en
 name: "World cuisine: Japan"
 series: World cuisine
@@ -82,7 +82,7 @@ recipes:
     health: [GREEN, "Pork and cabbage dumplings pan-fried and steamed: complete, with moderate fat. Go easy on the dipping sauce."]
     nutrition: [420, 18, 40, 20]
     photo: cocina-japonesa/gyoza.jpg
-    category: Starters
+    category: Appetizers and tapas
     difficulty: MEDIUM
     prep: 40
     cook: 10

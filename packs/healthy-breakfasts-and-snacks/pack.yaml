@@ -1,6 +1,6 @@
 id: healthy-breakfasts-and-snacks
-version: 1
-updated: 2026-11-07
+version: 2
+updated: 2026-11-25
 language: en
 name: "Healthy cooking: breakfasts and snacks"
 series: Healthy cooking
@@ -25,7 +25,7 @@ recipes:
     health: [GREEN, "Oats with fruit and nuts: fibre and slow-release energy."]
     nutrition: [340, 11, 50, 11]
     photo: saludable-desayunos-y-meriendas/porridge-de-avena-con-manzana-y-canela.jpg
-    category: Desserts
+    category: Breakfast and brunch
     difficulty: EASY
     prep: 5
     cook: 10
@@ -49,7 +49,7 @@ recipes:
     health: [GREEN, "Oats with yoghurt, seeds and fruit, uncooked: fibre, protein and little sugar."]
     nutrition: [330, 14, 44, 11]
     photo: saludable-desayunos-y-meriendas/avena-remojada-con-frutos-rojos.jpg
-    category: Desserts
+    category: Breakfast and brunch
     difficulty: EASY
     prep: 5
     cook: 0
@@ -73,7 +73,7 @@ recipes:
     health: [YELLOW, "Oats, nuts and seeds with a little honey: nutritious but calorie-dense; keep portions small."]
     nutrition: [210, 6, 22, 11]
     photo: saludable-desayunos-y-meriendas/granola-casera.jpg
-    category: Desserts
+    category: Breakfast and brunch
     difficulty: EASY
     prep: 10
     cook: 25
@@ -125,7 +125,7 @@ recipes:
     health: [GREEN, "Pancakes with no refined flour or sugar, sweetened with banana."]
     nutrition: [290, 12, 42, 8]
     photo: saludable-desayunos-y-meriendas/tortitas-de-avena-y-platano.jpg
-    category: Desserts
+    category: Breakfast and brunch
     difficulty: EASY
     prep: 5
     cook: 15
@@ -150,7 +150,7 @@ recipes:
     health: [GREEN, "Oat and banana muffins with very little added sugar."]
     nutrition: [170, 5, 24, 6]
     photo: saludable-desayunos-y-meriendas/muffins-de-platano-y-avena.jpg
-    category: Desserts
+    category: Baking
     difficulty: EASY
     prep: 15
     cook: 22
@@ -179,7 +179,7 @@ recipes:
     health: [YELLOW, "Oats, dates and nuts with no added sugar: filling but calorie-dense."]
     nutrition: [190, 5, 24, 9]
     photo: saludable-desayunos-y-meriendas/barritas-de-avena-y-datiles.jpg
-    category: Desserts
+    category: Breakfast and brunch
     difficulty: EASY
     prep: 15
     cook: 0
@@ -204,7 +204,7 @@ recipes:
     health: [GREEN, "Fruit and leafy greens blended: vitamins, fibre and no added sugar."]
     nutrition: [180, 5, 34, 3]
     photo: saludable-desayunos-y-meriendas/batido-verde.jpg
-    category: Drinks
+    category: Smoothies and juices
     difficulty: EASY
     prep: 5
     cook: 0
@@ -230,7 +230,7 @@ recipes:
     health: [GREEN, "Wholemeal bread with fresh cheese and fruit: protein, fibre and little sugar."]
     nutrition: [260, 13, 34, 8]
     photo: saludable-desayunos-y-meriendas/tostada-integral-con-requeson-y-fresas.jpg
-    category: Breads and doughs
+    category: Breakfast and brunch
     difficulty: EASY
     prep: 5
     cook: 3

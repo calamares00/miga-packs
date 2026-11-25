@@ -1,6 +1,6 @@
 id: kids-birthday-party
-version: 2
-updated: 2026-11-13
+version: 3
+updated: 2026-11-25
 language: en
 name: Kids' birthday party
 series: Specials
@@ -25,7 +25,7 @@ recipes:
     health: [RED, "Chocolate sponge with a chocolate topping: a very sweet dessert, for party day."]
     nutrition: [420, 6, 52, 21]
     photo: cumpleanos-infantiles/tarta-de-cumpleanos-de-chocolate.jpg
-    category: Desserts
+    category: Baking
     difficulty: MEDIUM
     prep: 30
     cook: 35
@@ -63,7 +63,7 @@ recipes:
     health: [RED, "Sponge cake with sugar and food colouring: just for celebrations."]
     nutrition: [320, 5, 44, 14]
     photo: cumpleanos-infantiles/bizcocho-arcoiris.jpg
-    category: Desserts
+    category: Baking
     difficulty: MEDIUM
     prep: 30
     cook: 40
@@ -92,7 +92,7 @@ recipes:
     health: [RED, "Cupcakes with buttercream: lots of sugar and fat, for the party."]
     nutrition: [330, 3, 40, 18]
     photo: cumpleanos-infantiles/cupcakes-de-vainilla.jpg
-    category: Desserts
+    category: Baking
     difficulty: EASY
     prep: 25
     cook: 20
@@ -128,7 +128,7 @@ recipes:
     health: [RED, "Biscuits with sugar icing: very sweet, one per child is plenty."]
     nutrition: [150, 2, 24, 5]
     photo: cumpleanos-infantiles/galletas-decoradas.jpg
-    category: Desserts
+    category: Baking
     difficulty: MEDIUM
     prep: 60
     cook: 12
@@ -242,7 +242,7 @@ recipes:
     health: [RED, "Sausage and puff pastry: lots of fat and salt, just for the party."]
     nutrition: [120, 4, 8, 8]
     photo: cumpleanos-infantiles/salchichas-en-hojaldre.jpg
-    category: Starters
+    category: Appetizers and tapas
     difficulty: EASY
     prep: 15
     cook: 15
@@ -323,7 +323,7 @@ recipes:
     health: [YELLOW, "Wholegrain corn with little oil: a good snack, but watch the salt and sugar."]
     nutrition: [130, 3, 18, 5]
     photo: cumpleanos-infantiles/palomitas-caseras.jpg
-    category: Starters
+    category: Appetizers and tapas
     difficulty: EASY
     prep: 2
     cook: 5

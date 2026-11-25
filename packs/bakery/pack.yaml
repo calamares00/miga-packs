@@ -1,6 +1,6 @@
 id: bakery
-version: 3
-updated: 2026-11-06
+version: 4
+updated: 2026-11-25
 language: en
 name: Bakery
 series: Everyday cooking
@@ -214,7 +214,7 @@ recipes:
     health: [YELLOW, "Soft buns with sugar, butter and egg. Best for occasional breakfasts."]
     nutrition: [230, 6, 36, 6]
     photo: panaderia/bollos-de-leche.jpg
-    category: Breads and doughs
+    category: Baking
     difficulty: EASY
     prep: 30
     cook: 15
@@ -244,7 +244,7 @@ recipes:
     health: [RED, "Brioche with lots of butter, egg and sugar: very high in calories and fat. For special occasions."]
     nutrition: [330, 8, 36, 18]
     photo: panaderia/brioche.jpg
-    category: Breads and doughs
+    category: Baking
     difficulty: HARD
     prep: 40
     cook: 30
@@ -273,7 +273,7 @@ recipes:
     health: [RED, "Laminated dough with plenty of butter: very fatty and high in calories. An occasional treat."]
     nutrition: [310, 6, 34, 17]
     photo: panaderia/cruasanes.jpg
-    category: Breads and doughs
+    category: Baking
     difficulty: HARD
     prep: 240
     cook: 18
@@ -330,7 +330,7 @@ recipes:
     health: [RED, "Sweet dough with lard and icing sugar: a lot of saturated fat and sugar."]
     nutrition: [310, 6, 42, 13]
     photo: panaderia/ensaimadas.jpg
-    category: Breads and doughs
+    category: Baking
     difficulty: HARD
     prep: 60
     cook: 15
@@ -362,7 +362,7 @@ recipes:
     health: [RED, "Little cakes with plenty of sugar and oil: sweet and high in calories. Best as an occasional treat."]
     nutrition: [210, 3, 22, 12]
     photo: panaderia/magdalenas.jpg
-    category: Desserts
+    category: Baking
     difficulty: EASY
     prep: 15
     cook: 15
@@ -568,7 +568,7 @@ recipes:
   - name: Anise rosquillas
     health: [RED, "Fried rings coated in sugar: a lot of fat and sugar. A traditional sweet for special occasions."]
     nutrition: [190, 3, 26, 8]
-    category: Desserts
+    category: Baking
     difficulty: MEDIUM
     prep: 30
     cook: 20

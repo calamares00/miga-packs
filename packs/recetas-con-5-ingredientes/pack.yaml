@@ -1,6 +1,6 @@
 id: recetas-con-5-ingredientes
-version: 1
-updated: 2026-11-13
+version: 2
+updated: 2026-11-25
 language: es
 name: Recetas con 5 ingredientes
 series: Cocina de cada día
@@ -78,7 +78,7 @@ recipes:
     health: [GREEN, "Garbanzo y remolacha: fibra, proteína vegetal y un color espectacular."]
     nutrition: [180, 6, 18, 9]
     photo: recetas-con-5-ingredientes/hummus-de-remolacha.jpg
-    category: Entrantes
+    category: Aperitivos y tapas
     difficulty: EASY
     prep: 10
     cook: 0
@@ -259,7 +259,7 @@ recipes:
   - name: Helado de plátano y cacao
     health: [GREEN, "Solo plátano congelado y cacao: un helado cremoso sin azúcar añadido."]
     nutrition: [130, 2, 30, 1]
-    category: Postres
+    category: Helados y sorbetes
     difficulty: EASY
     prep: 5
     cook: 0
@@ -281,7 +281,7 @@ recipes:
     health: [YELLOW, "Crema de cacahuete con azúcar: proteína y grasas buenas, pero muy calóricas."]
     nutrition: [110, 3, 9, 7]
     photo: recetas-con-5-ingredientes/galletas-de-crema-de-cacahuete.jpg
-    category: Postres
+    category: Repostería
     difficulty: EASY
     prep: 10
     cook: 10

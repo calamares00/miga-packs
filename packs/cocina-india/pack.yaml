@@ -1,6 +1,6 @@
 id: cocina-india
-version: 2
-updated: 2026-11-15
+version: 3
+updated: 2026-11-25
 language: es
 name: "Cocina del mundo: India"
 series: Cocina del mundo
@@ -403,7 +403,7 @@ recipes:
     health: [RED, "Empanadillas fritas rellenas de patata: muy calóricas por la fritura y la masa."]
     nutrition: [380, 7, 48, 18]
     photo: cocina-india/samosas-de-patata.jpg
-    category: Entrantes
+    category: Aperitivos y tapas
     difficulty: HARD
     prep: 45
     cook: 30
@@ -610,7 +610,7 @@ recipes:
     health: [YELLOW, "Batido de yogur y mango: aporta calcio y fruta, pero lleva azúcar."]
     nutrition: [210, 7, 36, 4]
     photo: cocina-india/lassi-de-mango.jpg
-    category: Bebidas
+    category: Batidos y zumos
     difficulty: EASY
     prep: 5
     cook: 0

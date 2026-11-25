@@ -1,6 +1,6 @@
 id: thermomix-soups-and-purees
-version: 3
-updated: 2026-11-06
+version: 4
+updated: 2026-11-25
 language: en
 name: "Thermomix: soups and purées"
 series: Kitchen appliances
@@ -86,7 +86,7 @@ recipes:
     health: [YELLOW, "Potato with whole milk and butter: comforting, but with some fat. A good side in moderate amounts."]
     nutrition: [250, 6, 36, 11]
     photo: thermomix-cremas-y-pures/pure-de-patatas.jpg
-    category: Vegetables
+    category: Sides
     difficulty: EASY
     prep: 10
     cook: 30

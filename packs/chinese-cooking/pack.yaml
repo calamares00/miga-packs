@@ -1,6 +1,6 @@
 id: chinese-cooking
-version: 4
-updated: 2026-11-15
+version: 5
+updated: 2026-11-25
 language: en
 name: "World cuisine: China"
 series: World cuisine
@@ -560,7 +560,7 @@ recipes:
     health: [YELLOW, "Rolls with pork and vegetables, but deep-fried. Better in small numbers and well drained."]
     nutrition: [380, 13, 30, 23]
     photo: cocina-china/rollitos-de-primavera.jpg
-    category: Starters
+    category: Appetizers and tapas
     difficulty: MEDIUM
     prep: 40
     cook: 15

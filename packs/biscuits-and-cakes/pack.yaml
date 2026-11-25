@@ -1,6 +1,6 @@
 id: biscuits-and-cakes
-version: 1
-updated: 2026-11-13
+version: 2
+updated: 2026-11-25
 language: en
 name: Biscuits and cakes
 series: Everyday cooking
@@ -24,7 +24,7 @@ recipes:
     health: [YELLOW, "Homemade cake with a whole orange: better than shop pastries, but with sugar and oil."]
     nutrition: [300, 5, 40, 14]
     photo: galletas-y-bizcochos/bizcocho-de-naranja.jpg
-    category: Desserts
+    category: Baking
     difficulty: EASY
     prep: 15
     cook: 45
@@ -51,7 +51,7 @@ recipes:
     health: [YELLOW, "Cake with butter and cocoa: lovely for breakfast, but rich."]
     nutrition: [320, 5, 40, 16]
     photo: galletas-y-bizcochos/bizcocho-marmolado.jpg
-    category: Desserts
+    category: Baking
     difficulty: EASY
     prep: 20
     cook: 50
@@ -80,7 +80,7 @@ recipes:
     health: [YELLOW, "With carrot and walnuts, but the cream cheese icing makes it rich."]
     nutrition: [410, 6, 44, 24]
     photo: galletas-y-bizcochos/bizcocho-de-zanahoria.jpg
-    category: Desserts
+    category: Baking
     difficulty: MEDIUM
     prep: 25
     cook: 45
@@ -115,7 +115,7 @@ recipes:
     health: [YELLOW, "Yoghurt and lemon cake: light and fluffy, but sweet."]
     nutrition: [290, 5, 40, 12]
     photo: galletas-y-bizcochos/bizcocho-de-limon-y-amapola.jpg
-    category: Desserts
+    category: Baking
     difficulty: EASY
     prep: 15
     cook: 45
@@ -148,7 +148,7 @@ recipes:
     health: [YELLOW, "Lots of apple and little fat for a cake, but it has sugar."]
     nutrition: [260, 4, 40, 9]
     photo: galletas-y-bizcochos/bizcocho-de-manzana.jpg
-    category: Desserts
+    category: Baking
     difficulty: EASY
     prep: 20
     cook: 45
@@ -177,7 +177,7 @@ recipes:
     health: [YELLOW, "Chocolate cake with coffee: for a weekend breakfast."]
     nutrition: [310, 5, 42, 14]
     photo: galletas-y-bizcochos/bizcocho-de-cacao-y-cafe.jpg
-    category: Desserts
+    category: Baking
     difficulty: EASY
     prep: 15
     cook: 40
@@ -205,7 +205,7 @@ recipes:
     health: [YELLOW, "With oats and raisins, but also butter and sugar: one at a time."]
     nutrition: [120, 2, 17, 5]
     photo: galletas-y-bizcochos/galletas-de-avena-y-pasas.jpg
-    category: Desserts
+    category: Baking
     difficulty: EASY
     prep: 15
     cook: 12
@@ -232,7 +232,7 @@ recipes:
   - name: Gingerbread biscuits
     health: [YELLOW, "Spiced biscuits with honey: sweet, but with little butter."]
     nutrition: [100, 1, 16, 3]
-    category: Desserts
+    category: Baking
     difficulty: MEDIUM
     prep: 30
     cook: 10
@@ -260,7 +260,7 @@ recipes:
   - name: Butter tea biscuits (pastas de té)
     health: [RED, "Butter and sugar: small, but very rich."]
     nutrition: [80, 1, 9, 5]
-    category: Desserts
+    category: Baking
     difficulty: MEDIUM
     prep: 30
     cook: 12
@@ -287,7 +287,7 @@ recipes:
     health: [YELLOW, "Lemon biscuits with icing: sweet, one at a time."]
     nutrition: [100, 1, 14, 4]
     photo: galletas-y-bizcochos/galletas-de-limon.jpg
-    category: Desserts
+    category: Baking
     difficulty: EASY
     prep: 20
     cook: 12
@@ -344,7 +344,7 @@ recipes:
     health: [YELLOW, "Butter cookies rolled in cinnamon sugar: sweet."]
     nutrition: [110, 1, 15, 5]
     photo: galletas-y-bizcochos/galletas-de-canela.jpg
-    category: Desserts
+    category: Baking
     difficulty: EASY
     prep: 15
     cook: 10

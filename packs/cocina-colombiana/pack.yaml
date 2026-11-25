@@ -1,6 +1,6 @@
 id: cocina-colombiana
-version: 4
-updated: 2026-11-15
+version: 5
+updated: 2026-11-25
 language: es
 name: "Cocina del mundo: Colombia"
 series: Cocina del mundo
@@ -367,7 +367,7 @@ recipes:
     health: [YELLOW, "Bolas de queso y almidón fritas: grasa y sal. Típicas de Navidad, para tomar con moderación."]
     nutrition: [280, 9, 20, 18]
     photo: cocina-colombiana/bunuelos-colombianos.jpg
-    category: Postres
+    category: Repostería
     difficulty: MEDIUM
     prep: 20
     cook: 20

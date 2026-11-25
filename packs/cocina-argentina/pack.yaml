@@ -1,6 +1,6 @@
 id: cocina-argentina
-version: 4
-updated: 2026-11-15
+version: 5
+updated: 2026-11-25
 language: es
 name: "Cocina del mundo: Argentina"
 series: Cocina del mundo
@@ -688,7 +688,7 @@ recipes:
     health: [RED, "Hojaldre frito con dulce de membrillo y almíbar: muy calórico."]
     nutrition: [280, 3, 38, 13]
     photo: cocina-argentina/pastelitos-de-membrillo.jpg
-    category: Postres
+    category: Repostería
     difficulty: MEDIUM
     prep: 30
     cook: 20

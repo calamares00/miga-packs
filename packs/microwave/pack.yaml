@@ -1,6 +1,6 @@
 id: microwave
-version: 1
-updated: 2026-11-13
+version: 2
+updated: 2026-11-25
 language: en
 name: Microwave
 series: Kitchen appliances
@@ -25,7 +25,7 @@ recipes:
     health: [RED, "An individual chocolate cake: a sweet treat."]
     nutrition: [420, 8, 50, 21]
     photo: microondas/bizcocho-en-taza.jpg
-    category: Desserts
+    category: Baking
     difficulty: EASY
     prep: 5
     cook: 2
@@ -259,7 +259,7 @@ recipes:
   - name: Express berry jam
     health: [YELLOW, "Fruit with little sugar: lighter than shop-bought, but sweet."]
     nutrition: [35, 0, 9, 0]
-    category: Desserts
+    category: Preserves and jams
     difficulty: EASY
     prep: 2
     cook: 10

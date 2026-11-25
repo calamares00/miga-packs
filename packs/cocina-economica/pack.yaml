@@ -1,6 +1,6 @@
 id: cocina-economica
-version: 1
-updated: 2026-11-13
+version: 2
+updated: 2026-11-25
 language: es
 name: Cocina económica
 series: Cocina de cada día
@@ -139,7 +139,7 @@ recipes:
     health: [GREEN, "Pollo con patatas y verduras en guiso: completo y sin fritos."]
     nutrition: [450, 32, 34, 20]
     photo: cocina-economica/pollo-guisado-con-patatas.jpg
-    category: Carnes
+    category: Guisos y potajes
     difficulty: EASY
     prep: 15
     cook: 45
@@ -199,7 +199,7 @@ recipes:
     health: [YELLOW, "Atún, huevo y tomate en masa: al horno son ligeras; fritas, mucho más calóricas."]
     nutrition: [320, 16, 30, 15]
     photo: cocina-economica/empanadillas-de-atun.jpg
-    category: Entrantes
+    category: Aperitivos y tapas
     difficulty: EASY
     prep: 20
     cook: 20

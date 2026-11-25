@@ -1,6 +1,6 @@
 id: cocina-espanola
-version: 3
-updated: 2026-11-06
+version: 4
+updated: 2026-11-25
 language: es
 name: "Cocina del mundo: España"
 series: Cocina del mundo
@@ -129,7 +129,7 @@ recipes:
     health: [GREEN, "Bonito, pescado azul con omega 3, guisado con patata y verduras. Un plato muy completo."]
     nutrition: [540, 40, 48, 19]
     photo: cocina-espanola/marmitako.jpg
-    category: Pescados y mariscos
+    category: Guisos y potajes
     difficulty: EASY
     prep: 20
     cook: 35
@@ -657,7 +657,7 @@ recipes:
     health: [YELLOW, "Tarta de almendra y huevo sin harina: grasas saludables, pero con mucho azúcar."]
     nutrition: [420, 12, 36, 26]
     photo: cocina-espanola/tarta-de-santiago.jpg
-    category: Postres
+    category: Repostería
     difficulty: EASY
     prep: 15
     cook: 40

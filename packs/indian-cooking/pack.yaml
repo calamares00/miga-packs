@@ -1,6 +1,6 @@
 id: indian-cooking
-version: 2
-updated: 2026-11-15
+version: 3
+updated: 2026-11-25
 language: en
 name: "World cuisine: India"
 series: World cuisine
@@ -403,7 +403,7 @@ recipes:
     health: [RED, "Deep-fried pastries filled with potato: high in calories from the frying and the pastry."]
     nutrition: [380, 7, 48, 18]
     photo: cocina-india/samosas-de-patata.jpg
-    category: Starters
+    category: Appetizers and tapas
     difficulty: HARD
     prep: 45
     cook: 30
@@ -610,7 +610,7 @@ recipes:
     health: [YELLOW, "Yoghurt and mango shake: provides calcium and fruit, but contains sugar."]
     nutrition: [210, 7, 36, 4]
     photo: cocina-india/lassi-de-mango.jpg
-    category: Drinks
+    category: Smoothies and juices
     difficulty: EASY
     prep: 5
     cook: 0

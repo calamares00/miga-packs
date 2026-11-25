@@ -1,6 +1,6 @@
 id: thermomix-breads-and-doughs
-version: 2
-updated: 2026-11-13
+version: 3
+updated: 2026-11-25
 language: en
 name: "Thermomix: breads and doughs"
 series: Kitchen appliances
@@ -313,7 +313,7 @@ recipes:
     health: [GREEN, "A simple, light batter; the filling decides the rest."]
     nutrition: [160, 6, 20, 6]
     photo: thermomix-masas-y-panes/crepes.jpg
-    category: Desserts
+    category: Breakfast and brunch
     difficulty: EASY
     prep: 5
     cook: 20

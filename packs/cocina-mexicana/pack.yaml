@@ -1,6 +1,6 @@
 id: cocina-mexicana
-version: 5
-updated: 2026-11-15
+version: 6
+updated: 2026-11-25
 language: es
 name: "Cocina del mundo: México"
 series: Cocina del mundo
@@ -69,7 +69,7 @@ recipes:
     health: [GREEN, "Aguacate con tomate, cebolla y lima: grasas saludables, fibra y vitaminas."]
     nutrition: [190, 3, 11, 16]
     photo: cocina-mexicana/guacamole.jpg
-    category: Salsas
+    category: Aperitivos y tapas
     difficulty: EASY
     prep: 10
     cook: 0
@@ -819,7 +819,7 @@ recipes:
     health: [RED, "Bizcocho empapado en tres leches y cubierto de nata: muy dulce."]
     nutrition: [430, 9, 54, 20]
     photo: cocina-mexicana/pastel-tres-leches.jpg
-    category: Postres
+    category: Repostería
     difficulty: MEDIUM
     prep: 25
     cook: 30

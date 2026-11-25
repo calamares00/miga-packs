@@ -1,6 +1,6 @@
 id: cooking-with-kids
-version: 2
-updated: 2026-11-13
+version: 3
+updated: 2026-11-25
 language: en
 name: Cooking with kids
 series: Everyday cooking
@@ -25,7 +25,7 @@ recipes:
     health: [GREEN, "Just oats and ripe banana: sweetened by the fruit, with no added sugar."]
     nutrition: [70, 2, 12, 2]
     photo: cocinar-con-ninos/galletas-de-avena-y-platano.jpg
-    category: Desserts
+    category: Baking
     difficulty: EASY
     prep: 10
     cook: 15
@@ -73,7 +73,7 @@ recipes:
     health: [GREEN, "Plain yoghurt with fruit: a homemade ice lolly with little sugar."]
     nutrition: [70, 3, 11, 2]
     photo: cocinar-con-ninos/polos-de-yogur-y-fresa.jpg
-    category: Desserts
+    category: Ice cream and sorbets
     difficulty: EASY
     prep: 10
     cook: 0
@@ -95,7 +95,7 @@ recipes:
   - name: Strawberry and banana milkshake
     health: [GREEN, "Fruit with milk: a snack rich in calcium with no added sugar."]
     nutrition: [150, 5, 26, 3]
-    category: Drinks
+    category: Smoothies and juices
     difficulty: EASY
     prep: 5
     cook: 0

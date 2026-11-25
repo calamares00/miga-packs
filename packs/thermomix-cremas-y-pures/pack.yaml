@@ -1,6 +1,6 @@
 id: thermomix-cremas-y-pures
-version: 3
-updated: 2026-11-06
+version: 4
+updated: 2026-11-25
 language: es
 name: "Thermomix: cremas y purés"
 series: Electrodomésticos
@@ -86,7 +86,7 @@ recipes:
     health: [YELLOW, "Patata con leche entera y mantequilla: reconfortante, pero con grasa. Buen acompañamiento en cantidad moderada."]
     nutrition: [250, 6, 36, 11]
     photo: thermomix-cremas-y-pures/pure-de-patatas.jpg
-    category: Verduras
+    category: Guarniciones
     difficulty: EASY
     prep: 10
     cook: 30

@@ -1,6 +1,6 @@
 id: cocina-estadounidense
-version: 4
-updated: 2026-11-15
+version: 5
+updated: 2026-11-25
 language: es
 name: "Cocina del mundo: Estados Unidos"
 series: Cocina del mundo
@@ -167,7 +167,7 @@ recipes:
     health: [YELLOW, "Carne picada con alubias, tomate y especias: completo y con fibra, aunque la carne aporta grasa."]
     nutrition: [470, 34, 28, 24]
     photo: cocina-estadounidense/chili-con-carne.jpg
-    category: Carnes
+    category: Guisos y potajes
     difficulty: EASY
     prep: 15
     cook: 120
@@ -231,7 +231,7 @@ recipes:
     health: [YELLOW, "Tortitas con mantequilla y sirope de arce: muchos hidratos refinados y azúcar. Mejor con fruta."]
     nutrition: [420, 10, 62, 13]
     photo: cocina-estadounidense/tortitas-americanas.jpg
-    category: Panes y masas
+    category: Desayunos y meriendas
     difficulty: EASY
     prep: 10
     cook: 15
@@ -400,7 +400,7 @@ recipes:
     health: [RED, "Tarta de masa con mucha mantequilla y relleno azucarado de manzana: muy calórica."]
     nutrition: [470, 5, 62, 24]
     photo: cocina-estadounidense/tarta-de-manzana.jpg
-    category: Postres
+    category: Repostería
     difficulty: MEDIUM
     prep: 60
     cook: 60
@@ -437,7 +437,7 @@ recipes:
     health: [RED, "Galletas con mantequilla, azúcar y chocolate: dulces y calóricas. Una o dos de vez en cuando."]
     nutrition: [160, 2, 20, 8]
     photo: cocina-estadounidense/galletas-con-pepitas-de-chocolate.jpg
-    category: Postres
+    category: Repostería
     difficulty: EASY
     prep: 15
     cook: 12
@@ -467,7 +467,7 @@ recipes:
     health: [RED, "Tarta de queso crema, azúcar y base de galleta con mantequilla: mucha grasa saturada y azúcar."]
     nutrition: [520, 8, 40, 37]
     photo: cocina-estadounidense/tarta-de-queso-de-nueva-york.jpg
-    category: Postres
+    category: Repostería
     difficulty: MEDIUM
     prep: 20
     cook: 60
@@ -621,7 +621,7 @@ recipes:
     health: [YELLOW, "Bizcocho con plátano y nueces: algo de fruta, pero con azúcar y mantequilla."]
     nutrition: [280, 4, 40, 12]
     photo: cocina-estadounidense/bizcocho-de-platano.jpg
-    category: Postres
+    category: Repostería
     difficulty: EASY
     prep: 15
     cook: 60
@@ -650,7 +650,7 @@ recipes:
     health: [RED, "Tarta con leche condensada, yemas y base de galleta con mantequilla: mucho azúcar y grasa."]
     nutrition: [460, 8, 52, 25]
     photo: cocina-estadounidense/tarta-de-lima-de-los-cayos.jpg
-    category: Postres
+    category: Repostería
     difficulty: EASY
     prep: 20
     cook: 25
@@ -710,7 +710,7 @@ recipes:
     health: [RED, "Tarta de masa quebrada con calabaza, leche condensada y especias: dulce."]
     nutrition: [330, 7, 44, 14]
     photo: cocina-estadounidense/tarta-de-calabaza.jpg
-    category: Postres
+    category: Repostería
     difficulty: MEDIUM
     prep: 20
     cook: 60

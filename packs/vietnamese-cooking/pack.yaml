@@ -1,6 +1,6 @@
 id: vietnamese-cooking
-version: 4
-updated: 2026-11-15
+version: 5
+updated: 2026-11-25
 language: en
 name: "World cuisine: Vietnam"
 series: World cuisine
@@ -157,7 +157,7 @@ recipes:
     health: [GREEN, "Rice paper rolls with prawns, vegetables and herbs, not fried: light and balanced."]
     nutrition: [320, 20, 32, 12]
     photo: cocina-vietnamita/rollitos-frescos-goi-cuon.jpg
-    category: Starters
+    category: Appetizers and tapas
     difficulty: MEDIUM
     prep: 40
     cook: 15
@@ -191,7 +191,7 @@ recipes:
     health: [YELLOW, "Pork and prawn rolls deep-fried in oil: tasty but fatty."]
     nutrition: [380, 18, 30, 21]
     photo: cocina-vietnamita/rollitos-fritos-cha-gio.jpg
-    category: Starters
+    category: Appetizers and tapas
     difficulty: MEDIUM
     prep: 45
     cook: 20
@@ -681,7 +681,7 @@ recipes:
     health: [YELLOW, "Avocado with milk and condensed milk: healthy fats, but with added sugar."]
     nutrition: [330, 7, 32, 20]
     photo: cocina-vietnamita/batido-de-aguacate-sinh-to-bo.jpg
-    category: Drinks
+    category: Smoothies and juices
     difficulty: EASY
     prep: 5
     cook: 0

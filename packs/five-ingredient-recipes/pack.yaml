@@ -1,6 +1,6 @@
 id: five-ingredient-recipes
-version: 1
-updated: 2026-11-13
+version: 2
+updated: 2026-11-25
 language: en
 name: Five-ingredient recipes
 series: Everyday cooking
@@ -78,7 +78,7 @@ recipes:
     health: [GREEN, "Chickpeas and beetroot: fibre, plant protein and a stunning colour."]
     nutrition: [180, 6, 18, 9]
     photo: recetas-con-5-ingredientes/hummus-de-remolacha.jpg
-    category: Starters
+    category: Appetizers and tapas
     difficulty: EASY
     prep: 10
     cook: 0
@@ -259,7 +259,7 @@ recipes:
   - name: Banana and cocoa ice cream
     health: [GREEN, "Just frozen banana and cocoa: a creamy ice cream with no added sugar."]
     nutrition: [130, 2, 30, 1]
-    category: Desserts
+    category: Ice cream and sorbets
     difficulty: EASY
     prep: 5
     cook: 0
@@ -281,7 +281,7 @@ recipes:
     health: [YELLOW, "Peanut butter with sugar: protein and good fats, but very rich."]
     nutrition: [110, 3, 9, 7]
     photo: recetas-con-5-ingredientes/galletas-de-crema-de-cacahuete.jpg
-    category: Desserts
+    category: Baking
     difficulty: EASY
     prep: 10
     cook: 10

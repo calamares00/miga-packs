@@ -1,6 +1,6 @@
 id: semana-santa
-version: 1
-updated: 2026-11-13
+version: 2
+updated: 2026-11-25
 language: es
 name: Semana Santa
 series: Especiales
@@ -26,7 +26,7 @@ recipes:
     health: [RED, "Masa frita bañada en miel: muy calórica, un dulce de fiesta."]
     nutrition: [150, 2, 18, 8]
     photo: semana-santa/pestinos.jpg
-    category: Postres
+    category: Repostería
     difficulty: MEDIUM
     prep: 40
     cook: 20
@@ -58,7 +58,7 @@ recipes:
     health: [RED, "Masa frita rellena de crema y rebozada en azúcar: muy dulce."]
     nutrition: [110, 2, 12, 6]
     photo: semana-santa/bunuelos-de-viento.jpg
-    category: Postres
+    category: Repostería
     difficulty: MEDIUM
     prep: 20
     cook: 25
@@ -151,7 +151,7 @@ recipes:
     health: [RED, "Bizcocho con crema y chocolate: el dulce de fiesta del Lunes de Pascua."]
     nutrition: [420, 6, 50, 22]
     photo: semana-santa/mona-de-pascua.jpg
-    category: Postres
+    category: Repostería
     difficulty: MEDIUM
     prep: 40
     cook: 30
@@ -283,7 +283,7 @@ recipes:
     health: [YELLOW, "Bacalao con masa frita: sabroso, pero frito."]
     nutrition: [60, 4, 4, 3]
     photo: semana-santa/bunuelos-de-bacalao.jpg
-    category: Entrantes
+    category: Aperitivos y tapas
     difficulty: MEDIUM
     prep: 25
     cook: 15

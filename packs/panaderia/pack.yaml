@@ -1,6 +1,6 @@
 id: panaderia
-version: 3
-updated: 2026-11-06
+version: 4
+updated: 2026-11-25
 language: es
 name: Panadería
 series: Cocina de cada día
@@ -215,7 +215,7 @@ recipes:
     health: [YELLOW, "Bollos tiernos con azúcar, mantequilla y huevo. Mejor para desayunos ocasionales."]
     nutrition: [230, 6, 36, 6]
     photo: panaderia/bollos-de-leche.jpg
-    category: Panes y masas
+    category: Repostería
     difficulty: EASY
     prep: 30
     cook: 15
@@ -245,7 +245,7 @@ recipes:
     health: [RED, "Brioche con mucha mantequilla, huevo y azúcar: muy calórico y graso. Para ocasiones especiales."]
     nutrition: [330, 8, 36, 18]
     photo: panaderia/brioche.jpg
-    category: Panes y masas
+    category: Repostería
     difficulty: HARD
     prep: 40
     cook: 30
@@ -274,7 +274,7 @@ recipes:
     health: [RED, "Masa hojaldrada con mucha mantequilla: muy grasa y calórica. Para darse un capricho de vez en cuando."]
     nutrition: [310, 6, 34, 17]
     photo: panaderia/cruasanes.jpg
-    category: Panes y masas
+    category: Repostería
     difficulty: HARD
     prep: 240
     cook: 18
@@ -331,7 +331,7 @@ recipes:
     health: [RED, "Masa dulce con manteca de cerdo y azúcar glas: mucha grasa saturada y azúcar."]
     nutrition: [310, 6, 42, 13]
     photo: panaderia/ensaimadas.jpg
-    category: Panes y masas
+    category: Repostería
     difficulty: HARD
     prep: 60
     cook: 15
@@ -363,7 +363,7 @@ recipes:
     health: [RED, "Bizcochos con mucho azúcar y aceite: dulces y calóricos. Mejor como capricho ocasional."]
     nutrition: [210, 3, 22, 12]
     photo: panaderia/magdalenas.jpg
-    category: Postres
+    category: Repostería
     difficulty: EASY
     prep: 15
     cook: 15
@@ -569,7 +569,7 @@ recipes:
   - name: Rosquillas de anís
     health: [RED, "Rosquillas fritas y rebozadas en azúcar: mucha grasa y azúcar. Dulce típico para ocasiones."]
     nutrition: [190, 3, 26, 8]
-    category: Postres
+    category: Repostería
     difficulty: MEDIUM
     prep: 30
     cook: 20

@@ -1,6 +1,6 @@
 id: cocina-francesa
-version: 2
-updated: 2026-11-15
+version: 3
+updated: 2026-11-25
 language: es
 name: "Cocina del mundo: Francia"
 series: Cocina del mundo
@@ -488,7 +488,7 @@ recipes:
     health: [RED, "Manzana caramelizada con mantequilla y masa: muy dulce."]
     nutrition: [380, 3, 52, 18]
     photo: cocina-francesa/tarta-tatin.jpg
-    category: Postres
+    category: Repostería
     difficulty: MEDIUM
     prep: 20
     cook: 45
@@ -538,7 +538,7 @@ recipes:
     health: [RED, "Pasta choux con nata o helado y chocolate: muy dulce."]
     nutrition: [430, 7, 34, 30]
     photo: cocina-francesa/profiteroles-con-chocolate.jpg
-    category: Postres
+    category: Repostería
     difficulty: HARD
     prep: 40
     cook: 25

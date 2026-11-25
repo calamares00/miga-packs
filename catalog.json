@@ -25,10 +25,10 @@
       "authorGithub": "calamares00",
       "description": "Recipes made for the air fryer: chips, wings, home-made nuggets, breaded fish, crispy vegetables, meatballs, burgers, ribs and even desserts. With very little oil and the time and temperature for each dish. Times are a guide: every model heats differently.",
       "coverImageUrl": "packs/air-fryer/cover.jpg",
-      "latestVersion": 3,
+      "latestVersion": 4,
       "recipeCount": 20,
-      "downloadUrl": "dist/air-fryer-v3.zip",
-      "sha256": "cae813c415b1f31c0a9038cd56e115acfb43e4c149a64c611f1bc2f0d6d56a6b",
+      "downloadUrl": "dist/air-fryer-v4.zip",
+      "sha256": "4fb7eb1350d8c36687de0f2c0bf949e9096f8efc4e438cfc6284cc52ba161670",
       "language": "en"
     },
     {
@@ -40,10 +40,10 @@
       "authorGithub": "calamares00",
       "description": "American home cooking, from the South to New England: mac and cheese, pulled pork, fried chicken, clam chowder, chili, cornbread, pancakes, meatloaf, jambalaya, gumbo, coleslaw, apple pie, chocolate chip cookies, New York cheesecake, cheesesteak, Cobb salad and key lime pie. With measurements in grams.",
       "coverImageUrl": "packs/american-cooking/cover.jpg",
-      "latestVersion": 4,
+      "latestVersion": 5,
       "recipeCount": 24,
-      "downloadUrl": "dist/american-cooking-v4.zip",
-      "sha256": "2562ecf39c035239df739aea7858ed0b808f51204df7ba1fde7296a900b72d86",
+      "downloadUrl": "dist/american-cooking-v5.zip",
+      "sha256": "9df22923bcc9ed9bd92a28142ec56ca5587dce79ccc9e2ef964f2c844f8fcdc3",
       "language": "en"
     },
     {
@@ -70,10 +70,10 @@
       "authorGithub": "calamares00",
       "description": "From the asado to afternoon tea: beef short ribs, chimichurri, salsa criolla, choripán, provoleta, criolla empanadas, milanesa a la napolitana, locro, matambre, humita, carbonada, gnocchi with tuco, pastel de papa, revuelto gramajo, dulce de leche, alfajores, pastafrola, medialunas, tortas fritas and chipá.",
       "coverImageUrl": "packs/argentine-cooking/cover.jpg",
-      "latestVersion": 4,
+      "latestVersion": 5,
       "recipeCount": 23,
-      "downloadUrl": "dist/argentine-cooking-v4.zip",
-      "sha256": "621b4ce19ebc82ba1191873adc4042792b6dc8b96c57f886758523ec81ceea09",
+      "downloadUrl": "dist/argentine-cooking-v5.zip",
+      "sha256": "e868ea533a5e778d012f244756a4c294d814379489d6ec58c52bde0cfd712b24",
       "language": "en"
     },
     {
@@ -100,10 +100,10 @@
       "authorGithub": "calamares00",
       "description": "Bread and pastries to make at home, from sourdough starter to madeleines: sourdough loaf, baguette, sandwich loaf, wholemeal, rye, chapata, walnut and raisin bread, pitta, naan, bagels, burger buns, milk rolls, brioche, croissants, pains au chocolat, ensaïmadas, tortas de aceite, Spanish magdalenas and anise rosquillas. With exact weights and proving times.",
       "coverImageUrl": "packs/bakery/cover.jpg",
-      "latestVersion": 3,
+      "latestVersion": 4,
       "recipeCount": 20,
-      "downloadUrl": "dist/bakery-v3.zip",
-      "sha256": "8e10c03cec5a11b7414b1054511d6a15356de6345d20bd486033d892a5342135",
+      "downloadUrl": "dist/bakery-v4.zip",
+      "sha256": "fdcd7bd68b0ba4c67403db0f1b3d0c9a45edaa65bba341cd16c717ccab13001d",
       "language": "en"
     },
     {
@@ -145,10 +145,10 @@
       "authorGithub": "calamares00",
       "description": "Cakes for breakfast and biscuits for the afternoon, homemade: orange cake, marble cake, carrot cake, lemon and poppy seed cake, apple cake and coffee cocoa cake, and oat and raisin, ginger, lemon and cinnamon biscuits, butter tea biscuits and langues de chat. With notes on keeping and freezing them.",
       "coverImageUrl": "packs/biscuits-and-cakes/cover.jpg",
-      "latestVersion": 1,
+      "latestVersion": 2,
       "recipeCount": 12,
-      "downloadUrl": "dist/biscuits-and-cakes-v1.zip",
-      "sha256": "b6e24c398ede8c9c408d07b5d8dbc9c163cfd76022c0fd9093a6e7e724fccd8c",
+      "downloadUrl": "dist/biscuits-and-cakes-v2.zip",
+      "sha256": "a1037b7bbd55b4d8af6bcd2a3588ff116d4be5ee0073c8062cbe47daa6f8059e",
       "language": "en"
     },
     {
@@ -160,10 +160,10 @@
       "authorGithub": "calamares00",
       "description": "Complete dishes with cheap, seasonal ingredients, the home cooking of a lifetime: green beans with potatoes, battered potatoes in sauce, vegetable rice, tuna and tomato spaghetti, chicken and potato stew, Flamenco eggs, tuna empanadillas, baked mackerel, liver and onions, French onion soup, cauliflower with garlic and paprika and broccoli pasta. With money-saving tips in the notes.",
       "coverImageUrl": "packs/budget-cooking/cover.jpg",
-      "latestVersion": 1,
+      "latestVersion": 2,
       "recipeCount": 12,
-      "downloadUrl": "dist/budget-cooking-v1.zip",
-      "sha256": "b14bffc065f80281adab186bfaf404309dc4370efc5ce841bd26dc4da406619a",
+      "downloadUrl": "dist/budget-cooking-v2.zip",
+      "sha256": "09d75bc086908f18852e96e80f0bf9fa59cf1157f1ac119933075a446b804a97",
       "language": "en"
     },
     {
@@ -220,10 +220,10 @@
       "authorGithub": "calamares00",
       "description": "Classics from Sichuan, Cantonese and northern Chinese cooking: kung pao chicken, mapo tofu, jiaozi, sweet and sour pork, hot and sour soup, wontons, chow mein, hong shao rou, dan dan noodles, char siu, steamed fish, spring rolls and congee. With the basic sauces and spices of the Chinese pantry.",
       "coverImageUrl": "packs/chinese-cooking/cover.jpg",
-      "latestVersion": 4,
+      "latestVersion": 5,
       "recipeCount": 26,
-      "downloadUrl": "dist/chinese-cooking-v4.zip",
-      "sha256": "c55c122800d97315b2f85e80b5f6d1559bcbf551f799ab5b8b951ba36824ffcc",
+      "downloadUrl": "dist/chinese-cooking-v5.zip",
+      "sha256": "0d921421c93f6679049fd79286ec9be82c8303acc95e6c825dbaea34fb553f02",
       "language": "en"
     },
     {
@@ -235,10 +235,10 @@
       "authorGithub": "calamares00",
       "description": "Timeless recipes for Christmas Eve, Christmas Day and Twelfth Night: prawn cocktail, ham croquettes, galets soup, roast lamb, suckling pig, sea bream, hake in green sauce, red cabbage, roscón de Reyes, turrón, polvorones and marzipan. With notes for cooking ahead and for big gatherings.",
       "coverImageUrl": "packs/christmas-special/cover.jpg",
-      "latestVersion": 3,
+      "latestVersion": 4,
       "recipeCount": 22,
-      "downloadUrl": "dist/christmas-special-v3.zip",
-      "sha256": "8bfae60daf179ad24c8cf29998fdc0b9c6864af465d7145ad2116adabc4bb83d",
+      "downloadUrl": "dist/christmas-special-v4.zip",
+      "sha256": "eb22854a326f5570f4b927681202b9fe36519c2b6c28252e64afcb40274386f0",
       "language": "en"
     },
     {
@@ -250,10 +250,10 @@
       "authorGithub": "calamares00",
       "description": "Los clásicos de la cocina alemana de norte a sur: schnitzel, rouladen, sauerbraten, ensalada de patata suaba, bratkartoffeln, kartoffelpuffer, käsespätzle, königsberger klopse, currywurst, frikadellen, potajes de lentejas y de guisantes, sopa de patata, flammkuchen, brezeln, maultaschen, obatzda y postres como el pastel de manzana, la tarta Selva Negra y la rote grütze.",
       "coverImageUrl": "packs/cocina-alemana/cover.jpg",
-      "latestVersion": 4,
+      "latestVersion": 5,
       "recipeCount": 24,
-      "downloadUrl": "dist/cocina-alemana-v4.zip",
-      "sha256": "94b025198a0644e93dc0013ceb01f8e81c5de03bc7c4c9b968eb5496264ff4df",
+      "downloadUrl": "dist/cocina-alemana-v5.zip",
+      "sha256": "83fca4a71b9c74536fbdff8df43526b0cfa77ac81c941485a8cc716d1d2cb256",
       "language": "es"
     },
     {
@@ -265,10 +265,10 @@
       "authorGithub": "calamares00",
       "description": "Del asado a la merienda: tira de asado, chimichurri, salsa criolla, choripán, provoleta, empanadas criollas, milanesa a la napolitana, locro, matambre arrollado, humita, carbonada, ñoquis con tuco, pastel de papa, revuelto gramajo, dulce de leche, alfajores de maicena, pastafrola, medialunas, tortas fritas y chipá.",
       "coverImageUrl": "packs/cocina-argentina/cover.jpg",
-      "latestVersion": 4,
+      "latestVersion": 5,
       "recipeCount": 23,
-      "downloadUrl": "dist/cocina-argentina-v4.zip",
-      "sha256": "c735fbc81981e65620bbd92ecb7be4b122a2460a95a1b3ae0eda9c0b6db3bc1b",
+      "downloadUrl": "dist/cocina-argentina-v5.zip",
+      "sha256": "3c7cf06ffc11e344987a769fc9f6f455f26d29d43add1c3d0f809de092eddfcc",
       "language": "es"
     },
     {
@@ -280,10 +280,10 @@
       "authorGithub": "calamares00",
       "description": "Clásicos de las cocinas de Sichuan, Cantón y el norte de China: pollo kung pao, mapo tofu, jiaozi, cerdo agridulce, sopa agripicante, wonton, chow mein, hong shao rou, dan dan mian, char siu, pescado al vapor, rollitos de primavera y congee. Con las salsas y especias básicas de la despensa china.",
       "coverImageUrl": "packs/cocina-china/cover.jpg",
-      "latestVersion": 4,
+      "latestVersion": 5,
       "recipeCount": 26,
-      "downloadUrl": "dist/cocina-china-v4.zip",
-      "sha256": "858e6128899d1ec0b45743eb5c3b58be80bc2defa39d358368d51a07708ce558",
+      "downloadUrl": "dist/cocina-china-v5.zip",
+      "sha256": "8b83f009fe9c44efe15eeb741b13c93f81a11432db779088f2e60de38318947c",
       "language": "es"
     },
     {
@@ -295,10 +295,10 @@
       "authorGithub": "calamares00",
       "description": "La cocina de las regiones de Colombia: bandeja paisa, frijoles antioqueños, ajiaco santafereño, sancocho, arepas, empanadas, patacones, hogao, ají, arroz con pollo, changua, pandebono, buñuelos, natilla, posta negra cartagenera, mote de queso, arroz con coco, cazuela de mariscos, sobrebarriga y limonada de coco. Con equivalencias para los ingredientes menos habituales fuera de Colombia.",
       "coverImageUrl": "packs/cocina-colombiana/cover.jpg",
-      "latestVersion": 4,
+      "latestVersion": 5,
       "recipeCount": 22,
-      "downloadUrl": "dist/cocina-colombiana-v4.zip",
-      "sha256": "8f9e2b716d4feea45be3e3c3e2a1b1af38cd6b0284289329430ecb26848a55bc",
+      "downloadUrl": "dist/cocina-colombiana-v5.zip",
+      "sha256": "2a2c80b645f176c379f3988e1145804582fd1df31521051a9988dfd49ff9607e",
       "language": "es"
     },
     {
@@ -310,10 +310,10 @@
       "authorGithub": "calamares00",
       "description": "La cocina de Corea, picante, fermentada y para compartir: bibimbap, bulgogi, kimchi casero, japchae, kimbap, tteokbokki, guisos de kimchi y de tofu sedoso, samgyetang, pajeon de marisco, arroz frito con kimchi, dakgalbi, pollo frito coreano, galbi jjim, bossam, guarniciones (banchan) como la tortilla enrollada, los brotes de soja y el pepino aliñados y, de postre, hotteok y patbingsu. El gochujang y el gochugaru se encuentran en tiendas asiáticas.",
       "coverImageUrl": "packs/cocina-coreana/cover.jpg",
-      "latestVersion": 2,
+      "latestVersion": 3,
       "recipeCount": 25,
-      "downloadUrl": "dist/cocina-coreana-v2.zip",
-      "sha256": "bc22df07a211101584706a41e8b9a3143413b3de6349b1e60a37e0da192c5532",
+      "downloadUrl": "dist/cocina-coreana-v3.zip",
+      "sha256": "2f8fe19779f7319ec28fac15517f05fe1da6f4193d6c7aed71571a028276f46c",
       "language": "es"
     },
     {
@@ -325,10 +325,10 @@
       "authorGithub": "calamares00",
       "description": "Recetas para no tirar nada: lo que sobra del cocido, el pollo asado de ayer, el pan duro, el pescado de la cena, las verduras que se ablandan y la fruta demasiado madura. Ropa vieja, croquetas de cocido, lasaña de pollo asado, canelones de carne asada, empanadillas, pastel de puré y carne, huevos al horno con verduras, pastel de pescado, batido y mermelada de fruta madura, caldo de pieles de verdura y picatostes.",
       "coverImageUrl": "packs/cocina-de-aprovechamiento/cover.jpg",
-      "latestVersion": 1,
+      "latestVersion": 2,
       "recipeCount": 12,
-      "downloadUrl": "dist/cocina-de-aprovechamiento-v1.zip",
-      "sha256": "270cb0f3abe81e8310440c56d8f665df309477da0f95533e3beb806b8510b6d8",
+      "downloadUrl": "dist/cocina-de-aprovechamiento-v2.zip",
+      "sha256": "bc2accd98d20cfc716db8719ca8ec9d903670f97277517ef89d37a3f37a4f3d0",
       "language": "es"
     },
     {
@@ -340,10 +340,10 @@
       "authorGithub": "calamares00",
       "description": "Platos completos con ingredientes baratos y de temporada, de los de toda la vida: judías verdes con patatas, patatas a la importancia, arroz con verduras, espaguetis con atún, pollo guisado con patatas, huevos a la flamenca, empanadillas de atún, caballa al horno, hígado encebollado, sopa de cebolla, coliflor al ajoarriero y pasta con brócoli. Con trucos para abaratar en las notas.",
       "coverImageUrl": "packs/cocina-economica/cover.jpg",
-      "latestVersion": 1,
+      "latestVersion": 2,
       "recipeCount": 12,
-      "downloadUrl": "dist/cocina-economica-v1.zip",
-      "sha256": "768ae62245107155648d63a4855a8356c292581afddfee3b11897ae35df31515",
+      "downloadUrl": "dist/cocina-economica-v2.zip",
+      "sha256": "f00481ed01f61a6cf2fd6fe6942dc6c57e1939dfc73e1080822277d57548d992",
       "language": "es"
     },
     {
@@ -355,10 +355,10 @@
       "authorGithub": "calamares00",
       "description": "Un recorrido por las cocinas regionales de España: cocido madrileño, fabada, lentejas, marmitako, bacalao al pil pil, pollo al ajillo, arroz negro, fideuá, arroz al horno, escalivada, patatas a la riojana, caldo gallego, papas arrugadas con mojo, ajoblanco, empanada gallega, migas, rabo de toro, torrijas, arroz con leche y tarta de Santiago. Sin repetir los platos de los packs de cocina mediterránea, tapas y Navidad.",
       "coverImageUrl": "packs/cocina-espanola/cover.jpg",
-      "latestVersion": 3,
+      "latestVersion": 4,
       "recipeCount": 21,
-      "downloadUrl": "dist/cocina-espanola-v3.zip",
-      "sha256": "b129482e4a94a520b6b2f2c312d8d022c2a3a2638c02470e46c070bc7867a5d2",
+      "downloadUrl": "dist/cocina-espanola-v4.zip",
+      "sha256": "1fee503bbaf38fc385926b17a7cb1be34074c45fca7960547cb488241c30637e",
       "language": "es"
     },
     {
@@ -370,10 +370,10 @@
       "authorGithub": "calamares00",
       "description": "La cocina casera de Estados Unidos, del sur a Nueva Inglaterra: macarrones con queso, cerdo desmenuzado, pollo frito, sopa de almejas, chili, pan de maíz, tortitas, pastel de carne, jambalaya, gumbo, ensalada de col, tarta de manzana, galletas con pepitas de chocolate, tarta de queso de Nueva York, cheesesteak, ensalada Cobb y tarta de lima. Con medidas en gramos.",
       "coverImageUrl": "packs/cocina-estadounidense/cover.jpg",
-      "latestVersion": 4,
+      "latestVersion": 5,
       "recipeCount": 24,
-      "downloadUrl": "dist/cocina-estadounidense-v4.zip",
-      "sha256": "a7027d3d61584d3d6a592468bf88e16f4f6e6dd4e7ba92b1db3187c553063ee5",
+      "downloadUrl": "dist/cocina-estadounidense-v5.zip",
+      "sha256": "6de9f00bc13e3d0e231bf58dc85f8097c25a84ec7ff69bfe60333c8329e9faa4",
       "language": "es"
     },
     {
@@ -385,10 +385,10 @@
       "authorGithub": "calamares00",
       "description": "Los clásicos de la cocina francesa, de bistró y de casa: ternera a la borgoñona, pollo al vino, quiche lorraine, croque monsieur, gratin dauphinois, bullabesa, cassoulet, blanquette de ternera, mejillones a la marinera, magret con naranja, hachis parmentier, soufflé de queso, ensalada lionesa, pissaladière, tapenade y, de postre, tarta Tatin, crème brûlée, profiteroles, clafoutis de cerezas y madeleines. Con mantequilla, vino y hierbas.",
       "coverImageUrl": "packs/cocina-francesa/cover.jpg",
-      "latestVersion": 2,
+      "latestVersion": 3,
       "recipeCount": 25,
-      "downloadUrl": "dist/cocina-francesa-v2.zip",
-      "sha256": "5c540b614a33c9a6759f0b3046dd84d0f808290ab9bbd9eef907cc0dc36b3690",
+      "downloadUrl": "dist/cocina-francesa-v3.zip",
+      "sha256": "f5621b73ccf15ce3398e8c0af981e23026b7b1ae041b0bca907af9fea43dc84b",
       "language": "es"
     },
     {
@@ -400,10 +400,10 @@
       "authorGithub": "calamares00",
       "description": "La cocina griega más allá de la ensalada y el tzatziki: souvlaki, spanakopita, pastitsio, gemista, fasolada, avgolemono, dolmades, keftedes, briam, fava, kleftiko, stifado, queso saganaki, gambas con feta, gigantes, taramosalata, melitzanosalata, spanakorizo, loukoumades y baklava. Con aceite de oliva, limón, orégano y eneldo.",
       "coverImageUrl": "packs/cocina-griega/cover.jpg",
-      "latestVersion": 4,
+      "latestVersion": 5,
       "recipeCount": 23,
-      "downloadUrl": "dist/cocina-griega-v4.zip",
-      "sha256": "af53dc5d21e1a30951a2f8dd336559fd87ae59605e6080232f80ac925f8ea3bd",
+      "downloadUrl": "dist/cocina-griega-v5.zip",
+      "sha256": "32fd70e5decd569db14b446421c4d13f9173fad476e70041ff532c0d92bda485",
       "language": "es"
     },
     {
@@ -415,10 +415,10 @@
       "authorGithub": "calamares00",
       "description": "Curris, legumbres, panes y dulces de la India: pollo a la mantequilla, pollo tandoori, rogan josh, korma, vindaloo, palak paneer, chana masala, dal tadka, rajma, aloo gobi, baingan bharta, samosas, bhajis de cebolla, raita, chutney de menta, chapatis, aloo paratha, kheer, lassi de mango y masala chai.",
       "coverImageUrl": "packs/cocina-india/cover.jpg",
-      "latestVersion": 2,
+      "latestVersion": 3,
       "recipeCount": 26,
-      "downloadUrl": "dist/cocina-india-v2.zip",
-      "sha256": "24fa2c3ef7b9d5b74774d3dc6a37dfbd4f0914580eaa7d603884f58ac174bbf4",
+      "downloadUrl": "dist/cocina-india-v3.zip",
+      "sha256": "36bf7eee1ae4ff73228a90f8e97f00025cbebf359db8d34c2c647f43d321a401",
       "language": "es"
     },
     {
@@ -460,10 +460,10 @@
       "authorGithub": "calamares00",
       "description": "La cocina casera de Japón: sopa de miso, pollo teriyaki, gyoza, ramen, tonkatsu, oyakodon, onigiri, tamagoyaki, okonomiyaki, yakitori, tempura, makis, karaage, nikujaga, yakisoba, gyudon, curry japonés y dorayaki. Con el dashi y las salsas de base explicados paso a paso.",
       "coverImageUrl": "packs/cocina-japonesa/cover.jpg",
-      "latestVersion": 4,
+      "latestVersion": 5,
       "recipeCount": 25,
-      "downloadUrl": "dist/cocina-japonesa-v4.zip",
-      "sha256": "a38b50fc47fa504d5208f28f8ed221632b688c8582432bc5f3caa6750bba450d",
+      "downloadUrl": "dist/cocina-japonesa-v5.zip",
+      "sha256": "fdf3599c443a38c06151b68ec62c318b320cb74af425a21ab6fa68d1840b922b",
       "language": "es"
     },
     {
@@ -490,10 +490,10 @@
       "authorGithub": "calamares00",
       "description": "Recetas de las orillas del Mediterráneo: España, Italia, Grecia, Líbano, Marruecos y Túnez. Gazpacho, paella, tortilla, musaka, hummus, falafel, shakshuka, risotto, tajín y más, con aceite de oliva, verduras de temporada y legumbres.",
       "coverImageUrl": "packs/cocina-mediterranea/cover.jpg",
-      "latestVersion": 4,
+      "latestVersion": 5,
       "recipeCount": 25,
-      "downloadUrl": "dist/cocina-mediterranea-v4.zip",
-      "sha256": "b8a42346682a263e64c4021565a2b35f2910188a401652c303d17a04876ac452",
+      "downloadUrl": "dist/cocina-mediterranea-v5.zip",
+      "sha256": "3c2616797399ca6fc7f3e3be394966aceaabd5d469d787d9e57270f514a6d582",
       "language": "es"
     },
     {
@@ -505,10 +505,10 @@
       "authorGithub": "calamares00",
       "description": "Clásicos de México para cocinar en casa: tacos al pastor, cochinita pibil, pozole, chilaquiles, enchiladas, salsas, guacamole, aguas frescas y flan. Con ingredientes fáciles de encontrar y alternativas cuando hace falta.",
       "coverImageUrl": "packs/cocina-mexicana/cover.jpg",
-      "latestVersion": 5,
+      "latestVersion": 6,
       "recipeCount": 26,
-      "downloadUrl": "dist/cocina-mexicana-v5.zip",
-      "sha256": "3efaacc6ef2dba348313020b0ff3fb1edecd4a7628659f6c0b9dd4f3fad6aa70",
+      "downloadUrl": "dist/cocina-mexicana-v6.zip",
+      "sha256": "ef15bf9cf77a9eb0d80c1d8f0f47dd2768c36ff44291142aa4c62c4e87fa2085",
       "language": "es"
     },
     {
@@ -565,10 +565,10 @@
       "authorGithub": "calamares00",
       "description": "La cocina fresca y aromática de Vietnam, de Hanói a Saigón: phở, bún chả, bánh mì, rollitos frescos y fritos, bún bò Huế, cơm tấm, pescado y cerdo caramelizados, sopa agria, bò lúc lắc, pollo con citronela, bánh xèo, ensalada de pollo, bún thịt nướng, nước chấm, tofu con tomate y, de postre, plátano con coco, café con leche condensada y batido de aguacate.",
       "coverImageUrl": "packs/cocina-vietnamita/cover.jpg",
-      "latestVersion": 4,
+      "latestVersion": 5,
       "recipeCount": 23,
-      "downloadUrl": "dist/cocina-vietnamita-v4.zip",
-      "sha256": "36f83071aab3623c79522557d5bb579801f86757fda0d8bfaaea66a22fe5d88b",
+      "downloadUrl": "dist/cocina-vietnamita-v5.zip",
+      "sha256": "e7a798cb8879c0fa1f9500fc5ec57b944b7a0406a4f5c972d7e6fd0c0798c249",
       "language": "es"
     },
     {
@@ -580,10 +580,10 @@
       "authorGithub": "calamares00",
       "description": "Recetas sencillas para cocinar en familia, con tareas que los niños pueden hacer solos: galletas de avena y plátano, bolitas de coco, polos de yogur, batido de fresa, huevos rellenos, ensalada de pasta, wraps de pollo, pizzas de pan de molde, mini quiches, albóndigas al horno, salmón en papillote y salchichón de chocolate. Cada receta dice qué puede hacer el niño; el horno, los cuchillos afilados y el fuego, siempre con un adulto.",
       "coverImageUrl": "packs/cocinar-con-ninos/cover.jpg",
-      "latestVersion": 2,
+      "latestVersion": 3,
       "recipeCount": 12,
-      "downloadUrl": "dist/cocinar-con-ninos-v2.zip",
-      "sha256": "c0d7c9a0452ef713753f1cf7b3b4c7f3f84bb6d1b35ac55cac07cb199b4ee31c",
+      "downloadUrl": "dist/cocinar-con-ninos-v3.zip",
+      "sha256": "e02cc39ac4b41d75d60f5086ae0013684bc2b0561cb57c82884bc0fde5a27fc6",
       "language": "es"
     },
     {
@@ -595,10 +595,10 @@
       "authorGithub": "calamares00",
       "description": "Cooking from Colombia's regions: bandeja paisa, Antioquian beans, ajiaco, sancocho, arepas, empanadas, patacones, hogao, ají, arroz con pollo, changua, pandebono, buñuelos, natilla, posta negra, mote de queso, coconut rice, seafood casserole, sobrebarriga and coconut lemonade. With substitutes for the ingredients that are harder to find outside Colombia.",
       "coverImageUrl": "packs/colombian-cooking/cover.jpg",
-      "latestVersion": 4,
+      "latestVersion": 5,
       "recipeCount": 22,
-      "downloadUrl": "dist/colombian-cooking-v4.zip",
-      "sha256": "c28653b33486f26797144af8e75f6d7ce93f0950bc894fa1112a3056d9b8fb78",
+      "downloadUrl": "dist/colombian-cooking-v5.zip",
+      "sha256": "da8eaa77a269f7e1e1c99299bf2e5891d3c11b49f07cf00810d9df906a212b8a",
       "language": "en"
     },
     {
@@ -610,10 +610,10 @@
       "authorGithub": "calamares00",
       "description": "Simple recipes to cook as a family, with jobs children can do on their own: oat and banana cookies, coconut balls, yoghurt ice lollies, strawberry milkshake, tuna stuffed eggs, pasta salad, chicken wraps, sandwich-bread pizzas, mini quiches, baked meatballs, salmon parcels and chocolate salami. Each recipe says what the child can do; the oven, sharp knives and the hob always with an adult.",
       "coverImageUrl": "packs/cooking-with-kids/cover.jpg",
-      "latestVersion": 2,
+      "latestVersion": 3,
       "recipeCount": 12,
-      "downloadUrl": "dist/cooking-with-kids-v2.zip",
-      "sha256": "20b7d363fbb983d49d98304d8dc67b75aa88c4f91093cbba01e4cfd3e7b3d4b4",
+      "downloadUrl": "dist/cooking-with-kids-v3.zip",
+      "sha256": "922a25664653e6a81681128d49c3e1d588039912b8e9cd95f2609ce95d277912",
       "language": "en"
     },
     {
@@ -640,10 +640,10 @@
       "authorGithub": "calamares00",
       "description": "Todo para la fiesta de cumpleaños de los peques, fácil de preparar con antelación: tarta de chocolate, bizcocho arcoíris, cupcakes de vainilla, galletas decoradas, mini pizzas, mini sándwiches, fingers de pollo al horno, salchichas en hojaldre, mini hamburguesas, brochetas de fruta, palomitas y limonada casera. Pregunta siempre a las familias por alergias e intolerancias, y evita los frutos secos enteros y las palomitas en menores de 4 años por riesgo de atragantamiento.",
       "coverImageUrl": "packs/cumpleanos-infantiles/cover.jpg",
-      "latestVersion": 2,
+      "latestVersion": 3,
       "recipeCount": 12,
-      "downloadUrl": "dist/cumpleanos-infantiles-v2.zip",
-      "sha256": "688012d9c6ec02ccde3331b3f67959468441cf94a7d8a74f9e40173056b8f2e7",
+      "downloadUrl": "dist/cumpleanos-infantiles-v3.zip",
+      "sha256": "a8061916990b13bf79cd5c5964b8b02c8f53315ee7bb126babe075ddba61661e",
       "language": "es"
     },
     {
@@ -655,10 +655,10 @@
       "authorGithub": "calamares00",
       "description": "Las recetas de siempre para Nochebuena, Navidad y Reyes: cóctel de gambas, croquetas, sopa de galets, cordero asado, cochinillo, besugo, merluza en salsa verde, lombarda, roscón de Reyes, turrones, polvorones y mazapanes. Con notas para adelantar trabajo y cocinar para mucha gente.",
       "coverImageUrl": "packs/especial-navidad/cover.jpg",
-      "latestVersion": 3,
+      "latestVersion": 4,
       "recipeCount": 22,
-      "downloadUrl": "dist/especial-navidad-v3.zip",
-      "sha256": "3390b743c0bcabcada06626a4b66850512a7a1d0d7582cc3b5b2461f836fa6c0",
+      "downloadUrl": "dist/especial-navidad-v4.zip",
+      "sha256": "45804bd69930db4c2c48abe9c6240442d294483cbe923339eaa5aa1d47a1b12f",
       "language": "es"
     },
     {
@@ -670,10 +670,10 @@
       "authorGithub": "calamares00",
       "description": "Dishes with five ingredients or fewer (not counting salt, pepper, oil or water), for when the fridge is nearly empty or you can't be bothered: poor man's potatoes with egg, baked salmon with lemon, beetroot hummus, baked prawns, ham and cheese stuffed chicken, spaghetti al pomodoro, scrambled eggs with prawns and green garlic, Galician-style hake, Brazilian cheese bread and, for dessert, banana and cocoa ice cream, peanut butter cookies and strawberries and cream.",
       "coverImageUrl": "packs/five-ingredient-recipes/cover.jpg",
-      "latestVersion": 1,
+      "latestVersion": 2,
       "recipeCount": 12,
-      "downloadUrl": "dist/five-ingredient-recipes-v1.zip",
-      "sha256": "3d3f8611a9bd2f03089bad5414579e10b49d61e6af58adeb8888d1bb3cdabee9",
+      "downloadUrl": "dist/five-ingredient-recipes-v2.zip",
+      "sha256": "815356682bfddecb17b655985b4d17aa25b5f0608fa8c7918580f293aba5d782",
       "language": "en"
     },
     {
@@ -685,10 +685,10 @@
       "authorGithub": "calamares00",
       "description": "Recetas pensadas para la freidora de aire: patatas, alitas, nuggets caseros, pescado rebozado, verduras crujientes, albóndigas, hamburguesas, costillas y hasta postres. Con muy poco aceite y los tiempos y temperaturas de cada plato. Los tiempos son orientativos: cada modelo calienta de forma distinta.",
       "coverImageUrl": "packs/freidora-de-aire/cover.jpg",
-      "latestVersion": 3,
+      "latestVersion": 4,
       "recipeCount": 20,
-      "downloadUrl": "dist/freidora-de-aire-v3.zip",
-      "sha256": "0e00e1c62db3ba9e91e4853701bfdbf877686eef0e08c8e8b408d64691d66d8f",
+      "downloadUrl": "dist/freidora-de-aire-v4.zip",
+      "sha256": "95d9ff326e23ae230bdd88e72d7a2d9f3d6c99271b419acc6b1d941414687011",
       "language": "es"
     },
     {
@@ -700,10 +700,10 @@
       "authorGithub": "calamares00",
       "description": "The classics of French bistro and home cooking: beef bourguignon, coq au vin, quiche Lorraine, croque monsieur, gratin dauphinois, bouillabaisse, cassoulet, blanquette de veau, moules marinières, duck breast with orange, hachis parmentier, cheese soufflé, Lyonnaise salad, pissaladière, tapenade and, for dessert, tarte Tatin, crème brûlée, profiteroles, cherry clafoutis and madeleines. With butter, wine and herbs.",
       "coverImageUrl": "packs/french-cooking/cover.jpg",
-      "latestVersion": 2,
+      "latestVersion": 3,
       "recipeCount": 25,
-      "downloadUrl": "dist/french-cooking-v2.zip",
-      "sha256": "ad58522aba7f4bc03b02ad11b4887cea8628ffd4296539bf9b8abb91ccb74794",
+      "downloadUrl": "dist/french-cooking-v3.zip",
+      "sha256": "cc49e5a4caaf12fa1f20a1b8f2fc76d1c2c0a188734ce8d28c06b8f5381bd429",
       "language": "en"
     },
     {
@@ -805,10 +805,10 @@
       "authorGithub": "calamares00",
       "description": "La cocina de los chinos de Malasia (hokkien, cantoneses, hainaneses y hakka) en los puestos de comida de Penang y Kuala Lumpur: char kway teow, bak kut teh, hokkien mee, yong tau foo, arroz con pollo en cazuela de barro, wantan mee, chuleta de pollo hainanesa y tostadas con kaya.",
       "coverImageUrl": "packs/fusion-chino-malaya/cover.jpg",
-      "latestVersion": 1,
+      "latestVersion": 2,
       "recipeCount": 8,
-      "downloadUrl": "dist/fusion-chino-malaya-v1.zip",
-      "sha256": "9f22d9f4ded5d63a7eed6c435705ce164ff176e3ad2d9049c2f8b701422be62a",
+      "downloadUrl": "dist/fusion-chino-malaya-v2.zip",
+      "sha256": "6eee86e66a9f717667efbcf7d4b9ac15cad24b11bb377450af9890c412ae7706",
       "language": "es"
     },
     {
@@ -865,10 +865,10 @@
       "authorGithub": "calamares00",
       "description": "La cocina nyonya de los peranakan, descendientes de chinos y malayos de Malaca, Penang y Singapur, que mezcla técnicas chinas con especias, coco y tamarindo: laksa lemak, asam laksa, ayam pongteh, ayam buah keluak, otak-otak, kueh pie tee, chap chye y kuih dadar.",
       "coverImageUrl": "packs/fusion-peranakan/cover.jpg",
-      "latestVersion": 1,
+      "latestVersion": 2,
       "recipeCount": 8,
-      "downloadUrl": "dist/fusion-peranakan-v1.zip",
-      "sha256": "7764fa71f903a286ff589deaef2aedda6b2c055ed58b436d451a34d8d74b3d1e",
+      "downloadUrl": "dist/fusion-peranakan-v2.zip",
+      "sha256": "fd2d86673f71879cc461307fc2aeec002d11739aea2785abc7777cb7e79a4c3f",
       "language": "es"
     },
     {
@@ -880,10 +880,10 @@
       "authorGithub": "calamares00",
       "description": "La cocina de los tejanos de origen mexicano, con más queso amarillo, comino y carne de ternera que la de México: nachos, chile con queso, enchiladas de queso con chili gravy, tacos crujientes de carne, tacos de desayuno, pollo King Ranch, frito pie y sopaipillas.",
       "coverImageUrl": "packs/fusion-texmex/cover.jpg",
-      "latestVersion": 1,
+      "latestVersion": 2,
       "recipeCount": 8,
-      "downloadUrl": "dist/fusion-texmex-v1.zip",
-      "sha256": "51f610dd2224de9e79204b6022ffe4a6cce0ca82caf0a891f22018fead8c4c80",
+      "downloadUrl": "dist/fusion-texmex-v2.zip",
+      "sha256": "53248885763c189d78a47a08f42f12d2a48fd71bc8ada12ae88fa6c2fb8c22ee",
       "language": "es"
     },
     {
@@ -895,10 +895,10 @@
       "authorGithub": "calamares00",
       "description": "Bizcochos para el desayuno y galletas para la merienda, de los de casa: bizcocho de naranja, marmolado, de zanahoria, de limón y amapola, de manzana y de cacao y café, y galletas de avena y pasas, de jengibre, de limón y de canela, pastas de té y lenguas de gato. Con notas para conservarlos y congelarlos.",
       "coverImageUrl": "packs/galletas-y-bizcochos/cover.jpg",
-      "latestVersion": 1,
+      "latestVersion": 2,
       "recipeCount": 12,
-      "downloadUrl": "dist/galletas-y-bizcochos-v1.zip",
-      "sha256": "968128b60710465b210d4470866076621bf756ab23df9c40d1f9c5470c8c0e9c",
+      "downloadUrl": "dist/galletas-y-bizcochos-v2.zip",
+      "sha256": "00db9a12c72feb88010732a87c3abba2276349b0f12ee3189c6dcb77137c8b28",
       "language": "es"
     },
     {
@@ -910,10 +910,10 @@
       "authorGithub": "calamares00",
       "description": "German classics from north to south: schnitzel, rouladen, sauerbraten, Swabian potato salad, Bratkartoffeln, Kartoffelpuffer, Käsespätzle, Königsberger Klopse, currywurst, Frikadellen, lentil and split pea stews, potato soup, Flammkuchen, pretzels, Maultaschen, Obatzda and sweets such as apple cake, Black Forest gateau and rote Grütze.",
       "coverImageUrl": "packs/german-cooking/cover.jpg",
-      "latestVersion": 4,
+      "latestVersion": 5,
       "recipeCount": 24,
-      "downloadUrl": "dist/german-cooking-v4.zip",
-      "sha256": "751ce07bfc64123bc93cbc58e624803b058964407b2a9713493e5ca2d27d64d0",
+      "downloadUrl": "dist/german-cooking-v5.zip",
+      "sha256": "b71c1f952d0c28bc77f8fe04fd1b1683f5c0a012e6ba5e65319f7af8b9d5f6dc",
       "language": "en"
     },
     {
@@ -925,10 +925,10 @@
       "authorGithub": "calamares00",
       "description": "Greek cooking beyond the salad and tzatziki: souvlaki, spanakopita, pastitsio, gemista, fasolada, avgolemono, dolmades, keftedes, briam, fava, kleftiko, stifado, saganaki cheese, prawns with feta, gigantes, taramasalata, melitzanosalata, spanakorizo, loukoumades and baklava. With olive oil, lemon, oregano and dill.",
       "coverImageUrl": "packs/greek-cooking/cover.jpg",
-      "latestVersion": 4,
+      "latestVersion": 5,
       "recipeCount": 23,
-      "downloadUrl": "dist/greek-cooking-v4.zip",
-      "sha256": "bd3b3bf98e103acffef4c1abc2a1975b0b40d7b42b63494a0af9951c6b1147b9",
+      "downloadUrl": "dist/greek-cooking-v5.zip",
+      "sha256": "4bd33528eb6edb9ea55db6345ee2e036e040a0d8b1fb6914b60cd192c610b045",
       "language": "en"
     },
     {
@@ -940,10 +940,10 @@
       "authorGithub": "calamares00",
       "description": "Recetas para una fiesta de Halloween, con calabaza y mucho juego para hacer con los peques: sopa de calabaza y boniato, momias de salchicha, pizza telaraña, huevos endiablados con arañas, dedos de bruja, fantasmas de plátano, mandarinas calabaza, brownie cementerio, manzanas de caramelo, pan de calabaza, galletas de calabaza con especias y ponche de bruja. Pregunta por alergias, y cuidado con el caramelo caliente y las aceitunas enteras con los más pequeños.",
       "coverImageUrl": "packs/halloween/cover.jpg",
-      "latestVersion": 1,
+      "latestVersion": 2,
       "recipeCount": 12,
-      "downloadUrl": "dist/halloween-v1.zip",
-      "sha256": "3bcf685af6948eaed8894f32192b50e4a488c331360d25db004bff1fdc129cb2",
+      "downloadUrl": "dist/halloween-v2.zip",
+      "sha256": "933dead8b45cac6392ea9138e6c6a9e0a88177798a7605214f2707bfad808c48",
       "language": "es"
     },
     {
@@ -955,10 +955,10 @@
       "authorGithub": "calamares00",
       "description": "Recipes for a Halloween party, with pumpkin and plenty of fun to make with the kids: pumpkin and sweet potato soup, sausage mummies, spiderweb pizza, spider deviled eggs, witch fingers, banana ghosts, clementine pumpkins, graveyard brownies, candy apples, pumpkin bread, spiced pumpkin cookies and witch's brew punch. Ask about allergies, and take care with hot caramel and whole olives around little ones.",
       "coverImageUrl": "packs/halloween-party/cover.jpg",
-      "latestVersion": 1,
+      "latestVersion": 2,
       "recipeCount": 12,
-      "downloadUrl": "dist/halloween-party-v1.zip",
-      "sha256": "ac2a1ab5a8b8f11fd46d4a54b28db86a490dc08b58527012acd4fd7eda7a08ef",
+      "downloadUrl": "dist/halloween-party-v2.zip",
+      "sha256": "807c902ca3cbafc8538fb70c45e3408c711ee5d17b49f355d0b0676f1c0aa8f1",
       "language": "en"
     },
     {
@@ -970,10 +970,10 @@
       "authorGithub": "calamares00",
       "description": "Healthy dishes to cook in one afternoon and eat all week: they keep well in the fridge or freezer and reheat without losing anything. Chicken and vegetable traybake, lentils with vegetables, spinach with chickpeas, turkey chili, turkey meatballs, ratatouille, quinoa salad, salmon with sweet potato, chicken curry with chickpeas and sweet potato tacos.",
       "coverImageUrl": "packs/healthy-batch-cooking/cover.jpg",
-      "latestVersion": 1,
+      "latestVersion": 2,
       "recipeCount": 10,
-      "downloadUrl": "dist/healthy-batch-cooking-v1.zip",
-      "sha256": "68658d9f5f06e37fdd2f61dafd984f51f457ae549204ac4b7235ad04a536a2f9",
+      "downloadUrl": "dist/healthy-batch-cooking-v2.zip",
+      "sha256": "69671c3018f4de77e10ef99ae6928a9c23b12d5a3314ab5fa1ac8b640ef9b723",
       "language": "en"
     },
     {
@@ -985,10 +985,10 @@
       "authorGithub": "calamares00",
       "description": "Breakfasts and snacks with oats, fruit, yoghurt, nuts and eggs, with little added sugar: apple porridge, overnight oats, homemade granola, chia pudding, oat and banana pancakes, banana muffins, oat and date bars, green smoothie, ricotta and strawberry toast and spinach scrambled eggs.",
       "coverImageUrl": "packs/healthy-breakfasts-and-snacks/cover.jpg",
-      "latestVersion": 1,
+      "latestVersion": 2,
       "recipeCount": 10,
-      "downloadUrl": "dist/healthy-breakfasts-and-snacks-v1.zip",
-      "sha256": "98aefb7e5853653c8d93c3004f7fa7bc9ed89ac5914b92606329c5435a5ee6df",
+      "downloadUrl": "dist/healthy-breakfasts-and-snacks-v2.zip",
+      "sha256": "e5e7bbc0a8a7b3104874f85b86c2a8449ef415274e1a381818c2dd610fef1f9d",
       "language": "en"
     },
     {
@@ -1000,10 +1000,10 @@
       "authorGithub": "calamares00",
       "description": "Dishes without wheat, barley or rye, made with rice, corn, pulses, buckwheat and nuts: chickpea socca, asparagus risotto, almond-crusted salmon, cauliflower-crust pizza, buckwheat galettes, polenta with mushrooms, courgette lasagne, meatballs in almond sauce, salt-baked sea bream and flourless chocolate cake. Always check the labels of stocks, sauces and spices.",
       "coverImageUrl": "packs/healthy-gluten-free/cover.jpg",
-      "latestVersion": 1,
+      "latestVersion": 2,
       "recipeCount": 10,
-      "downloadUrl": "dist/healthy-gluten-free-v1.zip",
-      "sha256": "1a2d92c029b7563387f563c7fb4fbcc61a1635afa08ed1c2db1840566d596caf",
+      "downloadUrl": "dist/healthy-gluten-free-v2.zip",
+      "sha256": "461638021fae8edb2014e4ae8eb54906feac9c0e6fa3f71b337ff7804bd66847",
       "language": "en"
     },
     {
@@ -1090,10 +1090,10 @@
       "authorGithub": "calamares00",
       "description": "Curries, pulses, breads and sweets from India: butter chicken, tandoori chicken, rogan josh, korma, vindaloo, palak paneer, chana masala, dal tadka, rajma, aloo gobi, baingan bharta, samosas, onion bhajis, raita, mint chutney, chapatis, aloo paratha, kheer, mango lassi and masala chai.",
       "coverImageUrl": "packs/indian-cooking/cover.jpg",
-      "latestVersion": 2,
+      "latestVersion": 3,
       "recipeCount": 26,
-      "downloadUrl": "dist/indian-cooking-v2.zip",
-      "sha256": "6d7293fb321e373a187172dafa961387edab5da43824cced960dfaae0d02e77f",
+      "downloadUrl": "dist/indian-cooking-v3.zip",
+      "sha256": "bfc890a79d231c588cf744992e6c72b127ba1443d7d9e6a2d1729fb658b766e2",
       "language": "en"
     },
     {
@@ -1195,10 +1195,10 @@
       "authorGithub": "calamares00",
       "description": "Japanese home cooking: miso soup, chicken teriyaki, gyoza, ramen, tonkatsu, oyakodon, onigiri, tamagoyaki, okonomiyaki, yakitori, tempura, maki rolls, karaage, nikujaga, yakisoba, gyudon, Japanese curry and dorayaki. With dashi and the basic sauces explained step by step.",
       "coverImageUrl": "packs/japanese-cooking/cover.jpg",
-      "latestVersion": 4,
+      "latestVersion": 5,
       "recipeCount": 25,
-      "downloadUrl": "dist/japanese-cooking-v4.zip",
-      "sha256": "f83a717366421bd556d1a971831a124bb2dd906e503efb6aabdbfbe32835995d",
+      "downloadUrl": "dist/japanese-cooking-v5.zip",
+      "sha256": "21053dbfbdbf57423bb82bc4ffe8ed478fe0dca1337890d759133fa5ce75c646",
       "language": "en"
     },
     {
@@ -1210,10 +1210,10 @@
       "authorGithub": "calamares00",
       "description": "Everything for a children's birthday party, easy to make ahead: chocolate cake, rainbow cake, vanilla cupcakes, decorated biscuits, mini pizzas, mini sandwiches, baked chicken fingers, sausage rolls, mini burgers, fruit skewers, popcorn and homemade lemonade. Always ask families about allergies and intolerances, and avoid whole nuts and popcorn for under-fours because of the choking risk.",
       "coverImageUrl": "packs/kids-birthday-party/cover.jpg",
-      "latestVersion": 2,
+      "latestVersion": 3,
       "recipeCount": 12,
-      "downloadUrl": "dist/kids-birthday-party-v2.zip",
-      "sha256": "945a04f508153c2c74aa3cbb217f8eaf0ad950e24ef0609b74960595d8f938c5",
+      "downloadUrl": "dist/kids-birthday-party-v3.zip",
+      "sha256": "f239d7add70f72aa533ebeed3f3b0e308e4a6dcd9828c77cb4434ba32965107a",
       "language": "en"
     },
     {
@@ -1240,10 +1240,10 @@
       "authorGithub": "calamares00",
       "description": "The cooking of Korea, spicy, fermented and made for sharing: bibimbap, bulgogi, homemade kimchi, japchae, kimbap, tteokbokki, kimchi and soft tofu stews, samgyetang, seafood pajeon, kimchi fried rice, dakgalbi, Korean fried chicken, galbi jjim, bossam, side dishes (banchan) such as rolled omelette, seasoned bean sprouts and cucumber salad and, for dessert, hotteok and patbingsu. Gochujang and gochugaru are sold in Asian shops.",
       "coverImageUrl": "packs/korean-cooking/cover.jpg",
-      "latestVersion": 2,
+      "latestVersion": 3,
       "recipeCount": 25,
-      "downloadUrl": "dist/korean-cooking-v2.zip",
-      "sha256": "ba1c21e310d1cb0f4207a9cac070ea73f514b68c04bf49ea8071fb8007a6b97e",
+      "downloadUrl": "dist/korean-cooking-v3.zip",
+      "sha256": "f707d7944eef93a78d145d4e2f51f8563860114b9b11538a05c1d4f2af821f2f",
       "language": "en"
     },
     {
@@ -1255,10 +1255,10 @@
       "authorGithub": "calamares00",
       "description": "Recipes so nothing goes to waste: what is left of a Spanish stew, yesterday's roast chicken, stale bread, fish from dinner, vegetables going soft and fruit that is too ripe. Ropa vieja, stew croquettes, roast chicken lasagne, roast meat cannelloni, empanadillas, mash and roast meat pie, baked eggs with leftover vegetables, fish loaf, ripe fruit smoothie and jam, vegetable peel stock and croutons.",
       "coverImageUrl": "packs/leftovers-cooking/cover.jpg",
-      "latestVersion": 1,
+      "latestVersion": 2,
       "recipeCount": 12,
-      "downloadUrl": "dist/leftovers-cooking-v1.zip",
-      "sha256": "7b68244c375b82d3501c1543d20ce5cd997a3a17f1a177554929b198bf1d7e28",
+      "downloadUrl": "dist/leftovers-cooking-v2.zip",
+      "sha256": "f459c0961bad3a724252ca0e3683ff33584b90237ba0d17713648e6dc0d592cf",
       "language": "en"
     },
     {
@@ -1270,10 +1270,10 @@
       "authorGithub": "calamares00",
       "description": "The cooking of Malaysia's Chinese (Hokkien, Cantonese, Hainanese and Hakka) at the hawker stalls of Penang and Kuala Lumpur: char kway teow, bak kut teh, Hokkien mee, yong tau foo, claypot chicken rice, wantan mee, Hainanese chicken chop and kaya toast.",
       "coverImageUrl": "packs/malaysian-chinese-fusion/cover.jpg",
-      "latestVersion": 1,
+      "latestVersion": 2,
       "recipeCount": 8,
-      "downloadUrl": "dist/malaysian-chinese-fusion-v1.zip",
-      "sha256": "bcf6b573201aebb7c25b622bb44475f566ecc9adb4299f6f0ab0555895d795b4",
+      "downloadUrl": "dist/malaysian-chinese-fusion-v2.zip",
+      "sha256": "c65bae2643dd82e77f4923c04e511dd6a148d936ef0235975217e74c6fe132bb",
       "language": "en"
     },
     {
@@ -1285,10 +1285,10 @@
       "authorGithub": "calamares00",
       "description": "Recipes from around the Mediterranean: Spain, Italy, Greece, Lebanon, Morocco and Tunisia. Gazpacho, paella, Spanish omelette, moussaka, hummus, falafel, shakshuka, risotto, tagine and more, with olive oil, seasonal vegetables and pulses.",
       "coverImageUrl": "packs/mediterranean-cooking/cover.jpg",
-      "latestVersion": 4,
+      "latestVersion": 5,
       "recipeCount": 25,
-      "downloadUrl": "dist/mediterranean-cooking-v4.zip",
-      "sha256": "cd6e610a87876f3e7746147f95b5b4ac9dd7974d5d7864117db0f734205a876f",
+      "downloadUrl": "dist/mediterranean-cooking-v5.zip",
+      "sha256": "c9ed41a42649efb67846357f13e7ff5c436e78709cac7ab2ae422e69c5ab9ca9",
       "language": "en"
     },
     {
@@ -1300,10 +1300,10 @@
       "authorGithub": "calamares00",
       "description": "Mexican classics to cook at home: tacos al pastor, cochinita pibil, pozole, chilaquiles, enchiladas, salsas, guacamole, aguas frescas and flan. With easy-to-find ingredients and alternatives where needed.",
       "coverImageUrl": "packs/mexican-cooking/cover.jpg",
-      "latestVersion": 5,
+      "latestVersion": 6,
       "recipeCount": 26,
-      "downloadUrl": "dist/mexican-cooking-v5.zip",
-      "sha256": "83b7922ca70b0fbbec100b686c27ede4743990cf7576c1491c4c41ff7c700f9c",
+      "downloadUrl": "dist/mexican-cooking-v6.zip",
+      "sha256": "3e596b8a7db3912b0dd99178504a9d4d882514cd8c8be8517cbbd32ecbeace8b",
       "language": "en"
     },
     {
@@ -1315,10 +1315,10 @@
       "authorGithub": "calamares00",
       "description": "El microondas sirve para mucho más que calentar: bizcocho en taza, huevos al plato, salmón y bacalao con verduras, flan de queso, risotto, brócoli con almendras, pollo al limón, berenjenas rellenas, mermelada exprés, natillas de chocolate y almendras garrapiñadas. Tiempos para un microondas de 800 W: con más potencia, acórtalos; con menos, alárgalos. Usa recipientes aptos y tapa con una tapa de microondas o film perforado.",
       "coverImageUrl": "packs/microondas/cover.jpg",
-      "latestVersion": 1,
+      "latestVersion": 2,
       "recipeCount": 12,
-      "downloadUrl": "dist/microondas-v1.zip",
-      "sha256": "fe4fcc1911fcfc4695b1ed3bddd0290720709c26c0d701cab5995c9f9f4a11c0",
+      "downloadUrl": "dist/microondas-v2.zip",
+      "sha256": "9751f20812e2b076806257c6ba07f49261581f9a0396d37d5c276edd2a6af3ee",
       "language": "es"
     },
     {
@@ -1330,10 +1330,10 @@
       "authorGithub": "calamares00",
       "description": "The microwave is good for much more than reheating: mug cake, baked eggs with ham, salmon and cod with vegetables, cheese flan, risotto, broccoli with almonds, lemon chicken, stuffed aubergines, express berry jam, chocolate custard and candied almonds. Times for an 800 W microwave: shorten them with more power, lengthen them with less. Use microwave-safe dishes and cover with a microwave lid or vented cling film.",
       "coverImageUrl": "packs/microwave/cover.jpg",
-      "latestVersion": 1,
+      "latestVersion": 2,
       "recipeCount": 12,
-      "downloadUrl": "dist/microwave-v1.zip",
-      "sha256": "e96db6f46284e68aff7510bac1d3330e35f63b1893284d6fc4ae0859cc18121f",
+      "downloadUrl": "dist/microwave-v2.zip",
+      "sha256": "eca651384a8c37e685502424e402bd45af853a939f6cb23ca001fe664c397e18",
       "language": "en"
     },
     {
@@ -1360,10 +1360,10 @@
       "authorGithub": "calamares00",
       "description": "Desserts made in the fridge or a saucepan, without turning on the oven: no-bake cheesecake, triple chocolate cake, lemon icebox pie, lemon mousse, tocino de cielo, yoghurt and berry pots, date and cocoa balls, cereal bars, chocolate hazelnut spread, strawberry fridge cake, mango and yoghurt pots and pears in red wine. Most are made the day before.",
       "coverImageUrl": "packs/no-bake-desserts/cover.jpg",
-      "latestVersion": 1,
+      "latestVersion": 2,
       "recipeCount": 12,
-      "downloadUrl": "dist/no-bake-desserts-v1.zip",
-      "sha256": "4c2843ee8f4f4e04bf09ca316b8679873c8c18adc39fcb3058f2583de7b08b14",
+      "downloadUrl": "dist/no-bake-desserts-v2.zip",
+      "sha256": "d8926067d428fc405af601bf4c38339f93ea0c837e2e199e05c48ad7ba90adef",
       "language": "en"
     },
     {
@@ -1375,10 +1375,10 @@
       "authorGithub": "calamares00",
       "description": "Guisos largos en la mitad o un tercio del tiempo con la olla a presión: callos a la madrileña, estofado de ternera, codillo, lengua en salsa, manitas de cerdo, pollo a la cerveza, carne mechada, fabes con almejas, alubias pintas con chorizo, patatas con sepia, arroz caldoso con pollo y conejo al ajillo. Los tiempos son desde que la olla alcanza la presión (segundo anillo o presión alta). No llenes la olla más de dos tercios, y con legumbres, no más de la mitad.",
       "coverImageUrl": "packs/olla-expres/cover.jpg",
-      "latestVersion": 1,
+      "latestVersion": 2,
       "recipeCount": 12,
-      "downloadUrl": "dist/olla-expres-v1.zip",
-      "sha256": "9dd7cf609984bb623fa2a2cec448a3d0b02d54101364d65f0569ab96db124f09",
+      "downloadUrl": "dist/olla-expres-v2.zip",
+      "sha256": "bdbbf65863dab5dfc6290f54ad4bd42c4d0e5ac8c1bd175f4933c445805813c4",
       "language": "es"
     },
     {
@@ -1405,10 +1405,10 @@
       "authorGithub": "calamares00",
       "description": "Panes y bollería para hacer en casa, de la masa madre a las magdalenas: hogaza de masa madre, barra, pan de molde, integral, de centeno, chapata, pan de nueces y pasas, pita, naan, bagels, panecillos de hamburguesa, bollos de leche, brioche, cruasanes, napolitanas de chocolate, ensaimadas, tortas de aceite, magdalenas y rosquillas de anís. Con pesos exactos y tiempos de levado.",
       "coverImageUrl": "packs/panaderia/cover.jpg",
-      "latestVersion": 3,
+      "latestVersion": 4,
       "recipeCount": 20,
-      "downloadUrl": "dist/panaderia-v3.zip",
-      "sha256": "7b23812a4cc6d7f91ca4f29dae20da37ddbf1ff57ee44bcae605bffd774deafd",
+      "downloadUrl": "dist/panaderia-v4.zip",
+      "sha256": "7e357e9eedc5c55378759fc601ed6691cffc8372d33a3ccc701ce1368723d63a",
       "language": "es"
     },
     {
@@ -1420,10 +1420,10 @@
       "authorGithub": "calamares00",
       "description": "The Nyonya cooking of the Peranakan, descendants of Chinese and Malays in Malacca, Penang and Singapore, which blends Chinese techniques with spices, coconut and tamarind: laksa lemak, asam laksa, ayam pongteh, ayam buah keluak, otak-otak, kueh pie tee, chap chye and kuih dadar.",
       "coverImageUrl": "packs/peranakan-fusion/cover.jpg",
-      "latestVersion": 1,
+      "latestVersion": 2,
       "recipeCount": 8,
-      "downloadUrl": "dist/peranakan-fusion-v1.zip",
-      "sha256": "6cab30390fe1ad69cd43dd927dd8b9df30c22ae5514ae654d1ac094f248a6026",
+      "downloadUrl": "dist/peranakan-fusion-v2.zip",
+      "sha256": "8838144ceb67c61279da6e39e70edc6ce348b56c853aa1b8cb47022984c634f7",
       "language": "en"
     },
     {
@@ -1450,10 +1450,10 @@
       "authorGithub": "calamares00",
       "description": "Long stews in half or a third of the time with the pressure cooker: Madrid-style tripe, beef and potato stew, pork knuckle, ox tongue in sauce, pig's trotters, chicken in beer, larded beef, Asturian beans with clams, pinto beans with chorizo, cuttlefish with potatoes, soupy chicken rice and garlic rabbit. Times are counted from when the cooker reaches pressure (second ring or high pressure). Never fill it more than two-thirds full, or half full with pulses.",
       "coverImageUrl": "packs/pressure-cooker/cover.jpg",
-      "latestVersion": 1,
+      "latestVersion": 2,
       "recipeCount": 12,
-      "downloadUrl": "dist/pressure-cooker-v1.zip",
-      "sha256": "0992719b81f92a80484740f6adba46f993937244dfcc38d0d057ce5191297ada",
+      "downloadUrl": "dist/pressure-cooker-v2.zip",
+      "sha256": "48c60c539f0af909d28d8d77bab4e791c67f9f7e75439fd7214e78cb5e013c7b",
       "language": "en"
     },
     {
@@ -1465,10 +1465,10 @@
       "authorGithub": "calamares00",
       "description": "Platos con cinco ingredientes o menos (sin contar sal, pimienta, aceite ni agua), para cuando la nevera está casi vacía o no hay ganas de complicarse: patatas a lo pobre con huevo, salmón al horno con limón, hummus de remolacha, langostinos al horno, pollo relleno de jamón y queso, espaguetis al pomodoro, revuelto de gambas y ajetes, merluza a la gallega, pan de queso y, de postre, helado de plátano y cacao, galletas de crema de cacahuete y fresas con nata.",
       "coverImageUrl": "packs/recetas-con-5-ingredientes/cover.jpg",
-      "latestVersion": 1,
+      "latestVersion": 2,
       "recipeCount": 12,
-      "downloadUrl": "dist/recetas-con-5-ingredientes-v1.zip",
-      "sha256": "1fab741b6c5414d78a2b82788dc7f8ab09a01974e5232ff3750ffdf9c5836eb8",
+      "downloadUrl": "dist/recetas-con-5-ingredientes-v2.zip",
+      "sha256": "bbfd57f8003a5f6c63b0e7a1d424e3898255a8d07e4e6a35bfb07e2521977cdb",
       "language": "es"
     },
     {
@@ -1480,10 +1480,10 @@
       "authorGithub": "calamares00",
       "description": "Postres que se hacen en la nevera o en un cazo, sin encender el horno: tarta de queso fría, tarta de tres chocolates, tarta de limón, mousse de limón, tocino de cielo, copas de yogur con frutos rojos, bolitas de dátiles y cacao, barritas de cereales, crema de cacao y avellanas, tarta de fresas, vasitos de mango y yogur y peras al vino. Casi todos se preparan el día antes.",
       "coverImageUrl": "packs/reposteria-sin-horno/cover.jpg",
-      "latestVersion": 1,
+      "latestVersion": 2,
       "recipeCount": 12,
-      "downloadUrl": "dist/reposteria-sin-horno-v1.zip",
-      "sha256": "c9742f1025dc802657450b15f9f95889f6934caee0e1166afcf95d446287b820",
+      "downloadUrl": "dist/reposteria-sin-horno-v2.zip",
+      "sha256": "59909c9ca2d3d25d81212167263497dd352f2160098ff7b5ff932e61ba9bbc8e",
       "language": "es"
     },
     {
@@ -1525,10 +1525,10 @@
       "authorGithub": "calamares00",
       "description": "Platos sanos para cocinar en una tarde y comer toda la semana: aguantan bien en la nevera o el congelador y se recalientan sin perder nada. Bandeja de pollo y verduras, lentejas con verduras, espinacas con garbanzos, chili de pavo, albóndigas de pavo, ratatouille, ensalada de quinoa, salmón con boniato, pollo al curry con garbanzos y tacos de boniato.",
       "coverImageUrl": "packs/saludable-batch-cooking/cover.jpg",
-      "latestVersion": 1,
+      "latestVersion": 2,
       "recipeCount": 10,
-      "downloadUrl": "dist/saludable-batch-cooking-v1.zip",
-      "sha256": "28fc0ae7875060181624a9763799c40745676e48ab829b82415e184c413a8100",
+      "downloadUrl": "dist/saludable-batch-cooking-v2.zip",
+      "sha256": "fbf24ec6911e5236bbc83c892390e5af6995a7efe4a1841e3ed1e7e1dc27bfa8",
       "language": "es"
     },
     {
@@ -1540,10 +1540,10 @@
       "authorGithub": "calamares00",
       "description": "Desayunos y meriendas con avena, fruta, yogur, frutos secos y huevo, con poco azúcar añadido: porridge de manzana, avena remojada, granola casera, pudin de chía, tortitas de avena y plátano, muffins de plátano, barritas de avena y dátiles, batido verde, tostada de requesón y fresas y revuelto de espinacas.",
       "coverImageUrl": "packs/saludable-desayunos-y-meriendas/cover.jpg",
-      "latestVersion": 1,
+      "latestVersion": 2,
       "recipeCount": 10,
-      "downloadUrl": "dist/saludable-desayunos-y-meriendas-v1.zip",
-      "sha256": "2e82d6490445487a5a7e61c186525ef757c43810df8e4850471e3ebfb6c2bed1",
+      "downloadUrl": "dist/saludable-desayunos-y-meriendas-v2.zip",
+      "sha256": "be8544e51c0cc18db6fed5e381b7379d46cc49b10fd21d6db7289199c7fdc030",
       "language": "es"
     },
     {
@@ -1570,10 +1570,10 @@
       "authorGithub": "calamares00",
       "description": "Platos que no llevan trigo, cebada ni centeno, hechos con arroz, maíz, legumbres, trigo sarraceno y frutos secos: socca de garbanzo, risotto de espárragos, salmón con costra de almendras, pizza con base de coliflor, galettes de trigo sarraceno, polenta con setas, lasaña de calabacín, albóndigas en salsa de almendras, dorada a la sal y bizcocho de chocolate sin harina. Revisa siempre las etiquetas de caldos, salsas y especias.",
       "coverImageUrl": "packs/saludable-sin-gluten/cover.jpg",
-      "latestVersion": 1,
+      "latestVersion": 2,
       "recipeCount": 10,
-      "downloadUrl": "dist/saludable-sin-gluten-v1.zip",
-      "sha256": "14dba494441b6dae3e0b1473f1b2ba1facf15df702b2075603e7515ca321e985",
+      "downloadUrl": "dist/saludable-sin-gluten-v2.zip",
+      "sha256": "dc54b2aaaf5d07bc2d440dfabdeb2d48cdfafffcb43dae08aa8a732c7e528818",
       "language": "es"
     },
     {
@@ -1615,10 +1615,10 @@
       "authorGithub": "calamares00",
       "description": "Las recetas de la Cuaresma y la Semana Santa en España: dulces de sartén como pestiños, buñuelos de viento, flores fritas y bartolillos, la mona de Pascua y el hornazo, y los platos de vigilia con bacalao (a la vizcaína, soldaditos de Pavía, buñuelos, tortilla, patatas con bacalao y empanada de bacalao con pasas). Las torrijas y el potaje de vigilia ya están en otros packs.",
       "coverImageUrl": "packs/semana-santa/cover.jpg",
-      "latestVersion": 1,
+      "latestVersion": 2,
       "recipeCount": 12,
-      "downloadUrl": "dist/semana-santa-v1.zip",
-      "sha256": "fb42877d37b122cff217da4c1a70312990d6766fb17379717ae37e8750b12394",
+      "downloadUrl": "dist/semana-santa-v2.zip",
+      "sha256": "303a2c611c511674e30e29470e2bd1f3a9838c918899605dfea9ffea8067565f",
       "language": "es"
     },
     {
@@ -1645,10 +1645,10 @@
       "authorGithub": "calamares00",
       "description": "A tour of Spain's regional cooking: cocido madrileño, fabada, lentil stew, marmitako, bacalao al pil pil, garlic chicken, black rice, fideuà, oven-baked rice, escalivada, Rioja-style potatoes, Galician broth, papas arrugadas with mojo, ajoblanco, Galician empanada, migas, oxtail stew, torrijas, rice pudding and Santiago almond cake. Without repeating the dishes in the Mediterranean, tapas and Christmas packs.",
       "coverImageUrl": "packs/spanish-cooking/cover.jpg",
-      "latestVersion": 3,
+      "latestVersion": 4,
       "recipeCount": 21,
-      "downloadUrl": "dist/spanish-cooking-v3.zip",
-      "sha256": "ba0c51adb71808f7bff7b6fd7fed5e369e230fafa153dc590724f1bee999836e",
+      "downloadUrl": "dist/spanish-cooking-v4.zip",
+      "sha256": "19673711bb664f86d58479ab265837b8fc760412fafca74c13198ab36b76f566",
       "language": "en"
     },
     {
@@ -1660,10 +1660,10 @@
       "authorGithub": "calamares00",
       "description": "The recipes of Lent and Holy Week in Spain: fried sweets such as pestiños, cream puffs, rosette fritters and bartolillos, the Easter mona cake and the hornazo, and the Lenten salt cod dishes (Biscay-style, soldaditos de Pavía, fritters, omelette, potatoes with cod and cod and raisin empanada). Torrijas and the Lenten chickpea stew are already in other packs.",
       "coverImageUrl": "packs/spanish-holy-week/cover.jpg",
-      "latestVersion": 1,
+      "latestVersion": 2,
       "recipeCount": 12,
-      "downloadUrl": "dist/spanish-holy-week-v1.zip",
-      "sha256": "c340f6dcd995f930a0c906ce43bef7d6c0a5aca512cb02e40e2176dc1eddbe94",
+      "downloadUrl": "dist/spanish-holy-week-v2.zip",
+      "sha256": "1363b75641e42f96a73dd846cb0126881ec58d33049238e23a7dc3ccda791264",
       "language": "en"
     },
     {
@@ -1675,10 +1675,10 @@
       "authorGithub": "calamares00",
       "description": "Bar tapas from all over Spain to share: patatas bravas, Padrón peppers, Galician-style octopus, marinated anchovies, fried squid rings, shrimp fritters, mushroom croquettes, chorizo in cider, pinchos morunos, huevos rotos, Russian salad, gildas and pan con tomate, among others.",
       "coverImageUrl": "packs/spanish-tapas/cover.jpg",
-      "latestVersion": 4,
+      "latestVersion": 5,
       "recipeCount": 20,
-      "downloadUrl": "dist/spanish-tapas-v4.zip",
-      "sha256": "51529504edc5cad60fe40d9f1ef649975b31fc6de8d39a6308a3893ea9741009",
+      "downloadUrl": "dist/spanish-tapas-v5.zip",
+      "sha256": "fe84f1adf1fa3e82e32f2c373ba7a1e9a44bbda1eb6a2691054516c90054255b",
       "language": "en"
     },
     {
@@ -1690,10 +1690,10 @@
       "authorGithub": "calamares00",
       "description": "Tapas de bar de toda España para compartir: patatas bravas, pimientos de Padrón, pulpo a la gallega, boquerones en vinagre, calamares a la romana, tortillitas de camarones, croquetas de setas, chorizo a la sidra, pinchos morunos, huevos rotos, ensaladilla, gildas y pan con tomate, entre otras.",
       "coverImageUrl": "packs/tapas-espanolas/cover.jpg",
-      "latestVersion": 4,
+      "latestVersion": 5,
       "recipeCount": 20,
-      "downloadUrl": "dist/tapas-espanolas-v4.zip",
-      "sha256": "0f9a4c2b81188330eb89dcd6f11f6555f9652e3338493426b7bd35a92c887a75",
+      "downloadUrl": "dist/tapas-espanolas-v5.zip",
+      "sha256": "47baaf1e4ec275fcb13b97dbff7ffb88a45f944b2c6526ff9b172f8fb742b1df",
       "language": "es"
     },
     {
@@ -1720,10 +1720,10 @@
       "authorGithub": "calamares00",
       "description": "The cooking of Texans of Mexican descent, with more yellow cheese, cumin and beef than Mexico's: nachos, chile con queso, cheese enchiladas with chili gravy, crispy beef tacos, breakfast tacos, King Ranch chicken, Frito pie and sopaipillas.",
       "coverImageUrl": "packs/tex-mex-fusion/cover.jpg",
-      "latestVersion": 1,
+      "latestVersion": 2,
       "recipeCount": 8,
-      "downloadUrl": "dist/tex-mex-fusion-v1.zip",
-      "sha256": "813d8391641b38ef41859b86a0b26eeb6013b0063da97e237134e5f1975fcdb5",
+      "downloadUrl": "dist/tex-mex-fusion-v2.zip",
+      "sha256": "da691754c775138e6df78329071927feea006fba1b911f06e21793fd67eaf2c8",
       "language": "en"
     },
     {
@@ -1750,10 +1750,10 @@
       "authorGithub": "calamares00",
       "description": "Homemade purées and porridges for starting solids, from 6 months, programmed for the Thermomix TM6 (they work just the same on the TM5 and TM7): vegetables, chicken, beef, white fish, pulses, fruit and oats. No salt or sugar. Every baby goes at their own pace: always follow your paediatrician's advice on introducing foods and textures, and offer one new food at a time to spot allergies.",
       "coverImageUrl": "packs/thermomix-baby-food/cover.jpg",
-      "latestVersion": 2,
+      "latestVersion": 3,
       "recipeCount": 12,
-      "downloadUrl": "dist/thermomix-baby-food-v2.zip",
-      "sha256": "5d357ef7d2ec8cbf1b5a3290bc262c5575ba7312a9ba9b09af0a02ae824498a9",
+      "downloadUrl": "dist/thermomix-baby-food-v3.zip",
+      "sha256": "e643663975f827321eaf4c6b840cea44d66ddd6500ff1e4f15488fc379752433",
       "language": "en"
     },
     {
@@ -1765,10 +1765,10 @@
       "authorGithub": "calamares00",
       "description": "Breads and doughs kneaded in the Thermomix TM6, which work just the same on the TM5 and TM7 (on a TM31, knead with the dough function): oat sandwich loaf, country loaf, pizza dough, braided milk bread, spelt bread, beer bread, olive bread, flour tortillas, breadsticks, chicken and pepper empanada, crêpes, leek and bacon quiche, chocolate chip buns and Asturian chorizo buns. The Thermomix kneads; the oven does the rest.",
       "coverImageUrl": "packs/thermomix-breads-and-doughs/cover.jpg",
-      "latestVersion": 2,
+      "latestVersion": 3,
       "recipeCount": 14,
-      "downloadUrl": "dist/thermomix-breads-and-doughs-v2.zip",
-      "sha256": "296eab3fb39e25b3ba7cbeef12570f8a783636c939acf105f9a979aa76fe0f8b",
+      "downloadUrl": "dist/thermomix-breads-and-doughs-v3.zip",
+      "sha256": "ca2988ecdd4ac97d9ee66e794e1fd93546538e9a081791643a2f8bffae97b086",
       "language": "en"
     },
     {
@@ -1780,10 +1780,10 @@
       "authorGithub": "calamares00",
       "description": "Purés y papillas caseros para la alimentación complementaria, a partir de los 6 meses, programados para Thermomix TM6 (funcionan igual en TM5 y TM7): verduras, pollo, ternera, pescado blanco, legumbres, fruta y avena. Sin sal ni azúcar. Cada bebé tiene su ritmo: sigue siempre las indicaciones de tu pediatra para introducir alimentos y texturas, y ofrece un alimento nuevo cada vez para detectar alergias.",
       "coverImageUrl": "packs/thermomix-comida-para-bebes/cover.jpg",
-      "latestVersion": 2,
+      "latestVersion": 3,
       "recipeCount": 12,
-      "downloadUrl": "dist/thermomix-comida-para-bebes-v2.zip",
-      "sha256": "e4d2a63f157902cc1a6e5a66eb44333915fa1d787f9164233320da93d9b66665",
+      "downloadUrl": "dist/thermomix-comida-para-bebes-v3.zip",
+      "sha256": "02e9f8b48be35abd57a33276d741076662793be73e9fda4bf8fcf203b4300d91",
       "language": "es"
     },
     {
@@ -1795,10 +1795,10 @@
       "authorGithub": "calamares00",
       "description": "Cremas y purés programados para Thermomix TM6 (vaso de 2,2 litros), que funcionan igual en TM5 y TM7. Calabaza, verduras, vichyssoise, champiñones, zanahoria con jengibre, brócoli, espárragos, guisantes con menta, tomate, lentejas rojas, coliflor, espinacas, boniato, alcachofas, pimientos asados, castañas, apio nabo, alubias, remolacha y puré de patatas. En TM31 (vaso de 2 litros y 100 °C como máximo), sofríe a temperatura Varoma.",
       "coverImageUrl": "packs/thermomix-cremas-y-pures/cover.jpg",
-      "latestVersion": 3,
+      "latestVersion": 4,
       "recipeCount": 20,
-      "downloadUrl": "dist/thermomix-cremas-y-pures-v3.zip",
-      "sha256": "8f7054c4923239156f5f11d5c0d5f2febf061477bfe7aa0ebfe11c1d1914f4a6",
+      "downloadUrl": "dist/thermomix-cremas-y-pures-v4.zip",
+      "sha256": "08d8ee2f0f95f26a01e61a6029d53caddb9753d3adcdc8695b3fccfb5791ac4b",
       "language": "es"
     },
     {
@@ -1810,10 +1810,10 @@
       "authorGithub": "calamares00",
       "description": "Homemade desserts programmed for the Thermomix TM6, which work just the same on the TM5 and TM7: Spanish custard, crème caramel, fried custard squares, lemon curd, chocolate mousse, lemon sorbet, express strawberry ice cream, yoghurt cake, creamy baked cheesecake, chocolate truffles, strawberry jam, pastry cream, butter biscuits, walnut brownie and Spanish biscuit cake. On a TM31, use 90°C where 85°C is given and check the texture before finishing.",
       "coverImageUrl": "packs/thermomix-desserts/cover.jpg",
-      "latestVersion": 2,
+      "latestVersion": 3,
       "recipeCount": 15,
-      "downloadUrl": "dist/thermomix-desserts-v2.zip",
-      "sha256": "1b6ac6942ad171116b4b25720cd1b62c860658a4eefb41a5b420cfd7edb48f90",
+      "downloadUrl": "dist/thermomix-desserts-v3.zip",
+      "sha256": "3950a04ae7d8d92b7c88a0ae3897ff1cd1df6f6d6eb330bf9612f741fd7f7715",
       "language": "en"
     },
     {
@@ -1825,10 +1825,10 @@
       "authorGithub": "calamares00",
       "description": "Guisos de toda la vida programados para Thermomix TM6 (vaso de 2,2 litros), que funcionan igual en TM5 y TM7: lentejas con arroz, potaje de garbanzos con bacalao, alubias con chorizo, patatas con costillas, ternera con champiñones, pollo en pepitoria, pollo al curry, bacalao con tomate, estofado de pavo, menestra, risotto de gambas, sopa de picadillo, carrillada al vino tinto, calamares con patatas y pollo con tomate. En TM31 (vaso de 2 litros y 100 °C como máximo), sofríe a temperatura Varoma y reduce un poco las cantidades.",
       "coverImageUrl": "packs/thermomix-guisos-y-cuchara/cover.jpg",
-      "latestVersion": 2,
+      "latestVersion": 3,
       "recipeCount": 15,
-      "downloadUrl": "dist/thermomix-guisos-y-cuchara-v2.zip",
-      "sha256": "5f991a33e282ab2c9ea3936ad6a1357e6d33652186cec48fea699af77ef2bf59",
+      "downloadUrl": "dist/thermomix-guisos-y-cuchara-v3.zip",
+      "sha256": "586ae9130f54f2965ff8fa8bf284e0bf483a577e1b42ad6bfe95d12b26e7e469",
       "language": "es"
     },
     {
@@ -1840,10 +1840,10 @@
       "authorGithub": "calamares00",
       "description": "Panes y masas amasados en Thermomix TM6, que funcionan igual en TM5 y TM7 (en TM31, amasa con la función espiga): pan de molde de avena, hogaza, masa de pizza, trenza de pan de leche, pan de espelta, pan de cerveza, pan de aceitunas, tortillas de trigo, colines, empanada de pollo, crepes, quiche de puerro y bacon, bollitos de chocolate y bollos preñaos. La Thermomix amasa; el horno hace el resto.",
       "coverImageUrl": "packs/thermomix-masas-y-panes/cover.jpg",
-      "latestVersion": 2,
+      "latestVersion": 3,
       "recipeCount": 14,
-      "downloadUrl": "dist/thermomix-masas-y-panes-v2.zip",
-      "sha256": "63768d1136102c703fd555a1e262cbffa788b3a67adfad7e3da40cf5b33fec1d",
+      "downloadUrl": "dist/thermomix-masas-y-panes-v3.zip",
+      "sha256": "4a4380a0fff8bac8b5cef86fbd825905911e7db3c1e032581fb4dd8b00a083c1",
       "language": "es"
     },
     {
@@ -1855,10 +1855,10 @@
       "authorGithub": "calamares00",
       "description": "Postres caseros programados para Thermomix TM6, que funcionan igual en TM5 y TM7: natillas, flan de huevo, leche frita, crema de limón, mousse de chocolate, sorbete de limón, helado exprés de fresa, bizcocho de yogur, tarta de queso cremosa, trufas, mermelada de fresa, crema pastelera, galletas de mantequilla, brownie de nueces y tarta de la abuela. En TM31, usa 90 °C donde se indique 85 °C y comprueba la textura antes de terminar.",
       "coverImageUrl": "packs/thermomix-postres/cover.jpg",
-      "latestVersion": 2,
+      "latestVersion": 3,
       "recipeCount": 15,
-      "downloadUrl": "dist/thermomix-postres-v2.zip",
-      "sha256": "60ad91fc5e734e85d5640e30ea26db8ab1e38555860d70412b1c04795444355d",
+      "downloadUrl": "dist/thermomix-postres-v3.zip",
+      "sha256": "ffe83334c710190647acb92b9c40a9aab2914afe9c91a9030fbef5f68690eb5f",
       "language": "es"
     },
     {
@@ -1870,10 +1870,10 @@
       "authorGithub": "calamares00",
       "description": "Las salsas y bases que más se usan en la cocina, programadas para Thermomix TM6, que funcionan igual en TM5 y TM7: bechamel, mayonesa, alioli, sofrito, tomate frito, pesto, salsa boloñesa, salsa de queso, salsa brava, holandesa, romesco, salsa de yogur con hierbas, salsa de champiñones y caldos de verduras y de pollo. Muchas se congelan bien en porciones.",
       "coverImageUrl": "packs/thermomix-salsas-y-bases/cover.jpg",
-      "latestVersion": 2,
+      "latestVersion": 3,
       "recipeCount": 15,
-      "downloadUrl": "dist/thermomix-salsas-y-bases-v2.zip",
-      "sha256": "b4aa3b71a256d8c5b7144b65465af7b455e00c4ebb2ac094c602645738d80fd1",
+      "downloadUrl": "dist/thermomix-salsas-y-bases-v3.zip",
+      "sha256": "7101f437b3c6c4d6a1c45ecfa8c93ebfeefd33e10b2c225e86d78c3e280e4dda",
       "language": "es"
     },
     {
@@ -1885,10 +1885,10 @@
       "authorGithub": "calamares00",
       "description": "The sauces and basics used most in the kitchen, programmed for the Thermomix TM6, which work just the same on the TM5 and TM7: béchamel, mayonnaise, aioli, sofrito, homemade tomato sauce, basil pesto, bolognese sauce, cheese sauce, brava sauce, hollandaise, romesco, herb yoghurt sauce, mushroom sauce and vegetable and chicken stocks. Many of them freeze well in portions.",
       "coverImageUrl": "packs/thermomix-sauces-and-basics/cover.jpg",
-      "latestVersion": 2,
+      "latestVersion": 3,
       "recipeCount": 15,
-      "downloadUrl": "dist/thermomix-sauces-and-basics-v2.zip",
-      "sha256": "6e7804570f832f18bfde0004738092e5def5ba5c798141df57de0e6a2b28482e",
+      "downloadUrl": "dist/thermomix-sauces-and-basics-v3.zip",
+      "sha256": "f13c87f5b4dd5339947bd74c7f81012ee7ac7d033b8d995496ea4d09ebfa4e9b",
       "language": "en"
     },
     {
@@ -1900,10 +1900,10 @@
       "authorGithub": "calamares00",
       "description": "Smooth soups and purées programmed for the Thermomix TM6 (2.2 litre bowl), which work just the same on the TM5 and TM7. Pumpkin, mixed vegetable, vichyssoise, mushroom, carrot and ginger, broccoli, asparagus, pea and mint, tomato, red lentil, cauliflower, spinach, sweet potato, artichoke, roasted pepper, chestnut, celeriac, white bean, beetroot and mashed potato. On a TM31 (2 litre bowl, 100 °C maximum), fry at Varoma temperature.",
       "coverImageUrl": "packs/thermomix-soups-and-purees/cover.jpg",
-      "latestVersion": 3,
+      "latestVersion": 4,
       "recipeCount": 20,
-      "downloadUrl": "dist/thermomix-soups-and-purees-v3.zip",
-      "sha256": "05d06c24f3129d530d713ae461e7ee5da8a23fa857387a72b08a2fd85893316c",
+      "downloadUrl": "dist/thermomix-soups-and-purees-v4.zip",
+      "sha256": "07697c8a93f5a02d6437f93db6c658328ef0bad35e19746a74f36f940ac03e9a",
       "language": "en"
     },
     {
@@ -1915,10 +1915,10 @@
       "authorGithub": "calamares00",
       "description": "Home-style stews programmed for the Thermomix TM6 (2.2 litre bowl), which work just the same on the TM5 and TM7: lentils with rice, chickpea and salt cod stew, white beans with chorizo, potatoes with pork ribs, beef with mushrooms, chicken in almond sauce, chicken curry, salt cod in tomato, turkey stew, mixed vegetable stew, prawn risotto, Spanish broth with egg and ham, pork cheeks in red wine, squid with potatoes and chicken in tomato. On a TM31 (2 litre bowl, 100 °C maximum), fry at Varoma temperature and scale the quantities down a little.",
       "coverImageUrl": "packs/thermomix-stews-and-one-pot/cover.jpg",
-      "latestVersion": 2,
+      "latestVersion": 3,
       "recipeCount": 15,
-      "downloadUrl": "dist/thermomix-stews-and-one-pot-v2.zip",
-      "sha256": "9aaebca3d50a1d713da792b97d0ce1fa736bcb4f53065fb380b07722ad8b45a4",
+      "downloadUrl": "dist/thermomix-stews-and-one-pot-v3.zip",
+      "sha256": "f249ae5a654c45296e8be568e22d82dd33faabcfdccf22bea1d40815d1968776",
       "language": "en"
     },
     {
@@ -1945,10 +1945,10 @@
       "authorGithub": "calamares00",
       "description": "Vietnam's fresh, fragrant cooking, from Hanoi to Saigon: phở, bún chả, bánh mì, fresh and fried spring rolls, bún bò Huế, cơm tấm, caramelised fish and pork, sour soup, shaking beef, lemongrass chilli chicken, bánh xèo, chicken salad, bún thịt nướng, nước chấm, tofu in tomato sauce and, for dessert, banana in coconut milk, iced coffee with condensed milk and avocado smoothie.",
       "coverImageUrl": "packs/vietnamese-cooking/cover.jpg",
-      "latestVersion": 4,
+      "latestVersion": 5,
       "recipeCount": 23,
-      "downloadUrl": "dist/vietnamese-cooking-v4.zip",
-      "sha256": "27356961f207deb9bde55a16951a48047ec72a2287d64d8c1aa22326260f5330",
+      "downloadUrl": "dist/vietnamese-cooking-v5.zip",
+      "sha256": "bedbf6548d07e2fe2538b526939bbbe09ea6f65beb68756559d632f212458fd3",
       "language": "en"
     }
   ]

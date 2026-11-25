@@ -1,6 +1,6 @@
 id: reposteria-sin-horno
-version: 1
-updated: 2026-11-13
+version: 2
+updated: 2026-11-25
 language: es
 name: Repostería sin horno
 series: Cocina de cada día
@@ -24,7 +24,7 @@ recipes:
     health: [RED, "Queso crema, nata y galleta: muy calórica, para ocasiones."]
     nutrition: [420, 6, 34, 29]
     photo: reposteria-sin-horno/tarta-de-queso-fria.jpg
-    category: Postres
+    category: Repostería
     difficulty: EASY
     prep: 25
     cook: 5
@@ -55,7 +55,7 @@ recipes:
     health: [RED, "Chocolate, nata y leche: un postre muy calórico."]
     nutrition: [450, 7, 34, 32]
     photo: reposteria-sin-horno/tarta-de-tres-chocolates.jpg
-    category: Postres
+    category: Repostería
     difficulty: MEDIUM
     prep: 40
     cook: 15
@@ -87,7 +87,7 @@ recipes:
     health: [RED, "Leche condensada, nata y galleta: refrescante, pero muy dulce."]
     nutrition: [410, 7, 44, 23]
     photo: reposteria-sin-horno/tarta-de-limon-fria.jpg
-    category: Postres
+    category: Repostería
     difficulty: EASY
     prep: 20
     cook: 0
@@ -265,7 +265,7 @@ recipes:
     health: [RED, "Fresas con nata y galleta: muy rica, pero calórica."]
     nutrition: [360, 5, 32, 24]
     photo: reposteria-sin-horno/tarta-de-fresas-fria.jpg
-    category: Postres
+    category: Repostería
     difficulty: MEDIUM
     prep: 30
     cook: 5

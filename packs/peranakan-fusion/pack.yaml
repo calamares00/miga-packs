@@ -1,6 +1,6 @@
 id: peranakan-fusion
-version: 1
-updated: 2026-11-07
+version: 2
+updated: 2026-11-25
 language: en
 name: "Fusion cuisine: Peranakan"
 series: Fusion cuisine
@@ -215,7 +215,7 @@ recipes:
     health: [YELLOW, "Fried pastry cups filled with vegetables and prawns: a light filling, but a fried cup."]
     nutrition: [280, 10, 30, 13]
     photo: fusion-peranakan/kueh-pie-tee.jpg
-    category: Starters
+    category: Appetizers and tapas
     difficulty: HARD
     prep: 40
     cook: 40

@@ -1,6 +1,6 @@
 id: galletas-y-bizcochos
-version: 1
-updated: 2026-11-13
+version: 2
+updated: 2026-11-25
 language: es
 name: Galletas y bizcochos
 series: Cocina de cada día
@@ -24,7 +24,7 @@ recipes:
     health: [YELLOW, "Bizcocho casero con naranja entera: mejor que la bollería, pero con azúcar y aceite."]
     nutrition: [300, 5, 40, 14]
     photo: galletas-y-bizcochos/bizcocho-de-naranja.jpg
-    category: Postres
+    category: Repostería
     difficulty: EASY
     prep: 15
     cook: 45
@@ -51,7 +51,7 @@ recipes:
     health: [YELLOW, "Bizcocho con mantequilla y cacao: rico para el desayuno, pero calórico."]
     nutrition: [320, 5, 40, 16]
     photo: galletas-y-bizcochos/bizcocho-marmolado.jpg
-    category: Postres
+    category: Repostería
     difficulty: EASY
     prep: 20
     cook: 50
@@ -80,7 +80,7 @@ recipes:
     health: [YELLOW, "Con zanahoria y nueces, pero la cobertura de queso y azúcar lo hace calórico."]
     nutrition: [410, 6, 44, 24]
     photo: galletas-y-bizcochos/bizcocho-de-zanahoria.jpg
-    category: Postres
+    category: Repostería
     difficulty: MEDIUM
     prep: 25
     cook: 45
@@ -115,7 +115,7 @@ recipes:
     health: [YELLOW, "Bizcocho con yogur y limón: esponjoso, pero dulce."]
     nutrition: [290, 5, 40, 12]
     photo: galletas-y-bizcochos/bizcocho-de-limon-y-amapola.jpg
-    category: Postres
+    category: Repostería
     difficulty: EASY
     prep: 15
     cook: 45
@@ -148,7 +148,7 @@ recipes:
     health: [YELLOW, "Mucha manzana y poca grasa para ser un bizcocho, pero lleva azúcar."]
     nutrition: [260, 4, 40, 9]
     photo: galletas-y-bizcochos/bizcocho-de-manzana.jpg
-    category: Postres
+    category: Repostería
     difficulty: EASY
     prep: 20
     cook: 45
@@ -177,7 +177,7 @@ recipes:
     health: [YELLOW, "Bizcocho de chocolate con café: para el desayuno de fin de semana."]
     nutrition: [310, 5, 42, 14]
     photo: galletas-y-bizcochos/bizcocho-de-cacao-y-cafe.jpg
-    category: Postres
+    category: Repostería
     difficulty: EASY
     prep: 15
     cook: 40
@@ -205,7 +205,7 @@ recipes:
     health: [YELLOW, "Con avena y pasas, pero también mantequilla y azúcar: de una en una."]
     nutrition: [120, 2, 17, 5]
     photo: galletas-y-bizcochos/galletas-de-avena-y-pasas.jpg
-    category: Postres
+    category: Repostería
     difficulty: EASY
     prep: 15
     cook: 12
@@ -232,7 +232,7 @@ recipes:
   - name: Galletas de jengibre
     health: [YELLOW, "Galletas especiadas con miel: dulces, pero con poca mantequilla."]
     nutrition: [100, 1, 16, 3]
-    category: Postres
+    category: Repostería
     difficulty: MEDIUM
     prep: 30
     cook: 10
@@ -260,7 +260,7 @@ recipes:
   - name: Pastas de té
     health: [RED, "Mantequilla y azúcar: pequeñas, pero muy calóricas."]
     nutrition: [80, 1, 9, 5]
-    category: Postres
+    category: Repostería
     difficulty: MEDIUM
     prep: 30
     cook: 12
@@ -287,7 +287,7 @@ recipes:
     health: [YELLOW, "Galletas con limón y glaseado: dulces, de una en una."]
     nutrition: [100, 1, 14, 4]
     photo: galletas-y-bizcochos/galletas-de-limon.jpg
-    category: Postres
+    category: Repostería
     difficulty: EASY
     prep: 20
     cook: 12
@@ -344,7 +344,7 @@ recipes:
     health: [YELLOW, "Galletas de mantequilla rebozadas en azúcar y canela: dulces."]
     nutrition: [110, 1, 15, 5]
     photo: galletas-y-bizcochos/galletas-de-canela.jpg
-    category: Postres
+    category: Repostería
     difficulty: EASY
     prep: 15
     cook: 10

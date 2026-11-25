@@ -1,6 +1,6 @@
 id: saludable-batch-cooking
-version: 1
-updated: 2026-11-07
+version: 2
+updated: 2026-11-25
 language: es
 name: "Cocina saludable: batch cooking"
 series: Cocina saludable
@@ -117,7 +117,7 @@ recipes:
     health: [GREEN, "Chili con pavo magro, alubias y verduras: mucha proteína y fibra con poca grasa."]
     nutrition: [410, 36, 38, 11]
     photo: saludable-batch-cooking/chili-de-pavo-con-alubias.jpg
-    category: Carnes
+    category: Guisos y potajes
     difficulty: EASY
     prep: 15
     cook: 40

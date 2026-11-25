@@ -1,6 +1,6 @@
 id: cocina-japonesa
-version: 4
-updated: 2026-11-15
+version: 5
+updated: 2026-11-25
 language: es
 name: "Cocina del mundo: Japón"
 series: Cocina del mundo
@@ -82,7 +82,7 @@ recipes:
     health: [GREEN, "Empanadillas de cerdo y col a la plancha y al vapor: completas, con grasa moderada. Moderar la salsa."]
     nutrition: [420, 18, 40, 20]
     photo: cocina-japonesa/gyoza.jpg
-    category: Entrantes
+    category: Aperitivos y tapas
     difficulty: MEDIUM
     prep: 40
     cook: 10

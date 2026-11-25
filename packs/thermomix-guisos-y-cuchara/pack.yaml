@@ -1,6 +1,6 @@
 id: thermomix-guisos-y-cuchara
-version: 2
-updated: 2026-11-13
+version: 3
+updated: 2026-11-25
 language: es
 name: "Thermomix: guisos y cuchara"
 series: Electrodomésticos
@@ -291,7 +291,7 @@ recipes:
     health: [GREEN, "Carne magra de pavo con muchas verduras y poca grasa: ligero y completo."]
     nutrition: [340, 36, 22, 11]
     photo: thermomix-guisos-y-cuchara/estofado-de-pavo-con-verduras.jpg
-    category: Carnes
+    category: Guisos y potajes
     difficulty: EASY
     prep: 15
     cook: 40

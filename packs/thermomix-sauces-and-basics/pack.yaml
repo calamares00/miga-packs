@@ -1,6 +1,6 @@
 id: thermomix-sauces-and-basics
-version: 2
-updated: 2026-11-13
+version: 3
+updated: 2026-11-25
 language: en
 name: "Thermomix: sauces and basics"
 series: Kitchen appliances
@@ -97,7 +97,7 @@ recipes:
     health: [GREEN, "Onion, pepper and tomato with olive oil: the base of many dishes."]
     nutrition: [90, 1, 7, 6]
     photo: thermomix-salsas-y-bases/sofrito.jpg
-    category: Sauces
+    category: Basics and stocks
     difficulty: EASY
     prep: 10
     cook: 35
@@ -365,7 +365,7 @@ recipes:
     health: [GREEN, "Fat-free homemade stock, very light and without the flavour enhancers of cartons."]
     nutrition: [20, 1, 4, 0]
     photo: thermomix-salsas-y-bases/caldo-de-verduras.jpg
-    category: Soups
+    category: Basics and stocks
     difficulty: EASY
     prep: 10
     cook: 40
@@ -392,7 +392,7 @@ recipes:
     health: [GREEN, "Homemade stock, low in fat if you skim it when cold: light and comforting."]
     nutrition: [40, 4, 2, 2]
     photo: thermomix-salsas-y-bases/caldo-de-pollo.jpg
-    category: Soups
+    category: Basics and stocks
     difficulty: EASY
     prep: 10
     cook: 50

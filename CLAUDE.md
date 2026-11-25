@@ -11,7 +11,13 @@ Recipe books that the Miga app installs from **Settings › Recipe packs**. See 
   (`cocina-mexicana` / `mexican-cooking`). Change both when changing one. Both carry the same `family`
   (the Spanish id), used to add up their install counts.
 - Spanish packs use the app's Spanish category and equipment names (Entrantes, Postres, Horno…);
-  English packs use the English ones (Starters, Desserts, Oven…).
+  English packs use the English ones (Starters, Desserts, Oven…). Categories say the kind of dish
+  (`RecipeCategories` in miga-app, with what each one includes): Aperitivos y tapas, Entrantes,
+  Ensaladas, Sopas y cremas, Guisos y potajes, Arroces, Pastas, Legumbres, Verduras, Huevos,
+  Pescados y mariscos, Carnes, Guarniciones, Salsas, Bases y caldos, Panes y masas, Desayunos y
+  meriendas, Postres (spoon and fruit desserts), Repostería (cakes, biscuits, pastries), Helados y
+  sorbetes, Batidos y zumos, Bebidas, Conservas y mermeladas. A dish made of a legume goes in
+  Legumbres, other stews in Guisos y potajes. Both languages of a recipe share its category.
 - Units are singular (`cucharada`, `tbsp`, `diente`, `clove`): the app makes them plural. Names of
   things counted without a unit are written in plural when there is more than one
   (`[huevos, 4, null]`). Quote names that contain commas.

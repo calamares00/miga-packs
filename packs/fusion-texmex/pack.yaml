@@ -1,6 +1,6 @@
 id: fusion-texmex
-version: 1
-updated: 2026-11-07
+version: 2
+updated: 2026-11-25
 language: es
 name: "Cocina fusión: Tex-Mex"
 series: Cocina fusión
@@ -26,7 +26,7 @@ recipes:
     health: [RED, "Totopos con queso fundido, frijoles y carne: un aperitivo muy calórico y salado."]
     nutrition: [620, 26, 52, 35]
     photo: fusion-texmex/nachos.jpg
-    category: Entrantes
+    category: Aperitivos y tapas
     difficulty: EASY
     prep: 15
     cook: 10

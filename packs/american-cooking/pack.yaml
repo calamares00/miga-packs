@@ -1,6 +1,6 @@
 id: american-cooking
-version: 4
-updated: 2026-11-15
+version: 5
+updated: 2026-11-25
 language: en
 name: "World cuisine: United States"
 series: World cuisine
@@ -167,7 +167,7 @@ recipes:
     health: [YELLOW, "Minced beef with beans, tomato and spices: complete and with fibre, though the meat adds fat."]
     nutrition: [470, 34, 28, 24]
     photo: cocina-estadounidense/chili-con-carne.jpg
-    category: Meat
+    category: Stews
     difficulty: EASY
     prep: 15
     cook: 120
@@ -231,7 +231,7 @@ recipes:
     health: [YELLOW, "Pancakes with butter and maple syrup: lots of refined carbohydrate and sugar. Better with fruit."]
     nutrition: [420, 10, 62, 13]
     photo: cocina-estadounidense/tortitas-americanas.jpg
-    category: Breads and doughs
+    category: Breakfast and brunch
     difficulty: EASY
     prep: 10
     cook: 15
@@ -400,7 +400,7 @@ recipes:
     health: [RED, "A pie with a lot of butter in the pastry and a sugary apple filling: very high in calories."]
     nutrition: [470, 5, 62, 24]
     photo: cocina-estadounidense/tarta-de-manzana.jpg
-    category: Desserts
+    category: Baking
     difficulty: MEDIUM
     prep: 60
     cook: 60
@@ -437,7 +437,7 @@ recipes:
     health: [RED, "Biscuits with butter, sugar and chocolate: sweet and high in calories. One or two now and then."]
     nutrition: [160, 2, 20, 8]
     photo: cocina-estadounidense/galletas-con-pepitas-de-chocolate.jpg
-    category: Desserts
+    category: Baking
     difficulty: EASY
     prep: 15
     cook: 12
@@ -467,7 +467,7 @@ recipes:
     health: [RED, "A cheesecake of cream cheese and sugar on a buttery biscuit base: a lot of saturated fat and sugar."]
     nutrition: [520, 8, 40, 37]
     photo: cocina-estadounidense/tarta-de-queso-de-nueva-york.jpg
-    category: Desserts
+    category: Baking
     difficulty: MEDIUM
     prep: 20
     cook: 60
@@ -621,7 +621,7 @@ recipes:
     health: [YELLOW, "A cake with banana and walnuts: some fruit, but with sugar and butter."]
     nutrition: [280, 4, 40, 12]
     photo: cocina-estadounidense/bizcocho-de-platano.jpg
-    category: Desserts
+    category: Baking
     difficulty: EASY
     prep: 15
     cook: 60
@@ -650,7 +650,7 @@ recipes:
     health: [RED, "A pie with condensed milk, egg yolks and a buttery biscuit base: a lot of sugar and fat."]
     nutrition: [460, 8, 52, 25]
     photo: cocina-estadounidense/tarta-de-lima-de-los-cayos.jpg
-    category: Desserts
+    category: Baking
     difficulty: EASY
     prep: 20
     cook: 25
@@ -710,7 +710,7 @@ recipes:
     health: [RED, "Shortcrust tart with pumpkin, condensed milk and spices: sweet."]
     nutrition: [330, 7, 44, 14]
     photo: cocina-estadounidense/tarta-de-calabaza.jpg
-    category: Desserts
+    category: Baking
     difficulty: MEDIUM
     prep: 20
     cook: 60

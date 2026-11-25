@@ -1,6 +1,6 @@
 id: thermomix-stews-and-one-pot
-version: 2
-updated: 2026-11-13
+version: 3
+updated: 2026-11-25
 language: en
 name: "Thermomix: stews and one-pot dishes"
 series: Kitchen appliances
@@ -291,7 +291,7 @@ recipes:
     health: [GREEN, "Lean turkey with plenty of vegetables and little fat: light and complete."]
     nutrition: [340, 36, 22, 11]
     photo: thermomix-guisos-y-cuchara/estofado-de-pavo-con-verduras.jpg
-    category: Meat
+    category: Stews
     difficulty: EASY
     prep: 15
     cook: 40

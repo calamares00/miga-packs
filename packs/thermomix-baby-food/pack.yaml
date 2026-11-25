@@ -1,6 +1,6 @@
 id: thermomix-baby-food
-version: 2
-updated: 2026-11-13
+version: 3
+updated: 2026-11-25
 language: en
 name: "Thermomix: baby food"
 series: Kitchen appliances
@@ -267,7 +267,7 @@ recipes:
     health: [GREEN, "Oats with fruit: energy, fibre and iron for breakfast or a snack."]
     nutrition: [130, 4, 22, 3]
     photo: thermomix-comida-para-bebes/papilla-de-avena-con-platano.jpg
-    category: Desserts
+    category: Breakfast and brunch
     difficulty: EASY
     prep: 2
     cook: 6

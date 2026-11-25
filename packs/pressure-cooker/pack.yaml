@@ -1,6 +1,6 @@
 id: pressure-cooker
-version: 1
-updated: 2026-11-13
+version: 2
+updated: 2026-11-25
 language: en
 name: Pressure cooker
 series: Kitchen appliances
@@ -61,7 +61,7 @@ recipes:
     health: [YELLOW, "Beef with vegetables and potatoes: complete and with iron; the sauce has some fat."]
     nutrition: [480, 36, 32, 22]
     photo: olla-expres/estofado-de-ternera-con-patatas.jpg
-    category: Meat
+    category: Stews
     difficulty: EASY
     prep: 20
     cook: 35
